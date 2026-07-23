@@ -62,6 +62,10 @@
   .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
   .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
   .files .k{font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
+  .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
+  .xref:hover{background:var(--orange-soft);}
+  .fn{color:var(--ink); font-weight:600;}
+  .t-tag{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; font-weight:700; padding:1px 7px; border-radius:5px; background:var(--wash); border:1px solid var(--orange-soft);}
 
   /* generic cards */
   .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
@@ -188,10 +192,19 @@
     <div class="define"><b>AI Overview / AEO</b> — the AI-written answer box Google now shows above the results, and
       the answers AI assistants give. <b>AEO</b> = Answer Engine Optimization: getting <i>cited</i> in those answers.
       We check whether Testlify is cited (if not, that's a gap we can go win).</div>
+    <div class="define"><b>Word band</b> — the target length for the article, written as a range (e.g.
+      <b>3,000–4,000 words</b>). Step 7 sets it from <b>how long the winning competitor pages actually are</b>. Because
+      it's read off <i>this</i> keyword's live results, it's the <b>authoritative word target downstream</b> — the
+      writer's bundle uses it over the coarser cluster-wide estimate the asset engine carried in.</div>
+    <div class="define"><b>Hub &amp; spoke</b> — a <b>hub</b> is the main pillar article; a <b>spoke</b> is a smaller
+      supporting article on a sub-topic the pillar spins off. When the engine researches a spoke, its output nests
+      under the hub's folder (<span class="file">--hub</span>), and it's handed the angle directly
+      (<span class="file">--angle</span>) instead of looking the row up in clubbed-ideas.</div>
     <div class="define"><b>Headless LLM (Claude or Codex)</b> — running a coding assistant from the command line with
       no chat window, so a script can call it. Either the <b>Claude</b> CLI (default) or the <b>Codex</b> CLI works,
-      set by one <span class="file">--provider</span> switch. This is how every judgment step ("score these", "write
-      this up") happens for free — no API key.</div>
+      set by one <span class="file">--provider</span> switch; <span class="file">--model</span> picks the exact model
+      and <b>both providers honour it</b>. This is how every judgment step ("score these", "write this up") happens for
+      free — no API key.</div>
   </div>
 </section>
 
@@ -220,6 +233,7 @@
           <ul>
             <li>Loads the login + password from a local file — <b>never</b> from code.</li>
             <li>Every paid step goes through it, so the credentials sit in <b>one place</b> and nothing else touches them.</li>
+            <li>Retries transient network failures (timeouts, 5xx, 429) with backoff — including a raw read timeout (<span class="file">socket.timeout</span>), so one network blip no longer kills a whole run.</li>
             <li>Can also check the account balance before a run.</li>
           </ul></td>
       </tr>
@@ -240,6 +254,8 @@
             <li>Runs the steps in order, 0 → 7, passing each result to the next.</li>
             <li><b>Resumable</b> — a finished step is skipped when you re-run.</li>
             <li>Checks the credit balance before spending anything.</li>
+            <li>Takes <span class="file">--hub</span> to nest a spoke's output under its pillar (<span class="file">out/&lt;hub&gt;/&lt;slug&gt;/</span>; empty = flat), and passes <span class="file">--provider</span> / <span class="file">--model</span> down to every judgment step.</li>
+            <li>Turns the no-keyword-demand signal into a clean <b>exit 3</b> (see §06), not a crash.</li>
             <li>Holds no logic of its own — just the running order.</li>
           </ul></td>
       </tr>
@@ -292,7 +308,8 @@
         <h3>Anchors + seeds <span class="pill free">free</span></h3>
         <p>Read the asset's row from the clubbed-ideas file — the <b>Asset title</b> and the <b>Distinct angle</b>,
         captured verbatim as the north star every later step reads. From them, derive the seed phrases: head seeds
-        from the title, sibling seeds from the angle.</p>
+        from the title, sibling seeds from the angle. For a <b>spoke</b>, the angle is passed in directly
+        (<span class="file">--angle</span>) so this step skips the clubbed lookup a minted spoke can't satisfy.</p>
         <div class="files"><span class="k">script</span><span class="file">s0_seeds.py</span><span class="k">saves</span><span class="file">00-anchors.json</span><span class="file">00-seeds.md</span></div></div></div>
 
       <div class="step"><div class="dot">1</div><div class="step-body">
@@ -308,11 +325,12 @@
         <div class="files"><span class="k">script</span><span class="file">s2_filter.py</span><span class="k">saves</span><span class="file">02-shortlist.json</span></div></div></div>
 
       <div class="step"><div class="dot">3</div><div class="step-body">
-        <h3>Metrics, then score + judge <span class="pill paid">paid</span> <span class="pill">+ AI</span></h3>
+        <h3>Metrics, then score + judge <span class="pill paid">paid</span> <span class="pill">+ AI</span> <a class="xref" href="#panel" style="margin-left:8px;">↓ §06</a></h3>
         <p>Pull exact volume, KD and intent for the shortlist (paid), then an AI <b>panel scores</b> every keyword
         and an AI <b>judge</b> reconciles them into the final set: one primary, plus variations, secondaries and
-        spoke candidates (see §06).</p>
-        <div class="files"><span class="k">scripts</span><span class="file">s3_metrics.py</span><span class="file">s3_score.py</span><span class="k">saves</span><span class="file">03-metrics.json</span><span class="file">03-verdict-1…N.json</span><span class="file">03-keywords.md</span><span class="file">spoke-candidates.md</span></div></div></div>
+        spoke candidates (see §06). If <b>no keyword clears the volume floor</b>, the step raises a defined
+        no-demand signal and the run exits 3 to skip the topic gracefully (§06).</p>
+        <div class="files"><span class="k">scripts</span><span class="file">s3_metrics.py</span><span class="file">s3_score.py</span><span class="k">saves</span><span class="file">03-metrics.json</span><span class="file">03-verdict-1…N.json</span><span class="file">03-keywords.md</span><span class="file">spoke-candidates.md</span><span class="file">03-final.json</span></div></div></div>
 
       <div class="step"><div class="dot">4</div><div class="step-body">
         <h3>Read the live SERP <span class="pill paid">paid</span> <span class="pill">+ AI</span></h3>
@@ -334,8 +352,10 @@
 
       <div class="step"><div class="dot">7</div><div class="step-body">
         <h3>Assemble the brief <span class="pill free">free</span> <span class="pill">+ AI</span></h3>
-        <p>Lift each step's section file into one reader-first brief (matching the gold-standard sample), add the
-        build spec from the SEO checklist, and put a one-line verdict on top. No new research here — pure assembly.</p>
+        <p>Lift each step's section file into one reader-first brief (matching the gold-standard sample), then the AI
+        writes just two synthesis blocks — the <b>verdict</b> on top and the <b>build spec</b> (its <b>Word band</b>
+        set from the winners' real page lengths — the authoritative word target downstream). No new research — the
+        sections are lifted verbatim.</p>
         <div class="files"><span class="k">script</span><span class="file">s7_assemble.py</span><span class="k">saves</span><span class="file">research-doc-&lt;slug&gt;.md</span><span class="file">research-notes.md</span></div></div></div>
     </div>
 
@@ -427,6 +447,25 @@
     Good secondaries look like <i>siblings</i> ("iced coffee, coffee milkshake"), not the primary with a word tacked
     on ("cold coffee recipe easy, cold coffee recipe simple"). If the secondaries are all "primary + a word", the
     ranked net or the scorer under-performed — a built-in sanity check.</div>
+
+    <h3>When there's nothing to score — the no-keyword-demand fallback</h3>
+    <p class="sub" style="margin-bottom:14px;">Some topics are editorial: worth writing, but nobody searches them by a
+    phrase. The volume filter (Step 2) empties the pool, so <b>zero</b> informational/commercial keywords reach the
+    scorer. Picking a primary off nothing would be fabrication, so the engine treats this as a <b>defined outcome, not
+    a crash</b>.</p>
+    <ul>
+      <li><span class="fn"><span class="file">s3_score.py</span></span> raises a typed <span class="file">NoViableKeywords</span> — distinct from a scorer <i>failure</i> (a crashed batch), so the two are never confused.</li>
+      <li><span class="fn"><span class="file">run_dataforseo.py</span></span> catches it and <b>exits 3</b> — a specific signal, not a generic error code.</li>
+      <li>The research conductor recognises exit 3, marks the topic terminal <span class="t-tag">skipped</span> with a remark, and moves on — it never crashes or retries the queue.</li>
+    </ul>
+
+    <div class="note orange"><span class="tag">Worked example — real run</span><br>
+    The editorial topic <b>"Why Candidates Still Abandon Job Applications"</b>:
+    <ul>
+      <li>Pool of <b>16 keywords</b> after filtering; the highest monthly volume was <b>70</b>.</li>
+      <li>Our floor is <b>100</b>, so <b>0</b> keywords qualified — proven twice, across two independent pulls (deterministic, not a fluke); the broader neighbours were all off-angle.</li>
+      <li>→ 0 candidates reach the scorer → <span class="file">NoViableKeywords</span> → <b>exit 3</b> → the conductor skips the topic gracefully. No paid SERP/AEO spend on a dead topic.</li>
+    </ul></div>
   </div>
 </section>
 
@@ -541,7 +580,11 @@
       <tr><td><b>SERP snapshot</b></td><td>Who ranks · featured snippet · AI Overview · PAA / related (on/off-angle).</td><td>Step 4 <span class="file">04-serp-snapshot.md</span></td></tr>
       <tr><td><b>What winners cover</b></td><td>Confirmed format · depth · common sections · <b>gaps we can own</b>.</td><td>Step 5 <span class="file">05-winners.md</span></td></tr>
       <tr><td><b>AI answer landscape</b></td><td>Usable, or "no usable signal" — plus who AI cites.</td><td>Step 6 <span class="file">06-aeo.md</span></td></tr>
-      <tr><td><b>Build spec</b></td><td>Word band · structure rules · snippet target · primary sources to cite · close rule.</td><td>the SEO/AEO/GEO checklist</td></tr>
+      <tr><td><b>Build spec</b></td><td>
+        <ul>
+          <li><b>Word band</b> — set from the winners' real page lengths; the <b>authoritative</b> length target downstream (the writer's bundle uses it over the asset engine's cluster-wide estimate).</li>
+          <li>Structure rules · snippet target · primary sources to cite · close rule.</li>
+        </ul></td><td>the SEO/AEO/GEO checklist + the winners</td></tr>
       <tr><td><b>Proof map</b></td><td>A footer table linking every section back to its saved proof file.</td><td>all steps</td></tr>
     </table>
 
@@ -558,7 +601,9 @@
     This is the <b>keyword &amp; SERP engine</b> of the research phase. Its brief is the foundation the later engines
     build on — <b>STORM</b> gathers the deep evidence, <b>gap-check</b> makes sure that evidence covers what this
     brief says matters, and <b>research-structure</b> turns it all into the article's blueprint. DataForSEO decides
-    <i>what to write about and how to win it</i>; the others fill in the substance.</div>
+    <i>what to write about and how to win it</i>; the others fill in the substance. Two of its outputs reach past the
+    research phase: the <b>Word band</b> is the authoritative length target the writer's bundle honours, and a
+    <b>spoke</b> run nests its whole folder under the hub so the pillar and its supporting articles stay together.</div>
   </div>
 </section>
 

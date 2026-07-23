@@ -3,240 +3,493 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Features — Content Machine Stage 0</title>
+<title>Features — Brand Context Builder 3</title>
 <style>
-  :root{--ink:#1c1a17;--muted:#6b6459;--line:#efe7d8;--paper:#fff;--cream:#fffdf8;--wash:#fff8ec;--yellow:#ffb703;--yellow-soft:#ffe9ad;--orange:#fb7a00;--orange-soft:#ffd9b0;--green:#e8f5ec;--green-line:#cfe8d5;--green-ink:#2e7d43;--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);}
-  *{box-sizing:border-box;}html{scroll-behavior:smooth;}
-  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;line-height:1.62;font-size:16px;-webkit-font-smoothing:antialiased;}
-  .wrap{max-width:960px;margin:0 auto;padding:0 28px;}
-  header{background:linear-gradient(180deg,var(--wash),var(--paper));border-bottom:1px solid var(--line);padding:56px 0 38px;}
-  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--paper);border:1px solid var(--orange-soft);padding:4px 11px;border-radius:100px;margin-bottom:16px;}
-  h1{font-size:clamp(26px,5vw,42px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em;}
-  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%);padding:0 2px;}
-  .lede{font-size:18px;color:var(--muted);max-width:660px;margin:0;}
-  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
-  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;padding:9px 0;}
-  nav a{font-size:12.5px;font-weight:600;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:100px;}
-  nav a:hover{color:var(--ink);background:var(--wash);}
-  section{padding:48px 0;border-bottom:1px solid var(--line);}
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:730px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
   section:last-of-type{border-bottom:none;}
-  section.alt{background:var(--cream);}
-  h2{font-size:24px;letter-spacing:-.01em;margin:0 0 4px;}
-  h2 .num{color:var(--orange);margin-right:9px;}
-  .sub{color:var(--muted);margin:0 0 22px;font-size:16px;max-width:680px;}
-  h3{font-size:16px;margin:22px 0 7px;}
-  p{margin:0 0 10px;}
-  ul{margin:5px 0 10px;padding-left:20px;}
-  li{margin:4px 0;font-size:15px;color:var(--muted);}
-  li b{color:var(--ink);}
-  .file{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11.5px;background:#fff;border:1px solid var(--orange-soft);border-radius:5px;padding:2px 6px;color:var(--ink);}
-  .note{border-radius:11px;padding:13px 16px;margin:12px 0;font-size:14.5px;border:1px solid;}
-  .note.yellow{background:var(--cream);border-color:var(--line);border-left:4px solid var(--yellow);}
-  .note.orange{background:var(--wash);border-color:var(--orange-soft);border-left:4px solid var(--orange);}
-  .note strong{display:block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;}
-  .note.yellow strong,.note.orange strong{color:var(--orange);}
-  /* steps */
-  .flow{margin-top:10px;}
-  .step{display:flex;gap:15px;position:relative;padding:10px 0;}
-  .step:not(:last-child)::after{content:"";position:absolute;left:21px;top:48px;bottom:-10px;width:2px;background:linear-gradient(var(--yellow),var(--orange-soft));}
-  .dot{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-weight:800;font-size:15px;color:var(--ink);background:var(--yellow-soft);border:2px solid var(--yellow);box-shadow:var(--shadow);}
-  .step-body{padding-top:2px;}
-  .step-body h3{margin:0 0 3px;font-size:15.5px;}
-  .step-body p{margin:0 0 6px;color:var(--muted);font-size:14.5px;}
-  .step-body ul{margin:4px 0 0;padding-left:18px;}
-  .step-body li{font-size:14px;}
-  /* output file */
-  .outfile{border:1px solid var(--line);border-radius:11px;padding:12px 16px;background:var(--paper);box-shadow:var(--shadow);margin:12px 0;}
-  .outfile .f{margin-bottom:3px;}
-  .outfile p{margin:0;font-size:14px;color:var(--muted);}
-  /* category → section mapping table */
-  .map-table{width:100%;border-collapse:collapse;margin:14px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:14px;}
-  .map-table th{text-align:left;padding:9px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--cream);border-bottom:2px solid var(--line);}
-  .map-table td{padding:9px 13px;border-bottom:1px solid var(--line);vertical-align:top;}
-  .map-table tr:last-child td{border-bottom:none;}
-  .map-table .cat{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;font-weight:700;color:var(--orange);white-space:nowrap;}
-  .map-table .sec{font-weight:600;font-size:13.5px;color:var(--ink);}
-  /* example blocks */
-  .eg{border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);margin:14px 0;}
-  .eg .eg-head{background:var(--wash);padding:10px 16px;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);border-bottom:1px solid var(--orange-soft);}
-  .eg .eg-row{display:flex;gap:12px;padding:10px 16px;border-bottom:1px solid var(--line);font-size:14px;}
-  .eg .eg-row:last-child{border-bottom:none;}
-  .eg .eg-key{min-width:140px;font-weight:600;font-size:13px;color:var(--muted);flex:none;}
-  .eg .eg-val{color:var(--ink);}
-  .eg .eg-val i{color:var(--green-ink);}
-  footer{padding:32px 0 52px;color:var(--muted);font-size:13px;}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:730px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;} .mem ul{margin:6px 0 6px;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .note.red{border-left-color:var(--red-ink); background:var(--red);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+  .tag.r{color:var(--red-ink);}
+
+  /* step flow */
+  .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
+  .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:18px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow); text-align:center; line-height:1;}
+  .step-body h3{margin:4px 0 4px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
+  .step-body ul{margin:6px 0 4px; color:var(--muted); font-size:14.5px;} .step-body ul .file{font-size:11.5px;}
+  .step-body ul .fn{color:var(--ink); font-weight:600;}
+  .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
+  .xref:hover{background:var(--orange-soft);}
+  .phase{font-size:12px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin:26px 0 2px;}
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.gate{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.code{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .pill.eng{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
+  .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
+  .files .k{font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
+
+  /* cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .grid.four{grid-template-columns:repeat(4,1fr);}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+  .card .file{margin-top:10px; display:inline-block;}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11.5px;}
+  td b{color:var(--ink);}
+  td .n{font-family:ui-monospace,Menlo,monospace; font-weight:700; color:var(--orange);}
+  .v{font-weight:700; font-size:12px; padding:2px 9px; border-radius:100px; white-space:nowrap;}
+  .v.covered{color:var(--green-ink); background:var(--green); border:1px solid var(--green-line);}
+  .v.partial{color:#a6791b; background:var(--yellow-soft); border:1px solid var(--yellow);}
+  .v.no{color:var(--red-ink); background:var(--red); border:1px solid var(--red-line);}
+  .t-tag{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; font-weight:700; padding:1px 7px; border-radius:5px; background:var(--wash); border:1px solid var(--orange-soft);}
+
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
+
+  /* data-structure anatomy */
+  .cardbox{background:var(--paper); border:1px solid var(--line); border-radius:16px; box-shadow:var(--shadow); padding:8px; margin:20px 0;}
+  .field{display:flex; gap:14px; padding:11px 12px; align-items:baseline;}
+  .field+.field{border-top:1px solid var(--line);}
+  .field .fk{flex:none; width:120px; font-family:ui-monospace,Menlo,monospace; font-size:12.5px; font-weight:700; color:var(--orange);}
+  .field .fv{font-size:14.5px; color:var(--muted);}
+  .field .fv b{color:var(--ink);}
+
+  /* two-column compare */
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--yellow-soft); border:2px solid var(--yellow);}
+  .agent.answ .cap{background:var(--orange-soft); border:2px solid var(--orange);}
+  .agent h3{margin:0 0 2px; font-size:19px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+  .mem{font-size:14px; padding:9px 12px; border-radius:10px; margin-top:9px;}
+  .mem.yes{background:var(--green); border:1px solid var(--green-line);}
+  .mem.no{background:var(--blue); border:1px solid var(--blue-line);}
+  .mem .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
+  .mem.yes .lbl{color:var(--green-ink);} .mem.no .lbl{color:var(--blue-ink);}
+
+  /* headline stats */
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  /* before / after */
+  .ba{display:grid; grid-template-columns:1fr auto 1fr; gap:14px; align-items:center; margin:20px 0;}
+  .ba .box{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:16px 18px; box-shadow:var(--shadow); text-align:center;}
+  .ba .box .n{font-size:26px; font-weight:800;} .ba .box small{color:var(--muted); font-size:12.5px;}
+  .ba .arr{font-size:22px; color:var(--orange); font-weight:800;}
+  .ba .box.after{border-color:var(--green-line); background:var(--green);}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three,.grid.four{grid-template-columns:1fr;} .ba{grid-template-columns:1fr;} .chev{display:none;} }
 </style>
 </head>
 <body>
 <header><div class="wrap">
-  <span class="kicker">Content Machine · Stage 0 — Brand Context</span>
+  <span class="kicker">Brand Context · Builder 3 of 7</span>
   <h1>Features — <span class="hl">the product facts every writer needs</span></h1>
-  <p class="lede">Reads every commercial page the company has, extracts the real facts into eight categories, then maps those categories into the sections of features.md. Writers reference this before mentioning the product in any content.</p>
+  <p class="lede">One command turns a company's real product pages into <span class="file">features.md</span>: its value propositions, full feature set, integrations, competitive differentiators, use cases, pricing, and objection answers — so any later writer can mention the product accurately and never invent a claim. Here is exactly how it works, script by script.</p>
 </div></header>
 
 <nav><div class="wrap">
-  <a href="#concept">Concept</a>
-  <a href="#output">Output</a>
-  <a href="#steps">Steps</a>
-  <a href="#mapping">Category → Section</a>
-  <a href="#example">Real example</a>
+  <a href="#one-idea">The idea</a>
+  <a href="#words">The words</a>
+  <a href="#skeleton">The skeleton</a>
+  <a href="#pipeline">The pipeline</a>
+  <a href="#record">The fact record</a>
+  <a href="#consolidate">Consolidate + seed</a>
+  <a href="#example">Worked example</a>
+  <a href="#output">Output + fit</a>
 </div></nav>
 
-<section id="concept">
+<section id="one-idea">
   <div class="wrap">
-    <h2><span class="num">01</span>The one rule</h2>
-    <p class="sub">Every fact in features.md comes from a real page. Nothing is invented.</p>
-    <ul>
-      <li>If a fact isn't on any page, it gets flagged for the client — not made up</li>
-      <li>The only thing that gets written (not extracted) is the Conversion Angle — a one-line pitch for each feature explaining why the reader should care. Even that must be grounded in a real page fact and must match the brand voice.</li>
-    </ul>
-    <div class="note yellow"><strong>Inputs</strong>
-    content-database.csv — all page URLs (to discover which are commercial) and their full stored body text (to extract facts from). Plus brand-voice.md so Conversion Angle wording sounds like the brand.</div>
-  </div>
-</section>
-
-<section id="output" class="alt">
-  <div class="wrap">
-    <h2><span class="num">02</span>What this produces</h2>
-    <div class="outfile">
-      <div class="f"><span class="file">projects/[company]/content-machine/brand-context/features.md</span></div>
-      <p>The complete product reference: value propositions, full feature set, integrations, competitive differentiators by named competitor, use cases by segment, pricing tiers, conversion messaging, and objection Q&As — all from real pages.</p>
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">Read every commercial page the company has, pull the real facts into eight fixed categories, then consolidate those facts into a single reference document — one entry point, run and walk away.</p>
+    <div class="grid four">
+      <div class="card"><div class="ic">🔎</div><h3>1. Discover</h3><p>Pure code picks out the commercial pages (pricing, product, integrations, competitor comparisons) from the site catalogue — no AI, no fetching.</p></div>
+      <div class="card"><div class="ic">📋</div><h3>2. Extract</h3><p>One AI call per page pulls out the real facts under eight fixed categories, verbatim numbers and names.</p></div>
+      <div class="card"><div class="ic">🧵</div><h3>3. Consolidate</h3><p>An AI call collapses the same fact restated across hundreds of pages into one canonical line, filling the fixed schema.</p></div>
+      <div class="card"><div class="ic">🚦</div><h3>4. Gate + loop</h3><p>An AI judge checks completeness, facts-discipline and consolidation, then loops back to the fill step until it passes.</p></div>
+    </div>
+    <div class="note orange"><span class="tag">The one rule</span>
+      <p style="margin:6px 0 0;"><b>Every fact in features.md comes from a real page or the human-verified seed. Nothing is invented.</b></p>
+      <ul style="margin:8px 0 0;">
+        <li>If a fact is on no page, it becomes a <span class="file">&gt; ⚑ HUMAN DECISION</span> flag, never a made-up claim.</li>
+        <li>The only <em>written</em> (not extracted) text is the <b>Conversion Angle</b> — a one-line pitch per feature — and even that must be grounded in a real fact and match the brand voice.</li>
+        <li>This is a <b>facts document</b>: its whole value is accuracy. A wrong integration name or price is worse than a blank.</li>
+      </ul>
     </div>
   </div>
 </section>
 
-<section id="steps">
+<section id="words" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">03</span>Four steps</h2>
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">A few terms the rest of the page leans on. Defined once, here.</p>
+    <div class="define"><b>Content database</b> — <span class="file">content-database.csv</span>, produced upstream by Layer 00 (the site catalogue). Every page the site has, one row each, with the page's URL, its stored body text (<span class="file">Full content</span>), its classified <b>Type</b>, its language, and its search traffic.</div>
+    <div class="define"><b>Type / type-roles</b> — the catalogue tags each page with a Type (pricing, blog, integration…). <span class="file">type-roles.json</span> (from Builder 0, brand-facts) marks which of those Types count as <b>commercial</b> or <b>stat</b> pages. This is how discovery knows a product page from a blog post — no guessing from the URL alone.</div>
+    <div class="define"><b>Commercial page</b> — a page that describes the product itself: what it is, does, costs, who it is for, or what it integrates with. The opposite of editorial content (blogs, guides, glossaries), which this engine skips.</div>
+    <div class="define"><b>Facts pool</b> — <span class="file">facts.json</span>, the raw facts pulled from every commercial page, one block per page, each sorted into the same eight categories so they can be gathered across all pages later.</div>
+    <div class="define"><b>Consolidation</b> — the real work of Step 3: the same fact (e.g. "3,500+ tests") is restated on dozens of pages; consolidation collapses every instance into <em>one</em> canonical line, keeping the most specific / complete version.</div>
+    <div class="define"><b>Seed</b> — <span class="file">_seed/features-seed.md</span>, human-verified facts a crawler can never reach (prices rendered by JavaScript, absent from both the catalogue and the raw HTML). The seed is <b>authoritative</b>: where the crawled pool disagrees, the seed wins.</div>
+    <div class="define"><b>Quality gate</b> — an AI judge that scores the draft on completeness, facts-discipline, consolidation and legally-careful fairness language, then hands back redo notes that loop into the fill step.</div>
+  </div>
+</section>
+
+<section id="skeleton">
+  <div class="wrap">
+    <h2><span class="num">03</span>The skeleton — four files, one command</h2>
+    <p class="sub">The engine is the runnable twin of <span class="file">features.workflow.md</span> (the recipe). The recipe is read by a human; these scripts are what actually run.</p>
+    <table>
+      <tr><th>File</th><th>What it is</th></tr>
+      <tr>
+        <td><span class="file">scripts/config.py</span></td>
+        <td>The one settings hub.
+          <ul>
+            <li>Every path derives from a single repo-root anchor; <b>company is one variable</b> (<span class="file">COMPANY=&lt;slug&gt;</span>).</li>
+            <li>Reads the company record <span class="file">company.json</span> for brand, niche, language, domain.</li>
+            <li>Holds every tunable: <span class="file">FT_KIND_CAP=25</span> (per-kind page cap), <span class="file">FT_WORKERS=4</span> (parallel AI calls), <span class="file">FT_BODY_CAP=12000</span> (chars of page body per call), timeout 420s.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="file">scripts/llm.py</span></td>
+        <td>The one AI caller. No API key.
+          <ul>
+            <li>Runs each prompt through a headless CLI — <b>Claude or Codex</b> (set by <span class="file">LLM_PROVIDER</span>, default claude).</li>
+            <li><span class="file">call_json()</span> for the fact / gate steps (retries once on unparseable JSON); <span class="file">call_text()</span> for the fill step (returns the whole markdown doc).</li>
+            <li>Backs off and retries on a transient CLI hiccup; <b>stops the run</b> on a credit/auth failure so it never burns a dead account.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="file">scripts/run_features.py</span></td>
+        <td>The one entry command — runs the four steps in order, nothing else.
+          <ul>
+            <li><span class="file">COMPANY=&lt;slug&gt; python3 scripts/run_features.py</span></li>
+            <li><b>Resumable:</b> reuses <span class="file">source-pages.json</span> and <span class="file">facts.json</span> if they exist; <span class="file">--redo</span> forces a re-discover.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="file">prompts/</span></td>
+        <td>One prompt file per AI call — never inlined in code:
+          <ul>
+            <li><span class="file">extract-facts.md</span> (Step 2)</li>
+            <li><span class="file">fill-schema.md</span> (Step 3)</li>
+            <li><span class="file">quality-gate.md</span> (Step 4)</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+
+    <h3>Where the thinking is code vs AI</h3>
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">⚙️</div>
+        <h3>Step 1 — pure code</h3>
+        <div class="role">Discovery: a Python filter over the catalogue</div>
+        <p class="muted" style="font-size:14.5px;">Picking which pages are commercial is deterministic, so it is code, not an AI call. It reads the catalogue, keeps the rows whose Type is commercial (or whose URL signals pricing / integrations / a competitor comparison), and caps big kinds by traffic.</p>
+        <div class="mem yes"><span class="lbl">Free · no LLM</span></div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">🧠</div>
+        <h3>Steps 2–4 — the AI calls</h3>
+        <div class="role">Extract · Fill · Gate — the judgment steps</div>
+        <p class="muted" style="font-size:14.5px;">Reading a page for its real facts, consolidating a repetitive pool into a tight doc, and judging that doc are judgment, so they stay AI. Each is one call to the local Claude or Codex CLI.</p>
+        <div class="mem no"><span class="lbl">Free · Claude or Codex · no key</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pipeline" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">04</span>The full pipeline</h2>
+    <p class="sub">Four steps, each writing a named file the next step reads. A crash resumes from the last file written.</p>
     <div class="flow">
+
       <div class="step"><div class="dot">1</div><div class="step-body">
-        <h3>Discover the commercial pages — from URLs only, no reading</h3>
+        <h3>Discover the commercial pages <span class="pill code">code</span><span class="pill free">free</span></h3>
+        <p>Filter the whole catalogue down to the pages that describe the product — no AI, no fetching.</p>
         <ul>
-          <li>Pull all URLs from the content database</li>
-          <li>Classify each from its slug alone — no fetching or body reading at this stage</li>
-          <li><b>Keep:</b> homepage, pricing, product/feature pages, integrations, competitor comparisons</li>
-          <li><b>Drop:</b> blogs, guides, glossaries, templates, tools, company-info pages, non-English duplicates</li>
+          <li>Keep only rows where <span class="fn">body_status = ok</span> and the language matches the company.</li>
+          <li><b>Keep a page</b> if its URL signals <span class="fn">pricing / plans / compare</span>, <span class="fn">integrations</span>, or a <span class="fn">competitor comparison</span> (an <em>alternatives</em> / <em>-vs-</em> slug), OR its catalogue <b>Type</b> is in the commercial/stat set from <span class="file">type-roles.json</span>.</li>
+          <li><b>Per-kind traffic caps:</b> pricing, homepage and integrations pages are kept in full; other big kinds (product, competitor) are capped at the top <span class="fn">FT_KIND_CAP=25</span> by traffic — a 3,600-page test library is near-duplicate templates, so a traffic-ranked sample carries the facts.</li>
+          <li>Writes <span class="file">_work/features/source-pages.json</span> — url · kind · traffic · title · body.</li>
         </ul>
+        <div class="files"><span class="k">reads</span><span class="file">content-database.csv</span><span class="file">type-roles.json</span><span class="k">writes</span><span class="file">source-pages.json</span></div>
       </div></div>
+
       <div class="step"><div class="dot">2</div><div class="step-body">
-        <h3>Extract facts from every commercial page — eight fixed categories</h3>
-        <p>Pages are split across 7–10 AI agents running in parallel. Each agent reads the full stored body text of its assigned pages and pulls out facts under exactly eight categories:</p>
+        <h3>Extract the facts — one AI call per page <span class="pill free">free</span></h3>
+        <p>Read each discovered page's stored body and pull out only real facts, sorted into eight fixed categories.</p>
         <ul>
-          <li><b>Features</b> — every product capability and what it does</li>
-          <li><b>Integrations</b> — every named tool or platform it connects with</li>
-          <li><b>Pricing</b> — plan names, what each includes, the pricing model, trials, guarantees</li>
-          <li><b>Competitive</b> — advantages over named competitors (only when the page names one)</li>
-          <li><b>Social proof</b> — real customer numbers, outcome stats, ratings, certifications, awards</li>
-          <li><b>Audience/segments</b> — who the page says the product is for, and the pains it names</li>
-          <li><b>CTAs</b> — the exact call-to-action button text on the page</li>
-          <li><b>FAQ</b> — any question and answer pairs on the page, verbatim</li>
+          <li>One <span class="fn">call_json</span> per page using <span class="file">extract-facts.md</span> — up to <span class="fn">FT_WORKERS=4</span> pages read at once.</li>
+          <li>The eight categories: features · integrations · pricing · competitive · social_proof · audience · ctas · faq. <a class="xref" href="#record">↓ §05 — the fact record</a></li>
+          <li><b>No live-fetching:</b> the new catalogue keeps pricing / integration tables in its stored text, so the old "fetch the live page" step is gone.</li>
+          <li><b>Resumable per page:</b> saves the pool every 10 pages; a re-run skips pages already done.</li>
+          <li>Writes <span class="file">_work/features/facts.json</span> — the facts pool, one block per page.</li>
         </ul>
-        <p style="font-size:14px;color:var(--muted);">Pricing and integrations pages are fetched from the live website rather than the stored copy — these use dynamic tables that often don't save correctly. All extractions combine into one facts pool, one block per page.</p>
+        <div class="files"><span class="k">reads</span><span class="file">source-pages.json</span><span class="k">writes</span><span class="file">facts.json</span></div>
       </div></div>
+
       <div class="step"><div class="dot">3</div><div class="step-body">
-        <h3>Fill features.md — each category maps to a section</h3>
-        <p>Each of the eight extraction categories maps directly to one or more sections in features.md. For each section, gather that category from every page block in the pool, consolidate duplicates into one canonical line (keeping the most specific version — the one with real numbers or the fullest list), and fill the section. See the mapping table below.</p>
+        <h3>Fill the schema — consolidate the pool <span class="pill free">free</span></h3>
+        <p>One AI call writes the whole document, filling a fixed schema by consolidating the pool.</p>
         <ul>
-          <li>Every fact that was extracted must end up somewhere in the document — nothing dropped quietly</li>
-          <li>A top feature appears twice by design: once in Core Value Propositions (the 5–10 strongest, each with a pitch line) and again in Technical Features (the full list grouped into categories)</li>
+          <li><span class="fn">call_text</span> using <span class="file">fill-schema.md</span>. The Appendix-A schema, the consolidation method, and the category→section mapping are <b>lifted verbatim</b> from the recipe MD at runtime (one source of truth). <a class="xref" href="#consolidate">↓ §06 — consolidate + seed</a></li>
+          <li>Also fed the <b>seed</b> (authoritative human-verified facts) and <span class="file">brand-voice.md</span> (so the pitch lines sound on-brand).</li>
+          <li>Writes <span class="file">features.md</span> <b>in place</b> — the git diff is the review surface.</li>
         </ul>
+        <div class="files"><span class="k">reads</span><span class="file">facts.json</span><span class="file">features-seed.md</span><span class="file">brand-voice.md</span><span class="k">writes</span><span class="file">features.md</span></div>
       </div></div>
+
       <div class="step"><div class="dot">4</div><div class="step-body">
-        <h3>Quality gate</h3>
+        <h3>Quality gate — judge and loop <span class="pill free">free</span><span class="pill gate">gated</span></h3>
+        <p>An AI judge scores the draft; a fail loops straight back to the fill step with redo notes.</p>
         <ul>
-          <li>Every section is filled — no placeholders</li>
-          <li>Every fact from the pool appears somewhere in the document</li>
-          <li>Real numbers, integration names, competitor names, and prices are spot-checked against the pool</li>
-          <li>Conversion angles sound like the brand</li>
-          <li>Anything missing or unverifiable loops back to Steps 1 or 2</li>
+          <li><span class="fn">call_json</span> using <span class="file">quality-gate.md</span> — checks <b>completeness</b> (every section filled, no <span class="file">[BRACKET]</span>), <b>facts-only</b> (no invented-looking specifics), <b>consolidation</b> (no repeated marketing prose), and <b>legal</b> ("reduce bias", never "bias-free"). <a class="xref" href="#consolidate">↓ §06</a></li>
+          <li>A fail re-runs Step 3 (fill) with the judge's notes; <b>capped at 3 rounds</b>, then it stops and ships what it has for human review.</li>
+          <li>Writes <span class="file">_work/features/gate-round-N.json</span> per round.</li>
         </ul>
+        <div class="files"><span class="k">reads</span><span class="file">features.md</span><span class="k">writes</span><span class="file">gate-round-N.json</span></div>
       </div></div>
+
     </div>
   </div>
 </section>
 
-<section id="mapping" class="alt">
+<section id="record">
   <div class="wrap">
-    <h2><span class="num">04</span>How extracted categories become sections</h2>
-    <p class="sub">Each category pulled in Step 2 has a direct home in features.md. This is the mapping.</p>
-    <table class="map-table">
-      <tr><th>Extracted category</th><th>Becomes this section in features.md</th><th>How it's used</th></tr>
+    <h2><span class="num">05</span>The fact record — eight fixed categories</h2>
+    <p class="sub">Every page is reduced to the same JSON shape. Fixed categories are what let the same fact be gathered across all pages in Step 3.</p>
+    <div class="cardbox">
+      <div class="field"><span class="fk">features</span><span class="fv">Each product capability + what it does (+ the user benefit, if stated).</span></div>
+      <div class="field"><span class="fk">integrations</span><span class="fv">Every named tool / platform it connects with (+ category, e.g. ATS).</span></div>
+      <div class="field"><span class="fk">pricing</span><span class="fv">Plan names, what each tier includes, the model, any trial / guarantee / discount.</span></div>
+      <div class="field"><span class="fk">competitive</span><span class="fv">Advantages vs a <b>named</b> competitor — only when the page names one; kept fair.</span></div>
+      <div class="field"><span class="fk">social_proof</span><span class="fv">Real numbers: customers / teams, outcome stats, ratings, certifications, awards.</span></div>
+      <div class="field"><span class="fk">audience</span><span class="fv">Who the page says the product is for + the pains it names.</span></div>
+      <div class="field"><span class="fk">ctas</span><span class="fv">The exact call-to-action button / link text on the page.</span></div>
+      <div class="field"><span class="fk">faq</span><span class="fv">Any question → answer pairs on the page, verbatim.</span></div>
+    </div>
+
+    <h3>Each category maps to a section of features.md</h3>
+    <p class="muted">Step 3 gathers one category <b>across all page blocks</b> in the pool, consolidates it, and fills the matching section. This is the traceability map — every section traces to a named category.</p>
+    <table>
+      <tr><th>Category</th><th>Fills this section</th><th>How it is used</th></tr>
       <tr>
-        <td class="cat">Features</td>
-        <td><span class="sec">Core Value Propositions</span><br><span style="color:var(--muted);font-size:13px;">+ Technical Features</span></td>
-        <td>The 5–10 strongest features are elevated to Core Value Props (each gets a Benefit + Conversion Angle written). The full set goes into Technical Features, grouped into named categories (e.g. Assessments, Interviews, Anti-cheating, Analytics).</td>
+        <td><span class="t-tag">features</span></td>
+        <td><b>Core Value Propositions</b><br><span class="muted">+ Technical Features</span></td>
+        <td>
+          <ul style="margin:0;">
+            <li>The 5–10 <b>strongest</b> features are elevated to Core Value Props — each gets a Benefit + a written Conversion Angle.</li>
+            <li>The <b>full set</b> goes into Technical Features, grouped into 3–5 named categories.</li>
+            <li>"Strongest" is measured, not taste: most-recurring across the pool + cited as advantages on competitor pages.</li>
+          </ul>
+        </td>
       </tr>
       <tr>
-        <td class="cat">Integrations</td>
-        <td><span class="sec">Integrations &amp; Ecosystem</span></td>
-        <td>Every named tool or platform, listed with what the integration does. Grouped by type (ATS, HRIS, communication, automation etc.).</td>
+        <td><span class="t-tag">integrations</span></td>
+        <td><b>Integrations &amp; Ecosystem</b></td>
+        <td>Every named tool + what the integration does, grouped by type (ATS, HRIS, communication, automation…).</td>
       </tr>
       <tr>
-        <td class="cat">Competitive</td>
-        <td><span class="sec">Competitive Differentiators</span></td>
-        <td>Grouped by named competitor. Each gets 3–4 real advantages — and one honest note on where the rival is genuinely strong.</td>
+        <td><span class="t-tag">competitive</span></td>
+        <td><b>Competitive Differentiators</b></td>
+        <td>Grouped by named competitor. Each gets 3–4 real advantages <b>plus one fair note</b> on where the rival is genuinely strong.</td>
       </tr>
       <tr>
-        <td class="cat">Audience / segments</td>
-        <td><span class="sec">Use Cases by Customer Segment</span></td>
-        <td>3–5 customer segments (e.g. Enterprise, SMB, Startups), each with the real needs and pains the pages name for that group.</td>
+        <td><span class="t-tag">audience</span></td>
+        <td><b>Use Cases by Segment</b></td>
+        <td>3–5 customer segments (startup, enterprise, high-volume, technical…), each with the real needs the pages name.</td>
       </tr>
       <tr>
-        <td class="cat">Pricing</td>
-        <td><span class="sec">Pricing &amp; Plan Benefits</span></td>
-        <td>Each real plan tier with what it includes, the pricing model (e.g. credit-based), trial terms, guarantees, and any discounts.</td>
+        <td><span class="t-tag">pricing</span></td>
+        <td><b>Pricing &amp; Plan Benefits</b></td>
+        <td>Each real tier + what it includes, plus the model (credit-based, 24-month lock, 30-day refund…). Seed wins here.</td>
       </tr>
       <tr>
-        <td class="cat">Social proof + CTAs<br>+ Audience/pains</td>
-        <td><span class="sec">Key Messaging for Conversions</span></td>
-        <td>Three sub-sections: exact CTA text from the pages, pain → solution pairs ("Worried about bias?" → "20+ proctoring measures keep every result defensible"), and real social proof stats.</td>
+        <td><span class="t-tag">social_proof</span> <span class="t-tag">ctas</span> <span class="t-tag">audience</span></td>
+        <td><b>Key Messaging for Conversions</b></td>
+        <td>
+          <ul style="margin:0;">
+            <li>Trial messages — the exact CTA text from the pages.</li>
+            <li>Pain → solution pairs, worded on-voice.</li>
+            <li>Social proof — the real stats.</li>
+          </ul>
+        </td>
       </tr>
       <tr>
-        <td class="cat">FAQ</td>
-        <td><span class="sec">Common Questions &amp; Objections</span></td>
-        <td>Real Q&A pairs from the pages, answered benefit-first.</td>
+        <td><span class="t-tag">faq</span></td>
+        <td><b>Common Questions &amp; Objections</b></td>
+        <td>Real Q&amp;A pairs from the pages, answered benefit-first.</td>
       </tr>
     </table>
   </div>
 </section>
 
-<section id="example">
+<section id="consolidate" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">05</span>What a filled section looks like</h2>
-    <p class="sub">From the real Testlify features.md — one Core Value Proposition entry and one Competitive Differentiator entry.</p>
+    <h2><span class="num">06</span>The real intelligence — consolidate, then seed, then gate</h2>
+    <p class="sub">Steps 2–4 look simple. The value is in three moves: collapsing a repetitive pool, letting human-verified facts override the crawl, and judging the result honestly.</p>
 
-    <h3>Core Value Proposition — from the Features category</h3>
-    <div class="eg">
-      <div class="eg-head">3,500+ ready-to-use tests across 4,500+ job roles</div>
-      <div class="eg-row"><span class="eg-key">Benefit</span><span class="eg-val">Skip building assessments from scratch — a validated test for almost any role is already in the library.</span></div>
-      <div class="eg-row"><span class="eg-key">Conversion Angle</span><span class="eg-val"><i>"Don't build a test from zero — 3,500+ validated tests already cover 4,500+ roles across 50+ industries."</i></span></div>
+    <h3>Consolidate — dozens of pages into one canonical line</h3>
+    <p>The pool is hundreds of near-duplicate pages restating the same facts ("3,500+ tests" can appear 30–40 times). For each category, in order: merge every instance into a <b>single most-specific line</b>; keep the fact, drop the marketing prose; surface the strongest features twice (once as a Core Value Prop with a pitch, once in the full Technical Features list — nothing dropped, only re-surfaced).</p>
+    <div class="ba">
+      <div class="box"><div class="n">214</div><small>commercial pages in the facts pool <span class="muted">(real: Testlify)</span></small></div>
+      <div class="arr">→</div>
+      <div class="box after"><div class="n">~9,800</div><small>words — one consolidated features.md</small></div>
+    </div>
+    <div class="note"><span class="tag">The hard stop</span>
+      <p style="margin:6px 0 0;">Consolidation is <b>not</b> cherry-picking. Every fact gathered in the pool — every feature, integration, competitive point, social-proof stat, segment, CTA and FAQ from every page — must land somewhere in features.md, or be explicitly flagged. A silently dropped fact fails the gate.</p>
     </div>
 
-    <h3>Competitive Differentiator — from the Competitive category</h3>
-    <div class="eg">
-      <div class="eg-head">vs. TestGorilla</div>
-      <div class="eg-row"><span class="eg-key">Advantage 1</span><span class="eg-val">3,500+ tests / 4,500+ roles vs. TestGorilla's ~300–400 tests</span></div>
-      <div class="eg-row"><span class="eg-key">Advantage 2</span><span class="eg-val">Conversational AI interviews (chat/voice/video) vs. TestGorilla's one-way video only</span></div>
-      <div class="eg-row"><span class="eg-key">Advantage 3</span><span class="eg-val">100+ ATS integrations vs. 17+; AI-assistance detection and dual-camera proctoring absent on TestGorilla</span></div>
-      <div class="eg-row"><span class="eg-key">Where they're strong</span><span class="eg-val">Fully GDPR and SOC 2 compliant, user-friendly with a low learning curve, cost-effective for startups and small businesses</span></div>
+    <h3>The seed — human-verified facts the crawler can't reach</h3>
+    <p>Some facts are rendered by JavaScript and are absent from <b>both</b> the catalogue and the raw HTML — only a person with a browser can see them (for Testlify, the entire pricing table). Those live in <span class="file">_seed/features-seed.md</span>, fed to the fill step as <b>authoritative</b>.</p>
+    <div class="note orange"><span class="tag">Seed wins</span>
+      <p style="margin:6px 0 0;">Where the crawled pool disagrees with the seed, the seed is used and the crawled variant is not even mentioned as a conflict. Stale translated pages and old competitor-comparison pages often carry outdated prices; the seed is the current truth. Keeping the seed current is the human's job (a gate in the Layer 01 run order).</p>
     </div>
 
-    <h3>Key Messaging — from Social proof + CTAs + Audience/pains</h3>
-    <div class="eg">
-      <div class="eg-head">Pain → Solution pairs</div>
-      <div class="eg-row"><span class="eg-key">Pain</span><span class="eg-val">"Worried about cheating tainting your results?"</span></div>
-      <div class="eg-row"><span class="eg-key">Solution</span><span class="eg-val">"20+ proctoring measures — including AI-assistance detection and dual-camera — keep every assessment defensible."</span></div>
-    </div>
-    <div class="eg" style="margin-top:8px;">
-      <div class="eg-head">Social proof</div>
-      <div class="eg-row"><span class="eg-key">Stat</span><span class="eg-val">Reduce time-to-hire by 55%; cut hiring costs by 72%; candidate satisfaction 94%; trusted by 1,500+ hiring teams</span></div>
-    </div>
-
-    <div class="note orange"><strong>The hard stop on facts</strong>
-    Every extracted fact — every Feature, Integration, Competitive point, Social proof stat, segment, CTA, and FAQ from every page — must appear somewhere in features.md. Cherry-picking is a fail.</div>
+    <h3>The gate — four checks, then loop</h3>
+    <table>
+      <tr><th>Check</th><th>Fails when…</th></tr>
+      <tr><td><b>Completeness</b></td><td>a section is missing or a <span class="file">[BRACKET]</span> placeholder survives.</td></tr>
+      <tr><td><b>Facts-only</b></td><td>a specific (a price, an integration) looks invented rather than plausibly from the pool. A <span class="file">⚑ HUMAN DECISION</span> flag is legitimate.</td></tr>
+      <tr><td><b>Consolidation</b></td><td>a section reads like repeated marketing prose instead of one canonical line per fact.</td></tr>
+      <tr><td><b>Legal</b></td><td>an absolute fairness claim appears — "bias-free" / "eliminates bias" is an automatic section fail.</td></tr>
+    </table>
+    <p class="muted">A fail returns consolidated redo notes that feed straight back into Step 3. The loop is capped at 3 rounds so an un-satisfiable judge can't spin forever — after that it ships the best draft for human review.</p>
   </div>
 </section>
 
-<footer><div class="wrap">Features · Content Machine Stage 0 · The product facts reference every writer reads before mentioning the product.</div></footer>
+<section id="example">
+  <div class="wrap">
+    <h2><span class="num">07</span>Worked example</h2>
+    <p class="sub">Straight from the real Testlify <span class="file">features.md</span> — one Core Value Prop, one Competitive Differentiator, and one Key-Messaging pair. All values are <b>real</b>.</p>
+
+    <h3>Core Value Proposition — from the <span class="t-tag">features</span> category</h3>
+    <div class="cardbox">
+      <div class="field"><span class="fk">Feature</span><span class="fv"><b>3,500+ Validated Test Library</b> — 3,500+ pre-built tests covering 4,500+ job roles across 50+ industries, backed by 180,000+ validated questions.</span></div>
+      <div class="field"><span class="fk">Benefit</span><span class="fv">Whatever role you are filling, from a bricklayer to an SAP consultant, the assessment already exists — no building from scratch.</span></div>
+      <div class="field"><span class="fk">Conversion Angle</span><span class="fv"><b>"3,500+ tests. 4,500+ roles. 50+ industries. Your next assessment is already written."</b> <span class="muted">(the one written line — grounded in the fact, on-voice)</span></span></div>
+    </div>
+
+    <h3>Competitive Differentiator — from the <span class="t-tag">competitive</span> category</h3>
+    <div class="cardbox">
+      <div class="field"><span class="fk">vs. TestGorilla</span><span class="fv">
+        <ul style="margin:0;">
+          <li><b>Library depth:</b> 3,500+ role-specific tests vs TestGorilla's ~400+.</li>
+          <li><b>Question breadth:</b> 25+ question types including video AI and voice AI, vs multiple-choice, essay, video-response and file upload.</li>
+          <li><b>Proctoring:</b> AI-assistance detection, dual-camera and behaviour tracking, vs basic full-screen tracking.</li>
+        </ul>
+      </span></div>
+      <div class="field"><span class="fk">Fair note</span><span class="fv">TestGorilla is an established, widely adopted platform with a clean core assessment experience, and its seat-based model is simple for a small team.</span></div>
+    </div>
+
+    <h3>Key Messaging — from <span class="t-tag">social_proof</span> + <span class="t-tag">ctas</span> + <span class="t-tag">audience</span></h3>
+    <div class="cardbox">
+      <div class="field"><span class="fk">Pain</span><span class="fv">"Worried about cheating tainting your results?"</span></div>
+      <div class="field"><span class="fk">Solution</span><span class="fv">"20+ proctoring measures — including AI-assistance detection and dual-camera — keep every assessment defensible."</span></div>
+      <div class="field"><span class="fk">Social proof</span><span class="fv">Reduce time-to-hire 55% · cut hiring costs 72% · candidate satisfaction 94% · trusted by 1,500+ teams.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="output" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">08</span>Output + where it sits</h2>
+    <div class="stats">
+      <div class="stat"><div class="big">214</div><div class="cap">commercial pages discovered (real: Testlify — 153 integrations, 25 product, 25 competitor, 10 pricing, 1 home)</div></div>
+      <div class="stat"><div class="big">8</div><div class="cap">fact categories per page</div></div>
+      <div class="stat"><div class="big">4</div><div class="cap">pages read in parallel (FT_WORKERS)</div></div>
+      <div class="stat"><div class="big">3</div><div class="cap">gate rounds max, then ship</div></div>
+      <div class="stat"><div class="big">$0</div><div class="cap">local Claude or Codex CLI — no API key</div></div>
+    </div>
+
+    <h3>What it produces</h3>
+    <div class="grid">
+      <div class="card">
+        <h3>The deliverable</h3>
+        <p>The complete product reference — value props, full feature set, integrations, competitive diffs by named competitor, use cases, pricing tiers, conversion messaging, and objection Q&amp;As, all from real pages.</p>
+        <span class="file">projects/&lt;company&gt;/01-brand-context/features.md</span>
+      </div>
+      <div class="card">
+        <h3>The work trail</h3>
+        <p>Intermediates that make the run resumable and auditable — the discovered pages, the raw facts pool, and each gate round's verdict.</p>
+        <span class="file">_work/features/source-pages.json · facts.json · gate-round-N.json</span>
+      </div>
+    </div>
+
+    <div class="note orange"><span class="tag">Where this sits in the bigger machine</span>
+      <p style="margin:6px 0 0;"><b>Builder 3 of 7</b> in Layer 01 (Brand Context), the one-time builders that learn what a company sells and how it talks.</p>
+      <ul style="margin:8px 0 0;">
+        <li><b>Upstream:</b> Layer 00 (site catalogue) gives the content database; Builder 0 (brand-facts) gives <span class="file">type-roles.json</span>; Builder 1 gives <span class="file">brand-voice.md</span> for the pitch wording.</li>
+        <li><b>Downstream:</b> <span class="file">features.md</span> is read by the asset engine (Layer 02) and the content machine (Layer 03) so any writer can mention the product accurately. It also feeds <span class="file">brand-scope.md</span>, the ownership anchor the asset-idea methods share.</li>
+        <li><b>Human gate:</b> review the diff, and fill <span class="file">_seed/features-seed.md</span> with any JS-rendered facts (e.g. the price table) the crawler missed.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">Features · Brand Context Builder 3 · architecture overview · discover the commercial pages → extract eight-category facts → consolidate into the schema → gate and loop.</div></footer>
 </body>
 </html>

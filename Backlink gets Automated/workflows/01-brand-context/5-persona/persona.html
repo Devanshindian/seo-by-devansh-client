@@ -5,150 +5,407 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Persona — Who Each Article Is Written To</title>
 <style>
-  :root{--ink:#1c1a17;--muted:#6b6459;--line:#efe7d8;--paper:#fff;--cream:#fffdf8;--wash:#fff8ec;--yellow:#ffb703;--yellow-soft:#ffe9ad;--orange:#fb7a00;--orange-soft:#ffd9b0;--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);}
-  *{box-sizing:border-box;}html{scroll-behavior:smooth;}
-  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;line-height:1.62;font-size:16px;-webkit-font-smoothing:antialiased;}
-  .wrap{max-width:960px;margin:0 auto;padding:0 28px;}
-  header{background:linear-gradient(180deg,var(--wash),var(--paper));border-bottom:1px solid var(--line);padding:56px 0 38px;}
-  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--paper);border:1px solid var(--orange-soft);padding:4px 11px;border-radius:100px;margin-bottom:16px;}
-  h1{font-size:clamp(26px,5vw,42px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em;}
-  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%);padding:0 2px;}
-  .lede{font-size:18px;color:var(--muted);max-width:680px;margin:0;}
-  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
-  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;padding:9px 0;}
-  nav a{font-size:12.5px;font-weight:600;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:100px;}
-  nav a:hover{color:var(--ink);background:var(--wash);}
-  section{padding:48px 0;border-bottom:1px solid var(--line);}
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:730px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
   section:last-of-type{border-bottom:none;}
-  section.alt{background:var(--cream);}
-  h2{font-size:24px;letter-spacing:-.01em;margin:0 0 4px;}
-  h2 .num{color:var(--orange);margin-right:9px;}
-  .sub{color:var(--muted);margin:0 0 22px;font-size:16px;max-width:700px;}
-  h3{font-size:16px;margin:20px 0 6px;}
-  p{margin:0 0 10px;}
-  ul{margin:5px 0 10px;padding-left:20px;}
-  li{margin:4px 0;font-size:15px;color:var(--muted);}
-  li b{color:var(--ink);}
-  .file{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11.5px;background:#fff;border:1px solid var(--orange-soft);border-radius:5px;padding:2px 6px;color:var(--ink);}
-  .note{border-radius:11px;padding:13px 16px;margin:12px 0;font-size:14.5px;border:1px solid;}
-  .note.yellow{background:var(--cream);border-color:var(--line);border-left:4px solid var(--yellow);}
-  .note.orange{background:var(--wash);border-color:var(--orange-soft);border-left:4px solid var(--orange);}
-  .note strong{display:block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;}
-  .note.yellow strong,.note.orange strong{color:var(--orange);}
-  .flow{margin-top:10px;}
-  .step{display:flex;gap:15px;position:relative;padding:10px 0;}
-  .step:not(:last-child)::after{content:"";position:absolute;left:21px;top:48px;bottom:-10px;width:2px;background:linear-gradient(var(--yellow),var(--orange-soft));}
-  .dot{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-weight:800;font-size:15px;color:var(--ink);background:var(--yellow-soft);border:2px solid var(--yellow);box-shadow:var(--shadow);}
-  .dot.gate{background:var(--orange-soft);border-color:var(--orange);}
-  .step-body{padding-top:2px;}
-  .step-body h3{margin:0 0 3px;font-size:15.5px;}
-  .step-body p{margin:0 0 5px;color:var(--muted);font-size:14.5px;}
-  .step-body ul{margin:4px 0 0;padding-left:18px;}
-  .step-body li{font-size:14px;}
-  .outfile{border:1px solid var(--line);border-radius:11px;padding:12px 16px;background:var(--paper);box-shadow:var(--shadow);margin:12px 0;}
-  .outfile .f{margin-bottom:3px;}
-  .outfile p{margin:0;font-size:14px;color:var(--muted);}
-  /* persona table */
-  .p-table{width:100%;border-collapse:collapse;margin:16px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:13.5px;}
-  .p-table th{text-align:left;padding:9px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--cream);border-bottom:2px solid var(--line);}
-  .p-table td{padding:9px 13px;border-bottom:1px solid var(--line);vertical-align:top;}
-  .p-table tr:last-child td{border-bottom:none;}
-  .p-table .pname{font-weight:700;color:var(--orange);white-space:nowrap;}
-  /* pick-rule */
-  .pick-table{width:100%;border-collapse:collapse;margin:14px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:14px;}
-  .pick-table th{text-align:left;padding:8px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--cream);border-bottom:2px solid var(--line);}
-  .pick-table td{padding:9px 13px;border-bottom:1px solid var(--line);vertical-align:top;}
-  .pick-table tr:last-child td{border-bottom:none;}
-  .pick-table .topic{font-weight:600;color:var(--ink);}
-  footer{padding:32px 0 52px;color:var(--muted);font-size:13px;}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:730px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;} .mem ul{margin:6px 0 6px;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .note.red{border-left-color:var(--red-ink); background:var(--red);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+  .tag.r{color:var(--red-ink);}
+
+  /* step flow */
+  .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
+  .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:18px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow); text-align:center; line-height:1;}
+  .dot.gate{background:var(--orange-soft); border-color:var(--orange);}
+  .step-body h3{margin:4px 0 4px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
+  .step-body ul{margin:6px 0 4px; color:var(--muted); font-size:14.5px;} .step-body ul .file{font-size:11.5px;}
+  .step-body ul .fn{color:var(--ink); font-weight:600;}
+  .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
+  .xref:hover{background:var(--orange-soft);}
+  .phase{font-size:12px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin:26px 0 2px;}
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.gate{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.code{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
+  .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
+  .files .k{font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
+
+  /* cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+  .card .file{margin-top:10px; display:inline-block;}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11.5px;}
+  td b{color:var(--ink);}
+  td .n{font-family:ui-monospace,Menlo,monospace; font-weight:700; color:var(--orange);}
+  .pname{font-weight:700; color:var(--orange); white-space:nowrap;}
+
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
+
+  /* data-structure anatomy */
+  .cardbox{background:var(--paper); border:1px solid var(--line); border-radius:16px; box-shadow:var(--shadow); padding:8px; margin:20px 0;}
+  .field{display:flex; gap:14px; padding:11px 12px; align-items:baseline;}
+  .field+.field{border-top:1px solid var(--line);}
+  .field .fk{flex:none; width:140px; font-family:ui-monospace,Menlo,monospace; font-size:12.5px; font-weight:700; color:var(--orange);}
+  .field .fv{font-size:14.5px; color:var(--muted);}
+  .field .fv b{color:var(--ink);}
+
+  /* two-column compare */
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--yellow-soft); border:2px solid var(--yellow);}
+  .agent.answ .cap{background:var(--blue); border:2px solid var(--blue-line);}
+  .agent h3{margin:0 0 2px; font-size:19px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+  .mem{font-size:14px; padding:9px 12px; border-radius:10px; margin-top:9px;}
+  .mem.yes{background:var(--green); border:1px solid var(--green-line);}
+  .mem.no{background:var(--blue); border:1px solid var(--blue-line);}
+  .mem .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
+  .mem.yes .lbl{color:var(--green-ink);} .mem.no .lbl{color:var(--blue-ink);}
+
+  /* headline stats */
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three{grid-template-columns:1fr;} }
 </style>
 </head>
 <body>
 <header><div class="wrap">
-  <span class="kicker">Content Machine · Stage 0 — Brand Context</span>
+  <span class="kicker">Brand Context · Builder 5 of 7</span>
   <h1>Persona — <span class="hl">who each article is written to</span></h1>
-  <p class="lede">3–4 reader personas defined once per company. Each article is tagged with one. The persona sets the depth, vocabulary, and angle — not who wrote it.</p>
+  <p class="lede">A one-time builder that reads the company's brand-voice document and proposes 3–4 distinct reader personas — the specific buyers each article is pitched at. It saves them as <span class="file">persona.md</span>, the library every later article picks one persona from. Here's exactly how it works, script by script.</p>
 </div></header>
 
 <nav><div class="wrap">
-  <a href="#concept">Concept</a>
-  <a href="#output">Output</a>
-  <a href="#steps">Steps</a>
-  <a href="#example">Real example</a>
-  <a href="#pick">How to pick one</a>
+  <a href="#idea">01 · One idea</a>
+  <a href="#words">02 · Words</a>
+  <a href="#anatomy">03 · Anatomy</a>
+  <a href="#pipeline">04 · Pipeline</a>
+  <a href="#example">05 · Real example</a>
+  <a href="#pick">06 · Pick one</a>
+  <a href="#gate">07 · Gate &amp; iterate</a>
+  <a href="#output">08 · Where it sits</a>
 </div></nav>
 
-<section id="concept">
+<!-- 01 -->
+<section id="idea">
   <div class="wrap">
-    <h2><span class="num">01</span>What a persona is</h2>
-    <p class="sub">A persona is the reader the article targets — not the author. It sets the depth, vocabulary, and angle of the piece.</p>
-    <ul>
-      <li><b>Never name the persona in the article</b> — write so readers feel it's for them without being told</li>
-      <li><b>One article = one persona</b> — if it fits two, pick the one who decides or acts on the topic</li>
-    </ul>
-    <div class="note yellow"><strong>Input</strong>
-    brand-voice.md — specifically the Audience Understanding section, where the primary and secondary audiences are already captured.</div>
-  </div>
-</section>
-
-<section id="output" class="alt">
-  <div class="wrap">
-    <h2><span class="num">02</span>What this produces</h2>
-    <div class="outfile">
-      <div class="f"><span class="file">projects/[company]/content-machine/brand-context/persona.md</span></div>
-      <p>A short doc: one row per persona (name, who they are, what they read, what they care about, how to pitch to them, what would feel off) plus a rule for how to pick the right persona for a given article.</p>
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">A persona is the reader an article targets — not the person who wrote it. It sets the depth, vocabulary, and angle of the piece. This engine defines the whole set once, from what the company already knows about its audience.</p>
+    <div class="grid">
+      <div class="card">
+        <div class="ic">📖</div>
+        <h3>Read what's already known</h3>
+        <p>The audience is already captured in <span class="file">brand-voice.md</span> (builder 1). The engine feeds that whole document to the model — it does not invent readers from thin air.</p>
+      </div>
+      <div class="card">
+        <div class="ic">👥</div>
+        <h3>Split "HR" into real roles</h3>
+        <p>One LLM call returns 3–4 non-overlapping reader sub-personas — a recruiter, a hiring manager, an exec — each with the fields a writer needs to pitch at the right depth.</p>
+      </div>
+      <div class="card">
+        <div class="ic">📝</div>
+        <h3>Save the library in place</h3>
+        <p>The set is assembled into a Markdown table and written straight to <span class="file">persona.md</span>. No separate draft to promote — the <b>git diff</b> is the review surface.</p>
+      </div>
+      <div class="card">
+        <div class="ic">🎯</div>
+        <h3>One persona per article, later</h3>
+        <p>At research time each topic is tagged with exactly one persona from this library. The write phase then targets that same reader.</p>
+      </div>
+    </div>
+    <div class="note orange">
+      <span class="tag">The one rule that governs everything</span>
+      <p style="margin:6px 0 0;">A persona is the <b>READER we write TO — never the author byline.</b> It sets the lens, depth, and angle; it is not a claim about who wrote the piece (the real named author + credentials come from the separate author / E-E-A-T workflow).</p>
+      <ul style="margin:8px 0 0;">
+        <li>Never invent or imply a fake author identity.</li>
+        <li>Picking your own audience (an HR leader, when the company sells to HR leaders) is correct — that's the point.</li>
+        <li>When writing, think about the persona but <b>never name or address them</b> in the article ("as an HR leader, you…"). Naming fences the piece to one reader when others may read it too.</li>
+      </ul>
     </div>
   </div>
 </section>
 
-<section id="steps">
+<!-- 02 -->
+<section id="words" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">03</span>Three steps</h2>
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">Four terms, defined once, used the same way everywhere below.</p>
+    <div class="define"><b>Persona</b> — the specific reader an article is written to (a role + seniority + company size), used to set the piece's depth, vocabulary, and angle. Not the author, and never named inside the article itself.</div>
+    <div class="define"><b>brand-voice.md</b> — the upstream document (builder 1 of this layer) that captures how the company writes and, in its <b>Audience Understanding</b> section, who it sells to. It is the raw material this engine reads.</div>
+    <div class="define"><b>Lifted verbatim</b> — the exact prompt that proposes the personas lives in the recipe file, not in the Python. The orchestrator pulls that block straight out of the Markdown at runtime, so the prompt has one source of truth.</div>
+    <div class="define"><b>Write in place</b> — the engine saves the finished <span class="file">persona.md</span> directly to its real path (no throwaway draft copy). An earlier design wrote a <span class="file">_drafts/</span> copy a human had to promote by hand — that promotion step was forgotten on 5 of 6 builders, so the real file is now written directly and reviewed through git.</div>
+  </div>
+</section>
+
+<!-- 03 -->
+<section id="anatomy">
+  <div class="wrap">
+    <h2><span class="num">03</span>The persona — its six fields</h2>
+    <p class="sub">Every persona is one row with the same six fields, in the order a writer needs them. The model fills each; the code only arranges them into the table.</p>
+    <div class="cardbox">
+      <div class="field"><div class="fk">name</div><div class="fv">A short role label. <b>Example: "TA / Recruiting Practitioner".</b></div></div>
+      <div class="field"><div class="fk">who</div><div class="fv">One line — their role, seniority, and company size. <b>The reader in a sentence.</b></div></div>
+      <div class="field"><div class="fk">reads</div><div class="fv">The kinds of articles this persona is the right reader for. <b>What routes a topic to them.</b></div></div>
+      <div class="field"><div class="fk">cares_about</div><div class="fv">The top 2–3 things they want or decide on. <b>What the piece must pay off.</b></div></div>
+      <div class="field"><div class="fk">depth_and_angle</div><div class="fv">How to pitch to them — vocabulary, depth, and what proof convinces them. <b>The calibration a writer follows.</b></div></div>
+      <div class="field"><div class="fk">not_this</div><div class="fv">What would feel off, too junior, or too generic for them. <b>The line a section must not trip.</b></div></div>
+    </div>
+    <p class="sub" style="margin-top:8px;">Alongside the personas, the same call returns one <b>how_to_pick</b> rule — one or two sentences on choosing the right persona for a given topic (covered in <a class="xref" href="#pick">§06</a>).</p>
+
+    <h3>Who does what: the model judges, the code assembles</h3>
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">🤖</div>
+        <h3>The LLM call</h3>
+        <div class="role">Claude or Codex, headless CLI · one call</div>
+        <p class="muted" style="font-size:14.5px; margin:0;">Reads the whole brand-voice document and returns 3–4 distinct personas + the how_to_pick rule as JSON. This is the judgment step — which readers exist, and how they differ.</p>
+        <div class="mem yes"><span class="lbl">Free · no API key</span><br>Runs on the locally authenticated CLI. Provider is a one-line switch (<span class="file">LLM_PROVIDER</span>, default <b>claude</b>).</div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">⚙️</div>
+        <h3>The orchestrator</h3>
+        <div class="role">run_persona.py · pure assembly</div>
+        <p class="muted" style="font-size:14.5px; margin:0;">Lifts the prompt from the recipe, pastes the brand voice in, then arranges the returned fields into a Markdown table. It invents nothing — every cell comes from the model's JSON.</p>
+        <div class="mem no"><span class="lbl">Deterministic</span><br>Warns if the model returns fewer than 3 or more than 4 personas, and writes the file atomically (temp file, then rename).</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 -->
+<section id="pipeline" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">04</span>The pipeline, step by step</h2>
+    <p class="sub">One command — <span class="file">COMPANY=&lt;slug&gt; python3 scripts/run_persona.py</span> — runs the whole thing. It is a single LLM call wrapped in read, assemble, and save.</p>
     <div class="flow">
+
       <div class="step"><div class="dot">1</div><div class="step-body">
-        <h3>Read brand-voice.md — Audience Understanding section</h3>
-        <p>The raw material is already there. Don't invent personas from scratch.</p>
+        <h3>Read the brand voice <span class="pill free">free</span> <span class="pill code">code</span></h3>
+        <p>Load the upstream document. If it isn't there, the run stops with a clear message — personas derive from it, so there's nothing to do without it.</p>
+        <ul>
+          <li><span class="fn">run_persona.py</span> reads <span class="file">01-brand-context/brand-voice.md</span> in full and pastes it into the prompt's <span class="file">{{BRAND_VOICE}}</span> slot.</li>
+          <li>The Audience Understanding section is the part that matters, but the whole file is fed so the model sees the full voice.</li>
+        </ul>
       </div></div>
+
       <div class="step"><div class="dot">2</div><div class="step-body">
-        <h3>Generate 3–4 distinct reader personas</h3>
-        <p>Run one LLM call with brand-voice.md pasted in. It returns 3–4 non-overlapping personas, each with: name, who they are, what they read, what they care about, how to pitch to them, and what would feel off.</p>
+        <h3>Propose 3–4 personas — one LLM call <span class="pill free">free</span></h3>
+        <p>The one moment of judgment. The prompt is lifted verbatim from the recipe, so the model, not the code, decides which readers exist and how they differ.</p>
+        <ul>
+          <li><span class="fn">run_persona.py → _recipe_prompt()</span> pulls the exact prompt block out of <span class="file">persona.workflow.md</span> with a regex — one source of truth for the prompt.</li>
+          <li><span class="fn">llm.call_json()</span> runs it on <b>Claude or Codex</b> and returns JSON: a <span class="file">personas</span> array + a <span class="file">how_to_pick</span> string. Bad JSON is nudged and re-asked; a hiccuping CLI is retried with backoff.</li>
+          <li><span class="xref" href="#gate">↓ §07 — the gate &amp; the reviewer-notes loop</span></li>
+        </ul>
       </div></div>
-      <div class="step"><div class="dot gate">3</div><div class="step-body">
-        <h3>Show the user and save</h3>
-        <p>User edits/approves the set, then save to <span class="file">projects/[company]/content-machine/brand-context/persona.md</span>.</p>
+
+      <div class="step"><div class="dot">3</div><div class="step-body">
+        <h3>Assemble the table + save <span class="pill code">code</span></h3>
+        <p>Pure assembly — the returned fields are arranged into a Markdown table with the one-rule note on top. Nothing is invented here.</p>
+        <ul>
+          <li>Writes the library to <span class="file">01-brand-context/persona.md</span> (in place) and the raw JSON to <span class="file">_work/persona/personas.json</span>.</li>
+          <li>Both saves route through an atomic write (temp file, then rename), so a crash never leaves a half-written file.</li>
+          <li>If <span class="file">how_to_pick</span> comes back as an object or list instead of a string, it's flattened to bullets before writing.</li>
+          <li><span class="xref" href="#example">↓ §05 — the real table it produces</span></li>
+        </ul>
       </div></div>
+
+      <div class="step"><div class="dot gate">4</div><div class="step-body">
+        <h3>Human gate — review the diff <span class="pill gate">gate</span></h3>
+        <p>The one human step. Because the file is written in place, reviewing means reading <b>git diff</b> on <span class="file">persona.md</span> and editing directly — merge duplicates, sharpen a "not_this", drop or add a persona.</p>
+        <ul>
+          <li>No separate draft to promote. The edited file is the deliverable.</li>
+          <li>To re-run with fixes folded into the prompt, use <span class="file">--notes-file</span> <span class="xref" href="#gate">↓ §07</span>.</li>
+        </ul>
+      </div></div>
+
     </div>
   </div>
 </section>
 
-<section id="example" class="alt">
+<!-- 05 -->
+<section id="example">
   <div class="wrap">
-    <h2><span class="num">04</span>Real example — one persona</h2>
-    <p class="sub">From the actual Testlify persona.md:</p>
-    <div style="margin:16px 0;border:1px solid var(--line);border-radius:11px;padding:14px 16px;background:var(--paper);box-shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);">
-      <div style="font-weight:700;color:var(--orange);margin-bottom:8px;">TA / Recruiting Leader</div>
-      <div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px solid var(--line);"><span style="min-width:120px;font-weight:600;font-size:13px;color:var(--muted);flex:none;">Who they are</span><span style="color:var(--ink);">Head of TA or Director of Recruiting; owns the hiring function at mid-market to enterprise</span></div>
-      <div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px solid var(--line);"><span style="min-width:120px;font-weight:600;font-size:13px;color:var(--muted);flex:none;">Reads</span><span style="color:var(--ink);">Recruiting metrics, process, tooling, scaling, time-to-hire and cost-per-hire</span></div>
-      <div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px solid var(--line);"><span style="min-width:120px;font-weight:600;font-size:13px;color:var(--muted);flex:none;">Cares about</span><span style="color:var(--ink);">Speed + quality at scale, proving ROI, defensible process</span></div>
-      <div style="display:flex;gap:10px;padding:6px 0;"><span style="min-width:120px;font-weight:600;font-size:13px;color:var(--muted);flex:none;">Pitch to them</span><span style="color:var(--ink);">Lead with the number/benchmark, then the play. Assume they know the basics.</span></div>
-    </div>
-  </div>
-</section>
-
-<section id="pick">
-  <div class="wrap">
-    <h2><span class="num">05</span>How to pick one per article</h2>
-    <p class="sub">Match the article's topic to the persona who'd actually read it. One article, one persona.</p>
-    <table style="width:100%;border-collapse:collapse;margin:14px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);font-size:14px;">
-      <tr style="background:var(--cream);"><th style="text-align:left;padding:8px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:2px solid var(--line);">Article topic / intent</th><th style="text-align:left;padding:8px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:2px solid var(--line);">Right persona</th></tr>
-      <tr><td style="padding:9px 13px;border-bottom:1px solid var(--line);font-weight:600;">Strategy, business case, compliance, cost at scale</td><td style="padding:9px 13px;border-bottom:1px solid var(--line);">Executive / CHRO</td></tr>
-      <tr><td style="padding:9px 13px;border-bottom:1px solid var(--line);font-weight:600;">Metrics, process, tooling, scaling</td><td style="padding:9px 13px;border-bottom:1px solid var(--line);">TA / Recruiting Leader</td></tr>
-      <tr><td style="padding:9px 13px;border-bottom:1px solid var(--line);font-weight:600;">Hands-on screening, templates, "what to look for"</td><td style="padding:9px 13px;border-bottom:1px solid var(--line);">Recruiter / TA Specialist</td></tr>
-      <tr><td style="padding:9px 13px;font-weight:600;">Assessing for a specific role or skill</td><td style="padding:9px 13px;">Hiring Manager</td></tr>
+    <h2><span class="num">05</span>Real example — Testlify's four personas</h2>
+    <p class="sub">The actual <span class="file">projects/testlify/01-brand-context/persona.md</span>, trimmed to two of its six columns so it fits. Real data.</p>
+    <table>
+      <tr><th>Persona</th><th>Who they are</th><th>Depth &amp; angle to pitch at</th></tr>
+      <tr>
+        <td class="pname">TA / Recruiting Practitioner</td>
+        <td>In-house recruiter or TA specialist, IC to team lead, SMB through enterprise, screening high volumes.</td>
+        <td>Peer-to-peer coach register, second person, hands-on. Convince with exact operational numbers and a runnable step list.</td>
+      </tr>
+      <tr>
+        <td class="pname">Hiring Manager (non-HR-native)</td>
+        <td>A functional lead — engineering manager, ops supervisor, trades manager — who owns one role's hire. Hiring is not their day job.</td>
+        <td>Their trade's language, role-specific examples, terms defined in passing. Convince with job-realistic proof of what the test asks.</td>
+      </tr>
+      <tr>
+        <td class="pname">HR / Talent-Management Leader</td>
+        <td>HR manager to head of people, mid-to-large company, running talent reviews, succession, retention beyond hiring.</td>
+        <td>Question-led, stat-backed, both-sides-honest. Convince with named research (Gallup, McKinsey, PwC) and frameworks they can present internally.</td>
+      </tr>
+      <tr>
+        <td class="pname">Executive &amp; Compliance Buyer</td>
+        <td>CHRO, CXO, or legally minded enterprise HR, signing off the purchase and answerable for the selection process.</td>
+        <td>Measured, lawyer-passable language ("reduce bias," never "bias-free"). Convince with certifications, exact commercial terms, and audit-trail specifics.</td>
+      </tr>
     </table>
+    <div class="note">
+      <span class="tag">Note</span>
+      <p style="margin:6px 0 0;">The four are deliberately non-overlapping — each reads a different kind of piece. Two personas that read the same articles are one persona, and would be merged at the gate.</p>
+    </div>
   </div>
 </section>
 
-<footer><div class="wrap">Persona · Content Machine Stage 0 · Built once per company. Used to tag every article at research and write time.</div></footer>
+<!-- 06 -->
+<section id="pick" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">06</span>How to pick one per article</h2>
+    <p class="sub">The library ships with a how_to_pick rule: route a topic to whoever decides or acts on it. One article gets exactly one persona. Below is that rule, applied to Testlify's set — real data.</p>
+    <table>
+      <tr><th>Article topic / intent</th><th>Right persona</th></tr>
+      <tr><td><b>Screening, hiring-process, tool-comparison how-tos</b></td><td class="pname">TA / Recruiting Practitioner</td></tr>
+      <tr><td><b>"How to assess for [role/skill]", role interview questions</b></td><td class="pname">Hiring Manager</td></tr>
+      <tr><td><b>Talent reviews, skills gap, workforce strategy</b></td><td class="pname">HR / Talent-Management Leader</td></tr>
+      <tr><td><b>ROI, compliance, security, pricing, buying decisions</b></td><td class="pname">Executive &amp; Compliance Buyer</td></tr>
+    </table>
+    <ul>
+      <li>For a genuinely shared how-to topic, default to the more junior hands-on reader — the numbers still satisfy the senior one.</li>
+      <li>Candidates and test-takers who land on interview-question pages are out of scope — never write to them, even when they dominate the search traffic.</li>
+      <li>After drafting, verify the tag: if any section would trip the chosen persona's <span class="file">not_this</span> line, re-pitch that section or re-tag the article.</li>
+    </ul>
+    <div class="note orange">
+      <span class="tag">Who runs this rule</span>
+      <p style="margin:6px 0 0;">This engine only writes the rule down. Downstream it runs as code:</p>
+      <ul style="margin:8px 0 0;">
+        <li>The research-structure engine's <span class="file">pick_persona.py</span> reads <span class="file">persona.md</span> and picks the ONE persona for each asset, writing it to <span class="file">persona.json</span> and embedding it in the blueprint.</li>
+        <li>The bundle step then <b>reuses</b> that picked persona — single source of truth, never re-picked (see §08).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 07 -->
+<section id="gate">
+  <div class="wrap">
+    <h2><span class="num">07</span>The gate and the iteration loop</h2>
+    <p class="sub">Persona quality is a judgment call, so a human owns the final set — but re-running with feedback is scripted, not manual copy-paste.</p>
+
+    <h3>The review surface is git, not a draft file</h3>
+    <p>Because the run writes <span class="file">persona.md</span> in place, there is no <span class="file">_drafts/</span> copy to promote. Reviewing is reading the change:</p>
+    <ul>
+      <li><span class="file">git diff persona.md</span> shows exactly what the run proposed or changed.</li>
+      <li>Edit the file directly — merge overlapping personas, tighten a <span class="file">not_this</span>, adjust the how_to_pick routing.</li>
+      <li>The edited file is the deliverable; there's no extra step to forget.</li>
+    </ul>
+
+    <h3>Fold review notes back into the prompt</h3>
+    <p>When the set needs a real re-generation (not just a hand edit), pass the reviewer's findings back through the model:</p>
+    <ul>
+      <li><span class="file">COMPANY=&lt;slug&gt; python3 scripts/run_persona.py --notes-file notes.txt</span></li>
+      <li>The orchestrator appends the notes to the prompt under a "REVIEWER FINDINGS — implement each concretely" header, so the next run's personas answer the feedback directly.</li>
+    </ul>
+
+    <div class="note">
+      <span class="tag">Honest status</span>
+      <p style="margin:6px 0 0;">Two doc strings lag the code: the <span class="file">README.md</span> and the <span class="file">run_persona.py</span> header still mention a <span class="file">_drafts/persona-draft.md</span> copy. The authoritative <span class="file">config.py</span> writes <span class="file">persona.md</span> in place, and that is what actually runs — this page follows the code.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 08 -->
+<section id="output" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">08</span>Output, cost, and where it sits</h2>
+    <div class="stats">
+      <div class="stat"><div class="big">$0</div><div class="cap">Free — headless Claude or Codex, no API key</div></div>
+      <div class="stat"><div class="big">1</div><div class="cap">LLM call per run</div></div>
+      <div class="stat"><div class="big">3–4</div><div class="cap">Personas produced</div></div>
+      <div class="stat"><div class="big">1×</div><div class="cap">Built once per company</div></div>
+    </div>
+    <div class="grid" style="margin-top:22px;">
+      <div class="card">
+        <div class="ic">📄</div>
+        <h3>persona.md</h3>
+        <p>The deliverable — one row per persona (the six fields) plus the how-to-pick rule. Written in place.</p>
+        <span class="file">projects/[company]/01-brand-context/persona.md</span>
+      </div>
+      <div class="card">
+        <div class="ic">🗂️</div>
+        <h3>personas.json</h3>
+        <p>The raw model output kept for tracing — every table cell is drawn from here.</p>
+        <span class="file">projects/[company]/01-brand-context/_work/persona/personas.json</span>
+      </div>
+    </div>
+    <div class="note orange">
+      <span class="tag">Where this sits in the bigger machine</span>
+      <ul style="margin:6px 0 0;">
+        <li><b>Upstream:</b> builder 1, <span class="file">brand-voice.md</span> — its Audience Understanding section is the raw material. This is builder 5 of the 7 one-time brand-context builders (facts · voice · style · features · examples · persona · voices).</li>
+        <li><b>Downstream:</b> the research-structure engine picks one persona from this library per asset and <b>embeds it in the blueprint</b>; the research-conductor bundle reuses that same pick and hands it to the write phase. One reader, decided once, carried all the way through.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">Persona · Brand-Context builder 5 · architecture overview · read brand-voice → propose 3–4 readers → assemble the table → review the diff → every later article picks one.</div></footer>
 </body>
 </html>

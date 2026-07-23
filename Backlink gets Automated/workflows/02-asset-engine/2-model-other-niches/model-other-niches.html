@@ -3,13 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Model Other Niches — Idea Backlog Method 2</title>
+<title>Model Other Niches — Asset Engine Method 2</title>
 <style>
   :root{
     --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
     --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
     --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
     --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
     --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
   }
   *{box-sizing:border-box;}
@@ -17,6 +19,7 @@
   body{margin:0; background:var(--paper); color:var(--ink);
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
     line-height:1.62; font-size:16px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
   .wrap{max-width:960px; margin:0 auto; padding:0 28px;}
 
   header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:56px 0 38px;}
@@ -24,7 +27,7 @@
     color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:4px 11px; border-radius:100px; margin-bottom:16px;}
   h1{font-size:clamp(26px,5vw,42px); line-height:1.1; margin:0 0 12px; letter-spacing:-.02em;}
   h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
-  .lede{font-size:18px; color:var(--muted); max-width:660px; margin:0;}
+  .lede{font-size:18px; color:var(--muted); max-width:680px; margin:0;}
 
   nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.93); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
   nav .wrap{display:flex; gap:3px; flex-wrap:wrap; padding:9px 0;}
@@ -35,28 +38,44 @@
   section:last-of-type{border-bottom:none;}
   section.alt{background:var(--cream);}
   h2{font-size:25px; letter-spacing:-.01em; margin:0 0 4px;}
-  h2 .num{color:var(--orange); margin-right:9px;}
-  .sub{color:var(--muted); margin:0 0 24px; font-size:16px; max-width:700px;}
+  h2 .num{color:var(--orange); margin-right:9px; font-variant-numeric:tabular-nums;}
+  .sub{color:var(--muted); margin:0 0 24px; font-size:16px; max-width:720px;}
   h3{font-size:16.5px; margin:22px 0 7px;}
   p{margin:0 0 12px;}
   ul{margin:6px 0 12px; padding-left:20px;}
   li{margin:4px 0; font-size:15px; color:var(--muted);}
   li b{color:var(--ink);}
+  .muted{color:var(--muted);}
 
   .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:11.5px; background:#fff;
-    border:1px solid var(--orange-soft); border-radius:5px; padding:2px 6px; color:var(--ink);}
+    border:1px solid var(--orange-soft); border-radius:5px; padding:2px 6px; color:var(--ink); white-space:nowrap;}
 
   .note{border-radius:11px; padding:13px 16px; margin:14px 0; font-size:14.5px; border:1px solid;}
   .note.yellow{background:var(--cream); border-color:var(--line); border-left:4px solid var(--yellow);}
   .note.orange{background:var(--wash); border-color:var(--orange-soft); border-left:4px solid var(--orange);}
   .note.green{background:var(--green); border-color:var(--green-line); border-left:4px solid var(--green-ink);}
+  .note.blue{background:var(--blue); border-color:var(--blue-line); border-left:4px solid var(--blue-ink);}
   .note strong{display:block; font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; margin-bottom:3px;}
   .note.yellow strong,.note.orange strong{color:var(--orange);}
   .note.green strong{color:var(--green-ink);}
+  .note.blue strong{color:var(--blue-ink);}
+  .note ul{margin:6px 0 2px;} .note li{font-size:14px;}
+
+  /* pills + file rows */
+  .pill{display:inline-block; font-size:11.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:1px 8px; border-radius:100px; margin-left:7px; vertical-align:middle;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.code{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .pill.llm{color:var(--orange); background:var(--wash); border-color:var(--orange-soft);}
+  .pill.gate{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
+  .files .k{font-size:10px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
+  .xref{font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none; white-space:nowrap;}
+  .xref:hover{background:var(--orange-soft);}
+  .phase{font-size:11.5px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin:24px 0 2px;}
 
   .flow{margin-top:10px;}
-  .step{display:flex; gap:15px; position:relative; padding:10px 0;}
-  .step:not(:last-child)::after{content:""; position:absolute; left:21px; top:48px; bottom:-10px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .step{display:flex; gap:15px; position:relative; padding:11px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:21px; top:50px; bottom:-11px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
   .dot{flex:none; width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-weight:800;
     font-size:15px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow);}
   .dot.gate{background:var(--orange-soft); border-color:var(--orange);}
@@ -79,30 +98,38 @@
   .box h3{margin:0 0 5px; font-size:15.5px;}
   .box p{margin:0; font-size:13.5px; color:var(--muted);}
 
-  .swipe-table{width:100%; border-collapse:collapse; margin:14px 0; border-radius:11px; overflow:hidden; border:1px solid var(--line); box-shadow:var(--shadow); font-size:13.5px;}
-  .swipe-table th{text-align:left; padding:8px 12px; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); background:var(--cream); border-bottom:2px solid var(--line);}
-  .swipe-table td{padding:9px 12px; border-bottom:1px solid var(--line); vertical-align:top;}
-  .swipe-table tr:last-child td{border-bottom:none;}
-  .swipe-table .fmt{font-weight:600; color:var(--ink);}
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:12px 16px; margin:12px 0; font-size:14.5px;}
+  .define b{color:var(--orange);}
+
+  table{width:100%; border-collapse:collapse; margin:14px 0; border-radius:11px; overflow:hidden; border:1px solid var(--line); box-shadow:var(--shadow); font-size:13.5px; background:var(--paper);}
+  th{text-align:left; padding:8px 12px; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); background:var(--cream); border-bottom:2px solid var(--line);}
+  td{padding:9px 12px; border-bottom:1px solid var(--line); vertical-align:top;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11px;}
+  td b{color:var(--ink);}
+  .fmt{font-weight:600; color:var(--ink);}
+  .v{font-weight:700; font-size:11.5px; padding:2px 8px; border-radius:100px; white-space:nowrap;}
+  .v.core{color:var(--green-ink); background:var(--green); border:1px solid var(--green-line);}
+  .v.trans{color:#a6791b; background:var(--yellow-soft); border:1px solid var(--yellow);}
+  .v.adj{color:var(--blue-ink); background:var(--blue); border:1px solid var(--blue-line);}
 
   .example{background:var(--paper); border:1px solid var(--line); border-radius:13px; padding:18px 20px; box-shadow:var(--shadow); margin:16px 0;}
   .example .ex-label{font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin-bottom:10px;}
   .example .row{display:flex; gap:10px; padding:8px 0; border-bottom:1px solid var(--line); font-size:14px;}
   .example .row:last-child{border-bottom:none;}
-  .example .key{min-width:130px; font-weight:600; font-size:13px; color:var(--muted); flex:none;}
+  .example .key{min-width:140px; font-weight:600; font-size:12.5px; color:var(--muted); flex:none; text-transform:uppercase; letter-spacing:.04em;}
   .example .val{color:var(--ink);}
 
-  .tests{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:14px 0;}
-  .test{border:1px solid var(--line); border-radius:11px; padding:14px 16px; background:var(--paper); box-shadow:var(--shadow);}
-  .test h3{margin:0 0 8px; font-size:15px;}
-  .test ul{margin:0; padding-left:18px;}
-  .test li{font-size:13.5px; margin:4px 0;}
+  .tests,.scores{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:14px 0;}
+  .test,.score{border:1px solid var(--line); border-radius:11px; padding:14px 16px; background:var(--paper); box-shadow:var(--shadow);}
+  .test h3,.score h3{margin:0 0 8px; font-size:15px;}
+  .test ul,.score ul{margin:0; padding-left:18px;}
+  .test li,.score li{font-size:13.5px; margin:4px 0;}
 
-  .scores{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:12px 0;}
-  .score{border:1px solid var(--line); border-radius:11px; padding:14px 16px; background:var(--paper); box-shadow:var(--shadow);}
-  .score h3{margin:0 0 8px; font-size:15px;}
-  .score ul{margin:0; padding-left:18px;}
-  .score li{font-size:13.5px; margin:4px 0;}
+  .stats{display:flex; gap:12px; flex-wrap:wrap; margin:18px 0;}
+  .stat{flex:1; min-width:130px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:12px; padding:14px 16px;}
+  .stat .big{font-size:26px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:12.5px; color:var(--muted);}
 
   footer{padding:32px 0 52px; color:var(--muted); font-size:13px;}
   @media(max-width:700px){.two,.tests,.scores{grid-template-columns:1fr;}}
@@ -112,165 +139,278 @@
 
 <header>
   <div class="wrap">
-    <span class="kicker">Asset Engine · Idea Backlog · Method 2 of 3</span>
+    <span class="kicker">Asset Engine · Method 2 of 3 · scripted A→E</span>
     <h1>Model Other Niches — <span class="hl">import formats competitors don't have yet</span></h1>
-    <p class="lede">Many link-bait formats work across any niche — calculators, indices, generators, awards.
-    If a format pulled huge links in finance or real estate but no competitor in our niche has built one,
-    that's a fresh, ownable link magnet.</p>
+    <p class="lede">Many link-bait formats work in <i>any</i> niche — calculators, indices, generators, awards.
+    If a format pulled huge links in finance or real estate but no competitor in our niche has built one, that's
+    a fresh, ownable link magnet. This is a resumable five-step pipeline (<span class="file">run_model_niches.py</span>,
+    no API, no gates) that now obeys the same <b>format-honesty</b> rules as Method 1 — and feeds the merge.</p>
   </div>
 </header>
 
 <nav>
   <div class="wrap">
-    <a href="#concept">Concept</a>
-    <a href="#output">Output</a>
-    <a href="#step-a">A — Swipe library</a>
-    <a href="#step-b">B — Adaptations</a>
-    <a href="#step-c">C — Filter</a>
-    <a href="#step-d">D — Score</a>
-    <a href="#step-e">E — Deliver</a>
+    <a href="#idea">01 The idea</a>
+    <a href="#words">02 Words</a>
+    <a href="#runs">03 How it runs</a>
+    <a href="#pipeline">04 Pipeline</a>
+    <a href="#swipe">05 Swipe library</a>
+    <a href="#adapt">06 Adapt + honesty</a>
+    <a href="#gate">07 Gate + score</a>
+    <a href="#output">08 Output</a>
   </div>
 </nav>
 
-<!-- CONCEPT -->
-<section id="concept">
+<!-- 01 THE IDEA -->
+<section id="idea">
   <div class="wrap">
-    <h2><span class="num">01</span>What this fills that Method 1 can't</h2>
-    <p class="sub">Method 1 finds formats that already work inside our niche. Method 2 finds formats
-    that work elsewhere but haven't arrived in our niche yet.</p>
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">Method 1 finds formats that already work <b>inside</b> our niche. Method 2 finds formats that
+    work <b>elsewhere</b> but haven't arrived here yet — then adapts them to a subject we can credibly own.</p>
     <div class="two">
       <div class="box">
         <div class="label">Method 1 — Competitor Study</div>
         <h3>What's working inside the niche</h3>
-        <p>Highest confidence — backed by competitors' actual backlink data. Lower novelty.</p>
+        <p>Highest confidence — backed by competitors' real backlink data. Lower novelty.</p>
       </div>
       <div class="box accent">
         <div class="label">Method 2 — Model Other Niches</div>
         <h3>What's working elsewhere but not here yet</h3>
-        <p>Higher novelty — these formats haven't been tried in our niche. Lower certainty until validated in Step C. That's the intended trade-off.</p>
+        <p>Higher novelty — these formats haven't been tried in our niche. Lower certainty until validated later. That's the intended trade-off: Method 2's job is <b>volume + novelty</b>, not pre-validation.</p>
       </div>
     </div>
-    <div class="note yellow"><strong>Fully agent-doable</strong>
-    No Semrush export, no user login required. The agent builds the swipe library, generates adaptations, and filters them in one pass. The in-niche overlap check (does Method 1 already cover this format?) happens at the cross-method merge — not here.</div>
-  </div>
-</section>
 
-<!-- OUTPUT -->
-<section id="output" class="alt">
-  <div class="wrap">
-    <h2><span class="num">02</span>What this produces</h2>
-    <p class="sub">Three files under <span class="file">projects/[company]/asset-engine/model-other-niches/output/</span>.</p>
-    <div class="outfiles">
-      <div class="outfile">
-        <div class="f"><span class="file">format-swipe.md</span></div>
-        <p>The library of proven cross-niche formats, pre-screened to the ones we can plausibly point at an in-scope subject. Columns: Format · Real example(s) · Headline template · Why it earns links · In-scope subject · Brand fit.</p>
-      </div>
-      <div class="outfile">
-        <div class="f"><span class="file">model-other-niches-ideas.csv</span></div>
-        <p>The adaptations that survived the filter. Same 12-column schema as Method 1 so all three methods merge cleanly: Idea # | Method | Brand fit | Asset | Format | Our topic | Distinct angle | Source niche | Evidence URLs | Beatability | Effort | Notes.</p>
-      </div>
-      <div class="outfile">
-        <div class="f"><span class="file">RUN-LOG-problems.md</span></div>
-        <p>Every format or idea dropped, with the reason. Makes the cut auditable.</p>
-      </div>
-    </div>
-    <div class="note orange"><strong>No Build window column here</strong>
-    Build window (NOW/LATER) is set at the cross-method merge when all three pools compete for the same capacity. Setting it per-method would bias the final selection.</div>
-  </div>
-</section>
-
-<!-- STEP A -->
-<section id="step-a">
-  <div class="wrap">
-    <h2><span class="num">A</span>Build the swipe library</h2>
-    <p class="sub">A swipe library is a menu of formats that already earn links — the shape of the asset,
-    not its subject. Built from two sources, then pre-screened against the brand scope.</p>
-
-    <div class="flow">
-      <div class="step"><div class="dot">0</div><div class="step-body">
-        <h3>Load the brand scope</h3>
-        <p>Load <span class="file">competitor-study/output/brand-scope.md</span> — the same anchor built in Method 1's G0. All three methods judge against the same reference. If Method 1 hasn't run, build brand-scope.md from the brand brain now and get user approval first.</p>
-      </div></div>
-      <div class="step"><div class="dot">1</div><div class="step-body">
-        <h3>Source 1 — the proven-formats table (below)</h3>
-        <p>~20 format families from 75 real link-bait pieces. Read every row. Carry it forward as-is: Format · Real example(s) · Headline template · Why it earns links. Nothing rewritten.</p>
-      </div></div>
-      <div class="step"><div class="dot">2</div><div class="step-body">
-        <h3>Source 2 — agent knowledge (3–5 additions)</h3>
-        <p>Recall famous link-magnet formats not already in the table that (a) earned backlinks, not just traffic, and (b) worked across multiple niches. For each, supply the same four fields. No named real example = drop the format.</p>
-      </div></div>
-      <div class="step"><div class="dot">3</div><div class="step-body">
-        <h3>Pre-screen each format on brand fit</h3>
-        <p>For each format: <i>can this be pointed at a subject inside our brand scope?</i> If the obvious subject is off-brand, look for an in-scope subject the same shape could serve before dropping. Drop only formats with no imaginable in-scope subject — log the reason.</p>
-        <p>For each surviving format, add: <b>In-scope subject</b> (a nameable subject a writer could build on) and a rough <b>Brand fit</b> tag (CORE / TRANSPLANT / ADJACENT). Step C sets the authoritative tag.</p>
-      </div></div>
-      <div class="step"><div class="dot gate">4</div><div class="step-body">
-        <h3>Write format-swipe.md</h3>
-        <p>Pure assembly — one table row per surviving format using the fields from steps 1–3. This file is the input to Step B.</p>
-      </div></div>
-    </div>
-
-    <h3>The proven-formats table (Source 1)</h3>
-    <table class="swipe-table">
-      <tr><th>Format</th><th>Real example(s)</th><th>Headline template</th><th>Why it earns links</th></tr>
-      <tr><td class="fmt">Calculator</td><td>NerdWallet Mortgage Calculator, HubSpot ROI Calculator</td><td>"[Question]? [Free Calculator]"</td><td>Utility — cited as "see how much it costs"</td></tr>
-      <tr><td class="fmt">Branded index</td><td>Big Mac Index, Misery Index</td><td>"The [Topic] Index"</td><td>Data — recurring; journalists cite it by name</td></tr>
-      <tr><td class="fmt">Original research</td><td>Backlinko: We Analyzed 11.8M Google Search Results</td><td>"We Analyzed [#] [Topic]. Here's What We Learned"</td><td>Data (original) — most-cited format there is</td></tr>
-      <tr><td class="fmt">Statistics roundup</td><td>161 Cybersecurity Statistics & Trends</td><td>"# [Topic] Statistics [Year]"</td><td>Reference — writers grab a stat and link the source</td></tr>
-      <tr><td class="fmt">Benchmark / grader</td><td>HubSpot Website Grader</td><td>"How does your [Topic] compare?"</td><td>Utility — personalised score, shareable</td></tr>
-      <tr><td class="fmt">Best-of award + badge</td><td>Best Places to Work</td><td>"Best [Group] for [Topic]"</td><td>Ego-bait — winners embed a badge that links back</td></tr>
-      <tr><td class="fmt">Definitive guide + template</td><td>On-Page SEO: The Definitive Guide + FREE Template</td><td>"[Topic]: The Definitive Guide + FREE Template [Year]"</td><td>Reference — canonical link for the topic</td></tr>
-      <tr><td class="fmt">Glossary</td><td>37 Must-Know Golf Terms, Poker Terminology</td><td>"[Topic] Terms and Definitions"</td><td>Reference — definitional pages attract citations</td></tr>
-      <tr><td class="fmt">Generator tool</td><td>Business Name Generator, Citation Generator</td><td>"[Topic] Generator"</td><td>Utility — free reusable tool, shareable</td></tr>
-      <tr><td class="fmt">Interactive explainer</td><td>Animagraffs: How a Car Engine Works</td><td>"How [Topic] Works"</td><td>Reference/visual — publishers embed and screenshot</td></tr>
-      <tr><td class="fmt">Quiz / typology</td><td>16Personalities</td><td>"What is Your [Topic]?"</td><td>Novelty — shareable; B2B angle only</td></tr>
-      <tr><td class="fmt">Controversy / opinion</td><td>How Google Is Killing Independent Sites</td><td>"How [Entity] Is [Topic]"</td><td>Emotion — strong opinion drives shares and links</td></tr>
-    </table>
-  </div>
-</section>
-
-<!-- STEP B -->
-<section id="step-b" class="alt">
-  <div class="wrap">
-    <h2><span class="num">B</span>Generate one adaptation per format</h2>
-    <p class="sub">One format row from format-swipe.md → one adaptation. Don't ask for five variations.
-    Most formats yield exactly one strong idea.</p>
-
-    <p>For each swipe row, run a prompt giving the agent: the format shape, headline template, why it earns links, the real example, and the in-scope subject. The agent works in this order — substance before name:</p>
+    <h3>The five moves, end to end</h3>
     <ul>
-      <li><b>Our topic</b> — sharpen the in-scope subject from Step A to a precise, nameable subject grounded in the brand brain</li>
-      <li><b>Distinct angle</b> — one line on what makes our version the link-magnet. Must name the specific product, data, or authority we own. If it could be written without the brand brain, it's too generic — rewrite.</li>
-      <li><b>Asset</b> — only now, a real working title with the angle visible in the name. Never "Format on Topic" glued together.</li>
-      <li><b>What it'd be</b> — 1–2 lines on what the actual asset is, concretely</li>
+      <li><b>Build a swipe library</b> — a menu of proven cross-niche formats (the <i>shape</i>, not the subject).</li>
+      <li><b>Adapt each one</b> to a subject inside our brand scope, naming what we own that lets us win.</li>
+      <li><b>Filter</b> the ideas through the same two tests Methods 1 and 3 use (Ownability + Linkability).</li>
+      <li><b>Score</b> the survivors on Beatability and Effort.</li>
+      <li><b>Deliver</b> one CSV row per idea, in the shared merge schema.</li>
     </ul>
 
-    <div class="example">
-      <div class="ex-label">Example — Cost Calculator format adapted for a hiring-tech company</div>
-      <div class="row"><span class="key">Our topic</span><span class="val">Cost of a mis-hire (salary + recruiting + ramp + productivity loss)</span></div>
-      <div class="row"><span class="key">Distinct angle</span><span class="val">Live calculation on our anonymised customer cost data with a per-role breakdown — competitors use generic Glassdoor averages</span></div>
-      <div class="row"><span class="key">Asset</span><span class="val">Bad-Hire Cost Calculator (per-role, on real customer cost data)</span></div>
-      <div class="row"><span class="key">What it'd be</span><span class="val">4-input form (role, salary, location, ramp months) → live cost output + sourced formula + sharable PDF</span></div>
+    <div class="note orange"><strong>The one rule — format honesty</strong>
+    An imported format is only allowed if we stay honest about it, exactly as Method 1 requires:
+    <ul>
+      <li>The <b>Asset</b> title carries <b>no shape-words</b> (Calculator, Quiz, Generator, Interactive, Index…) — subject + angle only.</li>
+      <li>The <b>Distinct angle</b> is a content-gap deliverable from what we genuinely own or from public sources — never "add a tool", never invented data.</li>
+      <li>Anything that needs a real build (an interactive tool, our own original data, new primary research) is <b>flagged in <span class="file">Tool escalation</span></b>, never hidden — so the write phase can pick the desk-doable ideas and route the genuine builds to a human.</li>
+    </ul></div>
+  </div>
+</section>
+
+<!-- 02 WORDS -->
+<section id="words" class="alt">
+  <div class="wrap">
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">Six terms this engine leans on. Defined once here, used the same way throughout.</p>
+    <div class="define"><b>Swipe library</b> — a menu of formats that already earn links: the <i>shape</i> of an asset (a calculator, an index, a glossary), not its subject. Built once at Step A.</div>
+    <div class="define"><b>Brand scope</b> — the shared ownership anchor <span class="file">brand-scope.md</span>, built in Method 1. Every idea is judged CORE / TRANSPLANT / ADJACENT against this one file, so all three methods judge identically.</div>
+    <div class="define"><b>CORE / TRANSPLANT / ADJACENT</b> — the brand-fit verdict. CORE = squarely ours; TRANSPLANT = an off-brand format re-pointed at an in-scope subject; ADJACENT = a maybe, on the edge of scope.</div>
+    <div class="define"><b>Format honesty</b> — copy the real format truthfully: the title hides no shape-word, and a genuine build is flagged rather than dressed up as a desk article. The same rule Method 1 enforces.</div>
+    <div class="define"><b>Tool escalation</b> — a per-idea flag: empty if a writer could ship it from public sources; otherwise one line naming what it really needs (an interactive calculator, our own survey data, new primary research).</div>
+    <div class="define"><b>Beatability</b> — how easy it is to make the asset itself link-worthy (1–3). Method 2 has no in-niche competitor page to measure against, so this scores the build, not a rival.</div>
+  </div>
+</section>
+
+<!-- 03 HOW IT RUNS -->
+<section id="runs">
+  <div class="wrap">
+    <h2><span class="num">03</span>How it runs — one command, five scripts</h2>
+    <p class="sub">A scripted pipeline, not an agent improvising. One resumable entry point runs steps A→E; each step is
+    a script that writes one named file the next step reads. The LLM is confined to the judgment steps.</p>
+
+    <p><span class="file">python run_model_niches.py --company &lt;slug&gt;</span> — resumable: a step whose output
+    file already exists is skipped, unless <span class="file">--redo</span> (all) or <span class="file">--from C</span>
+    (that step onward) forces it. No paid API. No human gates — Method 2 is fully agent-doable (the LLM <i>is</i>
+    the research tool). All LLM calls run free on the headless Claude or Codex CLI.</p>
+
+    <h3>The shared skeleton</h3>
+    <table>
+      <tr><th>File</th><th>What it holds</th></tr>
+      <tr><td><span class="file">run_model_niches.py</span></td><td>The orchestrator. Pure sequencing — calls each step in order, skips cached ones, prints <span class="file">== A swipe library — running ==</span> as it goes.</td></tr>
+      <tr><td><span class="file">scripts/config.py</span></td><td>Every path + knob from one anchor. Company is one setting. Knobs: <span class="file">EXTRA_FORMATS=5</span> (A2 additions), <span class="file">ADAPT_WORKERS=6</span> (Step B parallelism), <span class="file">LINKABILITY_MIN=3</span> (Step C pass bar).</td></tr>
+      <tr><td><span class="file">_shared/llm.py</span></td><td>The one AI caller — <span class="file">call_json()</span> parses JSON tolerantly and re-asks once on a parse failure; <span class="file">load_prompt()</span> reads a file from <span class="file">prompts/</span>.</td></tr>
+      <tr><td><span class="file">prompts/*.md</span></td><td>One file per LLM call: <span class="file">a2-extra-formats</span> · <span class="file">a3-prescreen</span> · <span class="file">b-adapt</span> · <span class="file">c-filter</span> · <span class="file">d-score</span>. No prompt is inlined in code.</td></tr>
+    </table>
+
+    <div class="note blue"><strong>What's code vs what's the LLM</strong>
+    <ul>
+      <li><b>Pure code</b> — parsing the proven-formats table (A1), assembling the swipe file (A4), and building the deliverable CSV (Step E). Deterministic, no model.</li>
+      <li><b>LLM judgment</b> — adding extra formats (A2), the brand-fit pre-screen (A3), the adaptations (B), the Ownability + Linkability gate (C), and the scoring (D).</li>
+    </ul></div>
+  </div>
+</section>
+
+<!-- 04 PIPELINE -->
+<section id="pipeline" class="alt">
+  <div class="wrap">
+    <h2><span class="num">04</span>The pipeline, step by step</h2>
+    <p class="sub">Five steps, A→E. Each names its script and the file it writes — the next step reads that file.</p>
+
+    <div class="phase">Gather</div>
+    <div class="flow">
+      <div class="step"><div class="dot">A</div><div class="step-body">
+        <h3>Build the swipe library <span class="pill free">free</span></h3>
+        <p>A1 parses the proven-formats table from the recipe (deterministic, 19 rows). A2 has the LLM add ~5 more famous formats. A3 pre-screens every format on brand fit vs <span class="file">brand-scope.md</span>, with a mandatory transplant check before any drop. A4 assembles the survivors.</p>
+        <ul>
+          <li><span class="file">scripts/step_a_swipe.py</span> → <span class="file">_work/swipe.json</span> + <span class="file">output/format-swipe.md</span>; drops logged to <span class="file">_work/run-log.md</span></li>
+        </ul>
+        <a class="xref" href="#swipe">↓ 05 — the swipe library</a>
+      </div></div>
+
+      <div class="step"><div class="dot">B</div><div class="step-body">
+        <h3>Adapt each format to our brand <span class="pill llm">LLM</span></h3>
+        <p>One adaptation per surviving format (6 in parallel). The prompt returns, in causal order: our topic → distinct angle → asset name → tool-escalation flag → headline → what it'd be. This is where the format-honesty rules bite.</p>
+        <ul>
+          <li><span class="file">scripts/step_b_adapt.py</span> reads <span class="file">swipe.json</span> → <span class="file">_work/adaptations.json</span></li>
+        </ul>
+        <a class="xref" href="#adapt">↓ 06 — adapt + format honesty</a>
+      </div></div>
+    </div>
+
+    <div class="phase">Cut &amp; grade</div>
+    <div class="flow">
+      <div class="step"><div class="dot gate">C</div><div class="step-body">
+        <h3>Filter — the real scored gate <span class="pill gate">gate</span></h3>
+        <p>The same two tests Methods 1 and 3 use, against the same brand scope: Ownability (CORE/TRANSPLANT/ADJACENT, transplant check before dropping) and Linkability (4 questions, needs ≥3). The brand-fit decided here is the authoritative one; every drop is logged.</p>
+        <ul>
+          <li><span class="file">scripts/step_c_filter.py</span> reads <span class="file">adaptations.json</span> → <span class="file">_work/filtered.json</span></li>
+        </ul>
+        <a class="xref" href="#gate">↓ 07 — the gate + scoring</a>
+      </div></div>
+
+      <div class="step"><div class="dot">D</div><div class="step-body">
+        <h3>Score the survivors <span class="pill llm">LLM</span></h3>
+        <p>One batched call scores each survivor on Beatability (1–3) and Effort (S/M/L), the same scales as Method 1.</p>
+        <ul>
+          <li><span class="file">scripts/step_d_score.py</span> reads <span class="file">filtered.json</span> → <span class="file">_work/scored.json</span></li>
+        </ul>
+        <a class="xref" href="#gate">↓ 07 — the gate + scoring</a>
+      </div></div>
+    </div>
+
+    <div class="phase">Deliver</div>
+    <div class="flow">
+      <div class="step"><div class="dot">E</div><div class="step-body">
+        <h3>Assemble the deliverable <span class="pill code">code</span></h3>
+        <p>Pure assembly — no LLM. Every cell traces to an earlier step. Ideas are numbered <span class="file">M2-001…</span>, sorted Brand fit (CORE→TRANSPLANT→ADJACENT) → Evidence × Beatability desc → Effort (S first).</p>
+        <ul>
+          <li><span class="file">scripts/step_e_deliver.py</span> reads <span class="file">scored.json</span> → <span class="file">output/model-other-niches-ideas.csv</span></li>
+        </ul>
+        <a class="xref" href="#output">↓ 08 — the output</a>
+      </div></div>
     </div>
   </div>
 </section>
 
-<!-- STEP C -->
-<section id="step-c">
+<!-- 05 SWIPE LIBRARY -->
+<section id="swipe">
   <div class="wrap">
-    <h2><span class="num">C</span>Filter — the real scored gate</h2>
-    <p class="sub">Step A pre-screened formats lightly. Step C filters real adapted ideas against the same
-    two tests Methods 1 and 3 use. Expect to drop a material chunk — that's the filter working. Expect
-    8–20 surviving ideas, not 50.</p>
+    <h2><span class="num">05</span>Step A — the swipe library</h2>
+    <p class="sub">A swipe library is a menu of formats that already earn links — the shape, not the subject. Built
+    from two sources, then lightly pre-screened against the brand scope. Each cell in the file traces to a step,
+    so A4 is pure assembly with nothing invented.</p>
+
+    <table>
+      <tr><th>swipe.json field</th><th>Filled by</th><th>How</th></tr>
+      <tr><td><b>Format · Real example · Headline template · Why it earns links</b></td><td>A1 / A2</td><td>lifted verbatim (A1 from the recipe table; A2 from the LLM's own knowledge)</td></tr>
+      <tr><td><b>In-scope subject</b></td><td>A3</td><td>the pre-screen decision — a nameable subject inside scope</td></tr>
+      <tr><td><b>Brand fit</b></td><td>A3</td><td>a rough CORE/TRANSPLANT/ADJACENT tag — Step C sets the authoritative one</td></tr>
+    </table>
+
+    <div class="note yellow"><strong>Pre-screen early, cut hard later</strong>
+    A3 is deliberately light — it judges a bare format with no subject yet, so a hard "do we have an unfair
+    advantage" test would be guesswork. The transplant check is mandatory before any drop: if a format's obvious
+    subject is off-brand, look for an in-scope subject the same shape could serve. Only a format with no imaginable
+    in-scope subject is dropped. On the real Testlify run, A3 dropped 0 of 24 — the real cut is Step C.</div>
+
+    <h3>The proven-formats table (Source 1)</h3>
+    <p class="muted" style="font-size:14px;">~19 format families distilled from 75 real link-bait pieces. This table lives in the recipe MD and is the single source of truth for it; <span class="file">step_a_swipe.py</span> parses it directly. A2 concatenates ~5 more from the LLM's knowledge onto it.</p>
+    <table>
+      <tr><th>Format</th><th>Real example(s)</th><th>Headline template</th><th>Why it earns links</th></tr>
+      <tr><td class="fmt">Calculator</td><td>Compound Interest / Mortgage Calculator</td><td>[Question]? [Free Calculator]</td><td>Utility — "see how much it costs"</td></tr>
+      <tr><td class="fmt">Branded index</td><td>Big Mac Index, Misery Index</td><td>The [Topic] Index</td><td>Data — cited by name, recurring</td></tr>
+      <tr><td class="fmt">Original research</td><td>Backlinko: We Analyzed 11.8M Search Results</td><td>We Analyzed [#] [Topic]…</td><td>Data (original) — most-cited format there is</td></tr>
+      <tr><td class="fmt">Statistics roundup</td><td>161 Cybersecurity Statistics &amp; Trends</td><td># [Topic] Statistics [Year]</td><td>Reference — writers grab a stat, link the source</td></tr>
+      <tr><td class="fmt">Benchmark / grader</td><td>HubSpot Website Grader</td><td>How does your [Topic] compare?</td><td>Utility — personalised score, shareable</td></tr>
+      <tr><td class="fmt">Best-of award + badge</td><td>Best Places to Work</td><td>Best [Group] for [Topic]</td><td>Ego-bait — winners embed a link-back badge</td></tr>
+      <tr><td class="fmt">Definitive guide + template</td><td>On-Page SEO: The Definitive Guide + Template</td><td>[Topic]: The Definitive Guide + Template</td><td>Reference — the canonical link</td></tr>
+      <tr><td class="fmt">Glossary</td><td>37 Must-Know Golf Terms, Poker Terminology</td><td>[Topic] Terms and Definitions</td><td>Reference — definitional pages attract citations</td></tr>
+      <tr><td class="fmt">Generator tool</td><td>Business Name Generator</td><td>[Topic] Generator</td><td>Utility — free reusable tool</td></tr>
+      <tr><td class="fmt">Interactive explainer</td><td>Animagraffs: How a Car Engine Works</td><td>How [Topic] Works</td><td>Reference/visual — publishers embed &amp; screenshot</td></tr>
+      <tr><td class="fmt">Quiz / typology</td><td>16Personalities</td><td>What is Your [Topic]?</td><td>Novelty — shareable; B2B angle only</td></tr>
+      <tr><td class="fmt">Controversy / opinion</td><td>How Google Is Killing Independent Sites</td><td>How [Entity] Is [Topic]</td><td>Emotion — strong opinion drives shares + links</td></tr>
+    </table>
+    <p class="muted" style="font-size:13.5px;">Also in the full table: infographic / data-visual, map / geo data viz, "complete list" listicle, recurring rankings, facts listicle, checklist / microsite tool, case study. Formats that need real numbers can pull from a vetted ~100-URL public-data list (data.gov, Pew, FRED, World Bank, OECD…).</p>
+  </div>
+</section>
+
+<!-- 06 ADAPT + HONESTY -->
+<section id="adapt" class="alt">
+  <div class="wrap">
+    <h2><span class="num">06</span>Step B — adapt, honestly</h2>
+    <p class="sub">One swipe row → one adaptation (most formats yield exactly one strong idea, not five). The
+    <span class="file">b-adapt.md</span> prompt returns fields in causal order — substance before the name — and
+    enforces the two format-honesty rules.</p>
+
+    <p>For each row, the prompt is given the format shape, headline template, why it earns links, the real example,
+    the in-scope subject, and the full brand context (brand-scope + brand-voice + features + stats). It returns:</p>
+    <ul>
+      <li><b>Our topic</b> — sharpen A3's in-scope subject to a precise, nameable subject grounded in the brand context.</li>
+      <li><b>Distinct angle</b> — one line on what makes ours the link-magnet. Must name the specific product, data, or authority we own. Anti-generic test: if it could be written without the brand context, it's too generic — rewrite.</li>
+      <li><b>Asset</b> — only now, a real working title, <b>subject + angle, no shape-words</b>. Never "[Format] on [topic]" glued together.</li>
+      <li><b>Tool escalation</b> — empty if a writer could ship it from public sources; else one line naming the build it needs.</li>
+      <li><b>Headline</b> — the published H1 in the brand voice, from the headline template (distinct from the build-name Asset).</li>
+      <li><b>What it'd be</b> — 1–2 lines on the actual asset, concretely.</li>
+    </ul>
+    <p class="muted" style="font-size:14px;"><b>Brand fit is not asked here.</b> A3 set the rough tag; Step C's Ownability test sets the authoritative one — deciding it a third time in B would be wasted motion.</p>
+
+    <div class="note orange"><strong>The format-honesty fix (2026-07-22) — what changed</strong>
+    Method 2 used to force tools dishonestly (a title like "Bad-Hire Cost Calculator" hid that it was a real build).
+    Now the <span class="file">b-adapt.md</span> prompt applies Method 1's rules: <b>no shape-words in the title</b>,
+    the angle is a real content gap, and any genuine build is <b>flagged, not hidden</b>. Two example titles the
+    prompt would produce for the same idea:
+    <ul>
+      <li>❌ old: "Bad-Hire Cost Calculator" — shape-word in the name, build hidden.</li>
+      <li>✅ new: "The Real Cost of a Bad Hire vs. the Cost of Catching Them First" — subject + angle, with <span class="file">Tool escalation</span> = "interactive calculator".</li>
+    </ul></div>
+
+    <div class="example">
+      <div class="ex-label">Real Testlify run — idea M2-001 (Calculator format, needs a build)</div>
+      <div class="row"><span class="key">Our topic</span><span class="val">The true cost of a bad hire, by role and salary band, weighed against the cost of screening them out before the offer</span></div>
+      <div class="row"><span class="key">Distinct angle</span><span class="val">Testlify is the only party that can show the other side of the ledger — its own published credit-based pricing plugged in against the bad-hire cost, producing an exact breakeven number</span></div>
+      <div class="row"><span class="key">Asset (no shape-word)</span><span class="val">The Real Cost of a Bad Hire vs. the Cost of Catching Them First</span></div>
+      <div class="row"><span class="key">Tool escalation</span><span class="val">interactive calculator — takes role, salary, and annual hire volume as inputs, applies the Gallup/SHRM multiplier plus Testlify's credit pricing, outputs a breakeven chart</span></div>
+      <div class="row"><span class="key">Headline</span><span class="val">"What is a bad hire really costing you? Find your breakeven point. [Free Calculator]"</span></div>
+    </div>
+
+    <div class="example">
+      <div class="ex-label">Real Testlify run — idea M2-002 (Statistics roundup, desk-doable)</div>
+      <div class="row"><span class="key">Asset (no shape-word)</span><span class="val">Skills-Based Hiring, By the Numbers: What the Research Says and What Our Assessment Data Shows</span></div>
+      <div class="row"><span class="key">Tool escalation</span><span class="val"><i>(empty)</i> — a writer can ship this from public studies + Testlify's already-published numbers</span></div>
+    </div>
+    <p class="muted" style="font-size:13.5px;">Across the 23 delivered ideas, <b>13 carry a Tool-escalation flag</b> (a genuine build) and 10 are desk-doable — exactly the split the write phase needs to route work correctly.</p>
+  </div>
+</section>
+
+<!-- 07 GATE + SCORE -->
+<section id="gate">
+  <div class="wrap">
+    <h2><span class="num">07</span>Step C + D — the gate and the score</h2>
+    <p class="sub">Step A pre-screened bare formats. Step C is the real gate, run on the ideas now that each has a
+    real subject — the same two tests Methods 1 and 3 use, against the same <span class="file">brand-scope.md</span>.
+    Expect to drop a material chunk. Then Step D scores the survivors.</p>
 
     <div class="tests">
       <div class="test">
         <h3>Test A — Ownability</h3>
         <ul>
           <li>Does it sit inside the brand scope (CORE / TRANSPLANT / ADJACENT)?</li>
-          <li>Does the company have the data, product, or authority to speak credibly on it? The Distinct angle must name a specific one.</li>
+          <li>Does the company have the data, product, or authority to speak credibly on it? The Distinct angle must name a specific one — if it can't, it fails.</li>
           <li>Does building it reinforce the brand?</li>
         </ul>
-        <p style="margin-top:8px; font-size:13.5px; color:var(--muted);">Before dropping an out-of-scope idea, run the transplant check: can the format be pointed at an in-scope subject? If yes, keep as TRANSPLANT. The Ownability verdict here is the authoritative Brand fit tag — it supersedes Step A's rough pre-screen.</p>
+        <p style="margin-top:8px; font-size:13px; color:var(--muted);">Out of scope? Run the transplant check before dropping. This CORE/TRANSPLANT/ADJACENT verdict is the <b>authoritative Brand fit</b> written to the CSV — it supersedes A3's rough tag.</p>
       </div>
       <div class="test">
         <h3>Test B — Linkability</h3>
@@ -278,20 +418,18 @@
           <li>Is there a citable number the asset could produce?</li>
           <li>Would a journalist reference it when writing about the niche?</li>
           <li>Is it evergreen?</li>
-          <li>Does it fit a proven link-bait format? (For Method 2 this is automatically yes — so ≥2 of the other 3 needed.)</li>
+          <li>Does it fit a proven link-bait format? <i>(Method 2 = automatically yes, so ≥2 of the other 3 needed.)</i></li>
         </ul>
-        <p style="margin-top:8px; font-size:13.5px; color:var(--muted);">Needs ≥3 of 4 yes to pass. Log every KEEP / DROP with a one-line reason.</p>
+        <p style="margin-top:8px; font-size:13px; color:var(--muted);">Needs ≥3 of 4 (<span class="file">LINKABILITY_MIN</span>). Every KEEP / DROP / MAYBE logged with a one-line reason in <span class="file">run-log.md</span>.</p>
       </div>
     </div>
-  </div>
-</section>
 
-<!-- STEP D -->
-<section id="step-d" class="alt">
-  <div class="wrap">
-    <h2><span class="num">D</span>Score each surviving idea</h2>
-    <p class="sub">Same scales as Method 1. Method 2 has no in-niche competitor page to measure against,
-    so Beatability scores how easy it is to make the asset itself link-worthy.</p>
+    <div class="note yellow"><strong>Real Testlify drop — what the gate caught</strong>
+    24 adaptations → 23 kept, 1 dropped at Step C: <i>"An Interactive Teardown of Testlify's Video AI Interview"</i>
+    — "reads as a product explainer, no third-party-citable number; journalists cite data, not 'how our tool
+    works'." A clean Linkability failure, exactly the kind the gate exists to catch.</div>
+
+    <h3>Step D — score (same scales as Method 1)</h3>
     <div class="scores">
       <div class="score">
         <h3>Beatability (1–3)</h3>
@@ -313,35 +451,50 @@
   </div>
 </section>
 
-<!-- STEP E -->
-<section id="step-e">
+<!-- 08 OUTPUT -->
+<section id="output" class="alt">
   <div class="wrap">
-    <h2><span class="num">E</span>Write the deliverable</h2>
-    <p class="sub">Output <span class="file">model-other-niches-ideas.csv</span> with all 12 columns.
-    Sorted: Brand fit (CORE → TRANSPLANT → ADJACENT) → Evidence × Beatability desc → Effort (S first).</p>
+    <h2><span class="num">08</span>Output — and where it sits</h2>
+    <p class="sub">The deliverable is one CSV in the shared merge schema. Numbers below are the real Testlify run.</p>
 
+    <div class="stats">
+      <div class="stat"><div class="big">23</div><div class="cap">ideas delivered (M2-001…023)</div></div>
+      <div class="stat"><div class="big">13 / 23</div><div class="cap">flagged as a genuine build</div></div>
+      <div class="stat"><div class="big">22</div><div class="cap">CORE · 1 ADJACENT</div></div>
+      <div class="stat"><div class="big">$0</div><div class="cap">free CLI, no paid API</div></div>
+    </div>
+
+    <div class="outfiles">
+      <div class="outfile">
+        <div class="f"><span class="file">output/model-other-niches-ideas.csv</span></div>
+        <p>★ The deliverable. The 13-column shared merge schema: <b>Idea # · Method · Brand fit · Asset · Format · Tool escalation · Our topic · Distinct angle · Source niche · Evidence URLs · Beatability · Effort · Notes</b>. Ideas numbered M2-001… so they never collide with Method 1 at the merge.</p>
+      </div>
+      <div class="outfile">
+        <div class="f"><span class="file">output/format-swipe.md</span></div>
+        <p>The pre-screened swipe library — the formats that made it past Step A, with their in-scope subject and rough brand fit.</p>
+      </div>
+      <div class="outfile">
+        <div class="f"><span class="file">_work/run-log.md</span></div>
+        <p>Every format or idea dropped, with the reason — makes the cut auditable. Plus the intermediate <span class="file">swipe.json · adaptations.json · filtered.json · scored.json</span>.</p>
+      </div>
+    </div>
+
+    <div class="note orange"><strong>Where this sits in the bigger machine</strong>
+    Method 2 outputs a <b>separate pool</b>. It is now <b>included in the cross-method merge</b>
+    (<span class="file">4-merge</span>, <span class="file">INCLUDE_M2=True</span> / <span class="file">MG_INCLUDE_M2=1</span>) —
+    reinstated once the format-honesty fix landed. At the merge:
     <ul>
-      <li><b>Idea #</b> — numbered as M2-001, M2-002 etc. The "M2" prefix keeps these ideas distinct from Method 1 and Method 3 ideas when all three pools are combined later.</li>
-      <li><b>Method</b> — always "M2 — Other Niches", so the combined sheet can be filtered by source</li>
-      <li><b>Brand fit</b> — CORE / TRANSPLANT / ADJACENT, set by Step C</li>
-      <li><b>Asset</b> — the real working title from Step B, with the angle visible in the name</li>
-      <li><b>Format</b> — the format shape (calculator, index, glossary etc.) from the swipe library</li>
-      <li><b>Our topic</b> — the specific subject the asset covers, from Step B</li>
-      <li><b>Distinct angle</b> — what makes our version the link-magnet, naming the specific product, data, or authority we have that lets us own it</li>
-      <li><b>Source niche</b> — where this format is already proven (finance, real estate, B2B SaaS etc.)</li>
-      <li><b>Evidence URLs</b> — the real example URLs from the swipe library, so anyone can verify the format earns links</li>
-      <li><b>Beatability</b> — 1–3 (how easy the asset is to make link-worthy)</li>
-      <li><b>Effort</b> — S / M / L (how long to build it)</li>
-      <li><b>Notes</b> — the headline and "what it'd be" description from Step B, plus anything else worth flagging</li>
-    </ul>
+      <li>Method 1, 2, 3 pools are clubbed into <span class="file">clubbed-ideas.csv</span> and de-duplicated.</li>
+      <li>The merge carries the <span class="file">Tool escalation</span> column through, so the write phase can pick only the desk-doable ideas and route the real builds to a human.</li>
+      <li>The in-niche overlap check ("does a competitor already own this?") and the <span class="file">Build window</span> (NOW/LATER) are decided <b>there</b>, where all three pools compete for the same capacity — never inside this method.</li>
+    </ul></div>
 
-    <div class="note green"><strong>What a good row looks like</strong>
-    "Bad-Hire Cost Calculator (per-role, on real customer cost data). CORE. Calculator format from finance/B2B SaaS. Live calc on our customer cost data, per-role breakdown. Evidence: nerdwallet.com/mortgage-calculator. Beat: 3. Effort: S." Read across one row and the logic is visible: shape, our subject, why we win, proof the format earns links.</div>
+    <p class="muted" style="font-size:13.5px;"><b>Confidence note:</b> these formats are proven elsewhere, not yet in our niche — higher novelty, lower certainty than Method 1. Validate the top picks (linking-root-domains near our niche) before building.</p>
   </div>
 </section>
 
 <footer>
-  <div class="wrap">Model Other Niches · Idea Backlog Method 2 of 3 · Cross-niche formats adapted to our brand scope.</div>
+  <div class="wrap">Model Other Niches · Asset Engine Method 2 of 3 · swipe library → adapt (honestly) → gate → score → deliver → merge.</div>
 </footer>
 </body>
 </html>

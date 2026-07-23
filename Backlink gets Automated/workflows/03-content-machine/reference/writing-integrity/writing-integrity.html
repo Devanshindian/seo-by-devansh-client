@@ -3,160 +3,441 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Writing Integrity — The Honest Writing Contract</title>
+<title>Writing Integrity — The Honest + Distinctive Writing Contract</title>
 <style>
-  :root{--ink:#1c1a17;--muted:#6b6459;--line:#efe7d8;--paper:#fff;--cream:#fffdf8;--wash:#fff8ec;--yellow:#ffb703;--yellow-soft:#ffe9ad;--orange:#fb7a00;--orange-soft:#ffd9b0;--red:#fdf3f0;--red-line:#f6d9cf;--red-ink:#c2603a;--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);}
-  *{box-sizing:border-box;}html{scroll-behavior:smooth;}
-  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;line-height:1.62;font-size:16px;-webkit-font-smoothing:antialiased;}
-  .wrap{max-width:960px;margin:0 auto;padding:0 28px;}
-  header{background:linear-gradient(180deg,var(--wash),var(--paper));border-bottom:1px solid var(--line);padding:56px 0 38px;}
-  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--paper);border:1px solid var(--orange-soft);padding:4px 11px;border-radius:100px;margin-bottom:16px;}
-  h1{font-size:clamp(26px,5vw,42px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em;}
-  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%);padding:0 2px;}
-  .lede{font-size:18px;color:var(--muted);max-width:680px;margin:0;}
-  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
-  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;padding:9px 0;}
-  nav a{font-size:12.5px;font-weight:600;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:100px;}
-  nav a:hover{color:var(--ink);background:var(--wash);}
-  section{padding:48px 0;border-bottom:1px solid var(--line);}
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:730px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
   section:last-of-type{border-bottom:none;}
-  section.alt{background:var(--cream);}
-  h2{font-size:24px;letter-spacing:-.01em;margin:0 0 4px;}
-  h2 .num{color:var(--orange);margin-right:9px;}
-  .sub{color:var(--muted);margin:0 0 20px;font-size:16px;max-width:700px;}
-  h3{font-size:16px;margin:20px 0 8px;font-weight:700;}
-  h3.rule-title{font-size:15.5px;margin-top:24px;margin-bottom:6px;}
-  p{margin:0 0 10px;}
-  ul{margin:5px 0 10px;padding-left:20px;}
-  li{margin:5px 0;font-size:15px;color:var(--muted);}
-  li b{color:var(--ink);}
-  .note{border-radius:11px;padding:13px 16px;margin:12px 0;font-size:14.5px;border:1px solid;}
-  .note.yellow{background:var(--cream);border-color:var(--line);border-left:4px solid var(--yellow);}
-  .note.red{background:var(--red);border-color:var(--red-line);border-left:4px solid var(--red-ink);}
-  .note strong{display:block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;}
-  .note.yellow strong{color:var(--orange);}
-  .note.red strong{color:var(--red-ink);}
-  .rule-block{margin:14px 0;}
-  footer{padding:32px 0 52px;color:var(--muted);font-size:13px;}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:730px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .note.red{border-left-color:var(--red-ink); background:var(--red);}
+  .note p:last-child{margin-bottom:0;}
+  .tag{display:block; font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin-bottom:5px;}
+  .tag.r{color:var(--red-ink);}
+
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.code{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
+
+  /* cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card ul{margin:6px 0 0; font-size:14px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11.5px;}
+  td b{color:var(--ink);}
+  td .n{font-family:ui-monospace,Menlo,monospace; font-weight:700; color:var(--orange);}
+  .v{font-weight:700; font-size:12px; padding:2px 9px; border-radius:100px; white-space:nowrap;}
+  .v.covered{color:var(--green-ink); background:var(--green); border:1px solid var(--green-line);}
+  .v.partial{color:#a6791b; background:var(--yellow-soft); border:1px solid var(--yellow);}
+  .v.no{color:var(--red-ink); background:var(--red); border:1px solid var(--red-line);}
+  .t-tag{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; font-weight:700; padding:1px 7px; border-radius:5px; background:var(--wash); border:1px solid var(--orange-soft);}
+
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
+
+  /* data-structure anatomy */
+  .cardbox{background:var(--paper); border:1px solid var(--line); border-radius:16px; box-shadow:var(--shadow); padding:8px; margin:20px 0;}
+  .field{display:flex; gap:14px; padding:11px 12px; align-items:baseline;}
+  .field+.field{border-top:1px solid var(--line);}
+  .field .fk{flex:none; width:120px; font-family:ui-monospace,Menlo,monospace; font-size:12.5px; font-weight:700; color:var(--orange);}
+  .field .fv{font-size:14.5px; color:var(--muted);}
+  .field .fv b{color:var(--ink);}
+
+  /* two-column compare */
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--red); border:2px solid var(--red-line);}
+  .agent.answ .cap{background:var(--green); border:2px solid var(--green-line);}
+  .agent h3{margin:0 0 2px; font-size:19px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+  .agent ul{margin:8px 0 0; font-size:14px; color:var(--muted);}
+
+  /* before / after */
+  .ba{display:grid; grid-template-columns:1fr auto 1fr; gap:14px; align-items:stretch; margin:20px 0;}
+  .ba .box{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:16px 18px; box-shadow:var(--shadow);}
+  .ba .box .lbl{font-size:11px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--red-ink); margin-bottom:7px;}
+  .ba .box.after .lbl{color:var(--green-ink);}
+  .ba .box p{margin:0; font-size:14.5px;}
+  .ba .arr{align-self:center; font-size:22px; color:var(--orange); font-weight:800;}
+  .ba .box.after{border-color:var(--green-line); background:var(--green);}
+
+  /* headline stats */
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three{grid-template-columns:1fr;} .ba{grid-template-columns:1fr;} }
 </style>
 </head>
 <body>
 <header><div class="wrap">
-  <span class="kicker">Content Machine · Stage 0 — Brand Context</span>
-  <h1>Writing Integrity — <span class="hl">the honest writing contract</span></h1>
-  <p class="lede">The rules for making truthful, well-sourced, distinctive claims. This is read by the writer before and during drafting. Applied at write time — before shipping.</p>
+  <span class="kicker">Content Machine · Write-Phase Contract</span>
+  <h1>Writing Integrity — <span class="hl">the honest + distinctive writing contract</span></h1>
+  <p class="lede">Ten rules for making claims that are <b>truthful, well-sourced, and distinctive</b> when drafting an article. Not the SEO/AEO/GEO structure checklist — this one is about honesty, positioning, sourcing, and standing out. Read by <span class="file">/write</span> before drafting, and checked again before shipping.</p>
 </div></header>
 
 <nav><div class="wrap">
-  <a href="#honesty">Authority honesty</a>
-  <a href="#overpromise">No overpromise</a>
-  <a href="#hype">No hype</a>
-  <a href="#differentiation">Differentiation</a>
-  <a href="#consistency">Self-consistency</a>
-  <a href="#citations">Citations</a>
-  <a href="#stats">Stats</a>
+  <a href="#idea">The one idea</a>
+  <a href="#words">The words</a>
+  <a href="#glance">10 rules at a glance</a>
+  <a href="#positioning">Positioning honesty</a>
+  <a href="#hype">Hype &amp; fabrication</a>
+  <a href="#numbers">Numbers reconcile</a>
+  <a href="#sourcing">Sourcing</a>
+  <a href="#sits">Where it sits</a>
 </div></nav>
 
-<section id="honesty">
+<!-- 01 ============================================================= -->
+<section id="idea">
   <div class="wrap">
-    <h2><span class="num">01</span>Authority honesty — claim only what the product actually is</h2>
-    <p class="sub">Position the product only where it genuinely wins. Nowhere else.</p>
-    <div class="rule-block">
-      <ul>
-        <li>When the topic is broad, write the broad context honestly, then locate the product at its real slice</li>
-        <li>Claiming one slice well beats claiming the whole stack vaguely</li>
-        <li>If the product isn't the answer for a use case, say so plainly — it builds trust</li>
-      </ul>
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">A reader should finish the article trusting it. That happens only when every claim is honest about what the product is, backed by a source we can stand behind, and says at least one thing a generic vendor never would.</p>
+
+    <div class="grid three">
+      <div class="card">
+        <div class="ic">🎯</div>
+        <h3>Honest</h3>
+        <p>Claim the product only where it genuinely wins. Say plainly where it doesn't fit. No guaranteed outcomes, no hype words with nothing behind them.</p>
+      </div>
+      <div class="card">
+        <div class="ic">🔎</div>
+        <h3>Well-sourced</h3>
+        <p>Every strong claim carries a real, cited number, or it gets cut. A citation is evidence for one fact, never an endorsement. Never a competitor.</p>
+      </div>
+      <div class="card">
+        <div class="ic">✋</div>
+        <h3>Distinctive</h3>
+        <p>Carry a real point of view or a concrete workflow. Hypothetical examples are fine; fabricated real customers, quotes, and first-party metrics are a hard ban.</p>
+      </div>
+    </div>
+
+    <div class="note orange">
+      <span class="tag">The one rule that governs everything</span>
+      <p><b>If you can't stand behind it, don't write it.</b> Every claim traces to something real: a cited source, a genuine product capability, or a clearly-labelled hypothetical. Anything you'd have to invent — a customer, a quote, a metric, a superlative with no number — is cut, not softened.</p>
+    </div>
+
+    <div class="note">
+      <span class="tag">What this is NOT</span>
+      <p>This is not the SEO/AEO/GEO checklist (that governs structure and format, and lives separately in <span class="file">reference/seo-aeo-geo-guidelines/</span>). Integrity is about <b>what</b> you claim and <b>how you back it</b> — not headings, schema, or answer-first layout.</p>
     </div>
   </div>
 </section>
 
-<section id="overpromise" class="alt">
+<!-- 02 ============================================================= -->
+<section id="words" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">02</span>No overpromise; acknowledge limitations</h2>
-    <p class="sub">Never guarantee outcomes. Never claim "this will fix hiring."</p>
-    <div class="rule-block">
-      <ul>
-        <li>Acknowledge trade-offs and limits explicitly</li>
-        <li>Transparent always beats salesy</li>
-      </ul>
-    </div>
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">A few terms carry the whole contract. Each is defined once here, then used exactly.</p>
+
+    <div class="define"><b>First-party metric</b> — a number about our own company or product: a win rate, customer count, NPS, or a time-to-hire delta. Usable <b>only</b> if it is actually supplied for this run. Otherwise it counts as fabricated.</div>
+    <div class="define"><b>Hypothetical (illustrative) scenario</b> — a clearly-invented example tied to a genuine capability: <i>"a 500-person SaaS hiring 20 engineers a quarter could…"</i>. Allowed and encouraged. This is the opposite of a fabricated real customer.</div>
+    <div class="define"><b>External citation</b> — a link or reference to an outside source, placed as <b>evidence for one specific stat</b>. Not a recommendation, not a shout-out.</div>
+    <div class="define"><b>Superlative / hype word</b> — an unprovable big claim with no number behind it: "ultimate", "game-changing", "revolutionary", "seamless", "world-class". Banned unless a real cited figure backs it.</div>
+    <div class="define"><b>Competitor</b> — a direct rival, listed in <span class="file">02-asset-engine/competitor-study/output/competitors.md</span>. Never a source, never named as one. Critique their approach generically only.</div>
+    <div class="define"><b>nofollow</b> — a link attribute telling search engines not to pass ranking credit. It's how a citation stays evidence rather than a traffic gift to another brand.</div>
+    <div class="define"><b>Company byline</b> — an article published under the company's name, not a person's. It uses collective markers ("we", "our team") and never a fabricated personal story ("I once worked with a team that…").</div>
   </div>
 </section>
 
+<!-- 03 ============================================================= -->
+<section id="glance">
+  <div class="wrap">
+    <h2><span class="num">03</span>The ten rules at a glance</h2>
+    <p class="sub">The source contract has ten numbered rules. Here they are in one view, grouped by the four things they protect. The deep-dive sections below work through each group with examples.</p>
+
+    <table>
+      <thead><tr><th style="width:44px;">#</th><th>The rule</th><th>The one test</th><th style="width:130px;">Group</th></tr></thead>
+      <tbody>
+        <tr><td><span class="n">1</span></td><td><b>Authority honesty</b> — claim only what the product actually is</td><td>Is the product placed only where it genuinely wins?</td><td rowspan="3"><span class="v partial">Positioning</span></td></tr>
+        <tr><td><span class="n">2</span></td><td><b>Honesty tell</b> — say when we're NOT the right fit</td><td>Does the piece admit where it doesn't fit?</td></tr>
+        <tr><td><span class="n">3</span></td><td><b>Don't overpromise</b>; acknowledge limitations</td><td>Any guaranteed outcome or unstated trade-off?</td></tr>
+        <tr><td><span class="n">4</span></td><td><b>No empty hype</b> / unprovable superlatives</td><td>Any big word with no number behind it?</td><td rowspan="2"><span class="v no">Hype &amp; fabrication</span></td></tr>
+        <tr><td><span class="n">5</span></td><td><b>Differentiation</b> — say something only we'd say (no fabricated customers/quotes/metrics)</td><td>A real POV? Any invented real customer, quote, or first-party stat?</td></tr>
+        <tr><td><span class="n">6</span></td><td><b>Self-consistency</b> — the numbers must reconcile</td><td>Can every number be true at the same time?</td><td rowspan="2"><span class="v covered">Numbers</span></td></tr>
+        <tr><td><span class="n">10</span></td><td><b>No stat quota</b> — use stats where they earn their place</td><td>Is any stat there just to hit a count?</td></tr>
+        <tr><td><span class="n">7</span></td><td><b>Never cite a competitor</b></td><td>Is the source a direct rival?</td><td rowspan="3"><span class="v" style="color:var(--blue-ink);background:var(--blue);border:1px solid var(--blue-line);">Sourcing</span></td></tr>
+        <tr><td><span class="n">8</span></td><td><b>Cite with credibility</b> — most credible + most recent</td><td>Is this the best available source for the fact?</td></tr>
+        <tr><td><span class="n">9</span></td><td><b>Cite, don't promote</b> (≤2 per domain; 3+ distinct domains)</td><td>Is the citation evidence, or a plug?</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- 04 ============================================================= -->
+<section id="positioning" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">04</span>Positioning honesty <span class="pill">Rules 1 · 2 · 3</span></h2>
+    <p class="sub">The product wins in a real, specific slice. Name that slice, admit the rest, and never promise an outcome you can't guarantee. Claiming one slice well beats claiming the whole stack vaguely.</p>
+
+    <h3>Rule 1 — claim only what the product actually is</h3>
+    <ul>
+      <li>When the topic is broad, write the broad context <b>honestly</b>, then locate the product at its real slice.</li>
+      <li>The product is positioned only where it genuinely wins — nowhere else.</li>
+    </ul>
+
+    <p class="muted" style="margin-top:8px;">This is the <b>one company-specific slot</b> in the whole contract. Everything else is universal; these two lines get filled per company from its <span class="file">features.md</span> / product pages:</p>
+    <div class="cardbox">
+      <div class="field"><div class="fk">PRODUCT_IS</div><div class="fv"><b>The real slice the product owns.</b> Filled per company. Position claims here and only here.</div></div>
+      <div class="field"><div class="fk">PRODUCT_IS_NOT</div><div class="fv"><b>The adjacent territory it does NOT own</b> — never imply it does. Filled per company.</div></div>
+    </div>
+
+    <h3>Rule 2 — the honesty tell: say when we're NOT the right fit</h3>
+    <ul>
+      <li>State plainly where the product isn't the answer (a tiny team, a niche need).</li>
+      <li>It builds trust, and it's exactly what the best comparison content already does. Don't pretend to fit everyone.</li>
+    </ul>
+
+    <h3>Rule 3 — don't overpromise; acknowledge limitations</h3>
+    <ul>
+      <li>No guaranteed outcomes. No "this will fix hiring."</li>
+      <li>Acknowledge trade-offs and limits out loud. Transparent beats salesy, every time.</li>
+    </ul>
+
+    <div class="ba">
+      <div class="box">
+        <div class="lbl">Overclaim ✕</div>
+        <p>"Our platform is the complete end-to-end hiring solution that guarantees you'll hire faster — the ultimate stack for every team."</p>
+      </div>
+      <div class="arr">→</div>
+      <div class="box after">
+        <div class="lbl">Honest slice ✓</div>
+        <p>"Structured skills assessments are where this shines. For a five-person team hiring twice a year, a full assessment platform is probably overkill — a good ATS may be enough."</p>
+      </div>
+    </div>
+    <p class="muted" style="font-size:14px;">Illustrative example. Note the honest slice does three things at once: names the real strength (Rule 1), admits a non-fit (Rule 2), and drops the guarantee and the "ultimate" (Rules 3 + 4).</p>
+  </div>
+</section>
+
+<!-- 05 ============================================================= -->
 <section id="hype">
   <div class="wrap">
-    <h2><span class="num">03</span>No empty hype or unprovable superlatives</h2>
-    <p class="sub">Every strong claim carries a real, cited number. Otherwise cut it.</p>
-    <div class="rule-block">
-      <ul>
-        <li>Ban hype words with no proof: "ultimate", "game-changing", "revolutionary", "seamless", "world-class"</li>
-        <li>Ban buzzword soup: "synergistic", "holistically", "paradigm"</li>
-        <li>If you can't cite it, don't write it</li>
+    <h2><span class="num">05</span>No hype, no fabrication <span class="pill">Rules 4 · 5</span></h2>
+    <p class="sub">Two failures kill trust fastest: a big claim with nothing behind it, and an invented "fact" about a real customer. Both are banned outright.</p>
+
+    <h3>Rule 4 — no empty hype or unprovable superlatives</h3>
+    <ul>
+      <li>Never claim big and prove nothing. Every strong claim carries a real, cited number, or it's cut.</li>
+      <li><b>Banned with no number behind them:</b> "the ultimate", "game-changing", "revolutionary", "seamless", "world-class".</li>
+      <li><b>No buzzword soup:</b> "synergistic", "holistically", "paradigm".</li>
+    </ul>
+
+    <h3>Rule 5 — differentiation: say something only we'd say</h3>
+    <ul>
+      <li>The piece must carry a real point of view, a non-obvious trade-off, or a concrete workflow — not generic vendor filler.</li>
+      <li>Clearly-hypothetical scenarios are allowed (<i>"a 500-person SaaS hiring 20 engineers a quarter could…"</i>) when tied to a genuine product capability.</li>
+    </ul>
+
+    <div class="note red">
+      <span class="tag r">Hard ban — never, under any framing</span>
+      <ul style="margin-bottom:0;">
+        <li><b>No named or implied real customer.</b></li>
+        <li><b>No fake quote.</b></li>
+        <li><b>No fabricated first-party metric</b> — win rate, time-to-hire delta, NPS, customer count.</li>
+        <li>Use real first-party data <b>only</b> if it is actually supplied for this run.</li>
       </ul>
+    </div>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">✕</div>
+        <h3>What NOT to do</h3>
+        <div class="role">Each of these is a hard-ban violation</div>
+        <ul>
+          <li>"One of our customers cut time-to-hire by 60%" — unless you have that customer's written consent and verified data.</li>
+          <li>"Our platform boasts a 94% adoption rate" — unless the run's supplied data actually says so.</li>
+          <li>"I once worked with a team that…" in a company byline — bylines use collective markers only, never a fabricated personal story.</li>
+        </ul>
+      </div>
+      <div class="agent answ">
+        <div class="cap">✓</div>
+        <h3>What to do instead</h3>
+        <div class="role">Same point, honestly made</div>
+        <ul>
+          <li>"A 200-person company running quarterly hiring sprints could cut screening rounds using structured assessments" — a labelled hypothetical tied to a real capability.</li>
+          <li>Cite a real, external, verifiable stat for the adoption/impact claim instead of inventing a first-party one.</li>
+          <li>Speak as the company: "In our experience, teams that…" — collective, not a made-up individual.</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="differentiation" class="alt">
+<!-- 06 ============================================================= -->
+<section id="numbers" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">04</span>Differentiation — say something only we'd say</h2>
-    <p class="sub">Carry a real point of view, a non-obvious trade-off, or a concrete workflow — not generic vendor filler.</p>
-    <div class="rule-block">
-      <ul>
-        <li>Clearly-hypothetical scenarios are allowed ("a 500-person SaaS hiring 20 engineers a quarter could…") if tied to a genuine product capability</li>
-        <li><b>HARD BAN:</b> no named or implied real customer, no fake quote, no fabricated first-party metric (win rate, time-to-hire delta, NPS, customer count)</li>
-        <li>Use real first-party data ONLY if it was actually supplied for this run</li>
-      </ul>
-    </div>
-    <div class="note red"><strong>Examples of what NOT to do</strong>
-    "One of our customers cut time-to-hire by 60%" — unless you have that customer's written consent and verified data. "Our platform boasts a 94% adoption rate" — unless DataForSEO or your internal data actually says this for this run. "I once worked with a team that…" in a company byline — company bylines use collective markers only, never fabricated personal stories.</div>
+    <h2><span class="num">06</span>The numbers must reconcile <span class="pill">Rules 6 · 10</span></h2>
+    <p class="sub">Stats are the load-bearing part of an authoritative piece — so they get two guards: they must all be true together, and each must earn its place.</p>
+
+    <h3>Rule 6 — self-consistency (PASS / FAIL before shipping)</h3>
+    <ul>
+      <li>List every number used and confirm none contradict each other. An adoption %, an ROI figure, and a time-to-hire must all be possible at the same time.</li>
+      <li>This is a hard <b>PASS/FAIL</b> gate. On a conflict, re-verify the stat or drop it — never ship an unresolved contradiction.</li>
+    </ul>
+
+    <table>
+      <thead><tr><th>Claim in the draft</th><th>Number</th><th>Reconciles?</th></tr></thead>
+      <tbody>
+        <tr><td>"90% of teams were fully onboarded in week one"</td><td><span class="n">90%</span> / 1 wk</td><td><span class="v no">FAIL</span></td></tr>
+        <tr><td>"…average onboarding takes six weeks"</td><td><span class="n">6 wks</span></td><td><span class="v no">contradicts above</span></td></tr>
+        <tr><td colspan="3" class="muted" style="font-size:14px;"><b>Verdict:</b> the two cannot both be true — fix before shipping. Re-verify which figure is real, or drop one. (Illustrative.)</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Rule 10 — no stat quota</h3>
+    <ul>
+      <li>Don't force a fixed number of statistics to sound authoritative, and don't stuff.</li>
+      <li>Use a stat only where it genuinely supports the point. A few load-bearing verified stats beat many impressive-sounding ones.</li>
+      <li>Natural over volume.</li>
+    </ul>
   </div>
 </section>
 
-<section id="consistency">
+<!-- 07 ============================================================= -->
+<section id="sourcing">
   <div class="wrap">
-    <h2><span class="num">05</span>Self-consistency — the numbers must reconcile</h2>
-    <p class="sub">List every number used. Confirm none contradict each other.</p>
-    <div class="rule-block">
-      <ul>
-        <li>An adoption %, an ROI figure, and a time-to-hire must all be possible together</li>
-        <li>Fix conflicts: re-verify the stat or drop it</li>
-        <li>Never ship with unresolved contradictions</li>
-      </ul>
+    <h2><span class="num">07</span>Sourcing — cite, don't promote <span class="pill">Rules 7 · 8 · 9</span></h2>
+    <p class="sub">You may draft from any source. But when a citation lands on the page, it's evidence for one fact — chosen for credibility, never a competitor, and never a plug for someone else's brand.</p>
+
+    <table>
+      <thead><tr><th style="width:150px;">Rule</th><th>What it requires</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><b>7 · Never cite a competitor</b></td>
+          <td>
+            <ul style="margin-top:0;">
+              <li>Never cite or link a direct competitor as a source. The list lives in <span class="file">02-asset-engine/competitor-study/output/competitors.md</span>.</li>
+              <li>Also auto-enforced upstream by the research-structure filter — but check anyway.</li>
+              <li>If the only source for a stat is a competitor, <b>drop the stat</b> or use a neutral primary source.</li>
+              <li>Critique competitor approaches generically, never by name.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><b>8 · Cite with credibility</b></td>
+          <td>
+            <ul style="margin-top:0;">
+              <li>When placing an external citation, prefer the <b>most credible and most recent</b> source available.</li>
+              <li>The model judges credibility — there is <b>no fixed whitelist</b>.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><b>9 · Cite, don't promote</b></td>
+          <td>
+            <ul style="margin-top:0;">
+              <li>A citation is evidence for one stat, not an endorsement. Never write "X has a great guide" or drive traffic to another brand's content.</li>
+              <li>State the fact, cite the source (neutral, nofollow), move on.</li>
+              <li><b>Volume limits:</b> ≤2 citations per external domain; aim for 3+ distinct domains.</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="ba">
+      <div class="box">
+        <div class="lbl">Promotion ✕</div>
+        <p>"Acme HR published a fantastic guide on onboarding that everyone should read — see their full breakdown here."</p>
+      </div>
+      <div class="arr">→</div>
+      <div class="box after">
+        <div class="lbl">Evidence ✓</div>
+        <p>"Onboarding that runs past six weeks correlates with higher first-year attrition.<sup>[cited, neutral, nofollow]</sup>" — the fact, one source, no shout-out.</p>
+      </div>
     </div>
+    <p class="muted" style="font-size:14px;">Illustrative. The right-hand version states the fact, attaches one neutral source, and passes no ranking credit or praise to the other brand.</p>
   </div>
 </section>
 
-<section id="citations" class="alt">
+<!-- 08 ============================================================= -->
+<section id="sits" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">06</span>Citation integrity — cite, don't promote</h2>
-    <p class="sub">A citation is evidence for one stat. Never write "X has a great guide on this." That's promotion.</p>
-    <div class="rule-block">
-      <ul>
-        <li>State the fact, cite the source (neutral, nofollow), move on</li>
-        <li>Max 2 citations per external domain — aim for 3+ distinct domains</li>
-        <li>Prefer the most credible and most recent source available — the model judges credibility; there's no fixed whitelist</li>
-        <li>Never cite a direct competitor as a source — use a neutral primary instead</li>
-      </ul>
+    <h2><span class="num">08</span>Where this sits in the bigger machine</h2>
+    <p class="sub">One static rule file, universal except for a single slot, that rides into every research bundle and is enforced at write time.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="big">10</div><div class="cap">numbered rules</div></div>
+      <div class="stat"><div class="big">2</div><div class="cap">slots to fill per company (Rule 1)</div></div>
+      <div class="stat"><div class="big">1</div><div class="cap">hard PASS/FAIL gate (Rule 6)</div></div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>How it specializes</h3>
+        <ul>
+          <li>Fill Rule 1's two slots (<b>PRODUCT_IS</b> / <b>PRODUCT_IS_NOT</b>) from the company's <span class="file">features.md</span> and product pages.</li>
+          <li>Everything else is universal — no other edits per company.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>How it ships &amp; runs</h3>
+        <ul>
+          <li>Template lives here; an instantiated copy lands in each company's <span class="file">projects/&lt;company&gt;/01-brand-context/writing-integrity.md</span>.</li>
+          <li>It's a static rule file (not a builder) that rides into each research bundle and is read by <span class="file">/write</span> while drafting and before shipping.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="note orange">
+      <span class="tag">The two neighbours it works beside</span>
+      <p>Inside each bundle, three write-time rule files travel together: this <b>writing-integrity contract</b> (honesty + distinctiveness), the <b>SEO/AEO/GEO checklist</b> (structure + format), and the <b>avoid-AI-writing check</b> (voice). Integrity owns <b>what you claim and how you back it</b>; the other two own how it's shaped and how it reads.</p>
     </div>
   </div>
 </section>
 
-<section id="stats">
-  <div class="wrap">
-    <h2><span class="num">07</span>No stat quota — use stats where they earn their place</h2>
-    <p class="sub">Don't force a fixed number of statistics. Don't stuff.</p>
-    <div class="rule-block">
-      <ul>
-        <li>Use a stat where it genuinely supports the point</li>
-        <li>A few load-bearing verified stats beat many impressive-sounding ones</li>
-        <li>Natural over volume</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<footer><div class="wrap">Writing Integrity · Content Machine Stage 0 · Read before drafting. Applied before shipping. Part of the SEO / AEO / GEO gate.</div></footer>
+<footer><div class="wrap">Writing Integrity · Content Machine write-phase contract · Read by /write before drafting, checked again before shipping · Honest → well-sourced → distinctive.</div></footer>
 </body>
 </html>

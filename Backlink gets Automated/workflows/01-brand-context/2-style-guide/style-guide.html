@@ -3,189 +3,425 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Style Guide — Content Machine Stage 0</title>
+<title>Style Guide — Brand Context Layer 01</title>
 <style>
-  :root{--ink:#1c1a17;--muted:#6b6459;--line:#efe7d8;--paper:#fff;--cream:#fffdf8;--wash:#fff8ec;--yellow:#ffb703;--yellow-soft:#ffe9ad;--orange:#fb7a00;--orange-soft:#ffd9b0;--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);}
-  *{box-sizing:border-box;}html{scroll-behavior:smooth;}
-  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;line-height:1.62;font-size:16px;-webkit-font-smoothing:antialiased;}
-  .wrap{max-width:960px;margin:0 auto;padding:0 28px;}
-  header{background:linear-gradient(180deg,var(--wash),var(--paper));border-bottom:1px solid var(--line);padding:56px 0 38px;}
-  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--paper);border:1px solid var(--orange-soft);padding:4px 11px;border-radius:100px;margin-bottom:16px;}
-  h1{font-size:clamp(26px,5vw,42px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em;}
-  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%);padding:0 2px;}
-  .lede{font-size:18px;color:var(--muted);max-width:660px;margin:0;}
-  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
-  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;padding:9px 0;}
-  nav a{font-size:12.5px;font-weight:600;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:100px;}
-  nav a:hover{color:var(--ink);background:var(--wash);}
-  section{padding:48px 0;border-bottom:1px solid var(--line);}
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:730px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
   section:last-of-type{border-bottom:none;}
-  section.alt{background:var(--cream);}
-  h2{font-size:24px;letter-spacing:-.01em;margin:0 0 4px;}
-  h2 .num{color:var(--orange);margin-right:9px;}
-  .sub{color:var(--muted);margin:0 0 22px;font-size:16px;max-width:680px;}
-  h3{font-size:16px;margin:20px 0 6px;}
-  p{margin:0 0 10px;}
-  ul{margin:5px 0 10px;padding-left:20px;}
-  li{margin:4px 0;font-size:15px;color:var(--muted);}
-  li b{color:var(--ink);}
-  .file{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11.5px;background:#fff;border:1px solid var(--orange-soft);border-radius:5px;padding:2px 6px;color:var(--ink);}
-  .note{border-radius:11px;padding:13px 16px;margin:12px 0;font-size:14.5px;border:1px solid;}
-  .note.yellow{background:var(--cream);border-color:var(--line);border-left:4px solid var(--yellow);}
-  .note strong{display:block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);margin-bottom:3px;}
-  .flow{margin-top:10px;}
-  .step{display:flex;gap:15px;position:relative;padding:10px 0;}
-  .step:not(:last-child)::after{content:"";position:absolute;left:21px;top:48px;bottom:-10px;width:2px;background:linear-gradient(var(--yellow),var(--orange-soft));}
-  .dot{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-weight:800;font-size:15px;color:var(--ink);background:var(--yellow-soft);border:2px solid var(--yellow);box-shadow:var(--shadow);}
-  .step-body{padding-top:2px;}
-  .step-body h3{margin:0 0 3px;font-size:15.5px;}
-  .step-body p{margin:0;color:var(--muted);font-size:14.5px;}
-  .step-body ul{margin:4px 0 0;padding-left:18px;}
-  .step-body li{font-size:14px;}
-  .outfile{border:1px solid var(--line);border-radius:11px;padding:12px 16px;background:var(--paper);box-shadow:var(--shadow);margin:12px 0;}
-  .outfile .f{margin-bottom:3px;}
-  .outfile p{margin:0;font-size:14px;color:var(--muted);}
-  .tags{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0;}
-  .tag-card{border:1px solid var(--line);border-radius:11px;padding:12px 16px;background:var(--paper);box-shadow:var(--shadow);flex:1;min-width:180px;}
-  .tag-card .badge{display:inline-block;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;font-weight:700;color:var(--orange);background:var(--wash);border:1px solid var(--orange-soft);border-radius:5px;padding:2px 8px;margin-bottom:7px;}
-  .tag-card h3{margin:0 0 4px;font-size:14.5px;}
-  .tag-card p{margin:0;font-size:13.5px;color:var(--muted);}
-  .eg-table{width:100%;border-collapse:collapse;margin:14px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:14px;}
-  .eg-table th{text-align:left;padding:8px 12px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--cream);border-bottom:2px solid var(--line);}
-  .eg-table td{padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
-  .eg-table tr:last-child td{border-bottom:none;}
-  .eg-table .signal{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;font-weight:700;color:var(--orange);}
-  footer{padding:32px 0 52px;color:var(--muted);font-size:13px;}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:730px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;} .mem ul{margin:6px 0 6px;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .note.red{border-left-color:var(--red-ink); background:var(--red);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+  .tag.r{color:var(--red-ink);}
+
+  /* step flow */
+  .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
+  .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:18px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow); text-align:center; line-height:1;}
+  .step-body h3{margin:4px 0 4px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
+  .step-body ul{margin:6px 0 4px; color:var(--muted); font-size:14.5px;} .step-body ul .file{font-size:11.5px;}
+  .step-body ul .fn{color:var(--ink); font-weight:600;}
+  .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
+  .xref:hover{background:var(--orange-soft);}
+  .phase{font-size:12px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin:26px 0 2px;}
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.gate{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.code{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .pill.eng{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
+  .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
+  .files .k{font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
+
+  /* cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .grid.four{grid-template-columns:repeat(4,1fr);}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+  .card .file{margin-top:10px; display:inline-block;}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11.5px;}
+  td b{color:var(--ink);}
+  td .n{font-family:ui-monospace,Menlo,monospace; font-weight:700; color:var(--orange);}
+  .v{font-weight:700; font-size:12px; padding:2px 9px; border-radius:100px; white-space:nowrap;}
+  .v.covered{color:var(--green-ink); background:var(--green); border:1px solid var(--green-line);}
+  .v.partial{color:#a6791b; background:var(--yellow-soft); border:1px solid var(--yellow);}
+  .v.no{color:var(--red-ink); background:var(--red); border:1px solid var(--red-line);}
+  .t-tag{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; font-weight:700; padding:1px 7px; border-radius:5px; background:var(--wash); border:1px solid var(--orange-soft);}
+
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
+
+  /* two-column compare */
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--yellow-soft); border:2px solid var(--yellow);}
+  .agent.answ .cap{background:var(--orange-soft); border:2px solid var(--orange);}
+  .agent h3{margin:0 0 2px; font-size:19px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+  .mem{font-size:14px; padding:9px 12px; border-radius:10px; margin-top:9px;}
+  .mem.yes{background:var(--green); border:1px solid var(--green-line);}
+  .mem.no{background:var(--blue); border:1px solid var(--blue-line);}
+  .mem .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
+  .mem.yes .lbl{color:var(--green-ink);} .mem.no .lbl{color:var(--blue-ink);}
+
+  /* headline stats */
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three,.grid.four{grid-template-columns:1fr;} }
 </style>
 </head>
 <body>
 <header><div class="wrap">
-  <span class="kicker">Content Machine · Stage 0 — Brand Context</span>
-  <h1>Style Guide — <span class="hl">grammar, punctuation, formatting, SEO</span></h1>
-  <p class="lede">Reads the top 30 blogs and fills a style guide template. 85% is editorial best practice written straight in. The rest — capitalization, punctuation choices, industry terms — comes from reading how the company actually writes.</p>
+  <span class="kicker">Brand Context · Layer 01 · Engine 2</span>
+  <h1>Style Guide — <span class="hl">how the company already writes, turned into rules</span></h1>
+  <p class="lede">One command reads the company's top 30 blogs, works out the few house choices that show up in the real writing (headline casing, Oxford comma, quote style, its industry vocabulary), and fills those into a ready-made editorial style guide. About 85% of the guide is standard best practice written straight in; the rest is observed from the real content. Here's exactly how it works, script by script.</p>
 </div></header>
 
 <nav><div class="wrap">
-  <a href="#concept">Concept</a>
-  <a href="#output">Output</a>
-  <a href="#steps">Steps</a>
-  <a href="#covers">What it covers</a>
+  <a href="#idea">01 The idea</a>
+  <a href="#words">02 Words</a>
+  <a href="#skeleton">03 Skeleton</a>
+  <a href="#pipeline">04 Pipeline</a>
+  <a href="#tags">05 Source tags</a>
+  <a href="#merge">06 The merge</a>
+  <a href="#covers">07 What it covers</a>
+  <a href="#output">08 Output</a>
 </div></nav>
 
-<section id="concept">
+<!-- 01 -->
+<section id="idea">
   <div class="wrap">
-    <h2><span class="num">01</span>The one rule — three source tags</h2>
-    <p class="sub">Every field in the template is tagged by where it comes from. Nothing is invented and no section is left empty.</p>
-    <div class="tags">
-      <div class="tag-card">
-        <div class="badge">[BLOGS]</div>
-        <h3>Observed</h3>
-        <p>Decided by reading the real top 30 blogs — headline casing, Oxford comma, quote style, industry terms, preferred words.</p>
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">A style guide is the rulebook every article is edited against — capitalization, punctuation, which words to use and avoid. Most of it is the same for any company. This engine writes that standard part straight in, and pulls the handful of company-specific choices from the real published blogs, so nothing is guessed.</p>
+    <div class="grid four">
+      <div class="card"><div class="ic">📊</div><h3>Pick the blogs</h3><p>A script ranks the whole site by search traffic and keeps only the editorial articles — the top 30.</p></div>
+      <div class="card"><div class="ic">🔍</div><h3>Read &amp; observe</h3><p>Three AI readers split the 30 blogs and report only what they see: casing, commas, quotes, terms, filler words.</p></div>
+      <div class="card"><div class="ic">🧮</div><h3>Merge the votes</h3><p>Code combines the three reports — majority wins for yes/no choices, lists get pooled and de-duplicated.</p></div>
+      <div class="card"><div class="ic">📝</div><h3>Fill the template</h3><p>The AI drops each observed value into a ready-made guide and writes the standard rules straight in.</p></div>
+    </div>
+    <div class="note orange">
+      <span class="tag">The one rule that governs everything</span>
+      <p style="margin:6px 0 0">Every field in the guide is filled from exactly one of three sources, and each source is tagged so it is obvious where the value came from. <b>Nothing is invented; no section is left empty.</b></p>
+      <ul style="margin:8px 0 0">
+        <li><b><span class="t-tag">[BLOGS]</span></b> — decided by reading the real top-30 blogs (from the Step 2 analysis).</li>
+        <li><b><span class="t-tag">[STANDARD]</span></b> — a best-practice editorial default, written straight in (the same for most companies).</li>
+        <li><b><span class="t-tag">[COMPANY]</span></b> — fill what the blogs show, then flag it for the marketing team to confirm.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 02 -->
+<section id="words" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">A few terms carry the whole page. Each is defined once here, then used the same way throughout.</p>
+    <div class="define"><b>Style guide</b> — the editorial rulebook an article is checked against before publishing: capitalization, punctuation, number style, preferred and banned words, formatting, SEO meta. The deliverable this engine produces.</div>
+    <div class="define"><b>Editorial blog</b> — a real content article (a how-to, a definition, a listicle), as opposed to a commercial page (pricing, product, competitor, integration) or a template/glossary index. Only editorial blogs are read, because they show how the company actually writes prose.</div>
+    <div class="define"><b>Signal</b> — one observable style fact the readers extract, e.g. <span class="t-tag">headline_case</span>, <span class="t-tag">oxford_comma</span>, <span class="t-tag">quote_style</span>. Eleven signals in all. Each becomes one line in the guide.</div>
+    <div class="define"><b>Oxford comma</b> — the comma before "and" in a list ("skills, speed, and accuracy"). A yes/no house choice — one of the signals the readers vote on.</div>
+    <div class="define"><b>Headline case</b> — Title Case ("Top 15 Tools") versus Sentence case ("Top 15 tools"). Which one a site uses for its headings is a signal.</div>
+    <div class="define"><b>Verbatim template</b> — the fill-in guide (with the <span class="t-tag">[BLOGS]</span>/<span class="t-tag">[STANDARD]</span>/<span class="t-tag">[COMPANY]</span> tags) lives inside the recipe file, and the code lifts it character-for-character at run time. It is written in exactly one place, so the recipe and the runnable pipeline can never drift apart.</div>
+    <div class="define"><b>body_status</b> — a column in the site catalogue marking whether a page's full text was scraped cleanly. Only rows marked <span class="t-tag">ok</span> (and in the company's language) are eligible, so the readers never analyze a broken scrape.</div>
+  </div>
+</section>
+
+<!-- 03 -->
+<section id="skeleton">
+  <div class="wrap">
+    <h2><span class="num">03</span>The skeleton — the files and who does the work</h2>
+    <p class="sub">Six files, the standard tool-folder shape. Run it with one command: <span class="file">COMPANY=&lt;slug&gt; python3 scripts/run_style_guide.py</span> (resumable; <span class="file">--redo</span> rebuilds, <span class="file">--notes-file</span> folds in reviewer findings).</p>
+    <table>
+      <tr><th>File</th><th>What it does</th></tr>
+      <tr>
+        <td><span class="file">config.py</span></td>
+        <td>Every path and setting, from one anchor. Company is one env var (<span class="file">COMPANY</span>). Tunables live here as named constants:
+          <ul>
+            <li><span class="t-tag">SG_TOP_BLOGS</span> = 30 blogs kept</li>
+            <li><span class="t-tag">SG_BATCHES</span> = 3 reader batches</li>
+            <li><span class="t-tag">SG_BODY_CAP</span> = 9,000 chars of each blog fed to a reader</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="file">llm.py</span></td>
+        <td>The one AI caller. Runs a prompt through the headless CLI — <b>Claude or Codex</b> (set by <span class="t-tag">LLM_PROVIDER</span>, default claude), no API key.
+          <ul>
+            <li><span class="fn">call_json</span> — for Step 2 (parses JSON back, nudges once if it's malformed)</li>
+            <li><span class="fn">call_text</span> — for Step 3 (returns the whole markdown document)</li>
+            <li>Retries a stuttering CLI with backoff; stops the run cleanly on a credit or auth error rather than burning the balance</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="file">run_style_guide.py</span></td>
+        <td>The orchestrator plus the three step functions. Runs the steps in order, prints <span class="t-tag">== Step N ==</span>, and is resumable: each step reuses its saved output unless <span class="file">--redo</span> forces a rebuild.</td>
+      </tr>
+      <tr>
+        <td><span class="file">prompts/analyze-blogs.md</span></td>
+        <td>The Step 2 batch prompt — the 11 signals to observe, plus the exact JSON shape to return.</td>
+      </tr>
+      <tr>
+        <td><span class="file">prompts/fill-template.md</span></td>
+        <td>The Step 3 fill prompt — the rules for resolving each tag type into the template.</td>
+      </tr>
+      <tr>
+        <td><span class="file">style-guide.workflow.md</span></td>
+        <td>The recipe (human-readable twin) — and the home of the fill-in template, which the code lifts verbatim.</td>
+      </tr>
+    </table>
+
+    <h3>Who does each job — code or the AI</h3>
+    <div class="agents">
+      <div class="agent">
+        <div class="cap">⚙️</div>
+        <h3>Runs in code</h3>
+        <div class="role">Deterministic. Free. No model.</div>
+        <ul>
+          <li><b>Step 1 — pick the blogs.</b> Read the catalogue, filter to editorial articles in the right language, sort by traffic, take the top 30.</li>
+          <li><b>The Step 2 merge.</b> Combine the three readers' JSON: majority vote for yes/no signals, pool-and-dedupe for list signals.</li>
+        </ul>
+        <div class="mem no"><span class="lbl">Why code</span> These are structural, repeatable choices — the same input always gives the same output. No judgment needed.</div>
       </div>
-      <div class="tag-card">
-        <div class="badge">[STANDARD]</div>
-        <h3>Best practice</h3>
-        <p>Editorial standard that applies to most companies — written straight into the template, no analysis needed.</p>
-      </div>
-      <div class="tag-card">
-        <div class="badge">[COMPANY]</div>
-        <h3>Confirm with marketing</h3>
-        <p>Filled from what the blogs show, then flagged for the marketing team to confirm — product names, positioning language.</p>
+      <div class="agent">
+        <div class="cap">🧠</div>
+        <h3>Runs on the AI <span class="pill eng">Claude or Codex</span></h3>
+        <div class="role">Judgment. Reads prose, weighs it.</div>
+        <ul>
+          <li><b>Step 2 — read each batch.</b> Look at ~10 real blogs and report what the writing actually does across 11 signals.</li>
+          <li><b>Step 3 — fill the template.</b> Drop each observed value into the guide, resolve every tag, write clean editorial rules.</li>
+        </ul>
+        <div class="mem yes"><span class="lbl">Why the AI</span> Reading prose and judging "how does this writing behave" is exactly what a model is for. The thinking is confined to these two steps.</div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="output" class="alt">
+<!-- 04 -->
+<section id="pipeline" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">02</span>What this produces</h2>
-    <div class="outfile">
-      <div class="f"><span class="file">projects/[company]/content-machine/brand-context/style-guide.md</span></div>
-      <p>A fully filled style guide — grammar, punctuation, word choice, formatting, SEO standards, brand-specific terms. Every field resolved, no placeholder tags remaining.</p>
-    </div>
-    <div class="note yellow"><strong>Input</strong>
-    Top 30 blogs by traffic from content-database.csv (editorial articles only — no product, glossary, or commercial pages).</div>
-  </div>
-</section>
-
-<section id="steps">
-  <div class="wrap">
-    <h2><span class="num">03</span>Three steps</h2>
+    <h2><span class="num">04</span>The full pipeline — three steps, three files</h2>
+    <p class="sub">Each step writes one named file; the next step reads it. A crash resumes where it left off, because a step that already has its output file is skipped.</p>
     <div class="flow">
+
       <div class="step"><div class="dot">1</div><div class="step-body">
-        <h3>Pull the top 30 blogs</h3>
+        <h3>Pick the top 30 blogs <span class="pill free">free</span> <span class="pill code">code</span></h3>
+        <p>Read the site catalogue, keep only real editorial articles, rank by search traffic, take the top 30.</p>
         <ul>
-          <li>Rank all pages in the content database by traffic</li>
-          <li>Keep only editorial blog articles — drop product pages, glossaries, templates, and non-English duplicates</li>
-          <li>Save as a ranked table: Rank · Traffic · Format · Title · URL</li>
+          <li>Keeps rows where the scrape is clean (<span class="t-tag">body_status = ok</span>) and in the company's language.</li>
+          <li>Editorial articles are identified by their classified <b>type</b> (from the sibling brand-facts engine's <span class="file">type-roles.json</span> — e.g. post, hr-glossary, job-description). If that classification isn't there yet, it falls back to a URL-word test (what-, how-to, top-N, -vs-, types-of…).</li>
+          <li>Sorts by <span class="t-tag">Traffic</span>, takes the top 30, trims each blog's body to 9,000 chars.</li>
+          <li class="fn">script <span class="file">run_style_guide.py · pick_blogs()</span> → <span class="file">_work/style-guide/top-blogs.json</span></li>
         </ul>
+        <a class="xref" href="#tags">↓ 05 — the three source tags</a>
       </div></div>
+
       <div class="step"><div class="dot">2</div><div class="step-body">
-        <h3>Analyze — three AI agents read the blogs in parallel</h3>
-        <p>The 30 blogs are split into 3 batches of ~10. Each agent reads its batch and reports only what it actually observes. It looks for:</p>
+        <h3>Analyze the blogs — three readers in parallel <span class="pill free">free</span> <span class="pill eng">Claude or Codex</span></h3>
+        <p>Split the 30 blogs into 3 batches of ~10 and read them at the same time. Each reader reports only what it observes across 11 signals, then code merges the three reports into one.</p>
         <ul>
-          <li><b>Headline casing</b> — Title Case ("Top 15 Tools") or sentence case ("Top 15 tools")</li>
-          <li><b>Brand and product naming</b> — how the company name and products are capitalised</li>
-          <li><b>Industry terms</b> — which terms appear and how they're spelled (e.g. "skills assessment" vs "skills test")</li>
-          <li><b>Oxford comma</b> — whether the comma appears before "and" in a list ("skills, speed, and accuracy")</li>
-          <li><b>Em-dash vs hyphen usage</b> — which is preferred and how often</li>
-          <li><b>Quote style</b> — single or double quotation marks</li>
-          <li><b>Number style</b> — numerals vs spelled out, how percentages and currency are written</li>
-          <li><b>Acronyms</b> — which ones appear and need defining on first use</li>
-          <li><b>Preferred words and words to avoid</b> — consistent choices and hype or filler words that show up</li>
+          <li>Three real parallel AI calls (a thread pool, up to 3 at once) — these are the "sub-agents".</li>
+          <li>Each returns strict JSON: the yes/no signals, the list signals, and the free-text signals.</li>
+          <li>Code merges: <b>majority wins</b> for yes/no, <b>pool + dedupe</b> for lists, <b>keep all three</b> for the descriptive signals (so the Step 3 writer can weigh them).</li>
+          <li class="fn">script <span class="file">run_style_guide.py · analyze()</span> · prompt <span class="file">prompts/analyze-blogs.md</span> → <span class="file">_work/style-guide/analysis.json</span></li>
         </ul>
-        <p>The three agents' findings are merged. For yes/no choices, majority wins. For lists, all findings are combined and deduplicated.</p>
+        <a class="xref" href="#merge">↓ 06 — how the three reports merge</a>
       </div></div>
+
       <div class="step"><div class="dot">3</div><div class="step-body">
-        <h3>Fill the template</h3>
+        <h3>Fill the template <span class="pill free">free</span> <span class="pill eng">Claude or Codex</span></h3>
+        <p>Take the ready-made guide template and resolve every tag: keep <span class="t-tag">[STANDARD]</span> lines as written, replace each <span class="t-tag">[BLOGS]</span> with the matching observed value, fill each <span class="t-tag">[COMPANY]</span> from the blogs and flag it for marketing.</p>
         <ul>
-          <li><b>[STANDARD]</b> fields stay as-is — standard editorial rules that apply to any company</li>
-          <li><b>[BLOGS]</b> fields are replaced with the matching signal from the Step 2 analysis</li>
-          <li><b>[COMPANY]</b> fields are filled from what the blogs show, then flagged for marketing to confirm</li>
-          <li>No tag is left unresolved — every placeholder must be replaced before the file ships</li>
+          <li>The template is lifted <b>verbatim</b> from the recipe file, so the guide's structure lives in exactly one place.</li>
+          <li>After writing, the code scans for any leftover <span class="t-tag">[BLOGS]/[STANDARD]/[COMPANY]</span> tags and prints the count — the ship gate is zero unresolved tags.</li>
+          <li class="fn">script <span class="file">run_style_guide.py · fill()</span> · prompt <span class="file">prompts/fill-template.md</span> → <span class="file">style-guide.md</span></li>
         </ul>
+        <a class="xref" href="#covers">↓ 07 — what the guide covers</a>
       </div></div>
+
     </div>
-
-    <h3>What the Step 2 analysis returns</h3>
-    <table class="eg-table">
-      <tr><th>Signal</th><th>Observed value (example)</th></tr>
-      <tr><td class="signal">headline_case</td><td>Sentence case — "Top 15 skills assessment tools for 2025"</td></tr>
-      <tr><td class="signal">oxford_comma</td><td>Yes — "skills, speed, and accuracy"</td></tr>
-      <tr><td class="signal">industry_terms</td><td>skills assessment · candidate · ATS · time-to-hire · proctoring · talent acquisition</td></tr>
-      <tr><td class="signal">em_dash_usage</td><td>Rare — hyphens preferred over em dashes</td></tr>
-      <tr><td class="signal">acronyms</td><td>ATS, HR, DEI, KPI — define on first use</td></tr>
-      <tr><td class="signal">avoided_words</td><td>leverage, seamless, robust, innovative, game-changing</td></tr>
-    </table>
-
-    <h3>What a Say This → Not That pair looks like</h3>
-    <table class="eg-table">
-      <tr><th>Say this</th><th>Not that</th><th>Why</th></tr>
-      <tr><td>Skills assessment</td><td>Assessment test</td><td>Industry-standard term; "test" sounds academic</td></tr>
-      <tr><td>Candidate</td><td>Applicant</td><td>Consistent with how the site and the industry refer to people in the pipeline</td></tr>
-      <tr><td>Book a demo</td><td>Request a demo / Schedule a call</td><td>Exact CTA text used on-site — keep it consistent</td></tr>
-      <tr><td>Improve</td><td>Leverage / Optimise</td><td>Plain word; AI-slop alternatives undermine the brand's direct tone</td></tr>
-    </table>
+    <div class="note">
+      <span class="tag">Written in place</span>
+      <p style="margin:6px 0 0">Step 3 writes straight to the real <span class="file">style-guide.md</span> — <b>not</b> a separate draft copy. An earlier design saved a <span class="file">_drafts/</span> copy that a human had to promote, and that promotion step was forgotten for 5 of 6 builders. So the review surface is now <span class="file">git diff</span> on the real file.</p>
+    </div>
   </div>
 </section>
 
-<section id="covers" class="alt">
+<!-- 05 -->
+<section id="tags">
   <div class="wrap">
-    <h2><span class="num">04</span>What style-guide.md covers</h2>
-    <ul>
-      <li><b>Grammar & mechanics</b> — capitalization (headlines, product names, industry terms), numbers, punctuation, abbreviations and acronyms</li>
-      <li><b>Word choice</b> — preferred terms (Say This → Not That pairs), words to avoid, inclusive language</li>
-      <li><b>Formatting</b> — bold/italic use, lists (bulleted vs numbered), links, callout boxes</li>
-      <li><b>Content structure</b> — intro hook, section length, conclusion and CTA</li>
-      <li><b>SEO-specific</b> — meta title length, meta description, URL slugs, alt text</li>
-      <li><b>Dates, stats, images</b> — date format, citing sources, screenshot and chart standards</li>
-      <li><b>Brand-specific</b> — product and feature naming, how competitors are referenced</li>
-      <li><b>Voice reminders</b> — a short reminder of the company's voice (full guide lives in brand-voice.md)</li>
-      <li><b>Editing checklist</b> — every standard check before publishing</li>
-    </ul>
+    <h2><span class="num">05</span>Deep dive — the three source tags</h2>
+    <p class="sub">Every line in the template carries one of three tags. The tag decides where the value comes from and who owns it. This is the single rule that keeps the guide honest — no field is filled from thin air.</p>
+    <div class="grid three">
+      <div class="card">
+        <div class="badge"><span class="t-tag">[BLOGS]</span></div>
+        <h3 style="margin-top:8px">Observed from the real writing</h3>
+        <p>Filled by the Step 2 analysis: headline casing, Oxford comma, quote style, industry terms, acronyms, preferred words, words to avoid. If the blogs disagreed with no clear majority, the writer picks the cleaner option and notes it rather than faking a rule.</p>
+      </div>
+      <div class="card">
+        <div class="badge"><span class="t-tag">[STANDARD]</span></div>
+        <h3 style="margin-top:8px">Best-practice default</h3>
+        <p>Written straight into the template, no analysis needed — numbers, abbreviations, formatting, content structure, SEO meta, accessibility. Roughly 85% of the guide. The same for most companies.</p>
+      </div>
+      <div class="card">
+        <div class="badge"><span class="t-tag">[COMPANY]</span></div>
+        <h3 style="margin-top:8px">Fill, then flag for marketing</h3>
+        <p>Product and feature naming, competitor rules — filled from what the blogs show, then appended with "— confirm with marketing". Never left blank, never invented as a brand preference.</p>
+      </div>
+    </div>
   </div>
 </section>
 
-<footer><div class="wrap">Style Guide · Content Machine Stage 0 · Grammar, punctuation, formatting, and SEO standards from the company's real top blogs.</div></footer>
+<!-- 06 -->
+<section id="merge" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">06</span>Deep dive — how the three readers' reports merge</h2>
+    <p class="sub">The 11 signals aren't all merged the same way. Each falls into one of three classes, and code combines them accordingly — so three independent reads become one clean answer.</p>
+    <table>
+      <tr><th>Merge class</th><th>Signals</th><th>How code combines the 3 reports</th></tr>
+      <tr>
+        <td><b>Yes/no vote</b><br><span class="muted" style="font-size:13px">ENUM_SIGNALS</span></td>
+        <td><span class="t-tag">headline_case</span> <span class="t-tag">oxford_comma</span> <span class="t-tag">quote_style</span></td>
+        <td>Majority wins. Each reader casts one vote; the most common answer is kept.</td>
+      </tr>
+      <tr>
+        <td><b>Pool &amp; dedupe</b><br><span class="muted" style="font-size:13px">LIST_SIGNALS</span></td>
+        <td><span class="t-tag">industry_terms</span> <span class="t-tag">acronyms</span> <span class="t-tag">preferred_words</span> <span class="t-tag">avoided_words</span></td>
+        <td>Union of all three lists, with case-insensitive duplicates removed — so a term any reader saw survives.</td>
+      </tr>
+      <tr>
+        <td><b>Keep all three</b><br><span class="muted" style="font-size:13px">TEXT_SIGNALS</span></td>
+        <td><span class="t-tag">brand_naming</span> <span class="t-tag">em_dash_usage</span> <span class="t-tag">ellipses</span> <span class="t-tag">number_style</span></td>
+        <td>Not merged — kept per batch ("batch1: … | batch2: …") so the Step 3 writer sees where the batches agreed or differed and weighs it.</td>
+      </tr>
+    </table>
+
+    <h3>Worked example <span class="muted" style="font-size:13px; font-weight:400">— real, from the Testlify run (30 blogs, 3 batches)</span></h3>
+    <table>
+      <tr><th>Signal</th><th>Class</th><th>Merged value</th></tr>
+      <tr><td><span class="t-tag">oxford_comma</span></td><td>vote</td><td><b>Yes</b> (majority of the three readers).</td></tr>
+      <tr><td><span class="t-tag">headline_case</span></td><td>vote</td><td><b>Sentence case</b> dominates for titles and H2s; glossary term-titles are the exception in Title Case.</td></tr>
+      <tr><td><span class="t-tag">quote_style</span></td><td>vote</td><td><b>Curly</b> quotes; straight quotes essentially absent.</td></tr>
+      <tr><td><span class="t-tag">acronyms</span></td><td>pool</td><td>~65 pooled across the batches — ATS, HRIS, DEI, FLSA, EEOC, SJT, WFM, FTE, HDHP…</td></tr>
+      <tr><td><span class="t-tag">avoided_words</span></td><td>pool</td><td>streamline, seamless, leverage, robust, empower, crucial, holistic, "attract and retain top talent" (a pasted boilerplate line)…</td></tr>
+      <tr><td><span class="t-tag">em_dash_usage</span></td><td>per-batch</td><td>All three noted true em dashes are rare and hyphens do the work — and each flagged a stray spaced colon where a dash belongs (a conversion artifact), which the writer then called out.</td></tr>
+    </table>
+    <div class="note">
+      <span class="tag">The point of keeping text signals per-batch</span>
+      <p style="margin:6px 0 0">The em-dash example is why: all three readers independently spotted the same conversion artifact (a spaced colon standing in for a dash). Handing the writer all three observations, rather than one flattened summary, let it promote that shared finding into a real house rule.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 07 -->
+<section id="covers">
+  <div class="wrap">
+    <h2><span class="num">07</span>What the finished guide covers</h2>
+    <p class="sub">The template is one fixed structure. Every section is always present; the tag on each line decides whether it was observed, standard, or flagged for marketing.</p>
+    <div class="grid">
+      <div class="card"><h3>Grammar &amp; mechanics</h3><p>Capitalization (headlines, product names, industry terms), numbers, punctuation (Oxford comma, dashes, quotes, ellipses), abbreviations &amp; acronyms.</p></div>
+      <div class="card"><h3>Word choice</h3><p>Preferred terms as "Say this → Not that" pairs, words to avoid (filler and AI-cliché hype), inclusive language.</p></div>
+      <div class="card"><h3>Formatting</h3><p>Bold/italic use, bulleted vs numbered lists, descriptive link text, code elements, callout boxes.</p></div>
+      <div class="card"><h3>Content structure</h3><p>Intro hook, one-idea sections with length targets, conclusion and CTA.</p></div>
+      <div class="card"><h3>SEO-specific style</h3><p>Meta title length, meta description, URL slugs, alt text.</p></div>
+      <div class="card"><h3>Dates, stats, images</h3><p>Date format, citing sources, presenting numbers, captions, screenshots, charts.</p></div>
+      <div class="card"><h3>Brand-specific</h3><p>Product and feature naming, competitor references — the <span class="t-tag">[COMPANY]</span> fields flagged for marketing.</p></div>
+      <div class="card"><h3>Voice, accessibility, checklist</h3><p>A short voice reminder (the full voice lives in <span class="file">brand-voice.md</span>), accessibility rules, and a pre-publish editing checklist.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 -->
+<section id="output" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">08</span>Output &amp; where this sits</h2>
+    <div class="stats">
+      <div class="stat"><div class="big">30</div><div class="cap">top blogs read, by traffic</div></div>
+      <div class="stat"><div class="big">4</div><div class="cap">AI calls total (3 batch reads + 1 fill)</div></div>
+      <div class="stat"><div class="big">~85%</div><div class="cap">standard best practice; ~15% observed</div></div>
+      <div class="stat"><div class="big">$0</div><div class="cap">local CLI — Claude or Codex, no key</div></div>
+    </div>
+    <div class="grid" style="margin-top:22px">
+      <div class="card">
+        <h3>The deliverable</h3>
+        <p>The full style guide, every tag resolved, written in place.</p>
+        <span class="file">projects/&lt;company&gt;/01-brand-context/style-guide.md</span>
+      </div>
+      <div class="card">
+        <h3>The intermediates</h3>
+        <p>The ranked blog list and the merged analysis — kept so a re-run resumes without redoing the reads.</p>
+        <span class="file">_work/style-guide/top-blogs.json</span>
+        <span class="file">_work/style-guide/analysis.json</span>
+      </div>
+    </div>
+    <div class="note orange">
+      <span class="tag">Where this sits in the bigger machine</span>
+      <ul style="margin:8px 0 0">
+        <li><b>Upstream</b> — Layer 00's site catalogue (<span class="file">00-foundation/output/content-database.csv</span>) supplies the pages, traffic, and full text. The sibling brand-facts engine (0-brand-facts) supplies <span class="file">type-roles.json</span>, which tells Step 1 which page types count as editorial.</li>
+        <li><b>This engine</b> — one of the seven one-time brand-context builders (engine 2 of 7). It runs once per company.</li>
+        <li><b>Downstream</b> — Layer 03's content machine edits every drafted article against this <span class="file">style-guide.md</span>. It pairs with the sibling <span class="file">brand-voice.md</span>: the style guide governs mechanics, the voice guide governs tone.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">
+  Style Guide · Brand Context Layer 01 · architecture overview — pick the top 30 blogs → three readers observe the house style → code merges the votes → fill the guide in place.
+</div></footer>
 </body>
 </html>

@@ -195,11 +195,13 @@
       behind every claim. It is <i>not</i> the finished article; it's the raw evidence our writer draws from.</div>
     <div class="define"><b>Grounded / cited</b> — every sentence points to an actual web page STORM read. Nothing
       comes from the AI's own memory, so it can't quietly make things up.</div>
-    <div class="define"><b>Editor (persona)</b> — an invented interviewer with one angle (say, cost, or how it's
-      measured). More editors = more angles the topic gets researched from.</div>
+    <div class="define"><b>Perspective (editor / persona)</b> — an invented interviewer with one angle (say, cost, or
+      how it's measured). It's the <span class="file">--perspectives</span> knob: more perspectives = more angles the
+      topic gets researched from.</div>
     <div class="define"><b>The bridge (shim)</b> — a small relay we run on our own machine that makes STORM send its
-      AI calls to a headless CLI — our <b>Claude</b> subscription (default) or <b>Codex</b> — instead of a paid AI
-      service. This is why the AI part costs $0.</div>
+      AI calls to a headless CLI instead of a paid AI service. It forwards to whichever provider you pick —
+      <b>Claude</b> (default) or <b>Codex</b>, both on our own subscription, no API key. This is why the AI part
+      costs $0.</div>
     <div class="define"><b>The retriever (scraper)</b> — the part that finds web links and then reads the
       <b>whole article</b> behind each one, not just the one-line search blurb.</div>
     <div class="define"><b>RAG</b> — "retrieve, then write": for each section, find the most relevant source passages
@@ -263,8 +265,14 @@
         <td><span class="file">run_storm.py</span><br><span class="muted" style="font-size:12.5px;">the control panel</span></td>
         <td>The one command you actually run.
           <ul>
-            <li>Loads the search credentials and sets every knob (how many editors, how many questions, how many links).</li>
-            <li>Wires the bridge + the retriever into the engine.</li>
+            <li>Loads the search credentials and sets every knob: <span class="file">--perspectives</span> (editors),
+              <span class="file">--turns</span> (questions each), <span class="file">--topk</span> (links per search).</li>
+            <li>Picks the AI provider — <span class="file">--provider claude|codex</span> and an optional
+              <span class="file">--model</span> — and passes them to the bridge (as <span class="file">SHIM_PROVIDER</span> /
+              <span class="file">SHIM_MODEL</span>).</li>
+            <li>Wires the bridge + the retriever into the engine, and points the engine at the local
+              <span class="file">./engine</span> source (see the rename-proof note below).</li>
+            <li>Takes an optional <span class="file">--hub</span> so a spoke's output nests under its pillar (see §10).</li>
             <li>Runs the whole chain — research → outline → write → polish — in one go.</li>
           </ul></td>
       </tr>
@@ -286,9 +294,28 @@
       </tr>
     </table>
 
+    <div class="note"><span class="tag">Gotcha we fixed — finding the engine after a folder rename</span><br>
+    The STORM engine (<span class="file">knowledge_storm</span>) isn't installed like a normal library — it's loaded
+    straight from the local <span class="file">./engine</span> source next to the scripts.
+    <ul>
+      <li><b>What broke:</b> the way Python found it was a file (<span class="file">_storm_local.pth</span>) holding a
+        <b>hard-coded absolute path</b> to the old <span class="file">02-content-machine</span> folder. When we
+        renumbered the layer <b>02 → 03</b>, that path went dead and the run crashed with
+        <span class="file">ModuleNotFoundError: knowledge_storm</span> — even though the code sat right there.</li>
+      <li><b>The durable fix:</b> <span class="file">run_storm.py</span> now works out where
+        <span class="file">./engine</span> is <b>from its own file location</b> and adds it to Python's search path
+        <i>before</i> importing the engine. So a rename or fresh checkout can never orphan it again.</li>
+    </ul></div>
+
     <div class="note orange"><span class="tag">Why it costs almost nothing</span><br>
     All the AI runs free through the <b>bridge</b> on our subscription. The only thing that costs money is the
     web-search lookups in the retriever — about <b>$0.10–$0.20 per topic</b>. Reading the full articles is free.</div>
+
+    <div class="note"><span class="tag">Gotcha — the bridge's opening note is worded carefully on purpose</span><br>
+    The bridge prepends one short line to every prompt telling the model to reply with just the answer (no "Here is"
+    opener, no sign-off). It is phrased as a plain <b>formatting note</b>, never as a "SYSTEM:" instruction — because
+    when it read like a system directive, the model's prompt-injection defence treated our own long inputs as an
+    attack and refused, returning empty answers. The mild wording is load-bearing, not cosmetic.</div>
   </div>
 </section>
 
@@ -305,7 +332,10 @@
         <p>Two quick bits of setup — nothing is written yet.</p>
         <ul>
           <li><span class="fn">Start the bridge</span> (<span class="file">shim.py</span>) so STORM's AI calls run on a headless CLI — Claude or Codex, free.</li>
-          <li><span class="fn">Set the knobs</span> in <span class="file">run_storm.py</span>: how many editors, how many questions each may ask, how many links per search.</li>
+          <li><span class="fn">Pick the provider</span> with <span class="file">--provider claude|codex</span> (and an
+            optional <span class="file">--model</span>); <span class="file">run_storm.py</span> hands both to the bridge.</li>
+          <li><span class="fn">Set the knobs</span> in <span class="file">run_storm.py</span>: perspectives (editors),
+            turns (questions each), topk (links per search). The automated run uses <b>3 perspectives × 3 turns</b>.</li>
         </ul></div></div>
 
       <div class="step"><div class="dot">1</div><div class="step-body">
@@ -580,11 +610,16 @@
     <h2><span class="num">10</span>What comes out</h2>
     <p class="sub">A readable, cited dossier — plus the raw evidence pool behind it, and a viewable page.</p>
     <div class="stats">
-      <div class="stat"><div class="big">~10k</div><div class="cap">words of densely-cited research (proven run)</div></div>
-      <div class="stat"><div class="big">1 : 27</div><div class="cap">about one citation every 27 words</div></div>
+      <div class="stat"><div class="big">9–13k</div><div class="cap">words of densely-cited research (real runs; the gate that flags a failed/stub run is 1,500)</div></div>
+      <div class="stat"><div class="big">~16 min</div><div class="cap">one run end to end (~979s on Claude Sonnet, 3×3)</div></div>
       <div class="stat"><div class="big">$0</div><div class="cap">AI fees — runs on the subscription</div></div>
       <div class="stat"><div class="big">~$0.15</div><div class="cap">web-search cost per topic</div></div>
     </div>
+    <div class="note"><span class="tag">A real run, by the numbers</span><br>
+    On a live Testlify topic, run on <b>Claude Sonnet</b> at the automated config — <b>3 perspectives × 3 turns</b> —
+    STORM produced a <b>~12,700-word</b> dossier in <b>~979 seconds (~16 min)</b>, roughly one citation every 27
+    words. Spoke topics on the same config landed in the same <b>9–13k</b> band. Anything under the <b>1,500-word</b>
+    gate is treated as a failed run, not a dossier.</div>
     <div class="grid" style="margin-top:22px;">
       <div class="card"><div class="ic">📘</div><h3>The dossier</h3><p>A long, source-backed research write-up. It feeds our
         writing phase as an evidence pool — the writer maps it onto <b>our</b> outline and <b>our</b> angle. STORM's own
@@ -597,6 +632,18 @@
         web page — every citation clickable, a numbered references list, a contents sidebar. For reading and sharing.</p>
         <span class="file">article.html</span></div>
     </div>
+    <div class="note"><span class="tag">Where each run lands — pillars flat, spokes nested</span><br>
+    Where the output folder sits depends on the optional <span class="file">--hub</span> flag:
+    <ul>
+      <li><b>A pillar (main article) has no hub</b> — its run lands flat at
+        <span class="file">storm/out/&lt;TopicDir&gt;/</span>.</li>
+      <li><b>A spoke passes <span class="file">--hub &lt;pillar-slug&gt;</span></b> — its run nests one level down at
+        <span class="file">storm/out/&lt;hub&gt;/&lt;TopicDir&gt;/</span>, so every spoke sits under its pillar.</li>
+      <li>The research conductor drives this: it works out the hub once from the spoke's <span class="file">spoke-of:</span>
+        source and calls <span class="file">config.storm_dir(topic, hub)</span>, which mirrors the same layout so it
+        can find the dossier again.</li>
+    </ul></div>
+
     <div class="note"><span class="tag">Where STORM sits in the bigger machine</span><br>
     STORM is the <b>Evidence Engine</b> of the research phase. Alongside the DataForSEO brief (keywords + SERP + the
     competitor map), it hands the writing phase everything it needs — so the writer just writes, and never has to go

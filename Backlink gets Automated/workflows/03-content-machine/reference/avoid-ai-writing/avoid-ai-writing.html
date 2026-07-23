@@ -3,122 +3,548 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Avoid AI Writing — Remove AI-isms Before Publishing</title>
+<title>Avoid AI Writing — The Anti-AI-isms Standard</title>
 <style>
-  :root{--ink:#1c1a17;--muted:#6b6459;--line:#efe7d8;--paper:#fff;--cream:#fffdf8;--wash:#fff8ec;--yellow:#ffb703;--yellow-soft:#ffe9ad;--orange:#fb7a00;--orange-soft:#ffd9b0;--red:#fdf3f0;--red-line:#f6d9cf;--red-ink:#c2603a;--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);}
-  *{box-sizing:border-box;}html{scroll-behavior:smooth;}
-  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;line-height:1.62;font-size:16px;-webkit-font-smoothing:antialiased;}
-  .wrap{max-width:960px;margin:0 auto;padding:0 28px;}
-  header{background:linear-gradient(180deg,var(--wash),var(--paper));border-bottom:1px solid var(--line);padding:56px 0 38px;}
-  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--paper);border:1px solid var(--orange-soft);padding:4px 11px;border-radius:100px;margin-bottom:16px;}
-  h1{font-size:clamp(26px,5vw,42px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em;}
-  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%);padding:0 2px;}
-  .lede{font-size:18px;color:var(--muted);max-width:680px;margin:0;}
-  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
-  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;padding:9px 0;}
-  nav a{font-size:12.5px;font-weight:600;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:100px;}
-  nav a:hover{color:var(--ink);background:var(--wash);}
-  section{padding:48px 0;border-bottom:1px solid var(--line);}
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:730px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
   section:last-of-type{border-bottom:none;}
-  section.alt{background:var(--cream);}
-  h2{font-size:24px;letter-spacing:-.01em;margin:0 0 4px;}
-  h2 .num{color:var(--orange);margin-right:9px;}
-  .sub{color:var(--muted);margin:0 0 20px;font-size:16px;max-width:700px;}
-  h3{font-size:16px;margin:20px 0 6px;font-weight:700;}
-  p{margin:0 0 10px;}
-  ul{margin:5px 0 10px;padding-left:20px;}
-  li{margin:4px 0;font-size:15px;color:var(--muted);}
-  li b{color:var(--ink);}
-  .note{border-radius:11px;padding:13px 16px;margin:12px 0;font-size:14.5px;border:1px solid;}
-  .note.yellow{background:var(--cream);border-color:var(--line);border-left:4px solid var(--yellow);}
-  .note.red{background:var(--red);border-color:var(--red-line);border-left:4px solid var(--red-ink);}
-  .note strong{display:block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;}
-  .note.yellow strong{color:var(--orange);}
-  .note.red strong{color:var(--red-ink);}
-  .pattern-list{margin:14px 0;}
-  footer{padding:32px 0 52px;color:var(--muted);font-size:13px;}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:730px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;} .mem ul{margin:6px 0 6px;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .note.red{border-left-color:var(--red-ink); background:var(--red);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); display:block; margin-bottom:4px;}
+  .tag.r{color:var(--red-ink);}
+
+  /* step flow */
+  .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
+  .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:18px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow); text-align:center; line-height:1;}
+  .step-body h3{margin:4px 0 4px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
+  .step-body ul{margin:6px 0 4px; color:var(--muted); font-size:14.5px;}
+  .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
+  .xref:hover{background:var(--orange-soft);}
+  .phase{font-size:12px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin:26px 0 2px;}
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.gate{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.code{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+
+  /* cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .grid.four{grid-template-columns:repeat(4,1fr);}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card ul{margin:6px 0 0; font-size:14px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td b{color:var(--ink);}
+  td .n{font-family:ui-monospace,Menlo,monospace; font-weight:700; color:var(--orange);}
+  .v{font-weight:700; font-size:12px; padding:2px 9px; border-radius:100px; white-space:nowrap;}
+  .v.covered{color:var(--green-ink); background:var(--green); border:1px solid var(--green-line);}
+  .v.partial{color:#a6791b; background:var(--yellow-soft); border:1px solid var(--yellow);}
+  .v.no{color:var(--red-ink); background:var(--red); border:1px solid var(--red-line);}
+  .t-tag{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; font-weight:700; padding:1px 7px; border-radius:5px; background:var(--wash); border:1px solid var(--orange-soft);}
+  .bad{color:var(--red-ink); font-style:italic;}
+  .good{color:var(--green-ink);}
+
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
+
+  /* two-column compare */
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--red); border:2px solid var(--red-line);}
+  .agent.answ .cap{background:var(--green); border:2px solid var(--green-line);}
+  .agent h3{margin:0 0 2px; font-size:18px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+
+  /* before / after */
+  .ba{display:grid; grid-template-columns:1fr auto 1fr; gap:14px; align-items:center; margin:20px 0;}
+  .ba .box{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:16px 18px; box-shadow:var(--shadow); text-align:center;}
+  .ba .box .n{font-size:26px; font-weight:800;} .ba .box small{color:var(--muted); font-size:12.5px;}
+  .ba .arr{font-size:22px; color:var(--orange); font-weight:800;}
+  .ba .box.after{border-color:var(--green-line); background:var(--green);}
+
+  /* headline stats */
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three,.grid.four{grid-template-columns:1fr;} .ba{grid-template-columns:1fr;} }
 </style>
 </head>
 <body>
 <header><div class="wrap">
-  <span class="kicker">Content Machine · Stage 0 — Brand Context</span>
-  <h1>Avoid AI Writing — <span class="hl">remove machine-generated patterns before ship</span></h1>
-  <p class="lede">Audit every article before publishing to strip AI-isms (machine-generated word choice, sentence structure, formatting). Applied as the final gate — no draft ships without this pass.</p>
+  <span class="kicker">Content Machine · Reference Standard</span>
+  <h1>Avoid AI Writing — <span class="hl">strip the AI-isms before anything ships</span></h1>
+  <p class="lede">A writing-quality standard, not a verdict. It flags the word choices, sentence shapes, and formatting that show up far more often in machine-generated text, then rewrites them so the piece reads like a person wrote it. In the content machine it runs as the final pass before publish. Here is exactly what it looks for, how it decides, and how a pass runs.</p>
 </div></header>
 
 <nav><div class="wrap">
-  <a href="#concept">Concept</a>
-  <a href="#patterns">Top patterns</a>
-  <a href="#words">Words to avoid</a>
-  <a href="#gate">The gate</a>
+  <a href="#idea">One idea</a>
+  <a href="#words">The words you need</a>
+  <a href="#modes">Three modes</a>
+  <a href="#pass">How a pass runs</a>
+  <a href="#tells">The AI tells</a>
+  <a href="#tiers">The word tiers</a>
+  <a href="#examples">Before / after</a>
+  <a href="#gate">Severity &amp; the gate</a>
 </div></nav>
 
-<section id="concept">
+<section id="idea">
   <div class="wrap">
-    <h2><span class="num">01</span>The one rule</h2>
-    <p class="sub">Certain word choice, sentence shapes, and formatting patterns are statistically more common in LLM output. Remove them. The piece must read human — not generic vendor — before it publishes.</p>
-    <ul>
-      <li><b>Signals, not proof.</b> These patterns appear in human writing too (deadline pressure, non-native writers, technical genres). Use as a quality filter, not an accusation.</li>
-      <li><b>One final pass.</b> Run this AFTER seo-aeo-geo.md ships. It's the last gate before publishing.</li>
-    </ul>
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">Some words, sentence shapes, and formatting habits appear 5&ndash;20&times; more often in LLM output than in human writing. This standard finds them and removes them &mdash; so the text reads human, not like a generic vendor. It is a quality filter, used as a signal, never as an accusation.</p>
+    <div class="grid four">
+      <div class="card">
+        <div class="ic">&#128269;</div>
+        <h3>Audit</h3>
+        <p>Read the draft and flag every AI-ism, quoting the exact offending text.</p>
+      </div>
+      <div class="card">
+        <div class="ic">&#9997;&#65039;</div>
+        <h3>Rewrite</h3>
+        <p>Replace each flagged span with a direct, concrete, human phrasing. Change only what the rules require.</p>
+      </div>
+      <div class="card">
+        <div class="ic">&#128200;</div>
+        <h3>Three tiers</h3>
+        <p>Words are ranked by how strongly they signal AI &mdash; always-flag, flag-in-clusters, flag-by-density &mdash; so fine-in-isolation words don't get over-flagged.</p>
+      </div>
+      <div class="card">
+        <div class="ic">&#9878;&#65039;</div>
+        <h3>Honest signal</h3>
+        <p>The same shapes appear in second-language and deadline writing. Treat a hit as a signal, not proof.</p>
+      </div>
+    </div>
+    <div class="note orange">
+      <span class="tag">The one rule that governs everything</span>
+      <b>Signals, not proof.</b> These patterns are statistically more common in AI text, but humans on autopilot &mdash; under deadline, in a new genre, or in a second language &mdash; produce the same shapes. Audits of commercial AI detectors found false-positive rates above 60% on non-native English writers (Liang et al., Stanford, <i>Patterns</i> 2023) and misclassification above 70% on open-source detectors (Jabarian &amp; Imas, BFI 2025). Adversarial paraphrase cut detection accuracy by roughly 88% across every method tested (arXiv:2506.07001, 2025). So use it to clean writing and to sense whether a piece reads as machine-made &mdash; never as the sole basis for a consequential call (integrity, hiring, publication).
+    </div>
   </div>
 </section>
 
-<section id="patterns" class="alt">
+<section id="words" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">02</span>Top patterns to strip</h2>
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">Load-bearing terms, each defined once. Everything below reuses these exactly.</p>
+
+    <div class="define"><b>AI-ism</b> &mdash; a word, sentence shape, or formatting habit that shows up far more in machine-generated text than in human writing (e.g. "delve into", the em dash, "it's not X, it's Y"). The unit this standard hunts and removes.</div>
+
+    <div class="define"><b>The three word tiers</b> &mdash; how reliably a word signals AI.
+      <ul>
+        <li><b>Tier 1 &mdash; always flag.</b> Appears 5&ndash;20&times; more in AI text. Replace on sight (delve, leverage, robust, seamless).</li>
+        <li><b>Tier 2 &mdash; flag in clusters.</b> Fine alone; two or more in one paragraph is the tell (harness, foster, streamline, elevate).</li>
+        <li><b>Tier 3 &mdash; flag by density.</b> Normal words AI overuses; only flag when they saturate the text (&#8776;3%+): significant, innovative, effective.</li>
+      </ul>
+    </div>
+
+    <div class="define"><b>Severity P0 / P1 / P2</b> &mdash; how urgent a fix is, for triaging a large document.
+      <ul>
+        <li><b>P0</b> &mdash; credibility killers, fix immediately (cutoff disclaimers, chatbot artifacts, vague attributions).</li>
+        <li><b>P1</b> &mdash; obvious AI smell, fix before publishing (word-list hits, template phrases, bold overuse).</li>
+        <li><b>P2</b> &mdash; stylistic polish, fix when time allows (rule of three, uniform paragraphs).</li>
+      </ul>
+    </div>
+
+    <div class="define"><b>Mode</b> &mdash; what the pass actually does: <b>rewrite</b> (flag + fix, the default), <b>detect</b> (flag only, no edits), or <b>edit</b> (change a named file in place). <a href="#modes">&#8595; &sect;03</a></div>
+
+    <div class="define"><b>Context profile vs voice profile</b> &mdash; two independent dials. <b>Context</b> (linkedin, blog, technical-blog, investor-email, docs, casual) sets <i>how strict</i> to be for the audience. <b>Voice</b> (casual, professional, technical, warm, blunt) sets <i>how the prose should sound</i>. You can write blunt for a blog or warm for docs. <a href="#gate">&#8595; &sect;08</a></div>
+
+    <div class="define"><b>Type-token ratio (TTR)</b> &mdash; distinct words divided by total words; a rough read on vocabulary range. Human prose over ~200 words usually lands 0.50&ndash;0.65; AI can drift under 0.40 when it loops on a small vocabulary. Low TTR is a second look, not proof.</div>
+
+    <div class="define"><b>Copula avoidance</b> &mdash; dodging plain "is" / "has" for fancier verbs ("serves as", "features", "boasts", "presents"). Reads like a press release. Default back to "is" / "has" unless the stronger verb truly adds meaning.</div>
+  </div>
+</section>
+
+<section id="modes">
+  <div class="wrap">
+    <h2><span class="num">03</span>Three modes, two dials</h2>
+    <p class="sub">One skill, three jobs. Pick the mode by what the writer wants done to the text; then optionally set the two dials &mdash; context (how strict) and voice (how it sounds).</p>
+    <div class="grid three">
+      <div class="card">
+        <div class="ic">&#9997;&#65039;</div>
+        <h3>rewrite <span class="pill">default</span></h3>
+        <p>Flag every AI-ism and return a clean version. Output has four parts:</p>
+        <ul>
+          <li>issues found (each quoted)</li>
+          <li>the rewritten text</li>
+          <li>a diff summary of what changed</li>
+          <li>a second-pass audit that catches survivors</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="ic">&#128269;</div>
+        <h3>detect</h3>
+        <p>Flag only, no edits. Use when the writer wants to decide the fixes, the patterns may be intentional, or the text must not be altered. Output:</p>
+        <ul>
+          <li>issues found, grouped P0 / P1 / P2</li>
+          <li>an assessment: clear problem vs judgment call</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="ic">&#128221;</div>
+        <h3>edit</h3>
+        <p>Change a named file in place with minimal, targeted edits. Rules:</p>
+        <ul>
+          <li>leave already-human passages untouched</li>
+          <li>never touch quotes, code, or others' attributed text &mdash; flag those instead</li>
+          <li>re-read after, confirm patterns resolved</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>How the two dials compose</h3>
+    <p class="muted">Voice sets the target; context sets how hard to enforce it. A voice target always applies, even where a context profile would skip that category (technical voice still prefers plain "is" in a casual context). Where the two dials govern the same rule and disagree, resolve toward the stricter of the two &mdash; a warm voice on docs still gets no decorative tables.</p>
+    <div class="note">
+      <span class="tag">Iterate to convergence (optional)</span>
+      Rewrite mode already runs one corrective second pass &mdash; that built-in pass <i>is</i> pass 2. Asking to "keep going" repeats the audit&rarr;rewrite cycle, capped at <b>N = 2</b>: a rewrite plus one corrective pass clears the flags, and a third pass costs a full regeneration while rarely finding more. Report the count ("converged in 2 passes").
+    </div>
+  </div>
+</section>
+
+<section id="pass" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">04</span>How a pass runs</h2>
+    <p class="sub">The default rewrite cycle, in order. Detect mode stops after step 1&ndash;2; edit mode swaps the "return text" steps for in-place edits on a file.</p>
+    <div class="flow">
+      <div class="step">
+        <div class="dot">1</div>
+        <div class="step-body">
+          <h3>Audit <span class="pill">detect + rewrite</span></h3>
+          <p>Read the draft and identify every AI-ism, quoting the exact offending text. Auto-detect the context profile if none was given (short + hashtags = linkedin, code blocks = technical-blog, salutation + fundraising = investor-email, default = blog).</p>
+          <ul>
+            <li>Group flags by severity so a quick pass can take P0 + P1 first. <a class="xref" href="#gate">&#8595; &sect;08 severity</a></li>
+            <li>Skip quoted examples, code blocks, and text marked illustrative &mdash; the self-reference escape hatch.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="step">
+        <div class="dot">2</div>
+        <div class="step-body">
+          <h3>Rewrite &mdash; or just report <span class="pill code">mode branch</span></h3>
+          <p>In <b>detect</b> mode, stop here and hand back the flags plus an assessment. In <b>rewrite</b> / <b>edit</b> mode, replace each flagged span: preserve structure, intent, and every specific technical detail; change only what the rules require.</p>
+          <ul>
+            <li>Rewrite toward the five tone principles: vary sentence length, be concrete, have a voice, cut the neutrality, earn the emphasis. <a class="xref" href="#examples">&#8595; &sect;07 examples</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="step">
+        <div class="dot">3</div>
+        <div class="step-body">
+          <h3>Diff summary</h3>
+          <p>List the meaningful changes &mdash; not every word, the load-bearing edits and why. In edit mode this is a per-span before &rarr; after report, not the whole file.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="dot">4</div>
+        <div class="step-body">
+          <h3>Second-pass audit <span class="pill">the built-in pass 2</span></h3>
+          <p>Re-read the rewritten text and catch survivors &mdash; recycled transitions, lingering inflation, copula avoidance, filler. Fix them inline and note what changed. If it is clean, say so.</p>
+          <ul>
+            <li>Don't over-polish: sanding away every irregularity pushes writing back <i>toward</i> the AI profile. Keep the natural disfluency. <a class="xref" href="#tells">&#8595; &sect;05 rhythm</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tells">
+  <div class="wrap">
+    <h2><span class="num">05</span>The AI tells &mdash; the pattern catalogue</h2>
+    <p class="sub">Roughly forty categories, grouped. Each row: the tell, and the fix. The catalogue is the real intelligence of the standard &mdash; word swaps alone won't clear a piece if the shapes stay.</p>
+
     <h3>Formatting</h3>
-    <ul>
-      <li><b>Em dashes (— or --):</b> Replace with commas, periods, or rewrite as two sentences. Target: zero per article.</li>
-      <li><b>Bold overuse:</b> Max one bolded phrase per major section, or none. If it's important, lead the sentence with it instead.</li>
-      <li><b>Emoji in headers:</b> Remove entirely. No "🚀 What This Means".</li>
-      <li><b>Excessive bullet lists:</b> Convert to prose paragraphs unless it's genuinely step-by-step or comparative.</li>
-    </ul>
-
-    <h3>Sentence structure</h3>
-    <ul>
-      <li><b>"It's not X — it's Y":</b> Rewrite as a direct positive statement. Max one per piece.</li>
-      <li><b>Hollow intensifiers:</b> Cut <b>genuine</b>, <b>real</b> (as intensifier), <b>truly</b>, <b>to be honest</b>, <b>let's be clear</b>. Just state the fact.</li>
-      <li><b>Vague endorsement:</b> Cut <b>worth reading</b>, <b>worth your time</b>, <b>worth exploring</b>. Say <i>why</i> it matters instead.</li>
-      <li><b>Hedging:</b> Cut <b>perhaps</b>, <b>could potentially</b>, <b>it's important to note that</b>. Make the point directly.</li>
-      <li><b>Compulsive rule of three:</b> Vary groupings. Use two, four, or a sentence instead of always three items.</li>
-    </ul>
-  </div>
-</section>
-
-<section id="words">
-  <div class="wrap">
-    <h2><span class="num">03</span>Words to replace (always flag these)</h2>
-    <table style="width:100%;border-collapse:collapse;margin:14px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:14px;">
-      <tr style="background:var(--cream);"><th style="text-align:left;padding:8px 12px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:2px solid var(--line);">Replace</th><th style="text-align:left;padding:8px 12px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:2px solid var(--line);">With</th></tr>
-      <tr><td style="padding:8px 12px;border-bottom:1px solid var(--line);">delve · delve into</td><td style="padding:8px 12px;border-bottom:1px solid var(--line);">explore, dig into, look at</td></tr>
-      <tr><td style="padding:8px 12px;border-bottom:1px solid var(--line);">leverage (verb)</td><td style="padding:8px 12px;border-bottom:1px solid var(--line);">use</td></tr>
-      <tr><td style="padding:8px 12px;border-bottom:1px solid var(--line);">robust · comprehensive</td><td style="padding:8px 12px;border-bottom:1px solid var(--line);">strong · reliable · thorough · complete</td></tr>
-      <tr><td style="padding:8px 12px;border-bottom:1px solid var(--line);">seamless · seamlessly</td><td style="padding:8px 12px;border-bottom:1px solid var(--line);">smooth, easy, without friction</td></tr>
-      <tr><td style="padding:8px 12px;border-bottom:1px solid var(--line);">game-changing · paradigm</td><td style="padding:8px 12px;border-bottom:1px solid var(--line);">describe what actually changed</td></tr>
-      <tr><td style="padding:8px 12px;border-bottom:1px solid var(--line);">thought leadership · best practices</td><td style="padding:8px 12px;border-bottom:1px solid var(--line);">expertise · what works · proven methods</td></tr>
-      <tr><td style="padding:8px 12px;">holistic · synergy · actionable</td><td style="padding:8px 12px;">describe the actual thing, or cut</td></tr>
+    <table>
+      <tr><th style="width:30%;">Tell</th><th>What to do</th></tr>
+      <tr><td><b>Em dashes</b> (&mdash; and --)</td><td>Replace with commas, periods, parentheses, or two sentences. Target zero; hard max one per 1,000 words. Applies to headings too; catch both the Unicode em dash and the "--" substitute.</td></tr>
+      <tr><td><b>Bold overuse</b></td><td>One bolded phrase per major section at most, or none. If it matters enough to bold, restructure the sentence to lead with it.</td></tr>
+      <tr><td><b>Emoji in headers</b></td><td>Remove entirely. Social posts may use one or two, end-of-line only, never mid-sentence.</td></tr>
+      <tr><td><b>Excessive bullet lists</b></td><td>Convert to prose unless the content is genuinely list-like (feature comparison, steps, API params).</td></tr>
+      <tr><td><b>Title-case headings</b></td><td>Use sentence case for subheadings. Title case only for the piece's main title, if at all.</td></tr>
+      <tr><td><b>List-label periods</b></td><td>A short bold label ending in a period, then a gloss (<span class="bad">**Intros.** Years of conferences</span>) &rarr; use a colon and lowercase the gloss (<span class="good">**Intros:** years of conferences</span>).</td></tr>
+      <tr><td><b>Curly quotes</b> (&ldquo; &rdquo;)</td><td>A <i>weak</i> paste-from-chat signal, only in plain-text contexts (code comments, commit messages). Corroborating, never conclusive &mdash; don't flag curly apostrophes alone.</td></tr>
     </table>
-    <div class="note yellow"><strong>Full list</strong>
-    The complete Tier-1 list (always replace) covers 40+ terms: <b>tapestry, landscape, realm, embark, beacon, testament, cutting-edge, pivotal, meticulous, underscores, utilise, watershed, nestled, vibrant, thriving, showcasing, unpack, bustling, intricate, enduring, daunting, learnings, in order to, due to the fact that, features (as verb), boasts, at its core.</b> See the SKILL.md for Tier 2 (flag in clusters) and Tier 3 (flag by density).</div>
+
+    <h3>Sentence structure &amp; inflation</h3>
+    <table>
+      <tr><th style="width:30%;">Tell</th><th>What to do</th></tr>
+      <tr><td><b>"It's not X &mdash; it's Y"</b></td><td>Rewrite as a direct positive statement. Max one per piece, and only if it serves the argument.</td></tr>
+      <tr><td><b>Hollow intensifiers</b></td><td>Cut <i>genuine, truly, real (as "a real improvement"), to be honest, let's be clear, it's worth noting that</i>. Just state the fact.</td></tr>
+      <tr><td><b>Real/actual adjective inflation</b></td><td>"Genuine utility", "real tokenomics" &mdash; the noun-modifier form implying the rest is fake, without saying so. Drop it and add the specific claim, unless the contrast is actually named ("real revenue, not grants").</td></tr>
+      <tr><td><b>Vague endorsement</b></td><td>Cut "worth reading / a look / your time". Say <i>why</i> it matters instead.</td></tr>
+      <tr><td><b>Significance inflation</b></td><td>"A watershed moment for the industry" on a routine event. State what happened; if the sentence still works after deleting the inflation clause, delete it.</td></tr>
+      <tr><td><b>Hedge-stacked predictions</b></td><td>"Could potentially create", "may eventually unlock" &mdash; a modal plus a hedge adverb cancels itself. Pick one.</td></tr>
+      <tr><td><b>Copula avoidance</b></td><td>"Serves as / features / boasts / presents / represents" &rarr; default to "is" or "has".</td></tr>
+      <tr><td><b>Compulsive rule of three</b></td><td>Vary groupings. Max one "adjective, adjective, and adjective" per piece.</td></tr>
+      <tr><td><b>False concession</b></td><td>"While X is impressive, Y remains a challenge" &mdash; balanced-sounding but weighs nothing. Make both halves specific, or pick a side.</td></tr>
+    </table>
+
+    <h3>Openers, closers &amp; chatbot residue</h3>
+    <table>
+      <tr><th style="width:30%;">Tell</th><th>What to do</th></tr>
+      <tr><td><b>Chatbot artifacts</b> <span class="v no">P0</span></td><td>"I hope this helps!", "Certainly!", "Great question!", "In this article, we will explore&hellip;", "Let's dive in!" &mdash; conversational tics, not writing. Remove entirely.</td></tr>
+      <tr><td><b>Sycophantic tone</b></td><td>"Excellent point!", "You're absolutely right!" &mdash; validates the reader. Cut.</td></tr>
+      <tr><td><b>"Let's" constructions</b></td><td>"Let's explore / take a look / break this down" &mdash; false-collaborative filler. Start with the point.</td></tr>
+      <tr><td><b>Rhetorical-question openers</b></td><td>"But what does this mean for developers?" stalls before the point. If you know the answer, say it.</td></tr>
+      <tr><td><b>Formulaic openings</b></td><td>"In the rapidly evolving world of&hellip;" &mdash; lead with the news or insight; context comes second.</td></tr>
+      <tr><td><b>Transition phrases</b></td><td>"Moreover / Furthermore / Additionally" &rarr; restructure so the link is obvious, or use "and", "also".</td></tr>
+      <tr><td><b>Generic / future-narrative closers</b></td><td>"The future looks bright", "may become one of the most important narratives of the next cycle" &mdash; a prediction with no testable content. Pick the falsifiable version or cut.</td></tr>
+      <tr><td><b>Social endorsement closers</b></td><td>"This one is worth your time:", "thank me later" &mdash; the LinkedIn share sign-off. Say what the thing is and who it's for, then drop the CTA.</td></tr>
+      <tr><td><b>Infomercial hooks</b></td><td>"The catch?", "Plot twist:", "Here's the thing." &mdash; fake momentum. Delete the hook, state the thing.</td></tr>
+      <tr><td><b>Emotional flatline</b></td><td>"What surprised me most", "I was fascinated to discover" &mdash; claims an emotion the writing hasn't earned. Show it or cut it.</td></tr>
+    </table>
+
+    <h3>Fingerprint leaks &mdash; near-proof, fix on sight</h3>
+    <table>
+      <tr><th style="width:30%;">Tell</th><th>What to do</th></tr>
+      <tr><td><b>Cutoff disclaimers</b> <span class="v no">P0</span></td><td>"As of my last update", "I don't have access to real-time data" &mdash; model limits leaking into prose. Find the fact or remove the hedge.</td></tr>
+      <tr><td><b>Speculative gap-filling</b></td><td>"Is believed to have", "likely began his career in" &mdash; guesses dressed as statements. Worse than a disclaimer because the reader can't tell known from invented. Cut or source it.</td></tr>
+      <tr><td><b>Unfilled placeholders</b></td><td><span class="t-tag">[Your Name]</span> <span class="t-tag">[INSERT SOURCE URL]</span> <span class="t-tag">2025-XX-XX</span> &mdash; boilerplate pasted unedited. Fill with real content or delete the sentence.</td></tr>
+      <tr><td><b>Citation-markup leaks</b></td><td>Tokens like <span class="t-tag">citeturn0search0</span> or <span class="t-tag">oai_citation</span> &mdash; fingerprints, essentially proof of paste-without-cleanup. Strip every token.</td></tr>
+      <tr><td><b>AI-tool URL parameters</b></td><td><span class="t-tag">utm_source=chatgpt.com</span>, <span class="t-tag">utm_source=claude.ai</span> &mdash; strip the parameter, keep the link if it's meaningful.</td></tr>
+      <tr><td><b>Vague attributions</b> <span class="v no">P0</span></td><td>"Experts believe", "Studies show" with no name. Cite a specific source or state the claim directly.</td></tr>
+    </table>
+
+    <h3>Rhythm &amp; structure &mdash; the #1 detection signal</h3>
+    <p class="muted">Detection tools (including Pangram, trained on 28M human documents) weight structural regularity above vocabulary. Fix every Tier-1 word but leave the rhythm metronomic and the text still reads as AI.</p>
+    <table>
+      <tr><th style="width:30%;">Tell</th><th>What to do</th></tr>
+      <tr><td><b>Sentence-length uniformity</b></td><td>If most sentences are 15&ndash;25 words it sounds robotic. Mix 3&ndash;8 word punches with 20+ word flows. Fragments work.</td></tr>
+      <tr><td><b>Paragraph-length uniformity</b></td><td>If every paragraph is 3&ndash;5 sentences, vary deliberately. Some should be one sentence.</td></tr>
+      <tr><td><b>Excessive structure</b></td><td>More than 3 headings in under 300 words, or 8+ bullets in under 200, is AI trying to look organized. Merge into prose.</td></tr>
+      <tr><td><b>Synonym cycling</b></td><td>"developers&hellip; engineers&hellip; practitioners&hellip; builders" for one thing. Repeat the clearest word instead.</td></tr>
+      <tr><td><b>Treadmill effect</b></td><td>Restating the premise in fresh words. If you could cut 40&ndash;60% and lose nothing, cut it.</td></tr>
+      <tr><td><b>Paragraph-reshuffle test</b></td><td>If two body paragraphs can swap without breaking the piece, you wrote a list, not an argument. Add a through-line.</td></tr>
+      <tr><td><b>Low vocabulary diversity</b></td><td>TTR under 0.40 on general prose over 200 words is a second look. Fix by naming specific things, not by thesaurus.</td></tr>
+    </table>
+
+    <div class="note">
+      <span class="tag">Self-reference escape hatch</span>
+      When writing <i>about</i> these patterns (a tutorial, this page, the skill file itself), quoted examples are exempt. Text in quotes, code blocks, or marked illustrative is never rewritten &mdash; only the author's own prose is flagged.
+    </div>
+    <div class="note orange">
+      <span class="tag">Rewrite from scratch vs patch</span>
+      If a piece has 5+ vocabulary hits across categories, 3+ distinct pattern categories, and uniform sentence/paragraph length, patching won't fix it &mdash; the structure itself is AI-generated. State the core point in one sentence and rebuild.
+    </div>
   </div>
 </section>
 
-<section id="gate" class="alt">
+<section id="tiers" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">04</span>The gate — before publishing</h2>
-    <p class="sub">Every article gets one pass. No exceptions. This is part of the SEO / AEO / GEO ship gate (same as P0 failures).</p>
-    <ul>
-      <li>Run this skill over the final draft</li>
-      <li>Remove or replace every flagged pattern</li>
-      <li>Re-read for flow after editing — some replacements need sentence restructuring</li>
-      <li>Ship only after this pass is clean</li>
-    </ul>
-    <div class="note red"><strong>Non-negotiable</strong>
-    An article that passes seo-aeo-geo.md but fails avoid-ai-writing is NOT ready. The "human writing" gate is as hard as the "source integrity" gate. No exceptions.</div>
+    <h2><span class="num">06</span>The word tiers</h2>
+    <p class="sub">The vocabulary list, ranked so fine-in-isolation words aren't over-flagged. Each entry also covers its inflected forms &mdash; <span class="t-tag">leverage</span> flags <span class="t-tag">leveraging</span> / <span class="t-tag">leveraged</span>, <span class="t-tag">meticulous</span> covers <span class="t-tag">meticulously</span> &mdash; unless a variant carries a genuinely different meaning. A representative slice of each tier is below; the full list lives in the source SKILL.md.</p>
+
+    <h3>Tier 1 &mdash; always replace <span class="pill paid">on sight</span></h3>
+    <table>
+      <tr><th style="width:44%;">Replace</th><th>With</th></tr>
+      <tr><td>delve / delve into</td><td>explore, dig into, look at</td></tr>
+      <tr><td>leverage (verb) &middot; utilize</td><td>use</td></tr>
+      <tr><td>robust</td><td>strong, reliable, solid</td></tr>
+      <tr><td>comprehensive</td><td>thorough, complete, full</td></tr>
+      <tr><td>seamless / seamlessly</td><td>smooth, easy, without friction</td></tr>
+      <tr><td>meticulous / meticulously</td><td>careful, detailed, precise</td></tr>
+      <tr><td>pivotal &middot; underscores</td><td>important, key &middot; highlights, shows</td></tr>
+      <tr><td>cutting-edge</td><td>latest, newest, advanced</td></tr>
+      <tr><td>landscape (metaphor) &middot; realm</td><td>field, space, industry &middot; area, domain</td></tr>
+      <tr><td>tapestry &middot; beacon &middot; symphony (metaphor)</td><td>describe the actual thing, or rewrite</td></tr>
+      <tr><td>embark &middot; commence</td><td>start, begin</td></tr>
+      <tr><td>testament to</td><td>shows, proves, demonstrates</td></tr>
+      <tr><td>nestled</td><td>is located, sits, is in</td></tr>
+      <tr><td>vibrant &middot; thriving &middot; bustling</td><td>describe what makes it active, or cite a number</td></tr>
+      <tr><td>showcasing &middot; unpack / unpacking</td><td>showing, demonstrating &middot; explain, break down</td></tr>
+      <tr><td>game-changer / game-changing</td><td>describe what specifically changed and why it matters</td></tr>
+      <tr><td>holistic &middot; actionable &middot; impactful</td><td>describe what's included / the impact, or cut</td></tr>
+      <tr><td>learnings</td><td>lessons, findings, takeaways</td></tr>
+      <tr><td>thought leadership &middot; best practices</td><td>expertise, authority &middot; what works, proven methods</td></tr>
+      <tr><td>synergy &middot; at its core</td><td>the actual combined effect &middot; (cut &mdash; state the thing)</td></tr>
+      <tr><td>in order to &middot; due to the fact that</td><td>to &middot; because</td></tr>
+      <tr><td>features (verb) &middot; boasts &middot; serves as</td><td>has, includes &middot; is</td></tr>
+    </table>
+
+    <h3>Tier 2 &mdash; flag when 2+ appear in the same paragraph</h3>
+    <table>
+      <tr><th style="width:44%;">Replace</th><th>With</th></tr>
+      <tr><td>harness &middot; foster</td><td>use &middot; encourage, support, build</td></tr>
+      <tr><td>streamline &middot; elevate</td><td>simplify, speed up &middot; improve, raise</td></tr>
+      <tr><td>empower &middot; unleash</td><td>enable, let &middot; release, unlock</td></tr>
+      <tr><td>facilitate &middot; underpin</td><td>enable, help, run &middot; support, form the basis of</td></tr>
+      <tr><td>navigate / navigating</td><td>work through, handle, deal with</td></tr>
+      <tr><td>crucial &middot; paramount</td><td>important, key &middot; most important, top priority</td></tr>
+      <tr><td>myriad &middot; plethora</td><td>many, numerous (or give a number)</td></tr>
+      <tr><td>ecosystem (metaphor)</td><td>system, community, network, market</td></tr>
+      <tr><td>nuanced &middot; multifaceted</td><td>name the actual nuance / facets, or cut</td></tr>
+      <tr><td>cornerstone &middot; burgeoning &middot; nascent</td><td>foundation &middot; growing, emerging (or cite a number)</td></tr>
+    </table>
+
+    <h3>Tier 3 &mdash; flag only at high density (&#8776;3%+ of words)</h3>
+    <table>
+      <tr><th style="width:44%;">Word</th><th>What to do</th></tr>
+      <tr><td>significant / significantly</td><td>Replace some with specifics: numbers, comparisons, examples</td></tr>
+      <tr><td>innovative / innovation</td><td>Describe what's actually new</td></tr>
+      <tr><td>effective / effectively</td><td>Say how, or cite a metric</td></tr>
+      <tr><td>scalable / scalability</td><td>Describe what scales and to what</td></tr>
+      <tr><td>world-class / state-of-the-art</td><td>Cite a benchmark or comparison</td></tr>
+    </table>
+
+    <div class="note">
+      <span class="tag">Tier 3 phrases &mdash; the boilerplate rule</span>
+      Multi-word filler ("emerging sector", "the intersection of X and Y", "community-driven", "long-term sustainability") is flagged at <b>2+ uses of the same phrase</b>, plus a cluster rule: <b>3+ distinct</b> such phrases in one piece is a strong signal even at one use each &mdash; that's the shape LLMs take when they vary their own boilerplate.
+    </div>
+    <div class="note orange">
+      <span class="tag">Technical-blog carve-out</span>
+      In technical writing, terms with real meaning get a pass: <span class="t-tag">robust</span>, <span class="t-tag">comprehensive</span>, <span class="t-tag">seamless</span>, <span class="t-tag">ecosystem</span>, <span class="t-tag">leverage</span> (actual platform leverage), <span class="t-tag">facilitate</span>, <span class="t-tag">streamline</span>. Still flagged: <span class="t-tag">delve</span>, <span class="t-tag">tapestry</span>, <span class="t-tag">beacon</span>, <span class="t-tag">embark</span>, <span class="t-tag">testament to</span>, <span class="t-tag">game-changer</span>, <span class="t-tag">harness</span>.
+    </div>
   </div>
 </section>
 
-<footer><div class="wrap">Avoid AI Writing · Content Machine Stage 0 · The final gate before publishing. No draft ships without this pass.</div></footer>
+<section id="examples">
+  <div class="wrap">
+    <h2><span class="num">07</span>Before / after</h2>
+    <p class="sub">The fix is always the same shape: drop the flourish, add the specific claim. These are the standard's own worked examples.</p>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">&#10060;</div>
+        <h3>AI-generated</h3>
+        <div class="role">the tell, quoted</div>
+        <ul>
+          <li>"nestled within the breathtaking foothills, a vibrant hub of innovation"</li>
+          <li>"The intersection of AI and DePIN may become one of the most important narratives of the next market cycle."</li>
+          <li>"That last move is the contrarian one."</li>
+          <li>"This one is worth your time:"</li>
+          <li>"Reward sustainability."</li>
+        </ul>
+      </div>
+      <div class="agent answ">
+        <div class="cap">&#9989;</div>
+        <h3>Rewritten</h3>
+        <div class="role">drop the flourish, add the claim</div>
+        <ul>
+          <li>"is a town in the Gonder region; has 12 startups"</li>
+          <li>"DePIN compute may exceed AWS spot pricing for embarrassingly parallel workloads by 2027."</li>
+          <li>(cut the label &mdash; let the contrast carry it: "splitting the indexes is what makes the hot path cheap")</li>
+          <li>"Sarah's breakdown of why context windows leak &mdash; the clearest explanation I've found for anyone debugging RAG pipelines."</li>
+          <li>"rewards funded from $X/mo in fees rather than emissions"</li>
+        </ul>
+      </div>
+    </div>
+
+    <table>
+      <tr><th style="width:33%;">Category</th><th>Before &rarr; after (word level)</th></tr>
+      <tr><td><b>Copula avoidance</b></td><td><span class="bad">The API boasts three endpoints</span> &rarr; <span class="good">The API has three endpoints</span></td></tr>
+      <tr><td><b>Hedge-stacked prediction</b></td><td><span class="bad">could potentially unlock new value</span> &rarr; <span class="good">unlocks X</span> (pick one word)</td></tr>
+      <tr><td><b>Filler windup</b></td><td><span class="bad">It is important to note that latency dropped</span> &rarr; <span class="good">Latency dropped</span></td></tr>
+      <tr><td><b>List-label period</b></td><td><span class="bad">**Intros.** Years of conferences.</span> &rarr; <span class="good">**Intros:** years of conferences and an operator network.</span></td></tr>
+    </table>
+
+    <div class="note">
+      <span class="tag">Five principles for the rewrite</span>
+      <ul style="margin-top:6px;">
+        <li><b>Vary sentence length</b> &mdash; mix short with long; fragments are fine.</li>
+        <li><b>Be concrete</b> &mdash; replace vague claims with numbers, names, dates.</li>
+        <li><b>Have a voice</b> &mdash; first person, stated preferences, real reactions where they fit.</li>
+        <li><b>Cut the neutrality</b> &mdash; if the piece takes a position, take it.</li>
+        <li><b>Earn the emphasis</b> &mdash; don't call a thing interesting; make it interesting.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="gate" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">08</span>Severity, profiles &amp; the ship gate</h2>
+    <p class="sub">How to triage on a deadline, how the audience dial changes strictness, and where this standard sits in the content machine.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="big">3</div><div class="cap">modes &mdash; rewrite, detect, edit</div></div>
+      <div class="stat"><div class="big">~40</div><div class="cap">pattern categories in the catalogue</div></div>
+      <div class="stat"><div class="big">2</div><div class="cap">max passes to convergence</div></div>
+    </div>
+
+    <h3>Severity &mdash; what to fix first</h3>
+    <table>
+      <tr><th style="width:14%;">Tier</th><th>Meaning</th><th>Examples</th></tr>
+      <tr><td><span class="v no">P0</span></td><td>Credibility killers &mdash; fix immediately</td><td>cutoff disclaimers, chatbot artifacts, vague attributions, significance inflation, hashtag stuffing on linkedin / investor-email</td></tr>
+      <tr><td><span class="v partial">P1</span></td><td>Obvious AI smell &mdash; fix before publishing</td><td>word-list hits, template phrases, "let's" openers, bold overuse, em-dash frequency, future-narrative &amp; social endorsement closers</td></tr>
+      <tr><td><span class="v covered">P2</span></td><td>Stylistic polish &mdash; fix when time allows</td><td>generic conclusions, rule of three, uniform paragraphs, copula avoidance, transition phrases</td></tr>
+    </table>
+    <p class="muted">A quick pass takes P0 + P1; a full audit covers all three.</p>
+
+    <h3>Context profiles &mdash; the strictness dial</h3>
+    <table>
+      <tr><th style="width:22%;">Profile</th><th>What it is</th><th>Strictness</th></tr>
+      <tr><td><b>blog</b> <span class="pill">default</span></td><td>Standard long-form prose</td><td>all rules at full strength</td></tr>
+      <tr><td><b>linkedin</b></td><td>Short-form social; punchy fragments, formatting matter</td><td>relaxed on em dashes, bold, bullets, transitions</td></tr>
+      <tr><td><b>technical-blog</b></td><td>Long-form with code, APIs, architecture</td><td>technical terms get a pass; hedging relaxed</td></tr>
+      <tr><td><b>investor-email</b></td><td>High-trust audience</td><td>extra strict &mdash; promotional language is the biggest risk</td></tr>
+      <tr><td><b>docs</b></td><td>Documentation, READMEs, guides</td><td>clarity over voice; lists and hedging relaxed</td></tr>
+      <tr><td><b>casual</b></td><td>Slack, internal notes, quick replies</td><td>catch only the worst offenders (P0)</td></tr>
+    </table>
+    <p class="muted">Voice profiles (casual / professional / technical / warm / blunt) are the second, independent dial &mdash; they set how the prose <i>sounds</i>, not how strict the audit is. If the writer gives a sample of their own writing, match its sentence-length, contraction rate, and word choice instead of a named profile; don't "upgrade" their vocabulary.</p>
+
+    <div class="note orange">
+      <span class="tag">Where this sits in the bigger machine</span>
+      In the content machine this is the <b>final pass before publish</b>, after the SEO / AEO / GEO standard. The ship checklist requires it explicitly: "Overall score &ge; 80 &middot; no P0 failures &middot; <b>avoid-ai-writing final pass run</b>." The human-writing gate is as hard as the source-integrity gate &mdash; an article that clears SEO / AEO / GEO but fails this pass is not ready.
+    </div>
+    <div class="note">
+      <span class="tag">Provenance &amp; honest limits</span>
+      Source: the <span class="t-tag">avoid-ai-writing</span> skill, v3.10.0 (MIT, Conor Bronsdon), with the tiered vocabulary adapted from open humanizer research. It is a signal, not a detector &mdash; worth acting on, not worth ruining someone's day over. Pair every flag with context: who wrote it, what genre, what their normal voice looks like.
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">Avoid AI Writing &middot; Content Machine reference standard &middot; audit &rarr; rewrite &rarr; second-pass &mdash; the final human-writing gate before publish.</div></footer>
 </body>
 </html>

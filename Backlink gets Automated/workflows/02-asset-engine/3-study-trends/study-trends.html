@@ -3,85 +3,145 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Study Trends — Idea Backlog Method 3</title>
+<title>Study Trends — Asset Engine Method 3</title>
 <style>
   :root{
     --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
     --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
     --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
     --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
     --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
   }
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}
   body{margin:0; background:var(--paper); color:var(--ink);
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
-    line-height:1.62; font-size:16px; -webkit-font-smoothing:antialiased;}
-  .wrap{max-width:960px; margin:0 auto; padding:0 28px;}
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
 
-  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:56px 0 38px;}
-  .kicker{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
-    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:4px 11px; border-radius:100px; margin-bottom:16px;}
-  h1{font-size:clamp(26px,5vw,42px); line-height:1.1; margin:0 0 12px; letter-spacing:-.02em;}
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
   h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
-  .lede{font-size:18px; color:var(--muted); max-width:660px; margin:0;}
+  .lede{font-size:19px; color:var(--muted); max-width:730px; margin:0;}
 
-  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.93); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
-  nav .wrap{display:flex; gap:3px; flex-wrap:wrap; padding:9px 0;}
-  nav a{font-size:12.5px; font-weight:600; color:var(--muted); text-decoration:none; padding:5px 10px; border-radius:100px;}
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
   nav a:hover{color:var(--ink); background:var(--wash);}
 
-  section{padding:48px 0; border-bottom:1px solid var(--line);}
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
   section:last-of-type{border-bottom:none;}
-  section.alt{background:var(--cream);}
-  h2{font-size:24px; letter-spacing:-.01em; margin:0 0 4px;}
-  h2 .num{color:var(--orange); margin-right:9px;}
-  .sub{color:var(--muted); margin:0 0 22px; font-size:16px; max-width:680px;}
-  h3{font-size:16px; margin:20px 0 6px;}
-  p{margin:0 0 10px;}
-  ul{margin:5px 0 10px; padding-left:20px;}
-  li{margin:4px 0; font-size:15px; color:var(--muted);}
-  li b{color:var(--ink);}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:730px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;} .mem ul{margin:6px 0 6px;}
 
-  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:11.5px; background:#fff;
-    border:1px solid var(--orange-soft); border-radius:5px; padding:2px 6px; color:var(--ink);}
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .note.red{border-left-color:var(--red-ink); background:var(--red);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+  .tag.r{color:var(--red-ink);}
 
-  .note{border-radius:11px; padding:13px 16px; margin:12px 0; font-size:14.5px; border:1px solid;}
-  .note.yellow{background:var(--cream); border-color:var(--line); border-left:4px solid var(--yellow);}
-  .note strong{display:block; font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin-bottom:3px;}
-
-  .flow{margin-top:10px;}
-  .step{display:flex; gap:15px; position:relative; padding:10px 0;}
-  .step:not(:last-child)::after{content:""; position:absolute; left:21px; top:48px; bottom:-10px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
-  .dot{flex:none; width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-weight:800;
-    font-size:15px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow);}
+  /* step flow */
+  .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
+  .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:16px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow); text-align:center; line-height:1;}
   .dot.gate{background:var(--orange-soft); border-color:var(--orange);}
-  .step-body{padding-top:2px;}
-  .step-body h3{margin:0 0 3px; font-size:15.5px;}
-  .step-body p{margin:0; color:var(--muted); font-size:14.5px;}
+  .step-body h3{margin:4px 0 4px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
+  .step-body ul{margin:6px 0 4px; color:var(--muted); font-size:14.5px;} .step-body ul .file{font-size:11.5px;}
+  .step-body ul .fn{color:var(--ink); font-weight:600;}
+  .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
+  .xref:hover{background:var(--orange-soft);}
+  .phase{font-size:12px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin:26px 0 2px;}
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.gate{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.code{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .pill.eng{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
+  .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
+  .files .k{font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
 
-  .outfiles{display:flex; flex-direction:column; gap:9px; margin:14px 0;}
-  .outfile{border:1px solid var(--line); border-radius:11px; padding:12px 16px; background:var(--paper); box-shadow:var(--shadow);}
-  .outfile .f{margin-bottom:3px;}
-  .outfile p{margin:0; font-size:14px; color:var(--muted);}
+  /* cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .grid.four{grid-template-columns:repeat(4,1fr);}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+  .card .file{margin-top:10px; display:inline-block;}
 
-  .contrast{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:14px 0;}
-  .cbox{border:1px solid var(--line); border-radius:11px; padding:13px 16px; box-shadow:var(--shadow);}
-  .cbox.bad{border-left:3px solid #c2603a; background:#fdf3f0;}
-  .cbox.good{border-left:3px solid var(--green-ink); background:var(--green);}
-  .cbox .clabel{font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; margin-bottom:5px;}
-  .cbox.bad .clabel{color:#c2603a;}
-  .cbox.good .clabel{color:var(--green-ink);}
-  .cbox p{margin:0; font-size:14px; color:var(--ink);}
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11.5px;}
+  td b{color:var(--ink);}
+  td .n{font-family:ui-monospace,Menlo,monospace; font-weight:700; color:var(--orange);}
+  .v{font-weight:700; font-size:12px; padding:2px 9px; border-radius:100px; white-space:nowrap;}
+  .v.covered{color:var(--green-ink); background:var(--green); border:1px solid var(--green-line);}
+  .v.partial{color:#a6791b; background:var(--yellow-soft); border:1px solid var(--yellow);}
+  .v.no{color:var(--red-ink); background:var(--red); border:1px solid var(--red-line);}
+  .t-tag{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; font-weight:700; padding:1px 7px; border-radius:5px; background:var(--wash); border:1px solid var(--orange-soft);}
 
-  .tests{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:14px 0;}
-  .test{border:1px solid var(--line); border-radius:11px; padding:13px 16px; background:var(--paper); box-shadow:var(--shadow);}
-  .test h3{margin:0 0 7px; font-size:15px;}
-  .test ul{margin:0; padding-left:18px;}
-  .test li{font-size:13.5px; margin:3px 0;}
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
 
-  footer{padding:32px 0 52px; color:var(--muted); font-size:13px;}
-  @media(max-width:700px){.contrast,.tests{grid-template-columns:1fr;}}
+  /* two-column compare */
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--yellow-soft); border:2px solid var(--yellow);}
+  .agent.answ .cap{background:var(--blue); border:2px solid var(--blue-line);}
+  .agent h3{margin:0 0 2px; font-size:19px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+  .mem{font-size:14px; padding:9px 12px; border-radius:10px; margin-top:9px;}
+  .mem.yes{background:var(--green); border:1px solid var(--green-line);}
+  .mem.no{background:var(--blue); border:1px solid var(--blue-line);}
+  .mem .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
+  .mem.yes .lbl{color:var(--green-ink);} .mem.no .lbl{color:var(--blue-ink);}
+
+  /* before / after */
+  .ba{display:grid; grid-template-columns:1fr auto 1fr; gap:14px; align-items:center; margin:20px 0;}
+  .ba .box{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:16px 18px; box-shadow:var(--shadow);}
+  .ba .box .clabel{font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; margin-bottom:5px; color:var(--red-ink);}
+  .ba .box.after{border-color:var(--green-line); background:var(--green);}
+  .ba .box.after .clabel{color:var(--green-ink);}
+  .ba .box p{margin:0; font-size:14.5px; color:var(--ink);}
+  .ba .arr{font-size:22px; color:var(--orange); font-weight:800; text-align:center;}
+
+  /* headline stats */
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  /* funnel */
+  .funnel{display:flex; flex-wrap:wrap; align-items:stretch; gap:8px; margin:22px 0;}
+  .fstep{flex:1; min-width:120px; background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:12px 10px; text-align:center; box-shadow:var(--shadow);}
+  .fstep .fn{font-size:24px; font-weight:800; color:var(--orange); font-variant-numeric:tabular-nums;}
+  .fstep b{display:block; font-size:12.5px; margin:3px 0 1px;} .fstep small{color:var(--muted); font-size:11.5px;}
+  .fstep.out{background:var(--green); border-color:var(--green-line);}
+  .fstep.out .fn{color:var(--green-ink);}
+  .fchev{align-self:center; color:var(--orange-soft); font-weight:800; font-size:18px;}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three,.grid.four{grid-template-columns:1fr;} .ba{grid-template-columns:1fr;} .fchev{display:none;} }
 </style>
 </head>
 <body>
@@ -90,162 +150,444 @@
   <div class="wrap">
     <span class="kicker">Asset Engine · Idea Backlog · Method 3 of 3</span>
     <h1>Study Trends — <span class="hl">what the niche is arguing about right now</span></h1>
-    <p class="lede">Scrape Reddit, find the recurring tensions, filter to ones worth building an asset about,
-    turn each into an idea. The only method that surfaces timely, current-events angles.</p>
+    <p class="lede">Scrape Reddit, find the recurring tensions people keep fighting about, filter to the ones worth
+    building a linkable asset around, and turn each into an idea. This is the only method that surfaces timely,
+    current-events angles. Here is exactly how it works, script by script.</p>
   </div>
 </header>
 
 <nav>
   <div class="wrap">
-    <a href="#concept">Concept</a>
-    <a href="#output">Output</a>
-    <a href="#gather">Phase A — Gather</a>
-    <a href="#mine">Phase B — Mine</a>
-    <a href="#filter">Filter</a>
-    <a href="#ideas">Ideas</a>
+    <a href="#idea">01 One idea</a>
+    <a href="#words">02 Words</a>
+    <a href="#arch">03 Architecture</a>
+    <a href="#pipeline">04 Pipeline</a>
+    <a href="#tensions">05 Phrases → tensions</a>
+    <a href="#filter">06 The filter</a>
+    <a href="#ideas">07 Tension → idea</a>
+    <a href="#output">08 Output</a>
   </div>
 </nav>
 
-<section id="concept">
+<!-- ===================== 01 ===================== -->
+<section id="idea">
   <div class="wrap">
-    <h2><span class="num">01</span>The one rule</h2>
-    <p class="sub">Reddit measures attention, not linkability. Viral drama earns nothing. The value is
-    the filtering — keep only tensions a writer would cite an asset about.</p>
-    <div class="note yellow"><strong>Method 3 of 3</strong>
-    Methods 1 and 2 surface proven formats. Method 3 adds timeliness — angles that only exist because
-    people are arguing about them this month. All three pools merge at the end of the asset-engine stage.</div>
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">Reddit is where a niche argues out loud. Method 3 reads that argument, distils it into recurring
+    <b>tensions</b>, keeps only the ones a writer would cite, and shapes each into a link-worthy asset.</p>
+
+    <div class="grid four">
+      <div class="card"><div class="ic">🧵</div><h3>Scrape the argument</h3>
+        <p>Pull the top posts of the year from approved subreddits — body, image text, and top comment threads.</p></div>
+      <div class="card"><div class="ic">🔍</div><h3>Distil into tensions</h3>
+        <p>Tag each post with phrases, then cluster those phrases by meaning into one-sentence shared pains.</p></div>
+      <div class="card"><div class="ic">🚦</div><h3>Filter to the linkable</h3>
+        <p>Score each tension on Linkability and Ownability. Pure drama dies here; only citable, ownable pains survive.</p></div>
+      <div class="card"><div class="ic">💡</div><h3>Shape into ideas</h3>
+        <p>Each kept tension becomes one asset idea whose shape comes from the tension itself, not a borrowed format.</p></div>
+    </div>
+
+    <div class="note orange"><span class="tag">The one rule that governs everything</span>
+      <p style="margin:8px 0 0;"><b>Reddit measures attention, not linkability.</b> The loud posts are usually viral
+      drama nobody would ever cite. The entire value of this method is the filtering — keep only tensions that are
+      timely <em>and</em> something a writer would reference an asset about.</p></div>
+
+    <div class="note"><span class="tag">Method 3 of 3</span>
+      <p style="margin:8px 0 0;">Methods 1 and 2 surface proven winners and proven formats. Method 3 adds the one
+      thing they can't: <b>timeliness</b> — angles that only exist because people are arguing about them this month.
+      All three pools stay separate and merge at the end of the idea-backlog stage.</p></div>
   </div>
 </section>
 
-<section id="output" class="alt">
+<!-- ===================== 02 ===================== -->
+<section id="words" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">02</span>What this produces</h2>
-    <div class="outfiles">
-      <div class="outfile">
-        <div class="f"><span class="file">study-trends-ideas.csv</span> — the deliverable</div>
-        <p>One row per asset idea, each tied to a tension with its engagement signals: post count, upvotes, subreddit spread, and a best-example URL.</p>
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">A few terms carry the whole method. Each is defined once here, then used exactly.</p>
+
+    <div class="define"><b>Tension</b> — one sentence stating a <em>specific shared pain</em> (who is frustrated with
+      what), never a topic label. "Fake remote jobs" is a topic; "candidates apply for roles listed as remote that
+      turn out to be secretly onsite" is a tension. The tension is the only unit this method works in.</div>
+    <div class="define"><b>Phrase</b> — a tight 2–4 word snippet pulled from a post that captures what it is about
+      ("fake remote listings", "ghosted after interview"). Single words are noise; phrases are the raw material that
+      cluster into tensions.</div>
+    <div class="define"><b>Content card</b> — one post rendered as a compact block for the model to read: id +
+      subreddit + score/comments + title + body + OCR'd image text + top comments. The <span class="file">_posts.py</span>
+      helper builds these, and one place reads the scrape.</div>
+    <div class="define"><b>Embedding</b> — a phrase turned into "meaning-numbers" (a vector) so two phrases that mean
+      the same thing sit close together even when the words differ. Method 3 clusters phrases by embedding because
+      recurrence lives at the level of meaning, not exact spelling.</div>
+    <div class="define"><b>Linkability</b> — would anyone actually cite an asset about this tension? Scored on four
+      yes/no questions (a citable number · a journalist would reference it · evergreen · fits a proven link-bait
+      format). Needs ≥3 of 4.</div>
+    <div class="define"><b>Ownability</b> — can this company credibly own the tension? Judged against
+      <span class="file">brand-scope.md</span> as CORE, TRANSPLANT, ADJACENT, or out-of-scope.</div>
+    <div class="define"><b>Transplant</b> — an out-of-scope tension is not dropped on sight. First check: can the same
+      linkable shape be pointed at an <em>in-scope</em> subject? If yes, keep it as a TRANSPLANT rather than binning it.</div>
+    <div class="define"><b>Implied data point</b> — the number a tension is begging for: the stat that would settle
+      the debate or prove its scale ("what % of 'remote' listings are actually onsite?"). This is usually what the
+      asset ends up being.</div>
+    <div class="define"><b>misc</b> — the bucket for a post that shares no pain with any tension. It is <em>not</em> a
+      dumping ground for off-brand-but-coherent posts (those still get a real tension). The verify gate fails the run
+      if misc exceeds 15% of posts.</div>
+  </div>
+</section>
+
+<!-- ===================== 03 ===================== -->
+<section id="arch">
+  <div class="wrap">
+    <h2><span class="num">03</span>The architecture — two phases, one scripted</h2>
+    <p class="sub">The method splits at the one place a human is needed. Phase A gathers the data behind a human gate;
+    Phase B mines it into ideas as one unattended, resumable command.</p>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">🧑‍💻</div>
+        <h3>Phase A — Gather</h3>
+        <div class="role">A separate tool, with the one human gate</div>
+        <p class="muted" style="font-size:14.5px;">Discover subreddits, vet each by real post activity (not
+        subscriber counts), get the user to sign off, then scrape. Choosing the communities is a judgment call, so
+        it stays a human step.</p>
+        <div class="mem yes"><span class="lbl">Runs as</span><br>
+        <span class="file">scripts/reddit/reddit-scrape.py</span> — our own scraper. Free. Human approves the subreddit set.</div>
       </div>
-      <div class="outfile">
-        <div class="f"><span class="file">tensions.csv</span> — working file</div>
-        <p>One row per tension: phrases people used, core pain, audience, emotion, debate ratio, implied data point, and filter verdicts.</p>
-      </div>
-      <div class="outfile">
-        <div class="f"><span class="file">phrase-map.csv</span> — audit trail</div>
-        <p>Every extracted phrase mapped to its tension, with source post IDs.</p>
+      <div class="agent answ">
+        <div class="cap">⚙️</div>
+        <h3>Phase B — Mine</h3>
+        <div class="role">The scripted pipeline — no gates</div>
+        <p class="muted" style="font-size:14.5px;">Everything from raw scrape to final ideas runs as one resumable
+        command: stages 2a → 4, then a fail-closed verify gate. The filter (KEEP/DROP) runs automatically, like
+        Methods 1 and 2 — no human stop mid-run.</p>
+        <div class="mem no"><span class="lbl">Runs as</span><br>
+        <span class="file">run_study_trends.py --company &lt;slug&gt;</span> — pure sequencing; a stage whose output file exists is skipped unless <span class="file">--redo</span>.</div>
       </div>
     </div>
+
+    <h3>The shared files behind Phase B</h3>
+    <table>
+      <thead><tr><th>File</th><th>What it does</th></tr></thead>
+      <tbody>
+        <tr><td><span class="file">run_study_trends.py</span></td><td>The orchestrator. Runs each stage's <span class="file">run()</span> in order, prints <span class="file">== stage ==</span>, resumes from the first missing output, and finishes by running the verify gate.</td></tr>
+        <tr><td><span class="file">scripts/config.py</span></td><td>Every path and knob from one anchor. Company is one setting (<span class="file">COMPANY</span>); every threshold below (cluster count, misc cap, linkability floor) is a named constant here.</td></tr>
+        <tr><td><span class="file">_shared/llm.py</span></td><td>The one LLM caller. Runs each prompt through the free headless CLI — <b>Claude Code or Codex</b> (<span class="file">LLM_PROVIDER</span>, default claude), no API key. Returns JSON and re-asks once on a parse failure. Parallel calls are the "sub-agents".</td></tr>
+        <tr><td><span class="file">_shared/voyage.py</span></td><td>The embeddings client, used only in stage 2b to cluster phrases by meaning. Voyage free tier, one key in the environment.</td></tr>
+        <tr><td><span class="file">scripts/_posts.py</span></td><td>Reads the scraped Posts tab once and renders each post as a content card. Used by 2a, 2c, and 2d so the xlsx is read in exactly one place.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="note"><span class="tag">Where the intelligence sits</span>
+      <p style="margin:8px 0 0;">Almost every stage is a <b>code shell around one LLM judgment</b> (Claude or Codex),
+      with the counts done mechanically. The prompts live in <span class="file">prompts/</span>, one file per call, never
+      inline. The one exception is 2b, which adds an embeddings pass (Voyage) to cluster phrases before the model names them.</p></div>
   </div>
 </section>
 
-<section id="gather">
+<!-- ===================== 04 ===================== -->
+<section id="pipeline" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">A</span>Phase A — Gather</h2>
+    <h2><span class="num">04</span>The full pipeline</h2>
+    <p class="sub">Phase A produces the scrape; Phase B is six scripted stages plus a gate. Each stage writes a named
+    file the next one reads — a crash resumes from the first missing file.</p>
+
+    <div class="phase">Phase A — gather (separate tool, human gate)</div>
     <div class="flow">
-      <div class="step"><div class="dot">1</div><div class="step-body">
-        <h3>Find subreddits</h3>
-        <p>Search for communities relevant to the niche. Vet each by actual post activity — upvotes and comments on top posts — not subscriber counts. Favour practitioner communities over large candidate-side ones.</p>
-      </div></div>
-      <div class="step"><div class="dot gate">2</div><div class="step-body">
-        <h3>Get user approval — gate</h3>
-        <p>Present each candidate with its name, activity level, and why it's relevant. Only proceed once approved.</p>
-      </div></div>
-      <div class="step"><div class="dot">3</div><div class="step-body">
-        <h3>Scrape</h3>
-        <p>Pull the top 25 posts of the past year from each approved community — post body, image text, and top comment threads included. This is the raw material for Phase B.</p>
-      </div></div>
-    </div>
-  </div>
-</section>
-
-<section id="mine" class="alt">
-  <div class="wrap">
-    <h2><span class="num">B</span>Phase B — Mine into tensions</h2>
-    <p class="sub">A tension is one sentence stating the specific conflict — not a topic label.</p>
-
-    <div class="contrast">
-      <div class="cbox bad">
-        <div class="clabel">Topic label — vague</div>
-        <p>"Fake remote jobs"</p>
-      </div>
-      <div class="cbox good">
-        <div class="clabel">Tension — specific and buildable</div>
-        <p>"Candidates apply for roles listed as remote that turn out to be secretly onsite."</p>
-      </div>
-    </div>
-
-    <h3>How tensions are built — three passes</h3>
-
-    <p><b>Pass 1 — Extract phrases from each post.</b> For each post, pull 2–3 short phrases (2–4 words) that capture what the post is actually about — the core complaint, and any point where multiple different commenters land on the same thing. Write them next to the post so every phrase stays tied to its source.</p>
-
-    <p><b>Pass 2 — Group phrases into tensions.</b> Look across all the phrases and group the ones that share the same underlying conflict. The test: can you write one honest sentence that describes the pain behind every phrase in the group? If yes, that's one tension. If you'd need two sentences, it's two tensions — keep them separate.</p>
-
-    <p>This is the most important part to get right. Two things can look related on the surface but be completely different tensions. For example: "ghosted after interview" and "5 interview rounds for one role" are both complaints about interviews. But the pain is different — one is about being ignored and disrespected, the other is about the process taking too long. Merging them into "interview frustrations" would blur what the asset needs to say. They stay as two distinct tensions.</p>
-
-    <p><b>Pass 3 — Assign every post to its tension.</b> Each post goes to whichever tension best describes its dominant complaint. Brand fit is not decided here — that's Stage 3's job. Posts that genuinely don't fit any tension go to a miscellaneous bucket, which should stay below 15% of all posts. Anything above that means the sort was too lazy.</p>
-
-    <h3>What each tension row holds</h3>
-    <p>Once all posts are assigned, each tension gets a full evidence row:</p>
-    <ul>
-      <li><b>Tension</b> — the one-sentence conflict statement</li>
-      <li><b>Core pain</b> — what's actually hurting people underneath the conflict (e.g. tension: "remote turns out onsite" → core pain: "people rearranged their life around a promise that was false")</li>
-      <li><b>Audience</b> — employer, candidate, or both</li>
-      <li><b>Emotion</b> — anger, anxiety, disbelief, or ridicule</li>
-      <li><b>Post count, upvotes, debate ratio, subreddit spread</b> — the engagement signals, counted mechanically from the data</li>
-      <li><b>Best example</b> — one post URL that most clearly embodies the tension</li>
-      <li><b>Representative quotes</b> — 2–3 verbatim comments in the people's own words</li>
-      <li><b>Sub-questions</b> — the specific things people actually disagree about inside the tension. For example, within the "remote turns out onsite" tension, people argue about: whether to sue, whether to name the company publicly, whether hybrid counts as remote. These sub-questions are potential angles for follow-up content. Note: do not include solution questions here ("would a better tool fix this?") — those belong to Stage 4.</li>
-      <li><b>Implied data point</b> — the number this tension is calling for. Every strong tension implies a stat that would settle the debate or prove the scale of the problem. For the remote-onsite tension, the implied data point is: "what percentage of roles listed as remote are actually onsite?" That stat would make a linkable asset.</li>
-    </ul>
-  </div>
-</section>
-
-<section id="filter">
-  <div class="wrap">
-    <h2><span class="num">C</span>Filter the tensions</h2>
-    <p class="sub">Two tests per tension. Present survivors to the user before building ideas.</p>
-    <div class="tests">
-      <div class="test">
-        <h3>Linkability — ≥3 of 4 yes</h3>
+      <div class="step"><div class="dot gate">A</div><div class="step-body">
+        <h3>Scrape Reddit <span class="pill free">free · our scraper</span> <span class="pill gate">human gate</span></h3>
+        <p>Discover candidate subreddits for the niche, vet each by the upvotes/comments on its top posts (drop dead
+        or promo-only subs), present the set for sign-off, then pull the top 25 posts of the past year from each.</p>
         <ul>
+          <li><span class="fn">reddit-scrape.py</span> → <span class="file">_raw/&lt;company&gt;-reddit-trends.xlsx</span> (Subreddits / Posts / Comments tabs) + <span class="file">_raw/reddit-json/</span></li>
+          <li>Each Posts row carries: title, body, OCR'd <span class="file">image_text</span>, <span class="file">top_comments</span>, score, comment_count, url.</li>
+        </ul>
+      </div></div>
+    </div>
+
+    <div class="phase">Phase B — mine into ideas (run_study_trends.py)</div>
+    <div class="flow">
+      <div class="step"><div class="dot">2a</div><div class="step-body">
+        <h3>Tag every post with phrases <span class="pill free">free · LLM</span></h3>
+        <p>Read each post as a content card and pull the 2–3 phrases that best capture it — the OP's core complaint,
+        plus any point several different commenters land on. Embarrassingly parallel: posts are sharded and run at once.</p>
+        <ul>
+          <li><span class="fn">step_2a_phrases.py</span> · prompt <span class="file">2a-phrases.md</span> → <span class="file">_work/all-phrases.tsv</span></li>
+          <li>Asserts every post_id is covered exactly once before moving on.</li>
+        </ul>
+      </div></div>
+
+      <div class="step"><div class="dot">2b</div><div class="step-body">
+        <h3>Cluster phrases into tensions <span class="pill free">free · LLM</span> <span class="pill eng">+ Voyage</span></h3>
+        <p>Embed every distinct phrase (Voyage), cluster by meaning, then have a small parallel LLM call name each
+        cluster's tension — splitting a cluster that holds more than one pain. Near-identical tension sentences are
+        then merged, and 1-phrase fragments dropped.</p>
+        <ul>
+          <li><span class="fn">step_2b_tensions.py</span> · prompt <span class="file">2b-name-cluster.md</span></li>
+          <li>Writes <span class="file">_work/merge-check.md</span> (the gate's evidence) <b>before</b> tensions.csv, plus <span class="file">output/phrase-map.csv</span> and <span class="file">_work/tensions_base.json</span>.</li>
+          <li><a class="xref" href="#tensions">↓ 05 — how phrases become tensions</a></li>
+        </ul>
+      </div></div>
+
+      <div class="step"><div class="dot">2c</div><div class="step-body">
+        <h3>Assign every post to a tension <span class="pill free">free · LLM</span></h3>
+        <p>Send each post back to the model with the tension list and ask which one its <em>dominant</em> pain
+        belongs to. One primary tension per post; a post that shares no pain with any tension goes to <span class="file">misc</span>.</p>
+        <ul>
+          <li><span class="fn">step_2c_assign.py</span> · prompt <span class="file">2c-assign.md</span> → <span class="file">_work/post-tension-map.tsv</span></li>
+          <li>Warns if misc exceeds 15% — the verify gate will fail if it does.</li>
+        </ul>
+      </div></div>
+
+      <div class="step"><div class="dot">2d</div><div class="step-body">
+        <h3>Build the tension record <span class="pill free">free · LLM + counts</span></h3>
+        <p>For each tension the model writes the judgment fields (core pain, audience, emotion, best example,
+        representative quotes, sub-questions, implied data point); the engagement numbers are summed mechanically off
+        the Posts tab. Verdict columns are left blank for stage 3.</p>
+        <ul>
+          <li><span class="fn">step_2d_records.py</span> · prompt <span class="file">2d-records.md</span> → <span class="file">output/tensions.csv</span></li>
+          <li>emotion is forced into the closed set {anger, anxiety, disbelief, ridicule}; best example falls back to the loudest post if the model's pick isn't in the pile.</li>
+        </ul>
+      </div></div>
+
+      <div class="step"><div class="dot gate">3</div><div class="step-body">
+        <h3>Filter — Linkability + Ownability <span class="pill free">free · LLM</span></h3>
+        <p>Two structured tests per tension, scored not guessed. Pure-drama tensions (huge upvotes, no citable
+        substance) die on Linkability; out-of-scope tensions run the transplant check before any DROP. Writes the
+        verdict back into tensions.csv in place.</p>
+        <ul>
+          <li><span class="fn">step_3_filter.py</span> · prompt <span class="file">3-filter.md</span> → verdicts in <span class="file">output/tensions.csv</span></li>
+          <li>Verdict vocabulary: KEEP-CORE · KEEP-TRANSPLANT · MAYBE (=ADJACENT) · DROP.</li>
+          <li><a class="xref" href="#filter">↓ 06 — the filter</a></li>
+        </ul>
+      </div></div>
+
+      <div class="step"><div class="dot">4</div><div class="step-body">
+        <h3>Tensions → asset ideas <span class="pill free">free · LLM</span></h3>
+        <p>Each kept tension becomes one asset idea. The prompt gets the tension's full evidence plus the brand brain
+        (voice, features, stats) and the brand-fit verdict. The shape comes from the tension's implied data point, not
+        a borrowed format. Reddit signals carry across so ideas can be ranked by heat.</p>
+        <ul>
+          <li><span class="fn">step_4_ideas.py</span> · prompt <span class="file">4-idea.md</span> → <span class="file">output/study-trends-ideas.csv</span> (the deliverable)</li>
+          <li>Exits if idea count ≠ kept-tension count — the gate requires them equal.</li>
+          <li><a class="xref" href="#ideas">↓ 07 — tension to idea</a></li>
+        </ul>
+      </div></div>
+
+      <div class="step"><div class="dot gate">5</div><div class="step-body">
+        <h3>Verify gate <span class="pill code">code · fail-closed</span></h3>
+        <p>Not the agent's word — a script the orchestrator runs. It exits non-zero (the run is not done) if any of
+        seven checks fail, each mapping to a real past failure.</p>
+        <ul>
+          <li><span class="fn">study-trends-verify.py</span> → <b>VERIFY: PASS</b> / FAIL</li>
+          <li><a class="xref" href="#output">↓ 08 — the seven checks</a></li>
+        </ul>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 05 ===================== -->
+<section id="tensions">
+  <div class="wrap">
+    <h2><span class="num">05</span>Phrases → tensions (stage 2b, the real intelligence)</h2>
+    <p class="sub">This is where the method lives or dies. Get the grouping wrong and everything downstream inherits
+    a bad sort. A tension is one sentence stating a <em>specific</em> conflict — not a topic label.</p>
+
+    <div class="ba">
+      <div class="box"><div class="clabel">Topic label — vague</div><p>"Fake remote jobs"</p></div>
+      <div class="arr">→</div>
+      <div class="box after"><div class="clabel">Tension — specific and buildable</div><p>"Candidates apply for roles listed as remote that turn out to be secretly onsite, or quietly revert to office later."</p></div>
+    </div>
+
+    <h3>Why cluster by meaning, not by words</h3>
+    <p>On the real Testlify run the 425 posts produced <b>1,224 distinct phrases but only 18 that repeat verbatim</b>.
+    Recurrence lives in meaning, not exact spelling — "fake remote listings", "secretly onsite", and "remote then RTO"
+    are one pain in three wordings. And 1,224 phrases won't fit one grouping call. So 2b does it in four moves:</p>
+    <ol>
+      <li><b>Embed</b> every distinct phrase with Voyage (cached to <span class="file">_work/phrase-emb-*.npy</span> so a re-run is free).</li>
+      <li><b>Cluster</b> the vectors into a controlled number of groups — KMeans at <span class="file">TARGET_CLUSTERS</span> (45). A threshold merge made one 584-phrase mega-blob on this dense space, so the count is fixed instead.</li>
+      <li><b>Name</b> each cluster with a parallel LLM call that states the one shared-pain sentence — and <em>splits</em> the cluster into two if it really holds two pains. This naming call <b>is</b> the merge-check; its record is written to <span class="file">merge-check.md</span>.</li>
+      <li><b>Dedup</b> the resulting tension sentences: merge only near-identical ones (cosine ≥ <span class="file">MERGE_SIM</span> 0.85 — the same pain named by two clusters), keeping every genuinely distinct pain. Fragments with fewer than 2 phrases are dropped to misc.</li>
+    </ol>
+
+    <div class="note orange"><span class="tag">Keep specific — don't force a target count</span>
+      <p style="margin:8px 0 0;">The naming step deliberately <b>over-produces</b> candidate tensions, and dedup
+      merges only true duplicates. Squishing distinct pains into a round number is exactly the failure this avoids —
+      the real cut is stage 3's brand-scope filter, not the clustering.</p></div>
+
+    <h3>Same topic, different pain — why they stay separate</h3>
+    <p>Two phrases can look related on the surface and be completely different tensions. "Ghosted after interview"
+    and "endless interview rounds" are both interview complaints — but one pain is <b>silence and disrespect</b>, the
+    other is <b>process length</b>. Merging them under "interviews" would blur what the asset has to say, so the
+    naming call splits them.</p>
+
+    <h3>What each tension row ends up holding (built in 2d)</h3>
+    <table>
+      <thead><tr><th>Field</th><th>How it's produced</th></tr></thead>
+      <tbody>
+        <tr><td><b>Tension</b> · <b>Phrases</b></td><td>The one-sentence conflict (2b) and the phrases that rolled into it (from phrase-map.csv).</td></tr>
+        <tr><td><b>Core pain · Audience · Emotion</b></td><td><span class="v covered">LLM</span> Read from the phrases. Emotion is one of {anger, anxiety, disbelief, ridicule}; audience is not lazily "both".</td></tr>
+        <tr><td><b># posts · upvotes · comments · debate ratio · spread</b></td><td><span class="v no">mechanical</span> Counted and summed straight off the Posts tab — no judgment.</td></tr>
+        <tr><td><b>Best example · Representative quotes</b></td><td><span class="v covered">LLM</span> The clearest post and 2–3 verbatim quotes; best example falls back to the loudest post if the pick isn't in the pile.</td></tr>
+        <tr><td><b>Sub-questions · Implied data point</b></td><td><span class="v covered">LLM</span> What people actually argue about, and the number the tension is begging for. Sub-questions carry no product/solution wording (a banned-word list enforces it).</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ===================== 06 ===================== -->
+<section id="filter" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">06</span>The filter (stage 3)</h2>
+    <p class="sub">Two explicit tests per tension, both LLM judgments but structured ones. This is the gate the one
+    rule points at — where pure drama with no citable substance dies.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Test A — Linkability</h3>
+        <p style="margin-bottom:8px;">Would anyone cite an asset about this? Four yes/no questions:</p>
+        <ul style="color:var(--muted); font-size:14.5px;">
           <li>Is there a citable number an asset could produce?</li>
-          <li>Would a journalist reference it?</li>
-          <li>Is it evergreen?</li>
-          <li>Does it fit a proven link-bait format?</li>
+          <li>Would a journalist or blogger reference it?</li>
+          <li>Is it evergreen, not a one-off viral moment?</li>
+          <li>Does it fit a proven link-bait format (index / calculator / data report / guide)?</li>
         </ul>
+        <p style="margin-top:8px;"><b>Needs ≥3 of 4</b> (<span class="file">LINKABILITY_MIN</span>).</p>
       </div>
-      <div class="test">
-        <h3>Ownability — vs brand-scope.md</h3>
-        <ul>
-          <li>Does it sit inside the brand scope?</li>
-          <li>Does the company have the data or authority to speak on it?</li>
-          <li>Before dropping any out-of-scope tension, check: can the same tension be pointed at an in-scope subject? If yes, keep as TRANSPLANT.</li>
+      <div class="card">
+        <h3>Test B — Ownability</h3>
+        <p style="margin-bottom:8px;">Can this company credibly own it? Judged against <span class="file">brand-scope.md</span> — the same anchor Methods 1 and 2 use:</p>
+        <ul style="color:var(--muted); font-size:14.5px;">
+          <li>Does it sit inside scope: CORE / TRANSPLANT / ADJACENT?</li>
+          <li>Does the company hold the data, product, or authority?</li>
+          <li>Out of scope → run the transplant check <em>before</em> dropping.</li>
         </ul>
+        <p style="margin-top:8px;">CORE or TRANSPLANT passes; ADJACENT is a MAYBE.</p>
       </div>
     </div>
+
+    <div class="note orange"><span class="tag">The transplant check is mandatory</span>
+      <p style="margin:8px 0 0;">An out-of-scope tension is never binned on ownability alone. First ask: is there a
+      strong linkable shape here we can point at an <em>in-scope</em> subject? The verdict is recorded for every
+      out-of-scope tension — even when it's "no transplant, drop" — so the audit shows the check happened.</p></div>
+
+    <h3>Worked example — real verdicts from the Testlify run</h3>
+    <table>
+      <thead><tr><th>Tension</th><th>Linkability</th><th>Ownability</th><th>Verdict</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>Job seekers get rejected for reasons that feel arbitrary or outside their control — vibe, culture fit, grades, a keyword filter.</td>
+          <td><span class="v covered">4/4 PASS</span></td>
+          <td>CORE</td>
+          <td><span class="v covered">KEEP-CORE</span></td>
+        </tr>
+        <tr>
+          <td>Developers are fed up that AI "vibe coding" ships low-quality slop that breaks in production.</td>
+          <td><span class="v covered">PASS</span></td>
+          <td>TRANSPLANT → assessing genuine coding skill / detecting AI-assistance in coding tests</td>
+          <td><span class="v covered">KEEP-TRANSPLANT</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="muted" style="font-size:13.5px;">Real rows from <span class="file">projects/testlify/…/output/tensions.csv</span>. Across all 180 tensions the run kept 48 CORE + 25 TRANSPLANT + 33 MAYBE and dropped 74.</p>
   </div>
 </section>
 
-<section id="ideas" class="alt">
+<!-- ===================== 07 ===================== -->
+<section id="ideas">
   <div class="wrap">
-    <h2><span class="num">D</span>Tensions → asset ideas</h2>
-    <p class="sub">One kept tension → one asset idea. The shape comes from the tension's implied data
-    point, not a borrowed format.</p>
-    <p>Each idea gets a real working title with the tension visible in it, plus the unfair advantage — the specific product, data, or authority that lets this company own it.</p>
-    <div class="contrast">
-      <div class="cbox bad">
-        <div class="clabel">Format label</div>
-        <p>"Report on fake remote listings"</p>
-      </div>
-      <div class="cbox good">
-        <div class="clabel">Tension-visible title</div>
-        <p>"The Remote Job Mirage: What % of 'Remote' Listings Are Actually Onsite?"</p>
-      </div>
+    <h2><span class="num">07</span>Tension → asset idea (stage 4)</h2>
+    <p class="sub">One kept tension becomes one asset idea. No format-borrowing here — that's Methods 1 and 2's job.
+    Method 3's edge is the tension itself, so the asset's shape comes straight from what the tension is calling for.</p>
+
+    <p>The idea prompt gets the tension's full evidence (sentence, core pain, all the phrases, quotes, audience,
+    emotion, implied data point, sub-questions, Reddit signals), the brand-fit verdict from stage 3, and the brand
+    brain — <span class="file">brand-voice.md</span> + <span class="file">features.md</span> + <span class="file">stats.md</span>. It returns a real
+    working title with the tension visible in it, plus the <b>unfair advantage</b> — the nameable product, data, or
+    authority that lets this company own it.</p>
+
+    <div class="ba">
+      <div class="box"><div class="clabel">Format label — dead on arrival</div><p>"Report on fake remote listings"</p></div>
+      <div class="arr">→</div>
+      <div class="box after"><div class="clabel">Tension-visible title</div><p>"The Remote Job Mirage: What % of 'Remote' Listings Are Actually Onsite?"</p></div>
     </div>
+
+    <h3>A real idea the engine produced</h3>
+    <div class="card">
+      <div class="files"><span class="k">Tension</span></div>
+      <p style="margin:6px 0 12px; color:var(--ink);">Job seekers get rejected for reasons that feel arbitrary or
+      outside their control — too eager, too qualified, wrong "vibe", grades, or a keyword filter.
+      <span class="muted">(10 posts · 86,133 upvotes · spans 6 subreddits · KEEP-CORE)</span></p>
+
+      <div class="files"><span class="k">Asset title</span></div>
+      <p style="margin:6px 0 12px; color:var(--ink);"><b>The Vibe Verdict: What Share of Rejections Are "Culture Fit"
+      Instead of a Skill the Candidate Actually Failed?</b></p>
+
+      <div class="files"><span class="k">What it'd be</span></div>
+      <p style="margin:6px 0 12px;">A data study quantifying the implied data point head-on — the % of rejections
+      pinned on unmeasurable reasons versus a documented, job-related skill gap. Runs as a 3-part series matching the
+      sub-questions.</p>
+
+      <div class="files"><span class="k">Unfair advantage</span></div>
+      <p style="margin:6px 0 0;">Testlify scores every candidate against the same validated, EEOC-defensible
+      job-related criteria, so it holds the counterfactual nobody else has: the measured skill scores of candidates
+      who were rejected on "vibe."</p>
+    </div>
+    <p class="muted" style="font-size:13.5px;">Real row from <span class="file">study-trends-ideas.csv</span>. The implied data point <em>is</em> the asset; the sub-questions become the series.</p>
+  </div>
+</section>
+
+<!-- ===================== 08 ===================== -->
+<section id="output" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">08</span>What it produces + the verify gate</h2>
+    <p class="sub">One deliverable, two working files, and a gate the run cannot finish without.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="big">425</div><div class="cap">posts scraped (17 subreddits, 46k comments)</div></div>
+      <div class="stat"><div class="big">1,224</div><div class="cap">distinct phrases → 45 clusters</div></div>
+      <div class="stat"><div class="big">180</div><div class="cap">tensions built</div></div>
+      <div class="stat"><div class="big">106</div><div class="cap">asset ideas (48 CORE · 25 TRANSPLANT · 33 ADJACENT)</div></div>
+    </div>
+    <p class="muted" style="font-size:13.5px; margin-top:10px;">Real numbers from the Testlify run. All LLM calls run free on the Claude/Codex CLI; the only keyed dependency is Voyage embeddings in 2b (free tier).</p>
+
+    <div class="grid three">
+      <div class="card"><h3>★ The deliverable</h3>
+        <p>One row per asset idea: Tension · Asset title · What it'd be · Brand fit · Unfair advantage · # posts · Audience · Emotion · Best example URL. A separate pool, merged with Methods 1 &amp; 2 later.</p>
+        <span class="file">output/study-trends-ideas.csv</span></div>
+      <div class="card"><h3>Working file</h3>
+        <p>Every tension + full evidence + the stage-3 verdicts. The audit of what survived and why.</p>
+        <span class="file">output/tensions.csv</span></div>
+      <div class="card"><h3>Audit trail</h3>
+        <p>Each distinct phrase → the tension it rolled into → its source post ids. Any tension traces back to real posts.</p>
+        <span class="file">output/phrase-map.csv</span></div>
+    </div>
+
+    <h3>The verify gate — seven fail-closed checks</h3>
+    <p>Self-attestation failed once before (a checklist the agent claimed it ticked, a merge-check written after the
+    tensions to look done). So the final check is a script, not the agent's word. It exits non-zero if any of these fail:</p>
+    <table>
+      <thead><tr><th>Check</th><th>What it enforces</th></tr></thead>
+      <tbody>
+        <tr><td><b>ORDER</b></td><td>merge-check.md must predate tensions.csv — the gate ran first, not after the fact.</td></tr>
+        <tr><td><b>COVERAGE</b></td><td>every scraped post assigned exactly once; misc ≤ 15%.</td></tr>
+        <tr><td><b>OFF-BRAND</b></td><td>no DROP bucket over 8 posts unless it's examined by name in merge-check.md (kills the junk drawer).</td></tr>
+        <tr><td><b>SIZE-ALARM</b></td><td>any kept tension with more than 15 phrases must be justified by name in merge-check.md.</td></tr>
+        <tr><td><b>GATE</b></td><td>every kept tension appears in merge-check.md — formed through the gate, not bolted on.</td></tr>
+        <tr><td><b>PRODUCT-LEAK</b></td><td>kept tensions' sub-questions contain no solution/product words (no stage-4 bleed-back).</td></tr>
+        <tr><td><b>IDEAS</b></td><td>kept-tension count == idea count.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="note orange"><span class="tag">Where this sits in the bigger machine</span>
+      <p style="margin:8px 0 0;">Study Trends is <b>Method 3 of the asset engine's idea backlog</b>. It reads
+      <span class="file">brand-scope.md</span> (from Method 1's competitor study) as its ownability anchor and the brand
+      brain for voice. Its <span class="file">study-trends-ideas.csv</span> is a separate pool from Methods 1 and 2; all three
+      merge at the end of the idea-backlog stage, then get prioritised. Method 3's unique contribution to that merge
+      is the timely, current-events tension no other method can surface.</p></div>
   </div>
 </section>
 
 <footer>
-  <div class="wrap">Study Trends · Idea Backlog Method 3 of 3 · Timely, tension-backed asset ideas from real practitioner communities.</div>
+  <div class="wrap">Study Trends · Asset Engine Method 3 of 3 · architecture overview · scrape → phrases → tensions → filter → ideas → verify.</div>
 </footer>
 </body>
 </html>

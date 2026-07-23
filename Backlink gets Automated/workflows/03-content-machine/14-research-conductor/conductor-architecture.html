@@ -56,16 +56,19 @@
   .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
   .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
   .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
-  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:18px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow);}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:16px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow); text-align:center; line-height:1;}
   .step-body h3{margin:4px 0 4px;}
   .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
   .step-body ul{margin:6px 0 4px; color:var(--muted); font-size:14.5px;} .step-body ul .file{font-size:11.5px;}
   .step-body ul .fn{color:var(--ink); font-weight:600;}
   .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
   .xref:hover{background:var(--orange-soft);}
+  .phase{font-size:12px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin:26px 0 2px;}
   .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
   .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
   .pill.gate{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.code{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
   .pill.eng{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
   .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
   .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
@@ -83,9 +86,10 @@
 
   /* the engine chain */
   .chain{display:flex; flex-wrap:wrap; align-items:stretch; gap:8px; margin:22px 0;}
-  .link{flex:1; min-width:120px; background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:12px 10px; text-align:center; box-shadow:var(--shadow);}
+  .link{flex:1; min-width:104px; background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:12px 10px; text-align:center; box-shadow:var(--shadow);}
   .link .em{font-size:20px;} .link b{display:block; font-size:13px; margin:4px 0 1px;} .link small{color:var(--muted); font-size:11.5px;}
   .link.pick{background:var(--wash); border-color:var(--orange-soft);}
+  .link.flag{background:var(--red); border-color:var(--red-line);}
   .link.out{background:var(--green); border-color:var(--green-line);}
   .chev{align-self:center; color:var(--orange-soft); font-weight:800; font-size:18px;}
 
@@ -98,9 +102,22 @@
   td .file{font-size:11.5px;}
   td b{color:var(--ink);}
   td .n{font-family:ui-monospace,Menlo,monospace; font-weight:700; color:var(--orange);}
+  .v{font-weight:700; font-size:12px; padding:2px 9px; border-radius:100px; white-space:nowrap;}
+  .v.covered{color:var(--green-ink); background:var(--green); border:1px solid var(--green-line);}
+  .v.partial{color:#a6791b; background:var(--yellow-soft); border:1px solid var(--yellow);}
+  .v.no{color:var(--red-ink); background:var(--red); border:1px solid var(--red-line);}
+  .t-tag{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; font-weight:700; padding:1px 7px; border-radius:5px; background:var(--wash); border:1px solid var(--orange-soft);}
 
   .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
   .define b{color:var(--orange);}
+
+  /* data-structure anatomy */
+  .cardbox{background:var(--paper); border:1px solid var(--line); border-radius:16px; box-shadow:var(--shadow); padding:8px; margin:20px 0;}
+  .field{display:flex; gap:14px; padding:11px 12px; align-items:baseline;}
+  .field+.field{border-top:1px solid var(--line);}
+  .field .fk{flex:none; width:130px; font-family:ui-monospace,Menlo,monospace; font-size:12.5px; font-weight:700; color:var(--orange);}
+  .field .fv{font-size:14.5px; color:var(--muted);}
+  .field .fv b{color:var(--ink);}
 
   /* two-column compare */
   .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
@@ -115,13 +132,26 @@
   .mem .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
   .mem.yes .lbl{color:var(--green-ink);} .mem.no .lbl{color:var(--blue-ink);}
 
+  /* inline sub-step chips */
+  .subflow{display:flex; gap:10px; flex-wrap:wrap; margin:14px 0 4px; align-items:center;}
+  .schip{font-size:12.5px; background:var(--paper); border:1px solid var(--orange-soft); border-radius:100px; padding:4px 11px; font-weight:600; color:var(--ink); display:flex; align-items:center; gap:6px;}
+  .schip .n{width:17px; height:17px; border-radius:100px; background:var(--orange); color:#fff; font-size:11px; display:grid; place-items:center; font-weight:800;}
+  .arrow{color:var(--orange-soft); font-weight:800; align-self:center;}
+
+  /* before / after */
+  .ba{display:grid; grid-template-columns:1fr auto 1fr; gap:14px; align-items:center; margin:20px 0;}
+  .ba .box{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:16px 18px; box-shadow:var(--shadow); text-align:center;}
+  .ba .box .n{font-size:24px; font-weight:800;} .ba .box small{color:var(--muted); font-size:12.5px;}
+  .ba .arr{font-size:22px; color:var(--orange); font-weight:800;}
+  .ba .box.after{border-color:var(--green-line); background:var(--green);}
+
   .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
   .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
   .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
   .stat .cap{font-size:13px; color:var(--muted);}
 
   footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
-  @media(max-width:760px){ .agents,.grid,.grid.three,.grid.four{grid-template-columns:1fr;} .chev{display:none;} }
+  @media(max-width:760px){ .agents,.grid,.grid.three,.grid.four{grid-template-columns:1fr;} .ba{grid-template-columns:1fr;} .chev{display:none;} }
 </style>
 </head>
 <body>
@@ -132,9 +162,10 @@
     <h1>How the <span class="hl">research conductor</span> runs the whole phase, hands-off</h1>
     <p class="lede">The four earlier engines each do one job. The conductor is the thing that runs them <b>in
     order</b>, unattended: it picks one topic, threads that topic's identity through DataForSEO → STORM → gap-check →
-    research-structure, checks each result, then packages a write-ready bundle and queues the topic's follow-ups.
-    You launch it with one command — <span class="hl">/research</span> — pick a provider (Claude or Codex) and model,
-    and walk away. One topic, no human in the loop. Here is exactly how it works.</p>
+    research-structure, checks each result, flags when we already rank for the keyword, packages a write-ready bundle,
+    then mints and vets this hub's follow-up topics (its spokes). You launch it with one command —
+    <span class="hl">/research</span> — pick a provider (Claude or Codex) and model, and walk away. One topic, no
+    human in the loop. Here is exactly how it works.</p>
   </div>
 </header>
 
@@ -145,7 +176,8 @@
     <a href="#queue">The queue</a>
     <a href="#architecture">The architecture</a>
     <a href="#pipeline">Full pipeline</a>
-    <a href="#resume">Resume &amp; the gate</a>
+    <a href="#resume">Crash-safety &amp; gates</a>
+    <a href="#cannib">Cannibalisation flag</a>
     <a href="#bundle">The bundle</a>
     <a href="#output">Spokes &amp; where it sits</a>
   </div>
@@ -157,22 +189,22 @@
     <h2><span class="num">01</span>The one idea</h2>
     <p class="sub">Each research engine already works on its own. What was missing was a single, reliable way to run
     all of them for one topic without a person babysitting the handoffs. That's the conductor — it invents nothing,
-    it just sequences.</p>
+    it just sequences, checks, and packages.</p>
     <div class="grid four">
       <div class="card"><div class="ic">🎯</div><h3>1. Pick</h3><p>Choose the next topic — from the queue, or the
         idea cabinet if the queue is empty — and lock its identity.</p></div>
       <div class="card"><div class="ic">🔗</div><h3>2. Sequence</h3><p>Run all four engines in order, passing the
         topic's identity through each so every output lands together.</p></div>
       <div class="card"><div class="ic">🛡️</div><h3>3. Guard</h3><p>Check each engine's output before the next one
-        uses it — a dud STORM run stops the whole thing.</p></div>
-      <div class="card"><div class="ic">📦</div><h3>4. Package &amp; queue</h3><p>Bundle the result for the writer,
-        mark the topic done, and queue its spokes.</p></div>
+        uses it — a dud STORM run stops the whole thing; a no-demand topic skips gracefully.</p></div>
+      <div class="card"><div class="ic">📦</div><h3>4. Package &amp; grow</h3><p>Bundle the result for the writer,
+        flag any cannibalisation, mark the topic done, then mint + vet this hub's spokes.</p></div>
     </div>
     <div class="note orange"><span class="tag">The one rule that governs everything</span><br>
     <b>The slug is the thread.</b> The conductor picks one topic and mints a short nickname — its <b>slug</b> — then
     passes that same slug + title + angle to every engine, and every engine writes its output under that one slug.
     That single shared thread is what lets four separate tools behave like one pipeline (and what makes a crash
-    resumable).</div>
+    resumable). A spoke also carries its pillar's slug, so a spoke's output nests under its hub everywhere.</div>
   </div>
 </section>
 
@@ -186,11 +218,20 @@
     <div class="define"><b>The queue</b> (<span class="file">research-log.csv</span>) — the to-do sheet: one row per
       topic with its status. The single source of truth for what's done and what's next.</div>
     <div class="define"><b>The idea cabinet</b> (<span class="file">clubbed-ideas.csv</span>) — where topics come
-      from: title, angle, competitor URLs. The source of truth for idea <i>data</i> (never edited by the conductor).</div>
+      from: title, angle, competitor URLs, reuse verdict. The source of truth for idea <i>data</i> (never edited by
+      the conductor).</div>
     <div class="define"><b>Slug</b> — the short nickname minted from a topic's title. It's the thread that ties every
       engine's output together under one folder name.</div>
     <div class="define"><b>Hub vs spoke</b> — a <b>hub</b> is a main topic from the cabinet; a <b>spoke</b> is a
-      sub-topic it spawns (its own future article), queued right after its hub.</div>
+      sub-topic it spawns (its own future article), queued right after its hub and nested under it.</div>
+    <div class="define"><b>Primary keyword</b> — the one search phrase DataForSEO picks as the article's main target.
+      It's what STORM researches, and what the cannibalisation flag looks up.</div>
+    <div class="define"><b>Cannibalisation flag</b> — a warning (never a block) that <b>we already rank on page 1</b>
+      for this article's keyword, so a second page could split our own traffic. Decided once, shown in the bundle.</div>
+    <div class="define"><b>Reuse verdict</b> — the "do we already have content like this?" answer: <b>Already have it
+      · Improve existing · Build from parts · Brand new</b>. Every idea (and every minted spoke) carries one.</div>
+    <div class="define"><b>Word band</b> — the target article length. DataForSEO reads the live search results for the
+      keyword and reports the range of lengths of the pages currently ranking (e.g. 3,000–4,000 words).</div>
     <div class="define"><b>The bundle</b> — the final handoff: one folder holding the blueprint plus pointers to
       everything else the writer needs.</div>
     <div class="define"><b>Resumable</b> — a step is skipped if its output already exists, so a crash (or a
@@ -209,19 +250,46 @@
     <div class="agents">
       <div class="agent asker">
         <div class="cap">✅</div><h3>The queue</h3>
-        <div class="role"><span class="file">research-log.csv</span> · status only</div>
+        <div class="role"><span class="file">research-log.csv</span> · status + carried signals</div>
         <div class="mem yes"><span class="lbl">Tracks progress</span><br>
-          One row per topic: <span class="file">slug · asset · angle · source · research_status · write_status ·
-          dates</span>. The conductor reads and writes this to know what's done and what's next.</div>
+          One row per topic, 19 columns. The conductor reads and writes this to know what's done, what's next, and
+          what the writer will need later.</div>
       </div>
       <div class="agent answ">
         <div class="cap">🗄️</div><h3>The idea cabinet</h3>
         <div class="role"><span class="file">clubbed-ideas.csv</span> · idea data only</div>
         <div class="mem no"><span class="lbl">Supplies topics</span><br>
-          Title, angle, proof URLs, reuse verdict. Read-only to the conductor — the competitor URLs and the like are
-          looked up live by matching the title, never copied into the queue.</div>
+          Title, angle, proof URLs, reuse verdict, format, target words. Read-only to the conductor — competitor URLs
+          are looked up live by matching the title, never copied into the queue.</div>
       </div>
     </div>
+
+    <h3>What the queue row carries (19 columns)</h3>
+    <table>
+      <tr><th style="width:24%">Group</th><th>Columns &amp; what they hold</th></tr>
+      <tr><td><b>Identity</b></td><td><span class="file">slug</span> · <span class="file">asset</span> (title) ·
+        <span class="file">angle</span> · <span class="file">source</span> (<span class="t-tag">clubbed-hub</span> or
+        <span class="t-tag">spoke-of:&lt;hub&gt;</span>)</td></tr>
+      <tr><td><b>Status &amp; bookkeeping</b></td><td><span class="file">research_status</span> ·
+        <span class="file">write_status</span> · <span class="file">attempts</span> · <span class="file">run_dir</span>
+        · <span class="file">created</span> · <span class="file">updated</span></td></tr>
+      <tr><td><b>Write-phase signals</b><br><span class="muted" style="font-size:12.5px;">carried from the clubbed idea</span></td>
+        <td>Handed straight to the writer later:
+        <ul>
+          <li><span class="file">format</span> — the shape to write in.</li>
+          <li><span class="file">target_words</span> — the clubbed median length (a coarse estimate).</li>
+          <li><span class="file">reuse_verdict</span> · <span class="file">chosen_links</span> — the verdict, and for
+            "Improve existing" the existing page(s) to upgrade.</li>
+        </ul></td></tr>
+      <tr><td><b>Tool escalation</b></td><td><span class="file">tool_build</span> · <span class="file">tool_reason</span>
+        — an idea that needs a real build (a tool), not a write. Enqueued as a terminal marker, never auto-written.</td></tr>
+      <tr><td><b>Flags &amp; notes</b><br><span class="muted" style="font-size:12.5px;">written mid-run</span></td>
+        <td><ul>
+          <li><span class="file">cannibalization</span> · <span class="file">cannibalization_url</span> — the page-1
+            keyword + URL we already rank for (only when we do). <a class="xref" href="#cannib">↓ §07</a></li>
+          <li><span class="file">remarks</span> — free-text note for a terminal outcome (e.g. "skipped: no keyword demand").</li>
+        </ul></td></tr>
+    </table>
 
     <h3>The pick order (every run)</h3>
     <ol>
@@ -229,15 +297,31 @@
         <span class="file">in_progress</span> (reclaimed; see below).</li>
       <li>Because spokes sit <b>right after their hub</b>, a cluster is researched depth-first: the hub, then its
         spokes, then the next hub.</li>
-      <li>If the queue has nothing unfinished, pull the next <b>eligible</b> idea from the cabinet (reuse verdict =
-        "Brand new" or "Build from parts") and add it as a new row.</li>
+      <li>If the queue has nothing unfinished, pull the next <b>eligible</b> idea from the cabinet and add it as a new
+        row. Writable ideas are pulled in priority order — <span class="file">Brand new</span> /
+        <span class="file">Build from parts</span> first, then <span class="file">Improve existing</span> <b>last</b>.
+        A <span class="file">Tool escalation</span> idea is dropped in as a terminal <span class="file">tool-build</span>
+        marker (a human builds it) and never picked for writing.</li>
     </ol>
+
+    <h3>The row's life — the status values</h3>
+    <table>
+      <tr><th style="width:22%">research_status</th><th>Meaning</th></tr>
+      <tr><td><span class="t-tag">pending</span></td><td>Queued, not started.</td></tr>
+      <tr><td><span class="t-tag">in_progress</span></td><td>A run started it. Reclaimed on the next run if it crashed.</td></tr>
+      <tr><td><span class="t-tag">done</span></td><td>Research finished; the bundle is ready for the writer.</td></tr>
+      <tr><td><span class="t-tag">skipped</span></td><td>Terminal. No keyword demand — an editorial/niche topic; a
+        <span class="file">remarks</span> note explains it. <a class="xref" href="#resume">↓ §06</a></td></tr>
+      <tr><td><span class="t-tag">failed</span></td><td>Terminal. Hit the attempts cap
+        (<span class="file">MAX_ATTEMPTS = 3</span>) — dead-lettered so a broken topic can't block the queue forever.</td></tr>
+      <tr><td><span class="t-tag">tool-build</span></td><td>Terminal. Needs a tool built, not an article written.</td></tr>
+    </table>
 
     <div class="note"><span class="tag">Why "in_progress" gets reclaimed, not skipped</span><br>
     A row left <span class="file">in_progress</span> means a previous run started that topic but crashed before
     finishing. Since runs are strictly one-topic-at-a-time, that row is never a live parallel run — so the next run
-    <b>retries it</b> instead of orphaning it. Combined with the slug thread, that's what makes an interrupted run
-    safe to simply re-fire.</div>
+    <b>retries it</b> instead of orphaning it (up to <span class="file">MAX_ATTEMPTS</span>). Combined with the slug
+    thread, that's what makes an interrupted run safe to simply re-fire.</div>
   </div>
 </section>
 
@@ -245,13 +329,15 @@
 <section id="architecture" style="background:var(--cream);">
   <div class="wrap">
     <h2><span class="num">04</span>The architecture — a thin conductor over four engines</h2>
-    <p class="sub">The conductor is deliberately small. All the real work lives in the four engines it calls; this
-    folder only holds the sequencing, the queue, and the packaging.</p>
+    <p class="sub">The conductor is deliberately small. Nearly all the heavy work lives in the four engines it calls;
+    this folder holds the sequencing, the queue, the cannibalisation flag, the spoke-minting, and the packaging.</p>
 
     <div class="chain">
       <div class="link pick"><div class="em">🎯</div><b>Pick</b><small>topic_pick</small></div>
       <div class="chev">›</div>
       <div class="link"><div class="em">🔑</div><b>DataForSEO</b><small>brief + keywords</small></div>
+      <div class="chev">›</div>
+      <div class="link flag"><div class="em">⚠️</div><b>Cannib?</b><small>do we rank?</small></div>
       <div class="chev">›</div>
       <div class="link"><div class="em">📚</div><b>STORM</b><small>evidence dossier</small></div>
       <div class="chev">›</div>
@@ -279,31 +365,55 @@
         <td>Owns the sheet.
           <ul>
             <li>Picks the next topic (queue first, else the cabinet) and mints its slug.</li>
-            <li>Marks a topic done and inserts its spokes right after it.</li>
+            <li>Marks a topic done/skipped/failed and inserts its spokes right after it.</li>
           </ul></td>
       </tr>
       <tr>
+        <td><span class="file">cannibalization.py</span><br><span class="muted" style="font-size:12.5px;">Step 1b flag</span></td>
+        <td>Looks the primary keyword up in our real Google ranking footprint.
+          <ul>
+            <li>Reads 00-foundation's <span class="file">traffic-raw.json</span>; caches a slim lookup.</li>
+            <li>Flags a page-1 rank; never blocks. <a class="xref" href="#cannib">↓ §07</a></li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td><span class="file">spoke_idea.py</span><br><span class="muted" style="font-size:12.5px;">Step 6 spokes</span></td>
+        <td>Turns a bare spoke keyword into a real idea.
+          <ul>
+            <li><span class="fn">mint()</span> — LLM writes a title + angle from the keyword + its pillar.</li>
+            <li><span class="fn">accept()</span> — runs the reuse check, re-angles a near-duplicate up to 3 times.
+              <a class="xref" href="#output">↓ §09</a></li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td><span class="file">reuse_one.py</span><br><span class="muted" style="font-size:12.5px;">semantic check</span></td>
+        <td>The proper "do we already have this?" check for one idea. Reuses the asset-engine's Voyage embeddings +
+          the content-index + the same reuse-judge, returning a real verdict. <a class="xref" href="#output">↓ §09</a></td>
+      </tr>
+      <tr>
         <td><span class="file">bundle.py</span><br><span class="muted" style="font-size:12.5px;">Step 5</span></td>
-        <td>Packages the write-ready handoff: copies the blueprint in, picks the author byline, and writes a cover
-          sheet pointing to the brand constants (see §07).</td>
+        <td>Packages the write-ready handoff: copies the blueprint in, picks the author byline, sets the authoritative
+          word target, and writes a cover sheet pointing to the brand constants. <a class="xref" href="#bundle">↓ §08</a></td>
       </tr>
       <tr>
         <td><span class="file">config.py</span><br><span class="muted" style="font-size:12.5px;">settings</span></td>
-        <td>Every path to every engine's runner and output, computed from one anchor, plus the STORM knobs (the
-          word-count gate, the shim port) and the reuse-verdict filter. Company is one setting.</td>
+        <td>Every path to every engine's runner and output, computed from one anchor, plus the tunables — the STORM
+          word-count gate, the shim port, the reuse-verdict filter, the spoke cap, the attempts cap, and the
+          cannibalisation window. Company is one setting.</td>
       </tr>
       <tr>
         <td><span class="file">llm.py</span><br><span class="muted" style="font-size:12.5px;">the AI caller</span></td>
-        <td>The headless-Claude caller (free) — used only by the bundle step to pick the author byline. The four
-          engines each have their own.</td>
+        <td>The headless caller (free, no API key) — used by the bundle's author-pick and the spoke-minting. Runs on
+          Claude or Codex. The four engines each have their own copy.</td>
       </tr>
     </table>
     <div class="note orange"><span class="tag">The entry point — the <span class="file">/research</span> command</span><br>
     You launch a run by typing <span class="file">/research</span>. It first asks <b>two things</b>: which
     <b>provider</b> to run every LLM step on — the locally authenticated <b>Claude</b> CLI (default) or the
     <b>Codex</b> CLI — and which <b>model</b> (or the CLI's default). It then runs the whole chain on that choice.
-    Both providers are headless and <b>need no API key</b>; under the hood the command just passes your picks as
-    <span class="file">--provider</span> / <span class="file">--model</span> to the conductor (and to STORM's bridge).</div>
+    Both providers are headless and <b>need no API key</b>; under the hood the command passes your picks as
+    <span class="file">--provider</span> / <span class="file">--model</span> to the conductor, which threads them to
+    every engine and to STORM's bridge.</div>
   </div>
 </section>
 
@@ -312,10 +422,11 @@
   <div class="wrap">
     <h2><span class="num">05</span>The full pipeline — steps 0 to 6</h2>
     <p class="sub">One run of one topic. Each step calls one engine (<span class="pill eng">engine</span>) and writes
-    a named output the next step reads; the whole thing is keyed by the shared slug.</p>
+    a named output the next step reads; the whole thing is keyed by the shared slug. A spoke passes its pillar's slug
+    as <span class="file">--hub</span> so every output nests under the hub.</p>
     <div class="flow">
       <div class="step"><div class="dot">0</div><div class="step-body">
-        <h3>Pick the topic</h3>
+        <h3>Pick the topic <span class="pill free">free</span></h3>
         <p>Choose the next topic (queue, else cabinet), mint its slug, and mark the row <span class="file">in_progress</span>.
         Bookkeeping only — no research yet.</p>
         <ul>
@@ -326,18 +437,32 @@
       <div class="step"><div class="dot">1</div><div class="step-body">
         <h3>DataForSEO — keyword + competitor research <span class="pill eng">10-dataforseo</span></h3>
         <p>Run the brief engine on the topic's full title (a spoke passes its angle directly, since it isn't in the
-        cabinet). This also yields the <b>primary keyword</b> and the <b>spoke candidates</b> used later.</p>
+        cabinet). This also yields the <b>primary keyword</b> and the ranked <b>spoke candidates</b> used later.</p>
         <ul>
-          <li>→ <span class="file">dataforseo/out/&lt;slug&gt;/research-doc-&lt;slug&gt;.md</span> (the brief).</li>
-        </ul></div></div>
+          <li>→ <span class="file">dataforseo/out/&lt;hub&gt;/&lt;slug&gt;/research-doc-&lt;slug&gt;.md</span> (the brief)
+            + <span class="file">proof/03-final.json</span> (primary keyword + spokes).</li>
+          <li><b>No-demand exit:</b> if no keyword clears the volume floor, DataForSEO exits <b>code 3</b> → the
+            conductor marks the topic terminal <span class="file">skipped</span> and moves on.</li>
+        </ul>
+        <a class="xref" href="#resume">↓ §06 — the no-demand skip</a></div></div>
+
+      <div class="step"><div class="dot">1b</div><div class="step-body">
+        <h3>Cannibalisation flag — do we already rank for it? <span class="pill free">free</span></h3>
+        <p>Before spending on STORM, look the primary keyword up in our own Google ranking footprint. If we already
+        rank on page 1, write the position + URL onto the queue row so the bundle can warn the team. Never blocks.</p>
+        <ul>
+          <li><span class="fn"><span class="file">cannibalization.py</span></span> → <span class="file">cannibalization</span>
+            + <span class="file">cannibalization_url</span> on the row (only when we rank).</li>
+        </ul>
+        <a class="xref" href="#cannib">↓ §07 — the cannibalisation flag</a></div></div>
 
       <div class="step"><div class="dot">2</div><div class="step-body">
         <h3>STORM — the deep evidence dossier <span class="pill eng">11-storm</span> <span class="pill gate">gated</span></h3>
-        <p>Start STORM's bridge, then research a <b>subject</b> — not the SEO keyword. The conductor derives a
-        research topic by stripping the brand name and year from the title and appending the angle, because STORM
-        needs something to investigate, not a search phrase.</p>
+        <p>Start STORM's bridge, then research a <b>subject</b> — not the SEO keyword. The conductor derives a clean
+        research topic by stripping the brand name and year from the title, because STORM needs something to
+        investigate, not a search phrase.</p>
         <ul>
-          <li>→ <span class="file">storm/out/&lt;TopicDir&gt;/storm_gen_article_polished.txt</span> (the dossier).</li>
+          <li>→ <span class="file">storm/out/&lt;hub&gt;/&lt;TopicDir&gt;/storm_gen_article_polished.txt</span> (the dossier).</li>
         </ul>
         <a class="xref" href="#resume">↓ §06 — the STORM quality gate</a></div></div>
 
@@ -345,7 +470,7 @@
         <h3>gap-check — fill what the brief needs but STORM missed <span class="pill eng">12-gap-check</span></h3>
         <p>Audit the dossier against the brief and fire targeted STORM re-runs for the important gaps.</p>
         <ul>
-          <li>→ <span class="file">gap-check/out/&lt;slug&gt;/gap-check.md</span> + STORM gap-fill iterations.</li>
+          <li>→ <span class="file">gap-check/out/&lt;hub&gt;/&lt;slug&gt;/gap-check.md</span> + STORM gap-fill iterations.</li>
         </ul></div></div>
 
       <div class="step"><div class="dot">4</div><div class="step-body">
@@ -353,64 +478,140 @@
         <p>Turn all the research (dossier + gap iterations + own pages + brief) into the blueprint, steering the
         angle-relevance filter with the topic's distinct angle.</p>
         <ul>
-          <li>→ <span class="file">research-structure/out/&lt;slug&gt;/structure-&lt;slug&gt;.json</span> + <span class="file">.html</span>.</li>
+          <li>→ <span class="file">research-structure/out/&lt;hub&gt;/&lt;slug&gt;/structure-&lt;slug&gt;.json</span> + <span class="file">.html</span>.</li>
         </ul></div></div>
 
       <div class="step"><div class="dot">5</div><div class="step-body">
         <h3>Bundle — the write-ready handoff <span class="pill free">free</span></h3>
-        <p>Package the blueprint plus pointers to every brand constant into one folder for the writer.</p>
+        <p>Package the blueprint plus pointers to every brand constant into one folder for the writer, and set the
+        authoritative word target from the live-SERP band.</p>
         <ul>
-          <li><span class="fn"><span class="file">bundle.py</span></span> → <span class="file">research-bundle/&lt;slug&gt;/bundle-&lt;slug&gt;.md</span> (+ the copied blueprint).</li>
+          <li><span class="fn"><span class="file">bundle.py</span></span> → <span class="file">research-bundle/&lt;hub&gt;/&lt;slug&gt;/bundle-&lt;slug&gt;.md</span> (+ the copied blueprint).</li>
         </ul>
-        <a class="xref" href="#bundle">↓ §07 — what's in the bundle</a></div></div>
+        <a class="xref" href="#bundle">↓ §08 — what's in the bundle</a></div></div>
 
       <div class="step"><div class="dot">6</div><div class="step-body">
-        <h3>Log done + enqueue spokes <span class="pill free">free</span></h3>
-        <p>Mark the topic <span class="file">research=done</span> and insert this hub's <b>top 3</b> ranked spoke
-        candidates right after it in the queue — so the next runs pick them up before moving to a new hub. A spoke
-        itself enqueues nothing (one level only).</p>
+        <h3>Log done + mint &amp; enqueue spokes <span class="pill paid">paid · Voyage</span></h3>
+        <p>Mark the topic <span class="file">research=done</span>. Then take this hub's <b>top 3</b> ranked spoke
+        candidates (bare keywords), <b>mint each into a real idea</b> and <b>vet it with the reuse check</b>, and
+        insert them right after the hub. A spoke itself enqueues nothing (one level only). Wrapped so a Voyage/mint
+        failure can't undo an already-successful hub run.</p>
         <ul>
-          <li><span class="fn"><span class="file">topic_pick.py</span></span> → updated <span class="file">research-log.csv</span>.</li>
+          <li><span class="fn"><span class="file">topic_pick.py</span></span> +
+            <span class="fn"><span class="file">spoke_idea.py</span></span> → updated <span class="file">research-log.csv</span>.</li>
         </ul>
-        <a class="xref" href="#output">↓ §08 — how the top 3 spokes are chosen</a></div></div>
+        <a class="xref" href="#output">↓ §09 — from bare keyword to vetted spoke</a></div></div>
     </div>
     <div class="note"><span class="tag">Slow by nature, not hung</span><br>
-    STORM writes a full article through headless Claude, and gap-check re-runs it to fill gaps — so a cold topic can
+    STORM writes a full article through the headless LLM, and gap-check re-runs it to fill gaps — so a cold topic can
     take tens of minutes. That's inherent to the depth, not a stall.</div>
   </div>
 </section>
 
-<!-- RESUME & GATE -->
+<!-- RESUME & GATES -->
 <section id="resume" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">06</span>Crash-safety and the one hard gate</h2>
-    <p class="sub">Because this runs unattended and each engine is expensive, two things matter most: it must resume
-    cleanly, and it must never carry a bad STORM result forward.</p>
+    <h2><span class="num">06</span>Crash-safety, and the exits that don't crash</h2>
+    <p class="sub">Because this runs unattended and each engine is expensive, three things matter most: it must resume
+    cleanly, it must never carry a bad STORM result forward, and a dead-end topic must bow out gracefully instead of
+    jamming the queue.</p>
 
     <h3>How resume works</h3>
     <ul>
-      <li><b>The slug is the thread</b> — every engine writes under <span class="file">out/&lt;slug&gt;/</span>, so
-        resume is just "does this step's output file already exist?" If yes, skip it.</li>
+      <li><b>The slug is the thread</b> — every engine writes under <span class="file">out/&lt;hub&gt;/&lt;slug&gt;/</span>,
+        so resume is just "does this step's output file already exist?" If yes, skip it.</li>
       <li>Safe to Ctrl-C: the topic stays <span class="file">in_progress</span> and the next run reclaims it.</li>
       <li>Flags to override: <span class="file">--redo</span> reruns everything, <span class="file">--from N</span>
         forces a rerun from step N, <span class="file">--until N</span> stops after a step (e.g.
         <span class="file">--until 2</span> stops after STORM).</li>
     </ul>
 
-    <div class="note red"><span class="tag r">The STORM gate — the one place it refuses to continue</span><br>
+    <div class="note red"><span class="tag r">Gate 1 — STORM: the one place it refuses to continue</span><br>
     STORM can exit "successfully" yet return an <b>empty or stub article</b> (~300 words instead of a healthy
-    ~9,000) when its write step transiently fails. The conductor checks the word count: below <b>1,500 words</b> it
-    <b>retries STORM once, then fails the whole run loudly</b> rather than proceed.
+    ~9,000) when its write step transiently fails. The conductor checks the word count: below
+    <b>1,500 words</b> (<span class="file">STORM_MIN_WORDS</span>) it <b>retries STORM once, then fails the whole run
+    loudly</b> rather than proceed.
     <div style="margin-top:8px;"><b>Why stop instead of limp on:</b> a stub dossier produces almost no evidence
     cards, so our own pages dominate the blueprint and the citations come out nearly all our own site. A failed run
     is treated exactly like an error — better to stop and retry than poison everything downstream.</div></div>
+
+    <div class="note"><span class="tag">Graceful exit — the no-keyword-demand skip</span><br>
+    Some topics are editorial: no search phrase has real volume. DataForSEO's scorer refuses (it won't invent a
+    keyword), exits <b>code 3</b>, and the conductor catches it as a <b>soft</b> outcome — it marks the topic terminal
+    <span class="file">skipped</span> with a <span class="file">remarks</span> note, then returns cleanly. The queue
+    is never crashed or retried; the next run just picks the next topic.
+    <div style="margin-top:8px;"><b>Real example:</b> <i>"Why Candidates Still Abandon Job Applications in 2026"</i> →
+    DataForSEO found <b>16 keywords, max volume 70</b>, none clearing the floor → row marked
+    <span class="t-tag">skipped</span>, remark: <i>"no keyword demand — no keyword cleared the volume floor
+    (editorial/niche topic, not researched)."</i></div></div>
+
+    <div class="note"><span class="tag">Graceful exit — the attempts cap</span><br>
+    A topic that fails the same way every run would be reclaimed forever, burning paid API calls each time. After
+    <b>3 attempts</b> (<span class="file">MAX_ATTEMPTS</span>) the row is marked terminal <span class="t-tag">failed</span>
+    and skipped, so one broken topic can never block the whole queue.</div>
+  </div>
+</section>
+
+<!-- CANNIBALISATION FLAG -->
+<section id="cannib">
+  <div class="wrap">
+    <h2><span class="num">07</span>The cannibalisation flag — "do we already rank for this?"</h2>
+    <p class="sub">Before we spend on a full STORM run, one cheap check: are we about to write a page that competes
+    with a page <b>we already have</b>? If we already rank on page 1 for the keyword, a second page can split our own
+    traffic. The flag warns the team — it never stops the build.</p>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">📊</div><h3>The data it uses</h3>
+        <div class="role">already paid for, in the foundation layer</div>
+        <div class="mem yes"><span class="lbl">Our real ranking footprint</span><br>
+          Not a fresh lookup — it reuses 00-foundation's <span class="file">ranked_keywords</span> pull
+          (<span class="file">traffic-raw.json</span>, ~18k rows: every keyword our domain ranks for + position + URL).
+          It builds a slim keyword → [rank, url] lookup once (~13k unique keywords, cached as
+          <span class="file">our-rankings.json</span>, keeping our best position per keyword).</div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">⚖️</div><h3>How it decides</h3>
+        <div class="role">exact match, page-1 only</div>
+        <div class="mem no"><span class="lbl">The rule</span><br>
+          Look up the primary keyword. Flag it <b>only</b> if we rank in the top
+          <span class="file">CANNIB_RANK_MAX = 10</span> (page 1) — that's where a second page actually splits our
+          traffic; a #40 nobody sees is not real cannibalisation. It's a <b>true-negative-safe</b> check: it fires
+          only on a real page-1 ranking. Off-switch <span class="file">CANNIB_CHECK = 0</span>; fails open if the
+          footprint file is missing.</div>
+      </div>
+    </div>
+
+    <h3>Worked example — real run (Sonnet 5)</h3>
+    <p class="muted">The hub topic's primary keyword was <b>"cost per hire"</b>. The flag looked it up in our footprint:</p>
+    <table>
+      <tr><th>Keyword</th><th>Our best rank</th><th>≤ 10 (page 1)?</th><th>Result</th></tr>
+      <tr>
+        <td><span class="t-tag">cost per hire</span></td>
+        <td><span class="n">#91</span><br><span class="muted" style="font-size:12.5px;">via testlify.com/hr-glossary/cost-per-hire-cph/</span></td>
+        <td><span class="v no">no — page 10</span></td>
+        <td><b>NOT flagged.</b> We rank so deep nobody sees it, so a new page doesn't split real traffic. The row's
+          <span class="file">cannibalization</span> stays blank; the build proceeds normally.</td>
+      </tr>
+      <tr>
+        <td colspan="4" class="muted"><b>The other side (illustrative):</b> had that same keyword sat at
+          <span class="n">#4</span>, the check would have written <span class="file">cannibalization</span> =
+          "#4 · cost per hire" + the URL onto the row, and the bundle would carry a
+          <span class="v no">TEAM SHOULD KNOW</span> warning: build anyway, but this article must clearly outperform
+          that page.</td>
+      </tr>
+    </table>
+
+    <div class="note orange"><span class="tag">Decided once, carried forward</span><br>
+    The verdict is written to the queue row a single time, here in Step 1b — never re-decided downstream. The bundle
+    just reads it. That's the single-source-of-truth rule: one place owns the flag, everything else points at it.</div>
   </div>
 </section>
 
 <!-- THE BUNDLE -->
-<section id="bundle">
+<section id="bundle" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">07</span>The write-ready bundle — one clean handoff</h2>
+    <h2><span class="num">08</span>The write-ready bundle — one clean handoff</h2>
     <p class="sub">The last real work is packaging. The bundle is a single folder the writer opens: the plan itself,
     plus a cover sheet pointing to everything else. It follows one discipline — copy the plan, point to the constants.</p>
 
@@ -431,9 +632,32 @@
       </div>
     </div>
 
+    <h3>The word target — one authority, chosen once</h3>
+    <p>Two sources can disagree on how long the article should be, so the bundle picks one authority:</p>
+    <ul>
+      <li><b>Clubbed <span class="file">target_words</span></b> — a coarse, cluster-wide asset-engine estimate (the
+        median length of ranking pages, taken once).</li>
+      <li><b>DataForSEO's live-SERP <span class="file">Word band</span></b> — computed <b>per topic</b> from the pages
+        actually ranking for <i>this</i> keyword, the day we researched it.</li>
+    </ul>
+    <p><b>DataForSEO wins</b> — it read this keyword's current search results. <span class="file">bundle.py</span>'s
+    <span class="file">_dfs_word_band</span> parses the band from the brief and surfaces that as the target; it falls
+    back to the clubbed median only if the brief has no band.</p>
+
+    <div class="ba">
+      <div class="box"><div class="n">~1,133</div><small>clubbed median<br>(coarse, cluster-wide)</small></div>
+      <div class="arr">→</div>
+      <div class="box after"><div class="n">3,000–4,000</div><small>DataForSEO live-SERP band<br>(the authoritative target)</small></div>
+    </div>
+    <p class="muted" style="font-size:14px;">Real, from the "Real Cost of Recruitment" hub run: the bundle now shows
+    "Target length: 3,000–4,000 words — DataForSEO's live-SERP band" (was "~1,133 words"). It's a <b>guide, not a
+    floor</b>: cover the topic fully; don't pad to hit it.</p>
+
     <p>The cover sheet (<span class="file">bundle-&lt;slug&gt;.md</span>) opens with the topic's title, its picked
     <b>reader persona</b> (reused from the blueprint, where it was decided once) and its <b>author byline</b> (picked
-    here), then lays out ten numbered divisions — Division 1 is the plan (WHAT to write), 2–10 are the HOW:</p>
+    here), the target length above, plus any <b>cannibalisation warning</b> and, for an "Improve existing" idea, the
+    exact page to upgrade. Then it lays out ten numbered divisions — Division 1 is the plan (WHAT to write), 2–10 are
+    the HOW:</p>
     <table>
       <tr><th style="width:8%">#</th><th>Division</th><th>What it gives the writer</th></tr>
       <tr><td class="n">1</td><td><b>The plan</b> (copied)</td><td>the blueprint — headings · per-H2 keywords · evidence · links · FAQ · write-guidance</td></tr>
@@ -450,35 +674,76 @@
   </div>
 </section>
 
-<!-- OUTPUT / WHERE IT SITS -->
-<section id="output" style="background:var(--cream);">
+<!-- OUTPUT / SPOKES / WHERE IT SITS -->
+<section id="output">
   <div class="wrap">
-    <h2><span class="num">08</span>Spokes, and where the conductor sits</h2>
-    <p class="sub">One run does one topic — but the queue turns that into a self-refilling loop that eventually clears
-    a whole cluster.</p>
+    <h2><span class="num">09</span>Spokes — from bare keyword to vetted idea, and where it all sits</h2>
+    <p class="sub">One run does one topic — but when a hub finishes, it grows the queue with its follow-up topics. The
+    catch: DataForSEO hands back spoke candidates as <b>bare keywords</b>, and a bare keyword isn't a real idea. So
+    Step 6 turns each one into a proper, reuse-checked idea before it enters the pipeline.</p>
+
+    <h3>The three moves per spoke keyword</h3>
+    <div class="subflow">
+      <div class="schip"><span class="n">1</span> Mint</div>
+      <span class="arrow">→</span>
+      <div class="schip"><span class="n">2</span> Reuse-check</div>
+      <span class="arrow">→</span>
+      <div class="schip"><span class="n">3</span> Re-angle if duplicate</div>
+    </div>
+    <ul>
+      <li><b>Mint</b> (<span class="file">spoke_idea.mint</span>) — the LLM writes a real <b>title + angle</b> from the
+        bare keyword, its pillar hub, and the brand.</li>
+      <li><b>Reuse-check</b> (<span class="file">reuse_one.check</span>) — a <i>proper</i> semantic check, not a
+        string match. It vectorises the idea with <b>Voyage embeddings</b> (voyage-4-large), finds the 40 nearest
+        existing pages from the content-index, reranks them (rerank-2.5), keeps the top 6, and hands them to the same
+        reuse-judge the asset engine uses. Out comes a real verdict: <span class="t-tag">Already have it</span> ·
+        <span class="t-tag">Improve existing</span> · <span class="t-tag">Build from parts</span> ·
+        <span class="t-tag">Brand new</span>.</li>
+      <li><b>Re-angle if duplicate</b> — only <span class="t-tag">Already have it</span> triggers a redo: the loop
+        re-mints a sharper, genuinely different angle, up to <b>3 tries</b>. The other three verdicts all proceed.</li>
+    </ul>
+
+    <div class="note"><span class="tag">Needs Voyage — but never at the hub's expense</span><br>
+    Minting + the reuse check need a <span class="file">VOYAGE_API_KEY</span> (a paid embedding call). This whole
+    Step 6 spoke enqueue runs <b>after</b> the hub is already marked done, wrapped in try/except — so if Voyage is
+    absent or errors, the hub still finishes cleanly and the spokes are simply skipped, not lost work.</div>
+
+    <h3>Worked example — real run (Sonnet 5)</h3>
+    <div class="cardbox">
+      <div class="field"><div class="fk">bare keyword</div><div class="fv">"how much do recruiters make per hire"
+        <span class="muted">— DataForSEO spoke candidate under the hub</span></div></div>
+      <div class="field"><div class="fk">minted title</div><div class="fv"><b>"How Much Recruiters Actually Make Per
+        Hire: Commission Rates by Recruiter Type"</b></div></div>
+      <div class="field"><div class="fk">reuse verdict</div><div class="fv"><span class="v covered">Build from parts</span>
+        <span class="muted">— related pages exist, but not this exact angle → proceed as a real spoke</span></div></div>
+      <div class="field"><div class="fk">queued as</div><div class="fv"><span class="file">spoke-1-how-much-do-recruiters-make</span>,
+        source <span class="t-tag">spoke-of:the-real-cost-recruitment-2026</span>, right after the hub</div></div>
+    </div>
+    <p class="muted" style="font-size:14px;">A sibling spoke, "cost per hire calculator", minted to
+    "How to Calculate Your True Cost Per Hire, Not the Industry Average" and came back
+    <span class="v partial">Improve existing</span> — so the bundle later tells the writer to upgrade the existing page
+    rather than start fresh.</p>
+
+    <h3>Spokes make it recurring — but bounded, and nested</h3>
+    <ul>
+      <li><b>Ranked, top 3 only.</b> DataForSEO scores every spoke candidate
+        (<span class="file">0.5·relevance + 0.25·volume + 0.25·ease</span>) and the conductor keeps only the top
+        <b>3</b> (<span class="file">MAX_SPOKES</span>).</li>
+      <li><b>One level only.</b> A spoke never spawns its own spokes. Without this, each spoke would generate 3 more
+        (<span class="file">3 + 9 + 27…</span>) with no bound — so each hub yields at most 3 spokes, full stop.</li>
+      <li><b>Nested under the pillar everywhere.</b> A spoke's output sits under its hub in <i>every</i> engine
+        directory — <span class="file">dataforseo/</span> · <span class="file">gap-check/</span> ·
+        <span class="file">storm/</span> · <span class="file">research-structure/</span> ·
+        <span class="file">research-bundle/</span> — via the <span class="file">--hub</span> arg the conductor
+        computes once from the spoke's <span class="file">spoke-of:</span> source. Hubs stay flat.</li>
+    </ul>
 
     <div class="stats">
       <div class="stat"><div class="big">1</div><div class="cap">topic per run — lean + crash-safe</div></div>
       <div class="stat"><div class="big">4</div><div class="cap">engines chained, one slug</div></div>
       <div class="stat"><div class="big">0</div><div class="cap">triggers — a cron just re-fires it</div></div>
-      <div class="stat"><div class="big">≤3</div><div class="cap">spokes per hub, ranked — one level only</div></div>
+      <div class="stat"><div class="big">≤3</div><div class="cap">spokes per hub — minted, vetted, nested</div></div>
     </div>
-
-    <h3>Spokes make it recurring — but bounded</h3>
-    <p>When a hub finishes, its spoke candidates (their own future articles) are inserted <b>right after it</b> in the
-    queue. So the next few runs research those spokes before moving to a brand-new hub — the cluster is worked
-    <b>depth-first</b>, and one command fired on a schedule steadily clears the backlog.</p>
-    <p>But not <i>every</i> candidate, and not forever. Two limits keep it sane:</p>
-    <ul>
-      <li><b>Ranked, top 3 only.</b> DataForSEO scores every spoke candidate —
-        <span class="file">0.5·relevance + 0.25·volume + 0.25·ease</span> — and the conductor enqueues only the top
-        <b>3</b> (<span class="file">config.MAX_SPOKES</span>). There's also a <b>hard floor</b>: any candidate whose
-        cluster-relevance is <b>≤2</b> is dropped outright, so a huge but off-topic head like "benchmarking" (110k
-        volume) can never sneak in on volume alone.</li>
-      <li><b>One level only.</b> A spoke never spawns its own spokes. Without this, each spoke would generate 3 more —
-        <span class="file">3 + 9 + 27…</span> with no bound; capping breadth alone wouldn't fix it. So each hub
-        yields at most 3 spokes, full stop.</li>
-    </ul>
 
     <div class="note orange"><span class="tag">Where the conductor sits in the bigger machine</span><br>
     The conductor is the <b>top of the research phase</b> — the single entry point that drives all four engines and
@@ -487,15 +752,21 @@
     anything.</div>
 
     <div class="note"><span class="tag">Status — honest note</span><br>
-    The chain is <b>built</b> and each engine is proven on real topics; DataForSEO and STORM have been verified on
-    fresh runs. The last validations still in progress are one clean end-to-end pass (gap-check → blueprint → bundle)
-    and the spoke path run end-to-end — both wired, not yet fully exercised.</div>
+    The full chain has been run end-to-end on real topics on Sonnet 5, including the hard paths:
+    <ul>
+      <li>A hub article ran clean through all six steps to a bundle.</li>
+      <li>Two spokes ran end-to-end — minted, reuse-checked, nested under the pillar; gap-check's STORM re-run path
+        fired for the first time on a spoke that actually had gaps.</li>
+      <li>The no-keyword-demand skip and the cannibalisation flag both fired on real topics.</li>
+    </ul>
+    The rough edges surfaced by that first run (a stale STORM venv path, a spoke-vs-clubbed lookup, a Python 3.9
+    socket-timeout retry gap) are logged and fixed in <span class="file">run-hardening-log.md</span>.</div>
   </div>
 </section>
 
 <footer>
   <div class="wrap">Research conductor · Research-phase architecture overview · One command · one topic · four engines
-  threaded by one slug · a write-ready bundle out the end.</div>
+  threaded by one slug · flagged, bundled, and grown into vetted spokes.</div>
 </footer>
 
 </body>

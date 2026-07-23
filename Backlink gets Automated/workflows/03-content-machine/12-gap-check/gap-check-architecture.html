@@ -47,7 +47,9 @@
 
   .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
   .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .note.red{border-left-color:var(--red-ink); background:var(--red);}
   .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+  .tag.r{color:var(--red-ink);}
 
   /* step flow */
   .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
@@ -85,6 +87,7 @@
   tr:last-child td{border-bottom:none;}
   td .file{font-size:11.5px;}
   td b{color:var(--ink);}
+  td .n{font-family:ui-monospace,Menlo,monospace; font-weight:700; color:var(--orange);}
   .v{font-weight:700; font-size:12px; padding:2px 9px; border-radius:100px; white-space:nowrap;}
   .v.covered{color:var(--green-ink); background:var(--green); border:1px solid var(--green-line);}
   .v.partial{color:#a6791b; background:var(--yellow-soft); border:1px solid var(--yellow);}
@@ -185,8 +188,12 @@
     <div class="define"><b>Iteration</b> — a fresh, targeted STORM re-run saved as its own folder
       (<span class="file">iteration-1</span>, <span class="file">-2</span>…). It never overwrites the original dossier.</div>
     <div class="define"><b>Headless LLM (Claude or Codex)</b> — a coding assistant run from the command line so a
-      script can call it, no chat window, no API key. Either the <b>Claude</b> CLI (default) or the <b>Codex</b> CLI,
-      set by one <span class="file">--provider</span> switch. All the judging runs on it for free.</div>
+      script can call it, no chat window, no API key. All the judging runs on it for free. Two switches pick it:
+      <ul>
+        <li><span class="file">--provider</span> — <b>Claude</b> CLI (default) or <b>Codex</b> CLI.</li>
+        <li><span class="file">--model</span> — which model on that CLI (blank = the CLI's default).</li>
+      </ul>
+      Both thread through the whole run, including the STORM re-runs, so the gap-fill searches use the same brain.</div>
   </div>
 </section>
 
@@ -227,7 +234,8 @@
         <td><span class="file">config.py</span><br><span class="muted" style="font-size:12.5px;">settings + policy</span></td>
         <td>Settings in one place, plus the coverage-target policy.
           <ul>
-            <li>All paths (output folder, where STORM writes) computed from one anchor.</li>
+            <li>All paths computed from one anchor; output lands under <span class="file">projects/&lt;company&gt;/…</span>, never in the tool folder.</li>
+            <li><b>Company is one env switch</b> — a non-default company with no <span class="file">company.json</span> stops at the boundary.</li>
             <li>Holds the <b>policy</b>: which item types get judged and which are ignored (see §05).</li>
             <li>Holds the crash-safe save helpers.</li>
           </ul></td>
@@ -246,6 +254,8 @@
           <ul>
             <li>Runs Steps 0 → 4 in order and prints <span class="file">== Step N ==</span>.</li>
             <li><b>Resumable</b> — reuses a finished step; Step 3 even skips iterations already run, so a crash never re-fires a ~7-minute STORM run.</li>
+            <li>Takes an optional <span class="file">--hub</span>: a spoke's output nests under its pillar at <span class="file">out/&lt;hub&gt;/&lt;slug&gt;/</span> (empty <span class="file">--hub</span> → flat, so a hub article is unchanged).</li>
+            <li>Passes <span class="file">--provider</span> / <span class="file">--model</span> down to every step, re-runs included.</li>
           </ul></td>
       </tr>
       <tr>
@@ -262,7 +272,12 @@
       </tr>
       <tr>
         <td><span class="file">rerun_storm.py</span><br><span class="muted" style="font-size:12.5px;">Step 3</span></td>
-        <td>Fires STORM once per query into a new <span class="file">iteration-n/</span> folder; auto-starts STORM's bridge if it's down. Runs nothing if there are no queries.</td>
+        <td>The one outside reach — the gap-fill re-run.
+          <ul>
+            <li>Fires STORM once per query into a new <span class="file">iteration-n/</span> folder; auto-starts STORM's bridge if it's down.</li>
+            <li>Fires with <span class="file">check=True</span>, so a failed re-run <b>crashes loudly</b> — it can never be quietly recorded as "0 iterations" (see §07).</li>
+            <li>Runs nothing (and writes an empty manifest) only when triage produced no queries.</li>
+          </ul></td>
       </tr>
       <tr>
         <td><span class="file">report.py</span><br><span class="muted" style="font-size:12.5px;">Step 4</span></td>
@@ -378,31 +393,32 @@
         <b>verbatim sentence</b> from the dossier. No quote, no coverage.</p></div>
     </div>
 
-    <h3>What the verdicts look like <span class="muted" style="font-size:13px; font-weight:400;">(illustrative)</span></h3>
+    <h3>Real verdicts from one run <span class="muted" style="font-size:13px; font-weight:400;">(real — the "how much do recruiters make" spoke)</span></h3>
     <table>
       <tr><th>Verdict</th><th>Type</th><th>Item</th><th>Why</th><th>Proof quote from the dossier</th></tr>
       <tr>
         <td><span class="v covered">covered</span></td><td>secondary_kw</td>
-        <td>time to hire benchmark</td>
-        <td>Dossier gives industry figures with a source.</td>
-        <td class="muted">"Median time-to-hire sits around 44 days across industries…"</td>
+        <td>recruiter salary</td>
+        <td>Dedicated Base Salary Benchmarks section — sourced figures, ranges, city breakdowns.</td>
+        <td class="muted">"Glassdoor puts the average US base recruiter salary at $52,657 per year…"</td>
       </tr>
       <tr>
-        <td><span class="v partial">partial</span></td><td>winner_h2</td>
-        <td>how to calculate cost per hire</td>
-        <td>Formula is stated, but no worked example.</td>
-        <td class="muted">"Cost per hire equals total recruiting costs divided by the number of hires."</td>
+        <td><span class="v partial">partial</span></td><td>secondary_kw</td>
+        <td>how much does an it recruiter make</td>
+        <td>Only a single commission-rate range for IT roles — no base salary, dollar example, or seniority breakdown. Too thin for a full section.</td>
+        <td class="muted">"…tech and IT roles pay 15–33% commission based on volume or billings…"</td>
       </tr>
       <tr>
-        <td><span class="v no">no</span></td><td>gap_we_own</td>
-        <td>benchmarks by role and company size + a how-to-improve playbook</td>
-        <td>Only aggregate numbers; nothing segmented by role/size.</td>
+        <td><span class="v no">no</span></td><td>aio_subtopic</td>
+        <td>recruiter pay by type — salary+bonus vs base+commission vs pure commission, with dollar bands and top-paying industries</td>
+        <td>None of the specific figures are in the dossier — no $110k–$300k+ executive band, no compensation-model comparison table, no top-paying-industries breakdown.</td>
         <td class="muted">— (no dossier sentence supports it)</td>
       </tr>
     </table>
-    <div class="note orange"><span class="tag">Read the last row</span><br>
-    That <b>no</b> on our <b>gap_we_own</b> — our whole angle — is exactly the kind of miss the next step spends a
-    re-run on. A <b>partial</b> can be enough to leave alone; a <b>no</b> on the angle almost never is.</div>
+    <div class="note orange"><span class="tag">Read the last two rows</span><br>
+    The <b>partial</b> and the <b>no</b> are exactly the misses the next step spends re-runs on. A <b>partial</b> can
+    sometimes be left alone; a <b>no</b> on something the article's angle promises almost never is. In this run these
+    two (plus one more partial) became the <b>2 re-run queries</b> — see §07.</div>
   </div>
 </section>
 
@@ -432,6 +448,32 @@
         so the added evidence is additive and traceable.</p></div>
     </div>
 
+    <h3>Two real runs <span class="muted" style="font-size:13px; font-weight:400;">(real — the recruitment-cost topic)</span></h3>
+    <p>Both ends of the behaviour showed up in one topic, and the re-run path is now validated live:</p>
+    <table>
+      <tr><th>Run</th><th>Verdicts</th><th>Gaps → queries</th><th>Re-runs fired</th></tr>
+      <tr>
+        <td><b>The pillar article</b><br><span class="muted" style="font-size:12.5px;">"The Real Cost of Recruitment in 2026"</span></td>
+        <td><span class="v covered">21 covered</span> · 0 partial · 0 no <span class="muted">(21/21)</span></td>
+        <td>0 misses → <b>0 queries</b></td>
+        <td><span class="n">0</span> — a genuine no-gap result. Every "covered" carried a real evidence quote; triage wrote <span class="file">{"queries": []}</span> and Step 3 never touched STORM.</td>
+      </tr>
+      <tr>
+        <td><b>A spoke</b><br><span class="muted" style="font-size:12.5px;">"How Much Recruiters Actually Make Per Hire"</span></td>
+        <td><span class="v covered">25 covered</span> · <span class="v partial">2 partial</span> · <span class="v no">1 no</span></td>
+        <td>3 misses → <b>2 queries</b> (the 2 partials clustered into one)</td>
+        <td><span class="n">2</span> STORM iterations ran and rendered — the first live exercise of the re-run path.</td>
+      </tr>
+    </table>
+    <div class="note red"><span class="tag r">A "0" can't hide a failure</span><br>
+    The 0-re-run result above is <b>real</b>, not a masked crash. <span class="file">rerun_storm.py</span> fires STORM
+    with <span class="file">subprocess.run(…, check=True)</span>:
+    <ul>
+      <li>A re-run that <b>fails</b> raises and <b>crashes gap-check loudly</b> — it is never quietly logged as "0 iterations".</li>
+      <li>"0 iterations" happens in <b>exactly one</b> case: triage produced 0 queries, so Step 3 returns without ever calling STORM.</li>
+    </ul>
+    So "0 gaps, 0 re-runs" always means the dossier really covered everything — not that a search silently died.</div>
+
     <div class="note"><span class="tag">One round, then stop</span><br>
     After the re-runs there is <b>no second check</b> — gap-check does not loop. STORM's bridge is auto-started if it
     isn't running, each fresh run takes a few minutes, and the run is resumable so a completed iteration is never
@@ -454,7 +496,8 @@
 
     <div class="grid">
       <div class="card"><div class="ic">🧾</div><h3>The report</h3><p>The coverage table, the gaps found, the queries
-        fired and where each was saved, and a pointer to every proof file.</p>
+        fired and where each was saved, and a pointer to every proof file. A spoke's report nests under its pillar
+        (<span class="file">out/&lt;hub&gt;/&lt;slug&gt;/</span>); a hub article stays flat.</p>
         <span class="file">gap-check.md</span></div>
       <div class="card"><div class="ic">🗃️</div><h3>The gap-fill dossiers</h3><p>Each targeted re-run, saved as its own
         iteration folder beside the original STORM dossier — extra evidence, never a replacement.</p>

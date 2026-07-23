@@ -3,264 +3,468 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SEO / AEO / GEO — Per-Article Checklist</title>
+<title>SEO / AEO / GEO — the per-article checklist</title>
 <style>
-  :root{--ink:#1c1a17;--muted:#6b6459;--line:#efe7d8;--paper:#fff;--cream:#fffdf8;--wash:#fff8ec;--yellow:#ffb703;--yellow-soft:#ffe9ad;--orange:#fb7a00;--orange-soft:#ffd9b0;--green:#e8f5ec;--green-line:#cfe8d5;--green-ink:#2e7d43;--red:#fdf3f0;--red-line:#f6d9cf;--red-ink:#c2603a;--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);}
-  *{box-sizing:border-box;}html{scroll-behavior:smooth;}
-  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;line-height:1.62;font-size:16px;-webkit-font-smoothing:antialiased;}
-  .wrap{max-width:960px;margin:0 auto;padding:0 28px;}
-  header{background:linear-gradient(180deg,var(--wash),var(--paper));border-bottom:1px solid var(--line);padding:56px 0 38px;}
-  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--paper);border:1px solid var(--orange-soft);padding:4px 11px;border-radius:100px;margin-bottom:16px;}
-  h1{font-size:clamp(26px,5vw,42px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em;}
-  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%);padding:0 2px;}
-  .lede{font-size:18px;color:var(--muted);max-width:680px;margin:0;}
-  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
-  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;padding:9px 0;}
-  nav a{font-size:12.5px;font-weight:600;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:100px;}
-  nav a:hover{color:var(--ink);background:var(--wash);}
-  section{padding:48px 0;border-bottom:1px solid var(--line);}
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:760px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
   section:last-of-type{border-bottom:none;}
   section.alt{background:var(--cream);}
-  h2{font-size:24px;letter-spacing:-.01em;margin:0 0 4px;}
-  h2 .num{color:var(--orange);margin-right:9px;}
-  .sub{color:var(--muted);margin:0 0 20px;font-size:16px;max-width:700px;}
-  h3{font-size:15.5px;margin:22px 0 6px;font-weight:700;}
-  p{margin:0 0 10px;}
-  ul{margin:5px 0 12px;padding-left:20px;}
-  li{margin:5px 0;font-size:15px;color:var(--muted);}
-  li b{color:var(--ink);}
-  .note{border-radius:11px;padding:13px 16px;margin:12px 0;font-size:14.5px;border:1px solid;}
-  .note.yellow{background:var(--cream);border-color:var(--line);border-left:4px solid var(--yellow);}
-  .note.red{background:var(--red);border-color:var(--red-line);border-left:4px solid var(--red-ink);}
-  .note strong{display:block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;}
-  .note.yellow strong{color:var(--orange);}
-  .note.red strong{color:var(--red-ink);}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:760px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .note.red{border-left-color:var(--red-ink); background:var(--red);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); display:block; margin-bottom:4px;}
+  .tag.r{color:var(--red-ink);}
+
+  .pill{display:inline-block; font-size:11px; font-weight:700; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:1px 8px; border-radius:100px; margin-left:6px; letter-spacing:.03em; text-transform:uppercase; vertical-align:middle;}
+  .pill.soft{color:var(--muted); background:var(--cream); border-color:var(--line);}
+  .pill.research{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .pill.p0{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.bonus{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+
+  /* cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card .ic{font-size:22px; margin-bottom:6px;}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td b{color:var(--ink);}
+  td .n{font-family:ui-monospace,Menlo,monospace; font-weight:700; color:var(--orange);}
+  .good{color:var(--green-ink); font-weight:700;}
+  .bad{color:var(--red-ink); font-weight:700;}
+
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:14px 0; font-size:15px;}
+  .define b{color:var(--orange);}
+
   /* checklist group */
-  .cl-group{background:var(--paper);border:1px solid var(--line);border-radius:13px;box-shadow:var(--shadow);margin:14px 0;overflow:hidden;}
-  .cl-head{background:var(--wash);padding:11px 18px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);border-bottom:1px solid var(--orange-soft);}
-  .cl-item{padding:12px 18px;border-bottom:1px solid var(--line);font-size:14.5px;}
+  .cl-group{background:var(--paper); border:1px solid var(--line); border-radius:13px; box-shadow:var(--shadow); margin:18px 0; overflow:hidden;}
+  .cl-head{background:var(--wash); padding:11px 18px; font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--orange); border-bottom:1px solid var(--orange-soft); display:flex; justify-content:space-between; align-items:center;}
+  .cl-head .cnt{font-size:11px; color:var(--muted); letter-spacing:.02em;}
+  .cl-item{padding:13px 18px; border-bottom:1px solid var(--line); font-size:15px;}
   .cl-item:last-child{border-bottom:none;}
-  .cl-item .rule{font-weight:600;color:var(--ink);margin-bottom:3px;}
-  .cl-item .why{color:var(--muted);font-size:13.5px;}
-  .cl-item.soft .rule{color:var(--muted);}
-  footer{padding:32px 0 52px;color:var(--muted);font-size:13px;}
+  .cl-item .rule{font-weight:600; color:var(--ink);}
+  .cl-item ul{margin:8px 0 2px; color:var(--muted); font-size:14px;}
+  .cl-item.soft .rule{color:var(--muted); font-weight:600;}
+
+  /* before / after */
+  .ba{display:grid; grid-template-columns:1fr auto 1fr; gap:14px; align-items:stretch; margin:20px 0;}
+  .ba .box{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:16px 18px; box-shadow:var(--shadow); font-size:14.5px;}
+  .ba .box .lbl{font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; margin-bottom:8px; display:block;}
+  .ba .box.before .lbl{color:var(--red-ink);}
+  .ba .box.after{border-color:var(--green-line); background:var(--green);}
+  .ba .box.after .lbl{color:var(--green-ink);}
+  .ba .arr{align-self:center; font-size:22px; color:var(--orange); font-weight:800;}
+
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  .formula{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:14.5px; background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:16px 18px; margin:16px 0; box-shadow:var(--shadow); overflow-x:auto; white-space:nowrap;}
+  .formula b{color:var(--orange);}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .grid,.grid.three{grid-template-columns:1fr;} .ba{grid-template-columns:1fr;} .ba .arr{transform:rotate(90deg);} .formula{white-space:normal;} }
 </style>
 </head>
 <body>
 <header><div class="wrap">
-  <span class="kicker">Content Machine · Stage 0 — Brand Context</span>
+  <span class="kicker">Content Machine · Reference Standard</span>
   <h1>SEO / AEO / GEO — <span class="hl">the per-article checklist</span></h1>
-  <p class="lede">The gate every article passes before it publishes. SEO = ranking on Google. AEO = getting cited in AI answer boxes. GEO = getting cited by AI assistants like ChatGPT. Most items overlap — write well for one and you cover all three.</p>
+  <p class="lede">The single gate every article passes before it publishes. It is not a scripted engine — it is the standard the writer verifies each draft against. Research hands the writer a keyword-set and a brief; the writer drafts to this checklist and ticks every box; the article ships only when it scores 80+ with no hard failures. This page explains each rule, the three engines it serves, and the worked examples behind the tricky lines.</p>
 </div></header>
 
 <nav><div class="wrap">
-  <a href="#content">Content</a>
-  <a href="#structure">Structure</a>
-  <a href="#keywords">Keywords</a>
-  <a href="#links">Links</a>
-  <a href="#aeo">AEO / GEO</a>
-  <a href="#sources">Sources</a>
-  <a href="#eeat">E-E-A-T</a>
-  <a href="#meta">Meta</a>
-  <a href="#readability">Readability</a>
-  <a href="#voice">Voice</a>
-  <a href="#ship">Ship</a>
+  <a href="#idea">The one idea</a>
+  <a href="#words">The words</a>
+  <a href="#engines">Three engines</a>
+  <a href="#core-a">Content · Structure · Keywords</a>
+  <a href="#core-b">Links · AEO/GEO · Sources</a>
+  <a href="#core-c">E-E-A-T · Meta · Craft</a>
+  <a href="#examples">Worked examples</a>
+  <a href="#ship">Score &amp; ship</a>
 </div></nav>
 
-<section id="content">
+<!-- ================= 01 THE ONE IDEA ================= -->
+<section id="idea">
   <div class="wrap">
-    <h2><span class="num">01</span>Content</h2>
-    <div class="cl-group">
-      <div class="cl-head">Content</div>
-      <div class="cl-item">
-        <div class="rule">Length matches the natural range for the format — no padding to a word count target</div>
-        </div>
-      <div class="cl-item">
-        <div class="rule">Primary keyword identified · 3–5 secondary + semantic terms chosen</div>
-        </div>
-      <div class="cl-item">
-        <div class="rule">Unique value vs competitors · factually accurate + current · no thin content · duplicates canonicalised</div>
-        </div>
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">One article, written once, has to win in three places at once: the blue links, the answer box, and the AI chat reply. The good news is they mostly reward the same thing — a genuinely helpful, well-structured, well-sourced page. Write well for one and you largely cover all three.</p>
+
+    <div class="grid three">
+      <div class="card">
+        <div class="ic">🔎</div>
+        <h3>SEO</h3>
+        <p>Search Engine Optimisation — rank in Google's list of blue links. Won with backlinks, trust signals (E-E-A-T), fast pages, and depth on the topic.</p>
+      </div>
+      <div class="card">
+        <div class="ic">📦</div>
+        <h3>AEO</h3>
+        <p>Answer Engine Optimisation — be the boxed answer at the top of Google (the featured snippet) and the spoken voice answer. Won with one clean, liftable 40–60 word answer per question.</p>
+      </div>
+      <div class="card">
+        <div class="ic">🤖</div>
+        <h3>GEO</h3>
+        <p>Generative Engine Optimisation — get quoted and cited by ChatGPT, Perplexity, Gemini and Claude when they write an answer. Won with in-body stats, quotes, and outbound citations to named primary sources.</p>
+      </div>
+    </div>
+
+    <div class="note orange">
+      <span class="tag">The one rule that governs everything</span>
+      <b>SEO serves the reader, never the algorithm.</b> The best SEO is content that is genuinely the most helpful page on the topic. Every rule below is a way of making a genuinely helpful page legible to a machine — not a trick that games one. An article publishes only when it clears the gate: <b>Overall score ≥ 80 and zero P0 (hard-fail) checks</b>.
     </div>
   </div>
 </section>
 
-<section id="structure" class="alt">
+<!-- ================= 02 THE WORDS ================= -->
+<section id="words" class="alt">
   <div class="wrap">
-    <h2><span class="num">02</span>Structure</h2>
-    <div class="cl-group">
-      <div class="cl-head">Structure</div>
-      <div class="cl-item">
-        <div class="rule">One H1, ≤60 characters, with primary keyword near the start and benefit-focused</div>
-        </div>
-      <div class="cl-item">
-        <div class="rule">4–7 H2s (≥2 with keyword variations, ≥50% as questions) · H1 → H2 → H3 hierarchy only</div>
-        </div>
-      <div class="cl-item">
-        <div class="rule">Answer the main question in the first 100 words · include a TL;DR summary block above the fold</div>
-        </div>
-      <div class="cl-item">
-        <div class="rule">40–60 word self-contained answer under each question H2 · FAQ with 5 Q&As · close with forward CTA, not recap</div>
-        </div>
-      <div class="cl-item">
-        <div class="rule">No horizontal dividers in the body — use heading structure to separate sections</div>
-        </div>
-      <div class="cl-item soft">
-        <div class="rule">Soft check — include a data/comparison table if the topic naturally fits one</div>
-        </div>
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">The jargon the checklist leans on, defined once in plain language. Everything after this reuses these exact terms.</p>
+
+    <div class="define"><b>SERP</b> — Search Engine Results Page. The page of results Google returns for a query, including the blue links plus the boxed features around them.</div>
+    <div class="define"><b>Featured snippet</b> — the boxed answer Google lifts to the very top of the SERP (often called "position zero"). It is pulled verbatim from a page, so the goal is to write a passage clean enough to be lifted whole.</div>
+    <div class="define"><b>PAA (People Also Ask)</b> — the expandable list of related questions on the SERP. These are harvested during research and become the article's FAQ and section-lead answers.</div>
+    <div class="define"><b>Liftable answer</b> — a 40–60 word, self-contained answer placed immediately under a heading, written so an answer engine or AI can quote it out of context and it still makes sense. The core AEO move.</div>
+    <div class="define"><b>TL;DR / Key Takeaways</b> — a 4–6 bullet summary placed above the fold, right after the intro. A reader who reads only the TL;DR should grasp the argument. It is a summary, not a stat dump.</div>
+    <div class="define"><b>E-E-A-T</b> — Experience, Expertise, Authoritativeness, Trustworthiness. Google's quality signals: the markers that show a real, credentialed person who knows the topic wrote the page.</div>
+    <div class="define"><b>Canonicalise</b> — when two pages overlap, point the duplicate at one master URL so they stop competing with each other in search.</div>
+    <div class="define"><b>rel policy</b> — the link attribute that tells engines how to treat an outbound link: internal links = <b>dofollow</b> (pass authority), editorial citations = <b>nofollow noopener</b>, paid/partner = <b>sponsored</b>, user-generated = <b>nofollow</b>. Never ship a paid link as dofollow.</div>
+    <div class="define"><b>Reverse-silo</b> — an internal link that points from a blog post <em>up</em> to a product or feature page, so topical articles funnel authority (and readers) toward what the company sells.</div>
+    <div class="define"><b>P0</b> — a hard-fail check. If a P0 fails, the article is blocked from publishing regardless of how high it scores. The non-negotiable list is in §08.</div>
+  </div>
+</section>
+
+<!-- ================= 03 THREE ENGINES + LEVERS ================= -->
+<section id="engines">
+  <div class="wrap">
+    <h2><span class="num">03</span>The three engines &amp; the five levers</h2>
+    <p class="sub">Why the checklist looks the way it does. SEO, AEO and GEO are three different machines reading the same page for different things. The five levers are where effort compounds — spend it top-down, lever 1 first and densely.</p>
+
+    <h3>The three engines, side by side</h3>
+    <table>
+      <thead><tr><th>Attribute</th><th>SEO</th><th>AEO</th><th>GEO</th></tr></thead>
+      <tbody>
+        <tr><td><b>Engine</b></td><td>Google / Bing crawlers</td><td>Answer engines, AI Overviews, voice</td><td>Generative AI (ChatGPT, Claude, Gemini, Perplexity)</td></tr>
+        <tr><td><b>Intent</b></td><td>Navigational / informational / transactional</td><td>Quick, conversational, voice-first</td><td>Deep synthesis, multi-step reasoning</td></tr>
+        <tr><td><b>Output</b></td><td>Ranked links</td><td>Featured snippet / spoken answer</td><td>Generated prose citing sources</td></tr>
+        <tr><td><b>Primary signal</b></td><td>Backlinks, E-E-A-T, Core Web Vitals</td><td>Concise structured answers</td><td>In-body stats + quotes + outbound citations to named primaries</td></tr>
+        <tr><td><b>Win condition</b></td><td>Drive organic traffic</td><td>Be the lifted answer</td><td>Get quoted / cited in AI output</td></tr>
+      </tbody>
+    </table>
+
+    <h3>The five levers that compound</h3>
+    <table>
+      <thead><tr><th>#</th><th>Lever</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td><span class="n">1</span></td><td><b>Inline stats + direct quotes + outbound citations to named primary sources</b></td><td>The strongest causal lift on AI citation. The Princeton GEO study found each of these adds roughly +30–40% citation likelihood.</td></tr>
+        <tr><td><span class="n">2</span></td><td><b>E-E-A-T on the page</b></td><td>Google's trust gate, and AI weighs source authority. The author box is rendered natively by the theme from the author field — never written into the body.</td></tr>
+        <tr><td><span class="n">3</span></td><td><b>Direct 40–60 word answers under question H2s</b></td><td>What makes a section eligible for the featured snippet and the AI Overview. One clean liftable answer per section.</td></tr>
+        <tr><td><span class="n">4</span></td><td><b>Topical authority</b></td><td>3+ internal links to related posts, varied anchors (under 30% exact-match), and semantic coverage of the whole topic — not just the exact keyword.</td></tr>
+        <tr><td><span class="n">5</span></td><td><b>Freshness + substantive change</b></td><td><span class="file" style="font-family:ui-monospace,Menlo,monospace;font-size:12px;background:#fff;border:1px solid var(--orange-soft);border-radius:6px;padding:1px 6px;">dateModified</span> current, current-year framing where natural, post-2022 sources. It must be a real update, not a date bump.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="note">
+      <span class="tag">Don't rely on these to rank</span>
+      Some things give little-to-no independent ranking lift. We still build the harmless ones — they cost almost nothing and aid parsing/UX — we just don't count on them:
+      <ul>
+        <li><b>FAQ / HowTo / Speakable schema:</b> no rich result for general sites since Aug 2023. Build it anyway; expect no ranking lift.</li>
+        <li><b>Schema for AI citations:</b> roughly zero independent lift. Citations come from in-body stats/quotes/sources (lever 1), not markup.</li>
+        <li><b>Keyword stuffing, exact-match anchor spam, density-% targets:</b> actively penalised — genuinely avoid.</li>
+        <li><b>"Longer ranks higher":</b> false. Hit the target band for the type; density beats volume.</li>
+      </ul>
     </div>
   </div>
 </section>
 
-<section id="keywords">
+<!-- ================= 04 CHECKLIST A ================= -->
+<section id="core-a" class="alt">
   <div class="wrap">
-    <h2><span class="num">03</span>Keywords</h2>
-    <p class="sub">Keywords come from the research keyword-set (primary · variations · secondaries · in-body) handed down by the research phase.</p>
+    <h2><span class="num">04</span>The checklist — Content · Structure · Keywords</h2>
+    <p class="sub">The gate itself. Each box below traces to a spec in the full standard (<span class="file" style="font-family:ui-monospace,Menlo,monospace;font-size:12px;background:#fff;border:1px solid var(--orange-soft);border-radius:6px;padding:1px 6px;">seo-aeo-geo-guidelines.md</span>). Most are write-phase ticks; a few marked <span class="pill research">from research</span> arrive ready from the keyword-set and the SERP brief.</p>
+
     <div class="cl-group">
-      <div class="cl-head">Keywords</div>
+      <div class="cl-head"><span>Content</span><span class="cnt">3 checks</span></div>
+      <div class="cl-item"><div class="rule">Length is within the target band for the type — not padded to hit a count</div></div>
+      <div class="cl-item"><div class="rule">Primary keyword identified · 3–5 secondary + semantic terms chosen <span class="pill research">from research</span></div></div>
       <div class="cl-item">
-        <div class="rule">Primary keyword in H1 + first 100 words + 2–3 H2s + conclusion · secondaries used where mapped</div>
-        </div>
+        <div class="rule">Genuinely worth publishing:</div>
+        <ul>
+          <li>unique value versus the competing pages</li>
+          <li>factually accurate and current</li>
+          <li>no scaled / thin / templated content</li>
+          <li>any duplicate content canonicalised</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cl-group">
+      <div class="cl-head"><span>Structure</span><span class="cnt">6 checks</span></div>
+      <div class="cl-item"><div class="rule">One H1 with the primary keyword near the start (≤60 chars, benefit-focused)</div></div>
       <div class="cl-item">
-        <div class="rule">All variations woven in naturally · no stuffing · no density-% target</div>
-        </div>
+        <div class="rule">Section count matches the article's FORMAT skeleton — <b>not</b> a fixed number:</div>
+        <ul>
+          <li>a guide / definitional piece ≈ 4–7 H2s</li>
+          <li>a listicle = its N items</li>
+          <li>a report = its 8–15 findings</li>
+          <li>a comparison = its options + a table</li>
+          <li>every section earns its place — none is padding to hit the word band</li>
+          <li>2–3 sections carry a keyword variation</li>
+          <li><b>for question-led formats:</b> ≥50% of H2s are phrased as questions</li>
+          <li>H1 &gt; H2 &gt; H3 hierarchy only (never skip H2 → H4)</li>
+        </ul>
+      </div>
+      <div class="cl-item"><div class="rule">Answer-first intro with the primary keyword in the first 100 words · TL;DR block above the fold</div></div>
+      <div class="cl-item"><div class="rule">40–60 word liftable answer under each question H2 · FAQ = 5 Q&amp;As · close is a forward CTA, not a recap</div></div>
+      <div class="cl-item"><div class="rule">No horizontal dividers in the body — separate sections with headings, spacing and lists only</div></div>
+      <div class="cl-item soft"><div class="rule">Soft — a data / comparison table where the topic warrants one <span class="pill soft">not compulsory</span></div></div>
+    </div>
+
+    <div class="cl-group">
+      <div class="cl-head"><span>Keywords <span style="text-transform:none;font-weight:600;color:var(--muted);letter-spacing:0;">— verify against the research keyword-set</span></span><span class="cnt">2 checks</span></div>
+      <div class="cl-item"><div class="rule">Primary keyword in the H1 + first 100 words + 2–3 H2s + conclusion · secondaries used where mapped</div></div>
+      <div class="cl-item"><div class="rule">All variations woven in naturally · no stuffing · no density-% target</div></div>
     </div>
   </div>
 </section>
 
-<section id="links" class="alt">
+<!-- ================= 05 CHECKLIST B ================= -->
+<section id="core-b">
   <div class="wrap">
-    <h2><span class="num">04</span>Links</h2>
+    <h2><span class="num">05</span>The checklist — Links · AEO/GEO · Sources</h2>
+    <p class="sub">The links, the answer-engine mechanics, and the integrity of every claim. This is where the GEO lift and the hard-fail checks live.</p>
+
     <div class="cl-group">
-      <div class="cl-head">Links</div>
+      <div class="cl-head"><span>Links</span><span class="cnt">4 checks</span></div>
       <div class="cl-item">
-        <div class="rule">≥3 internal links · varied descriptive anchors · less than 30% exact-match · never "click here" · max 2 per paragraph</div>
-        </div>
+        <div class="rule">≥3 internal links, well-anchored:</div>
+        <ul>
+          <li>varied, descriptive anchor text (under 30% exact-match)</li>
+          <li>never "click here" / "read more"</li>
+          <li>≤2 links per paragraph, distributed not clustered</li>
+        </ul>
+      </div>
+      <div class="cl-item"><div class="rule">One internal link to a product / feature page where natural (reverse-silo)</div></div>
+      <div class="cl-item"><div class="rule">≥2 external links to credible primary sources · rel policy applied (internal dofollow · citation nofollow · paid sponsored)</div></div>
+      <div class="cl-item"><div class="rule">No competitor cited <span class="pill research">auto-enforced upstream</span> · every link returns 200</div></div>
+    </div>
+
+    <div class="cl-group">
+      <div class="cl-head"><span>AEO / GEO</span><span class="cnt">3 checks</span></div>
+      <div class="cl-item"><div class="rule">Direct 40–60 word answer under question H2s · <b>for question-led formats</b> ≥50% of H2s are questions · 4+ inline citations</div></div>
       <div class="cl-item">
-        <div class="rule">One internal link to a product/feature page where it fits naturally</div>
-        </div>
+        <div class="rule">Built to be quoted by AI:</div>
+        <ul>
+          <li>quotable, self-contained sentences (precise numbers, dates, entities)</li>
+          <li>one idea per section</li>
+          <li>≥1 embedded video where it adds context</li>
+        </ul>
+      </div>
+      <div class="cl-item soft"><div class="rule">≥1 original / proprietary stat <span class="pill bonus">bonus, not a gate</span></div></div>
+    </div>
+
+    <div class="cl-group">
+      <div class="cl-head"><span>Sources &amp; claims integrity</span><span class="cnt">4 checks</span></div>
       <div class="cl-item">
-        <div class="rule">≥2 external links to credible primary sources (internal: dofollow · citations: nofollow · sponsored: marked)</div>
-        </div>
-      <div class="cl-item">
-        <div class="rule">No competitor cited · every link returns 200</div>
-        </div>
+        <div class="rule">Every stat traces to its exact source: <span class="pill p0">P0</span></div>
+        <ul>
+          <li>links to the specific report/page, not a category hub</li>
+          <li>the URL returns 200</li>
+          <li>the year matches</li>
+          <li>verified on the page, never from memory</li>
+        </ul>
+      </div>
+      <div class="cl-item"><div class="rule">2–3+ distinct source domains · ≤2 citations per domain · cite-don't-promote</div></div>
+      <div class="cl-item"><div class="rule">Cite the most credible + freshest source available (model-decided; no fixed whitelist)</div></div>
+      <div class="cl-item"><div class="rule">Self-consistency: every number reconciles (no impossible math)</div></div>
     </div>
   </div>
 </section>
 
-<section id="aeo">
+<!-- ================= 06 CHECKLIST C ================= -->
+<section id="core-c" class="alt">
   <div class="wrap">
-    <h2><span class="num">05</span>AEO / GEO</h2>
-    <p class="sub">AEO = Answer Engine Optimisation (getting into AI answer boxes on Google). GEO = Generative Engine Optimisation (getting cited by ChatGPT, Perplexity, Claude). Both reward the same thing: self-contained, precise, citable content.</p>
+    <h2><span class="num">06</span>The checklist — E-E-A-T · Meta · Readability · Voice</h2>
+    <p class="sub">The trust signals, the search-result snippet, on-page craft, and staying honest in the brand's voice.</p>
+
     <div class="cl-group">
-      <div class="cl-head">AEO / GEO</div>
+      <div class="cl-head"><span>E-E-A-T</span><span class="cnt">2 checks</span></div>
+      <div class="cl-item"><div class="rule">Theme-native author box (named author + credentials), never written into the body · datePublished + dateModified visible</div></div>
+      <div class="cl-item"><div class="rule">First-hand markers in the body · citation integrity verified <span class="pill p0">P0</span></div></div>
+    </div>
+
+    <div class="cl-group">
+      <div class="cl-head"><span>Meta</span><span class="cnt">1 check</span></div>
       <div class="cl-item">
-        <div class="rule">Direct 40–60 word answer under each question H2 · at least 50% of H2s are questions · 4+ inline citations</div>
-        </div>
+        <div class="rule">Meta fields set, unique, and intent-matched:</div>
+        <ul>
+          <li>title 50–60 chars, with the keyword</li>
+          <li>description 140–160 chars, with keyword + value + CTA</li>
+          <li>slug contains the keyword</li>
+          <li>all unique across the site and matched to search intent</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cl-group">
+      <div class="cl-head"><span>Readability / Images</span><span class="cnt">2 checks</span></div>
+      <div class="cl-item"><div class="rule">15–20 word sentences · 2–4 sentence paragraphs · 80%+ active voice · a subheading every ~350 words</div></div>
+      <div class="cl-item"><div class="rule">Images relevant + compressed · keyword-aware alt text (≤125 chars) + descriptive filenames</div></div>
+    </div>
+
+    <div class="cl-group">
+      <div class="cl-head"><span>Voice &amp; authority</span><span class="cnt">2 checks</span></div>
+      <div class="cl-item"><div class="rule">Brand voice maintained (brand-voice.md) · written in the chosen persona's lens</div></div>
       <div class="cl-item">
-        <div class="rule">Quotable self-contained sentences · precise numbers/dates/entities · one idea per section · ≥1 embedded video where it adds context</div>
-        </div>
-      <div class="cl-item soft">
-        <div class="rule">Bonus (not a gate) — at least one original or proprietary stat</div>
-        </div>
+        <div class="rule">Authority honesty:</div>
+        <ul>
+          <li>position the product only where it genuinely wins</li>
+          <li>differentiate via a real POV or an illustrative use-case</li>
+          <li>no fake customer, quote, or metric <span class="pill p0">P0</span></li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="sources" class="alt">
+<!-- ================= 07 WORKED EXAMPLES ================= -->
+<section id="examples">
   <div class="wrap">
-    <h2><span class="num">06</span>Sources &amp; Claims Integrity</h2>
-    <div class="cl-group">
-      <div class="cl-head">Sources &amp; Claims</div>
-      <div class="cl-item">
-        <div class="rule">Every stat → its exact source URL · URL returns 200 · year matches · verified on the page (not from memory)</div>
-        </div>
-      <div class="cl-item">
-        <div class="rule">2–3+ distinct source domains · max 2 citations per domain · cite-don't-promote</div>
-        </div>
-      <div class="cl-item">
-        <div class="rule">Cite the most credible and most recent source available</div>
-        </div>
-      <div class="cl-item">
-        <div class="rule">Self-consistency: every number reconciles</div>
-        </div>
+    <h2><span class="num">07</span>Worked examples</h2>
+    <p class="sub">The tricky lines are easier to tick with a concrete example beside them. Examples use the native <b>Testlify</b> domain (skills assessments &amp; AI interviews) — swap the topic for your company's.</p>
+
+    <h3>Meta title — 50–60 chars, with the keyword</h3>
+    <table>
+      <thead><tr><th style="width:90px;">Verdict</th><th>Title</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td><span class="good">Good</span></td><td>How to Run Skills Assessments in 2026: Complete Guide</td><td>Keyword up front, benefit clear, current-year framing, fits the display band.</td></tr>
+        <tr><td><span class="good">Good</span></td><td>12 Proven Pre-Hire Testing Strategies | Testlify</td><td>Number + benefit + brand, still under 60 chars.</td></tr>
+        <tr><td><span class="bad">Avoid</span></td><td>Hiring Tips and Tricks</td><td>Vague, no keyword, no benefit.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Meta description — 140–160 chars, keyword + value + CTA</h3>
+    <table>
+      <thead><tr><th style="width:90px;">Verdict</th><th>Description</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td><span class="good">Good</span></td><td>Cut time-to-hire with role-based skills assessments. See how Testlify scores candidates objectively and reduces mis-hires. Book a demo.</td><td>Leads with keyword + a concrete value term (time-to-hire), ends on a CTA verb.</td></tr>
+        <tr><td><span class="bad">Avoid</span></td><td>This post discusses hiring and assessments.</td><td>No keyword, no value, no CTA — a wasted snippet.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Keyword placement — natural, not stuffed</h3>
+    <div class="ba">
+      <div class="box before">
+        <span class="lbl">Stuffed — penalised</span>
+        "Skills testing is important. Skills testing helps teams. Our skills testing platform offers skills testing for skills testing needs."
+      </div>
+      <div class="arr">→</div>
+      <div class="box after">
+        <span class="lbl">Natural — semantic coverage</span>
+        Write for humans first: use variations and related terms (candidate screening, role-based evaluations, pre-hire testing) so the topic is covered without robotic repetition. There is no density target.
+      </div>
+    </div>
+
+    <h3>The liftable answer — what a 40–60 word answer looks like</h3>
+    <div class="note">
+      <span class="tag">Under a question H2</span>
+      <b>H2: What is a skills assessment?</b><br>
+      A skills assessment is a structured test that measures a candidate's ability to do specific job tasks, rather than what their résumé claims. It scores real work — coding, writing, reasoning, or role-specific scenarios — so hiring teams compare people on evidence, not gut feel. (≈45 words: self-contained, precise, quotable out of context.)
     </div>
   </div>
 </section>
 
-<section id="eeat">
+<!-- ================= 08 SCORE & SHIP ================= -->
+<section id="ship" class="alt">
   <div class="wrap">
-    <h2><span class="num">07</span>E-E-A-T</h2>
-    <p class="sub">Experience, Expertise, Authoritativeness, Trustworthiness — Google's quality signals for content. These are the markers that tell search engines and readers the article is written by someone who knows the topic.</p>
+    <h2><span class="num">08</span>Score &amp; ship</h2>
+    <p class="sub">The final gate. Score the draft, clear the hard-fails, run the AI-writing pass, then publish — or ship as a labelled draft and report it.</p>
+
+    <h3>The scoring rubric</h3>
+    <p class="muted">Score each post 0–100 across five weighted dimensions. Publish when the overall clears 80.</p>
+    <div class="formula">Overall = SEO <b>×0.25</b> + Structure <b>×0.15</b> + Content <b>×0.25</b> + EEAT <b>×0.15</b> + AEO/GEO <b>×0.20</b>&nbsp;&nbsp;→&nbsp;&nbsp;publish when ≥ <b>80</b></div>
+    <p class="muted">A P0 failure caps the overall below the threshold until it is fixed. Rework the lowest-scoring items and re-score — <b>cap 3 passes</b>. If it still can't reach 80 without fabricating or padding, ship it as a <b>draft</b> and report it.</p>
+
     <div class="cl-group">
-      <div class="cl-head">E-E-A-T</div>
-      <div class="cl-item">
-        <div class="rule">Theme-native author box with named author + credentials · never inside the body · datePublished + dateModified both visible</div>
-        </div>
-      <div class="cl-item">
-        <div class="rule">First-hand markers in the body · citation integrity verified</div>
-        </div>
+      <div class="cl-head"><span>Ship</span><span class="cnt">3 checks</span></div>
+      <div class="cl-item"><div class="rule">Overall score ≥ 80 · no P0 failures · avoid-ai-writing final pass run</div></div>
+    </div>
+
+    <div class="note red">
+      <span class="tag r">P0 failures — these block the article regardless of score</span>
+      <ul style="margin-top:6px;">
+        <li>a fabricated stat or metric</li>
+        <li>a missing or broken source URL</li>
+        <li>a named or implied fake customer / quote</li>
+        <li>a missing author box</li>
+        <li>a competitor cited as a source</li>
+      </ul>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><div class="big">≥ 80</div><div class="cap">overall score to publish</div></div>
+      <div class="stat"><div class="big">3</div><div class="cap">rework passes, then ship as draft</div></div>
+      <div class="stat"><div class="big">0</div><div class="cap">P0 failures allowed</div></div>
+    </div>
+
+    <div class="note orange">
+      <span class="tag">Where this sits in the bigger machine</span>
+      This checklist is a <b>reference standard, not a command you run</b>. It is company-agnostic and ships to each company's brand-context as a pointer target, never copied per company.
+      <ul style="margin-top:6px;">
+        <li><b>Upstream — research</b> hands down the keyword-set (primary · variations · secondaries · in-body) and the SERP brief; a few boxes arrive ready-ticked from there.</li>
+        <li><b>Here — the writer</b> drafts to every box, scores against the rubric, and ticks the gate.</li>
+        <li><b>Reasoning behind each line</b> lives in the full standard, <span class="file" style="font-family:ui-monospace,Menlo,monospace;font-size:12px;background:#fff;border:1px solid var(--orange-soft);border-radius:6px;padding:1px 6px;">seo-aeo-geo-guidelines.md</span> — read that for the <em>why</em>; this page and its checklist are the <em>what</em>.</li>
+      </ul>
     </div>
   </div>
 </section>
 
-<section id="meta" class="alt">
-  <div class="wrap">
-    <h2><span class="num">08</span>Meta</h2>
-    <div class="cl-group">
-      <div class="cl-head">Meta</div>
-      <div class="cl-item">
-        <div class="rule">Title 50–60 characters with keyword · description 140–160 characters with keyword + value + CTA · slug has keyword · all unique + intent-matched</div>
-        </div>
-    </div>
-  </div>
-</section>
-
-<section id="readability">
-  <div class="wrap">
-    <h2><span class="num">09</span>Readability &amp; Images</h2>
-    <div class="cl-group">
-      <div class="cl-head">Readability &amp; Images</div>
-      <div class="cl-item">
-        <div class="rule">15–20 word sentences · 2–4 sentence paragraphs · 80%+ active voice · a subheading every ~350 words</div>
-        </div>
-      <div class="cl-item">
-        <div class="rule">Images relevant + compressed · keyword-aware alt text ≤125 characters + descriptive filenames</div>
-        </div>
-    </div>
-  </div>
-</section>
-
-<section id="voice" class="alt">
-  <div class="wrap">
-    <h2><span class="num">10</span>Voice &amp; Authority</h2>
-    <div class="cl-group">
-      <div class="cl-head">Voice &amp; Authority</div>
-      <div class="cl-item">
-        <div class="rule">Brand voice maintained (brand-voice.md) · written in the chosen persona's lens</div>
-        </div>
-      <div class="cl-item">
-        <div class="rule">Authority honesty: product positioned only where it genuinely wins · differentiation via real POV or illustrative use-case · no fake customer/quote/metric</div>
-        </div>
-    </div>
-  </div>
-</section>
-
-<section id="ship">
-  <div class="wrap">
-    <h2><span class="num">11</span>Ship</h2>
-    <div class="cl-group">
-      <div class="cl-head">Ship gate</div>
-      <div class="cl-item">
-        <div class="rule">Overall score ≥ 80 · no P0 failures · avoid-AI-writing final pass run</div>
-        </div>
-    </div>
-    <div class="note red"><strong>P0 failures — these fail the article regardless of score</strong>
-    Fabricated stat or metric · missing or broken source URL · named/implied fake customer or quote · missing author box · competitor cited as a source</div>
-  </div>
-</section>
-
-<footer><div class="wrap">SEO / AEO / GEO Checklist · Content Machine Stage 0 · The per-article gate. Publish only when it passes.</div></footer>
+<footer><div class="wrap">SEO / AEO / GEO checklist · Content Machine reference standard · Rank #1 on Google and get cited by AI — publish only when it passes.</div></footer>
 </body>
 </html>

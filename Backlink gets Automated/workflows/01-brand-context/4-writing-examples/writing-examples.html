@@ -3,186 +3,440 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Writing Examples — Content Machine Stage 0</title>
+<title>Writing Examples — Brand Context Builder 4</title>
 <style>
-  :root{--ink:#1c1a17;--muted:#6b6459;--line:#efe7d8;--paper:#fff;--cream:#fffdf8;--wash:#fff8ec;--yellow:#ffb703;--yellow-soft:#ffe9ad;--orange:#fb7a00;--orange-soft:#ffd9b0;--green:#e8f5ec;--green-line:#cfe8d5;--green-ink:#2e7d43;--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);}
-  *{box-sizing:border-box;}html{scroll-behavior:smooth;}
-  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;line-height:1.62;font-size:16px;-webkit-font-smoothing:antialiased;}
-  .wrap{max-width:960px;margin:0 auto;padding:0 28px;}
-  header{background:linear-gradient(180deg,var(--wash),var(--paper));border-bottom:1px solid var(--line);padding:56px 0 38px;}
-  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--paper);border:1px solid var(--orange-soft);padding:4px 11px;border-radius:100px;margin-bottom:16px;}
-  h1{font-size:clamp(26px,5vw,42px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em;}
-  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%);padding:0 2px;}
-  .lede{font-size:18px;color:var(--muted);max-width:660px;margin:0;}
-  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
-  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;padding:9px 0;}
-  nav a{font-size:12.5px;font-weight:600;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:100px;}
-  nav a:hover{color:var(--ink);background:var(--wash);}
-  section{padding:48px 0;border-bottom:1px solid var(--line);}
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:730px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
   section:last-of-type{border-bottom:none;}
-  section.alt{background:var(--cream);}
-  h2{font-size:24px;letter-spacing:-.01em;margin:0 0 4px;}
-  h2 .num{color:var(--orange);margin-right:9px;}
-  .sub{color:var(--muted);margin:0 0 22px;font-size:16px;max-width:680px;}
-  h3{font-size:16px;margin:20px 0 6px;}
-  p{margin:0 0 10px;}
-  ul{margin:5px 0 10px;padding-left:20px;}
-  li{margin:4px 0;font-size:15px;color:var(--muted);}
-  li b{color:var(--ink);}
-  .file{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11.5px;background:#fff;border:1px solid var(--orange-soft);border-radius:5px;padding:2px 6px;color:var(--ink);}
-  .note{border-radius:11px;padding:13px 16px;margin:12px 0;font-size:14.5px;border:1px solid;}
-  .note.yellow{background:var(--cream);border-color:var(--line);border-left:4px solid var(--yellow);}
-  .note.green{background:var(--green);border-color:var(--green-line);border-left:4px solid var(--green-ink);}
-  .note strong{display:block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;}
-  .note.yellow strong{color:var(--orange);}
-  .note.green strong{color:var(--green-ink);}
-  .flow{margin-top:10px;}
-  .step{display:flex;gap:15px;position:relative;padding:10px 0;}
-  .step:not(:last-child)::after{content:"";position:absolute;left:21px;top:48px;bottom:-10px;width:2px;background:linear-gradient(var(--yellow),var(--orange-soft));}
-  .dot{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-weight:800;font-size:15px;color:var(--ink);background:var(--yellow-soft);border:2px solid var(--yellow);box-shadow:var(--shadow);}
-  .step-body{padding-top:2px;}
-  .step-body h3{margin:0 0 3px;font-size:15.5px;}
-  .step-body p{margin:0 0 6px;color:var(--muted);font-size:14.5px;}
-  .step-body ul{margin:4px 0 0;padding-left:18px;}
-  .step-body li{font-size:14px;}
-  .outfile{border:1px solid var(--line);border-radius:11px;padding:12px 16px;background:var(--paper);box-shadow:var(--shadow);margin:12px 0;}
-  .outfile .f{margin-bottom:3px;}
-  .outfile p{margin:0;font-size:14px;color:var(--muted);}
-  .eg{border:1px solid var(--line);border-radius:11px;padding:14px 16px;background:var(--paper);box-shadow:var(--shadow);margin:14px 0;font-size:14px;}
-  .eg .eg-label{font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);margin-bottom:8px;}
-  .eg .row{display:flex;gap:10px;padding:6px 0;border-bottom:1px solid var(--line);}
-  .eg .row:last-child{border-bottom:none;}
-  .eg .key{min-width:120px;font-weight:600;font-size:13px;color:var(--muted);flex:none;}
-  .eg .val{color:var(--ink);}
-  .eg-block{border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);margin:16px 0;}
-  .eg-block .eg-head{background:var(--wash);padding:10px 16px;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);border-bottom:1px solid var(--orange-soft);}
-  .eg-block .eg-row{display:flex;gap:12px;padding:10px 16px;border-bottom:1px solid var(--line);font-size:14px;}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:730px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;} .mem ul{margin:6px 0 6px;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .note.red{border-left-color:var(--red-ink); background:var(--red);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+  .tag.r{color:var(--red-ink);}
+
+  /* step flow */
+  .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
+  .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:18px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow); text-align:center; line-height:1;}
+  .step-body h3{margin:4px 0 4px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
+  .step-body ul{margin:6px 0 4px; color:var(--muted); font-size:14.5px;} .step-body ul .file{font-size:11.5px;}
+  .step-body ul .fn{color:var(--ink); font-weight:600;}
+  .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
+  .xref:hover{background:var(--orange-soft);}
+  .phase{font-size:12px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin:26px 0 2px;}
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.gate{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.code{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .pill.eng{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
+  .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
+  .files .k{font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
+
+  /* cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .grid.four{grid-template-columns:repeat(4,1fr);}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+  .card .file{margin-top:10px; display:inline-block;}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11.5px;}
+  td b{color:var(--ink);}
+  td .n{font-family:ui-monospace,Menlo,monospace; font-weight:700; color:var(--orange);}
+  .v{font-weight:700; font-size:12px; padding:2px 9px; border-radius:100px; white-space:nowrap;}
+  .v.covered{color:var(--green-ink); background:var(--green); border:1px solid var(--green-line);}
+  .v.partial{color:#a6791b; background:var(--yellow-soft); border:1px solid var(--yellow);}
+  .v.no{color:var(--red-ink); background:var(--red); border:1px solid var(--red-line);}
+  .t-tag{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; font-weight:700; padding:1px 7px; border-radius:5px; background:var(--wash); border:1px solid var(--orange-soft);}
+
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
+
+  /* two-column compare */
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--yellow-soft); border:2px solid var(--yellow);}
+  .agent.answ .cap{background:var(--blue); border:2px solid var(--blue-line);}
+  .agent h3{margin:0 0 2px; font-size:19px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+  .mem{font-size:14px; padding:9px 12px; border-radius:10px; margin-top:9px;}
+  .mem.yes{background:var(--green); border:1px solid var(--green-line);}
+  .mem.no{background:var(--blue); border:1px solid var(--blue-line);}
+  .mem .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
+  .mem.yes .lbl{color:var(--green-ink);} .mem.no .lbl{color:var(--blue-ink);}
+
+  /* headline stats */
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  /* before / after */
+  .ba{display:grid; grid-template-columns:1fr auto 1fr; gap:14px; align-items:center; margin:20px 0;}
+  .ba .box{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:16px 18px; box-shadow:var(--shadow); text-align:center;}
+  .ba .box .n{font-size:26px; font-weight:800;} .ba .box small{color:var(--muted); font-size:12.5px;}
+  .ba .arr{font-size:22px; color:var(--orange); font-weight:800;}
+  .ba .box.after{border-color:var(--green-line); background:var(--green);}
+
+  /* worked example block */
+  .eg-block{border:1px solid var(--line); border-radius:14px; overflow:hidden; box-shadow:var(--shadow); margin:18px 0;}
+  .eg-block .eg-head{background:var(--wash); padding:11px 16px; font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--orange); border-bottom:1px solid var(--orange-soft);}
+  .eg-block .eg-row{display:flex; gap:12px; padding:11px 16px; border-bottom:1px solid var(--line); font-size:14.5px;}
   .eg-block .eg-row:last-child{border-bottom:none;}
-  .eg-block .eg-key{min-width:140px;font-weight:600;font-size:13px;color:var(--muted);flex:none;}
+  .eg-block .eg-key{min-width:150px; font-weight:600; font-size:13px; color:var(--muted); flex:none;}
   .eg-block .eg-val{color:var(--ink);}
-  .eg-block .eg-val i{color:var(--green-ink);}
-  .fmt-table{width:100%;border-collapse:collapse;margin:14px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:14px;}
-  .fmt-table th{text-align:left;padding:8px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--cream);border-bottom:2px solid var(--line);}
-  .fmt-table td{padding:9px 13px;border-bottom:1px solid var(--line);vertical-align:top;}
-  .fmt-table tr:last-child td{border-bottom:none;}
-  .fmt-table .signal{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:var(--muted);}
-  footer{padding:32px 0 52px;color:var(--muted);font-size:13px;}
+  .eg-block .eg-val i{color:var(--green-ink); font-style:normal; font-weight:600;}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three,.grid.four{grid-template-columns:1fr;} .ba{grid-template-columns:1fr;} }
 </style>
 </head>
 <body>
 <header><div class="wrap">
-  <span class="kicker">Content Machine · Stage 0 — Brand Context</span>
+  <span class="kicker">Brand Context · Builder 4 of 4</span>
   <h1>Writing Examples — <span class="hl">show, don't tell</span></h1>
-  <p class="lede">Picks 5 of the company's best real published articles, scores them against brand-voice.md, and assembles each one in full with an annotation on why it's exemplary. The "show" complement to brand-voice.md's "tell."</p>
+  <p class="lede">One command picks 5 of the company's best real, published articles, scores each against <span class="file">brand-voice.md</span>, and rebuilds the full text with a pillar-grounded note on why it works. This is the "show" companion to <span class="file">brand-voice.md</span>'s "tell." Here's exactly how it runs, script by script.</p>
 </div></header>
 
 <nav><div class="wrap">
-  <a href="#concept">Concept</a>
-  <a href="#output">Output</a>
-  <a href="#steps">Steps</a>
+  <a href="#idea">01 One idea</a>
+  <a href="#words">02 Words</a>
+  <a href="#architecture">03 Architecture</a>
+  <a href="#pipeline">04 Pipeline</a>
+  <a href="#formats">05 Formats</a>
+  <a href="#scoring">06 Scoring</a>
+  <a href="#example">07 Worked example</a>
+  <a href="#output">08 Output</a>
 </div></nav>
 
-<section id="concept">
+<!-- ===================== 01 ONE IDEA ===================== -->
+<section id="idea">
   <div class="wrap">
-    <h2><span class="num">01</span>The one rule</h2>
-    <p class="sub">Every example is a real, published article that genuinely embodies brand-voice.md — pasted in full and annotated with reasons that name specific voice pillars, not generic praise.</p>
-    <ul>
-      <li>Every example is a real published article — no paraphrasing, pasted in full</li>
-      <li>Voice fit is scored out of 10 by an AI agent reading each article against brand-voice.md. An article that doesn't match the brand voice gets dropped — even if it's a well-written piece in general.</li>
-      <li>A <b>pillar</b> is a named characteristic from brand-voice.md — e.g. "Confident, Proof-Backed" or "Direct Second-Person Voice." Each annotation reason must name one of those pillars, not just say "good writing."</li>
-      <li>Start with at least 7 candidates so 5 survive after the ones that don't match the voice are cut</li>
-    </ul>
-    <div class="note yellow"><strong>Inputs</strong>
-    top-pages.csv (the pool, ranked by traffic — primary keyword comes from here, never guessed). brand-voice.md (the scoring yardstick). Saved page files from the brand brain step, or live web-fetch for any not saved.</div>
-  </div>
-</section>
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">Take every real published article the company already has on disk, rank the best ones by traffic, judge which ones truly sound like the brand, and rebuild the top 5 in full with a note on why each one works. A writer imitates these instead of guessing.</p>
 
-<section id="output" class="alt">
-  <div class="wrap">
-    <h2><span class="num">02</span>What this produces</h2>
-    <div class="outfile">
-      <div class="f"><span class="file">projects/[company]/content-machine/brand-context/writing-examples.md</span></div>
-      <p>5 complete articles pasted verbatim, each with URL, primary keyword, word count, and 2–3 pillar-grounded reasons for why it works. ~13k words total. A writer reads these to understand the voice in action.</p>
+    <div class="grid four">
+      <div class="card"><div class="ic">📚</div><h3>Pool the articles</h3><p>Read the catalogue, keep only editorial blog types, order them by traffic. No fetching — everything is already saved.</p></div>
+      <div class="card"><div class="ic">⚖️</div><h3>Score the voice</h3><p>One AI call per article scores it out of 10 against <span class="file">brand-voice.md</span> only — not "good writing" in general.</p></div>
+      <div class="card"><div class="ic">🔁</div><h3>Loop until 5 pass</h3><p>Most old content fails its own brand. Pull another batch and re-score until 5 on-voice articles survive.</p></div>
+      <div class="card"><div class="ic">🧱</div><h3>Rebuild in full</h3><p>Paste each survivor's full text verbatim, add its metadata and 2–3 pillar-grounded reasons.</p></div>
+    </div>
+
+    <div class="note orange">
+      <span class="tag">The one rule that governs everything</span>
+      <p style="margin:8px 0 0">Every example is a <b>real, published article that genuinely embodies <span class="file">brand-voice.md</span></b> — pasted in full and verbatim, with a "What Makes It Great" grounded in <b>named brand-voice pillars</b>, never generic praise.</p>
+      <ul style="margin-top:8px">
+        <li><b>Voice fit is judged in exactly one place:</b> the Step-2 scorer rates each article out of 10 against <span class="file">brand-voice.md</span> and nothing else. An off-voice article gets no annotation and is dropped.</li>
+        <li><b>Every "What Makes It Great" reason must name a pillar.</b> A reason that cites no pillar is a vibe, not evidence — it does not belong.</li>
+      </ul>
     </div>
   </div>
 </section>
 
-<section id="steps">
+<!-- ===================== 02 WORDS ===================== -->
+<section id="words" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">03</span>Three steps</h2>
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">Five terms this engine leans on. Each is defined once here, then used exactly.</p>
+
+    <div class="define"><b>brand-voice pillar</b> — a named characteristic from <span class="file">brand-voice.md</span>, the voice standard built by an earlier builder. Real Testlify pillars include "Show the Number," "Skills Beat Resumes," and "The Hiring Coach." Every annotation reason must name one.</div>
+    <div class="define"><b>on-voice / off-voice</b> — the scorer's verdict. <b>On-voice</b> means the article demonstrably hits the pillars, so it can be kept and annotated. <b>Off-voice</b> means it reads like generic content, so it is dropped with no annotation.</div>
+    <div class="define"><b>verbatim</b> — pasted word-for-word, not paraphrased or trimmed. The full article body goes into the file exactly as published (bar a few trailing "Book a demo" chrome lines the script strips).</div>
+    <div class="define"><b>format</b> — the shape of the article (comparison, listicle, how-to, definitional…), inferred from its URL slug alone, before any body is read. Used to keep the final 5 varied.</div>
+    <div class="define"><b>the catalogue</b> — <span class="file">content-database.csv</span>, the site-wide inventory built by Layer 00. It holds every page's full text, title, type, and traffic on disk, so this engine never has to fetch a live URL.</div>
+  </div>
+</section>
+
+<!-- ===================== 03 ARCHITECTURE ===================== -->
+<section id="architecture">
+  <div class="wrap">
+    <h2><span class="num">03</span>The architecture</h2>
+    <p class="sub">A small scripted pipeline: one settings file, one AI caller, one prompt file, one orchestrator that runs the three steps in order and is resumable.</p>
+
+    <table>
+      <tr><th>File</th><th>Role</th></tr>
+      <tr>
+        <td><span class="file">config.py</span></td>
+        <td>The one settings hub. Every path derives from one repo-root anchor; the company is a single <span class="t-tag">COMPANY</span> env var. Holds the tunables:
+          <ul>
+            <li><span class="t-tag">KEEP=5</span> — final count.</li>
+            <li><span class="t-tag">BATCH=8</span> — articles scored per round.</li>
+            <li><span class="t-tag">MAX_ROUNDS=4</span> — scoring rounds before it gives up loudly.</li>
+            <li><span class="t-tag">WORKERS=4</span> — parallel AI calls.</li>
+            <li><span class="t-tag">BODY_CHAR_CAP=16000</span> — chars of each article shown to the scorer.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="file">llm.py</span></td>
+        <td>The one AI caller. Runs each prompt through a headless CLI — <b>Claude or Codex</b> (set by <span class="t-tag">LLM_PROVIDER</span>, default claude), no API key. Notable behaviour:
+          <ul>
+            <li><span class="fn">call_json()</span> pulls JSON back out of the model's reply, tolerating code fences.</li>
+            <li>Retries a briefly-failing CLI up to 4 times with growing backoff; nudges once on unparseable JSON.</li>
+            <li>Stops the whole run on a credit/auth failure instead of hammering the CLI.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="file">prompts/score-article.md</span></td>
+        <td>The single scoring prompt, kept out of the code. Fills <span class="t-tag">{{BRAND}}</span> · <span class="t-tag">{{URL}}</span> · <span class="t-tag">{{KEYWORD}}</span> · <span class="t-tag">{{VOICE}}</span> · <span class="t-tag">{{BODY}}</span> and asks for score + verdict + annotation as JSON.</td>
+      </tr>
+      <tr>
+        <td><span class="file">run_writing_examples.py</span></td>
+        <td>The one entry command. Runs the three steps in order, caches scores to <span class="file">scored.json</span> so a re-run resumes, and writes the deliverable. <span class="t-tag">--redo</span> forces a fresh score.</td>
+      </tr>
+    </table>
+
+    <h3>Where the work splits: code vs the AI</h3>
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">⚙️</div>
+        <h3>The code does the structure</h3>
+        <div class="role">Deterministic, free, repeatable</div>
+        <ul>
+          <li>Pool + editorial filter + traffic order</li>
+          <li>Format tag from the URL slug</li>
+          <li>Batch selection with format diversity</li>
+          <li>Rank, keep top 5, count words, strip CTA lines, assemble the file</li>
+        </ul>
+        <div class="mem no"><span class="lbl">Never decides</span> whether an article is on-voice — that judgment is not code's to make.</div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">🧠</div>
+        <h3>The AI does the judgment</h3>
+        <div class="role">Claude or Codex, one call per article</div>
+        <ul>
+          <li>Reads the article body + <span class="file">brand-voice.md</span></li>
+          <li>Scores it out of 10 on voice alone</li>
+          <li>Returns on-voice / off-voice + why</li>
+          <li>Writes the pillar-grounded "What Makes It Great"</li>
+        </ul>
+        <div class="mem yes"><span class="lbl">The only judge</span> of voice fit — decided once, in one place, per article.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 04 PIPELINE ===================== -->
+<section id="pipeline" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">04</span>The full pipeline</h2>
+    <p class="sub">Three steps plus a gate. The code owns selection and assembly; the AI owns the one judgment in the middle. Everything runs free on the local CLI.</p>
+
     <div class="flow">
       <div class="step"><div class="dot">1</div><div class="step-body">
-        <h3>Classify and select at least 7 articles</h3>
+        <h3>Classify &amp; select <span class="pill code">code</span> <span class="pill free">free</span></h3>
+        <p>Build the candidate pool from what's already on disk, then pick a diverse batch to score.</p>
         <ul>
-          <li>Start from the Semrush top-pages CSV ranked by traffic</li>
-          <li>Keep only editorial blog articles — drop product pages, glossaries, templates, and tool pages</li>
-          <li>Identify the format of each article from its URL slug alone — no reading required (see format table below)</li>
-          <li>Select at least 7, prioritising high traffic while covering at least 3 different formats</li>
-          <li>Take the primary keyword from the Semrush "Top Keyword" column exactly as-is — never re-derive it from the title</li>
+          <li>Read the catalogue and keep only rows that are fully scraped and in the target language <span class="file">content-database.csv</span></li>
+          <li>Filter to <span class="fn">editorial types</span> (post, hr-glossary, job-description, interviews…) from Layer 01's <span class="file">type-roles.json</span> — drops product, pricing, glossary-index, and tool pages</li>
+          <li>Walk the pool in traffic order and take Traffic + primary keyword as-is <span class="file">top-pages.csv</span></li>
+          <li>Tag each article's format from its URL slug, then pick <span class="fn">BATCH=8</span> round-robin across formats, highest-traffic first</li>
+          <li><a class="xref" href="#formats">↓ 05 — how the format tag works</a></li>
         </ul>
       </div></div>
-    </div>
 
-    <h3>Article formats — how to identify them from the URL</h3>
-    <p style="font-size:14.5px; color:var(--muted);">Each format is identified from the URL slug alone, before the article is read. Here is what each format looks like:</p>
-    <table class="fmt-table">
-      <tr><th>URL pattern</th><th>Format</th><th>What it is</th></tr>
-      <tr><td class="signal">what-are-…, …-definition, types-of-…</td><td><b>Definitional</b></td><td>Explains what something is — "What are pink collar jobs?"</td></tr>
-      <tr><td class="signal">top-15-…, top-8-…, …-questions</td><td><b>Listicle</b></td><td>A numbered or bulleted list — "60 inventory planner interview questions"</td></tr>
-      <tr><td class="signal">how-to-…, …-process, …-in-5-steps</td><td><b>How-to</b></td><td>Step-by-step instruction — "How to perform a talent review"</td></tr>
-      <tr><td class="signal">…-vs-…, …-alternatives</td><td><b>Comparison</b></td><td>Compares two things directly — "Job Description vs Job Specification"</td></tr>
-      <tr><td class="signal">…-hiring-process, …-interview-process</td><td><b>Case study</b></td><td>How a named company does something — "Walmart hiring process"</td></tr>
-      <tr><td class="signal">broad opinion or strategy topic</td><td><b>Thought-leadership</b></td><td>A perspective or argument — "The 4 pillars of skills-based hiring"</td></tr>
-    </table>
-    <p style="font-size:13.5px; color:var(--muted);">This list is not exhaustive — if the site uses a format not listed here, name it plainly and count it. The real Testlify run chose: case study ×2 (Walmart, Netflix), comparison (Job Description vs Job Specification), definitional (Halo and Horn Effect), listicle (25 best talent assessment tools).</p>
-
-    <div class="flow" style="margin-top:16px;">
       <div class="step"><div class="dot">2</div><div class="step-body">
-        <h3>Score and annotate each article</h3>
+        <h3>Score &amp; annotate <span class="pill eng">Claude / Codex</span> <span class="pill free">free</span></h3>
+        <p>One AI call per article, four running in parallel, judged only against the brand voice.</p>
         <ul>
-          <li>Each article gets its own AI agent that reads it alongside brand-voice.md and scores it out of 10</li>
-          <li>The score is based on how well it matches the brand voice — not general writing quality</li>
-          <li>Articles that score poorly are dropped with no annotation</li>
-          <li>Articles that pass get 2–3 annotation reasons, each naming a specific pillar from brand-voice.md — not just "this is well-written"</li>
-          <li>If fewer than 5 pass, pull another batch from Step 1 targeting the formats that scored well. Older articles often fail — this is expected. Keep going until 5 survive.</li>
-          <li>Each passing article is assembled: metadata from the Semrush table + annotation + full article text pasted word-for-word</li>
+          <li>Fill the prompt with the article body + <span class="file">brand-voice.md</span> and ask for JSON: score, verdict, why, annotation, exact H1 <span class="file">prompts/score-article.md</span></li>
+          <li>Run the batch across <span class="fn">WORKERS=4</span> threads; cache every result so a crash resumes <span class="file">scored.json</span></li>
+          <li>If fewer than 5 on-voice so far, pull the next batch and score again — up to <span class="fn">MAX_ROUNDS=4</span> rounds</li>
+          <li><a class="xref" href="#scoring">↓ 06 — the scoring judgment, with real numbers</a></li>
         </ul>
       </div></div>
+
       <div class="step"><div class="dot">3</div><div class="step-body">
-        <h3>Quality gate</h3>
+        <h3>Assemble <span class="pill code">code</span> <span class="pill free">free</span></h3>
+        <p>Pure assembly — it only arranges what earlier steps produced; it invents nothing.</p>
         <ul>
-          <li>Exactly 5 examples — not fewer</li>
-          <li>Each has all fields: URL, title, primary keyword, word count, annotation, full verbatim text</li>
-          <li>The set covers at least 3 different formats</li>
-          <li>Every annotation reason names a specific pillar — no generic praise</li>
-          <li>Full article pasted word-for-word — no snippets</li>
+          <li>Sort the on-voice survivors by score, keep the top <span class="fn">KEEP=5</span></li>
+          <li>For each: write URL, primary keyword, format, voice score, a code-counted word count, the annotation bullets, then the full body verbatim</li>
+          <li>Strip trailing chrome lines (Try for free / Book a demo / Sign up / View plans) so only real article text remains</li>
+          <li>Write it in place <span class="file">01-brand-context/writing-examples.md</span> — <a class="xref" href="#example">↓ 07 — a real assembled block</a></li>
+        </ul>
+      </div></div>
+
+      <div class="step"><div class="dot">✓</div><div class="step-body">
+        <h3>Gate <span class="pill gate">guardrail</span></h3>
+        <p>Two automatic checks flag trouble instead of silently shipping a weak set.</p>
+        <ul>
+          <li>If the 5 span fewer than 3 formats, insert a <span class="fn">⚑ HUMAN DECISION</span> line at the top of the file for review</li>
+          <li>If fewer than 5 on-voice ever survive, ship what there is but say so loudly in the run log</li>
+          <li>The pillar-naming rule itself is enforced inside the prompt, not by a post-check</li>
         </ul>
       </div></div>
     </div>
-
-    <h3>What one assembled example looks like</h3>
-    <p style="font-size:14.5px; color:var(--muted);">From the actual Testlify run — Example 1, the Walmart case study (scored 9/10 on-voice):</p>
-    <div class="eg-block">
-      <div class="eg-head">Example 1 — Walmart interview process: Everything you need to know</div>
-      <div class="eg-row"><span class="eg-key">URL</span><span class="eg-val">testlify.com/walmart-hiring-process/</span></div>
-      <div class="eg-row"><span class="eg-key">Primary keyword</span><span class="eg-val">www.walmart careers.com <span style="font-size:12px;color:var(--muted);">(from Semrush — not re-derived from the title)</span></span></div>
-      <div class="eg-row"><span class="eg-key">Word count</span><span class="eg-val">~2,489 words</span></div>
-      <div class="eg-row"><span class="eg-key">What Makes It Great</span><span class="eg-val">
-        <i>• Confident, Backed by Proof</i> — opens on concrete figures (#1 Fortune Global 500, 500,000 hires/year, 2.1M employees) rather than hype; every scale claim carries a number<br>
-        <i>• The Helpful Hiring Expert</i> — the "Key takeaway for recruiters" section hands the reader direct, second-person, do-this-tomorrow steps ("Prioritize skills-based assessments," "Automate wherever possible")<br>
-        <i>• Skills-First</i> — reframes Walmart's high-volume hiring as a repeatable, skills-assessment-led model any recruiter can adopt
-      </span></div>
-      <div class="eg-row"><span class="eg-key">Full content</span><span class="eg-val" style="color:var(--muted);">Complete article pasted verbatim — full intro, every subheading, all stats, conclusion, CTA. Not a snippet.</span></div>
-    </div>
-
-    <div class="note green"><strong>The voice score is working output only</strong>
-    Used to rank articles and drop off-voice ones. It does not appear in the final writing-examples.md — only the annotation and the full article do. The real Testlify run scored four articles at 9/10 and one at 7/10.</div>
-
-    <div class="note yellow"><strong>Expect to run more than one batch</strong>
-    Older, generic content often fails its own brand's voice gate. The first 7 picks may yield only 1 or 2 on-voice articles. Pull another batch targeting the formats that scored well and keep going until 5 survive.</div>
   </div>
 </section>
 
-<footer><div class="wrap">Writing Examples · Content Machine Stage 0 · 5 real articles that show the voice in action.</div></footer>
+<!-- ===================== 05 FORMATS ===================== -->
+<section id="formats">
+  <div class="wrap">
+    <h2><span class="num">05</span>Format, from the URL alone</h2>
+    <p class="sub">Before any article is read, the code tags its format from the URL slug so the final 5 stay varied. This is a fixed list of four slug patterns plus a catch-all — the exact rules that live in the script.</p>
+
+    <table>
+      <tr><th>Slug contains</th><th>Format</th><th>Example URL</th></tr>
+      <tr><td class="signal"><span class="t-tag">what-</span> · <span class="t-tag">definition</span> · <span class="t-tag">types-of</span></td><td><b>Definitional / pillar</b></td><td class="muted">/what-is-dei/</td></tr>
+      <tr><td class="signal"><span class="t-tag">top-N</span> · <span class="t-tag">-questions</span> · <span class="t-tag">N-ways</span></td><td><b>Listicle</b></td><td class="muted">/top-10-aptitude-assessment-questions…/</td></tr>
+      <tr><td class="signal"><span class="t-tag">how-to</span> · <span class="t-tag">-process</span> · <span class="t-tag">-steps</span></td><td><b>Step-by-step how-to</b></td><td class="muted">/walmart-hiring-process/</td></tr>
+      <tr><td class="signal"><span class="t-tag">-vs-</span> · <span class="t-tag">alternatives</span></td><td><b>Comparison</b></td><td class="muted">/white-collar-vs-blue-collar-jobs/</td></tr>
+      <tr><td class="signal"><i>none of the above</i></td><td><b>Thought-leadership / other</b></td><td class="muted">the catch-all fallback</td></tr>
+    </table>
+
+    <div class="note">
+      <span class="tag">One honest gotcha</span>
+      <p style="margin:8px 0 0">The matcher is deliberately coarse. Any slug containing <span class="t-tag">-process</span> lands in "Step-by-step how-to" — so in the real Testlify run both <b>Walmart hiring process</b> and <b>Business process outsourcing</b> were tagged how-to, even though a human might have called them a case study and a definition. The tag is a cheap diversity lever, not a precise taxonomy.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 06 SCORING ===================== -->
+<section id="scoring" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">06</span>The scoring judgment</h2>
+    <p class="sub">This is where the intelligence lives. One prompt reads one article plus the whole brand-voice standard and returns a single verdict — and only the on-voice ones earn an annotation.</p>
+
+    <h3>What the AI is handed, and what it returns</h3>
+    <ul>
+      <li><b>Given:</b> the article body (first 16,000 chars), the full <span class="file">brand-voice.md</span>, plus the URL and primary keyword marked "use as given, do not re-derive."</li>
+      <li><b>Hard stop in the prompt:</b> score only against <span class="file">brand-voice.md</span> — not against generic "good writing" or the model's own taste.</li>
+      <li><b>Returns JSON:</b> <span class="t-tag">score</span> 0–10 · <span class="t-tag">verdict</span> on/off-voice · <span class="t-tag">verdict_why</span> · <span class="t-tag">what_makes_it_great</span> (2–3 pillar-named reasons, empty if off-voice) · <span class="t-tag">h1</span> the exact headline.</li>
+    </ul>
+
+    <h3>What the real Testlify run scored <span class="pill free">real data</span></h3>
+    <div class="ba">
+      <div class="box"><div class="n">16</div><small>articles scored across the rounds</small></div>
+      <div class="arr">→</div>
+      <div class="box after"><div class="n">5</div><small>on-voice survivors kept</small></div>
+    </div>
+    <p class="muted" style="font-size:14.5px">11 of the 16 were dropped as off-voice. The kept 5 scored 9, 9, 9, 8, 7 out of 10.</p>
+
+    <h3>Why real articles get dropped</h3>
+    <p class="muted" style="font-size:14.5px">The verdict names the pillars an article misses. Two real off-voice reasons from the run:</p>
+    <ul>
+      <li><span class="t-tag">/hr-glossary/generation-x/</span> — <span style="color:var(--red-ink)">3/10:</span> "Third-person encyclopedia prose with zero exact numbers, unnamed 'HBR/SHRM research' citations, and no runnable next step — it fails <b>Show the Number</b> and <b>The Hiring Coach</b> almost entirely."</li>
+      <li><span class="t-tag">/maintenance-technician-interview-questions…/</span> — <span style="color:var(--red-ink)">4/10:</span> "Delivers the coach-style 'Look for:' lists the brand prescribes, but opens with exact banned fluff ('In today's rapidly evolving industrial landscape') and cites unnamed 'recent research'."</li>
+    </ul>
+
+    <div class="note orange">
+      <span class="tag">The lesson the recipe insists on</span>
+      <p style="margin:8px 0 0">Don't expect the first batch to yield 5. Most old content is off its own brand: score a batch, keep the winners, pull another batch, repeat until 5 survive. The loop is built for exactly this.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 07 WORKED EXAMPLE ===================== -->
+<section id="example">
+  <div class="wrap">
+    <h2><span class="num">07</span>What one assembled example looks like</h2>
+    <p class="sub">The real Example 1 from the Testlify run — the top scorer at 9/10. Every field traces to a named source: URL and keyword from the traffic data, format from the code, score and annotation from the AI, word count counted in code, body pasted verbatim from the catalogue.</p>
+
+    <div class="eg-block">
+      <div class="eg-head">Example 1 — real Testlify output</div>
+      <div class="eg-row"><span class="eg-key">Title</span><span class="eg-val">White Collar vs Blue Collar Jobs: Key Differences (2026)</span></div>
+      <div class="eg-row"><span class="eg-key">URL</span><span class="eg-val">testlify.com/white-collar-vs-blue-collar-jobs/</span></div>
+      <div class="eg-row"><span class="eg-key">Primary keyword</span><span class="eg-val">blue collar vs white <span class="muted" style="font-size:12.5px">(from top-pages.csv — used as given)</span></span></div>
+      <div class="eg-row"><span class="eg-key">Format</span><span class="eg-val">Comparison <span class="muted" style="font-size:12.5px">(from the <span class="t-tag">-vs-</span> slug)</span></span></div>
+      <div class="eg-row"><span class="eg-key">Voice score</span><span class="eg-val">9/10</span></div>
+      <div class="eg-row"><span class="eg-key">Word count</span><span class="eg-val">~2,287 words <span class="muted" style="font-size:12.5px">(counted by the code)</span></span></div>
+      <div class="eg-row"><span class="eg-key">What Makes It Great</span><span class="eg-val">
+        <i>• Show the Number</i> — every claim carries an exact figure with a named source ("median annual wage of $122,090 in May 2024… according to the Bureau of Labor Statistics"); no adjective does a number's job.<br>
+        <i>• Skills Beat Resumes</i> — the core conviction anchors the piece ("Degrees are a weak signal of job readiness"), backed by a named Burning Glass / Harvard finding.<br>
+        <i>• The Hiring Coach</i> — question-form H2s mirror real searches and hand the reader a runnable process ("Map the role to competencies, test for the evidence that matters, then interview the people who pass").
+      </span></div>
+      <div class="eg-row"><span class="eg-key">Full content</span><span class="eg-val muted">The complete article pasted verbatim inside a code fence — intro, TL;DR, every subheading, all stats, conclusion. Not a snippet.</span></div>
+    </div>
+
+    <p class="muted" style="font-size:14.5px">The final 5 from this run: <b>White Collar vs Blue Collar</b> (Comparison, 9) · <b>Screening In vs Screening Out</b> (Comparison, 9) · <b>Aptitude Assessment Questions</b> (Listicle, 9) · <b>Business Process Outsourcing</b> (How-to, 8) · <b>Walmart hiring process</b> (How-to, 7) — three distinct formats, so the diversity gate passes.</p>
+
+    <div class="note">
+      <span class="tag">What changed from the old design</span>
+      <p style="margin:8px 0 0">The voice score is <b>no longer a hidden working value</b> — the assembled file now prints <span class="t-tag">**Voice Score**: X/10</span> and <span class="t-tag">**Format**</span> on each example, so the reviewer can see at a glance how strong each pick was.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 08 OUTPUT ===================== -->
+<section id="output" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">08</span>Output &amp; where it sits</h2>
+
+    <div class="stats">
+      <div class="stat"><div class="big">5</div><div class="cap">real articles, pasted in full</div></div>
+      <div class="stat"><div class="big">~12.8k</div><div class="cap">words in the finished file (~83 KB)</div></div>
+      <div class="stat"><div class="big">$0</div><div class="cap">API cost — runs on the local CLI</div></div>
+      <div class="stat"><div class="big">≥3</div><div class="cap">distinct formats guaranteed by the gate</div></div>
+    </div>
+
+    <div class="grid">
+      <div class="card"><h3>The deliverable</h3><p>Five complete articles, each with URL, primary keyword, format, voice score, word count, and 2–3 pillar-grounded reasons — then the full verbatim body. Written in place, so <span class="t-tag">git diff</span> is the review surface.</p><span class="file">01-brand-context/writing-examples.md</span></div>
+      <div class="card"><h3>The audit trail</h3><p>Every article's score, verdict, and reason from every round — including the dropped ones — so the run is fully re-runnable and inspectable.</p><span class="file">_work/writing-examples/scored.json</span></div>
+    </div>
+
+    <div class="note orange">
+      <span class="tag">Where this sits in the bigger machine</span>
+      <p style="margin:8px 0 0">Builder 4 is the last of the <b>Brand Context</b> layer (Layer 01), which runs once per company after the site catalogue.</p>
+      <ul style="margin-top:8px">
+        <li><b>Upstream:</b> Layer 00 built <span class="file">content-database.csv</span> and <span class="file">top-pages.csv</span>; earlier Brand Context builders wrote <span class="file">brand-voice.md</span> (the yardstick) and <span class="file">type-roles.json</span> (which types are editorial).</li>
+        <li><b>Downstream:</b> the Content Machine reads <span class="file">writing-examples.md</span> alongside <span class="file">brand-voice.md</span> — voice states the rules, examples prove them — so every new article can imitate a real one.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">Writing Examples · Brand Context Builder 4 · architecture overview · pool the catalogue → score each article on voice → loop until 5 pass → rebuild them in full.</div></footer>
 </body>
 </html>

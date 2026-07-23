@@ -3,153 +3,385 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Voices — Author Bylines and Auto-Route</title>
+<title>Voices — Author Bylines &amp; E-E-A-T (architecture)</title>
 <style>
-  :root{--ink:#1c1a17;--muted:#6b6459;--line:#efe7d8;--paper:#fff;--cream:#fffdf8;--wash:#fff8ec;--yellow:#ffb703;--yellow-soft:#ffe9ad;--orange:#fb7a00;--orange-soft:#ffd9b0;--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);}
-  *{box-sizing:border-box;}html{scroll-behavior:smooth;}
-  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;line-height:1.62;font-size:16px;-webkit-font-smoothing:antialiased;}
-  .wrap{max-width:960px;margin:0 auto;padding:0 28px;}
-  header{background:linear-gradient(180deg,var(--wash),var(--paper));border-bottom:1px solid var(--line);padding:56px 0 38px;}
-  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--paper);border:1px solid var(--orange-soft);padding:4px 11px;border-radius:100px;margin-bottom:16px;}
-  h1{font-size:clamp(26px,5vw,42px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em;}
-  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%);padding:0 2px;}
-  .lede{font-size:18px;color:var(--muted);max-width:680px;margin:0;}
-  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
-  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;padding:9px 0;}
-  nav a{font-size:12.5px;font-weight:600;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:100px;}
-  nav a:hover{color:var(--ink);background:var(--wash);}
-  section{padding:48px 0;border-bottom:1px solid var(--line);}
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:730px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
   section:last-of-type{border-bottom:none;}
-  section.alt{background:var(--cream);}
-  h2{font-size:24px;letter-spacing:-.01em;margin:0 0 4px;}
-  h2 .num{color:var(--orange);margin-right:9px;}
-  .sub{color:var(--muted);margin:0 0 20px;font-size:16px;max-width:700px;}
-  h3{font-size:16px;margin:20px 0 6px;font-weight:700;}
-  p{margin:0 0 10px;}
-  ul{margin:5px 0 10px;padding-left:20px;}
-  li{margin:4px 0;font-size:15px;color:var(--muted);}
-  li b{color:var(--ink);}
-  .note{border-radius:11px;padding:13px 16px;margin:12px 0;font-size:14.5px;border:1px solid;}
-  .note.yellow{background:var(--cream);border-color:var(--line);border-left:4px solid var(--yellow);}
-  .note.orange{background:var(--wash);border-color:var(--orange-soft);border-left:4px solid var(--orange);}
-  .note strong{display:block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;}
-  .note.yellow strong,.note.orange strong{color:var(--orange);}
-  .flow{margin-top:10px;}
-  .step{display:flex;gap:15px;position:relative;padding:10px 0;}
-  .step:not(:last-child)::after{content:"";position:absolute;left:21px;top:48px;bottom:-10px;width:2px;background:linear-gradient(var(--yellow),var(--orange-soft));}
-  .dot{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-weight:800;font-size:15px;color:var(--ink);background:var(--yellow-soft);border:2px solid var(--yellow);box-shadow:var(--shadow);}
-  .step-body{padding-top:2px;}
-  .step-body h3{margin:0 0 3px;font-size:15.5px;}
-  .step-body p{margin:0 0 5px;color:var(--muted);font-size:14.5px;}
-  .step-body ul{margin:4px 0 0;padding-left:18px;}
-  .step-body li{font-size:14px;}
-  .outfile{border:1px solid var(--line);border-radius:11px;padding:12px 16px;background:var(--paper);box-shadow:var(--shadow);margin:12px 0;}
-  .outfile .f{margin-bottom:3px;}
-  .outfile p{margin:0;font-size:14px;color:var(--muted);}
-  .v-table{width:100%;border-collapse:collapse;margin:14px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:13.5px;}
-  .v-table th{text-align:left;padding:9px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--cream);border-bottom:2px solid var(--line);}
-  .v-table td{padding:9px 13px;border-bottom:1px solid var(--line);vertical-align:top;}
-  .v-table tr:last-child td{border-bottom:none;}
-  .v-table .name{font-weight:700;color:var(--orange);}
-  .route-table{width:100%;border-collapse:collapse;margin:14px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:14px;}
-  .route-table th{text-align:left;padding:8px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--cream);border-bottom:2px solid var(--line);}
-  .route-table td{padding:9px 13px;border-bottom:1px solid var(--line);vertical-align:top;}
-  .route-table tr:last-child td{border-bottom:none;}
-  footer{padding:32px 0 52px;color:var(--muted);font-size:13px;}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:730px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;} .mem ul{margin:6px 0 6px;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .note.red{border-left-color:var(--red-ink); background:var(--red);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+  .tag.r{color:var(--red-ink);}
+
+  /* step flow */
+  .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
+  .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:18px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow); text-align:center; line-height:1;}
+  .step-body h3{margin:4px 0 4px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
+  .step-body ul{margin:6px 0 4px; color:var(--muted); font-size:14.5px;} .step-body ul .file{font-size:11.5px;}
+  .step-body ul .fn{color:var(--ink); font-weight:600;}
+  .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
+  .xref:hover{background:var(--orange-soft);}
+  .phase{font-size:12px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin:26px 0 2px;}
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.gate{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.code{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .pill.eng{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
+  .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
+  .files .k{font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
+
+  /* cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .grid.four{grid-template-columns:repeat(4,1fr);}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+  .card .file{margin-top:10px; display:inline-block;}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11.5px;}
+  td b{color:var(--ink);}
+  td .n{font-family:ui-monospace,Menlo,monospace; font-weight:700; color:var(--orange);}
+  .v{font-weight:700; font-size:12px; padding:2px 9px; border-radius:100px; white-space:nowrap;}
+  .v.covered{color:var(--green-ink); background:var(--green); border:1px solid var(--green-line);}
+  .v.partial{color:#a6791b; background:var(--yellow-soft); border:1px solid var(--yellow);}
+  .v.no{color:var(--red-ink); background:var(--red); border:1px solid var(--red-line);}
+  .t-tag{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; font-weight:700; padding:1px 7px; border-radius:5px; background:var(--wash); border:1px solid var(--orange-soft);}
+
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
+
+  /* data-structure anatomy */
+  .cardbox{background:var(--paper); border:1px solid var(--line); border-radius:16px; box-shadow:var(--shadow); padding:8px; margin:20px 0;}
+  .field{display:flex; gap:14px; padding:11px 12px; align-items:baseline;}
+  .field+.field{border-top:1px solid var(--line);}
+  .field .fk{flex:none; width:150px; font-family:ui-monospace,Menlo,monospace; font-size:12.5px; font-weight:700; color:var(--orange);}
+  .field .fv{font-size:14.5px; color:var(--muted);}
+  .field .fv b{color:var(--ink);}
+
+  /* two-column compare */
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--yellow-soft); border:2px solid var(--yellow);}
+  .agent.answ .cap{background:var(--orange-soft); border:2px solid var(--orange);}
+  .agent h3{margin:0 0 2px; font-size:19px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+  .mem{font-size:14px; padding:9px 12px; border-radius:10px; margin-top:9px;}
+  .mem.yes{background:var(--green); border:1px solid var(--green-line);}
+  .mem.no{background:var(--blue); border:1px solid var(--blue-line);}
+  .mem .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
+  .mem.yes .lbl{color:var(--green-ink);} .mem.no .lbl{color:var(--blue-ink);}
+
+  /* headline stats */
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three,.grid.four{grid-template-columns:1fr;} }
 </style>
 </head>
 <body>
 <header><div class="wrap">
-  <span class="kicker">Content Machine · Stage 0 — Brand Context</span>
+  <span class="kicker">Brand Context · Layer 01 · Builder 6</span>
   <h1>Voices — <span class="hl">who wrote it</span></h1>
-  <p class="lede">Capture the real bylines content is published under. One default company byline, optionally one founder voice, and any other named authors. Built once per company.</p>
+  <p class="lede">Capture the real bylines content is published under: one default company byline, one founder voice, and any other named authors, each with the credential detail an author box needs. A script drops the questionnaire; the team fills it with real people; the answers become a preserved seed the write phase reads. Here's exactly how it works, file by file.</p>
 </div></header>
 
 <nav><div class="wrap">
-  <a href="#concept">Concept</a>
-  <a href="#output">Output</a>
-  <a href="#steps">Steps</a>
-  <a href="#example">Real example</a>
-  <a href="#route">Auto-route rules</a>
+  <a href="#idea">01 · One idea</a>
+  <a href="#words">02 · The words</a>
+  <a href="#arch">03 · Architecture</a>
+  <a href="#pipeline">04 · Pipeline</a>
+  <a href="#anatomy">05 · Byline anatomy</a>
+  <a href="#route">06 · Auto-route</a>
+  <a href="#sits">07 · Where it sits</a>
 </div></nav>
 
-<section id="concept">
+<section id="idea">
   <div class="wrap">
-    <h2><span class="num">01</span>The one rule — real people only</h2>
-    <p class="sub">Every byline is a real person or the real company team. Never invented.</p>
-    <ul>
-      <li>Default is always a company-wide byline (e.g. "Testlify Team") — not an individual writer</li>
-      <li>Use a named individual only where it genuinely makes sense: founder/CEO for strategy pieces, or when explicitly requested by the client</li>
-      <li>A byline is not a persona. The persona is who the article is written <i>to</i>; the byline is who wrote it. Keep them separate.</li>
-      <li>E-E-A-T (Expertise, Authoritativeness, Trustworthiness) comes from real credentials + cited data + the bio — never a fabricated personal story</li>
-    </ul>
-    <div class="note yellow"><strong>Input</strong>
-    The team — ask them who the real bylines are. Default company byline, founder voice (if any), and any other named authors.</div>
-  </div>
-</section>
-
-<section id="output" class="alt">
-  <div class="wrap">
-    <h2><span class="num">02</span>What this produces</h2>
-    <div class="outfile">
-      <div class="f">projects/[company]/content-machine/brand-context/voices.md</div>
-      <p>The byline set: default company byline, founder voice (if applicable), any named individual bylines, and three auto-route rules that govern which byline each piece gets.</p>
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">Every article needs a named author for its author box (an E-E-A-T lever). This builder settles, once per company, who those real authors are and which one each piece gets. It is a questionnaire, not an AI writer.</p>
+    <div class="grid four">
+      <div class="card"><div class="ic">📋</div><h3>Drop the skeleton</h3><p>A tiny script writes a blank questionnaire into the company folder, only if one isn't there yet.</p></div>
+      <div class="card"><div class="ic">🗣️</div><h3>The team fills it</h3><p>Real bylines only: the company team byline, the founder, any named authors. Never machine-drafted.</p></div>
+      <div class="card"><div class="ic">🔒</div><h3>Seed is preserved</h3><p>Once answered, the file is a seed. A rerun reuses it and never overwrites the real answers.</p></div>
+      <div class="card"><div class="ic">🎯</div><h3>Downstream routes it</h3><p>Later, the research bundler reads this file and picks the one byline each article carries.</p></div>
+    </div>
+    <div class="note orange"><span class="tag">The one rule that governs everything</span>
+      <p style="margin:8px 0 0;"><b>Every byline is a real person or the real company team — never invented.</b></p>
+      <ul style="margin:8px 0 0;">
+        <li>Default to the <b>company-wide byline</b> (e.g. "Testlify Team"), not an individual writer.</li>
+        <li>Use a named individual only where it genuinely fits: founder/CEO for strategy and vision, or when a client explicitly asks.</li>
+        <li>The byline is <b>not</b> the reader persona. The persona is who the article is written <i>to</i>; the byline is who wrote it. Different files, kept separate.</li>
+        <li>E-E-A-T comes from real credentials, cited data, and the bio — never a fabricated personal story.</li>
+      </ul>
     </div>
   </div>
 </section>
 
-<section id="steps">
+<section id="words" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">03</span>Three steps</h2>
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">Six terms this page leans on. Each is defined once here, then reused with the same wording.</p>
+    <div class="define"><b>Byline</b> — the author name a published article carries, plus the credential line beside it (name · role · author-page or email). It is what renders in the article's author box.</div>
+    <div class="define"><b>Reader persona</b> — who the article is written <i>to</i> (the audience's depth and angle). A different builder owns it. The byline is who wrote it; the two are never mixed.</div>
+    <div class="define"><b>E-E-A-T</b> — Experience, Expertise, Authoritativeness, Trustworthiness: Google's signal that real, credentialed people stand behind the content. A true author with a real bio is one lever for it.</div>
+    <div class="define"><b>Auto-route</b> — three fixed rules, applied in order, that decide which byline a given article gets with no one being asked. Founder topics go to the founder; everything else goes to the team byline.</div>
+    <div class="define"><b>Seed</b> — a human-filled file that later steps read but never regenerate. Once the team answers the questionnaire, <span class="file">voices.md</span> is a seed: a rerun of the builder reuses it and leaves it untouched.</div>
+    <div class="define"><b>First-hand markers</b> — the honest experience phrases a byline may use ("Across the teams we work with…"). For the company byline they are collective ("we"), never a fabricated individual memory.</div>
+  </div>
+</section>
+
+<section id="arch">
+  <div class="wrap">
+    <h2><span class="num">03</span>The architecture — code sets up, humans decide</h2>
+    <p class="sub">This builder is deliberately thin. One small script does the plumbing; a person supplies every judgment. It runs no LLM of its own — the AI decision that uses this file happens downstream (see §07).</p>
+    <table>
+      <tr><th style="width:32%;">File</th><th>What it is</th><th>What it does</th></tr>
+      <tr>
+        <td><span class="file">scripts/instantiate.py</span></td>
+        <td>the plumbing script</td>
+        <td>
+          Drops the blank questionnaire into the company folder, once.
+          <ul>
+            <li>Reads <span class="file">projects/&lt;company&gt;/company.json</span> for the brand name.</li>
+            <li>Writes <span class="file">voices.md</span> <b>only if it is missing</b>.</li>
+            <li>If it already exists, prints "seed, never overwritten" and exits cleanly.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="file">templates/voices.md</span></td>
+        <td>the questionnaire skeleton</td>
+        <td>
+          The blank shape the team fills.
+          <ul>
+            <li>Carries a <span class="t-tag">{{BRAND}}</span> token, swapped for the real brand on instantiate.</li>
+            <li>Each row is an <i>"ask the team"</i> prompt (author page, tone, person, bio…).</li>
+            <li>Lives in the tools tree with <b>no real names</b> in it.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="file">voices.md</span> <span class="pill">output</span></td>
+        <td>the answered seed</td>
+        <td>
+          The filled byline set for one company.
+          <ul>
+            <li>Lands at <span class="file">projects/&lt;company&gt;/01-brand-context/voices.md</span>.</li>
+            <li>Holds the real people, so it never lives in the shared tools tree.</li>
+            <li>Read by the write phase; never regenerated.</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <h3>Who does what</h3>
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">⚙️</div>
+        <h3>The script</h3>
+        <div class="role">structure only — no judgment</div>
+        <div class="mem no"><span class="lbl">Handles</span>
+          <ul>
+            <li>Look up the brand from <span class="file">company.json</span>.</li>
+            <li>Swap <span class="t-tag">{{BRAND}}</span> into the skeleton.</li>
+            <li>Write the file only when it is missing (protects the seed).</li>
+          </ul>
+        </div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">🧑</div>
+        <h3>The team</h3>
+        <div class="role">every judgment — the real answers</div>
+        <div class="mem yes"><span class="lbl">Decides</span>
+          <ul>
+            <li>Which real people and team byline exist.</li>
+            <li>Each byline's tone, person, markers, bio, and credential line.</li>
+            <li>The auto-route rules (confirmed, in order).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="note"><span class="tag">Run it</span>
+      <p style="margin:8px 0 0;">One command instantiates the skeleton for a company; then a human fills it:</p>
+      <div class="files"><span class="k">command</span><span class="file">COMPANY=&lt;slug&gt; python3 scripts/instantiate.py</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="pipeline" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">04</span>The full pipeline</h2>
+    <p class="sub">One code step, then a four-question interview, then the seed is left alone. Steps 1–4 are questions to the team — this is a questionnaire, not an automated run.</p>
     <div class="flow">
+
+      <div class="phase">Set up</div>
+      <div class="step"><div class="dot">0</div><div class="step-body">
+        <h3>Instantiate the questionnaire <span class="pill code">code</span></h3>
+        <p>The script copies the skeleton into the company folder, swapping in the brand name — but only if no <span class="file">voices.md</span> is there yet, so an answered seed is never clobbered.</p>
+        <ul>
+          <li><span class="fn">runs:</span> <span class="file">scripts/instantiate.py</span> — reads <span class="file">company.json</span>, reads <span class="file">templates/voices.md</span></li>
+          <li><span class="fn">writes:</span> <span class="file">projects/&lt;company&gt;/01-brand-context/voices.md</span> (skeleton) <span class="xref"><a href="#arch" style="text-decoration:none;color:inherit;">↑ §03</a></span></li>
+        </ul>
+      </div></div>
+
+      <div class="phase">Ask the team (human)</div>
       <div class="step"><div class="dot">1</div><div class="step-body">
-        <h3>Get the real bylines</h3>
-        <p>Default company byline, founder voice (if any), and any named authors — with display names, credentials, tone, and E-E-A-T one-liners.</p>
+        <h3>Get the default company byline <span class="pill">human</span></h3>
+        <p>Always exists. Record the display name, a live author-page URL, tone, person rules, collective first-hand markers, a one-line E-E-A-T bio, and the byline line. No personal email — it is a team byline.</p>
+        <ul><li><span class="fn">fills:</span> the "Default byline" table in <span class="file">voices.md</span> <span class="xref"><a href="#anatomy" style="text-decoration:none;color:inherit;">↓ §05 — the fields</a></span></li></ul>
       </div></div>
+
       <div class="step"><div class="dot">2</div><div class="step-body">
-        <h3>Confirm auto-route rules</h3>
-        <p>Which byline goes on which topics (founder for strategy/vision, company byline for everything else, named authors only when explicitly requested).</p>
+        <h3>Get the founder / leadership voice <span class="pill">human</span></h3>
+        <p>Usually one named exec whose byline leadership, vision, strategy, and press pieces carry. Record name and role, what it is used for, tone, per-format person rules, real first-hand markers, and the credential line (name · role · email · LinkedIn).</p>
+        <ul><li><span class="fn">fills:</span> the "Voice 1 — founder / leadership" table</li></ul>
       </div></div>
+
       <div class="step"><div class="dot">3</div><div class="step-body">
-        <h3>Save voices.md</h3>
-        <p>Byline set + auto-route rules. No extra sections.</p>
+        <h3>Get any other named authors <span class="pill">human</span></h3>
+        <p>Zero or more real content/HR authors, available for explicit attribution only. One table each: name and role, what it is used for, tone, person, credential line. These are never auto-routed to.</p>
+        <ul><li><span class="fn">fills:</span> the "Named individual bylines" tables</li></ul>
       </div></div>
+
+      <div class="step"><div class="dot">4</div><div class="step-body">
+        <h3>Confirm the auto-route rules <span class="pill">human</span></h3>
+        <p>Confirm the three ordered rules that decide a byline with no asking: founder topics/formats to the founder, everything else to the team byline, named individuals only on explicit request.</p>
+        <ul><li><span class="fn">fills:</span> the "Auto-route rules" block <span class="xref"><a href="#route" style="text-decoration:none;color:inherit;">↓ §06 — the rules</a></span></li></ul>
+      </div></div>
+
+      <div class="phase">Preserve</div>
+      <div class="step"><div class="dot">5</div><div class="step-body">
+        <h3>The seed is kept <span class="pill code">code</span></h3>
+        <p>The filled file is the source of truth. Rerunning the builder detects it exists and leaves it exactly as the team wrote it — no minimum-typing table, no "when to ask" section, just the bylines plus the three rules.</p>
+        <ul><li><span class="fn">seed:</span> <span class="file">projects/&lt;company&gt;/01-brand-context/voices.md</span> — reused, never regenerated</li></ul>
+      </div></div>
+
     </div>
   </div>
 </section>
 
-<section id="example" class="alt">
+<section id="anatomy">
   <div class="wrap">
-    <h2><span class="num">04</span>Real example — one byline</h2>
-    <p class="sub">From Testlify voices.md (the default byline):</p>
-    <table class="v-table" style="margin:16px 0;">
-      <tr><th style="width:40%;">Field</th><th>Value</th></tr>
-      <tr><td class="name">Display name</td><td>Testlify Team</td></tr>
-      <tr><td class="name">Tone</td><td>Data-led, practitioner, clear. First-person-plural for experience markers.</td></tr>
-      <tr><td class="name">First-hand markers</td><td>"Across the teams we work with…", "A pattern we keep seeing in hiring data…"</td></tr>
-      <tr><td class="name">Bio (E-E-A-T)</td><td>"Testlify's editorial team covers talent assessment and modern recruiting, grounded in product data and primary research."</td></tr>
-      <tr><td class="name">Byline line</td><td>Testlify Team | Testlify | testlify.com/author/testlify/</td></tr>
-    </table>
-  </div>
-</section>
-
-<section id="route">
-  <div class="wrap">
-    <h2><span class="num">05</span>Auto-route rules — applied in order</h2>
-    <p class="sub">No asking — these rules decide the byline automatically. A named individual is only used when explicitly requested.</p>
-    <div style="overflow-x:auto;">
-    <table class="route-table">
-      <tr><th>Priority</th><th>Rule</th><th>Byline</th></tr>
-      <tr><td><b>1</b></td><td>Topic is leadership / vision / CEO / strategy-at-scale / future-of, OR format is press release / white paper / PR pitch</td><td>Founder or leadership voice</td></tr>
-      <tr><td><b>2</b></td><td>Everything else</td><td>Company-wide default byline</td></tr>
-      <tr><td><b>3</b></td><td>User explicitly asks for a named individual author</td><td>That named individual (e.g. Yashika, Aparna) — use only when asked</td></tr>
-    </table>
+    <h2><span class="num">05</span>Byline anatomy — the fields a byline carries</h2>
+    <p class="sub">Every byline table holds the same fields, so the write phase can render an author box from any of them. These are the fields the default company byline fills.</p>
+    <div class="cardbox">
+      <div class="field"><div class="fk">Display name</div><div class="fv">The author name shown on the article. For the default, the <b>team</b> name, not a person.</div></div>
+      <div class="field"><div class="fk">Author page</div><div class="fv">A live author-page URL, <b>verified to load</b> — the link the byline points at.</div></div>
+      <div class="field"><div class="fk">Tone</div><div class="fv">How this voice sounds, in one line (e.g. data-led, practitioner, clear).</div></div>
+      <div class="field"><div class="fk">Person</div><div class="fv">The grammatical person rules: second person for how-tos, first-person-plural for shared-experience markers.</div></div>
+      <div class="field"><div class="fk">First-hand markers</div><div class="fv">The honest experience phrases this voice may use — collective for the team byline, never an invented personal memory.</div></div>
+      <div class="field"><div class="fk">Bio (E-E-A-T)</div><div class="fv">A one-line credential bio: what the author covers and the real grounding behind it.</div></div>
+      <div class="field"><div class="fk">Byline line</div><div class="fv">The assembled attribution string: <span class="t-tag">Name | Company | author-page</span>.</div></div>
     </div>
-    <div class="note orange"><strong>Never auto-route to a named individual</strong>
-    Even if a recruiter-focused how-to looks perfect for Yashika, it still goes to the default byline unless the client specifically says "use Yashika for this." Named authors are opt-in, not automatic.</div>
+    <h3>Worked example — Testlify's default byline <span class="pill free">real</span></h3>
+    <p class="sub" style="margin-bottom:14px;">Lifted from the real <span class="file">projects/testlify/01-brand-context/voices.md</span>:</p>
+    <table>
+      <tr><th style="width:34%;">Field</th><th>Value</th></tr>
+      <tr><td class="n">Display name</td><td>Testlify Team</td></tr>
+      <tr><td class="n">Author page</td><td><span class="t-tag">testlify.com/author/testlify/</span> (verified live)</td></tr>
+      <tr><td class="n">Tone</td><td>Data-led, practitioner, clear. Brand first-person-plural.</td></tr>
+      <tr><td class="n">Person</td><td>Second person ("you", "your team") for how-tos; first-person-plural ("we", "our team") for experience markers.</td></tr>
+      <tr><td class="n">First-hand markers</td><td>"Across the teams we work with…", "A pattern we keep seeing in hiring data…" (collective, never a fabricated individual memory).</td></tr>
+      <tr><td class="n">Bio (E-E-A-T)</td><td>"Testlify's editorial team covers talent assessment, skills-based hiring, and modern recruiting, grounded in product data and primary HR research."</td></tr>
+      <tr><td class="n">Byline line</td><td><span class="t-tag">Testlify Team | Testlify | testlify.com/author/testlify/</span></td></tr>
+    </table>
   </div>
 </section>
 
-<footer><div class="wrap">Voices · Content Machine Stage 0 · Built once per company. Determines the author box and byline auto-route for every article.</div></footer>
+<section id="route" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">06</span>Auto-route rules — applied in order</h2>
+    <p class="sub">No one is asked. These three rules, in this order, decide the byline for any article. A named individual is used only when explicitly requested. The rows below are Testlify's real, filled rules.</p>
+    <table>
+      <tr><th style="width:14%;">Priority</th><th>If the article is…</th><th>Byline</th></tr>
+      <tr><td><span class="n">1</span></td><td>leadership / vision / CEO / strategy-at-scale / future-of — <b>or</b> a press release / white paper / PR pitch</td><td><b>Abhishek Shah</b> — founder voice</td></tr>
+      <tr><td><span class="n">2</span></td><td>everything else</td><td><b>Testlify Team</b> — the company-wide default</td></tr>
+      <tr><td><span class="n">3</span></td><td>a piece where the user <b>explicitly asks</b> for a named author</td><td>that named individual (e.g. Yashika, Aparna) — never automatic</td></tr>
+    </table>
+    <div class="note orange"><span class="tag">Never auto-route to a named individual</span>
+      <p style="margin:8px 0 0;">Even if a recruiter-focused how-to looks perfect for Yashika, it still goes to the default team byline unless the client specifically says "use Yashika for this." Named authors are opt-in, not automatic — that is exactly why rule 2 catches "everything else" before any individual is reached.</p>
+    </div>
+  </div>
+</section>
+
+<section id="sits">
+  <div class="wrap">
+    <h2><span class="num">07</span>Output &amp; where it sits</h2>
+    <p class="sub">One file, built once per company, that a later engine reads on every article it bundles.</p>
+    <div class="stats">
+      <div class="stat"><div class="big">1</div><div class="cap">file produced — <span class="file">voices.md</span></div></div>
+      <div class="stat"><div class="big">once</div><div class="cap">per company (a preserved seed)</div></div>
+      <div class="stat"><div class="big">$0</div><div class="cap">no API, no LLM in this builder</div></div>
+    </div>
+    <div class="grid">
+      <div class="card"><h3>The byline set</h3><p>Default company byline, founder voice, and any named individual bylines — each with the fields an author box needs.</p><span class="file">01-brand-context/voices.md</span></div>
+      <div class="card"><h3>The three auto-route rules</h3><p>The ordered decision for which byline a piece gets, embedded in the same file so the router has one source of truth.</p><span class="file">…/voices.md</span></div>
+    </div>
+    <div class="note orange"><span class="tag">Where this sits in the bigger machine</span>
+      <p style="margin:8px 0 0;">This is builder 6 of Layer 01 (Brand Context). Its output is consumed downstream, in Layer 03's <b>research-conductor</b>:</p>
+      <ul style="margin:8px 0 0;">
+        <li><b>Upstream:</b> nothing depends on it. The team's answers are the input; it reads <span class="file">company.json</span> only for the brand name.</li>
+        <li><b>Downstream:</b> the research bundler <span class="file">14-research-conductor/scripts/bundle.py</span> reads <span class="file">voices.md</span> and, via the prompt <span class="file">pick-author.md</span>, applies these auto-route rules to pick <b>one</b> byline per article. That pick is the single AI step that touches this file — it runs on <b>Claude or Codex</b>, no API key.</li>
+        <li><b>What it renders:</b> the bundle's cover sheet gets an "Author byline" line — the chosen display name plus its byline line — and points the writer back to <span class="file">voices.md</span> for the full voice detail.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">Voices · Brand Context Layer 01, Builder 6 · architecture overview · instantiate the skeleton → the team fills real bylines → the seed is preserved → the research bundler routes one byline per article.</div></footer>
 </body>
 </html>

@@ -10,199 +10,503 @@
     --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
     --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
     --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
     --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
   }
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}
   body{margin:0; background:var(--paper); color:var(--ink);
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
-    line-height:1.62; font-size:16px; -webkit-font-smoothing:antialiased;}
-  .wrap{max-width:960px; margin:0 auto; padding:0 28px;}
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
 
-  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:56px 0 38px;}
-  .kicker{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
-    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:4px 11px; border-radius:100px; margin-bottom:16px;}
-  h1{font-size:clamp(26px,5vw,42px); line-height:1.1; margin:0 0 12px; letter-spacing:-.02em;}
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
   h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
-  .lede{font-size:18px; color:var(--muted); max-width:660px; margin:0;}
+  .lede{font-size:19px; color:var(--muted); max-width:730px; margin:0;}
 
-  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.93); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
-  nav .wrap{display:flex; gap:3px; flex-wrap:wrap; padding:9px 0;}
-  nav a{font-size:12.5px; font-weight:600; color:var(--muted); text-decoration:none; padding:5px 10px; border-radius:100px;}
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
   nav a:hover{color:var(--ink); background:var(--wash);}
 
-  section{padding:48px 0; border-bottom:1px solid var(--line);}
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
   section:last-of-type{border-bottom:none;}
   section.alt{background:var(--cream);}
-  h2{font-size:24px; letter-spacing:-.01em; margin:0 0 4px;}
-  h2 .num{color:var(--orange); margin-right:9px;}
-  .sub{color:var(--muted); margin:0 0 22px; font-size:16px; max-width:680px;}
-  h3{font-size:16px; margin:20px 0 6px;}
-  p{margin:0 0 10px;}
-  ul{margin:5px 0 10px; padding-left:20px;}
-  li{margin:4px 0; font-size:15px; color:var(--muted);}
-  li b{color:var(--ink);}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:730px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;} .mem ul{margin:6px 0 6px;}
 
-  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:11.5px; background:#fff;
-    border:1px solid var(--orange-soft); border-radius:5px; padding:2px 6px; color:var(--ink);}
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .note.red{border-left-color:var(--red-ink); background:var(--red);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+  .tag.r{color:var(--red-ink);}
 
-  .note{border-radius:11px; padding:13px 16px; margin:12px 0; font-size:14.5px; border:1px solid;}
-  .note.yellow{background:var(--cream); border-color:var(--line); border-left:4px solid var(--yellow);}
-  .note.orange{background:var(--wash); border-color:var(--orange-soft); border-left:4px solid var(--orange);}
-  .note strong{display:block; font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; margin-bottom:3px;}
-  .note.yellow strong{color:var(--orange);}
-  .note.orange strong{color:var(--orange);}
+  /* step flow */
+  .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
+  .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:18px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow); text-align:center; line-height:1;}
+  .step-body h3{margin:4px 0 4px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
+  .step-body ul{margin:6px 0 4px; color:var(--muted); font-size:14.5px;} .step-body ul .file{font-size:11.5px;}
+  .step-body ul .fn{color:var(--ink); font-weight:600;}
+  .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
+  .xref:hover{background:var(--orange-soft);}
+  .phase{font-size:12px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin:26px 0 2px;}
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.gate{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.code{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .pill.eng{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
+  .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
+  .files .k{font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
 
-  .flow{margin-top:10px;}
-  .step{display:flex; gap:15px; position:relative; padding:10px 0;}
-  .step:not(:last-child)::after{content:""; position:absolute; left:21px; top:48px; bottom:-10px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
-  .dot{flex:none; width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-weight:800;
-    font-size:15px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow);}
-  .step-body{padding-top:2px;}
-  .step-body h3{margin:0 0 3px; font-size:15.5px;}
-  .step-body p{margin:0; color:var(--muted); font-size:14.5px;}
+  /* cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .grid.four{grid-template-columns:repeat(4,1fr);}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+  .card .file{margin-top:10px; display:inline-block;}
 
-  /* verdicts */
-  .verdicts{display:flex; flex-direction:column; gap:10px; margin:14px 0;}
-  .verdict{border:1px solid var(--line); border-radius:11px; padding:14px 18px; background:var(--paper); box-shadow:var(--shadow); display:flex; gap:16px; align-items:flex-start;}
-  .verdict .emoji{font-size:22px; flex:none; margin-top:1px;}
-  .verdict h3{margin:0 0 3px; font-size:15.5px;}
-  .verdict p{margin:0; font-size:14px; color:var(--muted);}
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11.5px;}
+  td b{color:var(--ink);}
+  td .n{font-family:ui-monospace,Menlo,monospace; font-weight:700; color:var(--orange);}
+  .v{font-weight:700; font-size:12px; padding:2px 9px; border-radius:100px; white-space:nowrap;}
+  .v.covered{color:var(--green-ink); background:var(--green); border:1px solid var(--green-line);}
+  .v.partial{color:#a6791b; background:var(--yellow-soft); border:1px solid var(--yellow);}
+  .v.build{color:#b25a00; background:var(--orange-soft); border:1px solid var(--orange);}
+  .v.no{color:var(--red-ink); background:var(--red); border:1px solid var(--red-line);}
+  .t-tag{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; font-weight:700; padding:1px 7px; border-radius:5px; background:var(--wash); border:1px solid var(--orange-soft);}
 
-  /* columns filled */
-  .col-table{width:100%; border-collapse:collapse; margin:12px 0; border-radius:11px; overflow:hidden; border:1px solid var(--line); box-shadow:var(--shadow); font-size:14px;}
-  .col-table th{text-align:left; padding:8px 12px; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); background:var(--cream); border-bottom:2px solid var(--line);}
-  .col-table td{padding:8px 12px; border-bottom:1px solid var(--line); vertical-align:top;}
-  .col-table tr:last-child td{border-bottom:none;}
-  .col-table .col{font-weight:600; font-size:13px; white-space:nowrap;}
-  .col-table .stage{font-size:12px; color:var(--orange); font-weight:600;}
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
 
-  footer{padding:32px 0 52px; color:var(--muted); font-size:13px;}
+  /* two-column compare */
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--blue); border:2px solid var(--blue-line);}
+  .agent.answ .cap{background:var(--orange-soft); border:2px solid var(--orange);}
+  .agent h3{margin:0 0 2px; font-size:19px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+  .mem{font-size:14px; padding:9px 12px; border-radius:10px; margin-top:9px;}
+  .mem.yes{background:var(--green); border:1px solid var(--green-line);}
+  .mem.no{background:var(--blue); border:1px solid var(--blue-line);}
+  .mem .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
+  .mem.yes .lbl{color:var(--green-ink);} .mem.no .lbl{color:var(--blue-ink);}
+
+  /* headline stats */
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  /* engine chain (the retrieval funnel) */
+  .chain{display:flex; flex-wrap:wrap; align-items:stretch; gap:8px; margin:22px 0;}
+  .link{flex:1; min-width:120px; background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:12px 10px; text-align:center; box-shadow:var(--shadow);}
+  .link .em{font-size:20px;} .link b{display:block; font-size:13px; margin:4px 0 1px;} .link small{color:var(--muted); font-size:11.5px;}
+  .link.pick{background:var(--wash); border-color:var(--orange-soft);}
+  .link.out{background:var(--green); border-color:var(--green-line);}
+  .chev{align-self:center; color:var(--orange-soft); font-weight:800; font-size:18px;}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three,.grid.four{grid-template-columns:1fr;} .chev{display:none;} }
 </style>
 </head>
 <body>
 
 <header>
   <div class="wrap">
-    <span class="kicker">Asset Engine · D2</span>
+    <span class="kicker">Asset Engine · Method 5</span>
     <h1>Reuse Check — <span class="hl">do we already have this asset?</span></h1>
-    <p class="lede">Before building anything, every idea in the merged pool is checked against existing
-    content. RAG finds the closest pages; an LLM reads them and decides what to do.</p>
+    <p class="lede">Before building anything, every idea in the merged pool is checked against the company's
+    existing content. A semantic search (RAG) finds the closest pages; an LLM reads them and decides whether to
+    build brand-new, build-from-parts, improve an existing page, or that we already have it. Here's exactly how
+    it works, script by script — and why the same logic now vets research spokes too.</p>
   </div>
 </header>
 
 <nav>
   <div class="wrap">
-    <a href="#concept">Concept</a>
-    <a href="#columns">What it fills</a>
-    <a href="#stages">The three stages</a>
+    <a href="#idea">The idea</a>
+    <a href="#words">The words</a>
+    <a href="#fills">What it fills</a>
+    <a href="#pipeline">Pipeline</a>
+    <a href="#retrieval">RAG retrieval</a>
     <a href="#verdicts">The four verdicts</a>
-    <a href="#review">Review output</a>
+    <a href="#shared">Shared reuse brain</a>
+    <a href="#output">Output</a>
   </div>
 </nav>
 
-<section id="concept">
+<section id="idea">
   <div class="wrap">
-    <h2><span class="num">01</span>Why this runs before building</h2>
-    <p class="sub">Two payoffs: don't rebuild something we already own, and don't research from scratch
-    when related pages can be reused.</p>
-    <p>We use a two-step process: first, a semantic search finds the existing pages most likely to be relevant to each idea — ranking them by meaning, not just keyword overlap. Then an AI agent actually reads those pages and makes the judgment call. The search step can only say "these look similar." It can't decide whether to rebuild, improve, or start fresh — that requires reading and thinking, which is the agent's job.</p>
-    <div class="note yellow"><strong>Inputs</strong>
-    <b>clubbed-ideas.csv</b> — the merged pool from all three methods, with the reuse columns empty.<br>
-    <b>content-database.csv</b> — must include the Full content column. Every existing page is indexed from this file.</div>
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">Two payoffs, in one check: don't rebuild something we already own, and don't research from
+    scratch when related pages can be reused as raw material.</p>
+    <div class="grid four">
+      <div class="card"><div class="ic">🧭</div><h3>Find the neighbours</h3>
+      <p>Turn the idea into meaning-numbers and pull the closest existing pages by meaning, not keyword overlap. This is the "RAG" step.</p></div>
+      <div class="card"><div class="ic">🔁</div><h3>Rerank for precision</h3>
+      <p>A second model re-reads the top 40 pages against the idea and keeps the genuinely relevant 15.</p></div>
+      <div class="card"><div class="ic">🧑‍⚖️</div><h3>Read &amp; judge</h3>
+      <p>An LLM reads the top candidates' full text and returns exactly one of four verdicts, plus its reasoning.</p></div>
+      <div class="card"><div class="ic">🧠</div><h3>One shared brain</h3>
+      <p>The same retrieve-then-judge logic now also vets research spokes — one reuse brain, two callers.</p></div>
+    </div>
+    <div class="note orange"><span class="tag">The one rule</span>
+      <p style="margin:6px 0 4px;"><b>The read decides, not the score — and the verdict is decided exactly once.</b></p>
+      <ul style="margin:0;">
+        <li>Retrieval only <b>shortlists</b> ("these look similar"). It never decides build-vs-reuse.</li>
+        <li>The judging LLM is handed the candidates' <b>full text only, never the match scores</b> — so the verdict comes purely from reading and the score can't bias it.</li>
+        <li>The verdict is written <b>once</b>, in Stage 3, and carried forward — never re-decided in a later step.</li>
+      </ul>
+    </div>
+    <div class="note"><span class="tag">Inputs</span>
+      <ul style="margin:6px 0 0;">
+        <li><span class="file">clubbed-ideas.csv</span> — the merged pool from all three idea methods (from <span class="file">4-merge</span>), with its six reuse columns empty.</li>
+        <li><span class="file">content-database.csv</span> — every existing page, and it <b>must</b> carry the <b>Full content</b> column (from <span class="file">00-foundation/1-site-catalogue</span>). Only pages with real body text can be reuse candidates.</li>
+      </ul>
+    </div>
   </div>
 </section>
 
-<section id="columns" class="alt">
+<section id="words" class="alt">
   <div class="wrap">
-    <h2><span class="num">02</span>What it fills in clubbed-ideas.csv</h2>
-    <p class="sub">Six columns, empty at the start, filled across the three stages.</p>
-    <table class="col-table">
-      <tr><th>Column</th><th>What it holds</th><th>Stage</th></tr>
-      <tr><td class="col">RAG candidates</td><td>The top 15 closest existing pages by semantic match, each with a relevance score</td><td class="stage">Stage 2</td></tr>
-      <tr><td class="col">Topic pages we own</td><td>Every existing page whose title or URL contains the asset's topic keywords — complete list, no omissions</td><td class="stage">Stage 2</td></tr>
-      <tr><td class="col">Reference links</td><td>De-duped union of the two columns above — the fetch list for content creation</td><td class="stage">Stage 2</td></tr>
-      <tr><td class="col">Reuse verdict</td><td>🟢 Already have it · 🟡 Improve existing · 🟠 Build from parts · 🔴 Brand new</td><td class="stage">Stage 3</td></tr>
-      <tr><td class="col">Chosen links</td><td>The specific page(s) the verdict points to — drawn from RAG candidates only</td><td class="stage">Stage 3</td></tr>
-      <tr><td class="col">Why</td><td>A short paragraph citing what the page has or lacks that drove the verdict</td><td class="stage">Stage 3</td></tr>
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">Five terms this page leans on. Each defined once, in plain language, then used the same way throughout.</p>
+    <div class="define"><b>Embedding</b> — text turned into "meaning-numbers" (a long list of numbers, a <i>vector</i>). Two pieces of text that mean similar things get similar numbers, so "closeness in meaning" becomes "closeness of numbers" a computer can measure. We use Voyage's <span class="file">voyage-4-large</span> model.</div>
+    <div class="define"><b>Content-index</b> — every existing page embedded ahead of time and saved to disk, so search is instant. Built <b>once per company</b> and only refreshed when the content database changes. Each page is stored as <b>two</b> vectors: one for its title, one for its body.</div>
+    <div class="define"><b>RAG</b> (retrieval-augmented generation) — find the most relevant existing pages <i>first</i>, then hand that real text to the LLM, so it judges from what we actually own rather than from memory.</div>
+    <div class="define"><b>Rerank</b> (a "cross-encoder") — a second model (<span class="file">rerank-2.5</span>) that reads the query and a candidate page <i>together</i> and scores true relevance far better than raw vector distance. Vector search casts a wide net cheaply; the reranker does the precision work.</div>
+    <div class="define"><b>Blended dense score</b> — how the two vectors combine into one ranking: <b>score = α·(query↔title) + (1−α)·(best query↔body chunk)</b>, with <b>α = 0.5</b>. Splitting title from body stops a long article's body from drowning out its title signal.</div>
+    <div class="note orange"><span class="tag">Two different "titles" — don't confuse them</span>
+      <p style="margin:6px 0 0;">The <b>page Title</b> (from content-database.csv) is what we embed <i>into</i> the index in Stage 1. The <b>Asset title</b> (the idea's name, the <span class="file">Asset</span> column) is the <i>search query</i> in Stage 2. Same word, opposite sides of the search.</p></div>
+  </div>
+</section>
+
+<section id="fills">
+  <div class="wrap">
+    <h2><span class="num">03</span>What it fills, and who does the work</h2>
+    <p class="sub">The reuse check fills six columns of <span class="file">clubbed-ideas.csv</span> in place — three per stage, so every value traces to exactly one owner.</p>
+    <table>
+      <tr><th>Column</th><th>What it holds</th><th>Owner</th></tr>
+      <tr><td><b>RAG candidates</b></td><td>The top 15 closest existing pages, each as <span class="t-tag">Title — url (rerank score)</span></td><td><span class="v build">Stage 2</span></td></tr>
+      <tr><td><b>Topic pages we own</b></td><td>The <b>complete</b> list of pages on the asset's topic (deterministic keyword catalogue) — no omissions</td><td><span class="v build">Stage 2</span></td></tr>
+      <tr><td><b>Reference links</b></td><td>De-duped union of the two link sets above — the fetch list for content creation</td><td><span class="v build">Stage 2</span></td></tr>
+      <tr><td><b>Reuse verdict</b></td><td>🟢 Already have it · 🟡 Improve existing · 🟠 Build from parts · 🔴 Brand new</td><td><span class="v no">Stage 3</span></td></tr>
+      <tr><td><b>Chosen links</b></td><td>The specific page(s) the verdict points to — a <b>subset of RAG candidates</b>, never an invented URL</td><td><span class="v no">Stage 3</span></td></tr>
+      <tr><td><b>Why</b></td><td>A short paragraph citing what the page(s) have or lack that drove the verdict</td><td><span class="v no">Stage 3</span></td></tr>
     </table>
-    <div class="note orange"><strong>Links only — no page content stored inline</strong>
-    The full text of every page already lives in content-database.csv. Storing it again per idea would balloon the file. Stage 3 fetches page text on demand by URL when it needs to read a candidate.</div>
+    <div class="note orange"><span class="tag">Links only — no page content stored inline</span>
+      <p style="margin:6px 0 0;">The full text of every page already lives in <span class="file">content-database.csv</span>. Storing ~15–40 full pages per idea would balloon the file to tens of MB for nothing, so the clubbed sheet keeps <b>only links</b>. Any step that needs the actual text (Stage 3, and later content creation) fetches it on demand by URL. The content lives in exactly one place.</p></div>
+
+    <h3>Two hands: mechanical code vs. the judging LLM</h3>
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">⚙️</div>
+        <h3>Mechanical</h3>
+        <div class="role">code + a free-tier API — deterministic, repeatable</div>
+        <div class="mem yes"><span class="lbl">Does</span>
+          <ul>
+            <li>Builds the two-vector content-index (Voyage embeddings).</li>
+            <li>Blended dense retrieve → <span class="file">rerank-2.5</span> → top 15.</li>
+            <li>Deterministic topic catalogue (keyword match, no AI).</li>
+            <li>Enforces <b>Chosen links ⊆ candidates</b> — drops any invented URL.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">🧑‍⚖️</div>
+        <h3>Judgment</h3>
+        <div class="role">the LLM — reads and decides</div>
+        <div class="mem no"><span class="lbl">Decides</span>
+          <ul>
+            <li>Reads the top candidates' <b>full text</b>.</li>
+            <li>Runs three tests (topic · format · angle) on each.</li>
+            <li>Picks exactly one of the four verdicts.</li>
+            <li>Writes the <b>Why</b> — evidence, not the score.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h3>The files</h3>
+    <table>
+      <tr><th>File</th><th>Role</th></tr>
+      <tr><td><span class="file">run_reuse_check.py</span></td><td>The orchestrator. Runs the two steps in order; resumable via <span class="file">--redo</span> / <span class="file">--reindex</span> / <span class="file">--from</span>. Pure sequencing, no logic.</td></tr>
+      <tr><td><span class="file">step_1_retrieve.py</span></td><td>Stages 1+2 — build/load the index, blended retrieve → rerank, topic catalogue. Fills the first three columns.</td></tr>
+      <tr><td><span class="file">step_2_judge.py</span></td><td>Stage 3 — parallel LLM verdict per idea, reading candidate text fetched by URL. Fills the last three columns.</td></tr>
+      <tr><td><span class="file">scripts/config.py</span></td><td>Every knob as a named, env-tunable constant (the RAG values are proven — do not retune).</td></tr>
+      <tr><td><span class="file">_shared/voyage.py</span></td><td>The one Voyage client for the whole asset engine — <span class="file">voyage-4-large</span> embeddings + <span class="file">rerank-2.5</span>, one key.</td></tr>
+      <tr><td><span class="file">prompts/reuse-judge.md</span> · <span class="file">prompts/topic-keywords.md</span></td><td>The two prompts — the judge verdict, and the topic-keyword labeller — kept out of code, diffable.</td></tr>
+    </table>
   </div>
 </section>
 
-<section id="stages">
+<section id="pipeline" class="alt">
   <div class="wrap">
-    <h2><span class="num">03</span>The three stages</h2>
+    <h2><span class="num">04</span>The full pipeline</h2>
+    <p class="sub">Three stages across two step scripts. The orchestrator runs them in order and each writes its columns before the next reads them.</p>
+
+    <div class="phase">Phase 1 · Index (once per company)</div>
     <div class="flow">
       <div class="step"><div class="dot">1</div><div class="step-body">
-        <h3>Build the search index — once per company</h3>
-        <p>Every page in the content database is turned into a searchable index. Each page is indexed in two ways: once from its title alone, and once from its full body text. The reason for splitting them is that a long article body can overwhelm the title signal — indexing the title separately ensures a page about "hiring metrics" is always findable even if the body covers dozens of other topics. This index is built once and only needs to be refreshed when the content database changes.</p>
-      </div></div>
-      <div class="step"><div class="dot">2</div><div class="step-body">
-        <h3>Find the top 15 closest pages per idea</h3>
-        <p>For each idea, we search the index using the asset title as the query. The distinct angle is deliberately left out — it contains competitor and gap language that would steer the search in the wrong direction. The search casts a wide net of 40 candidates, then a second pass re-reads those 40 more carefully and cuts it down to the 15 most genuinely relevant. Alongside this, a simple keyword scan finds every existing page whose title or URL contains the asset's topic term — this gives a complete, no-omissions list of everything we own on that topic. Both sets of links are written into the CSV.</p>
-      </div></div>
-      <div class="step"><div class="dot">3</div><div class="step-body">
-        <h3>LLM judges each idea — one agent per idea, in parallel</h3>
-        <p>Each sub-agent receives the asset title, its distinct angle and format, plus the full text of its top candidate pages fetched on demand. It runs three tests on each candidate — topic match, format match, angle match — then returns one verdict, the relevant links, and a short explanation. No similarity scores are shown to the agent; the verdict comes purely from reading.</p>
+        <h3>Build the two-vector content-index<span class="pill free">free API</span><span class="pill code">code</span></h3>
+        <p>Every page with real body text is embedded twice — once from its <b>title</b> alone (one clean fingerprint), once from its <b>body</b> (chunked for long pages). Splitting them stops a long body from drowning out the title signal (the v1 failure). Built once; refreshed only on content change.</p>
+        <ul>
+          <li><span class="fn">step_1_retrieve.py</span> · <span class="fn">voyage.py</span> → writes <span class="file">_work/content-index/title/</span> + <span class="file">_work/content-index/body/</span> (resumable, atomic <span class="file">.npy</span> saves)</li>
+          <li><a class="xref" href="#retrieval">↓ 05 — the retrieval, in detail</a></li>
+        </ul>
       </div></div>
     </div>
+
+    <div class="phase">Phase 2 · Retrieve (per idea, in parallel)</div>
+    <div class="flow">
+      <div class="step"><div class="dot">2</div><div class="step-body">
+        <h3>Blended retrieve → rerank → top 15<span class="pill free">free API</span><span class="pill code">code</span></h3>
+        <p>For each idea, the query = its <b>Asset title only</b> (angle and parentheticals stripped). Embed it, take the top 40 pages by blended dense score, then rerank those 40 with <span class="file">rerank-2.5</span> and keep the 15 genuinely relevant ones. Runs 8 ideas in parallel.</p>
+        <ul>
+          <li><span class="fn">step_1_retrieve.py</span> → writes the <b>RAG candidates</b> column</li>
+          <li><a class="xref" href="#retrieval">↓ 05 — the 40→15 funnel + settled config</a></li>
+        </ul>
+      </div></div>
+      <div class="step"><div class="dot">3</div><div class="step-body">
+        <h3>The topic catalogue — smart label, dumb match<span class="pill free">LLM label</span><span class="pill code">code match</span></h3>
+        <p>A precision tool (RAG) can't guarantee completeness, so a second, deterministic column lists <b>every</b> page on the topic. One LLM pass tags each asset with 1–3 distinctive keywords; a keyword matcher (light stemming, foreign-language pages excluded, over-generic keywords dropped) then lists every English page whose title/URL contains one.</p>
+        <ul>
+          <li><span class="fn">step_1_retrieve.py</span> · <span class="fn">topic-keywords.md</span> → writes <b>Topic pages we own</b> + <b>Reference links</b> (the de-duped union)</li>
+        </ul>
+      </div></div>
+    </div>
+
+    <div class="phase">Phase 3 · Judge (per idea, in parallel)</div>
+    <div class="flow">
+      <div class="step"><div class="dot">4</div><div class="step-body">
+        <h3>LLM verdict per idea<span class="pill free">LLM · free CLI</span></h3>
+        <p>Each idea is judged against the top 7 of its RAG candidates. Their page text is <b>not</b> stored in the sheet — it's fetched on demand by URL from content-database.csv and pasted into the judge prompt. The LLM runs three tests and returns one verdict, the links, and why. 6 judges run at once; an unparseable reply is re-asked, then left for resume.</p>
+        <ul>
+          <li><span class="fn">step_2_judge.py</span> · <span class="fn">reuse-judge.md</span> → writes <b>Reuse verdict</b> · <b>Chosen links</b> · <b>Why</b></li>
+          <li><a class="xref" href="#verdicts">↓ 06 — the four verdicts + the three tests</a></li>
+        </ul>
+      </div></div>
+    </div>
+
+    <div class="note"><span class="tag">Resumable by design</span>
+      <p style="margin:6px 0 0;">The clubbed CSV is edited in place, so it can't double as the resume marker. Instead each step drops a sentinel (<span class="file">.stage2-retrieved.done</span>, <span class="file">.stage3-judged.done</span>) and both steps are internally resumable too — the index tracks its own state, retrieved rows are skipped, and every landed verdict is appended to <span class="file">reuse-judge-results.jsonl</span>. A crash resumes without repeating a paid embed or a judged idea.</p></div>
+  </div>
+</section>
+
+<section id="retrieval">
+  <div class="wrap">
+    <h2><span class="num">05</span>Deep dive — the RAG retrieval</h2>
+    <p class="sub">A wide-net-then-narrow funnel. Cast broadly for recall, then let the reranker keep the truly relevant few. These settings are proven and frozen.</p>
+
+    <div class="chain">
+      <div class="link pick"><div class="em">🔤</div><b>Query</b><small>Asset title only, angle + parentheticals stripped</small></div>
+      <div class="chev">›</div>
+      <div class="link"><div class="em">📚</div><b>Top 40</b><small>blended dense score across ~9,968 pages</small></div>
+      <div class="chev">›</div>
+      <div class="link"><div class="em">🔁</div><b>Rerank</b><small>rerank-2.5 reads query + page</small></div>
+      <div class="chev">›</div>
+      <div class="link out"><div class="em">✅</div><b>Top 15</b><small>stored; the judge later reads the top 7</small></div>
+    </div>
+
+    <div class="note"><span class="tag">Why the title-only query</span>
+      <p style="margin:6px 0 4px;">The Distinct angle is a competitor-gap / workflow-note paragraph — appending it drags the search toward tangents. Even the title's own parenthetical qualifier is noise.</p>
+      <ul style="margin:0;">
+        <li>In testing, keeping <i>"… Benchmark Report (Adoption, AI Cheating, …)"</i> pushed the right page from rank #1 down to #21.</li>
+        <li>Foreign-language duplicates (URLs whose first path segment is an ISO code — <span class="t-tag">/de/</span>, <span class="t-tag">/fr/</span>) are excluded so they don't waste result slots.</li>
+      </ul>
+    </div>
+
+    <h3>The settled config <span class="pill">proven — do not retune</span></h3>
+    <p class="muted" style="font-size:14.5px;">Ported verbatim from the prototype <span class="file">rag.py</span>; every value is a named constant in <span class="file">config.py</span>.</p>
+    <table>
+      <tr><th>Knob</th><th>Value</th><th>Meaning</th></tr>
+      <tr><td>embed model</td><td><span class="file">voyage-4-large</span></td><td>Best general embedder on the free tier (from <span class="file">voyage.py</span>).</td></tr>
+      <tr><td>rerank model</td><td><span class="file">rerank-2.5</span></td><td>Best reranker on the free tier (from <span class="file">voyage.py</span>).</td></tr>
+      <tr><td><span class="file">ALPHA</span></td><td><span class="n">0.5</span></td><td>Title weight in the blended score α·title + (1−α)·best-body-chunk.</td></tr>
+      <tr><td><span class="file">N_RETRIEVE</span></td><td><span class="n">40</span></td><td>Dense candidates cast before reranking (recall).</td></tr>
+      <tr><td><span class="file">TOPK</span></td><td><span class="n">15</span></td><td>RAG candidate links kept per idea (was 7 — widened so reviewers see more of the neighbourhood).</td></tr>
+      <tr><td><span class="file">JUDGE_READ_WINDOW</span></td><td><span class="n">7</span></td><td>How many of those 15 the Stage-3 judge actually reads.</td></tr>
+      <tr><td><span class="file">CHUNK_CHARS</span> / <span class="file">OVERLAP</span></td><td><span class="n">4800</span> / <span class="n">600</span></td><td>Body chunking for long pages.</td></tr>
+      <tr><td><span class="file">RERANK_DOC_CHARS</span></td><td><span class="n">4000</span></td><td>Per-candidate truncation for the rerank call.</td></tr>
+      <tr><td><span class="file">JUDGE_DOC_CHARS</span></td><td><span class="n">12000</span></td><td>Page text handed to the judge per candidate.</td></tr>
+    </table>
+
+    <h3>What we tested and rejected <span class="pill">real — 49-asset eval</span></h3>
+    <p class="muted" style="font-size:14.5px;">Measured on 49 sampled assets against independent LLM relevance labels (2026-06-30). The baseline — <b>full-title query → blended dense top-40 → rerank-2.5</b> — won every time. Don't re-try these.</p>
+    <table>
+      <tr><th>Idea tried</th><th>Result</th><th>Why it lost</th></tr>
+      <tr><td><b>Best-chunk rerank</b> — feed the reranker the page's winning chunk, not its head</td><td><span class="v no">worse</span></td><td>A pillar page's best passage is an even stronger keyword match, so it promoted broad landing pages and buried focused blogs. Page-head is better.</td></tr>
+      <tr><td><b>Short query</b> — cut the title at the colon</td><td><span class="v no">overfit</span></td><td>Won the 2 hand-picked examples, lost across 50.</td></tr>
+      <tr><td><b>LLM-crafted short query</b> — rewrite the title to a clean topic</td><td><span class="v no">worse</span></td><td>Full title beat it: recall@15 <span class="n">0.644</span> vs <span class="n">0.530</span>, precision <span class="n">0.81</span> vs <span class="n">0.69</span>, head-to-head <span class="n">28–6</span>. The title's qualifiers help the embedder.</td></tr>
+      <tr><td><b>BM25 + RRF hybrid</b> — add lexical search, fuse rankings</td><td><span class="v no">no gain</span></td><td>No measurable improvement; added moving parts.</td></tr>
+      <tr><td><b>MMR diversity re-rank</b></td><td><span class="v no">no gain</span></td><td>Re-introduced off-topic pages without lifting recall.</td></tr>
+    </table>
+    <div class="note"><span class="tag">The one still-open gap</span>
+      <p style="margin:6px 0 0;">Judges marked ~19 relevant pages per asset; the baseline surfaces ~64% of them at top-15 (recall@15 ≈ <span class="n">0.64</span>). Since query changes are a proven dead-end, the only lever left for recall is <b>showing more results</b> (top-20/25) — and only if A/B'd on the same 49-asset harness.</p></div>
   </div>
 </section>
 
 <section id="verdicts" class="alt">
   <div class="wrap">
-    <h2><span class="num">04</span>The four verdicts</h2>
-    <p class="sub">Applied top-down — first match wins.</p>
-    <div class="verdicts">
-      <div class="verdict">
-        <div class="emoji">🟢</div>
-        <div>
-          <h3>Already have it</h3>
-          <p>A page that already delivers this asset — same topic, same format, and already has the distinct angle at good quality. Building again would duplicate. <i>Rare — the angle is usually new.</i></p>
-        </div>
+    <h2><span class="num">06</span>Deep dive — the four verdicts</h2>
+    <p class="sub">The judge runs three tests on each candidate, then picks one verdict top-down — first match wins.</p>
+    <div class="note"><span class="tag">The three tests (judged by what you READ, not keyword overlap)</span>
+      <ul style="margin:6px 0 0;">
+        <li><b>Topic test</b> — is the page actually about this asset's subject, not just sharing a word?</li>
+        <li><b>Format test</b> — same shape? A text article is NOT a calculator / quiz / index / data report / template.</li>
+        <li><b>Angle test</b> — does it already carry the asset's distinct angle?</li>
+      </ul>
+    </div>
+    <table>
+      <tr><th>Verdict</th><th>When it fires</th><th>Doesn't count</th></tr>
+      <tr>
+        <td><span class="v covered">🟢 Already have it</span></td>
+        <td>Same topic + same format + already has the angle, at good quality. Building again would just duplicate. <b>Rare</b> — the angle is usually new.</td>
+        <td>Same topic but a text article when the asset is a tool → Improve; same topic but missing the angle → Improve.</td>
+      </tr>
+      <tr>
+        <td><span class="v partial">🟡 Improve existing</span></td>
+        <td>ONE page is clearly this same topic but weaker — missing the angle, wrong/old format, thin, outdated. Building means upgrading THAT page.</td>
+        <td>The page already has the angle → Already have it; only scattered bits across pages → Build from parts.</td>
+      </tr>
+      <tr>
+        <td><span class="v build">🟠 Build from parts</span></td>
+        <td>No single page is this asset, but ≥2 candidates each hold reusable material (data, definitions, sections). Build new, reuse the research.</td>
+        <td>One page is basically the asset → Improve; nothing useful → Brand new.</td>
+      </tr>
+      <tr>
+        <td><span class="v no">🔴 Brand new</span></td>
+        <td>No candidate is genuinely relevant — none really covers the topic, or only touches it superficially. Start from scratch.</td>
+        <td>Any candidate that actually covers the topic or feeds the build → Improve / Build from parts.</td>
+      </tr>
+    </table>
+
+    <h3>What the run actually produced <span class="pill">real — Testlify</span></h3>
+    <p class="muted" style="font-size:14.5px;">The full Testlify pool, 1,892 ideas judged against a ~9,968-page content-index:</p>
+    <div class="stats">
+      <div class="stat"><div class="big">1,062</div><div class="cap">🟠 Build from parts</div></div>
+      <div class="stat"><div class="big">769</div><div class="cap">🟡 Improve existing</div></div>
+      <div class="stat"><div class="big">57</div><div class="cap">🔴 Brand new</div></div>
+      <div class="stat"><div class="big">4</div><div class="cap">🟢 Already have it</div></div>
+    </div>
+    <div class="note orange"><span class="tag">"Already have it" is genuinely rare — as designed</span>
+      <p style="margin:6px 0 0;">It fired on just <b>4 of 1,892 ideas (0.2%)</b>. The judge is told to be strict — a page missing the asset's angle OR its format is at most 🟡 Improve, never 🟢 — and the numbers bear it out. Most ideas land on <b>Build from parts</b>: we rarely own the exact asset, but we almost always own reusable research for it.</p></div>
+
+    <h3>Example output <span class="pill">illustrative</span></h3>
+    <table>
+      <tr><th>Asset</th><th>Verdict</th><th>Why</th></tr>
+      <tr><td>Free DISC Personality Test (interactive, shareable result)</td><td><span class="v covered">🟢 Already have it</span></td><td>We already publish exactly this — a free, interactive DISC test with a shareable result. Same topic, format, and angle, good quality. Point internal links at the existing page instead.</td></tr>
+      <tr><td>Bad-Hire Cost Calculator (per-role)</td><td><span class="v partial">🟡 Improve existing</span></td><td>Same topic, but the page is a 700-word text explainer with a static example — no interactive calculator, no per-role breakdown. Upgrade this page rather than start fresh.</td></tr>
+      <tr><td>The Cross-Industry Skills-Gap Index</td><td><span class="v build">🟠 Build from parts</span></td><td>No single page is an index, but "in-demand skills" + "skills gap explained" cover the data and definitions — reuse them as research instead of starting from zero.</td></tr>
+      <tr><td>Annual State-of-Hiring Benchmark Report</td><td><span class="v no">🔴 Brand new</span></td><td>Nothing in our library holds original benchmark data — candidates only touch hiring tangentially. Build from scratch.</td></tr>
+    </table>
+  </div>
+</section>
+
+<section id="shared">
+  <div class="wrap">
+    <h2><span class="num">07</span>The shared reuse brain</h2>
+    <p class="sub">This retrieve-then-judge logic is no longer only the asset engine's. The research phase's spoke machinery now calls the exact same brain to vet each new keyword.</p>
+    <p>When the research conductor mints a <b>spoke</b> (a supporting keyword under a chosen pillar topic), it needs to know the same thing this engine asks: <i>do we already have content like this?</i> Rather than a crude string-match, it reuses this engine's machinery through a single-idea version, <span class="file">14-research-conductor/scripts/reuse_one.py</span>.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>What it shares</h3>
+        <p>Same three pieces, not a re-implementation:</p>
+        <ul style="margin:8px 0 0; font-size:14px;">
+          <li>The <span class="file">_shared/voyage.py</span> stack (voyage-4-large + rerank-2.5).</li>
+          <li>The <b>same</b> 02 content-index (title vectors of every existing page).</li>
+          <li>The <b>same</b> <span class="file">reuse-judge.md</span> prompt and its four verdicts.</li>
+        </ul>
       </div>
-      <div class="verdict">
-        <div class="emoji">🟡</div>
-        <div>
-          <h3>Improve existing</h3>
-          <p>One page is clearly the same topic but weaker — missing the angle, wrong format, thin, or outdated. Building means upgrading that page, not creating a second one. Example: asset is a cost calculator; we have a 700-word text article on the same topic. Upgrade it.</p>
-        </div>
+      <div class="card">
+        <h3>How the spoke uses it</h3>
+        <p>In <span class="file">spoke_idea.py</span>, minting is a small loop:</p>
+        <ul style="margin:8px 0 0; font-size:14px;">
+          <li>Mint a spoke idea (title + angle) from the keyword.</li>
+          <li>Run <span class="file">reuse_one.check()</span> against existing content.</li>
+          <li>If the verdict is <b>Already have it</b>, re-angle and mint again — up to <b>3 tries</b> — until it finds a genuinely different angle.</li>
+          <li>Any other verdict (Brand new / Build from parts / Improve existing) proceeds, carrying the real verdict forward.</li>
+        </ul>
       </div>
-      <div class="verdict">
-        <div class="emoji">🟠</div>
-        <div>
-          <h3>Build from parts</h3>
-          <p>No single page is this asset, but two or more candidates each hold reusable material — data, definitions, sections — worth pulling from. Build new, reuse the research.</p>
-        </div>
+    </div>
+    <div class="note orange"><span class="tag">Where it sits</span>
+      <p style="margin:6px 0 0;">One reuse brain, two callers. The <b>asset engine</b> (this page) judges ~1,900 ideas in a batch; the <b>spoke pipeline</b> judges one minted keyword at a time with a lighter read window (title vectors only, top 6, 3,000 chars). Same models, same prompt, same verdicts — so "do we already own this?" is answered identically everywhere.</p></div>
+  </div>
+</section>
+
+<section id="output" class="alt">
+  <div class="wrap">
+    <h2><span class="num">08</span>Output, review &amp; where it sits</h2>
+    <p class="sub">The engine fills the six columns in place and adds nothing else to the file. The finished pool is then shipped for review in two forms.</p>
+    <div class="stats">
+      <div class="stat"><div class="big">6</div><div class="cap">columns filled, in place</div></div>
+      <div class="stat"><div class="big">2 steps</div><div class="cap">retrieve → judge</div></div>
+      <div class="stat"><div class="big">$0</div><div class="cap">Voyage free tier + free CLI</div></div>
+      <div class="stat"><div class="big">once</div><div class="cap">index built per company</div></div>
+    </div>
+
+    <h3>Always ship these two review formats</h3>
+    <div class="grid">
+      <div class="card">
+        <h3>A self-contained HTML viewer</h3>
+        <p>One offline file with all ideas inline. It:</p>
+        <ul style="margin:8px 0 0; font-size:14px;">
+          <li>Shows at-a-glance columns; each row expands to the full reasoning and clickable link groups (RAG candidates with scores, Topic pages, Chosen links, Proof URLs).</li>
+          <li>Filters by source method, brand fit, verdict, format.</li>
+          <li>Lets a reviewer mark Keep / Maybe / Cut + notes per idea, exportable to CSV.</li>
+        </ul>
       </div>
-      <div class="verdict">
-        <div class="emoji">🔴</div>
-        <div>
-          <h3>Brand new</h3>
-          <p>Nothing relevant. No candidate genuinely covers the topic or feeds the build. Start from scratch.</p>
-        </div>
+      <div class="card">
+        <h3>A GitHub Pages link</h3>
+        <p>The same HTML published so a reviewer opens one URL, nothing to install.</p>
+        <ul style="margin:8px 0 0; font-size:14px;">
+          <li>Personal account, randomised non-descriptive repo name.</li>
+          <li>Public repo (free-plan Pages) — treat the URL as trusted-reviewers-only.</li>
+          <li>Taken down when the review window closes.</li>
+        </ul>
       </div>
+    </div>
+    <div class="note"><span class="tag">Always update in place</span>
+      <p style="margin:6px 0 0;">The viewer is a mandatory output of every run. Once its link is shared, every re-run pushes to the <b>same repo and URL</b> — never a second one. Keep the push clone inside the project (<span class="file">clubbed/output/_pages-repo/</span>), never in <span class="file">/tmp</span>. Record the live URL + repo + clone path so the next session updates the right one.</p></div>
+
+    <div class="note orange"><span class="tag">Where this sits in the bigger machine</span>
+      <ul style="margin:6px 0 0;">
+        <li><b>Upstream</b> — <span class="file">4-merge</span> hands over the clubbed pool; <span class="file">00-foundation</span> supplies content-database.csv with Full content.</li>
+        <li><b>This engine</b> — the last gate before build: it decides, per idea, brand-new vs. build-from-parts vs. improve vs. already-have, and lists the pages to reuse.</li>
+        <li><b>Downstream</b> — reviewers cut the pool; content creation fetches each idea's <b>Reference links</b> as research; and the <b>research phase's spokes</b> borrow this exact reuse brain.</li>
+      </ul>
     </div>
   </div>
 </section>
 
-<section id="review">
-  <div class="wrap">
-    <h2><span class="num">05</span>Review output</h2>
-    <p class="sub">The finished CSV is delivered in two forms for review — always both, not just the raw file.</p>
-    <ul>
-      <li><b>A self-contained HTML viewer</b> — one offline file with all ideas inline, filterable by source method, brand fit, verdict, and format. Each row expands to show the full reasoning and all links clickable. Reviewers can mark Keep / Maybe / Cut per idea and export their decisions.</li>
-      <li><b>A GitHub Pages link</b> — the same HTML published so a reviewer opens one URL with nothing to install. Hosted on a personal account with a randomised repo name. When the review window closes, the repo comes down.</li>
-    </ul>
-    <div class="note yellow"><strong>Always update in place</strong>
-    Once the link is shared, every re-run pushes to the same repo and URL — never create a second one. The shared link must stay live and consistent through the review period.</div>
-  </div>
-</section>
-
 <footer>
-  <div class="wrap">Reuse Check · Asset Engine D2 · RAG retrieval + LLM judgment on the merged idea pool.</div>
+  <div class="wrap">Reuse Check · Asset Engine Method 5 · embed the idea → retrieve the closest pages → rerank → an LLM reads and returns one of four verdicts, decided once. The shared reuse brain for both the asset engine and research spokes.</div>
 </footer>
 </body>
 </html>

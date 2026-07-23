@@ -232,7 +232,7 @@
     <table>
       <tr><th>Source</th><th>Gloss</th><th>Verbatim</th><th>Tag</th></tr>
       <tr><td>STORM chunk</td><td>LLM-written from the whole chunk</td><td>the chunk text (keeps its citation markers); <b>checked to exist in the source</b></td><td><span class="t-tag">storm</span></td></tr>
-      <tr><td>Our own page</td><td>LLM-written from the section text</td><td><b>code-sliced</b> from the page — 100% faithful, never LLM-copied</td><td><span class="t-tag">ownpage</span></td></tr>
+      <tr><td>Our own page</td><td>LLM-written from the section text</td><td><b>code-sliced</b> from the page body — 100% faithful, never LLM-copied</td><td><span class="t-tag">ownpage</span></td></tr>
       <tr><td>Competitor H2 (from the brief)</td><td>the heading itself</td><td>— (none)</td><td><span class="t-tag">competitor</span></td></tr>
       <tr><td>Gap we can own (from the brief)</td><td>the gap phrase itself</td><td>— (none)</td><td><span class="t-tag">gap</span></td></tr>
       <tr><td>PAA / AI question (from the brief)</td><td>the question itself</td><td>— (none)</td><td><span class="t-tag">question</span></td></tr>
@@ -280,8 +280,9 @@
       <tr>
         <td><span class="file">config.py</span><br><span class="muted" style="font-size:12.5px;">settings hub</span></td>
         <td>Every path + tunable in one place: the source folders, the drop threshold, the keyword cut-offs
-          (<span class="file">KD &lt; 30</span>, <span class="file">volume ≥ 100</span>), retry counts, and the
-          crash-safe save helpers. Company is one setting.</td>
+          (<span class="file">KD &lt; 40</span>, <span class="file">volume ≥ 100</span>), retry counts, and the
+          crash-safe save helpers. Company is one setting (and its brand facts come from
+          <span class="file">company.json</span>, not hand-typed here).</td>
       </tr>
       <tr>
         <td><span class="file">llm.py</span><br><span class="muted" style="font-size:12.5px;">the AI caller</span></td>
@@ -290,9 +291,13 @@
       </tr>
       <tr>
         <td><span class="file">build_structure.py</span><br><span class="muted" style="font-size:12.5px;">orchestrator</span></td>
-        <td>The one command you run. Sequences all the steps, prints <span class="file">== Step N ==</span>, and is
-          <b>resumable</b> — it reuses the big cached outputs (cards, drops, persona) unless a
-          <span class="file">--reharvest</span> / <span class="file">--refilter</span> flag forces a redo.</td>
+        <td>The one command you run — pure sequencing, prints <span class="file">== Step N ==</span>, fully <b>resumable</b>:
+          <ul>
+            <li>Reuses the big harvest/filter outputs (cards · drops · persona) unless <span class="file">--reharvest</span> / <span class="file">--refilter</span>.</li>
+            <li>Snapshots the forward state after every later stage to <span class="file">_stage/&lt;tag&gt;.json</span>, so a crash at Step 8 no longer throws away the <b>paid</b> Step 6 keyword lookup; <span class="file">--redo</span> recomputes steps 2-9.</li>
+            <li><span class="file">--hub &lt;pillar&gt;</span> nests a spoke's output under its pillar (<span class="file">out/&lt;hub&gt;/&lt;slug&gt;/</span>); empty hub stays flat, so pillar articles are unchanged.</li>
+            <li><span class="file">--provider</span> (claude|codex) + <span class="file">--model</span> thread through to every judgment step.</li>
+          </ul></td>
       </tr>
     </table>
     <p class="muted" style="font-size:14.5px;">Each step below has its own script and (where it thinks) its own prompt
@@ -315,7 +320,7 @@
         <p>Read every source in its own small call (so nothing truncates) and emit cards with continuous ids.</p>
         <ul>
           <li><span class="fn"><span class="file">harvest_storm.py</span></span> — splits each STORM dossier (hub + every gap-fill iteration) by section, one call per section; resolves each citation marker to a real URL.</li>
-          <li><span class="fn"><span class="file">harvest_ownpages.py</span></span> — fetches our relevant pages live, keeps the real content sections (skips nav/footer/CTA), slices the verbatim by code.</li>
+          <li><span class="fn"><span class="file">harvest_ownpages.py</span></span> — reads each relevant page's body from the <b>site catalogue</b> (<span class="file">content-database.csv</span>, headings already inline; live fetch only for a URL the catalogue lacks), keeps the real content sections (skips nav/footer/CTA), slices the verbatim by code.</li>
           <li><span class="fn"><span class="file">harvest_brief.py</span></span> — lifts competitor H2s, gaps-we-can-own, and questions straight from the brief.</li>
           <li><span class="fn"><span class="file">cards.json</span></span> — every card, numbered continuously. A 0-card section is retried, then flagged loudly — never silently dropped.</li>
         </ul>
@@ -329,6 +334,17 @@
           <li><span class="fn"><span class="file">pick_persona.py</span></span> → <span class="file">persona.json</span> (<span class="file">{name, lens, why}</span>). Falls back to a generic "practitioner, not academic" reader if no library exists.</li>
         </ul></div></div>
     </div>
+
+    <div class="note"><span class="tag">Spokes build even when they aren't in clubbed</span><br>
+    <span class="file">harvest_ownpages.py</span> pulls a page's internal-link candidates from
+    <span class="file">clubbed-ideas.csv</span>. A minted spoke — or any asset whose title doesn't match a clubbed
+    row — has no row there. It used to <span class="file">sys.exit("asset not found")</span> and kill the whole
+    build. Now it warns and returns an empty list instead:
+    <ul>
+      <li>Clubbed own-pages are <b>enrichment</b> (internal-link candidates), not a hard input.</li>
+      <li>The structure's real content is the <b>STORM cards</b> — so no own-pages just means fewer internal links, not a dead build.</li>
+      <li>Spokes now build fine, and real articles are robust to any title mismatch.</li>
+    </ul></div>
 
     <div class="phase">Phase B · Prune</div>
     <div class="flow">
@@ -391,7 +407,7 @@
       <div class="step"><div class="dot">6</div><div class="step-body">
         <h3>Target keyword per H2 <span class="pill paid">paid · DataForSEO</span></h3>
         <p>For each section: an LLM makes 1–3 seed phrases → DataForSEO returns real phrases containing them → keep
-        only <b>KD &lt; 30 and volume ≥ 100</b> → an LLM picks the best fit. Differentiator/gap sections with no
+        only <b>KD &lt; 40 and volume ≥ 100</b> → an LLM picks the best fit. Differentiator/gap sections with no
         qualifying keyword are left keyword-free — that's correct.</p>
         <ul>
           <li><span class="fn"><span class="file">keywords.py</span></span> — a keyword + KD + volume on each H2. Skip with <span class="file">--skip-keywords</span>.</li>
@@ -517,7 +533,7 @@
 
     <div class="grid three">
       <div class="card"><div class="ic">🔑</div><h3>One keyword per section</h3><p>A fresh DataForSEO lookup per
-        section keeps only <b>KD &lt; 30, volume ≥ 100</b>, then picks the best fit. Safe because sections don't overlap.</p></div>
+        section keeps only <b>KD &lt; 40, volume ≥ 100</b>, then picks the best fit. Safe because sections don't overlap.</p></div>
       <div class="card"><div class="ic">🚫</div><h3>Don't force keywords</h3><p>A differentiator or gap section with
         no qualifying keyword is left keyword-free. Some of our best sections have no search volume — and that's
         correct. Forcing one recreates the thin-keyword problem.</p></div>
@@ -541,16 +557,22 @@
         <span class="file">structure-&lt;slug&gt;.html</span></div>
     </div>
 
-    <div class="note"><span class="tag">It's a menu, not the final article</span><br>
-    This produces the <b>complete, organized menu</b> of possible sections — it is <b>not</b> trimmed to the final
-    4–7 H2s and carries no intro, TL;DR, or close. The write phase selects which sections ship and does the wording;
-    the SEO shape travels alongside as guidance for the writer to apply, not something pre-applied here.</div>
+    <div class="note"><span class="tag">A comprehensive research menu, not the final article</span><br>
+    This produces the <b>complete, organized menu</b> of possible sections — big on purpose. On a real run the hub
+    <span class="file">the-real-cost-recruitment-2026</span> rendered <b>16 candidate H2 sections</b> (real). That's the
+    design:
+    <ul>
+      <li>The <b>research phase stays exhaustive</b> — capture everything the topic could cover.</li>
+      <li>The <b>write phase trims</b> to the final 4–7 H2s that fit DataForSEO's live-SERP <b>word band</b>, and does the wording.</li>
+      <li>The menu carries no intro, TL;DR, or close; the SEO shape travels alongside in <span class="file">write_guidance</span> for the writer to apply, not something pre-applied here.</li>
+    </ul></div>
 
     <div class="note orange"><span class="tag">Where research-structure sits in the bigger machine</span><br>
     This is the <b>last step of the research phase</b> — the pivot that turns all the gathered research into the
     article's spine. It reads STORM's evidence (hub + gap iterations), our own pages, and the DataForSEO brief, and
     hands <span class="file">/write</span> a blueprint so complete that the writer never has to hunt for a fact, a
-    link, a keyword, or a structure.</div>
+    link, a keyword, or a structure. It runs <b>once per asset</b> — a pillar article (flat output), or a spoke
+    nested under its pillar with <span class="file">--hub</span>.</div>
   </div>
 </section>
 
