@@ -1,0 +1,29 @@
+[
+  {
+    "row_id": 3273,
+    "brand_fit": "CORE",
+    "angle_gap": "Titled '2024 trends' but most of the body is a history detour (Alpha Army Test, personality/cognitive/hard/soft-skill definitions) rather than forward-looking predictions, and its headline stat \u2014 64.2% of people lying on resumes \u2014 is a 2022 StandOutCV survey now stale.",
+    "asset": "The Pre-Employment Screening Shifts Actually Happening Now, Not Just the AI Buzzwords",
+    "distinct_angle": "Drops the assessment-history detour and the 2022 resume-lying stat, replacing them with genuinely forward-looking predictions backed by current public adoption data.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3424,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Five of the six 'predictions' are about general remote-work culture (hybrid preference, office-return pushback, employee loneliness) \u2014 only one thin paragraph ties remote work to skills-based hiring \u2014 and its stats (2022 Accenture/EPI data, '18% remote as of early 2023') are now years stale.",
+    "asset": "Screening Remote and Hybrid Candidates Fairly Now That a Resume Can't Prove Location or Skill",
+    "distinct_angle": "Narrows the broad future-of-work sprawl down to the one thread this page only touches in passing \u2014 assessing distributed candidates on skill instead of resume \u2014 with current-year remote-hiring figures.",
+    "tool_escalation": "",
+    "g_notes": "broader subject than our core (general remote/hybrid work culture); narrowed to the skills-based hiring thread the page barely covers"
+  },
+  {
+    "row_id": 3438,
+    "brand_fit": "CORE",
+    "angle_gap": "The policy timeline stops at April 2024 (Chance to Compete Act 'under Senate consideration', ACCESS Act 'just introduced'), so it never reports what actually happened to either bill, how OPM's 2210 IT job-series rollout went, or how the administration change since has affected the push \u2014 a reader today gets no resolution.",
+    "asset": "What Actually Happened to the Federal Government's Skills-Based Hiring Push",
+    "distinct_angle": "Picks up exactly where this page's timeline stops in April 2024 and reports the real outcomes of the Chance to Compete Act, ACCESS Act, and OPM's IT job-series rollout using current public records.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

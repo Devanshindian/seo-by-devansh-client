@@ -1,0 +1,103 @@
+{
+  "slice_id": "w25",
+  "clusters": [
+    {
+      "pillar": "Pre-Employment Testing Fundamentals: What It Is & Why It Matters",
+      "intent": "informational",
+      "spokes": [
+        "an-hr-guide-to-pre-employment-testing",
+        "decoding-pre-employment-assessments-purpose",
+        "pre-employment-assessments-what-you-need-to-know",
+        "what-is-pre-hire-assessment",
+        "should-pre-hire-tests-be-mandatory-for-all",
+        "pros-and-cons-of-pre-hire-assessments",
+        "ways-pre-hire-assessments-can-help-when-not-hiring"
+      ]
+    },
+    {
+      "pillar": "Types of Pre-Employment & Pre-Hire Tests",
+      "intent": "informational",
+      "spokes": [
+        "common-types-of-pre-employment-tests-and-their-uses",
+        "types-of-pre-employment-tests",
+        "types-of-pre-employment-tests-for-candidate-evaluation",
+        "types-of-pre-hire-testing",
+        "pre-employment-emotional-intelligence-test-a-must-have-tool-for-hiring"
+      ]
+    },
+    {
+      "pillar": "Running an Effective Pre-Employment Testing Process",
+      "intent": "informational",
+      "spokes": [
+        "effective-strategies-for-pre-employment-testing",
+        "how-to-conduct-effective-pre-employment-assessments",
+        "mastering-the-art-of-pre-employment-assessment-methods",
+        "pre-employment-tests-strategies-and-tips",
+        "pre-employment-tests-for-hiring-success",
+        "elevate-your-hiring-process-with-pre-employment-testing"
+      ]
+    },
+    {
+      "pillar": "Pre-Employment Testing Software, Trends & Compliance",
+      "intent": "mixed",
+      "spokes": [
+        "guide-to-implement-pre-employment-testing-software",
+        "top-10-pre-hire-assessment-platforms-for-enterprises",
+        "customized-recruitment-and-pre-employment-solutions",
+        "ai-pre-hire-assessments",
+        "emerging-trends-in-pre-employment-testing",
+        "5-benefits-of-eeoc-compliant-pre-employment-testing"
+      ]
+    },
+    {
+      "pillar": "Pre-Hire Assessments by Industry (A–H)",
+      "intent": "commercial",
+      "spokes": [
+        "pre-hire-assessments-for-automotive-industry",
+        "pre-hire-assessments-for-aviation-industry",
+        "pre-hire-assessments-for-construction-industry",
+        "pre-hire-assessments-for-consulting-industry",
+        "pre-hire-assessments-for-e-commerce-industry",
+        "pre-hire-assessments-for-education-industry",
+        "pre-hire-assessments-for-engineering-industry",
+        "pre-hire-assessments-for-entertainment-and-media-industry",
+        "pre-hire-assessments-for-financial-services-industry",
+        "financial-industry-pre-hire-tests",
+        "pre-hire-assessments-for-food-and-beverage-industry",
+        "pre-hire-assessments-for-healthcare-industry",
+        "healthcare-industry-hiring-with-pre-hire-tests",
+        "pre-hire-assessments-for-hospitality-maximizing-recruitment-success-in-the-dynamic-industry"
+      ]
+    },
+    {
+      "pillar": "Pre-Hire Assessments by Industry (H–T)",
+      "intent": "commercial",
+      "spokes": [
+        "pre-hire-assessments-for-hr-and-recruitment-industry",
+        "pre-hire-assessments-for-information-technology-industry",
+        "pre-hire-assessments-for-legal-industry",
+        "pre-hire-assessments-for-manufacturing-industry",
+        "pre-hire-assessments-for-marketing-and-advertising-industry",
+        "pre-hire-assessments-for-nonprofit-sector",
+        "pre-hire-assessments-for-pharmaceuticals-industry",
+        "pre-hire-assessments-for-retail-industry",
+        "pre-hire-assessments-for-telecommunications-industry",
+        "pre-hire-assessments-for-transportation-and-logistics-industry",
+        "saas-industry-hiring-with-pre-hire-tests"
+      ]
+    },
+    {
+      "pillar": "Pre-Hire Assessments by Role & Hiring Scenario",
+      "intent": "commercial",
+      "spokes": [
+        "pre-hire-assessments-for-call-centers",
+        "pre-hire-assessments-for-sales",
+        "pre-hire-assessments-for-technicians",
+        "pre-hire-assessments-for-warehouse-operatives",
+        "pre-hire-assessment-for-graduate-hiring",
+        "pre-hire-assessments-for-high-volume-hiring"
+      ]
+    }
+  ],
+  "orphans": []
+}

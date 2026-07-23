@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2438,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee assistance program is a benefits/wellness offering (payroll/benefits administration), outside Testlify's assessment and hiring world"
+  },
+  {
+    "row_id": 2472,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 SHRM's proprietary competency framework for its own HR-professional certification exam, not a tool for assessing job candidates"
+  },
+  {
+    "row_id": 2594,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 bonus tax treatment is a compensation/payroll question, outside Testlify's assessment world"
+  },
+  {
+    "row_id": 2603,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 discretionary vs. nondiscretionary bonus is a compensation/payroll classification question, outside Testlify's assessment world"
+  },
+  {
+    "row_id": 2608,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The page's own definitional content never rendered in the crawl (a blocked embed), leaving only the byline and four unrelated news teasers (four-day workweek, upskilling demand) \u2014 a reader gets zero explanation of how AI is actually used in the workplace, let alone in hiring.",
+    "asset": "How AI Actually Screens, Interviews, and Scores Candidates Today",
+    "distinct_angle": "Where SHRM's page has no working definition or example of workplace AI (the content block is broken), ours explains AI's real hiring-specific uses \u2014 resume screening, chat/voice/video interviewing, skills scoring \u2014 each with a concrete example, filling the gap this page leaves open.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: general 'AI in the workplace' (productivity, four-day workweek, upskilling) to AI in hiring/recruiting specifically"
+  }
+]

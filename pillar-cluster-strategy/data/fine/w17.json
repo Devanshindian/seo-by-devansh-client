@@ -1,0 +1,150 @@
+{
+  "slice_id": "w17",
+  "clusters": [
+    {
+      "pillar": "Dealing with a Bad Hire: Signs, Cost & Recovery",
+      "intent": "informational",
+      "spokes": [
+        "how-to-identify-a-bad-hire",
+        "how-to-prevent-a-bad-hire",
+        "how-to-recover-from-a-bad-hire",
+        "red-flags-should-hrs-look-for-during-pre-hiring-checks",
+        "the-most-common-signs-of-a-bad-hire",
+        "the-real-cost-of-a-mis-hire",
+        "what-is-the-cost-of-a-bad-hire",
+        "what-to-do-if-youve-made-a-bad-hire"
+      ]
+    },
+    {
+      "pillar": "New Hire Orientation & Onboarding",
+      "intent": "informational",
+      "spokes": [
+        "how-to-foster-new-hires-for-success",
+        "how-to-measure-the-success-of-new-hire-orientations",
+        "new-hire-orientations-for-small-businesses",
+        "new-hire-orientations-for-startups",
+        "use-technology-to-support-new-hire-orientations",
+        "welcoming-new-hires-in-a-virtual-environment",
+        "what-is-the-importance-of-new-hire-orientations"
+      ]
+    },
+    {
+      "pillar": "Lateral Hiring Strategy",
+      "intent": "informational",
+      "spokes": [
+        "how-to-keep-lateral-hires-engaged-and-thriving",
+        "how-to-measure-the-impact-of-your-lateral-hiring-program",
+        "how-to-set-up-lateral-hires-for-success-in-new-roles",
+        "lateral-hiring-complete-guide",
+        "navigate-ethical-considerations-in-lateral-hiring",
+        "top-unconventional-techniques-to-make-lateral-hires"
+      ]
+    },
+    {
+      "pillar": "Job Offer & Posting Templates",
+      "intent": "informational",
+      "spokes": [
+        "how-to-create-clear-and-engaging-job-postings",
+        "internal-job-posting-email-templates",
+        "job-offer-email-templates",
+        "job-offer-letter-templates-for-all-types-of-hire"
+      ]
+    },
+    {
+      "pillar": "AI & Data-Driven Hiring",
+      "intent": "informational",
+      "spokes": [
+        "how-testlify-is-building-ai-skills-first-hiring",
+        "importance-of-ai-based-chat-simulation-when-hiring",
+        "predictive-hiring",
+        "role-of-big-data-in-predictive-hiring-insights-for-talent-management",
+        "smarter-ways-to-identify-top-talent-ai-hiring-practices",
+        "the-importance-of-data-driven-hiring"
+      ]
+    },
+    {
+      "pillar": "Hiring at Scale for High-Volume Industries",
+      "intent": "informational",
+      "spokes": [
+        "meet-aggressive-hiring-targets",
+        "scale-bpo-industry-hiring",
+        "scale-it-industry-hiring",
+        "tips-to-hire-at-scale"
+      ]
+    },
+    {
+      "pillar": "Hiring for Technical & Specialist Roles",
+      "intent": "informational",
+      "spokes": [
+        "how-to-find-and-hire-the-best-flutter-developers-a-comprehensive-guide",
+        "how-to-get-technical-hiring-right",
+        "introduction-to-big-data-engineering-hiring",
+        "key-considerations-when-hiring-a-coding-specialist",
+        "system-administrator-hiring",
+        "the-future-of-data-science-hiring",
+        "the-guide-to-hiring-a-cybersecurity-specialist",
+        "top-6-tips-hiring-it-specialists",
+        "top-technical-skills-you-must-assess-while-hiring",
+        "what-ctos-should-know-before-hiring-defi-developers"
+      ]
+    },
+    {
+      "pillar": "Reducing Time-to-Hire",
+      "intent": "informational",
+      "spokes": [
+        "how-to-reduce-the-time-to-hire",
+        "make-faster-hiring-decisions-with-real-time-analytics",
+        "reduce-hiring-time-without-losing-integrations",
+        "strategies-to-accelerate-time-to-fill-for-open-positions"
+      ]
+    },
+    {
+      "pillar": "Industry-Specific Hiring Landscapes",
+      "intent": "informational",
+      "spokes": [
+        "navigating-the-hiring-landscape-in-the-energy-industry",
+        "navigating-the-hiring-landscape-in-the-real-estate-industry",
+        "the-blue-collar-hiring-landscape-and-beyond"
+      ]
+    },
+    {
+      "pillar": "Freelance & Contract Hiring",
+      "intent": "informational",
+      "spokes": [
+        "practical-guide-hiring-virtual-assistants-business",
+        "seasonal-and-project-based-hiring",
+        "the-pros-and-cons-of-hiring-freelancers",
+        "tips-to-hire-a-writer-for-your-business",
+        "top-platforms-for-streamlined-freelance-hiring"
+      ]
+    },
+    {
+      "pillar": "Hiring Executive & Leadership Roles",
+      "intent": "informational",
+      "spokes": [
+        "role-of-emotional-intelligence-in-leadership-and-hiring",
+        "the-ultimate-guide-on-hiring-an-executive-assistant",
+        "ultimate-guide-to-hiring-a-vp-of-sales"
+      ]
+    }
+  ],
+  "orphans": [
+    "how-microsoft-hires-tech-talent",
+    "how-tech-bridges-the-communication-gap-in-hiring",
+    "how-to-attract-top-talent-during-a-campus-hiring-drive",
+    "how-to-develop-hiring-plan",
+    "how-to-improve-quality-of-hire",
+    "how-to-master-virtual-hiring-like-a-pro",
+    "how-to-overcome-campus-hiring-challenges",
+    "how-to-stay-connected-with-top-talent-when-not-hiring",
+    "insightful-quotes-about-hiring",
+    "know-everything-about-the-future-of-fair-hiring",
+    "quiet-hiring",
+    "roi-of-smarter-hiring",
+    "rules-of-thumb-for-hiring-a-project-manager-for-your-e-commerce-company",
+    "structured-job-profiles-improve-hiring",
+    "things-your-hr-team-can-do-during-a-hiring-freeze",
+    "top-job-application-trackers-perfect-tool-job-search",
+    "what-is-motivational-fit-and-its-importance-in-hiring"
+  ]
+}

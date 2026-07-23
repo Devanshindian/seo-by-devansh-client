@@ -1,0 +1,47 @@
+{
+  "slice_id": "w36",
+  "clusters": [
+    {
+      "pillar": "How to Hire Remote Employees",
+      "intent": "informational",
+      "spokes": [
+        "a-complete-guide-to-remote-hiring",
+        "find-hire-job-ready-remote-interns-globally",
+        "mistakes-to-avoid-while-hiring-remotely",
+        "practical-ways-to-evaluate-job-candidates-remotely",
+        "remote-hiring-global-security",
+        "remote-hiring-statistics",
+        "strategies-for-overcoming-geographical-and-cultural-barriers-in-remote-hiring",
+        "top-challenges-in-remote-hiring-and-how-to-overcome-them",
+        "top-tools-for-efficient-and-effective-remote-hiring",
+        "financial-digital-skills-hybrid-roles-hiring"
+      ]
+    },
+    {
+      "pillar": "Managing & Building Remote and Distributed Teams",
+      "intent": "informational",
+      "spokes": [
+        "handle-hr-responsibilities-in-remote-work-environment",
+        "how-to-manage-a-remote-team",
+        "organizational-development-for-remote-teams",
+        "strategies-for-building-managing-distributed-teams",
+        "the-role-of-hr-tools-in-remote-work-environment"
+      ]
+    },
+    {
+      "pillar": "Remote Team Collaboration & Work Environment",
+      "intent": "informational",
+      "spokes": [
+        "5-creative-strategies-for-retaining-remote-candidates",
+        "8-ideas-to-create-a-thriving-remote-work-environment",
+        "foster-team-collaboration-in-remote-work-environments",
+        "top-remote-work-collaboration-tools-for-distributed-teams"
+      ]
+    }
+  ],
+  "orphans": [
+    "conduct-system-diagnostics-for-remote-work",
+    "new-hire-orientations-for-remote-teams",
+    "things-to-learn-while-creating-hybrid-remote-work-policies"
+  ]
+}

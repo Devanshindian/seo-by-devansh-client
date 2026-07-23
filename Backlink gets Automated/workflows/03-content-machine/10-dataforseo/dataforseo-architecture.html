@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DataForSEO — How the Keyword & SERP Research Engine Works</title>
+<style>
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:720px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:720px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;} .mem ul{margin:6px 0 6px;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+
+  /* step flow */
+  .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
+  .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:18px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow);}
+  .step-body h3{margin:4px 0 4px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
+  .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
+  .files .k{font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
+
+  /* generic cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+  .card .file{margin-top:10px; display:inline-block;}
+
+  /* two-column compare */
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--yellow-soft); border:2px solid var(--yellow);}
+  .agent.answ .cap{background:var(--orange-soft); border:2px solid var(--orange);}
+  .agent h3{margin:0 0 2px; font-size:19px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+  .mem{font-size:14px; padding:9px 12px; border-radius:10px; margin-top:9px;}
+  .mem.yes{background:var(--green); border:1px solid var(--green-line);}
+  .mem.no{background:var(--red); border:1px solid var(--red-line);}
+  .mem .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
+  .mem.yes .lbl{color:var(--green-ink);} .mem.no .lbl{color:var(--red-ink);}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11.5px;}
+  td b{color:var(--ink);}
+
+  /* sub-steps chips */
+  .subflow{display:flex; gap:10px; flex-wrap:wrap; margin:8px 0 2px;}
+  .schip{font-size:12.5px; background:var(--paper); border:1px solid var(--orange-soft); border-radius:100px; padding:4px 11px; font-weight:600; color:var(--ink); display:flex; align-items:center; gap:6px;}
+  .schip .n{width:17px; height:17px; border-radius:100px; background:var(--orange); color:#fff; font-size:11px; display:grid; place-items:center; font-weight:800;}
+  .arrow{color:var(--orange-soft); font-weight:800; align-self:center;}
+
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="kicker">Content Machine · Research Phase</span>
+    <h1>How <span class="hl">DataForSEO</span> builds the keyword &amp; SERP research brief</h1>
+    <p class="lede">This is the engine that turns one asset topic into a fact-checked research brief — the keyword
+    universe, the competitor map, the questions people actually search, and the gap we can own. Every number comes
+    from a live search-data call, and every choice is scored by an AI panel, not picked on a hunch. Here is exactly
+    how it is wired, script by script.</p>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#idea">The idea</a>
+    <a href="#words">The words</a>
+    <a href="#skeleton">The skeleton</a>
+    <a href="#pipeline">Full pipeline</a>
+    <a href="#nets">The two nets</a>
+    <a href="#panel">The scoring panel</a>
+    <a href="#serp">Reading the SERP</a>
+    <a href="#aeo">The AI-answer check</a>
+    <a href="#safety">Crash-safety</a>
+    <a href="#output">The brief</a>
+  </div>
+</nav>
+
+<!-- IDEA -->
+<section id="idea">
+  <div class="wrap">
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">DataForSEO does not "ask an AI what keywords to target." It runs a disciplined research operation:
+    pull the real search data, let an AI panel <i>score</i> the candidates against our topic and our brand, keep
+    only the top ones, and save the scores as proof. Nothing is hand-picked on vibes.</p>
+
+    <div class="note orange"><span class="tag">The one rule that governs everything</span><br>
+    <b>No pick without a score, no number without a proof.</b> The search API returns raw candidates; an AI
+    sub-agent scores every one against the topic and the Testlify angle; we keep the top ones and save the scored
+    list to disk. If a line in the final brief can't be traced back to a saved proof file, it doesn't belong.</div>
+
+    <p>End to end, the engine does seven things, then assembles them into one brief:</p>
+    <ol>
+      <li>Read the topic and turn it into seed phrases.</li>
+      <li>Expand those seeds into the full keyword universe.</li>
+      <li>Filter out the junk by search demand and difficulty.</li>
+      <li>Score and rank what's left into a primary + supporting keywords.</li>
+      <li>Read the live Google results page — who ranks, what questions appear.</li>
+      <li>Read the top competitor pages to find the gap we can own.</li>
+      <li>Check what AI assistants already answer for the topic.</li>
+    </ol>
+
+    <div class="note"><span class="tag">Why it's cheap</span><br>
+    The AI judgment (all the scoring and write-ups) runs on a <b>headless LLM CLI for free</b> — either
+    <b>Claude</b> (the default) or <b>Codex</b>, whichever you point it at — no API key, no per-call fee. Only four
+    steps spend money on the search-data API. A whole topic costs about <b>$0.50–$1.00</b> — cheap enough to run on
+    every asset.</div>
+  </div>
+</section>
+
+<!-- THE WORDS -->
+<section id="words" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">A few terms show up on every screen of this engine. Here they are in plain language, once.</p>
+    <div class="define"><b>Keyword volume</b> — how many people search that phrase per month. High volume = more
+      potential traffic. Below our floor of <b>100/month</b>, we treat a phrase as too small to chase.</div>
+    <div class="define"><b>KD (keyword difficulty)</b> — a 0–100 score for how hard it is to rank on page one. Big
+      brands hold the high-KD terms; we target the <b>low-KD</b> ones we can realistically win (our ceiling is 40).</div>
+    <div class="define"><b>Intent</b> — <i>why</i> someone searches a phrase: to learn (informational), to compare
+      or buy (commercial). We keep informational + commercial, drop the rest.</div>
+    <div class="define"><b>SERP</b> — the Search Engine Results Page: the actual Google page for a query. Reading it
+      tells us who ranks, whether there's a featured snippet, an AI Overview, and the "People also ask" questions.</div>
+    <div class="define"><b>AI Overview / AEO</b> — the AI-written answer box Google now shows above the results, and
+      the answers AI assistants give. <b>AEO</b> = Answer Engine Optimization: getting <i>cited</i> in those answers.
+      We check whether Testlify is cited (if not, that's a gap we can go win).</div>
+    <div class="define"><b>Headless LLM (Claude or Codex)</b> — running a coding assistant from the command line with
+      no chat window, so a script can call it. Either the <b>Claude</b> CLI (default) or the <b>Codex</b> CLI works,
+      set by one <span class="file">--provider</span> switch. This is how every judgment step ("score these", "write
+      this up") happens for free — no API key.</div>
+  </div>
+</section>
+
+<!-- SKELETON -->
+<section id="skeleton">
+  <div class="wrap">
+    <h2><span class="num">03</span>The skeleton — four files hold the whole engine up</h2>
+    <p class="sub">Before the seven steps, four shared files do the plumbing. Every step script leans on these, so
+    settings, credentials, and AI calls each live in exactly one place.</p>
+
+    <table>
+      <tr><th style="width:26%">File</th><th>What it does &amp; where it's used</th></tr>
+      <tr>
+        <td><span class="file">config.py</span><br><span class="muted" style="font-size:12.5px;">the settings hub</span></td>
+        <td>The one place every setting lives.
+          <ul>
+            <li>All paths and numbers sit here: the output folder, the input file, the market (US / English), and the cut-offs (keep volume ≥ 100, KD ≤ 40).</li>
+            <li>The <b>company is a single setting</b> — aiming the engine at a new business is a one-line change.</li>
+            <li>Also holds the crash-safe save helpers (see §09).</li>
+            <li>Every other script reads its settings from here.</li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td><span class="file">dfs.py</span><br><span class="muted" style="font-size:12.5px;">the paid-API client</span></td>
+        <td>The only file that talks to the paid search API.
+          <ul>
+            <li>Loads the login + password from a local file — <b>never</b> from code.</li>
+            <li>Every paid step goes through it, so the credentials sit in <b>one place</b> and nothing else touches them.</li>
+            <li>Can also check the account balance before a run.</li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td><span class="file">llm.py</span><br><span class="muted" style="font-size:12.5px;">the AI caller</span></td>
+        <td>The only file that talks to the AI (free).
+          <ul>
+            <li>Handles two kinds of call: one for data/scores, one for written prose.</li>
+            <li>If the AI's answer comes back malformed, it asks once more.</li>
+            <li>Each step's instructions live in their own prompt file, loaded from here.</li>
+            <li>Running several at once is what makes the Step-3 scoring panel work.</li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td><span class="file">run_dataforseo.py</span><br><span class="muted" style="font-size:12.5px;">the orchestrator</span></td>
+        <td>The one command you actually run.
+          <ul>
+            <li>Runs the steps in order, 0 → 7, passing each result to the next.</li>
+            <li><b>Resumable</b> — a finished step is skipped when you re-run.</li>
+            <li>Checks the credit balance before spending anything.</li>
+            <li>Holds no logic of its own — just the running order.</li>
+          </ul></td>
+      </tr>
+    </table>
+
+    <div class="note"><span class="tag">The shape, on purpose</span><br>
+    This is the same self-contained layout every engine in the content machine uses: <b>settings in
+    <span class="file">config.py</span>, credentials behind one client, AI behind one caller, prompts in their own
+    files, and one pure-sequencing orchestrator.</b> That's what makes the pipeline runnable unattended, on a
+    schedule, and identical every run.</div>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">⚙️</div><h3>Deterministic code</h3>
+        <div class="role">the fetch / filter steps</div>
+        <div class="mem yes"><span class="lbl">Handles the jobs with a right answer</span>
+          <ul>
+            <li>Calling the search API</li>
+            <li>Filtering keywords by the numbers</li>
+            <li>Fetching web pages</li>
+          </ul>
+          Same input → same output, every time.</div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">🧠</div><h3>AI judgment</h3>
+        <div class="role">the scoring / write-up steps (headless Claude or Codex)</div>
+        <div class="mem no"><span class="lbl">Handles the jobs that need taste</span>
+          <ul>
+            <li>Which keywords fit our angle</li>
+            <li>What the winning pages cover</li>
+            <li>The verdict on top of the brief</li>
+          </ul>
+          Each one's prompt lives in a file — so the thinking is single-sourced and auditable.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PIPELINE -->
+<section id="pipeline" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">04</span>The full pipeline — steps 0 to 7</h2>
+    <p class="sub">One command runs the whole chain. Each step writes a named file under
+    <span class="file">out/&lt;slug&gt;/proof/</span>; the next step reads it. The
+    <span class="pill paid">paid</span> tag marks the four steps that spend on the search API; everything else is
+    free. Sections 05–08 zoom into the steps that carry the real intelligence.</p>
+
+    <div class="flow">
+      <div class="step"><div class="dot">0</div><div class="step-body">
+        <h3>Anchors + seeds <span class="pill free">free</span></h3>
+        <p>Read the asset's row from the clubbed-ideas file — the <b>Asset title</b> and the <b>Distinct angle</b>,
+        captured verbatim as the north star every later step reads. From them, derive the seed phrases: head seeds
+        from the title, sibling seeds from the angle.</p>
+        <div class="files"><span class="k">script</span><span class="file">s0_seeds.py</span><span class="k">saves</span><span class="file">00-anchors.json</span><span class="file">00-seeds.md</span></div></div></div>
+
+      <div class="step"><div class="dot">1</div><div class="step-body">
+        <h3>Expand the keyword net <span class="pill paid">paid</span></h3>
+        <p>Grow the seeds into the full keyword universe using two different nets — a <b>tight net</b> and a
+        <b>ranked net</b> (explained in §05). Merged into one pool.</p>
+        <div class="files"><span class="k">scripts</span><span class="file">s1_expand.py</span><span class="file">s1b_ranked.py</span><span class="k">saves</span><span class="file">01-pool.json</span></div></div></div>
+
+      <div class="step"><div class="dot">2</div><div class="step-body">
+        <h3>Filter by demand + difficulty <span class="pill free">free</span></h3>
+        <p>Drop every keyword below the volume floor (100) or above the KD ceiling (40), using the metrics already
+        attached. No API call — pure filtering.</p>
+        <div class="files"><span class="k">script</span><span class="file">s2_filter.py</span><span class="k">saves</span><span class="file">02-shortlist.json</span></div></div></div>
+
+      <div class="step"><div class="dot">3</div><div class="step-body">
+        <h3>Metrics, then score + judge <span class="pill paid">paid</span> <span class="pill">+ AI</span></h3>
+        <p>Pull exact volume, KD and intent for the shortlist (paid), then an AI <b>panel scores</b> every keyword
+        and an AI <b>judge</b> reconciles them into the final set: one primary, plus variations, secondaries and
+        spoke candidates (see §06).</p>
+        <div class="files"><span class="k">scripts</span><span class="file">s3_metrics.py</span><span class="file">s3_score.py</span><span class="k">saves</span><span class="file">03-metrics.json</span><span class="file">03-verdict-1…N.json</span><span class="file">03-keywords.md</span><span class="file">spoke-candidates.md</span></div></div></div>
+
+      <div class="step"><div class="dot">4</div><div class="step-body">
+        <h3>Read the live SERP <span class="pill paid">paid</span> <span class="pill">+ AI</span></h3>
+        <p>Pull the live Google results for the primary keyword — who ranks, the featured snippet, the AI Overview,
+        the "People also ask" questions — then an AI pass writes it up and picks the 3 best pages to read next (§07).</p>
+        <div class="files"><span class="k">scripts</span><span class="file">s4_serp.py</span><span class="file">s4b_snapshot.py</span><span class="k">saves</span><span class="file">04-serp.json</span><span class="file">04-serp-snapshot.md</span><span class="file">04-pages-to-read.txt</span></div></div></div>
+
+      <div class="step"><div class="dot">5</div><div class="step-body">
+        <h3>Read the winning pages <span class="pill free">free</span> <span class="pill">+ AI</span></h3>
+        <p>Fetch the 3 chosen competitor pages ourselves (free), read their heading structure and depth, and an AI
+        pass distils the common sections, the confirmed format, and — the important part — the <b>gaps we can own</b>.</p>
+        <div class="files"><span class="k">scripts</span><span class="file">s5_pages.py</span><span class="file">s5b_winners.py</span><span class="k">saves</span><span class="file">05-pages.json</span><span class="file">05-winners.md</span></div></div></div>
+
+      <div class="step"><div class="dot">6</div><div class="step-body">
+        <h3>The AI-answer check <span class="pill paid">paid</span> <span class="pill">+ AI</span></h3>
+        <p>Ask what AI assistants answer for the topic and who they cite — gated by AI on both sides so an ambiguous
+        word can't drag in the wrong meaning (§08). May legitimately return "no usable signal."</p>
+        <div class="files"><span class="k">scripts</span><span class="file">s6_aeo.py</span><span class="file">s6_flow.py</span><span class="k">saves</span><span class="file">06-aeo.json</span><span class="file">06-aeo.md</span></div></div></div>
+
+      <div class="step"><div class="dot">7</div><div class="step-body">
+        <h3>Assemble the brief <span class="pill free">free</span> <span class="pill">+ AI</span></h3>
+        <p>Lift each step's section file into one reader-first brief (matching the gold-standard sample), add the
+        build spec from the SEO checklist, and put a one-line verdict on top. No new research here — pure assembly.</p>
+        <div class="files"><span class="k">script</span><span class="file">s7_assemble.py</span><span class="k">saves</span><span class="file">research-doc-&lt;slug&gt;.md</span><span class="file">research-notes.md</span></div></div></div>
+    </div>
+
+    <div class="note"><span class="tag">Why the chain matters</span><br>
+    Each step's output is a named file the next step reads: <span class="file">seeds → pool → shortlist → keywords →
+    SERP → winners → AEO → brief</span>. That's what makes it resumable — if it stops after Step 4, re-running picks
+    up at Step 5 and never repeats the paid calls it already made.</div>
+  </div>
+</section>
+
+<!-- THE TWO NETS -->
+<section id="nets">
+  <div class="wrap">
+    <h2><span class="num">05</span>Step 1 — the two nets that build the keyword universe</h2>
+    <p class="sub">Seeds alone would only find phrases that literally contain the seed word. To reach the adjacent
+    concepts that actually rank, we cast two different nets and merge them.</p>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">🕸️</div><h3>The tight net</h3>
+        <div class="role"><span class="file">s1_expand.py</span> · one call per seed</div>
+        <p class="muted" style="font-size:14.5px;">Asks the API for phrases that <b>contain each seed</b> — the
+        on-topic long-tail for the pillar and each sub-topic. Good, but suffix-shaped: it only finds "seed + a word".
+        Its quality depends entirely on the seeds, so ambiguous ones are qualified back in Step 0.</p>
+      </div>
+      <div class="agent answ">
+        <div class="cap">🏆</div><h3>The ranked net</h3>
+        <div class="role"><span class="file">s1b_ranked.py</span> · the workhorse</div>
+        <p class="muted" style="font-size:14.5px;">Takes the <b>pages that already win</b> — our competitor
+        proof-URLs plus the top organic results for the seed — and pulls <b>every keyword each of those pages ranks
+        for</b>. These are proven, on-topic phrases the seed net structurally can't reach: adjacent concepts like
+        "hr scorecard" or "selection ratio formula". Usually the cleaner, richer source.</p>
+      </div>
+    </div>
+
+    <div class="note orange"><span class="tag">What we cut, and why</span><br>
+    There used to be a third, <b>wide net</b> (the API's generic "keyword ideas"). We dropped it: across two live
+    runs it returned <b>0 usable keywords out of 652</b> — pure job-search, plumbing and finance noise. Relevant
+    breadth now comes entirely from the ranked net.</div>
+
+    <p class="muted" style="font-size:14.5px;"><b>A note on two SERPs.</b> The ranked net searches the seed to find
+    winning pages; Step 4 later searches the <i>primary keyword</i> to read the real competitive landscape. Two
+    different searches, on purpose — one finds keyword sources, the other reads the battlefield.</p>
+  </div>
+</section>
+
+<!-- THE SCORING PANEL -->
+<section id="panel" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">06</span>Step 3 — the scoring panel and the judge</h2>
+    <p class="sub">This is where the pipeline decides what to actually target. The filtered shortlist goes through a
+    two-layer AI process: many scorers, then one judge. This is the "no pick without a score" rule in action.</p>
+
+    <div class="flow">
+      <div class="step"><div class="dot" style="font-size:19px;">📊</div><div class="step-body">
+        <h3>First, the real numbers <span class="pill paid">paid</span></h3>
+        <p><span class="file">s3_metrics.py</span> pulls exact volume, KD and <b>intent</b> for every shortlist
+        survivor from the API. Keywords whose intent isn't informational or commercial are set aside.</p></div></div>
+
+      <div class="step"><div class="dot" style="font-size:19px;">🧑‍⚖️</div><div class="step-body">
+        <h3>Then the panel scores <span class="pill">AI · free</span></h3>
+        <p><span class="file">s3_score.py</span> splits the shortlist into batches and runs the scorer prompt over
+        them across <b>several headless-Claude sub-agents at once</b>. Each scores a keyword 0–10 on
+        <b>relevance · distinctness · brand-fit</b> (ignoring volume), then assigns a <b>role</b>. Every sub-agent's
+        verdict is <b>saved to its own file before judging</b> — so the final picks are auditable back to the raw
+        scores.</p>
+        <div class="subflow">
+          <span class="schip"><span class="n">1</span>batch the shortlist</span><span class="arrow">→</span>
+          <span class="schip"><span class="n">2</span>parallel sub-agents score each</span><span class="arrow">→</span>
+          <span class="schip"><span class="n">3</span>save every verdict to disk</span>
+        </div></div></div>
+
+      <div class="step"><div class="dot" style="font-size:19px;">✅</div><div class="step-body">
+        <h3>Then one judge reconciles <span class="pill">AI · free</span></h3>
+        <p>The same script's judge prompt reads all the verdicts + the numbers and makes the final call, breaking
+        ties by volume. It outputs the keyword set below.</p></div></div>
+    </div>
+
+    <h3>The four roles a keyword can get</h3>
+    <table>
+      <tr><th>Role</th><th>What it means</th><th>Where it goes</th></tr>
+      <tr><td><b>Primary</b></td><td>The single highest-<i>volume</i> intent-match that clears the KD ceiling — <b>not</b> automatically the title phrase.</td><td>The H1 term of the article.</td></tr>
+      <tr><td><b>Variation</b></td><td>A reword or synonym of the primary — same intent.</td><td>Woven into the body; <b>no</b> section of its own.</td></tr>
+      <tr><td><b>Secondary</b></td><td>A distinct, section-worthy sub-topic.</td><td>Each one anchors its own section.</td></tr>
+      <tr><td><b>Spoke</b></td><td>A distinct head term big enough for its own future article. Each is also <b>scored + ranked</b> (0.5 relevance / 0.25 volume / 0.25 ease; off-cluster heads scoring ≤2 dropped) so the research conductor keeps only the best 3.</td><td>Saved, ranked, to <span class="file">spoke-candidates.md</span>.</td></tr>
+    </table>
+
+    <div class="note"><span class="tag">The tell for a good result</span><br>
+    Good secondaries look like <i>siblings</i> ("iced coffee, coffee milkshake"), not the primary with a word tacked
+    on ("cold coffee recipe easy, cold coffee recipe simple"). If the secondaries are all "primary + a word", the
+    ranked net or the scorer under-performed — a built-in sanity check.</div>
+  </div>
+</section>
+
+<!-- READING THE SERP -->
+<section id="serp">
+  <div class="wrap">
+    <h2><span class="num">07</span>Steps 4 &amp; 5 — reading the battlefield</h2>
+    <p class="sub">With the primary keyword chosen, the engine reads the real Google results page, then reads the
+    winning competitor pages themselves — to map who ranks, what questions appear, and where the gap is.</p>
+
+    <h3>Step 4 — the SERP snapshot <span class="pill paid">paid</span></h3>
+    <p><span class="file">s4_serp.py</span> pulls the live Google page for the primary (with the AI-Overview and
+    People-also-ask flags on, or those blocks go missing). <span class="file">s4b_snapshot.py</span> then writes it
+    up. From one page it captures:</p>
+    <ul>
+      <li><b>Who ranks</b> — the top organic URLs; this is the literal competitor set.</li>
+      <li><b>Featured snippet</b> — who holds the answer box, and its shape (paragraph / list / table), or "none — open to win".</li>
+      <li><b>AI Overview</b> — present or absent, what it covers (our answer skeleton), and who it cites.</li>
+      <li><b>People also ask + related searches</b> — tagged <b>on-angle</b> (FAQ/section candidates) vs off-angle, never silently dropped.</li>
+      <li><b>The read-list</b> — the 3 best <i>readable</i> pages to open next (a #1 PDF or a forum thread is skipped), handed to Step 5.</li>
+    </ul>
+
+    <h3>Step 5 — read the winners, for free <span class="pill free">free</span></h3>
+    <p><span class="file">s5_pages.py</span> fetches those 3 pages with a plain web request — <b>no paid call, page
+    reading is free</b> — and parses their heading tree and word count. If a page blocks us it retries at least
+    twice before falling back to the paid parser or swapping in the next page. <span class="file">s5b_winners.py</span>
+    then distils the <b>common sections</b> the field tends to cover, the <b>confirmed format</b>, and the
+    <b>gaps we can own</b> — the sub-topics winners treat thinly, which is where our angle lives.</p>
+
+    <div class="note orange"><span class="tag">"Cited by AI?" shows up twice — on purpose</span><br>
+    The SERP snapshot reports whether Testlify is cited in <b>Google's AI Overview</b> (Step 4). The AI-answer check
+    (Step 6) reports whether Testlify is cited by <b>AI assistants</b> (a different surface). Two separate places AI
+    answers questions, both worth knowing — each is labelled so the reader isn't confused.</div>
+  </div>
+</section>
+
+<!-- AEO -->
+<section id="aeo" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">08</span>Step 6 — the AI-answer check, gated on both sides</h2>
+    <p class="sub">The API endpoint for this (<span class="file">llm_mentions</span>) takes only a keyword and sorts
+    by popularity. So an ambiguous word — "recruiting" means HR to us, college sports to the world — returns the
+    <i>biggest</i> meaning, not ours. We wrap the call with an AI gate on each side.</p>
+
+    <div class="flow">
+      <div class="step"><div class="dot" style="background:var(--yellow-soft);">A</div><div class="step-body">
+        <h3>Gate in — pick a query that can't drift</h3>
+        <p>Before the call, an AI picks a disambiguated query (e.g. "recruiting metrics" instead of bare
+        "recruiting"). After ~3 failed attempts it gives up cleanly rather than force a bad pull. Driven by
+        <span class="file">s6_flow.py</span>.</p></div></div>
+
+      <div class="step"><div class="dot" style="background:var(--orange-soft); border-color:var(--orange);">B</div><div class="step-body">
+        <h3>The call <span class="pill paid">paid</span></h3>
+        <p><span class="file">s6_aeo.py</span> asks the API what AI answers for that query, which domains it cites,
+        and whether Testlify is among them (a GEO gap if not), plus the sub-questions AI splits the topic into.</p></div></div>
+
+      <div class="step"><div class="dot">C</div><div class="step-body">
+        <h3>Gate out — is this actually our topic?</h3>
+        <p>After the call, an AI judges the results against the topic. Off-topic drift is reported honestly as
+        <b>"no usable signal"</b> — the step stands alone and never borrows from another step to look fuller than it is.</p></div></div>
+    </div>
+
+    <div class="note"><span class="tag">A null result is a real result</span><br>
+    On many B2B topics this step legitimately finds no clean AI-answer signal. That's recorded as-is and carried into
+    the brief untouched — never backfilled or faked. Honesty over a tidy-looking output.</div>
+  </div>
+</section>
+
+<!-- SAFETY -->
+<section id="safety">
+  <div class="wrap">
+    <h2><span class="num">09</span>Built to run unattended — the safety mechanics</h2>
+    <p class="sub">Because this runs on a schedule with no human watching, three mechanisms make sure a stop, a crash,
+    or an empty wallet never corrupts a run or wastes money.</p>
+    <div class="grid three">
+      <div class="card"><div class="ic">↩️</div><h3>Resumable</h3><p>Every step writes a named file; on re-run a
+        finished step is skipped and its output reused. A crash resumes where it stopped and never repeats a paid
+        call. <span class="file">--redo</span> or <span class="file">--from N</span> force a rerun.</p></div>
+      <div class="card"><div class="ic">💳</div><h3>Credit pre-flight</h3><p>Before spending, the orchestrator reads
+        the live DataForSEO balance. If it's below the buffer (~$1), it stops cleanly having spent nothing and leaves
+        the topic in the queue — so it resumes automatically after top-up.</p></div>
+      <div class="card"><div class="ic">🧷</div><h3>Atomic writes</h3><p>Every save writes to a temp file, then
+        renames it over the target in one move. So a file's existence <b>guarantees it's complete</b> — a crash
+        mid-write leaves only a stray temp file (ignored), never a half-written output that resume would trust.</p></div>
+    </div>
+    <div class="note"><span class="tag">Where the credentials live</span><br>
+    The only secret the engine needs — the DataForSEO login + API password — sits in a local
+    <span class="file">scripts/.env</span> (locked down, never committed), read only by <span class="file">dfs.py</span>.
+    The AI steps need no key at all; they run on a headless Claude or Codex CLI.</div>
+  </div>
+</section>
+
+<!-- OUTPUT -->
+<section id="output" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">10</span>What comes out — the brief</h2>
+    <p class="sub">Step 7 assembles everything into one reader-first document, written for the writer (not in
+    pipeline-step order). It matches a fixed gold-standard shape so every brief looks the same.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="big">$0.50–1</div><div class="cap">total search-API cost per topic</div></div>
+      <div class="stat"><div class="big">$0</div><div class="cap">AI fees — runs on the subscription</div></div>
+      <div class="stat"><div class="big">4 of 8</div><div class="cap">steps that spend; the rest are free</div></div>
+      <div class="stat"><div class="big">1 cmd</div><div class="cap">whole pipeline, resumable</div></div>
+    </div>
+
+    <h3>The eight parts of the brief</h3>
+    <table>
+      <tr><th>Section</th><th>What it carries</th><th>From</th></tr>
+      <tr><td><b>Verdict</b></td><td>Three lines: the play (traffic vs authority) · beatable? (head vs long-tail, honestly) · the opening.</td><td>written on top at assembly</td></tr>
+      <tr><td><b>Keywords</b></td><td>Primary + variations + secondaries (as a table) + in-body-only notes + spokes pointer.</td><td>Step 3 <span class="file">03-keywords.md</span></td></tr>
+      <tr><td><b>SERP snapshot</b></td><td>Who ranks · featured snippet · AI Overview · PAA / related (on/off-angle).</td><td>Step 4 <span class="file">04-serp-snapshot.md</span></td></tr>
+      <tr><td><b>What winners cover</b></td><td>Confirmed format · depth · common sections · <b>gaps we can own</b>.</td><td>Step 5 <span class="file">05-winners.md</span></td></tr>
+      <tr><td><b>AI answer landscape</b></td><td>Usable, or "no usable signal" — plus who AI cites.</td><td>Step 6 <span class="file">06-aeo.md</span></td></tr>
+      <tr><td><b>Build spec</b></td><td>Word band · structure rules · snippet target · primary sources to cite · close rule.</td><td>the SEO/AEO/GEO checklist</td></tr>
+      <tr><td><b>Proof map</b></td><td>A footer table linking every section back to its saved proof file.</td><td>all steps</td></tr>
+    </table>
+
+    <div class="grid">
+      <div class="card"><div class="ic">📄</div><h3>The brief</h3><p>The reader-ready research doc the writer builds
+        from. It gives the ingredients — keywords, competitor map, questions, gap — not the finished article.</p>
+        <span class="file">research-doc-&lt;slug&gt;.md</span></div>
+      <div class="card"><div class="ic">🗒️</div><h3>The notes</h3><p>A separate agent-commentary file: what happened
+        this run, judgment calls, anything weak or uncertain — so caveats stay <b>off</b> the clean brief but on record.</p>
+        <span class="file">research-notes.md</span></div>
+    </div>
+
+    <div class="note orange"><span class="tag">Where DataForSEO sits in the bigger machine</span><br>
+    This is the <b>keyword &amp; SERP engine</b> of the research phase. Its brief is the foundation the later engines
+    build on — <b>STORM</b> gathers the deep evidence, <b>gap-check</b> makes sure that evidence covers what this
+    brief says matters, and <b>research-structure</b> turns it all into the article's blueprint. DataForSEO decides
+    <i>what to write about and how to win it</i>; the others fill in the substance.</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">DataForSEO Research Engine · Research-phase architecture overview · One command, steps 0–7, resumable ·
+  Search data from the DataForSEO API; all AI judgment on a headless Claude or Codex CLI.</div>
+</footer>
+
+</body>
+</html>

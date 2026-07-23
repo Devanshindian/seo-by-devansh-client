@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3333,
+    "brand_fit": "CORE",
+    "angle_gap": "The FAQ correctly distinguishes scenario-based (demonstrated, past behavior) from situational (hypothetical, future judgment) questions, but the 20-question list itself never sorts by type \u2014 Q1 ('How would you cope with a situation...') and Q2 ('What would you do if...') are hypothetical/situational, while Q3 ('Tell me about a time you exceeded expectations') is genuinely behavioral/scenario-based, all presented as one undifferentiated 'scenario-based' list that contradicts the framework the page just taught.",
+    "asset": "Scenario-Based vs Situational Interview Questions, Finally Sorted and Scored",
+    "distinct_angle": "Labels every question by its actual type (scenario vs situational) per the page's own definition, and adds what a strong vs weak response looks like for each \u2014 the sorting and scoring this page promises but doesn't deliver.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3345,
+    "brand_fit": "CORE",
+    "angle_gap": "Every sample answer is a generic, unscored first-person monologue ('My passion for design has been evident since I was young...') with no rubric for what separates a strong response from a rehearsed one, and despite promising to help hire 'the best graphic designer,' the page never mentions portfolio review \u2014 the single most important evaluation step for a design hire.",
+    "asset": "Graphic Design Interview Questions That Expose Real Skill, Not Rehearsed Lines",
+    "distinct_angle": "Pairs each question with a scoring rubric (what a strong vs generic answer sounds like) and folds in portfolio-review criteria \u2014 the evaluation depth this page's monologue-style sample answers skip entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3360,
+    "brand_fit": "CORE",
+    "angle_gap": "The page explicitly promises sample answers 'so you can evaluate your candidates' knowledge, even if you're not a professional programmer,' but the answers are verbatim textbook definitions (e.g., 'encapsulation... binds together data and functions into a single unit') that any candidate can memorize from a C++ FAQ page the night before \u2014 there is no follow-up probe or red-flag guidance to separate memorized recall from real understanding.",
+    "asset": "C++ Interview Questions a Non-Technical Recruiter Can Actually Score",
+    "distinct_angle": "Adds a follow-up probe and red-flag cue per question so a non-technical recruiter can catch a memorized textbook answer \u2014 the exact gap this page's word-for-word definitions leave open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3403,
+    "brand_fit": "CORE",
+    "angle_gap": "Of the 50 questions promised, only 15 get sample answers (5 general, 5 VBA, 5 macros) \u2014 the other 35 are bare one-line questions with zero guidance on what a correct or strong answer sounds like, leaving a recruiter who isn't an Excel expert unable to judge two-thirds of the list.",
+    "asset": "Advanced Excel Interview Questions Every Recruiter Can Score, Not Just the First 15",
+    "distinct_angle": "Supplies a sample answer and what-to-listen-for cue for all 50 questions, not the 15 this page bothers to answer, so a non-expert recruiter can judge the full list.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3412,
+    "brand_fit": "CORE",
+    "angle_gap": "Only 5 of the 20 junior questions get sample answers, and several core questions (Agile vs Scrum, velocity, Sprint basics) repeat near-identically across the junior and senior question sets with no explanation of what depth of answer should differ by seniority \u2014 a recruiter can't tell what 'good' looks like at each level.",
+    "asset": "Product Owner Interview Questions That Separate Junior Answers from Senior Ownership",
+    "distinct_angle": "Spells out how the expected depth of answer shifts from junior to senior on the same core questions (Agile, Scrum, velocity), closing the level-differentiation gap this page's repeated, mostly-unanswered lists leave open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

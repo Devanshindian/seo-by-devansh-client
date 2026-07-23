@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 95,
+    "brand_fit": "CORE",
+    "angle_gap": "The traits section is eight generic descriptions (delegation, adaptability, transparency, etc.) with no way to score them, then the testing section names 'aptitude tests' and 'personality tests' in the abstract without saying which specific test type maps to which trait or how to weigh results into a decision.",
+    "asset": "Scoring Internal Candidates for Leadership Potential: Which Test Maps to Which Competency",
+    "distinct_angle": "Replaces the page's vague trait list and generic 'use an aptitude or personality test' advice with a competency-to-test mapping (e.g. delegation \u2192 situational judgment, adaptability \u2192 specific personality facets) plus a worked scoring example, the concrete framework this page never builds.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 108,
+    "brand_fit": "CORE",
+    "angle_gap": "The page conflates content validity with criterion validity: it defines content validity correctly (subject-matter match to job tasks) but then says to 'measure' it with the Validity Coefficient (R-value), which is a criterion-related statistic, not a content-validity method. It also contains an internal error telling readers to aim for an R-value of '3.5 or more' right after a table capping R at .35, both of which are wrong or self-contradictory for the concept it claims to explain.",
+    "asset": "Measuring Content Validity the Way EEOC Guidelines Actually Define It",
+    "distinct_angle": "Corrects the page's conflation of content validity with a criterion-validity R-value and instead walks through the job-analysis and content validity ratio method (Lawshe's CVR, as referenced in the Uniform Guidelines), with a worked example \u2014 the accurate, compliance-grounded method this page substitutes with a math error.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 132,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 coding-education tutorial (hash tables, CS fundamentals), aimed at engineers learning to code; off-limits per brand scope"
+  },
+  {
+    "row_id": 133,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is corporate innovation hackathon management, not hiring or assessment; outside Testlify's world"
+  },
+  {
+    "row_id": 136,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 coding-education tutorial (time/space complexity, Big-O), aimed at engineers learning to code; off-limits per brand scope"
+  }
+]

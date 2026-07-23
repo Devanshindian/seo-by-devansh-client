@@ -1,0 +1,3726 @@
+{
+  "urls": {
+    "https://testlify.com/test-library/?_job_roles=digital-marketers": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/?_job_roles=digital-marketers",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/?_pagination=2": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/?_pagination=2",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/?_test_type=lang": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/?_test_type=lang",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/?_test_type=ps": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/?_test_type=ps",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/?_test_type=rss": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/?_test_type=rss",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/?_test_type=sj": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/?_test_type=sj",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/?_test_type=ss": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/?_test_type=ss",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/?testtype=blue-collar-test": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/?testtype=coding-test": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/?testtype=cognitive-ability": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/?testtype=role-specific-skills": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/underscore-js-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/underscore-js/": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/underscore-js-test/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/uniface-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/unified-functional-testing-uft-qtp/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/unisys-basics-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/unisys-dmsii-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/unity-developer/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/unity/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/unix-operating-system-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/unix-system-engineer-advanced-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/unix/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/unlearning-and-relearning/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/unrealscript-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/us-debt-collector-communication-skills-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/us-debt-collector-domain-knowledge-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/user-interface-extensibility-uix-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/user-testing-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/utility-worker/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/ux-design/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/ux-ui-designer-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/ux-ui-designer/": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/ux-ui-designer-test/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/vaadin-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vanilla-js-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vanilla-js/": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/vanilla-js-test/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/vb-net-coding-isomorphic-strings-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vb-net-coding-pattern-matching-words-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vb-net-coding-wildcard-pattern-matching-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vb-net-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vb-net-web-forms-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vb-net-web-forms/": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/vb-net-web-forms-test/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/vb-net/": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/vb-net-test/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/vb5-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vbscript-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vector-databases-and-embedding-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/veeam/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vendor-management-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/verbal-ability-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/verbal-reasoning-2/": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/verbal-reasoning/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/verbal-reasoning/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/verilog-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vertica-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/very-large-scale-integration-vlsi-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vhdl-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/video-content-creator/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/video-creator/": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/video-editor/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/video-editor/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/video-production-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/virtual-assistant/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/virtual-machine-vm-management-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/visionary-leadership-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/visual-attention-to-detail-skills-cefr/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/visual-basic-2/": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/visual-basic/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/visual-basic-application-vba-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/visual-basic-application-vba/": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/visual-basic-application-vba-test/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/visual-basic/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/visual-foxpro-vfp/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/visual-reasoning-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vlsi/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vm-cms-management-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vmware-certified-professional-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vmware-esxi-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vmware-horizon-view-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vmware-nsx-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vmware-server-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vmware-site-recovery-manager-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vmware-vcenter-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vmware-view-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vmware-virtualization-management-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vmware-vrealize-orchestrator-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vmware-vsan-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vmware-vsphere/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vmware-vtsp-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vmware-workstation-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/volte-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vpn-cisco-anyconnect-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vpn-forticlient-vpn-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vpn-paloalto-globalprotect-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vpn-pulsesecure-ivanti-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vsam-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vue-2/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vue-3/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vue-js/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vulnerability-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vxworks-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/vyper-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/waf-ddos-akamai-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/waf-ddos-cloudflare-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/waf-ddos-f5-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/waf-ddos-indusface-apptrana-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/waf-ddos-radware-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/waiter/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/warehouse-aptitude-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/warehouse-laborer/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/warehouse-manager/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/warehouse-operator-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/warehouse-picker/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/warehouse-stock-controller-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/warehouse-supervisor/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wash-specialist-humanitarian-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/waste-management/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wastewater-treatment-plant-operator-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/watir/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wcf-windows-communication-foundation/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/web-accessibility-principles-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/web-automation-with-python-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/web-automation-with-python/": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/web-automation-with-python-test/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/web-developer/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/web-services-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/web-testing/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/webdriverio-framework-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/webeoc-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/webfocus/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/weblogic/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/website-data-analytics-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/websphere/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/welding/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wheel-technician-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wholesaler-for-real-estate-advanced/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wholesaler-for-real-estate-basic/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wind-turbine-technician/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/windows-administrator/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/windows-azure/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/windows-server-2008-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/windows-workflow/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/winform-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/winform-vb-net-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/winform-vb-net/": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/winform-vb-net-test/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/winform/": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/winform-test/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/woocommerce/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wordpress-administration-2/": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/wordpress-administration/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/wordpress-administration/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wordpress-developer/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wordpress-hosting-management-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wordpress-multisite-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wordpress-performance-optimization-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wordpress-plugin-development-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wordpress-security-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wordpress-theme-customization-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wordpress-ultimo-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/work-etiquette-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/work-flow-language-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/workday-software/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/workfusion-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/working-memory-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/worksoft-certify-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wpf-mvvm-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/wpf-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/x86-assembly-language-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/xamarin-mvvm-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/xamarin-xamarin-android-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/xamarin-xamarin-forms-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/xamarin-xamarin-ios-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/xaml-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/xbase-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/xenapp-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/xml-amp-xml-web-services-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/xml-rpc-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/xpath-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/xplanner-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/xquery-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/xsd-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/xsl-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/yaml-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/yardi-software/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/yield-management-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/yii-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/zapier-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/zbrush-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/zend-php-5-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/zendesk/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/zigzag-string-conversion/": {
+      "alive": true,
+      "final_url": "https://testlify.com/test-library/multi-language-coding-zigzag-string-test/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/test-library/zoho-books/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/zoom/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-library/zsh-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-partnership-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/test-psicometrici/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testdome-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testello-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testgenius-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testgorilla-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testgrid-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testing-2/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testinvite-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlibra-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-assessment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-community/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-empowering-businesses-through-pre-hiring-assessments/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-information-security-standards/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-introduces-a-wide-array-of-psychometric-tests/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-launches-conversational-ai-for-talent-assessment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-pioneers-the-future-with-full-ai-integration-in-talentassessment-revolution/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-transforms-data-driven-recruitment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-adaface-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-alva-labs-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-asc-smarter-assessment-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-canditech-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-cangrade-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-coderbyte-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-codility-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-criteria-corp-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-equip-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-eskill-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-evalgator-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-glider-ai-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-hackerearth-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-hackerrank-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-harver-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-hire-success-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-hiremojo-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-hirevue-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-imocha-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-maki-people-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-mercer-mettl-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-peoplogica-skills-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-perspect-ai-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-pixonality-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-predictive-index-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-saville-assessment-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-skillmeter-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-sova-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-talentate-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-talentclick-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-talentlens-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-talentlyft-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-talentmesh-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-talentmetrix-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-talogy-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-talview-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-test-partnership-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-testdome-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-testello-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-testgenius-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-testgorilla-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-testgrid-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-testinvite-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-the-talent-games-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-thrive-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-thrivemap-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-total-testing-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-ubiaptitude-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-vervoe-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-vervoe-draft/": {
+      "alive": true,
+      "final_url": "https://testlify.com/testlify-vs-vervoe-detailed-comparison/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/testlify-vs-vervoe/": {
+      "alive": true,
+      "final_url": "https://testlify.com/testlify-vs-vervoe-detailed-comparison/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/testlify-vs-wecp-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-xobin-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/testlify-vs-zapilio-detailed-comparison/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tests-to-check-your-professional-aptitude-for-students/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/texas-employment-and-labor-laws/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/text-recruiting/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-5-steps-to-succession-planning/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-benefits-of-real-time-recruitment-metrics/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-benefits-of-using-hiring-assessments-in-the-recruitment-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-benefits-of-using-psychometric-tests-in-the-workplace/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-benefits-of-using-talent-assessment-in-the-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-best-practices-for-reference-checks/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-best-recruitment-technology-tools-for-small-businesses/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-best-sales-aptitude-test-for-different-types-of-sales-jobs/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-blue-collar-hiring-landscape-and-beyond/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-english-quiz-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-evolution-of-talent-acquisition-from-traditional-to-modern-approaches/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-evolving-role-of-enterprise-recruiters/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-excel-edge-assessing-advanced-excel-sills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-financial-benefits-of-talent-assessment-tools/": {
+      "alive": true,
+      "final_url": "https://testlify.com/the-benefits-of-using-talent-assessment-in-the-hiring-process/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/the-future-of-ats-integration/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-future-of-coding-assessments-in-the-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-future-of-data-science-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-future-of-talent-assessment-in-the-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-growing-demand-for-blockchain-engineers/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-guide-to-hiring-a-cybersecurity-specialist/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-impact-of-employee-engagement-on-productivity-and-profitability/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-impact-of-employment-testing-on-hiring-success/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-impact-of-patient-recruitment-organizations-on-trial-efficiency/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-importance-of-data-driven-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-importance-of-employee-engagement/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-importance-of-employer-branding-in-talent-acquisition/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-importance-of-performance-management/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-importance-of-sales-aptitude-tests-in-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-importance-of-strategic-human-resource-planning/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-importance-of-succession-planning/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-importance-of-talent-management-in-todays-economy/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-importance-of-technical-assessments-when-hiring-ios-objective-c-developers/": {
+      "alive": true,
+      "final_url": "https://testlify.com/benefits-of-technical-assessments-in-recruitment/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/the-importance-of-typing-speed-and-accuracy-in-the-workplace/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-landscape-of-hiring-in-recruiting-services/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-latest-trends-in-hr-technology/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-latest-trends-in-talent-management/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-latest-trends-in-technical-assessments/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-most-common-signs-of-a-bad-hire/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-ongoing-battle-technology-vs-cheating-in-online-tests/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-predictive-index-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-pros-and-cons-of-hiring-freelancers/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-pros-and-cons-of-internal-recruitment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-real-cost-of-a-mis-hire/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-right-five-alternatives/": {
+      "alive": true,
+      "final_url": "https://testlify.com/alternatives/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/the-roi-of-cognitive-reasoning-why-its-the-smartest-hiring-metric/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-role-of-aptitude-tests-in-assessing-efficiency/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-role-of-communication-in-remote-job-interviews/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-role-of-hiring-assessments-in-decision-making/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-role-of-hr-and-cxos-in-community-building/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-role-of-hr-in-cmms-implementation-success/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-role-of-hr-tools-in-remote-work-environment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-role-of-it-skills-tests-in-identifying-top-talent/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-role-of-leadership-in-employee-engagement/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-role-of-mechanical-tests-in-reducing-turnover/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-role-of-soft-skills-assessment-in-team-collab/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-role-of-soft-skills-in-data-science-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-role-of-technology-in-hiring-assessments/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-secret-to-creating-the-best-job-pre-screening-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-significance-of-nlp-test-in-hiring-decisions/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-talent-games-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-ultimate-guide-on-hiring-an-executive-assistant/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-ultimate-guide-to-candidate-assessment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-ultimate-guide-to-employee-onboarding/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-ultimate-guide-to-hiring-hr-managers-tips-strategies/": {
+      "alive": true,
+      "final_url": "https://testlify.com/how-to-hire-hr-manager/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/the-value-of-psychometric-tests-in-candidate-evaluation/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/the-vital-role-of-proctoring-in-online-tests/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/things-to-learn-while-creating-hybrid-remote-work-policies/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/things-your-hr-team-can-do-during-a-hiring-freeze/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/thomas-international-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/thrive-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/thrivemap-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/time-tracking-without-invading-employee-privacy/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-and-tricks-for-recruiting-top-talent-across-time-zones-and-borders/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-for-conducting-remote-programming-tests-in-recruitment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-for-diversity-in-candidate-assessments/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-for-hr-to-optimize-working-days/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-for-human-resource-management-strategy/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-for-organizing-perfect-workation-for-your-team/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-for-successful-remote-interviews/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-on-recruiting-students-for-hr-professionals/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-build-a-team-in-financial-sector/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-analytical-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-brand-management-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-change-management-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-communication-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-content-marketing-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-content-writing-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-copywriting-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-crisis-management-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-critical-thinking-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-customer-satisfaction-analysis-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-customer-service-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-data-analysis-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-data-mining-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-data-validation-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-data-visualization-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-database-management-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-digital-marketing-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-email-marketing-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-financial-analysis-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-financial-forecasting-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-financial-modeling-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-graphic-designing-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-influencer-marketing-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-influencer-relationship-management-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-java-programming-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-leadership-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-market-forecasting-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-market-research-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-mobile-app-development-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-negotiation-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-network-security-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-problem-solving-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-programming-logic-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-project-coordination-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-project-management-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-python-programming-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-risk-management-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-sales-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-search-engine-marketing-sem-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-search-engine-optimization-seo-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-seo-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-social-media-marketing-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-software-architecture-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-software-configuration-management-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-software-deployment-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-statistical-analysis-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-supply-chain-optimization-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-ui-design-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-user-support-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-ux-design-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-ux-ui-design-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-web-analytics-skills/": {
+      "alive": true,
+      "final_url": "https://testlify.com/supporting-international-talent-beyond-the-job-offer/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/tips-to-evaluate-web-development-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-evaluate-website-performance-optimization-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-hire-a-writer-for-your-business/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-hire-at-scale/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tips-to-overcome-legal-compliance-issues-related-to-equal-employment-opportunity/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/title-examiner-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/toggl-hire-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-10-advantages-of-using-the-disc-personality-test-in-the-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-10-aptitude-assessment-questions-for-potential-candidates/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-10-big-five-personality-test-questions-for-potential-candidates/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-10-qa-test-questions-for-potential-candidates/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-10-recruitment-trends-to-watch-out-for-in-2022/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-10-technical-interview-questions-questions-for-potential-candidates/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-10-technical-skills-you-must-assess-while-hiring-in-2022/": {
+      "alive": true,
+      "final_url": "https://testlify.com/top-technical-skills-you-must-assess-while-hiring/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/top-5-employee-experience-tools-and-technologies/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-5-practices-in-online-tests-to-maintain-integrity/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-6-tips-hiring-it-specialists/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-7-recruitment-trends-in-financial-planner-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-7-strategies-to-attract-the-best-technical-talent/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-ai-powered-recruitment-tools-changing-the-hiring-game/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-applicant-tracking-systems-ats/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-benefits-administration-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-benefits-of-ats-integration-for-job-assessments/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-case-studies-of-successful-succession-planning/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-challenges-in-remote-hiring-and-how-to-overcome-them/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-coding-assessment-software-for-recruiters/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-compensation-management-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-core-hr-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-corporate-learning-management-systems/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-employee-engagement-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-employee-monitoring-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-employee-recognition-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-employment-assessment-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-factors-that-contribute-to-job-satisfaction/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-foundational-principles-every-student-should-grasp/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-hiring-strategies/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-hr-buzzwords/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-hr-tech-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-human-resource-management-systems/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-job-application-trackers-perfect-tool-job-search/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-job-search-sites/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-marketing-test-questions/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-marketing-trends-to-watch/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-must-ask-exit-interview-questions-for-insightful-feedback/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-performance-management-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-platforms-for-streamlined-freelance-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-reasons-to-prioritize-skills-over-degrees/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-marketing-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-metrics-you-must-keep-track/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-solutions-to-streamline-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-technology-trends/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-account-executive-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-brand-manager-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-business-analyst-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-data-analyst-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-data-engineer-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-financial-analyst-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-hr-coordinator-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-hr-manager-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-hrbp-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-it-director-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-marketing-manager-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-project-manager-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-qa-engineer-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-sales-manager-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-supply-chain-analyst-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-system-analyst-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-recruitment-trends-in-ui-designer-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-remote-work-collaboration-tools-for-distributed-teams/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-staffing-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-talent-using-business-analyst-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-technical-skills-you-must-assess-while-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-techniques-for-css-test-implementation/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-time-tracking-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-tools-for-efficient-and-effective-remote-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-unconventional-techniques-to-make-lateral-hires/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-video-interviewing-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/top-workforce-management-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/topgrading-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/total-testing-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tour-del-prodotto/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/tour-do-produto/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/toxic-company-culture-is-driving-attrition-rates/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/trade-support-analyst-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/traditional-hiring-interviews-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/trainer-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/training-and-development-coordinator-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/training-and-development-manager-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/training-coordinator-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/training-effectiveness/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/training-specialist-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/traitify-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/traits-alternatives/": {
+      "alive": true,
+      "final_url": "https://testlify.com/alternatives/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/transferable-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/translator-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/transportation-coordinator-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/travel-coordinator-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/treasury-analyst-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/trends-and-innovations-in-technical-skill-assessments/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/trends-in-talent-acquisition-whats-changing/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/trends-to-watch-out-in-recruitment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/trust/compliances/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/trust/data-management/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/trust/data-requests/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/trust/privacy/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/trust/security/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/types-of-aptitude-tests/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/types-of-assessment-questions/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/types-of-coding-assessments-and-how-to-choose-one/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/types-of-interviews/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/types-of-learning-and-development-activities/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/types-of-online-exam-proctoring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/types-of-organizational-development-interventions/": {
+      "alive": true,
+      "final_url": "https://testlify.com/how-to-choose-the-right-organizational-development-intervention/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/types-of-pre-employment-tests-for-candidate-evaluation/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/types-of-pre-employment-tests/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/types-of-psychometric-tests-and-what-they-measure/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/types-of-skills-assessment-tests/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/types-of-skills-hiring-test-assess-in-candidates/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/types-of-technical-assessment-while-hiring-candidates/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/typing-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/typing-tests/": {
+      "alive": true,
+      "final_url": "https://testlify.com/typing-test/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/ubiaptitude-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/udder/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ui-ux-designer-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ultimate-guide-cognitive-ability-tests/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ultimate-guide-to-best-recruiting-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ultimate-guide-to-employer-branding-ebook/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ultimate-guide-to-employer-branding-ebook/?utm_id=E-Book": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ultimate-guide-to-employer-branding-ebook/?utm_source=Linkedln&utm_medium=clicks&utm_campaign=Download+for+Free&utm_id=E-Book": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ultimate-guide-to-hiring-a-talent-acquisition-specialist/": {
+      "alive": true,
+      "final_url": "https://testlify.com/hiring-a-talent-acquisition-specialist/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/ultimate-guide-to-hiring-a-vp-of-sales/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ultimate-guide-to-problem-solving-in-the-workplace/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/unconscious-biases-reinforce-the-glass-ceiling/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/uncovering-hidden-talent-pools-for-lateral-hires/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/understanding-campus-hiring-trends/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/understanding-employee-empowerment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/underwriting-assistant-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/unleash-your-brands-potential/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/unleashing-the-power-of-employee-engagement-solutions/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/unlock-the-power-of-automated-assessments-in-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/unlock-top-talent-with-cognitive-reasoning-assessment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/unlocking-hr-efficiency-the-power-of-vpns-in-modern-workforce-management/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/unsere-partner/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/upskilling-and-reskilling/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/upskilling-improve-workplace-wellbeing/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-a-digital-marketing-test-to-screen-candidates/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-admin-assistant-tests-in-recruitment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-coding-assessments-to-create-talent-a-pipeline/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-cognitive-ability-tests-for-candidate-development/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-data-and-analytics-to-improve-recruitment-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-data-entry-clerk-test-to-assess-candidates/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-jenkins-test-to-hire-developers/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-motivation-test-to-hire-the-right-candidates/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-networking-test-to-assess-network-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-of-ai-in-employee-monitoring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-of-video-content-for-recruiting-top-talent/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-recruitment-tech-to-conduct-virtual-interview/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-recruitment-technology-to-assess-candidates/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-recruitment-technology-to-onboard-new-employees/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-skill-assessments-data-to-make-better-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-skill-assessments-to-improve-diversity-inclusion/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-skills-assessment-to-improve-your-employer-brand/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-soft-skills-assessment-for-resilient-employees/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-tech-to-support-strategic-human-resource-planning/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-technical-assessments-to-identify-top-talent/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-technology-to-support-compensation-and-benefits/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-technology-to-support-new-hire-orientations/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-technology-to-support-performance-management/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-workplace-culture-to-improve-company-bottomline/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-workplace-culture-to-improve-employee-engagement/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/use-workspace-to-assess-problem-solving-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/user-experience-designer-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/user-experience-researcher-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/using-computer-literacy-test-for-candidate-evaluation/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/using-disc-personality-test-for-hiring-astrology-or-science/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/using-emotional-intelligence-test-for-hiring-astrology-or-science/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/using-english-proficiency-test-for-recruitment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/using-gameplay-as-a-resume-professional-skills-game-behavior/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/using-personality-tests-for-hiring-astrology-or-science/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/using-skill-assessment-for-developing-training/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/vaare-partnere/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/vendor-management-coordinator-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/vendor-management-specialist-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "https://testlify.com/vendor-management-coordinator-interview-questions-to-ask-job-applicants/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/vendor-relations-manager-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/veremark/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/verensics-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/verify-candidate-credibility-with-background-checks-and-references/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/verify-candidate-identity-in-remote-hiring/": {
+      "alive": true,
+      "final_url": "https://testlify.com/remote-assessments-in-remote-hiring/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/vervoe-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/video-ai-interviews-for-sales-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/video-interview-fragen/": {
+      "alive": true,
+      "final_url": "https://testlify.com/de/video-interview-fragen/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/video-interview-questions/": {
+      "alive": true,
+      "final_url": "https://testlify.com/video-interviews/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/video-interview-vragen/": {
+      "alive": true,
+      "final_url": "https://testlify.com/nl/video-interview-vragen/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/video-interviewing-tool/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/video-interviews-effective-in-assessing-candidates/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/video-interviews/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/virginia-employment-and-labor-laws/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/virtual-assistant-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/virtual-assistant-test-essential-for-recruiters/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/virtual-attention-to-detail-tests-adapting-to-remote-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/virtual-team-building/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/visite-guidee-du-produit/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/visual-personality-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/volume-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/vores-partnere/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/walmart-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/warehouse-manager-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/warehouse-operator-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/warehouse-supervisor-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/washington-employment-and-labor-laws/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ways-hr-can-assist-employee-resource-groups/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ways-organizations-can-assess-culture-fit-using-personality-tests/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ways-pre-hire-assessments-can-help-when-not-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ways-skill-based-hiring-can-counter-gender-gap/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ways-technology-can-help-hr-teams/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ways-to-boost-employee-engagement/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ways-to-cultivate-employee-loyalty/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ways-to-improve-team-dynamics-and-employee-behaviors/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ways-to-improve-the-legal-base-of-your-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/ways-to-simplify-campus-hiring-with-recruitment-tech/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/wecp-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/weirdly-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/welcoming-new-hires-in-a-virtual-environment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/wervingsindustrie/": {
+      "alive": true,
+      "final_url": "https://testlify.com/nl/wervingsindustrie/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/what-are-ai-interviews-and-do-they-really-work/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-industry-specific-skills-assessment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-operations-teams-and-how-do-they-work/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-personality-tests-and-how-are-they-used/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-recruitment-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-soft-skills-and-why-they-matter-in-the-workplace/": {
+      "alive": true,
+      "final_url": "https://testlify.com/what-are-soft-skills/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/what-are-soft-skills/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-staffing-services/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-talent-assessments/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-technical-assessments-and-why-are-they-important/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-the-4-pillars-of-talent-management/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-the-4-pillars-of-talent-management/?_pagination=2": {
+      "alive": true,
+      "final_url": "https://testlify.com/what-are-the-4-pillars-of-talent-management/?_pagination=2",
+      "liveness": "checked"
+    },
+    "https://testlify.com/what-are-the-benefits-of-building-a-talent-pool/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-the-best-interview-questions-to-ask/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-the-best-sourcing-tools-for-recruiters/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-the-different-types-of-sourcing-strategies/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-the-different-types-of-staffing-services/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-are-the-employment-assessments/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-ctos-should-know-before-hiring-defi-developers/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-a-disc-personality-test-for-jobs-and-how-is-it-used/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-an-american-workplace-culture/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-an-emotional-intelligence-test-for-jobs-and-how-is-it-used/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-an-employee-value-proposition-why-it-matters/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-dei/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-employee-experience-and-why-is-it-important/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-involuntary-turnover/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-motivational-fit-and-its-importance-in-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-organizational-development/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-performance-management/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-proctoring-as-a-service-and-how-does-it-work/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-skills-based-hiring-and-why-is-it-important/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-staffing-for-remote-teams/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-staffing-for-small-businesses/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-staffing-for-startups/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-staffing-for-startups/?_pagination=2": {
+      "alive": true,
+      "final_url": "https://testlify.com/what-is-staffing-for-startups/?_pagination=2",
+      "liveness": "checked"
+    },
+    "https://testlify.com/what-is-strategic-human-resource-planning/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-the-cost-of-a-bad-hire/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-the-future-of-psychometric-testing-in-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-the-importance-of-new-hire-orientations/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-is-workforce-planning/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-role-do-data-driven-aptitude-assessment-play-in-hiring-success/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-role-do-data-driven-big-five-personality-test-play-in-hiring-success/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-role-do-data-driven-qa-test-play-in-hiring-success/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-role-do-data-driven-technical-interview-questions-play-in-hiring-success/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-role-does-integrity-testing-play-in-pre-hiring-evaluations/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-role-does-social-media-play-in-pre-hiring-assessments/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-should-you-include-in-your-aptitude-assessment-to-ensure-comprehensive-candidate-evaluation/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-should-you-include-in-your-big-five-personality-test-to-ensure-comprehensive-candidate-evaluation/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-should-you-include-in-your-qa-test-to-ensure-comprehensive-candidate-evaluation/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-should-you-include-in-your-skill-assessment-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-should-you-include-in-your-technical-interview-questions-to-ensure-comprehensive-candidate-evaluation/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-to-do-if-youve-made-a-bad-hire/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-to-do-when-a-candidate-fails-a-skills-assessment/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-to-look-for-in-a-computer-literacy-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/what-to-look-for-in-a-sales-aptitude-test/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/whats-new/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/which-hr-behaviors-increase-hiring-fraud-risk/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/whire/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/white-collar-vs-blue-collar-jobs/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/white-label-interview-tools/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/white-label/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/white-label/?utm_medium=ppc": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-a-disc-personality-test-can-help-you-find-the-best-talent/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-a-personality-tests-can-help-you-find-the-best-talent/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-an-emotional-intelligence-test-can-help-you-find-the-best-talent/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-big-five-personality-test-is-the-best-for-hybrid-work/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-caring-culture-in-the-workplace-is-important/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-cognitive-reasoning-matters/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-disc-personality-test-is-more-important-than-ever/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-do-businesses-need-a-lms/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-do-recruiters-use-virtual-interview/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-do-you-need-analytical-ability-test-in-your-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-do-you-need-aptitude-assessment-in-your-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-do-you-need-big-five-personality-test-in-your-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-do-you-need-electrical-engineering-test-in-your-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-do-you-need-html-5-test-in-your-hiring-process/": {
+      "alive": true,
+      "final_url": "https://testlify.com/how-to-hire-top-talent-using-html-5-test/",
+      "liveness": "checked"
+    },
+    "https://testlify.com/why-do-you-need-management-test-in-your-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-do-you-need-project-manager-test-in-your-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-do-you-need-qa-test-in-your-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-do-you-need-resilience-test-in-your-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-do-you-need-sales-test-in-your-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-do-you-need-sql-test-in-your-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-do-you-need-technical-interview-questions-in-your-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-emotional-intelligence-test-are-more-important-than-ever/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-hr-leaders-should-master-academic-writing/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-hr-optimize-recruitment-budget-for-ai-first-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-is-a-business-judgement-test-essential-for-recruiting/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-is-a-customer-success-manager-test-essential-for-recruiting/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-is-a-data-visualization-test-essential-for-recruiting/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-is-a-full-stack-developer-test-essential-for-recruiting/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-is-a-performance-marketing-test-essential-for-recruiting/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-is-a-product-manager-assessment-essential-for-recruiting/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-is-a-react-native-test-online-essential-for-recruiting/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-is-an-accounting-manager-test-essential-for-recruiting/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-is-an-accounts-payable-test-essential-for-recruiting/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-is-an-adaptability-test-essential-for-recruiting/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-is-an-attention-to-detail-visual-test-essential-for-recruiting/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-is-an-nlp-test-essential-for-recruiting/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-mental-health-perks-helps-attract-top-talent/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-nodejs-test-is-essential-for-hiring-top-talent/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-personality-tests-are-more-important-than-ever/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-should-recruiters-use-programming-tests/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-skill-assessments-are-essential-for-recruiters/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-skill-based-assessments-offer-more-precision-in-tech-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-smaller-businesses-turn-to-virtual-assistant-services/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-startup-need-hr-consultancy-partner/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-testlify/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-the-assessment-of-writing-skills-is-critical-for-more-successful-hiring-decisions/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-transparent-communication-is-key-in-the-hiring-process/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/why-us-firms-prioritize-culture-first-hiring/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/windows-server-interview-questions-to-ask-job-applicants/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/wired2perform-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/wonderlic-alternatives/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/workforce-planning-for-remote-teams/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/workforce-planning-for-startups/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/workforce-reduction/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/workplace-conflict-resolution-strategies/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/workplace-inclusion-strategies/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/workplace-negativity/": {
+      "alive": true,
+      "final_url": "",
+      "liveness": "declared-elsewhere"
+    },
+    "https://testlify.com/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmg1hVGdeOcEg.woff2": {
+      "alive": true,
+      "final_url": "https://testlify.com/wp-content/fonts/poppins/pxiDyp8kv8JHgFVrJJLmg1hVGdeOcEg.woff2",
+      "liveness": "checked"
+    },
+    "https://testlify.com/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2": {
+      "alive": true,
+      "final_url": "https://testlify.com/wp-content/fonts/poppins/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2",
+      "liveness": "checked"
+    }
+  },
+  "dead": [
+    "https://testlify.com/test-library/unique-paths-in-a-given-grid-using-dynamic-programming/",
+    "https://testlify.com/test-library/validating-email-address/",
+    "https://testlify.com/test-library/visualizing-list-insertion/",
+    "https://testlify.com/test-library/watson-glaser-critical-thinking-appraisal-test/",
+    "https://testlify.com/test-library/web-services/",
+    "https://testlify.com/test-library/word-search-in-a-matrix-of-characters/",
+    "https://testlify.com/test-library/wordpress-developer-2/",
+    "https://testlify.com/test-library/wordpress-developer/?_pagination=2",
+    "https://testlify.com/test-library/work-reliability/",
+    "https://testlify.com/test-library/working-with-data/",
+    "https://testlify.com/test-library/yield-management/",
+    "https://testlify.com/test-library/zendesk-cs/",
+    "https://testlify.com/testbibliotek/",
+    "https://testlify.com/testlify-vs-testgorilla/",
+    "https://testlify.com/the-employee-experience-journey/",
+    "https://testlify.com/the-selection-lab-alternatives/",
+    "https://testlify.com/top-7-strategies-to-create-a-great-recruitment-experience/",
+    "https://testlify.com/top-8-benefits-of-ats-integration-for-job-assessments/",
+    "https://testlify.com/trust/",
+    "https://testlify.com/ultimate-list-of-hr-podcasts/",
+    "https://testlify.com/use-skill-assessments-to-to-assess-remote-candidates/",
+    "https://testlify.com/what-is-the-importance-of-new-hire-orientations-in/"
+  ],
+  "checked": 761,
+  "cdx_rows": 761,
+  "liveness_skipped_declared": 690
+}

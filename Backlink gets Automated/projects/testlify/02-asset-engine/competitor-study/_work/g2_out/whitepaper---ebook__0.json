@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 106,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The real content (remote-work demand, benefit gaps by gender, race-based turnover gaps) is gated behind a form; the public page only shows three teaser stats from a Q1 2022 EEOC survey of candidates, with no current-year figures.",
+    "asset": "What Candidates Actually Want From Employers in 2026",
+    "distinct_angle": "Replaces Bryq's gated, 2022-survey teasers with a fully readable report built on current public labor-market and candidate-sentiment data, no form wall, no stale year.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1043,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans entirely on a single NBER study of 15 firms and never tells the reader what to do with the finding, no guidance on choosing, validating, or rolling out a pre-employment test at their own company.",
+    "asset": "The Evidence That Skills Tests Beat Gut-Feel Hiring, and How to Act on It",
+    "distinct_angle": "Widens the evidence past the one NBER study this page leans on and adds concrete next steps for a hiring team, closing the 'so what do I do about it' gap the page leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1060,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines emotional intelligence and names three Emotify case studies by outcome only (e.g. 'increased job acceptance rates'), with the actual case-study detail and any assessment method gated behind a form; there is no sample question or scoring guidance a recruiter could use today.",
+    "asset": "How to Actually Evaluate Emotional Intelligence in a Job Interview",
+    "distinct_angle": "Swaps the definition-plus-gated-case-study approach for ungated, concrete interview questions and scoring guidance for EI, the practical how-to this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1091,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 page returns a Cloudflare DNS error page, no actual content was scraped"
+  },
+  {
+    "row_id": 2724,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 scraped page is only the Creative Commons license page for the book, not the book's content"
+  }
+]

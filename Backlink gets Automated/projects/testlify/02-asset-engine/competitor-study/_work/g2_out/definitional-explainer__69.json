@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1625,
+    "brand_fit": "CORE",
+    "angle_gap": "The list of '7 ways to upskill' is generic HR theory (job rotation, job enlargement, job enrichment, peer coaching) with the text cutting off mid-list, and it never explains how to identify WHICH skill gap an employee actually has before picking a method \u2014 'skills gap analysis' is named once but never explained.",
+    "asset": "Matching Employees to the Right Upskilling Method Once You've Measured Their Actual Skill Gap",
+    "distinct_angle": "Explains how to diagnose the real skill gap through assessment before choosing among the methods, closing the page's unexplained one-line mention of 'skills gap analysis' with actual evaluation criteria.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1626,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 job enrichment is post-hire job design/motivation theory (Herzberg, Hackman & Oldham), not hiring or assessment; explicitly off-limits per brand scope's post-hire performance exclusion"
+  },
+  {
+    "row_id": 1627,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee misconduct/discipline is post-hire HR compliance, not pre-employment assessment; outside Testlify's world and a plain explainer format with nothing worth transplanting"
+  },
+  {
+    "row_id": 1628,
+    "brand_fit": "CORE",
+    "angle_gap": "The article walks through building a passive-candidate persona, employer branding, and sourcing/outreach in detail but cuts off mid-step in 'Recruit passive candidates' and never addresses how to actually evaluate an engaged passive candidate quickly \u2014 passive prospects aren't desperate for a job and won't tolerate a slow, resume-only vetting process, yet the page is silent on screening speed once contact is made.",
+    "asset": "Screening Passive Candidates Fast Enough That They Don't Walk Away",
+    "distinct_angle": "Picks up exactly where this page stops (after outreach) and covers how to evaluate an engaged passive candidate's skills quickly and objectively, since a slow legacy screening process is precisely what causes an employed, not-actively-looking prospect to disengage.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1629,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 graphic rating scale is a post-hire performance-appraisal method, explicitly excluded by brand scope; it's a plain definitional explainer, not a link-pulling format worth transplanting"
+  }
+]

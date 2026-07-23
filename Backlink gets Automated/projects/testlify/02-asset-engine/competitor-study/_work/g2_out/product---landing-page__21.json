@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1854,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 this is recruiting-agency CRM/sourcing software (AI sourcing, outreach, job-change alerts for executive search firms), a different product world from skills assessment; brand scope explicitly excludes passive-candidate sourcing/ATS-CRM tooling"
+  },
+  {
+    "row_id": 2170,
+    "brand_fit": "CORE",
+    "angle_gap": "Page asserts 'norming, validity, reliability, standardization' as headline claims but never backs any of them with a number \u2014 no reported reliability coefficient, no adverse-impact ratio, no actual sample size beyond 'large sample drawn from different geographies.' It's marketing-speak about rigor with zero verifiable rigor shown.",
+    "asset": "What Actually Makes a Psychometric Test Valid (and How to Check Before You Buy One)",
+    "distinct_angle": "Names the exact reliability/validity metrics and adverse-impact checks a buyer should demand from any vendor \u2014 where this page only asserts 'validity and reliability' as slogans without a single reported coefficient, sample size, or citation.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2171,
+    "brand_fit": "CORE",
+    "angle_gap": "Catalogues 11 aptitude test types (logical reasoning, cognitive speed, spatial reasoning, etc.) each in one generic sentence, but never once raises adverse impact or EEOC-defensibility \u2014 the single biggest legal risk with cognitive aptitude testing in hiring \u2014 despite this being exactly the kind of test that draws disparate-impact scrutiny.",
+    "asset": "Aptitude Testing for Hiring: The Adverse-Impact Question Vendors Skip",
+    "distinct_angle": "Directly addresses the EEOC/adverse-impact defensibility of cognitive aptitude tests, a compliance question this page's full test catalogue never raises even once.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2172,
+    "brand_fit": "CORE",
+    "angle_gap": "The homepage is almost entirely client logos, stats badges, and a long wall of testimonials; it never gives a buyer an actual framework for comparing assessment platforms (test science depth, proctoring rigor, integration breadth) \u2014 it substitutes social proof for substance.",
+    "asset": "How to Actually Evaluate a Talent Assessment Platform, Beyond the Client Logos",
+    "distinct_angle": "Gives a concrete evaluation framework (test science, proctoring depth, integration breadth) instead of leaning on testimonials and vague trust stats the way this homepage does.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2173,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists proctoring features (dual camera, AI flags, secure browser, audio proctoring) as pure capability marketing, but never discloses the honest trade-offs \u2014 false-positive rates on AI cheating flags, candidate privacy/consent, or accessibility accommodations for candidates with disabilities \u2014 despite the brand's own remit calling out 'the honest trade-offs' of proctoring as the subject worth owning.",
+    "asset": "The Trade-offs of AI Proctoring That Never Make the Feature List",
+    "distinct_angle": "Surfaces the false-positive, privacy, and disability-accommodation trade-offs of AI-based proctoring that this page omits entirely in favor of pure capability listing.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

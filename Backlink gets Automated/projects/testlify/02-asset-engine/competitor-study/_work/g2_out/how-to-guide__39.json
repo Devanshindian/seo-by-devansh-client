@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3274,
+    "brand_fit": "CORE",
+    "angle_gap": "Skill list is reduced to three generic tags (Communication, Java, Coding) and the sample test has only three shallow questions; nothing defines what separates a mid-level Java developer's expected skill depth from a junior's or senior's beyond one throwaway Kotlin tip.",
+    "asset": "The Skill Thresholds That Separate a Mid-Level Java Developer from Junior and Senior Candidates",
+    "distinct_angle": "Defines concrete, testable thresholds (JVM tuning, concurrency handling, code-review depth) that mark 'mid-level' vs junior/senior, replacing the page's generic 3-tag skill list and 3-question sample test.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3283,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites 2021-era framing ('committed to increasing diversity...in 2021') and blends hiring-stage diversity metrics with post-hire inclusion measures (pay equity, ERGs, benefits) instead of giving recruiters a hiring-funnel-specific bias framework tied to assessment data.",
+    "asset": "How to Measure Bias at Every Stage of Your Hiring Funnel in 2026",
+    "distinct_angle": "Refocuses purely on hiring-stage bias metrics (screening, assessment, interview, offer) with current benchmarks, instead of mixing in the post-hire inclusion metrics like pay equity and ERGs this page conflates it with.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3294,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 job-seeker/candidate-side career advice (how candidates research employers before applying), not hiring-side content; off-limits per brand scope."
+  },
+  {
+    "row_id": 3318,
+    "brand_fit": "CORE",
+    "angle_gap": "The 11-stage hiring process is described in generic one-line summaries with no concrete numbers \u2014 no drop-off rates, time-to-hire figures, or worked scorecard example \u2014 leaving the framework abstract rather than actionable.",
+    "asset": "The Hiring Stage Where Qualified Candidates Actually Drop Off \u2014 and How to Fix It",
+    "distinct_angle": "Attaches real funnel benchmarks (drop-off rates, time-to-hire by stage) and a worked scorecard example to each of the 11 stages, where this page gives only one generic sentence per stage.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3329,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans on dated-sounding stats (1.2 billion Microsoft users, 82% of middle-skill jobs) and lists roles needing MS Office skills without ever showing what a concrete 'basic' vs 'advanced' Excel/Word/PowerPoint skill actually looks like in practice.",
+    "asset": "What 'Advanced' Excel and Word Skills Actually Look Like, Role by Role",
+    "distinct_angle": "Replaces the page's vague skill-level labels with worked examples of basic vs. advanced Excel/Word/PowerPoint tasks per role (finance, admin, sales), and refreshes the usage stats to current public figures.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

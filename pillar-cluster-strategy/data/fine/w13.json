@@ -1,0 +1,169 @@
+{
+  "slice_id": "w13",
+  "clusters": [
+    {
+      "pillar": "Hiring Skilled Trades & Construction Workers",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-general-contractor",
+        "how-to-hire-a-hvac-technician",
+        "how-to-hire-a-plumber",
+        "how-to-hire-a-plumber-pipefitter",
+        "how-to-hire-a-welder",
+        "how-to-hire-an-electrician",
+        "how-to-hire-an-elevator-mechanic",
+        "how-to-hire-a-millwright",
+        "how-to-hire-a-solar-technician",
+        "how-to-hire-a-wind-turbine-technician",
+        "how-to-hire-painter"
+      ]
+    },
+    {
+      "pillar": "Hiring Mechanics & Repair Technicians",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-machinery-mechanic",
+        "how-to-hire-a-mechanic",
+        "how-to-hire-a-repair-manager",
+        "how-to-hire-a-repair-technician",
+        "how-to-hire-a-technician",
+        "how-to-hire-a-maintenance-worker",
+        "how-to-hire-an-aircraft-mechanic",
+        "how-to-hire-an-automotive-technician"
+      ]
+    },
+    {
+      "pillar": "Hiring Manufacturing & Machine Operators",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-machine-operator",
+        "how-to-hire-a-machinist",
+        "how-to-hire-a-patternmaker",
+        "how-to-hire-a-production-manager",
+        "how-to-hire-an-assembler",
+        "how-to-hire-an-equipment-operator",
+        "how-to-hire-manufacturing-worker",
+        "how-to-hire-food-processing-workers"
+      ]
+    },
+    {
+      "pillar": "Hiring Warehouse & Logistics Workers",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-warehouse-picker",
+        "how-to-hire-a-warehouse-supervisor",
+        "how-to-hire-a-warehouse-worker",
+        "how-to-hire-a-laborer",
+        "how-to-hire-logistics-and-shipping-workers",
+        "how-to-hire-manual-packers-and-packagers",
+        "how-to-hire-a-truck-driver",
+        "how-to-hire-a-taxi-driver"
+      ]
+    },
+    {
+      "pillar": "Hiring Facilities & Cleaning Staff",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-janitor",
+        "how-to-hire-a-sanitation-worker",
+        "how-to-hire-a-utility-worker",
+        "how-to-hire-a-waste-management-technician",
+        "how-to-hire-a-room-attendant",
+        "how-to-hire-maids-and-housekeeping-cleaners",
+        "how-to-hire-parking-attendants"
+      ]
+    },
+    {
+      "pillar": "Hiring Hospitality & Restaurant Staff",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-hotel-hospitality-staff",
+        "how-to-hire-restaurant-hospitality-staff",
+        "how-to-hire-waiter",
+        "how-to-hire-cashier",
+        "how-to-hire-a-retail-merchandiser",
+        "how-to-hire-a-retail-sales-associate",
+        "how-to-hire-manicurists-and-pedicurists"
+      ]
+    },
+    {
+      "pillar": "Hiring Outdoor, Agriculture & Resource Workers",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-farmer",
+        "how-to-hire-a-landscaper",
+        "how-to-hire-a-logger-for-logging",
+        "how-to-hire-a-miner",
+        "how-to-hire-derrick-hand",
+        "how-to-hire-fisherman",
+        "how-to-hire-an-animal-caretaker",
+        "how-to-hire-a-firefighter"
+      ]
+    },
+    {
+      "pillar": "Hiring Software Developers & Engineers",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-good-cloud-engineer-a-complete-guide",
+        "how-to-hire-a-php-developer-roles-skills-salaries-and-recruitment-guide",
+        "how-to-hire-a-react-developer-using-a-react-test",
+        "how-to-hire-the-best-devops-engineers",
+        "how-to-hire-game-devs-without-coding-challenges",
+        "how-to-hire-startup-web-app-development-company"
+      ]
+    },
+    {
+      "pillar": "Hiring HR, Management & Business Professionals",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-hr-manager",
+        "how-to-hire-hr-professionals",
+        "how-to-hire-a-product-manager",
+        "how-to-hire-data-analysts-a-complete-guide",
+        "how-to-hire-the-right-financial-analyst",
+        "how-to-hire-a-temporary-employee"
+      ]
+    },
+    {
+      "pillar": "Hiring Developers with Coding & Language Skill Tests",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-top-talent-using-a-c-test",
+        "how-to-hire-top-talent-using-css-test",
+        "how-to-hire-top-talent-using-git-test",
+        "how-to-hire-top-talent-using-html-5-test",
+        "how-to-hire-top-talent-using-postgresql-test",
+        "how-to-hire-top-talent-using-sql-test",
+        "how-to-hire-top-talent-using-qa-test",
+        "how-to-hire-top-talent-using-a-it-test"
+      ]
+    },
+    {
+      "pillar": "Hiring with Aptitude & Cognitive Ability Tests",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-top-talent-using-analytical-ability-test",
+        "how-to-hire-top-talent-using-aptitude-assessment",
+        "how-to-hire-top-talent-using-deductive-reasoning-test",
+        "how-to-hire-top-talent-using-big-five-personality-test",
+        "how-to-hire-top-talent-using-resilience-test"
+      ]
+    },
+    {
+      "pillar": "Hiring with Role & Skill-Based Job Tests",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-top-talent-using-accounting-principles-test",
+        "how-to-hire-top-talent-using-electrical-engineering-test",
+        "how-to-hire-top-talent-using-electrician-test",
+        "how-to-hire-top-talent-using-general-contractor-test",
+        "how-to-hire-top-talent-using-millwright-test",
+        "how-to-hire-top-talent-using-management-test",
+        "how-to-hire-top-talent-using-project-manager-test",
+        "how-to-hire-top-talent-using-scrum-master-test",
+        "how-to-hire-top-talent-using-sales-test"
+      ]
+    }
+  ],
+  "orphans": []
+}

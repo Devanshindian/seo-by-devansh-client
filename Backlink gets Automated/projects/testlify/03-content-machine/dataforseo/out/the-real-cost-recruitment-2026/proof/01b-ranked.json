@@ -1,0 +1,884 @@
+[
+  {
+    "kw": "how much do recruiters make per-hire",
+    "vol": 260,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost per hire",
+    "vol": 210,
+    "kd": 7,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "costs per hire",
+    "vol": 210,
+    "kd": 13,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "value resourcing",
+    "vol": 210,
+    "kd": 26,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of hire",
+    "vol": 170,
+    "kd": 7,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of hiring",
+    "vol": 170,
+    "kd": 37,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost to hire",
+    "vol": 170,
+    "kd": 18,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "costs of hiring",
+    "vol": 170,
+    "kd": 31,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "hiring cost",
+    "vol": 170,
+    "kd": 37,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "hiring costs",
+    "vol": 170,
+    "kd": 27,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "3/4 times 1",
+    "vol": 140,
+    "kd": 5,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of hiring a skip",
+    "vol": 140,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of hiring new employee",
+    "vol": 110,
+    "kd": 52,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost to hire a new employee",
+    "vol": 110,
+    "kd": 52,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost to hire new employee",
+    "vol": 110,
+    "kd": 52,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "costs of recruiting new employees",
+    "vol": 110,
+    "kd": 52,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much do recruiting agencies charge",
+    "vol": 110,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much do recruitment companies charge",
+    "vol": 110,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does a recruitment company charge",
+    "vol": 110,
+    "kd": 4,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "average cost of hiring a new employee",
+    "vol": 90,
+    "kd": 24,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "average cost of recruiting a new employee",
+    "vol": 90,
+    "kd": 52,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "average cost to hire a new employee",
+    "vol": 90,
+    "kd": 24,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of hiring a new employee",
+    "vol": 90,
+    "kd": 29,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of hiring new staff",
+    "vol": 90,
+    "kd": 52,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of recruiting new employees",
+    "vol": 90,
+    "kd": 52,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "costs of hiring new employees",
+    "vol": 90,
+    "kd": 56,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "des hire",
+    "vol": 90,
+    "kd": 1,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much do recruiters cost",
+    "vol": 90,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does a recruiter cost",
+    "vol": 90,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does it cost to hire an employee",
+    "vol": 90,
+    "kd": 25,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does it cost to hire employees",
+    "vol": 90,
+    "kd": 28,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does it cost to hire staff",
+    "vol": 90,
+    "kd": 28,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "hr costing",
+    "vol": 90,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "human resource cost",
+    "vol": 90,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruiting fee",
+    "vol": 90,
+    "kd": 4,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruiting fees",
+    "vol": 90,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruitment fees",
+    "vol": 90,
+    "kd": 13,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of hiring an employee",
+    "vol": 70,
+    "kd": 45,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of hiring employee",
+    "vol": 70,
+    "kd": 46,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of hiring employees",
+    "vol": 70,
+    "kd": 46,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of hiring staff",
+    "vol": 70,
+    "kd": 26,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of recruiting employees",
+    "vol": 70,
+    "kd": 28,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of recruiting staff",
+    "vol": 70,
+    "kd": 15,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of recruitment",
+    "vol": 70,
+    "kd": 10,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost to hire employee",
+    "vol": 70,
+    "kd": 45,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost to hire employees",
+    "vol": 70,
+    "kd": 45,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost to recruit",
+    "vol": 70,
+    "kd": 15,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost to recruit an employee",
+    "vol": 70,
+    "kd": 22,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "costs of hiring an employee",
+    "vol": 70,
+    "kd": 56,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "costs of hiring employees",
+    "vol": 70,
+    "kd": 46,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "costs of recruiting",
+    "vol": 70,
+    "kd": 14,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "costs of recruitment",
+    "vol": 70,
+    "kd": 8,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "do recruiters get paid per hire",
+    "vol": 70,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "employee hiring costs",
+    "vol": 70,
+    "kd": 56,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does it cost to hire",
+    "vol": 70,
+    "kd": 23,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does it cost to hire someone",
+    "vol": 70,
+    "kd": 23,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruiting cost",
+    "vol": 70,
+    "kd": 6,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruitment cost",
+    "vol": 70,
+    "kd": 22,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruitment costs",
+    "vol": 70,
+    "kd": 14,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of hiring a new employee vs retaining",
+    "vol": 50,
+    "kd": 26,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of onboarding",
+    "vol": 50,
+    "kd": 3,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "headhunter costs",
+    "vol": 50,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "headhunting fee",
+    "vol": 50,
+    "kd": 2,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "headhunting fees",
+    "vol": 50,
+    "kd": 4,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does it cost to hire a new employee",
+    "vol": 50,
+    "kd": 52,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much is approximately",
+    "vol": 50,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "human beings resources",
+    "vol": 50,
+    "kd": 25,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "onboarding costs",
+    "vol": 50,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "staffing cost",
+    "vol": 50,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "staffing costs",
+    "vol": 50,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "3/4 times 200",
+    "vol": 40,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "9 times 700",
+    "vol": 40,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "average cost per hire",
+    "vol": 40,
+    "kd": 28,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "average cost to hire an employee",
+    "vol": 40,
+    "kd": 29,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of onboarding a new employee",
+    "vol": 40,
+    "kd": 13,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of onboarding new employees",
+    "vol": 40,
+    "kd": 27,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of training a new employee",
+    "vol": 40,
+    "kd": 26,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost per hire average",
+    "vol": 40,
+    "kd": 20,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost to train a new employee",
+    "vol": 40,
+    "kd": 31,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost to train new employee",
+    "vol": 40,
+    "kd": 31,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost to train new employees",
+    "vol": 40,
+    "kd": 31,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does it cost to onboard a new employee",
+    "vol": 40,
+    "kd": 27,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does it cost to train a new employee",
+    "vol": 40,
+    "kd": 26,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does it cost to train new employees",
+    "vol": 40,
+    "kd": 31,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "mcgehrin group pricing",
+    "vol": 40,
+    "kd": 0,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruiter cost",
+    "vol": 40,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruiting expenses",
+    "vol": 40,
+    "kd": 6,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruitment expense",
+    "vol": 40,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruitment expenses",
+    "vol": 40,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "average cost of hiring an employee",
+    "vol": 30,
+    "kd": 28,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "average cost to train a new employee",
+    "vol": 30,
+    "kd": 26,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "average turnover cost per employee",
+    "vol": 30,
+    "kd": 38,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "budget for recruitment",
+    "vol": 30,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "headhunter fees typical",
+    "vol": 30,
+    "kd": 6,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "pay for hire",
+    "vol": 30,
+    "kd": 1,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruitment rate",
+    "vol": 30,
+    "kd": 1,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruitment rates",
+    "vol": 30,
+    "kd": 40,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "the process of recruiting hiring training evaluating and compensating employees",
+    "vol": 30,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "shrm cost per hire",
+    "vol": 20,
+    "kd": 37,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "shrm cost per-hire",
+    "vol": 20,
+    "kd": 15,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "shrm cost-per hire",
+    "vol": 20,
+    "kd": 24,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "shrm cost-per-hire",
+    "vol": 20,
+    "kd": 37,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "cost of recruiting",
+    "vol": 70,
+    "kd": 4,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruiting budget",
+    "vol": 40,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruiting expense",
+    "vol": 40,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruitment budget",
+    "vol": 30,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much do recruitment agencies charge",
+    "vol": 110,
+    "kd": 4,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does recruitment agency charge",
+    "vol": 110,
+    "kd": 4,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruitment fee",
+    "vol": 110,
+    "kd": 11,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "fees charged by recruitment agencies",
+    "vol": 70,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "recruitment company fees",
+    "vol": 70,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does a job recruiter cost",
+    "vol": 40,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "average cost per hire by industry",
+    "vol": 20,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does executive career partners cost",
+    "vol": 480,
+    "kd": 2,
+    "comp": "MEDIUM",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much do recruiters make per hire",
+    "vol": 260,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "hire cost",
+    "vol": 170,
+    "kd": 16,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does a headhunter cost",
+    "vol": 110,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much does a recruiter make per hire",
+    "vol": 70,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much is help wanted",
+    "vol": 50,
+    "kd": 15,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "minimum cost to hire k workers",
+    "vol": 30,
+    "kd": 0,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "job search costs",
+    "vol": 30,
+    "kd": 1,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much is 1 talent",
+    "vol": 880,
+    "kd": 1,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much is a talent",
+    "vol": 880,
+    "kd": 4,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much is one talent",
+    "vol": 880,
+    "kd": 1,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much was a talent",
+    "vol": 110,
+    "kd": 4,
+    "comp": "LOW",
+    "src": "ranked"
+  },
+  {
+    "kw": "how much money is a talent",
+    "vol": 50,
+    "kd": 5,
+    "comp": "LOW",
+    "src": "ranked"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3650,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites a stale 'by 2020' millennial-workforce stat that is now years past its own deadline, and leans on an unnamed, uncited 'apparel brand case study' with no real detail \u2014 no concrete startup-specific guidance on which test types fit which hiring stage or budget tier.",
+    "asset": "Pre-Employment Testing for Startups: What to Test at 10, 50, and 200 Employees",
+    "distinct_angle": "Replaces the stale 'by 2020' stat and the unnamed case study with a stage-by-stage breakdown of which assessments fit a startup's budget and headcount, citing current public benchmarks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3651,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Gives ATS+HRIS, +onboarding, +job-boards, +CRM, and +analytics each a full subsection, but 'assessment software' only gets a single TL;DR mention \u2014 no dedicated section on how test scores actually flow into an ATS profile or trigger the next screening stage.",
+    "asset": "How Assessment Scores Actually Flow Into Your ATS (and What Breaks When They Don't)",
+    "distinct_angle": "Gives the ATS+assessment integration its own deep section \u2014 how scores map into candidate ATS records and auto-advance screening stages \u2014 the one integration type this page names but never explains.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3653,
+    "brand_fit": "CORE",
+    "angle_gap": "The KPI section names one line each for a sales role and a developer role but never builds a full worked example \u2014 no actual rubric, weighting, or pass bar showing how a recruiter would score a real candidate against those KPIs during hiring.",
+    "asset": "How to Build a Performance-Based Hiring Rubric for Any Role, With Sales and Engineering Worked Examples",
+    "distinct_angle": "Turns the one-line KPI examples into full worked scoring rubrics for a sales and an engineering role, showing the actual weighting and pass bar the page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3657,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites AI-adoption figures with no date or source (a '56% of organizations... up from 50% the year before' stat) and never once addresses AI interview scoring accuracy or bias risk \u2014 a page about AI hiring solutions that skips the concern recruiters raise most.",
+    "asset": "What AI Hiring Tools Actually Get Right (and Wrong) About Screening Candidates Fairly",
+    "distinct_angle": "Refreshes the uncited adoption stats to current public figures and adds the bias/accuracy discussion this page omits entirely despite covering AI in hiring.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3660,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers only classic US federal law (Title VII, ADA, ADEA) and stops there \u2014 no mention of NYC Local Law 144's AI bias-audit requirement or the EU AI Act's high-risk classification for hiring AI, both directly relevant to any company running AI-scored assessments.",
+    "asset": "The Hiring Compliance Rules EEOC Guidance Doesn't Cover: NYC LL144 and the EU AI Act",
+    "distinct_angle": "Extends past Title VII/ADA/ADEA to cover NYC LL144's bias-audit mandate and the EU AI Act's high-risk hiring-AI rules \u2014 the current regulatory layer this page never mentions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

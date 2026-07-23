@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1190,
+    "brand_fit": "CORE",
+    "angle_gap": "Page lists covered skills and shows sample questions but never explains what a fluid-intelligence score actually predicts about job performance, gives no interpretation/cutoff guidance, and never mentions that cognitive-ability tests carry documented adverse-impact risk under EEOC guidance \u2014 a critical omission for a recruiter deciding whether to rely on this score.",
+    "asset": "Fluid Intelligence Testing in Hiring: Reading the Score Without the Adverse-Impact Risk",
+    "distinct_angle": "Explains what a fluid-intelligence score actually predicts about job performance and flags the adverse-impact risk cognitive-ability tests carry under EEOC guidance \u2014 context this page omits entirely.",
+    "tool_escalation": "format tag is an interactive assessment \u2014 delivering and scoring the test requires a live build, not just written content.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1193,
+    "brand_fit": "CORE",
+    "angle_gap": "Page treats 'sales' as one undifferentiated role, testing the same objection-handling/negotiation/closing skills for every sales job, with no distinction between an SDR prospecting role, an account-executive negotiation role, and an enterprise deal-cycle role \u2014 despite these needing very different skill weightings.",
+    "asset": "Sales Aptitude Testing by Role: SDR, Account Executive, and Enterprise Sales Aren't the Same Test",
+    "distinct_angle": "Breaks the single generic 'sales aptitude' test into what actually differs by role level (SDR prospecting vs. AE negotiation vs. enterprise deal cycles) \u2014 a distinction this page collapses into one undifferentiated test.",
+    "tool_escalation": "format tag is an interactive assessment \u2014 delivering and scoring the test requires a live build, not just written content.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1196,
+    "brand_fit": "CORE",
+    "angle_gap": "Page bundles six distinct reasoning skills (abstract, critical thinking, deductive, inductive, pattern matching, spatial) under one 'problem solving' label without explaining how they differ or which jobs actually need which skill, and asserts it measures 'learning agility' and 'coachability' without any support for that claim.",
+    "asset": "What 'Problem-Solving' Actually Means for Hiring: Six Reasoning Skills, Different Jobs",
+    "distinct_angle": "Unpacks the six distinct reasoning skills the test bundles together and maps which ones matter for which job types \u2014 the differentiation this page's monolithic framing skips.",
+    "tool_escalation": "format tag is an interactive assessment \u2014 delivering and scoring the test requires a live build, not just written content.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1206,
+    "brand_fit": "CORE",
+    "angle_gap": "Page pads its skills list with things the test doesn't actually measure (ergonomic awareness, keyboard-shortcut knowledge) but gives no real WPM/accuracy benchmark numbers by role, so a recruiter still can't tell what score should count as a pass for a data-entry role versus an admin-assistant or transcription role.",
+    "asset": "Typing Speed and Accuracy Benchmarks by Role: What Score Actually Qualifies a Candidate",
+    "distinct_angle": "Supplies real WPM/accuracy benchmark ranges by role (data entry vs. admin vs. transcription) so recruiters can set an actual cutoff \u2014 this page lists skills but gives no numbers to hire against.",
+    "tool_escalation": "format tag is an interactive assessment \u2014 delivering and scoring the test requires a live build, not just written content.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1211,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 page is just site nav/footer chrome around a single ungated lead-gen CTA line ('Are you a seasoned product manager? Take this quiz to find out!'); no substantive test content, skills list, or questions to read for a gap"
+  }
+]

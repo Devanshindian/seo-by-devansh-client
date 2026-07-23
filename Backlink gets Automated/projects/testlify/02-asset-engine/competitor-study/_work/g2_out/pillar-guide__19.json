@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2609,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 page is broken CMS scaffolding (unrendered 'NewsFeed Container' component labels, no actual article body ever loaded), nothing to read a gap from"
+  },
+  {
+    "row_id": 2638,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists only skill CATEGORIES to test (containerization basics, core K8s concepts) with no concrete sample tasks, no scoring rubric, and no split between what a junior vs. senior Kubernetes engineer should actually demonstrate \u2014 'ask candidates to perform a Kubernetes task' never says which task or what a pass/fail answer looks like.",
+    "asset": "The Skill Signals That Separate a Junior From a Senior Kubernetes Engineer",
+    "distinct_angle": "Replaces the page's vague skill-category list with concrete sample assessment tasks and pass/fail scoring signals broken out by experience level \u2014 the depth and specificity this page never gets to.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2646,
+    "brand_fit": "CORE",
+    "angle_gap": "Extremely thin: three vague yes/no questions ('Do they understand JavaScript theories well?') with no worked examples, no framework-specific guidance despite claiming candidates should 'learn any JS framework easily,' and its only cited stat is the 2020 Stack Overflow survey \u2014 six years stale.",
+    "asset": "JavaScript Interview Questions That Actually Separate Strong Coders From Rehearsed Answers",
+    "distinct_angle": "Swaps the page's three generic yes/no questions and stale 2020 survey stat for concrete debugging/design-pattern scenarios with example strong vs. weak answers, plus a current hiring-demand figure.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2883,
+    "brand_fit": "CORE",
+    "angle_gap": "Thorough on defining EI and listing its business benefits (communication, conflict management, leadership) but stays entirely theoretical \u2014 no concrete behavioral interview questions, no example of what a high- vs low-EQ answer sounds like, and no guidance on how a recruiter actually scores EQ in a screening conversation despite the guide promising to cover 'how organizations can assess emotional intelligence in the workplace.'",
+    "asset": "Emotional Intelligence Interview Questions That Reveal Real Behavior, Not Buzzwords",
+    "distinct_angle": "Delivers the concrete behavioral interview questions and strong-vs-weak answer examples this guide promises but never provides, closing the gap between its theory and an actual screening conversation.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2888,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers assessment types and a generic challenge-to-benefit table but never cites validity evidence (no validity coefficients, no adverse-impact/EEOC-defensibility data) and leans on vague attribution ('many organizations') instead of sourced current figures \u2014 a real gap for HR teams who need to defend a testing program legally.",
+    "asset": "The Validity and Adverse-Impact Data HR Should Check Before Choosing a Psychometric Test",
+    "distinct_angle": "Adds the validity-coefficient and adverse-impact/EEOC-defensibility data this guide never cites, replacing its vague 'many organizations' framing with sourced current figures.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

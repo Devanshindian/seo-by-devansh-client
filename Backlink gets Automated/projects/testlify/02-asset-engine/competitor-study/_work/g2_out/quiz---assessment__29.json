@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3497,
+    "brand_fit": "CORE",
+    "angle_gap": "The test's own science section shows a reliability score of only .64 (Cronbach's alpha), and construct validity, age differences, and ethnicity differences are all marked 'Pending' rather than 'Acceptable' \u2014 the page publishes a role-specific test with incomplete fairness and reliability data.",
+    "asset": "A QA Test Engineer Assessment Built With Full Reliability and Fairness Validation",
+    "distinct_angle": "Closes the exact psychometric gaps this page discloses about itself \u2014 construct validity and demographic-fairness checks left 'Pending,' and reliability sitting at .64 \u2014 with a test that reports complete, current validation data.",
+    "tool_escalation": "Format is a scored skills test \u2014 the differentiator (stronger reliability and completed fairness checks) requires building and psychometrically validating an actual test, not just writing content.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3506,
+    "brand_fit": "CORE",
+    "angle_gap": "Their own test-science data shows criterion-related validity of r = .09 (N = 755) \u2014 barely distinguishable from zero \u2014 meaning candidates' scores on this test show almost no relationship to how hiring teams actually rated them on the job, despite reliability being labeled 'acceptable' at .64.",
+    "asset": "A Customer Success Representative Assessment That Actually Predicts SaaS Job Performance",
+    "distinct_angle": "Targets the weak link their own science page admits to \u2014 a near-zero r = .09 criterion validity \u2014 with a test built to show a real, demonstrated link to on-the-job success ratings.",
+    "tool_escalation": "Format is a scored skills test \u2014 improving on a stated r = .09 criterion validity means building and validating a new test, not writing an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3507,
+    "brand_fit": "CORE",
+    "angle_gap": "Every listed C challenge \u2014 stacks and queues, debugging, heaps, graphs, binary search trees, binary trees \u2014 is delivered as 'Multiple choice,' meaning candidates pick an answer about code rather than write and run working C themselves.",
+    "asset": "A C Coding Assessment Candidates Solve by Writing Real Code, Not Picking an Answer",
+    "distinct_angle": "Swaps their multiple-choice format for actual autograded code-writing challenges across the same skill areas (stacks and queues, heaps, graphs, BSTs) \u2014 closing the real-code-vs-multiple-choice gap their own page discloses.",
+    "tool_escalation": "Format is a scored coding test \u2014 the differentiator (live compile-and-run challenges instead of multiple choice) requires building an autograded coding environment, not written content.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3514,
+    "brand_fit": "CORE",
+    "angle_gap": "The summary claims the test evaluates 'developing machine learning models' and 'implementing natural language processing algorithms,' but the actual covered skills are classic symbolic-AI topics \u2014 local search, game theory and constraint satisfaction, first-order logic, automated planning and robotics \u2014 with no machine learning, neural networks, or LLM/generative-AI content at all.",
+    "asset": "An AI Skills Assessment That Tests Machine Learning and LLM Fluency, Not Just Classical AI Theory",
+    "distinct_angle": "Covers what a 2026 'AI skills' hire actually needs \u2014 ML model literacy, NLP, generative-AI/LLM fluency \u2014 instead of the classical search-and-logic curriculum their covered-skills list is limited to despite the page's own ML claim.",
+    "tool_escalation": "Format is a scored skills test \u2014 testing modern ML/LLM fluency instead of classical AI theory requires building a new question bank and scoring model, not just writing content.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3524,
+    "brand_fit": "CORE",
+    "angle_gap": "The page justifies the test's value with '72% of leaders believe it contributes to employee productivity' but names no source or year for that figure, and treats editors, sales reps, project managers, and consultants as needing the identical C1 test with no role-specific difficulty or context.",
+    "asset": "An English C1 Assessment That Sources Its Productivity Data and Tailors Difficulty by Role",
+    "distinct_angle": "Replaces the unsourced '72% of leaders' claim with a current, cited statistic on workplace communication, and differentiates difficulty by role instead of using one generic C1 test for editors, sales reps, and consultants alike.",
+    "tool_escalation": "Format is a scored language test \u2014 role-differentiated difficulty tiers require building and calibrating separate test variants, not just writing content.",
+    "g_notes": ""
+  }
+]

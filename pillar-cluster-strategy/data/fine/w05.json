@@ -1,0 +1,223 @@
+{
+  "slice_id": "w05",
+  "clusters": [
+    {
+      "pillar": "Coding & Programming Tests",
+      "intent": "informational",
+      "spokes": [
+        "how-to-determine-the-right-level-of-difficulty-in-programming-tests",
+        "how-to-evaluate-coding-assessments",
+        "how-to-integrate-problem-solving-and-critical-thinking-in-programming-tests",
+        "how-to-use-coding-assessments-for-remote-roles",
+        "how-to-use-coding-assessments-to-hire-the-right-talent",
+        "must-have-elements-in-programming-test",
+        "new-and-emerging-trends-in-programming-tests",
+        "programming-tests-a-complete-guide",
+        "programming-tests-to-hire-top-talent"
+      ]
+    },
+    {
+      "pillar": "Programming Language & Developer Test Guides",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-incorporate-git-test-into-your-recruitment-strategy",
+        "how-to-incorporate-postgresql-test-into-your-recruitment-strategy",
+        "how-to-incorporate-sql-test-into-your-recruitment-strategy",
+        "incorporate-aws-test-into-your-recruitment-strategy",
+        "incorporate-java-code-test-into-your-recruitment-strategy",
+        "incorporate-javascript-test-in-recruitment-strategy",
+        "incorporate-kotlin-test-into-your-recruitment-strategy",
+        "key-skills-ios-test-should-assess-in-candidates"
+      ]
+    },
+    {
+      "pillar": "Technical Assessment Process",
+      "intent": "informational",
+      "spokes": [
+        "how-to-integrate-technical-assessments-into-your-recruiting-process",
+        "how-to-interpret-technical-assessment-results",
+        "how-to-prepare-candidates-for-technical-assessments"
+      ]
+    },
+    {
+      "pillar": "Cognitive & Aptitude Tests",
+      "intent": "informational",
+      "spokes": [
+        "how-to-incorporate-analytical-ability-test-into-your-recruitment-strategy",
+        "how-to-incorporate-deductive-reasoning-test-into-your-recruitment-strategy",
+        "maximize-hiring-success-with-a-comprehension-test",
+        "problem-solving-test-enhance-recruitment-efforts",
+        "incorporating-attention-to-detail-tests-in-entry-level-hiring",
+        "ravens-progressive-matrices-test"
+      ]
+    },
+    {
+      "pillar": "Integrity, Reliability & Character Tests",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-incorporate-resilience-test-into-your-recruitment-strategy",
+        "incorporate-integrity-test-in-recruitment-strategy",
+        "incorporate-work-reliability-test-in-recruitment-strategy"
+      ]
+    },
+    {
+      "pillar": "Emotional Intelligence Testing in Hiring",
+      "intent": "informational",
+      "spokes": [
+        "how-to-interpret-the-results-of-an-emotional-intelligence-test",
+        "pros-and-cons-of-the-emotional-intelligence-test-in-hiring-process",
+        "reasons-why-you-should-use-the-emotional-intelligence-test-in-recruitment"
+      ]
+    },
+    {
+      "pillar": "English & Language Proficiency Testing",
+      "intent": "mixed",
+      "spokes": [
+        "how-to-ensure-language-fairness-in-assessments",
+        "incorporate-cefr-test-into-your-recruitment-strategy",
+        "incorporate-english-grammar-test-in-recruitment-strategy",
+        "incorporate-english-proficiency-test-into-recruitment",
+        "incorporate-the-cefr-english-test-into-your-recruitment-strategy",
+        "language-proficiency-testing-software-comparison"
+      ]
+    },
+    {
+      "pillar": "Trade & Engineering Skills Tests",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-incorporate-electrical-engineering-test-into-your-recruitment-strategy",
+        "how-to-incorporate-electrician-test-into-your-recruitment-strategy",
+        "how-to-incorporate-general-contractor-test-into-your-recruitment-strategy",
+        "how-to-incorporate-millwright-test-into-your-recruitment-strategy",
+        "incorporate-civil-engineering-test-into-your-recruitment-strategy",
+        "include-autocad-test-for-hiring",
+        "pros-and-cons-of-using-mechanical-tests"
+      ]
+    },
+    {
+      "pillar": "Excel, Office & Data Tool Testing",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-tailor-excel-assessments-to-your-company-needs",
+        "how-to-use-excel-assessments-to-test-collaboration",
+        "microsoft-office-test-in-your-hiring-process",
+        "how-to-use-typing-tests-to-assess-job-candidates",
+        "power-bi-test-data-driven-roles"
+      ]
+    },
+    {
+      "pillar": "Management & Leadership Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-incorporate-management-test-into-your-recruitment-strategy",
+        "management-test-guide-for-hiring-managers",
+        "how-to-incorporate-project-manager-test-into-your-recruitment-strategy",
+        "project-management-test-help-you-hire-top-managers",
+        "incorporate-leadership-assessment-in-recruitment",
+        "leadership-assessment-need-in-hiring-process",
+        "how-to-incorporate-scrum-master-test-into-your-recruitment-strategy"
+      ]
+    },
+    {
+      "pillar": "Culture Fit Assessments",
+      "intent": "informational",
+      "spokes": [
+        "how-to-use-interview-strategies-to-complement-culture-fit-assessments",
+        "how-top-companies-use-culture-fit-assessments-to-build-winning-teams",
+        "hr-consider-using-cross-cultural-competency-assessments-in-pre-hiring",
+        "impact-cultural-test-have-on-team-dynamics"
+      ]
+    },
+    {
+      "pillar": "Fair & Compliant Pre-Hiring Assessments",
+      "intent": "informational",
+      "spokes": [
+        "hr-ensure-pre-hiring-assessments-comply-with-regulations",
+        "potential-legal-risks-of-pre-hiring-assessments",
+        "pre-hiring-assessments-fair-to-all-candidates",
+        "pre-hiring-assessments-contribute-to-diversity-hiring",
+        "importance-of-hiring-assessments-in-diverse-workplace",
+        "how-to-implement-fair-and-effective-employment-testing"
+      ]
+    },
+    {
+      "pillar": "Pre-Hiring Assessment Strategy",
+      "intent": "informational",
+      "spokes": [
+        "hr-consider-using-peer-interviews-in-pre-hiring-assessments",
+        "hr-consider-using-third-party-vendors-for-pre-hiring-assessments",
+        "interview-simulations-play-role-in-pre-hiring-assessments",
+        "invest-in-pre-hiring-assessment-software",
+        "job-roles-that-need-pre-hiring-assessments",
+        "pre-hiring-assessments-an-accurate-predictor-of-career-progression",
+        "pre-hiring-assessments-be-tailored-to-specific-roles",
+        "pre-hiring-assessments-impact-time-to-fill-metrics",
+        "pre-hiring-assessments-impact-time-to-hire-metrics",
+        "pre-hiring-assessments-scalable-for-high-volume-hiring",
+        "online-assessment-tests-for-successful-recruitment-process"
+      ]
+    },
+    {
+      "pillar": "Talent Assessment Program Fundamentals",
+      "intent": "informational",
+      "spokes": [
+        "how-to-get-started-with-talent-assessment",
+        "how-to-streamline-recruitment-with-hiring-assessments",
+        "how-to-use-assessment-tools-for-hiring-process",
+        "how-to-use-talent-assessment-to-improve-employee-performance",
+        "know-everything-about-skill-based-recruitment-tests",
+        "maximize-roi-with-employee-assessments"
+      ]
+    },
+    {
+      "pillar": "Candidate Experience in Assessments",
+      "intent": "informational",
+      "spokes": [
+        "make-candidates-feel-comfortable-before-taking-assessment",
+        "improving-candidate-experience-using-smart-assessments",
+        "improve-candidate-assessment-without-traditional-testing"
+      ]
+    },
+    {
+      "pillar": "Assessment Reports & Metrics",
+      "intent": "informational",
+      "spokes": [
+        "important-components-of-a-candidate-assessment-report",
+        "must-have-checklist-for-candidate-assessments",
+        "kpis-for-measuring-assessment-impact-on-hiring"
+      ]
+    },
+    {
+      "pillar": "Business & Professional Skills Tests",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-incorporate-accounting-principles-test-into-your-recruitment-strategy",
+        "prioritize-financial-literacy-test-in-hiring",
+        "incorporate-communication-assessment-in-recruitment",
+        "identifying-top-talent-with-writing-assessments",
+        "legal-education-skill-based-testing",
+        "process-knowledge-tests-101-a-beginners-guide",
+        "identify-e-commerce-savvy-without-assessments",
+        "marketing-test-in-your-hiring-process"
+      ]
+    },
+    {
+      "pillar": "Sales & Customer Service Role Tests",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-incorporate-sales-test-into-your-recruitment-strategy",
+        "recruit-top-talent-using-customer-service-assessment",
+        "key-components-of-a-customer-support-test"
+      ]
+    }
+  ],
+  "orphans": [
+    "how-to-incorporate-qa-test-into-your-recruitment-strategy",
+    "key-benefits-of-using-qa-test-in-the-recruitment-process",
+    "remote-assessments-effective-for-evaluating-candidates",
+    "remote-assessments-in-remote-hiring",
+    "picocean-perosnality-test",
+    "projective-assessment",
+    "purpose-of-capturing-screenshots-while-testing"
+  ]
+}

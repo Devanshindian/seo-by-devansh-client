@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Writing Integrity — The Honest Writing Contract</title>
+<style>
+  :root{--ink:#1c1a17;--muted:#6b6459;--line:#efe7d8;--paper:#fff;--cream:#fffdf8;--wash:#fff8ec;--yellow:#ffb703;--yellow-soft:#ffe9ad;--orange:#fb7a00;--orange-soft:#ffd9b0;--red:#fdf3f0;--red-line:#f6d9cf;--red-ink:#c2603a;--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);}
+  *{box-sizing:border-box;}html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;line-height:1.62;font-size:16px;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:960px;margin:0 auto;padding:0 28px;}
+  header{background:linear-gradient(180deg,var(--wash),var(--paper));border-bottom:1px solid var(--line);padding:56px 0 38px;}
+  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--paper);border:1px solid var(--orange-soft);padding:4px 11px;border-radius:100px;margin-bottom:16px;}
+  h1{font-size:clamp(26px,5vw,42px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%);padding:0 2px;}
+  .lede{font-size:18px;color:var(--muted);max-width:680px;margin:0;}
+  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;padding:9px 0;}
+  nav a{font-size:12.5px;font-weight:600;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:100px;}
+  nav a:hover{color:var(--ink);background:var(--wash);}
+  section{padding:48px 0;border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  section.alt{background:var(--cream);}
+  h2{font-size:24px;letter-spacing:-.01em;margin:0 0 4px;}
+  h2 .num{color:var(--orange);margin-right:9px;}
+  .sub{color:var(--muted);margin:0 0 20px;font-size:16px;max-width:700px;}
+  h3{font-size:16px;margin:20px 0 8px;font-weight:700;}
+  h3.rule-title{font-size:15.5px;margin-top:24px;margin-bottom:6px;}
+  p{margin:0 0 10px;}
+  ul{margin:5px 0 10px;padding-left:20px;}
+  li{margin:5px 0;font-size:15px;color:var(--muted);}
+  li b{color:var(--ink);}
+  .note{border-radius:11px;padding:13px 16px;margin:12px 0;font-size:14.5px;border:1px solid;}
+  .note.yellow{background:var(--cream);border-color:var(--line);border-left:4px solid var(--yellow);}
+  .note.red{background:var(--red);border-color:var(--red-line);border-left:4px solid var(--red-ink);}
+  .note strong{display:block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;}
+  .note.yellow strong{color:var(--orange);}
+  .note.red strong{color:var(--red-ink);}
+  .rule-block{margin:14px 0;}
+  footer{padding:32px 0 52px;color:var(--muted);font-size:13px;}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="kicker">Content Machine · Stage 0 — Brand Context</span>
+  <h1>Writing Integrity — <span class="hl">the honest writing contract</span></h1>
+  <p class="lede">The rules for making truthful, well-sourced, distinctive claims. This is read by the writer before and during drafting. Applied at write time — before shipping.</p>
+</div></header>
+
+<nav><div class="wrap">
+  <a href="#honesty">Authority honesty</a>
+  <a href="#overpromise">No overpromise</a>
+  <a href="#hype">No hype</a>
+  <a href="#differentiation">Differentiation</a>
+  <a href="#consistency">Self-consistency</a>
+  <a href="#citations">Citations</a>
+  <a href="#stats">Stats</a>
+</div></nav>
+
+<section id="honesty">
+  <div class="wrap">
+    <h2><span class="num">01</span>Authority honesty — claim only what the product actually is</h2>
+    <p class="sub">Position the product only where it genuinely wins. Nowhere else.</p>
+    <div class="rule-block">
+      <ul>
+        <li>When the topic is broad, write the broad context honestly, then locate the product at its real slice</li>
+        <li>Claiming one slice well beats claiming the whole stack vaguely</li>
+        <li>If the product isn't the answer for a use case, say so plainly — it builds trust</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="overpromise" class="alt">
+  <div class="wrap">
+    <h2><span class="num">02</span>No overpromise; acknowledge limitations</h2>
+    <p class="sub">Never guarantee outcomes. Never claim "this will fix hiring."</p>
+    <div class="rule-block">
+      <ul>
+        <li>Acknowledge trade-offs and limits explicitly</li>
+        <li>Transparent always beats salesy</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="hype">
+  <div class="wrap">
+    <h2><span class="num">03</span>No empty hype or unprovable superlatives</h2>
+    <p class="sub">Every strong claim carries a real, cited number. Otherwise cut it.</p>
+    <div class="rule-block">
+      <ul>
+        <li>Ban hype words with no proof: "ultimate", "game-changing", "revolutionary", "seamless", "world-class"</li>
+        <li>Ban buzzword soup: "synergistic", "holistically", "paradigm"</li>
+        <li>If you can't cite it, don't write it</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="differentiation" class="alt">
+  <div class="wrap">
+    <h2><span class="num">04</span>Differentiation — say something only we'd say</h2>
+    <p class="sub">Carry a real point of view, a non-obvious trade-off, or a concrete workflow — not generic vendor filler.</p>
+    <div class="rule-block">
+      <ul>
+        <li>Clearly-hypothetical scenarios are allowed ("a 500-person SaaS hiring 20 engineers a quarter could…") if tied to a genuine product capability</li>
+        <li><b>HARD BAN:</b> no named or implied real customer, no fake quote, no fabricated first-party metric (win rate, time-to-hire delta, NPS, customer count)</li>
+        <li>Use real first-party data ONLY if it was actually supplied for this run</li>
+      </ul>
+    </div>
+    <div class="note red"><strong>Examples of what NOT to do</strong>
+    "One of our customers cut time-to-hire by 60%" — unless you have that customer's written consent and verified data. "Our platform boasts a 94% adoption rate" — unless DataForSEO or your internal data actually says this for this run. "I once worked with a team that…" in a company byline — company bylines use collective markers only, never fabricated personal stories.</div>
+  </div>
+</section>
+
+<section id="consistency">
+  <div class="wrap">
+    <h2><span class="num">05</span>Self-consistency — the numbers must reconcile</h2>
+    <p class="sub">List every number used. Confirm none contradict each other.</p>
+    <div class="rule-block">
+      <ul>
+        <li>An adoption %, an ROI figure, and a time-to-hire must all be possible together</li>
+        <li>Fix conflicts: re-verify the stat or drop it</li>
+        <li>Never ship with unresolved contradictions</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="citations" class="alt">
+  <div class="wrap">
+    <h2><span class="num">06</span>Citation integrity — cite, don't promote</h2>
+    <p class="sub">A citation is evidence for one stat. Never write "X has a great guide on this." That's promotion.</p>
+    <div class="rule-block">
+      <ul>
+        <li>State the fact, cite the source (neutral, nofollow), move on</li>
+        <li>Max 2 citations per external domain — aim for 3+ distinct domains</li>
+        <li>Prefer the most credible and most recent source available — the model judges credibility; there's no fixed whitelist</li>
+        <li>Never cite a direct competitor as a source — use a neutral primary instead</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="stats">
+  <div class="wrap">
+    <h2><span class="num">07</span>No stat quota — use stats where they earn their place</h2>
+    <p class="sub">Don't force a fixed number of statistics. Don't stuff.</p>
+    <div class="rule-block">
+      <ul>
+        <li>Use a stat where it genuinely supports the point</li>
+        <li>A few load-bearing verified stats beat many impressive-sounding ones</li>
+        <li>Natural over volume</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">Writing Integrity · Content Machine Stage 0 · Read before drafting. Applied before shipping. Part of the SEO / AEO / GEO gate.</div></footer>
+</body>
+</html>

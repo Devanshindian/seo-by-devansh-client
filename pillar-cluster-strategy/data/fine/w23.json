@@ -1,0 +1,131 @@
+{
+  "slice_id": "w23",
+  "clusters": [
+    {
+      "pillar": "Building a Strong Employer Brand",
+      "intent": "informational",
+      "spokes": [
+        "build-an-employer-brand-without-a-marketing-agency",
+        "build-and-maintain-a-positive-employer-brand-reputation",
+        "building-a-strong-employer-brand",
+        "building-a-strong-employer-brand-a-five-step-approach",
+        "building-employer-brand-visual-storytelling",
+        "develop-and-maintain-a-positive-employer-brand",
+        "employer-branding-what-is-it-and-why-is-it-important",
+        "how-communication-can-impact-your-employer-brand",
+        "how-silent-resignation-reshapes-employer-branding",
+        "how-to-build-a-strong-employer-brand",
+        "mastering-the-art-of-employer-branding-on-job-sites"
+      ]
+    },
+    {
+      "pillar": "Building a Diverse & Inclusive Workplace",
+      "intent": "informational",
+      "spokes": [
+        "9-ideas-for-making-your-workplace-more-inclusive",
+        "build-a-diverse-and-inclusive-workplace",
+        "build-a-diverse-workplace-culture-for-increased-productivity",
+        "build-inclusive-workplace-practical-strategies"
+      ]
+    },
+    {
+      "pillar": "HR & Hiring Trends",
+      "intent": "informational",
+      "spokes": [
+        "adapt-to-changing-market-trends-and-talent-demands",
+        "emerging-ai-trends-in-hr-management",
+        "emerging-trends-and-innovations-in-lateral-hiring",
+        "emerging-trends-in-talent-analytics",
+        "high-volume-hiring-trends",
+        "hiring-trends-in-content-marketing-manager-hiring",
+        "hiring-trends-in-digital-marketing-specialist-hiring",
+        "how-to-stay-up-to-date-on-hr-trends",
+        "major-trends-in-hiring",
+        "the-latest-trends-in-talent-management",
+        "understanding-campus-hiring-trends"
+      ]
+    },
+    {
+      "pillar": "Workplace Communication & Conflict Resolution",
+      "intent": "informational",
+      "spokes": [
+        "bridging-communication-gaps-in-workplace-disputes",
+        "cross-cultural-communication-in-the-workplace",
+        "handle-workplace-conflicts-with-professionalism-and-confidentiality",
+        "how-communication-enhances-workplace-harmony",
+        "how-to-create-an-effective-workplace-communication-plan",
+        "how-to-manage-workplace-conflicts-with-professionalism",
+        "importance-of-conflict-management-for-workplace-relationships",
+        "workplace-conflict-resolution-strategies"
+      ]
+    },
+    {
+      "pillar": "Work-Life Balance & Workplace Wellness",
+      "intent": "informational",
+      "spokes": [
+        "19-ideas-for-creating-a-healthier-workplace",
+        "create-culture-of-work-life-balance-in-organization",
+        "how-to-create-a-culture-of-work-life-balance",
+        "implement-a-successful-workplace-wellness-program"
+      ]
+    },
+    {
+      "pillar": "Quiet Quitting & Workplace Negativity",
+      "intent": "informational",
+      "spokes": [
+        "most-pressing-issues-in-the-workplace-with-solutions",
+        "quiet-quitting",
+        "workplace-negativity"
+      ]
+    },
+    {
+      "pillar": "Creating a Positive Workplace Culture",
+      "intent": "informational",
+      "spokes": [
+        "7-ideas-to-fostering-a-positive-company-culture",
+        "create-a-positive-workplace-culture-for-increased-productivity",
+        "foster-a-positive-company-culture-in-your-organization",
+        "how-to-create-a-positive-blue-collar-workplace",
+        "how-to-create-a-positive-work-culture",
+        "how-to-create-a-positive-workplace-culture",
+        "how-to-improve-the-workplace-culture",
+        "why-caring-culture-in-the-workplace-is-important"
+      ]
+    },
+    {
+      "pillar": "Workplace Culture Strategy & Business Impact",
+      "intent": "informational",
+      "spokes": [
+        "future-of-workplace-culture",
+        "high-performance-culture",
+        "how-to-build-company-culture-in-a-recession",
+        "how-to-measure-workplace-culture",
+        "how-to-use-technology-to-improve-workplace-culture",
+        "how-to-use-workplace-culture-to-retain-top-talents",
+        "servant-leadership-transforms-workplace-culture",
+        "studies-of-companies-with-good-workplace-cultures",
+        "use-workplace-culture-to-improve-company-bottomline",
+        "what-is-an-american-workplace-culture",
+        "why-us-firms-prioritize-culture-first-hiring"
+      ]
+    },
+    {
+      "pillar": "Essential Workplace Skills & Competencies",
+      "intent": "informational",
+      "spokes": [
+        "importance-of-assessing-self-awareness-in-workplace-growth",
+        "importance-of-attention-to-detail-in-the-workplace",
+        "the-importance-of-typing-speed-and-accuracy-in-the-workplace",
+        "ultimate-guide-to-problem-solving-in-the-workplace",
+        "key-steps-for-workplace-success"
+      ]
+    }
+  ],
+  "orphans": [
+    "cloud-computing-trends",
+    "foster-a-culture-of-continuous-learning-within-the-organization",
+    "how-to-create-a-culture-of-continuous-learning",
+    "new-hire-orientations-for-the-future-of-work",
+    "top-marketing-trends-to-watch"
+  ]
+}

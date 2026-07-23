@@ -1,0 +1,1665 @@
+{
+  "total_cards": 785,
+  "kept_count": 549,
+  "dropped_count": 236,
+  "dropped_pct_of_cards": 30.06,
+  "keep_threshold": 1,
+  "unscored_count": 0,
+  "unscored_pct_of_cards": 0.0,
+  "flag_threshold_pct": 60,
+  "FLAG": false,
+  "dropped": [
+    {
+      "id": 67,
+      "tag": "storm",
+      "gloss": "Time-to-fill vs time-to-hire diagnose different delay sources",
+      "relevance": 0,
+      "reason": "General diagnostic framing for time metrics, unrelated to cost breakdown"
+    },
+    {
+      "id": 68,
+      "tag": "storm",
+      "gloss": "Recommendation to track both metrics as a diagnostic pairing",
+      "relevance": 0,
+      "reason": "Recommendation to track both time metrics together, off-topic"
+    },
+    {
+      "id": 212,
+      "tag": "storm",
+      "gloss": "UK example: external CEO appointments made up 52% of FTSE 100 and 62% of FTSE 250 hires",
+      "relevance": 0,
+      "reason": "CEO succession stat, off-angle (not cost)"
+    },
+    {
+      "id": 213,
+      "tag": "storm",
+      "gloss": "High external CEO hiring rate attributed to unready internal leadership pipelines",
+      "relevance": 0,
+      "reason": "Succession-pipeline explanation, not cost"
+    },
+    {
+      "id": 326,
+      "tag": "storm",
+      "gloss": "Financial Times: surge in external CEO appointments at FTSE 100/250 companies",
+      "relevance": 0,
+      "reason": "External CEO appointment trend, unrelated to cost-per-hire"
+    },
+    {
+      "id": 327,
+      "tag": "storm",
+      "gloss": "External CEO appointment surge attributed to internal leadership pipelines not being ready",
+      "relevance": 0,
+      "reason": "Explains CEO-appointment trend, off-topic"
+    },
+    {
+      "id": 462,
+      "tag": "storm",
+      "gloss": "Sources diverge on what causally drives high CPH",
+      "relevance": 0,
+      "reason": "Meta transition sentence, no content"
+    },
+    {
+      "id": 488,
+      "tag": "storm",
+      "gloss": "The subject carries an active methodological debate",
+      "relevance": 0,
+      "reason": "Meta/academic framing, no practical value."
+    },
+    {
+      "id": 516,
+      "tag": "ownpage",
+      "gloss": "Article title and one-line intro framing the piece as a guide to cutting recruitment costs without losing hire quality.",
+      "relevance": 0,
+      "reason": "generic marketing blurb, no data"
+    },
+    {
+      "id": 559,
+      "tag": "ownpage",
+      "gloss": "Article title framing recruitment analytics as a data-driven way to optimize hiring and identify top talent.",
+      "relevance": 0,
+      "reason": "Generic filler claim about analytics, no substance"
+    },
+    {
+      "id": 571,
+      "tag": "ownpage",
+      "gloss": "Details Layer 3: connecting HRIS performance data to pre-hire assessment data to close the loop and enable predictive quality-of-hire models.",
+      "relevance": 0,
+      "reason": "HRIS/analytics-scorecard integration mechanics, off-topic for cost-per-hire"
+    },
+    {
+      "id": 573,
+      "tag": "ownpage",
+      "gloss": "Defines tech recruitment strategies as proving ability before offering, and frames the guide as evidence-based with Testlify covering only the screening slice.",
+      "relevance": 0,
+      "reason": "intro to tech recruitment strategies, different article's topic"
+    },
+    {
+      "id": 576,
+      "tag": "ownpage",
+      "gloss": "Uses Stack Overflow survey data to show candidates want growth and hard problems, so outreach should lead with the work, not perks.",
+      "relevance": 0,
+      "reason": "developer hobby-coding survey, unrelated"
+    },
+    {
+      "id": 577,
+      "tag": "ownpage",
+      "gloss": "Transition section introducing the list of nine tech recruitment strategies, ordered by effort-to-impact.",
+      "relevance": 0,
+      "reason": "navigational filler for a strategies list"
+    },
+    {
+      "id": 578,
+      "tag": "ownpage",
+      "gloss": "Strategy 1: replace resume keyword screening with a skills-first approach to widen and diversify the candidate pool.",
+      "relevance": 0,
+      "reason": "skills-first hiring stats, wrong article's topic"
+    },
+    {
+      "id": 579,
+      "tag": "ownpage",
+      "gloss": "Strategy 2: screen candidates with real scored work samples instead of relying on interview impressions, noting this is where Testlify fits.",
+      "relevance": 0,
+      "reason": "work-sample testing advice, off-topic"
+    },
+    {
+      "id": 580,
+      "tag": "ownpage",
+      "gloss": "Strategy 3: run structured interviews scored against a consistent rubric to reduce bias and improve defensibility.",
+      "relevance": 0,
+      "reason": "structured interviews advice, off-topic"
+    },
+    {
+      "id": 581,
+      "tag": "ownpage",
+      "gloss": "Strategy 4: engage passive candidates with specific problems and learning opportunities rather than generic recruiter pitches.",
+      "relevance": 0,
+      "reason": "passive candidate outreach tactic, off-topic"
+    },
+    {
+      "id": 582,
+      "tag": "ownpage",
+      "gloss": "Strategy 5: involve real engineers and leaders in talks or live sessions to build candidate trust and showcase the team.",
+      "relevance": 0,
+      "reason": "engineer-hosted talks tactic, off-topic"
+    },
+    {
+      "id": 583,
+      "tag": "ownpage",
+      "gloss": "Strategy 6: use hands-on group workshops to observe collaboration and communication, not just individual skill.",
+      "relevance": 0,
+      "reason": "team workshop tactic, off-topic"
+    },
+    {
+      "id": 584,
+      "tag": "ownpage",
+      "gloss": "Strategy 7: hire remotely to widen the qualified candidate pool when screening is skills-based and consistent.",
+      "relevance": 0,
+      "reason": "distributed/remote hiring point, off-topic"
+    },
+    {
+      "id": 587,
+      "tag": "ownpage",
+      "gloss": "Explains how to screen tech talent on skills by defining core skills upfront and testing for them before interviews.",
+      "relevance": 0,
+      "reason": "work-sample process advice, off-topic"
+    },
+    {
+      "id": 588,
+      "tag": "ownpage",
+      "gloss": "Describes candidate engagement as consistent honest communication, citing Gallup engagement-vs-turnover/productivity stats.",
+      "relevance": 0,
+      "reason": "engagement/retention stats, not cost-per-hire"
+    },
+    {
+      "id": 590,
+      "tag": "ownpage",
+      "gloss": "FAQ answering best 2026 tech recruitment strategies, attracting passive candidates, whether skills-based hiring works, and typical hiring timelines.",
+      "relevance": 0,
+      "reason": "FAQ recap of tech recruitment strategies, off-topic"
+    },
+    {
+      "id": 592,
+      "tag": "ownpage",
+      "gloss": "Intro paragraph defining recruitment efficiency as the balance between hiring speed and hire quality, and previewing that the guide covers where efficiency gains come from, how to measure them, and where skills testing fits.",
+      "relevance": 0,
+      "reason": "definition of recruitment services, off-topic"
+    },
+    {
+      "id": 595,
+      "tag": "ownpage",
+      "gloss": "Defines recruitment services (agencies, RPO firms, recruitment platforms) and explains how their business models differ, noting none replace a clear hiring brief.",
+      "relevance": 0,
+      "reason": "defines recruitment services categories, off-topic"
+    },
+    {
+      "id": 596,
+      "tag": "ownpage",
+      "gloss": "Explains how recruitment services speed hiring via warm candidate pools and parallel sourcing, cites SHRM and LinkedIn stats on fill difficulty and skills-based search quality, and flags AI-generated applications as a reason to pair sourcing with verified skills testing.",
+      "relevance": 0,
+      "reason": "how services speed sourcing, off-topic"
+    },
+    {
+      "id": 597,
+      "tag": "ownpage",
+      "gloss": "Introduces the five measurable benefit categories of recruitment services covered next.",
+      "relevance": 0,
+      "reason": "navigational filler intro"
+    },
+    {
+      "id": 598,
+      "tag": "ownpage",
+      "gloss": "Explains how a pre-built candidate pipeline shortens time-to-hire, with a pointer to a deeper breakdown.",
+      "relevance": 0,
+      "reason": "time-to-hire mechanics, not cost data"
+    },
+    {
+      "id": 627,
+      "tag": "ownpage",
+      "gloss": "Page title framing the piece as a ranked list of the top 14 recruitment marketing tools for enterprise HR in 2026.",
+      "relevance": 0,
+      "reason": "Recruitment marketing tools, off-domain for cost article"
+    },
+    {
+      "id": 629,
+      "tag": "ownpage",
+      "gloss": "Defines recruitment marketing tools as platforms combining employer branding, job distribution, CRM, and analytics, with skills verification as a differentiator.",
+      "relevance": 0,
+      "reason": "Recruitment marketing tools definition, off-domain"
+    },
+    {
+      "id": 632,
+      "tag": "ownpage",
+      "gloss": "Criterion 1: candidate sourcing capabilities \u2014 multi-channel reach and talent CRM.",
+      "relevance": 0,
+      "reason": "Passive-candidate sourcing/CRM feature, unrelated to cost figures"
+    },
+    {
+      "id": 633,
+      "tag": "ownpage",
+      "gloss": "Criterion 2: employer brand infrastructure \u2014 career site, testimonials, review platform presence.",
+      "relevance": 0,
+      "reason": "Career-site/employer-brand feature, off-topic for cost article"
+    },
+    {
+      "id": 634,
+      "tag": "ownpage",
+      "gloss": "Criterion 3: ATS/HRIS integration quality and avoiding data silos.",
+      "relevance": 0,
+      "reason": "ATS integration advice, unrelated to cost-per-hire"
+    },
+    {
+      "id": 636,
+      "tag": "ownpage",
+      "gloss": "Profile of Phenom \u2014 enterprise talent experience platform with AI career site personalization and nurture automation.",
+      "relevance": 0,
+      "reason": "Phenom vendor description, off-topic vendor comparison"
+    },
+    {
+      "id": 637,
+      "tag": "ownpage",
+      "gloss": "Profile of Beamery \u2014 talent CRM/OS with a skills ontology and workforce planning tools.",
+      "relevance": 0,
+      "reason": "Beamery vendor description, off-topic"
+    },
+    {
+      "id": 638,
+      "tag": "ownpage",
+      "gloss": "Profile of SmartDreamers \u2014 programmatic job advertising platform optimizing ad spend by conversion.",
+      "relevance": 0,
+      "reason": "SmartDreamers vendor description, off-topic"
+    },
+    {
+      "id": 639,
+      "tag": "ownpage",
+      "gloss": "Profile of Jobvite \u2014 unified ATS plus recruitment marketing suite for mid-sized companies.",
+      "relevance": 0,
+      "reason": "Jobvite vendor description, off-topic"
+    },
+    {
+      "id": 640,
+      "tag": "ownpage",
+      "gloss": "Profile of Teamtailor \u2014 employer-branding-focused platform with a no-code career site builder.",
+      "relevance": 0,
+      "reason": "Teamtailor vendor description, off-topic"
+    },
+    {
+      "id": 641,
+      "tag": "ownpage",
+      "gloss": "Profile of iCIMS Talent Cloud \u2014 large-enterprise, full-lifecycle talent acquisition suite.",
+      "relevance": 0,
+      "reason": "iCIMS vendor description, off-topic"
+    },
+    {
+      "id": 642,
+      "tag": "ownpage",
+      "gloss": "Profile of Workable \u2014 accessible ATS/sourcing platform for companies scaling from 50 to 2,000 employees, with Testlify integration.",
+      "relevance": 0,
+      "reason": "Workable vendor description, off-topic"
+    },
+    {
+      "id": 643,
+      "tag": "ownpage",
+      "gloss": "Profile of TalentLyft \u2014 budget-friendly recruitment marketing and ATS platform for smaller teams.",
+      "relevance": 0,
+      "reason": "TalentLyft vendor description, off-topic"
+    },
+    {
+      "id": 644,
+      "tag": "ownpage",
+      "gloss": "Profile of HubSpot \u2014 CRM-based recruitment marketing and candidate nurture platform.",
+      "relevance": 0,
+      "reason": "HubSpot vendor description, off-topic"
+    },
+    {
+      "id": 645,
+      "tag": "ownpage",
+      "gloss": "Profile of Manatal \u2014 low-cost AI-powered ATS/CRM with candidate scoring and profile enrichment.",
+      "relevance": 0,
+      "reason": "Manatal vendor description, off-topic"
+    },
+    {
+      "id": 646,
+      "tag": "ownpage",
+      "gloss": "Profile of LinkedIn Talent Solutions \u2014 dominant passive-candidate sourcing platform with InMail and Recruiter tools.",
+      "relevance": 0,
+      "reason": "LinkedIn Talent Solutions description, off-topic"
+    },
+    {
+      "id": 647,
+      "tag": "ownpage",
+      "gloss": "Profile of Glassdoor Employer Center \u2014 employer brand and reputation management tool for review-driven candidate decisions.",
+      "relevance": 0,
+      "reason": "Glassdoor Employer Center description, off-topic"
+    },
+    {
+      "id": 649,
+      "tag": "ownpage",
+      "gloss": "Profile of Eightfold AI \u2014 enterprise talent intelligence platform using deep learning for skills-adjacency matching.",
+      "relevance": 0,
+      "reason": "Eightfold AI vendor description, off-topic"
+    },
+    {
+      "id": 651,
+      "tag": "ownpage",
+      "gloss": "Explains what to verify for ATS integration quality: bidirectional sync, native vs. middleware, and mapped data fields.",
+      "relevance": 0,
+      "reason": "Integration/sync checklist, unrelated to cost-per-hire"
+    },
+    {
+      "id": 652,
+      "tag": "ownpage",
+      "gloss": "FAQ covering ATS vs. recruitment marketing tools, budgeting, whether tools replace recruiters, and options for small companies.",
+      "relevance": 0,
+      "reason": "ATS vs marketing-tool definition, off-topic"
+    },
+    {
+      "id": 653,
+      "tag": "ownpage",
+      "gloss": "TL;DR summary of the guide's core claims: assessment-before-interview cuts time-to-hire up to 55%, SHRM cost/time benchmarks, which three metrics to start with, and Testlify's role in connecting scores to ATS workflows.",
+      "relevance": 0,
+      "reason": "Generic data-driven recruitment framing, no cost figures"
+    },
+    {
+      "id": 654,
+      "tag": "ownpage",
+      "gloss": "Defines data-driven recruitment as using measured scores/conversion/performance data instead of resume impressions, ties it to skills-based hiring (LinkedIn's 10x talent pool stat), and contrasts the decision sequence (evidence first, then interview) with traditional hiring.",
+      "relevance": 0,
+      "reason": "Definition of data-driven recruitment, no cost data"
+    },
+    {
+      "id": 658,
+      "tag": "ownpage",
+      "gloss": "Walks through a real-world example of a tech company applying pre-hire assessments, showing interview-to-offer ratio improving from 8:1 to 3:1 and time-to-fill dropping from 58 to 31 days.",
+      "relevance": 0,
+      "reason": "Funnel sequencing detail, unrelated to cost breakdown"
+    },
+    {
+      "id": 659,
+      "tag": "ownpage",
+      "gloss": "Explains how standardized scored assessments reduce unconscious bias by removing weight from name/university/rapport, while cautioning that only job-relevant, validated tests actually reduce bias.",
+      "relevance": 0,
+      "reason": "Bias-reduction argument, off-topic for cost article"
+    },
+    {
+      "id": 669,
+      "tag": "ownpage",
+      "gloss": "Article title and summary framing the piece as 100 recruitment statistics for 2026 covering hiring challenges, talent gaps, and trends",
+      "relevance": 0,
+      "reason": "Teaser intro, no data"
+    },
+    {
+      "id": 670,
+      "tag": "ownpage",
+      "gloss": "Intro explaining the article compiles 100 HR and recruiting statistics from 500+ sources covering what's working, changing, and coming next in hiring",
+      "relevance": 0,
+      "reason": "Marketing filler, no specific figure"
+    },
+    {
+      "id": 678,
+      "tag": "ownpage",
+      "gloss": "Diversity and inclusion statistics on DEI commitment, candidate preferences, and employee experiences related to discrimination and pay",
+      "relevance": 0,
+      "reason": "Diversity stats, off-domain"
+    },
+    {
+      "id": 679,
+      "tag": "ownpage",
+      "gloss": "Employee engagement statistics showing declining engagement rates, hybrid vs on-site engagement, and productivity losses from disengagement",
+      "relevance": 0,
+      "reason": "Employee engagement stats, off-domain"
+    },
+    {
+      "id": 683,
+      "tag": "ownpage",
+      "gloss": "Future HR trends including AI tool adoption, remote work growth, Gen Z workforce shift, and hybrid work model adoption",
+      "relevance": 0,
+      "reason": "AI adoption/remote work stats, off-domain"
+    },
+    {
+      "id": 692,
+      "tag": "ownpage",
+      "gloss": "Covers quality of hire as the hardest-to-measure but most business-critical metric, tying it to Gallup's $1 trillion turnover cost estimate and suggesting a pre-hire skills score as an early signal.",
+      "relevance": 0,
+      "reason": "Quality-of-hire metric, off-topic for a cost-per-hire piece"
+    },
+    {
+      "id": 693,
+      "tag": "ownpage",
+      "gloss": "Covers source of hire, candidate experience (cNPS), offer acceptance rate, and application drop-off, explaining what each reveals about the hiring funnel.",
+      "relevance": 0,
+      "reason": "Source-of-hire/candidate experience, unrelated metric"
+    },
+    {
+      "id": 694,
+      "tag": "ownpage",
+      "gloss": "Describes how to act on metrics by pairing leading and lagging indicators, and introduces Testlify's quality-of-hire scorecard approach of pairing assessment scores with later performance.",
+      "relevance": 0,
+      "reason": "General metric-selection philosophy, not cost-per-hire"
+    },
+    {
+      "id": 695,
+      "tag": "ownpage",
+      "gloss": "Names the three tool types needed for real-time tracking (ATS, dashboard, skills assessment platform) and positions Testlify's assessment scoring as the missing input an ATS can't provide.",
+      "relevance": 0,
+      "reason": "ATS/dashboard/assessment tool overview, off-angle"
+    },
+    {
+      "id": 696,
+      "tag": "ownpage",
+      "gloss": "Closing recommendation to pick three metrics tied to your biggest hiring problem and review leading ones weekly, with a call to book a Testlify demo.",
+      "relevance": 0,
+      "reason": "General dashboard-review advice, unrelated to cost figures"
+    },
+    {
+      "id": 698,
+      "tag": "ownpage",
+      "gloss": "Intro framing: 2026 hiring is expensive and competitive, and winning teams track the right KPIs instead of drowning in disconnected data.",
+      "relevance": 0,
+      "reason": "Marketing CTA filler, no content"
+    },
+    {
+      "id": 699,
+      "tag": "ownpage",
+      "gloss": "Explains why most recruitment measurement fails today: vanity metrics, infrequent review, siloed data across ATS/HRIS/Finance, and recruiters measured on fill rate alone.",
+      "relevance": 0,
+      "reason": "Deloitte analytics-maturity stat, unrelated to cost-per-hire"
+    },
+    {
+      "id": 700,
+      "tag": "ownpage",
+      "gloss": "Transition section introducing the seven KPIs that will be covered as the ones that give a complete, trustworthy view of recruitment performance.",
+      "relevance": 0,
+      "reason": "Meta commentary about the guide itself"
+    },
+    {
+      "id": 701,
+      "tag": "ownpage",
+      "gloss": "Defines Time to Fill, gives SHRM benchmark (~44 days average, varying by industry), and quantifies the cost of a vacant role (~1/3 of annual salary per month).",
+      "relevance": 0,
+      "reason": "Time to Fill definition, different metric"
+    },
+    {
+      "id": 702,
+      "tag": "ownpage",
+      "gloss": "Defines Time to Hire, cites LinkedIn/Talent Board data on candidates dropping out of slow processes, and gives stage-by-stage benchmark targets (application-to-contact, interview-to-offer, etc.).",
+      "relevance": 0,
+      "reason": "Time to Hire definition, different metric"
+    },
+    {
+      "id": 703,
+      "tag": "ownpage",
+      "gloss": "Covers Quality of Hire as the most valuable but hardest-to-measure KPI, cites cost-of-bad-hire stats (30-200% of salary), and outlines a weighted composite scoring approach (performance rating, retention, etc.).",
+      "relevance": 0,
+      "reason": "Quality of Hire definition, different metric"
+    },
+    {
+      "id": 704,
+      "tag": "ownpage",
+      "gloss": "Covers Source of Hire, explains why attribution data is usually unreliable (inconsistent labels, single-touch models, dark social), and shows referrals outperform other channels in hires and retention.",
+      "relevance": 0,
+      "reason": "Source of Hire definition, different metric"
+    },
+    {
+      "id": 706,
+      "tag": "ownpage",
+      "gloss": "Covers Offer Acceptance Rate, gives benchmark tiers (90%+ healthy down to below 70% crisis), and attributes low acceptance to three root causes led by compensation misalignment.",
+      "relevance": 0,
+      "reason": "Offer Acceptance Rate, different metric"
+    },
+    {
+      "id": 707,
+      "tag": "ownpage",
+      "gloss": "Covers Candidate Experience Score, explains the NPS-style measurement method (promoters/passives/detractors) and why it's a business-wide metric, not just HR's.",
+      "relevance": 0,
+      "reason": "Candidate Experience Score, different metric"
+    },
+    {
+      "id": 708,
+      "tag": "ownpage",
+      "gloss": "Advises that the 'best' KPI depends on the hiring objective (turnover, diversity, cost, speed) rather than a one-size-fits-all metric, with a link to a broader HR KPI list.",
+      "relevance": 0,
+      "reason": "General purpose of KPIs, not cost-specific"
+    },
+    {
+      "id": 709,
+      "tag": "ownpage",
+      "gloss": "Transition into the operational half of the guide: turning the seven KPIs into a working measurement system.",
+      "relevance": 0,
+      "reason": "Transition sentence, no content"
+    },
+    {
+      "id": 711,
+      "tag": "ownpage",
+      "gloss": "Recommends collecting 2-3 months of clean baseline data before setting targets, to avoid gaming unreliable numbers.",
+      "relevance": 0,
+      "reason": "General benchmarking data-collection advice"
+    },
+    {
+      "id": 712,
+      "tag": "ownpage",
+      "gloss": "Recommends sharing KPI dashboards across TA, HR, finance, and leadership so hiring decisions are made from the same data.",
+      "relevance": 0,
+      "reason": "Cross-functional dashboard alignment, not cost-specific"
+    },
+    {
+      "id": 713,
+      "tag": "ownpage",
+      "gloss": "Recommends a quarterly cross-functional review cadence to keep KPI priorities aligned with shifting business needs.",
+      "relevance": 0,
+      "reason": "Quarterly review cadence, not cost-specific"
+    },
+    {
+      "id": 720,
+      "tag": "ownpage",
+      "gloss": "Instructs users to click calculate to get the result",
+      "relevance": 0,
+      "reason": "UI button instruction, no substantive content"
+    },
+    {
+      "id": 727,
+      "tag": "ownpage",
+      "gloss": "Article title and one-line summary: calculating and improving global recruitment ROI via tactics and 5 monthly metrics.",
+      "relevance": 0,
+      "reason": "Empty teaser line, no content"
+    },
+    {
+      "id": 732,
+      "tag": "ownpage",
+      "gloss": "Lists the return side of the ROI equation: salary savings, productivity gains, reduced overhead, innovation revenue, and 24/7 continuity via follow-the-sun teams.",
+      "relevance": 0,
+      "reason": "ROI benefit side, unrelated to cost-per-hire"
+    },
+    {
+      "id": 733,
+      "tag": "ownpage",
+      "gloss": "Introduces the two-pronged strategy for improving ROI: cutting cost of hire and maximizing long-term hire value.",
+      "relevance": 0,
+      "reason": "Generic filler statement, no data"
+    },
+    {
+      "id": 735,
+      "tag": "ownpage",
+      "gloss": "Advises locking in the legal hiring model (direct hire, contractor, or EOR) upfront to avoid late-stage delays.",
+      "relevance": 0,
+      "reason": "Legal engagement model nuance, off-topic"
+    },
+    {
+      "id": 736,
+      "tag": "ownpage",
+      "gloss": "Recommends async communication (recorded videos, documented hand-offs) to offset time-zone lag.",
+      "relevance": 0,
+      "reason": "Time-zone communication tip, off-topic"
+    },
+    {
+      "id": 737,
+      "tag": "ownpage",
+      "gloss": "Advises sharing realistic pay ranges early to reduce late-stage candidate drop-off and improve acceptance rates.",
+      "relevance": 0,
+      "reason": "Compensation transparency tip, off-topic"
+    },
+    {
+      "id": 739,
+      "tag": "ownpage",
+      "gloss": "Recommends a structured 30-60-90 day onboarding plan to speed up ramp-up time and realize ROI faster.",
+      "relevance": 0,
+      "reason": "Onboarding ramp-up tip, off-topic"
+    },
+    {
+      "id": 740,
+      "tag": "ownpage",
+      "gloss": "Introduces the need to review five tactical metrics monthly rather than waiting until year-end.",
+      "relevance": 0,
+      "reason": "Meta statement, no content"
+    },
+    {
+      "id": 742,
+      "tag": "ownpage",
+      "gloss": "Defines time to fill and flags time-zone/feedback-loop delays as things to watch.",
+      "relevance": 0,
+      "reason": "Time-to-fill metric, different KPI"
+    },
+    {
+      "id": 743,
+      "tag": "ownpage",
+      "gloss": "Defines offer acceptance rate and links low acceptance to unclear pay/benefits and doubled sourcing costs.",
+      "relevance": 0,
+      "reason": "Offer acceptance rate metric, different KPI"
+    },
+    {
+      "id": 744,
+      "tag": "ownpage",
+      "gloss": "Defines quality of hire via ramp-up time and screening scores, noting the cost of a bad hire (30% of annual salary).",
+      "relevance": 0,
+      "reason": "Quality-of-hire metric, different KPI"
+    },
+    {
+      "id": 745,
+      "tag": "ownpage",
+      "gloss": "Defines 90-day retention rate, linking early departures to time-zone burnout or poor onboarding, and calls early attrition the biggest ROI killer.",
+      "relevance": 0,
+      "reason": "Retention metric, different KPI"
+    },
+    {
+      "id": 746,
+      "tag": "ownpage",
+      "gloss": "Explains why tracking these metrics matters: each metric signals a different point where ROI leaks (vacancy time, funnel drop-off, re-hiring costs).",
+      "relevance": 0,
+      "reason": "Generic ROI-tracking rationale, off-topic"
+    },
+    {
+      "id": 747,
+      "tag": "ownpage",
+      "gloss": "Closing summary reframing ROI as building a faster, stickier hiring process rather than chasing the cheapest hire.",
+      "relevance": 0,
+      "reason": "Closing ad copy for a different article/CTA"
+    },
+    {
+      "id": 749,
+      "tag": "ownpage",
+      "gloss": "Intro: assessments measure ability but not affordability \u2014 companies often shortlist and interview candidates before discovering the budget doesn't match market rate, a sequencing problem more than an assessment flaw.",
+      "relevance": 0,
+      "reason": "Teaser for an unrelated technical-hiring narrative"
+    },
+    {
+      "id": 7,
+      "tag": "storm",
+      "gloss": "Definitions vary in emphasis despite shared formula",
+      "relevance": 1,
+      "reason": "Vague commentary on phrasing variance, no actionable content"
+    },
+    {
+      "id": 10,
+      "tag": "storm",
+      "gloss": "What time-to-fill reflects",
+      "relevance": 1,
+      "reason": "General efficiency commentary, no decision value"
+    },
+    {
+      "id": 11,
+      "tag": "storm",
+      "gloss": "Time-to-hire definition",
+      "relevance": 1,
+      "reason": "Secondary metric definition detail"
+    },
+    {
+      "id": 12,
+      "tag": "storm",
+      "gloss": "Time-to-hire is a narrower window than time-to-fill",
+      "relevance": 1,
+      "reason": "Minor clarifying detail on a secondary metric"
+    },
+    {
+      "id": 19,
+      "tag": "storm",
+      "gloss": "Why involve finance early on COV",
+      "relevance": 1,
+      "reason": "Rationale/soft advice, not decision-relevant"
+    },
+    {
+      "id": 33,
+      "tag": "storm",
+      "gloss": "CPH is the most standardized recruitment-cost metric",
+      "relevance": 1,
+      "reason": "Generic framing statement, no actionable content"
+    },
+    {
+      "id": 36,
+      "tag": "storm",
+      "gloss": "SHRM Human Capital Benchmarking's CPH definition",
+      "relevance": 1,
+      "reason": "Restates SHRM's definition, redundant with the formula already covered"
+    },
+    {
+      "id": 37,
+      "tag": "storm",
+      "gloss": "HCI's CPH definition",
+      "relevance": 1,
+      "reason": "Alternate industry-body definition, redundant field knowledge"
+    },
+    {
+      "id": 38,
+      "tag": "storm",
+      "gloss": "CIPD's CPH definition",
+      "relevance": 1,
+      "reason": "UK-specific definition, off-region and redundant"
+    },
+    {
+      "id": 39,
+      "tag": "storm",
+      "gloss": "LinkedIn's CPH definition",
+      "relevance": 1,
+      "reason": "Another redundant definition, adds no new decision value"
+    },
+    {
+      "id": 61,
+      "tag": "storm",
+      "gloss": "Time-to-fill and time-to-hire are distinct, not interchangeable",
+      "relevance": 1,
+      "reason": "Time-to-fill vs time-to-hire distinction is off-topic for a cost-per-hire article"
+    },
+    {
+      "id": 62,
+      "tag": "storm",
+      "gloss": "Definition of time-to-hire",
+      "relevance": 1,
+      "reason": "Time-to-hire definition, not a cost metric"
+    },
+    {
+      "id": 63,
+      "tag": "storm",
+      "gloss": "Definition of time-to-fill",
+      "relevance": 1,
+      "reason": "Time-to-fill definition, not a cost metric"
+    },
+    {
+      "id": 64,
+      "tag": "storm",
+      "gloss": "Time-to-fill formula",
+      "relevance": 1,
+      "reason": "Time-to-fill formula, off-topic for cost article"
+    },
+    {
+      "id": 65,
+      "tag": "storm",
+      "gloss": "Worked example: 24-day time to fill",
+      "relevance": 1,
+      "reason": "Worked time-to-fill example, wrong metric for this article"
+    },
+    {
+      "id": 66,
+      "tag": "storm",
+      "gloss": "2024 benchmark: average time to fill ~54 days",
+      "relevance": 1,
+      "reason": "Time-to-fill benchmark, not cost-per-hire"
+    },
+    {
+      "id": 140,
+      "tag": "storm",
+      "gloss": "Vacancies push overtime and burnout risk onto remaining staff",
+      "relevance": 1,
+      "reason": "generic overtime/burnout narrative"
+    },
+    {
+      "id": 143,
+      "tag": "storm",
+      "gloss": "Coworkers' morale/culture hit by noticing an absence",
+      "relevance": 1,
+      "reason": "general morale narrative, no figure"
+    },
+    {
+      "id": 144,
+      "tag": "storm",
+      "gloss": "Covering two roles exhausts employees and drains enthusiasm",
+      "relevance": 1,
+      "reason": "general narrative, no figure"
+    },
+    {
+      "id": 145,
+      "tag": "storm",
+      "gloss": "Hiring managers work after hours, hurting work-life balance",
+      "relevance": 1,
+      "reason": "general narrative, no figure"
+    },
+    {
+      "id": 148,
+      "tag": "storm",
+      "gloss": "Unaddressed underperformance breeds resentment and spreads disengagement",
+      "relevance": 1,
+      "reason": "general narrative, no figure"
+    },
+    {
+      "id": 152,
+      "tag": "storm",
+      "gloss": "Departing skilled employees take institutional knowledge with them",
+      "relevance": 1,
+      "reason": "General institutional-knowledge point, no figures"
+    },
+    {
+      "id": 153,
+      "tag": "storm",
+      "gloss": "Witnessing high turnover disengages other employees broadly",
+      "relevance": 1,
+      "reason": "Vague morale/productivity claim, no numbers"
+    },
+    {
+      "id": 155,
+      "tag": "storm",
+      "gloss": "Departures prompt colleague questioning and possible customer-facing impact",
+      "relevance": 1,
+      "reason": "Vague, low value to CPH decision"
+    },
+    {
+      "id": 161,
+      "tag": "storm",
+      "gloss": "Training investment is lost when a bad hire or departing employee leaves",
+      "relevance": 1,
+      "reason": "General point, no figure"
+    },
+    {
+      "id": 203,
+      "tag": "storm",
+      "gloss": "This managerial drag was higher in hybrid/remote settings",
+      "relevance": 1,
+      "reason": "Minor qualifier, no figure"
+    },
+    {
+      "id": 214,
+      "tag": "storm",
+      "gloss": "Delayed executive hiring in regulated industries compounds into governance risk",
+      "relevance": 1,
+      "reason": "Governance-risk tangent, no cost data"
+    },
+    {
+      "id": 239,
+      "tag": "storm",
+      "gloss": "Local labor market conditions (unemployment, talent supply) further shift recruitment expenses",
+      "relevance": 1,
+      "reason": "Generic labor-market statement"
+    },
+    {
+      "id": 265,
+      "tag": "storm",
+      "gloss": "Local labor market conditions (unemployment, talent supply) affect recruitment expenses",
+      "relevance": 1,
+      "reason": "General labor-market context, off the article's role/volume angle"
+    },
+    {
+      "id": 271,
+      "tag": "storm",
+      "gloss": "SHRM: labor shortages are a top strategic challenge, creating workforce-planning bottlenecks in scarce-skill markets",
+      "relevance": 1,
+      "reason": "General labor-shortage context, not CPH data"
+    },
+    {
+      "id": 291,
+      "tag": "storm",
+      "gloss": "State-level pay transparency laws reshaping regional hiring; Minnesota joined others in 2025",
+      "relevance": 1,
+      "reason": "Pay transparency law trend, tangential to CPH"
+    },
+    {
+      "id": 292,
+      "tag": "storm",
+      "gloss": "Compensation clarity now as important as speed in pay-transparency states",
+      "relevance": 1,
+      "reason": "Vague compensation-clarity claim, no CPH data"
+    },
+    {
+      "id": 296,
+      "tag": "storm",
+      "gloss": "Country-specific hiring cost calculator needed to reveal full regional picture",
+      "relevance": 1,
+      "reason": "Points to a calculator tool, not a benchmark itself"
+    },
+    {
+      "id": 301,
+      "tag": "storm",
+      "gloss": "Composition of SHRM's 2025 release: four reports built from 88 data sets across multiple dimensions",
+      "relevance": 1,
+      "reason": "Methodology/scope of SHRM report, not a usable figure"
+    },
+    {
+      "id": 303,
+      "tag": "storm",
+      "gloss": "Executive hiring costs are rising even faster than the overall trend",
+      "relevance": 1,
+      "reason": "Transition sentence, no data"
+    },
+    {
+      "id": 311,
+      "tag": "storm",
+      "gloss": "Cost-per-hire has risen even as labor market conditions cooled",
+      "relevance": 1,
+      "reason": "General trend statement, no figure"
+    },
+    {
+      "id": 317,
+      "tag": "storm",
+      "gloss": "Time-to-fill benchmarks vary across reporting cycles and methodologies",
+      "relevance": 1,
+      "reason": "Transition into time-to-fill, off the cost angle"
+    },
+    {
+      "id": 318,
+      "tag": "storm",
+      "gloss": "SHRM reports average time to fill around 54 days",
+      "relevance": 1,
+      "reason": "Time-to-fill figure, off-angle for a cost-per-hire article"
+    },
+    {
+      "id": 319,
+      "tag": "storm",
+      "gloss": "Separate benchmark places average time to fill closer to 44 days",
+      "relevance": 1,
+      "reason": "Another time-to-fill figure, off-angle"
+    },
+    {
+      "id": 320,
+      "tag": "storm",
+      "gloss": "HR.com figure: U.S. average time to fill approximately 35 days",
+      "relevance": 1,
+      "reason": "Time-to-fill figure, off-angle"
+    },
+    {
+      "id": 321,
+      "tag": "storm",
+      "gloss": "HR.com figure: global average time to fill approximately 38 days",
+      "relevance": 1,
+      "reason": "Global time-to-fill average, off-angle"
+    },
+    {
+      "id": 322,
+      "tag": "storm",
+      "gloss": "Entry-level roles: 30\u201360 days time to fill, ~25% taking 90+ days",
+      "relevance": 1,
+      "reason": "Entry-level time-to-fill range, off-angle (time not cost)"
+    },
+    {
+      "id": 323,
+      "tag": "storm",
+      "gloss": "Mid-level roles: 31\u201360 days for most, 17% exceeding 90 days",
+      "relevance": 1,
+      "reason": "Mid-level time-to-fill range, off-angle"
+    },
+    {
+      "id": 324,
+      "tag": "storm",
+      "gloss": "Senior roles: nearly 40% take longer than 90 days to fill",
+      "relevance": 1,
+      "reason": "Senior-role time-to-fill stat, off-angle"
+    },
+    {
+      "id": 325,
+      "tag": "storm",
+      "gloss": "Nonexempt roles: typically 30\u201360 days, 25% exceed 90 days",
+      "relevance": 1,
+      "reason": "Nonexempt time-to-fill range, off-angle"
+    },
+    {
+      "id": 376,
+      "tag": "storm",
+      "gloss": "Referral program design recommendations",
+      "relevance": 1,
+      "reason": "General referral program advice, no hard number, cut-off text"
+    },
+    {
+      "id": 394,
+      "tag": "storm",
+      "gloss": "Low-cost sourcing tactics: free job board tiers, employee social sharing",
+      "relevance": 1,
+      "reason": "Generic sourcing tips, no numbers, not board-level material"
+    },
+    {
+      "id": 395,
+      "tag": "storm",
+      "gloss": "Automation is a top-five strategy, freeing recruiters for higher-value work",
+      "relevance": 1,
+      "reason": "Generic automation claim with no figures"
+    },
+    {
+      "id": 406,
+      "tag": "storm",
+      "gloss": "Zoom case: AI scheduling software for interview volume surge",
+      "relevance": 1,
+      "reason": "Anecdote with no outcome figure attached"
+    },
+    {
+      "id": 411,
+      "tag": "storm",
+      "gloss": "Agentic AI applied to sourcing, screening, interviewing",
+      "relevance": 1,
+      "reason": "Emerging-trend description, no figures, not decision-relevant yet"
+    },
+    {
+      "id": 415,
+      "tag": "storm",
+      "gloss": "Clear job descriptions cut unqualified applicant volume",
+      "relevance": 1,
+      "reason": "Generic job-description advice, no figures"
+    },
+    {
+      "id": 416,
+      "tag": "storm",
+      "gloss": "Warm pipelines cut sourcing spend and improve hire quality",
+      "relevance": 1,
+      "reason": "Generic pipeline-building advice, no figures"
+    },
+    {
+      "id": 417,
+      "tag": "storm",
+      "gloss": "Internal mobility saves sourcing/onboarding cost, aids retention",
+      "relevance": 1,
+      "reason": "Generic internal-mobility advice, no figures"
+    },
+    {
+      "id": 420,
+      "tag": "storm",
+      "gloss": "Free/low-cost bundled tools cut agency, marketing, admin costs",
+      "relevance": 1,
+      "reason": "Generic budget tip, no figures"
+    },
+    {
+      "id": 422,
+      "tag": "storm",
+      "gloss": "CPH is often treated as a vanity metric, not diagnostic",
+      "relevance": 1,
+      "reason": "meta-critique of CPH as a metric, not decision-useful"
+    },
+    {
+      "id": 423,
+      "tag": "storm",
+      "gloss": "CPH should never be optimized in isolation",
+      "relevance": 1,
+      "reason": "vague caution against isolated optimization"
+    },
+    {
+      "id": 454,
+      "tag": "storm",
+      "gloss": "Standard CPH formulas typically omit vacancy/ramp-up costs",
+      "relevance": 1,
+      "reason": "Vague fragment, no concrete content"
+    },
+    {
+      "id": 455,
+      "tag": "storm",
+      "gloss": "Debate over whether traditional CPH fits contingent/contract labor",
+      "relevance": 1,
+      "reason": "Academic/definitional debate over CPH applicability to contingent labor, off this article's angle"
+    },
+    {
+      "id": 458,
+      "tag": "storm",
+      "gloss": "Contractors can be cost-effective once benefits/separation costs factored in",
+      "relevance": 1,
+      "reason": "Vague unquantified claim about contractor cost-effectiveness"
+    },
+    {
+      "id": 460,
+      "tag": "storm",
+      "gloss": "Agencies track their own internal \"cost per placement\" vs client's CPH",
+      "relevance": 1,
+      "reason": "Agency-side internal economics, not the CHRO buyer's perspective"
+    },
+    {
+      "id": 468,
+      "tag": "storm",
+      "gloss": "Disagreement: sourcing mix vs screening throughput as more urgent lever",
+      "relevance": 1,
+      "reason": "Meta commentary on source disagreement, no standalone value"
+    },
+    {
+      "id": 469,
+      "tag": "storm",
+      "gloss": "Minor disagreement on how often CPH should be recalculated",
+      "relevance": 1,
+      "reason": "Meta transition sentence about recalculation debate"
+    },
+    {
+      "id": 472,
+      "tag": "storm",
+      "gloss": "Both sources converge on quarterly default, exceptions loosely defined",
+      "relevance": 1,
+      "reason": "Meta summary sentence, no new content"
+    },
+    {
+      "id": 475,
+      "tag": "storm",
+      "gloss": "Growing attention from SMBs treating these as leading indicators",
+      "relevance": 1,
+      "reason": "General background on why the topic matters, not decision-useful"
+    },
+    {
+      "id": 481,
+      "tag": "storm",
+      "gloss": "Time-to-fill and cost-of-vacancy cover schedule/productivity dimensions",
+      "relevance": 1,
+      "reason": "General framing sentence, no data."
+    },
+    {
+      "id": 483,
+      "tag": "storm",
+      "gloss": "Time-to-fill often conflated with narrower time-to-hire metric",
+      "relevance": 1,
+      "reason": "Definitional distinction, not CPH-specific."
+    },
+    {
+      "id": 490,
+      "tag": "storm",
+      "gloss": "Disagreement over true cost of a hiring mistake; Gallup's 50-200% of salary estimate",
+      "relevance": 1,
+      "reason": "Mis-hire cost is a different metric than cost-per-hire, off this article's angle."
+    },
+    {
+      "id": 494,
+      "tag": "ownpage",
+      "gloss": "Defines cost per hire and gives the SHRM/ANSI formula plus the 2026 benchmark (~$4,700 for non-executive roles).",
+      "relevance": 1,
+      "reason": "Basic CPH glossary boilerplate; exec reader doesn't need the 101 definition."
+    },
+    {
+      "id": 504,
+      "tag": "ownpage",
+      "gloss": "Article title and lead summarizing that mis-hires cost 50-200% of annual salary, introducing the Testlify Mis-Hire Cost Stack and prevention framework covered in the piece.",
+      "relevance": 1,
+      "reason": "Mis-hire cost is a different metric than cost-per-hire, off this article's angle."
+    },
+    {
+      "id": 505,
+      "tag": "ownpage",
+      "gloss": "TL;DR bullet summary of key mis-hire statistics: cost ranges, failure rates, undercounted cost categories, and the role of pre-employment assessments, followed by a definition of what counts as a mis-hire.",
+      "relevance": 1,
+      "reason": "Marketing CTA boilerplate for a different metric (mis-hire cost)."
+    },
+    {
+      "id": 506,
+      "tag": "ownpage",
+      "gloss": "Defines a mis-hire and its root causes (resume over-reliance, unstructured interviews, vague criteria, gut-feel decisions, personality hires) and argues structured process reduces frequency.",
+      "relevance": 1,
+      "reason": "Mis-hire/turnover stat, off this article's CPH angle."
+    },
+    {
+      "id": 507,
+      "tag": "ownpage",
+      "gloss": "States the overall cost range of a mis-hire (50-200% of salary, up to 5x for senior/sales roles) citing DOL, SHRM, and Gallup figures on productivity loss.",
+      "relevance": 1,
+      "reason": "Mis-hire cost example, off this article's angle."
+    },
+    {
+      "id": 508,
+      "tag": "ownpage",
+      "gloss": "Breaks down direct/budgeted costs of a mis-hire: recruitment spend, assessment/screening, onboarding, training, and severance, with dollar figures for each.",
+      "relevance": 1,
+      "reason": "Direct-cost breakdown for mis-hire, not CPH."
+    },
+    {
+      "id": 509,
+      "tag": "ownpage",
+      "gloss": "Covers the hidden costs most organizations don't track \u2014 lost productivity during ramp, management drag, team morale/turnover, and revenue/client loss \u2014 with a cost-category table and figures.",
+      "relevance": 1,
+      "reason": "Mis-hire direct/indirect cost split, off-angle."
+    },
+    {
+      "id": 510,
+      "tag": "ownpage",
+      "gloss": "Table and explanation of mis-hire cost ranges by role level (entry, mid-level IC, senior/manager, executive/VP) and why costs scale with seniority.",
+      "relevance": 1,
+      "reason": "Mis-hire cost by seniority, off-angle."
+    },
+    {
+      "id": 512,
+      "tag": "ownpage",
+      "gloss": "Explains why remote/hybrid hiring increases mis-hire risk and cost \u2014 slower detection, higher onboarding write-off, and identity/credential risks specific to distributed teams.",
+      "relevance": 1,
+      "reason": "remote hiring risk claim, no numbers, tangential to cost-per-hire"
+    },
+    {
+      "id": 527,
+      "tag": "ownpage",
+      "gloss": "Recommends moving skills assessment before any interview invite, narrowing 50 applicants to 8-12 and recovering 400+ hiring-manager hours per quarter.",
+      "relevance": 1,
+      "reason": "generic screening-before-interview advice"
+    },
+    {
+      "id": 530,
+      "tag": "ownpage",
+      "gloss": "States that skills-based screening cuts cost per hire by eliminating downstream steps entirely, not by making each step cheaper.",
+      "relevance": 1,
+      "reason": "generic mechanism explanation, no data"
+    },
+    {
+      "id": 531,
+      "tag": "ownpage",
+      "gloss": "Explains the mechanism: assessment scores filter on demonstrated ability, cutting interview volume from ~25 to 8 candidates and saving hours/debriefs.",
+      "relevance": 1,
+      "reason": "assessment methodology detail, not cost data"
+    },
+    {
+      "id": 532,
+      "tag": "ownpage",
+      "gloss": "Argues skills testing lowers downstream bad-hire replacement risk, with the biggest payoff for high-volume roles versus senior/niche roles.",
+      "relevance": 1,
+      "reason": "generic causal claim, no figure"
+    },
+    {
+      "id": 534,
+      "tag": "ownpage",
+      "gloss": "Step 1: define 5-7 testable core competencies before sourcing, avoiding years-of-experience as a proxy screen.",
+      "relevance": 1,
+      "reason": "generic assessment-setup advice"
+    },
+    {
+      "id": 535,
+      "tag": "ownpage",
+      "gloss": "Step 2: send every applicant a role-specific, proctored Testlify assessment before any interview invite.",
+      "relevance": 1,
+      "reason": "Testlify product feature description, promotional not cost data"
+    },
+    {
+      "id": 544,
+      "tag": "ownpage",
+      "gloss": "Article title and one-line description: measuring talent acquisition ROI with metrics and analytics to optimize hiring and prove value to stakeholders.",
+      "relevance": 1,
+      "reason": "Generic ROI-measurement intro, no data"
+    },
+    {
+      "id": 545,
+      "tag": "ownpage",
+      "gloss": "Defines talent acquisition ROI as recruiting cost vs. hire value, cites SHRM's ~$4,700 average cost per hire and the 3-4x salary cost of a bad hire, and frames the guide's scope.",
+      "relevance": 1,
+      "reason": "Marketing CTA plus generic ROI definition"
+    },
+    {
+      "id": 547,
+      "tag": "ownpage",
+      "gloss": "Defines TA ROI as value returned vs. cost to run recruiting, and illustrates with two same-cost hires whose outcomes differ wildly.",
+      "relevance": 1,
+      "reason": "Definitional restatement of TA ROI, no hard numbers"
+    },
+    {
+      "id": 561,
+      "tag": "ownpage",
+      "gloss": "Defines recruitment analytics as data collection across the hiring funnel, cites SHRM 2026 time-to-hire (44 days) and cost-per-hire ($1,340) benchmarks, and frames it as balancing cost, quality, and speed of hiring.",
+      "relevance": 1,
+      "reason": "Definitional overview of recruitment analytics"
+    },
+    {
+      "id": 563,
+      "tag": "ownpage",
+      "gloss": "Explains predictive analytics for quality of hire: combining assessment scores, interview ratings, and performance/retention data to forecast candidate success, citing LinkedIn and Gallup research on data gaps.",
+      "relevance": 1,
+      "reason": "General description of predictive analytics, no figures"
+    },
+    {
+      "id": 568,
+      "tag": "ownpage",
+      "gloss": "Introduces the three-source data stack (ATS, assessment platform, HRIS) needed to build enterprise recruitment analytics without custom software.",
+      "relevance": 1,
+      "reason": "General advice on building an analytics stack, no figures"
+    },
+    {
+      "id": 572,
+      "tag": "ownpage",
+      "gloss": "FAQ answering what recruitment analytics is, which metrics matter most, how long results take to appear, and why data is typically siloed.",
+      "relevance": 1,
+      "reason": "generic definition of recruitment analytics, not cost-specific"
+    },
+    {
+      "id": 574,
+      "tag": "ownpage",
+      "gloss": "TL;DR summary of the five core takeaways: talent scarcity, skills-first screening, work-sample testing, passive-candidate engagement, and quality-of-hire measurement.",
+      "relevance": 1,
+      "reason": "talent-shortage stats, not cost-per-hire data"
+    },
+    {
+      "id": 575,
+      "tag": "ownpage",
+      "gloss": "Explains why tech recruitment is hard using shortage/cost stats (Korn Ferry, SHRM, Gallup) and concludes companies must screen smarter rather than outspend competitors.",
+      "relevance": 1,
+      "reason": "duplicate talent-shortage stat, off the article's cost angle"
+    },
+    {
+      "id": 586,
+      "tag": "ownpage",
+      "gloss": "Strategy 9: measure quality of hire and iterate on the process, with a pro tip to fix the weakest funnel stage first before adding more strategies.",
+      "relevance": 1,
+      "reason": "generic quality-of-hire tracking advice"
+    },
+    {
+      "id": 589,
+      "tag": "ownpage",
+      "gloss": "Describes Testlify's tech-hiring scorecard method for measuring recruiting success and a hypothetical example of time saved.",
+      "relevance": 1,
+      "reason": "Testlify scorecard mention, not cost data"
+    },
+    {
+      "id": 591,
+      "tag": "ownpage",
+      "gloss": "Article title and framing: recruitment services speed up hiring by streamlining sourcing, cutting time-to-fill, and improving candidate quality through expert screening.",
+      "relevance": 1,
+      "reason": "generic recruitment-services efficiency claim, no cost figures"
+    },
+    {
+      "id": 593,
+      "tag": "ownpage",
+      "gloss": "TL;DR summary of the guide's key points: track speed and quality together, cite SHRM's fill-rate and cost-per-hire stats, LinkedIn's skills-based-search hiring boost, AI-flooded applications pushing verified skills testing, the seven-step hiring process, and the quarterly four-metric measurement cadence.",
+      "relevance": 1,
+      "reason": "HR staffing-struggle stat, not cost-per-hire specific"
+    },
+    {
+      "id": 600,
+      "tag": "ownpage",
+      "gloss": "Argues candidate quality is where efficiency really matters, citing LinkedIn's stat that 93% of talent professionals see skills assessment as key to quality of hire.",
+      "relevance": 1,
+      "reason": "quality-of-hire/screening stat, tangential to cost"
+    },
+    {
+      "id": 601,
+      "tag": "ownpage",
+      "gloss": "Describes how recruitment services flex with fluctuating hiring volume without internal recruiter headcount swings.",
+      "relevance": 1,
+      "reason": "Service flexibility, off angle from cost breakdown"
+    },
+    {
+      "id": 602,
+      "tag": "ownpage",
+      "gloss": "Covers how providers reduce legal risk via compliance with employment law and documented process, especially in regulated or cross-border hiring, plus a tip to baseline metrics before signing.",
+      "relevance": 1,
+      "reason": "Legal/compliance risk, off angle"
+    },
+    {
+      "id": 603,
+      "tag": "ownpage",
+      "gloss": "Lays out the seven-step efficient recruitment process: define role, source candidates, screen on skills, shortlist by score, interview for fit, extend structured offer, track 90-day outcomes.",
+      "relevance": 1,
+      "reason": "Process steps of recruitment services, off angle"
+    },
+    {
+      "id": 606,
+      "tag": "ownpage",
+      "gloss": "Compares recruitment services versus in-house hiring across speed, cost model, talent reach, and control, with a table, and recommends a hybrid approach with shared skills assessments.",
+      "relevance": 1,
+      "reason": "Recruitment services vs in-house comparison, off angle"
+    },
+    {
+      "id": 607,
+      "tag": "ownpage",
+      "gloss": "FAQ answering what recruitment services are, whether they suit small businesses, typical costs, whether they replace skills assessments, and how to verify they improve efficiency.",
+      "relevance": 1,
+      "reason": "Definition of recruitment services, off angle"
+    },
+    {
+      "id": 630,
+      "tag": "ownpage",
+      "gloss": "Explains why recruitment marketing software matters in 2026, citing SHRM and LinkedIn stats on hiring difficulty and cost-per-hire.",
+      "relevance": 1,
+      "reason": "Duplicate 69% stat embedded in off-topic marketing-tools content"
+    },
+    {
+      "id": 631,
+      "tag": "ownpage",
+      "gloss": "Introduces the four evaluation criteria for picking an enterprise recruitment marketing platform.",
+      "relevance": 1,
+      "reason": "Platform-fit criteria for recruitment marketing tools, not cost-per-hire data"
+    },
+    {
+      "id": 635,
+      "tag": "ownpage",
+      "gloss": "Criterion 4: analytics tied to quality-of-hire, plus a comparison table of all 14 tools by best-for, pricing tier, and Testlify integration.",
+      "relevance": 1,
+      "reason": "Metrics framing (conversion vs vanity metrics), tangential context only"
+    },
+    {
+      "id": 648,
+      "tag": "ownpage",
+      "gloss": "Profile of Testlify \u2014 skills-assessment platform sitting at the pre-screen stage, with ATS integrations and cited efficiency/satisfaction benchmarks.",
+      "relevance": 1,
+      "reason": "Own-brand (Testlify) positioning, not a cost-per-hire figure"
+    },
+    {
+      "id": 650,
+      "tag": "ownpage",
+      "gloss": "Introduces the Attract-Assess-Convert (AAC) Framework, explaining each stage, its tools, and what to measure at each layer.",
+      "relevance": 1,
+      "reason": "Named Testlify framework, but about funnel structure not cost data"
+    },
+    {
+      "id": 655,
+      "tag": "ownpage",
+      "gloss": "Explains why data-driven recruitment matters using selection-research validity data (Schmidt/Oh/Shaffer 2016) and SHRM 2025 cost/time-to-fill benchmarks, plus a gut-feel-vs-data-driven comparison table.",
+      "relevance": 1,
+      "reason": "General predictive-validity claim, field knowledge not cost data"
+    },
+    {
+      "id": 656,
+      "tag": "ownpage",
+      "gloss": "Lists the eight core metrics (quality of hire, time-to-fill, time-to-hire, cost per hire, source of hire, assessment pass rate, application-to-interview conversion, offer acceptance rate) with definitions and benchmark targets in a table.",
+      "relevance": 1,
+      "reason": "Mentions cost-effectiveness in passing, no hard cost figures"
+    },
+    {
+      "id": 657,
+      "tag": "ownpage",
+      "gloss": "Outlines Testlify's 5-Signal Hiring Model, a five-step process for building a data-driven recruitment pipeline from defining skill standards through tracking post-hire performance.",
+      "relevance": 1,
+      "reason": "Mentions logging cost/time as a step, no actual numbers"
+    },
+    {
+      "id": 660,
+      "tag": "ownpage",
+      "gloss": "Describes how Testlify's platform (3,500+ tests, 4,500+ roles, 50+ industries, 100+ ATS integrations) operationalizes data-driven hiring via rankings, gap reports, and customizable reporting.",
+      "relevance": 1,
+      "reason": "Testlify product feature description, not cost-per-hire data"
+    },
+    {
+      "id": 661,
+      "tag": "ownpage",
+      "gloss": "Details the reporting and analytics dashboard: real-time scores benchmarked against global/assessment averages, scorecard PDFs, and per-question reports.",
+      "relevance": 1,
+      "reason": "Dashboard/benchmarking feature, not cost-per-hire data"
+    },
+    {
+      "id": 662,
+      "tag": "ownpage",
+      "gloss": "Covers candidate performance analytics broken down by skill proficiency, behavioral traits, and cognitive ability for side-by-side benchmarked comparison.",
+      "relevance": 1,
+      "reason": "Skill/behavioral comparison feature, off this article's angle"
+    },
+    {
+      "id": 663,
+      "tag": "ownpage",
+      "gloss": "Describes skill gap analysis, including interactive scenario testing, used to identify missing competencies and refine job descriptions.",
+      "relevance": 1,
+      "reason": "Skill-gap/scenario feature, not cost data"
+    },
+    {
+      "id": 664,
+      "tag": "ownpage",
+      "gloss": "Covers cultural fit evaluation that measures working-style alignment consistently across candidates without becoming a 'hire like us' filter.",
+      "relevance": 1,
+      "reason": "Culture-fit assessment feature, unrelated to CPH breakdown"
+    },
+    {
+      "id": 665,
+      "tag": "ownpage",
+      "gloss": "Explains customizable reporting that lets different teams surface the specific metrics (performance, completion, proctoring flags) relevant to them.",
+      "relevance": 1,
+      "reason": "Custom reporting feature, no cost figures"
+    },
+    {
+      "id": 666,
+      "tag": "ownpage",
+      "gloss": "Discusses how AI and predictive analytics in 2026 shift recruiting from descriptive to predictive scoring of 90-day performance, with a caution that models need regular bias audits and recalibration.",
+      "relevance": 1,
+      "reason": "General AI/predictive trend, no cost data"
+    },
+    {
+      "id": 668,
+      "tag": "ownpage",
+      "gloss": "FAQ section answering common questions on examples of data-driven recruitment, which metrics to track first, how bias is reduced, and how data-driven differs from AI-driven recruitment.",
+      "relevance": 1,
+      "reason": "Product example, not a cost-per-hire figure or breakdown"
+    },
+    {
+      "id": 671,
+      "tag": "ownpage",
+      "gloss": "General recruitment statistics on AI adoption, soft skills, turnover cost, hiring manager preferences, and pre-employment assessments",
+      "relevance": 1,
+      "reason": "General 2026 recruiting stats, not cost-per-hire"
+    },
+    {
+      "id": 672,
+      "tag": "ownpage",
+      "gloss": "Talent shortage statistics including global vacancy projections, 2025 shortage rates by region/company size, and skills gaps",
+      "relevance": 1,
+      "reason": "Talent-shortage stats, off angle"
+    },
+    {
+      "id": 674,
+      "tag": "ownpage",
+      "gloss": "Hiring trend statistics on HR tech market growth, technology budget priorities, AI tool adoption, and cost savings from AI",
+      "relevance": 1,
+      "reason": "HR tech market sizing, not cost-per-hire"
+    },
+    {
+      "id": 677,
+      "tag": "ownpage",
+      "gloss": "Job search statistics from the candidate side: compensation priorities, job-search time spent, mobile usage, and social media use",
+      "relevance": 1,
+      "reason": "Candidate job-search behavior stats, off angle"
+    },
+    {
+      "id": 682,
+      "tag": "ownpage",
+      "gloss": "Candidate experience statistics on interview impressions, application abandonment, employer communication gaps, and offer decisions",
+      "relevance": 1,
+      "reason": "Candidate experience stats, off angle"
+    },
+    {
+      "id": 684,
+      "tag": "ownpage",
+      "gloss": "Article title and one-line summary: real-time recruitment metrics improve hiring decisions by giving immediate insight into process, candidates, and team performance.",
+      "relevance": 1,
+      "reason": "Generic claim about real-time metrics, no data"
+    },
+    {
+      "id": 688,
+      "tag": "ownpage",
+      "gloss": "Explains why real-time (leading) metrics beat lagging monthly reports, and recommends reviewing leading vs lagging metrics on different cadences.",
+      "relevance": 1,
+      "reason": "Real-time vs snapshot reporting, not cost-specific"
+    },
+    {
+      "id": 690,
+      "tag": "ownpage",
+      "gloss": "Distinguishes time-to-fill (from job posting) from time-to-hire (from candidate entering pipeline) and gives a 30-45 day fill-time benchmark.",
+      "relevance": 1,
+      "reason": "Time-to-hire vs time-to-fill definitions, not cost-per-hire"
+    },
+    {
+      "id": 697,
+      "tag": "ownpage",
+      "gloss": "FAQ answers covering the most important metrics to track, time-to-hire vs time-to-fill, a good cost-per-hire figure, how to measure quality of hire, and whether real-time metrics can reduce bias.",
+      "relevance": 1,
+      "reason": "Lists cost-per-hire among seven metrics, no depth"
+    },
+    {
+      "id": 710,
+      "tag": "ownpage",
+      "gloss": "First implementation step: audit what your existing ATS/HRIS already calculates versus what needs manual setup (quality, experience, source data).",
+      "relevance": 1,
+      "reason": "Names ATS vendors for tracking speed metrics, tangential to cost breakdown"
+    },
+    {
+      "id": 715,
+      "tag": "ownpage",
+      "gloss": "FAQ answers defining recruitment KPI, recruitment matrix, how recruiter performance is measured, and the most important KPIs to monitor.",
+      "relevance": 1,
+      "reason": "FAQ defining KPI generically, cost-per-hire only mentioned in passing"
+    },
+    {
+      "id": 723,
+      "tag": "ownpage",
+      "gloss": "Lists reasons to use a CPH calculator: cost tracking, benchmarking, continuous improvement, budget planning, spotting waste",
+      "relevance": 1,
+      "reason": "Generic marketing fluff about calculator benefits"
+    },
+    {
+      "id": 728,
+      "tag": "ownpage",
+      "gloss": "Sets up the topic: the global jobs gap's cost impact, defines recruitment ROI, and frames the article's goal of removing friction from hiring to boost ROI.",
+      "relevance": 1,
+      "reason": "Off-topic intro to global recruitment ROI, not CPH breakdown"
+    },
+    {
+      "id": 729,
+      "tag": "ownpage",
+      "gloss": "TL;DR summary of the five key takeaways: what ROI compares, how to calculate it, where the biggest gains come from, the hiring-model/interview advice, and the five metrics to review monthly.",
+      "relevance": 1,
+      "reason": "Defines a different metric (global ROI), off-angle"
+    },
+    {
+      "id": 730,
+      "tag": "ownpage",
+      "gloss": "Gives the standard ROI percentage formula and explains what a positive vs negative result means.",
+      "relevance": 1,
+      "reason": "ROI formula, not CPH, off-angle"
+    },
+    {
+      "id": 734,
+      "tag": "ownpage",
+      "gloss": "Recommends early skills-based screening over resumes, citing a 30-75% reduction in time-to-hire.",
+      "relevance": 1,
+      "reason": "Global hiring screening tip, off-angle for cost breakdown"
+    },
+    {
+      "id": 738,
+      "tag": "ownpage",
+      "gloss": "Advocates structured interviews with consistent scorecards over conversational interviews to reduce bias and predict performance better.",
+      "relevance": 1,
+      "reason": "Interview bias/structure tip, off-angle for cost metric"
+    },
+    {
+      "id": 748,
+      "tag": "ownpage",
+      "gloss": "FAQ answers covering what counts as good ROI (30-70%), how to measure return for non-revenue roles, EOR vs contractor cost-effectiveness, and whether pay transparency improves offer acceptance.",
+      "relevance": 1,
+      "reason": "Worked example is for ROI%, not the CPH figure this article needs"
+    },
+    {
+      "id": 750,
+      "tag": "ownpage",
+      "gloss": "A high assessment score doesn't indicate cost \u2014 identical skill levels can command wildly different pay depending on location, so screening without a budget constraint just optimizes for quality alone.",
+      "relevance": 1,
+      "reason": "Discusses assessment/cost blind spot but off-angle, no completed hard figure"
+    },
+    {
+      "id": 751,
+      "tag": "ownpage",
+      "gloss": "Skipping cost research leads to losing top candidates over pay gaps or over-hiring one senior instead of two mid-level devs; researching full cost-to-hire (salary, contractor rates, regional TCO) upfront sets the baseline.",
+      "relevance": 1,
+      "reason": "Anecdotal offer-loss example, not core CPH data"
+    },
+    {
+      "id": 752,
+      "tag": "ownpage",
+      "gloss": "Knowing market rates prevents job descriptions that demand senior skills at mid-level pay (which scares off applicants), and clarifies trade-offs like one senior vs. two juniors.",
+      "relevance": 1,
+      "reason": "Hiring-practice tip, not cost benchmark data"
+    },
+    {
+      "id": 753,
+      "tag": "ownpage",
+      "gloss": "Assessment difficulty should match the role's budgeted seniority level \u2014 testing senior-level system design for a mid-level budget wastes the evaluation team's time.",
+      "relevance": 1,
+      "reason": "Assessment-design advice, tangential to CPH figure"
+    },
+    {
+      "id": 758,
+      "tag": "ownpage",
+      "gloss": "The typical hiring process discusses budget only late (between interview and offer), after most of the evaluation work is already sunk.",
+      "relevance": 1,
+      "reason": "Describes flawed hiring sequence, no data"
+    },
+    {
+      "id": 759,
+      "tag": "ownpage",
+      "gloss": "A better sequence: research market rates and set a budget before designing assessments, so every interviewed candidate is both qualified and affordable, raising acceptance rates and cutting time-to-hire.",
+      "relevance": 1,
+      "reason": "Process-order advice, no data"
+    },
+    {
+      "id": 760,
+      "tag": "ownpage",
+      "gloss": "If the needed skill set is unaffordable, adjust role scope \u2014 e.g., swap one full-stack hire for a frontend developer plus a backend contractor.",
+      "relevance": 1,
+      "reason": "General scope-adjustment advice"
+    },
+    {
+      "id": 763,
+      "tag": "ownpage",
+      "gloss": "Closing takeaway: do cost research and set the budget before designing assessments, so every candidate who passes is realistically hireable \u2014 that alignment is where hiring efficiency actually comes from.",
+      "relevance": 1,
+      "reason": "General marketing statement about assessments"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2471,
+    "brand_fit": "CORE",
+    "angle_gap": "The report names skills gaps as a top-3 driver of the 69% recruiting-difficulty rate (citing 2024's 75% figure on technical/soft-skill gaps), but its 'What This Means' section only prescribes employer branding, culture storytelling, and total-rewards fixes \u2014 it never turns the skills-gap finding it just reported into a hiring-practice response.",
+    "asset": "Closing the Skills Gap SHRM's 2025 Data Found \u2014 Before the Hire, Not After",
+    "distinct_angle": "Takes the same skills-gap driver SHRM flags as a top recruiting challenge and answers the practical next step it skips \u2014 how skills-based screening closes the exact gap SHRM leaves as a stat rather than a strategy.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2479,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The entire release rests on one 2019 survey stat ($223B in culture-driven turnover), with no update since, no breakdown by industry or company size, and no follow-through on its own finding that managers 'lack the soft skills needed to lead' \u2014 a gap that's never connected to how those managers got hired in the first place.",
+    "asset": "What a Bad Hire Actually Costs in 2026, Updated From SHRM's 2019 Numbers",
+    "distinct_angle": "Refreshes SHRM's seven-year-old $223B figure with the current public cost-of-turnover data, and draws the line SHRM never does \u2014 from 'managers lack soft skills' to hiring for those skills before promotion or onboarding.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: toxic workplace culture cost/turnover"
+  },
+  {
+    "row_id": 2486,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 retention/engagement survey (why employees stay vs. leave, pay-vs-culture trade-offs); belongs to the employee-experience/retention product world, not skills assessment or hiring, per brand scope's off-limits post-hire content"
+  },
+  {
+    "row_id": 2491,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "AI-in-HR adoption is reported at one stat per practice area \u2014 recruiting AI use is a single 27% figure \u2014 with no breakdown of what that AI is actually doing (screening, interviewing, scoring) and the report itself flags that 56% of HR pros don't measure AI ROI at all, a gap it names but never explores for the recruiting slice specifically.",
+    "asset": "What SHRM's 27% 'AI in Recruiting' Stat Is Actually Hiding About AI Interviewing and Screening",
+    "distinct_angle": "Drills into the one practice area SHRM's broad AI-in-HR survey covers in a single line (recruiting, 27%) \u2014 breaking down what kind of AI recruiters are adopting and how they're measuring it, where SHRM stops at a top-line percentage.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2494,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee-experience/turnover-intent survey with no hiring or assessment angle; belongs to the post-hire employee-experience product world per brand scope's off-limits list"
+  }
+]

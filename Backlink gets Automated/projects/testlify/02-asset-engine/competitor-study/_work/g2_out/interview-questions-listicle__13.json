@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3467,
+    "brand_fit": "CORE",
+    "angle_gap": "Legal framework section cites only three federal laws (Title VII, ADEA, ADA) and gives 'No legal alternative' for most categories, with zero mention of state/local layers (salary-history bans, ban-the-box, NYC LL144) that change what's actually illegal to ask depending on where the employer operates \u2014 especially relevant since LL144 governs automated/AI hiring tools directly.",
+    "asset": "Illegal Interview Questions by State: Where Federal Law Isn't the Whole Story",
+    "distinct_angle": "Extends past this page's federal-only Title VII/ADEA/ADA framing to flag the state and local law layer (salary-history bans, ban-the-box, NYC LL144) that changes what's actually illegal to ask depending on where the employer hires \u2014 a layer this page skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3498,
+    "brand_fit": "CORE",
+    "angle_gap": "Despite the h1 promising 'answers to look for,' the page only names each trait (compassion, patience, positivity...) and describes it in the abstract \u2014 it never shows a concrete strong-vs-weak sample answer per question the way a recruiter could actually score against.",
+    "asset": "Behavioral Technician Interview Questions With Graded Strong vs. Weak Answers",
+    "distinct_angle": "Adds concrete strong-vs-weak sample answers per question, where this page only names the trait being assessed and describes it in the abstract with no answer to compare against.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3499,
+    "brand_fit": "CORE",
+    "angle_gap": "Every sample answer shown is a polished 'good' model response \u2014 the page never contrasts it with what a weak or red-flag answer looks like, so a recruiter has nothing to calibrate a poor response against.",
+    "asset": "Behavioral Interview Questions With Strong-Answer and Red-Flag Answer Pairs",
+    "distinct_angle": "Pairs each question's strong sample answer with a red-flag/weak-answer contrast, whereas this page only shows the positive example and leaves recruiters to guess what a poor answer sounds like.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3503,
+    "brand_fit": "CORE",
+    "angle_gap": "Of the 72 questions promised, only 13 (5 general + 5 technical-definition + a handful process-related) get any answer guidance \u2014 the remaining roughly 59 technical-definition and process questions are bare prompts with no indication of what a correct or incorrect answer looks like.",
+    "asset": "Backend Developer Interview Questions Graded With What a Correct Technical Answer Looks Like",
+    "distinct_angle": "Supplies answer guidance across the full question set instead of leaving roughly 80% of the 72 questions as bare prompts with no example of a correct or incorrect response.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3508,
+    "brand_fit": "CORE",
+    "angle_gap": "The page spends most of its length on generic communication-style theory (verbal/non-verbal/written/situational definitions) before reaching any interview questions, and of the questions shown only the first gets a worked sample answer \u2014 the rest lack any answer or scoring guidance despite the h1 promising 'with answers.'",
+    "asset": "Communication Interview Questions Graded by What Strong vs. Weak Answers Signal",
+    "distinct_angle": "Replaces the lengthy generic communication-style theory intro with a graded strong-vs-weak answer breakdown for every question, not just the first one this page bothers to answer.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

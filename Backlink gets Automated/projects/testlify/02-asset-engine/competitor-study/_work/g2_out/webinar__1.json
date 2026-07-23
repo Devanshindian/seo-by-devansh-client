@@ -1,0 +1,29 @@
+[
+  {
+    "row_id": 1112,
+    "brand_fit": "CORE",
+    "angle_gap": "The page is a bare webinar registration gate from December 2021 (COVID-era framing) \u2014 it lists 3 teaser bullets ('what future-proofing means', 'why prioritize future talent', '5 things to do') but reveals none of the actual content; nothing is answerable without registering, and the framing itself is 4+ years stale.",
+    "asset": "Future-Proofing Your Recruitment Strategy for the Skills-Based Hiring Shift",
+    "distinct_angle": "Their page gates all 5 'future-proofing' actions behind a 2021 sign-up form and never states them; ours actually lays out the concrete steps, updated to today's real disruption (skills-based hiring, AI screening) instead of the stale COVID framing.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1135,
+    "brand_fit": "CORE",
+    "angle_gap": "The landing page only previews 4 bullet topics (trends, where the line is, communication, tooling) behind an on-demand video gate \u2014 it never actually defines what counts as AI 'cheating' vs. legitimate AI use, and gives no concrete detection signals or example scenarios in the text itself.",
+    "asset": "Where AI Assistance Crosses Into Hiring-Test Cheating, and How to Draw the Line",
+    "distinct_angle": "Their page teases 'where the line is' as a bullet point but never draws it; ours actually defines the line with concrete candidate-behavior examples and detection signals, written out instead of locked behind a video.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1136,
+    "brand_fit": "CORE",
+    "angle_gap": "The page is a panel-webinar landing page with emoji bullet teasers ('ethical, responsible AI', 'overcoming hesitation') but no actual definition of what responsible AI in hiring looks like in practice \u2014 it's buzzword framing with zero worked examples, all gated behind the video.",
+    "asset": "What Responsible AI in Hiring Actually Looks Like Beyond the Buzzwords",
+    "distinct_angle": "Their bullets promise 'what ethical, responsible AI looks like in practice' but never show it; ours spells out concrete responsible-AI practices for assessment and interviewing with real examples, no video gate required.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

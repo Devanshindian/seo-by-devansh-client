@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research phase: one topic, end to end (team review)</title>
+<style>
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0; --rr:#e0392b;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:900px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:58px 0 38px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:18px;}
+  h1{font-size:clamp(27px,5vw,40px); line-height:1.13; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:18px; color:var(--muted); max-width:700px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:48px 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  h2{font-size:25px; letter-spacing:-.01em; margin:0 0 6px;}
+  .sub{color:var(--muted); margin:0 0 20px; font-size:16.5px; max-width:730px;}
+  h3{font-size:15px; margin:26px 0 10px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted);}
+  p{margin:0 0 14px;} .muted{color:var(--muted);} b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:4px 0;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:18px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+
+  .steps{display:grid; grid-template-columns:repeat(5,1fr); gap:10px; margin:18px 0;}
+  .stepc{background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:12px; box-shadow:var(--shadow);}
+  .stepc .n{width:24px; height:24px; border-radius:8px; background:var(--yellow-soft); border:1.5px solid var(--yellow); display:grid; place-items:center; font-weight:800; font-size:13px; margin-bottom:7px;}
+  .stepc b{font-size:13.5px;} .stepc p{margin:3px 0 0; font-size:12.5px; color:var(--muted);}
+
+  /* expandable items */
+  details.item{background:var(--paper); border:1px solid var(--line); border-radius:12px; margin:9px 0; box-shadow:var(--shadow); overflow:hidden;}
+  details.item[open]{border-color:var(--orange-soft);}
+  details.item>summary{cursor:pointer; list-style:none; display:flex; align-items:center; gap:12px; padding:13px 16px;}
+  details.item>summary::-webkit-details-marker{display:none;}
+  summary .n{flex:none; width:26px; height:26px; border-radius:7px; background:var(--wash); border:1px solid var(--orange-soft); display:grid; place-items:center; font-size:12.5px; font-weight:800; color:var(--orange);}
+  summary .tl{font-weight:600; font-size:15.5px;}
+  summary .arw{margin-left:auto; color:var(--orange); font-weight:800; font-size:17px; transition:transform .15s;}
+  details.item[open]>summary .arw{transform:rotate(90deg);}
+  .item .body{padding:4px 18px 14px 54px; font-size:14.5px; color:var(--muted);}
+  .item .body p{margin:0 0 8px;} .item .body ul{margin:4px 0 10px;}
+  .item .body>*:last-child{margin-bottom:0;}
+  .kres{background:var(--cream); border:1px solid var(--line); border-radius:10px; padding:11px 14px; margin:10px 0;}
+  .kres .kt{font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--orange); margin-bottom:5px;}
+  .kres ul{margin:0; padding-left:18px;} .kres li{margin:3px 0; color:var(--ink);}
+  .kw{font-family:ui-monospace,Menlo,monospace; font-size:12.5px; color:var(--blue-ink);}
+  .detail-link{display:inline-flex; align-items:center; gap:6px; font-weight:600; color:var(--orange); text-decoration:none;
+    background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:6px 14px; font-size:13.5px; margin-top:10px;}
+  .detail-link:hover{background:var(--orange-soft);}
+  .groupname{font-size:12px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--orange); margin:26px 0 4px;}
+  .groupname:first-child{margin-top:6px;}
+
+  /* the /research banner */
+  .rbanner{text-align:center; padding:6px 0 2px; margin:0 0 4px;}
+  .rcmd{font-family:ui-monospace,Menlo,Consolas,monospace; font-weight:800; color:var(--rr);
+    font-size:clamp(38px,8vw,62px); letter-spacing:-.02em; line-height:1;}
+  .rbanner p{font-size:19px; font-weight:600; color:var(--ink); margin:12px auto 0; max-width:600px; line-height:1.4;}
+
+  /* asset title + distinct angle callout */
+  .asset-card{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--orange); border-radius:12px; padding:15px 18px; margin:16px 0 18px;}
+  .asset-card .af{display:grid; grid-template-columns:110px 1fr; gap:12px;}
+  .asset-card .af+.af{margin-top:12px; padding-top:12px; border-top:1px solid var(--line);}
+  .asset-card .al{font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:.05em; color:var(--orange); padding-top:3px;}
+  .asset-card .av{font-size:15px; color:var(--ink);}
+  .asset-card .src{display:block; margin-top:9px; font-size:13px; color:var(--muted); background:var(--wash); border:1px solid var(--orange-soft); border-radius:8px; padding:8px 11px;}
+  @media(max-width:600px){ .asset-card .af{grid-template-columns:1fr; gap:3px;} }
+
+  /* animated dashed border around the whole bundle (marching ants) */
+  .marching{position:relative; padding:24px 20px 22px; border-radius:16px; background-color:transparent;
+    background-image:
+      linear-gradient(90deg, var(--orange) 50%, transparent 50%),
+      linear-gradient(90deg, var(--orange) 50%, transparent 50%),
+      linear-gradient(0deg, var(--orange) 50%, transparent 50%),
+      linear-gradient(0deg, var(--orange) 50%, transparent 50%);
+    background-repeat:repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size:14px 2px, 14px 2px, 2px 14px, 2px 14px;
+    background-position:0 0, 0 100%, 0 0, 100% 0;
+    animation:marching 1s infinite linear;}
+  @keyframes marching{100%{background-position:14px 0, -14px 100%, 0 -14px, 100% 14px;}}
+  @media(prefers-reduced-motion:reduce){.marching{animation:none;}}
+
+  /* the blueprint: the main output, highlighted in blue */
+  .item.hero{background:var(--blue); border-color:var(--blue-line);}
+  .item.hero[open]{border-color:var(--blue-ink);}
+  .item.hero summary .n{background:#fff; border-color:var(--blue-line); color:var(--blue-ink);}
+  .item.hero summary .arw{color:var(--blue-ink);}
+  .item.hero .kres{background:#fff; border-color:var(--blue-line);}
+  .hero-tag{font-size:10.5px; font-weight:800; letter-spacing:.06em; text-transform:uppercase; color:var(--blue-ink);
+    background:#fff; border:1px solid var(--blue-line); border-radius:100px; padding:2px 9px; margin-left:10px;}
+
+  footer{padding:34px 0 54px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .steps{grid-template-columns:1fr 1fr;} .item .body{padding-left:18px;} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="kicker">Research phase · for team review</span>
+    <h1>What our research engine produced for <span class="hl">one topic</span>, end to end</h1>
+    <p class="lede">The engine takes one approved topic and builds everything a writer needs, without a person doing
+    the digging. This page shows that full output for a single topic. Please have a read and share your thoughts.</p>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#recap">The recap</a>
+    <a href="#how">How it runs</a>
+    <a href="#bundle">The bundle</a>
+  </div>
+</nav>
+
+<!-- RECAP -->
+<section id="recap">
+  <div class="wrap">
+    <h2>Where this fits</h2>
+    <p>A quick recap so this sits in the right place. Earlier we shared the shortlisted content ideas as a reviewable
+    list, and Aparna and Aakash looked those over. That page is still live here:
+    <a href="https://devanshindian.github.io/ideas-review-0a511163/" target="_blank" rel="noopener">the clubbed ideas review</a>.</p>
+    <p>Those ideas did not come out of thin air. We found them three ways, each aimed at a different kind of
+    link-worthy asset:</p>
+    <ul>
+      <li><b>Studying competitors:</b> we looked at the pages that already earn competitors the most backlinks, and took the winning format to build our own version on a topic we own.</li>
+      <li><b>Modelling other niches:</b> we borrowed proven asset formats from other industries, like calculators, indexes, and awards, that no competitor in our space has built yet.</li>
+      <li><b>Tracking trends:</b> we read what the field is actively talking about, for example on Reddit, and shaped the recurring themes into timely assets.</li>
+    </ul>
+    <p>This is the phase that comes after. We take one idea from that list and the engine researches it from start to
+    finish, then hands a writer a ready-to-write pack. Below is the real output for one of those ideas, our 2026
+    skills-based hiring benchmark report. Nothing here was written by hand. It is what the engine produced.</p>
+  </div>
+</section>
+
+<!-- HOW IT RUNS -->
+<section id="how" style="background:var(--cream);">
+  <div class="wrap">
+    <h2>How it runs, in short</h2>
+    <div class="note orange"><span class="tag">One command, same result every time</span><br>
+    A single command runs the whole thing. It works through five steps in a fixed order. It is <b>deterministic</b>:
+    give it the same topic and you get the same shape of output every run. It is also <b>cron-able</b>, so it can be
+    set to run automatically on a schedule with no one driving it. That is what makes it safe to trust and repeat
+    across dozens of topics.</div>
+    <div class="steps">
+      <div class="stepc"><div class="n">1</div><b>Keywords</b><p>Find the terms to target and who already ranks.</p></div>
+      <div class="stepc"><div class="n">2</div><b>Evidence</b><p>Gather deep, fully-sourced facts from the open web.</p></div>
+      <div class="stepc"><div class="n">3</div><b>Gap-check</b><p>Confirm the evidence covers what the article needs.</p></div>
+      <div class="stepc"><div class="n">4</div><b>The plan</b><p>Turn it all into a section-by-section article plan.</p></div>
+      <div class="stepc"><div class="n">5</div><b>The pack</b><p>Bundle everything into one ready-to-write handoff.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- THE BUNDLE -->
+<section id="bundle">
+  <div class="wrap">
+    <div class="rbanner">
+      <div class="rcmd">/research</div>
+      <p>creates this exact bundle for every topic, which then goes to the write phase.</p>
+    </div>
+    <h2>The bundle the writer receives</h2>
+    <div class="asset-card">
+      <div class="af"><span class="al">Asset title</span><span class="av">Testlify State of Skills-Based Hiring 2026: Annual Benchmark Report (Adoption, Completion, AI Cheating, Quality of Hire)</span></div>
+      <div class="af"><span class="al">Distinct angle</span><span class="av">An annual benchmark report, refreshed each year, that stays fully free. It covers the assessment-stage numbers most vendors keep behind a form (drop-off, time in test, candidate satisfaction, AI cheating) and quality of hire by screening method. Competitors like TestGorilla and Criteria run the same format but gate theirs; ours being fully open is the difference.
+        <span class="src"><b>Where this angle came from:</b> the first idea method, studying competitors. A competitor's gated annual report is already a proven link-earner, so we build our own, fully open version.</span></span></div>
+    </div>
+    <p class="sub">The bundle comes in two parts, in this order: first the <b>rulebook</b> every article follows,
+    then the <b>research</b> done for this topic. Click any item to read what it is and what it does. The link inside
+    opens the full document in a new tab.</p>
+
+    <div class="marching">
+    <div class="groupname">Part one: the writer's rulebook (the same for every article)</div>
+
+    <details class="item"><summary><span class="n">1</span><span class="tl">Voice</span><span class="arw">›</span></summary>
+      <div class="body">
+        <p>Testlify's voice guide. What it sets:</p>
+        <ul>
+          <li>The tone: confident, but every strong claim is backed by a real number or a named source.</li>
+          <li>The angle: skills-first and practical, written for a hiring audience.</li>
+          <li>What to avoid: empty hype and superlatives with nothing behind them.</li>
+          <li>It lists each voice pillar with a clear "sounds like this" and "not like this" example.</li>
+        </ul>
+        <a class="detail-link" href="voice.html" target="_blank" rel="noopener">Open the voice guide ↗</a>
+      </div></details>
+
+    <details class="item"><summary><span class="n">2</span><span class="tl">Style and mechanics</span><span class="arw">›</span></summary>
+      <div class="body">
+        <p>The house style guide. What it covers:</p>
+        <ul>
+          <li>Capitalisation, including headings and how product names are written.</li>
+          <li>Numbers and percentages: when to use figures, and how to write money and ranges.</li>
+          <li>The house spelling of industry terms (skills-based hiring, time-to-hire, and the rest).</li>
+          <li>The small formatting conventions that keep every article consistent.</li>
+        </ul>
+        <a class="detail-link" href="style.html" target="_blank" rel="noopener">Open the style guide ↗</a>
+      </div></details>
+
+    <details class="item"><summary><span class="n">3</span><span class="tl">Product facts</span><span class="arw">›</span></summary>
+      <div class="body">
+        <p>The single source of truth for what Testlify actually does. Why it is here:</p>
+        <ul>
+          <li>The writer checks it before any product mention, so every claim is accurate.</li>
+          <li>It lists the real features and assessment types, so we never say more than the product delivers.</li>
+          <li>It marks where Testlify genuinely wins, so we position it honestly.</li>
+        </ul>
+        <a class="detail-link" href="product.html" target="_blank" rel="noopener">Open the product facts ↗</a>
+      </div></details>
+
+    <details class="item"><summary><span class="n">4</span><span class="tl">SEO, AEO and GEO checklist</span><span class="arw">›</span></summary>
+      <div class="body">
+        <p>The on-page checklist to tick before publishing. What it enforces:</p>
+        <ul>
+          <li>Heading structure, and where the main keyword should appear.</li>
+          <li>An answer-first opening and a clear FAQ, which is what search and AI answers quote.</li>
+          <li>The rules that help the page rank on Google and get cited by AI assistants.</li>
+        </ul>
+        <a class="detail-link" href="seo.html" target="_blank" rel="noopener">Open the checklist ↗</a>
+      </div></details>
+
+    <details class="item"><summary><span class="n">5</span><span class="tl">Facts to cite</span><span class="arw">›</span></summary>
+      <div class="body">
+        <p>Our approved, ready-to-use material. What is inside:</p>
+        <ul>
+          <li>Vetted stats the writer can quote directly.</li>
+          <li>Approved opinions and points of view.</li>
+          <li>Real stories and examples we stand behind.</li>
+          <li>It keeps claims backed by our own material, not whatever a quick web search turns up.</li>
+        </ul>
+        <a class="detail-link" href="cite.html" target="_blank" rel="noopener">Open the cite-from material ↗</a>
+      </div></details>
+
+    <details class="item"><summary><span class="n">6</span><span class="tl">Worked examples</span><span class="arw">›</span></summary>
+      <div class="body">
+        <p>Real samples of Testlify writing to model. Why it helps:</p>
+        <ul>
+          <li>It shows the quality bar instead of only describing it.</li>
+          <li>The writer can match the tone, depth, and structure of proven pieces.</li>
+        </ul>
+        <a class="detail-link" href="examples.html" target="_blank" rel="noopener">Open the worked examples ↗</a>
+      </div></details>
+
+    <details class="item"><summary><span class="n">7</span><span class="tl">Writing integrity</span><span class="arw">›</span></summary>
+      <div class="body">
+        <p>The honesty contract for every article. The hard rules:</p>
+        <ul>
+          <li>Position Testlify only where it genuinely wins.</li>
+          <li>No invented customers, quotes, or numbers.</li>
+          <li>Never cite a competitor.</li>
+          <li>This is what keeps our content trustworthy.</li>
+        </ul>
+        <a class="detail-link" href="integrity.html" target="_blank" rel="noopener">Open the integrity rules ↗</a>
+      </div></details>
+
+    <details class="item"><summary><span class="n">8</span><span class="tl">Anti-AI writing check</span><span class="arw">›</span></summary>
+      <div class="body">
+        <p>The final quality pass before an article ships. What it does:</p>
+        <ul>
+          <li>Checks the draft against a long list of machine-writing tells: stock phrases, filler, em dashes, and the like.</li>
+          <li>Rewrites the flagged parts so the piece reads like a person wrote it.</li>
+          <li>This same check was run on the page you are reading.</li>
+        </ul>
+        <a class="detail-link" href="anti-ai.html" target="_blank" rel="noopener">Open the anti-AI check ↗</a>
+      </div></details>
+
+    <div class="groupname">Part two: the research it did for this topic</div>
+
+    <details class="item"><summary><span class="n">9</span><span class="tl">Keyword and competitor research</span><span class="arw">›</span></summary>
+      <div class="body">
+        <p>The starting point. What it does:</p>
+        <ul>
+          <li>Builds the full list of search terms around the topic, and grades each one by how many people search it and how hard it is to rank for.</li>
+          <li>Reads the live Google results to see who ranks now and what kind of pages win.</li>
+          <li>Reads the top competitor pages to find what they all cover, and the gap none of them fills.</li>
+          <li>Pulls the "People also ask" questions and the AI answer box, so we know what readers and AI expect.</li>
+          <li>Scores every term for how well it fits our angle, so we chase demand we can actually win, not just big numbers.</li>
+        </ul>
+        <p><b>Cost:</b> this is the one step that pays for live search data (the DataForSEO API), roughly 50 cents to a dollar for the whole topic. Everything else in the pipeline runs on our own AI for free.</p>
+        <div class="kres"><div class="kt">Key results for this topic</div><ul>
+          <li>Main keyword: <span class="kw">skills based hiring</span> (about 880 searches a month, low difficulty at 12 out of 100).</li>
+          <li>Supporting terms, each its own section: predictive validity, cut score, construct validity, content validity, criterion validity, disparate impact, employee turnover rate, 2026 recruitment.</li>
+          <li>Variations woven in: skill based hiring, skills based recruitment, skill-based recruiting, and a few more.</li>
+          <li>The opening we can own: no ranking page offers a free annual benchmark of assessment-stage numbers, AI cheating, candidate experience, and quality of hire by method.</li>
+          <li>Who ranks now: NACE, SHRM, AIHR, Workday, and TestGorilla, among other HR bodies and vendors.</li>
+        </ul></div>
+        <a class="detail-link" href="search.html" target="_blank" rel="noopener">See the full search brief ↗</a>
+      </div></details>
+
+    <details class="item"><summary><span class="n">10</span><span class="tl">The evidence pack</span><span class="arw">›</span></summary>
+      <div class="body">
+        <p>The deep-research step. It works like a small newsroom:</p>
+        <ul>
+          <li>It invents a few "editors," each with a different angle, so the topic gets covered from several sides at once.</li>
+          <li>Each editor interviews an expert that may only answer from web pages it reads in that moment.</li>
+          <li>It searches, opens the real pages, and reads the full articles, not just the search snippet.</li>
+          <li>Every answer is written with a citation, and every source is kept.</li>
+          <li>It then writes all of that up into one long, fully-sourced document, with a source behind every line.</li>
+        </ul>
+        <p><b>Cost:</b> the AI work runs on our own subscription for free. The only small cost is the web-search lookups.</p>
+        <div class="kres"><div class="kt">Key results for this topic</div><ul>
+          <li>7,042 words of researched, cited notes.</li>
+          <li>30 real sources, one behind every claim.</li>
+          <li>3 extra targeted rounds run to fill gaps the first pass missed.</li>
+          <li>Sample fact it pulled: NACE's Job Outlook 2026 survey of 183 employers found 70% used skills-based hiring, up from 65% the year before.</li>
+        </ul></div>
+        <a class="detail-link" href="evidence.html" target="_blank" rel="noopener">See the full evidence pack ↗</a>
+      </div></details>
+
+    <details class="item"><summary><span class="n">11</span><span class="tl">The gap-check</span><span class="arw">›</span></summary>
+      <div class="body">
+        <p>A check on its own work. How it works:</p>
+        <ul>
+          <li>It audits the evidence against the keyword brief, one item at a time.</li>
+          <li>For each thing the article must cover, it asks whether the evidence has the substance to write it, and answers covered, partly, or not, quoting a real line as proof.</li>
+          <li>For the important misses, it writes a few sharp new research questions and runs the evidence step again to fill them.</li>
+          <li>It caps those top-ups at two or three, and ranks the misses by importance, so it fills what counts and skips trivia.</li>
+        </ul>
+        <div class="kres"><div class="kt">Key results for this topic</div><ul>
+          <li>30 must-cover items checked: 19 fully covered, 5 partly, 6 missing.</li>
+          <li>Ran 3 extra targeted research rounds to close the important misses.</li>
+          <li>The original evidence pack was left untouched; the top-ups are kept alongside it.</li>
+        </ul></div>
+        <a class="detail-link" href="gap.html" target="_blank" rel="noopener">See the full gap-check ↗</a>
+      </div></details>
+
+    <details class="item hero"><summary><span class="n">12</span><span class="tl">The article blueprint</span><span class="hero-tag">the main output</span><span class="arw">›</span></summary>
+      <div class="body">
+        <p>Where it all comes together, and the most important piece of the bundle. How it is built:</p>
+        <ul>
+          <li>It breaks every source into small cards, one idea each.</li>
+          <li>It scores each card against our angle and drops the off-topic ones, so the article stays on point.</li>
+          <li>It groups the surviving cards into sections, so each idea sits in exactly one place, and names each section.</li>
+          <li>Each section gets its own target keyword, chosen for low difficulty and healthy search volume, so more of the article can rank, not just the top of it.</li>
+          <li>It also pulls in Testlify's own relevant pages as internal links under each section. That gives the article ready-made links back to our existing content, which strengthens both the research and our SEO.</li>
+          <li>It attaches the supporting evidence and the outside sources to each section too, ready to cite.</li>
+          <li>The result is a section-by-section plan the writer opens and writes from, with nothing left to hunt for.</li>
+        </ul>
+        <div class="kres"><div class="kt">Key results for this topic</div><ul>
+          <li>20 possible sections (a menu; the writer trims to the four to seven that ship).</li>
+          <li>76 sub-points, with about 1,700 pieces of evidence attached.</li>
+          <li>5 sections flagged as our own angle, the parts competitors do not cover.</li>
+          <li>274 off-topic pieces filtered out before the plan was built.</li>
+        </ul></div>
+        <a class="detail-link" href="plan.html" target="_blank" rel="noopener">Open the interactive blueprint ↗</a>
+      </div></details>
+
+    <div class="note orange" style="margin-top:24px;"><span class="tag">Where it all goes next</span><br>
+    All twelve pieces above travel together as one bundle to the writing phase, which we have not built yet. When it
+    is built, that phase opens this bundle and turns it into the finished article. The reader we are writing for (a TA
+    or recruiting leader) and the byline (the Testlify Team) are already chosen by the engine, not left to the writer.</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Research phase output · one topic, end to end · shared for internal review.</div>
+</footer>
+
+</body>
+</html>

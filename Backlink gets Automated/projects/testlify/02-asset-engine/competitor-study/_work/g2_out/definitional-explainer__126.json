@@ -1,0 +1,20 @@
+[
+  {
+    "row_id": 3709,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites an unsourced, undated 'Future of Jobs Report' reskilling stat, and its skill-gap-identification section stays at generic advice (do a skills gap analysis, ask managers, talk to employees) with no concrete methodology, worked example, or way to actually measure a gap.",
+    "asset": "How to Actually Measure a Skills Gap Before You Build a Reskilling Plan",
+    "distinct_angle": "Replaces the page's vague 'talk to employees and managers' gap-identification advice with a concrete, assessment-based methodology for measuring skill gaps, and refreshes its uncited Future of Jobs Report figure with the current public stat.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3711,
+    "brand_fit": "CORE",
+    "angle_gap": "Interleaves genuine strategy with vendor-specific product plugs (XoForms, EyeGazer) framed as 'Pro tips,' and each of its 10 strategies gets only a short generic paragraph with no benchmark data, worked example, or trade-off comparison to help a recruiter choose between approaches.",
+    "asset": "High-Volume Hiring Strategies That Hold Up Without the Vendor Pitch",
+    "distinct_angle": "Strips out the embedded product plugs and instead grounds each strategy in real trade-offs and current benchmark data, the vendor-neutral depth this page's promotional framing lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

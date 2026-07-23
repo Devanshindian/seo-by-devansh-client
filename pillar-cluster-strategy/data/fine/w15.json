@@ -1,0 +1,181 @@
+{
+  "slice_id": "w15",
+  "clusters": [
+    {
+      "pillar": "Evaluating Marketing Skills in Candidates",
+      "intent": "informational",
+      "spokes": [
+        "tips-to-evaluate-brand-management-skills",
+        "tips-to-evaluate-content-marketing-skills",
+        "tips-to-evaluate-content-writing-skills",
+        "tips-to-evaluate-copywriting-skills",
+        "tips-to-evaluate-digital-marketing-skills",
+        "tips-to-evaluate-email-marketing-skills",
+        "tips-to-evaluate-influencer-marketing-skills",
+        "tips-to-evaluate-influencer-relationship-management-skills",
+        "tips-to-evaluate-market-research-skills",
+        "tips-to-evaluate-market-forecasting-skills",
+        "tips-to-evaluate-search-engine-marketing-sem-skills",
+        "tips-to-evaluate-search-engine-optimization-seo-skills",
+        "tips-to-evaluate-seo-skills",
+        "tips-to-evaluate-social-media-marketing-skills"
+      ]
+    },
+    {
+      "pillar": "Evaluating Data & Analytics Skills",
+      "intent": "informational",
+      "spokes": [
+        "tips-to-evaluate-analytical-skills",
+        "tips-to-evaluate-data-analysis-skills",
+        "tips-to-evaluate-data-mining-skills",
+        "tips-to-evaluate-data-validation-skills",
+        "tips-to-evaluate-data-visualization-skills",
+        "tips-to-evaluate-database-management-skills",
+        "tips-to-evaluate-statistical-analysis-skills",
+        "tips-to-evaluate-customer-satisfaction-analysis-skills"
+      ]
+    },
+    {
+      "pillar": "Evaluating Finance & Risk Skills",
+      "intent": "informational",
+      "spokes": [
+        "tips-to-evaluate-financial-analysis-skills",
+        "tips-to-evaluate-financial-forecasting-skills",
+        "tips-to-evaluate-financial-modeling-skills",
+        "tips-to-evaluate-risk-management-skills"
+      ]
+    },
+    {
+      "pillar": "Evaluating Software Development & Engineering Skills",
+      "intent": "informational",
+      "spokes": [
+        "tips-to-evaluate-java-programming-skills",
+        "tips-to-evaluate-python-programming-skills",
+        "tips-to-evaluate-mobile-app-development-skills",
+        "tips-to-evaluate-programming-logic-skills",
+        "tips-to-evaluate-software-architecture-skills",
+        "tips-to-evaluate-software-configuration-management-skills",
+        "tips-to-evaluate-software-deployment-skills",
+        "tips-to-evaluate-web-development-skills",
+        "tips-to-evaluate-website-performance-optimization-skills",
+        "tips-to-evaluate-network-security-skills"
+      ]
+    },
+    {
+      "pillar": "Evaluating Design & UX Skills",
+      "intent": "informational",
+      "spokes": [
+        "tips-to-evaluate-graphic-designing-skills",
+        "tips-to-evaluate-ui-design-skills",
+        "tips-to-evaluate-ux-design-skills",
+        "tips-to-evaluate-ux-ui-design-skills",
+        "tips-to-evaluate-user-support-skills"
+      ]
+    },
+    {
+      "pillar": "Evaluating Business & Soft Skills",
+      "intent": "informational",
+      "spokes": [
+        "tips-to-evaluate-change-management-skills",
+        "tips-to-evaluate-communication-skills",
+        "tips-to-evaluate-crisis-management-skills",
+        "tips-to-evaluate-critical-thinking-skills",
+        "tips-to-evaluate-customer-service-skills",
+        "tips-to-evaluate-leadership-skills",
+        "tips-to-evaluate-negotiation-skills",
+        "tips-to-evaluate-problem-solving-skills",
+        "tips-to-evaluate-project-coordination-skills",
+        "tips-to-evaluate-project-management-skills",
+        "tips-to-evaluate-sales-skills",
+        "tips-to-evaluate-supply-chain-optimization-skills"
+      ]
+    },
+    {
+      "pillar": "IT Skills Tests for Building Tech Teams",
+      "intent": "informational",
+      "spokes": [
+        "it-skills-testing-everything-you-need-to-know",
+        "it-skills-tests-to-build-a-tech-savvy-team",
+        "the-role-of-it-skills-tests-in-identifying-top-talent"
+      ]
+    },
+    {
+      "pillar": "Technical Skill Assessments for Accurate Hiring",
+      "intent": "informational",
+      "spokes": [
+        "technical-skill-assessment-new-perimeter-cybersecurity-recruitment",
+        "technical-skills-assessments-improve-hiring-accuracy",
+        "trends-and-innovations-in-technical-skill-assessments"
+      ]
+    },
+    {
+      "pillar": "Remote & Virtual Skills Assessments",
+      "intent": "informational",
+      "spokes": [
+        "reducing-technical-glitches-remote-skills-assessments",
+        "remote-skills-assessment-overcoming-challenges-in-virtual-hiring",
+        "remote-technical-skills-assessments-challenges-and-best-practices"
+      ]
+    },
+    {
+      "pillar": "Soft Skills & Psychometric Assessment",
+      "intent": "informational",
+      "spokes": [
+        "how-to-use-psychometric-tests-and-skill-tests-together",
+        "the-role-of-soft-skills-assessment-in-team-collab",
+        "use-soft-skills-assessment-for-resilient-employees",
+        "using-ai-to-assess-soft-skills-in-healthcare-hiring"
+      ]
+    },
+    {
+      "pillar": "Using Skills Assessments to Improve Hiring Outcomes",
+      "intent": "informational",
+      "spokes": [
+        "how-to-use-skills-assessment-to-reduce-bias-in-hiring",
+        "use-skill-assessments-to-improve-diversity-inclusion",
+        "use-skills-assessment-to-improve-your-employer-brand"
+      ]
+    },
+    {
+      "pillar": "Putting Skills Assessment Data to Work in Hiring",
+      "intent": "informational",
+      "spokes": [
+        "how-to-use-skills-assessment-for-executive-roles",
+        "how-to-use-skills-assessment-to-find-candidates",
+        "identify-top-talent-without-lengthy-interviews-with-skill-assessments",
+        "use-skill-assessments-data-to-make-better-hiring",
+        "improve-performance-with-skill-assessment-results",
+        "using-skill-assessment-for-developing-training"
+      ]
+    },
+    {
+      "pillar": "Designing an Effective Skills Assessment Test",
+      "intent": "informational",
+      "spokes": [
+        "what-should-you-include-in-your-skill-assessment-test",
+        "types-of-skills-assessment-tests",
+        "what-are-industry-specific-skills-assessment",
+        "what-to-do-when-a-candidate-fails-a-skills-assessment",
+        "why-skill-assessments-are-essential-for-recruiters",
+        "research-about-skills-assessment"
+      ]
+    },
+    {
+      "pillar": "Role-Specific Assessment Tests (Coding, Networking, Technical)",
+      "intent": "informational",
+      "spokes": [
+        "how-to-evaluate-candidates-skills-with-an-sql-assessment",
+        "java-coding-test-to-assess-candidates-coding-skills",
+        "use-networking-test-to-assess-network-skills",
+        "use-workspace-to-assess-problem-solving-skills",
+        "mechanical-engineering-test-to-assess-technical-skill",
+        "importance-of-computer-skills-tests-in-job-interviews"
+      ]
+    }
+  ],
+  "orphans": [
+    "how-to-evaluate-niche-skills",
+    "hr-accommodate-candidates-with-disabilities-in-skills-assessments",
+    "performance-marketing-performance-hiring-skills-assessments"
+  ]
+}

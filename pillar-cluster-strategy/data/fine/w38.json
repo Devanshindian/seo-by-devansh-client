@@ -1,0 +1,40 @@
+{
+  "slice_id": "w38",
+  "clusters": [
+    {
+      "pillar": "Employee Onboarding Process Guides & Best Practices",
+      "intent": "informational",
+      "spokes": [
+        "communication-challenges-in-the-onboarding-process",
+        "create-effective-onboarding-process-for-new-hires",
+        "design-and-implement-successful-employee-onboarding-process",
+        "employee-onboarding-process-complete-guide",
+        "how-to-ensure-smooth-onboarding",
+        "how-to-onboard-new-employees",
+        "how-to-onboard-new-employees-effectively",
+        "difference-between-orientation-and-onboarding",
+        "steps-to-onboard-new-hires-into-company-culture",
+        "the-ultimate-guide-to-employee-onboarding"
+      ]
+    },
+    {
+      "pillar": "Onboarding Templates, Checklists & Welcome Ideas",
+      "intent": "informational",
+      "spokes": [
+        "onboarding-checklist",
+        "onboarding-email-templates",
+        "onboarding-ideas-to-welcome-new-employees"
+      ]
+    },
+    {
+      "pillar": "Onboarding Blue-Collar, External & Contingent Workers",
+      "intent": "informational",
+      "spokes": [
+        "how-to-onboard-and-train-blue-collar-workers",
+        "onboarding-external-workers-in-business",
+        "tailoring-integration-programs-for-talent-onboarding"
+      ]
+    }
+  ],
+  "orphans": []
+}

@@ -1,0 +1,178 @@
+{
+  "slice_id": "w11",
+  "clusters": [
+    {
+      "pillar": "Assessing Soft Skills & Character Traits for Hiring",
+      "intent": "informational",
+      "spokes": [
+        "importance-of-accountability-skills-for-responsible-work-performance",
+        "importance-of-assessing-dependability-for-reliable-work-performance",
+        "importance-of-assessing-ethics-for-ethical-decision-making",
+        "importance-of-assessing-feedback-acceptance-for-continuous-improvement",
+        "importance-of-assessing-goal-setting-skills-in-ambitious-individuals",
+        "importance-of-assessing-patience-for-dealing-with-challenging-moments",
+        "importance-of-assessing-persuasion-skill-for-influential-communication",
+        "importance-of-assessing-persuasion-skill-for-influential-communications",
+        "importance-of-assessing-professionalism-for-a-positive-work-image",
+        "importance-of-assessing-tolerance-for-a-respectful-work-environment",
+        "important-interpersonal-skills-to-assess-candidates"
+      ]
+    },
+    {
+      "pillar": "Job Design & Work Structuring",
+      "intent": "informational",
+      "spokes": [
+        "job-crafting",
+        "job-design",
+        "job-enlargement",
+        "job-restructuring",
+        "job-specialization",
+        "job-leveling",
+        "role-mapping",
+        "spans-and-layers"
+      ]
+    },
+    {
+      "pillar": "Job Profiles & Job Requisitions",
+      "intent": "informational",
+      "spokes": [
+        "job-profile-components",
+        "job-profile-examples",
+        "job-profile-templates",
+        "job-profiling",
+        "job-profiling-tools",
+        "job-requisition-and-how-to-write-a-good-one",
+        "requisition-position",
+        "key-responsibility-areas-kras"
+      ]
+    },
+    {
+      "pillar": "Organizational Development",
+      "intent": "informational",
+      "spokes": [
+        "organizational-development-for-small-businesses",
+        "organizational-development-for-startups",
+        "role-of-organizational-development-consultant",
+        "what-is-organizational-development"
+      ]
+    },
+    {
+      "pillar": "HR for Small Businesses & Startups",
+      "intent": "mixed",
+      "spokes": [
+        "manage-hr-responsibilities-in-small-and-medium-sized-enterprises",
+        "why-startup-need-hr-consultancy-partner",
+        "why-smaller-businesses-turn-to-virtual-assistant-services",
+        "tips-for-hr-to-optimize-working-days"
+      ]
+    },
+    {
+      "pillar": "Skills Taxonomy & Skills Intelligence",
+      "intent": "informational",
+      "spokes": [
+        "skills-intelligence",
+        "skills-ontology",
+        "skills-profile",
+        "skills-and-abilities",
+        "learning-agility",
+        "t-shaped-skills",
+        "power-skills",
+        "skill-issue"
+      ]
+    },
+    {
+      "pillar": "HR Tech Tools & Efficiency",
+      "intent": "mixed",
+      "spokes": [
+        "leverage-ai-and-automation-for-efficient-hr-processes",
+        "mobile-tools-to-simplify-hr-tasks",
+        "tech-tools-for-enhancing-hr-efficiency",
+        "top-core-hr-tools",
+        "leverage-hr-analytics-for-data-driven-decision-making",
+        "streamline-workflow-with-time-tracking-tools",
+        "top-time-tracking-tools"
+      ]
+    },
+    {
+      "pillar": "Resume Screening, Parsing & Verification",
+      "intent": "mixed",
+      "spokes": [
+        "optimize-resume-for-tech-jobs",
+        "resume-review-process-affects-your-company-brand",
+        "resume-verification-process",
+        "top-resume-writing-services-hr-professionals",
+        "what-is-resume-parsing",
+        "using-gameplay-as-a-resume-professional-skills-game-behavior"
+      ]
+    },
+    {
+      "pillar": "Recruitment & Onboarding Email Templates",
+      "intent": "informational",
+      "spokes": [
+        "internship-offer-email-templates",
+        "internship-probation-confirmation-emails",
+        "rejection-emails-to-unsuccessful-candidates-free-templates"
+      ]
+    },
+    {
+      "pillar": "Candidate Screening & Online Exam Proctoring",
+      "intent": "mixed",
+      "spokes": [
+        "lockdown-browser",
+        "system-compatibility-check-to-prevent-exam-failure",
+        "top-tools-for-running-a-system-requirement-check",
+        "technical-screening",
+        "in-app-telephone-screening",
+        "which-tools-support-ai-generated-questions"
+      ]
+    },
+    {
+      "pillar": "HR Buzzwords & Modern Workforce Trends",
+      "intent": "informational",
+      "spokes": [
+        "moonlighting",
+        "purple-squirrel",
+        "pink-collar-jobs",
+        "returnship",
+        "job-aggregator",
+        "top-hr-buzzwords",
+        "phased-return-to-work",
+        "pay-transparency",
+        "job-simulation"
+      ]
+    }
+  ],
+  "orphans": [
+    "integrating-academic-insights-into-modern-hr-practices",
+    "intercultural-competence",
+    "is-it-necessary-to-verify-educational-qualifications",
+    "key-functions-of-hr-you-learn-in-college",
+    "key-hr-metrics",
+    "manage-and-prioritize-multiple-open-positions-simultaneously",
+    "navigate-challenges-in-cross-cultural-communication",
+    "navigate-hr-challenges-in-a-changing-business-environment",
+    "percentile-scores",
+    "personally-identifiable-information",
+    "prioritization-matrix",
+    "pulse-surveys",
+    "quick-guide-to-integrate-crm-with-other-tools",
+    "real-world-examples-of-how-sjts-predict-job-performance",
+    "revenue-per-fte",
+    "saas-content-marketing-agencies-boost-visibility",
+    "secure-an-up-to-date-hr-email-list-online",
+    "steps-to-build-a-performance-improvement-plan",
+    "strategies-align-product-development-customer-feedback",
+    "successful-pre-boarding-strategies-for-hrs",
+    "the-excel-edge-assessing-advanced-excel-sills",
+    "the-growing-demand-for-blockchain-engineers",
+    "the-role-of-hr-and-cxos-in-community-building",
+    "the-role-of-hr-in-cmms-implementation-success",
+    "top-foundational-principles-every-student-should-grasp",
+    "top-job-search-sites",
+    "top-reasons-to-prioritize-skills-over-degrees",
+    "why-businesses-prefer-digital-paycheck-stub-maker",
+    "why-cxos-chros-must-align-early",
+    "why-do-businesses-need-a-lms",
+    "why-more-people-are-turning-to-nursing"
+  ]
+}

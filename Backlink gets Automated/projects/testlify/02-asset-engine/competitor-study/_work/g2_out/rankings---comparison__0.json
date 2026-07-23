@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 47,
+    "brand_fit": "CORE",
+    "angle_gap": "Comparison table only shows G2 rating and starting price, no breakdown of proctoring depth, test-library breadth, or ATS integrations \u2014 the actual decision criteria a recruiter needs; published by a competing vendor (Bryq) that ranks itself #1.",
+    "asset": "TestGorilla Alternatives Ranked on Proctoring Depth, Test Library Size, and ATS Fit, Not Just Price",
+    "distinct_angle": "expands the comparison beyond G2 rating and starting price into proctoring/anti-cheating depth, test-library breadth, and native ATS integrations, the exact criteria this page skips over.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 143,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Self-published by HackerEarth (ranks itself #1) with an explicit disclosure that competitor descriptions come from unverified vendor material; the page raises EEOC/disparate-impact risk but never gives concrete compliance guidance for checking a tool's bias exposure.",
+    "asset": "AI Resume Screening Tools Checked Against EEOC and NYC LL144 Bias-Audit Requirements, Not Vendor Claims",
+    "distinct_angle": "independently checks each tool's claims against public sources and adds the bias-audit/compliance framing (EEOC scrutiny, NYC LL144, EU AI Act) the page raises but never answers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 151,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 developer-tooling/coding-education content (Python IDEs for machine learning), explicitly off-brand: we test coders, we don't teach coding."
+  },
+  {
+    "row_id": 417,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "A thin, example-free listicle of six generic traits (knowledge, communication, time management, trustworthy, impartial, mentor) with no way to actually evaluate whether a candidate or existing HR hire has them \u2014 no competency framework, no interview questions, no scoring criteria.",
+    "asset": "The HR Competencies That Actually Predict a Strong Hire, and How to Test for Each One",
+    "distinct_angle": "turns the same six traits into a testable competency framework with interview questions and scoring criteria per trait, the assessment layer this page never provides.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: generic HR-professional qualities listicle (no assessment framing)"
+  },
+  {
+    "row_id": 426,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Ten leadership traits (vision, communication, relationship-building, expertise, trustworthiness, time management, commitment, confidence, problem solving) are described in the abstract with zero guidance on how to identify or verify any of them in a candidate before hiring or promoting into the role.",
+    "asset": "The Leadership Skills Worth Screening For Before You Promote or Hire Into the Role",
+    "distinct_angle": "converts the same ten traits into pre-hire/pre-promotion screening criteria and interview probes for each, the evidence-based check this page never offers.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: generic leadership-skills listicle (no hiring/assessment framing)"
+  }
+]

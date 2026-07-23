@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1300,
+    "brand_fit": "CORE",
+    "angle_gap": "Testing section gives zero sample test questions and the 'Differences' section is a bare heading with no comparison-table content; the workplace examples are single-line bullets with no worked example of scoring a candidate's actual answer.",
+    "asset": "What Strong Inductive and Deductive Reasoning Answers Actually Look Like",
+    "distinct_angle": "Fills the gap with worked example test questions and a real, populated comparison table for both reasoning types, where this page's own 'Differences' section and testing guidance are empty.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1364,
+    "brand_fit": "CORE",
+    "angle_gap": "The comparison table gives each competitor only a one-line 'standout feature' plus G2 rating and price, while Adaface (the page's own brand) is ranked first with a full feature list; nothing evaluates fit for Sprockets' actual niche of high-volume frontline/retail hiring.",
+    "asset": "Assessment Platforms That Actually Fit High-Volume Frontline Hiring, Compared to Sprockets",
+    "distinct_angle": "Evaluates each alternative against Sprockets' real use case (frontline/retail volume hiring) instead of the one-line self-ranked feature table this page runs, where its own brand gets the fullest write-up.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1394,
+    "brand_fit": "CORE",
+    "angle_gap": "Opens with a fictional 'Company A vs Company B' narrative instead of substance, cites unsourced stats ('a study in 2020 shows...', '76% of customers expect...') with no linked source, and only covers two proprietary PMaps tests rather than the traits a customer-service test should measure.",
+    "asset": "The Customer Service Traits Worth Testing For, and How to Score Them",
+    "distinct_angle": "Replaces the fictional company narrative and uncited stats with sourced current figures and real scoring criteria for customer-service traits, depth this two-product pitch never reaches.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1409,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 resume screening/parsing software is an ATS-category tool, a different product world from skills assessment; same exclusion logic as reference checking/background checks in the brand scope."
+  },
+  {
+    "row_id": 1413,
+    "brand_fit": "CORE",
+    "angle_gap": "Ranks iMocha's own platform first with a full feature/rating/price write-up while giving no framework for choosing between tools by which soft skill they actually validate, no mention of adverse-impact risk in soft-skills scoring, and no coverage of AI voice/video interviewing as an alternative to static tests.",
+    "asset": "Choosing a Soft Skills Assessment That Won't Trigger an Adverse-Impact Claim",
+    "distinct_angle": "Adds the adverse-impact/validity lens and the AI voice-video scoring category this self-ranked listicle skips entirely, where it gives its own tool the fullest write-up and everyone else a sentence.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

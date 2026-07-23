@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Model Other Niches — Idea Backlog Method 2</title>
+<style>
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16px; -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:960px; margin:0 auto; padding:0 28px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:56px 0 38px;}
+  .kicker{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:4px 11px; border-radius:100px; margin-bottom:16px;}
+  h1{font-size:clamp(26px,5vw,42px); line-height:1.1; margin:0 0 12px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:18px; color:var(--muted); max-width:660px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.93); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:3px; flex-wrap:wrap; padding:9px 0;}
+  nav a{font-size:12.5px; font-weight:600; color:var(--muted); text-decoration:none; padding:5px 10px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:50px 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  section.alt{background:var(--cream);}
+  h2{font-size:25px; letter-spacing:-.01em; margin:0 0 4px;}
+  h2 .num{color:var(--orange); margin-right:9px;}
+  .sub{color:var(--muted); margin:0 0 24px; font-size:16px; max-width:700px;}
+  h3{font-size:16.5px; margin:22px 0 7px;}
+  p{margin:0 0 12px;}
+  ul{margin:6px 0 12px; padding-left:20px;}
+  li{margin:4px 0; font-size:15px; color:var(--muted);}
+  li b{color:var(--ink);}
+
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:11.5px; background:#fff;
+    border:1px solid var(--orange-soft); border-radius:5px; padding:2px 6px; color:var(--ink);}
+
+  .note{border-radius:11px; padding:13px 16px; margin:14px 0; font-size:14.5px; border:1px solid;}
+  .note.yellow{background:var(--cream); border-color:var(--line); border-left:4px solid var(--yellow);}
+  .note.orange{background:var(--wash); border-color:var(--orange-soft); border-left:4px solid var(--orange);}
+  .note.green{background:var(--green); border-color:var(--green-line); border-left:4px solid var(--green-ink);}
+  .note strong{display:block; font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; margin-bottom:3px;}
+  .note.yellow strong,.note.orange strong{color:var(--orange);}
+  .note.green strong{color:var(--green-ink);}
+
+  .flow{margin-top:10px;}
+  .step{display:flex; gap:15px; position:relative; padding:10px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:21px; top:48px; bottom:-10px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-weight:800;
+    font-size:15px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow);}
+  .dot.gate{background:var(--orange-soft); border-color:var(--orange);}
+  .step-body{padding-top:1px;}
+  .step-body h3{margin:0 0 3px; font-size:15.5px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:14.5px;}
+  .step-body ul{margin:4px 0 0; padding-left:18px;}
+  .step-body li{font-size:14px;}
+
+  .outfiles{display:flex; flex-direction:column; gap:10px; margin:16px 0;}
+  .outfile{border:1px solid var(--line); border-radius:11px; padding:14px 16px; background:var(--paper); box-shadow:var(--shadow);}
+  .outfile .f{margin-bottom:5px;}
+  .outfile p{margin:0; font-size:14px; color:var(--muted);}
+
+  .two{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:16px 0;}
+  .box{border:1px solid var(--line); border-radius:12px; padding:16px 18px; background:var(--paper); box-shadow:var(--shadow);}
+  .box.accent{border-left:3px solid var(--orange); background:var(--wash);}
+  .box .label{font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-bottom:6px;}
+  .box.accent .label{color:var(--orange);}
+  .box h3{margin:0 0 5px; font-size:15.5px;}
+  .box p{margin:0; font-size:13.5px; color:var(--muted);}
+
+  .swipe-table{width:100%; border-collapse:collapse; margin:14px 0; border-radius:11px; overflow:hidden; border:1px solid var(--line); box-shadow:var(--shadow); font-size:13.5px;}
+  .swipe-table th{text-align:left; padding:8px 12px; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); background:var(--cream); border-bottom:2px solid var(--line);}
+  .swipe-table td{padding:9px 12px; border-bottom:1px solid var(--line); vertical-align:top;}
+  .swipe-table tr:last-child td{border-bottom:none;}
+  .swipe-table .fmt{font-weight:600; color:var(--ink);}
+
+  .example{background:var(--paper); border:1px solid var(--line); border-radius:13px; padding:18px 20px; box-shadow:var(--shadow); margin:16px 0;}
+  .example .ex-label{font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin-bottom:10px;}
+  .example .row{display:flex; gap:10px; padding:8px 0; border-bottom:1px solid var(--line); font-size:14px;}
+  .example .row:last-child{border-bottom:none;}
+  .example .key{min-width:130px; font-weight:600; font-size:13px; color:var(--muted); flex:none;}
+  .example .val{color:var(--ink);}
+
+  .tests{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:14px 0;}
+  .test{border:1px solid var(--line); border-radius:11px; padding:14px 16px; background:var(--paper); box-shadow:var(--shadow);}
+  .test h3{margin:0 0 8px; font-size:15px;}
+  .test ul{margin:0; padding-left:18px;}
+  .test li{font-size:13.5px; margin:4px 0;}
+
+  .scores{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:12px 0;}
+  .score{border:1px solid var(--line); border-radius:11px; padding:14px 16px; background:var(--paper); box-shadow:var(--shadow);}
+  .score h3{margin:0 0 8px; font-size:15px;}
+  .score ul{margin:0; padding-left:18px;}
+  .score li{font-size:13.5px; margin:4px 0;}
+
+  footer{padding:32px 0 52px; color:var(--muted); font-size:13px;}
+  @media(max-width:700px){.two,.tests,.scores{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="kicker">Asset Engine · Idea Backlog · Method 2 of 3</span>
+    <h1>Model Other Niches — <span class="hl">import formats competitors don't have yet</span></h1>
+    <p class="lede">Many link-bait formats work across any niche — calculators, indices, generators, awards.
+    If a format pulled huge links in finance or real estate but no competitor in our niche has built one,
+    that's a fresh, ownable link magnet.</p>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#concept">Concept</a>
+    <a href="#output">Output</a>
+    <a href="#step-a">A — Swipe library</a>
+    <a href="#step-b">B — Adaptations</a>
+    <a href="#step-c">C — Filter</a>
+    <a href="#step-d">D — Score</a>
+    <a href="#step-e">E — Deliver</a>
+  </div>
+</nav>
+
+<!-- CONCEPT -->
+<section id="concept">
+  <div class="wrap">
+    <h2><span class="num">01</span>What this fills that Method 1 can't</h2>
+    <p class="sub">Method 1 finds formats that already work inside our niche. Method 2 finds formats
+    that work elsewhere but haven't arrived in our niche yet.</p>
+    <div class="two">
+      <div class="box">
+        <div class="label">Method 1 — Competitor Study</div>
+        <h3>What's working inside the niche</h3>
+        <p>Highest confidence — backed by competitors' actual backlink data. Lower novelty.</p>
+      </div>
+      <div class="box accent">
+        <div class="label">Method 2 — Model Other Niches</div>
+        <h3>What's working elsewhere but not here yet</h3>
+        <p>Higher novelty — these formats haven't been tried in our niche. Lower certainty until validated in Step C. That's the intended trade-off.</p>
+      </div>
+    </div>
+    <div class="note yellow"><strong>Fully agent-doable</strong>
+    No Semrush export, no user login required. The agent builds the swipe library, generates adaptations, and filters them in one pass. The in-niche overlap check (does Method 1 already cover this format?) happens at the cross-method merge — not here.</div>
+  </div>
+</section>
+
+<!-- OUTPUT -->
+<section id="output" class="alt">
+  <div class="wrap">
+    <h2><span class="num">02</span>What this produces</h2>
+    <p class="sub">Three files under <span class="file">projects/[company]/asset-engine/model-other-niches/output/</span>.</p>
+    <div class="outfiles">
+      <div class="outfile">
+        <div class="f"><span class="file">format-swipe.md</span></div>
+        <p>The library of proven cross-niche formats, pre-screened to the ones we can plausibly point at an in-scope subject. Columns: Format · Real example(s) · Headline template · Why it earns links · In-scope subject · Brand fit.</p>
+      </div>
+      <div class="outfile">
+        <div class="f"><span class="file">model-other-niches-ideas.csv</span></div>
+        <p>The adaptations that survived the filter. Same 12-column schema as Method 1 so all three methods merge cleanly: Idea # | Method | Brand fit | Asset | Format | Our topic | Distinct angle | Source niche | Evidence URLs | Beatability | Effort | Notes.</p>
+      </div>
+      <div class="outfile">
+        <div class="f"><span class="file">RUN-LOG-problems.md</span></div>
+        <p>Every format or idea dropped, with the reason. Makes the cut auditable.</p>
+      </div>
+    </div>
+    <div class="note orange"><strong>No Build window column here</strong>
+    Build window (NOW/LATER) is set at the cross-method merge when all three pools compete for the same capacity. Setting it per-method would bias the final selection.</div>
+  </div>
+</section>
+
+<!-- STEP A -->
+<section id="step-a">
+  <div class="wrap">
+    <h2><span class="num">A</span>Build the swipe library</h2>
+    <p class="sub">A swipe library is a menu of formats that already earn links — the shape of the asset,
+    not its subject. Built from two sources, then pre-screened against the brand scope.</p>
+
+    <div class="flow">
+      <div class="step"><div class="dot">0</div><div class="step-body">
+        <h3>Load the brand scope</h3>
+        <p>Load <span class="file">competitor-study/output/brand-scope.md</span> — the same anchor built in Method 1's G0. All three methods judge against the same reference. If Method 1 hasn't run, build brand-scope.md from the brand brain now and get user approval first.</p>
+      </div></div>
+      <div class="step"><div class="dot">1</div><div class="step-body">
+        <h3>Source 1 — the proven-formats table (below)</h3>
+        <p>~20 format families from 75 real link-bait pieces. Read every row. Carry it forward as-is: Format · Real example(s) · Headline template · Why it earns links. Nothing rewritten.</p>
+      </div></div>
+      <div class="step"><div class="dot">2</div><div class="step-body">
+        <h3>Source 2 — agent knowledge (3–5 additions)</h3>
+        <p>Recall famous link-magnet formats not already in the table that (a) earned backlinks, not just traffic, and (b) worked across multiple niches. For each, supply the same four fields. No named real example = drop the format.</p>
+      </div></div>
+      <div class="step"><div class="dot">3</div><div class="step-body">
+        <h3>Pre-screen each format on brand fit</h3>
+        <p>For each format: <i>can this be pointed at a subject inside our brand scope?</i> If the obvious subject is off-brand, look for an in-scope subject the same shape could serve before dropping. Drop only formats with no imaginable in-scope subject — log the reason.</p>
+        <p>For each surviving format, add: <b>In-scope subject</b> (a nameable subject a writer could build on) and a rough <b>Brand fit</b> tag (CORE / TRANSPLANT / ADJACENT). Step C sets the authoritative tag.</p>
+      </div></div>
+      <div class="step"><div class="dot gate">4</div><div class="step-body">
+        <h3>Write format-swipe.md</h3>
+        <p>Pure assembly — one table row per surviving format using the fields from steps 1–3. This file is the input to Step B.</p>
+      </div></div>
+    </div>
+
+    <h3>The proven-formats table (Source 1)</h3>
+    <table class="swipe-table">
+      <tr><th>Format</th><th>Real example(s)</th><th>Headline template</th><th>Why it earns links</th></tr>
+      <tr><td class="fmt">Calculator</td><td>NerdWallet Mortgage Calculator, HubSpot ROI Calculator</td><td>"[Question]? [Free Calculator]"</td><td>Utility — cited as "see how much it costs"</td></tr>
+      <tr><td class="fmt">Branded index</td><td>Big Mac Index, Misery Index</td><td>"The [Topic] Index"</td><td>Data — recurring; journalists cite it by name</td></tr>
+      <tr><td class="fmt">Original research</td><td>Backlinko: We Analyzed 11.8M Google Search Results</td><td>"We Analyzed [#] [Topic]. Here's What We Learned"</td><td>Data (original) — most-cited format there is</td></tr>
+      <tr><td class="fmt">Statistics roundup</td><td>161 Cybersecurity Statistics & Trends</td><td>"# [Topic] Statistics [Year]"</td><td>Reference — writers grab a stat and link the source</td></tr>
+      <tr><td class="fmt">Benchmark / grader</td><td>HubSpot Website Grader</td><td>"How does your [Topic] compare?"</td><td>Utility — personalised score, shareable</td></tr>
+      <tr><td class="fmt">Best-of award + badge</td><td>Best Places to Work</td><td>"Best [Group] for [Topic]"</td><td>Ego-bait — winners embed a badge that links back</td></tr>
+      <tr><td class="fmt">Definitive guide + template</td><td>On-Page SEO: The Definitive Guide + FREE Template</td><td>"[Topic]: The Definitive Guide + FREE Template [Year]"</td><td>Reference — canonical link for the topic</td></tr>
+      <tr><td class="fmt">Glossary</td><td>37 Must-Know Golf Terms, Poker Terminology</td><td>"[Topic] Terms and Definitions"</td><td>Reference — definitional pages attract citations</td></tr>
+      <tr><td class="fmt">Generator tool</td><td>Business Name Generator, Citation Generator</td><td>"[Topic] Generator"</td><td>Utility — free reusable tool, shareable</td></tr>
+      <tr><td class="fmt">Interactive explainer</td><td>Animagraffs: How a Car Engine Works</td><td>"How [Topic] Works"</td><td>Reference/visual — publishers embed and screenshot</td></tr>
+      <tr><td class="fmt">Quiz / typology</td><td>16Personalities</td><td>"What is Your [Topic]?"</td><td>Novelty — shareable; B2B angle only</td></tr>
+      <tr><td class="fmt">Controversy / opinion</td><td>How Google Is Killing Independent Sites</td><td>"How [Entity] Is [Topic]"</td><td>Emotion — strong opinion drives shares and links</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- STEP B -->
+<section id="step-b" class="alt">
+  <div class="wrap">
+    <h2><span class="num">B</span>Generate one adaptation per format</h2>
+    <p class="sub">One format row from format-swipe.md → one adaptation. Don't ask for five variations.
+    Most formats yield exactly one strong idea.</p>
+
+    <p>For each swipe row, run a prompt giving the agent: the format shape, headline template, why it earns links, the real example, and the in-scope subject. The agent works in this order — substance before name:</p>
+    <ul>
+      <li><b>Our topic</b> — sharpen the in-scope subject from Step A to a precise, nameable subject grounded in the brand brain</li>
+      <li><b>Distinct angle</b> — one line on what makes our version the link-magnet. Must name the specific product, data, or authority we own. If it could be written without the brand brain, it's too generic — rewrite.</li>
+      <li><b>Asset</b> — only now, a real working title with the angle visible in the name. Never "Format on Topic" glued together.</li>
+      <li><b>What it'd be</b> — 1–2 lines on what the actual asset is, concretely</li>
+    </ul>
+
+    <div class="example">
+      <div class="ex-label">Example — Cost Calculator format adapted for a hiring-tech company</div>
+      <div class="row"><span class="key">Our topic</span><span class="val">Cost of a mis-hire (salary + recruiting + ramp + productivity loss)</span></div>
+      <div class="row"><span class="key">Distinct angle</span><span class="val">Live calculation on our anonymised customer cost data with a per-role breakdown — competitors use generic Glassdoor averages</span></div>
+      <div class="row"><span class="key">Asset</span><span class="val">Bad-Hire Cost Calculator (per-role, on real customer cost data)</span></div>
+      <div class="row"><span class="key">What it'd be</span><span class="val">4-input form (role, salary, location, ramp months) → live cost output + sourced formula + sharable PDF</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- STEP C -->
+<section id="step-c">
+  <div class="wrap">
+    <h2><span class="num">C</span>Filter — the real scored gate</h2>
+    <p class="sub">Step A pre-screened formats lightly. Step C filters real adapted ideas against the same
+    two tests Methods 1 and 3 use. Expect to drop a material chunk — that's the filter working. Expect
+    8–20 surviving ideas, not 50.</p>
+
+    <div class="tests">
+      <div class="test">
+        <h3>Test A — Ownability</h3>
+        <ul>
+          <li>Does it sit inside the brand scope (CORE / TRANSPLANT / ADJACENT)?</li>
+          <li>Does the company have the data, product, or authority to speak credibly on it? The Distinct angle must name a specific one.</li>
+          <li>Does building it reinforce the brand?</li>
+        </ul>
+        <p style="margin-top:8px; font-size:13.5px; color:var(--muted);">Before dropping an out-of-scope idea, run the transplant check: can the format be pointed at an in-scope subject? If yes, keep as TRANSPLANT. The Ownability verdict here is the authoritative Brand fit tag — it supersedes Step A's rough pre-screen.</p>
+      </div>
+      <div class="test">
+        <h3>Test B — Linkability</h3>
+        <ul>
+          <li>Is there a citable number the asset could produce?</li>
+          <li>Would a journalist reference it when writing about the niche?</li>
+          <li>Is it evergreen?</li>
+          <li>Does it fit a proven link-bait format? (For Method 2 this is automatically yes — so ≥2 of the other 3 needed.)</li>
+        </ul>
+        <p style="margin-top:8px; font-size:13.5px; color:var(--muted);">Needs ≥3 of 4 yes to pass. Log every KEEP / DROP with a one-line reason.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STEP D -->
+<section id="step-d" class="alt">
+  <div class="wrap">
+    <h2><span class="num">D</span>Score each surviving idea</h2>
+    <p class="sub">Same scales as Method 1. Method 2 has no in-niche competitor page to measure against,
+    so Beatability scores how easy it is to make the asset itself link-worthy.</p>
+    <div class="scores">
+      <div class="score">
+        <h3>Beatability (1–3)</h3>
+        <ul>
+          <li><b>3</b> — simple format, short build (glossary, basic calculator)</li>
+          <li><b>2</b> — moderate (interactive tool, data-light index, definitive guide)</li>
+          <li><b>1</b> — heavy (proprietary data report, complex interactive)</li>
+        </ul>
+      </div>
+      <div class="score">
+        <h3>Effort (S / M / L)</h3>
+        <ul>
+          <li><b>S</b> — days to a week</li>
+          <li><b>M</b> — weeks</li>
+          <li><b>L</b> — a month or more</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STEP E -->
+<section id="step-e">
+  <div class="wrap">
+    <h2><span class="num">E</span>Write the deliverable</h2>
+    <p class="sub">Output <span class="file">model-other-niches-ideas.csv</span> with all 12 columns.
+    Sorted: Brand fit (CORE → TRANSPLANT → ADJACENT) → Evidence × Beatability desc → Effort (S first).</p>
+
+    <ul>
+      <li><b>Idea #</b> — numbered as M2-001, M2-002 etc. The "M2" prefix keeps these ideas distinct from Method 1 and Method 3 ideas when all three pools are combined later.</li>
+      <li><b>Method</b> — always "M2 — Other Niches", so the combined sheet can be filtered by source</li>
+      <li><b>Brand fit</b> — CORE / TRANSPLANT / ADJACENT, set by Step C</li>
+      <li><b>Asset</b> — the real working title from Step B, with the angle visible in the name</li>
+      <li><b>Format</b> — the format shape (calculator, index, glossary etc.) from the swipe library</li>
+      <li><b>Our topic</b> — the specific subject the asset covers, from Step B</li>
+      <li><b>Distinct angle</b> — what makes our version the link-magnet, naming the specific product, data, or authority we have that lets us own it</li>
+      <li><b>Source niche</b> — where this format is already proven (finance, real estate, B2B SaaS etc.)</li>
+      <li><b>Evidence URLs</b> — the real example URLs from the swipe library, so anyone can verify the format earns links</li>
+      <li><b>Beatability</b> — 1–3 (how easy the asset is to make link-worthy)</li>
+      <li><b>Effort</b> — S / M / L (how long to build it)</li>
+      <li><b>Notes</b> — the headline and "what it'd be" description from Step B, plus anything else worth flagging</li>
+    </ul>
+
+    <div class="note green"><strong>What a good row looks like</strong>
+    "Bad-Hire Cost Calculator (per-role, on real customer cost data). CORE. Calculator format from finance/B2B SaaS. Live calc on our customer cost data, per-role breakdown. Evidence: nerdwallet.com/mortgage-calculator. Beat: 3. Effort: S." Read across one row and the logic is visible: shape, our subject, why we win, proof the format earns links.</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Model Other Niches · Idea Backlog Method 2 of 3 · Cross-niche formats adapted to our brand scope.</div>
+</footer>
+</body>
+</html>

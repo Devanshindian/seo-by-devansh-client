@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 28,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The show mixes hiring-adjacent segments (probation-period reform, entry-level careers, line-manager readiness) into the same episodes as broad, non-hiring HR/leadership topics (National Volunteers' Week, organisational culture, financial wellbeing, cost-vs-growth planning), so a listener hunting specifically for hiring or skills-assessment insight gets diluted, unstructured content with no consistent hiring throughline across episodes.",
+    "asset": "The Skills-Based Hiring Conversations Recruiters Actually Search For",
+    "distinct_angle": "Unlike HR People Pod's grab-bag format (leadership, volunteering, and cost control folded into one episode), our podcast stays locked on hiring and skills-assessment decisions every episode instead of surfacing them occasionally inside unrelated HR topics.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 40,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The episode's central hook is a 2023 CIPD statistic (5% of L&D professionals using AI, 6% planning to by 2024) that is now three years stale in 2026, and the discussion stays at the level of 'AI's vast potential' for learning delivery without ever connecting AI to skills-gap identification or capability assessment, the point where L&D actually intersects with hiring and internal mobility.",
+    "asset": "What AI-Verified Skills Gaps Actually Look Like Inside L&D Teams in 2026",
+    "distinct_angle": "Refreshes CIPD's stale 2023 AI-adoption figure with the current 2026 number and grounds the conversation in skills-gap assessment rather than the vague 'AI potential for learning' framing this episode never moves past.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: learning & development delivery"
+  },
+  {
+    "row_id": 620,
+    "brand_fit": "CORE",
+    "angle_gap": "Every episode blurb repeats the same shape (AI's promise vs. bias risk vs. human intuition) as a standalone guest-bio teaser with no synthesis across episodes, no pulled-out takeaways, and the scope stays narrowly fixed on analytics/data-science hiring even though the same AI-bias-vs-human-judgment tension the guests keep raising applies across every technical hiring function.",
+    "asset": "Objective Hiring Debates: Where AI Actually Reduces Bias and Where It Doesn't",
+    "distinct_angle": "Pulls the recurring AI-bias-vs-human-judgment argument scattered across Alooba's single-niche analytics episodes into synthesized, cited takeaways spanning all technical hiring, not just data and analytics roles.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 627,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 page profiles Sembly AI, a meeting-notes/AI-teammate product; hiring is mentioned only in passing (one recruiter use case), the real subject is meeting-productivity SaaS, a different product world than skills assessment"
+  },
+  {
+    "row_id": 3699,
+    "brand_fit": "CORE",
+    "angle_gap": "The entire piece is a single-company case study (SalesCode.ai's five-step process) with no comparison across company sizes, stages, or industries; the supporting stats (ManpowerGroup talent-shortage survey, Insight Global interviewer-fatigue figure) are dropped in as generic backdrop rather than tied back into a framework a reader outside that one startup could actually apply.",
+    "asset": "The Five-Step AI/ML Hiring Process Startups Can Actually Copy",
+    "distinct_angle": "Turns Xobin's single-startup anecdote (SalesCode.ai only) into a comparable framework by covering how the same five-step structure compresses or drops steps at different company stages and role seniority, the generalizable detail this episode never draws out.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1594,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers job analysis broadly for job descriptions, org design, and comp, but never connects it to the one thing that matters for a testing company: the EEOC Uniform Guidelines requirement that selection-test content be justified by a documented job analysis. The page stops at 'work activities/worker attributes/work context' and never shows how those feed a validated skills test.",
+    "asset": "Job Analysis as the EEOC-Defensible Foundation for a Skills Assessment",
+    "distinct_angle": "Shows how to turn job-analysis output into content-valid, legally defensible test specifications \u2014 the compliance link AIHR's job-description-and-comp framing never makes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1595,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 absenteeism rate is a post-hire workforce-health metric, not a hiring or skills-assessment subject"
+  },
+  {
+    "row_id": 1596,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee retention rate is a post-hire outcome metric (engagement/turnover), not a hiring or skills-assessment subject"
+  },
+  {
+    "row_id": 1598,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists 'skills assessment scores' as a single bullet under the selection-process section, with no guidance on how to actually use that data \u2014 no mention of validating scores, benchmarking them, or checking for adverse impact \u2014 even though the page claims data-driven hiring 'eliminates guesswork and biases' without showing how.",
+    "asset": "Turning Skills-Assessment Scores Into Bias-Checked Hiring Decisions",
+    "distinct_angle": "Goes deep on the one data source this page treats as a footnote \u2014 validated skills-assessment scores \u2014 showing how to use them for selection while auditing for adverse impact, which AIHR's metrics overview never addresses.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1599,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 digital employee experience is post-hire HR/IT tooling (workplace tech, UI/UX), unconnected to hiring or assessment"
+  }
+]

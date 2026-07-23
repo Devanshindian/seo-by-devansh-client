@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2181,
+    "brand_fit": "CORE",
+    "angle_gap": "Generic textbook definitions plus a recruitment-vs-TA comparison table that reads like a training-manual recap; the 5-step process gets one vague sentence each (e.g. 'Screening' just says use assessments/interviews with zero methodology), and there's no current benchmark data (time-to-hire, cost-per-hire, quality-of-hire figures) to back any of it.",
+    "asset": "What Actually Separates Talent Acquisition From Recruitment in 2026 \u2014 With the Metrics to Prove It",
+    "distinct_angle": "Backs each TA-process step with current benchmark metrics and a concrete screening methodology, the depth this page's one-line steps and generic comparison table skip.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2182,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The 'Assess' stage of their five-stage model is just a bullet list of product names ('Psychometric tests', 'Cognitive ability tests', 'HiPO Identification') with no explanation of how assessment scores actually turn into a skills-gap map or a promotion/succession decision \u2014 it's a product menu, not a method.",
+    "asset": "How to Turn Assessment Scores Into a Real Skills-Gap Map for Promotions and Succession",
+    "distinct_angle": "Walks through the actual mechanics of converting assessment data into a skills-gap map and succession decision, the concrete method this page's bulleted product list never explains.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2194,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire performance management/appraisals as an end in itself, explicitly off-brand per scope #3, not a hiring/assessment subject"
+  },
+  {
+    "row_id": 2201,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 360-degree feedback is a post-hire performance/appraisal tool, off-brand per scope #3, not tied to pre-employment assessment or hiring"
+  },
+  {
+    "row_id": 2207,
+    "brand_fit": "CORE",
+    "angle_gap": "The advantages section leans on generic psychology theory (Cattell's fluid/crystallized intelligence) as padding before it ever gets practical, and nowhere does it address adverse-impact/EEOC-defensibility, cite actual validity research on aptitude testing, or mention remote-proctoring/AI-assistance risk for online aptitude tests \u2014 all things a recruiter evaluating aptitude testing today needs.",
+    "asset": "Aptitude Tests in 2026: What the Validity Research Actually Shows \u2014 and Where They Still Get Challenged Legally",
+    "distinct_angle": "Grounds the pros and cons in real validity research and adverse-impact/legal-defensibility considerations, plus remote-proctoring integrity risk, the empirical and compliance depth this psychology-101 page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

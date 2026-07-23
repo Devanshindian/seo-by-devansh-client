@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1885,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 recruitment marketing/campaign strategy (employer branding, ad platforms, cold-campaign creative) is a different product world from skills assessment; not owned by Testlify per brand scope"
+  },
+  {
+    "row_id": 1890,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 candidate sourcing (ATS sourcing, talent pools, sourcing channels) is explicitly out of Testlify's world per brand scope"
+  },
+  {
+    "row_id": 1892,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 Boolean search is a sourcing technique (finding/reaching candidates), not assessment; belongs to the sourcing product world, not Testlify's"
+  },
+  {
+    "row_id": 1898,
+    "brand_fit": "CORE",
+    "angle_gap": "The page lists diversity-recruiting strategies across sourcing, screening, and interviewing but treats 'skills-based recruiting' as a single unexplained bullet rather than showing how structured assessment operationally removes bias, and its compliance framing leans on general EEOC mentions and older stats (the resume-callback bias study, the 70% DEI-aspiration survey) with no reference to the audit regimes recruiters must meet now, like NYC Local Law 144 bias audits or the EU AI Act.",
+    "asset": "What Bias-Free Hiring Actually Requires Under NYC LL144 and the EU AI Act in 2026",
+    "distinct_angle": "Shows concretely how structured, skills-based assessment closes the bias gap that this page only gestures at in one bullet, and replaces its dated stats with the current 2026 audit-law context (NYC LL144, EU AI Act) the page never addresses.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1900,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 cold email outreach for candidate sourcing is a sourcing/outreach subject, not skills assessment; also from 2017, sourcing world explicitly out of scope"
+  }
+]

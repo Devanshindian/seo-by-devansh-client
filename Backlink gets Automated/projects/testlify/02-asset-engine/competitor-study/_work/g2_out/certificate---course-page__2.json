@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1762,
+    "brand_fit": "CORE",
+    "angle_gap": "The page is a paywalled sales/curriculum listing (module titles, pricing tiers) with zero free explanation of how succession planning actually works \u2014 no framework, no worked example of identifying a successor, nothing you can act on without buying the \u20b945,500 program.",
+    "asset": "Building a Skills-Based Succession Pipeline From Assessment Data, Not Guesswork",
+    "distinct_angle": "Gives away the actual framework for spotting succession-ready talent using skills evidence instead of tenure or gut feel \u2014 the substance this page hides behind a paid enrollment wall.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1772,
+    "brand_fit": "CORE",
+    "angle_gap": "It's a course catalog: nine one-line teasers ('foundational | 42.5 hours...') with no real content \u2014 you can't learn anything about sourcing or talent acquisition strategy without buying the full course.",
+    "asset": "The Sourcing-to-Screening Skill Stack Modern Recruiters Actually Need",
+    "distinct_angle": "Delivers the real skill-building content (how sourcing, screening, and strategic TA connect) free, instead of nine locked one-line course blurbs behind a paywall.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2262,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 student scholarship program page (stale, dates from 2020/2021, dead deadline); subject is student financial aid, not hiring/assessment, and a scholarship is an operational program to run, not content a writer can deliver"
+  },
+  {
+    "row_id": 2431,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Page is almost entirely logistics \u2014 fees, Prometric test centers, transfer/reset/retest charges \u2014 while the actual competency framework (the SHRM BASK) a candidate needs to understand is only named, never explained; nothing lets a reader gauge where they stand before paying $399+ and committing months of prep.",
+    "asset": "The Skills-Based Hiring Certification for Recruiters and TA Leaders",
+    "distinct_angle": "Reuses the credential-landing-page format but replaces the fee schedules and test-center logistics with the actual skills-based hiring competency framework a practitioner needs \u2014 the substance SHRM's page skips in favor of pricing tables.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: general HR generalist certification (SHRM-CP/SHRM-SCP)"
+  },
+  {
+    "row_id": 2443,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

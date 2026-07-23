@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3136,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 call-center organizational/reporting structure is a customer-support ops topic, not hiring or assessment; different product world from Testlify"
+  },
+  {
+    "row_id": 3138,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans on stale/predictive stats \u2014 a 2020 Global Gender Gap Report figure and a Pew projection for women's workforce share 'peaking in 2025' before declining to 46.3% by 2060 \u2014 and the fix section only reaches job titles/descriptions before cutting off, without covering interview or evaluation-stage bias (structured scoring, blind screening in practice).",
+    "asset": "The Gender Bias Still Baked Into Hiring \u2014 Updated With Current Numbers",
+    "distinct_angle": "Refreshes the 2020/predictive stats to current public figures and extends past job-post wording into interview- and evaluation-stage fixes (structured scoring, blind review), which this page never reaches.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3142,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 customer-support team org design/reporting structure, not hiring or assessment; different product world from Testlify"
+  },
+  {
+    "row_id": 3143,
+    "brand_fit": "CORE",
+    "angle_gap": "The 6 practices stay generic \u2014 'implement a skill assessment' is named as a practice but never shown as a documented, auditable step; the piece leans on its own product (Vervoe) as the example rather than explaining how to build and record an EEOC-defensible process (adverse-impact checks, structured scorecards) that would survive an actual audit.",
+    "asset": "Fair Hiring Practices That Actually Survive an EEOC Audit",
+    "distinct_angle": "Shows how to document each practice (scorecards, adverse-impact tracking) into an audit-ready trail, where this page only names 'skill assessment' as a bullet without showing how to make it defensible.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3149,
+    "brand_fit": "CORE",
+    "angle_gap": "Each of the 5 plan components (job analysis, sourcing, evaluation, employer branding, timeline/budget) is defined abstractly with no worked example; the candidate-evaluation section in particular just says it 'outlines criteria for judging skills and cultural fit' without specifying what those criteria or scoring look like.",
+    "asset": "A Recruitment Plan Built Around Skills-Based Evaluation, Worked Example Included",
+    "distinct_angle": "Fills the evaluation stage with concrete, skills-based scoring criteria and a full worked example plan for one role, where this page only describes each stage in the abstract.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

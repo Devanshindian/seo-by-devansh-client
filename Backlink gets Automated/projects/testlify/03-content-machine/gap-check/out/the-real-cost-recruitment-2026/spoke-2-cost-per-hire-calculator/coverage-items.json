@@ -1,0 +1,151 @@
+{
+  "asset_title": "How to Calculate Your True Cost Per Hire, Not the Industry Average",
+  "distinct_angle": "Lays out the exact hard-cost and soft-cost line items with 2026 benchmark ranges by role and hiring volume, so a reader can build their own number instead of quoting the generic SHRM figure \u2014 the same inputs the pillar's cost breakdown uses.",
+  "primary": "cost per hire",
+  "items": [
+    {
+      "id": "secondary_kw-1",
+      "type": "secondary_kw",
+      "item": "calculate cost per hire",
+      "context": "Distinct DIY-process/formula section \u2014 matches the angle's build-your-own-number approach; folds in the near-duplicate 'calculating cost per hire'"
+    },
+    {
+      "id": "secondary_kw-2",
+      "type": "secondary_kw",
+      "item": "total cost of job formula",
+      "context": "Distinct formula-naming section that fits the line-item/benchmark breakdown the angle promises"
+    },
+    {
+      "id": "in_body-1",
+      "type": "in_body",
+      "item": "hard costs",
+      "context": ""
+    },
+    {
+      "id": "in_body-2",
+      "type": "in_body",
+      "item": "soft costs",
+      "context": ""
+    },
+    {
+      "id": "in_body-3",
+      "type": "in_body",
+      "item": "cost per hire by industry",
+      "context": ""
+    },
+    {
+      "id": "in_body-4",
+      "type": "in_body",
+      "item": "cost per hire benchmark",
+      "context": ""
+    },
+    {
+      "id": "in_body-5",
+      "type": "in_body",
+      "item": "SHRM average cost per hire",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-1",
+      "type": "winner_h2",
+      "item": "What is cost per hire (definition)",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-2",
+      "type": "winner_h2",
+      "item": "The cost per hire formula",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-3",
+      "type": "winner_h2",
+      "item": "Internal costs",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-4",
+      "type": "winner_h2",
+      "item": "External costs",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-5",
+      "type": "winner_h2",
+      "item": "Total number of hires",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-6",
+      "type": "winner_h2",
+      "item": "Step-by-step calculation walkthrough",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-7",
+      "type": "winner_h2",
+      "item": "Why cost per hire matters",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-8",
+      "type": "winner_h2",
+      "item": "Benchmarks / average cost per hire statistics",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-9",
+      "type": "winner_h2",
+      "item": "A cost per hire calculator",
+      "context": ""
+    },
+    {
+      "id": "gap_we_own-1",
+      "type": "gap_we_own",
+      "item": "Benchmark ranges segmented by role and by hiring volume \u2014 all three give one flat benchmark/statistics block, none break cost per hire out by role type or by annual hiring volume the way the distinct angle calls for.",
+      "context": ""
+    },
+    {
+      "id": "gap_we_own-2",
+      "type": "gap_we_own",
+      "item": "A hard-cost vs. soft-cost line-item framework \u2014 competitors categorize by internal/external only; none name the hard-cost/soft-cost split explicitly as its own structure.",
+      "context": ""
+    },
+    {
+      "id": "gap_we_own-3",
+      "type": "gap_we_own",
+      "item": "A calculator tied back to a pillar's broader cost breakdown \u2014 hiretruffle's calculator stands alone; none connect the line items to a wider cost-per-hire pillar the way this asset's angle requires.",
+      "context": ""
+    },
+    {
+      "id": "paa-1",
+      "type": "paa",
+      "item": "How do I calculate cost per hire?",
+      "context": ""
+    },
+    {
+      "id": "paa-2",
+      "type": "paa",
+      "item": "How to calculate cost per hire in SHRM?",
+      "context": ""
+    },
+    {
+      "id": "paa-3",
+      "type": "paa",
+      "item": "How is Cph calculated?",
+      "context": ""
+    },
+    {
+      "id": "paa-4",
+      "type": "paa",
+      "item": "What is the average cost per hire in the US?",
+      "context": ""
+    },
+    {
+      "id": "aio_subtopic-1",
+      "type": "aio_subtopic",
+      "item": "Defines cost per hire as the average spend to recruit a new employee (typically $4,500-$4,800), via the formula Internal Costs + External Costs / Total Hires; names Internal Costs (prorated recruiter/HR salaries, referral awards, hiring-manager interview time) and External Costs (job board fees, agency/search-firm fees, ATS costs, background checks, candidate travel/relocation); notes cost varies by company size, industry, and role seniority (specialized technical/C-suite: $15k-$30k+); flags quarterly tracking for budget optimization and ROI; points to the SHRM Cost-Per-Hire Standard for a consistent tracking process.",
+      "context": ""
+    }
+  ]
+}

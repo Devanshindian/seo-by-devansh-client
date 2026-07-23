@@ -1,0 +1,795 @@
+{
+  "job": "j1_interview_by_role",
+  "pillars": [
+    {
+      "pillar": "Finance & Investment Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "financial-administrator-interview-questions-to-ask-job-applicants",
+        "financial-advisor-interview-questions-to-ask-job-applicants",
+        "financial-analyst-assistant-interview-questions-to-ask-job-applicants",
+        "financial-analyst-interview-questions-to-ask-job-applicants",
+        "financial-controller-interview-questions-to-ask-job-applicants",
+        "financial-planner-assistant-interview-questions-to-ask-job-applicants",
+        "financial-planner-interview-questions-to-ask-job-applicants",
+        "financial-reporting-analyst-interview-questions-to-ask-job-applicants",
+        "investment-analyst-assistant-interview-questions-to-ask-job-applicants",
+        "investment-assistant-interview-questions-to-ask-job-applicants",
+        "investment-banking-analyst-interview-questions-to-ask-job-applicants",
+        "loan-officer-interview-questions-to-ask-job-applicants",
+        "loan-processor-assistant-interview-questions-to-ask-job-applicants",
+        "loan-processor-interview-questions-to-ask-job-applicants",
+        "mortgage-underwriter-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Marketing & Growth Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "growth-hacker-interview-questions-to-ask-job-applicants",
+        "growth-strategist-interview-questions-to-ask-job-applicants",
+        "influencer-marketing-coordinator-interview-questions-to-ask-job-applicants",
+        "interview-question-to-hire-a-marketing-strategist",
+        "interview-questions-for-google-ads-specialist",
+        "marketing-analyst-interview-questions-to-ask-job-applicants",
+        "marketing-assistant-interview-questions-to-ask-job-applicants",
+        "marketing-automation-specialist-interview-questions-to-ask-job-applicants",
+        "marketing-communications-manager-interview-questions-to-ask-job-applicants",
+        "marketing-coordinator-interview-questions-to-ask-job-applicants",
+        "marketing-manager-interview-questions-to-ask-job-applicants",
+        "marketing-operations-manager-interview-questions-to-ask-job-applicants",
+        "marketing-operations-specialist-interview-questions-to-ask-job-applicants",
+        "marketing-specialist-interview-questions-to-ask-job-applicants",
+        "media-planner-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Inventory, Logistics & Fulfillment Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "fleet-administrator-interview-questions-to-ask-job-applicants",
+        "freight-forwarder-interview-questions-to-ask-job-applicants",
+        "fulfillment-coordinator-interview-questions-to-ask-job-applicants",
+        "inventory-analyst-interview-questions-to-ask-job-applicants",
+        "inventory-control-analyst-interview-questions-to-ask-job-applicants",
+        "inventory-control-specialist-interview-questions-to-ask-job-applicants",
+        "inventory-coordinator-interview-questions-to-ask-job-applicants",
+        "inventory-planner-interview-questions-to-ask-job-applicants",
+        "logistics-analyst-interview-questions-to-ask-job-applicants",
+        "logistics-assistant-interview-questions-to-ask-job-applicants",
+        "logistics-coordinator-interview-questions-to-ask-job-applicants",
+        "logistics-manager-interview-questions-to-ask-job-applicants",
+        "materials-planner-interview-questions-to-ask-job-applicants",
+        "order-fulfillment-specialist-interview-questions-to-ask-job-applicants",
+        "order-processor-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Software Developer & Programming Language Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-for-power-bi-developer",
+        "interview-questions-for-python-developer",
+        "interview-questions-for-r-developer",
+        "interview-questions-for-react-developer",
+        "interview-questions-for-ruby-on-rails-developer",
+        "interview-questions-for-rust-developer",
+        "interview-questions-for-software-developer",
+        "interview-questions-for-spring-boot-developer",
+        "interview-questions-for-sql-developer",
+        "interview-questions-for-typescript-developer",
+        "interview-questions-for-web-developer",
+        "scripting-languages-interview-questions-to-ask-job-applicants",
+        "shell-scripting-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "IT Infrastructure & Systems Engineering Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-for-postgresql-manager",
+        "interview-questions-for-qa-engineer",
+        "interview-questions-for-robotics-engineer",
+        "interview-questions-for-sharepoint-administrator",
+        "interview-questions-for-system-administrator",
+        "interview-questions-for-system-engineer",
+        "interview-questions-for-technical-support-engineer",
+        "interview-questions-for-telecom-engineer",
+        "quality-assurance-analyst-interview-questions-to-ask-job-applicants",
+        "system-administrator-interview-questions-to-ask-job-applicants",
+        "systems-analyst-interview-questions-to-ask-job-applicants",
+        "windows-server-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Supply Chain, Logistics & Warehouse Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "production-planner-interview-questions-to-ask-job-applicants",
+        "production-scheduler-interview-questions-to-ask-job-applicants",
+        "reverse-logistics-coordinator-interview-questions-to-ask-job-applicants",
+        "shipping-and-receiving-clerk-interview-questions-to-ask-job-applicants",
+        "shipping-coordinator-interview-questions-to-ask-job-applicants",
+        "supply-chain-analyst-interview-questions-to-ask-job-applicants",
+        "supply-chain-coordinator-interview-questions-to-ask-job-applicants",
+        "supply-chain-manager-interview-questions-to-ask-job-applicants",
+        "transportation-coordinator-interview-questions-to-ask-job-applicants",
+        "warehouse-manager-interview-questions-to-ask-job-applicants",
+        "warehouse-operator-interview-questions-to-ask-job-applicants",
+        "warehouse-supervisor-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "HR, L&D & Payroll Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "hr-coordinator-interview-questions-to-ask-job-applicants",
+        "hr-manager-interview-questions-to-ask-job-applicants",
+        "hris-analyst-interview-questions-to-ask-job-applicants",
+        "human-resources-assistant-interview-questions-to-ask-job-applicants",
+        "learning-and-development-assistant-interview-questions-to-ask-job-applicants",
+        "learning-and-development-coordinator-interview-questions-to-ask-job-applicants",
+        "learning-and-development-specialist-interview-questions-to-ask-job-applicants",
+        "organizational-development-assistant-interview-questions-to-ask-job-applicants",
+        "payroll-administrator-interview-questions-to-ask-job-applicants",
+        "payroll-specialist-interview-questions-to-ask-job-applicants",
+        "performance-management-coordinator-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Specialized & Emerging-Tech Developer Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-for-game-developer",
+        "interview-questions-for-hiring-rpa-developer",
+        "interview-questions-for-iot-engineer",
+        "interview-questions-for-machine-learning-engineer",
+        "interview-questions-for-mainframe-developer",
+        "interview-questions-for-mobile-developer",
+        "interview-questions-for-net-developer",
+        "interview-questions-for-nlp-specialist",
+        "interview-questions-for-nosql-developer",
+        "interview-questions-for-oracle-erp-developer",
+        "interview-questions-for-perl-developer"
+      ]
+    },
+    {
+      "pillar": "Data Analyst & Data Scientist Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "data-analyst-interview-questions-to-ask-job-applicants",
+        "data-governance-analyst-interview-questions-to-ask-job-applicants",
+        "data-modeling-interview-questions-to-ask-job-applicants",
+        "data-scientist-interview-questions-to-ask-job-applicants",
+        "database-administrator-interview-questions-to-ask-job-applicants",
+        "database-analyst-interview-questions-to-ask-job-applicants",
+        "interview-questions-for-data-analyst",
+        "interview-questions-for-data-scientist",
+        "interview-questions-for-database-administrator",
+        "interview-questions-for-e-commerce-analyst"
+      ]
+    },
+    {
+      "pillar": "Office & Facilities Administration Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "facilities-manager-interview-questions-to-ask-job-applicants",
+        "file-clerk-interview-questions-to-ask-job-applicants",
+        "front-desk-receptionist-interview-questions-to-ask-job-applicants",
+        "mailroom-clerk-interview-questions-to-ask-job-applicants",
+        "maintenance-coordinator-interview-questions-to-ask-job-applicants",
+        "maintenance-technician-interview-questions-to-ask-job-applicants",
+        "office-administrator-interview-questions-to-ask-job-applicants",
+        "office-assistant-interview-questions-to-ask-job-applicants",
+        "office-manager-interview-questions-to-ask-job-applicants",
+        "office-services-coordinator-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Web & Full-Stack Developer Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-for-frontend-developer",
+        "interview-questions-for-full-stack-developer",
+        "interview-questions-for-golang-developer",
+        "interview-questions-for-java-developer",
+        "interview-questions-for-javascript-developer",
+        "interview-questions-for-kotlin-developer",
+        "interview-questions-for-lamp-developer",
+        "interview-questions-for-mean-stack-developer",
+        "interview-questions-for-mern-stack-developer",
+        "interview-questions-for-php-developer"
+      ]
+    },
+    {
+      "pillar": "Talent Acquisition, Training & HR Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "recruitment-coordinator-interview-questions-to-ask-job-applicants",
+        "software-trainer-interview-questions-to-ask-job-applicants",
+        "talent-acquisition-coordinator-interview-questions-to-ask-job-applicants",
+        "talent-acquisition-specialist-interview-questions-to-ask-job-applicants",
+        "talent-management-specialist-interview-questions-to-ask-job-applicants",
+        "trainer-interview-questions-to-ask-job-applicants",
+        "training-and-development-coordinator-interview-questions-to-ask-job-applicants",
+        "training-and-development-manager-interview-questions-to-ask-job-applicants",
+        "training-coordinator-interview-questions-to-ask-job-applicants",
+        "training-specialist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Sales Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "sales-analyst-interview-questions-to-ask-job-applicants",
+        "sales-coordinator-interview-questions-to-ask-job-applicants",
+        "sales-operations-analyst-interview-questions-to-ask-job-applicants",
+        "sales-operations-coordinator-interview-questions-to-ask-job-applicants",
+        "sales-representative-interview-questions-to-ask-job-applicants",
+        "sales-support-coordinator-interview-questions-to-ask-job-applicants",
+        "sales-support-representative-interview-questions-to-ask-job-applicants",
+        "sales-support-specialist-interview-questions-to-ask-job-applicants",
+        "sales-trainer-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Accounts Payable & Receivable Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "accounts-assistant-interview-questions-to-ask-job-applicants",
+        "accounts-payable-clerk-interview-questions-to-ask-job-applicants",
+        "accounts-payable-manager-interview-questions-to-ask-job-applicants",
+        "accounts-payable-specialist-interview-questions-to-ask-job-applicants",
+        "accounts-receivable-clerk-interview-questions-to-ask-job-applicants",
+        "accounts-receivable-manager-interview-questions-to-ask-job-applicants",
+        "accounts-receivable-specialist-interview-questions-to-ask-job-applicants",
+        "bookkeeper-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Audit & Compliance Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "audit-assistant-interview-questions-to-ask-job-applicants",
+        "audit-coordinator-interview-questions-to-ask-job-applicants",
+        "compliance-analyst-interview-questions-to-ask-job-applicants",
+        "compliance-auditor-interview-questions-to-ask-job-applicants",
+        "compliance-coordinator-interview-questions-to-ask-job-applicants",
+        "compliance-officer-interview-questions-to-ask-job-applicants",
+        "compliance-specialist-interview-questions-to-ask-job-applicants",
+        "customs-compliance-officer-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "AI & Data Engineering Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-for-adobe-analytics-developer",
+        "interview-questions-for-ai-engineer",
+        "interview-questions-for-big-data-engineer",
+        "interview-questions-for-cloud-engineer",
+        "interview-questions-for-data-architect",
+        "interview-questions-for-data-engineer",
+        "interview-questions-for-devops-engineer",
+        "interview-questions-for-etl-developer"
+      ]
+    },
+    {
+      "pillar": "Business Development & Operations Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "business-consultant-interview-questions-to-ask-job-applicants",
+        "business-development-assistant-interview-questions-to-ask-job-applicants",
+        "business-development-coordinator-interview-questions-to-ask-job-applicants",
+        "business-development-manager-interview-questions-to-ask-job-applicants",
+        "business-operations-associate-interview-questions-to-ask-job-applicants",
+        "business-operations-manager-interview-questions-to-ask-job-applicants",
+        "category-manager-interview-questions-to-ask-job-applicants",
+        "change-management-strategist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Customer Service & Success Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "account-executive-interview-questions",
+        "account-manager-interview-questions-to-ask-job-applicants",
+        "call-center-operator-interview-questions-to-ask-job-applicants",
+        "customer-experience-strategist-interview-questions-to-ask-job-applicants",
+        "customer-relationship-manager-interview-questions-to-ask-job-applicants",
+        "customer-service-representative-interview-questions",
+        "customer-success-representative-interview-questions-to-ask-job-applicants",
+        "customer-support-specialist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Employee Engagement & Relations Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "corporate-social-responsibility-coordinator-interview-questions-to-ask-job-applicants",
+        "corporate-trainer-interview-questions-to-ask-job-applicants",
+        "diversity-and-inclusion-coordinator-interview-questions-to-ask-job-applicants",
+        "diversity-and-inclusion-specialist-interview-questions-to-ask-job-applicants",
+        "employee-engagement-coordinator-interview-questions-to-ask-job-applicants",
+        "employee-engagement-specialist-interview-questions-to-ask-job-applicants",
+        "employee-relations-coordinator-interview-questions-to-ask-job-applicants",
+        "employee-relations-specialist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Administrative & Executive Support Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "administrative-assistant-interview-questions-to-ask-job-applicants",
+        "administrative-coordinator-interview-questions-to-ask-job-applicants",
+        "appointment-scheduler-interview-questions-to-ask-job-applicants",
+        "company-secretary-interview-questions-to-ask-job-applicants",
+        "executive-assistant-interview-questions-to-ask-job-applicants",
+        "executive-secretary-interview-questions-to-ask-job-applicants",
+        "facilities-assistant-interview-questions-to-ask-job-applicants",
+        "facilities-coordinator-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Supply Chain & Logistics Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "60-warehouse-coordinator-interview-questions-to-ask-job-applicants",
+        "demand-planner-assistant-interview-questions-to-ask-job-applicants",
+        "demand-planner-interview-questions-to-ask-job-applicants",
+        "dispatch-coordinator-interview-questions-to-ask-job-applicants",
+        "distribution-manager-interview-questions-to-ask-job-applicants",
+        "document-control-clerk-interview-questions-to-ask-job-applicants",
+        "document-control-specialist-interview-questions-to-ask-job-applicants",
+        "document-controller-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "PR & Public Relations Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "pr-coordinator-interview-questions-to-ask-job-applicants",
+        "pr-manager-interview-questions-to-ask-job-applicants",
+        "public-affairs-specialist-interview-questions-to-ask-job-applicants",
+        "public-relations-assistant-interview-questions-to-ask-job-applicants",
+        "public-relations-coordinator-interview-questions-to-ask-job-applicants",
+        "public-relations-manager-interview-questions-to-ask-job-applicants",
+        "public-relations-specialist-interview-questions-to-ask-job-applicants",
+        "public-speaker-presenter-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Marketing & Social Media Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-for-seo-specialist",
+        "ppc-specialist-interview-questions-to-ask-job-applicants",
+        "product-marketing-manager-interview-questions-to-ask-job-applicants",
+        "seo-specialist-interview-questions-to-ask-job-applicants",
+        "social-media-assistant-interview-questions-to-ask-job-applicants",
+        "social-media-coordinator-interview-questions-to-ask-job-applicants",
+        "social-media-manager-interview-questions-to-ask-job-applicants",
+        "social-media-strategist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Finance & Accounting Analyst Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "pricing-analyst-interview-questions-to-ask-job-applicants",
+        "reporting-analyst-interview-questions-to-ask-job-applicants",
+        "tax-assistant-interview-questions-to-ask-job-applicants",
+        "tax-preparer-interview-questions-to-ask-job-applicants",
+        "tax-specialist-interview-questions-to-ask-job-applicants",
+        "trade-support-analyst-interview-questions-to-ask-job-applicants",
+        "treasury-analyst-interview-questions-to-ask-job-applicants",
+        "underwriting-assistant-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Software Developer Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-for-angular-developer",
+        "interview-questions-for-app-developer",
+        "interview-questions-for-backend-developer",
+        "interview-questions-for-blockchain-developer",
+        "interview-questions-for-c-developer",
+        "interview-questions-for-ci-cd-developer",
+        "interview-questions-for-embedded-systems-engineer"
+      ]
+    },
+    {
+      "pillar": "Marketing Manager & Specialist Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "content-marketing-manager-interview-questions-to-ask-job-applicants",
+        "content-marketing-specialist-interview-questions-to-ask-job-applicants",
+        "digital-content-specialist-interview-questions-to-ask-job-applicants",
+        "digital-marketing-interview-questions-to-ask-job-applicants",
+        "digital-marketing-manager-interview-questions-to-ask-job-applicants",
+        "ecommerce-manager-interview-questions-to-ask-job-applicants",
+        "email-marketing-specialist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "IT Support & Service Management Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "help-desk-support-interview-questions-to-ask-job-applicants",
+        "help-desk-technician-interview-questions-to-ask-job-applicants",
+        "interview-questions-for-it-governance-specialist",
+        "interview-questions-for-it-service-manager",
+        "interview-questions-for-it-support-specialist",
+        "interview-questions-for-itsm-consultant",
+        "it-support-analyst-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Procurement & Purchasing Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "procurement-analyst-interview-questions-to-ask-job-applicants",
+        "procurement-assistant-interview-questions-to-ask-job-applicants",
+        "procurement-coordinator-interview-questions-to-ask-job-applicants",
+        "procurement-manager-interview-questions-to-ask-job-applicants",
+        "procurement-specialist-interview-questions-to-ask-job-applicants",
+        "purchasing-assistant-interview-questions-to-ask-job-applicants",
+        "sourcing-specialist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Risk Management & Analyst Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "regulatory-affairs-coordinator-interview-questions-to-ask-job-applicants",
+        "regulatory-compliance-specialist-interview-questions-to-ask-job-applicants",
+        "risk-analyst-interview-questions-to-ask-job-applicants",
+        "risk-management-analyst-interview-questions-to-ask-job-applicants",
+        "risk-management-assistant-interview-questions-to-ask-job-applicants",
+        "risk-management-coordinator-interview-questions-to-ask-job-applicants",
+        "risk-management-strategist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Administrative & Office Support Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "real-estate-administrator-interview-questions-to-ask-job-applicants",
+        "receptionist-interview-questions-to-ask-job-applicants",
+        "records-management-coordinator-interview-questions-to-ask-job-applicants",
+        "records-management-specialist-interview-questions-to-ask-job-applicants",
+        "title-examiner-interview-questions-to-ask-job-applicants",
+        "travel-coordinator-interview-questions-to-ask-job-applicants",
+        "virtual-assistant-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Designing Effective Technical Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-to-check-if-the-candidate-is-tech-savvy",
+        "soft-skills-interview-question-bank",
+        "technical-interview-questions-to-assess-problem-solving-skills",
+        "what-are-the-best-interview-questions-to-ask",
+        "what-role-do-data-driven-technical-interview-questions-play-in-hiring-success",
+        "what-should-you-include-in-your-technical-interview-questions-to-ensure-comprehensive-candidate-evaluation",
+        "why-do-you-need-technical-interview-questions-in-your-hiring-process"
+      ]
+    },
+    {
+      "pillar": "HR Benefits & Compensation Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "benefits-administrator-interview-questions-to-ask-job-applicants",
+        "benefits-analyst-interview-questions-to-ask-job-applicants",
+        "benefits-coordinator-interview-questions-to-ask-job-applicants",
+        "benefits-specialist-interview-questions-to-ask-job-applicants",
+        "compensation-analyst-interview-questions-to-ask-job-applicants",
+        "compensation-specialist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Insurance Claims & Coordination Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "insurance-claims-analyst-interview-questions-to-ask-job-applicants",
+        "insurance-claims-assistant-interview-questions-to-ask-job-applicants",
+        "insurance-claims-coordinator-interview-questions-to-ask-job-applicants",
+        "insurance-claims-processor-interview-questions-to-ask-job-applicants",
+        "insurance-coordinator-interview-questions-to-ask-job-applicants",
+        "insurance-verification-specialist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Healthcare & Medical Support Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "health-information-clerk-interview-questions-to-ask-job-applicants",
+        "medical-coder-interview-questions-to-ask-job-applicants",
+        "medical-transcriptionist-interview-questions-to-ask-job-applicants",
+        "occupational-health-and-safety-coordinator-interview-questions-to-ask-job-applicants",
+        "patient-registrar-interview-questions-to-ask-job-applicants",
+        "pharmacy-technician-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Product Management & Product Analyst Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-for-product-manager",
+        "interview-questions-for-scrum-master",
+        "product-analyst-interview-questions-to-ask-job-applicants",
+        "product-development-strategist-interview-questions-to-ask-job-applicants",
+        "product-manager-interview-questions-to-ask-job-applicants",
+        "product-support-specialist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Billing Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "billing-administrator-interview-questions-to-ask-job-applicants",
+        "billing-analyst-interview-questions-to-ask-job-applicants",
+        "billing-clerk-interview-questions-to-ask-job-applicants",
+        "billing-coordinator-interview-questions-to-ask-job-applicants",
+        "billing-specialist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Data Entry & Data Processing Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "60-data-entry-operator-interview-questions-to-ask-job-applicants",
+        "data-entry-clerk-interview-questions-to-ask-job-applicants",
+        "data-entry-specialist-interview-questions-to-ask-job-applicants",
+        "data-processor-interview-questions-to-ask-job-applicants",
+        "data-verification-clerk-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Brand Management Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "brand-ambassador-interview-questions-to-ask-job-applicants",
+        "brand-analyst-interview-questions-to-ask-job-applicants",
+        "brand-manager-interview-questions-to-ask-job-applicants",
+        "brand-strategist-analyst-interview-questions-to-ask-job-applicants",
+        "employer-branding-specialist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Business Analyst Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "business-analyst-interview-questions-to-ask-job-applicants",
+        "business-operations-analyst-interview-questions-to-ask-job-applicants",
+        "business-process-analyst-interview-questions-to-ask-job-applicants",
+        "customer-insights-analyst-interview-questions-to-ask-job-applicants",
+        "interview-questions-for-business-analyst"
+      ]
+    },
+    {
+      "pillar": "Event & Conference Planning Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "conference-planner-interview-questions-to-ask-job-applicants",
+        "event-coordinator-interview-questions-to-ask-job-applicants",
+        "event-organizer-interview-questions-to-ask-job-applicants",
+        "event-planner-interview-questions-to-ask-job-applicants",
+        "events-coordinator-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Market Research Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "market-analyst-interview-questions-to-ask-job-applicants",
+        "market-research-analyst-interview-questions-to-ask-job-applicants",
+        "market-research-assistant-interview-questions-to-ask-job-applicants",
+        "market-research-coordinator-interview-questions-to-ask-job-applicants",
+        "market-researcher-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Legal Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "legal-assistant-interview-questions-to-ask-job-applicants",
+        "legal-secretary-interview-questions-to-ask-job-applicants",
+        "licensing-specialist-interview-questions-to-ask-job-applicants",
+        "paralegal-interview-questions-to-ask-job-applicants",
+        "policy-analyst-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "PR & Communications Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "internal-communications-coordinator-interview-questions-to-ask-job-applicants",
+        "investor-relations-coordinator-interview-questions-to-ask-job-applicants",
+        "investor-relations-manager-interview-questions-to-ask-job-applicants",
+        "media-relations-coordinator-interview-questions-to-ask-job-applicants",
+        "media-relations-specialist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Network & Systems Administration Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-for-linux-system-administrator",
+        "interview-questions-for-network-engineer",
+        "linux-interview-questions-to-ask-job-applicants",
+        "network-administrator-interview-questions-to-ask-job-applicants",
+        "network-technician-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Using Technical Interview Questions to Screen Candidates",
+      "intent": "informational",
+      "spokes": [
+        "how-technical-interview-questions-helps-you-screen-candidates",
+        "how-to-hire-top-talent-using-technical-interview-questions",
+        "how-to-incorporate-technical-interview-questions-into-your-recruitment-strategy",
+        "how-to-simplify-candidate-screening-with-technical-interview-questions",
+        "key-benefits-of-using-technical-interview-questions-in-the-recruitment-process"
+      ]
+    },
+    {
+      "pillar": "Quality Assurance & Quality Control Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "quality-assurance-coordinator-interview-questions-to-ask-job-applicants",
+        "quality-assurance-manager-interview-questions-to-ask-job-applicants",
+        "quality-control-inspector-interview-questions-to-ask-job-applicants",
+        "quality-control-specialist-interview-questions-to-ask-job-applicants",
+        "supplier-quality-engineer-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Finance & Credit Analyst Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "budget-analyst-interview-questions-to-ask-job-applicants",
+        "credit-analyst-assistant-interview-questions-to-ask-job-applicants",
+        "credit-analyst-interview-questions-to-ask-job-applicants",
+        "credit-risk-analyst-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Cybersecurity & Ethical Hacking Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-for-api-tester",
+        "interview-questions-for-cybersecurity-analyst",
+        "interview-questions-for-cybersecurity-specialist",
+        "interview-questions-for-ethical-hacker"
+      ]
+    },
+    {
+      "pillar": "Content & Copywriting Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "content-strategist-interview-questions-to-ask-job-applicants",
+        "content-writer-interview-questions-to-ask-job-applicants",
+        "copy-editor-interview-questions-to-ask-job-applicants",
+        "copywriter-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "CRM & Communications Manager Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "communications-manager-interview-questions-to-ask-job-applicants",
+        "community-manager-interview-questions-to-ask-job-applicants",
+        "crm-administrator-interview-questions-to-ask-job-applicants",
+        "crm-manager-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Contract & Project Administration Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "60-project-administrator-interview-questions-to-ask-job-applicants",
+        "contract-administrator-interview-questions-to-ask-job-applicants",
+        "contract-specialist-interview-questions-to-ask-job-applicants",
+        "interview-questions-for-agile-coach"
+      ]
+    },
+    {
+      "pillar": "Operations Management Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-for-operation-manager",
+        "operations-analyst-interview-questions-to-ask-job-applicants",
+        "operations-manager-interview-questions-to-ask-job-applicants",
+        "operations-supervisor-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Sales & Account Management Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "fundraising-manager-interview-questions-to-ask-job-applicants",
+        "inside-sales-representative-interview-questions-to-ask-job-applicants-to-ask-job-applicants",
+        "key-account-manager-interview-questions-to-ask-job-applicants",
+        "partnership-manager-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Research & Data Analyst Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-to-ask-while-hiring-a-data-quality-analysts",
+        "research-analyst-interview-questions-to-ask-job-applicants",
+        "research-and-development-assistant-interview-questions-to-ask-job-applicants",
+        "research-assistant-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Strategy & Business Consulting Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "strategic-planner-interview-questions-to-ask-job-applicants",
+        "strategy-consultant-interview-questions-to-ask-job-applicants",
+        "sustainability-manager-interview-questions-to-ask-job-applicants",
+        "sustainability-strategist-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "UX/UI & Product Design Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-for-ui-ux-designer",
+        "ui-ux-designer-interview-questions-to-ask-job-applicants",
+        "user-experience-designer-interview-questions-to-ask-job-applicants",
+        "user-experience-researcher-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Claims Adjuster & Examiner Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "claims-adjuster-interview-questions-to-ask-job-applicants",
+        "claims-administrator-interview-questions-to-ask-job-applicants",
+        "claims-examiner-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Project & Program Coordination Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "interview-questions-for-project-manager",
+        "interview-questions-to-ask-while-hiring-for-project-coordinator",
+        "project-coordinator-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Vendor & Supplier Relationship Management Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "supplier-relationship-manager-interview-questions-to-ask-job-applicants",
+        "vendor-management-coordinator-interview-questions-to-ask-job-applicants",
+        "vendor-relations-manager-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Retail Operations Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "retail-operations-manager-interview-questions-to-ask-job-applicants",
+        "retail-store-manager-interview-questions-to-ask-job-applicants",
+        "security-officer-interview-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Content & Communications Role Interview Questions",
+      "intent": "informational",
+      "spokes": [
+        "proofreader-interview-questions-to-ask-job-applicants",
+        "technical-writer-interview-questions-to-ask-job-applicants",
+        "translator-interview-questions-to-ask-job-applicants"
+      ]
+    }
+  ]
+}

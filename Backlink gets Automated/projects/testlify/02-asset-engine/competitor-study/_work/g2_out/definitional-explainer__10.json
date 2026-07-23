@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 146,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 sports betting / Poisson-distribution math, entirely outside hiring and assessment; no credible transplant since the format is a plain stats explainer, not a link-pulling shape"
+  },
+  {
+    "row_id": 397,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 flat organizational structure is org-design/management theory, a different product world from skills assessment; also just a generic glossary explainer, not a strong format worth transplanting"
+  },
+  {
+    "row_id": 405,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 reference checking is explicitly outside Testlify's world (skills assessment/testing) per brand scope, regardless of hiring adjacency"
+  },
+  {
+    "row_id": 406,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 OTE/compensation structure is payroll-adjacent, off-brand subject, and just a plain glossary explainer with no strong link-pulling shape to transplant"
+  },
+  {
+    "row_id": 444,
+    "brand_fit": "CORE",
+    "angle_gap": "Thin and generic: defines evergreen jobs, leans on a single old SmartRecruiters/Fast Company time-to-hire stat, then lists vague unsupported benefits ('best fit', 'clear comparisons') with no industry breakdown or worked example for the specific evergreen-heavy sectors it names (call centers, retail, hospitals/healthcare).",
+    "asset": "Evergreen Roles Explained: What Actually Cuts Time-to-Hire in Call Centers, Retail, and Healthcare",
+    "distinct_angle": "Swaps the single dated time-to-hire stat and vague benefit list for current industry-specific benchmarks and a worked skills-testing example for the highest-turnover evergreen roles (nursing, call-center, retail) \u2014 the depth and specificity this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

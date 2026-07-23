@@ -1,0 +1,3082 @@
+{
+  "themes": {
+    "Interview Questions by Role": {
+      "pillars": [
+        {
+          "pillar": "Web & Full-Stack Developer Interview Questions",
+          "n": 15,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Sales Role Interview Questions",
+          "n": 15,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/account-executive-interview-questions",
+          "probe_slug": "account-executive-interview-questions"
+        },
+        {
+          "pillar": "Finance & Investment Role Interview Questions",
+          "n": 15,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/financial-analyst-interview-questions-to-ask-job-applicants",
+          "probe_slug": "financial-analyst-interview-questions"
+        },
+        {
+          "pillar": "Logistics & Fulfillment Role Interview Questions",
+          "n": 15,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/distribution-manager-interview-questions-to-ask-job-applicants",
+          "probe_slug": "distribution-manager-interview-questions"
+        },
+        {
+          "pillar": "Marketing Manager & Specialist Interview Questions",
+          "n": 14,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/marketing-manager-interview-questions-to-ask-job-applicants",
+          "probe_slug": "marketing-manager-interview-questions"
+        },
+        {
+          "pillar": "PR & Public Relations Role Interview Questions",
+          "n": 14,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Programming Language Developer Interview Questions",
+          "n": 13,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Systems & Network Administration Interview Questions",
+          "n": 13,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/system-administrator-interview-questions-to-ask-job-applicants",
+          "probe_slug": "system-administrator-interview-questions"
+        },
+        {
+          "pillar": "Specialized & Emerging-Tech Developer Interview Questions",
+          "n": 12,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Digital, SEO & Social Media Marketing Interview Questions",
+          "n": 12,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/digital-marketing-interview-questions-to-ask-job-applicants",
+          "probe_slug": "digital-marketing-interview-questions"
+        },
+        {
+          "pillar": "Finance & Accounting Analyst Interview Questions",
+          "n": 12,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/financial-analyst-interview-questions-to-ask-job-applicants",
+          "probe_slug": "financial-analyst-interview-questions"
+        },
+        {
+          "pillar": "Data Analyst & Data Scientist Interview Questions",
+          "n": 11,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/data-analyst-interview-questions-to-ask-job-applicants",
+          "probe_slug": "data-analyst-interview-questions"
+        },
+        {
+          "pillar": "AI & Data Engineering Interview Questions",
+          "n": 10,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Content & Copywriting Interview Questions",
+          "n": 10,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/content-writer-interview-questions-to-ask-job-applicants",
+          "probe_slug": "content-writer-interview-questions"
+        },
+        {
+          "pillar": "Learning, Training & Development Role Interview Questions",
+          "n": 10,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/corporate-trainer-interview-questions-to-ask-job-applicants",
+          "probe_slug": "corporate-trainer-interview-questions"
+        },
+        {
+          "pillar": "Inventory & Warehouse Role Interview Questions",
+          "n": 10,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/inventory-analyst-interview-questions-to-ask-job-applicants",
+          "probe_slug": "inventory-analyst-interview-questions"
+        },
+        {
+          "pillar": "Clerical & Records Support Interview Questions",
+          "n": 10,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/document-controller-interview-questions-to-ask-job-applicants",
+          "probe_slug": "document-controller-interview-questions"
+        },
+        {
+          "pillar": "Insurance & Claims Role Interview Questions",
+          "n": 9,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/claims-adjuster-interview-questions-to-ask-job-applicants",
+          "probe_slug": "claims-adjuster-interview-questions"
+        },
+        {
+          "pillar": "Business Development, Strategy & Consulting Interview Questions",
+          "n": 9,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Interview Questions by Role",
+          "n": 8,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "IT Support & Service Management Interview Questions",
+          "n": 8,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Accounts Payable & Receivable Interview Questions",
+          "n": 8,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Audit & Compliance Interview Questions",
+          "n": 8,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "HR, HRIS & Payroll Role Interview Questions",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hr-manager-interview-questions-to-ask-job-applicants",
+          "probe_slug": "hr-manager-interview-questions"
+        },
+        {
+          "pillar": "Procurement & Purchasing Role Interview Questions",
+          "n": 8,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Legal Role Interview Questions",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/contract-administrator-interview-questions-to-ask-job-applicants",
+          "probe_slug": "contract-administrator-interview-questions"
+        },
+        {
+          "pillar": "Administrative & Executive Support Interview Questions",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/administrative-assistant-interview-questions-to-ask-job-applicants",
+          "probe_slug": "administrative-assistant-interview-questions"
+        },
+        {
+          "pillar": "Office & Facilities Management Interview Questions",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/facilities-manager-interview-questions-to-ask-job-applicants",
+          "probe_slug": "facilities-manager-interview-questions"
+        },
+        {
+          "pillar": "Risk & Regulatory Affairs Interview Questions",
+          "n": 7,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/risk-analyst-interview-questions-to-ask-job-applicants",
+          "probe_slug": "risk-analyst-interview-questions"
+        },
+        {
+          "pillar": "Employee Engagement, Relations & D&I Interview Questions",
+          "n": 7,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Supply Chain & Production Planning Interview Questions",
+          "n": 7,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/production-planner-interview-questions-to-ask-job-applicants",
+          "probe_slug": "production-planner-interview-questions"
+        },
+        {
+          "pillar": "QA, Testing & Cybersecurity Interview Questions",
+          "n": 6,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Product Management & Analysis Interview Questions",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/product-manager-interview-questions-to-ask-job-applicants",
+          "probe_slug": "product-manager-interview-questions"
+        },
+        {
+          "pillar": "Project & Program Management Interview Questions",
+          "n": 6,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Market Research Role Interview Questions",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/market-research-analyst-interview-questions-to-ask-job-applicants",
+          "probe_slug": "market-research-analyst-interview-questions"
+        },
+        {
+          "pillar": "HR Benefits & Compensation Interview Questions",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/benefits-administrator-interview-questions-to-ask-job-applicants",
+          "probe_slug": "benefits-administrator-interview-questions"
+        },
+        {
+          "pillar": "Operations Management Role Interview Questions",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/operations-manager-interview-questions-to-ask-job-applicants",
+          "probe_slug": "operations-manager-interview-questions"
+        },
+        {
+          "pillar": "Healthcare & Medical Support Role Interview Questions",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/medical-coder-interview-questions-to-ask-job-applicants",
+          "probe_slug": "medical-coder-interview-questions"
+        },
+        {
+          "pillar": "Data Entry & Data Processing Interview Questions",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/data-entry-clerk-interview-questions-to-ask-job-applicants",
+          "probe_slug": "data-entry-clerk-interview-questions"
+        },
+        {
+          "pillar": "Brand Management Interview Questions",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/brand-manager-interview-questions-to-ask-job-applicants",
+          "probe_slug": "brand-manager-interview-questions"
+        },
+        {
+          "pillar": "Customer Service & Success Interview Questions",
+          "n": 5,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Billing Role Interview Questions",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/billing-clerk-interview-questions-to-ask-job-applicants",
+          "probe_slug": "billing-clerk-interview-questions"
+        },
+        {
+          "pillar": "Event & Conference Planning Interview Questions",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/event-coordinator-interview-questions-to-ask-job-applicants",
+          "probe_slug": "event-coordinator-interview-questions"
+        },
+        {
+          "pillar": "UX/UI & Product Design Role Interview Questions",
+          "n": 4,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/ui-ux-designer-interview-questions-to-ask-job-applicants",
+          "probe_slug": "ui-ux-designer-interview-questions"
+        },
+        {
+          "pillar": "CRM & Community Management Interview Questions",
+          "n": 4,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/crm-manager-interview-questions-to-ask-job-applicants",
+          "probe_slug": "crm-manager-interview-questions"
+        },
+        {
+          "pillar": "Talent Acquisition & Recruiting Role Interview Questions",
+          "n": 4,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Vendor & Supplier Relationship Management Interview Questions",
+          "n": 4,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/supplier-relationship-manager-interview-questions-to-ask-job-applicants",
+          "probe_slug": "supplier-relationship-manager-interview-questions"
+        },
+        {
+          "pillar": "Quality Assurance & Control Role Interview Questions",
+          "n": 4,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Business Analyst Interview Questions",
+          "n": 4,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/business-analyst-interview-questions-to-ask-job-applicants",
+          "probe_slug": "business-analyst-interview-questions"
+        },
+        {
+          "pillar": "Research & Development Role Interview Questions",
+          "n": 4,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/research-analyst-interview-questions-to-ask-job-applicants",
+          "probe_slug": "research-analyst-interview-questions"
+        },
+        {
+          "pillar": "Retail & Security Operations Interview Questions",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/security-officer-interview-questions-to-ask-job-applicants",
+          "probe_slug": "security-officer-interview-questions"
+        }
+      ],
+      "built": 17,
+      "article": 34,
+      "partial": 0,
+      "missing": 0
+    },
+    "Skills & Job Assessments": {
+      "pillars": [
+        {
+          "pillar": "Evaluating Marketing Skills in Candidates",
+          "n": 15,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/marketing-test-in-your-hiring-process",
+          "probe_slug": "marketing-test"
+        },
+        {
+          "pillar": "Talent Assessment: Fundamentals, Benefits & Getting Started",
+          "n": 14,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/talent-assessment-tool-in-your-hiring-process",
+          "probe_slug": "talent-assessment"
+        },
+        {
+          "pillar": "Using Skills Assessment Data to Improve Hiring",
+          "n": 14,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/skills-assessment-and-interviewing-platform",
+          "probe_slug": "skills-assessment"
+        },
+        {
+          "pillar": "Hiring Developers with Programming Skill Tests",
+          "n": 14,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/coding-tests",
+          "probe_slug": "programming-tests"
+        },
+        {
+          "pillar": "English & Language Proficiency Testing",
+          "n": 13,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/english-proficiency-test-helps-screen-candidates",
+          "probe_slug": "english-proficiency-test"
+        },
+        {
+          "pillar": "Types of Pre-Employment Assessments",
+          "n": 12,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/pre-employment-assessments-what-you-need-to-know",
+          "probe_slug": "pre-employment-assessments"
+        },
+        {
+          "pillar": "Role-Specific Job Tests: Business & Corporate Roles",
+          "n": 12,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/role-specific-tests",
+          "probe_slug": "role-specific-tests"
+        },
+        {
+          "pillar": "Evaluating Business & Soft Skills",
+          "n": 12,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/soft-skills",
+          "probe_slug": "soft-skills"
+        },
+        {
+          "pillar": "IT & Computer Skills Testing",
+          "n": 12,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/it-skills-testing-everything-you-need-to-know",
+          "probe_slug": "it-skills-test"
+        },
+        {
+          "pillar": "Role-Specific Tests to Unveil Candidates' Hidden Abilities",
+          "n": 11,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/role-specific-tests",
+          "probe_slug": "role-specific-tests"
+        },
+        {
+          "pillar": "Coding & Technical Assessments in Hiring",
+          "n": 11,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/coding-tests",
+          "probe_slug": "coding-tests"
+        },
+        {
+          "pillar": "Programming Language Test Guides (SQL, Java, JS & More)",
+          "n": 11,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/coding-tests",
+          "probe_slug": "coding-tests"
+        },
+        {
+          "pillar": "Skills Assessments & Better Hiring Outcomes",
+          "n": 11,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/skills-assessment-and-interviewing-platform",
+          "probe_slug": "skills-assessment"
+        },
+        {
+          "pillar": "Pre-Hiring Assessment Strategy",
+          "n": 11,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/pre-hiring-assessments-an-accurate-predictor-of-career-progression",
+          "probe_slug": "pre-hiring-assessments"
+        },
+        {
+          "pillar": "Web & Framework Developer Skills Assessments",
+          "n": 11,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "web-developer-test"
+        },
+        {
+          "pillar": "Designing & Choosing Skills Assessments",
+          "n": 11,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/skills-assessment-and-interviewing-platform",
+          "probe_slug": "skills-assessment"
+        },
+        {
+          "pillar": "Assessing Communication & Interpersonal Skills in Recruitment",
+          "n": 11,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/interpersonal-skills-test",
+          "probe_slug": "interpersonal-skills"
+        },
+        {
+          "pillar": "Assessing Soft Skills & Character Traits for Hiring",
+          "n": 11,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/soft-skills",
+          "probe_slug": "soft-skills"
+        },
+        {
+          "pillar": "Technical Assessments in Recruitment: Tools & Process",
+          "n": 10,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "technical-assessments"
+        },
+        {
+          "pillar": "Excel, Office & Data Tool Testing",
+          "n": 10,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/microsoft-office-test-in-your-hiring-process",
+          "probe_slug": "microsoft-office-test"
+        },
+        {
+          "pillar": "Programming Language Skills Assessments",
+          "n": 10,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/coding-tests",
+          "probe_slug": "programming-tests"
+        },
+        {
+          "pillar": "Evaluating Software Development & Engineering Skills",
+          "n": 10,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/engineering-skills",
+          "probe_slug": "engineering-skills"
+        },
+        {
+          "pillar": "Programming Tests: Design & Best Practices",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/coding-tests",
+          "probe_slug": "programming-tests"
+        },
+        {
+          "pillar": "Technology & AI in Hiring Assessments",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library",
+          "probe_slug": "ai-assessments"
+        },
+        {
+          "pillar": "Technical Skill Assessments for Hiring",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/coding-tests",
+          "probe_slug": "coding-tests"
+        },
+        {
+          "pillar": "Technical & Developer Hiring Strategy",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/developer-hiring",
+          "probe_slug": "technical-hiring"
+        },
+        {
+          "pillar": "Hiring with Occupational Skill Tests",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/skills-assessment-and-interviewing-platform",
+          "probe_slug": "skills-assessment"
+        },
+        {
+          "pillar": "Technical Skill Tests for Hiring Developers",
+          "n": 8,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/coding-tests",
+          "probe_slug": "coding-tests"
+        },
+        {
+          "pillar": "Business & Professional Skills Tests",
+          "n": 8,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "business-skills-test"
+        },
+        {
+          "pillar": "Evaluating Data & Analytics Skills",
+          "n": 8,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "data-analysis-skills"
+        },
+        {
+          "pillar": "Hiring with Office, Admin & Digital Skills Tests",
+          "n": 8,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "admin-test"
+        },
+        {
+          "pillar": "Hiring Developers with Coding & Language Skill Tests",
+          "n": 8,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/coding-tests",
+          "probe_slug": "coding-tests"
+        },
+        {
+          "pillar": "Skills-Based Hiring: Guide & Benefits",
+          "n": 8,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/knowledge-base/skills-based-hiring-future-ready-workforce",
+          "probe_slug": "skills-based-hiring"
+        },
+        {
+          "pillar": "Soft Skills Assessment in Hiring",
+          "n": 8,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/soft-skills",
+          "probe_slug": "soft-skills"
+        },
+        {
+          "pillar": "Situational Judgement Tests in Hiring",
+          "n": 7,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/situational-judgment",
+          "probe_slug": "situational-judgment"
+        },
+        {
+          "pillar": "Management & Leadership Assessments",
+          "n": 7,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/management-test-guide-for-hiring-managers",
+          "probe_slug": "management-test"
+        },
+        {
+          "pillar": "Sales, Customer Service & Support Role Tests",
+          "n": 7,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "sales-test"
+        },
+        {
+          "pillar": "Programming Tests: Running & Interpreting",
+          "n": 7,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/coding-tests",
+          "probe_slug": "programming-tests"
+        },
+        {
+          "pillar": "Trade & Engineering Skills Tests",
+          "n": 7,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "engineering-test"
+        },
+        {
+          "pillar": "Pre-Employment Testing Fundamentals: What It Is & Why It Matters",
+          "n": 7,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/pre-employment-assessments-what-you-need-to-know",
+          "probe_slug": "pre-employment-assessments"
+        },
+        {
+          "pillar": "Business & Management Role Assessments",
+          "n": 7,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/business-judgement-test",
+          "probe_slug": "business-judgement-test"
+        },
+        {
+          "pillar": "Skills Assessment Best Practices & Fairness",
+          "n": 7,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/skills-assessment-and-interviewing-platform",
+          "probe_slug": "skills-assessment"
+        },
+        {
+          "pillar": "Skills Assessments by Role Type & Seniority",
+          "n": 7,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/skills-assessment-and-interviewing-platform",
+          "probe_slug": "skills-assessment"
+        },
+        {
+          "pillar": "Soft-Skills, Psychometric & Remote Assessments",
+          "n": 7,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/psychometric-tests",
+          "probe_slug": "psychometric-tests"
+        },
+        {
+          "pillar": "Hiring Skilled Trades & Vocational Workers with Tests",
+          "n": 7,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "trade-skills-test"
+        },
+        {
+          "pillar": "Computer & Office Software Skill Tests",
+          "n": 6,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/typing-test",
+          "probe_slug": "typing-test"
+        },
+        {
+          "pillar": "Aptitude & Behavioral Trait Tests for Recruiting",
+          "n": 6,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/aptitude-test",
+          "probe_slug": "aptitude-test"
+        },
+        {
+          "pillar": "Computer Literacy Tests for Hiring",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/computer-literacy-test-in-hiring-decisions",
+          "probe_slug": "computer-literacy-test"
+        },
+        {
+          "pillar": "Running an Effective Pre-Employment Testing Process",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/pre-employment-assessments-what-you-need-to-know",
+          "probe_slug": "pre-employment-assessments"
+        },
+        {
+          "pillar": "Pre-Employment Testing Software, Trends & Compliance",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/pre-employment-assessments-what-you-need-to-know",
+          "probe_slug": "pre-employment-assessments"
+        },
+        {
+          "pillar": "Database, Cloud & Security Skills Assessments",
+          "n": 6,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/cybersecurity-test",
+          "probe_slug": "cybersecurity-test"
+        },
+        {
+          "pillar": "Soft Skills & Behavioral Skills Assessments",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/behavioral-assessments-impact-hiring-decisions",
+          "probe_slug": "behavioral-assessment"
+        },
+        {
+          "pillar": "Hiring with English & Language Proficiency Tests",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/english-proficiency-test-helps-screen-candidates",
+          "probe_slug": "english-proficiency-test"
+        },
+        {
+          "pillar": "Sales Aptitude Tests for Hiring Salespeople",
+          "n": 5,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/sales-hiring",
+          "probe_slug": "sales-hiring"
+        },
+        {
+          "pillar": "Developer & DevOps Role Tests for Recruiting",
+          "n": 5,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/full-stack-developer-test",
+          "probe_slug": "full-stack-developer-test"
+        },
+        {
+          "pillar": "QA & Software Testing Assessments for Hiring",
+          "n": 5,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/qa-test-automation",
+          "probe_slug": "qa-test"
+        },
+        {
+          "pillar": "Choosing Talent & Team Assessment Tools",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/talent-assessment-tools-available-in-dutch",
+          "probe_slug": "talent-assessment-tools"
+        },
+        {
+          "pillar": "Types of Pre-Employment & Pre-Hire Tests",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/pre-employment-tests-for-hiring-success",
+          "probe_slug": "pre-employment-tests"
+        },
+        {
+          "pillar": "When & Why to Use Pre-Hiring Assessments",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/pre-hiring-assessments-an-accurate-predictor-of-career-progression",
+          "probe_slug": "pre-hiring-assessments"
+        },
+        {
+          "pillar": "Designing & Creating Effective Hiring Assessments",
+          "n": 5,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/skills-assessment-and-interviewing-platform",
+          "probe_slug": "skills-assessment"
+        },
+        {
+          "pillar": "Marketing & Analytics Skills Assessments",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/marketing-test-in-your-hiring-process",
+          "probe_slug": "marketing-test"
+        },
+        {
+          "pillar": "Evaluating Design & UX Skills",
+          "n": 5,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "ui-design-test"
+        },
+        {
+          "pillar": "Assessing Employee Soft Skills & Traits",
+          "n": 5,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/soft-skills",
+          "probe_slug": "soft-skills"
+        },
+        {
+          "pillar": "AI in Candidate Assessment & Evaluation",
+          "n": 5,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library",
+          "probe_slug": "ai-assessments"
+        },
+        {
+          "pillar": "Attention to Detail Tests in Hiring",
+          "n": 4,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/attention-to-detail-test-in-hiring-decisions",
+          "probe_slug": "attention-to-detail-test"
+        },
+        {
+          "pillar": "NLP & Specialized Technical Role Tests",
+          "n": 4,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "nlp-test"
+        },
+        {
+          "pillar": "Evaluating Finance & Risk Skills",
+          "n": 4,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "financial-analysis-skills"
+        },
+        {
+          "pillar": "Assessing Candidate Cultural Fit",
+          "n": 4,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/culture-fit",
+          "probe_slug": "culture-fit"
+        },
+        {
+          "pillar": "English & Language Proficiency Testing",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/english-proficiency-test-helps-screen-candidates",
+          "probe_slug": "english-proficiency-test"
+        },
+        {
+          "pillar": "Integrity, Reliability & Character Tests",
+          "n": 3,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/integrity-testing",
+          "probe_slug": "integrity-test"
+        },
+        {
+          "pillar": "Marketing & Ads Skills Tests",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/marketing-test-in-your-hiring-process",
+          "probe_slug": "marketing-test"
+        },
+        {
+          "pillar": "Candidate Experience in Assessments",
+          "n": 3,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/candidate-experience",
+          "probe_slug": "candidate-experience"
+        },
+        {
+          "pillar": "Assessment Reports & Metrics",
+          "n": 3,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "assessment-reports"
+        },
+        {
+          "pillar": "Assessment Validity Types",
+          "n": 3,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "assessment-validity"
+        },
+        {
+          "pillar": "Data-Driven Hiring with Assessment Analytics",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/data-driven-hiring-leveraging-analytics-in-employment-testing",
+          "probe_slug": "data-driven-hiring"
+        },
+        {
+          "pillar": "Accounting & Finance Skills Assessments",
+          "n": 3,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "accounting-test"
+        },
+        {
+          "pillar": "Skills-Based Hiring",
+          "n": 3,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/knowledge-base/skills-based-hiring-future-ready-workforce",
+          "probe_slug": "skills-based-hiring"
+        }
+      ],
+      "built": 35,
+      "article": 22,
+      "partial": 6,
+      "missing": 14
+    },
+    "Personality & Aptitude Testing": {
+      "pillars": [
+        {
+          "pillar": "Using Personality Tests in Hiring: Value & Debate",
+          "n": 15,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/personality-tests-for-hiring-are-a-must-have",
+          "probe_slug": "personality-tests"
+        },
+        {
+          "pillar": "Aptitude Tests: Types, Benefits & Recruitment Strategy",
+          "n": 15,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/aptitude-test",
+          "probe_slug": "aptitude-test"
+        },
+        {
+          "pillar": "DISC Personality Test for Hiring",
+          "n": 14,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/disc-testlify-personality-assessment",
+          "probe_slug": "disc-test"
+        },
+        {
+          "pillar": "Assessing Character & Behavioral Traits in Recruitment",
+          "n": 13,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/behavioral-assessments-impact-hiring-decisions",
+          "probe_slug": "behavioral-assessment"
+        },
+        {
+          "pillar": "Emotional Intelligence Tests for Hiring",
+          "n": 12,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/emotional-intelligence-test-for-hiring-is-a-must-have",
+          "probe_slug": "emotional-intelligence-test"
+        },
+        {
+          "pillar": "Big Five Personality Test in Recruitment",
+          "n": 10,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/personality-tests-for-hiring-are-a-must-have",
+          "probe_slug": "personality-tests"
+        },
+        {
+          "pillar": "Psychometric Tests in Recruitment",
+          "n": 10,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/psychometric-tests",
+          "probe_slug": "psychometric-tests"
+        },
+        {
+          "pillar": "Using Cognitive Ability Tests in Recruitment",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/cognitive-ability-tests",
+          "probe_slug": "cognitive-ability-tests"
+        },
+        {
+          "pillar": "Assessing Cognitive & Analytical Skills in Recruitment",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/cognitive-ability-tests",
+          "probe_slug": "cognitive-ability-tests"
+        },
+        {
+          "pillar": "Personality Tests for Culture Fit, Retention & Development",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/personality-tests-for-hiring-are-a-must-have",
+          "probe_slug": "personality-tests"
+        },
+        {
+          "pillar": "Personality & Motivational Fit Assessments",
+          "n": 7,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/personality-tests-for-hiring-are-a-must-have",
+          "probe_slug": "personality-tests"
+        },
+        {
+          "pillar": "Personality Test Types: DISC, Big Five, Enneagram & Visual",
+          "n": 7,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/personality-tests-for-hiring-are-a-must-have",
+          "probe_slug": "personality-tests"
+        },
+        {
+          "pillar": "Cognitive Reasoning Assessments: Predicting & Developing Top Performers",
+          "n": 7,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "cognitive-reasoning-test"
+        },
+        {
+          "pillar": "Hiring with Cognitive & Aptitude Tests",
+          "n": 7,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/cognitive-ability-tests",
+          "probe_slug": "cognitive-ability-tests"
+        },
+        {
+          "pillar": "Reasoning & Cognitive Skill Tests by Type",
+          "n": 6,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "reasoning-tests"
+        },
+        {
+          "pillar": "Cognitive & Aptitude Skills Assessments",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/aptitude-tests",
+          "probe_slug": "aptitude-tests"
+        },
+        {
+          "pillar": "Hiring with Personality & Behavioral Assessments",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/personality-tests-for-hiring-are-a-must-have",
+          "probe_slug": "personality-tests"
+        },
+        {
+          "pillar": "Hiring with Aptitude & Cognitive Ability Tests",
+          "n": 5,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/cognitive-ability-tests",
+          "probe_slug": "cognitive-ability-tests"
+        }
+      ],
+      "built": 7,
+      "article": 9,
+      "partial": 0,
+      "missing": 2
+    },
+    "Candidate Screening & Proctoring": {
+      "pillars": [
+        {
+          "pillar": "Screening Candidates with Programming & Technical Tests",
+          "n": 14,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/coding-tests",
+          "probe_slug": "coding-tests"
+        },
+        {
+          "pillar": "Screening for Management, Sales & Business Roles",
+          "n": 13,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "management-tests"
+        },
+        {
+          "pillar": "Screening Skilled Trades & Engineering Candidates",
+          "n": 12,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "engineering-tests"
+        },
+        {
+          "pillar": "Online Proctoring Basics & Setup",
+          "n": 11,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/online-proctoring",
+          "probe_slug": "online-proctoring"
+        },
+        {
+          "pillar": "Candidate Screening Fundamentals & Best Practices",
+          "n": 11,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/candidate-screening",
+          "probe_slug": "candidate-screening"
+        },
+        {
+          "pillar": "Hiring Bias & Bias-Free Screening",
+          "n": 11,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/unconscious-bias",
+          "probe_slug": "unconscious-bias"
+        },
+        {
+          "pillar": "Fair & Bias-Free Hiring",
+          "n": 10,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/blind-hiring",
+          "probe_slug": "blind-hiring"
+        },
+        {
+          "pillar": "Screening with Personality & Behavioral Assessments",
+          "n": 10,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/personality-tests-for-hiring-are-a-must-have",
+          "probe_slug": "personality-tests"
+        },
+        {
+          "pillar": "Video & Audio Interviews",
+          "n": 10,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/video-interviews",
+          "probe_slug": "video-interviews"
+        },
+        {
+          "pillar": "Screening with Cognitive & Aptitude Tests",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/cognitive-ability-tests",
+          "probe_slug": "cognitive-ability-tests"
+        },
+        {
+          "pillar": "AI Interviews for Hiring",
+          "n": 9,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/ai-interviews-for-candidate-screening",
+          "probe_slug": "ai-interviews"
+        },
+        {
+          "pillar": "Preventing Cheating in Online Tests",
+          "n": 8,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/anti-cheating-and-proctoring",
+          "probe_slug": "anti-cheating"
+        },
+        {
+          "pillar": "Resume Screening Techniques",
+          "n": 7,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/resume-screening-every-recruiter-should-know",
+          "probe_slug": "resume-screening"
+        },
+        {
+          "pillar": "Designing Effective Technical Interview Questions",
+          "n": 7,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/technical-interview-questions-to-assess-problem-solving-skills",
+          "probe_slug": "technical-interview-questions"
+        },
+        {
+          "pillar": "AI Proctoring for Online Exams",
+          "n": 7,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/ai-proctoring-compliance",
+          "probe_slug": "ai-proctoring"
+        },
+        {
+          "pillar": "Online Test Integrity & Plagiarism Detection",
+          "n": 7,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "test-integrity"
+        },
+        {
+          "pillar": "Candidate Screening Software & Tools",
+          "n": 7,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/candidate-screening-software",
+          "probe_slug": "candidate-screening-software"
+        },
+        {
+          "pillar": "How to Conduct Effective & Structured Interviews",
+          "n": 7,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/structured-interview",
+          "probe_slug": "structured-interview"
+        },
+        {
+          "pillar": "Candidate Screening & Search",
+          "n": 7,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/candidate-screening",
+          "probe_slug": "candidate-screening"
+        },
+        {
+          "pillar": "Background & Reference Checks in Hiring",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/background-checks",
+          "probe_slug": "background-checks"
+        },
+        {
+          "pillar": "Recruitment & Employment Fraud Prevention",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/recruitment-fraud-financial-and-brand-risk",
+          "probe_slug": "recruitment-fraud"
+        },
+        {
+          "pillar": "Screening with English & Communication Tests",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/english-proficiency-test-helps-screen-candidates",
+          "probe_slug": "english-proficiency-test"
+        },
+        {
+          "pillar": "Employee Monitoring & Performance Tracking",
+          "n": 6,
+          "status": "partial",
+          "kind": "tools",
+          "hub_url": "https://testlify.com/hr-tools/employee-monitoring",
+          "probe_slug": "employee-monitoring"
+        },
+        {
+          "pillar": "Resume Screening, Parsing & Verification",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/resume-verification-process",
+          "probe_slug": "resume-verification"
+        },
+        {
+          "pillar": "Technical Screening & Online Exam Proctoring",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/technical-screening",
+          "probe_slug": "technical-screening"
+        },
+        {
+          "pillar": "Using Technical Interview Questions to Screen Candidates",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/technical-interview-questions-to-assess-problem-solving-skills",
+          "probe_slug": "technical-interview-questions"
+        },
+        {
+          "pillar": "Screening QA & Tool-Specific Test Candidates",
+          "n": 5,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/qa-test-automation",
+          "probe_slug": "qa-test"
+        },
+        {
+          "pillar": "Remote Interviews & Candidate Communication",
+          "n": 5,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "remote-interviews"
+        },
+        {
+          "pillar": "Remote Hiring & Virtual Assessments",
+          "n": 4,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/remote-hiring",
+          "probe_slug": "remote-hiring"
+        },
+        {
+          "pillar": "Interviewing Platforms & Tools",
+          "n": 4,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "interviewing-platforms"
+        },
+        {
+          "pillar": "Interview Process Metrics & Efficiency",
+          "n": 4,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-to-hire-ratio",
+          "probe_slug": "interview-to-hire-ratio"
+        },
+        {
+          "pillar": "Employee Selection, Vetting & Evaluation",
+          "n": 4,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/employee-selection-methods",
+          "probe_slug": "employee-selection"
+        },
+        {
+          "pillar": "Proctoring for Technical & Coding Assessments",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/live-proctoring",
+          "probe_slug": "live-proctoring"
+        },
+        {
+          "pillar": "Interview Integrity & Red Flags",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-red-flags-candidates",
+          "probe_slug": "interview-red-flags"
+        },
+        {
+          "pillar": "Candidate Screening & Credential Verification",
+          "n": 3,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "credential-verification"
+        },
+        {
+          "pillar": "Resume Screening & Candidate Evaluation",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/resume-screening-every-recruiter-should-know",
+          "probe_slug": "resume-screening"
+        }
+      ],
+      "built": 5,
+      "article": 22,
+      "partial": 3,
+      "missing": 6
+    },
+    "Recruiting & Talent Acquisition": {
+      "pillars": [
+        {
+          "pillar": "AI in Recruitment",
+          "n": 15,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/ai-in-recruitment",
+          "probe_slug": "ai-in-recruitment"
+        },
+        {
+          "pillar": "Talent Planning & Talent Lifecycle",
+          "n": 15,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/talent-planning-essentials-for-modern-businesses",
+          "probe_slug": "talent-planning"
+        },
+        {
+          "pillar": "Attracting & Retaining Top Talent",
+          "n": 15,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "attracting-top-talent"
+        },
+        {
+          "pillar": "Talent Acquisition Strategy & Best Practices",
+          "n": 14,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/talent-acquisition",
+          "probe_slug": "talent-acquisition"
+        },
+        {
+          "pillar": "Staffing Services & the Staffing Process",
+          "n": 14,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/staffing",
+          "probe_slug": "staffing"
+        },
+        {
+          "pillar": "Talent Acquisition Strategy",
+          "n": 13,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/talent-acquisition",
+          "probe_slug": "talent-acquisition"
+        },
+        {
+          "pillar": "Candidate Sourcing Strategy & Process",
+          "n": 13,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/talent-sourcing-strategies",
+          "probe_slug": "talent-sourcing"
+        },
+        {
+          "pillar": "Modern & Emerging Recruitment Trends",
+          "n": 13,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/recruitment-trends-in-customer-service-manager-hiring",
+          "probe_slug": "recruitment-trends"
+        },
+        {
+          "pillar": "Recruiting Tools & Software Selection",
+          "n": 13,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/recruitment-methods",
+          "probe_slug": "recruitment-methods"
+        },
+        {
+          "pillar": "Creating a Positive Candidate Experience",
+          "n": 13,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/candidate-experience",
+          "probe_slug": "candidate-experience"
+        },
+        {
+          "pillar": "Recruitment Metrics, KPIs & ROI",
+          "n": 13,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/recruitment-metrics-for-assessing-candidate",
+          "probe_slug": "recruitment-metrics"
+        },
+        {
+          "pillar": "AI & Data-Driven Hiring",
+          "n": 13,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/data-driven-hiring-leveraging-analytics-in-employment-testing",
+          "probe_slug": "data-driven-hiring"
+        },
+        {
+          "pillar": "Designing & Managing the Hiring Process",
+          "n": 12,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hiring-process-checklist",
+          "probe_slug": "hiring-process"
+        },
+        {
+          "pillar": "Building High-Performing Teams by Function",
+          "n": 12,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/team-building",
+          "probe_slug": "team-building"
+        },
+        {
+          "pillar": "High-Volume & Enterprise Hiring at Scale",
+          "n": 12,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/volume-hiring",
+          "probe_slug": "volume-hiring"
+        },
+        {
+          "pillar": "Building a Hiring Plan & Process",
+          "n": 11,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hiring-process-checklist",
+          "probe_slug": "hiring-process"
+        },
+        {
+          "pillar": "Building & Managing a Talent Pool",
+          "n": 11,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/talent-pooling",
+          "probe_slug": "talent-pool"
+        },
+        {
+          "pillar": "Building a Strong Employer Brand",
+          "n": 11,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/employer-brand",
+          "probe_slug": "employer-brand"
+        },
+        {
+          "pillar": "Workforce Planning Fundamentals & Strategy",
+          "n": 11,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/workforce-planning",
+          "probe_slug": "workforce-planning"
+        },
+        {
+          "pillar": "Recruitment Technology & Automation Tools",
+          "n": 10,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/recruitment-technology",
+          "probe_slug": "recruitment-technology"
+        },
+        {
+          "pillar": "Recruitment Technology Tools & Trends",
+          "n": 10,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/recruitment-technology",
+          "probe_slug": "recruitment-technology"
+        },
+        {
+          "pillar": "Global, Seasonal & Freelance Hiring",
+          "n": 10,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/freelance-hiring",
+          "probe_slug": "freelance-hiring"
+        },
+        {
+          "pillar": "ATS & Recruitment Tech Integration",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/integrations",
+          "probe_slug": "ats-integration"
+        },
+        {
+          "pillar": "High-Volume, Blue-Collar & Mass Recruiting",
+          "n": 9,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "blue-collar-recruiting"
+        },
+        {
+          "pillar": "Sources of Recruitment",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/sources-of-recruitment-checklist",
+          "probe_slug": "sources-of-recruitment"
+        },
+        {
+          "pillar": "Recruitment Planning & Strategy Fundamentals",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/recruitment-planning",
+          "probe_slug": "recruitment-planning"
+        },
+        {
+          "pillar": "Diversity & Inclusive Recruitment",
+          "n": 8,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "diversity-hiring"
+        },
+        {
+          "pillar": "Social Media & Digital Recruiting Strategies",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/social-media-recruiting",
+          "probe_slug": "social-media-recruiting"
+        },
+        {
+          "pillar": "Dealing with a Bad Hire: Signs, Cost & Recovery",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/cost-of-a-bad-hire",
+          "probe_slug": "cost-of-a-bad-hire"
+        },
+        {
+          "pillar": "Optimizing the Hiring Funnel & Time-to-Hire",
+          "n": 8,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/knowledge-base/hiring-funnel-leaking-talent",
+          "probe_slug": "hiring-funnel"
+        },
+        {
+          "pillar": "Job Profiles & Job Requisitions",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/job-profile-components",
+          "probe_slug": "job-profile"
+        },
+        {
+          "pillar": "Campus & University Recruiting",
+          "n": 7,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/campus-hiring",
+          "probe_slug": "campus-hiring"
+        },
+        {
+          "pillar": "Recruiting Efficiency & Cost Reduction",
+          "n": 7,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/cost-per-hire-calculator",
+          "probe_slug": "cost-per-hire"
+        },
+        {
+          "pillar": "How Top Companies Hire",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hiring-process-checklist",
+          "probe_slug": "hiring-process"
+        },
+        {
+          "pillar": "AI Recruitment Tools & Platforms",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/ai-recruitment-platforms",
+          "probe_slug": "ai-recruitment-platforms"
+        },
+        {
+          "pillar": "Reducing Time-to-Hire & Slow Hiring Costs",
+          "n": 6,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/time-to-hire",
+          "probe_slug": "time-to-hire"
+        },
+        {
+          "pillar": "Recruitment Agencies & Process Outsourcing",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/recruitment-process-outsourcing",
+          "probe_slug": "recruitment-process-outsourcing"
+        },
+        {
+          "pillar": "Lateral Hiring Strategy",
+          "n": 6,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/lateral-hiring",
+          "probe_slug": "lateral-hiring"
+        },
+        {
+          "pillar": "Candidate Experience: Drop-off, Ghosting & Feedback",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/candidate-ghosting",
+          "probe_slug": "candidate-ghosting"
+        },
+        {
+          "pillar": "Finding & Attracting Qualified Candidates",
+          "n": 5,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "find-qualified-candidates"
+        },
+        {
+          "pillar": "Candidate Sourcing Tools & Technology",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/sourcing-tools-recruiters-use-to-find-candidates",
+          "probe_slug": "sourcing-tools"
+        },
+        {
+          "pillar": "Sourcing Passive Candidates & Talent Pipelines",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/passive-candidates",
+          "probe_slug": "passive-candidates"
+        },
+        {
+          "pillar": "Streamlining & Improving the Hiring Process",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hiring-process-checklist",
+          "probe_slug": "hiring-process"
+        },
+        {
+          "pillar": "Recruitment Strategy for Strong Teams",
+          "n": 5,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/team-building",
+          "probe_slug": "team-building"
+        },
+        {
+          "pillar": "Building a Recruitment Tech Stack",
+          "n": 5,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "recruitment-tech-stack"
+        },
+        {
+          "pillar": "General Talent Acquisition & Hiring Strategy",
+          "n": 5,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/talent-acquisition",
+          "probe_slug": "talent-acquisition"
+        },
+        {
+          "pillar": "Modern & Remote Recruitment Approaches",
+          "n": 5,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/remote-hiring",
+          "probe_slug": "remote-hiring"
+        },
+        {
+          "pillar": "Job Boards & Job Search Tools",
+          "n": 4,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "job-boards"
+        },
+        {
+          "pillar": "Sourcing for Specific Segments (Startups, SMBs, Remote, Hard-to-Fill)",
+          "n": 4,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "candidate-sourcing"
+        },
+        {
+          "pillar": "Global & Cross-Border Talent Acquisition",
+          "n": 4,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/global-hiring-challenges-and-solutions",
+          "probe_slug": "global-hiring"
+        },
+        {
+          "pillar": "Global Recruitment",
+          "n": 4,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/global-recruitment",
+          "probe_slug": "global-recruitment"
+        },
+        {
+          "pillar": "Recruiter Community, Networking & Career",
+          "n": 4,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hr-communities-recruiters-should-join",
+          "probe_slug": "hr-communities"
+        },
+        {
+          "pillar": "Reverse Recruiting",
+          "n": 4,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/reverse-recruiting",
+          "probe_slug": "reverse-recruiting"
+        },
+        {
+          "pillar": "Building Teams & Global Hiring with Assessments",
+          "n": 3,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "team-building-assessments"
+        },
+        {
+          "pillar": "Writing Job Descriptions & Job Adverts",
+          "n": 3,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/job-description-templates",
+          "probe_slug": "job-description"
+        },
+        {
+          "pillar": "Recruiter Skills & Identifying Top Talent",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/identifying-top-talent-with-writing-assessments",
+          "probe_slug": "identifying-top-talent"
+        },
+        {
+          "pillar": "Industry-Specific Hiring Landscapes",
+          "n": 3,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "industry-hiring"
+        },
+        {
+          "pillar": "Employee Referral Programs",
+          "n": 3,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/referral-program",
+          "probe_slug": "referral-program"
+        },
+        {
+          "pillar": "Salary Negotiation & Pay Offers",
+          "n": 3,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "salary-negotiation"
+        },
+        {
+          "pillar": "Recruitment & Onboarding Email Templates",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/email-templates-for-referrals-internal-hiring",
+          "probe_slug": "email-templates"
+        }
+      ],
+      "built": 10,
+      "article": 29,
+      "partial": 11,
+      "missing": 10
+    },
+    "Hiring by Role & Use-case": {
+      "pillars": [
+        {
+          "pillar": "Hiring Engineering & Software Talent by Role",
+          "n": 15,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "software-engineer-hiring"
+        },
+        {
+          "pillar": "Pre-Hire Assessments by Industry (A\u2013H)",
+          "n": 14,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/pre-hire-assessments-for-automotive-industry",
+          "probe_slug": "pre-hire-assessments"
+        },
+        {
+          "pillar": "Screening Mobile, Data & Emerging-Tech Developers",
+          "n": 14,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "developer-screening"
+        },
+        {
+          "pillar": "Hiring for Specific Roles & Industries",
+          "n": 13,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "hiring-by-role"
+        },
+        {
+          "pillar": "Screening Software Developers by Language & Stack",
+          "n": 13,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/coding-tests",
+          "probe_slug": "coding-tests"
+        },
+        {
+          "pillar": "Hiring Sales, Marketing & Business Roles",
+          "n": 13,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/sales-hiring",
+          "probe_slug": "sales-hiring"
+        },
+        {
+          "pillar": "Recruitment Trends in Tech & IT Role Hiring",
+          "n": 12,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/recruitment-trends-in-customer-service-manager-hiring",
+          "probe_slug": "recruitment-trends"
+        },
+        {
+          "pillar": "Recruitment Trends in Business, Marketing & HR Role Hiring",
+          "n": 12,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/recruitment-trends-in-customer-service-manager-hiring",
+          "probe_slug": "recruitment-trends"
+        },
+        {
+          "pillar": "How to Hire Developers & Tech Roles",
+          "n": 12,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/developer-hiring",
+          "probe_slug": "developer-hiring"
+        },
+        {
+          "pillar": "Pre-Hire Assessments by Industry (H\u2013T)",
+          "n": 11,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/pre-hire-assessments-for-automotive-industry",
+          "probe_slug": "pre-hire-assessments"
+        },
+        {
+          "pillar": "Hiring Skilled Trades & Construction Workers",
+          "n": 11,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "skilled-trades-hiring"
+        },
+        {
+          "pillar": "How to Hire Remote Employees",
+          "n": 10,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/remote-hiring",
+          "probe_slug": "remote-hiring"
+        },
+        {
+          "pillar": "Hiring Without Traditional Interviews & Trials",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/knowledge-base/skills-based-hiring-future-ready-workforce",
+          "probe_slug": "skills-based-hiring"
+        },
+        {
+          "pillar": "How to Hire Construction & Building Trades",
+          "n": 9,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "construction-hiring"
+        },
+        {
+          "pillar": "Hiring & Assessing Specialized Roles",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/skills-assessment-and-interviewing-platform",
+          "probe_slug": "skills-assessment"
+        },
+        {
+          "pillar": "HR in Higher Education",
+          "n": 8,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "hr-in-higher-education"
+        },
+        {
+          "pillar": "Hiring Mechanics & Repair Technicians",
+          "n": 8,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "hire-mechanics"
+        },
+        {
+          "pillar": "Hiring Manufacturing & Machine Operators",
+          "n": 8,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "manufacturing-hiring"
+        },
+        {
+          "pillar": "Hiring Warehouse & Logistics Workers",
+          "n": 8,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "warehouse-hiring"
+        },
+        {
+          "pillar": "Hiring Outdoor, Agriculture & Resource Workers",
+          "n": 8,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "agriculture-hiring"
+        },
+        {
+          "pillar": "Hiring Facilities & Cleaning Staff",
+          "n": 7,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "facilities-hiring"
+        },
+        {
+          "pillar": "Hiring Hospitality, Retail & Restaurant Staff",
+          "n": 7,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "retail-hiring"
+        },
+        {
+          "pillar": "Pre-Hire Assessments by Role & Hiring Scenario",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/pre-hire-assessments-for-automotive-industry",
+          "probe_slug": "pre-hire-assessments"
+        },
+        {
+          "pillar": "How to Hire Service & Support Workers",
+          "n": 6,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "hire-customer-service"
+        },
+        {
+          "pillar": "Recruiting for Specific Roles & Industries",
+          "n": 6,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "recruiting-by-industry"
+        },
+        {
+          "pillar": "Hiring Software Developers",
+          "n": 6,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/developer-hiring",
+          "probe_slug": "developer-hiring"
+        },
+        {
+          "pillar": "Hiring HR, Management & Business Professionals",
+          "n": 6,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "business-hiring"
+        },
+        {
+          "pillar": "Executive & Leadership Hiring",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/executive-hiring-playbook",
+          "probe_slug": "executive-hiring"
+        },
+        {
+          "pillar": "How to Hire Marketing & Content Roles",
+          "n": 4,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "marketing-hiring"
+        },
+        {
+          "pillar": "How to Hire Food Service & Hospitality Staff",
+          "n": 3,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "hospitality-hiring"
+        },
+        {
+          "pillar": "Hiring Data & Analytics Talent by Role",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hire-data-scientists-without-coding-tests",
+          "probe_slug": "hire-data-scientists"
+        }
+      ],
+      "built": 7,
+      "article": 7,
+      "partial": 0,
+      "missing": 17
+    },
+    "Employee Experience & Development": {
+      "pillars": [
+        {
+          "pillar": "Employee Engagement Strategies & Programs",
+          "n": 15,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/employee-engagement-strategies-for-different-generations",
+          "probe_slug": "employee-engagement-strategies"
+        },
+        {
+          "pillar": "Succession Planning",
+          "n": 15,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/succession-planning",
+          "probe_slug": "succession-planning"
+        },
+        {
+          "pillar": "New Hire Orientation & Onboarding",
+          "n": 13,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/new-hire-orientations-for-remote-teams",
+          "probe_slug": "new-hire-orientation"
+        },
+        {
+          "pillar": "Employee Training & Development Programs",
+          "n": 12,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/employee-development-skills",
+          "probe_slug": "employee-development"
+        },
+        {
+          "pillar": "Thriving Workplaces, Motivation & Productivity",
+          "n": 10,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "employee-motivation"
+        },
+        {
+          "pillar": "Employee Onboarding Process Guides & Best Practices",
+          "n": 10,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/employee-onboarding",
+          "probe_slug": "employee-onboarding"
+        },
+        {
+          "pillar": "Organizational Development",
+          "n": 10,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/organizational-development",
+          "probe_slug": "organizational-development"
+        },
+        {
+          "pillar": "Leadership Styles & Executive Leadership",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/leadership",
+          "probe_slug": "leadership"
+        },
+        {
+          "pillar": "HR & Employee Communication",
+          "n": 9,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hr-communication-email-templates-for-hiring-managers",
+          "probe_slug": "hr-communication"
+        },
+        {
+          "pillar": "Leadership Development Programs & Plans",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/leadership-development-programs-for-hr-professionals",
+          "probe_slug": "leadership-development-programs"
+        },
+        {
+          "pillar": "Employee Retention Strategies",
+          "n": 8,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/employee-retention",
+          "probe_slug": "employee-retention"
+        },
+        {
+          "pillar": "Employee Experience Management",
+          "n": 8,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/employee-experience",
+          "probe_slug": "employee-experience"
+        },
+        {
+          "pillar": "Talent Development & Growth",
+          "n": 7,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/employee-development-skills",
+          "probe_slug": "employee-development"
+        },
+        {
+          "pillar": "Improving Job Satisfaction",
+          "n": 7,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/employee-satisfaction",
+          "probe_slug": "employee-satisfaction"
+        },
+        {
+          "pillar": "Career Development & Internal Mobility",
+          "n": 6,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/internal-mobility",
+          "probe_slug": "internal-mobility"
+        },
+        {
+          "pillar": "Employee Well-being, Morale & Mental Health",
+          "n": 6,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/employee-well-being-initiative",
+          "probe_slug": "employee-well-being"
+        },
+        {
+          "pillar": "Learning Management Systems (LMS)",
+          "n": 5,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/learning-management-system-lms",
+          "probe_slug": "learning-management-system"
+        },
+        {
+          "pillar": "Building a Continuous Learning Culture",
+          "n": 5,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "continuous-learning"
+        },
+        {
+          "pillar": "Onboarding & Pre-boarding",
+          "n": 4,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/onboarding",
+          "probe_slug": "onboarding"
+        },
+        {
+          "pillar": "Performance Management & Reviews",
+          "n": 4,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/performance-management",
+          "probe_slug": "performance-management"
+        },
+        {
+          "pillar": "Work-Life Balance & Workplace Wellness",
+          "n": 4,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/work-life-balance",
+          "probe_slug": "work-life-balance"
+        },
+        {
+          "pillar": "Upskilling & Reskilling the Workforce",
+          "n": 4,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/upskilling-and-reskilling",
+          "probe_slug": "upskilling-and-reskilling"
+        },
+        {
+          "pillar": "Exit Interview Questions & Best Practices",
+          "n": 3,
+          "status": "built",
+          "kind": "post",
+          "hub_url": "https://testlify.com/interview-questions-bank",
+          "probe_slug": "interview-questions"
+        },
+        {
+          "pillar": "Employee Engagement & Recognition Tools",
+          "n": 3,
+          "status": "partial",
+          "kind": "tools",
+          "hub_url": "https://testlify.com/hr-tools/employee-recognition",
+          "probe_slug": "employee-recognition"
+        },
+        {
+          "pillar": "Onboarding Templates, Checklists & Welcome Ideas",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/onboarding-checklist",
+          "probe_slug": "onboarding-checklist"
+        },
+        {
+          "pillar": "Onboarding Blue-Collar, External & Contingent Workers",
+          "n": 3,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/employee-onboarding",
+          "probe_slug": "employee-onboarding"
+        },
+        {
+          "pillar": "HR Skills & People Management",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hr-skills",
+          "probe_slug": "hr-skills"
+        }
+      ],
+      "built": 6,
+      "article": 8,
+      "partial": 11,
+      "missing": 2
+    },
+    "HR Operations & Compliance": {
+      "pillars": [
+        {
+          "pillar": "Strategic Human Resource Planning",
+          "n": 15,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/strategic-human-resource-planning-for-future-of-work",
+          "probe_slug": "strategic-human-resource-planning"
+        },
+        {
+          "pillar": "HR Tech Tools, Core Systems & Digital Transformation",
+          "n": 12,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hr-digital-transformation",
+          "probe_slug": "hr-digital-transformation"
+        },
+        {
+          "pillar": "HR Compliance, Benefits & Policies",
+          "n": 11,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/hr-compliance",
+          "probe_slug": "hr-compliance"
+        },
+        {
+          "pillar": "State Employment & Labor Laws (Eastern & Southern US)",
+          "n": 11,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "employment-and-labor-laws"
+        },
+        {
+          "pillar": "HR Compliance Policies, Audits & Legal Checklists",
+          "n": 11,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/hr-compliance",
+          "probe_slug": "hr-compliance"
+        },
+        {
+          "pillar": "Compensation & Benefits: Designing & Managing Programs",
+          "n": 11,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/compensation-and-benefits-for-the-future-of-work",
+          "probe_slug": "compensation-and-benefits"
+        },
+        {
+          "pillar": "HR Metrics & People Analytics",
+          "n": 10,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/people-analytics",
+          "probe_slug": "people-analytics"
+        },
+        {
+          "pillar": "HR Technology & AI for HR Teams",
+          "n": 10,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/ai-in-hr-communication-engagement",
+          "probe_slug": "ai-in-hr"
+        },
+        {
+          "pillar": "State Employment & Labor Laws (Central & Western US)",
+          "n": 10,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "employment-and-labor-laws"
+        },
+        {
+          "pillar": "HR Strategy, Policies & Business Alignment",
+          "n": 10,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/hr-policies",
+          "probe_slug": "hr-policies"
+        },
+        {
+          "pillar": "Fair, Compliant & Bias-Free Pre-Hiring Assessments",
+          "n": 9,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "bias-free-assessments"
+        },
+        {
+          "pillar": "HR Technology, HRMS & Automation",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/hrms",
+          "probe_slug": "hrms"
+        },
+        {
+          "pillar": "HR Strategy, Goals & Planning",
+          "n": 9,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hr-goals-and-objectives",
+          "probe_slug": "hr-goals"
+        },
+        {
+          "pillar": "HR Software & Tools",
+          "n": 8,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/hr-tools",
+          "probe_slug": "hr-tools"
+        },
+        {
+          "pillar": "HR Functions & Core Processes",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hr-functions",
+          "probe_slug": "hr-functions"
+        },
+        {
+          "pillar": "Compensation & Benefits by Company Type & Modern Packages",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/compensation-and-benefits-for-the-future-of-work",
+          "probe_slug": "compensation-and-benefits"
+        },
+        {
+          "pillar": "Job Design & Work Structuring",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/job-design",
+          "probe_slug": "job-design"
+        },
+        {
+          "pillar": "Human Resource Management Fundamentals",
+          "n": 7,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/human-resource-management",
+          "probe_slug": "human-resource-management"
+        },
+        {
+          "pillar": "Recruitment Compliance & Legal Considerations",
+          "n": 6,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "recruitment-compliance"
+        },
+        {
+          "pillar": "Building an HR Toolkit",
+          "n": 6,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/hr-tools",
+          "probe_slug": "hr-tools"
+        },
+        {
+          "pillar": "Assessment Quality, Fairness & Best Practices",
+          "n": 5,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "assessment-quality"
+        },
+        {
+          "pillar": "HR Manager Operational Skills & Crisis Management",
+          "n": 5,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/crisis-management",
+          "probe_slug": "crisis-management"
+        },
+        {
+          "pillar": "Employee Handbooks & Workplace Policy",
+          "n": 5,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/employee-handbook",
+          "probe_slug": "employee-handbook"
+        },
+        {
+          "pillar": "Internal Communication for HR",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/internal-communications-coordinator-interview-questions-to-ask-job-applicants",
+          "probe_slug": "internal-communication"
+        },
+        {
+          "pillar": "Job Offer & Posting Templates",
+          "n": 4,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "job-posting-templates"
+        },
+        {
+          "pillar": "Attrition & Turnover Explained",
+          "n": 4,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/attrition-rate",
+          "probe_slug": "attrition-rate"
+        },
+        {
+          "pillar": "HR for Small Businesses & Startups",
+          "n": 4,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "hr-for-small-business"
+        },
+        {
+          "pillar": "Fair, Compliant & Bias-Free Hiring",
+          "n": 3,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "bias-free-hiring"
+        },
+        {
+          "pillar": "HR Metrics, KPIs & Reporting",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hr-kpis",
+          "probe_slug": "hr-kpis"
+        },
+        {
+          "pillar": "HR Communication & Difficult Conversations",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hr-communication-email-templates-for-hiring-managers",
+          "probe_slug": "hr-communication"
+        },
+        {
+          "pillar": "HR Solutions by Company Type",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hr-solutions-for-remote-work",
+          "probe_slug": "hr-solutions"
+        },
+        {
+          "pillar": "Payroll Management & HR Payroll Integration",
+          "n": 3,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/payroll",
+          "probe_slug": "payroll"
+        },
+        {
+          "pillar": "Starting an HR Business or Agency",
+          "n": 3,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "start-hr-business"
+        }
+      ],
+      "built": 4,
+      "article": 12,
+      "partial": 8,
+      "missing": 9
+    },
+    "Workplace Culture & Future of Work": {
+      "pillars": [
+        {
+          "pillar": "Workforce Planning & Management",
+          "n": 11,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/workforce-planning",
+          "probe_slug": "workforce-planning"
+        },
+        {
+          "pillar": "HR & Hiring Trends",
+          "n": 11,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/hr-trends-in-higher-education",
+          "probe_slug": "hr-trends"
+        },
+        {
+          "pillar": "Workplace Culture Strategy & Business Impact",
+          "n": 11,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/organizational-culture",
+          "probe_slug": "organizational-culture"
+        },
+        {
+          "pillar": "Workplace Diversity, Equity & Inclusion (DEI)",
+          "n": 10,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/diversity-and-inclusion-coordinator-interview-questions-to-ask-job-applicants",
+          "probe_slug": "diversity-and-inclusion"
+        },
+        {
+          "pillar": "Future of Work & Hybrid Workplace",
+          "n": 9,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/future-of-workplace-culture",
+          "probe_slug": "future-of-work"
+        },
+        {
+          "pillar": "Managing Remote & Distributed Teams",
+          "n": 9,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/remote-work-allowances-becoming-staple-benefits-packages",
+          "probe_slug": "remote-work"
+        },
+        {
+          "pillar": "HR Buzzwords & Modern Workforce Trends",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/hr-glossary",
+          "probe_slug": "hr-glossary"
+        },
+        {
+          "pillar": "Leadership & Organizational Development",
+          "n": 8,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/leadership",
+          "probe_slug": "leadership"
+        },
+        {
+          "pillar": "Team Structures, Autonomy & Global Teams",
+          "n": 8,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "team-structure"
+        },
+        {
+          "pillar": "Creating a Positive Workplace Culture",
+          "n": 8,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "positive-workplace-culture"
+        },
+        {
+          "pillar": "Workplace Communication & Conflict Resolution",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/conflict-resolution-skills-for-hr-manager",
+          "probe_slug": "conflict-resolution"
+        },
+        {
+          "pillar": "Culture Fit Assessments",
+          "n": 7,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/test-library/culture-fit",
+          "probe_slug": "culture-fit"
+        },
+        {
+          "pillar": "Remote & Distributed Workforce Management",
+          "n": 7,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/remote-work-allowances-becoming-staple-benefits-packages",
+          "probe_slug": "remote-work"
+        },
+        {
+          "pillar": "Work-Life Balance & Flexible Work Arrangements",
+          "n": 5,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/work-life-balance",
+          "probe_slug": "work-life-balance"
+        },
+        {
+          "pillar": "Emerging Tech & Tech Talent Trends",
+          "n": 4,
+          "status": "missing",
+          "kind": "dead",
+          "hub_url": null,
+          "probe_slug": "tech-talent-trends"
+        },
+        {
+          "pillar": "Quiet Quitting & Workplace Negativity",
+          "n": 3,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/quiet-quitting",
+          "probe_slug": "quiet-quitting"
+        }
+      ],
+      "built": 3,
+      "article": 7,
+      "partial": 3,
+      "missing": 3
+    },
+    "Skills Management": {
+      "pillars": [
+        {
+          "pillar": "Performance Management Systems & Fundamentals",
+          "n": 14,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/performance-management-system-in-remote-teams",
+          "probe_slug": "performance-management-system"
+        },
+        {
+          "pillar": "Talent Management Fundamentals & Strategy",
+          "n": 9,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/talent-management",
+          "probe_slug": "talent-management"
+        },
+        {
+          "pillar": "Competency & Skills Frameworks, Taxonomies and Inventories",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/competency-framework",
+          "probe_slug": "competency-framework"
+        },
+        {
+          "pillar": "Skills Taxonomy & Skills Intelligence",
+          "n": 8,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/skills-taxonomy",
+          "probe_slug": "skills-taxonomy"
+        },
+        {
+          "pillar": "Essential Workplace Skills & Competencies",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/essential-skills-every-hr-professional-needs-to-succeed",
+          "probe_slug": "essential-skills"
+        },
+        {
+          "pillar": "Skills Gap Analysis",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/skills-gap-analysis-tools",
+          "probe_slug": "skills-gap-analysis"
+        },
+        {
+          "pillar": "Skills Mapping: Frameworks, Templates & Tools",
+          "n": 5,
+          "status": "article",
+          "kind": "post",
+          "hub_url": "https://testlify.com/skills-mapping",
+          "probe_slug": "skills-mapping"
+        },
+        {
+          "pillar": "Skills Gaps & Skills-Based Hiring",
+          "n": 3,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/knowledge-base/skills-based-hiring-future-ready-workforce",
+          "probe_slug": "skills-based-hiring"
+        },
+        {
+          "pillar": "Performance Management for Remote & Future Work",
+          "n": 3,
+          "status": "partial",
+          "kind": "glossary",
+          "hub_url": "https://testlify.com/hr-glossary/performance-management",
+          "probe_slug": "performance-management"
+        }
+      ],
+      "built": 1,
+      "article": 6,
+      "partial": 2,
+      "missing": 0
+    },
+    "Competitor Alternatives": {
+      "pillars": [
+        {
+          "pillar": "Skills & Talent Assessment Platform Alternatives",
+          "n": 15,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/alternatives",
+          "probe_slug": "alternatives"
+        },
+        {
+          "pillar": "Testlify vs Skills & Talent Assessment Platforms",
+          "n": 15,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/video-interviewing-tool",
+          "probe_slug": "compare"
+        },
+        {
+          "pillar": "Testlify vs ATS & Recruitment Platforms",
+          "n": 15,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/video-interviewing-tool",
+          "probe_slug": "compare"
+        },
+        {
+          "pillar": "Testlify vs AI Interview & Video Interviewing Tools",
+          "n": 13,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/video-interviewing-tool",
+          "probe_slug": "compare"
+        },
+        {
+          "pillar": "Testlify vs Psychometric & Personality Assessment Tools",
+          "n": 12,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/video-interviewing-tool",
+          "probe_slug": "compare"
+        },
+        {
+          "pillar": "Video Interview & AI Interviewing Tool Alternatives",
+          "n": 11,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/alternatives",
+          "probe_slug": "alternatives"
+        },
+        {
+          "pillar": "Psychometric & Personality Assessment Tool Alternatives",
+          "n": 10,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/alternatives",
+          "probe_slug": "alternatives"
+        },
+        {
+          "pillar": "Skills, Competencies & Job Definition Concepts Compared",
+          "n": 9,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/video-interviewing-tool",
+          "probe_slug": "compare"
+        },
+        {
+          "pillar": "Coding & Technical Assessment Tool Alternatives",
+          "n": 8,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/alternatives",
+          "probe_slug": "alternatives"
+        },
+        {
+          "pillar": "Testlify vs Coding Assessment Platforms",
+          "n": 8,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/video-interviewing-tool",
+          "probe_slug": "compare"
+        },
+        {
+          "pillar": "Recruitment Methods & Sourcing Strategies Compared",
+          "n": 8,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/video-interviewing-tool",
+          "probe_slug": "compare"
+        },
+        {
+          "pillar": "Testlify vs Competitor Assessment Comparisons",
+          "n": 6,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/video-interviewing-tool",
+          "probe_slug": "compare"
+        },
+        {
+          "pillar": "Interviewing, Bias & Assessment Approaches Compared",
+          "n": 6,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/video-interviewing-tool",
+          "probe_slug": "compare"
+        },
+        {
+          "pillar": "Testlify vs Competitor Alternatives",
+          "n": 4,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/alternatives",
+          "probe_slug": "alternatives"
+        },
+        {
+          "pillar": "ATS & Recruitment Platform Alternatives",
+          "n": 4,
+          "status": "built",
+          "kind": "page",
+          "hub_url": "https://testlify.com/alternatives",
+          "probe_slug": "alternatives"
+        }
+      ],
+      "built": 15,
+      "article": 0,
+      "partial": 0,
+      "missing": 0
+    }
+  },
+  "tally": {
+    "built": 110,
+    "article": 156,
+    "partial": 44,
+    "missing": 63
+  }
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Features — Content Machine Stage 0</title>
+<style>
+  :root{--ink:#1c1a17;--muted:#6b6459;--line:#efe7d8;--paper:#fff;--cream:#fffdf8;--wash:#fff8ec;--yellow:#ffb703;--yellow-soft:#ffe9ad;--orange:#fb7a00;--orange-soft:#ffd9b0;--green:#e8f5ec;--green-line:#cfe8d5;--green-ink:#2e7d43;--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);}
+  *{box-sizing:border-box;}html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;line-height:1.62;font-size:16px;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:960px;margin:0 auto;padding:0 28px;}
+  header{background:linear-gradient(180deg,var(--wash),var(--paper));border-bottom:1px solid var(--line);padding:56px 0 38px;}
+  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--paper);border:1px solid var(--orange-soft);padding:4px 11px;border-radius:100px;margin-bottom:16px;}
+  h1{font-size:clamp(26px,5vw,42px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%);padding:0 2px;}
+  .lede{font-size:18px;color:var(--muted);max-width:660px;margin:0;}
+  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;padding:9px 0;}
+  nav a{font-size:12.5px;font-weight:600;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:100px;}
+  nav a:hover{color:var(--ink);background:var(--wash);}
+  section{padding:48px 0;border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  section.alt{background:var(--cream);}
+  h2{font-size:24px;letter-spacing:-.01em;margin:0 0 4px;}
+  h2 .num{color:var(--orange);margin-right:9px;}
+  .sub{color:var(--muted);margin:0 0 22px;font-size:16px;max-width:680px;}
+  h3{font-size:16px;margin:22px 0 7px;}
+  p{margin:0 0 10px;}
+  ul{margin:5px 0 10px;padding-left:20px;}
+  li{margin:4px 0;font-size:15px;color:var(--muted);}
+  li b{color:var(--ink);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11.5px;background:#fff;border:1px solid var(--orange-soft);border-radius:5px;padding:2px 6px;color:var(--ink);}
+  .note{border-radius:11px;padding:13px 16px;margin:12px 0;font-size:14.5px;border:1px solid;}
+  .note.yellow{background:var(--cream);border-color:var(--line);border-left:4px solid var(--yellow);}
+  .note.orange{background:var(--wash);border-color:var(--orange-soft);border-left:4px solid var(--orange);}
+  .note strong{display:block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;}
+  .note.yellow strong,.note.orange strong{color:var(--orange);}
+  /* steps */
+  .flow{margin-top:10px;}
+  .step{display:flex;gap:15px;position:relative;padding:10px 0;}
+  .step:not(:last-child)::after{content:"";position:absolute;left:21px;top:48px;bottom:-10px;width:2px;background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-weight:800;font-size:15px;color:var(--ink);background:var(--yellow-soft);border:2px solid var(--yellow);box-shadow:var(--shadow);}
+  .step-body{padding-top:2px;}
+  .step-body h3{margin:0 0 3px;font-size:15.5px;}
+  .step-body p{margin:0 0 6px;color:var(--muted);font-size:14.5px;}
+  .step-body ul{margin:4px 0 0;padding-left:18px;}
+  .step-body li{font-size:14px;}
+  /* output file */
+  .outfile{border:1px solid var(--line);border-radius:11px;padding:12px 16px;background:var(--paper);box-shadow:var(--shadow);margin:12px 0;}
+  .outfile .f{margin-bottom:3px;}
+  .outfile p{margin:0;font-size:14px;color:var(--muted);}
+  /* category → section mapping table */
+  .map-table{width:100%;border-collapse:collapse;margin:14px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:14px;}
+  .map-table th{text-align:left;padding:9px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--cream);border-bottom:2px solid var(--line);}
+  .map-table td{padding:9px 13px;border-bottom:1px solid var(--line);vertical-align:top;}
+  .map-table tr:last-child td{border-bottom:none;}
+  .map-table .cat{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;font-weight:700;color:var(--orange);white-space:nowrap;}
+  .map-table .sec{font-weight:600;font-size:13.5px;color:var(--ink);}
+  /* example blocks */
+  .eg{border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);margin:14px 0;}
+  .eg .eg-head{background:var(--wash);padding:10px 16px;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);border-bottom:1px solid var(--orange-soft);}
+  .eg .eg-row{display:flex;gap:12px;padding:10px 16px;border-bottom:1px solid var(--line);font-size:14px;}
+  .eg .eg-row:last-child{border-bottom:none;}
+  .eg .eg-key{min-width:140px;font-weight:600;font-size:13px;color:var(--muted);flex:none;}
+  .eg .eg-val{color:var(--ink);}
+  .eg .eg-val i{color:var(--green-ink);}
+  footer{padding:32px 0 52px;color:var(--muted);font-size:13px;}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="kicker">Content Machine · Stage 0 — Brand Context</span>
+  <h1>Features — <span class="hl">the product facts every writer needs</span></h1>
+  <p class="lede">Reads every commercial page the company has, extracts the real facts into eight categories, then maps those categories into the sections of features.md. Writers reference this before mentioning the product in any content.</p>
+</div></header>
+
+<nav><div class="wrap">
+  <a href="#concept">Concept</a>
+  <a href="#output">Output</a>
+  <a href="#steps">Steps</a>
+  <a href="#mapping">Category → Section</a>
+  <a href="#example">Real example</a>
+</div></nav>
+
+<section id="concept">
+  <div class="wrap">
+    <h2><span class="num">01</span>The one rule</h2>
+    <p class="sub">Every fact in features.md comes from a real page. Nothing is invented.</p>
+    <ul>
+      <li>If a fact isn't on any page, it gets flagged for the client — not made up</li>
+      <li>The only thing that gets written (not extracted) is the Conversion Angle — a one-line pitch for each feature explaining why the reader should care. Even that must be grounded in a real page fact and must match the brand voice.</li>
+    </ul>
+    <div class="note yellow"><strong>Inputs</strong>
+    content-database.csv — all page URLs (to discover which are commercial) and their full stored body text (to extract facts from). Plus brand-voice.md so Conversion Angle wording sounds like the brand.</div>
+  </div>
+</section>
+
+<section id="output" class="alt">
+  <div class="wrap">
+    <h2><span class="num">02</span>What this produces</h2>
+    <div class="outfile">
+      <div class="f"><span class="file">projects/[company]/content-machine/brand-context/features.md</span></div>
+      <p>The complete product reference: value propositions, full feature set, integrations, competitive differentiators by named competitor, use cases by segment, pricing tiers, conversion messaging, and objection Q&As — all from real pages.</p>
+    </div>
+  </div>
+</section>
+
+<section id="steps">
+  <div class="wrap">
+    <h2><span class="num">03</span>Four steps</h2>
+    <div class="flow">
+      <div class="step"><div class="dot">1</div><div class="step-body">
+        <h3>Discover the commercial pages — from URLs only, no reading</h3>
+        <ul>
+          <li>Pull all URLs from the content database</li>
+          <li>Classify each from its slug alone — no fetching or body reading at this stage</li>
+          <li><b>Keep:</b> homepage, pricing, product/feature pages, integrations, competitor comparisons</li>
+          <li><b>Drop:</b> blogs, guides, glossaries, templates, tools, company-info pages, non-English duplicates</li>
+        </ul>
+      </div></div>
+      <div class="step"><div class="dot">2</div><div class="step-body">
+        <h3>Extract facts from every commercial page — eight fixed categories</h3>
+        <p>Pages are split across 7–10 AI agents running in parallel. Each agent reads the full stored body text of its assigned pages and pulls out facts under exactly eight categories:</p>
+        <ul>
+          <li><b>Features</b> — every product capability and what it does</li>
+          <li><b>Integrations</b> — every named tool or platform it connects with</li>
+          <li><b>Pricing</b> — plan names, what each includes, the pricing model, trials, guarantees</li>
+          <li><b>Competitive</b> — advantages over named competitors (only when the page names one)</li>
+          <li><b>Social proof</b> — real customer numbers, outcome stats, ratings, certifications, awards</li>
+          <li><b>Audience/segments</b> — who the page says the product is for, and the pains it names</li>
+          <li><b>CTAs</b> — the exact call-to-action button text on the page</li>
+          <li><b>FAQ</b> — any question and answer pairs on the page, verbatim</li>
+        </ul>
+        <p style="font-size:14px;color:var(--muted);">Pricing and integrations pages are fetched from the live website rather than the stored copy — these use dynamic tables that often don't save correctly. All extractions combine into one facts pool, one block per page.</p>
+      </div></div>
+      <div class="step"><div class="dot">3</div><div class="step-body">
+        <h3>Fill features.md — each category maps to a section</h3>
+        <p>Each of the eight extraction categories maps directly to one or more sections in features.md. For each section, gather that category from every page block in the pool, consolidate duplicates into one canonical line (keeping the most specific version — the one with real numbers or the fullest list), and fill the section. See the mapping table below.</p>
+        <ul>
+          <li>Every fact that was extracted must end up somewhere in the document — nothing dropped quietly</li>
+          <li>A top feature appears twice by design: once in Core Value Propositions (the 5–10 strongest, each with a pitch line) and again in Technical Features (the full list grouped into categories)</li>
+        </ul>
+      </div></div>
+      <div class="step"><div class="dot">4</div><div class="step-body">
+        <h3>Quality gate</h3>
+        <ul>
+          <li>Every section is filled — no placeholders</li>
+          <li>Every fact from the pool appears somewhere in the document</li>
+          <li>Real numbers, integration names, competitor names, and prices are spot-checked against the pool</li>
+          <li>Conversion angles sound like the brand</li>
+          <li>Anything missing or unverifiable loops back to Steps 1 or 2</li>
+        </ul>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section id="mapping" class="alt">
+  <div class="wrap">
+    <h2><span class="num">04</span>How extracted categories become sections</h2>
+    <p class="sub">Each category pulled in Step 2 has a direct home in features.md. This is the mapping.</p>
+    <table class="map-table">
+      <tr><th>Extracted category</th><th>Becomes this section in features.md</th><th>How it's used</th></tr>
+      <tr>
+        <td class="cat">Features</td>
+        <td><span class="sec">Core Value Propositions</span><br><span style="color:var(--muted);font-size:13px;">+ Technical Features</span></td>
+        <td>The 5–10 strongest features are elevated to Core Value Props (each gets a Benefit + Conversion Angle written). The full set goes into Technical Features, grouped into named categories (e.g. Assessments, Interviews, Anti-cheating, Analytics).</td>
+      </tr>
+      <tr>
+        <td class="cat">Integrations</td>
+        <td><span class="sec">Integrations &amp; Ecosystem</span></td>
+        <td>Every named tool or platform, listed with what the integration does. Grouped by type (ATS, HRIS, communication, automation etc.).</td>
+      </tr>
+      <tr>
+        <td class="cat">Competitive</td>
+        <td><span class="sec">Competitive Differentiators</span></td>
+        <td>Grouped by named competitor. Each gets 3–4 real advantages — and one honest note on where the rival is genuinely strong.</td>
+      </tr>
+      <tr>
+        <td class="cat">Audience / segments</td>
+        <td><span class="sec">Use Cases by Customer Segment</span></td>
+        <td>3–5 customer segments (e.g. Enterprise, SMB, Startups), each with the real needs and pains the pages name for that group.</td>
+      </tr>
+      <tr>
+        <td class="cat">Pricing</td>
+        <td><span class="sec">Pricing &amp; Plan Benefits</span></td>
+        <td>Each real plan tier with what it includes, the pricing model (e.g. credit-based), trial terms, guarantees, and any discounts.</td>
+      </tr>
+      <tr>
+        <td class="cat">Social proof + CTAs<br>+ Audience/pains</td>
+        <td><span class="sec">Key Messaging for Conversions</span></td>
+        <td>Three sub-sections: exact CTA text from the pages, pain → solution pairs ("Worried about bias?" → "20+ proctoring measures keep every result defensible"), and real social proof stats.</td>
+      </tr>
+      <tr>
+        <td class="cat">FAQ</td>
+        <td><span class="sec">Common Questions &amp; Objections</span></td>
+        <td>Real Q&A pairs from the pages, answered benefit-first.</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<section id="example">
+  <div class="wrap">
+    <h2><span class="num">05</span>What a filled section looks like</h2>
+    <p class="sub">From the real Testlify features.md — one Core Value Proposition entry and one Competitive Differentiator entry.</p>
+
+    <h3>Core Value Proposition — from the Features category</h3>
+    <div class="eg">
+      <div class="eg-head">3,500+ ready-to-use tests across 4,500+ job roles</div>
+      <div class="eg-row"><span class="eg-key">Benefit</span><span class="eg-val">Skip building assessments from scratch — a validated test for almost any role is already in the library.</span></div>
+      <div class="eg-row"><span class="eg-key">Conversion Angle</span><span class="eg-val"><i>"Don't build a test from zero — 3,500+ validated tests already cover 4,500+ roles across 50+ industries."</i></span></div>
+    </div>
+
+    <h3>Competitive Differentiator — from the Competitive category</h3>
+    <div class="eg">
+      <div class="eg-head">vs. TestGorilla</div>
+      <div class="eg-row"><span class="eg-key">Advantage 1</span><span class="eg-val">3,500+ tests / 4,500+ roles vs. TestGorilla's ~300–400 tests</span></div>
+      <div class="eg-row"><span class="eg-key">Advantage 2</span><span class="eg-val">Conversational AI interviews (chat/voice/video) vs. TestGorilla's one-way video only</span></div>
+      <div class="eg-row"><span class="eg-key">Advantage 3</span><span class="eg-val">100+ ATS integrations vs. 17+; AI-assistance detection and dual-camera proctoring absent on TestGorilla</span></div>
+      <div class="eg-row"><span class="eg-key">Where they're strong</span><span class="eg-val">Fully GDPR and SOC 2 compliant, user-friendly with a low learning curve, cost-effective for startups and small businesses</span></div>
+    </div>
+
+    <h3>Key Messaging — from Social proof + CTAs + Audience/pains</h3>
+    <div class="eg">
+      <div class="eg-head">Pain → Solution pairs</div>
+      <div class="eg-row"><span class="eg-key">Pain</span><span class="eg-val">"Worried about cheating tainting your results?"</span></div>
+      <div class="eg-row"><span class="eg-key">Solution</span><span class="eg-val">"20+ proctoring measures — including AI-assistance detection and dual-camera — keep every assessment defensible."</span></div>
+    </div>
+    <div class="eg" style="margin-top:8px;">
+      <div class="eg-head">Social proof</div>
+      <div class="eg-row"><span class="eg-key">Stat</span><span class="eg-val">Reduce time-to-hire by 55%; cut hiring costs by 72%; candidate satisfaction 94%; trusted by 1,500+ hiring teams</span></div>
+    </div>
+
+    <div class="note orange"><strong>The hard stop on facts</strong>
+    Every extracted fact — every Feature, Integration, Competitive point, Social proof stat, segment, CTA, and FAQ from every page — must appear somewhere in features.md. Cherry-picking is a fail.</div>
+  </div>
+</section>
+
+<footer><div class="wrap">Features · Content Machine Stage 0 · The product facts reference every writer reads before mentioning the product.</div></footer>
+</body>
+</html>

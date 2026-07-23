@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2957,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 page has no case study content; it's just an office address plus a product-login selector screen"
+  },
+  {
+    "row_id": 2970,
+    "brand_fit": "CORE",
+    "angle_gap": "The case study reports over 70% of the 2017 cohort were promoted within 18 months but never discloses the selection criteria beyond naming the PPA/HPTI profiles used \u2014 no score thresholds, no benchmark of what 'the 12 highest-potential candidates' actually looked like, so a reader can't replicate the framework.",
+    "asset": "How to Build a High-Potential Talent Pipeline With Assessment Benchmarks, Not Just Gut Calls",
+    "distinct_angle": "Where Thomas's case study reports a 70%+ promotion outcome without ever disclosing the score thresholds or selection rules behind '12 candidates with the highest potential,' ours lays out the actual benchmark bands and decision criteria a TA team could apply themselves.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2971,
+    "brand_fit": "CORE",
+    "angle_gap": "CDUK is framed as a 20-year Thomas client, but the case study gives zero quantified outcomes \u2014 no turnover, retention, cost-per-hire, or time-to-hire figures \u2014 just quotes about 'understanding your people better,' leaving the actual business case for the tools unproven.",
+    "asset": "What Two Decades of Behavioral Assessment Data Should (But Rarely Does) Prove About Hiring Quality",
+    "distinct_angle": "Their CDUK story spans 20 years of assessment use but states no measurable result; ours builds the same long-tenure-client narrative around the metrics (turnover, retention, cost-per-hire) a TA leader needs to justify the spend.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2972,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The university's own consultant admits the programme has 'yet to see the long-term impacts' and substitutes anecdote \u2014 'word travels,' the programme is 'oversubscribed' \u2014 for any outcome data, so the page's own results section concedes it can't yet prove the psychometrics-based development programme works.",
+    "asset": "Proving a Leadership Development Programme Actually Works, Beyond 'People Signed Up Again'",
+    "distinct_angle": "Where the university consultant admits the programme's long-term impact is still unmeasured and leans on subscription anecdotes, ours lays out the concrete evidence \u2014 behavior deltas, manager-rated outcomes \u2014 a development programme needs to show real ROI.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3043,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 this is post-hire performance management (360 survey blended into an executive performance scorecard), explicitly off-limits territory, not pre-employment/hiring"
+  }
+]

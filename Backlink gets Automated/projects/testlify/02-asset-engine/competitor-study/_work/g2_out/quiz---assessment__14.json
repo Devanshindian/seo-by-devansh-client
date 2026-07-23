@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2707,
+    "brand_fit": "CORE",
+    "angle_gap": "Repeats the phrase 'flag human or AI assistance' three times but never explains what the AI-assistance detection actually looks for or how it differs from plagiarism-checking; also lists three job roles (Back-End, Python, Web Developer) against one flat topic list with no indication of which skills matter at junior vs senior level.",
+    "asset": "The Python Skills Test That Shows Recruiters What 'AI-Assisted' Actually Flags",
+    "distinct_angle": "Makes the AI-assistance detection criteria transparent and splits sample questions by seniority (junior vs senior Python dev) instead of TestDome's one flat topic list for three different roles.",
+    "tool_escalation": "The competitor page is itself a live coding-test product, not an article \u2014 beating it requires building an actual scored Python test with AI-assistance detection, not writing content.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2720,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'About the test' section is three thin bullets, and the sample question set mixes genuine sales-judgment scenarios (Difficult Customer, CAD System) with generic logic puzzles unrelated to selling (Sunburn - a conjunction-fallacy riddle, Car Dealer Profit - a chart-reading puzzle) without ever distinguishing which questions measure sales competency versus general reasoning.",
+    "asset": "The Sales Aptitude Test That Separates Real Sales Judgment from Generic Reasoning Puzzles",
+    "distinct_angle": "Labels each question by the actual sales competency it measures (objection handling, customer relations, closing) instead of burying generic logic riddles inside a 'sales' test the way TestDome does.",
+    "tool_escalation": "The competitor page is a live scored aptitude test, not an article \u2014 matching it requires building an actual test, not just writing about one.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2721,
+    "brand_fit": "CORE",
+    "angle_gap": "The About section gives three generic bullets on business metrics, linear equations, and physics-based calculation, but never explains WHY numerical reasoning predicts job performance or which roles need which difficulty level \u2014 the 'For job roles' list (Administrative Assistant through Sales Manager) is a flat, unranked list with no validity story attached.",
+    "asset": "The Numerical Reasoning Test That Explains Why the Score Predicts Job Performance",
+    "distinct_angle": "Ties each question type to a concrete on-the-job outcome for the specific role being hired (financial analyst vs sales manager), where TestDome offers only an unranked role list with no explanation of what the score means for each.",
+    "tool_escalation": "The competitor page is a live scored reasoning test, not an article \u2014 beating it requires building an actual test, not writing content.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2722,
+    "brand_fit": "CORE",
+    "angle_gap": "Two of the six sample questions (Sunburn, Apples) are verbatim reused from the Sales Aptitude test page rather than being marketing-specific, undercutting the claim this test measures marketing analytics skill; the 107-question premium list is similarly dominated by generic reasoning items (Turtles, Gas Price, Clock Hands) rather than marketing metrics.",
+    "asset": "The Marketing Analytics Test Built Entirely Around Real Campaign Metrics, Not Recycled Reasoning Puzzles",
+    "distinct_angle": "Keeps every question grounded in an actual marketing metric (CPA, CTR, open rate) instead of recycling the same generic logic riddles TestDome reuses across its Sales Aptitude and Marketing Analytics tests.",
+    "tool_escalation": "The competitor page is a live scored aptitude test, not an article \u2014 matching it requires building an actual test, not writing content.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2747,
+    "brand_fit": "CORE",
+    "angle_gap": "Only two public sample questions exist (Orders Analytics, Electronics Factory), both framed as generic pipeline/database scenarios with no named technology \u2014 no Spark, Kafka, Airflow, or dbt appears anywhere on the page, leaving a buyer unable to tell what stack the test actually covers.",
+    "asset": "The Data Engineering Test That Names the Exact Tools It Evaluates Instead of Generic Pipeline Scenarios",
+    "distinct_angle": "Names the specific tools and stack each question exercises (Spark, Kafka, dbt) where TestDome's two public questions describe only generic, unnamed 'data pipeline' scenarios.",
+    "tool_escalation": "The competitor page is a live scored technical test, not an article \u2014 beating it requires building an actual test, not writing content.",
+    "g_notes": ""
+  }
+]

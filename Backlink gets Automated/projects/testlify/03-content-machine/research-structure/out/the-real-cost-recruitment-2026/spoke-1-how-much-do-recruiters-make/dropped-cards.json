@@ -1,0 +1,1840 @@
+{
+  "total_cards": 953,
+  "kept_count": 692,
+  "dropped_count": 261,
+  "dropped_pct_of_cards": 27.39,
+  "keep_threshold": 1,
+  "unscored_count": 0,
+  "unscored_pct_of_cards": 0.0,
+  "flag_threshold_pct": 60,
+  "FLAG": false,
+  "dropped": [
+    {
+      "id": 37,
+      "tag": "storm",
+      "gloss": "CareerPlug stat: 3% interview rate, <1% hire rate, 1 in 180 applicants",
+      "relevance": 0,
+      "reason": "Applicant funnel conversion stat, not about recruiter pay"
+    },
+    {
+      "id": 38,
+      "tag": "storm",
+      "gloss": "tech roles need 191 applicants per hire vs 47 for healthcare",
+      "relevance": 0,
+      "reason": "Applicants-per-hire by industry, off-topic for commission benchmarking"
+    },
+    {
+      "id": 39,
+      "tag": "storm",
+      "gloss": "Ashby stat: interview-to-offer rates and tripled applications per hire since 2021",
+      "relevance": 0,
+      "reason": "Interview-to-offer rate stats, unrelated to recruiter earnings"
+    },
+    {
+      "id": 40,
+      "tag": "storm",
+      "gloss": "recruiters handling 93% more applications than 2021 without more headcount",
+      "relevance": 0,
+      "reason": "Recruiter workload stat, not a pay/commission figure"
+    },
+    {
+      "id": 41,
+      "tag": "storm",
+      "gloss": "each extra application field drops completion 5-10%",
+      "relevance": 0,
+      "reason": "Application form UX stat, entirely off-topic"
+    },
+    {
+      "id": 76,
+      "tag": "storm",
+      "gloss": "Executive search market size: $10.3B US revenue in 2025",
+      "relevance": 0,
+      "reason": "aggregate market-size stat, not recruiter commission data"
+    },
+    {
+      "id": 77,
+      "tag": "storm",
+      "gloss": "Executive cost-per-hire risen 113% since 2017, 21% since 2022",
+      "relevance": 0,
+      "reason": "employer cost-per-hire stat, exactly what article says it avoids"
+    },
+    {
+      "id": 180,
+      "tag": "storm",
+      "gloss": "pricing model sets baseline range and risk allocation",
+      "relevance": 0,
+      "reason": "Incomplete header fragment, carries no information on its own"
+    },
+    {
+      "id": 241,
+      "tag": "storm",
+      "gloss": "Declining/tiered obligation structure \u2014 full replacement days 0-60",
+      "relevance": 0,
+      "reason": "guarantee timing structure, not commission data"
+    },
+    {
+      "id": 242,
+      "tag": "storm",
+      "gloss": "Concrete tiered example \u2014 100% back within 90 days, 50%/replacement days 91-180",
+      "relevance": 0,
+      "reason": "refund tier example, not a commission figure"
+    },
+    {
+      "id": 243,
+      "tag": "storm",
+      "gloss": "Another firm's tiered guarantee \u2014 six months at 50%, escalating to 100% within 90 days",
+      "relevance": 0,
+      "reason": "guarantee refund terms, off angle"
+    },
+    {
+      "id": 244,
+      "tag": "storm",
+      "gloss": "Another structure \u2014 full refund within 90 days, prorated over next 12 months",
+      "relevance": 0,
+      "reason": "refund proration schedule, not pay"
+    },
+    {
+      "id": 245,
+      "tag": "storm",
+      "gloss": "'Whatever the client says' \u2014 accepting client's proposed terms",
+      "relevance": 0,
+      "reason": "negotiation style anecdote, no pay data"
+    },
+    {
+      "id": 246,
+      "tag": "storm",
+      "gloss": "Guarantees differ by trigger condition",
+      "relevance": 0,
+      "reason": "bare transition sentence, no content"
+    },
+    {
+      "id": 247,
+      "tag": "storm",
+      "gloss": "Cause-only vs any-exit guarantee definitions",
+      "relevance": 0,
+      "reason": "guarantee trigger-type contract mechanics"
+    },
+    {
+      "id": 253,
+      "tag": "storm",
+      "gloss": "Exclusion \u2014 role restructuring",
+      "relevance": 0,
+      "reason": "guarantee voidance edge case"
+    },
+    {
+      "id": 254,
+      "tag": "storm",
+      "gloss": "Exclusion \u2014 funding or organizational issues",
+      "relevance": 0,
+      "reason": "guarantee exclusion clause"
+    },
+    {
+      "id": 255,
+      "tag": "storm",
+      "gloss": "Exclusion \u2014 post-placement scope changes",
+      "relevance": 0,
+      "reason": "guarantee voidance edge case"
+    },
+    {
+      "id": 256,
+      "tag": "storm",
+      "gloss": "Exclusion \u2014 hostile-environment terminations require careful handling",
+      "relevance": 0,
+      "reason": "HR/legal nuance, unrelated to pay"
+    },
+    {
+      "id": 257,
+      "tag": "storm",
+      "gloss": "Documentation requirements to invoke a guarantee",
+      "relevance": 0,
+      "reason": "procedural requirement to invoke guarantee"
+    },
+    {
+      "id": 258,
+      "tag": "storm",
+      "gloss": "Ambiguity or delayed notification undermines guarantee's value",
+      "relevance": 0,
+      "reason": "process friction note, not pay"
+    },
+    {
+      "id": 261,
+      "tag": "storm",
+      "gloss": "Obligation to continue search at no cost if replacement not found in window",
+      "relevance": 0,
+      "reason": "replacement search obligation detail"
+    },
+    {
+      "id": 263,
+      "tag": "storm",
+      "gloss": "Guarantees don't eliminate the underlying cost of a bad hire",
+      "relevance": 0,
+      "reason": "employer cost-of-bad-hire framing, explicitly excluded by this article's angle"
+    },
+    {
+      "id": 264,
+      "tag": "storm",
+      "gloss": "Trade-off \u2014 guarantees can incentivize rigor but also risk-averse bias",
+      "relevance": 0,
+      "reason": "guarantee's effect on recruiter behavior, not pay"
+    },
+    {
+      "id": 265,
+      "tag": "storm",
+      "gloss": "No protection against attrition beyond the guarantee window",
+      "relevance": 0,
+      "reason": "guarantee coverage limitation"
+    },
+    {
+      "id": 267,
+      "tag": "storm",
+      "gloss": "Caution \u2014 guarantee is not a substitute for poor client-side onboarding",
+      "relevance": 0,
+      "reason": "onboarding caveat, not pay"
+    },
+    {
+      "id": 268,
+      "tag": "storm",
+      "gloss": "Recruiter quote \u2014 guarantees used carefully vs used blindly",
+      "relevance": 0,
+      "reason": "opinion quote on guarantees"
+    },
+    {
+      "id": 334,
+      "tag": "storm",
+      "gloss": "Definition of employer clawback clauses on employee-side compensation",
+      "relevance": 0,
+      "reason": "Employee bonus clawback clauses, unrelated to recruiter commissions"
+    },
+    {
+      "id": 335,
+      "tag": "storm",
+      "gloss": "UK legal ground: disputes over interpretation of when the clawback trigger occurs",
+      "relevance": 0,
+      "reason": "UK clawback legal grounds, off-domain"
+    },
+    {
+      "id": 336,
+      "tag": "storm",
+      "gloss": "UK legal ground: the penalty doctrine and why it usually doesn't apply to clawbacks",
+      "relevance": 0,
+      "reason": "Penalty doctrine case law, off-domain"
+    },
+    {
+      "id": 337,
+      "tag": "storm",
+      "gloss": "UK legal ground: improper exercise of discretion, possibly triggering discrimination claims",
+      "relevance": 0,
+      "reason": "Discretion/discrimination clawback doctrine, off-domain"
+    },
+    {
+      "id": 338,
+      "tag": "storm",
+      "gloss": "UK legal ground: repudiatory breach by employer can release employee from repayment",
+      "relevance": 0,
+      "reason": "Repudiatory breach doctrine, off-domain"
+    },
+    {
+      "id": 339,
+      "tag": "storm",
+      "gloss": "Case law outcomes are mixed; example of a forfeiture clause struck down as unlawful restraint of trade",
+      "relevance": 0,
+      "reason": "Forfeiture case law, off-domain"
+    },
+    {
+      "id": 340,
+      "tag": "storm",
+      "gloss": "Tullett Prebon v BGC Brokers (2010) case upheld a golden-hello/loyalty-bonus repayment clause",
+      "relevance": 0,
+      "reason": "Tullett Prebon case, off-domain clawback law"
+    },
+    {
+      "id": 341,
+      "tag": "storm",
+      "gloss": "Recovery mechanisms for clawbacks: statutory demand (Steel case) or civil court claims",
+      "relevance": 0,
+      "reason": "Bonus recovery mechanisms, off-domain"
+    },
+    {
+      "id": 342,
+      "tag": "storm",
+      "gloss": "Negotiated settlements are common and should be documented in a formal agreement",
+      "relevance": 0,
+      "reason": "Settlement practice for clawbacks, off-domain"
+    },
+    {
+      "id": 343,
+      "tag": "storm",
+      "gloss": "US clawback policies tied to Dodd-Frank/SEC rules and non-solicitation breach triggers",
+      "relevance": 0,
+      "reason": "Dodd-Frank clawback regulation, off-domain"
+    },
+    {
+      "id": 344,
+      "tag": "storm",
+      "gloss": "Candidate-side clawback/garden-leave/quit-notification terms raise transparency and negotiating-leverage concerns, likened to a late \"prenup\"",
+      "relevance": 0,
+      "reason": "Commentary on candidate-side clawback terms, off-domain"
+    },
+    {
+      "id": 345,
+      "tag": "storm",
+      "gloss": "Practitioners advise candidates to raise clawback/quit-notification terms earlier since they're negotiable, unlike noncompetes",
+      "relevance": 0,
+      "reason": "Advice on negotiating clawback terms, off-domain"
+    },
+    {
+      "id": 346,
+      "tag": "storm",
+      "gloss": "AB 692 overview: California's new restraint on recruiter/employer compensation clauses, effective 2026",
+      "relevance": 0,
+      "reason": "California AB 692 worker mobility law, off-domain"
+    },
+    {
+      "id": 347,
+      "tag": "storm",
+      "gloss": "AB 692's prohibited fee types tied to termination",
+      "relevance": 0,
+      "reason": "AB 692 prohibited fee list, off-domain"
+    },
+    {
+      "id": 348,
+      "tag": "storm",
+      "gloss": "AB 692's list of covered charges is non-exhaustive",
+      "relevance": 0,
+      "reason": "AB 692 non-exhaustive list note, off-domain"
+    },
+    {
+      "id": 349,
+      "tag": "storm",
+      "gloss": "AB 692 private right of action and statutory damages",
+      "relevance": 0,
+      "reason": "AB 692 statutory damages, off-domain despite dollar figure"
+    },
+    {
+      "id": 350,
+      "tag": "storm",
+      "gloss": "AB 692 has five exemptions",
+      "relevance": 0,
+      "reason": "AB 692 exemptions overview, off-domain"
+    },
+    {
+      "id": 351,
+      "tag": "storm",
+      "gloss": "AB 692 Exemption #1: government loan repayment/forgiveness programs",
+      "relevance": 0,
+      "reason": "AB 692 exemption 1, off-domain"
+    },
+    {
+      "id": 352,
+      "tag": "storm",
+      "gloss": "AB 692 Exemption #2: transferable-credential tuition repayment, with detailed conditions",
+      "relevance": 0,
+      "reason": "AB 692 exemption 2, off-domain"
+    },
+    {
+      "id": 353,
+      "tag": "storm",
+      "gloss": "Employer action items in response to AB 692 and open interpretive questions",
+      "relevance": 0,
+      "reason": "Employer compliance advice for AB 692, off-domain"
+    },
+    {
+      "id": 354,
+      "tag": "storm",
+      "gloss": "Clawback clauses face multiple UK legal challenges",
+      "relevance": 0,
+      "reason": "UK clawback legal challenges intro, off-domain"
+    },
+    {
+      "id": 355,
+      "tag": "storm",
+      "gloss": "UK penalty doctrine and its limit to breach-triggered clauses",
+      "relevance": 0,
+      "reason": "Penalty doctrine restated, off-domain"
+    },
+    {
+      "id": 356,
+      "tag": "storm",
+      "gloss": "Improper exercise of discretion as a challenge ground for clawbacks",
+      "relevance": 0,
+      "reason": "Improper discretion doctrine restated, off-domain"
+    },
+    {
+      "id": 357,
+      "tag": "storm",
+      "gloss": "Employer's repudiatory breach can release employee from clawback obligations",
+      "relevance": 0,
+      "reason": "Repudiatory breach restated, off-domain"
+    },
+    {
+      "id": 358,
+      "tag": "storm",
+      "gloss": "UK case law split: forfeiture clause struck down vs. Tullett Prebon clause upheld",
+      "relevance": 0,
+      "reason": "Case law split restated, off-domain"
+    },
+    {
+      "id": 359,
+      "tag": "storm",
+      "gloss": "Risks employers face without careful clawback drafting",
+      "relevance": 0,
+      "reason": "Drafting risk advice, off-domain"
+    },
+    {
+      "id": 360,
+      "tag": "storm",
+      "gloss": "US equity award clawbacks tied to Dodd-Frank/SEC rules and non-solicitation triggers",
+      "relevance": 0,
+      "reason": "US equity clawback/Dodd-Frank, off-domain"
+    },
+    {
+      "id": 372,
+      "tag": "storm",
+      "gloss": "Guarantees don't eliminate failed-hire opportunity cost; ambiguous terms cause disputes",
+      "relevance": 0,
+      "reason": "Employer cost-per-hire framing the article explicitly avoids restating"
+    },
+    {
+      "id": 421,
+      "tag": "storm",
+      "gloss": "Indirect value in-house recruiters generate is large in dollar terms",
+      "relevance": 0,
+      "reason": "Vague filler, no data or recruiter-pay content"
+    },
+    {
+      "id": 423,
+      "tag": "storm",
+      "gloss": "Retention investments can lift retention rates by up to 82%",
+      "relevance": 0,
+      "reason": "Retention-program stat, off-topic for recruiter pay"
+    },
+    {
+      "id": 424,
+      "tag": "storm",
+      "gloss": "Engaged teams show 13% productivity boost and 22% profitability increase",
+      "relevance": 0,
+      "reason": "Engagement/productivity stat, unrelated to recruiter earnings"
+    },
+    {
+      "id": 443,
+      "tag": "storm",
+      "gloss": "Incentives alone can't turn an administrative 'paper-pushing' recruiter into a high performer",
+      "relevance": 0,
+      "reason": "Off-topic claim about incentive limits on performance"
+    },
+    {
+      "id": 495,
+      "tag": "storm",
+      "gloss": "List of firms with historical recruiter reward/bonus programs",
+      "relevance": 0,
+      "reason": "Historical list of company bonus programs, off-topic history"
+    },
+    {
+      "id": 510,
+      "tag": "storm",
+      "gloss": "Active vs passive talent pool statistic",
+      "relevance": 0,
+      "reason": "Talent-pool composition stat, unrelated to recruiter pay"
+    },
+    {
+      "id": 604,
+      "tag": "storm",
+      "gloss": "BalancedComp survey tracked \"Recruiter\" among banking/credit union roles",
+      "relevance": 0,
+      "reason": "Just a survey's list of surveyed job titles, no pay data"
+    },
+    {
+      "id": 606,
+      "tag": "storm",
+      "gloss": "Example: IT Business Analyst saw up to 40% growth over two years",
+      "relevance": 0,
+      "reason": "Off-topic role (IT Business Analyst), unrelated to recruiter pay"
+    },
+    {
+      "id": 608,
+      "tag": "storm",
+      "gloss": "Hottest jobs topping out at 13% movement in 2025",
+      "relevance": 0,
+      "reason": "Generic market stat unrelated to recruiter commissions"
+    },
+    {
+      "id": 631,
+      "tag": "storm",
+      "gloss": "Commute tolerance and relocation willingness",
+      "relevance": 0,
+      "reason": "commute/relocation stats, unrelated to recruiter pay"
+    },
+    {
+      "id": 646,
+      "tag": "storm",
+      "gloss": "2024 median weekly earnings by education level (general workers)",
+      "relevance": 0,
+      "reason": "general workforce education-pay stats, not about recruiters"
+    },
+    {
+      "id": 656,
+      "tag": "storm",
+      "gloss": "LinkedIn hiring surge broadened industries recruiters serve",
+      "relevance": 0,
+      "reason": "generic industry-breadth note, no pay data"
+    },
+    {
+      "id": 687,
+      "tag": "storm",
+      "gloss": "Fragment referencing a source named 'Salary' (text appears truncated)",
+      "relevance": 0,
+      "reason": "Fragment, no content"
+    },
+    {
+      "id": 693,
+      "tag": "storm",
+      "gloss": "Base pay geography claim: tracks cost of living and regional demand",
+      "relevance": 0,
+      "reason": "bare section header, no data"
+    },
+    {
+      "id": 741,
+      "tag": "storm",
+      "gloss": "Cyclicality is why pay data should be sourced from 2025-2026, not older 2021-2022 figures",
+      "relevance": 0,
+      "reason": "Methodology/sourcing rationale, not useful to reader directly"
+    },
+    {
+      "id": 811,
+      "tag": "storm",
+      "gloss": "Technical recruiting adds a credentialing and skills-assessment layer that generalist recruiting lacks",
+      "relevance": 0,
+      "reason": "Certification/credentialing framing, not commission data"
+    },
+    {
+      "id": 812,
+      "tag": "storm",
+      "gloss": "AIRS Certified Internet Recruiter (CIR): the gold-standard certification for research-heavy tech sourcing",
+      "relevance": 0,
+      "reason": "Sourcing certification, unrelated to pay-per-hire"
+    },
+    {
+      "id": 813,
+      "tag": "storm",
+      "gloss": "Certified People Sourcing Professional (CPSP): certification for senior sourcers covering advanced search techniques",
+      "relevance": 0,
+      "reason": "Sourcing certification, unrelated to pay-per-hire"
+    },
+    {
+      "id": 814,
+      "tag": "storm",
+      "gloss": "HackerRank Technical Recruiter Certification: for recruiters running coding assessments with engineering",
+      "relevance": 0,
+      "reason": "Assessment-design certification, not commission data"
+    },
+    {
+      "id": 815,
+      "tag": "storm",
+      "gloss": "Greenhouse Recruiting Accreditation certification tiers (Essentials/Advanced)",
+      "relevance": 0,
+      "reason": "ATS accreditation, unrelated to commission rates"
+    },
+    {
+      "id": 816,
+      "tag": "storm",
+      "gloss": "Tech recruiters need to understand the nuances of hiring in tech, from coding skills to software architecture",
+      "relevance": 0,
+      "reason": "Generic tech-recruiting skills quote, no pay data"
+    },
+    {
+      "id": 817,
+      "tag": "storm",
+      "gloss": "A recognized certification can be the differentiator that lands interviews or attracts high-value clients",
+      "relevance": 0,
+      "reason": "Career-differentiator quote, not about earnings"
+    },
+    {
+      "id": 818,
+      "tag": "storm",
+      "gloss": "Credibility directly impacts recruiter effectiveness in this field",
+      "relevance": 0,
+      "reason": "Vague credibility claim, no pay relevance"
+    },
+    {
+      "id": 821,
+      "tag": "storm",
+      "gloss": "Definition and setting of physician recruiters",
+      "relevance": 0,
+      "reason": "Job description of physician recruiters, not pay"
+    },
+    {
+      "id": 822,
+      "tag": "storm",
+      "gloss": "Skill blend required for the role",
+      "relevance": 0,
+      "reason": "Generic role description, no commission data"
+    },
+    {
+      "id": 823,
+      "tag": "storm",
+      "gloss": "Typical entry path into physician recruiting",
+      "relevance": 0,
+      "reason": "Career-entry background, off-topic for pay benchmarking"
+    },
+    {
+      "id": 826,
+      "tag": "storm",
+      "gloss": "Healthcare recruiting as recession-resistant, shortage projection",
+      "relevance": 0,
+      "reason": "Market/demand context, not pay-per-hire data"
+    },
+    {
+      "id": 837,
+      "tag": "storm",
+      "gloss": "Healthcare staffing market growth rate since 2021",
+      "relevance": 0,
+      "reason": "Market growth stat, not recruiter pay data"
+    },
+    {
+      "id": 853,
+      "tag": "storm",
+      "gloss": "Total cost range to replace a physician by specialty",
+      "relevance": 0,
+      "reason": "Employer cost-per-hire figure, explicitly the angle this article avoids"
+    },
+    {
+      "id": 861,
+      "tag": "storm",
+      "gloss": "Job posting/advertising cost components",
+      "relevance": 0,
+      "reason": "Employer job-ad spend, off the recruiter-earnings angle"
+    },
+    {
+      "id": 862,
+      "tag": "storm",
+      "gloss": "Candidate travel/accommodation cost",
+      "relevance": 0,
+      "reason": "Employer candidate-travel cost, off angle"
+    },
+    {
+      "id": 863,
+      "tag": "storm",
+      "gloss": "Credentialing/background verification cost and time",
+      "relevance": 0,
+      "reason": "Employer credentialing cost, off angle"
+    },
+    {
+      "id": 864,
+      "tag": "storm",
+      "gloss": "Vacancy revenue loss examples: family medicine and neurosurgery",
+      "relevance": 0,
+      "reason": "Employer vacancy revenue-loss stat, off angle"
+    },
+    {
+      "id": 868,
+      "tag": "storm",
+      "gloss": "How to find a physician recruiter: referrals, career fairs, PracticeLink",
+      "relevance": 0,
+      "reason": "Advice for candidates finding a recruiter, wrong audience"
+    },
+    {
+      "id": 893,
+      "tag": "storm",
+      "gloss": "Technical recruiter pay shaped by sourcing/ATS/market-value skill investment",
+      "relevance": 0,
+      "reason": "About recruiter skills, not pay/commission"
+    },
+    {
+      "id": 894,
+      "tag": "storm",
+      "gloss": "Specialization formalized through credentialing generalists don't pursue",
+      "relevance": 0,
+      "reason": "Credentialing topic, off-domain for pay benchmarking reader"
+    },
+    {
+      "id": 895,
+      "tag": "storm",
+      "gloss": "AIRS CIR certification for Boolean/X-Ray sourcing",
+      "relevance": 0,
+      "reason": "Certification detail, unrelated to commission rates"
+    },
+    {
+      "id": 896,
+      "tag": "storm",
+      "gloss": "DevSkiller and HackerRank as technical skills assessment tools",
+      "relevance": 0,
+      "reason": "Assessment tools, off-topic for this reader's earnings question"
+    },
+    {
+      "id": 897,
+      "tag": "storm",
+      "gloss": "General HR credentials SHRM/HRCI alongside technical ones",
+      "relevance": 0,
+      "reason": "General HR credentials, off-domain"
+    },
+    {
+      "id": 898,
+      "tag": "storm",
+      "gloss": "Advice to combine CIR, LCPR, DevSkiller credentials",
+      "relevance": 0,
+      "reason": "Credential-combination advice, off-domain"
+    },
+    {
+      "id": 901,
+      "tag": "storm",
+      "gloss": "Argument that physician recruiting fees are smaller than vacancy cost",
+      "relevance": 0,
+      "reason": "Employer vacancy-cost argument for physician fees, not recruiter's own commission"
+    },
+    {
+      "id": 903,
+      "tag": "storm",
+      "gloss": "Three-to-six-month productivity ramp for newly placed physicians",
+      "relevance": 0,
+      "reason": "Ramp-cost absorption by employer, unrelated to recruiter earnings"
+    },
+    {
+      "id": 904,
+      "tag": "storm",
+      "gloss": "Generalist/technical placements lack comparable credentialing/ramp costs",
+      "relevance": 0,
+      "reason": "Meta-statement noting absence of comparable data"
+    },
+    {
+      "id": 905,
+      "tag": "storm",
+      "gloss": "Generalist/technical fee justification stays percentage-based, not vacancy-cost",
+      "relevance": 0,
+      "reason": "General framing note, no commission figures"
+    },
+    {
+      "id": 906,
+      "tag": "storm",
+      "gloss": "BLS occupational code and title coverage for recruiters",
+      "relevance": 0,
+      "reason": "BLS occupational classification code, not pay data"
+    },
+    {
+      "id": 907,
+      "tag": "storm",
+      "gloss": "Core tasks listed under the BLS occupation code",
+      "relevance": 0,
+      "reason": "Generic HR task list, no pay relevance"
+    },
+    {
+      "id": 908,
+      "tag": "storm",
+      "gloss": "Occupation code excludes compensation/benefits specialists",
+      "relevance": 0,
+      "reason": "Classification exclusion note"
+    },
+    {
+      "id": 910,
+      "tag": "storm",
+      "gloss": "Projected employment growth and annual openings",
+      "relevance": 0,
+      "reason": "Job growth projection, not pay"
+    },
+    {
+      "id": 915,
+      "tag": "storm",
+      "gloss": "Latest ASA survey shows staffing employment decline Q4 2025 to Q1 2026",
+      "relevance": 0,
+      "reason": "Employment trend stat, unrelated to individual pay"
+    },
+    {
+      "id": 916,
+      "tag": "storm",
+      "gloss": "Participation in ASA survey is free and gives an exclusive report",
+      "relevance": 0,
+      "reason": "Survey participation logistics"
+    },
+    {
+      "id": 917,
+      "tag": "storm",
+      "gloss": "2026 ASA survey calendar and example quarterly timeline",
+      "relevance": 0,
+      "reason": "Survey calendar dates, irrelevant"
+    },
+    {
+      "id": 921,
+      "tag": "storm",
+      "gloss": "Compensation survey report format and member discount",
+      "relevance": 0,
+      "reason": "Report format/discount logistics"
+    },
+    {
+      "id": 922,
+      "tag": "storm",
+      "gloss": "ASA aggregates thousands of survey responses into industry snapshots",
+      "relevance": 0,
+      "reason": "Vague aggregate description, no usable figure"
+    },
+    {
+      "id": 923,
+      "tag": "storm",
+      "gloss": "Weekly volume of temporary/project workers placed via US staffing companies",
+      "relevance": 0,
+      "reason": "Macro placement-volume stat, not pay-related"
+    },
+    {
+      "id": 929,
+      "tag": "storm",
+      "gloss": "PayScale gender composition and pay gap data for the role",
+      "relevance": 0,
+      "reason": "Gender composition stat, irrelevant to reader's question"
+    },
+    {
+      "id": 931,
+      "tag": "storm",
+      "gloss": "Bullhorn GRID 2026 survey methodology",
+      "relevance": 0,
+      "reason": "AI-in-ATS revenue stat, unrelated to recruiter pay"
+    },
+    {
+      "id": 1,
+      "tag": "storm",
+      "gloss": "why companies use external recruiting agencies",
+      "relevance": 1,
+      "reason": "Why companies use agencies, not about pay/commission"
+    },
+    {
+      "id": 3,
+      "tag": "storm",
+      "gloss": "three client upsides of using recruiters",
+      "relevance": 1,
+      "reason": "Client-side benefits, not recruiter earnings"
+    },
+    {
+      "id": 9,
+      "tag": "storm",
+      "gloss": "contingency drawback: skipped steps, screening burden shifted to client",
+      "relevance": 1,
+      "reason": "Quality-of-search drawback, tangential to commission benchmarking"
+    },
+    {
+      "id": 10,
+      "tag": "storm",
+      "gloss": "contingency is a surface sweep favoring quantity over quality",
+      "relevance": 1,
+      "reason": "Sourcing-approach critique, not about pay"
+    },
+    {
+      "id": 11,
+      "tag": "storm",
+      "gloss": "managing multiple contingency recruiters strains internal teams",
+      "relevance": 1,
+      "reason": "Operational strain on employer, not recruiter earnings"
+    },
+    {
+      "id": 19,
+      "tag": "storm",
+      "gloss": "retained produces more favorable candidate experience",
+      "relevance": 1,
+      "reason": "Candidate-experience note, not about recruiter pay"
+    },
+    {
+      "id": 23,
+      "tag": "storm",
+      "gloss": "large employers with PSLs know contingent model is less effective but it persists",
+      "relevance": 1,
+      "reason": "Industry-practice critique of contingency, background color"
+    },
+    {
+      "id": 31,
+      "tag": "storm",
+      "gloss": "deal term: candidate ownership clause 6-12 months",
+      "relevance": 1,
+      "reason": "Contract clause about candidate ownership window, not pay/commission data"
+    },
+    {
+      "id": 32,
+      "tag": "storm",
+      "gloss": "deal term: exclusivity terms and triggers",
+      "relevance": 1,
+      "reason": "Exclusivity contract term, unrelated to earnings figures"
+    },
+    {
+      "id": 33,
+      "tag": "storm",
+      "gloss": "deal term: off-limits provisions against poaching client employees",
+      "relevance": 1,
+      "reason": "Off-limits/non-poach clause, unrelated to commission amounts"
+    },
+    {
+      "id": 36,
+      "tag": "storm",
+      "gloss": "funnel data explains why sourcing/screening command a fee",
+      "relevance": 1,
+      "reason": "Vague transition line, no usable figure or benchmark"
+    },
+    {
+      "id": 89,
+      "tag": "storm",
+      "gloss": "Flat-fee use case: winning multiple job orders from one client",
+      "relevance": 1,
+      "reason": "general business practice, not commission data"
+    },
+    {
+      "id": 148,
+      "tag": "storm",
+      "gloss": "Composite plan: non-financial perks (dev budget, recognition award, extra PTO)",
+      "relevance": 1,
+      "reason": "Non-financial perks, off-angle for pay question"
+    },
+    {
+      "id": 166,
+      "tag": "storm",
+      "gloss": "small talent pool relative to openings requires more investment, higher guaranteed fees",
+      "relevance": 1,
+      "reason": "Restates scarcity-drives-fees point already covered by 164"
+    },
+    {
+      "id": 169,
+      "tag": "storm",
+      "gloss": "local market/economic/industry factors drive regional fee variation",
+      "relevance": 1,
+      "reason": "Generic restatement of regional variation, no new info"
+    },
+    {
+      "id": 176,
+      "tag": "storm",
+      "gloss": "client hiring volume is a listed factor in commission rates",
+      "relevance": 1,
+      "reason": "Bare restatement that volume influences rates, no new detail"
+    },
+    {
+      "id": 178,
+      "tag": "storm",
+      "gloss": "agency reputation/success rates are a direct input to fee-setting",
+      "relevance": 1,
+      "reason": "Redundant restatement of reputation as a fee input"
+    },
+    {
+      "id": 202,
+      "tag": "storm",
+      "gloss": "US staffing/recruiting industry generated $189B revenue in 2024",
+      "relevance": 1,
+      "reason": "Market-size stat, not about individual recruiter earnings"
+    },
+    {
+      "id": 203,
+      "tag": "storm",
+      "gloss": "average cost per hire ~$4,700, average time-to-fill 36-44 days",
+      "relevance": 1,
+      "reason": "Employer cost-per-hire metric, the exact framing this article deliberately avoids"
+    },
+    {
+      "id": 226,
+      "tag": "storm",
+      "gloss": "Recruiters describe industry standard as 3-6 months",
+      "relevance": 1,
+      "reason": "Duplicate restatement of the 3-6 month figure, no new data"
+    },
+    {
+      "id": 227,
+      "tag": "storm",
+      "gloss": "Recruiting forum members report varied guarantee windows by firm",
+      "relevance": 1,
+      "reason": "Anecdotal forum quotes, weak evidentiary value"
+    },
+    {
+      "id": 237,
+      "tag": "storm",
+      "gloss": "Full refunds are rare because firms feel they've earned the fee",
+      "relevance": 1,
+      "reason": "Qualitative rationale, no numbers"
+    },
+    {
+      "id": 239,
+      "tag": "storm",
+      "gloss": "One-time replacement guarantee \u2014 applies once per search",
+      "relevance": 1,
+      "reason": "Pure definition, no numbers"
+    },
+    {
+      "id": 251,
+      "tag": "storm",
+      "gloss": "Guarantees standard in direct-hire engagements; obligation ends at window close",
+      "relevance": 1,
+      "reason": "contract-scope detail, not pay"
+    },
+    {
+      "id": 262,
+      "tag": "storm",
+      "gloss": "Extended 120/180-day guarantees \u2014 negotiated, tiered coverage example",
+      "relevance": 1,
+      "reason": "mentions higher fees but gives no figure"
+    },
+    {
+      "id": 266,
+      "tag": "storm",
+      "gloss": "Practitioner anecdote \u2014 under 1% of placements left within 6 months",
+      "relevance": 1,
+      "reason": "attrition-rate anecdote, not commission data"
+    },
+    {
+      "id": 317,
+      "tag": "storm",
+      "gloss": "Critics argue the guarantee conflates outcomes agencies don't control with agency accountability",
+      "relevance": 1,
+      "reason": "Debate about agency accountability, off-angle from earnings benchmarking"
+    },
+    {
+      "id": 318,
+      "tag": "storm",
+      "gloss": "Critic calls blanket guarantee clauses \"literally is madness\"",
+      "relevance": 1,
+      "reason": "Opinion quote on guarantee fairness, not earnings data"
+    },
+    {
+      "id": 319,
+      "tag": "storm",
+      "gloss": "Defenders frame guarantees as trust and risk-sharing, not fault admission",
+      "relevance": 1,
+      "reason": "Qualitative defense of guarantees, no earnings relevance"
+    },
+    {
+      "id": 321,
+      "tag": "storm",
+      "gloss": "Guarantees framed as being about trust and shared risk rather than responsibility",
+      "relevance": 1,
+      "reason": "Qualitative trust framing, no earnings data"
+    },
+    {
+      "id": 324,
+      "tag": "storm",
+      "gloss": "Absence of a guarantee flagged by critics as a signal to scrutinize a firm more closely",
+      "relevance": 1,
+      "reason": "Critic opinion, not earnings-relevant"
+    },
+    {
+      "id": 325,
+      "tag": "storm",
+      "gloss": "Ambiguity in guarantee terms typically surfaces only after a placement fails",
+      "relevance": 1,
+      "reason": "Controversy narrative, no commission data"
+    },
+    {
+      "id": 326,
+      "tag": "storm",
+      "gloss": "Disputed points in guarantee terms: covered resignation types, full search vs. limited slate, documentation, scope changes",
+      "relevance": 1,
+      "reason": "List of contract disputes, not commission/earnings data"
+    },
+    {
+      "id": 329,
+      "tag": "storm",
+      "gloss": "Opacity of fee structures is a parallel controversy",
+      "relevance": 1,
+      "reason": "General fee-opacity statement, no data"
+    },
+    {
+      "id": 330,
+      "tag": "storm",
+      "gloss": "Fee variation drivers make transparent fee breakdowns essential for employers, implying opacity is the default",
+      "relevance": 1,
+      "reason": "Employer-facing advice, off-angle for recruiter-earnings reader"
+    },
+    {
+      "id": 331,
+      "tag": "storm",
+      "gloss": "Frontline Source Group markets itself as uniquely transparent via a pricing page and 5-year warranty",
+      "relevance": 1,
+      "reason": "Agency positioning/warranty marketing, not commission % data"
+    },
+    {
+      "id": 333,
+      "tag": "storm",
+      "gloss": "Counter-argument: flat fee covers sourcing, screening, coordination, and a guarantee that job boards don't provide",
+      "relevance": 1,
+      "reason": "Generic counter-argument for flat fees, no data"
+    },
+    {
+      "id": 370,
+      "tag": "storm",
+      "gloss": "Full-year replacement guarantee ranks in top 2.5% per Echelon, tied to exclusivity",
+      "relevance": 1,
+      "reason": "Search-firm guarantee ranking, not recruiter commission data"
+    },
+    {
+      "id": 371,
+      "tag": "storm",
+      "gloss": "Longer guarantee periods justify higher rates as a risk premium",
+      "relevance": 1,
+      "reason": "Guarantee-length/rate correlation, client-side framing not recruiter pay"
+    },
+    {
+      "id": 373,
+      "tag": "storm",
+      "gloss": "Publicly itemized pricing is rare in staffing; one firm's transparency held up as atypical",
+      "relevance": 1,
+      "reason": "Pricing-transparency norms, not recruiter earnings"
+    },
+    {
+      "id": 374,
+      "tag": "storm",
+      "gloss": "Industry guidance on what to confirm in writing when evaluating a search partner",
+      "relevance": 1,
+      "reason": "Client-side vendor-evaluation checklist, not recruiter pay benchmarking"
+    },
+    {
+      "id": 403,
+      "tag": "storm",
+      "gloss": "Skill-based pay premium framed as replacing 2022 hiring-wave compensation spike",
+      "relevance": 1,
+      "reason": "historical framing, no usable figure for the reader"
+    },
+    {
+      "id": 415,
+      "tag": "storm",
+      "gloss": "In-house recruiters develop deep knowledge of company culture",
+      "relevance": 1,
+      "reason": "soft/fluff claim, no decision value"
+    },
+    {
+      "id": 422,
+      "tag": "storm",
+      "gloss": "Replacing an employee can cost up to 200% of annual salary",
+      "relevance": 1,
+      "reason": "Turnover-cost stat, not recruiter commission/earnings"
+    },
+    {
+      "id": 425,
+      "tag": "storm",
+      "gloss": "These savings are what an in-house recruiter is effectively paid to capture",
+      "relevance": 1,
+      "reason": "Vague rationale line, no concrete figure"
+    },
+    {
+      "id": 433,
+      "tag": "storm",
+      "gloss": "Education correlates with pay: bachelor's $1,543/wk vs associate $1,099 vs HS diploma $930 (2024)",
+      "relevance": 1,
+      "reason": "General BLS education-pay stat, not recruiter-specific"
+    },
+    {
+      "id": 434,
+      "tag": "storm",
+      "gloss": "Recruiter education breakdown: 69% bachelor's, 12% associate, 9% master's, 6% HS diploma only",
+      "relevance": 1,
+      "reason": "Recruiter education demographics, not pay data"
+    },
+    {
+      "id": 435,
+      "tag": "storm",
+      "gloss": "AIRS Professional Recruiter certification cited to strengthen qualifications",
+      "relevance": 1,
+      "reason": "Certification note, no pay impact given"
+    },
+    {
+      "id": 441,
+      "tag": "storm",
+      "gloss": "Well-designed bonus programs reward sourcing quality, cross-HR cooperation, best-practice sharing, and responsiveness",
+      "relevance": 1,
+      "reason": "Generic description of bonus-program design goals"
+    },
+    {
+      "id": 442,
+      "tag": "storm",
+      "gloss": "Without meaningful incentives, in-house third-party recruiters risk disengagement within a year",
+      "relevance": 1,
+      "reason": "Tangential retention-risk anecdote, no pay data"
+    },
+    {
+      "id": 444,
+      "tag": "storm",
+      "gloss": "Firms with recruiter reward programs: FirstMerit Bank, Quicken Loans, PwC, Aspen Technology, US Army, Wachovia, T-Mobile",
+      "relevance": 1,
+      "reason": "List of company names, no commission data or outcome tied"
+    },
+    {
+      "id": 446,
+      "tag": "storm",
+      "gloss": "Recruiting teams are often among first functions cut during downturn layoffs",
+      "relevance": 1,
+      "reason": "Layoff-risk tangent, not about commission rates"
+    },
+    {
+      "id": 493,
+      "tag": "storm",
+      "gloss": "Monthly payout is the dominant practice",
+      "relevance": 1,
+      "reason": "Payout timing stat, not a commission/pay figure the article promises"
+    },
+    {
+      "id": 494,
+      "tag": "storm",
+      "gloss": "Quarterly payout used for long client deal cycles",
+      "relevance": 1,
+      "reason": "Payout cadence context, no hard pay figure"
+    },
+    {
+      "id": 497,
+      "tag": "storm",
+      "gloss": "Rationale: recruiting mirrors sales, so bonuses make sense",
+      "relevance": 1,
+      "reason": "Sales-process analogy, general theory not pay data"
+    },
+    {
+      "id": 498,
+      "tag": "storm",
+      "gloss": "Argument against bonus programs: salary already covers the job",
+      "relevance": 1,
+      "reason": "Field debate on bonus programs, not decision-relevant data"
+    },
+    {
+      "id": 503,
+      "tag": "storm",
+      "gloss": "Compensation varies by employment setting",
+      "relevance": 1,
+      "reason": "Bare transition sentence, no data"
+    },
+    {
+      "id": 511,
+      "tag": "storm",
+      "gloss": "Matching expertise minimizes bad hire risk",
+      "relevance": 1,
+      "reason": "general recruiter role description, no pay data"
+    },
+    {
+      "id": 512,
+      "tag": "storm",
+      "gloss": "Reasons organizations turn to executive search",
+      "relevance": 1,
+      "reason": "why orgs use executive search, not pay-related"
+    },
+    {
+      "id": 522,
+      "tag": "storm",
+      "gloss": "Retainer framed as professional fee, not a deposit",
+      "relevance": 1,
+      "reason": "framing/analogy for retainer, no numbers"
+    },
+    {
+      "id": 523,
+      "tag": "storm",
+      "gloss": "Recruiter prefers term 'engagement' over 'retainer'",
+      "relevance": 1,
+      "reason": "opinion on terminology, no data"
+    },
+    {
+      "id": 524,
+      "tag": "storm",
+      "gloss": "What the fee buys: exclusivity and 200-500 candidate pipeline",
+      "relevance": 1,
+      "reason": "candidate volume stat, not pay-related"
+    },
+    {
+      "id": 525,
+      "tag": "storm",
+      "gloss": "Typical 90-100 day search timeline",
+      "relevance": 1,
+      "reason": "search timeline stat, not commission data"
+    },
+    {
+      "id": 526,
+      "tag": "storm",
+      "gloss": "Alternate 4-6 week shortlist timeline",
+      "relevance": 1,
+      "reason": "shortlist timeline detail, tangential"
+    },
+    {
+      "id": 527,
+      "tag": "storm",
+      "gloss": "Firm's scope of work beyond sourcing candidates",
+      "relevance": 1,
+      "reason": "service scope description, no pay figures"
+    },
+    {
+      "id": 528,
+      "tag": "storm",
+      "gloss": "Final candidate shortlist presentation details",
+      "relevance": 1,
+      "reason": "shortlist size detail, tangential"
+    },
+    {
+      "id": 536,
+      "tag": "storm",
+      "gloss": "Exclusivity justifies dedicating full researcher resources",
+      "relevance": 1,
+      "reason": "rationale elaboration, no data"
+    },
+    {
+      "id": 545,
+      "tag": "storm",
+      "gloss": "WorldatWork research links dynamic pay to outcomes",
+      "relevance": 1,
+      "reason": "Vague research citation, no usable figure"
+    },
+    {
+      "id": 549,
+      "tag": "storm",
+      "gloss": "Benefits of pure commission",
+      "relevance": 1,
+      "reason": "Generic benefits list"
+    },
+    {
+      "id": 550,
+      "tag": "storm",
+      "gloss": "Challenges of pure commission",
+      "relevance": 1,
+      "reason": "Generic challenges list"
+    },
+    {
+      "id": 560,
+      "tag": "storm",
+      "gloss": "Draw vs salary affects tax/benefits treatment and why draws get chosen",
+      "relevance": 1,
+      "reason": "Payroll tax/benefits detail, off-focus for reader's earnings question"
+    },
+    {
+      "id": 581,
+      "tag": "storm",
+      "gloss": "Remote work standardizing pay by scope rather than geography",
+      "relevance": 1,
+      "reason": "Remote-work trend commentary, tangential to commission rates"
+    },
+    {
+      "id": 583,
+      "tag": "storm",
+      "gloss": "LinkedIn survey: recruiter job postings rose ~7x June 2021 vs June 2020",
+      "relevance": 1,
+      "reason": "Job-posting demand stat, not about recruiter pay or fees"
+    },
+    {
+      "id": 605,
+      "tag": "storm",
+      "gloss": "Labor market cooling after 2023-2024 record pay raises",
+      "relevance": 1,
+      "reason": "Generic macro labor-market color, not recruiter-specific"
+    },
+    {
+      "id": 607,
+      "tag": "storm",
+      "gloss": "2025 salary movement standardizing to ~3% average midpoint",
+      "relevance": 1,
+      "reason": "Generic cross-industry salary-movement stat, not recruiter-specific"
+    },
+    {
+      "id": 609,
+      "tag": "storm",
+      "gloss": "Average projected 2024-2025 salary-structure movement vs labor budget",
+      "relevance": 1,
+      "reason": "Generic comp-budget trend, not tied to recruiters"
+    },
+    {
+      "id": 610,
+      "tag": "storm",
+      "gloss": "2022 hiring-wave inflation of recruiter pay has normalized",
+      "relevance": 1,
+      "reason": "Background market narrative, no recruiter pay figure"
+    },
+    {
+      "id": 623,
+      "tag": "storm",
+      "gloss": "Salaries vary by location tracking cost of living/demand",
+      "relevance": 1,
+      "reason": "Vague general statement about geographic variation, no numbers"
+    },
+    {
+      "id": 629,
+      "tag": "storm",
+      "gloss": "Why Seattle out-pays NY (employer mix)",
+      "relevance": 1,
+      "reason": "Explanatory reasoning for a geographic gap, no new data"
+    },
+    {
+      "id": 630,
+      "tag": "storm",
+      "gloss": "Recruiters serve local markets; larger firms go national/international",
+      "relevance": 1,
+      "reason": "General note on market scope of recruiter types, no pay data"
+    },
+    {
+      "id": 632,
+      "tag": "storm",
+      "gloss": "Executive search firms more likely international",
+      "relevance": 1,
+      "reason": "exec search scope note, no pay data"
+    },
+    {
+      "id": 633,
+      "tag": "storm",
+      "gloss": "Remote work reshapes pay differently by seniority",
+      "relevance": 1,
+      "reason": "generic intro line, no numbers"
+    },
+    {
+      "id": 638,
+      "tag": "storm",
+      "gloss": "Why senior remote pay holds up (relationships/judgment/pipeline)",
+      "relevance": 1,
+      "reason": "qualitative rationale, no data"
+    },
+    {
+      "id": 645,
+      "tag": "storm",
+      "gloss": "Education level correlates with recruiter earnings",
+      "relevance": 1,
+      "reason": "generic correlation claim, no number"
+    },
+    {
+      "id": 649,
+      "tag": "storm",
+      "gloss": "Larger companies offer higher salaries/benefits",
+      "relevance": 1,
+      "reason": "generic company-size claim, no figure"
+    },
+    {
+      "id": 653,
+      "tag": "storm",
+      "gloss": "Local economic conditions move salary ranges",
+      "relevance": 1,
+      "reason": "generic regional-economy claim, no figure"
+    },
+    {
+      "id": 654,
+      "tag": "storm",
+      "gloss": "Recruiter job postings surged sevenfold (2021 vs 2020)",
+      "relevance": 1,
+      "reason": "hiring-volume stat, not pay-related"
+    },
+    {
+      "id": 655,
+      "tag": "storm",
+      "gloss": "Cost of living pushes salaries up in expensive markets",
+      "relevance": 1,
+      "reason": "generic cost-of-living claim, no figure"
+    },
+    {
+      "id": 673,
+      "tag": "storm",
+      "gloss": "Certifications/specialized skills command a premium",
+      "relevance": 1,
+      "reason": "Vague premium claim, no figures"
+    },
+    {
+      "id": 674,
+      "tag": "storm",
+      "gloss": "Broader 2026 shift toward skills-based pay",
+      "relevance": 1,
+      "reason": "Broad market trend, not about recruiter pay structure"
+    },
+    {
+      "id": 675,
+      "tag": "storm",
+      "gloss": "2022 hiring wave pay inflation has normalized",
+      "relevance": 1,
+      "reason": "Historical market note, no current benchmark value"
+    },
+    {
+      "id": 676,
+      "tag": "storm",
+      "gloss": "86% of HR leaders pay more for specialized/AI skills",
+      "relevance": 1,
+      "reason": "Stat about candidate salaries, not recruiter compensation"
+    },
+    {
+      "id": 681,
+      "tag": "storm",
+      "gloss": "Base salary figures vary a lot depending on which source/methodology is used",
+      "relevance": 1,
+      "reason": "Lead-in sentence, no data itself"
+    },
+    {
+      "id": 692,
+      "tag": "storm",
+      "gloss": "Why source methodology matters: Indeed reports base only, Glassdoor reports total pay",
+      "relevance": 1,
+      "reason": "methodology caveat about source discrepancy, not a usable number itself"
+    },
+    {
+      "id": 694,
+      "tag": "storm",
+      "gloss": "New York City recruiter salary estimates",
+      "relevance": 1,
+      "reason": "city base salary, not commission-by-type data the article promises"
+    },
+    {
+      "id": 695,
+      "tag": "storm",
+      "gloss": "Chicago recruiter salary",
+      "relevance": 1,
+      "reason": "city base salary, off the commission/type angle"
+    },
+    {
+      "id": 696,
+      "tag": "storm",
+      "gloss": "Atlanta recruiter salary estimates",
+      "relevance": 1,
+      "reason": "city base salary, off the commission/type angle"
+    },
+    {
+      "id": 697,
+      "tag": "storm",
+      "gloss": "Nashville recruiter salary",
+      "relevance": 1,
+      "reason": "city base salary, off the commission/type angle"
+    },
+    {
+      "id": 698,
+      "tag": "storm",
+      "gloss": "Phoenix recruiter salary",
+      "relevance": 1,
+      "reason": "city base salary, off the commission/type angle"
+    },
+    {
+      "id": 699,
+      "tag": "storm",
+      "gloss": "Houston recruiter salary",
+      "relevance": 1,
+      "reason": "city base salary, off the commission/type angle"
+    },
+    {
+      "id": 700,
+      "tag": "storm",
+      "gloss": "Dallas recruiter salary estimates",
+      "relevance": 1,
+      "reason": "city base salary, off the commission/type angle"
+    },
+    {
+      "id": 701,
+      "tag": "storm",
+      "gloss": "Indianapolis recruiter salary",
+      "relevance": 1,
+      "reason": "city base salary, off the commission/type angle"
+    },
+    {
+      "id": 702,
+      "tag": "storm",
+      "gloss": "Omaha recruiter salary",
+      "relevance": 1,
+      "reason": "city base salary, off the commission/type angle"
+    },
+    {
+      "id": 703,
+      "tag": "storm",
+      "gloss": "San Francisco/Bay Area recruiter salary estimates, tech-demand driven",
+      "relevance": 1,
+      "reason": "regional base salary range, off the commission/type angle"
+    },
+    {
+      "id": 704,
+      "tag": "storm",
+      "gloss": "Boston and Seattle recruiter salary range",
+      "relevance": 1,
+      "reason": "regional base salary, off the commission/type angle"
+    },
+    {
+      "id": 705,
+      "tag": "storm",
+      "gloss": "Remote US-based recruiter pay range, incl. lower-cost-area exceptions",
+      "relevance": 1,
+      "reason": "remote base salary range, off the commission/type angle"
+    },
+    {
+      "id": 706,
+      "tag": "storm",
+      "gloss": "Secondary/southern/midwestern market recruiter pay range",
+      "relevance": 1,
+      "reason": "generic regional bucket, off the commission/type angle"
+    },
+    {
+      "id": 707,
+      "tag": "storm",
+      "gloss": "UK recruiter salary levels and how they compare structurally to US pay",
+      "relevance": 1,
+      "reason": "UK base salary comparison, off the commission/type angle"
+    },
+    {
+      "id": 709,
+      "tag": "storm",
+      "gloss": "Alternate general hourly wage range for recruiters",
+      "relevance": 1,
+      "reason": "vague hourly wage with no clear recruiter-type tie"
+    },
+    {
+      "id": 723,
+      "tag": "storm",
+      "gloss": "Claim that four commission structure types recur industry-wide",
+      "relevance": 1,
+      "reason": "Bare lead-in sentence, no data"
+    },
+    {
+      "id": 736,
+      "tag": "storm",
+      "gloss": "Claim that structural factors reduce a recruiter's effective take-home below the headline commission rate",
+      "relevance": 1,
+      "reason": "Bare lead-in sentence, no data"
+    },
+    {
+      "id": 742,
+      "tag": "storm",
+      "gloss": "Two structural recruiter categories and what they determine",
+      "relevance": 1,
+      "reason": "Bare lead-in sentence, no data"
+    },
+    {
+      "id": 746,
+      "tag": "storm",
+      "gloss": "Hiring types external recruiters cover",
+      "relevance": 1,
+      "reason": "General scope detail, not a benchmarking figure"
+    },
+    {
+      "id": 747,
+      "tag": "storm",
+      "gloss": "External recruiter specialization axes",
+      "relevance": 1,
+      "reason": "General specialization detail, not a benchmarking figure"
+    },
+    {
+      "id": 750,
+      "tag": "storm",
+      "gloss": "Headhunters vs recruiters differentiation basis",
+      "relevance": 1,
+      "reason": "Bare lead-in sentence, no data"
+    },
+    {
+      "id": 751,
+      "tag": "storm",
+      "gloss": "Headhunter method and target talent",
+      "relevance": 1,
+      "reason": "Headhunter sourcing style, no pay data"
+    },
+    {
+      "id": 752,
+      "tag": "storm",
+      "gloss": "Recruiters handle active-candidate roles",
+      "relevance": 1,
+      "reason": "Recruiter vs headhunter role split, no pay data"
+    },
+    {
+      "id": 753,
+      "tag": "storm",
+      "gloss": "Technical recruiting as distinct specialization",
+      "relevance": 1,
+      "reason": "Technical recruiting as a niche, no pay data"
+    },
+    {
+      "id": 754,
+      "tag": "storm",
+      "gloss": "Definition of a technical recruiter",
+      "relevance": 1,
+      "reason": "Definition only, no pay data"
+    },
+    {
+      "id": 756,
+      "tag": "storm",
+      "gloss": "VP People and CPO pay context",
+      "relevance": 1,
+      "reason": "VP People/CPO comp, not a recruiter earning benchmark"
+    },
+    {
+      "id": 757,
+      "tag": "storm",
+      "gloss": "Certified Technical Recruiter (CTR) credential details",
+      "relevance": 1,
+      "reason": "Certification cost, not commission data"
+    },
+    {
+      "id": 770,
+      "tag": "storm",
+      "gloss": "Duplicate candidates from simultaneous contingency firms",
+      "relevance": 1,
+      "reason": "Client-side downside, not reader's earnings"
+    },
+    {
+      "id": 775,
+      "tag": "storm",
+      "gloss": "Exclusivity gives recruiter confidence to invest resources",
+      "relevance": 1,
+      "reason": "Soft rationale, no data"
+    },
+    {
+      "id": 793,
+      "tag": "storm",
+      "gloss": "Indeed data methodology: 20 job postings over trailing 36 months, updated June 28, 2026",
+      "relevance": 1,
+      "reason": "source/methodology note, not a usable figure"
+    },
+    {
+      "id": 805,
+      "tag": "storm",
+      "gloss": "BLS data frames recruiter pay by employment-setting industry, the axis tech recruiting sits atop",
+      "relevance": 1,
+      "reason": "transition sentence, no figure"
+    },
+    {
+      "id": 809,
+      "tag": "storm",
+      "gloss": "Quoted claim that tech or finance recruiters out-earn recruiters hiring retail staff",
+      "relevance": 1,
+      "reason": "generic restatement, no new data"
+    },
+    {
+      "id": 810,
+      "tag": "storm",
+      "gloss": "Quoted claim that specializing in a hot, valued field boosts recruiter market value and compensation",
+      "relevance": 1,
+      "reason": "generic career-advice filler, off the commission-data angle"
+    },
+    {
+      "id": 819,
+      "tag": "storm",
+      "gloss": "Certification payoff is framed as placement quality/retention rather than placement speed",
+      "relevance": 1,
+      "reason": "Retention-quality framing, tangential to commission structure"
+    },
+    {
+      "id": 824,
+      "tag": "storm",
+      "gloss": "Physician search length and required compensation fluency",
+      "relevance": 1,
+      "reason": "Candidate comp model (RVU), not recruiter's own commission"
+    },
+    {
+      "id": 832,
+      "tag": "storm",
+      "gloss": "Hospital-system benefits package premium and contents",
+      "relevance": 1,
+      "reason": "Benefits-package premium, not commission/per-hire pay"
+    },
+    {
+      "id": 843,
+      "tag": "storm",
+      "gloss": "VMS/ATS proficiency as baseline expectation",
+      "relevance": 1,
+      "reason": "Vague skill requirement, no pay figure"
+    },
+    {
+      "id": 855,
+      "tag": "storm",
+      "gloss": "Cardiology recruitment cost driver, subspecialist escalation",
+      "relevance": 1,
+      "reason": "Cost driver commentary, no recruiter-pay figure"
+    },
+    {
+      "id": 856,
+      "tag": "storm",
+      "gloss": "OB/GYN recruitment cost driver",
+      "relevance": 1,
+      "reason": "Employer hiring-difficulty context, not recruiter earnings"
+    },
+    {
+      "id": 857,
+      "tag": "storm",
+      "gloss": "Pediatrics recruitment cost driver",
+      "relevance": 1,
+      "reason": "Employer cost variance by setting, not recruiter pay"
+    },
+    {
+      "id": 858,
+      "tag": "storm",
+      "gloss": "Emergency medicine/radiology as high budget priority",
+      "relevance": 1,
+      "reason": "Budget-priority note, not recruiter earnings"
+    },
+    {
+      "id": 859,
+      "tag": "storm",
+      "gloss": "Psychiatry as most expensive specialty to recruit",
+      "relevance": 1,
+      "reason": "Recruiting-difficulty narrative, no recruiter pay figure"
+    },
+    {
+      "id": 860,
+      "tag": "storm",
+      "gloss": "Hospitalists recruitment cost driver",
+      "relevance": 1,
+      "reason": "Cost/difficulty note, not recruiter earnings"
+    },
+    {
+      "id": 867,
+      "tag": "storm",
+      "gloss": "Clinical experience not required; on-the-job learning of clinical landscape",
+      "relevance": 1,
+      "reason": "Career-entry background note, not pay-related"
+    },
+    {
+      "id": 883,
+      "tag": "storm",
+      "gloss": "Physician recruiting departs from percentage-of-salary fee logic",
+      "relevance": 1,
+      "reason": "Transition sentence, no hard data of its own"
+    },
+    {
+      "id": 889,
+      "tag": "storm",
+      "gloss": "Physician retained fee yields larger absolute dollar amount due to higher comp",
+      "relevance": 1,
+      "reason": "Explanatory logic only, no new figure"
+    },
+    {
+      "id": 890,
+      "tag": "storm",
+      "gloss": "Technical/physician fee variation tied to specialization and scarcity",
+      "relevance": 1,
+      "reason": "General claim, no numbers, restates prior cards"
+    },
+    {
+      "id": 892,
+      "tag": "storm",
+      "gloss": "Quote: technical leadership roles in emerging sectors justify premium fees",
+      "relevance": 1,
+      "reason": "Qualitative quote, no concrete figure"
+    },
+    {
+      "id": 899,
+      "tag": "storm",
+      "gloss": "Physician fee justification framed against vacancy cost, unlike generalist",
+      "relevance": 1,
+      "reason": "Transition sentence, no hard data"
+    },
+    {
+      "id": 902,
+      "tag": "storm",
+      "gloss": "Physician credentialing/onboarding cost range $3,000-$10,000",
+      "relevance": 1,
+      "reason": "Physician credentialing/onboarding cost, not recruiter pay"
+    },
+    {
+      "id": 912,
+      "tag": "storm",
+      "gloss": "Percentile figures come from different release years and diverge from the May 2024 median",
+      "relevance": 1,
+      "reason": "Caveat about data inconsistency across BLS vintages, not a usable figure"
+    },
+    {
+      "id": 914,
+      "tag": "storm",
+      "gloss": "ASA Staffing Employment & Sales Survey scope and sectors covered",
+      "relevance": 1,
+      "reason": "Survey methodology description, no figures"
+    },
+    {
+      "id": 918,
+      "tag": "storm",
+      "gloss": "ASA Staffing Compensation and Benefits Survey description",
+      "relevance": 1,
+      "reason": "Survey description, no figures yet"
+    },
+    {
+      "id": 924,
+      "tag": "storm",
+      "gloss": "SIA annual Staffing Company Survey scope",
+      "relevance": 1,
+      "reason": "Survey pointer, no figures"
+    },
+    {
+      "id": 926,
+      "tag": "storm",
+      "gloss": "SIA estimate of total US staffing/recruiting industry revenue in 2024",
+      "relevance": 1,
+      "reason": "Industry revenue total, not tied to recruiter pay"
+    },
+    {
+      "id": 932,
+      "tag": "storm",
+      "gloss": "IBISWorld sizing of the US executive-search market",
+      "relevance": 1,
+      "reason": "Market size, not recruiter earnings/commission data"
+    }
+  ]
+}

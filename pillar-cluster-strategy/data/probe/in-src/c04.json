@@ -1,0 +1,367 @@
+{
+  "theme": "Candidate Screening & Proctoring",
+  "key": "c04",
+  "n_pillars": 36,
+  "pillars": [
+    {
+      "pillar": "Screening Candidates with Programming & Technical Tests",
+      "n": 14,
+      "intent": "informational",
+      "sample_spokes": [
+        "candidate-screening-with-technical-skills-assessment",
+        "how-css-test-helps-you-screen-candidates",
+        "how-sql-test-helps-you-screen-candidates"
+      ]
+    },
+    {
+      "pillar": "Screening for Management, Sales & Business Roles",
+      "n": 13,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-management-test-helps-you-screen-candidates",
+        "how-project-manager-test-helps-you-screen-candidates",
+        "how-sales-test-helps-you-screen-candidates"
+      ]
+    },
+    {
+      "pillar": "Screening Skilled Trades & Engineering Candidates",
+      "n": 12,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-electrical-engineering-test-helps-you-screen-candidates",
+        "how-general-contractor-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-electrical-engineering-test"
+      ]
+    },
+    {
+      "pillar": "Online Proctoring Basics & Setup",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "automated-proctoring",
+        "live-proctoring",
+        "online-proctoring"
+      ]
+    },
+    {
+      "pillar": "Candidate Screening Fundamentals & Best Practices",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "best-methods-for-screening-candidates",
+        "how-important-is-background-screening-before-hiring",
+        "how-to-automate-your-candidate-screening-process"
+      ]
+    },
+    {
+      "pillar": "Hiring Bias & Bias-Free Screening",
+      "n": 11,
+      "intent": "mixed",
+      "sample_spokes": [
+        "affinity-bias",
+        "common-types-of-hiring-bias",
+        "contrast-effect-bias-and-how-to-avoid-it"
+      ]
+    },
+    {
+      "pillar": "Fair & Bias-Free Hiring",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "blind-hiring",
+        "cognitive-bias-is-harming-your-hiring-process",
+        "halo-and-horn-effect"
+      ]
+    },
+    {
+      "pillar": "Screening with Personality & Behavioral Assessments",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "candidate-screening-with-leadership-assessment",
+        "candidate-screening-with-personality-assessment",
+        "candidate-screening-with-work-reliability-test"
+      ]
+    },
+    {
+      "pillar": "Video & Audio Interviews",
+      "n": 10,
+      "intent": "mixed",
+      "sample_spokes": [
+        "benefits-of-using-video-and-audio-interviews",
+        "challenges-of-using-video-and-audio-interviews",
+        "how-to-score-video-and-audio-interview-responses"
+      ]
+    },
+    {
+      "pillar": "Screening with Cognitive & Aptitude Tests",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-analytical-ability-test-helps-you-screen-candidates",
+        "how-aptitude-assessment-helps-you-screen-candidates",
+        "how-deductive-reasoning-test-helps-you-screen-candidates"
+      ]
+    },
+    {
+      "pillar": "AI Interviews for Hiring",
+      "n": 9,
+      "intent": "mixed",
+      "sample_spokes": [
+        "ai-interviewers",
+        "ai-interviews-for-candidate-screening",
+        "ai-interviews-for-global-hiring"
+      ]
+    },
+    {
+      "pillar": "Preventing Cheating in Online Tests",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "detect-cheating-in-exams-using-analytics",
+        "ensuring-integrity-in-online-tests-with-anti-cheating-measures",
+        "how-to-prevent-cheating-in-online-interviews"
+      ]
+    },
+    {
+      "pillar": "Resume Screening Techniques",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "benefits-of-ai-resume-screening",
+        "candidate-experience-with-white-labeled-assessments",
+        "identify-and-address-fake-employment-references"
+      ]
+    },
+    {
+      "pillar": "Designing Effective Technical Interview Questions",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "interview-questions-to-check-if-the-candidate-is-tech-savvy",
+        "soft-skills-interview-question-bank",
+        "technical-interview-questions-to-assess-problem-solving-skills"
+      ]
+    },
+    {
+      "pillar": "AI Proctoring for Online Exams",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "ai-powered-proctoring",
+        "ai-proctoring-compliance",
+        "ai-proctoring-in-certification"
+      ]
+    },
+    {
+      "pillar": "Online Test Integrity & Plagiarism Detection",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "a-comprehensive-guide-to-online-test-integrity",
+        "authenticity-in-assessment-human-resources-approach-to-plagiarism-detection",
+        "automated-scoring-for-custom-questions-in-assessments"
+      ]
+    },
+    {
+      "pillar": "Candidate Screening Software & Tools",
+      "n": 7,
+      "intent": "commercial",
+      "sample_spokes": [
+        "candidate-screening-software",
+        "candidate-screening-with-talent-assessment-tools",
+        "employer-brand-best-pre-screening-tool"
+      ]
+    },
+    {
+      "pillar": "How to Conduct Effective & Structured Interviews",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-conduct-a-structured-job-interview",
+        "how-to-conduct-an-effective-job-interview",
+        "how-to-conduct-effective-interviews"
+      ]
+    },
+    {
+      "pillar": "Candidate Screening & Search",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "ai-powered-phone-screening",
+        "candidate-persona",
+        "candidate-profiling"
+      ]
+    },
+    {
+      "pillar": "Background & Reference Checks in Hiring",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "background-checks",
+        "best-background-check-software-hr",
+        "conduct-thorough-background-checks-on-candidates-with-limited-resources"
+      ]
+    },
+    {
+      "pillar": "Recruitment & Employment Fraud Prevention",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "candidate-dishonesty",
+        "hr-training-strategies-to-stop-recruitment-fraud",
+        "prevent-qualification-fraud-in-hiring"
+      ]
+    },
+    {
+      "pillar": "Screening with English & Communication Tests",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "candidate-screening-with-communication-assessment",
+        "candidate-screening-with-english-proficiency-test",
+        "english-proficiency-test-helps-screen-candidates"
+      ]
+    },
+    {
+      "pillar": "Employee Monitoring & Performance Tracking",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "employee-monitoring-to-identify-top-performers",
+        "post-hire-employee-monitoring-and-behavioral-analysis",
+        "role-of-employee-monitoring-in-the-remote-work-era"
+      ]
+    },
+    {
+      "pillar": "Resume Screening, Parsing & Verification",
+      "n": 6,
+      "intent": "mixed",
+      "sample_spokes": [
+        "optimize-resume-for-tech-jobs",
+        "resume-review-process-affects-your-company-brand",
+        "resume-verification-process"
+      ]
+    },
+    {
+      "pillar": "Technical Screening & Online Exam Proctoring",
+      "n": 6,
+      "intent": "mixed",
+      "sample_spokes": [
+        "in-app-telephone-screening",
+        "lockdown-browser",
+        "system-compatibility-check-to-prevent-exam-failure"
+      ]
+    },
+    {
+      "pillar": "Using Technical Interview Questions to Screen Candidates",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-technical-interview-questions-helps-you-screen-candidates",
+        "how-to-hire-top-talent-using-technical-interview-questions",
+        "how-to-incorporate-technical-interview-questions-into-your-recruitment-strategy"
+      ]
+    },
+    {
+      "pillar": "Screening QA & Tool-Specific Test Candidates",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-qa-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-qa-test",
+        "simplify-candidate-screening-with-autocad-test"
+      ]
+    },
+    {
+      "pillar": "Remote Interviews & Candidate Communication",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-bridge-communication-gaps-during-interviews",
+        "how-to-communicate-with-candidates-post-interview",
+        "interview-invitation-email-templates"
+      ]
+    },
+    {
+      "pillar": "Remote Hiring & Virtual Assessments",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "conduct-system-diagnostics-for-remote-work",
+        "how-to-master-virtual-hiring-like-a-pro",
+        "remote-assessments-effective-for-evaluating-candidates"
+      ]
+    },
+    {
+      "pillar": "Interviewing Platforms & Tools",
+      "n": 4,
+      "intent": "commercial",
+      "sample_spokes": [
+        "global-interview-infrastructure",
+        "top-interviewing-platforms",
+        "top-video-interviewing-tools"
+      ]
+    },
+    {
+      "pillar": "Interview Process Metrics & Efficiency",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "broken-interview-process",
+        "interview-scheduling",
+        "interview-to-hire-ratio"
+      ]
+    },
+    {
+      "pillar": "Employee Selection, Vetting & Evaluation",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "employee-evaluation-forms",
+        "employee-profiling",
+        "employee-selection-methods"
+      ]
+    },
+    {
+      "pillar": "Proctoring for Technical & Coding Assessments",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "proctored-live-coding-projects",
+        "recruiter-cheat-sheet-how-to-assess-technical-roles",
+        "technical-assessment-platforms-with-live-proctoring"
+      ]
+    },
+    {
+      "pillar": "Interview Integrity & Red Flags",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "interview-red-flags-candidates",
+        "prevent-impostors-in-video-interviews",
+        "proxy-interview"
+      ]
+    },
+    {
+      "pillar": "Candidate Screening & Credential Verification",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "competency-evaluation-important-for-recruiting",
+        "evaluate-professional-certifications-for-recruiting-success",
+        "fake-certificates-in-recruitment"
+      ]
+    },
+    {
+      "pillar": "Resume Screening & Candidate Evaluation",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "detect-fake-resumes-in-hiring",
+        "drawbacks-of-relying-solely-on-resumes-in-pre-hiring",
+        "hiring-candidates-with-time-management-skills"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "row_id": 2490,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The page's own 'Topic Areas' and 'Question Types' sections are empty CMS placeholders ('include img component', 'Include video comp') repeated twice \u2014 it promises an exam-content breakdown but delivers nothing.",
+    "asset": "What Skills-Based Hiring Certification Actually Tests, Domain by Domain",
+    "distinct_angle": "Where SHRM-SCP's own topic-area and question-type sections are blank placeholder scaffolding, ours actually lists every domain and item type with a worked example, closing the exact gap their page leaves open.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: HR strategic leadership certification (SHRM-SCP)"
+  },
+  {
+    "row_id": 2512,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "CP vs. SCP eligibility is spread across dense paragraphs with no side-by-side comparison, and the page teases 'did you know 1 in 5 testers pick the wrong exam' without ever explaining how to actually decide.",
+    "asset": "Which Skills-Based Hiring Certification Track Actually Fits Your Experience Level",
+    "distinct_angle": "Unlike SHRM's paragraph-only eligibility writeup that only teases the '1 in 5 pick wrong' stat, ours puts both tracks in a direct comparison table and resolves the exact decision the stat raises but never answers.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: SHRM-CP/SHRM-SCP HR certification eligibility"
+  },
+  {
+    "row_id": 2515,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The page leaks an internal CMS/dev note into the public copy ('changing the context unsafe to disable XSS protection... embed component should be accessed only by restricted authors'), a literal broken-content artifact sitting mid-page.",
+    "asset": "What a Skills-Based Hiring Certification Actually Costs and When You Can Sit It",
+    "distinct_angle": "Where the competitor page has a leaked internal dev comment sitting in place of real content, ours delivers a clean, fully-written fees-and-scheduling breakdown with no CMS artifacts.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: SHRM-CP/SHRM-SCP exam fees and testing windows"
+  },
+  {
+    "row_id": 2680,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 jobseeker-facing certificate product; Testlify serves the hiring side (recruiters/TA), not candidates collecting their own certificates"
+  }
+]

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Study Trends — Idea Backlog Method 3</title>
+<style>
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16px; -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:960px; margin:0 auto; padding:0 28px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:56px 0 38px;}
+  .kicker{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:4px 11px; border-radius:100px; margin-bottom:16px;}
+  h1{font-size:clamp(26px,5vw,42px); line-height:1.1; margin:0 0 12px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:18px; color:var(--muted); max-width:660px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.93); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:3px; flex-wrap:wrap; padding:9px 0;}
+  nav a{font-size:12.5px; font-weight:600; color:var(--muted); text-decoration:none; padding:5px 10px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:48px 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  section.alt{background:var(--cream);}
+  h2{font-size:24px; letter-spacing:-.01em; margin:0 0 4px;}
+  h2 .num{color:var(--orange); margin-right:9px;}
+  .sub{color:var(--muted); margin:0 0 22px; font-size:16px; max-width:680px;}
+  h3{font-size:16px; margin:20px 0 6px;}
+  p{margin:0 0 10px;}
+  ul{margin:5px 0 10px; padding-left:20px;}
+  li{margin:4px 0; font-size:15px; color:var(--muted);}
+  li b{color:var(--ink);}
+
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:11.5px; background:#fff;
+    border:1px solid var(--orange-soft); border-radius:5px; padding:2px 6px; color:var(--ink);}
+
+  .note{border-radius:11px; padding:13px 16px; margin:12px 0; font-size:14.5px; border:1px solid;}
+  .note.yellow{background:var(--cream); border-color:var(--line); border-left:4px solid var(--yellow);}
+  .note strong{display:block; font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin-bottom:3px;}
+
+  .flow{margin-top:10px;}
+  .step{display:flex; gap:15px; position:relative; padding:10px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:21px; top:48px; bottom:-10px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-weight:800;
+    font-size:15px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow);}
+  .dot.gate{background:var(--orange-soft); border-color:var(--orange);}
+  .step-body{padding-top:2px;}
+  .step-body h3{margin:0 0 3px; font-size:15.5px;}
+  .step-body p{margin:0; color:var(--muted); font-size:14.5px;}
+
+  .outfiles{display:flex; flex-direction:column; gap:9px; margin:14px 0;}
+  .outfile{border:1px solid var(--line); border-radius:11px; padding:12px 16px; background:var(--paper); box-shadow:var(--shadow);}
+  .outfile .f{margin-bottom:3px;}
+  .outfile p{margin:0; font-size:14px; color:var(--muted);}
+
+  .contrast{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:14px 0;}
+  .cbox{border:1px solid var(--line); border-radius:11px; padding:13px 16px; box-shadow:var(--shadow);}
+  .cbox.bad{border-left:3px solid #c2603a; background:#fdf3f0;}
+  .cbox.good{border-left:3px solid var(--green-ink); background:var(--green);}
+  .cbox .clabel{font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; margin-bottom:5px;}
+  .cbox.bad .clabel{color:#c2603a;}
+  .cbox.good .clabel{color:var(--green-ink);}
+  .cbox p{margin:0; font-size:14px; color:var(--ink);}
+
+  .tests{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:14px 0;}
+  .test{border:1px solid var(--line); border-radius:11px; padding:13px 16px; background:var(--paper); box-shadow:var(--shadow);}
+  .test h3{margin:0 0 7px; font-size:15px;}
+  .test ul{margin:0; padding-left:18px;}
+  .test li{font-size:13.5px; margin:3px 0;}
+
+  footer{padding:32px 0 52px; color:var(--muted); font-size:13px;}
+  @media(max-width:700px){.contrast,.tests{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="kicker">Asset Engine · Idea Backlog · Method 3 of 3</span>
+    <h1>Study Trends — <span class="hl">what the niche is arguing about right now</span></h1>
+    <p class="lede">Scrape Reddit, find the recurring tensions, filter to ones worth building an asset about,
+    turn each into an idea. The only method that surfaces timely, current-events angles.</p>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#concept">Concept</a>
+    <a href="#output">Output</a>
+    <a href="#gather">Phase A — Gather</a>
+    <a href="#mine">Phase B — Mine</a>
+    <a href="#filter">Filter</a>
+    <a href="#ideas">Ideas</a>
+  </div>
+</nav>
+
+<section id="concept">
+  <div class="wrap">
+    <h2><span class="num">01</span>The one rule</h2>
+    <p class="sub">Reddit measures attention, not linkability. Viral drama earns nothing. The value is
+    the filtering — keep only tensions a writer would cite an asset about.</p>
+    <div class="note yellow"><strong>Method 3 of 3</strong>
+    Methods 1 and 2 surface proven formats. Method 3 adds timeliness — angles that only exist because
+    people are arguing about them this month. All three pools merge at the end of the asset-engine stage.</div>
+  </div>
+</section>
+
+<section id="output" class="alt">
+  <div class="wrap">
+    <h2><span class="num">02</span>What this produces</h2>
+    <div class="outfiles">
+      <div class="outfile">
+        <div class="f"><span class="file">study-trends-ideas.csv</span> — the deliverable</div>
+        <p>One row per asset idea, each tied to a tension with its engagement signals: post count, upvotes, subreddit spread, and a best-example URL.</p>
+      </div>
+      <div class="outfile">
+        <div class="f"><span class="file">tensions.csv</span> — working file</div>
+        <p>One row per tension: phrases people used, core pain, audience, emotion, debate ratio, implied data point, and filter verdicts.</p>
+      </div>
+      <div class="outfile">
+        <div class="f"><span class="file">phrase-map.csv</span> — audit trail</div>
+        <p>Every extracted phrase mapped to its tension, with source post IDs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gather">
+  <div class="wrap">
+    <h2><span class="num">A</span>Phase A — Gather</h2>
+    <div class="flow">
+      <div class="step"><div class="dot">1</div><div class="step-body">
+        <h3>Find subreddits</h3>
+        <p>Search for communities relevant to the niche. Vet each by actual post activity — upvotes and comments on top posts — not subscriber counts. Favour practitioner communities over large candidate-side ones.</p>
+      </div></div>
+      <div class="step"><div class="dot gate">2</div><div class="step-body">
+        <h3>Get user approval — gate</h3>
+        <p>Present each candidate with its name, activity level, and why it's relevant. Only proceed once approved.</p>
+      </div></div>
+      <div class="step"><div class="dot">3</div><div class="step-body">
+        <h3>Scrape</h3>
+        <p>Pull the top 25 posts of the past year from each approved community — post body, image text, and top comment threads included. This is the raw material for Phase B.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section id="mine" class="alt">
+  <div class="wrap">
+    <h2><span class="num">B</span>Phase B — Mine into tensions</h2>
+    <p class="sub">A tension is one sentence stating the specific conflict — not a topic label.</p>
+
+    <div class="contrast">
+      <div class="cbox bad">
+        <div class="clabel">Topic label — vague</div>
+        <p>"Fake remote jobs"</p>
+      </div>
+      <div class="cbox good">
+        <div class="clabel">Tension — specific and buildable</div>
+        <p>"Candidates apply for roles listed as remote that turn out to be secretly onsite."</p>
+      </div>
+    </div>
+
+    <h3>How tensions are built — three passes</h3>
+
+    <p><b>Pass 1 — Extract phrases from each post.</b> For each post, pull 2–3 short phrases (2–4 words) that capture what the post is actually about — the core complaint, and any point where multiple different commenters land on the same thing. Write them next to the post so every phrase stays tied to its source.</p>
+
+    <p><b>Pass 2 — Group phrases into tensions.</b> Look across all the phrases and group the ones that share the same underlying conflict. The test: can you write one honest sentence that describes the pain behind every phrase in the group? If yes, that's one tension. If you'd need two sentences, it's two tensions — keep them separate.</p>
+
+    <p>This is the most important part to get right. Two things can look related on the surface but be completely different tensions. For example: "ghosted after interview" and "5 interview rounds for one role" are both complaints about interviews. But the pain is different — one is about being ignored and disrespected, the other is about the process taking too long. Merging them into "interview frustrations" would blur what the asset needs to say. They stay as two distinct tensions.</p>
+
+    <p><b>Pass 3 — Assign every post to its tension.</b> Each post goes to whichever tension best describes its dominant complaint. Brand fit is not decided here — that's Stage 3's job. Posts that genuinely don't fit any tension go to a miscellaneous bucket, which should stay below 15% of all posts. Anything above that means the sort was too lazy.</p>
+
+    <h3>What each tension row holds</h3>
+    <p>Once all posts are assigned, each tension gets a full evidence row:</p>
+    <ul>
+      <li><b>Tension</b> — the one-sentence conflict statement</li>
+      <li><b>Core pain</b> — what's actually hurting people underneath the conflict (e.g. tension: "remote turns out onsite" → core pain: "people rearranged their life around a promise that was false")</li>
+      <li><b>Audience</b> — employer, candidate, or both</li>
+      <li><b>Emotion</b> — anger, anxiety, disbelief, or ridicule</li>
+      <li><b>Post count, upvotes, debate ratio, subreddit spread</b> — the engagement signals, counted mechanically from the data</li>
+      <li><b>Best example</b> — one post URL that most clearly embodies the tension</li>
+      <li><b>Representative quotes</b> — 2–3 verbatim comments in the people's own words</li>
+      <li><b>Sub-questions</b> — the specific things people actually disagree about inside the tension. For example, within the "remote turns out onsite" tension, people argue about: whether to sue, whether to name the company publicly, whether hybrid counts as remote. These sub-questions are potential angles for follow-up content. Note: do not include solution questions here ("would a better tool fix this?") — those belong to Stage 4.</li>
+      <li><b>Implied data point</b> — the number this tension is calling for. Every strong tension implies a stat that would settle the debate or prove the scale of the problem. For the remote-onsite tension, the implied data point is: "what percentage of roles listed as remote are actually onsite?" That stat would make a linkable asset.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="filter">
+  <div class="wrap">
+    <h2><span class="num">C</span>Filter the tensions</h2>
+    <p class="sub">Two tests per tension. Present survivors to the user before building ideas.</p>
+    <div class="tests">
+      <div class="test">
+        <h3>Linkability — ≥3 of 4 yes</h3>
+        <ul>
+          <li>Is there a citable number an asset could produce?</li>
+          <li>Would a journalist reference it?</li>
+          <li>Is it evergreen?</li>
+          <li>Does it fit a proven link-bait format?</li>
+        </ul>
+      </div>
+      <div class="test">
+        <h3>Ownability — vs brand-scope.md</h3>
+        <ul>
+          <li>Does it sit inside the brand scope?</li>
+          <li>Does the company have the data or authority to speak on it?</li>
+          <li>Before dropping any out-of-scope tension, check: can the same tension be pointed at an in-scope subject? If yes, keep as TRANSPLANT.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ideas" class="alt">
+  <div class="wrap">
+    <h2><span class="num">D</span>Tensions → asset ideas</h2>
+    <p class="sub">One kept tension → one asset idea. The shape comes from the tension's implied data
+    point, not a borrowed format.</p>
+    <p>Each idea gets a real working title with the tension visible in it, plus the unfair advantage — the specific product, data, or authority that lets this company own it.</p>
+    <div class="contrast">
+      <div class="cbox bad">
+        <div class="clabel">Format label</div>
+        <p>"Report on fake remote listings"</p>
+      </div>
+      <div class="cbox good">
+        <div class="clabel">Tension-visible title</div>
+        <p>"The Remote Job Mirage: What % of 'Remote' Listings Are Actually Onsite?"</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Study Trends · Idea Backlog Method 3 of 3 · Timely, tension-backed asset ideas from real practitioner communities.</div>
+</footer>
+</body>
+</html>

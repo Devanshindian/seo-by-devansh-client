@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3501,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The piece spends its 9 tips on generic remote-culture management (comms tools, rituals, virtual bonding) and only tacks 'Hire for culture add through skills testing' on as the very last TOC section \u2014 hiring/assessment is an afterthought CTA, not the throughline, even though that's the one angle a hiring-tech company can actually own.",
+    "asset": "How to Hire for Cultural Add Before Your Remote Team Ever Meets in Person",
+    "distinct_angle": "Makes pre-hire culture-add assessment the entire spine of the piece instead of a bolted-on CTA after nine generic culture-management tips, closing the gap where TestGorilla's hiring angle only shows up in the last section heading.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3512,
+    "brand_fit": "CORE",
+    "angle_gap": "The skills list (analytical, attention to detail, integrity, communication, critical thinking, adaptability, technical proficiency, teamwork) is a bare bullet checklist with no way to verify a candidate actually has any of them, and the 'template' is generic boilerplate placeholders (e.g. '[Compensation details, including salary and benefits]') rather than a filled, concrete example.",
+    "asset": "Writing an Auditor Job Description That Screens for Provable Skills, Not Just Buzzwords",
+    "distinct_angle": "Pairs each listed auditor skill with the specific assessment used to verify it before interview and swaps the placeholder template for a fully worked example \u2014 the verification step and concrete fill TestGorilla's bullet list and boilerplate template both skip.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3518,
+    "brand_fit": "CORE",
+    "angle_gap": "The explainer anchors entirely to TestGorilla's own proprietary fact sheets (naming its Communication test, English B1 test, and Attention to Detail test as the examples) rather than teaching a reader how to interpret a reliability coefficient from ANY vendor, and it never connects the metric back to the legal-defensibility (EEOC/adverse-impact) reason a buyer actually cares about reliability.",
+    "asset": "How to Read Any Assessment Vendor's Reliability Score Before You Trust It",
+    "distinct_angle": "Generalizes the interpretation guide beyond one vendor's proprietary fact-sheet format to any test's reported Cronbach's Alpha, and ties the reading directly to legal-defensibility risk \u2014 the vendor-lock-in framing and compliance link TestGorilla's piece never makes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3522,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'good OAR' benchmark cited is the 2017 SHRM Talent Acquisition Benchmarking Report (91% average, 96% median) \u2014 the page itself admits 'hiring conditions have changed dramatically since 2017' but never replaces the stat with a current figure or a breakdown by role/seniority.",
+    "asset": "What a Good Offer Acceptance Rate Actually Looks Like in 2026",
+    "distinct_angle": "Replaces the page's self-acknowledged-stale 2017 SHRM benchmark with the current public offer-acceptance figures and a breakdown by role, closing the exact gap the page flags but never fixes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3541,
+    "brand_fit": "CORE",
+    "angle_gap": "Despite the 'psychometric testing' title, the body is a generic remote-work statistics listicle (37% of job seekers weigh culture, 69% of companies have a remote worker, 74% of recruiters admit a remote bad hire) still framed around 2020-2021 pandemic conditions ('the old method of beer, ping pong tables... given the current situation of COVID-19'), and never walks through actually designing a culture-fit psychometric assessment.",
+    "asset": "Designing a Psychometric Screening Process for Remote Culture Fit, Step by Step",
+    "distinct_angle": "Delivers the actual step-by-step assessment design the title promises, replacing the page's dated COVID-era stat listicle with a current, practical build-out of a culture-fit psychometric process.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

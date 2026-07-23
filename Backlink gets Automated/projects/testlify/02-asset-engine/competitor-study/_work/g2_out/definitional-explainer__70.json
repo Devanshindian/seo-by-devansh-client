@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1634,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 total rewards strategy is compensation & benefits design, explicitly off-limits (payroll/benefits territory), and 'definitional explainer' is a generic article shape, not a distinctive link-pulling format worth transplanting"
+  },
+  {
+    "row_id": 1636,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 HR-to-employee ratio is an internal HR staffing/org-design metric (how many HR people a company needs), not a hiring/assessment subject; adjacent-HR territory we don't own"
+  },
+  {
+    "row_id": 1641,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 Job Characteristics Model is post-hire job design/motivation theory (task variety, autonomy, feedback), off-limits per the post-hire/OD exclusion, not a hiring or assessment subject"
+  },
+  {
+    "row_id": 1649,
+    "brand_fit": "CORE",
+    "angle_gap": "Walks all 7 funnel stages but backs them with only a single anecdotal CEO quote and a couple of generic LinkedIn stats \u2014 it never gives real stage-by-stage conversion/drop-off numbers, and it treats 'Evaluating' and 'Interviewing' as vague steps with no discussion of how an objective skills assessment (versus resume/gut-feel screening) actually narrows the funnel or where in the funnel candidates are lost hardest.",
+    "asset": "Where Candidates Actually Drop Out of the Recruitment Funnel, Stage by Stage",
+    "distinct_angle": "Replaces AIHR's single anecdotal example with real stage-by-stage conversion/drop-off benchmarks, and shows specifically how skills-based assessment at the Evaluating stage closes the widest drop-off point \u2014 depth and evidence this page never attempts.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1651,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 organizational effectiveness models (goal model, resource-based model, etc.) are general management/OD theory unconnected to hiring or assessment, outside our world"
+  }
+]

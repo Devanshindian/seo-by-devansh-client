@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 615,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'How to Assess Candidates' section only gestures at 'skills assessments' and 'case studies' in the abstract \u2014 it never shows a single sample scenario, question, or answer rubric for any of the five separation methods it lists (distillation, filtration, absorption, extraction, membrane separation).",
+    "asset": "How to Actually Assess Separation Processes Skills, With Worked Scenarios by Seniority",
+    "distinct_angle": "Adds a real worked assessment scenario and a junior-vs-senior scoring rubric for each separation method, the concrete evaluation guidance this page never gets past 'use case studies' to provide.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 616,
+    "brand_fit": "CORE",
+    "angle_gap": "The page lists five generic troubleshooting steps and three one-line examples (computers, network, software bugs), then its assessment advice \u2014 'practical tests' and 'scenario-based questions' \u2014 never shows an actual scenario or explains what separates a strong diagnostic answer from a weak one.",
+    "asset": "What Separates a Strong Technical Troubleshooting Answer From a Weak One",
+    "distinct_angle": "Walks through one real scenario-based troubleshooting question with a strong-vs-weak answer comparison, the concrete differentiation this page's 'ask scenario questions' line never delivers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 617,
+    "brand_fit": "CORE",
+    "angle_gap": "The page names two Alooba test formats (Concepts & Knowledge, Written Response) but never shows an actual dataset or trend to interpret, nor a rubric for what separates a candidate who spots a real pattern from one who just describes the chart back.",
+    "asset": "Assessing Trend Analysis With a Real Dataset Candidates Have to Interpret",
+    "distinct_angle": "Provides an actual sample dataset and interpretation question with a scoring rubric, replacing the page's abstract 'test their knowledge of trend identification methods' with something a hiring team can run directly.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 618,
+    "brand_fit": "CORE",
+    "angle_gap": "The page recommends a 'Practical Test' (build a content plan) and 'Portfolio Review' but gives no example content plan and no criteria for what a strong portfolio actually shows beyond the vague 'look for diversity in content types.'",
+    "asset": "Evaluating an Affiliate Content Strategy Candidate's Portfolio Like an Editor, Not a Checklist",
+    "distinct_angle": "Supplies a worked example content plan plus a concrete portfolio-scoring rubric, the evaluation standard this page's 'look for diversity' advice leaves undefined.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 619,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'How to Assess' section suggests giving candidates 'a real-world scenario' but never actually builds one \u2014 no budget numbers, no CAC/ROI figures, no scoring guide for judging the reallocation decisions a candidate proposes.",
+    "asset": "Assessing a Marketing Candidate's Ability to Scale a Campaign, With a Real Budget Scenario to Score",
+    "distinct_angle": "Adds an actual budget-reallocation scenario with real numbers and an ROI/CAC scoring guide, the worked exercise this page's 'give them a real-world scenario' suggestion never builds.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

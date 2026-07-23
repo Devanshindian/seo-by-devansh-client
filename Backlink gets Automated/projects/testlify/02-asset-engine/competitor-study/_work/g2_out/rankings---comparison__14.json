@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1828,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 ATS/recruiting-platform software rankings sit in a different product world (recruiting ops software) than skills assessment/AI interviewing; not a Testlify subject even though hiring-adjacent"
+  },
+  {
+    "row_id": 1832,
+    "brand_fit": "CORE",
+    "angle_gap": "Promises 'a comprehensive review of their features' but delivers unstructured prose blurbs per vendor (VidCruiter, Hireflix, SparkHire, Truffle, Brazen) with no comparison table, no pricing breakdown, and never once mentions anti-cheating, deepfake, or proxy-candidate detection \u2014 a decision factor that now matters as much as interview UX.",
+    "asset": "Video Interview Software That Actually Stops Deepfake and Proxy Candidates",
+    "distinct_angle": "Adds a real side-by-side comparison table and scores each vendor on anti-cheating/identity-verification depth, the exact axis this page skips entirely in favor of prose descriptions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1836,
+    "brand_fit": "CORE",
+    "angle_gap": "Stacks uncited statistics (30% cost-per-hire drop, hiring time falling from 44 to 11 days, 98% of hiring managers, 70% adoption by 2026) with no source given for any of them, and never addresses bias/adverse-impact risk or audit compliance (e.g., NYC LL144) even though it lists HireVue and Pymetrics, both tools that have faced public scrutiny over exactly that.",
+    "asset": "AI Screening Tools Judged by Whether They'd Survive a Bias Audit",
+    "distinct_angle": "Sources every 2026 stat to a named public report and adds a bias-audit/compliance column per tool, closing the sourcing and adverse-impact gap this page never touches despite naming HireVue and Pymetrics.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1844,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 general online recruitment platform (ATS/CRM/job board) round-up; recruiting-ops software is a different product world from skills assessment, not a Testlify subject"
+  },
+  {
+    "row_id": 1865,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 candidate sourcing tools (resume databases, passive-candidate search) are explicitly outside Testlify's world (skills assessment/testing), not just hiring-adjacent"
+  }
+]

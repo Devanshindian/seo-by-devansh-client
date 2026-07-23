@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1360,
+    "brand_fit": "CORE",
+    "angle_gap": "Doesn't distinguish Nuxt 2 vs Nuxt 3 conventions \u2014 references nuxt.config.js and generic 'state management' without addressing that Nuxt 3, now the current major version, uses Pinia over Vuex and a Composition-API-first config, so interviewers can't tell if a candidate's answer reflects current practice or outdated Nuxt 2 habits.",
+    "asset": "Nuxt.js Interview Questions That Separate Nuxt 3 Fluency from Outdated Nuxt 2 Habits",
+    "distinct_angle": "Flags which model answers only hold for Nuxt 2 versus current Nuxt 3 practice (Pinia, Composition API, Nitro), closing the version ambiguity this list leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1366,
+    "brand_fit": "CORE",
+    "angle_gap": "87 questions span basic TCP/IP, cabling, and mail-analogy fundamentals but never reach the networking topics enterprise hiring managers now actually screen for \u2014 zero-trust architecture, cloud/SDN networking, or IPv6 \u2014 leaving the list oriented entirely to on-prem basics.",
+    "asset": "Networking Interview Questions Updated for Cloud, Zero Trust, and IPv6",
+    "distinct_angle": "Adds the modern networking ground \u2014 zero-trust, cloud/SDN, IPv6 \u2014 this list skips entirely in favor of classic on-prem TCP/IP fundamentals.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1367,
+    "brand_fit": "CORE",
+    "angle_gap": "All 78 questions are answered in prose only \u2014 no code snippet appears anywhere in the piece \u2014 so a recruiter reading model answers on debugging, refactoring, or OOP can't tell a candidate who talks well about code from one who can actually write it.",
+    "asset": "Coding Interview Questions with the Code Snippets Behind Every Answer",
+    "distinct_angle": "Pairs every question with an actual code example illustrating the concept, closing the all-prose, no-code gap in this list.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1368,
+    "brand_fit": "CORE",
+    "angle_gap": "Published September 2024 but frames migrations, controllers, and the Kernel entirely on pre-Laravel 11 project structure \u2014 Laravel 11, released February 2024, removed app/Http/Kernel.php and streamlined the skeleton, so several model answers describe a layout current Laravel hires won't recognize.",
+    "asset": "Laravel Interview Questions Rebuilt Around Laravel 11's Streamlined Structure",
+    "distinct_angle": "Rewrites the migration, controller, and kernel answers for Laravel 11's slimmed-down app structure, fixing the pre-11 framing this list still runs on.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1375,
+    "brand_fit": "CORE",
+    "angle_gap": "Frames Blue Prism purely as an on-prem 'robot clicking buttons' through Process Studio and Object Studio, with no mention of the cloud-based Digital Workers and API-driven automation SS&C Blue Prism has shipped since acquiring the product in 2022 \u2014 the questions test a version of the tool that's no longer where hiring demand sits.",
+    "asset": "Blue Prism Interview Questions That Test for Cloud Digital Worker Skills, Not Just Desktop RPA",
+    "distinct_angle": "Extends past the on-prem Process Studio framing to cover SS&C Blue Prism's cloud Digital Workers and API automation, the gap this desktop-only list leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

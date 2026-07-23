@@ -1,0 +1,144 @@
+{
+  "slice_id": "w22",
+  "clusters": [
+    {
+      "pillar": "Strategic Human Resource Planning",
+      "intent": "informational",
+      "spokes": [
+        "case-studies-of-strategic-human-resource-planning",
+        "different-steps-in-strategic-human-resource-planning",
+        "get-started-with-strategic-human-resource-planning",
+        "guide-to-strategic-human-resource-management",
+        "how-to-create-a-strategic-human-resource-plan",
+        "how-to-implement-a-strategic-human-resource-plan",
+        "measure-success-of-strategic-human-resource-planning",
+        "mistakes-to-avoid-strategic-human-resource-planning",
+        "strategic-human-resource-planning-for-future-of-work",
+        "strategic-human-resource-planning-for-remote-teams",
+        "strategic-human-resource-planning-for-small-business",
+        "strategic-human-resource-planning-for-startups",
+        "the-importance-of-strategic-human-resource-planning",
+        "use-tech-to-support-strategic-human-resource-planning",
+        "what-is-strategic-human-resource-planning"
+      ]
+    },
+    {
+      "pillar": "Candidate Sourcing Strategy & Process",
+      "intent": "informational",
+      "spokes": [
+        "build-talent-sourcing-plan-for-business",
+        "case-studies-of-successful-sourcing-programs",
+        "common-mistakes-to-avoid-in-sourcing",
+        "direct-sourcing",
+        "how-to-create-a-sourcing-strategy",
+        "how-to-get-started-with-sourcing",
+        "how-to-manage-the-sourcing-process",
+        "how-to-master-effective-candidate-sourcing",
+        "how-to-measure-the-success-of-sourcing",
+        "strategies-for-candidate-sourcing-outreach",
+        "talent-sourcing-strategies",
+        "ultimate-guide-to-candidate-sourcing",
+        "what-are-the-different-types-of-sourcing-strategies"
+      ]
+    },
+    {
+      "pillar": "Sourcing for Specific Segments (Startups, SMBs, Remote, Hard-to-Fill)",
+      "intent": "informational",
+      "spokes": [
+        "how-to-source-candidates-for-hard-to-fill-roles",
+        "know-about-sourcing-for-small-businesses",
+        "know-about-sourcing-for-startups",
+        "sourcing-for-remote-teams"
+      ]
+    },
+    {
+      "pillar": "Candidate Sourcing Tools & Technology",
+      "intent": "commercial",
+      "spokes": [
+        "8-candidate-sourcing-tools-every-recruiter-should-use",
+        "best-tools-to-track-sources-of-recruitment",
+        "how-to-use-recruitment-tech-to-source-top-talent",
+        "sourcing-tools-recruiters-use-to-find-candidates",
+        "what-are-the-best-sourcing-tools-for-recruiters"
+      ]
+    },
+    {
+      "pillar": "Sources of Recruitment",
+      "intent": "informational",
+      "spokes": [
+        "choose-the-right-sources-of-recruitment",
+        "recruitment-sources",
+        "sources-of-recruitment-checklist",
+        "top-sources-of-recruitment",
+        "traditional-recruitment-sources-are-failing-modern-employers"
+      ]
+    },
+    {
+      "pillar": "Building & Managing a Talent Pool",
+      "intent": "informational",
+      "spokes": [
+        "build-a-talent-pool",
+        "how-to-assess-candidates-for-your-talent-pool",
+        "how-to-assess-the-current-talent-pool-for-succession-planning",
+        "how-to-source-candidates-for-your-talent-pool",
+        "how-to-use-talent-pool-to-improve-your-business-performance",
+        "how-to-use-talent-pool-to-improve-your-company-culture",
+        "how-to-use-talent-pool-to-improve-your-employee-retention",
+        "how-to-use-technology-to-manage-your-talent-pool",
+        "studies-of-companies-with-successful-talent-pools",
+        "uncovering-hidden-talent-pools-for-lateral-hires",
+        "what-are-the-benefits-of-building-a-talent-pool"
+      ]
+    },
+    {
+      "pillar": "Finding & Attracting Qualified Candidates",
+      "intent": "informational",
+      "spokes": [
+        "find-best-candidates-for-your-vacancies",
+        "how-to-find-and-attract-skilled-freelance-talent",
+        "how-to-find-qualified-candidates",
+        "how-to-find-top-talent-with-skill-based-hiring-tools",
+        "strategies-to-find-talent-in-the-gig-economy"
+      ]
+    },
+    {
+      "pillar": "Sourcing Passive Candidates & Talent Pipelines",
+      "intent": "informational",
+      "spokes": [
+        "attract-passive-candidates-who-are-not-actively-seeking-employment",
+        "passive-candidates",
+        "5-creative-ways-to-find-blue-collar-workers",
+        "leverage-campus-hiring-for-talent-pipeline",
+        "steps-to-take-to-nurture-talent-pipelines-for-future-hiring-needs"
+      ]
+    },
+    {
+      "pillar": "Human Resource Management Fundamentals",
+      "intent": "informational",
+      "spokes": [
+        "five-responsibilities-of-human-resources-director",
+        "how-ai-is-transforming-human-resources",
+        "human-resource-development",
+        "reasons-to-study-human-resource-management",
+        "tips-for-human-resource-management-strategy",
+        "top-human-resource-management-systems",
+        "ways-hr-can-assist-employee-resource-groups"
+      ]
+    },
+    {
+      "pillar": "HR Outsourcing & Recruitment Process Outsourcing",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-outsourcing-hr-functions",
+        "overcoming-hr-challenges-from-sourcing-to-onboarding",
+        "recruitment-process-outsourcing"
+      ]
+    }
+  ],
+  "orphans": [
+    "overcome-lack-of-diversity-due-to-unconscious-bias-in-sourcing-and-selection",
+    "resource-management-and-why-is-it-so-important",
+    "step-expert-guide-to-project-resource-management",
+    "tech-companies-switching-to-open-source-lms-platforms"
+  ]
+}

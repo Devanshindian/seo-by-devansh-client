@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 91,
+    "brand_fit": "CORE",
+    "angle_gap": "Promises to cover 'the role of skills assessments' in pharma DEI but the piece is all generic definitions, quotes, and unsourced-year stats (citations 1-6 with no dates) \u2014 it never actually shows how skills-based hiring closes the STEM/leadership representation gap it describes.",
+    "asset": "How Skills-Based Hiring Closes Pharma's STEM and Leadership Diversity Gap",
+    "distinct_angle": "Delivers the hiring-specific mechanism the competitor page only teases \u2014 concretely tying skills-based assessment to closing the STEM/leadership representation gap in pharma, instead of stopping at generic DEI definitions and dated survey quotes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 94,
+    "brand_fit": "CORE",
+    "angle_gap": "The HiPo criteria list (cognitive ability, EQ, ambition, 'cultural fit', track record) is entirely subjective and interview-driven \u2014 no validated test or scoring method is named for any trait, and 'cultural fit' as a criterion carries real adverse-impact risk the page never flags.",
+    "asset": "Which High-Potential Traits Actually Show Up in a Validated Assessment",
+    "distinct_angle": "Replaces the page's subjective, unvalidated trait checklist (including a bias-prone 'cultural fit' criterion) with which HiPo traits a validated cognitive/personality assessment can actually measure defensibly.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 96,
+    "brand_fit": "CORE",
+    "angle_gap": "The 8 'advantages' are asserted with zero citations (no validity coefficient, no source for turnover/cost claims), and the piece never once mentions adverse impact \u2014 the central legal risk of cognitive testing that any recruiter adopting these tests needs to know.",
+    "asset": "Cognitive Assessments in Hiring: The Validity Numbers and the Adverse-Impact Trade-off",
+    "distinct_angle": "Backs each claimed advantage with sourced validity research and adds the adverse-impact/legal-defensibility trade-off the competitor page omits entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 102,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers MBTI, HPI, DiSC, and 16PF but never states which are actually validated for employment decisions versus pop-psychology tools like MBTI (whose 'debated accuracy' the page itself admits) \u2014 and omits the Big Five/OCEAN model, the framework with the strongest employment-testing research base.",
+    "asset": "Which Personality Tests Are Actually Validated for Hiring Decisions",
+    "distinct_angle": "Adds a validity/legal-defensibility comparison across MBTI, HPI, DiSC, and 16PF, plus covers the Big Five model the page leaves out despite it being the most hiring-validated framework.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 103,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites a 0.51 vs 0.10 validity R-value with no source or date, and the piece cuts off mid-'Implementation Considerations' without ever addressing adverse impact/EEOC compliance \u2014 the best-documented legal risk of cognitive ability testing.",
+    "asset": "Cognitive Ability Test Validity: The Real Source Behind the 0.51 Number and the Adverse-Impact Risk It Ignores",
+    "distinct_angle": "Sources and verifies the unattributed 0.51 validity figure and adds the adverse-impact/EEOC compliance discussion the page never reaches.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

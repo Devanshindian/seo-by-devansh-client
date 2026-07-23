@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2588,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is diversity within AI development/tech industry workforces (who builds AI), not hiring, assessment, or screening practices; outside Testlify's world."
+  },
+  {
+    "row_id": 2591,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 year-end bonus/compensation payroll data (Gusto report); brand scope explicitly excludes payroll and benefits administration."
+  },
+  {
+    "row_id": 2592,
+    "brand_fit": "CORE",
+    "angle_gap": "Page is the May 2022 EEOC/DOJ technical-assistance release on AI and ADA disability discrimination; it never mentions the wave of AI-hiring-specific laws enacted since (NYC Local Law 144's bias-audit mandate, Illinois's AI Video Interview Act, Colorado's AI Act, the EU AI Act's high-risk classification of hiring tools), and gives no concrete compliance checklist for employers actually using assessment/screening software today.",
+    "asset": "AI Hiring Discrimination Rules Since the 2022 EEOC Warning: What Actually Changed",
+    "distinct_angle": "Updates the stale 2022 EEOC/DOJ guidance with the state and international AI-hiring laws enacted since (NYC LL144, Illinois, Colorado, EU AI Act) and translates them into concrete steps for vetting an assessment vendor \u2014 the currency and practical depth this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2593,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 scraped page has no article body, only nav/tag scaffolding; nothing to read or beat."
+  },
+  {
+    "row_id": 2595,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Page is a recap of a celebrity TV conversation (Oprah, Gates, Altman) speculating which jobs 'may survive' AI; it offers only vague opinion ('human, engaged' skills persist) with no data-grounded breakdown of which roles or skills are actually more AI-resistant, and nothing an HR leader can act on when redesigning screening criteria.",
+    "asset": "Which Skills Actually Survive AI Disruption: A Hiring Framework Beyond the Celebrity Predictions",
+    "distinct_angle": "Replaces Gates' and Altman's speculative TV-special opinions with a sourced breakdown of which skills and roles are genuinely more AI-resistant, framed as criteria recruiters can screen for \u2014 the actionable grounding this celebrity-punditry piece lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

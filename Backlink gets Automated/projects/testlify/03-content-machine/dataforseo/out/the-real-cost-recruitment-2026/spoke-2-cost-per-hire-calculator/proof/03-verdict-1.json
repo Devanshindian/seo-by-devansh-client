@@ -1,0 +1,202 @@
+[
+  {
+    "keyword": "cost per hire",
+    "relevance": 10,
+    "distinctness": 10,
+    "brand_fit": 8,
+    "reason": "The exact head term for the article's core calculation topic",
+    "role": "primary"
+  },
+  {
+    "keyword": "calculate cost per hire",
+    "relevance": 9,
+    "distinctness": 7,
+    "brand_fit": 7,
+    "reason": "Matches the DIY-calculation angle directly, distinct process/formula focus vs the bare head term",
+    "role": "secondary"
+  },
+  {
+    "keyword": "cost per hire calculator",
+    "relevance": 8,
+    "distinctness": 6,
+    "brand_fit": 7,
+    "reason": "Named spoke keyword; tool-intent deserves its own future article, not a section here",
+    "role": "spoke"
+  },
+  {
+    "keyword": "costs per hire",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Plural of primary, same intent/topic, clears KD/volume floor",
+    "role": "variation"
+  },
+  {
+    "keyword": "cost of hire",
+    "relevance": 8,
+    "distinctness": 3,
+    "brand_fit": 7,
+    "reason": "Synonym reword of primary, low KD, same commercial intent",
+    "role": "variation"
+  },
+  {
+    "keyword": "cost to hire",
+    "relevance": 8,
+    "distinctness": 3,
+    "brand_fit": 6,
+    "reason": "Synonym reword of primary, moderate KD still clears ceiling",
+    "role": "variation"
+  },
+  {
+    "keyword": "calculating cost per hire",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 6,
+    "reason": "Gerund near-duplicate of the calculate-cost-per-hire secondary, redundant",
+    "role": "drop"
+  },
+  {
+    "keyword": "hire cost",
+    "relevance": 7,
+    "distinctness": 3,
+    "brand_fit": 6,
+    "reason": "Word-order synonym of primary, same topic/intent, clears KD ceiling",
+    "role": "variation"
+  },
+  {
+    "keyword": "cost of hiring",
+    "relevance": 7,
+    "distinctness": 4,
+    "brand_fit": 6,
+    "reason": "Same concept as primary but KD37 is too competitive to chase even as a variation",
+    "role": "drop"
+  },
+  {
+    "keyword": "hiring cost",
+    "relevance": 7,
+    "distinctness": 4,
+    "brand_fit": 6,
+    "reason": "Same concept as primary but KD37 fails the ceiling",
+    "role": "drop"
+  },
+  {
+    "keyword": "hiring costs",
+    "relevance": 7,
+    "distinctness": 4,
+    "brand_fit": 6,
+    "reason": "Same concept as primary but KD27 fails the ceiling",
+    "role": "drop"
+  },
+  {
+    "keyword": "costs of hiring",
+    "relevance": 7,
+    "distinctness": 4,
+    "brand_fit": 6,
+    "reason": "Same concept as primary but KD31 fails the ceiling",
+    "role": "drop"
+  },
+  {
+    "keyword": "total cost of job formula",
+    "relevance": 6,
+    "distinctness": 6,
+    "brand_fit": 5,
+    "reason": "Distinct formula-naming sub-topic that fits the line-item/benchmark build-your-own-number angle",
+    "role": "secondary"
+  },
+  {
+    "keyword": "how much do recruiters make per hire",
+    "relevance": 3,
+    "distinctness": 5,
+    "brand_fit": 2,
+    "reason": "About recruiter commission/pay, not employer cost per hire \u2014 different metric entirely",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much do recruitment companies charge",
+    "relevance": 3,
+    "distinctness": 5,
+    "brand_fit": 2,
+    "reason": "Agency fee pricing, tangential to internal cost-per-hire calculation",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much do recruiters make per-hire",
+    "relevance": 3,
+    "distinctness": 1,
+    "brand_fit": 2,
+    "reason": "Hyphen duplicate of the recruiter-pay row above",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much does a recruitment company charge",
+    "relevance": 3,
+    "distinctness": 1,
+    "brand_fit": 2,
+    "reason": "Near-duplicate of the recruitment-company-charge row above",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much does jobhire ai cost",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Pricing query for an unrelated named product",
+    "role": "drop"
+  },
+  {
+    "keyword": "cost per usage",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "SaaS usage-pricing term, unrelated to hiring cost",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much to hire a pi",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "About hiring a private investigator, off-topic",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much to hire pi",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Duplicate off-topic PI query",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much is 1 talent",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "\"Talent\" as a historical currency/weight unit, unrelated meaning",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much is a talent",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Same off-topic currency-unit meaning of talent",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much is one talent",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Duplicate off-topic talent-unit query",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much was a talent",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Duplicate off-topic talent-unit query",
+    "role": "drop"
+  }
+]

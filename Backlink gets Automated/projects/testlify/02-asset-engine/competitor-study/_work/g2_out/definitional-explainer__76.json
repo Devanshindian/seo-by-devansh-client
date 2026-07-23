@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1720,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 peer mentoring is post-hire employee development/wellbeing content, not hiring, screening, or assessment; belongs to an L&D/HRIS world, not ours"
+  },
+  {
+    "row_id": 1721,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 job abandonment is an employee-relations/attendance-policy topic (no-call-no-show handling), not a hiring or assessment subject"
+  },
+  {
+    "row_id": 1722,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Defines the HCROI formula but the only worked example is an invented, uncited wellness-program figure ($250K cost, $750K savings) with no real published benchmark behind it, and the formula is never applied to a hiring or screening investment specifically \u2014 the page stays generic across all HR spend.",
+    "asset": "The Real ROI of Cutting a Bad Hire Before It Happens",
+    "distinct_angle": "Swaps the page's invented $250K wellness-program example for real, cited cost-of-a-bad-hire and cost-per-hire benchmarks (e.g., published SHRM/Gallup figures) and runs the ROI formula on a hiring/screening investment specifically \u2014 the sourced, hiring-relevant worked example this page never gives.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: human capital ROI (general HR capital-investment metric, not hiring-specific)"
+  },
+  {
+    "row_id": 1730,
+    "brand_fit": "CORE",
+    "angle_gap": "Spreads itself across nine chatbot types (onboarding, wellbeing, surveys, performance, analytics, etc.) and gives recruitment/screening chatbots \u2014 the one type actually in Testlify's world \u2014 a single shallow bullet ('collect initial candidate information... pre-qualify by scoring responses') with no detail on how that scoring works, its bias/fairness risk, or where it needs human oversight.",
+    "asset": "What AI Recruitment Chatbots Get Wrong About Scoring Real Candidates",
+    "distinct_angle": "Goes deep on the single chatbot type this page covers in one shallow bullet \u2014 recruitment/screening bots \u2014 explaining how automated candidate scoring actually works, its bias and compliance exposure, and where human judgment still has to step in, the depth this broad nine-type survey never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1732,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 job classification/leveling is a compensation and job-architecture topic, belongs to a comp/HR-ops product world, not skills assessment or hiring"
+  }
+]

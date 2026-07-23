@@ -1,0 +1,20 @@
+[
+  {
+    "row_id": 3281,
+    "brand_fit": "CORE",
+    "angle_gap": "The template is pure fill-in-the-bracket boilerplate \u2014 every substantive section ('[Insert 3-4 sentences...]', '[List all of your company's core benefits here]', '[Add or delete details...]') is left for the reader to invent; the only role-specific content is three one-word skills (Grammar, Listening, Transcribing) with no worked example of a completed description and no screening questions tied to those skills.",
+    "asset": "The Transcriptionist Job Description Filled Out With Real Screening Questions, Not Just Brackets",
+    "distinct_angle": "Replaces every placeholder bracket with real, concrete example copy (a fully written responsibilities/requirements section) and adds sample screening questions mapped to the actual skills that matter (grammar, listening, transcribing) \u2014 the worked-out specificity this page leaves as homework.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3420,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Despite the title promising 'examples,' the visible page is entirely conceptual \u2014 definitions of PPDP, a generic SMART-goals framework, a bulleted list of what a plan 'should include' \u2014 with no actual filled-in example plan shown, and nothing connects the plan to any measured skill data; it's generic career-coaching advice, not evidence-based.",
+    "asset": "Internal Mobility Plans Built From Actual Skills-Assessment Scores, Not Generic SMART Goals",
+    "distinct_angle": "Grounds the development plan in real assessment-score data (e.g. 'scored 62% on SQL, target 85% for promotion to Analyst II') with a fully worked example plan for a real role, closing the gap where this page stays abstract and never shows a concrete filled-in example.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: generic personal/career professional-development coaching"
+  }
+]

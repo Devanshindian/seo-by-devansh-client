@@ -1,0 +1,21 @@
+{
+  "iterations": [
+    {
+      "i": 1,
+      "query": "How is recruiter pay actually structured across corporate/in-house, agency/third-party, and executive search recruiters in 2026 \u2014 what are the salary-plus-bonus, base-plus-commission, and pure-commission models with their structure, earnings potential, and trade-offs, what percentage do agencies charge as a placement fee (first-year salary basis), and which industries (e.g. IT/tech, financial services, legal, pharma/biotech) pay recruiters the most?",
+      "fills": [
+        "Defines recruiter pay as split between steady corporate salaries and volatile agency commissions ($60k-$110k average total comp), then breaks down: Corporate/In-House ($100k-$162k, base+bonus) \u2192 Agency/Third-Party ($50k-$90k standard billers, $150k-$250k+ top performers, commission-based) \u2192 Executive Search ($110k-$300k+, highest commissions) \u2192 a compensation-model table (Salary+Bonus vs Base+Commission vs Pure Commission, with structure/earnings potential/pros-cons) \u2192 agency fee mechanics (15%-25% of first-year salary) \u2192 top-paying industries (IT/Tech $94,315, Financial Services $88,799, Legal $84,725, Pharma/Biotech $84,063)."
+      ],
+      "dir": "How_Much_Recruiters_Actually_Make_Per_Hire/iteration-1"
+    },
+    {
+      "i": 2,
+      "query": "How much do IT/tech recruiters and physician/healthcare recruiters actually earn, including base salary ranges, commission or fee structures, concrete dollar examples by seniority level (junior, mid, senior), and how their placement models differ from generalist recruiters?",
+      "fills": [
+        "how much does an it recruiter make",
+        "physician recruiter compensation"
+      ],
+      "dir": "How_Much_Recruiters_Actually_Make_Per_Hire/iteration-2"
+    }
+  ]
+}

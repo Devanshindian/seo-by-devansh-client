@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2456,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The report aggregates global culture-perception stats (56% good/excellent, five 'elements') and links them to retention, but never traces culture back to its origin point \u2014 the hiring/screening process itself; culture is treated as purely post-hire, and the underlying survey is already from Dec 2024.",
+    "asset": "Why Bad Hires Become Toxic Culture: The Screening Gap Behind the Retention Numbers",
+    "distinct_angle": "Synthesizes SHRM's and other publicly reported 2024-2026 workforce data to trace toxic-culture and turnover stats back to hiring/screening quality \u2014 a root-cause link this report never draws \u2014 refreshed with current public figures.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: workplace culture / employee retention (general HR, not hiring-specific)"
+  },
+  {
+    "row_id": 2457,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The page is a thin, largely broken press writeup (mostly template/XSS boilerplate) built around a single 2019 survey stat ($223B cost over the prior five years, so 2014-2019 data) with no update since, and it pivots straight to promoting SHRM's own manager-training certification rather than examining root causes.",
+    "asset": "The Real Cost of Toxic Workplace Culture in 2026 \u2014 and the Hiring Fixes That Prevent It",
+    "distinct_angle": "Refreshes the stale 2019 toxic-culture cost figure with current public data and ties the root cause to fixable pre-hire manager-assessment practices, instead of SHRM's post-hoc training pitch.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: workplace culture / management training (SHRM PMQ product pitch)"
+  },
+  {
+    "row_id": 2460,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The 'survey' is a promotional press release for SHRM's own PMQ certification, built on an August 2020 sample; it names the top five manager skill gaps but never addresses how organizations could catch these gaps before promotion/hire through structured skills assessment, only through after-the-fact training.",
+    "asset": "Why Companies Keep Promoting the Wrong People Into Management",
+    "distinct_angle": "Updates the 2020 survey figures with current public data on manager-driven turnover and reframes the fix around pre-promotion skills assessment rather than SHRM's post-hoc training sell \u2014 the root-cause angle the original skips.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: people-manager training / SHRM PMQ product pitch"
+  },
+  {
+    "row_id": 2461,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The page is a gated-download teaser with a single summary paragraph claiming coverage of '16 HR practice areas' but showing zero actual findings, breakdowns, or methodology detail for any of them \u2014 a reader gets no real data without downloading.",
+    "asset": "The State of Talent Acquisition Inside HR's 2026 Priorities",
+    "distinct_angle": "Pulls out and publishes in the open the recruiting/talent-acquisition slice SHRM buries behind a full-report download, sourced from SHRM's own public summaries plus other published 2025-2026 workforce data.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2466,
+    "brand_fit": "CORE",
+    "angle_gap": "The report gives strong topline diagnostic stats (69% struggling to fill roles, 28% requiring new skills, AI adoption at 43%) but stays purely descriptive \u2014 it never addresses HOW organizations should actually verify that candidates hold the 'new skills' roles increasingly require, and its survey was fielded in Feb 2025.",
+    "asset": "How Employers Can Actually Verify the New Skills They Say They Need to Hire For",
+    "distinct_angle": "Moves past SHRM's what's-happening trend stats to the missing how \u2014 concrete, sourced ways to verify candidates' claimed skills at the screening stage \u2014 refreshed with current 2026 figures where SHRM's Feb 2025 data has aged.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2215,
+    "brand_fit": "CORE",
+    "angle_gap": "Most of the ~25 company blurbs (CP PLUS, Modern Foods, etc.) give vague, unquantified claims like 'reaped benefits' or 'revamped its people management strategy' with zero outcome numbers; the one real statistic (89% of Fortune 100 use MBTI) is credited to CPP Inc. with no year, so it can't be checked as current.",
+    "asset": "Which Companies Actually Publish Results From Psychometric Testing, Not Just Case-Study Buzzwords",
+    "distinct_angle": "Cites only companies with a stated, sourced outcome (a %, a time-to-hire number, a retention figure) instead of the page's unquantified 'reaped benefits' language, and dates the Fortune 100 MBTI stat to its current source.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2254,
+    "brand_fit": "CORE",
+    "angle_gap": "Each of the 12 test types gets one generic paragraph with no guidance on which type actually predicts performance for which role, no validity comparison across types, and the CareerBuilder bad-hire cost stats cited have no year attached to confirm they're current.",
+    "asset": "Which Pre-Employment Test Type Actually Predicts Performance for Which Role",
+    "distinct_angle": "Adds a role-to-test-type mapping and current, dated bad-hire-cost figures in place of the page's flat 12-item list with no comparison or role guidance.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2294,
+    "brand_fit": "CORE",
+    "angle_gap": "'Logical and critical reasoning test' is listed twice with near-duplicate copy, every aptitude type gets one generic paragraph with no sample question, and there's no cited data on which aptitude type actually correlates with on-the-job performance for a given role.",
+    "asset": "The Aptitude Tests That Actually Predict Job Performance, Type by Type",
+    "distinct_angle": "Replaces the duplicated, example-free aptitude-type list with one worked sample question per type plus the public validity research linking each type to a job outcome.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2303,
+    "brand_fit": "CORE",
+    "angle_gap": "The '10 must-have features' (role-based library, AI proctoring, IDE simulators, code playback) are each described in isolation with no side-by-side comparison of how competing platforms implement them, and the 'Measuring ROI' section is only introduced, never quantified with a real cost/benefit figure.",
+    "asset": "How Coding Assessment Platforms Actually Differ on the Features That Predict a Good Technical Hire",
+    "distinct_angle": "Turns the page's uncompared feature list into a side-by-side breakdown of how platforms actually differ on each feature, and closes out the ROI section the original leaves unquantified.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2335,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "'The eight hiring metrics that do matter' is named as a header but the visible body never states a single metric or benchmark number for any of the 14 objectives (e.g. no target time-to-hire figure, no turnover-rate range), leaving every objective as an abstract statement.",
+    "asset": "The Recruitment and Selection Objectives That Actually Move Time-to-Hire and Cost-per-Hire",
+    "distinct_angle": "Attaches a real, current benchmark number to each objective (typical time-to-hire, turnover-rate ranges) where the original states the objective but never quantifies it.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

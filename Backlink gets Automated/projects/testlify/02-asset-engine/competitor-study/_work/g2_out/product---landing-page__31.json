@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2264,
+    "brand_fit": "CORE",
+    "angle_gap": "The page gives one thin paragraph defining TNA, then immediately pivots to product feature bullets and case studies \u2014 it never walks through an actual TNA methodology (organizational/task/person analysis) or shows one worked example of identifying a real skills gap; it's a sales page standing in for an explainer.",
+    "asset": "Training Needs Assessment, Run as an Evidence-Based Skills-Gap Process (With a Worked Example)",
+    "distinct_angle": "Walks a reader through the actual TNA methodology step by step with one full worked example of spotting and closing a real skills gap, where Mettl's page only offers a one-paragraph definition before switching to product pitch.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2265,
+    "brand_fit": "CORE",
+    "angle_gap": "The page repeats the same feature names across multiple sections (pair programming, auto-grading, whiteboard) without ever showing what 'objective evaluation' or 'auto-graded simulators' actually check \u2014 no sample rubric, no example of a graded submission, no explanation of what separates a passing from a failing solution.",
+    "asset": "Live Coding Interviews Graded on What Actually Predicts Job Performance, Not Just Pass or Fail",
+    "distinct_angle": "Shows the concrete rubric behind auto-grading (correctness, complexity, style) with a sample graded submission, where Mettl's page only lists feature names like 'objective evaluation' without ever showing what gets measured.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2267,
+    "brand_fit": "CORE",
+    "angle_gap": "The page states its 4-step blueprint process (competencies \u2192 blueprint \u2192 content \u2192 assessment) only in the abstract and never shows one built example for a real role, so a reader still doesn't know what a finished technical test blueprint looks like; the FAQ answers are also visibly truncated/thin.",
+    "asset": "How to Build a Technical Skills Test Blueprint for One Real Role, Start to Finish",
+    "distinct_angle": "Runs the stated 4-step blueprint process against one real job role and shows the finished competency/subskill/question breakdown, where Mettl's page describes the same 4 steps only in the abstract with no built example.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2269,
+    "brand_fit": "CORE",
+    "angle_gap": "The H1 promises 'effective talent assessment in Indonesia,' but the body is the same generic global psychometric-testing copy used elsewhere on the site \u2014 zero mention of Indonesian labor law, local hiring norms, or any region-specific detail to back up the localized headline.",
+    "asset": "Psychometric Testing for Hiring in Indonesia: What Local Compliance Actually Requires",
+    "distinct_angle": "Delivers the Indonesia-specific labor-law and cultural context the headline promises, where Mettl's localized page is generic global copy with no country-specific detail at all.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2270,
+    "brand_fit": "CORE",
+    "angle_gap": "The page gives a detailed competency list and test specs (30 questions, 30 minutes, three difficulty levels) but never shows a single example question, and never explains how to read a resulting score or turn it into a hiring decision \u2014 a hiring manager still can't act on the output.",
+    "asset": "How to Read a Logical Reasoning Test Score and Turn It Into a Hiring Decision",
+    "distinct_angle": "Walks through one sample reasoning question and shows exactly how to interpret the resulting score against a hiring threshold, where Mettl's page lists competencies and test length but never shows an item or explains what the score means for the decision.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

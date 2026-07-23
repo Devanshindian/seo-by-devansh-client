@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3220,
+    "brand_fit": "CORE",
+    "angle_gap": "Promises to 'share the best ways to assess soft skills' but delivers 17 generic skill definitions and which roles benefit \u2014 no concrete assessment method, interview question, or rubric attached to any single skill.",
+    "asset": "How to Actually Test for Each Soft Skill You Say You Want",
+    "distinct_angle": "Pairs every one of the 17 soft skills with a concrete assessment method or interview question, closing the gap between naming the skill (their page) and testing for it (ours).",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3228,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Leans on a stale OpenView 'State of the SaaS Talent Market: 2022' report and generic advice (job ads, 'organizational fit') rather than a concrete skills-assessment framework for SaaS roles; the one skills-gap-analysis section just links out instead of explaining it.",
+    "asset": "Hiring for SaaS Roles in 2026: The Skills That Actually Predict Performance",
+    "distinct_angle": "Replaces the 2022 market-trend framing and vague 'organizational fit' advice with a current, role-by-role skills-assessment approach for SaaS hiring \u2014 sales, product, and engineering specifically.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3305,
+    "brand_fit": "CORE",
+    "angle_gap": "Opens with several paragraphs of testing trivia (Han Dynasty exams, WWI Army Alpha test) and self-sourced TestGorilla survey stats, but the visible sections never address how a recruiter defends a skills test choice legally (validity evidence, adverse impact) before reaching the actual test types.",
+    "asset": "Pre-Employment Skills Testing That Holds Up to an EEOC Audit",
+    "distinct_angle": "Adds the validation-evidence and adverse-impact/legal-defensibility depth this page skips past on its way from history trivia to self-promotional stats.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3310,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines each cognitive-ability category (attention to detail, problem solving, numerical reasoning, spatial reasoning) only as an abstract one-line question ('How well does a candidate work with and interpret numbers?') with no worked example item, so a recruiter can't picture what the actual test question looks like.",
+    "asset": "What a Cognitive Ability Test Actually Looks Like, Category by Category",
+    "distinct_angle": "Gives a worked example question for every cognitive-ability category the page only defines abstractly, so recruiters see the actual item, not just the label.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3311,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'Implement skills-based hiring in 4 steps' block repeats the identical 'job analysis, job analysis, job analysis' paragraph twice verbatim instead of writing distinct content for each step, and the FAQ section lists ten real recruiter questions (e.g. 'What is the 70/30 rule in hiring?') with no visible answers.",
+    "asset": "The Skills-Based Hiring FAQ Recruiters Actually Need Answered",
+    "distinct_angle": "Answers all ten skills-based-hiring FAQ questions in full and gives each of the 4 implementation steps its own distinct content, instead of the duplicated step text and unanswered FAQ headings on their hub.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

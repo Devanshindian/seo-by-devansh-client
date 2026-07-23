@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1734,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers definitions, benefits, and stats (WEF, McKinsey) but never addresses how to know WHICH skills to reskill for \u2014 it assumes the skills gap is already known rather than showing how to baseline current employee proficiency and validate the new skill was actually learned. No worked example of a reskilling program tied to measurable, testable skill checkpoints.",
+    "asset": "Reskilling Programs Built on a Verified Skills Baseline, Not a Guess",
+    "distinct_angle": "The AIHR guide never explains how to measure who actually needs reskilling or confirm the new skill stuck \u2014 ours adds the baseline-test-then-validate methodology this page skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1735,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 workplace feedback types is post-hire performance-management content, outside skills-assessment/hiring world"
+  },
+  {
+    "row_id": 1738,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 organizational/internal culture assessment (OCAI, employee surveys) is post-hire engagement measurement, a different product world from pre-employment skills assessment"
+  },
+  {
+    "row_id": 1739,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines skills taxonomy and lists benefits but never explains how organizations actually populate one with accurate data \u2014 it leaves 'where can I find data for my skills taxonomy' unanswered mid-page, and its urgency stat (85 million jobs displaced by 2025) is a stale, superseded WEF projection. Treats skills as self-reported/inferred rather than tested.",
+    "asset": "Building a Skills Taxonomy From Tested Proficiency, Not Self-Reported Skills",
+    "distinct_angle": "Closes the page's own unanswered 'where do I get the data' question by grounding the taxonomy in verified assessment scores instead of CVs/manager judgment, and replaces the stale 2020-era WEF projection with the current public figure.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1742,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The talent-acquisition section is thin and generic (job-board posting, candidate nurturing, interview scheduling via an ATS) and cuts off without ever mentioning AI-driven skills assessment, AI interviewing, or proctoring as part of digitalizing the hiring stage \u2014 a major, current piece of 'digital HR' the guide skips.",
+    "asset": "Where AI Skills Assessment Fits Inside a Digital HR Strategy",
+    "distinct_angle": "AIHR's talent-acquisition section only covers ATS logistics (posting, scheduling, nurturing) \u2014 ours fills the gap it leaves on AI-driven skills testing and interviewing as the actual decision-making layer of digital hiring.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: broad digital-HR/HRIS pillar guide covering payroll, benefits, offboarding \u2014 narrowed to the hiring-tech slice we own"
+  }
+]

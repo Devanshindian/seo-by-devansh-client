@@ -1,0 +1,133 @@
+{
+  "asset_title": "The Real Cost of Recruitment in 2026: The Numbers Behind the 2022 Figure Everyone Still Quotes",
+  "distinct_angle": "Refreshes the 2022 SHRM cost-per-hire stat with the current public figure and breaks hard vs. soft costs down by role and hiring volume \u2014 the current data and structured breakdown this page lacks.",
+  "primary": "cost per hire",
+  "items": [
+    {
+      "id": "secondary_kw-1",
+      "type": "secondary_kw",
+      "item": "calculate cost per hire",
+      "context": "The formula/how-to-calculate sub-topic the hard-vs-soft breakdown needs; folds in 'calculating cost per hire' as a gerund duplicate."
+    },
+    {
+      "id": "secondary_kw-2",
+      "type": "secondary_kw",
+      "item": "hard costs vs soft costs",
+      "context": "Matches the angle's hard/soft cost breakdown directly, very low KD; needs a recruiting-specific frame to differentiate from the large construction-terminology cluster it otherwise sits inside."
+    },
+    {
+      "id": "secondary_kw-3",
+      "type": "secondary_kw",
+      "item": "how much do recruitment agencies charge",
+      "context": "Agency-fee benchmark \u2014 a hard-cost line item the by-role breakdown needs; folds in the 'recruiting/companies/does a' phrasing duplicates."
+    },
+    {
+      "id": "secondary_kw-4",
+      "type": "secondary_kw",
+      "item": "recruitment fee",
+      "context": "Percent-of-salary fee-structure angle that complements the agency-charge section from a pricing-model view."
+    },
+    {
+      "id": "in_body-1",
+      "type": "in_body",
+      "item": "cost of hiring",
+      "context": ""
+    },
+    {
+      "id": "in_body-2",
+      "type": "in_body",
+      "item": "costs of hiring",
+      "context": ""
+    },
+    {
+      "id": "in_body-3",
+      "type": "in_body",
+      "item": "hiring cost",
+      "context": ""
+    },
+    {
+      "id": "in_body-4",
+      "type": "in_body",
+      "item": "hiring costs",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-1",
+      "type": "winner_h2",
+      "item": "Definition of cost per hire",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-2",
+      "type": "winner_h2",
+      "item": "Formula / how to calculate it",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-3",
+      "type": "winner_h2",
+      "item": "Benchmarks and average cost figures",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-4",
+      "type": "winner_h2",
+      "item": "Breakdown of what counts as a cost (internal vs. external, hard vs. soft)",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-5",
+      "type": "winner_h2",
+      "item": "Factors that drive cost per hire up or down",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-6",
+      "type": "winner_h2",
+      "item": "Ways to reduce cost per hire",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-7",
+      "type": "winner_h2",
+      "item": "Business impact of high cost per hire (productivity, mis-hires)",
+      "context": ""
+    },
+    {
+      "id": "gap_we_own-1",
+      "type": "gap_we_own",
+      "item": "No winner segments cost per hire by role/job type (all three keep the breakdown generic \u2014 internal vs. external, or leak-by-leak \u2014 never by role).",
+      "context": ""
+    },
+    {
+      "id": "gap_we_own-2",
+      "type": "gap_we_own",
+      "item": "No winner segments cost per hire by hiring volume (high-volume vs. low-volume hiring cost structures are absent from every heading list).",
+      "context": ""
+    },
+    {
+      "id": "gap_we_own-3",
+      "type": "gap_we_own",
+      "item": "No winner anchors on a current-year public benchmark figure as a standalone, cited data point \u2014 Juicebox's \"Benchmarks and average cost\" section exists but headings alone don't confirm data recency, so this is the piece's clearest edge over the aging 2022 SHRM figure this page currently cites.",
+      "context": ""
+    },
+    {
+      "id": "paa-1",
+      "type": "paa",
+      "item": "How to calculate cost per hire in SHRM?",
+      "context": ""
+    },
+    {
+      "id": "paa-2",
+      "type": "paa",
+      "item": "What is the average cost per hire in the US?",
+      "context": ""
+    },
+    {
+      "id": "aio_subtopic-1",
+      "type": "aio_subtopic",
+      "item": "Defines cost per hire (CPH) as the average spend to recruit a new employee ($4,500-$4,800 typical range), gives the formula (Internal Costs + External Costs / Total Hires), groups costs into Internal Costs (prorated recruiter/HR salaries, referral awards, hiring-manager interview time) and External Costs (job board fees, agency/search firm fees, ATS costs, background checks, travel/relocation), notes variance by company size/industry/role seniority (specialized technical or C-suite roles: $15,000-$30,000+), and closes on tracking quarterly against the SHRM Cost-Per-Hire Standard.",
+      "context": ""
+    }
+  ]
+}

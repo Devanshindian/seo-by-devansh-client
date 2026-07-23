@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2635,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 pure demo-request/product-nav page (feature blurbs + a book-a-demo CTA), no informational content to beat"
+  },
+  {
+    "row_id": 2636,
+    "brand_fit": "CORE",
+    "angle_gap": "Title promises 'with Sample Questions' but the body only covers generic definitions and a benefits list (candidate experience, inclusivity, bias reduction, cost/time savings) \u2014 no actual sample questions or answer-evaluation guidance are ever shown.",
+    "asset": "Asynchronous Video Interview Questions That Actually Predict Job Performance",
+    "distinct_angle": "Delivers the actual sample async interview questions and scoring criteria per role that this page's title promises but its body never provides, going beyond its generic benefit-listing.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2645,
+    "brand_fit": "CORE",
+    "angle_gap": "The page is a first-person marketing narrative about WeCP's own product story ('we built WeCP because...') rather than a real breakdown of how to design a technical assessment \u2014 it names four skill categories (software engineering, dev, data/analytics, devops) but never explains how to map test content to them.",
+    "asset": "How to Build a Full-Stack Technical Skills Assessment That Actually Maps to Your Stack",
+    "distinct_angle": "Replaces the self-promotional WeCP origin-story narrative with a concrete framework for mapping assessment content to the four technical skill categories the page only names in passing.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2647,
+    "brand_fit": "CORE",
+    "angle_gap": "Claims '92% accuracy' and that 'nothing gets past Sherlock,' but never names the actual cheating techniques candidates use or the detection signals behind the claim, and never acknowledges false positives or any limitation \u2014 pure marketing superlative, no honest trade-off discussion.",
+    "asset": "The Cheating Techniques Remote Interview Proctoring Actually Catches (and Where It Still Fails)",
+    "distinct_angle": "Names the specific cheating techniques (screen-sharing, hidden LLM assistance, impersonation) and their real detection signals plus honest limitations, where this page only asserts superiority without specifics or acknowledged trade-offs.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2658,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 pure testimonial/review wall with no informational content, nothing to beat"
+  }
+]

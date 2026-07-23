@@ -1,0 +1,15 @@
+{
+  "_what": "THE COMPANY FILE — every company-level fact the five research engines read, in one place. One file per company at projects/<company>/company.json. Today a human fills it at onboarding; from Phase 3 the brand-voice builder DRAFTS brand_oneliner + niche_definition from the company's own pages and the human confirms. Secrets (API logins) never live here — they stay in .env files.",
+
+  "company": "testlify",
+  "brand": "Testlify",
+  "brand_oneliner": "Testlify — a talent-assessment platform selling skills assessments and conversational AI interviews (chat/voice/video) for pre-employment testing",
+  "domain": "testlify.com",
+  "wordpress_url": "https://testlify.com",
+  "location": "United States",
+  "language": "en",
+  "niche_definition": "recruiting / hiring / HR metrics — talent assessment, analytics, funnels, scorecards, benchmarks",
+
+  "_where_each_value_was_copied_from": "company+brand+brand_oneliner: 10-dataforseo/scripts/config.py lines 11,35,37 and 13-research-structure/scripts/config.py lines 78-79 (two drifted one-liner copies merged into one sentence — see below). domain: testlify.com (the site every engine already targets). location/language: 10/config.py lines 17-18. niche_definition: the keep/drop rule in 10-dataforseo/prompts/seeds.md lines 19-24. Engine thresholds (volume floor, KD ceiling, credit guard) deliberately NOT here — method knobs, they live in each engine's config.py (Devansh 2026-07-18).",
+  "_oneliner_note": "The two originals were: (10) 'skills assessments + conversational AI interviews (chat/voice/video)' and (13) 'Testlify — a talent-assessment platform that sells pre-employment tests'. The merged sentence above combines both; A/B on saved data showed the persona pick and keyword judging unchanged with it."
+}

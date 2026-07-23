@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3550,
+    "brand_fit": "CORE",
+    "angle_gap": "The page lists Big Five, 16PF, MBTI, and Enneagram side by side as equally useful hiring tools, never noting that MBTI and Enneagram lack peer-reviewed predictive validity for job performance while Big Five and 16PF are actually backed by I-O psychology research \u2014 a hiring reader has no way to tell which tests to trust from this page.",
+    "asset": "Which Personality Tests Actually Predict Job Performance (and Which Just Feel Insightful)",
+    "distinct_angle": "Ranks each personality test type by actual predictive validity and EEOC-defensibility rather than describing them as interchangeable frameworks \u2014 the evaluation this page skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3614,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'top 5' framing collapses into a Xobin feature dump and cuts off before covering the other four tools; blind screening, skills tests, and scoring rubrics are presented as interchangeable bias fixes with no explanation of adverse-impact ratios or the four-fifths rule compliance teams actually check against.",
+    "asset": "How Bias-Reduction Methods Actually Hold Up Under an Adverse-Impact Audit",
+    "distinct_angle": "Grades each bias-reduction method (blind screening, skills testing, structured interviews, scoring rubrics) by its measurable effect on adverse-impact ratios, not by a features/pros/cons list \u2014 the compliance rigor this page never applies.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3620,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 HR/People Ops Slack community directory; general networking content, not an assessment or hiring-process subject Testlify owns"
+  },
+  {
+    "row_id": 3636,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 2021 social-media influencer listicle for general HR networking; stale and unrelated to assessment/testing"
+  },
+  {
+    "row_id": 3644,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'comparison' only evaluates three options (Xobin, Duolingo, LinguaSkill) before pivoting into a Xobin sales CTA, and never explains how any of them actually score spoken fluency or handle accent-related bias in AI scoring \u2014 it's a pricing/UX comparison dressed as an alternatives roundup, missing established options like Berlitz or EF SET Corporate entirely.",
+    "asset": "What Versant Alternatives Actually Measure When You Replace It",
+    "distinct_angle": "Compares the fuller set of English-proficiency alternatives (including Berlitz and EF SET Corporate) on scoring methodology and accent-bias handling, not just price and interface polish \u2014 the substance this page trades away for a vendor pitch.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

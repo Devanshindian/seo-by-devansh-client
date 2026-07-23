@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 69,
+    "brand_fit": "CORE",
+    "angle_gap": "The piece is a webinar recap: five numbered takeaways each hung on a single panelist quote (Walmart, Bryq, UKG), with almost no concrete implementation detail \u2014 the AI section only says 'balance AI with human intuition' and 'fix the process first,' never how; the lone hard stat is Walmart's 88% internal-fill figure, and skills assessment is mentioned once, in passing, under a bullet about cultural alignment.",
+    "asset": "How to Screen High-Volume Retail Applicants Without Slowing Down Seasonal Hiring",
+    "distinct_angle": "Replaces the panel's quote-and-takeaway structure with an actual step-by-step screening workflow for retail's high-volume, seasonal funnel \u2014 the concrete how-to (assessment stages, cut-lines, timing) this page never delivers beyond 'balance AI with human intuition.'",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 83,
+    "brand_fit": "CORE",
+    "angle_gap": "Only Time to Fill gets a worked numeric example (Jan 1 posting to Jan 31 acceptance = 30 days); Time to Hire and the other core metrics are defined but never calculated, and the guide is dated '2024' with no current benchmarks or link between the metrics and quality-of-hire.",
+    "asset": "How to Calculate Every Core Recruiting Metric in 2026, With a Worked Example for Each",
+    "distinct_angle": "Gives a full worked numeric example for every metric \u2014 cost-per-hire, time-to-hire, and the rest, not just time-to-fill \u2014 and refreshes the framing from the page's stale 2024 label to current 2026 benchmarks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 85,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is post-hire employee engagement/retention (quiet quitting, manager training, DEI culture), which sits outside Testlify's assessment/hiring world; no tool or distinctive format worth transplanting, it's a generic listicle"
+  },
+  {
+    "row_id": 86,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is post-hire employee motivation/engagement for an existing workforce, not hiring or assessment; off-brand per scope's exclusion of engagement/performance-management content"
+  },
+  {
+    "row_id": 92,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is staff turnover/retention (compensation, management quality, DEI culture); one section briefly touches hiring mismatches and psychometric tests, but the page as a whole is post-hire retention, outside Testlify's assessment/screening world"
+  }
+]

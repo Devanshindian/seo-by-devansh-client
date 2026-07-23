@@ -1,0 +1,993 @@
+{
+  "total_cards": 580,
+  "kept_count": 440,
+  "dropped_count": 140,
+  "dropped_pct_of_cards": 24.14,
+  "keep_threshold": 1,
+  "unscored_count": 0,
+  "unscored_pct_of_cards": 0.0,
+  "flag_threshold_pct": 60,
+  "FLAG": false,
+  "dropped": [
+    {
+      "id": 7,
+      "tag": "storm",
+      "gloss": "ABC separates activities into four levels",
+      "relevance": 0,
+      "reason": "Intro to ABC's four activity levels \u2014 pure cost-accounting theory."
+    },
+    {
+      "id": 8,
+      "tag": "storm",
+      "gloss": "Batch-level activities definition and example",
+      "relevance": 0,
+      "reason": "Batch-level activity example (shipments) \u2014 off-domain manufacturing example."
+    },
+    {
+      "id": 9,
+      "tag": "storm",
+      "gloss": "Product-level activities definition and example",
+      "relevance": 0,
+      "reason": "Product-level activity example \u2014 off-domain."
+    },
+    {
+      "id": 10,
+      "tag": "storm",
+      "gloss": "Customer-level activities definition and example",
+      "relevance": 0,
+      "reason": "Customer-level activity example \u2014 off-domain."
+    },
+    {
+      "id": 11,
+      "tag": "storm",
+      "gloss": "Organization-sustaining activities definition",
+      "relevance": 0,
+      "reason": "Org-sustaining overhead \u2014 generic accounting theory."
+    },
+    {
+      "id": 12,
+      "tag": "storm",
+      "gloss": "Two ways to run the ABC calculation, trading precision for speed",
+      "relevance": 0,
+      "reason": "Traditional vs rate-based ABC framing \u2014 off-domain accounting detail."
+    },
+    {
+      "id": 13,
+      "tag": "storm",
+      "gloss": "Traditional ABC uses extensive data collection for highly accurate cost",
+      "relevance": 0,
+      "reason": "Furniture-company ABC example \u2014 unrelated to recruiting."
+    },
+    {
+      "id": 14,
+      "tag": "storm",
+      "gloss": "Rate-based ABC substitutes a pre-defined generalized rate",
+      "relevance": 0,
+      "reason": "Generic $100/hr assembly example \u2014 not a recruiting benchmark."
+    },
+    {
+      "id": 15,
+      "tag": "storm",
+      "gloss": "Rate-based ABC trades granularity for speed, suits simpler implementations",
+      "relevance": 0,
+      "reason": "Trade-off description for rate-based ABC \u2014 off-domain."
+    },
+    {
+      "id": 16,
+      "tag": "storm",
+      "gloss": "Reciprocal allocation method handles cross-department activities via simultaneous equations",
+      "relevance": 0,
+      "reason": "Reciprocal allocation math \u2014 pure accounting theory/math."
+    },
+    {
+      "id": 17,
+      "tag": "storm",
+      "gloss": "Reciprocal allocation complexity drives orgs to dedicated software like CostPerform",
+      "relevance": 0,
+      "reason": "Names accounting allocation software, irrelevant to a TA practitioner."
+    },
+    {
+      "id": 38,
+      "tag": "storm",
+      "gloss": "Newer figures have replaced the old benchmark",
+      "relevance": 0,
+      "reason": "Empty transition sentence, no content"
+    },
+    {
+      "id": 121,
+      "tag": "storm",
+      "gloss": "ABC step 5: allocate overhead by applying the rate and summing to a per-unit cost",
+      "relevance": 0,
+      "reason": "Generic ABC overhead allocation mechanics, manufacturing accounting theory unrelated to CPH"
+    },
+    {
+      "id": 122,
+      "tag": "storm",
+      "gloss": "General ABC calculation summarized as a chain of operations",
+      "relevance": 0,
+      "reason": "General ABC method steps, off-domain accounting theory"
+    },
+    {
+      "id": 123,
+      "tag": "storm",
+      "gloss": "Cost drivers split into transaction drivers and duration drivers",
+      "relevance": 0,
+      "reason": "Cost driver taxonomy from ABC theory, off-domain"
+    },
+    {
+      "id": 124,
+      "tag": "storm",
+      "gloss": "Examples of cost drivers",
+      "relevance": 0,
+      "reason": "Manufacturing cost driver examples, off-domain"
+    },
+    {
+      "id": 125,
+      "tag": "storm",
+      "gloss": "SailRite example: $8M overhead split into five activity pools with distinct drivers",
+      "relevance": 0,
+      "reason": "SailRite manufacturing worked example, irrelevant numbers for this article"
+    },
+    {
+      "id": 126,
+      "tag": "storm",
+      "gloss": "SailRite result: different per-product overhead totals summing to the same grand total",
+      "relevance": 0,
+      "reason": "Manufacturing overhead allocation figures, unrelated to hiring costs"
+    },
+    {
+      "id": 127,
+      "tag": "storm",
+      "gloss": "ABC's purpose is redistribution accuracy, not changing the total cost",
+      "relevance": 0,
+      "reason": "Abstract point about redistribution accuracy, off-domain theory"
+    },
+    {
+      "id": 128,
+      "tag": "storm",
+      "gloss": "Rate-based ABC trades precision for a simplified generalized rate",
+      "relevance": 0,
+      "reason": "Rate-based ABC variant, off-domain accounting theory"
+    },
+    {
+      "id": 129,
+      "tag": "storm",
+      "gloss": "Rate-based ABC suits orgs wanting ABC insight without full overhead",
+      "relevance": 0,
+      "reason": "Generic org-fit statement for ABC variant, off-domain"
+    },
+    {
+      "id": 130,
+      "tag": "storm",
+      "gloss": "TDABC costs activities by hourly rate rather than counting actions",
+      "relevance": 0,
+      "reason": "TDABC definition, off-domain accounting theory"
+    },
+    {
+      "id": 131,
+      "tag": "storm",
+      "gloss": "TDABC worked example: outdoor vs indoor table costs diverge by tracked hours",
+      "relevance": 0,
+      "reason": "Furniture manufacturing worked example, irrelevant to CPH"
+    },
+    {
+      "id": 132,
+      "tag": "storm",
+      "gloss": "Three shared-cost allocation methods exist, ranked by complexity",
+      "relevance": 0,
+      "reason": "Shared-service allocation method intro, off-domain"
+    },
+    {
+      "id": 133,
+      "tag": "storm",
+      "gloss": "Direct method allocates support costs straight to operating departments on one driver",
+      "relevance": 0,
+      "reason": "Direct allocation method definition, off-domain accounting theory"
+    },
+    {
+      "id": 134,
+      "tag": "storm",
+      "gloss": "Step-down method allocates costs sequentially in ranked order",
+      "relevance": 0,
+      "reason": "Step-down allocation method definition, off-domain"
+    },
+    {
+      "id": 135,
+      "tag": "storm",
+      "gloss": "Step-down worked example: IT department ranked first and apportioned by percentage",
+      "relevance": 0,
+      "reason": "IT department allocation example, irrelevant to CPH benchmarks"
+    },
+    {
+      "id": 136,
+      "tag": "storm",
+      "gloss": "Step-down continues to the next-ranked department's budget",
+      "relevance": 0,
+      "reason": "HR budget apportionment example within accounting theory, off-domain"
+    },
+    {
+      "id": 137,
+      "tag": "storm",
+      "gloss": "Reciprocal method uses simultaneous equations for mutual service consumption",
+      "relevance": 0,
+      "reason": "Reciprocal allocation method definition, off-domain"
+    },
+    {
+      "id": 138,
+      "tag": "storm",
+      "gloss": "Five-step process for building support-cost allocation from scratch",
+      "relevance": 0,
+      "reason": "Generic steps to build support-cost allocation, off-domain"
+    },
+    {
+      "id": 139,
+      "tag": "storm",
+      "gloss": "ABC is most effective for diverse, overhead-heavy, capital-intensive operations \u2014 analogous to varied recruiting",
+      "relevance": 0,
+      "reason": "When ABC suits manufacturing product mix, off-domain"
+    },
+    {
+      "id": 358,
+      "tag": "storm",
+      "gloss": "Tuition reimbursement prevalence, benefit size, and participation rate",
+      "relevance": 0,
+      "reason": "tuition reimbursement stat, off-topic for cost-per-hire calculation"
+    },
+    {
+      "id": 365,
+      "tag": "storm",
+      "gloss": "L&D budget as % of total HR budget (median/average/75th pct)",
+      "relevance": 0,
+      "reason": "L&D budget percentages are off-topic for cost per hire"
+    },
+    {
+      "id": 366,
+      "tag": "storm",
+      "gloss": "External training spend as % of total L&D expense",
+      "relevance": 0,
+      "reason": "External training spend % is off-topic for cost per hire"
+    },
+    {
+      "id": 368,
+      "tag": "storm",
+      "gloss": "Critical thinking cited as top future required skill (71%)",
+      "relevance": 0,
+      "reason": "Skills-survey stat, unrelated to cost per hire"
+    },
+    {
+      "id": 369,
+      "tag": "storm",
+      "gloss": "US job openings trend, early 2025 vs March 2022 peak",
+      "relevance": 0,
+      "reason": "Macro job-openings stat, off-domain for a CPH calculator article"
+    },
+    {
+      "id": 370,
+      "tag": "storm",
+      "gloss": "Job-openings-to-unemployed ratio, 2025 vs 2022 peak",
+      "relevance": 0,
+      "reason": "Macro labor-market ratio, off-domain"
+    },
+    {
+      "id": 371,
+      "tag": "storm",
+      "gloss": "US unemployment rate range through 2025",
+      "relevance": 0,
+      "reason": "Unemployment rate, off-domain"
+    },
+    {
+      "id": 372,
+      "tag": "storm",
+      "gloss": "US quits rate in 2025 vs Great Resignation peak",
+      "relevance": 0,
+      "reason": "Quits rate, off-domain"
+    },
+    {
+      "id": 375,
+      "tag": "storm",
+      "gloss": "Skills gaps as top barrier to business transformation (63%)",
+      "relevance": 0,
+      "reason": "Skills-gap barrier stat, off-domain"
+    },
+    {
+      "id": 390,
+      "tag": "storm",
+      "gloss": "One stat list frames itself explicitly as raw reference, not a tool",
+      "relevance": 0,
+      "reason": "Quotes another article's self-description; off-topic for this reader's task"
+    },
+    {
+      "id": 393,
+      "tag": "storm",
+      "gloss": "Global TA spend estimate $160-200B/year",
+      "relevance": 0,
+      "reason": "macro industry spend stat, unrelated to building a per-hire number"
+    },
+    {
+      "id": 396,
+      "tag": "storm",
+      "gloss": "41% of TA budgets flat/cut 2024 vs 2023",
+      "relevance": 0,
+      "reason": "TA budget trend stat, not a CPH input"
+    },
+    {
+      "id": 397,
+      "tag": "storm",
+      "gloss": "65% of TA leaders expect tech budget growth in 2026 despite flat headcount budgets",
+      "relevance": 0,
+      "reason": "tech budget trend stat, not a CPH input"
+    },
+    {
+      "id": 398,
+      "tag": "storm",
+      "gloss": "These stats sit isolated, not derived via calculator or tied to hard/soft-cost methodology",
+      "relevance": 0,
+      "reason": "meta-commentary about source landscape, not usable content"
+    },
+    {
+      "id": 399,
+      "tag": "storm",
+      "gloss": "Second type: explanatory guides enumerating cost components, no interactive calculator",
+      "relevance": 0,
+      "reason": "meta-commentary describing a source type, no actual data"
+    },
+    {
+      "id": 406,
+      "tag": "storm",
+      "gloss": "Guides supply taxonomy but don't compute a number",
+      "relevance": 0,
+      "reason": "meta-commentary about source gaps, not usable content"
+    },
+    {
+      "id": 415,
+      "tag": "storm",
+      "gloss": "Most-connected type: structured frameworks bundling calc template with benchmarking + usage instructions",
+      "relevance": 0,
+      "reason": "meta-commentary about source landscape, not usable content"
+    },
+    {
+      "id": 441,
+      "tag": "storm",
+      "gloss": "Source offers tailored calculation as a consultation service",
+      "relevance": 0,
+      "reason": "Sales CTA from a competing source, off-domain for this reader"
+    },
+    {
+      "id": 449,
+      "tag": "storm",
+      "gloss": "Calculator here is a persuasive device within a pricing-transparency argument, not standalone methodology",
+      "relevance": 0,
+      "reason": "Meta description of rhetorical framing in another article"
+    },
+    {
+      "id": 482,
+      "tag": "storm",
+      "gloss": "LinkedIn does not publish its own cost-per-hire methodology",
+      "relevance": 0,
+      "reason": "Meta-commentary, no content"
+    },
+    {
+      "id": 490,
+      "tag": "storm",
+      "gloss": "Neither Truffle nor ZipRecruiter publishes cost-per-hire figures or formulas",
+      "relevance": 0,
+      "reason": "Meta-commentary, no content"
+    },
+    {
+      "id": 499,
+      "tag": "storm",
+      "gloss": "Job board/sourcing-tool content also stays standalone, not tied to CPH",
+      "relevance": 0,
+      "reason": "Meta-commentary, no content"
+    },
+    {
+      "id": 5,
+      "tag": "storm",
+      "gloss": "ABC identifies true costs and inefficiencies by isolating top cost drivers",
+      "relevance": 1,
+      "reason": "General ABC theory, not recruiting-specific."
+    },
+    {
+      "id": 6,
+      "tag": "storm",
+      "gloss": "ABC calculation defined as cost pool divided by cost driver",
+      "relevance": 1,
+      "reason": "Generic cost-pool/driver formula, not a recruiting calculation."
+    },
+    {
+      "id": 18,
+      "tag": "storm",
+      "gloss": "Two supporting data points on why average-vs-true cost gap matters",
+      "relevance": 1,
+      "reason": "Transition sentence with no substantive content of its own."
+    },
+    {
+      "id": 19,
+      "tag": "storm",
+      "gloss": "CPA-solutions provider claims up to 50% reporting cost cut",
+      "relevance": 1,
+      "reason": "Accounting-reporting-cost stat, not a recruiting/CPH benchmark the article promises."
+    },
+    {
+      "id": 29,
+      "tag": "storm",
+      "gloss": "Standard describes required actions for quality/transparency",
+      "relevance": 1,
+      "reason": "Describes the standard's quality/transparency intent, generic."
+    },
+    {
+      "id": 30,
+      "tag": "storm",
+      "gloss": "Standard document length despite simple formula",
+      "relevance": 1,
+      "reason": "Trivia about the standard's page count, not actionable."
+    },
+    {
+      "id": 36,
+      "tag": "storm",
+      "gloss": "Details of the $4,129 figure's data source",
+      "relevance": 1,
+      "reason": "Survey methodology detail, not needed to build a reader's own number"
+    },
+    {
+      "id": 91,
+      "tag": "storm",
+      "gloss": "35% of candidates reported backing out even after accepting offers in Q1 2025",
+      "relevance": 1,
+      "reason": "Offer-decline stat, unrelated to CPH calculation"
+    },
+    {
+      "id": 111,
+      "tag": "storm",
+      "gloss": "Most large organizations adhere to the SHRM/ANSI standard",
+      "relevance": 1,
+      "reason": "General adoption-rate context, field trivia"
+    },
+    {
+      "id": 115,
+      "tag": "storm",
+      "gloss": "ABC allocates overhead via multiple activity-driven pools instead of one pool",
+      "relevance": 1,
+      "reason": "Alternative costing methodology tangent, not this article's approach"
+    },
+    {
+      "id": 116,
+      "tag": "storm",
+      "gloss": "ABC assigns costs through activities, improving pricing/production decisions",
+      "relevance": 1,
+      "reason": "General ABC benefit claim, generic accounting theory"
+    },
+    {
+      "id": 117,
+      "tag": "storm",
+      "gloss": "ABC step 1: identify costly activities",
+      "relevance": 1,
+      "reason": "Generic ABC methodology step, not recruiting-specific"
+    },
+    {
+      "id": 118,
+      "tag": "storm",
+      "gloss": "ABC step 2: assign overhead costs to each activity as a cost pool",
+      "relevance": 1,
+      "reason": "Generic ABC methodology step with non-recruiting examples"
+    },
+    {
+      "id": 119,
+      "tag": "storm",
+      "gloss": "ABC step 3: identify the cost driver for each activity",
+      "relevance": 1,
+      "reason": "Generic ABC methodology step, academic tangent"
+    },
+    {
+      "id": 120,
+      "tag": "storm",
+      "gloss": "ABC step 4: calculate predetermined overhead rate per activity",
+      "relevance": 1,
+      "reason": "Generic ABC methodology step, academic tangent"
+    },
+    {
+      "id": 140,
+      "tag": "storm",
+      "gloss": "ABC's tradeoff: time-consuming, skill-intensive, and expensive to implement",
+      "relevance": 1,
+      "reason": "Cost/complexity tradeoff of ABC, tangential general theory only"
+    },
+    {
+      "id": 141,
+      "tag": "storm",
+      "gloss": "Volume-based allocation shares the same structural weakness as blended CPH",
+      "relevance": 1,
+      "reason": "Critique of single-base allocation echoes article's thesis but framed in manufacturing accounting terms"
+    },
+    {
+      "id": 169,
+      "tag": "storm",
+      "gloss": "these true-cost multiples aren't captured by any blended CPH average",
+      "relevance": 1,
+      "reason": "Vague trailing fragment, no standalone content"
+    },
+    {
+      "id": 175,
+      "tag": "storm",
+      "gloss": "SHRM's published averages aren't fabricated, backed by a documented sample",
+      "relevance": 1,
+      "reason": "Meta-credibility note on SHRM methodology, not actionable"
+    },
+    {
+      "id": 176,
+      "tag": "storm",
+      "gloss": "sector/size breakdowns are drawn from real benchmarking data",
+      "relevance": 1,
+      "reason": "Meta note on data provenance, not actionable"
+    },
+    {
+      "id": 189,
+      "tag": "storm",
+      "gloss": "Replacement hiring is predictable, modeled like depreciation",
+      "relevance": 1,
+      "reason": "depreciation analogy, tangential to line-item calculation"
+    },
+    {
+      "id": 190,
+      "tag": "storm",
+      "gloss": "BLS JOLTS December 2025 quit rate",
+      "relevance": 1,
+      "reason": "turnover/quit-rate stat, off the cost-line-item angle"
+    },
+    {
+      "id": 191,
+      "tag": "storm",
+      "gloss": "BLS separation rates by industry",
+      "relevance": 1,
+      "reason": "industry separation-rate benchmarks, not a CPH cost line item"
+    },
+    {
+      "id": 209,
+      "tag": "storm",
+      "gloss": "Agency's own internal cost-per-placement tracked against fee earned",
+      "relevance": 1,
+      "reason": "agency's internal margin view, not the hiring org reader's calculation"
+    },
+    {
+      "id": 218,
+      "tag": "storm",
+      "gloss": "How these calculators compute the CPH metric",
+      "relevance": 1,
+      "reason": "Generic marketing description of what calculators do"
+    },
+    {
+      "id": 220,
+      "tag": "storm",
+      "gloss": "Automation eliminates manual effort and spreadsheet errors",
+      "relevance": 1,
+      "reason": "Generic automation-benefit fluff, not a cost input"
+    },
+    {
+      "id": 221,
+      "tag": "storm",
+      "gloss": "Calculators break costs down by category",
+      "relevance": 1,
+      "reason": "Generic tool feature description"
+    },
+    {
+      "id": 222,
+      "tag": "storm",
+      "gloss": "Calculators visualize internal-vs-external spending ratios",
+      "relevance": 1,
+      "reason": "Generic visualization feature, not a cost input"
+    },
+    {
+      "id": 224,
+      "tag": "storm",
+      "gloss": "Recommended method for tracking hiring costs is a unified tech stack",
+      "relevance": 1,
+      "reason": "Generic tech-stack recommendation, off the calculate-it-yourself angle"
+    },
+    {
+      "id": 227,
+      "tag": "storm",
+      "gloss": "iCIMS tracks data to direct spend toward best-performing channels",
+      "relevance": 1,
+      "reason": "Off-angle: channel efficiency tracking beyond CPH"
+    },
+    {
+      "id": 229,
+      "tag": "storm",
+      "gloss": "Gem's Talent Compass pulls channel data from the ATS",
+      "relevance": 1,
+      "reason": "Vendor (Gem) feature description"
+    },
+    {
+      "id": 231,
+      "tag": "storm",
+      "gloss": "Rationale: manual channel-cost tracking is time-consuming",
+      "relevance": 1,
+      "reason": "Generic rationale for tool category"
+    },
+    {
+      "id": 232,
+      "tag": "storm",
+      "gloss": "ATS/AI tools automate repetitive, cost-driving processes",
+      "relevance": 1,
+      "reason": "Generic automation description, off the cost-calculation angle"
+    },
+    {
+      "id": 234,
+      "tag": "storm",
+      "gloss": "Recommended automation task list and its goal",
+      "relevance": 1,
+      "reason": "Generic list of automatable tasks, not a cost input"
+    },
+    {
+      "id": 235,
+      "tag": "storm",
+      "gloss": "Structured scorecards reduce interviews-per-hire by avoiding re-litigation",
+      "relevance": 1,
+      "reason": "Tangential process-tooling point, not a cost line item"
+    },
+    {
+      "id": 270,
+      "tag": "storm",
+      "gloss": "What CPH measures and its purpose",
+      "relevance": 1,
+      "reason": "Generic definition of CPH, basic context the reader likely already knows"
+    },
+    {
+      "id": 271,
+      "tag": "storm",
+      "gloss": "Metric predates vendor tools; SHRM/ANSI jointly approved a formal standard",
+      "relevance": 1,
+      "reason": "Standard-body origin story, not calculation input"
+    },
+    {
+      "id": 293,
+      "tag": "storm",
+      "gloss": "Benchmarks vary by source and year, methodology transparency matters",
+      "relevance": 1,
+      "reason": "Transition sentence into benchmarks"
+    },
+    {
+      "id": 304,
+      "tag": "storm",
+      "gloss": "Dr. John Sullivan has long opposed CPH, calling it an 'evil' metric",
+      "relevance": 1,
+      "reason": "Academic-style debate over whether the metric should exist at all"
+    },
+    {
+      "id": 330,
+      "tag": "storm",
+      "gloss": "Split between isolated-input-form calculators and benchmark-wired calculators",
+      "relevance": 1,
+      "reason": "Meta-commentary summarizing the source split, no new data for the reader"
+    },
+    {
+      "id": 332,
+      "tag": "storm",
+      "gloss": "Benefits framed as outcomes of using the ANSI/SHRM tool",
+      "relevance": 1,
+      "reason": "generic marketing benefit-list, no usable content for building a number"
+    },
+    {
+      "id": 352,
+      "tag": "storm",
+      "gloss": "SHRM origin and ANSI standardization of the cost-per-hire definition",
+      "relevance": 1,
+      "reason": "origin/standard-body history, not needed to build a number"
+    },
+    {
+      "id": 353,
+      "tag": "storm",
+      "gloss": "Standardization enables cross-department/industry comparison",
+      "relevance": 1,
+      "reason": "generic statement about comparability, no actionable content"
+    },
+    {
+      "id": 355,
+      "tag": "storm",
+      "gloss": "SHRM's benchmark figure has changed over time",
+      "relevance": 1,
+      "reason": "transition sentence, no data"
+    },
+    {
+      "id": 356,
+      "tag": "storm",
+      "gloss": "2017 Human Capital Benchmarking Report CPH figures and sample",
+      "relevance": 1,
+      "reason": "stale 2015-2017 SHRM figures superseded by 2025 report, not what a 2026 article needs"
+    },
+    {
+      "id": 357,
+      "tag": "storm",
+      "gloss": "Recruitment costs as share of HR expenses (15%)",
+      "relevance": 1,
+      "reason": "old 2017 HR-expense-share stat, tangential to per-hire cost building"
+    },
+    {
+      "id": 363,
+      "tag": "storm",
+      "gloss": "Re-verified SHRM trend line as of 2026-07-01",
+      "relevance": 1,
+      "reason": "Source-verification/fact-check log, not reader-usable content"
+    },
+    {
+      "id": 364,
+      "tag": "storm",
+      "gloss": "Recruiting budget as % of total HR budget (26% average)",
+      "relevance": 1,
+      "reason": "Recruiting-budget-as-%-of-HR-budget is tangential to a per-hire cost calculation, and the percentile figure is unspecified"
+    },
+    {
+      "id": 373,
+      "tag": "storm",
+      "gloss": "Median global time-to-hire record in early 2024 (44 days)",
+      "relevance": 1,
+      "reason": "Time-to-hire is an adjacent metric, not a cost input"
+    },
+    {
+      "id": 374,
+      "tag": "storm",
+      "gloss": "Global talent-shortage rate and its growth since 2014",
+      "relevance": 1,
+      "reason": "Talent-shortage stat is hook material at best, not a cost line item"
+    },
+    {
+      "id": 389,
+      "tag": "storm",
+      "gloss": "Standalone stat aggregators defined: no calculator, no taxonomy walkthrough",
+      "relevance": 1,
+      "reason": "Describes a category of competing reference content, not usable by the reader"
+    },
+    {
+      "id": 395,
+      "tag": "storm",
+      "gloss": "Bad-hire cost up to 30% of first-year earnings (DOL/SHRM)",
+      "relevance": 1,
+      "reason": "cost-of-bad-hire is a different metric than cost-per-hire"
+    },
+    {
+      "id": 407,
+      "tag": "storm",
+      "gloss": "Documented standard exists as reference point tools should connect to",
+      "relevance": 1,
+      "reason": "vague meta-observation about a standard existing"
+    },
+    {
+      "id": 419,
+      "tag": "storm",
+      "gloss": "Framework identifies highest-impact cost-reduction opportunities without harming quality/time-to-fill",
+      "relevance": 1,
+      "reason": "generic marketing claim, no concrete data"
+    },
+    {
+      "id": 420,
+      "tag": "storm",
+      "gloss": "Framework offered as Brief version (under an hour)",
+      "relevance": 1,
+      "reason": "product feature description, no concrete data"
+    },
+    {
+      "id": 423,
+      "tag": "storm",
+      "gloss": "Inputs organized into the ANSI/SHRM standard framework",
+      "relevance": 1,
+      "reason": "Naming/standard reference, not actionable"
+    },
+    {
+      "id": 427,
+      "tag": "storm",
+      "gloss": "Checklist: integrate cost tracking into ATS/procurement/GL via cost codes and API, monthly reconciliation",
+      "relevance": 1,
+      "reason": "ATS/GL system integration detail, not relevant to a reader building a manual calculation"
+    },
+    {
+      "id": 429,
+      "tag": "storm",
+      "gloss": "Checklist: build CPH reporting dashboard with drill-down, trended monthly",
+      "relevance": 1,
+      "reason": "Dashboard-building detail, system-level not calculation-level"
+    },
+    {
+      "id": 433,
+      "tag": "storm",
+      "gloss": "Stated goal: avoid driving cost reduction at expense of other outcomes",
+      "relevance": 1,
+      "reason": "Generic caution, no line item or number"
+    },
+    {
+      "id": 435,
+      "tag": "storm",
+      "gloss": "Consultancy-style calculators pair benchmark table with offer of custom calculation service",
+      "relevance": 1,
+      "reason": "Meta description of a competing resource type"
+    },
+    {
+      "id": 442,
+      "tag": "storm",
+      "gloss": "Published line items tied to a broader glossary/methodology resource",
+      "relevance": 1,
+      "reason": "Meta reference to another resource, not itself usable"
+    },
+    {
+      "id": 443,
+      "tag": "storm",
+      "gloss": "Final type: CPH calc embedded in vendor-pricing critique, not general-purpose tool",
+      "relevance": 1,
+      "reason": "Meta description of a resource type"
+    },
+    {
+      "id": 444,
+      "tag": "storm",
+      "gloss": "CPH formula built for LinkedIn Recruiter usage",
+      "relevance": 1,
+      "reason": "Vendor-specific (LinkedIn Recruiter) formula, off-topic for a general true-CPH framework"
+    },
+    {
+      "id": 447,
+      "tag": "storm",
+      "gloss": "LinkedIn Corporate pricing described as deliberately opaque, varies by company attributes",
+      "relevance": 1,
+      "reason": "LinkedIn pricing opacity critique, off-topic for this reader"
+    },
+    {
+      "id": 448,
+      "tag": "storm",
+      "gloss": "Feature-tier differences affecting true cost: Lite vs Corporate",
+      "relevance": 1,
+      "reason": "LinkedIn tier feature comparison, off-topic for cost-per-hire calculation"
+    },
+    {
+      "id": 450,
+      "tag": "storm",
+      "gloss": "SHRM's calculator is framed as implementing a published standard, not a standalone tool",
+      "relevance": 1,
+      "reason": "Naming/standard reference, not actionable"
+    },
+    {
+      "id": 451,
+      "tag": "storm",
+      "gloss": "SHRM calculator built on ANSI/SHRM 06001-2012 standard",
+      "relevance": 1,
+      "reason": "Standard's origin story, not usable data"
+    },
+    {
+      "id": 456,
+      "tag": "storm",
+      "gloss": "SHRM tool ties together named methodology, data source, and benchmark figure",
+      "relevance": 1,
+      "reason": "Synthesis commentary about the source, no new data"
+    },
+    {
+      "id": 457,
+      "tag": "storm",
+      "gloss": "A generic vendor calculator cites the ANSI/SHRM standard and targets HR/TA/finance roles",
+      "relevance": 1,
+      "reason": "Vendor marketing blurb, not a usable figure"
+    },
+    {
+      "id": 469,
+      "tag": "storm",
+      "gloss": "Interview cost calculator is structured as a comparison device against SHRM's number",
+      "relevance": 1,
+      "reason": "Meta commentary on tool's structure, no data"
+    },
+    {
+      "id": 473,
+      "tag": "storm",
+      "gloss": "Hidden-costs tool argues the basic formula output is insufficient on its own",
+      "relevance": 1,
+      "reason": "Meta commentary, no new information"
+    },
+    {
+      "id": 481,
+      "tag": "storm",
+      "gloss": "LinkedIn Recruiter has opaque, quote-based Corporate pricing varying by multiple factors",
+      "relevance": 1,
+      "reason": "Vendor pricing opacity, no CPH line-item data"
+    },
+    {
+      "id": 486,
+      "tag": "storm",
+      "gloss": "LinkedIn's cost-per-hire methodology comes from an outside analysis, not the vendor",
+      "relevance": 1,
+      "reason": "Meta-commentary on methodology source"
+    },
+    {
+      "id": 487,
+      "tag": "storm",
+      "gloss": "Screening/sourcing tools like Truffle and ZipRecruiter have no tie-back to cost-per-hire methodology",
+      "relevance": 1,
+      "reason": "Meta-commentary, no line-item data"
+    },
+    {
+      "id": 489,
+      "tag": "storm",
+      "gloss": "ZipRecruiter: distribution platform, quote-based pricing, built to generate applications not screen them",
+      "relevance": 1,
+      "reason": "Quote-based pricing, no concrete numbers"
+    },
+    {
+      "id": 493,
+      "tag": "storm",
+      "gloss": "High Five's connective tissue is a business-model argument, not a standard or benchmark",
+      "relevance": 1,
+      "reason": "Meta-commentary on argument type"
+    },
+    {
+      "id": 494,
+      "tag": "storm",
+      "gloss": "General pattern: vendor pricing/feature content stays isolated from any CPH methodology",
+      "relevance": 1,
+      "reason": "Meta-commentary on vendor content pattern"
+    },
+    {
+      "id": 496,
+      "tag": "storm",
+      "gloss": "That same ATS piece frames the purchase decision standalone, not folded into a CPH line item",
+      "relevance": 1,
+      "reason": "Meta-commentary, decision framed outside CPH"
+    },
+    {
+      "id": 502,
+      "tag": "storm",
+      "gloss": "Contrast: some content explicitly ties calculator inputs to a named industry standard",
+      "relevance": 1,
+      "reason": "Meta-commentary transitioning to next category"
+    },
+    {
+      "id": 506,
+      "tag": "storm",
+      "gloss": "This calculator is positioned as one component of a larger documented CPH methodology, not a standalone number generator",
+      "relevance": 1,
+      "reason": "Meta-commentary summarizing prior card"
+    },
+    {
+      "id": 518,
+      "tag": "storm",
+      "gloss": "Worked scenario content applies the direct/indirect/hard-soft framework to a full numeric example",
+      "relevance": 1,
+      "reason": "Meta-commentary describing a source's presentation style"
+    },
+    {
+      "id": 523,
+      "tag": "storm",
+      "gloss": "This scenario is the most concrete example tracing line items to a bottom-line benchmarkable CPH figure",
+      "relevance": 1,
+      "reason": "Meta-commentary praising the source, not article content"
+    },
+    {
+      "id": 524,
+      "tag": "storm",
+      "gloss": "Benchmark-only content gives industry figures without showing the underlying calculation",
+      "relevance": 1,
+      "reason": "Meta-commentary describing a presentation style"
+    },
+    {
+      "id": 529,
+      "tag": "storm",
+      "gloss": "Neither benchmark source shows calculator mechanics; they serve as reference points, not methodology documents",
+      "relevance": 1,
+      "reason": "Meta-commentary synthesizing two sources, not itself content"
+    },
+    {
+      "id": 533,
+      "tag": "storm",
+      "gloss": "Even careful CPH definitions draw an explicit boundary that excludes major cost categories",
+      "relevance": 1,
+      "reason": "Transitional meta line setting up next point"
+    },
+    {
+      "id": 542,
+      "tag": "storm",
+      "gloss": "Losing an employee disrupts workflows and severs cross-team information ties in ways a per-hire dollar figure can't capture",
+      "relevance": 1,
+      "reason": "Qualitative workflow-disruption point, no line item or number"
+    },
+    {
+      "id": 543,
+      "tag": "storm",
+      "gloss": "Attrition also carries an emotional/organizational toll on hiring teams and the cost of losing candidates to faster competitors",
+      "relevance": 1,
+      "reason": "Emotional-toll narrative, not usable in a cost build"
+    }
+  ]
+}

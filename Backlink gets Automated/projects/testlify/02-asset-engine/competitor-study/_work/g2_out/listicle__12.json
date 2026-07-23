@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1754,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Page covers AI-in-HR challenges broadly (strategy, tool overload, bias, transparency, integration) but its bias/transparency sections stay generic \u2014 e.g. it says HR 'may struggle to explain why a resume was rejected' with no adverse-impact math, four-fifths-rule test, or audit checklist for hiring decisions specifically.",
+    "asset": "AI Hiring Bias, Explainability, and the Adverse-Impact Math Recruiters Need to Get Right",
+    "distinct_angle": "Narrows AIHR's HR-wide bias/transparency challenges to hiring specifically, adding the adverse-impact ratio testing and audit steps their piece never mentions \u2014 the compliance rigor a hiring-focused reader needs.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1755,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Benefits are spread thin across all of HR (content generation, data insights, automation, productivity); the hiring-relevant benefit ('improved quality of hire') is a single sentence cut short mid-thought, backed only by a Mastercard scheduling-speed stat rather than any hiring-outcome evidence.",
+    "asset": "What AI Skills Assessment Actually Does to Quality-of-Hire, Beyond Faster Scheduling",
+    "distinct_angle": "Goes deep on the one benefit (quality-of-hire) that AIHR's HR-wide piece gives an unfinished paragraph, using hiring-specific evidence instead of a borrowed interview-scheduling-speed stat.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1757,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee incentive/rewards programs are compensation & engagement territory (monetary/non-monetary rewards, retention), not skills assessment or hiring; explicitly outside Testlify's world, and the listicle format isn't a distinctive link-pulling shape worth transplanting."
+  },
+  {
+    "row_id": 1764,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The five leadership-development types and best practices stay generic (mentoring, coaching programs); the only nod to identifying WHO has leadership potential is a single 'HR tip' name-checking the 9-box grid, never developed into a method.",
+    "asset": "How to Spot Leadership Potential Before You Promote Someone, Using Skills Data Instead of Gut Feel",
+    "distinct_angle": "Develops the assessment-driven identification of leadership potential that AIHR's piece only gestures at with a one-line 9-box-grid tip, replacing gut-feel promotion with a skills-evidence method.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: leadership development / L&D"
+  },
+  {
+    "row_id": 1770,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 AI in performance management is post-hire performance management, explicitly off-limits per brand scope; not a hiring or assessment subject."
+  }
+]

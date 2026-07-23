@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 550,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'Assessing Candidates' section only lists two generic test types (Concepts & Knowledge, Written Response) with no sample question, no proficiency rubric, and the topics list is cut off mid-sentence ('Data Manipulation: SAS provides tools for data cleaning...'); it also never mentions that many orgs are migrating off SAS toward R/Python, which changes what 'SAS proficiency' should even mean today.",
+    "asset": "Assessing SAS Skills When Half Your Team Is Moving to Python and R",
+    "distinct_angle": "Replaces the two vague, example-free test types with a worked SAS proficiency rubric and sample interview task, and addresses the SAS-to-open-source migration context the page never raises.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 551,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'How to Assess' section names Logical Reasoning Tests and Data Interpretation Tasks but gives zero sample items or scoring rubric, and never breaks down how pattern-recognition needs differ across roles (data analyst vs. QA vs. ops); the topics outline also cuts off mid-list under 'Tools for Pattern Recognition'.",
+    "asset": "What Pattern Recognition Actually Predicts on the Job, Role by Role",
+    "distinct_angle": "Adds a worked sample test item and scoring rubric per test type, plus a role-by-role breakdown of what pattern recognition should predict \u2014 both missing from the source page.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 552,
+    "brand_fit": "CORE",
+    "angle_gap": "The 5-step 'how to identify KPIs' process and the assessment section (skill assessments, case studies) stay entirely abstract \u2014 no actual scenario, sample KPI set, or model answer is ever shown, so a hiring manager has nothing concrete to grade against.",
+    "asset": "Testing Whether a Candidate Can Actually Pick the Right KPIs, With a Real Scenario",
+    "distinct_angle": "Supplies the concrete scenario, model answer, and scoring rubric the page describes wanting but never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 553,
+    "brand_fit": "CORE",
+    "angle_gap": "The topics outline is truncated mid-sentence ('Network Protocols: Overview of TCP/IP, HTTP, and other essential prot...'), and both assessment methods (Technical Skill Tests, Scenario-Based Assessments) are described only in the abstract \u2014 no named tools (e.g. AWS Direct Connect, Azure ExpressRoute) or worked scenario ever appears.",
+    "asset": "Testing Hybrid Cloud Networking Skills With a Real On-Prem-to-Cloud Scenario",
+    "distinct_angle": "Adds a worked scenario naming real hybrid-networking services and a scoring rubric, replacing the page's abstract, example-free description of its own test types.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 554,
+    "brand_fit": "CORE",
+    "angle_gap": "The 6-step troubleshooting process and both assessment types (Practical Assessments, Situational Judgment Tests) are explained generically with no sample dataset, no example error, and no scoring guide; the topics section is also cut off mid-sentence ('Updating Procedures: Explore changes to data entry or collection processes to re...').",
+    "asset": "Testing Whether a Candidate Can Actually Debug Bad Data, With a Real Dataset",
+    "distinct_angle": "Provides a concrete sample data-error scenario with a step-by-step resolution and scoring guide, where the source page only describes its test types in the abstract.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

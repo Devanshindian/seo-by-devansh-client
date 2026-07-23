@@ -1,0 +1,20 @@
+[
+  {
+    "row_id": 3639,
+    "brand_fit": "CORE",
+    "angle_gap": "Only 6 total questions (3 hard-skill, 3 soft-skill) with a one-line 'what to listen for' cue each \u2014 no scoring rubric, no modern-stack coverage (React, Node, TypeScript, APIs beyond HTML5/CSS/JS never appear), and the page is dated 2022 with a 2019-2029 BLS growth stat that's now stale.",
+    "asset": "Web Developer Interview Questions Built for a 2026 React/Node Stack, With Scoring Rubrics",
+    "distinct_angle": "Expands the thin 6-question set into full-stack-current coverage (React/Node/TypeScript, not just HTML/CSS/JS) and replaces each one-line 'what to listen for' cue with a scored answer rubric, refreshing the stale 2019-era BLS figure with the current public number.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3689,
+    "brand_fit": "CORE",
+    "angle_gap": "Only 6 questions total (3 hard, 3 soft) covering abstract CS concepts (referential transparency, Inversion of Control) with a single 'what to listen for' bullet each \u2014 no worked-example answers, no coverage of any specific stack (MERN/MEAN/etc.) or system-design/pairing screening, and the page is dated 2022 with a stale 'demand grew 30% in the past year' claim never refreshed.",
+    "asset": "Full Stack Engineer Interview Questions That Separate Stack Depth From Buzzword Answers",
+    "distinct_angle": "Turns the abstract, unanswered prompts (referential transparency, IoC) into worked-example answer benchmarks scored against a rubric instead of a single listen-for bullet, adds stack-specific questions (MERN/MEAN) the page skips entirely, and swaps the stale one-year-old demand stat for the current public figure.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

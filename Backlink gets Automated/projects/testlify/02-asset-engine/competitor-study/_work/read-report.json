@@ -1,0 +1,164 @@
+[
+  {
+    "competitor": "cipd.org",
+    "rows": 46,
+    "read": 42,
+    "failed": 0,
+    "skipped": 4
+  },
+  {
+    "competitor": "bryq.com",
+    "rows": 79,
+    "read": 73,
+    "failed": 0,
+    "skipped": 6
+  },
+  {
+    "competitor": "hackerearth.com",
+    "rows": 268,
+    "read": 24,
+    "failed": 3,
+    "skipped": 241
+  },
+  {
+    "competitor": "hipeople.io",
+    "rows": 18,
+    "read": 16,
+    "failed": 0,
+    "skipped": 2
+  },
+  {
+    "competitor": "eskill.com",
+    "rows": 112,
+    "read": 50,
+    "failed": 56,
+    "skipped": 6
+  },
+  {
+    "competitor": "alooba.com",
+    "rows": 184,
+    "read": 181,
+    "failed": 0,
+    "skipped": 3
+  },
+  {
+    "competitor": "makipeople.com",
+    "rows": 0
+  },
+  {
+    "competitor": "hrzone.com",
+    "rows": 253,
+    "read": 0,
+    "failed": 207,
+    "skipped": 46
+  },
+  {
+    "competitor": "criteriacorp.com",
+    "rows": 209,
+    "read": 183,
+    "failed": 9,
+    "skipped": 17
+  },
+  {
+    "competitor": "adaface.com",
+    "rows": 222,
+    "read": 217,
+    "failed": 1,
+    "skipped": 4
+  },
+  {
+    "competitor": "pmapstest.com",
+    "rows": 11,
+    "read": 9,
+    "failed": 2,
+    "skipped": 0
+  },
+  {
+    "competitor": "imocha.io",
+    "rows": 129,
+    "read": 120,
+    "failed": 0,
+    "skipped": 9
+  },
+  {
+    "competitor": "aihr.com",
+    "rows": 284,
+    "read": 281,
+    "failed": 0,
+    "skipped": 3
+  },
+  {
+    "competitor": "recruiterflow.com",
+    "rows": 95,
+    "read": 92,
+    "failed": 1,
+    "skipped": 2
+  },
+  {
+    "competitor": "peoplemanagingpeople.com",
+    "rows": 260,
+    "read": 0,
+    "failed": 258,
+    "skipped": 2
+  },
+  {
+    "competitor": "mettl.com",
+    "rows": 239,
+    "read": 207,
+    "failed": 17,
+    "skipped": 15
+  },
+  {
+    "competitor": "shrm.org",
+    "rows": 217,
+    "read": 191,
+    "failed": 19,
+    "skipped": 7
+  },
+  {
+    "competitor": "x0pa.com",
+    "rows": 0
+  },
+  {
+    "competitor": "wecreateproblems.com",
+    "rows": 40,
+    "read": 35,
+    "failed": 1,
+    "skipped": 4
+  },
+  {
+    "competitor": "testdome.com",
+    "rows": 200,
+    "read": 46,
+    "failed": 147,
+    "skipped": 7
+  },
+  {
+    "competitor": "thomas.co",
+    "rows": 198,
+    "read": 188,
+    "failed": 5,
+    "skipped": 5
+  },
+  {
+    "competitor": "vervoe.com",
+    "rows": 227,
+    "read": 168,
+    "failed": 54,
+    "skipped": 5
+  },
+  {
+    "competitor": "testgorilla.com",
+    "rows": 246,
+    "read": 243,
+    "failed": 0,
+    "skipped": 3
+  },
+  {
+    "competitor": "xobin.com",
+    "rows": 198,
+    "read": 175,
+    "failed": 5,
+    "skipped": 18
+  }
+]

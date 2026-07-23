@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STORM — How the Deep-Research Engine Works</title>
+<style>
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:720px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:720px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;} .mem ul{margin:6px 0 6px;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+
+  /* step flow */
+  .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
+  .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:18px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow);}
+  .step-body h3{margin:4px 0 4px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
+  .step-body ul{margin:6px 0 4px; color:var(--muted); font-size:14.5px;} .step-body ul .file{font-size:11.5px;}
+  .step-body ul .fn{color:var(--ink); font-weight:600;}
+  .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
+  .xref:hover{background:var(--orange-soft);}
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
+  .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
+  .files .k{font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
+
+  /* generic cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+  .card .file{margin-top:10px; display:inline-block;}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11.5px;}
+  td b{color:var(--ink);}
+
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
+
+  /* interview: the growing conversation */
+  .interview{background:var(--paper); border:1px solid var(--line); border-radius:18px; box-shadow:var(--shadow); padding:8px 8px 14px; margin:22px 0;}
+  .turn{border:1px dashed var(--orange-soft); border-radius:14px; margin:10px; overflow:hidden;}
+  .turn-h{background:var(--wash); padding:7px 14px; font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--orange); border-bottom:1px dashed var(--orange-soft);}
+  .qa{display:flex; gap:12px; padding:13px 14px; align-items:flex-start;}
+  .qa+.qa{border-top:1px solid var(--line);}
+  .who{flex:none; width:34px; height:34px; border-radius:10px; display:grid; place-items:center; font-size:17px;}
+  .who.ask{background:var(--yellow-soft); border:2px solid var(--yellow);}
+  .who.ans{background:var(--orange-soft); border:2px solid var(--orange);}
+  .qa .t{font-size:14.5px;}
+  .qa .t .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); display:block; margin-bottom:1px;}
+  .grow{text-align:center; color:var(--muted); font-size:13.5px; padding:4px 0 2px;}
+
+  /* answerer sub-steps */
+  .subflow{display:flex; gap:10px; flex-wrap:wrap; margin:6px 0 2px;}
+  .schip{font-size:12.5px; background:var(--paper); border:1px solid var(--orange-soft); border-radius:100px; padding:4px 11px; font-weight:600; color:var(--ink); display:flex; align-items:center; gap:6px;}
+  .schip .n{width:17px; height:17px; border-radius:100px; background:var(--orange); color:#fff; font-size:11px; display:grid; place-items:center; font-weight:800;}
+  .arrow{color:var(--orange-soft); font-weight:800; align-self:center;}
+
+  /* two-column compare */
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--yellow-soft); border:2px solid var(--yellow);}
+  .agent.answ .cap{background:var(--orange-soft); border:2px solid var(--orange);}
+  .agent h3{margin:0 0 2px; font-size:19px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+  .mem{font-size:14px; padding:9px 12px; border-radius:10px; margin-top:9px;}
+  .mem.yes{background:var(--green); border:1px solid var(--green-line);}
+  .mem.no{background:var(--red); border:1px solid var(--red-line);}
+  .mem .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
+  .mem.yes .lbl{color:var(--green-ink);} .mem.no .lbl{color:var(--red-ink);}
+
+  .parallel{display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin:20px 0;}
+  .lane{background:var(--cream); border:1px solid var(--line); border-radius:12px; padding:12px; text-align:center; font-size:13px;}
+  .lane .em{font-size:20px;} .lane b{display:block; margin:4px 0 2px; font-size:13.5px;}
+  .lane small{color:var(--muted); font-size:12px;}
+
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three{grid-template-columns:1fr;} .parallel{grid-template-columns:1fr 1fr;} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="kicker">Content Machine · Research Phase</span>
+    <h1>How <span class="hl">STORM</span> researches a topic</h1>
+    <p class="lede">STORM is our deep-research engine. It works like a small newsroom: it invents a few expert
+    interviewers, runs a separate grounded interview for each, and writes a fully-sourced research document from
+    everything they gather. We wrapped the STORM engine so it runs on a headless CLI — our Claude subscription or
+    Codex — and reads whole articles instead of blurbs. Here is exactly how it works, script by script.</p>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#idea">The idea</a>
+    <a href="#words">The words</a>
+    <a href="#architecture">The architecture</a>
+    <a href="#pipeline">Full pipeline</a>
+    <a href="#setup">Setup</a>
+    <a href="#loop">One interview</a>
+    <a href="#memory">Who sees what</a>
+    <a href="#reading">Reading the web</a>
+    <a href="#writing">Writing it</a>
+    <a href="#output">The output</a>
+  </div>
+</nav>
+
+<!-- IDEA -->
+<section id="idea">
+  <div class="wrap">
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">STORM does not "ask an AI to write an article." It runs a research operation: it hires
+    interviewers, each interviews an expert who may only speak from sources it just read, and only then does it
+    write — with a citation on every claim.</p>
+    <div class="grid">
+      <div class="card"><div class="ic">🧭</div><h3>1. Invent the interviewers</h3><p>A few "editors," each with
+        a different angle, so the topic is researched from several viewpoints at once.</p></div>
+      <div class="card"><div class="ic">🎙️</div><h3>2. Run a grounded interview each</h3><p>Every editor holds its
+        own interview with an expert that answers only from articles it pulls off the web in real time.</p></div>
+      <div class="card"><div class="ic">🗂️</div><h3>3. Build an outline</h3><p>From everything the interviews
+        surfaced, it drafts the document's section structure.</p></div>
+      <div class="card"><div class="ic">✍️</div><h3>4. Write, fully sourced</h3><p>It writes each section from the
+        gathered evidence — every sentence backed by a source it actually read.</p></div>
+    </div>
+    <div class="note orange"><span class="tag">The one rule that governs everything</span><br>
+    <b>Every sentence is grounded in a scraped source, and the output is evidence — never the finished article.</b>
+    STORM answers only from what it actually read. Its result is a <b>dossier</b> — raw, cited research our writer
+    builds from. If a claim can't point to a source STORM scraped, it doesn't belong.</div>
+  </div>
+</section>
+
+<!-- THE WORDS -->
+<section id="words" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">A handful of terms run through the whole engine. Here they are in plain language, once.</p>
+    <div class="define"><b>Dossier</b> — the thing STORM produces: a long research write-up with a real source
+      behind every claim. It is <i>not</i> the finished article; it's the raw evidence our writer draws from.</div>
+    <div class="define"><b>Grounded / cited</b> — every sentence points to an actual web page STORM read. Nothing
+      comes from the AI's own memory, so it can't quietly make things up.</div>
+    <div class="define"><b>Editor (persona)</b> — an invented interviewer with one angle (say, cost, or how it's
+      measured). More editors = more angles the topic gets researched from.</div>
+    <div class="define"><b>The bridge (shim)</b> — a small relay we run on our own machine that makes STORM send its
+      AI calls to a headless CLI — our <b>Claude</b> subscription (default) or <b>Codex</b> — instead of a paid AI
+      service. This is why the AI part costs $0.</div>
+    <div class="define"><b>The retriever (scraper)</b> — the part that finds web links and then reads the
+      <b>whole article</b> behind each one, not just the one-line search blurb.</div>
+    <div class="define"><b>RAG</b> — "retrieve, then write": for each section, find the most relevant source passages
+      first, then write <i>only</i> from them. It's what keeps the writing tied to real evidence.</div>
+  </div>
+</section>
+
+<!-- ARCHITECTURE -->
+<section id="architecture">
+  <div class="wrap">
+    <h2><span class="num">03</span>The architecture — our wrapper around the STORM engine</h2>
+    <p class="sub">A run has two layers: <b>our code</b> that we wrote, and <b>the STORM engine</b> that does the
+    research and that we leave mostly alone.</p>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">🛠️</div><h3>Our code</h3>
+        <div class="role">the wrapper — four small files in <span class="file">scripts/</span></div>
+        <div class="mem yes"><span class="lbl">What we wrote</span>
+          <ul>
+            <li>The bridge that puts STORM on Claude or Codex</li>
+            <li>The scraper that reads whole articles</li>
+            <li>The control panel that runs it all</li>
+            <li>A log reader + a viewer</li>
+          </ul></div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">📦</div><h3>The engine</h3>
+        <div class="role">the STORM engine in <span class="file">engine/</span></div>
+        <div class="mem no"><span class="lbl">What we left alone</span>
+          <ul>
+            <li>The entire research → outline → write → polish workflow</li>
+            <li>You never read it to use STORM</li>
+            <li>The few edits we made are logged in <span class="file">CHANGES.md</span></li>
+          </ul></div>
+      </div>
+    </div>
+
+    <h3>Our four scripts — what each does &amp; where it's used</h3>
+    <table>
+      <tr><th style="width:26%">File</th><th>What it does &amp; where it's used</th></tr>
+      <tr>
+        <td><span class="file">shim.py</span><br><span class="muted" style="font-size:12.5px;">the Claude / Codex bridge</span></td>
+        <td>Puts STORM on a headless CLI instead of a paid AI.
+          <ul>
+            <li>A tiny server that runs on our own machine.</li>
+            <li>STORM sends every AI call to it; it forwards each to <b>Claude</b> (default) or <b>Codex</b> and hands the answer back.</li>
+            <li>Free — no AI fees. You start it by hand before a run.</li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td><span class="file">dataforseo_rm.py</span><br><span class="muted" style="font-size:12.5px;">the retriever</span></td>
+        <td>Finds the sources and reads them deeply.
+          <ul>
+            <li>Searches the web through DataForSEO to find links.</li>
+            <li>Then <b>scrapes the whole article</b> behind each link — not just the blurb.</li>
+            <li>This replaces STORM's own shallow search (see §08).</li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td><span class="file">run_storm.py</span><br><span class="muted" style="font-size:12.5px;">the control panel</span></td>
+        <td>The one command you actually run.
+          <ul>
+            <li>Loads the search credentials and sets every knob (how many editors, how many questions, how many links).</li>
+            <li>Wires the bridge + the retriever into the engine.</li>
+            <li>Runs the whole chain — research → outline → write → polish — in one go.</li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td><span class="file">build_steplog.py</span><br><span class="muted" style="font-size:12.5px;">the log reader</span></td>
+        <td>Turns the raw record of a run into something readable.
+          <ul>
+            <li>Reads STORM's log of every AI call.</li>
+            <li>Writes a plain step-by-step of what STORM did — for auditing a run.</li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td><span class="file">view-article.py</span><br><span class="muted" style="font-size:12.5px;">the viewer</span></td>
+        <td>Renders the finished dossier as a web page.
+          <ul>
+            <li>Makes every citation clickable and builds a numbered references list.</li>
+            <li>Read-only — it never changes the research, just displays it.</li>
+          </ul></td>
+      </tr>
+    </table>
+
+    <div class="note orange"><span class="tag">Why it costs almost nothing</span><br>
+    All the AI runs free through the <b>bridge</b> on our subscription. The only thing that costs money is the
+    web-search lookups in the retriever — about <b>$0.10–$0.20 per topic</b>. Reading the full articles is free.</div>
+  </div>
+</section>
+
+<!-- PIPELINE -->
+<section id="pipeline" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">04</span>The full pipeline — steps 0 to 7</h2>
+    <p class="sub">One command runs the research chain (Steps 1–5); two small extras render the log and the viewable
+    page. Every file lands under <span class="file">out/&lt;topic&gt;/</span>. Only Step 2 spends money (the web
+    search); all the AI is free via the bridge. Sections 05–10 zoom into the parts that matter most.</p>
+    <div class="flow">
+      <div class="step"><div class="dot">0</div><div class="step-body">
+        <h3>Get ready <span class="pill">no file yet</span></h3>
+        <p>Two quick bits of setup — nothing is written yet.</p>
+        <ul>
+          <li><span class="fn">Start the bridge</span> (<span class="file">shim.py</span>) so STORM's AI calls run on a headless CLI — Claude or Codex, free.</li>
+          <li><span class="fn">Set the knobs</span> in <span class="file">run_storm.py</span>: how many editors, how many questions each may ask, how many links per search.</li>
+        </ul></div></div>
+
+      <div class="step"><div class="dot">1</div><div class="step-body">
+        <h3>Decide the editors (personas)</h3>
+        <p><b>How they're decided:</b> an AI names a handful of sub-topics around the theme, then turns each into an
+        "editor" — an interviewer with one distinct angle (cost, methodology, and so on) — plus one plain fact-checker.
+        The number of editors is a knob you set; more editors = more angles covered.</p>
+        <ul>
+          <li><span class="file">persona_generator.py</span> — writes the editor list.</li>
+        </ul>
+        <a class="xref" href="#setup">↓ §05 — how each editor then gets its own interview</a></div></div>
+
+      <div class="step"><div class="dot">2</div><div class="step-body">
+        <h3>Run the interviews <span class="pill">the research — every fact is gathered here</span> <span class="pill paid">search $</span></h3>
+        <p>Each editor interviews a grounded "expert," one question at a time. Four files do the work — two that run
+        it, two that record it:</p>
+        <ul>
+          <li><span class="fn"><span class="file">knowledge_curation.py</span></span> — runs the interview loop: the editor asks a question; the expert answers using <b>only</b> what was just read.</li>
+          <li><span class="fn"><span class="file">dataforseo_rm.py</span></span> — the retriever: for each question it searches the web, then reads the pages it finds.</li>
+          <li><span class="fn"><span class="file">conversation_log.json</span></span> — records every question, its answer, and the exact sources behind that answer.</li>
+          <li><span class="fn"><span class="file">raw_search_results.json</span></span> — the shared <b>pool</b>: all the source text gathered across every interview.</li>
+        </ul>
+        <div class="note" style="margin:8px 0 4px;"><span class="tag">What the pool actually stores — not whole articles</span><br>
+        Each page the retriever reads is sliced into <b>~1,200-character chunks</b> (up to ~14 per page); only those
+        chunks are saved into the pool, never the full page. So a source lives in the pool as a set of passages, and
+        the interview log points to the chunks behind each answer — not the entire article.</div>
+        <a class="xref" href="#loop">↓ §06 — the turn-by-turn loop</a>
+        <a class="xref" href="#reading">↓ §08 — how it reads pages deeply</a></div></div>
+
+      <div class="step"><div class="dot">3</div><div class="step-body">
+        <h3>Build the outline</h3>
+        <p><b>What "from what the interviews surfaced" means:</b> an AI reads all the interview Q&amp;A and groups the
+        recurring themes into headings — a rough first outline, then a refined one. It's built from the questions and
+        answers, not from a template.</p>
+        <ul>
+          <li><span class="file">outline_generation.py</span> — writes both outline passes → <span class="file">storm_gen_outline.txt</span>.</li>
+          <li><b>Note:</b> this is STORM's own research scaffolding. Our article's real structure comes from the DataForSEO brief later — STORM's outline is never published.</li>
+        </ul></div></div>
+
+      <div class="step"><div class="dot">4</div><div class="step-body">
+        <h3>Write the sections</h3>
+        <p><b>How the evidence is pulled:</b> for each heading, STORM searches the pool <b>by meaning</b> and keeps the
+        few chunks that match best, then writes the section from just those — every sentence cited. No new web
+        searches; it only uses chunks already in the pool from Step 2.</p>
+        <ul>
+          <li><span class="fn"><span class="file">storm_dataclass.py</span></span> — finds the best-matching chunks for each heading.</li>
+          <li><span class="fn"><span class="file">article_generation.py</span></span> — writes the cited section from those chunks.</li>
+          <li><span class="fn"><span class="file">storm_gen_article.txt</span></span> — the drafted dossier.</li>
+          <li><span class="fn"><span class="file">url_to_info.json</span></span> — the cited-source map: which chunks each source contributed, with its citation number.</li>
+        </ul>
+        <a class="xref" href="#writing">↓ §09 — matching evidence to headings</a></div></div>
+
+      <div class="step"><div class="dot">5</div><div class="step-body">
+        <h3>Polish &amp; finish</h3>
+        <p>Add a short summary on top; the section bodies pass through unchanged (no trimming).</p>
+        <ul>
+          <li><span class="file">article_polish.py</span> → <span class="file">storm_gen_article_polished.txt</span> — the dossier the write phase receives.</li>
+        </ul></div></div>
+
+      <div class="step"><div class="dot">6</div><div class="step-body">
+        <h3>Render the step log <span class="pill">optional</span></h3>
+        <p>Turn the raw record of every AI call into a readable trace of what STORM did — for auditing a run.</p>
+        <ul>
+          <li><span class="file">build_steplog.py</span> → <span class="file">STEP-LOG.md</span>.</li>
+        </ul></div></div>
+
+      <div class="step"><div class="dot">7</div><div class="step-body">
+        <h3>Render the viewable page <span class="pill">optional</span></h3>
+        <p>Render the dossier as one shareable web page — citations clickable, a numbered references list, a contents
+        sidebar. Read-only; it never changes the research.</p>
+        <ul>
+          <li><span class="file">view-article.py</span> → <span class="file">article.html</span>.</li>
+        </ul>
+        <a class="xref" href="#output">↓ §10 — what comes out</a></div></div>
+    </div>
+    <div class="note"><span class="tag">One command, genuinely fresh</span><br>
+    A single <span class="file">run_storm.py</span> call runs Steps 1–5 end to end, and every run <b>re-scrapes the
+    web</b> — it never reuses an old pool. The step-log and the viewer (6–7) are small read-only extras you run after.</div>
+  </div>
+</section>
+
+<!-- SETUP: personas -> interviews -->
+<section id="setup">
+  <div class="wrap">
+    <h2><span class="num">05</span>From editors to interviews — the setup</h2>
+    <p class="sub">Once the editors exist (Step 1, by <span class="file">persona_generator.py</span>), here is what
+    actually happens <i>before</i> and <i>around</i> the questions.</p>
+
+    <h3>Each editor gets its own interview</h3>
+    <p>Every editor (persona) is handed a <b>fresh, empty interview</b>. An "interview" isn't a document — it's just
+    a <b>conversation that grows one turn at a time</b>. It starts with <b>nothing in it</b>.</p>
+
+    <h3>They all run at the same time</h3>
+    <p>The interviews don't happen one after another — they run <b>in parallel</b> (a few at once), and they are
+    <b>completely independent</b>. Editor A never sees Editor B's conversation. That independence is exactly what
+    creates breadth: each editor chases its own angle without being influenced by the others.</p>
+
+    <div class="parallel">
+      <div class="lane"><div class="em">🧑‍💼</div><b>Editor 1</b><small>own interview · own angle</small></div>
+      <div class="lane"><div class="em">🧑‍💼</div><b>Editor 2</b><small>own interview · own angle</small></div>
+      <div class="lane"><div class="em">🧑‍💼</div><b>Editor 3</b><small>own interview · own angle</small></div>
+      <div class="lane"><div class="em">🔎</div><b>Fact-checker</b><small>own interview · basics</small></div>
+    </div>
+
+    <div class="note"><span class="tag">How the very first question is born</span><br>
+    Because the interview starts empty, there's no conversation to build on yet — so the editor generates its
+    <b>first question purely from the topic + its own angle</b>. (e.g. the "cost" editor opens with a cost question,
+    the "methodology" editor opens with a how-is-this-measured question.) Every later question is built on the
+    answers so far — that's the loop in the next section.</div>
+    <div class="note orange"><span class="tag">Our upgrade — more angles, not more Wikipedia</span><br>
+    Want broader research? Add editors (raise the persona count), not questions. Note: the engine tries to read
+    related Wikipedia contents pages as light inspiration for the personas — but that's optional, so even when it's
+    blocked the editors still come out strong and varied.</div>
+  </div>
+</section>
+
+<!-- THE LOOP -->
+<section id="loop" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">06</span>Inside one interview — the loop</h2>
+    <p class="sub">One interview is the same three-part turn, repeated. Two AI roles play it: the
+    <b style="color:var(--orange)">Asker</b> (the editor) and the <b style="color:var(--orange)">Answerer</b>
+    (the grounded expert, run by <span class="file">knowledge_curation.py</span>). Here is a single turn, in order.</p>
+
+    <div class="flow">
+      <div class="step"><div class="dot" style="background:var(--yellow-soft);">A</div><div class="step-body">
+        <h3>The Asker asks one question</h3>
+        <p>It looks at the topic, its own angle, and the conversation so far, and writes <b>one</b> question —
+        the most useful thing to learn next.</p></div></div>
+
+      <div class="step"><div class="dot" style="background:var(--orange-soft); border-color:var(--orange);">B</div><div class="step-body">
+        <h3>The Answerer researches &amp; replies</h3>
+        <p>It never answers from memory. For that one question it does four things (steps 1–3 are the retriever,
+        <span class="file">dataforseo_rm.py</span>):</p>
+        <div class="subflow">
+          <span class="schip"><span class="n">1</span>turn the question into Google searches</span><span class="arrow">→</span>
+          <span class="schip"><span class="n">2</span>find the links</span><span class="arrow">→</span>
+          <span class="schip"><span class="n">3</span>scrape the full articles</span><span class="arrow">→</span>
+          <span class="schip"><span class="n">4</span>write an answer, every sentence cited</span>
+        </div></div></div>
+
+      <div class="step"><div class="dot">C</div><div class="step-body">
+        <h3>The turn is saved to the conversation</h3>
+        <p>The question, the grounded answer, and <b>the exact sources behind it</b> are bundled into one "turn"
+        and added to the conversation. The conversation just grew by one.</p>
+        <div class="files"><span class="k">lands in</span><span class="file">conversation_log.json</span></div></div></div>
+
+      <div class="step"><div class="dot" style="background:#fff; border:2px dashed var(--orange);">↻</div><div class="step-body">
+        <h3>Repeat — building on the last answers</h3>
+        <p>Back to the Asker. Now it can see what it just learned, so its next question <b>builds on the previous
+        answers</b> instead of repeating them. It keeps going until it feels the topic is covered.</p></div></div>
+    </div>
+
+    <div class="note"><span class="tag">Our upgrade — the "ask at least 3" floor</span><br>
+    With full-article answers, an editor tends to feel "done" after just one or two questions — which starves the
+    research. So we <b>nudge every editor to ask at least three questions</b> before it's allowed to wrap up.
+    That's what keeps each interview deep and the range of sources wide.</div>
+
+    <h3>What one turn actually holds</h3>
+    <p>A turn isn't just a question and answer — it carries the receipts, which is what makes the whole thing
+    auditable:</p>
+    <div class="grid three">
+      <div class="card"><div class="ic">❓</div><h3>The question</h3><p>What the editor asked, in plain language.</p></div>
+      <div class="card"><div class="ic">💬</div><h3>The grounded answer</h3><p>The expert's reply, with a citation number on every claim.</p></div>
+      <div class="card"><div class="ic">🔗</div><h3>The sources</h3><p>The actual pages searched and scraped for that answer — kept, not thrown away.</p></div>
+    </div>
+
+    <h3>What the growing conversation looks like</h3>
+    <div class="interview">
+      <div class="turn"><div class="turn-h">Turn 1 · the opener (from the angle alone)</div>
+        <div class="qa"><div class="who ask">🧑‍💼</div><div class="t"><span class="lbl">Asker</span>What's the average cost for this?</div></div>
+        <div class="qa"><div class="who ans">🔬</div><div class="t"><span class="lbl">Answerer — after searching + scraping</span>It ranges from … to …, per sources [1][2].</div></div></div>
+      <div class="grow">↓ the Asker reads that answer, then asks a sharper follow-up ↓</div>
+      <div class="turn"><div class="turn-h">Turn 2 · builds on turn 1</div>
+        <div class="qa"><div class="who ask">🧑‍💼</div><div class="t"><span class="lbl">Asker</span>Why does it vary so much between small and large teams?</div></div>
+        <div class="qa"><div class="who ans">🔬</div><div class="t"><span class="lbl">Answerer — fresh search + scrape again</span>Because …, per [3][4].</div></div></div>
+      <div class="grow">↓ … at least 3 turns, then it wraps up. Next editor's interview does the same, in parallel ↓</div>
+    </div>
+    <div class="note"><span class="tag">Where it all ends up</span><br>
+    When every interview is done, the <b>sources from every turn of every editor</b> are gathered into one shared
+    <b>research pool</b> — dozens of real, scraped articles. That pool is the raw material the writing step draws
+    from later.
+    <div class="files"><span class="k">saved as</span><span class="file">raw_search_results.json</span></div></div>
+  </div>
+</section>
+
+<!-- MEMORY MODEL -->
+<section id="memory">
+  <div class="wrap">
+    <h2><span class="num">07</span>Who sees what — the memory model</h2>
+    <p class="sub">The two roles have very different memory, and it's deliberate. This is what keeps the research
+    honest instead of drifting into invention.</p>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">🧑‍💼</div><h3>The Asker (editor)</h3>
+        <div class="role">has short-term memory — to choose a good next question</div>
+        <div class="mem yes"><span class="lbl">Remembers</span><br>the <b>last few answers in full</b>. Older ones are
+        compressed to just "you asked about X" (answer stripped out), so it never carries the whole transcript.</div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">🔬</div><h3>The Answerer (expert)</h3>
+        <div class="role">has no memory — fresh on every question</div>
+        <div class="mem no"><span class="lbl">Forgets everything</span><br>a brand-new call each time. It sees <b>only the
+        current question</b> — never earlier questions, never earlier answers. A goldfish, on purpose.</div>
+      </div>
+    </div>
+
+    <div class="grid three">
+      <div class="card"><div class="ic">↔️</div><h3>Between the two roles</h3><p>Almost nothing passes. The Asker never
+        sees the Answerer's raw sources — only its finished answer. Two minds passing notes.</p></div>
+      <div class="card"><div class="ic">⏭️</div><h3>Between two questions</h3><p>Only <b>answers</b> carry forward, and only to
+        the Asker. The Answerer restarts from zero every question.</p></div>
+      <div class="card"><div class="ic">👥</div><h3>Between the editors</h3><p>Nothing at all — separate, parallel
+        interviews. Their isolation is what creates breadth.</p></div>
+    </div>
+
+    <div class="note orange"><span class="tag">Why so much forgetting?</span><br>
+    A memoryless expert <b>can't hallucinate its way forward</b> — with nothing to lean on, it's forced back to real
+    sources for every single answer. The only "memory" in the entire system is the short window the Asker uses to
+    ask a smart next question. Every fact comes from a freshly-read page.</div>
+  </div>
+</section>
+
+<!-- READING -->
+<section id="reading" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">08</span>How it reads the web — deep, not shallow</h2>
+    <p class="sub">Most tools like this only skim the one-line blurb under a search result. Ours — the retriever,
+    <span class="file">dataforseo_rm.py</span> — reads the whole article. This is the swap that makes STORM's
+    evidence specific instead of generic.</p>
+    <div class="agents">
+      <div class="agent" style="border-left:4px solid #ddd;">
+        <div class="cap" style="background:#f2f2f2;border-color:#ddd;">📄</div>
+        <h3>Shallow — STORM's default</h3><div class="role">reads the ~150-character search blurb</div>
+        <p class="muted" style="font-size:14.5px;">Fast, but thin and generic — the same headline stats everyone
+        else already quotes. This is the built-in retriever we replaced.</p>
+      </div>
+      <div class="agent asker" style="border-left:4px solid var(--orange);">
+        <div class="cap" style="background:var(--orange-soft);border-color:var(--orange);">📚</div>
+        <h3>Deep — what we built</h3><div class="role">finds the link, then reads the whole article</div>
+        <p class="muted" style="font-size:14.5px;">We use search only to <b>find the links</b>, then fetch and read the
+        <b>full article body</b> ourselves — the specific, segmented detail nobody else surfaces. The scraping is free.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WRITING -->
+<section id="writing">
+  <div class="wrap">
+    <h2><span class="num">09</span>How the document is written</h2>
+    <p class="sub">The writing step (Step 4) does <b>not</b> touch the web again. It writes entirely from the pool of
+    evidence the interviews already gathered — matching evidence to headings is "RAG" (§02).</p>
+    <div class="flow">
+      <div class="step"><div class="dot" style="font-size:20px;">🔎</div><div class="step-body"><h3>Match evidence to each heading</h3>
+        <p>For a section, <span class="file">storm_dataclass.py</span> searches the pool by <i>meaning</i> (not keywords) and pulls the top 8 chunks most relevant to that heading.</p></div></div>
+      <div class="step"><div class="dot" style="font-size:20px;">✍️</div><div class="step-body"><h3>Write it dense and cited</h3>
+        <p><span class="file">article_generation.py</span> writes the section from those chunks — told to favour concrete specifics (numbers, ranges, dates) and to cite every claim. Length follows the evidence; no padding.</p></div></div>
+      <div class="step"><div class="dot" style="font-size:20px;">🧾</div><div class="step-body"><h3>Summarize &amp; finish</h3>
+        <p>A short lead goes on top (Step 5), and the finished dossier is saved.</p></div></div>
+    </div>
+    <div class="note orange"><span class="tag">A funnel, not waste</span><br>
+    Only the strongest sources make the cut — roughly <b>40% of everything gathered gets cited</b>. The rest stays in
+    the pool as backup. That's intentional: gather wide, then keep only the most relevant material per section.</div>
+  </div>
+</section>
+
+<!-- OUTPUT -->
+<section id="output" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">10</span>What comes out</h2>
+    <p class="sub">A readable, cited dossier — plus the raw evidence pool behind it, and a viewable page.</p>
+    <div class="stats">
+      <div class="stat"><div class="big">~10k</div><div class="cap">words of densely-cited research (proven run)</div></div>
+      <div class="stat"><div class="big">1 : 27</div><div class="cap">about one citation every 27 words</div></div>
+      <div class="stat"><div class="big">$0</div><div class="cap">AI fees — runs on the subscription</div></div>
+      <div class="stat"><div class="big">~$0.15</div><div class="cap">web-search cost per topic</div></div>
+    </div>
+    <div class="grid" style="margin-top:22px;">
+      <div class="card"><div class="ic">📘</div><h3>The dossier</h3><p>A long, source-backed research write-up. It feeds our
+        writing phase as an evidence pool — the writer maps it onto <b>our</b> outline and <b>our</b> angle. STORM's own
+        structure is never published as-is.</p>
+        <span class="file">storm_gen_article_polished.txt</span></div>
+      <div class="card"><div class="ic">🗃️</div><h3>The raw pool</h3><p>Every source gathered, with its scraped passages —
+        so the writer can drill down to the full text behind any claim.</p>
+        <span class="file">raw_search_results.json</span></div>
+      <div class="card"><div class="ic">👀</div><h3>The viewable page</h3><p>The dossier rendered as one self-contained
+        web page — every citation clickable, a numbered references list, a contents sidebar. For reading and sharing.</p>
+        <span class="file">article.html</span></div>
+    </div>
+    <div class="note"><span class="tag">Where STORM sits in the bigger machine</span><br>
+    STORM is the <b>Evidence Engine</b> of the research phase. Alongside the DataForSEO brief (keywords + SERP + the
+    competitor map), it hands the writing phase everything it needs — so the writer just writes, and never has to go
+    hunting for a fact, a stat, or a source.</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">STORM Evidence Engine · Research-phase architecture overview · Wrapped to run on a headless
+  Claude or Codex CLI with full-article deep reading.</div>
+</footer>
+
+</body>
+</html>

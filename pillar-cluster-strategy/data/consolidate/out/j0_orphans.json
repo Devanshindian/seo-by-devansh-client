@@ -1,0 +1,481 @@
+{
+  "job": "j0_orphans",
+  "pillars": [
+    {
+      "pillar": "Technical Skill Tests for Hiring Developers",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "conduct-advanced-java-online-test-tips-for-recruiters",
+        "conduct-an-effective-numpy-test-online",
+        "create-and-administer-effective-mysql-test",
+        "how-to-design-html-test",
+        "assessing-candidate-skills-with-nlp-test",
+        "assess-with-autocad-test",
+        "how-to-incorporate-qa-test-into-your-recruitment-strategy",
+        "key-benefits-of-using-qa-test-in-the-recruitment-process"
+      ]
+    },
+    {
+      "pillar": "Computer & Office Software Skill Tests",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "design-an-effective-microsoft-word-test",
+        "the-excel-edge-assessing-advanced-excel-sills",
+        "key-computer-skills-to-assess-during-job-interviews",
+        "clerical-skills",
+        "choosing-a-typing-test-how-and-why",
+        "purpose-of-capturing-screenshots-while-testing"
+      ]
+    },
+    {
+      "pillar": "Types of Pre-Employment Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "competency-based-assessment",
+        "projective-assessment",
+        "gamified-assessments",
+        "behavioral-assessments-impact-hiring-decisions",
+        "good-problem-solving-assessment-to-test-candidates",
+        "discover-innovative-designers-with-design-thinking-assessments",
+        "create-graphic-design-test-for-hiring",
+        "how-to-evaluate-niche-skills",
+        "5-tips-to-evaluate-agile-software-development-skills",
+        "5-tips-to-evaluate-customer-journey-mapping-skills",
+        "boost-employee-retention-with-predictive-assessments",
+        "combining-personality-data-with-predictive-metrics"
+      ]
+    },
+    {
+      "pillar": "Situational Judgement Tests in Hiring",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "how-situational-judgement-tests-sjts-find-the-best-fits",
+        "common-criticisms-of-situational-judgement-test",
+        "real-world-examples-of-how-sjts-predict-job-performance",
+        "conduct-managerial-hiring-with-judgement-tests",
+        "conduct-management-tests",
+        "find-product-managers-with-our-scenario-evaluations",
+        "assessments-with-chat-simulation"
+      ]
+    },
+    {
+      "pillar": "Personality & Motivational Fit Assessments",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "informational",
+      "spokes": [
+        "picocean-perosnality-test",
+        "what-is-motivational-fit-and-its-importance-in-hiring",
+        "gauge-candidate-motivation-and-long-term-commitment",
+        "counterproductive-work-behavior",
+        "cognitive-diversity-at-workplace",
+        "discriminant-validity",
+        "percentile-scores"
+      ]
+    },
+    {
+      "pillar": "English & Language Proficiency Testing",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "english-proficiency-test-need-inhiring-process",
+        "english-proficiency-test-questions-for-candidates",
+        "intercultural-competence"
+      ]
+    },
+    {
+      "pillar": "Interview Questions by Role",
+      "theme": "Interview Questions by Role",
+      "intent": "informational",
+      "spokes": [
+        "creative-director-interview-questions-to-ask-job-applicants",
+        "graphic-designer-interview-questions-to-ask-job-applicants",
+        "interview-questions-for-gis-specialist",
+        "interview-questions-for-portfolio-manager",
+        "top-10-technical-interview-questions-questions-for-potential-candidates",
+        "interview-questions-bank",
+        "inappropriate-interview-questions-to-avoid-asking",
+        "how-to-create-video-and-audio-interview-questions"
+      ]
+    },
+    {
+      "pillar": "Exit Interview Questions & Best Practices",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "guide-to-important-exit-interview-questions",
+        "top-must-ask-exit-interview-questions-for-insightful-feedback",
+        "how-can-you-conduct-impartial-exit-interview"
+      ]
+    },
+    {
+      "pillar": "How Top Companies Hire",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "how-microsoft-hires-tech-talent",
+        "netflix-hiring-process",
+        "nvidia-interview-process",
+        "openai-interview-process",
+        "walmart-hiring-process",
+        "jp-morgan-recruitment-process"
+      ]
+    },
+    {
+      "pillar": "Campus & University Recruiting",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "campus-hiring-job-fair-email-templates",
+        "how-to-attract-top-talent-during-a-campus-hiring-drive",
+        "how-to-overcome-campus-hiring-challenges",
+        "how-employers-can-strengthen-university-partnerships",
+        "tips-on-recruiting-students-for-hr-professionals",
+        "role-of-internships-in-talent-acquisition-strategies",
+        "best-strategies-to-hire-higher-education-talent"
+      ]
+    },
+    {
+      "pillar": "Talent Acquisition Strategy",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "how-to-discover-top-talent-beyond-resume",
+        "how-to-stay-connected-with-top-talent-when-not-hiring",
+        "handle-hiring-while-talent-shortages",
+        "tech-recruitment-with-talent-engagement-strategies",
+        "the-importance-of-employer-branding-in-talent-acquisition",
+        "employer-value-proposition",
+        "holding-careers-page-back-from-attracting-top-talent",
+        "the-pros-and-cons-of-internal-recruitment",
+        "quiet-hiring",
+        "active-candidates",
+        "addressing-the-full-candidate-acquisition-journey",
+        "know-everything-about-remote-recruitment",
+        "the-landscape-of-hiring-in-recruiting-services"
+      ]
+    },
+    {
+      "pillar": "Building a Hiring Plan & Process",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "how-to-develop-hiring-plan",
+        "free-recruitment-plan-templates",
+        "selection-process",
+        "develop-a-job-profile",
+        "structured-job-profiles-improve-hiring",
+        "craft-effective-job-descriptions",
+        "5-tips-for-successful-hiring",
+        "5-strategies-for-mastering-recruitment-tests",
+        "best-practices-in-implementing-hiring-assessments",
+        "recruitment-books",
+        "manage-and-prioritize-multiple-open-positions-simultaneously"
+      ]
+    },
+    {
+      "pillar": "Recruiting Efficiency & Cost Reduction",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "cost-of-a-bad-hire",
+        "reduce-recruitment-costs-while-maintaining-quality-hires",
+        "scale-recruiting-efforts-without-expanding-your-team",
+        "how-to-improve-quality-of-hire",
+        "roi-of-smarter-hiring",
+        "recruitment-for-small-businesses",
+        "case-studies-of-better-hires-using-talent-assessments"
+      ]
+    },
+    {
+      "pillar": "Resume Screening Techniques",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "resume-screening-every-recruiter-should-know",
+        "resume-screening-techniques",
+        "benefits-of-ai-resume-screening",
+        "simplify-candidate-screening-with-video-interview",
+        "candidate-experience-with-white-labeled-assessments",
+        "identify-and-address-fake-employment-references",
+        "is-it-necessary-to-verify-educational-qualifications"
+      ]
+    },
+    {
+      "pillar": "Remote Hiring & Virtual Assessments",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "remote-assessments-effective-for-evaluating-candidates",
+        "remote-assessments-in-remote-hiring",
+        "how-to-master-virtual-hiring-like-a-pro",
+        "conduct-system-diagnostics-for-remote-work"
+      ]
+    },
+    {
+      "pillar": "Fair & Bias-Free Hiring",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "blind-hiring",
+        "cognitive-bias-is-harming-your-hiring-process",
+        "halo-and-horn-effect",
+        "overcome-lack-of-diversity-due-to-unconscious-bias-in-sourcing-and-selection",
+        "how-to-build-a-diverse-and-inclusive-workforce",
+        "increase-diversity-in-your-team-without-training",
+        "know-everything-about-the-future-of-fair-hiring",
+        "hiring-test-legal-compliance",
+        "hr-accommodate-candidates-with-disabilities-in-skills-assessments",
+        "top-reasons-to-prioritize-skills-over-degrees"
+      ]
+    },
+    {
+      "pillar": "Hiring for Specific Roles & Industries",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "conduct-administrative-hiring-with-tests",
+        "screen-and-interview-data-scientist-candidates",
+        "data-analyst-tests-to-identify-talent",
+        "interview-a-software-developer-as-non-tech-recruiter",
+        "best-practices-for-blue-collar-interviewing-and-screening",
+        "grey-collar-jobs",
+        "strategies-for-evaluating-nursing-talent",
+        "why-more-people-are-turning-to-nursing",
+        "healthcare-entry-level-certification-readiness",
+        "assessments-for-hiring-in-media-industry",
+        "rules-of-thumb-for-hiring-a-project-manager-for-your-e-commerce-company",
+        "best-truck-driving-jobs-with-no-experience",
+        "performance-marketing-performance-hiring-skills-assessments"
+      ]
+    },
+    {
+      "pillar": "Job Boards & Job Search Tools",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "best-job-boards-that-you-should-know",
+        "top-job-search-sites",
+        "top-job-application-trackers-perfect-tool-job-search",
+        "how-to-use-seo-for-better-job-advertising"
+      ]
+    },
+    {
+      "pillar": "HR Metrics & People Analytics",
+      "theme": "HR Operations & Compliance",
+      "intent": "informational",
+      "spokes": [
+        "key-hr-metrics",
+        "human-capital-analytics",
+        "revenue-per-fte",
+        "balanced-scorecard",
+        "9-box-matrix",
+        "prioritization-matrix",
+        "departmentalization",
+        "job-analysis-for-hr-professionals",
+        "job-characteristics-model",
+        "organizational-structure-influence-hiring-decisions"
+      ]
+    },
+    {
+      "pillar": "HR Compliance, Benefits & Policies",
+      "theme": "HR Operations & Compliance",
+      "intent": "informational",
+      "spokes": [
+        "compassionate-leave",
+        "garden-leave",
+        "compensatory-off",
+        "9-80-work-schedule",
+        "employee-redundancy",
+        "stay-compliant-with-compensation-and-benefits-laws",
+        "gender-pay-gap-causes-implications-and-solutions",
+        "compensation-transparency-hiring-trend-us-and-canada",
+        "personally-identifiable-information",
+        "6-common-security-mistakes-hr",
+        "global-employment"
+      ]
+    },
+    {
+      "pillar": "HR Software & Tools",
+      "theme": "HR Operations & Compliance",
+      "intent": "informational",
+      "spokes": [
+        "top-benefits-administration-tools",
+        "top-compensation-management-tools",
+        "instant-benefits-of-using-time-tracking-software",
+        "primary-benefits-of-implementing-time-tracking-systems-for-employees",
+        "secure-an-up-to-date-hr-email-list-online",
+        "digital-record-keeping-tips-for-recruiters",
+        "the-role-of-hr-in-cmms-implementation-success",
+        "design-thinking-for-hr-mobile-apps-that-engage-employees"
+      ]
+    },
+    {
+      "pillar": "Learning Management Systems (LMS)",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-using-a-learning-management-system",
+        "why-do-businesses-need-a-lms",
+        "how-lms-can-help-you-create-a-collaborative-learning-environment",
+        "sharepoint-and-benefits-of-lms-with-sharepoint-integration",
+        "tech-companies-switching-to-open-source-lms-platforms"
+      ]
+    },
+    {
+      "pillar": "Building a Continuous Learning Culture",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "foster-a-culture-of-continuous-learning-within-the-organization",
+        "how-to-create-a-culture-of-continuous-learning",
+        "leadership-training-programs-for-educators",
+        "reverse-mentoring",
+        "buddy-system"
+      ]
+    },
+    {
+      "pillar": "Onboarding & Pre-boarding",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "successful-pre-boarding-strategies-for-hrs",
+        "new-hire-orientations-for-remote-teams",
+        "new-hire-orientations-for-the-future-of-work",
+        "hiring-and-training"
+      ]
+    },
+    {
+      "pillar": "Performance Management & Reviews",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "conduct-effective-employee-performance-reviews",
+        "maintain-employee-performance-reviews-and-feedback",
+        "steps-to-build-a-performance-improvement-plan",
+        "pulse-surveys"
+      ]
+    },
+    {
+      "pillar": "Career Development & Internal Mobility",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "career-pathing",
+        "guide-to-internal-mobility",
+        "email-templates-for-referrals-internal-hiring",
+        "build-a-successful-hr-career-path-within-the-organization",
+        "key-functions-of-hr-you-learn-in-college",
+        "hr-intern-first-job-interview-tips"
+      ]
+    },
+    {
+      "pillar": "Future of Work & Hybrid Workplace",
+      "theme": "Workplace Culture & Future of Work",
+      "intent": "informational",
+      "spokes": [
+        "how-to-create-a-successful-hybrid-work-policy",
+        "things-to-learn-while-creating-hybrid-remote-work-policies",
+        "hr-industry-trends",
+        "impact-of-globalization-on-hr-practices",
+        "navigate-hr-challenges-in-a-changing-business-environment",
+        "bridging-communication-gaps-in-the-gig-economy",
+        "navigate-challenges-in-cross-cultural-communication",
+        "hiring-in-the-wild-why-we-still-miss-the-mark",
+        "things-your-hr-team-can-do-during-a-hiring-freeze"
+      ]
+    },
+    {
+      "pillar": "Leadership & Organizational Development",
+      "theme": "Workplace Culture & Future of Work",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-organizational-development",
+        "benefits-of-implementing-servant-leadership-in-hr",
+        "the-role-of-hr-and-cxos-in-community-building",
+        "why-cxos-chros-must-align-early",
+        "how-hr-can-support-sales-employees",
+        "conduct-effective-diversity-training-for-a-diverse-workforce",
+        "resource-management-and-why-is-it-so-important",
+        "step-expert-guide-to-project-resource-management"
+      ]
+    },
+    {
+      "pillar": "HR in Higher Education",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "hr-in-the-higher-education-industry",
+        "hr-trends-in-higher-education",
+        "integrating-academic-insights-into-modern-hr-practices",
+        "why-hr-leaders-should-master-academic-writing",
+        "balancing-theory-and-practice-effective-essay-strategies-for-aspiring-hr-professionals",
+        "top-foundational-principles-every-student-should-grasp",
+        "hrs-role-in-recognizing-future-proof-degrees",
+        "dnp-leadership-degrees-redefining-healthcare-management"
+      ]
+    },
+    {
+      "pillar": "Skills Gaps & Skills-Based Hiring",
+      "theme": "Skills Management",
+      "intent": "informational",
+      "spokes": [
+        "skills-mismatch-a-detailed-guide",
+        "skills-mismatch-and-how-to-address-it",
+        "how-testlifys-assessments-can-identify-skills-gap"
+      ]
+    },
+    {
+      "pillar": "Testlify vs Competitor Alternatives",
+      "theme": "Competitor Alternatives",
+      "intent": "commercial",
+      "spokes": [
+        "testlify-vs-ubiaptitude-detailed-comparison",
+        "ubiaptitude-alternatives",
+        "asc-smarter-assessment-alternatives",
+        "testlify-empowering-businesses-through-pre-hiring-assessments"
+      ]
+    },
+    {
+      "pillar": "Emerging Tech & Tech Talent Trends",
+      "theme": "Workplace Culture & Future of Work",
+      "intent": "informational",
+      "spokes": [
+        "ethereum-rewriting-tech-talent",
+        "the-growing-demand-for-blockchain-engineers",
+        "cloud-computing-trends",
+        "how-tech-bridges-the-communication-gap-in-hiring"
+      ]
+    }
+  ],
+  "orphans": [
+    "achieve-manufacturing-efficiency-with-situational-awareness",
+    "achieve-winning-sports-teams-without-field-trials",
+    "authenticating-trust-in-the-digital-epoch",
+    "b2b-content-strategy",
+    "benefits-of-personalized-customer-support",
+    "blog",
+    "build-and-manage-an-effective-marketing-department",
+    "build-efficient-schools-without-traditional-interviews",
+    "drive-conversions-with-video-pop-ups",
+    "easily-scale-your-business-with-automated-solutions",
+    "elevate-your-business-with-cloud-telephony-software-excellence",
+    "empowering-businesses-with-custom-solutions",
+    "geofencing-applications-across-industries",
+    "how-cloud-solutions-help-streamline-it-equipment-tracking-in-schools",
+    "how-to-build-relationships-with-suppliers",
+    "insightful-quotes-about-hiring",
+    "leveraging-paraphrasing-tools-to-enhance-recruitment-strategies",
+    "quick-guide-to-integrate-crm-with-other-tools",
+    "saas-content-marketing-agencies-boost-visibility",
+    "strategies-align-product-development-customer-feedback",
+    "the-impact-of-patient-recruitment-organizations-on-trial-efficiency",
+    "top-marketing-trends-to-watch",
+    "when-benefits-audit-fails-data-infrastructure-is-the-real-problem",
+    "why-businesses-prefer-digital-paycheck-stub-maker",
+    "why-link-building-matters-for-recruiting-software-and-hr-platforms"
+  ]
+}

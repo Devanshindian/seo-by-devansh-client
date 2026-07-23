@@ -1,0 +1,157 @@
+{
+  "slice_id": "w21",
+  "clusters": [
+    {
+      "pillar": "Staffing Services & the Staffing Process",
+      "intent": "informational",
+      "spokes": [
+        "accurate-staffing",
+        "case-studies-of-successful-staffing-programs",
+        "common-mistakes-to-avoid-in-staffing",
+        "how-to-choose-the-right-staffing-service",
+        "how-to-get-started-with-staffing",
+        "how-to-manage-the-staffing-process",
+        "how-to-measure-the-success-of-staffing",
+        "how-to-use-technology-to-support-staffing",
+        "what-are-staffing-services",
+        "what-are-the-different-types-of-staffing-services",
+        "what-is-staffing-for-remote-teams",
+        "what-is-staffing-for-small-businesses",
+        "what-is-staffing-for-startups",
+        "top-staffing-tools"
+      ]
+    },
+    {
+      "pillar": "Workforce Planning & Management",
+      "intent": "informational",
+      "spokes": [
+        "a-guide-to-staffing-for-the-future-of-work",
+        "future-proof-workforce",
+        "how-to-develop-a-workforce-plan",
+        "how-to-identify-your-workforce-needs",
+        "how-to-implement-a-workforce-plan",
+        "how-to-measure-the-success-of-a-workforce-plan",
+        "build-a-resilient-workforce-in-challenging-times",
+        "workforce-analytics",
+        "workforce-reduction",
+        "top-workforce-management-tools",
+        "align-hr-practices-with-modern-workforce-dynamics"
+      ]
+    },
+    {
+      "pillar": "Remote & Distributed Workforce Management",
+      "intent": "informational",
+      "spokes": [
+        "best-practices-for-remote-employee-management",
+        "how-remote-hiring-is-reshaping-the-global-workforce-landscape",
+        "how-to-engage-employees-in-a-remote-workplace",
+        "inbound-call-center-solutions-remote-workforce-management",
+        "predictive-analytics-for-remote-workforce-management",
+        "selecting-the-talent-for-the-distributed-workforce",
+        "unlocking-hr-efficiency-the-power-of-vpns-in-modern-workforce-management"
+      ]
+    },
+    {
+      "pillar": "Employee Monitoring & Performance Tracking",
+      "intent": "informational",
+      "spokes": [
+        "employee-monitoring-to-identify-top-performers",
+        "post-hire-employee-monitoring-and-behavioral-analysis",
+        "role-of-employee-monitoring-in-the-remote-work-era",
+        "time-tracking-without-invading-employee-privacy",
+        "top-employee-monitoring-tools",
+        "use-of-ai-in-employee-monitoring"
+      ]
+    },
+    {
+      "pillar": "Employee Referral Programs",
+      "intent": "informational",
+      "spokes": [
+        "design-a-successful-employee-referral-program",
+        "effectively-leverage-employee-referrals-to-fill-open-positions",
+        "employee-referrals-hold-significant-weight-in-hiring-decisions"
+      ]
+    },
+    {
+      "pillar": "Employee Handbooks & Workplace Policy",
+      "intent": "informational",
+      "spokes": [
+        "best-practices-for-creating-an-employee-handbook",
+        "how-to-create-an-effective-employee-handbook",
+        "federal-laws-that-protect-employees-in-the-workplace",
+        "manage-employee-probation-periods",
+        "importance-of-managing-employee-absences"
+      ]
+    },
+    {
+      "pillar": "HR & Employee Communication",
+      "intent": "informational",
+      "spokes": [
+        "bridge-the-generation-gap-in-employee-communications",
+        "communication-strategies-for-long-employee-relations",
+        "effective-employee-feedback-mechanisms-for-improvement",
+        "foster-effective-communication-between-hr-and-employees",
+        "key-tips-for-employee-feedback-and-communication",
+        "build-strong-employer-employee-relationships-in-the-workplace",
+        "handle-employee-conflicts-with-a-proactive-approach",
+        "fostering-teamwork-between-old-and-lateral-employees",
+        "ways-to-improve-team-dynamics-and-employee-behaviors"
+      ]
+    },
+    {
+      "pillar": "Assessing Employee Soft Skills & Traits",
+      "intent": "informational",
+      "spokes": [
+        "importance-of-assessing-continuous-learning-skills-for-employees",
+        "importance-of-assessing-integrity-for-ethical-and-honest-employees",
+        "importance-of-assessing-positive-attitude-for-a-motivated-workforce",
+        "importance-of-empowerment-skills-in-engaged-and-autonomous-employees",
+        "importance-of-self-confidence-skills-for-assertive-employee"
+      ]
+    },
+    {
+      "pillar": "Employee Engagement & Thriving Workplaces",
+      "intent": "informational",
+      "spokes": [
+        "create-an-employee-thriving-workplace",
+        "how-to-create-a-workplace-where-employees-thrive",
+        "how-to-use-workplace-culture-to-improve-employee-productivity",
+        "importance-of-employee-motivation",
+        "employee-autonomy",
+        "understanding-employee-empowerment",
+        "employee-appreciation-day",
+        "ways-to-cultivate-employee-loyalty",
+        "employee-net-promoter-score"
+      ]
+    },
+    {
+      "pillar": "Employee Retention & Talent Development",
+      "intent": "informational",
+      "spokes": [
+        "design-and-implement-effective-employee-development-programs",
+        "how-to-promote-growth-opportunities-for-employees",
+        "how-to-retain-top-employees",
+        "guide-for-your-high-potential-employees-search",
+        "boomerang-employees",
+        "employee-poaching",
+        "what-is-an-employee-value-proposition-why-it-matters"
+      ]
+    },
+    {
+      "pillar": "Employee Selection, Vetting & Evaluation",
+      "intent": "informational",
+      "spokes": [
+        "employee-evaluation-forms",
+        "employee-profiling",
+        "employee-selection-methods",
+        "employee-vetting"
+      ]
+    }
+  ],
+  "orphans": [
+    "design-thinking-for-hr-mobile-apps-that-engage-employees",
+    "how-hr-can-support-sales-employees",
+    "how-to-build-a-diverse-and-inclusive-workforce",
+    "employee-redundancy"
+  ]
+}

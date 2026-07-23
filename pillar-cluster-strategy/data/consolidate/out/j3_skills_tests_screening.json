@@ -1,0 +1,519 @@
+{
+  "job": "j3_skills_tests_screening",
+  "pillars": [
+    {
+      "pillar": "Evaluating Marketing Skills in Candidates",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "tips-to-evaluate-brand-management-skills",
+        "tips-to-evaluate-content-marketing-skills",
+        "tips-to-evaluate-content-writing-skills",
+        "tips-to-evaluate-copywriting-skills",
+        "tips-to-evaluate-digital-marketing-skills",
+        "tips-to-evaluate-email-marketing-skills",
+        "tips-to-evaluate-influencer-marketing-skills",
+        "tips-to-evaluate-influencer-relationship-management-skills",
+        "tips-to-evaluate-market-forecasting-skills",
+        "tips-to-evaluate-market-research-skills",
+        "tips-to-evaluate-search-engine-marketing-sem-skills",
+        "tips-to-evaluate-search-engine-optimization-seo-skills",
+        "tips-to-evaluate-seo-skills",
+        "tips-to-evaluate-social-media-marketing-skills",
+        "5-tips-to-evaluate-content-marketing-strategy-skills"
+      ]
+    },
+    {
+      "pillar": "Screening Software Developers by Language & Stack",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "how-to-screen-candidates-for-backend-developer",
+        "how-to-screen-candidates-for-database-developer",
+        "how-to-screen-candidates-for-frontend-developer",
+        "how-to-screen-candidates-for-full-stack-developer",
+        "how-to-screen-candidates-for-java-developer",
+        "how-to-screen-candidates-for-javascript-developer",
+        "how-to-screen-candidates-for-net-developer",
+        "how-to-screen-candidates-for-php-developers",
+        "how-to-screen-candidates-for-python-developer",
+        "how-to-screen-candidates-for-ruby-on-rails-developers",
+        "how-to-screen-candidates-for-security-developer",
+        "how-to-screen-candidates-for-web-developer",
+        "how-to-screen-candidates-for-wordpress-developer"
+      ]
+    },
+    {
+      "pillar": "Screening Mobile, Data & Emerging-Tech Developers",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "how-to-screen-candidates-for-android-developer",
+        "how-to-screen-candidates-for-ar-developer-positions",
+        "how-to-screen-candidates-for-blockchain-developer",
+        "how-to-screen-candidates-for-embedded-systems-developer",
+        "how-to-screen-candidates-for-game-developer",
+        "how-to-screen-candidates-for-ios-developer",
+        "how-to-screen-candidates-for-mobile-app-developer",
+        "how-to-screen-candidates-for-vr-developer-positions",
+        "how-to-screen-candidates-for-ai-developer",
+        "how-to-screen-candidates-for-cloud-developers",
+        "how-to-screen-candidates-for-data-scientist",
+        "how-to-screen-candidates-for-devops-engineer",
+        "how-to-screen-candidates-for-machine-learning-engineer",
+        "how-to-screen-candidates-for-qa-tester"
+      ]
+    },
+    {
+      "pillar": "Screening Candidates with Programming & Technical Tests",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "candidate-screening-with-technical-skills-assessment",
+        "how-css-test-helps-you-screen-candidates",
+        "how-sql-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-css-test",
+        "how-to-simplify-candidate-screening-with-git-test",
+        "how-to-simplify-candidate-screening-with-postgresql-test",
+        "how-to-simplify-candidate-screening-with-sql-test",
+        "how-to-use-nlp-test-to-screen-job-applicants",
+        "ruby-test-helps-you-screen-candidates",
+        "simplify-candidate-screening-with-java-code-test",
+        "simplify-candidate-screening-with-javascript-test",
+        "simplify-candidate-screening-with-kotlin-test",
+        "simplify-candidate-screening-with-php-test",
+        "simplify-candidate-screening-with-ruby-test"
+      ]
+    },
+    {
+      "pillar": "Screening for Management, Sales & Business Roles",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "how-management-test-helps-you-screen-candidates",
+        "how-project-manager-test-helps-you-screen-candidates",
+        "how-sales-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-accounting-principles-test",
+        "how-to-simplify-candidate-screening-with-management-test",
+        "how-to-simplify-candidate-screening-with-project-manager-test",
+        "how-to-simplify-candidate-screening-with-sales-test",
+        "how-to-simplify-candidate-screening-with-scrum-master-test",
+        "salesforce-test-help-you-screen-candidates",
+        "simplify-candidate-screening-with-admin-test",
+        "simplify-candidate-screening-with-business-analyst-test",
+        "simplify-candidate-screening-with-salesforce-test",
+        "use-a-digital-marketing-test-to-screen-candidates"
+      ]
+    },
+    {
+      "pillar": "Screening Skilled Trades & Engineering Candidates",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "how-electrical-engineering-test-helps-you-screen-candidates",
+        "how-general-contractor-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-electrical-engineering-test",
+        "how-to-simplify-candidate-screening-with-electrician-test",
+        "how-to-simplify-candidate-screening-with-millwright-test",
+        "mechanic-test-helps-you-screen-candidates",
+        "plumber-test-helps-you-screen-candidates",
+        "simplify-candidate-screening-with-civil-engineering",
+        "simplify-candidate-screening-with-construction-test",
+        "simplify-candidate-screening-with-custodian-test",
+        "simplify-candidate-screening-with-mechanic-test",
+        "simplify-candidate-screening-with-plumber-test"
+      ]
+    },
+    {
+      "pillar": "Screening with Personality & Behavioral Assessments",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "candidate-screening-with-leadership-assessment",
+        "candidate-screening-with-personality-assessment",
+        "candidate-screening-with-work-reliability-test",
+        "how-big-five-personality-test-helps-you-screen-candidates",
+        "how-resilience-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-a-resilience-test",
+        "how-to-simplify-candidate-screening-with-big-five-personality-test",
+        "how-to-simplify-candidate-screening-with-resilence-test",
+        "leadership-assessment-helps-screen-candidates",
+        "simplify-candidate-screening-with-integrity-test"
+      ]
+    },
+    {
+      "pillar": "Screening with Cognitive & Aptitude Tests",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "how-analytical-ability-test-helps-you-screen-candidates",
+        "how-aptitude-assessment-helps-you-screen-candidates",
+        "how-deductive-reasoning-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-analytical-ability-test",
+        "how-to-simplify-candidate-screening-with-aptitude-assessment",
+        "how-to-simplify-candidate-screening-with-deductive-reasoning-test",
+        "simplify-candidate-screening-with-cognitive-tests",
+        "simplify-candidate-screening-with-following-directions-test",
+        "simplify-candidate-screening-with-quantitative-aptitude-test"
+      ]
+    },
+    {
+      "pillar": "Screening with English & Communication Tests",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "candidate-screening-with-communication-assessment",
+        "candidate-screening-with-english-proficiency-test",
+        "english-proficiency-test-helps-screen-candidates",
+        "simplify-candidate-screening-with-cefr-english-test",
+        "simplify-candidate-screening-with-cefr-test",
+        "simplify-candidate-screening-with-english-grammar-test"
+      ]
+    },
+    {
+      "pillar": "Screening QA & Tool-Specific Test Candidates",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "how-qa-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-qa-test",
+        "simplify-candidate-screening-with-autocad-test",
+        "simplify-candidate-screening-with-aws-test",
+        "simplify-candidate-screening-with-microsoft-office-test"
+      ]
+    },
+    {
+      "pillar": "Candidate Screening Fundamentals & Best Practices",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "best-methods-for-screening-candidates",
+        "how-important-is-background-screening-before-hiring",
+        "how-to-automate-your-candidate-screening-process",
+        "how-to-screen-candidates-effectively",
+        "how-to-screen-candidates-faster",
+        "how-to-streamline-screening-and-selection",
+        "pre-employment-screening-in-hiring-process",
+        "save-screening-time-reduce-resume-fatigue",
+        "screening-and-interviewing-techniques-in-hrm",
+        "screening-in-vs-screening-out",
+        "screening-interview"
+      ]
+    },
+    {
+      "pillar": "Candidate Screening Software & Tools",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "commercial",
+      "spokes": [
+        "candidate-screening-software",
+        "candidate-screening-with-talent-assessment-tools",
+        "employer-brand-best-pre-screening-tool",
+        "outsourcing-talent-screening-client-satisfaction",
+        "simplify-candidate-screening-with-skill-assessment-tools",
+        "technology-tools-or-platforms-to-use-for-sourcing-screening-candidates",
+        "the-secret-to-creating-the-best-job-pre-screening-test"
+      ]
+    },
+    {
+      "pillar": "Programming Language Skills Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-evaluate-candidates-skills-with-a-c-assessment",
+        "how-to-evaluate-candidates-skills-with-a-c-sharp-assessment",
+        "how-to-evaluate-candidates-skills-with-a-go-assessment",
+        "how-to-evaluate-candidates-skills-with-a-java-assessment",
+        "how-to-evaluate-candidates-skills-with-a-javascript-assessment",
+        "how-to-evaluate-candidates-skills-with-a-php-assessment",
+        "how-to-evaluate-candidates-skills-with-a-ruby-assessment",
+        "how-to-evaluate-candidates-skills-with-a-ruby-test",
+        "how-to-evaluate-candidates-skills-with-a-swift-assessment",
+        "how-to-evaluate-candidates-skills-with-a-typescript-assessment"
+      ]
+    },
+    {
+      "pillar": "Web & Framework Developer Skills Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-evaluate-candidates-skills-with-a-flutter-assessment",
+        "how-to-evaluate-candidates-skills-with-a-full-stack-developer-test",
+        "how-to-evaluate-candidates-skills-with-a-laravel-assessment",
+        "how-to-evaluate-candidates-skills-with-a-mern-stack-developer-assessment",
+        "how-to-evaluate-candidates-skills-with-a-node-js-assessment",
+        "how-to-evaluate-candidates-skills-with-a-react-assessment",
+        "how-to-evaluate-candidates-skills-with-a-react-native-assessment",
+        "how-to-evaluate-candidates-skills-with-a-react-native-test-online",
+        "how-to-evaluate-candidates-skills-with-a-springboot-assessment",
+        "how-to-evaluate-candidates-skills-with-a-vue-3-assessment",
+        "how-to-evaluate-candidates-skills-with-a-wordpress-developer-assessment"
+      ]
+    },
+    {
+      "pillar": "Database, Cloud & Security Skills Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-evaluate-candidates-skills-with-a-cybersecurity-assessment",
+        "how-to-evaluate-candidates-skills-with-a-docker-assessment",
+        "how-to-evaluate-candidates-skills-with-a-microsoft-sql-assessment",
+        "how-to-evaluate-candidates-skills-with-a-mysql-assessment",
+        "how-to-evaluate-candidates-skills-with-a-plsql-assessment",
+        "how-to-evaluate-candidates-skills-with-a-t-sql-assessment"
+      ]
+    },
+    {
+      "pillar": "Business & Management Role Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-evaluate-candidates-skills-with-a-business-judgement-assessment",
+        "how-to-evaluate-candidates-skills-with-a-business-judgement-test",
+        "how-to-evaluate-candidates-skills-with-a-business-strategy-assessment",
+        "how-to-evaluate-candidates-skills-with-a-customer-success-manager-test",
+        "how-to-evaluate-candidates-skills-with-a-lean-six-sigma-assessment",
+        "how-to-evaluate-candidates-skills-with-an-engineering-manager-assessment",
+        "how-to-evaluate-candidates-skills-with-an-insurance-agent-assessment"
+      ]
+    },
+    {
+      "pillar": "Soft Skills & Behavioral Skills Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-assess-soft-skills-using-skills-assessment",
+        "how-to-evaluate-candidates-skills-with-a-conflict-management-assessment",
+        "how-to-evaluate-candidates-skills-with-a-negotiation-assessment",
+        "how-to-evaluate-candidates-skills-with-an-adaptability-assessment",
+        "how-to-evaluate-candidates-skills-with-an-adaptability-test",
+        "how-to-evaluate-candidates-skills-with-an-empathy-assessment"
+      ]
+    },
+    {
+      "pillar": "Cognitive & Aptitude Skills Assessments",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "commercial",
+      "spokes": [
+        "crucial-skill-assessment-attention-to-detail-hiring",
+        "how-to-evaluate-candidates-skills-with-a-basic-double-digit-math-assessment",
+        "how-to-evaluate-candidates-skills-with-a-mechanical-reasoning-assessment",
+        "how-to-evaluate-candidates-skills-with-a-numerical-reasoning-assessment",
+        "how-to-evaluate-candidates-skills-with-an-attention-to-detail-visual-test",
+        "how-to-evaluate-candidates-skills-with-an-nlp-test"
+      ]
+    },
+    {
+      "pillar": "Marketing & Analytics Skills Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "5-tips-to-evaluate-data-extraction-skills",
+        "how-to-evaluate-candidates-skills-with-a-data-visualization-test",
+        "how-to-evaluate-candidates-skills-with-a-google-analytics-assessment",
+        "how-to-evaluate-candidates-skills-with-a-performance-marketing-test",
+        "how-to-evaluate-candidates-skills-with-an-email-marketing-assessment"
+      ]
+    },
+    {
+      "pillar": "Accounting & Finance Skills Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-assess-accounting-skills-of-candidates",
+        "how-to-evaluate-candidates-skills-with-an-accounting-manager-test",
+        "how-to-evaluate-candidates-skills-with-an-accounts-payable-test"
+      ]
+    },
+    {
+      "pillar": "Evaluating Business & Soft Skills",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "tips-to-evaluate-change-management-skills",
+        "tips-to-evaluate-communication-skills",
+        "tips-to-evaluate-crisis-management-skills",
+        "tips-to-evaluate-critical-thinking-skills",
+        "tips-to-evaluate-customer-service-skills",
+        "tips-to-evaluate-leadership-skills",
+        "tips-to-evaluate-negotiation-skills",
+        "tips-to-evaluate-problem-solving-skills",
+        "tips-to-evaluate-project-coordination-skills",
+        "tips-to-evaluate-project-management-skills",
+        "tips-to-evaluate-sales-skills",
+        "tips-to-evaluate-supply-chain-optimization-skills"
+      ]
+    },
+    {
+      "pillar": "Evaluating Software Development & Engineering Skills",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "tips-to-evaluate-java-programming-skills",
+        "tips-to-evaluate-mobile-app-development-skills",
+        "tips-to-evaluate-network-security-skills",
+        "tips-to-evaluate-programming-logic-skills",
+        "tips-to-evaluate-python-programming-skills",
+        "tips-to-evaluate-software-architecture-skills",
+        "tips-to-evaluate-software-configuration-management-skills",
+        "tips-to-evaluate-software-deployment-skills",
+        "tips-to-evaluate-web-development-skills",
+        "tips-to-evaluate-website-performance-optimization-skills"
+      ]
+    },
+    {
+      "pillar": "Evaluating Data & Analytics Skills",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "tips-to-evaluate-analytical-skills",
+        "tips-to-evaluate-customer-satisfaction-analysis-skills",
+        "tips-to-evaluate-data-analysis-skills",
+        "tips-to-evaluate-data-mining-skills",
+        "tips-to-evaluate-data-validation-skills",
+        "tips-to-evaluate-data-visualization-skills",
+        "tips-to-evaluate-database-management-skills",
+        "tips-to-evaluate-statistical-analysis-skills"
+      ]
+    },
+    {
+      "pillar": "Evaluating Design & UX Skills",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "tips-to-evaluate-graphic-designing-skills",
+        "tips-to-evaluate-ui-design-skills",
+        "tips-to-evaluate-user-support-skills",
+        "tips-to-evaluate-ux-design-skills",
+        "tips-to-evaluate-ux-ui-design-skills"
+      ]
+    },
+    {
+      "pillar": "Evaluating Finance & Risk Skills",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "tips-to-evaluate-financial-analysis-skills",
+        "tips-to-evaluate-financial-forecasting-skills",
+        "tips-to-evaluate-financial-modeling-skills",
+        "tips-to-evaluate-risk-management-skills"
+      ]
+    },
+    {
+      "pillar": "IT & Computer Skills Testing",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "choosing-a-programming-skills-assessment-how-and-why",
+        "computer-skill-test-predict-candidate-fit",
+        "demystifying-it-skills-test-common-myths-challenges",
+        "evolution-of-computer-skill-test",
+        "how-effective-are-computer-skill-tests",
+        "how-technical-skills-assessments-enhance-candidate-evaluation",
+        "how-to-assess-computer-skills",
+        "how-to-assess-technical-skills",
+        "how-to-customize-it-skills-tests-for-different-tech-role",
+        "it-skills-testing-everything-you-need-to-know",
+        "it-skills-tests-to-build-a-tech-savvy-team",
+        "the-role-of-it-skills-tests-in-identifying-top-talent"
+      ]
+    },
+    {
+      "pillar": "Technical Skill Assessments for Hiring",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "technical-skill-assessment-new-perimeter-cybersecurity-recruitment",
+        "technical-skills-assessments-improve-hiring-accuracy",
+        "trends-and-innovations-in-technical-skill-assessments",
+        "how-to-evaluate-candidates-skills-with-an-sql-assessment",
+        "importance-of-computer-skills-tests-in-job-interviews",
+        "java-coding-test-to-assess-candidates-coding-skills",
+        "mechanical-engineering-test-to-assess-technical-skill",
+        "use-networking-test-to-assess-network-skills",
+        "use-workspace-to-assess-problem-solving-skills"
+      ]
+    },
+    {
+      "pillar": "Skills Assessment Best Practices & Fairness",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "assess-skills-fairly-and-effectively",
+        "best-practices-for-using-an-organizing-skills-test",
+        "best-practices-to-ensure-authenticity-in-candidates-skills-assessment-tests",
+        "candidate-skills-testing",
+        "common-mistakes-to-avoid-using-skill-assessments",
+        "evaluate-hard-and-soft-skills-effectively",
+        "everything-you-need-to-know-about-skill-tests"
+      ]
+    },
+    {
+      "pillar": "Designing & Choosing Skills Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "research-about-skills-assessment",
+        "types-of-skills-assessment-tests",
+        "what-are-industry-specific-skills-assessment",
+        "what-should-you-include-in-your-skill-assessment-test",
+        "what-to-do-when-a-candidate-fails-a-skills-assessment",
+        "why-skill-assessments-are-essential-for-recruiters",
+        "best-skills-assessment-question-libraries",
+        "choosing-a-critical-thinking-skills-assessment",
+        "choosing-a-leadership-skills-assessment-how-and-why",
+        "choosing-a-problem-solving-skills-assessment",
+        "combining-sjts-with-other-skills-assessments-hiring"
+      ]
+    },
+    {
+      "pillar": "Skills Assessments by Role Type & Seniority",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "assess-entry-level-candidates-with-skills-assessment",
+        "assess-project-management-skills",
+        "assess-sales-skills",
+        "assess-ui-ux-skills-during-hiring",
+        "create-skills-assessment-tests-for-different-roles",
+        "edd-graduates-leadership-skills-assessments",
+        "how-to-assess-blue-collar-skills-and-experience"
+      ]
+    },
+    {
+      "pillar": "Using Skills Assessment Data to Improve Hiring",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "how-to-use-skills-assessment-for-executive-roles",
+        "how-to-use-skills-assessment-to-find-candidates",
+        "identify-top-talent-without-lengthy-interviews-with-skill-assessments",
+        "improve-performance-with-skill-assessment-results",
+        "use-skill-assessments-data-to-make-better-hiring",
+        "using-skill-assessment-for-developing-training",
+        "case-studies-highlight-skills-assessments-improve-time-to-hire",
+        "case-studies-of-companies-that-successfully-used-skill-assessments",
+        "future-of-skills-assessment-in-changing-job-market",
+        "generative-ai-enhance-candidate-skills-assessments",
+        "how-skills-assessments-improve-recruitment-process",
+        "how-to-use-skills-assessment-to-reduce-bias-in-hiring",
+        "use-skill-assessments-to-improve-diversity-inclusion",
+        "use-skills-assessment-to-improve-your-employer-brand"
+      ]
+    },
+    {
+      "pillar": "Soft-Skills, Psychometric & Remote Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "how-to-use-psychometric-tests-and-skill-tests-together",
+        "the-role-of-soft-skills-assessment-in-team-collab",
+        "use-soft-skills-assessment-for-resilient-employees",
+        "using-ai-to-assess-soft-skills-in-healthcare-hiring",
+        "reducing-technical-glitches-remote-skills-assessments",
+        "remote-skills-assessment-overcoming-challenges-in-virtual-hiring",
+        "remote-technical-skills-assessments-challenges-and-best-practices"
+      ]
+    }
+  ],
+  "orphans": []
+}

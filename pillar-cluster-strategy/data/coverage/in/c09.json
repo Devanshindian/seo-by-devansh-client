@@ -1,0 +1,167 @@
+{
+  "theme": "Workplace Culture & Future of Work",
+  "key": "c09",
+  "n_pillars": 16,
+  "pillars": [
+    {
+      "pillar": "Workforce Planning & Management",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "a-guide-to-staffing-for-the-future-of-work",
+        "align-hr-practices-with-modern-workforce-dynamics",
+        "build-a-resilient-workforce-in-challenging-times"
+      ]
+    },
+    {
+      "pillar": "HR & Hiring Trends",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "adapt-to-changing-market-trends-and-talent-demands",
+        "emerging-ai-trends-in-hr-management",
+        "emerging-trends-and-innovations-in-lateral-hiring"
+      ]
+    },
+    {
+      "pillar": "Workplace Culture Strategy & Business Impact",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "future-of-workplace-culture",
+        "high-performance-culture",
+        "how-to-build-company-culture-in-a-recession"
+      ]
+    },
+    {
+      "pillar": "Workplace Diversity, Equity & Inclusion (DEI)",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "9-ideas-for-making-your-workplace-more-inclusive",
+        "build-a-diverse-and-inclusive-workplace",
+        "build-a-diverse-workplace-culture-for-increased-productivity"
+      ]
+    },
+    {
+      "pillar": "Future of Work & Hybrid Workplace",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "bridging-communication-gaps-in-the-gig-economy",
+        "hiring-in-the-wild-why-we-still-miss-the-mark",
+        "how-to-create-a-successful-hybrid-work-policy"
+      ]
+    },
+    {
+      "pillar": "Managing Remote & Distributed Teams",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "5-creative-strategies-for-retaining-remote-candidates",
+        "8-ideas-to-create-a-thriving-remote-work-environment",
+        "foster-team-collaboration-in-remote-work-environments"
+      ]
+    },
+    {
+      "pillar": "HR Buzzwords & Modern Workforce Trends",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "job-aggregator",
+        "job-simulation",
+        "moonlighting"
+      ]
+    },
+    {
+      "pillar": "Leadership & Organizational Development",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "benefits-of-implementing-servant-leadership-in-hr",
+        "benefits-of-organizational-development",
+        "conduct-effective-diversity-training-for-a-diverse-workforce"
+      ]
+    },
+    {
+      "pillar": "Team Structures, Autonomy & Global Teams",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "balance-productivity-with-flexible-work-arrangements",
+        "building-autonomous-teams",
+        "creative-welcome-to-the-team-messages"
+      ]
+    },
+    {
+      "pillar": "Creating a Positive Workplace Culture",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "7-ideas-to-fostering-a-positive-company-culture",
+        "create-a-positive-workplace-culture-for-increased-productivity",
+        "foster-a-positive-company-culture-in-your-organization"
+      ]
+    },
+    {
+      "pillar": "Workplace Communication & Conflict Resolution",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "bridging-communication-gaps-in-workplace-disputes",
+        "cross-cultural-communication-in-the-workplace",
+        "handle-workplace-conflicts-with-professionalism-and-confidentiality"
+      ]
+    },
+    {
+      "pillar": "Culture Fit Assessments",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "culture-fit-assessments-for-hiring-remote-teams",
+        "exploring-ethical-considerations-in-culture-fit-assessments",
+        "how-to-build-your-own-culture-fit-assessment-quick-tips"
+      ]
+    },
+    {
+      "pillar": "Remote & Distributed Workforce Management",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "best-practices-for-remote-employee-management",
+        "how-remote-hiring-is-reshaping-the-global-workforce-landscape",
+        "how-to-engage-employees-in-a-remote-workplace"
+      ]
+    },
+    {
+      "pillar": "Work-Life Balance & Flexible Work Arrangements",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "10-ideas-to-promote-work-life-balance",
+        "create-and-maintain-a-supportive-work-environment",
+        "how-to-implement-effective-flexible-work-arrangements"
+      ]
+    },
+    {
+      "pillar": "Emerging Tech & Tech Talent Trends",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "cloud-computing-trends",
+        "ethereum-rewriting-tech-talent",
+        "how-tech-bridges-the-communication-gap-in-hiring"
+      ]
+    },
+    {
+      "pillar": "Quiet Quitting & Workplace Negativity",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "most-pressing-issues-in-the-workplace-with-solutions",
+        "quiet-quitting",
+        "workplace-negativity"
+      ]
+    }
+  ]
+}

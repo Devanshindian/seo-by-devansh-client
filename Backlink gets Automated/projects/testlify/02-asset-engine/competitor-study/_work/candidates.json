@@ -1,0 +1,997 @@
+[
+  {
+    "domain": "indeed.com",
+    "keywords": 11921,
+    "etv": 18691
+  },
+  {
+    "domain": "scribd.com",
+    "keywords": 4915,
+    "etv": 8105
+  },
+  {
+    "domain": "aihr.com",
+    "keywords": 4865,
+    "etv": 5388
+  },
+  {
+    "domain": "study.com",
+    "keywords": 4435,
+    "etv": 14527
+  },
+  {
+    "domain": "workable.com",
+    "keywords": 4087,
+    "etv": 6042
+  },
+  {
+    "domain": "ziprecruiter.com",
+    "keywords": 3748,
+    "etv": 5430
+  },
+  {
+    "domain": "qandle.com",
+    "keywords": 3732,
+    "etv": 7294
+  },
+  {
+    "domain": "investopedia.com",
+    "keywords": 3456,
+    "etv": 12332
+  },
+  {
+    "domain": "cambridge.org",
+    "keywords": 3362,
+    "etv": 13602
+  },
+  {
+    "domain": "keka.com",
+    "keywords": 3221,
+    "etv": 10307
+  },
+  {
+    "domain": "zippia.com",
+    "keywords": 3132,
+    "etv": 5796
+  },
+  {
+    "domain": "testgorilla.com",
+    "keywords": 3124,
+    "etv": 4020
+  },
+  {
+    "domain": "talentlyft.com",
+    "keywords": 2963,
+    "etv": 5773
+  },
+  {
+    "domain": "shrm.org",
+    "keywords": 2923,
+    "etv": 2560
+  },
+  {
+    "domain": "forbes.com",
+    "keywords": 2892,
+    "etv": 3471
+  },
+  {
+    "domain": "geeksforgeeks.org",
+    "keywords": 2831,
+    "etv": 5023
+  },
+  {
+    "domain": "glassdoor.com",
+    "keywords": 2725,
+    "etv": 2203
+  },
+  {
+    "domain": "researchgate.net",
+    "keywords": 2631,
+    "etv": 3489
+  },
+  {
+    "domain": "sciencedirect.com",
+    "keywords": 2616,
+    "etv": 7606
+  },
+  {
+    "domain": "allvoices.co",
+    "keywords": 2591,
+    "etv": 9745
+  },
+  {
+    "domain": "manatal.com",
+    "keywords": 2560,
+    "etv": 5273
+  },
+  {
+    "domain": "quizlet.com",
+    "keywords": 2522,
+    "etv": 4764
+  },
+  {
+    "domain": "adaface.com",
+    "keywords": 2519,
+    "etv": 4106
+  },
+  {
+    "domain": "bamboohr.com",
+    "keywords": 2495,
+    "etv": 9845
+  },
+  {
+    "domain": "collinsdictionary.com",
+    "keywords": 2410,
+    "etv": 8666
+  },
+  {
+    "domain": "merriam-webster.com",
+    "keywords": 2409,
+    "etv": 7188
+  },
+  {
+    "domain": "chron.com",
+    "keywords": 2407,
+    "etv": 2268
+  },
+  {
+    "domain": "hipeople.io",
+    "keywords": 2353,
+    "etv": 4599
+  },
+  {
+    "domain": "uslegalforms.com",
+    "keywords": 2345,
+    "etv": 5325
+  },
+  {
+    "domain": "lawinsider.com",
+    "keywords": 2274,
+    "etv": 3883
+  },
+  {
+    "domain": "coursera.org",
+    "keywords": 2227,
+    "etv": 4006
+  },
+  {
+    "domain": "peoplehum.com",
+    "keywords": 2195,
+    "etv": 3165
+  },
+  {
+    "domain": "betterteam.com",
+    "keywords": 2194,
+    "etv": 2488
+  },
+  {
+    "domain": "britannica.com",
+    "keywords": 2037,
+    "etv": 12168
+  },
+  {
+    "domain": "x0pa.com",
+    "keywords": 1912,
+    "etv": 4132
+  },
+  {
+    "domain": "asanify.com",
+    "keywords": 1906,
+    "etv": 3026
+  },
+  {
+    "domain": "wecreateproblems.com",
+    "keywords": 1864,
+    "etv": 2979
+  },
+  {
+    "domain": "eddy.com",
+    "keywords": 1861,
+    "etv": 3096
+  },
+  {
+    "domain": "dictionary.com",
+    "keywords": 1845,
+    "etv": 6338
+  },
+  {
+    "domain": "akriviahcm.com",
+    "keywords": 1790,
+    "etv": 3070
+  },
+  {
+    "domain": "nih.gov",
+    "keywords": 1769,
+    "etv": 2505
+  },
+  {
+    "domain": "imocha.io",
+    "keywords": 1680,
+    "etv": 3208
+  },
+  {
+    "domain": "tealhq.com",
+    "keywords": 1674,
+    "etv": 921
+  },
+  {
+    "domain": "pmapstest.com",
+    "keywords": 1649,
+    "etv": 3096
+  },
+  {
+    "domain": "techtarget.com",
+    "keywords": 1642,
+    "etv": 4518
+  },
+  {
+    "domain": "mettl.com",
+    "keywords": 1616,
+    "etv": 1373
+  },
+  {
+    "domain": "thefreedictionary.com",
+    "keywords": 1610,
+    "etv": 6137
+  },
+  {
+    "domain": "adp.com",
+    "keywords": 1607,
+    "etv": 3291
+  },
+  {
+    "domain": "stackexchange.com",
+    "keywords": 1586,
+    "etv": 2224
+  },
+  {
+    "domain": "personio.com",
+    "keywords": 1585,
+    "etv": 1578
+  },
+  {
+    "domain": "himalayas.app",
+    "keywords": 1563,
+    "etv": 727
+  },
+  {
+    "domain": "criteriacorp.com",
+    "keywords": 1560,
+    "etv": 3141
+  },
+  {
+    "domain": "pockethrms.com",
+    "keywords": 1520,
+    "etv": 2554
+  },
+  {
+    "domain": "pelagohealth.com",
+    "keywords": 1503,
+    "etv": 6543
+  },
+  {
+    "domain": "hackerearth.com",
+    "keywords": 1454,
+    "etv": 3932
+  },
+  {
+    "domain": "hrzone.com",
+    "keywords": 1447,
+    "etv": 6371
+  },
+  {
+    "domain": "jobtestprep.com",
+    "keywords": 1417,
+    "etv": 1793
+  },
+  {
+    "domain": "proprofs.com",
+    "keywords": 1379,
+    "etv": 3256
+  },
+  {
+    "domain": "harvard.edu",
+    "keywords": 1360,
+    "etv": 5712
+  },
+  {
+    "domain": "builtin.com",
+    "keywords": 1351,
+    "etv": 2216
+  },
+  {
+    "domain": "xobin.com",
+    "keywords": 1351,
+    "etv": 1418
+  },
+  {
+    "domain": "monster.com",
+    "keywords": 1349,
+    "etv": 1286
+  },
+  {
+    "domain": "fastercapital.com",
+    "keywords": 1347,
+    "etv": 2771
+  },
+  {
+    "domain": "myshyft.com",
+    "keywords": 1335,
+    "etv": 2123
+  },
+  {
+    "domain": "superworks.com",
+    "keywords": 1331,
+    "etv": 2562
+  },
+  {
+    "domain": "paylocity.com",
+    "keywords": 1329,
+    "etv": 2986
+  },
+  {
+    "domain": "dol.gov",
+    "keywords": 1318,
+    "etv": 4176
+  },
+  {
+    "domain": "hibob.com",
+    "keywords": 1318,
+    "etv": 1539
+  },
+  {
+    "domain": "factorialhr.com",
+    "keywords": 1317,
+    "etv": 2004
+  },
+  {
+    "domain": "joinhomebase.com",
+    "keywords": 1309,
+    "etv": 2495
+  },
+  {
+    "domain": "hirequotient.com",
+    "keywords": 1291,
+    "etv": 4079
+  },
+  {
+    "domain": "deel.com",
+    "keywords": 1273,
+    "etv": 2092
+  },
+  {
+    "domain": "gusto.com",
+    "keywords": 1272,
+    "etv": 1676
+  },
+  {
+    "domain": "studocu.com",
+    "keywords": 1257,
+    "etv": 1096
+  },
+  {
+    "domain": "peoplemanagingpeople.com",
+    "keywords": 1249,
+    "etv": 798
+  },
+  {
+    "domain": "oysterhr.com",
+    "keywords": 1245,
+    "etv": 2742
+  },
+  {
+    "domain": "cornell.edu",
+    "keywords": 1241,
+    "etv": 2379
+  },
+  {
+    "domain": "finalroundai.com",
+    "keywords": 1239,
+    "etv": 865
+  },
+  {
+    "domain": "wowremoteteams.com",
+    "keywords": 1232,
+    "etv": 2319
+  },
+  {
+    "domain": "rippling.com",
+    "keywords": 1230,
+    "etv": 1722
+  },
+  {
+    "domain": "justanswer.com",
+    "keywords": 1220,
+    "etv": 1921
+  },
+  {
+    "domain": "taggd.in",
+    "keywords": 1219,
+    "etv": 1139
+  },
+  {
+    "domain": "peopleforce.io",
+    "keywords": 1215,
+    "etv": 6140
+  },
+  {
+    "domain": "wisdomlib.org",
+    "keywords": 1165,
+    "etv": 3478
+  },
+  {
+    "domain": "themuse.com",
+    "keywords": 1155,
+    "etv": 1672
+  },
+  {
+    "domain": "corporatefinanceinstitute.com",
+    "keywords": 1153,
+    "etv": 2931
+  },
+  {
+    "domain": "weebly.com",
+    "keywords": 1144,
+    "etv": 2604
+  },
+  {
+    "domain": "darwinbox.com",
+    "keywords": 1140,
+    "etv": 3412
+  },
+  {
+    "domain": "opm.gov",
+    "keywords": 1137,
+    "etv": 1142
+  },
+  {
+    "domain": "microsoft.com",
+    "keywords": 1127,
+    "etv": 3164
+  },
+  {
+    "domain": "ebsco.com",
+    "keywords": 1121,
+    "etv": 1947
+  },
+  {
+    "domain": "fiveable.me",
+    "keywords": 1111,
+    "etv": 2763
+  },
+  {
+    "domain": "practiceaptitudetests.com",
+    "keywords": 1105,
+    "etv": 906
+  },
+  {
+    "domain": "vocabulary.com",
+    "keywords": 1097,
+    "etv": 7240
+  },
+  {
+    "domain": "betterup.com",
+    "keywords": 1089,
+    "etv": 1221
+  },
+  {
+    "domain": "zimyo.com",
+    "keywords": 1080,
+    "etv": 2752
+  },
+  {
+    "domain": "workhuman.com",
+    "keywords": 1074,
+    "etv": 622
+  },
+  {
+    "domain": "4cornerresources.com",
+    "keywords": 1074,
+    "etv": 540
+  },
+  {
+    "domain": "paycor.com",
+    "keywords": 1066,
+    "etv": 2216
+  },
+  {
+    "domain": "eskill.com",
+    "keywords": 1063,
+    "etv": 2908
+  },
+  {
+    "domain": "yourdictionary.com",
+    "keywords": 1048,
+    "etv": 5655
+  },
+  {
+    "domain": "theknowledgeacademy.com",
+    "keywords": 1025,
+    "etv": 865
+  },
+  {
+    "domain": "salary.com",
+    "keywords": 1006,
+    "etv": 1435
+  },
+  {
+    "domain": "icehrm.com",
+    "keywords": 1003,
+    "etv": 2698
+  },
+  {
+    "domain": "lumenlearning.com",
+    "keywords": 1001,
+    "etv": 1264
+  },
+  {
+    "domain": "thebalancemoney.com",
+    "keywords": 999,
+    "etv": 1397
+  },
+  {
+    "domain": "onpay.com",
+    "keywords": 999,
+    "etv": 2502
+  },
+  {
+    "domain": "talenthr.io",
+    "keywords": 990,
+    "etv": 2380
+  },
+  {
+    "domain": "connecteam.com",
+    "keywords": 987,
+    "etv": 1432
+  },
+  {
+    "domain": "vervecopilot.com",
+    "keywords": 983,
+    "etv": 908
+  },
+  {
+    "domain": "breezy.hr",
+    "keywords": 982,
+    "etv": 424
+  },
+  {
+    "domain": "elevatus.io",
+    "keywords": 957,
+    "etv": 1017
+  },
+  {
+    "domain": "culturemonkey.io",
+    "keywords": 952,
+    "etv": 1285
+  },
+  {
+    "domain": "intoo.com",
+    "keywords": 942,
+    "etv": 7299
+  },
+  {
+    "domain": "wellhub.com",
+    "keywords": 942,
+    "etv": 1053
+  },
+  {
+    "domain": "vaia.com",
+    "keywords": 938,
+    "etv": 1758
+  },
+  {
+    "domain": "hrlineup.com",
+    "keywords": 937,
+    "etv": 1005
+  },
+  {
+    "domain": "g2.com",
+    "keywords": 925,
+    "etv": 2013
+  },
+  {
+    "domain": "upwork.com",
+    "keywords": 919,
+    "etv": 1402
+  },
+  {
+    "domain": "unstop.com",
+    "keywords": 917,
+    "etv": 890
+  },
+  {
+    "domain": "recruiteze.com",
+    "keywords": 915,
+    "etv": 1531
+  },
+  {
+    "domain": "testdome.com",
+    "keywords": 913,
+    "etv": 665
+  },
+  {
+    "domain": "naukri.com",
+    "keywords": 911,
+    "etv": 689
+  },
+  {
+    "domain": "engagedly.com",
+    "keywords": 907,
+    "etv": 2268
+  },
+  {
+    "domain": "paychex.com",
+    "keywords": 906,
+    "etv": 2350
+  },
+  {
+    "domain": "timechamp.io",
+    "keywords": 889,
+    "etv": 1348
+  },
+  {
+    "domain": "patriotsoftware.com",
+    "keywords": 882,
+    "etv": 2436
+  },
+  {
+    "domain": "encyclopedia.com",
+    "keywords": 878,
+    "etv": 4226
+  },
+  {
+    "domain": "usemultiplier.com",
+    "keywords": 878,
+    "etv": 1081
+  },
+  {
+    "domain": "tcwglobal.com",
+    "keywords": 877,
+    "etv": 1648
+  },
+  {
+    "domain": "hbr.org",
+    "keywords": 872,
+    "etv": 623
+  },
+  {
+    "domain": "ca.gov",
+    "keywords": 866,
+    "etv": 846
+  },
+  {
+    "domain": "startup.jobs",
+    "keywords": 863,
+    "etv": 454
+  },
+  {
+    "domain": "reverso.net",
+    "keywords": 860,
+    "etv": 2525
+  },
+  {
+    "domain": "wordreference.com",
+    "keywords": 855,
+    "etv": 2141
+  },
+  {
+    "domain": "join.com",
+    "keywords": 855,
+    "etv": 1615
+  },
+  {
+    "domain": "seek.com",
+    "keywords": 846,
+    "etv": 661
+  },
+  {
+    "domain": "velvetjobs.com",
+    "keywords": 846,
+    "etv": 367
+  },
+  {
+    "domain": "vervoe.com",
+    "keywords": 844,
+    "etv": 1922
+  },
+  {
+    "domain": "plumhq.com",
+    "keywords": 843,
+    "etv": 893
+  },
+  {
+    "domain": "roberthalf.com",
+    "keywords": 834,
+    "etv": 586
+  },
+  {
+    "domain": "gethirex.com",
+    "keywords": 833,
+    "etv": 2675
+  },
+  {
+    "domain": "chegg.com",
+    "keywords": 828,
+    "etv": 706
+  },
+  {
+    "domain": "huntr.co",
+    "keywords": 791,
+    "etv": 945
+  },
+  {
+    "domain": "avahr.com",
+    "keywords": 782,
+    "etv": 443
+  },
+  {
+    "domain": "workstream.us",
+    "keywords": 779,
+    "etv": 929
+  },
+  {
+    "domain": "thomsonreuters.com",
+    "keywords": 777,
+    "etv": 1026
+  },
+  {
+    "domain": "kaplan.com",
+    "keywords": 774,
+    "etv": 354
+  },
+  {
+    "domain": "hrcloud.com",
+    "keywords": 773,
+    "etv": 1115
+  },
+  {
+    "domain": "wallstreetmojo.com",
+    "keywords": 772,
+    "etv": 1565
+  },
+  {
+    "domain": "ibm.com",
+    "keywords": 772,
+    "etv": 2343
+  },
+  {
+    "domain": "vantagecircle.com",
+    "keywords": 767,
+    "etv": 761
+  },
+  {
+    "domain": "hrone.cloud",
+    "keywords": 766,
+    "etv": 678
+  },
+  {
+    "domain": "sage.com",
+    "keywords": 766,
+    "etv": 1769
+  },
+  {
+    "domain": "monitask.com",
+    "keywords": 764,
+    "etv": 1043
+  },
+  {
+    "domain": "wiktionary.org",
+    "keywords": 761,
+    "etv": 2742
+  },
+  {
+    "domain": "jobsoid.com",
+    "keywords": 758,
+    "etv": 307
+  },
+  {
+    "domain": "insightglobal.com",
+    "keywords": 757,
+    "etv": 1128
+  },
+  {
+    "domain": "agendrix.com",
+    "keywords": 757,
+    "etv": 4849
+  },
+  {
+    "domain": "uslegal.com",
+    "keywords": 756,
+    "etv": 2291
+  },
+  {
+    "domain": "aptitude-test.com",
+    "keywords": 740,
+    "etv": 538
+  },
+  {
+    "domain": "humaans.io",
+    "keywords": 739,
+    "etv": 1258
+  },
+  {
+    "domain": "preemploymentassessments.com",
+    "keywords": 728,
+    "etv": 1700
+  },
+  {
+    "domain": "coursehero.com",
+    "keywords": 726,
+    "etv": 544
+  },
+  {
+    "domain": "bls.gov",
+    "keywords": 719,
+    "etv": 910
+  },
+  {
+    "domain": "remote.com",
+    "keywords": 719,
+    "etv": 865
+  },
+  {
+    "domain": "shiftbase.com",
+    "keywords": 718,
+    "etv": 1512
+  },
+  {
+    "domain": "thomas.co",
+    "keywords": 714,
+    "etv": 1783
+  },
+  {
+    "domain": "myjobmag.com",
+    "keywords": 713,
+    "etv": 4195
+  },
+  {
+    "domain": "testpartnership.com",
+    "keywords": 708,
+    "etv": 551
+  },
+  {
+    "domain": "intuit.com",
+    "keywords": 705,
+    "etv": 1854
+  },
+  {
+    "domain": "graduatesfirst.com",
+    "keywords": 702,
+    "etv": 504
+  },
+  {
+    "domain": "playroll.com",
+    "keywords": 702,
+    "etv": 1659
+  },
+  {
+    "domain": "ldoceonline.com",
+    "keywords": 701,
+    "etv": 2320
+  },
+  {
+    "domain": "dev.to",
+    "keywords": 699,
+    "etv": 698
+  },
+  {
+    "domain": "ambitionbox.com",
+    "keywords": 698,
+    "etv": 364
+  },
+  {
+    "domain": "findlaw.com",
+    "keywords": 695,
+    "etv": 834
+  },
+  {
+    "domain": "thrivesparrow.com",
+    "keywords": 691,
+    "etv": 442
+  },
+  {
+    "domain": "inc.com",
+    "keywords": 690,
+    "etv": 645
+  },
+  {
+    "domain": "cipd.org",
+    "keywords": 688,
+    "etv": 526
+  },
+  {
+    "domain": "en-academic.com",
+    "keywords": 687,
+    "etv": 1514
+  },
+  {
+    "domain": "peoplebox.ai",
+    "keywords": 686,
+    "etv": 385
+  },
+  {
+    "domain": "recruitee.com",
+    "keywords": 684,
+    "etv": 637
+  },
+  {
+    "domain": "sloneek.com",
+    "keywords": 682,
+    "etv": 1115
+  },
+  {
+    "domain": "alooba.com",
+    "keywords": 680,
+    "etv": 1342
+  },
+  {
+    "domain": "pressbooks.pub",
+    "keywords": 679,
+    "etv": 439
+  },
+  {
+    "domain": "psychologytoday.com",
+    "keywords": 678,
+    "etv": 808
+  },
+  {
+    "domain": "toggl.com",
+    "keywords": 673,
+    "etv": 1841
+  },
+  {
+    "domain": "website-files.com",
+    "keywords": 673,
+    "etv": 565
+  },
+  {
+    "domain": "resumeworded.com",
+    "keywords": 671,
+    "etv": 258
+  },
+  {
+    "domain": "qualee.com",
+    "keywords": 670,
+    "etv": 1331
+  },
+  {
+    "domain": "berkeley.edu",
+    "keywords": 669,
+    "etv": 514
+  },
+  {
+    "domain": "chrmp.com",
+    "keywords": 669,
+    "etv": 387
+  },
+  {
+    "domain": "zoho.com",
+    "keywords": 668,
+    "etv": 1097
+  },
+  {
+    "domain": "skima.ai",
+    "keywords": 667,
+    "etv": 445
+  },
+  {
+    "domain": "visier.com",
+    "keywords": 667,
+    "etv": 2865
+  },
+  {
+    "domain": "business.com",
+    "keywords": 665,
+    "etv": 1474
+  },
+  {
+    "domain": "bryq.com",
+    "keywords": 665,
+    "etv": 1307
+  },
+  {
+    "domain": "justia.com",
+    "keywords": 656,
+    "etv": 1527
+  }
+]

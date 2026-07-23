@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2413,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Page is a single stale chart of national quit rates through 2021 (last updated 2022), with no breakdown by industry, role, or company size, and no connection to what rising quits mean for hiring cost or process.",
+    "asset": "How Employee Quit Rates Actually Break Down by Industry in 2026",
+    "distinct_angle": "Refreshes SHRM's stale 2021 national quits chart with current public BLS JOLTS data and splits it by industry and company size instead of one lumped national average line.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2421,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee benefits administration (healthcare, retirement, leave) is off-brand; belongs to payroll/benefits world, not skills assessment/hiring"
+  },
+  {
+    "row_id": 2436,
+    "brand_fit": "CORE",
+    "angle_gap": "Reports one lumped 'AI in recruiting' adoption stat (51%) broken down only by employer sector (public/private/nonprofit/government), never by hiring stage \u2014 no separate figures for sourcing, resume screening, skills testing, or interviewing, and no mention of AI video/voice interviewing specifically.",
+    "asset": "How Recruiters Are Actually Using AI at Every Stage of Hiring in 2026",
+    "distinct_angle": "Breaks AI-in-recruiting adoption down by hiring stage (sourcing, resume screening, skills testing, AI interviewing) with current figures, instead of SHRM's single sector-only adoption stat that never separates testing or interviewing out.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2448,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Benchmarking data (cost-per-hire, time-to-hire) is drawn from a 2021 survey, gated entirely behind SHRM membership, and presented as raw 25th/median/75th percentile figures with no explanation of what drives the spread or how a recruiter should act on it.",
+    "asset": "What Cost-Per-Hire and Time-to-Hire Really Look Like by Industry in 2026",
+    "distinct_angle": "Publishes current, freely accessible cost-per-hire and time-to-hire benchmarks by industry and company size with plain-English interpretation of each figure, unlike SHRM's paywalled 2021 percentile tables with no guidance attached.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2450,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee benefits survey (healthcare, retirement, leave benefits) is payroll/benefits territory, outside Testlify's assessment/hiring world"
+  }
+]

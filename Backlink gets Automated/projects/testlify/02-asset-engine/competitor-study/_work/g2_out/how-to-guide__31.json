@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3009,
+    "brand_fit": "CORE",
+    "angle_gap": "Each of the 8 practices gets only 1-2 generic paragraphs with no worked example (no before/after job description, no real structured-interview scorecard), and the whole piece leans on a single undated stat (69% of UK workers value flexible working) to carry its evidence.",
+    "asset": "The Inclusive Hiring Practices Recruiters Say They Do But Don't Actually Structure",
+    "distinct_angle": "Turns each of the 8 abstract practices into a worked before/after example (a rewritten job posting, a real scorecard) and swaps the single undated UK stat for current sourced figures, where this page stays at the definition level throughout.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3014,
+    "brand_fit": "CORE",
+    "angle_gap": "Frames 'choosing the right behavioral assessment' almost entirely through Thomas's own DISC model rather than comparing it against other frameworks, and never gives the adverse-impact/validity due-diligence a TA lead needs before picking a provider \u2014 the page cuts off mid-thought right as it reaches timing guidance.",
+    "asset": "How to Vet a Behavioral Assessment for Adverse Impact Before You Roll It Out",
+    "distinct_angle": "Compares DISC against other behavioral frameworks (Big Five, situational judgment) and adds the validity/adverse-impact checklist a hiring team needs to defend the choice, closing the provider-neutral gap this vendor page can't.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3019,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 candidate-facing test-prep advice (how a job applicant should prepare/perform), which is job-seeker career content, not hiring-side content; explicitly off-limits per brand scope."
+  },
+  {
+    "row_id": 3030,
+    "brand_fit": "CORE",
+    "angle_gap": "The problems section runs long and detailed, but the solutions section is thin and cuts off mid-sentence right as it reaches 'use standardised skills assessments' \u2014 the one fix most relevant to Testlify \u2014 and the core stats (Oxford study, one-third age-discrimination figure) carry no publication year to check currency against.",
+    "asset": "Why Structured Interviews Alone Still Let Hiring Bias Through",
+    "distinct_angle": "Finishes what this page starts by explaining concretely how standardized skills assessments remove the specific bias points its own problems section lists, and replaces the undated Oxford/age-discrimination stats with current sourced figures.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3034,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists 'skills and abilities' as one of three profile components but never connects a candidate profile's must-have traits to how you'd actually verify them in an assessment, and the step-by-step build section cuts off mid Step 2 without finishing the process or giving a finished profile-vs-job-description template.",
+    "asset": "Building a Candidate Profile You Can Actually Test Candidates Against",
+    "distinct_angle": "Adds the missing link this page never makes \u2014 turning each must-have trait into an actual skills-test or scorecard criterion \u2014 plus a finished side-by-side profile-vs-job-description template instead of the cut-off step list here.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

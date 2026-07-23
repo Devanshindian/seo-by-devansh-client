@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3602,
+    "brand_fit": "CORE",
+    "angle_gap": "Pre-employment skills and psychometric tests get one throwaway TL;DR bullet and never resurface in the 5-stage framework or the 12 steps \u2014 no guidance on matching test types to roles, weighting assessment scores against interview impressions, or building adverse-impact/validity checks into the plan itself.",
+    "asset": "Recruitment Planning That Starts With the Skills Test, Not the Job Title",
+    "distinct_angle": "Makes the assessment step the backbone of the plan \u2014 mapping test types to each role and building validity/adverse-impact checks into the framework \u2014 where this page never gets past a one-line mention.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3607,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites SHRM (\"40% more likely to improve quality-of-hire\") and an HBR turnover stat with no link or publication year, and stays abstract on \"validated assessments\" and \"measurable indicators\" without ever showing a worked scorecard for a real role.",
+    "asset": "Building Role Scorecards With Real Assessment Criteria, Not Competency Buzzwords",
+    "distinct_angle": "Re-sources the uncited SHRM/HBR figures to current, linked data and replaces the abstract \"measurable indicators\" language with an actual worked scorecard tied to one real role \u2014 the concrete example this page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3628,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Reuses the same unsourced stats running across Xobin's own blog (the \"58% of candidates reject offers after a poor experience\" figure repeats verbatim on this page and on rows 3607/3641) plus an uncited, undated \"42-day average time-to-fill\" claim attributed only to \"SHRM.\"",
+    "asset": "What Recruitment Automation Actually Speeds Up, With Sourced Current Benchmarks",
+    "distinct_angle": "Re-grounds every recurring stat (time-to-fill, turnover, offer-decline rate) in a current, linked public source instead of repeating the same uncited figures Xobin runs across multiple posts.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3641,
+    "brand_fit": "CORE",
+    "angle_gap": "Every practice collapses into a pitch for Xobin's own ATS (\"Use an ATS like Xobin\") instead of showing what the practice looks like in execution \u2014 no sample message text for any stage, and no connection between candidate communication and explaining assessment/skills-test results.",
+    "asset": "Candidate Communication Scripts for Every Stage of a Skills-Based Hiring Process",
+    "distinct_angle": "Supplies copy-and-adapt message text for each stage (application received, invited to test, post-assessment feedback) tied specifically to explaining test results, instead of the vendor-plug bullet points this page relies on.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3642,
+    "brand_fit": "CORE",
+    "angle_gap": "The 5-step framework stays at the logistics level (university tiering, referral programs) and only name-drops \"unlimited assessment invitations\" as a closing product plug \u2014 it never explains how to keep test rubrics and cutoffs consistent when screening hundreds of campus candidates at once.",
+    "asset": "Standardizing Skills Assessments Across a High-Volume Campus Hiring Drive",
+    "distinct_angle": "Details how to keep rubrics, evaluator scoring, and cutoffs consistent across hundreds of campus candidates in one drive, where this page only mentions \"unlimited assessment invitations\" in passing.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

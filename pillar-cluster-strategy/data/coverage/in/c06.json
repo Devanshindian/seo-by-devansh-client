@@ -1,0 +1,317 @@
+{
+  "theme": "Hiring by Role & Use-case",
+  "key": "c06",
+  "n_pillars": 31,
+  "pillars": [
+    {
+      "pillar": "Hiring Engineering & Software Talent by Role",
+      "n": 15,
+      "intent": "informational",
+      "sample_spokes": [
+        "a-guide-for-hiring-machine-learning-engineers",
+        "a-guide-to-evaluating-and-hiring-software-engineers",
+        "a-guide-to-hiring-cybersecurity-experts"
+      ]
+    },
+    {
+      "pillar": "Pre-Hire Assessments by Industry (A\u2013H)",
+      "n": 14,
+      "intent": "commercial",
+      "sample_spokes": [
+        "financial-industry-pre-hire-tests",
+        "healthcare-industry-hiring-with-pre-hire-tests",
+        "pre-hire-assessments-for-automotive-industry"
+      ]
+    },
+    {
+      "pillar": "Screening Mobile, Data & Emerging-Tech Developers",
+      "n": 14,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-screen-candidates-for-ai-developer",
+        "how-to-screen-candidates-for-android-developer",
+        "how-to-screen-candidates-for-ar-developer-positions"
+      ]
+    },
+    {
+      "pillar": "Hiring for Specific Roles & Industries",
+      "n": 13,
+      "intent": "informational",
+      "sample_spokes": [
+        "assessments-for-hiring-in-media-industry",
+        "best-practices-for-blue-collar-interviewing-and-screening",
+        "best-truck-driving-jobs-with-no-experience"
+      ]
+    },
+    {
+      "pillar": "Screening Software Developers by Language & Stack",
+      "n": 13,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-screen-candidates-for-backend-developer",
+        "how-to-screen-candidates-for-database-developer",
+        "how-to-screen-candidates-for-frontend-developer"
+      ]
+    },
+    {
+      "pillar": "Hiring Sales, Marketing & Business Roles",
+      "n": 13,
+      "intent": "informational",
+      "sample_spokes": [
+        "101-guide-on-hiring-business-development-manager",
+        "101-guide-to-hiring-a-operations-manager",
+        "12-key-steps-to-hiring-the-right-virtual-assistant"
+      ]
+    },
+    {
+      "pillar": "Recruitment Trends in Tech & IT Role Hiring",
+      "n": 12,
+      "intent": "informational",
+      "sample_spokes": [
+        "recruitment-trends-in-it-support-specialist-hiring",
+        "recruitment-trends-in-network-administrator-hiring",
+        "recruitment-trends-in-product-manager-hiring"
+      ]
+    },
+    {
+      "pillar": "Recruitment Trends in Business, Marketing & HR Role Hiring",
+      "n": 12,
+      "intent": "informational",
+      "sample_spokes": [
+        "recruitment-trends-in-customer-service-manager-hiring",
+        "recruitment-trends-in-event-planner-hiring",
+        "recruitment-trends-in-marketing-coordinator-hiring"
+      ]
+    },
+    {
+      "pillar": "How to Hire Developers & Tech Roles",
+      "n": 12,
+      "intent": "informational",
+      "sample_spokes": [
+        "a-hiring-guide-for-front-end-developer",
+        "avoiding-pitfalls-in-the-developer-hiring-process",
+        "communication-skills-in-technical-recruitment"
+      ]
+    },
+    {
+      "pillar": "Pre-Hire Assessments by Industry (H\u2013T)",
+      "n": 11,
+      "intent": "commercial",
+      "sample_spokes": [
+        "pre-hire-assessments-for-hr-and-recruitment-industry",
+        "pre-hire-assessments-for-information-technology-industry",
+        "pre-hire-assessments-for-legal-industry"
+      ]
+    },
+    {
+      "pillar": "Hiring Skilled Trades & Construction Workers",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-hire-a-general-contractor",
+        "how-to-hire-a-hvac-technician",
+        "how-to-hire-a-millwright"
+      ]
+    },
+    {
+      "pillar": "How to Hire Remote Employees",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "a-complete-guide-to-remote-hiring",
+        "financial-digital-skills-hybrid-roles-hiring",
+        "find-hire-job-ready-remote-interns-globally"
+      ]
+    },
+    {
+      "pillar": "Hiring Without Traditional Interviews & Trials",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "hire-compassionate-nurses-without-personal-interviews",
+        "hire-creative-marketing-team-without-missing-ideas",
+        "hire-data-scientists-without-coding-tests"
+      ]
+    },
+    {
+      "pillar": "How to Hire Construction & Building Trades",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-hire-a-boilermaker",
+        "how-to-hire-a-brick-mason",
+        "how-to-hire-a-bricklayer"
+      ]
+    },
+    {
+      "pillar": "Hiring & Assessing Specialized Roles",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "5-tips-to-evaluate-data-analysis-software-proficiency",
+        "assessing-candidate-digital-marketing-skills",
+        "attract-automotive-engineers-without-hands-on-tasks"
+      ]
+    },
+    {
+      "pillar": "HR in Higher Education",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "balancing-theory-and-practice-effective-essay-strategies-for-aspiring-hr-professionals",
+        "dnp-leadership-degrees-redefining-healthcare-management",
+        "hr-in-the-higher-education-industry"
+      ]
+    },
+    {
+      "pillar": "Hiring Mechanics & Repair Technicians",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-hire-a-machinery-mechanic",
+        "how-to-hire-a-maintenance-worker",
+        "how-to-hire-a-mechanic"
+      ]
+    },
+    {
+      "pillar": "Hiring Manufacturing & Machine Operators",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-hire-a-machine-operator",
+        "how-to-hire-a-machinist",
+        "how-to-hire-a-patternmaker"
+      ]
+    },
+    {
+      "pillar": "Hiring Warehouse & Logistics Workers",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-hire-a-laborer",
+        "how-to-hire-a-taxi-driver",
+        "how-to-hire-a-truck-driver"
+      ]
+    },
+    {
+      "pillar": "Hiring Outdoor, Agriculture & Resource Workers",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-hire-a-farmer",
+        "how-to-hire-a-firefighter",
+        "how-to-hire-a-landscaper"
+      ]
+    },
+    {
+      "pillar": "Hiring Facilities & Cleaning Staff",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-hire-a-janitor",
+        "how-to-hire-a-room-attendant",
+        "how-to-hire-a-sanitation-worker"
+      ]
+    },
+    {
+      "pillar": "Hiring Hospitality, Retail & Restaurant Staff",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-hire-a-retail-merchandiser",
+        "how-to-hire-a-retail-sales-associate",
+        "how-to-hire-cashier"
+      ]
+    },
+    {
+      "pillar": "Pre-Hire Assessments by Role & Hiring Scenario",
+      "n": 6,
+      "intent": "commercial",
+      "sample_spokes": [
+        "pre-hire-assessment-for-graduate-hiring",
+        "pre-hire-assessments-for-call-centers",
+        "pre-hire-assessments-for-high-volume-hiring"
+      ]
+    },
+    {
+      "pillar": "How to Hire Service & Support Workers",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "hire-awesome-customer-service-representatives",
+        "how-to-hire-a-childcare-worker",
+        "how-to-hire-a-criminal-investigator"
+      ]
+    },
+    {
+      "pillar": "Recruiting for Specific Roles & Industries",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "5-tips-to-succeed-in-healthcare-recruiting",
+        "apple-hiring-process",
+        "best-strategies-to-recruit-nursing-talent"
+      ]
+    },
+    {
+      "pillar": "Hiring Software Developers",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-hire-a-good-cloud-engineer-a-complete-guide",
+        "how-to-hire-a-php-developer-roles-skills-salaries-and-recruitment-guide",
+        "how-to-hire-a-react-developer-using-a-react-test"
+      ]
+    },
+    {
+      "pillar": "Hiring HR, Management & Business Professionals",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-hire-a-product-manager",
+        "how-to-hire-a-temporary-employee",
+        "how-to-hire-data-analysts-a-complete-guide"
+      ]
+    },
+    {
+      "pillar": "Executive & Leadership Hiring",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "executive-hiring-playbook",
+        "find-your-next-executive-hire-in-toronto",
+        "how-lateral-hiring-can-enhance-your-teams-inclusivity"
+      ]
+    },
+    {
+      "pillar": "How to Hire Marketing & Content Roles",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "hire-a-business-accountant",
+        "hire-a-hr-manager",
+        "hire-a-marketing-strategist"
+      ]
+    },
+    {
+      "pillar": "How to Hire Food Service & Hospitality Staff",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-hire-a-chef",
+        "how-to-hire-a-cook",
+        "how-to-hire-a-dishwasher"
+      ]
+    },
+    {
+      "pillar": "Hiring Data & Analytics Talent by Role",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "best-practices-for-hiring-data-analysts",
+        "guide-to-hire-data-scientists",
+        "hiring-a-data-scientist-a-guide-to-identifying-and-attracting-the-right-candidates"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1570,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Cites vague, uncited stats ('$80 billion' in annual US training spend, '400% increase in 11 years') and lists four reasons to measure training, but the only concrete methodology offered is a passing mention of the Kirkpatrick Evaluation Model tucked into an embedded video \u2014 no worked example of tying a metric to ROI.",
+    "asset": "How to Actually Measure Whether Your Pre-Employment Assessments Are Working",
+    "distinct_angle": "Replaces AIHR's vague training-spend stats and one-line Kirkpatrick-model mention with a concrete methodology for correlating assessment scores against actual on-the-job performance \u2014 the worked measurement approach this page never provides.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: training effectiveness measurement (L&D)"
+  },
+  {
+    "row_id": 1575,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Illustrates the entire concept with a generic playground/weather decision-tree example that's never connected back to hiring, and its core evidence \u2014 the Deloitte People Analytics Maturity Model figures (17%/8%/4%) \u2014 is dated to 2018, eight years stale.",
+    "asset": "What Predictive Analytics Actually Looks Like When You're Screening Candidates",
+    "distinct_angle": "Swaps AIHR's generic playground-weather decision-tree example for a worked hiring case \u2014 using assessment score data to predict on-the-job performance \u2014 and updates the stale 2018 Deloitte maturity-model stat with the current figure.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1578,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 mentorship programs are post-hire L&D/employee-development content (knowledge-transfer relationships between existing staff); no hiring or assessment angle, and no natural on-brand analog to transplant the format into."
+  },
+  {
+    "row_id": 1584,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The nurse-assertiveness-training case study is a strong example of diagnosing when training won't help, but the entire piece \u2014 all three TNA levels and the KSA framework \u2014 stays inside the post-hire training lens; it never shows how the same KSA breakdown could define what a pre-employment assessment should test for a role.",
+    "asset": "Using a Skills-Gap Analysis to Decide What Your Hiring Assessment Should Test",
+    "distinct_angle": "Takes AIHR's KSA (knowledge/skills/abilities) framework, built entirely for post-hire training decisions, and applies it to the pre-hire question of which skills a role's assessment should measure \u2014 the screening application this page never makes.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: training needs analysis (L&D)"
+  },
+  {
+    "row_id": 1585,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The physical/digital/cultural framework is described entirely from an existing employee's perspective (office layout, ATS-adjacent tools, workplace culture) with zero mention of the candidate side of that same journey \u2014 nothing on how those same touchpoints apply before someone is even hired.",
+    "asset": "Mapping the Candidate Experience Through Skills Testing and AI Interviews",
+    "distinct_angle": "Adapts AIHR's physical/digital/cultural employee-experience framework, written for existing staff, into the pre-hire candidate journey through testing and interviews \u2014 the touchpoint mapping this page never makes.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: employee experience (EX)"
+  }
+]

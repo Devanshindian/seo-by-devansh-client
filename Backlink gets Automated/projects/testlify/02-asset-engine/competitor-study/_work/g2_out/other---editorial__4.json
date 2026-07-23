@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2569,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Covers only 2 of Gartner's 5 HR predictions in any depth (org flattening, digital personas) and backs the practical HR guidance with bare bullet lists like 'redeploy talent' and 'reskill for strategy' that carry zero specifics on how an organization actually identifies who is redeployable or what skills they'd need next.",
+    "asset": "What AI-Driven Organizational Flattening Actually Means for Your Middle Managers, and How to Redeploy Them",
+    "distinct_angle": "Replaces the article's unsupported 'redeploy talent' bullet with a concrete, skills-based framework for identifying which managers can move into strategic roles as AI absorbs their reporting and analysis work \u2014 the practical depth this page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2570,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is post-hire employee experience personalization (benefits, career pathing, engagement), which the brand scope explicitly places outside Testlify's world"
+  },
+  {
+    "row_id": 2571,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is generative AI in post-hire performance management, explicitly off-limits per brand scope"
+  },
+  {
+    "row_id": 2573,
+    "brand_fit": "CORE",
+    "angle_gap": "The article cites Work Institute's finding that first-year turnover (roughly 40% of all attrition) is driven by unmet expectations, then jumps straight to generic onboarding fixes (check-ins, stay interviews, realistic job previews) without ever tracing the mismatch back to the hiring/screening stage itself \u2014 it never asks whether the person was matched to the role's actual skill demands in the first place.",
+    "asset": "Why First-Year Turnover Is Really a Hiring-Match Problem, Not an Onboarding One",
+    "distinct_angle": "Takes the same Work Institute stat this page cites (40% of turnover happens in year one from unmet expectations) and traces it back to the pre-hire screening gap the article never examines, rather than stopping at generic onboarding advice.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2576,
+    "brand_fit": "CORE",
+    "angle_gap": "The piece spends most of its length on brain-science background (amygdala, hippocampus, frontal cortex) and lists roughly nine bias types, but the actionable section stops at 'educate leaders' \u2014 it never maps a single named bias to the specific point in a hiring funnel where it distorts a decision, nor offers a structured countermeasure for any of them.",
+    "asset": "The Hiring-Stage Bias Types Costing You Qualified Candidates, and the Structured Fix for Each",
+    "distinct_angle": "Takes the same bias types this page names (affinity, halo, in-group, confirmation) and, unlike the page's generic 'educate leaders' close, maps each one to the exact hiring-funnel stage it distorts along with the structured, skills-based countermeasure for it.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

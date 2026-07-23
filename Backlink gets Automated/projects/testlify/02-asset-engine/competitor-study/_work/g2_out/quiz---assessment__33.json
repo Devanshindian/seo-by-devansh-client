@@ -1,0 +1,20 @@
+[
+  {
+    "row_id": 3700,
+    "brand_fit": "CORE",
+    "angle_gap": "The page is templated product marketing \u2014 an 'About' blurb, a skills list, and a generic 'Why Choose Xobin' platform-features block (AI proctoring, resume screening, coding assessments) that's reused across their whole test catalogue. It names competencies like 'usability principles' and 'wireframing' but never shows what a real evaluated answer looks like \u2014 no sample question, no scoring rubric, no example of a strong vs weak portfolio/wireframe response, despite a 'Sample Questions' tab.",
+    "asset": "What a Strong UI/UX Designer Actually Demonstrates in a Skills Test, Not Just a Portfolio",
+    "distinct_angle": "Shows real scenario-based wireframing and usability questions with a worked scoring rubric (what separates a strong answer from a weak one) \u2014 the concrete evaluation depth this page names as skills but never demonstrates.",
+    "tool_escalation": "Format tag is Quiz / assessment \u2014 the winning asset is itself a test, which needs an actual assessment build, not just an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3716,
+    "brand_fit": "CORE",
+    "angle_gap": "The page has visible quality-control failures that undercut trust: inconsistent stats ('103 Organisations Served' in one block vs '5000+ Organisation Served' and '15310 Candidates Assessed' vs '4 Million+' elsewhere), and leaked template placeholder text ('Content here'). It also never shows what a real decision-making or problem-solving scenario question looks like or how an answer is judged \u2014 just a list of covered skills and generic 'why choose us' platform copy.",
+    "asset": "How to Tell a Genuinely Strong Managerial Decision from a Rehearsed One",
+    "distinct_angle": "Replaces the page's inconsistent stats and skill-name-dropping with an actual worked managerial scenario (decision-making/problem-solving) and a clear rubric for what a strong response contains \u2014 the concrete example and internal consistency this page lacks.",
+    "tool_escalation": "Format tag is Quiz / assessment \u2014 the winning asset is itself a test, which needs an actual assessment build, not just an article.",
+    "g_notes": ""
+  }
+]

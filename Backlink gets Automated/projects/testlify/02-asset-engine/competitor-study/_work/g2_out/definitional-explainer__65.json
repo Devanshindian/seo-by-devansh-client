@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1586,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The entire piece is about the already-employed older workforce \u2014 bias, absenteeism, life-expectancy stats \u2014 and never once crosses into the hiring/screening stage; a recruiter reading it gets no guidance on how to evaluate or interview older candidates fairly.",
+    "asset": "How to Screen Older Candidates Without Age Bias Creeping Into the Hiring Process",
+    "distinct_angle": "AIHR's piece stops at internal workplace issues (absenteeism, general stereotypes) and never touches the recruitment/screening decision \u2014 ours picks up exactly where it stops, with practical bias-resistant interview and evaluation practices for hiring older candidates.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1587,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Spreads 20 KPIs across every HR function (absence cost, engagement, L&D) at shallow, generic depth each, so the recruiting-specific KPIs a TA lead actually needs \u2014 time-to-hire, cost-per-hire, quality-of-hire \u2014 get the same thin treatment as unrelated metrics like absence cost.",
+    "asset": "The Hiring KPIs That Actually Predict Quality of Hire, Not Just Speed and Cost",
+    "distinct_angle": "AIHR buries time-to-hire, cost-per-hire, and quality-of-hire inside a 20-metric cross-department list with no worked calculations; ours goes deep on just the hiring-specific subset with worked examples and current benchmarks, the depth the generalist list lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1590,
+    "brand_fit": "CORE",
+    "angle_gap": "The article states plainly that the hiring manager 'makes the final decision on who to hire' but never once explains how that decision should be made \u2014 no scorecard, no standardized evaluation criteria, nothing to keep the final call from being gut-feel.",
+    "asset": "How Hiring Managers Can Make the Final Call Without Relying on Gut Feel",
+    "distinct_angle": "AIHR covers the hiring manager's responsibilities and the recruiter relationship in detail but is silent on how the HM should structure the actual evaluation \u2014 ours closes that gap with a concrete, structured-decision framework for the final call.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1591,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines time to fill and its value with a generic '45 days for a senior economist' example and an uncited '23%/46% of candidates lose interest' stat, but gives no current benchmark figures by industry or role \u2014 a reader can't tell if their own number is actually good or bad.",
+    "asset": "What a Good Time to Fill Actually Looks Like in 2026, Industry by Industry",
+    "distinct_angle": "AIHR defines time to fill and explains why it matters but never gives a number to compare against; ours adds current, sourced industry/role benchmarks so the metric becomes actionable instead of just defined.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1592,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The guide covers general employment compliance \u2014 wage and hour law, FMLA, OSHA workplace safety \u2014 and mentions EEOC lawsuits only in the intro hook; it never addresses selection/assessment compliance specifically: adverse-impact analysis, test validation, or algorithmic-hiring rules like NYC LL144 or the EU AI Act.",
+    "asset": "The Hiring Compliance Rules That Actually Govern Your Assessments and AI Screening Tools",
+    "distinct_angle": "AIHR's compliance guide covers wage/hour, FMLA, and OSHA but never touches adverse-impact or algorithmic-hiring law (NYC LL144, EU AI Act) \u2014 exactly the compliance ground a talent-assessment buyer needs covered and this page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

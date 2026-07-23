@@ -1,0 +1,203 @@
+{
+  "slice_id": "w08",
+  "clusters": [
+    {
+      "pillar": "Assessing Communication & Interpersonal Skills in Recruitment",
+      "intent": "informational",
+      "spokes": [
+        "importance-of-assessing-active-listening-skills-in-recruitment-for-effective-communication",
+        "importance-of-assessing-collaboration-skills-in-recruitment-for-effective-teamwork",
+        "importance-of-assessing-communication-skills-in-recruitment-for-business-success",
+        "importance-of-assessing-conflict-resolution-skills-in-recruitment-for-harmonious-work-environment",
+        "importance-of-assessing-interpersonal-skills-in-recruitment-for-building-strong-relationships",
+        "importance-of-assessing-negotiation-skills-in-recruitment-for-successful-business-deals",
+        "importance-of-assessing-networking-skills-in-recruitment-for-professional-growth",
+        "importance-of-assessing-presentation-skills-in-recruitment-for-effective-communication",
+        "importance-of-assessing-relationship-building-skills-in-recruitment-for-strong-networks",
+        "importance-of-assessing-team-building-skills-in-recruitment-for-cohesive-teams",
+        "importance-of-assessing-teamwork-skills-in-recruitment-for-a-collaborative-work-environment"
+      ]
+    },
+    {
+      "pillar": "Assessing Cognitive & Analytical Skills in Recruitment",
+      "intent": "informational",
+      "spokes": [
+        "importance-of-assessing-analytical-skills-in-recruitment-for-data-driven-decision-making",
+        "importance-of-assessing-attention-to-detail-in-recruitment-for-flawless-execution",
+        "importance-of-assessing-attention-to-detail-in-recruitment-for-quality-work-output",
+        "importance-of-assessing-creativity-in-recruitment-for-driving-innovation",
+        "importance-of-assessing-critical-thinking-skills-in-recruitment-for-informed-decision-making",
+        "importance-of-assessing-decision-making-skills-in-recruitment-for-sound-business-decisions",
+        "importance-of-assessing-organizational-skills-in-recruitment-for-efficient-work-management",
+        "importance-of-assessing-problem-solving-skills-in-recruitment-for-innovative-solutions",
+        "importance-of-assessing-time-management-skills-in-recruitment-for-efficient-work-execution"
+      ]
+    },
+    {
+      "pillar": "Assessing Character & Behavioral Traits in Recruitment",
+      "intent": "informational",
+      "spokes": [
+        "importance-of-assessing-adaptability-in-recruitment-for-thriving-in-a-dynamic-workplace",
+        "importance-of-assessing-cultural-sensitivity-in-recruitment-for-diverse-workplaces",
+        "importance-of-assessing-customer-service-orientation-in-recruitment-for-positive-customer-experience",
+        "importance-of-assessing-emotional-intelligence-in-recruitment-for-positive-workplace-culture",
+        "importance-of-assessing-empathy-in-recruitment-for-enhanced-employee-engagement",
+        "importance-of-assessing-flexibility-in-recruitment-for-adapting-to-changing-business-needs",
+        "importance-of-assessing-initiative-in-recruitment-for-proactive-and-self-starting-employees",
+        "importance-of-assessing-leadership-skills-in-recruitment-for-guiding-high-performing-teams",
+        "importance-of-assessing-open-mindedness-in-recruitment-for-embracing-new-ideas",
+        "importance-of-assessing-resilience-in-recruitment-for-overcoming-challenges",
+        "importance-of-assessing-self-motivation-in-recruitment-for-driven-and-goal-oriented-employees",
+        "importance-of-assessing-stress-management-skills-in-recruitment-for-resilient-employees",
+        "importance-of-assessing-trustworthiness-in-recruitment-for-building-trust-and-confidence"
+      ]
+    },
+    {
+      "pillar": "AI in Recruitment",
+      "intent": "informational",
+      "spokes": [
+        "is-ai-a-threat-to-recruiters-and-hr-professionals",
+        "know-about-ethical-dimension-of-ai-in-recruitment",
+        "optimizing-talent-acquisition-with-ai-and-ppc",
+        "platforms-for-ai-recruitment-agents"
+      ]
+    },
+    {
+      "pillar": "Social Media & Digital Recruiting Strategies",
+      "intent": "informational",
+      "spokes": [
+        "how-to-use-job-search-sites-for-optimizing-recruitment-strategy",
+        "how-to-use-social-media-as-a-recruiting-tool",
+        "how-to-use-social-media-for-recruiting",
+        "recruitment-strategies-with-social-media-and-online-platforms",
+        "recruitment-advertising"
+      ]
+    },
+    {
+      "pillar": "Recruitment Technology & Automation Tools",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-use-recruitment-technology-to-improve-your-hiring-process",
+        "leveraging-technology-in-talent-acquisition-trends-and-tools",
+        "recruitment-automation-tools",
+        "recruitment-chatbot",
+        "recruitment-crm",
+        "recruitment-dashboard",
+        "recruitment-database",
+        "recruitment-management-system-streamline-hiring",
+        "recruitment-technology",
+        "maximizing-recruitment-roi-using-recruitment-software"
+      ]
+    },
+    {
+      "pillar": "Recruitment Metrics, KPIs & ROI",
+      "intent": "informational",
+      "spokes": [
+        "measure-recruitment-performance-with-limited-data",
+        "measuring-the-roi-of-ats-integrations",
+        "measuring-the-roi-of-talent-acquisition",
+        "metrics-to-evaluate-the-efficiency-effectiveness-of-hiring-process",
+        "must-know-hr-and-recruitment-statistics",
+        "recruitment-kpis",
+        "recruitment-metrics-for-assessing-candidate",
+        "leveraging-analytics-for-smarter-hiring-in-recruitment"
+      ]
+    },
+    {
+      "pillar": "Reducing Time-to-Hire & Slow Hiring Costs",
+      "intent": "informational",
+      "spokes": [
+        "negative-impact-of-lengthy-recruitment-process",
+        "real-cost-of-a-slow-hiring-process",
+        "reasons-you-need-a-consistent-hiring-process",
+        "recruitment-services-in-reducing-time-to-hire",
+        "recruitment-services-in-hiring-efficiency",
+        "outbound-recruiting-strategies-to-hire-faster"
+      ]
+    },
+    {
+      "pillar": "High-Volume & Mass Recruitment",
+      "intent": "informational",
+      "spokes": [
+        "mass-recruitment",
+        "recruitment-agencies-help-with-high-volume-hiring",
+        "recruiting-for-high-demand-healthcare-roles",
+        "overcoming-campus-hiring-recruitment-challenges"
+      ]
+    },
+    {
+      "pillar": "Recruitment Compliance & Legal Considerations",
+      "intent": "informational",
+      "spokes": [
+        "legal-considerations-in-recruitment-compliance-tips",
+        "recruiters-ensure-hiring-compliance",
+        "licensing-and-compliance-specialist-questions-to-ask-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Recruitment Planning & Strategy Fundamentals",
+      "intent": "informational",
+      "spokes": [
+        "hr-recruitment-guide-for-perfect-employees",
+        "recruitment-methods",
+        "recruitment-methods-benchmark",
+        "recruitment-planning",
+        "recruitment-challenges-and-how-to-solve-them",
+        "recruitment-center-of-excellence",
+        "recruitment-roles-for-building-successful-teams",
+        "overcome-the-challenges-of-a-limited-budget-for-recruiting"
+      ]
+    },
+    {
+      "pillar": "Modern & Emerging Recruitment Trends",
+      "intent": "informational",
+      "spokes": [
+        "innovative-recruitment",
+        "know-about-the-new-era-of-recruitment",
+        "modern-recruitment",
+        "proactive-recruitment",
+        "latest-freelance-recruiting-trends",
+        "on-demand-recruitment",
+        "inbound-recruiting"
+      ]
+    },
+    {
+      "pillar": "Candidate Experience in Recruitment",
+      "intent": "informational",
+      "spokes": [
+        "importance-of-candidate-experience-in-recruitment",
+        "interview-to-onboarding-continuity-candidate-experience",
+        "incorporate-feedback-from-exit-interviews-in-recruitment-strategy",
+        "incorporate-video-interview-in-recruitment-strategy"
+      ]
+    },
+    {
+      "pillar": "Recruiting for Diversity & Specific Talent Pools",
+      "intent": "informational",
+      "spokes": [
+        "recruitment-diversity",
+        "operationalize-dei-in-enterprise-recruitment-funnel",
+        "recruiting-generation-z"
+      ]
+    },
+    {
+      "pillar": "Recruiter Community, Networking & Career",
+      "intent": "informational",
+      "spokes": [
+        "recruitment-fair",
+        "hr-communities-recruiters-should-join",
+        "recruiting-professional-in-the-recruitment-industry",
+        "recruiter-burnout"
+      ]
+    }
+  ],
+  "orphans": [
+    "jp-morgan-recruitment-process",
+    "netflix-hiring-process",
+    "interview-a-software-developer-as-non-tech-recruiter",
+    "know-everything-about-remote-recruitment",
+    "leveraging-paraphrasing-tools-to-enhance-recruitment-strategies",
+    "recruitment-books",
+    "recruitment-for-small-businesses"
+  ]
+}

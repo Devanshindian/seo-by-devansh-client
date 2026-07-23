@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1281,
+    "brand_fit": "CORE",
+    "angle_gap": "Each of the 8 core + 9 secondary skills gets one generic paragraph (e.g. 'Native Modules' explained in two sentences) with no worked example, no sample interview question or rubric, and zero mention of the React Native New Architecture (Fabric, TurboModules) that became the framework's default \u2014 the biggest shift in RN hiring since this page was published.",
+    "asset": "The React Native Skills That Actually Matter Now That the New Architecture Is Default",
+    "distinct_angle": "Adds real assessment scenarios with strong-vs-weak sample answers per skill, and updates the core competency list for the New Architecture shift this 2024 page never addresses.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1286,
+    "brand_fit": "CORE",
+    "angle_gap": "All 9 core + 11 secondary skills (Technical Vision, Cybersecurity, Innovation Management, etc.) are each summarized in a single generic paragraph with no case-study question, no example of a strong vs weak answer, and no current data point tying any skill to today's threat landscape or the trend of CTOs now owning AI strategy.",
+    "asset": "What a Strong CTO Answer Sounds Like (And Why Most Candidates Fake Technical Vision)",
+    "distinct_angle": "Grounds each CTO skill in a real scenario question with a strong-vs-weak sample answer, and ties Cybersecurity and Innovation Management to current threat and AI-strategy realities the original never cites.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1288,
+    "brand_fit": "CORE",
+    "angle_gap": "Same shallow treatment as their sibling C-suite guides \u2014 9 core + 11 secondary skills (Strategic Planning, Change Management, Cybersecurity Management) each get one abstract paragraph, with no scenario question, no strong/weak answer example, and no mention of how AI adoption has reshaped the modern CIO's data-analytics and change-management remit.",
+    "asset": "The CIO Interview Questions That Reveal Real Change-Management Experience",
+    "distinct_angle": "Replaces the abstract skill list with scenario-based interview questions and sample strong/weak answers, and updates Change Management and Data Analytics for the AI-driven remit shift the original ignores.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1291,
+    "brand_fit": "CORE",
+    "angle_gap": "The 7 core + 8 secondary skills (Statistical Modeling, Pricing Strategy, Excel Proficiency) are each described in one abstract paragraph with no worked numeric example \u2014 no sample price-elasticity calculation, no example Excel/SQL task a candidate should be able to complete.",
+    "asset": "Pricing Analyst Skills You Can Actually Verify With a Real Elasticity Problem",
+    "distinct_angle": "Walks through an actual price-elasticity calculation and a sample Excel/SQL task per core skill \u2014 the concrete, checkable work this page's abstract descriptions never provide.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1293,
+    "brand_fit": "CORE",
+    "angle_gap": "The 8 core + 10 secondary skills (Network Management, Cybersecurity Fundamentals, Technical Support) each get a short generic paragraph with no real incident or ticket scenario to work through and no mention of specific current tooling (e.g. ServiceNow, Datadog, Intune) a candidate would actually touch on the job.",
+    "asset": "IT Specialist Skills That Show Up in a Real Incident, Not a Resume Bullet",
+    "distinct_angle": "Pairs each skill with a real incident scenario to troubleshoot and names the current tools (ServiceNow, Datadog) a candidate should know, instead of the generic one-paragraph definitions here.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

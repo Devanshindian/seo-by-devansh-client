@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1249,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists 7 skills covered and three sample questions but never explains how difficulty/vocabulary is normalized for strong communicators who aren't native English speakers, and gives no guidance on what a passing score should mean at different seniority levels \u2014 a fairness and score-interpretation gap the page never touches.",
+    "asset": "Verbal Reasoning Scores That Don't Penalize Non-Native English Speakers",
+    "distinct_angle": "Where Adaface only lists skills tested and shows raw sample questions, ours explains how to set score benchmarks per role/seniority and how to keep the test from screening out strong non-native English communicators \u2014 the fairness and interpretation guidance their page skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1253,
+    "brand_fit": "CORE",
+    "angle_gap": "Shows sample questions across dozens of skill categories with zero answer keys, no explanation of what a strong vs. weak response looks like, and no mapping of which questions suit which roles \u2014 it demonstrates volume, not how to actually use the questions to evaluate a candidate.",
+    "asset": "Sample Assessment Questions With the Reasoning Behind Every Right Answer",
+    "distinct_angle": "Adaface's sample library shows raw questions with no answers or role mapping; ours pairs each sample with the reasoning for the correct answer and flags which roles/seniority levels it's calibrated for \u2014 the usability their page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1365,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists seven proctoring features (webcam, screen, IP, full-screen, copy-paste, non-googleable questions, ChatGPT checks) as bare bullets with zero discussion of trade-offs \u2014 candidate drop-off from invasive monitoring, cross-border privacy exposure of webcam/screen capture, or false-positive rates in AI cheating detection.",
+    "asset": "Proctoring Features That Actually Catch Cheating Without Scaring Off Candidates",
+    "distinct_angle": "Adaface lists each proctoring feature as a standalone bullet with no trade-off analysis; ours weighs candidate-experience drop-off, cross-border privacy exposure, and false-positive risk for each layer \u2014 the analysis their feature list skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1395,
+    "brand_fit": "CORE",
+    "angle_gap": "Details a 3-level voice/accent scoring model with CEFR alignment in real depth, but never addresses that 'accent neutrality' screening for customer-facing roles carries real national-origin discrimination exposure under EEOC-style frameworks \u2014 a compliance blind spot on a test explicitly built to filter for accent clarity.",
+    "asset": "Voice and Accent Testing That Doesn't Cross the Line Into Accent Discrimination",
+    "distinct_angle": "PMaps sells 'accent neutrality' screening with no compliance framing at all; ours covers the same listen/speak/resolve assessment model while addressing the national-origin discrimination risk their page ignores.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1400,
+    "brand_fit": "CORE",
+    "angle_gap": "Markets 500+ tests, an AI test builder, analytics, AI interviewing, and integrations in detail, but never once mentions validation studies or adverse-impact testing \u2014 for a product whose whole pitch is 'evidence-based hiring decisions,' there's no evidence the evidence itself is legally defensible.",
+    "asset": "Pre-Employment Testing That Holds Up in an EEOC Audit, Not Just a Demo",
+    "distinct_angle": "PMaps' overview page sells feature breadth and analytics but is silent on validity studies or adverse-impact testing; ours covers the same pre-hire-software category while grounding it in the legal defensibility their page never mentions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

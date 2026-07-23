@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3402,
+    "brand_fit": "CORE",
+    "angle_gap": "Locks the actual test questions behind a gated preview and never shows a concrete example of what a 'covered skill' (e.g. advanced formatting, collaborative editing) looks like in practice \u2014 it's abstract marketing copy about the test, not a demonstration of the skill.",
+    "asset": "Microsoft Word Skills That Actually Predict Office Job Performance",
+    "distinct_angle": "Shows a worked example task per covered skill instead of hiding behind a signup-gated preview, so hiring teams see exactly what 'advanced formatting' or 'document management' means before they buy.",
+    "tool_escalation": "format tag is Quiz / assessment \u2014 the asset itself is an interactive test candidates take, which a writer alone can't build.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3427,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists four generic WPM/KPH sub-tests with zero context on what speed actually matters for which role \u2014 a data entry hire and an executive assistant get the same undifferentiated 'typing speed' framing.",
+    "asset": "The Typing Speed Benchmarks That Actually Match Different Clerical Roles",
+    "distinct_angle": "Ties WPM and accuracy thresholds to specific roles (data entry vs. customer support vs. executive assistant) instead of presenting one undifferentiated speed number, closing the role-context gap the page never addresses.",
+    "tool_escalation": "format tag is Quiz / assessment \u2014 the asset itself is an interactive test candidates take, which a writer alone can't build.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3433,
+    "brand_fit": "CORE",
+    "angle_gap": "Explains the CEFR B1 framework and its four skill areas generically but never connects the level to an actual hiring decision \u2014 it doesn't say which roles genuinely need B1 versus B2, or what happens if you under- or over-hire on language level.",
+    "asset": "The Spanish Proficiency Level Customer-Facing Roles Actually Need",
+    "distinct_angle": "Maps concrete workplace scenarios (a support ticket, a sales call, a written complaint) to the CEFR level a role genuinely requires, filling the hiring-decision context the page's generic framework explainer skips.",
+    "tool_escalation": "format tag is Quiz / assessment \u2014 the asset itself is an interactive test candidates take, which a writer alone can't build.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3446,
+    "brand_fit": "CORE",
+    "angle_gap": "Describes 'applying the Scrum framework' and 'managing product requirements' as abstract labels with no real backlog scenario \u2014 nothing shows what separates a Product Owner who prioritizes well from one who just orders the backlog by whoever shouted loudest.",
+    "asset": "The Product Owner Skills That Separate Backlog Managers From Backlog Order-Takers",
+    "distinct_angle": "Grounds each abstract skill label (requirements management, stakeholder handling) in a concrete backlog-prioritization scenario, showing the judgment gap the page's generic skill list never illustrates.",
+    "tool_escalation": "format tag is Quiz / assessment \u2014 the asset itself is an interactive test candidates take, which a writer alone can't build.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3447,
+    "brand_fit": "CORE",
+    "angle_gap": "Treats data science as one flat skill set across statistics, programming, ML, and neural networks with no worked example \u2014 it never breaks down which of those four areas actually matters for a data analyst versus a data scientist versus an ML engineer, roles it explicitly lists as the same hiring target.",
+    "asset": "What Data Science Skills Actually Differ Between Analyst, Scientist, and ML Engineer Roles",
+    "distinct_angle": "Splits the same four skill areas by seniority/role (analyst vs. scientist vs. ML engineer) with a worked problem per split, closing the one-size-fits-all gap in the page's undifferentiated skill list.",
+    "tool_escalation": "format tag is Quiz / assessment \u2014 the asset itself is an interactive test candidates take, which a writer alone can't build.",
+    "g_notes": ""
+  }
+]

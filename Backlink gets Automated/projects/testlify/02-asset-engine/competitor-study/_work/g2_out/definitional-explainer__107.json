@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3195,
+    "brand_fit": "CORE",
+    "angle_gap": "Frames itself as answering 'why personality tests are used' and promising 'a far more effective alternative,' but the visible content is pure historical narrative (WWI shell-shock origins, Woodworth Personal Data Sheet, Bernreuter Inventory) with no predictive-validity numbers comparing personality tests to skills/work-sample tests \u2014 the actual evidence a recruiter needs to decide whether to drop them.",
+    "asset": "Why Personality Tests Predict Job Performance Worse Than Skills Tests, By the Numbers",
+    "distinct_angle": "Adds the published predictive-validity meta-analysis figures comparing personality assessments to structured skills/work-sample tests \u2014 the concrete evidence this page's history lesson never supplies.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3196,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines five reasoning-skill traits (critical thinking, logical problem-solving, attention to detail, etc.) and argues why they matter, but never shows how to actually test for them \u2014 no example assessment question or scoring criteria for any trait, so a recruiter finishes the page no closer to evaluating a candidate.",
+    "asset": "Testing for Reasoning Skills: The Questions and Scoring Rubric Behind Each Trait",
+    "distinct_angle": "Pairs each of the five reasoning-skill traits with a worked example assessment question and scoring guidance, the practical how-to-evaluate step this page stops short of.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3197,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans on a 2017 statistic ('almost 85% of employees revealed applicants lie on resumes') as its core evidence for why job simulations beat resumes, with no current figure and no worked example of what an actual job simulation task looks like end to end for a given role.",
+    "asset": "What a Job Simulation Actually Looks Like, Role by Role, With Current Hiring Data",
+    "distinct_angle": "Refreshes the 2017 resume-dishonesty statistic with current published data and adds a concrete worked example of a job simulation task per role, replacing the generic bullet claims with specifics.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3201,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites 2019 EEOC discrimination-charge figures (63,000 charges filed) and penalty caps as its evidence for why unfair hiring matters, but never mentions the AI-specific hiring-bias audit laws now in force \u2014 NYC Local Law 144 or the EU AI Act \u2014 despite the page's own section on unstructured interviews and biased screening.",
+    "asset": "Unfair Hiring Practices Recruiters Miss Under Today's NYC LL144 and EU AI Act Rules",
+    "distinct_angle": "Updates the stale 2019 EEOC discrimination-charge figures with current data and covers the NYC LL144 and EU AI Act audit requirements this page omits entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3203,
+    "brand_fit": "CORE",
+    "angle_gap": "A webinar recap built on older anecdotes (Amazon's scrapped 2018 AI recruiting tool, the Bavarian Broadcasting face-scoring study, the 2019 HireVue/EPIC complaint) with no reference to the binding AI-hiring bias regulations now in effect, so a reader gets historical cautionary tales but no current compliance framework to act on.",
+    "asset": "Preventing AI Hiring Bias Under the EU AI Act and NYC LL144, Not Just the Old Cautionary Tales",
+    "distinct_angle": "Grounds the Amazon/HireVue-era anecdotes in the EU AI Act and NYC LL144 requirements now legally binding, turning a 2020-era recap into an actionable current-compliance guide.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

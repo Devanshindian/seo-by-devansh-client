@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1049,
+    "brand_fit": "CORE",
+    "angle_gap": "Describes the test abstractly with no worked sample item (unlike Criteria's own WTMA page, which shows one), gives no adverse-impact data, and offers no guidance on how a 'Proficient' score should be weighed against other signals in an actual hiring decision.",
+    "asset": "What a 'Proficient' Computer Literacy Score Actually Predicts About Job Performance",
+    "distinct_angle": "Shows a worked sample item and adverse-impact data, and explains how to weigh the proficiency band in a hiring decision \u2014 specifics this page skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1052,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 generic company homepage/hero page, no specific subject or content gap to build against"
+  },
+  {
+    "row_id": 1061,
+    "brand_fit": "CORE",
+    "angle_gap": "Lumps electricians, machine operators, and construction laborers into one audience for a single mechanical-aptitude score, with no discussion of how the same raw score should be read differently across those trades.",
+    "asset": "What a Mechanical Aptitude Score Means Differently for Electricians, Machine Operators, and Technicians",
+    "distinct_angle": "Breaks the single aptitude score down by trade instead of treating electricians, machine operators, and construction laborers as one interchangeable audience.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1083,
+    "brand_fit": "CORE",
+    "angle_gap": "Claims personality testing drives higher productivity, lower turnover, and more sales revenue but cites zero validity coefficients or sample sizes \u2014 unlike this same competitor's own CLIK and WTMA pages, which give exact correlation numbers and study sizes.",
+    "asset": "The Validity Data Behind Personality Tests: Do They Actually Predict Job Performance?",
+    "distinct_angle": "Backs every productivity, turnover, and sales claim with validity coefficients and sample sizes, the evidence their own CLIK/WTMA pages include but this one omits.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1084,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists five specific target abilities (active listening, coordination, manual dexterity, static strength, multilimb coordination) but offers only one assessment, a safety-attitude test, that measures none of them directly.",
+    "asset": "Testing Construction Hires for the Physical Abilities That Actually Predict the Job",
+    "distinct_angle": "Matches an assessment to each of the five listed abilities (dexterity, coordination, strength) instead of offering one safety-attitude test that covers none of them.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

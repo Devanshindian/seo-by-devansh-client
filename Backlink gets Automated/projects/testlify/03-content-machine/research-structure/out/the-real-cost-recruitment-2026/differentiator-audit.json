@@ -1,0 +1,111 @@
+{
+  "angle": "Refreshes the 2022 SHRM cost-per-hire stat with the current public figure and breaks hard vs. soft costs down by role and hiring volume \u2014 the current data and structured breakdown this page lacks.",
+  "call_ok": true,
+  "fallback_sections": 0,
+  "competitor_topics": [
+    "Benchmarks and average cost figures",
+    "Breakdown of what counts as a cost (internal vs. external, hard vs. soft)",
+    "Business impact of high cost per hire (productivity, mis-hires)",
+    "Cost variance by company size, industry, and role seniority",
+    "Definition of cost per hire",
+    "Definition of cost per hire (CPH) and typical range ($4,500-$4,800)",
+    "External costs: job board fees, agency/search firm fees, ATS costs, background checks, travel/relocation",
+    "Factors that drive cost per hire up or down",
+    "Formula / how to calculate cost per hire",
+    "Internal costs: prorated recruiter/HR salaries, referral awards, hiring-manager interview time",
+    "The cost-per-hire formula: Internal Costs + External Costs / Total Hires",
+    "Tracking cost per hire quarterly against the SHRM Cost-Per-Hire Standard",
+    "Ways to reduce cost per hire"
+  ],
+  "gaps": [
+    "No winner anchors on a current-year public benchmark figure as a standalone, cited data point",
+    "No winner segments cost per hire by hiring volume (high-volume vs. low-volume)",
+    "No winner segments cost per hire by role or job type",
+    "cost of hiring",
+    "costs of hiring",
+    "hiring cost",
+    "hiring costs"
+  ],
+  "verdicts": [
+    {
+      "index": 0,
+      "is_differentiator": false,
+      "why": "SHRM formula/worked-examples coverage is table-stakes (formula, internal vs external breakdown)"
+    },
+    {
+      "index": 1,
+      "is_differentiator": false,
+      "why": "Direct vs indirect cost definitions are table-stakes, not our hard/soft-by-role angle"
+    },
+    {
+      "index": 2,
+      "is_differentiator": false,
+      "why": "Average cost + variance by role/industry is table-stakes benchmark coverage"
+    },
+    {
+      "index": 3,
+      "is_differentiator": false,
+      "why": "Hidden-cost-undercount/measurement-mistakes framing is a different angle, not hard/soft breakdown by role or volume"
+    },
+    {
+      "index": 4,
+      "is_differentiator": false,
+      "why": "Benchmarks by role, seniority, industry, geography, company size are explicitly table-stakes variance coverage"
+    },
+    {
+      "index": 5,
+      "is_differentiator": false,
+      "why": "Time-to-fill is an unrelated metric, off our cost-per-hire angle"
+    },
+    {
+      "index": 6,
+      "is_differentiator": false,
+      "why": "Cost of vacancy is a different metric, not our angle or listed gaps"
+    },
+    {
+      "index": 7,
+      "is_differentiator": false,
+      "why": "Bad-hire cost is a different metric, off-angle"
+    },
+    {
+      "index": 8,
+      "is_differentiator": false,
+      "why": "Job board/agency/executive fees by role level is table-stakes external-cost coverage"
+    },
+    {
+      "index": 9,
+      "is_differentiator": false,
+      "why": "Background checks, international/temp/RPO costs are off-angle line-item coverage"
+    },
+    {
+      "index": 10,
+      "is_differentiator": false,
+      "why": "Referral/branding cost reduction is table-stakes 'ways to reduce cost per hire'"
+    },
+    {
+      "index": 11,
+      "is_differentiator": false,
+      "why": "Onboarding/training costs are off-angle, not hard/soft cost-per-hire breakdown"
+    },
+    {
+      "index": 12,
+      "is_differentiator": false,
+      "why": "Levers for reducing cost per hire is table-stakes coverage"
+    },
+    {
+      "index": 13,
+      "is_differentiator": false,
+      "why": "Quarterly SHRM benchmarking and general KPI coverage is table-stakes"
+    },
+    {
+      "index": 14,
+      "is_differentiator": false,
+      "why": "Direct vs indirect cost tracking is table-stakes, not the role/volume breakdown gap"
+    },
+    {
+      "index": 15,
+      "is_differentiator": false,
+      "why": "Bad-hire cost and screen-first framework is off-angle, a different topic than cost-per-hire breakdown"
+    }
+  ]
+}

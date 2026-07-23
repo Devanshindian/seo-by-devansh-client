@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3358,
+    "brand_fit": "CORE",
+    "angle_gap": "Frames AI resume-screening as a bias-reduction win but never engages the audit-trail/legal-defensibility risk of using algorithmic resume screening under laws like NYC LL144 or the EU AI Act \u2014 the exact question a buyer evaluating these tools in 2026 needs answered.",
+    "asset": "Resume Screening Software Ranked by Whether It Would Survive an AI-Hiring Audit",
+    "distinct_angle": "Goes past the bias-reduction claim to score each tool on audit-trail and compliance readiness under NYC LL144 and the EU AI Act \u2014 the legal-defensibility angle this page never touches.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3365,
+    "brand_fit": "CORE",
+    "angle_gap": "The comparison table only lists 'best for' and price \u2014 no side-by-side scoring against real buyer criteria (test-library depth, anti-cheating rigor, ATS integrations) \u2014 and the write-up is structured to steer readers to the vendor's own product as the obvious pick rather than let them compare objectively.",
+    "asset": "Skills Assessment Platforms Scored Side by Side on the Criteria Recruiters Actually Use to Decide",
+    "distinct_angle": "Builds a full scorecard across test-library depth, anti-cheating rigor, ATS integrations, and pricing transparency \u2014 the objective, vendor-neutral comparison this self-favoring rankings piece never gives its reader.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3375,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines behavioral vs. situational structured-interview questions thoroughly but never shows how to score answers consistently across interviewers with a shared rubric \u2014 the actual mechanism that makes a structured interview legally defensible and comparable, not just well-worded.",
+    "asset": "Structured Interview Questions Are Useless Without a Shared Scorecard",
+    "distinct_angle": "Closes the gap the page leaves open: it writes great behavioral and situational questions but never covers how to build the shared scoring rubric that makes those answers comparable and defensible across interviewers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3384,
+    "brand_fit": "CORE",
+    "angle_gap": "Names weak anti-cheating as the top reason to leave TestDome, then never actually compares the 9 alternatives against each other on anti-cheating depth \u2014 the list only gives generic feature bullets, not a side-by-side on the one axis it raised.",
+    "asset": "TestDome Alternatives Ranked by Anti-Cheating Depth, Not Just Price",
+    "distinct_angle": "The stated reason to switch is weak proctoring, but the alternatives are never scored against each other on it; ours ranks every option specifically on mouse-tracking, full-screen lock, and AI-response detection \u2014 the exact axis this page raises and then drops.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3415,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Every fix offered (Girls Who Code, mentorship networks, advocacy programs) targets the talent pipeline upstream of hiring \u2014 the piece never asks whether the hiring process itself (resume screening, unstructured interviews) is what's filtering out the diverse candidates those pipelines already produce.",
+    "asset": "The Least Diverse Industries Have a Hiring-Process Problem, Not Just a Pipeline Problem",
+    "distinct_angle": "Their fix list is all external pipeline programs and never questions the hiring process itself; ours connects each industry's diversity gap to the specific hiring-process levers (blind skills testing, structured scoring) that close it at the point of hire, which this page skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

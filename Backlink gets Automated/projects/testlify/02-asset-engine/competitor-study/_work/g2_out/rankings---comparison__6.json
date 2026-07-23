@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1459,
+    "brand_fit": "CORE",
+    "angle_gap": "Every comparison cell is filled from iMocha's own promotional claims (question counts, 'skill library' sizes) with no independent source, no real pricing for any of the three tools, and no citation for figures like '1 Lakh+ questions' \u2014 a vendor grading its own homework, not a neutral evaluation.",
+    "asset": "Coderbyte vs HackerRank Compared With Verified Pricing and Review Data Instead of Vendor Claims",
+    "distinct_angle": "Replaces iMocha's self-favoring feature tables with sourced G2 ratings, published pricing tiers, and a neutral scoring rubric \u2014 the independence and evidence this vendor-authored comparison lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1460,
+    "brand_fit": "CORE",
+    "angle_gap": "The page promises a HackerRank pricing breakdown but never states a single number for either platform \u2014 it just says 'request a custom quote' \u2014 while the feature table again scores iMocha as the winner on every row using iMocha's own claimed figures.",
+    "asset": "What HackerRank Actually Costs, With Real Published Tiers and Who Should Pick It",
+    "distinct_angle": "Fills in the concrete pricing tiers and buyer-fit guidance the page dodges by sending everyone to 'request a quote,' sourced from published rate cards and G2 pricing data rather than one vendor's self-comparison.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1461,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 candidate engagement/CRM tools (virtual job fairs, messaging, employer branding: Brazen, ConveyIQ, iCIMS) are a recruiting-marketing product world, not skills assessment; brand scope doesn't claim it and flags this category (like passive-candidate sourcing) as outside our world"
+  },
+  {
+    "row_id": 1462,
+    "brand_fit": "CORE",
+    "angle_gap": "The '15 tools' list mixes true pre-employment testing platforms (Vervoe, Codility, HackerEarth, TestGorilla) with pure e-learning/LMS tools that don't screen candidates at all (NearPod, FlexiQuiz, EdApp) \u2014 a category error \u2014 on top of the same 2022 vendor-authored, self-ranked-#1 framing.",
+    "asset": "The Pre-Employment Testing Platforms Worth Shortlisting in 2026 (And the Training Tools That Don't Belong)",
+    "distinct_angle": "Fixes the list's core category error \u2014 ranking LMS tools like NearPod and FlexiQuiz alongside real pre-employment testing platforms \u2014 by scoping strictly to tools that screen candidates pre-hire, each backed by sourced G2 data instead of one vendor's 2022 claims.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1463,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The list conflates true Pluralsight-style learning platforms (Skillsoft, Coursera, Udemy Business) with tools that solve a completely different problem \u2014 Handshake is early-career recruiting, Lightcast is labor-market data \u2014 under one 'alternative' umbrella, with no criteria for which tool actually replaces Pluralsight's job versus which just touches adjacent workforce data.",
+    "asset": "The Skills-Gap and Internal-Mobility Tools Teams Mistake for Learning Platforms",
+    "distinct_angle": "Separates genuine learning-platform alternatives from tools that only touch adjacent data (a recruiting-marketing platform, a labor-market dataset) and reframes the comparison around skills-gap analysis and internal mobility \u2014 a subject we own \u2014 instead of generic L&D.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: L&D/e-learning platform alternatives (Pluralsight competitors)"
+  }
+]

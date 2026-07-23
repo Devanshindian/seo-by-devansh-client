@@ -1,0 +1,175 @@
+{
+  "asset_title": "How Much Recruiters Actually Make Per Hire: Commission Rates by Recruiter Type in 2026",
+  "distinct_angle": "Breaks down what 'per hire' pay really means across agency/contingency, retained, RPO, and in-house recruiters, with real commission percentages and dollar ranges by role and seniority from public salary and industry-fee data, answering the recruiter's-own-earnings question the keyword actually asks instead of restating employer cost-per-hire.",
+  "primary": "how much do recruiters make",
+  "items": [
+    {
+      "id": "secondary_kw-1",
+      "type": "secondary_kw",
+      "item": "how much does an it recruiter make",
+      "context": "IT-recruiter earnings is a role-specific section the angle's 'by role' breakdown covers; absorbs the redundant 'how do it recruiters get paid' / 'how much do it recruiters get paid' phrasings into one section."
+    },
+    {
+      "id": "secondary_kw-2",
+      "type": "secondary_kw",
+      "item": "recruiter salary",
+      "context": "Base salary is a distinct concept from per-hire commission and needs its own section to avoid conflating the two pay models; absorbs 'recruiter salary range'."
+    },
+    {
+      "id": "secondary_kw-3",
+      "type": "secondary_kw",
+      "item": "how do recruiters get paid",
+      "context": "Commission-structure/mechanism question, core to the 'commission rates by type' angle; distinct from the amount question that drives the primary cluster."
+    },
+    {
+      "id": "secondary_kw-4",
+      "type": "secondary_kw",
+      "item": "how do job placement agencies make money",
+      "context": "Agency/contingency business-model question, matches that named recruiter category in the angle."
+    },
+    {
+      "id": "secondary_kw-5",
+      "type": "secondary_kw",
+      "item": "hr recruiters salary",
+      "context": "HR-recruiter role-specific pay, a distinct sub-topic under the role breakdown."
+    },
+    {
+      "id": "secondary_kw-6",
+      "type": "secondary_kw",
+      "item": "physician recruiter compensation",
+      "context": "Healthcare-recruiter niche, fits the angle's role-based breakdown."
+    },
+    {
+      "id": "secondary_kw-7",
+      "type": "secondary_kw",
+      "item": "corporate recruiter salary",
+      "context": "Matches the 'in-house' recruiter category named in the angle."
+    },
+    {
+      "id": "secondary_kw-8",
+      "type": "secondary_kw",
+      "item": "executive recruiter compensation",
+      "context": "Matches the 'retained' recruiter category named in the angle."
+    },
+    {
+      "id": "secondary_kw-9",
+      "type": "secondary_kw",
+      "item": "management recruiter salary",
+      "context": "Mid-management tier fits the angle's seniority breakdown, distinct from the executive tier."
+    },
+    {
+      "id": "secondary_kw-10",
+      "type": "secondary_kw",
+      "item": "headhunters salary",
+      "context": "Headhunter is a common synonym for contingency/retained recruiters; absorbs the near-duplicate 'headhunting salary' (same concept, higher KD)."
+    },
+    {
+      "id": "secondary_kw-11",
+      "type": "secondary_kw",
+      "item": "how do headhunters get paid",
+      "context": "Headhunter payment mechanism, distinct from the total-income figure above (mirrors the amount/mechanism split at the general level, scoped to this recruiter type)."
+    },
+    {
+      "id": "secondary_kw-12",
+      "type": "secondary_kw",
+      "item": "do recruiters get bonuses for recruits",
+      "context": "Bonus/incentive add-ons beyond base per-hire commission, a distinct facet of the pay structure."
+    },
+    {
+      "id": "secondary_kw-13",
+      "type": "secondary_kw",
+      "item": "recruitment consultant earnings",
+      "context": "Agency/consultant recruiter earnings, a named recruiter-type sub-topic distinct from the in-house and headhunter sections."
+    },
+    {
+      "id": "in_body-1",
+      "type": "in_body",
+      "item": "RPO recruiter fees",
+      "context": ""
+    },
+    {
+      "id": "in_body-2",
+      "type": "in_body",
+      "item": "contingency recruiter fee percentage",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-1",
+      "type": "winner_h2",
+      "item": "Agency vs. in-house recruiter pay compared side by side",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-2",
+      "type": "winner_h2",
+      "item": "Salary vs. commission structure explained",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-3",
+      "type": "winner_h2",
+      "item": "Per-placement / per-hire commission specifics",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-4",
+      "type": "winner_h2",
+      "item": "In-house recruiter pay broken out separately",
+      "context": ""
+    },
+    {
+      "id": "winner_h2-5",
+      "type": "winner_h2",
+      "item": "Commission models walked through in detail",
+      "context": ""
+    },
+    {
+      "id": "gap_we_own-1",
+      "type": "gap_we_own",
+      "item": "Retained-search recruiter pay (retainer %, milestone/upfront splits) \u2014 absent from all three heading sets.",
+      "context": ""
+    },
+    {
+      "id": "gap_we_own-2",
+      "type": "gap_we_own",
+      "item": "RPO recruiter pay model \u2014 not named on any page.",
+      "context": ""
+    },
+    {
+      "id": "gap_we_own-3",
+      "type": "gap_we_own",
+      "item": "Role- and seniority-specific dollar ranges in a structured table rather than anecdote (Kondo covers career stage but through narrative \"stories,\" not $ ranges).",
+      "context": ""
+    },
+    {
+      "id": "gap_we_own-4",
+      "type": "gap_we_own",
+      "item": "A single table comparing per-hire pay across agency/contingency, retained, RPO, and in-house \u2014 no page structures the comparison this way; Kondo only splits agency vs. in-house, gogpac splits salary vs. commission but not by engagement model.",
+      "context": ""
+    },
+    {
+      "id": "gap_we_own-5",
+      "type": "gap_we_own",
+      "item": "Sourced commission percentage benchmarks (e.g., 20% vs. 25% contingency fee) tied to public industry-fee data rather than a single site's claim.",
+      "context": ""
+    },
+    {
+      "id": "paa-1",
+      "type": "paa",
+      "item": "How much do recruiters get paid per recruit?",
+      "context": ""
+    },
+    {
+      "id": "paa-2",
+      "type": "paa",
+      "item": "What type of recruiters make the most money?",
+      "context": ""
+    },
+    {
+      "id": "aio_subtopic-1",
+      "type": "aio_subtopic",
+      "item": "Defines recruiter pay as split between steady corporate salaries and volatile agency commissions ($60k-$110k average total comp), then breaks down: Corporate/In-House ($100k-$162k, base+bonus) \u2192 Agency/Third-Party ($50k-$90k standard billers, $150k-$250k+ top performers, commission-based) \u2192 Executive Search ($110k-$300k+, highest commissions) \u2192 a compensation-model table (Salary+Bonus vs Base+Commission vs Pure Commission, with structure/earnings potential/pros-cons) \u2192 agency fee mechanics (15%-25% of first-year salary) \u2192 top-paying industries (IT/Tech $94,315, Financial Services $88,799, Legal $84,725, Pharma/Biotech $84,063).",
+      "context": ""
+    }
+  ]
+}

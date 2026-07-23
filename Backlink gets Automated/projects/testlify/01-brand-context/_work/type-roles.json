@@ -1,0 +1,30 @@
+{
+  "stat_types": [
+    "page",
+    "test-library",
+    "integrations"
+  ],
+  "story_types": [
+    "successstory",
+    "podcast",
+    "press-release"
+  ],
+  "commercial_types": [
+    "competitors",
+    "integrations",
+    "page",
+    "test-library",
+    "our-partner",
+    "certifications"
+  ],
+  "editorial_types": [
+    "post",
+    "hr-glossary",
+    "techglossary",
+    "job-description",
+    "interviews",
+    "ebooks",
+    "skill-mapping"
+  ],
+  "notes": "The 'interviews' type is interview-question guides (editorial), not real-people interviews; 'certifications' are candidate certification products, not trust badges; 'pages' (15) is a translated-duplicate bucket and 'page' itself mixes primary-language money pages with translations."
+}

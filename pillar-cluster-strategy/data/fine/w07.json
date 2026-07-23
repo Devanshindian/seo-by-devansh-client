@@ -1,0 +1,233 @@
+{
+  "slice_id": "w07",
+  "clusters": [
+    {
+      "pillar": "AI in Recruitment",
+      "intent": "informational",
+      "spokes": [
+        "advantages-challenges-of-generative-ai-in-recruitment",
+        "agentic-ai-in-recruitment-key-trends",
+        "ai-in-recruitment",
+        "ai-is-changing-the-game-for-job-applicants",
+        "ai-recruitment-platforms",
+        "ai-use-cases-in-recruitment",
+        "benefits-of-ai-in-recruitment",
+        "enhance-recruitment-efficiency-with-ai-without-sacrificing-human-connection",
+        "future-proof-recruitment-process-with-ai-in-hiring",
+        "how-ai-recruitment-can-positively-improve-recruitment",
+        "how-to-use-ai-in-recruiting"
+      ]
+    },
+    {
+      "pillar": "ATS & Recruitment Tech Integration",
+      "intent": "informational",
+      "spokes": [
+        "ats-and-crm-integration",
+        "ats-tools-fail",
+        "avoiding-common-pitfalls-in-ats-integration",
+        "how-to-choose-right-ats-integration",
+        "how-to-use-ai-and-ats-for-efficient-lateral-hiring"
+      ]
+    },
+    {
+      "pillar": "Creating a Positive Candidate Experience",
+      "intent": "informational",
+      "spokes": [
+        "candidate-experience-for-successful-talent-acquisition",
+        "candidate-experience-with-user-friendly-interface",
+        "create-positive-candidate-experience",
+        "creating-a-positive-candidate-experience",
+        "enhance-candidate-experience-without-additional-costs",
+        "ensure-an-engaging-candidate-experience",
+        "how-poor-candidate-experience-affects-a-business",
+        "how-to-create-a-seamless-candidate-experience",
+        "enhance-communication-at-every-stage-of-recruitment"
+      ]
+    },
+    {
+      "pillar": "Designing & Managing the Hiring Process",
+      "intent": "informational",
+      "spokes": [
+        "building-engagement-strategy-hiring-process",
+        "hiring-process-checklist",
+        "hiring-process-flowchart",
+        "hiring-process-steps-you-should-never-skip",
+        "how-does-structured-hiring-improve-recruitment",
+        "how-handle-sensitive-information-in-hiring-process",
+        "how-long-should-the-hiring-process-take",
+        "how-to-create-an-excellent-hiring-process-that-converts",
+        "how-to-design-a-fair-and-inclusive-hiring-process",
+        "how-to-make-hiring-process-transparent-and-fair",
+        "how-to-manage-the-hiring-process",
+        "how-to-streamline-hiring-process-digitally"
+      ]
+    },
+    {
+      "pillar": "Diversity & Inclusive Recruitment",
+      "intent": "informational",
+      "spokes": [
+        "a-recruiters-ultimate-guide-to-diversity-hiring",
+        "achieve-unbiased-recruitment-with-testlify",
+        "cross-cultural-recruiting-strategies-for-remote-teams",
+        "develop-inclusive-recruitment-strategy-for-diverse-candidates",
+        "diversity-and-inclusion-in-talent-acquisition-best-practices-for-success"
+      ]
+    },
+    {
+      "pillar": "Talent Acquisition Strategy",
+      "intent": "informational",
+      "spokes": [
+        "building-a-winning-talent-acquisition-strategy-a-step-by-step-guide",
+        "develop-and-implement-talent-acquisition-strategy",
+        "hiring-a-talent-acquisition-specialist",
+        "how-hr-and-fintech-empower-global-talent-acquisition",
+        "how-to-reach-and-recruit-top-talent"
+      ]
+    },
+    {
+      "pillar": "Choosing Recruitment Methods & Tools",
+      "intent": "commercial",
+      "spokes": [
+        "best-recruitment-methods",
+        "best-recruitment-tools-for-hiring-teams",
+        "choose-the-right-recruitment-method",
+        "how-recruitment-tools-contribute-to-business-success",
+        "how-to-choose-the-right-recruitment-technology",
+        "how-to-maximize-engagement-with-recruitment-tools"
+      ]
+    },
+    {
+      "pillar": "Building a Recruitment Tech Stack",
+      "intent": "informational",
+      "spokes": [
+        "benefits-cloud-storage-recruitment-platforms-efficiency",
+        "building-recruitment-tech-stack",
+        "building-your-hr-tech-stack-for-new-age-recruiting",
+        "case-studies-of-companies-that-successfully-used-recruitment-technology",
+        "how-digital-adoption-revolutionizing-employee-recruitment"
+      ]
+    },
+    {
+      "pillar": "High-Volume & Blue-Collar Recruiting",
+      "intent": "informational",
+      "spokes": [
+        "10-latest-blue-collar-recruiting-trends",
+        "10-latest-volume-recruiting-trends",
+        "11-high-volume-hiring-strategies-for-enterprises",
+        "future-of-blue-collar-work-and-recruiter-preparation",
+        "high-volume-recruitment"
+      ]
+    },
+    {
+      "pillar": "Global Recruitment",
+      "intent": "informational",
+      "spokes": [
+        "advantages-and-disadvantages-of-global-recruitment",
+        "global-recruitment",
+        "global-recruitment-roi",
+        "how-to-adapt-sjts-for-global-recruitment"
+      ]
+    },
+    {
+      "pillar": "Recruitment Compliance & Automation",
+      "intent": "informational",
+      "spokes": [
+        "customize-recruitment-experiences-through-automation",
+        "ensuring-legal-compliance-in-recruitment-automation",
+        "how-do-recruitment-platforms-handle-gdpr-compliance"
+      ]
+    },
+    {
+      "pillar": "Writing Job Descriptions & Job Adverts",
+      "intent": "informational",
+      "spokes": [
+        "best-tips-for-recruiters-to-write-effective-job-descriptions",
+        "guide-for-recruiters-to-write-a-perfect-job-advert",
+        "best-recruiting-email-templates-for-tech-startups"
+      ]
+    },
+    {
+      "pillar": "Working with Recruitment Agencies",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-partnering-with-recruitment-agency",
+        "effective-recruitment-agency-collaboration",
+        "headhunting-in-recruitment"
+      ]
+    },
+    {
+      "pillar": "Recruitment Strategy for Strong Teams",
+      "intent": "informational",
+      "spokes": [
+        "dysfunctional-teams-affect-recruitment-and-solutions",
+        "effective-recruitment-strategies-strong-workplace-teams",
+        "how-to-build-a-successful-recruitment-team",
+        "9-ideas-for-recruiters-to-cultivate-growth",
+        "common-recruiting-challenges-and-how-to-overcome-them"
+      ]
+    },
+    {
+      "pillar": "Developer & Tech Hiring",
+      "intent": "informational",
+      "spokes": [
+        "avoiding-pitfalls-in-the-developer-hiring-process",
+        "communication-skills-in-technical-recruitment",
+        "developer-hiring-strategies-for-tech-startups"
+      ]
+    },
+    {
+      "pillar": "Sourcing & Candidate Search Techniques",
+      "intent": "informational",
+      "spokes": [
+        "boolean-search-in-recruitment",
+        "best-proxies-for-recruitment-intelligence",
+        "how-to-build-a-lateral-hiring-strategy-for-long-term-growth"
+      ]
+    },
+    {
+      "pillar": "Recruiting for Specific Roles & Industries",
+      "intent": "informational",
+      "spokes": [
+        "5-tips-to-succeed-in-healthcare-recruiting",
+        "best-strategies-to-recruit-nursing-talent",
+        "graduate-recruiting",
+        "how-to-recruit-an-intern-a-complete-guide",
+        "corporate-recruiting",
+        "apple-hiring-process"
+      ]
+    },
+    {
+      "pillar": "Candidate Screening & Credential Verification",
+      "intent": "informational",
+      "spokes": [
+        "competency-evaluation-important-for-recruiting",
+        "evaluate-professional-certifications-for-recruiting-success",
+        "fake-certificates-in-recruitment"
+      ]
+    },
+    {
+      "pillar": "Skills-Based Hiring",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-skills-based-hiring-for-recruiters",
+        "how-to-determine-your-recruitment-kpis",
+        "data-driven-insights-for-recruiting-success-with-time-tracking"
+      ]
+    },
+    {
+      "pillar": "Modern & Remote Recruitment Approaches",
+      "intent": "informational",
+      "spokes": [
+        "adapt-recruitment-processes-for-a-virtual-environment",
+        "agile-recruitment",
+        "considerations-for-recruiting-in-a-hybrid-work-model",
+        "e-recruitment",
+        "efficient-recruitment-funnel"
+      ]
+    }
+  ],
+  "orphans": [
+    "digital-record-keeping-tips-for-recruiters",
+    "free-recruitment-plan-templates"
+  ]
+}

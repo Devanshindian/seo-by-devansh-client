@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1243,
+    "brand_fit": "CORE",
+    "angle_gap": "108 questions but only one includes an actual code snippet; the rest are prose definitions, and the versioning is already stale \u2014 it still frames everything as '.NET Core vs. Framework' and only namechecks .NET 6/7/8, with no split by which current LTS version an answer applies to.",
+    "asset": "The .NET Interview Questions That Actually Require Reading or Writing Code",
+    "distinct_angle": "Pairs each question with a short code snippet candidates must read or fix, and anchors answers to current .NET LTS versions instead of the stale Core-vs-Framework framing \u2014 the hands-on depth and version currency this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1244,
+    "brand_fit": "CORE",
+    "angle_gap": "Purely textbook Perl trivia (sigils, references, modules) with no acknowledgment of why a team would still be hiring Perl in 2026 \u2014 no questions tied to the actual contexts Perl shows up (legacy system maintenance, bioinformatics scripting, sysadmin automation), so an interviewer can't tell if a candidate can operate in the real environment they'd be hired into.",
+    "asset": "Perl Interview Questions for Hiring Into Legacy Systems, Not Textbook Trivia",
+    "distinct_angle": "Frames each question around where Perl actually gets used today (legacy maintenance, bioinformatics, sysadmin scripting) instead of isolated syntax trivia \u2014 the real-world hiring context this page never establishes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1287,
+    "brand_fit": "CORE",
+    "angle_gap": "The fresher/junior tier is rote command-definition recall (what does pwd do, how do you make a directory) rather than scenario-based troubleshooting \u2014 nothing tests whether a candidate can diagnose a real problem (a full disk, a runaway process, a permissions error), which is the actual signal that separates someone who memorized commands from someone who can operate a Linux box.",
+    "asset": "Linux Interview Questions That Test Troubleshooting, Not Command Recall",
+    "distinct_angle": "Replaces command-definition recall with diagnose-this-scenario questions (disk full, zombie process, permission denied) \u2014 the practical troubleshooting signal this page's definitional questions can't surface.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1296,
+    "brand_fit": "CORE",
+    "angle_gap": "Answers describe what a candidate 'might mention' (e.g., 'they might say VLOOKUP or QUERY') without ever writing out the actual formula syntax or expected output, leaving an interviewer with no concrete standard to grade precision against \u2014 a candidate who vaguely gestures at the right function name and one who can actually write it look identical on paper.",
+    "asset": "Google Sheets Interview Questions With the Exact Formulas Candidates Should Produce",
+    "distinct_angle": "Writes out the real formula syntax and expected output for each answer (the actual QUERY/VLOOKUP formula, not a description of one), giving interviewers a concrete grading bar this page's vague 'might include' answers don't provide.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1297,
+    "brand_fit": "CORE",
+    "angle_gap": "Answers are version-agnostic prose that could describe Drupal 7 or Drupal 11 equally (e.g., 'Drupal is a free and open-source CMS...'), with no code/config/Twig examples and no acknowledgment of which current version (10/11) the answer targets \u2014 a real gap given how much Drupal's APIs and theming layer have changed across major versions.",
+    "asset": "Drupal Interview Questions Anchored to Drupal 10/11, Not Version-Agnostic Answers",
+    "distinct_angle": "Ties every answer to a specific current Drupal version with a real Twig/config snippet, instead of prose generic enough to apply to Drupal 7 or 11 alike \u2014 the version specificity and hands-on detail this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

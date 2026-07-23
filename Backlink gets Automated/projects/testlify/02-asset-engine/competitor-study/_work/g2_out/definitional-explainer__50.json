@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1093,
+    "brand_fit": "CORE",
+    "angle_gap": "This 2020 piece leans entirely on secondhand HBR/McKinsey quotes and a single stale forecast ('more than half of employees will require reskilling by 2022') that has already come and gone; it never explains how a company actually figures out WHICH employees have WHICH skill gaps before building a reskilling program \u2014 the concrete diagnostic step is missing, replaced by a vague call to 'identify what skills your workforce needs.'",
+    "asset": "How to Know Which Employees Actually Need Reskilling Before You Build the Program",
+    "distinct_angle": "Grounds reskilling in a concrete skills-gap diagnostic step \u2014 how you actually measure who has which skill \u2014 and replaces the passed 2022 forecast with current figures, instead of relaying secondhand HBR/McKinsey quotes with no diagnostic mechanism.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1095,
+    "brand_fit": "CORE",
+    "angle_gap": "The entire piece is built on their own 2022 Candidate Experience Report; the same competitor has since published a newer report (their site's own related-articles list a March 2026 'Candidate Experience Report' successor), so this page's numbers are now four years stale and superseded by data the competitor itself has already made public.",
+    "asset": "What Candidates Really Think About Skills Assessments in 2026",
+    "distinct_angle": "Updates candidate-sentiment-toward-assessments figures to the most recent public data instead of resting on the outdated 2022 survey this page cites.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1104,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The piece stays at the level of general workplace culture \u2014 citing 2020 BLM-era sentiment stats and generic McKinsey diversity-performance figures \u2014 and never once connects DEI to the hiring funnel itself (structured interviews, assessment design, adverse-impact analysis), which is where bias actually gets introduced or removed; it talks about DEI as company culture, not as a hiring-process design problem.",
+    "asset": "Where DEI Commitments Break Down Before a Candidate Ever Reaches an Interview",
+    "distinct_angle": "Ties DEI directly to concrete hiring-stage bias points (screening, interviews, assessment scoring) instead of treating it as general company-culture messaging with no connection to the hiring process.",
+    "tool_escalation": "",
+    "g_notes": "same buyer (HR/TA), broader subject than hiring-specific fairness/compliance"
+  },
+  {
+    "row_id": 1110,
+    "brand_fit": "CORE",
+    "angle_gap": "The page describes which hiring factors are more or less predictive only in vague relative terms ('some of the most predictive... almost no ability to predict'), never citing the actual published validity coefficients (e.g., the well-known Schmidt & Hunter meta-analytic numbers showing structured interviews and work samples far outperforming years of experience or age) \u2014 it stays qualitative when the underlying research it's summarizing is quantitative and publicly citable.",
+    "asset": "Evidence-Based Hiring, By the Actual Numbers: Which Predictors Really Work",
+    "distinct_angle": "Cites the actual published validity coefficients behind each hiring factor instead of describing predictive power only in vague relative terms.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1173,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire team dynamics/culture (Tuckman model, forming-storming-norming) is post-hire team management, not hiring or assessment; falls under the off-limits 'post-hire performance management' bucket, not Testlify's world"
+  }
+]

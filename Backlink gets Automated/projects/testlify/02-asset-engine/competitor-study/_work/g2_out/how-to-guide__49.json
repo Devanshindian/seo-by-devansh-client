@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3678,
+    "brand_fit": "CORE",
+    "angle_gap": "The TL;DR lists AI/generator-based cheating as just one of ten bullet-point techniques, but the body never treats it as the dominant 2026 cheating vector \u2014 there's no guidance on which of the ten methods actually catches ChatGPT-assisted answers versus legacy copy-paste, and no coverage of false-positive risk or how a flagged candidate should be handled to keep the rejection legally defensible.",
+    "asset": "Which Plagiarism-Detection Methods Actually Catch AI-Assisted Candidates in 2026",
+    "distinct_angle": "Reorders the techniques around what genuinely stops modern AI-generated answers (not 2022-era copy-paste), and adds the false-positive/adverse-action handling this page skips entirely \u2014 the gap that keeps it from being audit-defensible.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3687,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The advice for hiring engineers is generic employer-branding and sourcing content (define your vision, 'flaunt latest tech,' pay more, diversify job boards) with only a passing mention of using an ATS to automate screening \u2014 there's no actual method for evaluating engineering skill, so a recruiter finishes the piece no closer to knowing how to tell a strong engineer from a well-marketed one.",
+    "asset": "What Actually Predicts a Great Engineering Hire, Beyond Comp and Employer Brand",
+    "distinct_angle": "Where this page leans entirely on vision-statements, tech-stack flaunting, and pay as levers, ours centers the hiring decision on structured skills evidence \u2014 the concrete evaluation method this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3690,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is background checks, employment security policy, and employee retention/culture; background checks and post-hire retention sit outside Testlify's skills-assessment world per brand scope section 3"
+  },
+  {
+    "row_id": 3692,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 general recruiting-communication/tech-stack listicle (WhatsApp, ATS, CRM, video interviewing); pre-employment assessment is mentioned only as one of five unrelated tools, not the subject"
+  },
+  {
+    "row_id": 3695,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists technical-skill categories and generic strategies ('assess code quality,' 'implement timed assessments,' consider 'time complexity' and 'edge cases') without a single worked example, scoring rubric, or concrete benchmark for any role \u2014 a recruiter finishes it still unable to say what a passing answer actually looks like or how two interviewers would score the same submission consistently.",
+    "asset": "Technical Skills Scoring Criteria That Get Two Interviewers to Agree",
+    "distinct_angle": "Replaces the page's abstract checklist ('assess code quality,' 'consider edge cases') with worked scoring examples per skill category, closing the rubric gap the page leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

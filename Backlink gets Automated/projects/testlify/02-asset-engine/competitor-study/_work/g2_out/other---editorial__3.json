@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2557,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Broad SHRM/Gartner survey roundup (Jan 2024 data) on AI adoption across all of HR \u2014 recruiting is just one bullet among HR service centers, L&D, and shared services; no focus on what changes specifically in candidate screening/hiring decisions, and the adoption stats are now over two years stale.",
+    "asset": "How AI Is Actually Changing Recruiting Tasks, Not Just HR in General",
+    "distinct_angle": "Narrows the lens from all-of-HR to recruiting specifically \u2014 which screening and interviewing tasks are being automated vs. reshaped \u2014 and replaces the Jan 2024 SHRM/Gartner adoption figures this page leans on with current public numbers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2560,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 office temperature/facilities and productivity; no hiring or assessment angle, subject belongs to workplace-environment, not our world"
+  },
+  {
+    "row_id": 2562,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 compensation/pay-transparency subject (off our world) and the page body is an empty stub (tags only, no article text to build a gap from)"
+  },
+  {
+    "row_id": 2563,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The demographic-breakdown format (pay gap by race/ethnicity, by age, worst-gap-jobs table) is strong, but the underlying figures are from the 2022 Payscale/2021 Visier reports \u2014 four-plus years stale \u2014 and the subject itself (compensation) sits outside our world.",
+    "asset": "Where Skills-Based Hiring Still Shows Race and Gender Gaps in Selection Rates",
+    "distinct_angle": "Keeps the same demographic-breakdown-table format this page uses for pay, but points it at adverse-impact/selection-rate gaps in skills assessments and AI interviews, replacing the page's stale 2021-2022 compensation figures with current public data on hiring-stage disparities.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: gender pay gap / compensation equity"
+  },
+  {
+    "row_id": 2565,
+    "brand_fit": "CORE",
+    "angle_gap": "Generic AI-in-recruiting overview: each section (sourcing, candidate experience, predictive analytics, bias, human oversight, future trends) is 2-4 sentences of abstraction with no named tool, no worked example, no metric, and it closes on a vendor pitch to 'connect with SHRM Business' rather than giving the reader anything actionable.",
+    "asset": "The AI Recruiting Tasks That Are Validated Today vs. Still Speculative",
+    "distinct_angle": "Replaces this page's vague, example-free bullets with a concrete now-vs-not-yet breakdown of specific recruiting tasks (resume screening, structured interview scoring, bias auditing) \u2014 naming what's actually validated for use versus still unproven, which this page never gets specific enough to do.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

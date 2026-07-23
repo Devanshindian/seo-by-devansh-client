@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3328,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "11-trend listicle padded with off-brand trends (blockchain background checks, AR/VR onboarding, employee wellness benefits) and stale support stats (2018 Georgetown prediction, Covid-era Qualtrics figure); skills-based hiring, the one trend we actually own, gets one shallow paragraph with no current data.",
+    "asset": "The HR Tech Trends That Actually Change How You Screen and Hire in 2026",
+    "distinct_angle": "Drops the off-brand trends (blockchain checks, VR training, wellness perks) to focus only on the hiring- and assessment-relevant trends, refreshed with current 2026 figures in place of the page's 2018/Covid-era stats.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3336,
+    "brand_fit": "CORE",
+    "angle_gap": "The role-by-role degree breakdown leans on aging figures (2015 production-supervisor stat, 2018 Georgetown projection, 2021 recruitment-system survey) presented as if still current, with no 2025/2026 refresh of the degree-reset trend.",
+    "asset": "Which Jobs Actually Require a Degree in 2026 \u2014 The Role List Recruiters Get Wrong",
+    "distinct_angle": "Rebuilds the same role-by-role degree breakdown with current 2026 labor-market figures in place of the 2015/2018/2021 stats the original leans on, closing the currency gap.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3338,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 general workplace-culture/post-hire team-dynamics piece (respect, morale, engagement), not a hiring or assessment subject; falls under the brand scope's post-hire-culture exclusion despite a passing personality-test mention"
+  },
+  {
+    "row_id": 3343,
+    "brand_fit": "CORE",
+    "angle_gap": "Every benefit claim traces back to a single proprietary source \u2014 TestGorilla's own 2022 State of Skills-Based Hiring report \u2014 now a stale, single-vendor data point with no independent or current corroboration.",
+    "asset": "What Skills-Based Hiring Actually Saves You, With Current Independent Data",
+    "distinct_angle": "Replaces reliance on one competitor's 2022 proprietary survey with current (2026), independently sourced figures on time-to-hire and cost-per-hire gains, closing the staleness and single-source gap.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3351,
+    "brand_fit": "CORE",
+    "angle_gap": "Heavy on concept history and a long bias taxonomy, but thin on execution \u2014 the visible page spends most of its length defining culture add vs. fit and listing bias types, with no worked interview questions, scorecard, or rubric a recruiter could run to actually screen for culture add.",
+    "asset": "How to Actually Hire for Culture Add: A Structured Interview Framework",
+    "distinct_angle": "Replaces the concept-and-bias-list framing with a concrete, worked interview-question and scorecard framework for evaluating culture add objectively, closing the page's execution gap.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

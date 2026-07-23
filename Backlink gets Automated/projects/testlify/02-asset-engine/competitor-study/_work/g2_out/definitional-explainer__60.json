@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1505,
+    "brand_fit": "CORE",
+    "angle_gap": "The CEFR section names all seven levels but gives no concrete 'can-do' example for any of them (what a B1 vs. C1 candidate actually does on the job), and the 67%/22% English-skills-gap stats are quoted with no source or year attached.",
+    "asset": "What Each English Proficiency Level Actually Looks Like on the Job",
+    "distinct_angle": "Adds a concrete workplace can-do example for every CEFR level from Pre-A1 to C2 and sources the skills-gap stat to its original study and year \u2014 the concrete detail and citation this page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1511,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists the benefits of take-home assignments at length but never gives a practical framework for building one (scope, time-box, evaluation rubric), and never addresses compensating candidates for their time \u2014 a widely-raised fairness objection to take-home assignments that this page doesn't mention.",
+    "asset": "How to Design a Take-Home Assignment Candidates Will Actually Finish",
+    "distinct_angle": "Adds the practical build framework (scope, time-box, rubric) and covers candidate compensation for take-home work, both entirely missing from this page.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1515,
+    "brand_fit": "CORE",
+    "angle_gap": "Rests its entire case on a single 2021 LinkedIn stat and never gets concrete about how an organization actually builds or measures skills intelligence \u2014 the piece stays abstract from start to finish, with no framework or worked example.",
+    "asset": "How to Actually Build a Skills Intelligence System for Hiring",
+    "distinct_angle": "Replaces the single stale 2021 stat with a current sourced figure and adds a concrete step-by-step framework for building skills intelligence, the practical how-to this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1535,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 the 9-box grid is a post-hire performance/potential rating tool for succession planning, explicitly off-limits territory (post-hire performance management), not pre-hire skills assessment"
+  },
+  {
+    "row_id": 1536,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee assistance/mental-health benefit program, adjacent HR/benefits territory unrelated to hiring or skills assessment"
+  }
+]

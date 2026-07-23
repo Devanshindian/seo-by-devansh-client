@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2415,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire succession/retention and knowledge-loss topic, not hiring or skills assessment; outside Testlify's world"
+  },
+  {
+    "row_id": 2416,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee burnout/mental-health/engagement is post-hire wellness, not hiring or assessment"
+  },
+  {
+    "row_id": 2419,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 remote-work productivity policy topic, unrelated to hiring or skills assessment; also stale 2020 pandemic-era data"
+  },
+  {
+    "row_id": 2422,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The article documents the drop in women's labor-force participation (1.1M left the workforce, women of color hit hardest) but stops at diagnosis \u2014 it gives readers zero employer-side action on how hiring processes themselves could reduce re-entry barriers, like penalizing resume gaps caused by caregiving.",
+    "asset": "How Employers Can Stop Penalizing Career Gaps When Screening Candidates",
+    "distinct_angle": "Moves past the labor-force statistics to actionable hiring guidance \u2014 how skills-based screening evaluates demonstrated ability instead of continuous tenure, closing the action gap this data-only piece leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2424,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 dead page (404 'Oops, can't find the page'), no content to evaluate"
+  }
+]

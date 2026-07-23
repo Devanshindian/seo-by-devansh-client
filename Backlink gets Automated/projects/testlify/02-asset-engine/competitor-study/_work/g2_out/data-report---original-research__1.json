@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 26,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The page shows one framing paragraph on trust and psychological safety, then the whole evidence review locks behind 'log in or become a member' \u2014 no findings, no methodology, no data are visible to a free reader.",
+    "asset": "Why Candidates Stop Trusting an Interview Process, Backed by the Research CIPD Won't Show You",
+    "distinct_angle": "Publishes, free and in full, what CIPD gates behind membership, applied to a subject we own: an evidence review of trust and psychological safety inside the hiring and assessment process rather than general workplace teams.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: trust and psychological safety in workplace teams (post-hire team dynamics, not hiring)"
+  },
+  {
+    "row_id": 135,
+    "brand_fit": "CORE",
+    "angle_gap": "The survey is frozen in 2020: it names Go as 'this year's most sought-after language' and never mentions AI-assisted coding, LLM tooling, or remote-hiring shifts that have since reshaped what employers screen for in developers.",
+    "asset": "What Employers Actually Test For in Developers Now, Not in 2020",
+    "distinct_angle": "Replaces HackerEarth's six-year-old skill and language rankings with current public data on what technical hiring teams screen for today, including AI-tool fluency the 2020 survey never asked about.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 137,
+    "brand_fit": "CORE",
+    "angle_gap": "The report is built entirely around pandemic-era conditions, remote work as a novelty, whiteboard-versus-video-interview debates, and it never addresses how AI coding tools or the post-pandemic hybrid return have since changed what technical interviews measure.",
+    "asset": "How Technical Interviews Changed Since Everyone Went Remote in 2021",
+    "distinct_angle": "Updates the 2021 pandemic snapshot (WFH preferences, whiteboard-vs-video debate) with current public data on hybrid-era interview formats and AI-tool skills that have since become standard screening criteria.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 960,
+    "brand_fit": "CORE",
+    "angle_gap": "The findings are from a 2023 survey, before the recent surge in AI-driven screening and video interviews reshaped how candidates feel about being assessed; the page also only lists six bullet-point findings with no breakdown by industry or role.",
+    "asset": "What Candidates Think About Being Screened by AI Now, Not in 2023",
+    "distinct_angle": "Refreshes Criteria's 2023 candidate-sentiment findings (pre the recent jump in AI interview adoption) with current public data on how candidates now feel about AI-driven assessments and video screening.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 961,
+    "brand_fit": "CORE",
+    "angle_gap": "The page shows exactly three headline stats (talent shortage, AI use up 33%, Gen Z readiness at 8%) and gates every other finding, methodology detail, and industry breakdown behind a lead-gen download form.",
+    "asset": "The 2026 Hiring Numbers on AI Adoption, Gen Z Readiness, and the Talent Shortage, Explained",
+    "distinct_angle": "Expands past Criteria's three teaser stats into a sourced breakdown of AI adoption, Gen Z readiness, and talent-shortage figures with context and citations, free of the download-gate the original hides behind.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

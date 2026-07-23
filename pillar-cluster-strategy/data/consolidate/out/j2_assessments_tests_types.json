@@ -1,0 +1,929 @@
+{
+  "job": "j2_assessments_tests_types",
+  "pillars": [
+    {
+      "pillar": "Using Personality Tests in Hiring: Value & Debate",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "informational",
+      "spokes": [
+        "advantages-of-using-personality-tests-in-the-hiring-process",
+        "assess-the-personality-and-attitude-of-candidates",
+        "best-practices-for-using-personality-tests-for-inclusive-hiring",
+        "do-personality-tests-belong-in-the-workplace",
+        "do-resume-ats-systems-overlook-key-personality-traits",
+        "incorporate-personality-assessment-in-recruitment",
+        "personality-tests-for-hiring-are-a-must-have",
+        "personality-tests-reliable-for-candidate-evaluation",
+        "pre-employment-personality-tests-a-must-have-tool-for-hiring",
+        "pros-and-cons-of-personality-tests-in-hiring-process",
+        "reasons-why-you-should-use-personality-tests-in-recruitment",
+        "should-personality-tests-be-used-in-hiring",
+        "using-personality-tests-for-hiring-astrology-or-science",
+        "why-a-personality-tests-can-help-you-find-the-best-talent",
+        "why-personality-tests-are-more-important-than-ever"
+      ]
+    },
+    {
+      "pillar": "Personality Tests for Culture Fit, Retention & Development",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "informational",
+      "spokes": [
+        "how-can-personality-tests-help-you-identify-training-and-development-needs",
+        "how-to-use-personality-test-for-employee-retention",
+        "identifying-red-flags-and-cultural-misfits-with-personality-tests",
+        "importance-of-assessing-self-discipline-for-consistent-work-habits",
+        "ways-organizations-can-assess-culture-fit-using-personality-tests",
+        "how-to-integrate-personality-tests-into-your-workflow",
+        "how-to-interpret-the-results-of-personality-tests",
+        "what-are-personality-tests-and-how-are-they-used"
+      ]
+    },
+    {
+      "pillar": "Personality Test Types: DISC, Big Five, Enneagram & Visual",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "informational",
+      "spokes": [
+        "enneagram-test-and-how-to-use-it",
+        "istp-personality",
+        "personality-hires",
+        "image-personality-test",
+        "personality-test-using-images",
+        "picture-personality-test",
+        "visual-personality-test"
+      ]
+    },
+    {
+      "pillar": "DISC Personality Test for Hiring",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "informational",
+      "spokes": [
+        "disc-assessment-help-in-identifying-employee-fit",
+        "disc-personality-test-for-hiring-is-a-must-have",
+        "does-the-disc-personality-test-belong-in-the-workplace",
+        "how-can-the-disc-personality-test-help-you-identify-training-and-development-needs",
+        "how-to-interpret-the-results-of-a-disc-personality-test",
+        "pre-employment-disc-personality-test-a-must-have-tool-for-hiring",
+        "pros-and-cons-of-the-disc-personality-test-in-hiring-process",
+        "reasons-why-you-should-use-the-disc-personality-test-in-recruitment",
+        "should-the-disc-personality-test-be-used-in-hiring",
+        "top-10-advantages-of-using-the-disc-personality-test-in-the-hiring-process",
+        "using-disc-personality-test-for-hiring-astrology-or-science",
+        "what-is-a-disc-personality-test-for-jobs-and-how-is-it-used",
+        "why-a-disc-personality-test-can-help-you-find-the-best-talent",
+        "why-disc-personality-test-is-more-important-than-ever"
+      ]
+    },
+    {
+      "pillar": "Big Five Personality Test in Recruitment",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "informational",
+      "spokes": [
+        "beyond-resumes-using-the-big-five-to-identify-the-ideal-candidate",
+        "how-to-incorporate-big-five-personality-test-into-your-recruitment-strategy",
+        "importance-of-using-big-five-personality-test-for-recruitment-and-selection",
+        "key-benefits-of-using-big-five-personality-test-in-the-recruitment-process",
+        "predicting-job-performance-the-big-five-as-a-recruitment-tool",
+        "top-10-big-five-personality-test-questions-for-potential-candidates",
+        "what-role-do-data-driven-big-five-personality-test-play-in-hiring-success",
+        "what-should-you-include-in-your-big-five-personality-test-to-ensure-comprehensive-candidate-evaluation",
+        "why-big-five-personality-test-is-the-best-for-hybrid-work",
+        "why-do-you-need-big-five-personality-test-in-your-hiring-process"
+      ]
+    },
+    {
+      "pillar": "Emotional Intelligence Tests for Hiring",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "informational",
+      "spokes": [
+        "advantages-of-using-the-emotional-intelligence-test-in-the-hiring-process",
+        "does-the-emotional-intelligence-test-belong-in-the-workplace",
+        "emotional-intelligence-test-for-hiring-is-a-must-have",
+        "how-can-the-emotional-intelligence-test-help-you-identify-training-and-development-needs",
+        "should-the-emotional-intelligence-test-be-used-in-hiring",
+        "using-emotional-intelligence-test-for-hiring-astrology-or-science",
+        "what-is-an-emotional-intelligence-test-for-jobs-and-how-is-it-used",
+        "why-an-emotional-intelligence-test-can-help-you-find-the-best-talent",
+        "why-emotional-intelligence-test-are-more-important-than-ever",
+        "how-to-interpret-the-results-of-an-emotional-intelligence-test",
+        "pros-and-cons-of-the-emotional-intelligence-test-in-hiring-process",
+        "reasons-why-you-should-use-the-emotional-intelligence-test-in-recruitment"
+      ]
+    },
+    {
+      "pillar": "Psychometric Tests in Recruitment",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "informational",
+      "spokes": [
+        "how-psychometric-tests-enhance-recruitment-accuracy-and-objectivity",
+        "how-to-use-psychometric-tests-to-improve-employee-performance",
+        "how-to-use-psychometric-tests-to-predict-job-performance",
+        "how-to-use-psychometric-tests-to-reduce-employee-turnover",
+        "psychometric-assessments-beyond-big-five-personality-test",
+        "strategies-for-psychometric-test-in-recruitment",
+        "the-benefits-of-using-psychometric-tests-in-the-workplace",
+        "the-value-of-psychometric-tests-in-candidate-evaluation",
+        "types-of-psychometric-tests-and-what-they-measure",
+        "what-is-the-future-of-psychometric-testing-in-hiring"
+      ]
+    },
+    {
+      "pillar": "Aptitude Tests: Types, Benefits & Recruitment Strategy",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "informational",
+      "spokes": [
+        "advantages-and-disadvantages-of-an-aptitude-test",
+        "aptitude-tests",
+        "customizing-aptitude-tests-for-entry-level-vs-experienced-hires",
+        "incorporate-aptitude-assessment-into-your-recruitment-strategy",
+        "incorporate-quantitative-aptitude-test-into-your-recruitment-strategy",
+        "key-benefits-of-using-aptitude-assessment-in-the-recruitment-process",
+        "key-components-of-a-technical-aptitude-test",
+        "tailoring-aptitude-tests-for-specific-industries-best-practices",
+        "the-role-of-aptitude-tests-in-assessing-efficiency",
+        "types-of-aptitude-tests",
+        "why-do-you-need-aptitude-assessment-in-your-hiring-process",
+        "tests-to-check-your-professional-aptitude-for-students",
+        "top-10-aptitude-assessment-questions-for-potential-candidates",
+        "what-role-do-data-driven-aptitude-assessment-play-in-hiring-success",
+        "what-should-you-include-in-your-aptitude-assessment-to-ensure-comprehensive-candidate-evaluation"
+      ]
+    },
+    {
+      "pillar": "Using Cognitive Ability Tests in Recruitment",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "informational",
+      "spokes": [
+        "can-cognitive-ability-tests-create-a-fairer-hiring-landscape",
+        "challenges-of-using-cognitive-ability-tests-in-recruitment-and-overcoming-them",
+        "how-to-choose-the-right-cognitive-ability-test-for-hiring-top-talent",
+        "how-to-integrate-cognitive-ability-tests-into-your-hiring-process",
+        "how-to-use-cognitive-ability-test-results-for-better-hiring",
+        "incorporate-cognitive-tests-in-recruitment-strategy",
+        "reasons-to-use-cognitive-ability-tests-in-recruitment",
+        "ultimate-guide-cognitive-ability-tests",
+        "use-cognitive-ability-tests-for-candidate-development"
+      ]
+    },
+    {
+      "pillar": "Cognitive Reasoning Assessments: Predicting & Developing Top Performers",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "informational",
+      "spokes": [
+        "can-cognitive-reasoning-assessments-identify-talents",
+        "enhance-team-productivity-via-cognitive-reasoning",
+        "how-cognitive-reasoning-can-predict-top-performers",
+        "how-to-use-analytics-to-refine-cognitive-reasoning",
+        "the-roi-of-cognitive-reasoning-why-its-the-smartest-hiring-metric",
+        "unlock-top-talent-with-cognitive-reasoning-assessment",
+        "why-cognitive-reasoning-matters"
+      ]
+    },
+    {
+      "pillar": "Reasoning & Cognitive Skill Tests by Type",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-incorporate-analytical-ability-test-into-your-recruitment-strategy",
+        "how-to-incorporate-deductive-reasoning-test-into-your-recruitment-strategy",
+        "incorporating-attention-to-detail-tests-in-entry-level-hiring",
+        "maximize-hiring-success-with-a-comprehension-test",
+        "problem-solving-test-enhance-recruitment-efforts",
+        "ravens-progressive-matrices-test"
+      ]
+    },
+    {
+      "pillar": "Aptitude & Behavioral Trait Tests for Recruiting",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "use-motivation-test-to-hire-the-right-candidates",
+        "virtual-attention-to-detail-tests-adapting-to-remote-hiring",
+        "why-do-you-need-analytical-ability-test-in-your-hiring-process",
+        "why-do-you-need-resilience-test-in-your-hiring-process",
+        "why-is-an-adaptability-test-essential-for-recruiting",
+        "why-is-an-attention-to-detail-visual-test-essential-for-recruiting"
+      ]
+    },
+    {
+      "pillar": "Integrity, Reliability & Character Tests",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-incorporate-resilience-test-into-your-recruitment-strategy",
+        "incorporate-integrity-test-in-recruitment-strategy",
+        "incorporate-work-reliability-test-in-recruitment-strategy"
+      ]
+    },
+    {
+      "pillar": "Attention to Detail Tests in Hiring",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "attention-to-detail-test-in-hiring-decisions",
+        "benefits-of-using-attention-to-detail-test",
+        "how-to-choose-the-right-attention-to-detail-test-for-your-hiring-process",
+        "how-to-create-an-attention-to-detail-test-thats-actually-effective"
+      ]
+    },
+    {
+      "pillar": "Pre-Hire Assessments by Industry (A–H)",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "commercial",
+      "spokes": [
+        "financial-industry-pre-hire-tests",
+        "healthcare-industry-hiring-with-pre-hire-tests",
+        "pre-hire-assessments-for-automotive-industry",
+        "pre-hire-assessments-for-aviation-industry",
+        "pre-hire-assessments-for-construction-industry",
+        "pre-hire-assessments-for-consulting-industry",
+        "pre-hire-assessments-for-e-commerce-industry",
+        "pre-hire-assessments-for-education-industry",
+        "pre-hire-assessments-for-engineering-industry",
+        "pre-hire-assessments-for-entertainment-and-media-industry",
+        "pre-hire-assessments-for-financial-services-industry",
+        "pre-hire-assessments-for-food-and-beverage-industry",
+        "pre-hire-assessments-for-healthcare-industry",
+        "pre-hire-assessments-for-hospitality-maximizing-recruitment-success-in-the-dynamic-industry"
+      ]
+    },
+    {
+      "pillar": "Pre-Hire Assessments by Industry (H–T)",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "commercial",
+      "spokes": [
+        "pre-hire-assessments-for-hr-and-recruitment-industry",
+        "pre-hire-assessments-for-information-technology-industry",
+        "pre-hire-assessments-for-legal-industry",
+        "pre-hire-assessments-for-manufacturing-industry",
+        "pre-hire-assessments-for-marketing-and-advertising-industry",
+        "pre-hire-assessments-for-nonprofit-sector",
+        "pre-hire-assessments-for-pharmaceuticals-industry",
+        "pre-hire-assessments-for-retail-industry",
+        "pre-hire-assessments-for-telecommunications-industry",
+        "pre-hire-assessments-for-transportation-and-logistics-industry",
+        "saas-industry-hiring-with-pre-hire-tests"
+      ]
+    },
+    {
+      "pillar": "Pre-Hire Assessments by Role & Hiring Scenario",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "commercial",
+      "spokes": [
+        "pre-hire-assessment-for-graduate-hiring",
+        "pre-hire-assessments-for-call-centers",
+        "pre-hire-assessments-for-high-volume-hiring",
+        "pre-hire-assessments-for-sales",
+        "pre-hire-assessments-for-technicians",
+        "pre-hire-assessments-for-warehouse-operatives"
+      ]
+    },
+    {
+      "pillar": "Role-Specific Job Tests: Business & Corporate Roles",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "top-marketing-test-questions",
+        "top-talent-using-business-analyst-test",
+        "why-do-you-need-management-test-in-your-hiring-process",
+        "why-do-you-need-project-manager-test-in-your-hiring-process",
+        "why-do-you-need-sales-test-in-your-hiring-process",
+        "why-is-a-business-judgement-test-essential-for-recruiting",
+        "why-is-a-customer-success-manager-test-essential-for-recruiting",
+        "why-is-a-data-visualization-test-essential-for-recruiting",
+        "why-is-a-performance-marketing-test-essential-for-recruiting",
+        "why-is-a-product-manager-assessment-essential-for-recruiting",
+        "why-is-an-accounting-manager-test-essential-for-recruiting",
+        "why-is-an-accounts-payable-test-essential-for-recruiting"
+      ]
+    },
+    {
+      "pillar": "Role-Specific Tests to Unveil Candidates' Hidden Abilities",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "how-can-a-business-judgement-test-unveil-candidates-hidden-abilities",
+        "how-can-a-customer-success-manager-test-unveil-candidates-hidden-abilities",
+        "how-can-a-data-visualization-test-unveil-candidates-hidden-abilities",
+        "how-can-a-full-stack-developer-test-unveil-candidates-hidden-abilities",
+        "how-can-a-performance-marketing-test-unveil-candidates-hidden-abilities",
+        "how-can-a-product-manager-assessment-unveil-candidates-hidden-abilities",
+        "how-can-a-react-native-test-online-unveil-candidates-hidden-abilities",
+        "how-can-an-accounting-manager-test-unveil-candidates-hidden-abilities",
+        "how-can-an-adaptability-test-unveil-candidates-hidden-abilities",
+        "how-can-an-attention-to-detail-visual-test-unveil-candidates-hidden-abilities",
+        "how-can-an-nlp-test-unveil-candidates-hidden-abilities"
+      ]
+    },
+    {
+      "pillar": "Management & Leadership Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-incorporate-management-test-into-your-recruitment-strategy",
+        "how-to-incorporate-project-manager-test-into-your-recruitment-strategy",
+        "how-to-incorporate-scrum-master-test-into-your-recruitment-strategy",
+        "incorporate-leadership-assessment-in-recruitment",
+        "leadership-assessment-need-in-hiring-process",
+        "management-test-guide-for-hiring-managers",
+        "project-management-test-help-you-hire-top-managers"
+      ]
+    },
+    {
+      "pillar": "Sales Aptitude Tests for Hiring Salespeople",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "assessing-candidate-skills-with-sales-aptitude-test",
+        "how-to-use-sales-aptitude-tests-to-hire-the-best-salespeople",
+        "the-best-sales-aptitude-test-for-different-types-of-sales-jobs",
+        "the-importance-of-sales-aptitude-tests-in-hiring",
+        "what-to-look-for-in-a-sales-aptitude-test"
+      ]
+    },
+    {
+      "pillar": "Sales, Customer Service & Support Role Tests",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-incorporate-sales-test-into-your-recruitment-strategy",
+        "key-components-of-a-customer-support-test",
+        "recruit-top-talent-using-customer-service-assessment",
+        "skills-should-a-customer-service-test-measure",
+        "use-admin-assistant-tests-in-recruitment",
+        "use-data-entry-clerk-test-to-assess-candidates",
+        "virtual-assistant-test-essential-for-recruiters"
+      ]
+    },
+    {
+      "pillar": "Business & Professional Skills Tests",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-incorporate-accounting-principles-test-into-your-recruitment-strategy",
+        "identify-e-commerce-savvy-without-assessments",
+        "identifying-top-talent-with-writing-assessments",
+        "incorporate-communication-assessment-in-recruitment",
+        "legal-education-skill-based-testing",
+        "marketing-test-in-your-hiring-process",
+        "prioritize-financial-literacy-test-in-hiring",
+        "process-knowledge-tests-101-a-beginners-guide"
+      ]
+    },
+    {
+      "pillar": "Marketing & Ads Skills Tests",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-using-marketing-test",
+        "google-ads-tests-in-identifying-marketing-talent",
+        "how-hr-can-utilize-react-js-test"
+      ]
+    },
+    {
+      "pillar": "Coding & Technical Assessments in Hiring",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "the-future-of-coding-assessments-in-the-hiring-process",
+        "the-latest-trends-in-technical-assessments",
+        "tips-for-conducting-remote-programming-tests-in-recruitment",
+        "top-coding-assessment-software-for-recruiters",
+        "types-of-coding-assessments-and-how-to-choose-one",
+        "types-of-technical-assessment-while-hiring-candidates",
+        "use-coding-assessments-to-create-talent-a-pipeline",
+        "use-technical-assessments-to-identify-top-talent",
+        "what-are-technical-assessments-and-why-are-they-important",
+        "why-should-recruiters-use-programming-tests",
+        "why-skill-based-assessments-offer-more-precision-in-tech-hiring"
+      ]
+    },
+    {
+      "pillar": "Programming Tests: Design & Best Practices",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "how-to-determine-the-right-level-of-difficulty-in-programming-tests",
+        "how-to-integrate-problem-solving-and-critical-thinking-in-programming-tests",
+        "must-have-elements-in-programming-test",
+        "new-and-emerging-trends-in-programming-tests",
+        "programming-tests-a-complete-guide",
+        "best-practices-for-designing-coding-assessments",
+        "common-mistakes-to-avoid-while-creating-coding-assessment",
+        "how-to-choose-the-right-programming-test-for-your-hiring-needs",
+        "how-to-craft-effective-programming-tests-for-tech-recruitment"
+      ]
+    },
+    {
+      "pillar": "Programming Tests: Running & Interpreting",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "how-to-evaluate-coding-assessments",
+        "how-to-use-coding-assessments-for-remote-roles",
+        "how-to-use-coding-assessments-to-hire-the-right-talent",
+        "programming-tests-to-hire-top-talent",
+        "companies-that-successfully-used-coding-assessments-to-hire-top",
+        "how-to-administer-programming-tests-effectively",
+        "how-to-analyze-and-interpret-programming-test-results"
+      ]
+    },
+    {
+      "pillar": "Technical Assessments in Recruitment: Tools & Process",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-technical-assessments-in-recruitment",
+        "best-technical-assessment-tools",
+        "common-technical-assessment-mistakes-to-avoid",
+        "how-technical-assessments-fuel-amazon-hiring-process",
+        "how-to-administer-a-technical-assessment",
+        "how-to-choose-the-right-technical-assessment-tool",
+        "how-to-create-a-custom-technical-assessment",
+        "how-to-integrate-technical-assessments-into-your-recruiting-process",
+        "how-to-interpret-technical-assessment-results",
+        "how-to-prepare-candidates-for-technical-assessments"
+      ]
+    },
+    {
+      "pillar": "Programming Language Test Guides (SQL, Java, JS & More)",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-incorporate-git-test-into-your-recruitment-strategy",
+        "how-to-incorporate-postgresql-test-into-your-recruitment-strategy",
+        "how-to-incorporate-sql-test-into-your-recruitment-strategy",
+        "incorporate-aws-test-into-your-recruitment-strategy",
+        "incorporate-java-code-test-into-your-recruitment-strategy",
+        "incorporate-javascript-test-in-recruitment-strategy",
+        "incorporate-kotlin-test-into-your-recruitment-strategy",
+        "key-skills-ios-test-should-assess-in-candidates",
+        "sql-concepts-to-be-included-in-a-sql-programming-test",
+        "top-techniques-for-css-test-implementation",
+        "why-do-you-need-sql-test-in-your-hiring-process"
+      ]
+    },
+    {
+      "pillar": "Developer & DevOps Role Tests for Recruiting",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "role-terraform-test-play-in-devops-recruitment",
+        "use-jenkins-test-to-hire-developers",
+        "why-is-a-full-stack-developer-test-essential-for-recruiting",
+        "why-is-a-react-native-test-online-essential-for-recruiting",
+        "why-nodejs-test-is-essential-for-hiring-top-talent"
+      ]
+    },
+    {
+      "pillar": "QA & Software Testing Assessments for Hiring",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "scale-qa-teams-with-attention-to-detail-test",
+        "top-10-qa-test-questions-for-potential-candidates",
+        "what-role-do-data-driven-qa-test-play-in-hiring-success",
+        "what-should-you-include-in-your-qa-test-to-ensure-comprehensive-candidate-evaluation",
+        "why-do-you-need-qa-test-in-your-hiring-process"
+      ]
+    },
+    {
+      "pillar": "NLP & Specialized Technical Role Tests",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "the-role-of-mechanical-tests-in-reducing-turnover",
+        "the-significance-of-nlp-test-in-hiring-decisions",
+        "why-do-you-need-electrical-engineering-test-in-your-hiring-process",
+        "why-is-an-nlp-test-essential-for-recruiting"
+      ]
+    },
+    {
+      "pillar": "Trade & Engineering Skills Tests",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-incorporate-electrical-engineering-test-into-your-recruitment-strategy",
+        "how-to-incorporate-electrician-test-into-your-recruitment-strategy",
+        "how-to-incorporate-general-contractor-test-into-your-recruitment-strategy",
+        "how-to-incorporate-millwright-test-into-your-recruitment-strategy",
+        "include-autocad-test-for-hiring",
+        "incorporate-civil-engineering-test-into-your-recruitment-strategy",
+        "pros-and-cons-of-using-mechanical-tests"
+      ]
+    },
+    {
+      "pillar": "Excel, Office & Data Tool Testing",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-tailor-excel-assessments-to-your-company-needs",
+        "how-to-use-excel-assessments-to-test-collaboration",
+        "how-to-use-typing-tests-to-assess-job-candidates",
+        "microsoft-office-test-in-your-hiring-process",
+        "power-bi-test-data-driven-roles",
+        "benefits-of-using-excel-assessment-in-the-hiring-process",
+        "guide-to-advanced-excel-assessments",
+        "how-advanced-excel-assessments-help-you-with-hiring",
+        "how-companies-find-top-talent-using-excel-assessments",
+        "skills-to-be-assessed-in-a-microsoft-word-test"
+      ]
+    },
+    {
+      "pillar": "Computer Literacy Tests for Hiring",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "assessing-skills-with-computer-literacy-test",
+        "computer-literacy-test-in-hiring-decisions",
+        "how-to-choose-the-right-computer-literacy-test",
+        "how-to-create-a-computer-literacy-test-thats-fair-and-accurate",
+        "using-computer-literacy-test-for-candidate-evaluation",
+        "what-to-look-for-in-a-computer-literacy-test"
+      ]
+    },
+    {
+      "pillar": "Skills Assessments & Better Hiring Outcomes",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "skill-assessment-tool-in-your-hiring-process",
+        "skill-assessments-help-improve-candidate-experience",
+        "skill-assessments-high-performance-hiring",
+        "skill-testing-leads-to-better-hiring-decisions",
+        "skills-assessment-for-global-recruitment",
+        "skills-assessments-job-performance-correlation",
+        "skills-in-evaluated-management-tests",
+        "the-benefits-of-using-hiring-assessments-in-the-recruitment-process",
+        "the-impact-of-employment-testing-on-hiring-success",
+        "the-role-of-hiring-assessments-in-decision-making",
+        "types-of-skills-hiring-test-assess-in-candidates"
+      ]
+    },
+    {
+      "pillar": "English & Language Proficiency Testing",
+      "theme": "Skills & Job Assessments",
+      "intent": "mixed",
+      "spokes": [
+        "how-to-ensure-language-fairness-in-assessments",
+        "incorporate-cefr-test-into-your-recruitment-strategy",
+        "incorporate-english-grammar-test-in-recruitment-strategy",
+        "incorporate-english-proficiency-test-into-recruitment",
+        "incorporate-the-cefr-english-test-into-your-recruitment-strategy",
+        "language-proficiency-testing-software-comparison",
+        "role-of-english-proficiency-test-in-hiring-success",
+        "talent-assessment-tools-available-in-dutch",
+        "talent-assessment-tools-available-in-french",
+        "talent-assessment-tools-available-in-german",
+        "talent-assessment-tools-available-in-spanish",
+        "talent-assessment-tools-for-testing-language-skills",
+        "using-english-proficiency-test-for-recruitment"
+      ]
+    },
+    {
+      "pillar": "Talent Assessment: Fundamentals, Benefits & Getting Started",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "talent-assessment-tool-in-your-hiring-process",
+        "the-benefits-of-using-talent-assessment-in-the-hiring-process",
+        "the-future-of-talent-assessment-in-the-hiring-process",
+        "the-ultimate-guide-to-candidate-assessment",
+        "types-of-assessment-questions",
+        "types-of-selection-tests-for-hrm",
+        "what-are-talent-assessments",
+        "what-are-the-employment-assessments",
+        "how-to-get-started-with-talent-assessment",
+        "how-to-streamline-recruitment-with-hiring-assessments",
+        "how-to-use-assessment-tools-for-hiring-process",
+        "how-to-use-talent-assessment-to-improve-employee-performance",
+        "know-everything-about-skill-based-recruitment-tests",
+        "maximize-roi-with-employee-assessments"
+      ]
+    },
+    {
+      "pillar": "Choosing Talent & Team Assessment Tools",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "best-talent-assessment-tools",
+        "best-team-assessment-tools-performance-management",
+        "build-a-hiring-process-with-talent-assessment-tools",
+        "guide-to-choose-the-best-talent-assessment-software",
+        "guide-to-choosing-employment-assessment-tools"
+      ]
+    },
+    {
+      "pillar": "Pre-Employment Testing Fundamentals: What It Is & Why It Matters",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "an-hr-guide-to-pre-employment-testing",
+        "decoding-pre-employment-assessments-purpose",
+        "pre-employment-assessments-what-you-need-to-know",
+        "pros-and-cons-of-pre-hire-assessments",
+        "should-pre-hire-tests-be-mandatory-for-all",
+        "ways-pre-hire-assessments-can-help-when-not-hiring",
+        "what-is-pre-hire-assessment"
+      ]
+    },
+    {
+      "pillar": "Running an Effective Pre-Employment Testing Process",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "effective-strategies-for-pre-employment-testing",
+        "elevate-your-hiring-process-with-pre-employment-testing",
+        "how-to-conduct-effective-pre-employment-assessments",
+        "mastering-the-art-of-pre-employment-assessment-methods",
+        "pre-employment-tests-for-hiring-success",
+        "pre-employment-tests-strategies-and-tips"
+      ]
+    },
+    {
+      "pillar": "Pre-Employment Testing Software, Trends & Compliance",
+      "theme": "Skills & Job Assessments",
+      "intent": "mixed",
+      "spokes": [
+        "5-benefits-of-eeoc-compliant-pre-employment-testing",
+        "ai-pre-hire-assessments",
+        "customized-recruitment-and-pre-employment-solutions",
+        "emerging-trends-in-pre-employment-testing",
+        "guide-to-implement-pre-employment-testing-software",
+        "top-10-pre-hire-assessment-platforms-for-enterprises"
+      ]
+    },
+    {
+      "pillar": "Types of Pre-Employment & Pre-Hire Tests",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "common-types-of-pre-employment-tests-and-their-uses",
+        "pre-employment-emotional-intelligence-test-a-must-have-tool-for-hiring",
+        "types-of-pre-employment-tests",
+        "types-of-pre-employment-tests-for-candidate-evaluation",
+        "types-of-pre-hire-testing"
+      ]
+    },
+    {
+      "pillar": "Pre-Hiring Assessment Strategy",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "hr-consider-using-peer-interviews-in-pre-hiring-assessments",
+        "hr-consider-using-third-party-vendors-for-pre-hiring-assessments",
+        "interview-simulations-play-role-in-pre-hiring-assessments",
+        "invest-in-pre-hiring-assessment-software",
+        "job-roles-that-need-pre-hiring-assessments",
+        "online-assessment-tests-for-successful-recruitment-process",
+        "pre-hiring-assessments-an-accurate-predictor-of-career-progression",
+        "pre-hiring-assessments-be-tailored-to-specific-roles",
+        "pre-hiring-assessments-impact-time-to-fill-metrics",
+        "pre-hiring-assessments-impact-time-to-hire-metrics",
+        "pre-hiring-assessments-scalable-for-high-volume-hiring"
+      ]
+    },
+    {
+      "pillar": "When & Why to Use Pre-Hiring Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "5-benefits-of-integrating-employment-assessments-into-your-hiring-process",
+        "benefits-of-pre-hiring-assessments",
+        "common-employment-assessments-and-when-to-use-them",
+        "cvs-vs-online-assessments-which-is-better",
+        "employee-assessment-test-for-virtual-hiring"
+      ]
+    },
+    {
+      "pillar": "Designing & Creating Effective Hiring Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "best-practices-for-designing-and-implementing-employment-assessments",
+        "considerations-when-selecting-or-creating-hiring-assessment-test",
+        "determine-the-duration-for-candidate-tests",
+        "elements-to-consider-when-creating-recruitment-tests",
+        "how-to-create-objective-hiring-assessments"
+      ]
+    },
+    {
+      "pillar": "Assessment Quality, Fairness & Best Practices",
+      "theme": "HR Operations & Compliance",
+      "intent": "informational",
+      "spokes": [
+        "role-of-hr-in-assessment-quality",
+        "taking-a-hands-on-approach-to-assessment",
+        "tips-for-diversity-in-candidate-assessments",
+        "what-role-does-social-media-play-in-pre-hiring-assessments",
+        "why-the-assessment-of-writing-skills-is-critical-for-more-successful-hiring-decisions"
+      ]
+    },
+    {
+      "pillar": "Candidate Experience in Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "improve-candidate-assessment-without-traditional-testing",
+        "improving-candidate-experience-using-smart-assessments",
+        "make-candidates-feel-comfortable-before-taking-assessment"
+      ]
+    },
+    {
+      "pillar": "Assessment Reports & Metrics",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "important-components-of-a-candidate-assessment-report",
+        "kpis-for-measuring-assessment-impact-on-hiring",
+        "must-have-checklist-for-candidate-assessments"
+      ]
+    },
+    {
+      "pillar": "Fair, Compliant & Bias-Free Pre-Hiring Assessments",
+      "theme": "HR Operations & Compliance",
+      "intent": "informational",
+      "spokes": [
+        "how-to-implement-fair-and-effective-employment-testing",
+        "hr-ensure-pre-hiring-assessments-comply-with-regulations",
+        "importance-of-hiring-assessments-in-diverse-workplace",
+        "potential-legal-risks-of-pre-hiring-assessments",
+        "pre-hiring-assessments-contribute-to-diversity-hiring",
+        "pre-hiring-assessments-fair-to-all-candidates",
+        "an-hr-approach-to-unbiased-assessments",
+        "best-practices-to-avoid-bias-in-employment-testing",
+        "ensure-bias-free-employment-assessments"
+      ]
+    },
+    {
+      "pillar": "Assessment Validity Types",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "concurrent-validity",
+        "criterion-related-validity",
+        "predictive-validity"
+      ]
+    },
+    {
+      "pillar": "Culture Fit Assessments",
+      "theme": "Workplace Culture & Future of Work",
+      "intent": "informational",
+      "spokes": [
+        "how-to-use-interview-strategies-to-complement-culture-fit-assessments",
+        "how-top-companies-use-culture-fit-assessments-to-build-winning-teams",
+        "hr-consider-using-cross-cultural-competency-assessments-in-pre-hiring",
+        "impact-cultural-test-have-on-team-dynamics",
+        "culture-fit-assessments-for-hiring-remote-teams",
+        "exploring-ethical-considerations-in-culture-fit-assessments",
+        "how-to-build-your-own-culture-fit-assessment-quick-tips"
+      ]
+    },
+    {
+      "pillar": "Building Teams & Global Hiring with Assessments",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "build-a-successful-global-team-using-assessments",
+        "build-development-teams-with-teamwork-assessments",
+        "how-to-build-stronger-teams-with-role-specific-tests"
+      ]
+    },
+    {
+      "pillar": "Technology & AI in Hiring Assessments",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "the-role-of-technology-in-hiring-assessments",
+        "top-benefits-of-ats-integration-for-job-assessments",
+        "top-tools-for-large-scale-campus-hiring-assessments",
+        "unlock-the-power-of-automated-assessments-in-hiring",
+        "use-ai-to-tailor-assessments-to-job-descriptions",
+        "what-talent-assessment-platforms-offer-white-labeling",
+        "ai-powered-recruitment-assessment-tools-in-talent-acquisition",
+        "ai-vs-human-led-hiring-assessments",
+        "find-ai-talent-without-algorithm-tests"
+      ]
+    },
+    {
+      "pillar": "Data-Driven Hiring with Assessment Analytics",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "data-driven-hiring-leveraging-analytics-in-employment-testing",
+        "data-driven-recruitment-syncing-assessment-results",
+        "how-ats-integrated-assessments-improve-hiring"
+      ]
+    },
+    {
+      "pillar": "Online Proctoring Basics & Setup",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "automated-proctoring",
+        "live-proctoring",
+        "online-proctoring",
+        "proctored-exam",
+        "proctored-exams-key-features",
+        "proctoring-services-compared",
+        "remote-proctoring",
+        "setup-proctored-exam",
+        "the-vital-role-of-proctoring-in-online-tests",
+        "types-of-online-exam-proctoring",
+        "what-is-proctoring-as-a-service-and-how-does-it-work"
+      ]
+    },
+    {
+      "pillar": "AI Proctoring for Online Exams",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "ai-powered-proctoring",
+        "ai-proctoring-compliance",
+        "ai-proctoring-in-certification",
+        "ai-proctoring-solution",
+        "ai-vs-human-proctoring",
+        "human-proctoring-vs-ai-proctoring",
+        "human-proctors-with-ai-alerts"
+      ]
+    },
+    {
+      "pillar": "Proctoring for Technical & Coding Assessments",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "proctored-live-coding-projects",
+        "recruiter-cheat-sheet-how-to-assess-technical-roles",
+        "technical-assessment-platforms-with-live-proctoring"
+      ]
+    },
+    {
+      "pillar": "Preventing Cheating in Online Tests",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "detect-cheating-in-exams-using-analytics",
+        "ensuring-integrity-in-online-tests-with-anti-cheating-measures",
+        "how-to-prevent-cheating-in-online-interviews",
+        "leveraging-ai-for-cheating-prevention-in-online-assessments",
+        "maintaining-fairness-designing-cheating-resistant-online-tests",
+        "online-proctors-in-test-fairness-and-integrity",
+        "stop-cheating-in-online-tests",
+        "the-ongoing-battle-technology-vs-cheating-in-online-tests"
+      ]
+    },
+    {
+      "pillar": "Online Test Integrity & Plagiarism Detection",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "run-a-system-check-before-online-assessment",
+        "strategies-for-upholding-online-test-integrity",
+        "top-5-practices-in-online-tests-to-maintain-integrity",
+        "what-role-does-integrity-testing-play-in-pre-hiring-evaluations",
+        "a-comprehensive-guide-to-online-test-integrity",
+        "authenticity-in-assessment-human-resources-approach-to-plagiarism-detection",
+        "automated-scoring-for-custom-questions-in-assessments"
+      ]
+    },
+    {
+      "pillar": "Background & Reference Checks in Hiring",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "background-checks",
+        "best-background-check-software-hr",
+        "conduct-thorough-background-checks-on-candidates-with-limited-resources",
+        "risks-of-skipping-pre-hiring-background-checks",
+        "the-best-practices-for-reference-checks",
+        "verify-candidate-credibility-with-background-checks-and-references"
+      ]
+    },
+    {
+      "pillar": "Recruitment & Employment Fraud Prevention",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "candidate-dishonesty",
+        "hr-training-strategies-to-stop-recruitment-fraud",
+        "prevent-qualification-fraud-in-hiring",
+        "recruitment-fraud-financial-and-brand-risk",
+        "stop-employment-fraud",
+        "which-hr-behaviors-increase-hiring-fraud-risk"
+      ]
+    },
+    {
+      "pillar": "Testlify vs Competitor Assessment Comparisons",
+      "theme": "Competitor Alternatives",
+      "intent": "comparison",
+      "spokes": [
+        "saville-assessment-alternatives",
+        "testlify-vs-asc-smarter-assessment-comparison",
+        "testlify-vs-saville-assessment-detailed-comparison",
+        "testlify-vs-test-partnership-detailed-comparison",
+        "testlify-vs-total-testing-detailed-comparison",
+        "total-testing-alternatives"
+      ]
+    }
+  ],
+  "orphans": []
+}

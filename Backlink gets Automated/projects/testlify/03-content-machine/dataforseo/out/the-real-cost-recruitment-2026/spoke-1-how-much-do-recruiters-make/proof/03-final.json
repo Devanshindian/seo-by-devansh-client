@@ -1,0 +1,167 @@
+{
+  "primary": {
+    "keyword": "how much do recruiters make",
+    "volume": 1600,
+    "kd": 6,
+    "intent": "informational",
+    "why": "Highest-volume keyword in the core intent cluster (tied at 1600 with several rewords) with negligible KD; plural phrasing mirrors the asset's cross-type breakdown better than the exact per-hire title phrase, which is kept as the H1/variation instead of forced into the tracked primary slot."
+  },
+  "variations": [
+    {
+      "keyword": "how much do recruiters make per hire",
+      "volume": 260,
+      "kd": 0
+    },
+    {
+      "keyword": "how much does a recruiter make",
+      "volume": 1600,
+      "kd": 1
+    },
+    {
+      "keyword": "how much can a recruiter make",
+      "volume": 1600,
+      "kd": 2
+    },
+    {
+      "keyword": "how much do recruiters earn",
+      "volume": 1600,
+      "kd": 3
+    },
+    {
+      "keyword": "how much does a recruiter earn",
+      "volume": 1600,
+      "kd": 5
+    },
+    {
+      "keyword": "recruiter pay",
+      "volume": 1000,
+      "kd": 0
+    },
+    {
+      "keyword": "how much do recruiters get paid",
+      "volume": 170,
+      "kd": 0
+    },
+    {
+      "keyword": "how do job recruiters get paid",
+      "volume": 170,
+      "kd": 0
+    },
+    {
+      "keyword": "how does a job recruiter get paid",
+      "volume": 170,
+      "kd": 0
+    },
+    {
+      "keyword": "how much do job recruiters make",
+      "volume": 170,
+      "kd": 3
+    },
+    {
+      "keyword": "how much does a job recruiter make",
+      "volume": 170,
+      "kd": 6
+    },
+    {
+      "keyword": "how much does a recruiter get paid",
+      "volume": 170,
+      "kd": 0
+    }
+  ],
+  "secondary": [
+    {
+      "keyword": "how much does an it recruiter make",
+      "volume": 1600,
+      "kd": 0,
+      "why": "IT-recruiter earnings is a role-specific section the angle's 'by role' breakdown covers; absorbs the redundant 'how do it recruiters get paid' / 'how much do it recruiters get paid' phrasings into one section."
+    },
+    {
+      "keyword": "recruiter salary",
+      "volume": 1000,
+      "kd": 0,
+      "why": "Base salary is a distinct concept from per-hire commission and needs its own section to avoid conflating the two pay models; absorbs 'recruiter salary range'."
+    },
+    {
+      "keyword": "how do recruiters get paid",
+      "volume": 720,
+      "kd": 0,
+      "why": "Commission-structure/mechanism question, core to the 'commission rates by type' angle; distinct from the amount question that drives the primary cluster."
+    },
+    {
+      "keyword": "how do job placement agencies make money",
+      "volume": 480,
+      "kd": 0,
+      "why": "Agency/contingency business-model question, matches that named recruiter category in the angle."
+    },
+    {
+      "keyword": "hr recruiters salary",
+      "volume": 260,
+      "kd": 0,
+      "why": "HR-recruiter role-specific pay, a distinct sub-topic under the role breakdown."
+    },
+    {
+      "keyword": "physician recruiter compensation",
+      "volume": 260,
+      "kd": 0,
+      "why": "Healthcare-recruiter niche, fits the angle's role-based breakdown."
+    },
+    {
+      "keyword": "corporate recruiter salary",
+      "volume": 210,
+      "kd": 0,
+      "why": "Matches the 'in-house' recruiter category named in the angle."
+    },
+    {
+      "keyword": "executive recruiter compensation",
+      "volume": 210,
+      "kd": 0,
+      "why": "Matches the 'retained' recruiter category named in the angle."
+    },
+    {
+      "keyword": "management recruiter salary",
+      "volume": 210,
+      "kd": 0,
+      "why": "Mid-management tier fits the angle's seniority breakdown, distinct from the executive tier."
+    },
+    {
+      "keyword": "headhunters salary",
+      "volume": 170,
+      "kd": 0,
+      "why": "Headhunter is a common synonym for contingency/retained recruiters; absorbs the near-duplicate 'headhunting salary' (same concept, higher KD)."
+    },
+    {
+      "keyword": "how do headhunters get paid",
+      "volume": 140,
+      "kd": 0,
+      "why": "Headhunter payment mechanism, distinct from the total-income figure above (mirrors the amount/mechanism split at the general level, scoped to this recruiter type)."
+    },
+    {
+      "keyword": "do recruiters get bonuses for recruits",
+      "volume": 110,
+      "kd": 2,
+      "why": "Bonus/incentive add-ons beyond base per-hire commission, a distinct facet of the pay structure."
+    },
+    {
+      "keyword": "recruitment consultant earnings",
+      "volume": 90,
+      "kd": 0,
+      "why": "Agency/consultant recruiter earnings, a named recruiter-type sub-topic distinct from the in-house and headhunter sections."
+    }
+  ],
+  "spoke_candidates": [
+    {
+      "keyword": "how much do military recruiters make per hire",
+      "volume": 110,
+      "kd": 0,
+      "intent": "informational",
+      "relevance": 6,
+      "why": "Military recruiting sits outside this asset's agency/retained/RPO/in-house taxonomy, but mirrors this asset's exact per-hire framing for a different recruiter type \u2014 a natural companion piece a reader would click next. Merges the near-duplicate 'do military recruiters get commission' (vol 320, KD1) into the same future-article topic.",
+      "spoke_score": 0.675
+    }
+  ],
+  "in_body": [
+    "RPO recruiter fees",
+    "contingency recruiter fee percentage"
+  ],
+  "notes": "Two batches proposed different PRIMARY keywords ('how much do recruiters make per hire' and 'how much do recruiters get paid'); per the volume-over-title-match rule, the highest-volume same-intent reword ('how much do recruiters make', 1600) was promoted to primary and both scorer-proposed primaries were folded into variations. Dropped three grammatically-broken get-paid typo variants from the variations list despite one scorer tagging them 'variation' \u2014 too degenerate to surface. Folded 'headhunting salary' into 'headhunters salary' and 'recruiter salary range' into 'recruiter salary' (near-duplicate concepts, lower KD kept). Folded redundant IT-recruiter phrasings into a single IT secondary. Flagged RPO as an angle-critical gap: the angle names RPO recruiters explicitly but no surfaced keyword covers RPO at all, so it's carried as in-body only."
+}

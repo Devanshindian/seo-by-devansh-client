@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 666,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'how to assess' section stays generic (\"practical skills assessments,\" \"multiple-choice quizzes\") with zero sample questions, no way to tell a junior from a senior candidate, and no scoring guidance despite six subtopics being listed.",
+    "asset": "Hardware Components Interview Questions That Actually Separate Junior and Senior Technicians",
+    "distinct_angle": "Replaces the vague quiz/practical-test mention with real sample questions and a rubric split by seniority level, the specificity this page never gets to.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 667,
+    "brand_fit": "CORE",
+    "angle_gap": "Names only two assessment methods (Written Response, Asynchronous Interview) but gives no example prompts and no way to judge a response, so a hiring manager still can't tell a genuinely results-driven answer from a rehearsed one.",
+    "asset": "How to Tell a Genuinely Results-Driven Candidate From a Rehearsed Answer",
+    "distinct_angle": "Adds worked example answers (strong vs. rehearsed) and a scoring guide against the five traits this page only defines abstractly.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 668,
+    "brand_fit": "CORE",
+    "angle_gap": "The correction is only ever explained with the formula (alpha divided by number of comparisons) and one abstract five-test example; there's no numeric worked example with real p-values, and it never mentions the standard alternatives (Holm-Bonferroni, Benjamini-Hochberg FDR) a data-hire candidate should know when Bonferroni is too conservative.",
+    "asset": "Bonferroni Correction Explained With Real Numbers, and When to Use Holm or FDR Instead",
+    "distinct_angle": "Walks through an actual p-value table plus covers Holm-Bonferroni and FDR as the current best-practice alternatives, filling the numeric example and alternatives-context gap this page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 669,
+    "brand_fit": "CORE",
+    "angle_gap": "Every best practice (\"be specific,\" \"use simple language,\" \"include solutions\") stays abstract; the page never shows one actual documented issue, good or bad, so a reader can't see what the advice looks like in practice.",
+    "asset": "What Great Issue Documentation Actually Looks Like, With a Before-and-After Example",
+    "distinct_angle": "Shows a concrete before/after write-up of the same issue to make the abstract best-practices list this page offers actually usable.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 670,
+    "brand_fit": "CORE",
+    "angle_gap": "Tool categories (IDEs, browser devtools, standalone software) are listed at a feature level with no concrete bug scenario to work through, and the page never addresses debugging in the context of AI coding assistants, which is now part of how the skill is actually assessed.",
+    "asset": "Debugging Interview Questions That Separate Real Debuggers From Tool Name-Droppers",
+    "distinct_angle": "Walks through one real bug scenario step-by-step and covers debugging with AI coding assistants, the concrete example and current context this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

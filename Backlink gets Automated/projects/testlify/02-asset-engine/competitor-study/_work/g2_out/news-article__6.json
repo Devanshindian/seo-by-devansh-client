@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2542,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 unlimited-vacation/PTO policy is a benefits-administration topic (off-limits per brand scope), not hiring or assessment"
+  },
+  {
+    "row_id": 2547,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 HSA/HDHP IRS contribution limits are a payroll/benefits topic, entirely outside skills assessment or hiring"
+  },
+  {
+    "row_id": 2549,
+    "brand_fit": "CORE",
+    "angle_gap": "The piece covers candidate-experience friction across the whole funnel (application speed, communication, interview format) but never isolates the assessment/testing stage specifically \u2014 it doesn't address how a skills test's length or design affects drop-off, even though that's the exact decision point a hiring team choosing an assessment tool cares about. It also leans on 2023 Talent Board figures (150 orgs, 240K candidates) that are now several years stale.",
+    "asset": "Why Candidates Abandon Hiring Processes at the Assessment Stage, Not Just the Application",
+    "distinct_angle": "Where this piece stops at general application/interview friction, ours drills into the testing step itself \u2014 citing current assessment-completion and drop-off data the 2023-sourced original never breaks out \u2014 and ties it to what a well-designed skills test does differently.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2550,
+    "brand_fit": "CORE",
+    "angle_gap": "This is an 8-year-old article (Jan 2018) leaning on 2016 Talent Board adoption stats (82% usage, 54% job simulations, 51% culture fit) and pre-regulation examples like HireVue's video-analysis scoring, a practice HireVue itself dropped in 2021 amid bias criticism. It never touches the adverse-impact/validity scrutiny and AI-hiring-law landscape (NYC LL144, EU AI Act) that now governs how predictive assessments must be built and defended \u2014 the exact context a 2026 buyer needs.",
+    "asset": "What Actually Predicts Job Performance in Skills Assessments Now That AI-Hiring Law Is Real",
+    "distinct_angle": "The 2018 SHRM piece cites 2016 adoption data and a video-scoring example (HireVue) the industry has since abandoned; ours refreshes the validity evidence and adds the adverse-impact and AI-hiring-regulation scrutiny that now shapes whether a predictive assessment is legally defensible, context the original predates entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2551,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The article only diagnoses the 2022 IT talent shortage using dated IEEE/Gartner/TalentLMS survey figures (from 2020-2021 fieldwork) and stops at 'be open-minded about where talent comes from' \u2014 it never proposes how to actually widen the technical candidate pool. It doesn't mention skills-based screening as a way to hire outside narrow credential/pedigree filters, which is the direct fix to the exact shortage it describes.",
+    "asset": "Closing the IT Talent Shortage by Screening on Skills Instead of Resumes",
+    "distinct_angle": "The original only names the shortage with now-stale 2021-era Gartner/IEEE numbers and offers no fix; ours updates the data and supplies the missing solution \u2014 hiring technical talent on demonstrated skill rather than credentials to widen a pool the piece admits is too narrow.",
+    "tool_escalation": "",
+    "g_notes": "broader industry-trend subject (IT staffing), buyer overlaps with our recruiter audience but topic is wider than assessment itself"
+  }
+]

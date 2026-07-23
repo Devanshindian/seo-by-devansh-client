@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1787,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The 10 'examples' are 2-3 sentence vendor case studies (hireEZ, Ribbon.ai, Joveo) reporting self-reported vendor stats ('83% qualifier rate', '194% engagement boost') with zero methodology behind them, and the piece covers sourcing/screening/marketing AI broadly while never touching AI in skills-based assessment or interview scoring \u2014 the highest-scrutiny AI use case in hiring today.",
+    "asset": "What AI-in-Hiring Case Studies Don't Tell You: The Methodology Behind the Vendor Stats",
+    "distinct_angle": "Where the original repeats unverified vendor-reported numbers with no methodology and skips assessment/scoring use cases entirely, ours interrogates how each case study's AI actually evaluated candidates and adds the skills-assessment examples the original omits.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1817,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "A well-sourced trends piece, but only 2 of its 12 trends (skills-based hiring overtaking resumes, AI-generated-resume fraud) sit in our world, and both are treated as open problems \u2014 e.g. it cites '14% shortlist overlap when the same AI tool ran twice' and rising resume inflation but never connects this to the verification methodology (skills testing) that actually resolves it; the other 10 trends are staffing-agency economics (RPO growth, revenue-per-recruiter) irrelevant to an in-house TA buyer.",
+    "asset": "The 2026 Hiring Trends That Change How You Screen, Not How Agencies Bill",
+    "distinct_angle": "Reframes the two buried, under-explored trends (AI-resume fraud, skills-based screening) as the lead story and supplies the verification answer the original leaves open, dropping the agency-economics trends that don't apply to an in-house buyer.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1819,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The 'Candidate Assessment Tool' category \u2014 squarely our world \u2014 gets a 3-sentence description and a bare 5-name list (Adaface, Berke, HR Avatar, Xobin, ThriveMap) with zero differentiation criteria, no mention of validity evidence, adverse-impact data, or proctoring depth, buried inside 16 unrelated tool categories (timesheets, onboarding, CRM).",
+    "asset": "Which Recruiting Tool Categories Actually Move Quality-of-Hire (And Which Just Add Software)",
+    "distinct_angle": "Replaces the bare vendor-name lists with real selection criteria per category \u2014 especially assessment tools, scored on validity evidence and adverse-impact data the original never mentions \u2014 so a buyer can choose, not just browse names.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1821,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Generic staffing-agency growth advice (branding, job ads, automation, pipelines); screening appears only once, as a single automation bullet ('use ATS to screen resumes automatically') with no discussion of screening accuracy, bias, or evidence \u2014 the reliability of the screen itself is never questioned.",
+    "asset": "The Recruitment Strategies That Reduce Bad Hires, Not Just Time-to-Fill",
+    "distinct_angle": "Where the original buries screening as one automation checkbox among 14 branding/ops tips, ours makes evidence-based, bias-checked screening the central strategy \u2014 the accuracy question the original never raises.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1830,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "22 minutes of candidate-experience advice (personas, nurture journeys, feedback loops) built on a single generic stat (73% of orgs say experience matters) and never once mentions the assessment or AI-interview stage \u2014 arguably the single biggest candidate-experience friction point (test length, unclear scoring, silence after submission) in modern hiring.",
+    "asset": "Where Candidate Experience Actually Breaks Down: The Assessment and Interview Stage",
+    "distinct_angle": "The original's candidate-experience advice never touches the assessment/AI-interview stage \u2014 the highest-drop-off touchpoint in modern hiring \u2014 so ours fills that specific gap with citable completion-rate and fairness-perception data.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

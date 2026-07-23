@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 599,
+    "brand_fit": "CORE",
+    "angle_gap": "Frames NLP entirely through classic pre-2020 tasks (POS tagging, sentiment analysis, chatbots) and never mentions transformers, LLMs, or embeddings \u2014 the skills that actually define an NLP hire in 2026 \u2014 and the 'why assess' section is generic filler that could describe assessing any tech skill, with no example task or question shown.",
+    "asset": "What 'NLP Skills' Actually Means to Assess in 2026 (Beyond POS Tagging and Chatbots)",
+    "distinct_angle": "Updates the skill definition to the transformer/LLM era this page ignores entirely, and adds a worked example assessment task in place of the page's generic, could-apply-to-any-skill 'why assess' bullets.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 601,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 off-brand subject (TV/broadcast advertising), plain definitional format not worth transplanting"
+  },
+  {
+    "row_id": 602,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 off-brand subject (digital marketing analytics tool), plain definitional format not worth transplanting"
+  },
+  {
+    "row_id": 603,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 off-brand subject (TV/broadcast advertising), duplicate of row 601's topic"
+  },
+  {
+    "row_id": 604,
+    "brand_fit": "CORE",
+    "angle_gap": "Reads as pure marketing copy for radar charts \u2014 every section praises the format ('Simplicity', 'Effective Communication') with zero mention of the well-known pitfall that radar charts mislead when axes aren't on comparable scales or when there are too many variables, and it never shows an actual worked example of reading (or misreading) one.",
+    "asset": "When Radar Charts Mislead Candidates (and When They Actually Prove Analytical Skill)",
+    "distinct_angle": "Adds the known misuse case (mismatched scales, too many variables) this page omits entirely, plus a worked example of interpreting a real radar chart \u2014 the critical, concrete view missing from the page's all-praise definition.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 634,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'How to Assess' section lists only two generic test types (practical scenario, case study) with no rubric or worked example, and never connects the four forensic sub-disciplines it names (digital, physical, accounting, cyber) to how you'd actually test each one differently.",
+    "asset": "How to Test Forensic Analysis Skills Differently for Digital, Physical, and Financial Investigators",
+    "distinct_angle": "Breaks the single generic 'practical scenario test' into a worked assessment approach per forensic sub-discipline the page names but never ties to actual testing method.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 635,
+    "brand_fit": "CORE",
+    "angle_gap": "Process steps and best practices stay abstract; the 'Practical Skills Test' section says candidates should 'simulate real-world scenarios' but never gives one, so a hiring manager has nothing they can actually reuse.",
+    "asset": "A Real Backup-Failure Scenario You Can Use to Test IT Candidates on Data Restoration",
+    "distinct_angle": "Turns the page's abstract 'simulate real-world scenarios' line into an actual worked backup-failure scenario with what a strong versus weak restoration answer looks like.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 636,
+    "brand_fit": "CORE",
+    "angle_gap": "The page describes abstract reasoning entirely in the abstract \u2014 no sample test item or pattern is shown \u2014 and never touches adverse-impact or EEOC defensibility, despite that being a live legal question for any cognitive-ability test used in hiring.",
+    "asset": "Abstract Reasoning Tests in Hiring: Sample Items and the Adverse-Impact Question the Field Skips",
+    "distinct_angle": "Shows actual sample abstract-reasoning test items and addresses adverse-impact/EEOC defensibility, both absent from the competitor's description-only page.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 637,
+    "brand_fit": "CORE",
+    "angle_gap": "The page is purely conceptual with no example SQL question shown, and treats 'MySQL skills' as one undifferentiated block rather than separating what a junior developer should know from what a senior DBA should be tested on.",
+    "asset": "MySQL Test Questions Split by Junior Developer vs Senior DBA Skill Level",
+    "distinct_angle": "Splits MySQL assessment by seniority with real example test questions per level, where the page treats MySQL skill as one undifferentiated block with zero examples.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 638,
+    "brand_fit": "CORE",
+    "angle_gap": "The page defines natural vs surrogate keys abstractly but never walks through choosing between them on an actual table/schema, the concrete design judgment a database-hiring test would realistically ask about.",
+    "asset": "Natural Key vs Surrogate Key: A Worked Schema Example for Testing Database Design Judgment",
+    "distinct_angle": "Walks through one real schema deciding natural vs surrogate key trade-offs, the concrete design judgment the page's abstract definitions never illustrate.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "total": 10085,
+  "per_type": {
+    "test-library": {
+      "rows": 3620,
+      "non_empty": 3386,
+      "mean_len": 9615,
+      "median_len": 10392
+    },
+    "posts": {
+      "rows": 2971,
+      "non_empty": 2971,
+      "mean_len": 16109,
+      "median_len": 14831
+    },
+    "pages": {
+      "rows": 1109,
+      "non_empty": 1093,
+      "mean_len": 9377,
+      "median_len": 7269
+    },
+    "hr-glossary": {
+      "rows": 858,
+      "non_empty": 858,
+      "mean_len": 8792,
+      "median_len": 8264
+    },
+    "job-description": {
+      "rows": 645,
+      "non_empty": 645,
+      "mean_len": 2181,
+      "median_len": 2110
+    },
+    "techglossary": {
+      "rows": 397,
+      "non_empty": 397,
+      "mean_len": 4632,
+      "median_len": 4552
+    },
+    "interviews": {
+      "rows": 161,
+      "non_empty": 138,
+      "mean_len": 6387,
+      "median_len": 6410
+    },
+    "competitors": {
+      "rows": 142,
+      "non_empty": 27,
+      "mean_len": 22043,
+      "median_len": 19907
+    },
+    "integrations": {
+      "rows": 113,
+      "non_empty": 113,
+      "mean_len": 4357,
+      "median_len": 4305
+    },
+    "successstory": {
+      "rows": 19,
+      "non_empty": 12,
+      "mean_len": 7468,
+      "median_len": 7604
+    },
+    "our-partner": {
+      "rows": 16,
+      "non_empty": 0,
+      "mean_len": 0,
+      "median_len": 0
+    },
+    "job-openings": {
+      "rows": 12,
+      "non_empty": 12,
+      "mean_len": 3091,
+      "median_len": 2445
+    },
+    "podcast": {
+      "rows": 7,
+      "non_empty": 7,
+      "mean_len": 1123,
+      "median_len": 1028
+    },
+    "certifications": {
+      "rows": 5,
+      "non_empty": 0,
+      "mean_len": 0,
+      "median_len": 0
+    },
+    "ebooks": {
+      "rows": 5,
+      "non_empty": 5,
+      "mean_len": 1157,
+      "median_len": 1115
+    },
+    "skill-mapping": {
+      "rows": 4,
+      "non_empty": 4,
+      "mean_len": 4438,
+      "median_len": 3443
+    },
+    "press-release": {
+      "rows": 1,
+      "non_empty": 1,
+      "mean_len": 2686,
+      "median_len": 2686
+    }
+  }
+}

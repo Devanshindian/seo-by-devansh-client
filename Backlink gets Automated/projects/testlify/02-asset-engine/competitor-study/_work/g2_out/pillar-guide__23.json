@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3038,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 generic leadership-development/management theory (Burns, Bass, charisma), not a hiring or assessment subject; also only 1 referring domain, a weak link signal"
+  },
+  {
+    "row_id": 3065,
+    "brand_fit": "CORE",
+    "angle_gap": "Treats 'skills testing' as one monolithic category: generic stats from scattered, unstated-year sources (Zippia, ResumeLab, Leadership IQ, Workday) plus a single Vervoe/Walmart case study standing in for proof, but never breaks testing approach down by role type or hiring volume (e.g. frontline/high-volume vs. technical vs. finance) \u2014 the exact segmentation a recruiter actually needs to pick a test.",
+    "asset": "Skills Testing by Role: What to Actually Test For, From Frontline to Technical Hiring",
+    "distinct_angle": "Replaces the one-size-fits-all stat list and single vendor case study with a role-by-role breakdown of which skills-test type fits which hiring scenario \u2014 the segmentation this guide never attempts.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3068,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Cites headline stats (87% better decisions, 35% outperformance, 76% of job seekers) and legal frameworks (Title VII etc.) but never connects any of it to a concrete, repeatable hiring mechanism \u2014 it stays at the level of principle and law, never showing how a structured, skills-based screening process is what actually removes the bias it describes.",
+    "asset": "How Structured Skills Screening Closes the Gaps a Diversity Hiring Policy Leaves Open",
+    "distinct_angle": "Grounds the abstract bias-reduction stats this guide cites in a concrete, structured-assessment mechanism for the hiring funnel \u2014 the practical 'how' the original leaves as an unaddressed principle.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3097,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists job simulation types (work samples, SJTs, role-play) purely as a taxonomy of what they are, with no treatment of validity evidence or adverse-impact defensibility \u2014 nothing on whether or how a given simulation would survive an EEOC-style audit, which is the question a hiring team actually needs answered before building one.",
+    "asset": "Building Job Simulations That Predict Performance and Survive an Audit",
+    "distinct_angle": "Adds the validity and adverse-impact defensibility layer this guide's type-by-type taxonomy never covers \u2014 turning a list of formats into a build methodology a compliance-conscious TA team can actually use.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3122,
+    "brand_fit": "CORE",
+    "angle_gap": "Explicitly frozen in time \u2014 the page's own title is 'Pre-Employment Testing for Hiring Success in 2022' and its framing ('ten years ago the answer would have been no') never accounts for what has changed since: AI interviewing as a screening method, or the compliance regimes (NYC LL144, EU AI Act) that now govern automated hiring tools \u2014 all live and unaddressed.",
+    "asset": "Pre-Employment Testing in 2026: AI Interviews and the Compliance Rules This 2022 Playbook Missed",
+    "distinct_angle": "Refreshes the frozen 2022 framing with the current landscape \u2014 AI interviewing as a screening layer plus the NYC LL144 and EU AI Act compliance requirements the original predates entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

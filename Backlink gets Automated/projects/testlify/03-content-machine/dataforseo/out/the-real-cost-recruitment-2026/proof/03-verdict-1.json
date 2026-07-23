@@ -1,0 +1,474 @@
+[
+  {
+    "keyword": "cost per hire",
+    "relevance": 10,
+    "distinctness": 10,
+    "brand_fit": 8,
+    "reason": "The exact core metric this asset refreshes (the 2022 SHRM cost-per-hire figure); best volume/KD balance in the set.",
+    "role": "primary"
+  },
+  {
+    "keyword": "costs per hire",
+    "relevance": 9,
+    "distinctness": 3,
+    "brand_fit": 8,
+    "reason": "Plural reword of the primary metric, same intent, weave in-body.",
+    "role": "variation"
+  },
+  {
+    "keyword": "cost of hire",
+    "relevance": 9,
+    "distinctness": 3,
+    "brand_fit": 8,
+    "reason": "Direct synonym of the primary phrasing, same intent.",
+    "role": "variation"
+  },
+  {
+    "keyword": "cost to hire",
+    "relevance": 9,
+    "distinctness": 3,
+    "brand_fit": 7,
+    "reason": "Synonym of the primary metric, commercial intent matches buyer research for this figure.",
+    "role": "variation"
+  },
+  {
+    "keyword": "calculate cost per hire",
+    "relevance": 9,
+    "distinctness": 8,
+    "brand_fit": 7,
+    "reason": "The formula/how-to-calculate sub-topic the hard-vs-soft breakdown angle needs.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "cost of hiring",
+    "relevance": 8,
+    "distinctness": 3,
+    "brand_fit": 7,
+    "reason": "Broader synonym of the primary; KD37 is too high to target alone but fine woven into body copy.",
+    "role": "variation"
+  },
+  {
+    "keyword": "costs of hiring",
+    "relevance": 8,
+    "distinctness": 3,
+    "brand_fit": 7,
+    "reason": "Plural synonym of the primary metric.",
+    "role": "variation"
+  },
+  {
+    "keyword": "hire cost",
+    "relevance": 8,
+    "distinctness": 3,
+    "brand_fit": 7,
+    "reason": "Compressed synonym of the primary metric.",
+    "role": "variation"
+  },
+  {
+    "keyword": "hiring cost",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Same concept as the primary, near-total overlap with the other reword variants.",
+    "role": "variation"
+  },
+  {
+    "keyword": "hiring costs",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Plural of hiring cost, same concept as the primary.",
+    "role": "variation"
+  },
+  {
+    "keyword": "cost per hire calculator",
+    "relevance": 8,
+    "distinctness": 7,
+    "brand_fit": 7,
+    "reason": "Distinct tool-seeking intent (an interactive calculator) versus the how-to explainer, worth its own section.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "calculating cost per hire",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 6,
+    "reason": "Gerund duplicate of 'calculate cost per hire'; folds into that secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much do recruitment agencies charge",
+    "relevance": 7,
+    "distinctness": 7,
+    "brand_fit": 6,
+    "reason": "Agency-fee benchmark, a hard-cost line item the 'by role' breakdown needs.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "recruitment fee",
+    "relevance": 7,
+    "distinctness": 6,
+    "brand_fit": 6,
+    "reason": "General fee-structure term (percent-of-salary), complements the agency-charge secondary from a pricing-model angle.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "how much do recruiting agencies charge",
+    "relevance": 7,
+    "distinctness": 2,
+    "brand_fit": 6,
+    "reason": "Near-duplicate of 'how much do recruitment agencies charge', same query intent.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much do recruitment companies charge",
+    "relevance": 7,
+    "distinctness": 2,
+    "brand_fit": 6,
+    "reason": "Duplicate of the agency-charge secondary, swaps 'agencies' for 'companies' only.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much does a recruitment company charge",
+    "relevance": 7,
+    "distinctness": 1,
+    "brand_fit": 6,
+    "reason": "Duplicate phrasing of the agency-charge secondary with higher KD, no added angle.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much does recruitment agency charge",
+    "relevance": 7,
+    "distinctness": 1,
+    "brand_fit": 6,
+    "reason": "Awkward-phrasing duplicate of the agency-charge secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "hard costs vs soft costs",
+    "relevance": 5,
+    "distinctness": 8,
+    "brand_fit": 6,
+    "reason": "Matches the angle's hard/soft breakdown directly, but the phrase sits inside an 18-keyword construction-accounting cluster (land/permits vs materials/labor), so real SERP-crowding risk; KD is very low (3) so worth trying with a recruiting-specific frame.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "hard vs soft costs",
+    "relevance": 5,
+    "distinctness": 2,
+    "brand_fit": 5,
+    "reason": "Near-duplicate of 'hard costs vs soft costs', same query; folds into that secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "soft costs vs hard costs",
+    "relevance": 5,
+    "distinctness": 2,
+    "brand_fit": 5,
+    "reason": "Reordered duplicate of the same hard/soft costs query.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much do recruiters make per hire",
+    "relevance": 4,
+    "distinctness": 7,
+    "brand_fit": 3,
+    "reason": "Different intent: a recruiter's own commission/earnings, not the employer's cost-per-hire; a distinct future article, not this refresh.",
+    "role": "spoke"
+  },
+  {
+    "keyword": "how much do recruiters make per-hire",
+    "relevance": 4,
+    "distinctness": 1,
+    "brand_fit": 3,
+    "reason": "Hyphen duplicate of the recruiter-earnings spoke.",
+    "role": "drop"
+  },
+  {
+    "keyword": "hard costs",
+    "relevance": 3,
+    "distinctness": 3,
+    "brand_fit": 3,
+    "reason": "Standalone term, likely resolves to construction/real-estate cost accounting rather than hiring; too ambiguous to target.",
+    "role": "drop"
+  },
+  {
+    "keyword": "soft costs",
+    "relevance": 3,
+    "distinctness": 3,
+    "brand_fit": 3,
+    "reason": "Same ambiguity as 'hard costs'; sits inside the large construction-terminology cluster.",
+    "role": "drop"
+  },
+  {
+    "keyword": "what are soft costs",
+    "relevance": 3,
+    "distinctness": 2,
+    "brand_fit": 3,
+    "reason": "Definitional duplicate of 'soft costs', same construction-leaning ambiguity.",
+    "role": "drop"
+  },
+  {
+    "keyword": "what are hard costs",
+    "relevance": 3,
+    "distinctness": 2,
+    "brand_fit": 3,
+    "reason": "Definitional duplicate of 'hard costs', same ambiguity.",
+    "role": "drop"
+  },
+  {
+    "keyword": "hard costs versus soft costs",
+    "relevance": 3,
+    "distinctness": 1,
+    "brand_fit": 3,
+    "reason": "Spelling variant already folded into the hard/soft costs duplicates.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much does executive career partners cost",
+    "relevance": 2,
+    "distinctness": 2,
+    "brand_fit": 1,
+    "reason": "Branded query about one specific competing recruiting firm, not a generalizable topic for this asset.",
+    "role": "drop"
+  },
+  {
+    "keyword": "construction project soft costs",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction/real-estate project-finance term (permits, design fees); unrelated subject sharing only the word 'costs'.",
+    "role": "drop"
+  },
+  {
+    "keyword": "construction soft costs",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction project-finance term, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "soft construction costs",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction project-finance term, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "soft costs construction",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction project-finance term, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "soft costs for construction",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction project-finance term, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "soft costs in construction",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction project-finance term, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "soft costs of construction",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction project-finance term, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "what are construction soft costs",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction project-finance definitional query, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "what are soft costs in construction",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction project-finance definitional query, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "construction hard costs vs soft costs",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction cost-comparison term (materials/labor vs permits/design); unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "construction soft costs vs hard costs",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction cost-comparison term, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "hard costs vs soft costs construction",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction cost-comparison term, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "hard costs vs soft costs in construction",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction cost-comparison term, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "soft costs vs hard costs construction",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction cost-comparison term, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "construction hard costs",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction project-finance term (materials, labor), unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "hard construction costs",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction project-finance term, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "hard costs construction",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction project-finance term, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "hard costs in construction",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction project-finance term, unrelated to hiring.",
+    "role": "drop"
+  },
+  {
+    "keyword": "hard drive costs",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Computer storage hardware, unrelated subject sharing only the word 'costs'.",
+    "role": "drop"
+  },
+  {
+    "keyword": "hard drive data recovery costs",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Computer data-recovery service, unrelated subject.",
+    "role": "drop"
+  },
+  {
+    "keyword": "hard drive recovery costs",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Computer data-recovery service, unrelated subject.",
+    "role": "drop"
+  },
+  {
+    "keyword": "hard wood flooring costs",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Home-renovation flooring product, unrelated subject.",
+    "role": "drop"
+  },
+  {
+    "keyword": "external hard drive costs",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Computer storage hardware, unrelated subject.",
+    "role": "drop"
+  },
+  {
+    "keyword": "hard hat costs",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Construction PPE equipment, unrelated subject.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much is 1 talent",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "'Talent' reads as the ancient currency/weight unit (biblical parable), not workforce talent; unrelated subject sharing only the word 'talent'.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much is a talent",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Same ancient-currency 'talent' query, unrelated subject.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much is one talent",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Same ancient-currency 'talent' query, unrelated subject.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much was a talent",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Same ancient-currency 'talent' query, unrelated subject.",
+    "role": "drop"
+  },
+  {
+    "keyword": "3/4 times 1",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "A math/fraction query with no connection to the asset topic.",
+    "role": "drop"
+  },
+  {
+    "keyword": "cost of hiring a skip",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "UK term for renting a waste-disposal skip/dumpster, unrelated subject sharing only 'hiring' and 'cost'.",
+    "role": "drop"
+  }
+]

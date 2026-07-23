@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2442,
+    "brand_fit": "CORE",
+    "angle_gap": "Collects a handful of anecdotal interview questions from individual HR managers with no scoring rubric or way to evaluate the answers, and leans on an 8-year-old Adecco stat (44% executives cite soft-skills gap) that is now stale.",
+    "asset": "The Soft-Skill Interview Questions That Predict Performance \u2014 And How to Score the Answers",
+    "distinct_angle": "Pairs each interview question with a concrete scoring rubric for what a strong vs. weak answer looks like, and replaces the 2016 Adecco figure with the current public soft-skills-gap data \u2014 the structure and currency this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2444,
+    "brand_fit": "CORE",
+    "angle_gap": "Pure link-roundup: five paragraphs of other outlets' Gen Z/trades coverage (WSJ, Forbes) glued together with no original analysis and zero actionable guidance for an employer trying to actually hire or screen these candidates.",
+    "asset": "What to Actually Test For When Hiring Gen Z Into the Skilled Trades",
+    "distinct_angle": "Where this page just curates other publications' takes on the Gen Z trades trend, ours turns the trend into a practical hiring checklist \u2014 the aptitude and soft-skill signals (teamwork, problem-solving, communication) the JVS/Jobs for the Future analysis mentions but never operationalizes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2446,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 this is a source-of-hire/channel-attribution analysis (referrals vs. Indeed vs. LinkedIn), i.e. passive-candidate sourcing, which the brand scope explicitly places outside Testlify's world (skills assessment/testing)"
+  },
+  {
+    "row_id": 2454,
+    "brand_fit": "CORE",
+    "angle_gap": "Strings together vendor quotes (Paylocity, D2L, Expand HR) around a March 2022 University of Phoenix Career Optimism Index and never gives a concrete method for an HR team to identify where its own employees' skills gaps actually are \u2014 it names the problem but not a way to measure it.",
+    "asset": "How to Measure a Real Skills Gap Before You Build a Reskilling Program",
+    "distinct_angle": "Where this page offers only survey-quote color and a now-stale 2022 index stat, ours gives a step-by-step method for mapping current-vs-needed skills per role and refreshes the figures to the current public data.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2538,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 corporate About-Us / company-history page, not a content asset"
+  }
+]

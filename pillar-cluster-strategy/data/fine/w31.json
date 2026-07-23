@@ -1,0 +1,83 @@
+{
+  "slice_id": "w31",
+  "clusters": [
+    {
+      "pillar": "Skills-Based Hiring: Guide & Benefits",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-skills-based-hiring",
+        "how-to-implement-skills-based-hiring-in-your-organization",
+        "how-to-use-technology-to-support-skills-based-hiring",
+        "rethinking-talent-validation-in-skills-based-hiring",
+        "skills-based-hiring-statistics",
+        "skills-based-organizations",
+        "ways-skill-based-hiring-can-counter-gender-gap",
+        "what-is-skills-based-hiring-and-why-is-it-important"
+      ]
+    },
+    {
+      "pillar": "Skills Gap Analysis",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-skills-gap-analysis",
+        "bridging-the-skills-gap-a-blueprint-for-effective-skills-gap-analysis",
+        "bridging-the-skills-gap-for-sports-teams",
+        "skill-gap-analysis",
+        "skills-gap-analysis-tools"
+      ]
+    },
+    {
+      "pillar": "Skills Mapping: Frameworks, Templates & Tools",
+      "intent": "mixed",
+      "spokes": [
+        "benefits-of-skills-mapping",
+        "free-skills-mapping-template",
+        "skills-mapping",
+        "skills-mapping-framework",
+        "top-skills-mapping-tools"
+      ]
+    },
+    {
+      "pillar": "Soft Skills Assessment in Hiring",
+      "intent": "informational",
+      "spokes": [
+        "an-hr-perspective-on-candidate-traits-and-nurturing-soft-skills",
+        "incorporating-soft-skills-in-campus-hiring",
+        "soft-skills-assess-what-matters-with-testlify",
+        "soft-skills-case-studies",
+        "soft-skills-statistics",
+        "soft-skills-to-assess-while-hiring-developers",
+        "the-role-of-soft-skills-in-data-science-hiring",
+        "what-are-soft-skills"
+      ]
+    },
+    {
+      "pillar": "Competency & Skills Frameworks, Taxonomies and Inventories",
+      "intent": "informational",
+      "spokes": [
+        "behavioral-competency-a-desired-attribute",
+        "competency-framework",
+        "competency-mapping",
+        "skills-audit",
+        "skills-inventory",
+        "skills-management",
+        "skills-matrix",
+        "skills-taxonomy"
+      ]
+    },
+    {
+      "pillar": "Upskilling & Reskilling the Workforce",
+      "intent": "informational",
+      "spokes": [
+        "ai-upskilling-guide-for-hr-teams",
+        "transferable-skills",
+        "upskilling-and-reskilling",
+        "upskilling-improve-workplace-wellbeing"
+      ]
+    }
+  ],
+  "orphans": [
+    "skills-mismatch-a-detailed-guide",
+    "skills-mismatch-and-how-to-address-it"
+  ]
+}

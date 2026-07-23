@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3089,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Page opens promising to 'shift your approach to recruiting' for generational diversity but never delivers that \u2014 it spends its length profiling generational stereotypes (Boomers, Gen X...) and cuts off mid-description of Gen X with no concrete hiring-practice guidance, no example of a generation-blind interview process, and no treatment of age-discrimination risk in job ads or interview questions.",
+    "asset": "Structuring Interviews So Age Never Decides Who Gets Shortlisted",
+    "distinct_angle": "Delivers the concrete recruiting practices (blind resume review, structured skills-based interview questions, ADEA-safe job ad language) the page promises in its intro but never actually covers \u2014 replacing generational stereotyping with actionable, hiring-specific de-biasing steps.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3101,
+    "brand_fit": "CORE",
+    "angle_gap": "The guide cites stats (75% unqualified, 12% application-to-interview, 17% interview-to-offer) without sourcing or currency checks, describes a 'shortlist matrix' only in the abstract with no worked example, and never addresses adverse-impact/legal-defensibility of shortlist criteria before pivoting into a product pitch for 'a skill assessment or other screening tool.'",
+    "asset": "Building a Shortlist Criteria Matrix That Survives an Adverse-Impact Audit",
+    "distinct_angle": "Provides an actual worked shortlist-matrix example with EEOC-aligned adverse-impact checks \u2014 the page only describes the matrix conceptually and cites unsourced conversion stats with zero legal-defensibility guidance.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3106,
+    "brand_fit": "CORE",
+    "angle_gap": "This role-hiring guide runs on a generic five-step template (identical structure and headers to Vervoe's other role guides, e.g. their Receptionist page) with only three shallow sample skill-test questions and no rubric showing what separates a strong answer from a weak one; the salary citation is truncated and unsourced.",
+    "asset": "The Talent Acquisition Specialist Skills a Resume Can't Show You",
+    "distinct_angle": "Replaces the generic reused template with a real scoring rubric \u2014 worked strong-vs-weak example answers for each competency (stakeholder trust-building, sourcing creativity) and a current, cited salary figure \u2014 where the page gives only three unscored prompts and a cut-off pay stat.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3108,
+    "brand_fit": "CORE",
+    "angle_gap": "Same generic five-step framework reused verbatim from Vervoe's other role guides, three shallow sample questions with no scoring guidance, and a salary figure ('$31,530 according to Gl...') that's truncated, unsourced, and likely stale.",
+    "asset": "How to Actually Score a Receptionist's Customer-Service Answers in an Interview",
+    "distinct_angle": "Adds worked strong-vs-weak example answers per skill question and a current, cited salary figure \u2014 the page gives only unscored prompts and a cut-off, unsourced pay stat.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3126,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 this is a blog index/listing page (teaser snippets + 'View More Posts'), not a single content page with a subject or gap to analyze"
+  }
+]

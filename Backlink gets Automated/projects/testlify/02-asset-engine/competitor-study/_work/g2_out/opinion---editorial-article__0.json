@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 30,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is L&D/learning delivery methodology (peer collaboration platforms, LMS/LXP adoption), not hiring or skills assessment. Different product world; no testing or screening angle present."
+  },
+  {
+    "row_id": 447,
+    "brand_fit": "CORE",
+    "angle_gap": "The page spends nearly all its length on the political history of merit hiring (Pendleton Act, executive orders through 2025) and only defines merit-based hiring in the abstract. It never shows a private employer how to actually swap a degree requirement for a skills assessment \u2014 no method, no example role, no scoring approach.",
+    "asset": "How Mid-Market Employers Are Actually Replacing Degree Requirements With Skills Screening",
+    "distinct_angle": "Skips past the 140-year policy history this page dwells on and gives the practical mechanics \u2014 which skills to test, how to score them, how to phase out a degree filter \u2014 that the page never covers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 665,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The piece reports one Australian National University study on APS promotion bias and stops at 'the skills-based hiring movement needs to find its way into promotions too' \u2014 it names the fix but never explains it. No breakdown of what a structured, skills-based promotion process actually looks like or how the scoring reduces the bias the study measured.",
+    "asset": "What a Bias-Resistant Promotion Process Looks Like After the Bamboo-Ceiling Research",
+    "distinct_angle": "Builds out the structured, skills-based evaluation method the page only gestures at, showing the scoring approach that closes the ethnic promotion gap its own study documented.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 984,
+    "brand_fit": "CORE",
+    "angle_gap": "Published in 2016, the piece is a ~300-word summary of Google launching its re:Work site, with no detail on what 'unbiasing' techniques actually involve and nothing past that single announcement. No current examples, no explanation of how structured assessment concretely reduces bias in screening decisions today.",
+    "asset": "Debiasing Hiring in 2026: The Structured Assessment Techniques That Replace Gut Feel",
+    "distinct_angle": "Replaces the single 2016 Google-launch anecdote with the current, named techniques (structured scoring, blind review, skills tests) that actually cut unconscious bias in screening.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1018,
+    "brand_fit": "CORE",
+    "angle_gap": "All adoption figures are from the 2019-2022 Hiring Benchmark Report and the piece treats 'live vs. asynchronous' as the whole story. It never touches AI-scored async interviews, anti-cheating safeguards for video screening, or how to structure video interview questions to reduce bias \u2014 all now standard parts of the conversation.",
+    "asset": "What Video Interviewing Actually Looks Like in 2026: AI Scoring, Async Adoption, and Cheating Risks",
+    "distinct_angle": "Updates the stale 2019-2022 adoption numbers with current figures and covers AI-scored async interviews and anti-cheating safeguards, both absent from the page.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

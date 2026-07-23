@@ -1,0 +1,175 @@
+{
+  "slice_id": "w14",
+  "clusters": [
+    {
+      "pillar": "Programming Language Skills Assessments (Evaluate Candidates)",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-evaluate-candidates-skills-with-a-c-assessment",
+        "how-to-evaluate-candidates-skills-with-a-c-sharp-assessment",
+        "how-to-evaluate-candidates-skills-with-a-go-assessment",
+        "how-to-evaluate-candidates-skills-with-a-java-assessment",
+        "how-to-evaluate-candidates-skills-with-a-javascript-assessment",
+        "how-to-evaluate-candidates-skills-with-a-php-assessment",
+        "how-to-evaluate-candidates-skills-with-a-ruby-assessment",
+        "how-to-evaluate-candidates-skills-with-a-ruby-test",
+        "how-to-evaluate-candidates-skills-with-a-swift-assessment",
+        "how-to-evaluate-candidates-skills-with-a-typescript-assessment"
+      ]
+    },
+    {
+      "pillar": "JavaScript Framework & Web Developer Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-evaluate-candidates-skills-with-a-flutter-assessment",
+        "how-to-evaluate-candidates-skills-with-a-full-stack-developer-test",
+        "how-to-evaluate-candidates-skills-with-a-laravel-assessment",
+        "how-to-evaluate-candidates-skills-with-a-mern-stack-developer-assessment",
+        "how-to-evaluate-candidates-skills-with-a-node-js-assessment",
+        "how-to-evaluate-candidates-skills-with-a-react-assessment",
+        "how-to-evaluate-candidates-skills-with-a-react-native-assessment",
+        "how-to-evaluate-candidates-skills-with-a-react-native-test-online",
+        "how-to-evaluate-candidates-skills-with-a-springboot-assessment",
+        "how-to-evaluate-candidates-skills-with-a-vue-3-assessment",
+        "how-to-evaluate-candidates-skills-with-a-wordpress-developer-assessment"
+      ]
+    },
+    {
+      "pillar": "Database & SQL Skills Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-evaluate-candidates-skills-with-a-microsoft-sql-assessment",
+        "how-to-evaluate-candidates-skills-with-a-mysql-assessment",
+        "how-to-evaluate-candidates-skills-with-a-plsql-assessment",
+        "how-to-evaluate-candidates-skills-with-a-t-sql-assessment",
+        "how-to-evaluate-candidates-skills-with-a-docker-assessment",
+        "how-to-evaluate-candidates-skills-with-a-cybersecurity-assessment"
+      ]
+    },
+    {
+      "pillar": "Soft Skills & Behavioral Assessments (Evaluate Candidates)",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-evaluate-candidates-skills-with-a-conflict-management-assessment",
+        "how-to-evaluate-candidates-skills-with-a-negotiation-assessment",
+        "how-to-evaluate-candidates-skills-with-an-adaptability-assessment",
+        "how-to-evaluate-candidates-skills-with-an-adaptability-test",
+        "how-to-evaluate-candidates-skills-with-an-empathy-assessment",
+        "how-to-assess-soft-skills-using-skills-assessment"
+      ]
+    },
+    {
+      "pillar": "Cognitive & Aptitude Testing for Candidates",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-evaluate-candidates-skills-with-a-basic-double-digit-math-assessment",
+        "how-to-evaluate-candidates-skills-with-a-mechanical-reasoning-assessment",
+        "how-to-evaluate-candidates-skills-with-a-numerical-reasoning-assessment",
+        "how-to-evaluate-candidates-skills-with-an-attention-to-detail-visual-test",
+        "crucial-skill-assessment-attention-to-detail-hiring",
+        "how-to-evaluate-candidates-skills-with-an-nlp-test"
+      ]
+    },
+    {
+      "pillar": "Marketing & Analytics Skills Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-evaluate-candidates-skills-with-a-google-analytics-assessment",
+        "how-to-evaluate-candidates-skills-with-a-data-visualization-test",
+        "how-to-evaluate-candidates-skills-with-a-performance-marketing-test",
+        "how-to-evaluate-candidates-skills-with-an-email-marketing-assessment",
+        "5-tips-to-evaluate-content-marketing-strategy-skills",
+        "5-tips-to-evaluate-data-extraction-skills"
+      ]
+    },
+    {
+      "pillar": "Business & Management Role Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-evaluate-candidates-skills-with-a-business-judgement-assessment",
+        "how-to-evaluate-candidates-skills-with-a-business-judgement-test",
+        "how-to-evaluate-candidates-skills-with-a-business-strategy-assessment",
+        "how-to-evaluate-candidates-skills-with-a-lean-six-sigma-assessment",
+        "how-to-evaluate-candidates-skills-with-an-engineering-manager-assessment",
+        "how-to-evaluate-candidates-skills-with-a-customer-success-manager-test",
+        "how-to-evaluate-candidates-skills-with-an-insurance-agent-assessment"
+      ]
+    },
+    {
+      "pillar": "Accounting & Finance Skills Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-evaluate-candidates-skills-with-an-accounting-manager-test",
+        "how-to-evaluate-candidates-skills-with-an-accounts-payable-test",
+        "how-to-assess-accounting-skills-of-candidates"
+      ]
+    },
+    {
+      "pillar": "IT & Computer Skills Testing",
+      "intent": "informational",
+      "spokes": [
+        "computer-skill-test-predict-candidate-fit",
+        "demystifying-it-skills-test-common-myths-challenges",
+        "evolution-of-computer-skill-test",
+        "how-effective-are-computer-skill-tests",
+        "how-to-assess-computer-skills",
+        "how-to-customize-it-skills-tests-for-different-tech-role",
+        "how-technical-skills-assessments-enhance-candidate-evaluation",
+        "how-to-assess-technical-skills",
+        "choosing-a-programming-skills-assessment-how-and-why"
+      ]
+    },
+    {
+      "pillar": "Choosing the Right Skills Assessment (Buyer Guides)",
+      "intent": "commercial",
+      "spokes": [
+        "choosing-a-critical-thinking-skills-assessment",
+        "choosing-a-leadership-skills-assessment-how-and-why",
+        "choosing-a-problem-solving-skills-assessment",
+        "best-skills-assessment-question-libraries",
+        "combining-sjts-with-other-skills-assessments-hiring"
+      ]
+    },
+    {
+      "pillar": "Skills Assessment Best Practices & Fairness",
+      "intent": "informational",
+      "spokes": [
+        "assess-skills-fairly-and-effectively",
+        "best-practices-for-using-an-organizing-skills-test",
+        "best-practices-to-ensure-authenticity-in-candidates-skills-assessment-tests",
+        "common-mistakes-to-avoid-using-skill-assessments",
+        "evaluate-hard-and-soft-skills-effectively",
+        "everything-you-need-to-know-about-skill-tests",
+        "candidate-skills-testing"
+      ]
+    },
+    {
+      "pillar": "Skills Assessments by Role Type & Seniority",
+      "intent": "informational",
+      "spokes": [
+        "assess-entry-level-candidates-with-skills-assessment",
+        "assess-project-management-skills",
+        "assess-sales-skills",
+        "assess-ui-ux-skills-during-hiring",
+        "create-skills-assessment-tests-for-different-roles",
+        "how-to-assess-blue-collar-skills-and-experience",
+        "edd-graduates-leadership-skills-assessments"
+      ]
+    },
+    {
+      "pillar": "How Skills Assessments Improve Hiring Outcomes",
+      "intent": "informational",
+      "spokes": [
+        "case-studies-highlight-skills-assessments-improve-time-to-hire",
+        "case-studies-of-companies-that-successfully-used-skill-assessments",
+        "how-skills-assessments-improve-recruitment-process",
+        "future-of-skills-assessment-in-changing-job-market",
+        "generative-ai-enhance-candidate-skills-assessments"
+      ]
+    }
+  ],
+  "orphans": [
+    "5-tips-to-evaluate-agile-software-development-skills",
+    "5-tips-to-evaluate-customer-journey-mapping-skills"
+  ]
+}

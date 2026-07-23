@@ -1,0 +1,97 @@
+{
+  "theme": "Skills Management",
+  "key": "c10",
+  "n_pillars": 9,
+  "pillars": [
+    {
+      "pillar": "Performance Management Systems & Fundamentals",
+      "n": 14,
+      "intent": "informational",
+      "sample_spokes": [
+        "case-studies-of-performance-management-system",
+        "common-mistakes-to-avoid-in-performance-management",
+        "create-a-performance-management-system"
+      ]
+    },
+    {
+      "pillar": "Talent Management Fundamentals & Strategy",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "common-mistakes-to-avoid-in-talent-management",
+        "how-to-get-started-with-talent-management",
+        "how-to-measure-roi-of-talent-management-initiatives"
+      ]
+    },
+    {
+      "pillar": "Competency & Skills Frameworks, Taxonomies and Inventories",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "behavioral-competency-a-desired-attribute",
+        "competency-framework",
+        "competency-mapping"
+      ]
+    },
+    {
+      "pillar": "Skills Taxonomy & Skills Intelligence",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "learning-agility",
+        "power-skills",
+        "skill-issue"
+      ]
+    },
+    {
+      "pillar": "Essential Workplace Skills & Competencies",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "importance-of-assessing-self-awareness-in-workplace-growth",
+        "importance-of-attention-to-detail-in-the-workplace",
+        "key-steps-for-workplace-success"
+      ]
+    },
+    {
+      "pillar": "Skills Gap Analysis",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "benefits-of-skills-gap-analysis",
+        "bridging-the-skills-gap-a-blueprint-for-effective-skills-gap-analysis",
+        "bridging-the-skills-gap-for-sports-teams"
+      ]
+    },
+    {
+      "pillar": "Skills Mapping: Frameworks, Templates & Tools",
+      "n": 5,
+      "intent": "mixed",
+      "sample_spokes": [
+        "benefits-of-skills-mapping",
+        "free-skills-mapping-template",
+        "skills-mapping"
+      ]
+    },
+    {
+      "pillar": "Skills Gaps & Skills-Based Hiring",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-testlifys-assessments-can-identify-skills-gap",
+        "skills-mismatch-a-detailed-guide",
+        "skills-mismatch-and-how-to-address-it"
+      ]
+    },
+    {
+      "pillar": "Performance Management for Remote & Future Work",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "performance-appraisals-in-remote-work-environments",
+        "performance-management-system-in-remote-teams",
+        "performance-management-system-in-the-future-of-work"
+      ]
+    }
+  ]
+}

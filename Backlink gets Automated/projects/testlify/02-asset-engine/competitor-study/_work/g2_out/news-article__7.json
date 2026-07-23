@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2577,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 scrape is broken/junk (embed placeholders and XSS error text, no real article body to read or beat)"
+  },
+  {
+    "row_id": 2580,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is workplace mental health/employee wellbeing, a different product world from skills assessment/hiring; also just a stats-driven opinion essay, not a distinctive link-pulling format worth transplanting"
+  },
+  {
+    "row_id": 2584,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is AI in corporate learning & development (training/L&D platforms), a different product world from assessment; not our territory even though hiring-adjacent"
+  },
+  {
+    "row_id": 2585,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is 401(k)/retirement benefits policy, outside hiring/assessment entirely"
+  },
+  {
+    "row_id": 2586,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is NLP sentiment analysis on employee feedback/engagement surveys, explicitly off-limits post-hire HR territory, not assessment/hiring"
+  }
+]

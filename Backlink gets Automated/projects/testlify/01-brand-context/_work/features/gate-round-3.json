@@ -1,0 +1,60 @@
+{
+ "sections": [
+  {
+   "name": "Core Value Propositions",
+   "pass": true,
+   "why": "8 propositions, within the 5-10 range, each with Feature/Benefit/Conversion Angle filled. Every number (3,500+ tests, 4,500+ roles, 100+ ATS, 18+ controls, 94%/90%+) recurs consistently elsewhere in the draft, so nothing reads invented. Legal wording holds: #3 says 'reduces bias' and 'the same job-related bar', never 'bias-free' or 'eliminates bias'. No brackets.",
+   "redo": ""
+  },
+  {
+   "name": "Technical Features",
+   "pass": true,
+   "why": "Five named categories (Assessments & Test Library, Interviews & Simulations, Custom Questions & Candidate Experience, Anti-Cheating/Proctoring & Security, Reporting/Analytics & Workflow), each a full inventory rather than a sample. Counts are specific and internally consistent (245 cognitive, 57 programming, 101 software, 22 language, 12 SJT). Two conflicts are handled the right way: the Interview-as-a-Service line carries a HUMAN DECISION flag instead of invented detail, and the language-count spread is reconciled to 15+ with the older figures named. Minor duplication (randomized question banks and multilingual delivery each appear in two categories) is cross-referencing between a candidate-experience list and a security list, not repeated prose.",
+   "redo": ""
+  },
+  {
+   "name": "Integrations & Ecosystem",
+   "pass": true,
+   "why": "Named, not summarized: 100+ ATS/HRIS partners each with a one-line capability note, plus the automation/developer tier (Zapier, Make, Slack, Google Workspace, SMTP, API/webhooks) and the partner/reseller tier. Each entry carries product-specific detail (ADP via the ADP Marketplace, Rena auto-advancing by assessment outcome, Zinc's blockchain reference checks) that reads as pulled from real integration pages rather than generated. Zapier's plan availability and the Settings to API Key path are the kind of specifics a fabricator would not produce.",
+   "redo": ""
+  },
+  {
+   "name": "Competitive Differentiators",
+   "pass": true,
+   "why": "Ten grouped comparisons against named rivals (TestGorilla, Adaface, eSkill, Criteria Corp, Maki People, Sapia.ai, Metaview, Willo, Indeed, AccuRecruiter) plus the AI-only/human-only framing. Every group ends with a genuine fair note conceding rival strength, and several go further than required: the Indeed note lists eleven capabilities where Indeed matches Testlify, the Sapia.ai note credits its bias audits, the Criteria Corp note admits the pool evidences no specific gap and flags it for a human. The AI-vs-human note concedes AI proctoring produces false positives. No absolute fairness claims.",
+   "redo": ""
+  },
+  {
+   "name": "Use Cases by Segment",
+   "pass": true,
+   "why": "Six segments plus an industry-vertical block, above the 3-5 guide but over-delivering on coverage, not under. Each segment is tied to concrete artifacts (Cashier 13 skills/20 minutes, bricklayer 16 questions/15 minutes, Epic Systems 6 skills across 11 roles, Bankers Aptitude 7 skills) rather than generic persona prose, so the segments do not read interchangeable. Plan mappings match the Pricing section exactly (Business = 10 users, 1,000 credits/year).",
+   "redo": ""
+  },
+  {
+   "name": "Pricing & Plan Benefits",
+   "pass": true,
+   "why": "The model is stated first (credit-based, one credit per candidate on start, credit covers a bundled assessment, no rollover, 24-month base-price lock with the lock's scope spelled out), then five real tiers with list and annual prices, credit allowances, per-extra-credit rates and seat counts, then Custom/Enterprise/Reseller, then per-use add-ons. The per-additional-credit ladder declines coherently ($10/$7/$5/$3) and the proctoring add-on prices match the figures used in Technical Features and the objections section. The Unlimited tier at $75,000/year is the one figure with no corroborating mention anywhere else in the draft; it is plausible for a contact-sales tier and not on its own disqualifying, but it is the single line worth a source re-check before publication.",
+   "redo": ""
+  },
+  {
+   "name": "Key Messaging for Conversions",
+   "pass": true,
+   "why": "Real CTA strings, eight pain-point rebuttals each closing on a number with a named source (Gallup, SHRM, WEF, Harvard Business School/Accenture), and a social-proof block that is unusually disciplined: it publishes 4.7 on G2 over the unsourced 4.8, keeps 1,500+ teams over the conflicting 10,000+, and includes a 'honest criticisms customers raise' line quoting the Google Sheets gap and weak filters from Testlify's own G2 quotes. The reconciliation note and the awards HUMAN DECISION flag do exactly what the flag mechanism is for.",
+   "redo": ""
+  },
+  {
+   "name": "Common Questions & Objections",
+   "pass": true,
+   "why": "Eleven questions in buyer language covering the five objections the guidelines name plus reliability, technical requirements and duration. Answers stay inside the fact pool and repeat the same figures used elsewhere. The bias answer is the strongest legal moment in the document: it states outright that no assessment eliminates bias and that Testlify does not claim it does. The pricing answer names the credit-expiry downside instead of hiding it.",
+   "redo": ""
+  },
+  {
+   "name": "Content Creation Guidelines",
+   "pass": true,
+   "why": "Eight actionable rules, each with a worked example rather than an abstraction. Rule 3 bans 'significantly' and 'studies show'; rule 8 hard-codes the legal boundary with the exact banned strings ('bias-free', 'eliminates bias', 'removes bias') and the permitted alternatives, which is what keeps every downstream piece compliant.",
+   "redo": ""
+  }
+ ],
+ "overall_pass": true,
+ "redo_notes": ""
+}

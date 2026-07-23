@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1339,
+    "brand_fit": "CORE",
+    "angle_gap": "Their own demo undercuts its stated pitch: the page contrasts 'boring, theoretical' traditional tests against their 'on-the-job skills' conversational quiz, then shows exactly one sample question \u2014 a basic syntax-recall item ('Which of the following return absolute value of a variable?') that is itself theoretical trivia, not a job-realistic scenario.",
+    "asset": "The Software Engineering Assessment That Tests On-the-Job Skills, Not Syntax Trivia",
+    "distinct_angle": "Their flagship sample question is basic syntax recall despite claiming to reject 'theoretical' trivia; ours samples only genuine on-the-job scenario questions so the proof matches the pitch.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 the asset is an interactive test/chat-based quiz, not an article a writer can produce.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1361,
+    "brand_fit": "CORE",
+    "angle_gap": "The page lists Big Five, 16 Personalities, DISC, and Enneagram side by side with identical treatment (just time and question count) while claiming Big Five is 'the only psychometric test to achieve a scientific consensus' \u2014 it never flags that the other listed tests it's selling lack that same validity for hiring decisions, leaving buyers to assume they're interchangeable.",
+    "asset": "The Personality Tests That Actually Hold Up in Hiring (and the Ones That Don't)",
+    "distinct_angle": "Their own page admits Big Five is the only scientifically-consensus test yet sells DISC/Enneagram/16Personalities alongside it with no validity caveat; ours makes that hiring-validity distinction explicit before a recruiter picks one.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 requires building the actual test suite, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1371,
+    "brand_fit": "CORE",
+    "angle_gap": "The test bundles PHP, JavaScript, and HTML/CSS into one generic 'full-stack' bucket with templated boilerplate copy, never explaining which real-world PHP role (WordPress/plugin dev, Laravel API dev, legacy LAMP maintenance) this specific skill combination actually screens for.",
+    "asset": "The PHP Developer Skills Test That Matches How Your Team Actually Uses PHP (WordPress, Laravel, or Legacy LAMP)",
+    "distinct_angle": "Their page treats PHP+JS+HTML/CSS as one undifferentiated bucket with generic boilerplate description; ours breaks down which skill mix matches which real PHP role so recruiters pick the right test instead of guessing.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 requires building the actual test, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1381,
+    "brand_fit": "CORE",
+    "angle_gap": "The page repeats the same topic list (Scrum, Kanban, boards, backlogs, admin) three separate times in near-identical bullet form and never separates 'understanding Agile/Scrum concepts' from 'administering Jira the tool' \u2014 two very different hiring needs (Scrum Master vs Jira Administrator) tested as one undifferentiated skill set.",
+    "asset": "A Jira Skills Test That Tells You Whether You're Hiring a Scrum Practitioner or a Jira Administrator",
+    "distinct_angle": "Their page bundles Agile/Scrum methodology knowledge and Jira system administration into one repetitive, undifferentiated test; ours separates the two tracks so hiring managers screen for the actual role.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 requires building the actual test, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1422,
+    "brand_fit": "CORE",
+    "angle_gap": "The test is pitched as useful for R Programmer, Python Developer, Machine Learning Engineer, AND Data Analyst roles alike, but is a single 20-minute, 10-question test spanning six broad topics (regression, EDA, data science, statistics, data manipulation) \u2014 no depth differentiation between what an analyst needs to know versus what an ML engineer needs to know.",
+    "asset": "An R Programming Test That Actually Separates Data Analysts from ML Engineers, Not One 20-Minute Catch-All",
+    "distinct_angle": "Their page sells the same 10-question, 20-minute test as fit for four different job titles; ours differentiates depth and topic weighting by role instead of one generic catch-all.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 requires building the actual test, not an article.",
+    "g_notes": ""
+  }
+]

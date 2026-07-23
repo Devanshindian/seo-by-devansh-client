@@ -1,0 +1,975 @@
+>>> STORM topic='Recruiting metrics benchmarks' perspectives=3 turns=4 topk=5 article=True polish=True
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content="Topic of...er_specific_fields=None), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Recruitment: 'NoneType' object has no attribute 'text'
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Human_resource_metrics: 'NoneType' object has no attribute 'text'
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Performance_indicator: 'NoneType' object has no attribute 'text'
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Human_resource_management: 'NoneType' object has no attribute 'text'
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Applicant_tracking_system: 'NoneType' object has no attribute 'text'
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Onboarding: 'NoneType' object has no attribute 'text'
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Employer_branding: 'NoneType' object has no attribute 'text'
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Turnover_(employment): 'NoneType' object has no attribute 'text'
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Cost_per_hire: 'NoneType' object has no attribute 'text'
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Workforce_planning: 'NoneType' object has no attribute 'text'
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Benchmarking: 'NoneType' object has no attribute 'text'
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Talent_management: 'NoneType' object has no attribute 'text'
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Human_resources: 'NoneType' object has no attribute 'text'
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Recruitment_marketing: 'NoneType' object has no attribute 'text'
+root : ERROR    : Error occurs when processing https://en.wikipedia.org/wiki/Employee_retention: 'NoneType' object has no attribute 'text'
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Reasonin...er_specific_fields=None), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content="Question...er_specific_fields=None), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Question...er_specific_fields=None), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content="When def...er_specific_fields=None), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='How does...er_specific_fields=None), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- time-t...er_specific_fields=None), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- how ar...er_specific_fields=None), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+trafilatura.core : WARNING  : discarding data: None
+[92m23:24:35 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:24:35 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:24:36 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content="Recruiti...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:25:12 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content="Recruiti...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:25:12 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Time-to-...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:25:17 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Time-to-...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:25:17 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:25:20 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+[92m23:25:20 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content="Reasonin...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:25:40 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content="Reasonin...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:25:40 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:25:41 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+[92m23:25:41 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- time t...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:25:51 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- time t...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- cost p...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:25:57 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- cost p...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:25:58 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+[92m23:25:58 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:26:17 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+[92m23:26:19 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+trafilatura.utils : ERROR    : parsed tree length: 1, wrong data type or not valid HTML
+trafilatura.core : ERROR    : empty HTML tree: None
+trafilatura.core : WARNING  : discarding data: None
+[92m23:26:21 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:26:28 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Cost-per...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:26:58 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Cost-per...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:26:58 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Recruiti...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:27:02 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Recruiti...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:27:02 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:27:20 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+[92m23:27:20 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- qualit...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:27:35 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- qualit...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:27:36 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+[92m23:27:36 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:27:37 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+[92m23:27:37 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+trafilatura.utils : ERROR    : parsed tree length: 1, wrong data type or not valid HTML
+trafilatura.core : ERROR    : empty HTML tree: None
+trafilatura.core : WARNING  : discarding data: None
+trafilatura.core : WARNING  : discarding data: None
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- recrui...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:27:45 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- recrui...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:27:47 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+trafilatura.utils : ERROR    : parsed tree length: 1, wrong data type or not valid HTML
+trafilatura.core : ERROR    : empty HTML tree: None
+trafilatura.core : WARNING  : discarding data: None
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Reasonin...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:27:58 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Reasonin...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:27:58 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+trafilatura.core : WARNING  : discarding data: None
+[92m23:28:09 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:28:11 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+trafilatura.core : WARNING  : discarding data: None
+[92m23:28:21 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Quality ...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:28:40 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Quality ...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:28:40 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Organiza...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:28:58 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Organiza...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:28:58 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:29:07 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+[92m23:29:07 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:29:12 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+[92m23:29:12 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- offer ...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:29:15 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- offer ...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:29:20 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+[92m23:29:20 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:29:22 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- Recrui...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:29:29 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- Recrui...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:29:31 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+[92m23:29:31 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+trafilatura.core : WARNING  : discarding data: None
+[92m23:29:37 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+trafilatura.core : WARNING  : discarding data: None
+trafilatura.core : WARNING  : discarding data: None
+[92m23:29:47 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:29:48 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='For offe...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:30:12 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='For offe...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content="Reasonin...er_specific_fields=None), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- SHRM r...er_specific_fields=None), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+trafilatura.utils : ERROR    : parsed tree length: 1, wrong data type or not valid HTML
+trafilatura.core : ERROR    : empty HTML tree: None
+trafilatura.core : WARNING  : discarding data: None
+[92m23:30:22 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:30:33 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='**Recrui...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:30:48 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='**Recrui...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Publicly...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:31:05 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Publicly...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:31:05 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:31:19 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+[92m23:31:19 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content="- SHRM A...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:31:27 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content="- SHRM A...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+trafilatura.utils : ERROR    : parsed tree length: 1, wrong data type or not valid HTML
+trafilatura.core : ERROR    : empty HTML tree: None
+trafilatura.core : WARNING  : discarding data: None
+[92m23:31:42 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='On the q...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:32:22 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='On the q...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:32:22 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:32:40 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+[92m23:32:40 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- SHRM r...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:32:50 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- SHRM r...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:33:04 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Based on...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:33:45 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Based on...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:33:45 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+[92m23:34:06 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+[92m23:34:06 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- ANSI/S...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:34:16 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='- ANSI/S...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+trafilatura.utils : ERROR    : parsed tree length: 1, wrong data type or not valid HTML
+trafilatura.core : ERROR    : empty HTML tree: None
+trafilatura.core : WARNING  : discarding data: None
+[92m23:34:42 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='The gove...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:35:29 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='The gove...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+knowledge_storm.interface : INFO     : run_knowledge_curation_module executed in 682.5132 seconds
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Defini...er_specific_fields=None), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+[92m23:35:29 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Defini...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:38:11 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Defini...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+knowledge_storm.interface : INFO     : run_outline_generation_module executed in 161.9722 seconds
+sentence_transformers.base.model : INFO     : No device provided, using mps
+sentence_transformers.base.model : INFO     : Loading SentenceTransformer model from sentence-transformers/paraphrase-MiniLM-L6-v2.
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8541.36it/s]
+Batches:   0%|          | 0/33 [00:00<?, ?it/s]Batches:   3%|▎         | 1/33 [00:01<00:43,  1.37s/it]Batches:   9%|▉         | 3/33 [00:01<00:12,  2.46it/s]Batches:  15%|█▌        | 5/33 [00:01<00:06,  4.35it/s]Batches:  21%|██        | 7/33 [00:01<00:04,  6.27it/s]Batches:  27%|██▋       | 9/33 [00:01<00:03,  7.97it/s]Batches:  33%|███▎      | 11/33 [00:02<00:02,  8.99it/s]Batches:  39%|███▉      | 13/33 [00:02<00:01, 10.12it/s]Batches:  45%|████▌     | 15/33 [00:02<00:01, 11.06it/s]Batches:  52%|█████▏    | 17/33 [00:02<00:01, 11.95it/s]Batches:  58%|█████▊    | 19/33 [00:02<00:01, 12.51it/s]Batches:  64%|██████▎   | 21/33 [00:02<00:00, 13.11it/s]Batches:  70%|██████▉   | 23/33 [00:02<00:00, 13.73it/s]Batches:  76%|███████▌  | 25/33 [00:03<00:00, 11.66it/s]Batches:  82%|████████▏ | 27/33 [00:03<00:00, 10.78it/s]Batches:  88%|████████▊ | 29/33 [00:03<00:00, 11.09it/s]Batches:  94%|█████████▍| 31/33 [00:04<00:00,  5.71it/s]Batches: 100%|██████████| 33/33 [00:04<00:00,  6.41it/s]Batches: 100%|██████████| 33/33 [00:04<00:00,  7.34it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+Batches: 100%|██████████| 1/1 [00:01<00:00,  1.74s/it][A[ABatches: 100%|██████████| 1/1 [00:01<00:00,  1.74s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.74s/it]
+Batches: 100%|██████████| 1/1 [00:01<00:00,  1.74s/it]
+
+Batches: 100%|██████████| 1/1 [00:01<00:00,  1.74s/it][ABatches: 100%|██████████| 1/1 [00:01<00:00,  1.74s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00, 79.98it/s]
+Batches: 100%|██████████| 1/1 [00:00<00:00, 69.21it/s]
+Batches: 100%|██████████| 1/1 [00:00<00:00, 75.28it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  3.15it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.14it/s]
+
+Batches: 100%|██████████| 1/1 [00:00<00:00,  3.14it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  3.14it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
+
+Batches: 100%|██████████| 1/1 [00:00<00:00,  3.09it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  3.09it/s]
+
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  3.78it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.78it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+Batches: 100%|██████████| 1/1 [00:00<00:00,  3.74it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  3.74it/s]
+
+
+Batches: 100%|██████████| 1/1 [00:00<00:00,  3.82it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  3.81it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A
+Batches: 100%|██████████| 1/1 [00:00<00:00,  2.18it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  2.18it/s]
+Batches: 100%|██████████| 1/1 [00:00<00:00,  2.16it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.16it/s]
+
+
+Batches: 100%|██████████| 1/1 [00:00<00:00,  2.18it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  2.18it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A
+Batches: 100%|██████████| 1/1 [00:00<00:00,  1.62it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.62it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]
+
+
+Batches: 100%|██████████| 1/1 [00:00<00:00,  1.61it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][92m23:38:25 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+
+Batches: 100%|██████████| 1/1 [00:00<00:00,  2.26it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  2.26it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  2.27it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.27it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 62.94it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 88.15it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 80.99it/s]
+Batches: 100%|██████████| 1/1 [00:00<00:00, 85.14it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 144.60it/s]
+Batches: 100%|██████████| 1/1 [00:00<00:00, 124.19it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 12.38it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.96it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 113.90it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 158.28it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 122.46it/s]
+Batches: 100%|██████████| 1/1 [00:00<00:00, 135.37it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 141.45it/s]
+Batches: 100%|██████████| 1/1 [00:00<00:00, 149.44it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][92m23:38:26 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+Batches: 100%|██████████| 1/1 [00:00<00:00, 194.03it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.36it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.36it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 54.24it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 86.90it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 76.81it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 103.38it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 44.10it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 123.14it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 134.01it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 141.62it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 144.42it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 127.34it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 135.04it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 193.54it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 155.28it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 73.21it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 125.57it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 137.69it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 157.47it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 172.29it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 135.54it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 134.28it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 134.61it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 149.75it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 148.42it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 132.37it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 120.58it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 140.74it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.02it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.02it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 136.18it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 132.61it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 130.99it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 165.81it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 148.52it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 231.17it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 274.05it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 263.44it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 275.56it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 254.26it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 261.70it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 255.63it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 262.41it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 261.10it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 255.36it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 206.02it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 235.24it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 270.36it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 276.47it/s]
+[92m23:38:27 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Defini...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:38:50 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Defini...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.91it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.91it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 86.54it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 111.77it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 138.20it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 95.47it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 114.84it/s]
+[92m23:38:50 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Benchm...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:39:10 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Benchm...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.79it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.78it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 104.78it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 90.59it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 79.13it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 77.76it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 114.31it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 111.82it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 120.95it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 122.91it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 133.73it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 136.76it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 133.80it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 147.23it/s]
+[92m23:39:10 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Catego...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:39:13 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Catego...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.46it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.45it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 127.00it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 123.90it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 74.11it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 138.91it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 131.06it/s]
+[92m23:39:14 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Establ...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:39:35 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Establ...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.63it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.63it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 117.19it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 70.18it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 125.42it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 85.46it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 116.73it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 111.61it/s]
+[92m23:39:35 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Source...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:39:47 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Source...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 19.70it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 117.29it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 112.19it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 139.41it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 118.53it/s]
+[92m23:39:47 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Applic...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:40:04 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Applic...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Trends...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:40:28 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Trends...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Limita...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:40:36 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='# Limita...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+knowledge_storm.interface : INFO     : run_article_generation_module executed in 144.6072 seconds
+[92m23:40:36 - LiteLLM:INFO[0m: utils.py:3427 - 
+LiteLLM completion() model= claude-code; provider = openai
+LiteLLM : INFO     : 
+LiteLLM completion() model= claude-code; provider = openai
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:542: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Recruiti...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_json(
+[92m23:40:58 - LiteLLM:INFO[0m: utils.py:1307 - Wrapper: Completed Call, calling success_handler
+LiteLLM : INFO     : Wrapper: Completed Call, calling success_handler
+/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/venv/lib/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected 10 fields but got 5: Expected `Message` - serialized value may not be as expected [field_name='message', input_value=Message(content='Recruiti...ields={'refusal': None}), input_type=Message])
+  PydanticSerializationUnexpectedValue(Expected `StreamingChoices` - serialized value may not be as expected [field_name='choices', input_value=Choices(finish_reason='st...ider_specific_fields={}), input_type=Choices])
+  return self.__pydantic_serializer__.to_python(
+knowledge_storm.interface : INFO     : run_article_polishing_module executed in 22.0154 seconds
+>>> DONE in 1011s -> /Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated/workflows/02-content-machine/storm/out

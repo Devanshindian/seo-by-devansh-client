@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1806,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The 12 skills are pulled from AIHR's generic T-Shaped Competency Model and cover AI use across all of HR (performance management, general admin, chatbots) \u2014 hiring and assessment get only a passing bullet ('using generative AI to write job descriptions'), with no treatment of the AI skills recruiters specifically need to run and score AI-driven skills assessments or interviews.",
+    "asset": "The AI Skills Recruiters Actually Need to Run Skills-Based Hiring Well",
+    "distinct_angle": "Narrows AIHR's all-of-HR AI skills list down to the hiring function specifically \u2014 evaluating AI interview responses, spotting AI-assisted cheating, configuring skills-test scoring \u2014 the exact application their generalist list only gestures at once.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1883,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'Innovative Assessment Methods' section is two thin paragraphs naming micro-internships and VR office tours as trends, with no discussion of validity, no comparison to structured skills testing, and no guidance on which assessment methods actually predict job performance versus which are novelty theater.",
+    "asset": "The Hiring Assessment Methods Worth Adopting in 2026 (and the Trendy Ones That Aren't)",
+    "distinct_angle": "Replaces their two-paragraph namecheck of micro-internships and VR with an honest breakdown of which assessment methods have real predictive validity versus which are candidate-experience gimmicks \u2014 the evaluation their page skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2948,
+    "brand_fit": "CORE",
+    "angle_gap": "Each of the 6 tips is a generic 60-100 word paragraph with no supporting data, no examples, and no current figures \u2014 e.g. 'make the application process quick and painless' asserts drop-off happens but cites no abandonment-rate numbers, and the piece is unrefreshed since August 2024.",
+    "asset": "What Actually Attracts Top Talent in a Skills-Short Market, With the Numbers Behind Each Tactic",
+    "distinct_angle": "Backs each of their generic claims (fast applications, growth opportunities, diverse teams) with current public data \u2014 e.g. actual application-abandonment and drop-off benchmarks \u2014 where their version offers assertion with no evidence.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2949,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee reward/recognition strategy is post-hire engagement content, explicitly off-limits (not hiring or assessment)"
+  },
+  {
+    "row_id": 2956,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 general cross-functional leadership development is outside Testlify's world (not hiring, screening, or assessment)"
+  }
+]

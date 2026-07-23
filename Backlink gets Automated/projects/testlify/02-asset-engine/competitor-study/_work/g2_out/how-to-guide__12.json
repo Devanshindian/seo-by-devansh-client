@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1310,
+    "brand_fit": "CORE",
+    "angle_gap": "Generic hiring-process template (job description \u2192 post \u2192 screen \u2192 assess \u2192 interview \u2192 offer, '4-6 weeks') applied to blockchain with no acknowledgment that blockchain/crypto hiring demand and candidate quality shifted hard since the 2021-2022 crypto boom went bust \u2014 the skill and platform lists (AngelList, generic Solidity/JS/Python) read like they're frozen in the hiring-boom era, with no guidance on separating genuine smart-contract security depth from buzzword-inflated resumes from that period.",
+    "asset": "Hiring Blockchain Developers in the Post-Hype Market: Screening Real Skill from Buzzword Resumes",
+    "distinct_angle": "Updates the guide for the current post-crypto-winter hiring reality and adds the screen this page never raises \u2014 how to verify real smart-contract security depth versus resume inflation left over from the 2021 boom.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1344,
+    "brand_fit": "CORE",
+    "angle_gap": "Treats Bootstrap as a standalone, evergreen front-end requirement \u2014 required skills list is HTML/CSS/JS/Bootstrap/Git with 'preferred' listing Sass/Less and React/Vue as afterthoughts \u2014 never acknowledging the front-end hiring market's shift toward utility-first CSS (Tailwind) as the more common and more predictive skill signal today.",
+    "asset": "Why Bootstrap Experience Alone No Longer Proves Front-End Hiring Readiness",
+    "distinct_angle": "Reorders the skill profile around where front-end hiring has actually moved, flagging utility-first CSS fluency as the more predictive signal \u2014 the currency gap this page's required/preferred split misses entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1356,
+    "brand_fit": "CORE",
+    "angle_gap": "Required and preferred skill tables cover only traditional static-dashboard work (SQL, visualization technique, Server admin, BI-tool familiarity) with zero mention of Tableau's AI-driven features (Pulse, Einstein Copilot) that now define what a modern Tableau developer role actually screens for.",
+    "asset": "Hiring Tableau Developers for AI-Augmented Analytics, Not Just Static Dashboards",
+    "distinct_angle": "Extends the required-skills table to cover the AI-augmented Tableau capabilities the product ships with today \u2014 the gap between what this page screens for and what the tool has become.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1363,
+    "brand_fit": "CORE",
+    "angle_gap": "Across skills, resume keywords, and interview-structure sections, there is no mention of screening for AI-assisted writing competency \u2014 nothing on telling a technical writer who genuinely verifies product accuracy apart from one fluently prompting an LLM without checking the output, despite this being the defining new risk in technical-writing hires.",
+    "asset": "Hiring Technical Writers Who Can Catch What the AI Got Wrong",
+    "distinct_angle": "Adds the screening dimension this page never raises \u2014 verifying a candidate's ability to catch AI-drafted inaccuracies, not just judge their prose quality.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1379,
+    "brand_fit": "CORE",
+    "angle_gap": "Built entirely on 2020-2021-era sources (a single McKinsey study, Pew's 'non-white majority by 2026' projection, one-off stats like '72% made an online purchase last month') and frames Gen Z purely as values-driven digital consumers \u2014 never ties any of it to skills-based hiring, credential skepticism, or how this generation's actual interview/screening expectations have moved on since 2022, despite running on a recruiting blog.",
+    "asset": "Recruiting Gen Z Now: What the 2022 Playbook Already Got Wrong",
+    "distinct_angle": "Refreshes the now-stale 2020-2022 statistics with current figures and connects the strategy to what actually drives Gen Z hiring decisions today \u2014 skills-based, credential-skeptical evaluation \u2014 the link this page never makes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

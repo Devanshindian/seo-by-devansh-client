@@ -1,0 +1,42 @@
+{
+  "version": "0.1.20260717",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0315 sec.",
+  "cost": 0,
+  "tasks_count": 1,
+  "tasks_error": 1,
+  "tasks": [
+    {
+      "id": "07222210-2021-0634-0000-a95830102011",
+      "status_code": 40501,
+      "status_message": "Invalid Field: 'Invalid 'match_type'. Allowed values: word_match, partial_match.'.",
+      "time": "0 sec.",
+      "cost": 0,
+      "result_count": 0,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "llm_mentions",
+        "search",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "search",
+        "target": [
+          {
+            "keyword": "spend per hire",
+            "match_type": "phrase_match"
+          }
+        ],
+        "platform": "chat_gpt",
+        "limit": 15,
+        "order_by": [
+          "ai_search_volume,desc"
+        ]
+      },
+      "result": null
+    }
+  ]
+}

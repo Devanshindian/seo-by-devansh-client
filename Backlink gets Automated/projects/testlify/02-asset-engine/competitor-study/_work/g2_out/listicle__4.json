@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1532,
+    "brand_fit": "CORE",
+    "angle_gap": "Each of the 23 metrics gets only a short narrative paragraph and no calculation formula is ever shown (e.g. 'time to fill' is explained but never actually computed) \u2014 legally significant metrics like adverse impact and quality of hire get the same shallow one-paragraph treatment as minor ones, with certificate-program upsells breaking up the list instead of real depth.",
+    "asset": "Recruiting Metrics: The Exact Formulas and Worked Examples Behind Every One",
+    "distinct_angle": "Shows the precise calculation formula and a worked numeric example for every metric \u2014 including adverse impact and quality of hire \u2014 where AIHR only narrates definitions without ever showing the math or a defensible compliance calculation.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1534,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire performance management (MBO, appraisals, product defects, NPS) is explicitly off-limits; not a hiring/assessment subject"
+  },
+  {
+    "row_id": 1539,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee benefits administration is explicitly off-limits (adjacent HR, not our world)"
+  },
+  {
+    "row_id": 1540,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 workplace coaching models/styles (GROW, OSKAR, CLEAR) is leadership/L&D content, not hiring or skills assessment; no tool-magnet format to transplant, just a generic listicle"
+  },
+  {
+    "row_id": 1542,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 general HR-functions overview; 10 of 12 functions (industrial relations, health & safety, wellbeing, admin, rewards/payroll) are explicitly off-limits, only recruitment touches our world, not enough to carry a full asset"
+  }
+]

@@ -1,0 +1,777 @@
+{
+  "theme": "Skills & Job Assessments",
+  "key": "c02",
+  "n_pillars": 77,
+  "pillars": [
+    {
+      "pillar": "Evaluating Marketing Skills in Candidates",
+      "n": 15,
+      "intent": "informational",
+      "sample_spokes": [
+        "5-tips-to-evaluate-content-marketing-strategy-skills",
+        "tips-to-evaluate-brand-management-skills",
+        "tips-to-evaluate-content-marketing-skills"
+      ]
+    },
+    {
+      "pillar": "Talent Assessment: Fundamentals, Benefits & Getting Started",
+      "n": 14,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-get-started-with-talent-assessment",
+        "how-to-streamline-recruitment-with-hiring-assessments",
+        "how-to-use-assessment-tools-for-hiring-process"
+      ]
+    },
+    {
+      "pillar": "Using Skills Assessment Data to Improve Hiring",
+      "n": 14,
+      "intent": "informational",
+      "sample_spokes": [
+        "case-studies-highlight-skills-assessments-improve-time-to-hire",
+        "case-studies-of-companies-that-successfully-used-skill-assessments",
+        "future-of-skills-assessment-in-changing-job-market"
+      ]
+    },
+    {
+      "pillar": "Hiring Developers with Programming Skill Tests",
+      "n": 14,
+      "intent": "commercial",
+      "sample_spokes": [
+        "hire-top-talent-using-a-pandas-test",
+        "hire-top-talent-using-a-spring-framework-test",
+        "hire-top-talent-using-aws-test"
+      ]
+    },
+    {
+      "pillar": "English & Language Proficiency Testing",
+      "n": 13,
+      "intent": "mixed",
+      "sample_spokes": [
+        "how-to-ensure-language-fairness-in-assessments",
+        "incorporate-cefr-test-into-your-recruitment-strategy",
+        "incorporate-english-grammar-test-in-recruitment-strategy"
+      ]
+    },
+    {
+      "pillar": "Types of Pre-Employment Assessments",
+      "n": 12,
+      "intent": "informational",
+      "sample_spokes": [
+        "5-tips-to-evaluate-agile-software-development-skills",
+        "5-tips-to-evaluate-customer-journey-mapping-skills",
+        "behavioral-assessments-impact-hiring-decisions"
+      ]
+    },
+    {
+      "pillar": "Role-Specific Job Tests: Business & Corporate Roles",
+      "n": 12,
+      "intent": "commercial",
+      "sample_spokes": [
+        "top-marketing-test-questions",
+        "top-talent-using-business-analyst-test",
+        "why-do-you-need-management-test-in-your-hiring-process"
+      ]
+    },
+    {
+      "pillar": "Evaluating Business & Soft Skills",
+      "n": 12,
+      "intent": "informational",
+      "sample_spokes": [
+        "tips-to-evaluate-change-management-skills",
+        "tips-to-evaluate-communication-skills",
+        "tips-to-evaluate-crisis-management-skills"
+      ]
+    },
+    {
+      "pillar": "IT & Computer Skills Testing",
+      "n": 12,
+      "intent": "informational",
+      "sample_spokes": [
+        "choosing-a-programming-skills-assessment-how-and-why",
+        "computer-skill-test-predict-candidate-fit",
+        "demystifying-it-skills-test-common-myths-challenges"
+      ]
+    },
+    {
+      "pillar": "Role-Specific Tests to Unveil Candidates' Hidden Abilities",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-can-a-business-judgement-test-unveil-candidates-hidden-abilities",
+        "how-can-a-customer-success-manager-test-unveil-candidates-hidden-abilities",
+        "how-can-a-data-visualization-test-unveil-candidates-hidden-abilities"
+      ]
+    },
+    {
+      "pillar": "Coding & Technical Assessments in Hiring",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "the-future-of-coding-assessments-in-the-hiring-process",
+        "the-latest-trends-in-technical-assessments",
+        "tips-for-conducting-remote-programming-tests-in-recruitment"
+      ]
+    },
+    {
+      "pillar": "Programming Language Test Guides (SQL, Java, JS & More)",
+      "n": 11,
+      "intent": "commercial",
+      "sample_spokes": [
+        "how-to-incorporate-git-test-into-your-recruitment-strategy",
+        "how-to-incorporate-postgresql-test-into-your-recruitment-strategy",
+        "how-to-incorporate-sql-test-into-your-recruitment-strategy"
+      ]
+    },
+    {
+      "pillar": "Skills Assessments & Better Hiring Outcomes",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "skill-assessment-tool-in-your-hiring-process",
+        "skill-assessments-help-improve-candidate-experience",
+        "skill-assessments-high-performance-hiring"
+      ]
+    },
+    {
+      "pillar": "Pre-Hiring Assessment Strategy",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "hr-consider-using-peer-interviews-in-pre-hiring-assessments",
+        "hr-consider-using-third-party-vendors-for-pre-hiring-assessments",
+        "interview-simulations-play-role-in-pre-hiring-assessments"
+      ]
+    },
+    {
+      "pillar": "Web & Framework Developer Skills Assessments",
+      "n": 11,
+      "intent": "commercial",
+      "sample_spokes": [
+        "how-to-evaluate-candidates-skills-with-a-flutter-assessment",
+        "how-to-evaluate-candidates-skills-with-a-full-stack-developer-test",
+        "how-to-evaluate-candidates-skills-with-a-laravel-assessment"
+      ]
+    },
+    {
+      "pillar": "Designing & Choosing Skills Assessments",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "best-skills-assessment-question-libraries",
+        "choosing-a-critical-thinking-skills-assessment",
+        "choosing-a-leadership-skills-assessment-how-and-why"
+      ]
+    },
+    {
+      "pillar": "Assessing Communication & Interpersonal Skills in Recruitment",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "importance-of-assessing-active-listening-skills-in-recruitment-for-effective-communication",
+        "importance-of-assessing-collaboration-skills-in-recruitment-for-effective-teamwork",
+        "importance-of-assessing-communication-skills-in-recruitment-for-business-success"
+      ]
+    },
+    {
+      "pillar": "Assessing Soft Skills & Character Traits for Hiring",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "importance-of-accountability-skills-for-responsible-work-performance",
+        "importance-of-assessing-dependability-for-reliable-work-performance",
+        "importance-of-assessing-ethics-for-ethical-decision-making"
+      ]
+    },
+    {
+      "pillar": "Technical Assessments in Recruitment: Tools & Process",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "benefits-of-technical-assessments-in-recruitment",
+        "best-technical-assessment-tools",
+        "common-technical-assessment-mistakes-to-avoid"
+      ]
+    },
+    {
+      "pillar": "Excel, Office & Data Tool Testing",
+      "n": 10,
+      "intent": "commercial",
+      "sample_spokes": [
+        "benefits-of-using-excel-assessment-in-the-hiring-process",
+        "guide-to-advanced-excel-assessments",
+        "how-advanced-excel-assessments-help-you-with-hiring"
+      ]
+    },
+    {
+      "pillar": "Programming Language Skills Assessments",
+      "n": 10,
+      "intent": "commercial",
+      "sample_spokes": [
+        "how-to-evaluate-candidates-skills-with-a-c-assessment",
+        "how-to-evaluate-candidates-skills-with-a-c-sharp-assessment",
+        "how-to-evaluate-candidates-skills-with-a-go-assessment"
+      ]
+    },
+    {
+      "pillar": "Evaluating Software Development & Engineering Skills",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "tips-to-evaluate-java-programming-skills",
+        "tips-to-evaluate-mobile-app-development-skills",
+        "tips-to-evaluate-network-security-skills"
+      ]
+    },
+    {
+      "pillar": "Programming Tests: Design & Best Practices",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "best-practices-for-designing-coding-assessments",
+        "common-mistakes-to-avoid-while-creating-coding-assessment",
+        "how-to-choose-the-right-programming-test-for-your-hiring-needs"
+      ]
+    },
+    {
+      "pillar": "Technology & AI in Hiring Assessments",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "ai-powered-recruitment-assessment-tools-in-talent-acquisition",
+        "ai-vs-human-led-hiring-assessments",
+        "find-ai-talent-without-algorithm-tests"
+      ]
+    },
+    {
+      "pillar": "Technical Skill Assessments for Hiring",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-evaluate-candidates-skills-with-an-sql-assessment",
+        "importance-of-computer-skills-tests-in-job-interviews",
+        "java-coding-test-to-assess-candidates-coding-skills"
+      ]
+    },
+    {
+      "pillar": "Technical & Developer Hiring Strategy",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "10-technical-hiring-tips-for-tech-companies",
+        "best-coding-challenge-platforms-for-developer-hiring",
+        "coding-bootcamps-in-developer-hiring"
+      ]
+    },
+    {
+      "pillar": "Hiring with Occupational Skill Tests",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-hire-top-talent-using-accounting-principles-test",
+        "how-to-hire-top-talent-using-electrical-engineering-test",
+        "how-to-hire-top-talent-using-electrician-test"
+      ]
+    },
+    {
+      "pillar": "Technical Skill Tests for Hiring Developers",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "assess-with-autocad-test",
+        "assessing-candidate-skills-with-nlp-test",
+        "conduct-advanced-java-online-test-tips-for-recruiters"
+      ]
+    },
+    {
+      "pillar": "Business & Professional Skills Tests",
+      "n": 8,
+      "intent": "commercial",
+      "sample_spokes": [
+        "how-to-incorporate-accounting-principles-test-into-your-recruitment-strategy",
+        "identify-e-commerce-savvy-without-assessments",
+        "identifying-top-talent-with-writing-assessments"
+      ]
+    },
+    {
+      "pillar": "Evaluating Data & Analytics Skills",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "tips-to-evaluate-analytical-skills",
+        "tips-to-evaluate-customer-satisfaction-analysis-skills",
+        "tips-to-evaluate-data-analysis-skills"
+      ]
+    },
+    {
+      "pillar": "Hiring with Office, Admin & Digital Skills Tests",
+      "n": 8,
+      "intent": "commercial",
+      "sample_spokes": [
+        "hire-top-talent-using-admin-test",
+        "hire-top-talent-using-an-accounting-test",
+        "hire-top-talent-using-data-entry-test"
+      ]
+    },
+    {
+      "pillar": "Hiring Developers with Coding & Language Skill Tests",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-hire-top-talent-using-a-c-test",
+        "how-to-hire-top-talent-using-a-it-test",
+        "how-to-hire-top-talent-using-css-test"
+      ]
+    },
+    {
+      "pillar": "Skills-Based Hiring: Guide & Benefits",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "benefits-of-skills-based-hiring",
+        "how-to-implement-skills-based-hiring-in-your-organization",
+        "how-to-use-technology-to-support-skills-based-hiring"
+      ]
+    },
+    {
+      "pillar": "Soft Skills Assessment in Hiring",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "an-hr-perspective-on-candidate-traits-and-nurturing-soft-skills",
+        "incorporating-soft-skills-in-campus-hiring",
+        "soft-skills-assess-what-matters-with-testlify"
+      ]
+    },
+    {
+      "pillar": "Situational Judgement Tests in Hiring",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "assessments-with-chat-simulation",
+        "common-criticisms-of-situational-judgement-test",
+        "conduct-management-tests"
+      ]
+    },
+    {
+      "pillar": "Management & Leadership Assessments",
+      "n": 7,
+      "intent": "commercial",
+      "sample_spokes": [
+        "how-to-incorporate-management-test-into-your-recruitment-strategy",
+        "how-to-incorporate-project-manager-test-into-your-recruitment-strategy",
+        "how-to-incorporate-scrum-master-test-into-your-recruitment-strategy"
+      ]
+    },
+    {
+      "pillar": "Sales, Customer Service & Support Role Tests",
+      "n": 7,
+      "intent": "commercial",
+      "sample_spokes": [
+        "how-to-incorporate-sales-test-into-your-recruitment-strategy",
+        "key-components-of-a-customer-support-test",
+        "recruit-top-talent-using-customer-service-assessment"
+      ]
+    },
+    {
+      "pillar": "Programming Tests: Running & Interpreting",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "companies-that-successfully-used-coding-assessments-to-hire-top",
+        "how-to-administer-programming-tests-effectively",
+        "how-to-analyze-and-interpret-programming-test-results"
+      ]
+    },
+    {
+      "pillar": "Trade & Engineering Skills Tests",
+      "n": 7,
+      "intent": "commercial",
+      "sample_spokes": [
+        "how-to-incorporate-electrical-engineering-test-into-your-recruitment-strategy",
+        "how-to-incorporate-electrician-test-into-your-recruitment-strategy",
+        "how-to-incorporate-general-contractor-test-into-your-recruitment-strategy"
+      ]
+    },
+    {
+      "pillar": "Pre-Employment Testing Fundamentals: What It Is & Why It Matters",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "an-hr-guide-to-pre-employment-testing",
+        "decoding-pre-employment-assessments-purpose",
+        "pre-employment-assessments-what-you-need-to-know"
+      ]
+    },
+    {
+      "pillar": "Business & Management Role Assessments",
+      "n": 7,
+      "intent": "commercial",
+      "sample_spokes": [
+        "how-to-evaluate-candidates-skills-with-a-business-judgement-assessment",
+        "how-to-evaluate-candidates-skills-with-a-business-judgement-test",
+        "how-to-evaluate-candidates-skills-with-a-business-strategy-assessment"
+      ]
+    },
+    {
+      "pillar": "Skills Assessment Best Practices & Fairness",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "assess-skills-fairly-and-effectively",
+        "best-practices-for-using-an-organizing-skills-test",
+        "best-practices-to-ensure-authenticity-in-candidates-skills-assessment-tests"
+      ]
+    },
+    {
+      "pillar": "Skills Assessments by Role Type & Seniority",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "assess-entry-level-candidates-with-skills-assessment",
+        "assess-project-management-skills",
+        "assess-sales-skills"
+      ]
+    },
+    {
+      "pillar": "Soft-Skills, Psychometric & Remote Assessments",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-use-psychometric-tests-and-skill-tests-together",
+        "reducing-technical-glitches-remote-skills-assessments",
+        "remote-skills-assessment-overcoming-challenges-in-virtual-hiring"
+      ]
+    },
+    {
+      "pillar": "Hiring Skilled Trades & Vocational Workers with Tests",
+      "n": 7,
+      "intent": "commercial",
+      "sample_spokes": [
+        "hire-top-talent-using-carpenter-test",
+        "hire-top-talent-using-civil-engineering-test",
+        "hire-top-talent-using-construction-test"
+      ]
+    },
+    {
+      "pillar": "Computer & Office Software Skill Tests",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "choosing-a-typing-test-how-and-why",
+        "clerical-skills",
+        "design-an-effective-microsoft-word-test"
+      ]
+    },
+    {
+      "pillar": "Aptitude & Behavioral Trait Tests for Recruiting",
+      "n": 6,
+      "intent": "commercial",
+      "sample_spokes": [
+        "use-motivation-test-to-hire-the-right-candidates",
+        "virtual-attention-to-detail-tests-adapting-to-remote-hiring",
+        "why-do-you-need-analytical-ability-test-in-your-hiring-process"
+      ]
+    },
+    {
+      "pillar": "Computer Literacy Tests for Hiring",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "assessing-skills-with-computer-literacy-test",
+        "computer-literacy-test-in-hiring-decisions",
+        "how-to-choose-the-right-computer-literacy-test"
+      ]
+    },
+    {
+      "pillar": "Running an Effective Pre-Employment Testing Process",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "effective-strategies-for-pre-employment-testing",
+        "elevate-your-hiring-process-with-pre-employment-testing",
+        "how-to-conduct-effective-pre-employment-assessments"
+      ]
+    },
+    {
+      "pillar": "Pre-Employment Testing Software, Trends & Compliance",
+      "n": 6,
+      "intent": "mixed",
+      "sample_spokes": [
+        "5-benefits-of-eeoc-compliant-pre-employment-testing",
+        "ai-pre-hire-assessments",
+        "customized-recruitment-and-pre-employment-solutions"
+      ]
+    },
+    {
+      "pillar": "Database, Cloud & Security Skills Assessments",
+      "n": 6,
+      "intent": "commercial",
+      "sample_spokes": [
+        "how-to-evaluate-candidates-skills-with-a-cybersecurity-assessment",
+        "how-to-evaluate-candidates-skills-with-a-docker-assessment",
+        "how-to-evaluate-candidates-skills-with-a-microsoft-sql-assessment"
+      ]
+    },
+    {
+      "pillar": "Soft Skills & Behavioral Skills Assessments",
+      "n": 6,
+      "intent": "commercial",
+      "sample_spokes": [
+        "how-to-assess-soft-skills-using-skills-assessment",
+        "how-to-evaluate-candidates-skills-with-a-conflict-management-assessment",
+        "how-to-evaluate-candidates-skills-with-a-negotiation-assessment"
+      ]
+    },
+    {
+      "pillar": "Hiring with English & Language Proficiency Tests",
+      "n": 6,
+      "intent": "commercial",
+      "sample_spokes": [
+        "hire-talent-using-english-proficiency-test",
+        "hire-top-talent-using-cefr-english-test",
+        "hire-top-talent-using-cefr-test"
+      ]
+    },
+    {
+      "pillar": "Sales Aptitude Tests for Hiring Salespeople",
+      "n": 5,
+      "intent": "commercial",
+      "sample_spokes": [
+        "assessing-candidate-skills-with-sales-aptitude-test",
+        "how-to-use-sales-aptitude-tests-to-hire-the-best-salespeople",
+        "the-best-sales-aptitude-test-for-different-types-of-sales-jobs"
+      ]
+    },
+    {
+      "pillar": "Developer & DevOps Role Tests for Recruiting",
+      "n": 5,
+      "intent": "commercial",
+      "sample_spokes": [
+        "role-terraform-test-play-in-devops-recruitment",
+        "use-jenkins-test-to-hire-developers",
+        "why-is-a-full-stack-developer-test-essential-for-recruiting"
+      ]
+    },
+    {
+      "pillar": "QA & Software Testing Assessments for Hiring",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "scale-qa-teams-with-attention-to-detail-test",
+        "top-10-qa-test-questions-for-potential-candidates",
+        "what-role-do-data-driven-qa-test-play-in-hiring-success"
+      ]
+    },
+    {
+      "pillar": "Choosing Talent & Team Assessment Tools",
+      "n": 5,
+      "intent": "commercial",
+      "sample_spokes": [
+        "best-talent-assessment-tools",
+        "best-team-assessment-tools-performance-management",
+        "build-a-hiring-process-with-talent-assessment-tools"
+      ]
+    },
+    {
+      "pillar": "Types of Pre-Employment & Pre-Hire Tests",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "common-types-of-pre-employment-tests-and-their-uses",
+        "pre-employment-emotional-intelligence-test-a-must-have-tool-for-hiring",
+        "types-of-pre-employment-tests"
+      ]
+    },
+    {
+      "pillar": "When & Why to Use Pre-Hiring Assessments",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "5-benefits-of-integrating-employment-assessments-into-your-hiring-process",
+        "benefits-of-pre-hiring-assessments",
+        "common-employment-assessments-and-when-to-use-them"
+      ]
+    },
+    {
+      "pillar": "Designing & Creating Effective Hiring Assessments",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "best-practices-for-designing-and-implementing-employment-assessments",
+        "considerations-when-selecting-or-creating-hiring-assessment-test",
+        "determine-the-duration-for-candidate-tests"
+      ]
+    },
+    {
+      "pillar": "Marketing & Analytics Skills Assessments",
+      "n": 5,
+      "intent": "commercial",
+      "sample_spokes": [
+        "5-tips-to-evaluate-data-extraction-skills",
+        "how-to-evaluate-candidates-skills-with-a-data-visualization-test",
+        "how-to-evaluate-candidates-skills-with-a-google-analytics-assessment"
+      ]
+    },
+    {
+      "pillar": "Evaluating Design & UX Skills",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "tips-to-evaluate-graphic-designing-skills",
+        "tips-to-evaluate-ui-design-skills",
+        "tips-to-evaluate-user-support-skills"
+      ]
+    },
+    {
+      "pillar": "Assessing Employee Soft Skills & Traits",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "importance-of-assessing-continuous-learning-skills-for-employees",
+        "importance-of-assessing-integrity-for-ethical-and-honest-employees",
+        "importance-of-assessing-positive-attitude-for-a-motivated-workforce"
+      ]
+    },
+    {
+      "pillar": "AI in Candidate Assessment & Evaluation",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "guide-to-enterprise-ai-in-large-organizations",
+        "how-testlify-ai-scoring-works",
+        "how-to-assess-ethical-judgment-of-candidates"
+      ]
+    },
+    {
+      "pillar": "Attention to Detail Tests in Hiring",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "attention-to-detail-test-in-hiring-decisions",
+        "benefits-of-using-attention-to-detail-test",
+        "how-to-choose-the-right-attention-to-detail-test-for-your-hiring-process"
+      ]
+    },
+    {
+      "pillar": "NLP & Specialized Technical Role Tests",
+      "n": 4,
+      "intent": "commercial",
+      "sample_spokes": [
+        "the-role-of-mechanical-tests-in-reducing-turnover",
+        "the-significance-of-nlp-test-in-hiring-decisions",
+        "why-do-you-need-electrical-engineering-test-in-your-hiring-process"
+      ]
+    },
+    {
+      "pillar": "Evaluating Finance & Risk Skills",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "tips-to-evaluate-financial-analysis-skills",
+        "tips-to-evaluate-financial-forecasting-skills",
+        "tips-to-evaluate-financial-modeling-skills"
+      ]
+    },
+    {
+      "pillar": "Assessing Candidate Cultural Fit",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "assess-candidates-for-cultural-fit",
+        "creative-ways-to-assess-a-candidates-cultural-fit",
+        "cultural-alignment"
+      ]
+    },
+    {
+      "pillar": "English & Language Proficiency Testing",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "english-proficiency-test-need-inhiring-process",
+        "english-proficiency-test-questions-for-candidates",
+        "intercultural-competence"
+      ]
+    },
+    {
+      "pillar": "Integrity, Reliability & Character Tests",
+      "n": 3,
+      "intent": "commercial",
+      "sample_spokes": [
+        "how-to-incorporate-resilience-test-into-your-recruitment-strategy",
+        "incorporate-integrity-test-in-recruitment-strategy",
+        "incorporate-work-reliability-test-in-recruitment-strategy"
+      ]
+    },
+    {
+      "pillar": "Marketing & Ads Skills Tests",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "benefits-of-using-marketing-test",
+        "google-ads-tests-in-identifying-marketing-talent",
+        "how-hr-can-utilize-react-js-test"
+      ]
+    },
+    {
+      "pillar": "Candidate Experience in Assessments",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "improve-candidate-assessment-without-traditional-testing",
+        "improving-candidate-experience-using-smart-assessments",
+        "make-candidates-feel-comfortable-before-taking-assessment"
+      ]
+    },
+    {
+      "pillar": "Assessment Reports & Metrics",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "important-components-of-a-candidate-assessment-report",
+        "kpis-for-measuring-assessment-impact-on-hiring",
+        "must-have-checklist-for-candidate-assessments"
+      ]
+    },
+    {
+      "pillar": "Assessment Validity Types",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "concurrent-validity",
+        "criterion-related-validity",
+        "predictive-validity"
+      ]
+    },
+    {
+      "pillar": "Data-Driven Hiring with Assessment Analytics",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "data-driven-hiring-leveraging-analytics-in-employment-testing",
+        "data-driven-recruitment-syncing-assessment-results",
+        "how-ats-integrated-assessments-improve-hiring"
+      ]
+    },
+    {
+      "pillar": "Accounting & Finance Skills Assessments",
+      "n": 3,
+      "intent": "commercial",
+      "sample_spokes": [
+        "how-to-assess-accounting-skills-of-candidates",
+        "how-to-evaluate-candidates-skills-with-an-accounting-manager-test",
+        "how-to-evaluate-candidates-skills-with-an-accounts-payable-test"
+      ]
+    },
+    {
+      "pillar": "Skills-Based Hiring",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "benefits-of-skills-based-hiring-for-recruiters",
+        "data-driven-insights-for-recruiting-success-with-time-tracking",
+        "how-to-determine-your-recruitment-kpis"
+      ]
+    }
+  ]
+}

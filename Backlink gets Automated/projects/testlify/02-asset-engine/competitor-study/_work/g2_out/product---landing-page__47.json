@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2964,
+    "brand_fit": "CORE",
+    "angle_gap": "Claims a 70% turnover reduction and $1,200 hiring-cost savings but cites no study, sample size, or methodology behind either number, and never shows what an actual GIA score report looks like.",
+    "asset": "What a Cognitive Ability Score Actually Predicts About On-the-Job Performance",
+    "distinct_angle": "Backs the performance-prediction claim with a worked example of a real score report and the underlying validity evidence, instead of asserting a $1,200 savings figure with no cited source.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2974,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans on '45 years of psychometric research' and BPS accreditation as trust markers but never states the actual validity evidence (reliability coefficients, adverse-impact data, criterion validity) behind the models it uses.",
+    "asset": "How We Validate Every Skills Assessment Against Adverse Impact and Predictive Validity",
+    "distinct_angle": "Names the specific reliability, validity, and adverse-impact standards behind each assessment model, the technical depth this page skips in favor of years-in-business claims.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2981,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire employee engagement / team-connection software, outside the skills-assessment world"
+  },
+  {
+    "row_id": 2982,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 onboarding software, a post-hire product world, not pre-employment assessment"
+  },
+  {
+    "row_id": 2984,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire team productivity / engagement software, outside the skills-assessment world"
+  }
+]

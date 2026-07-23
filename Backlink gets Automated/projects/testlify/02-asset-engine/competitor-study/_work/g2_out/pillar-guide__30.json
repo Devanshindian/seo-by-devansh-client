@@ -1,0 +1,38 @@
+[
+  {
+    "row_id": 3648,
+    "brand_fit": "CORE",
+    "angle_gap": "Gives one-line CEFR 'use case' tags per level and lists test-provider pricing, but never addresses the legal exposure of language testing \u2014 accent-based rejection is a live EEOC/adverse-impact risk \u2014 and never maps CEFR levels to specific job families in any depth.",
+    "asset": "Mapping CEFR English Levels to Job Families Without Triggering an Accent-Discrimination Claim",
+    "distinct_angle": "Where the page gives one-line CEFR use-cases and skips legal risk entirely, ours builds out the CEFR-to-role mapping in real depth and adds the EEOC/adverse-impact framing on accent-based testing the page never mentions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3669,
+    "brand_fit": "CORE",
+    "angle_gap": "A generic benefits-and-types listicle (bias reduction, faster hiring, candidate experience) with no worked example, no validity/adverse-impact evidence, and no guidance on which test type actually fits which role \u2014 reads as marketing copy, not a decision tool.",
+    "asset": "Choosing the Right Skills Test by Role: A Worked Comparison of Technical, Cognitive, and Soft-Skill Assessments",
+    "distinct_angle": "Replaces the page's generic bullet-point benefits list with a worked, role-by-role comparison of which test type to use and why, backed by validity evidence the original never cites.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3693,
+    "brand_fit": "CORE",
+    "angle_gap": "Broad, generic role descriptions ('use coding skills assessments tailored for front-end...') with no depth on how to verify claimed skills against inflated resumes, and the actual hiring-process walkthrough cuts off before delivering concrete steps.",
+    "asset": "Verifying Tech Skills Claims Role by Role: What to Actually Test for Each Tech Hire",
+    "distinct_angle": "Goes past the page's one-line 'use assessments' pointers per role with a concrete verification framework per tech role, plus the step-by-step process detail the original never finishes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3704,
+    "brand_fit": "CORE",
+    "angle_gap": "Strong on macro survey stats (SHRM, CareerBuilder, MSH), but every one of the seven assessment-type sections sets up a 'Common examples:' subheading and then delivers nothing under it, leaving recruiters with no concrete guidance on which specific tests to run.",
+    "asset": "The Assessment Type to Run for Every Hiring Decision, With the Concrete Test Examples Recruiters Actually Need",
+    "distinct_angle": "Fills in the concrete 'which test do I actually run' examples per assessment type that the competitor page sets up with a heading but never delivers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

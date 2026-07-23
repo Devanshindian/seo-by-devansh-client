@@ -1,0 +1,12 @@
+{
+  "iterations": [
+    {
+      "i": 1,
+      "query": "How do existing cost-per-hire calculators from HR/recruiting vendors (e.g., hireTruffle and similar tools) present their line items \u2014 do they stand alone as isolated tools, or do any connect their inputs back to a broader cost-per-hire methodology or pillar content explaining hard costs vs soft costs, benchmarks, and how the number should be used?",
+      "fills": [
+        "A calculator tied back to a pillar's broader cost breakdown \u2014 hiretruffle's calculator stands alone; none connect the line items to a wider cost-per-hire pillar the way this asset's angle requires."
+      ],
+      "dir": "How_to_Calculate_Your_True_Cost_Per_Hire,_Not_the_Industry_Average/iteration-1"
+    }
+  ]
+}

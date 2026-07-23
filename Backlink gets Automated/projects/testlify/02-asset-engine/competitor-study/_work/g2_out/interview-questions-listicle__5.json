@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1352,
+    "brand_fit": "CORE",
+    "angle_gap": "The 100+ questions are almost entirely definitional ('what is X', 'difference between X and Y') with model answers, but there's no scoring guidance for non-technical recruiters and no practical DAX/data-modeling scenario questions \u2014 a candidate could pass by reciting definitions without ever having built a real report.",
+    "asset": "Power BI Interview Questions That Reveal Who Can Actually Build a Report",
+    "distinct_angle": "Swaps several definitional questions for practical DAX-writing and data-modeling scenarios and adds what-a-strong-vs-weak-answer-looks-like notes, closing the evaluation gap this page leaves for non-technical recruiters.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1354,
+    "brand_fit": "CORE",
+    "angle_gap": "Model answers lean on childish analogies (Snowflake editions compared to ice-cream flavors, security explained as a 'bedtime story') instead of technical precision, so a recruiter can't actually judge a candidate's real answer against a rigorous standard.",
+    "asset": "Snowflake Interview Questions Technical Enough to Tell Real Engineers from Rehearsed Analogies",
+    "distinct_angle": "Replaces the page's toy analogies (editions as ice-cream flavors, warehouses as 'kids playing') with precise technical model answers and scoring notes, so recruiters without a data background can still separate a real Snowflake engineer from someone repeating an analogy.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1355,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'freshers' section opens with generic tech-101 questions (what is Salesforce, what is 'the cloud') rather than Developer-specific material (Apex, triggers, governor limits, Lightning) \u2014 it conflates admin-level general knowledge with developer screening.",
+    "asset": "Salesforce Developer Interview Questions That Actually Test Apex, Not Just Admin Basics",
+    "distinct_angle": "Cuts the generic warm-up questions ('what is Salesforce', 'what is a cloud') and leads with Apex/trigger/governor-limit scenarios specific to the Developer role, fixing the admin-vs-developer conflation in this page's early questions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1357,
+    "brand_fit": "CORE",
+    "angle_gap": "Answers are framed as friendly conceptual explanations ('explain it to a friend who's never heard of it') rather than hands-on tasks \u2014 there's no actual PySpark code, Delta Lake merge, or debugging scenario to test whether a candidate can work in a notebook.",
+    "asset": "Databricks Interview Questions That Include Real PySpark Code to Debug",
+    "distinct_angle": "Adds real PySpark/Delta Lake code snippets and a debugging scenario instead of only conceptual 'explain it to a friend' answers, testing whether the candidate can actually work in a notebook rather than just describe one.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1359,
+    "brand_fit": "CORE",
+    "angle_gap": "Despite the h1 promising to 'hire an expert,' the visible basic section stays at 101-level ('what is cloud computing, explained to a kid', IaaS vs PaaS vs SaaS, 'is the cloud like Fort Knox or a playground') with no hands-on AWS/Azure/GCP task to separate an expert from someone who just read the marketing pages.",
+    "asset": "Cloud Computing Interview Questions That Test Hands-On AWS Skills, Not Just Definitions",
+    "distinct_angle": "Replaces the beginner-level definitions (what is cloud computing, IaaS vs PaaS vs SaaS, 'is it like Fort Knox') with hands-on scenario questions like troubleshooting an IAM policy, so recruiters can tell an expert from someone reciting textbook basics \u2014 a gap the 'hire an expert' framing doesn't deliver on.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2186,
+    "brand_fit": "CORE",
+    "angle_gap": "The page defines TNA in one short paragraph, then pivots straight into product feature bullets and generic 'we do it for you' claims (career path mapping, succession planning, high-potential ID) \u2014 it never explains an actual TNA methodology (a gap-analysis model, a sample skills-gap questionnaire, a worked example of mapping current vs required skill for one role).",
+    "asset": "How to Run a Training Needs Assessment That Actually Closes a Skills Gap",
+    "distinct_angle": "Replaces the one-paragraph definition and feature-list pitch with a real step-by-step TNA method \u2014 a gap-analysis model plus a worked example for one role \u2014 the substance this page skips in favor of solution marketing.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2187,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The page's proof points (ISB, CHRIST, NiSM, AIMA) are all universities and certification bodies running academic/certification exams, and the proctoring claims (3-point auth, AI+human review, browser lockdown) are stated as bare feature bullets with no explanation of how detection actually works or its false-positive/candidate-experience trade-offs.",
+    "asset": "What AI Proctoring Actually Catches in a Pre-Employment Test (and Where It Still Gets Fooled)",
+    "distinct_angle": "Explains how each proctoring method (auth, browser lockdown, AI+human flagging) actually detects cheating and its honest trade-offs against candidate experience, versus this page's bare feature bullets aimed at exam boards, not hiring teams.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: academic/certification online examination software (university and certification-body customers, e.g. ISB, CHRIST, NiSM)"
+  },
+  {
+    "row_id": 2188,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Same page content as row 2186's twin URL: proof points are universities/certification bodies (CHRIST, ISB, NiSM, AIMA), and proctoring is described only as feature bullets, with no explanation of detection method or its trade-offs.",
+    "asset": "What AI Proctoring Actually Catches in a Pre-Employment Test (and Where It Still Gets Fooled)",
+    "distinct_angle": "Explains how each proctoring method (auth, browser lockdown, AI+human flagging) actually detects cheating and its honest trade-offs against candidate experience, versus this page's bare feature bullets aimed at exam boards, not hiring teams.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: academic/certification online examination software (university and certification-body customers, e.g. ISB, CHRIST, NiSM); duplicate of row 2187"
+  },
+  {
+    "row_id": 2189,
+    "brand_fit": "CORE",
+    "angle_gap": "The Connect/Assess/Select/Engage framework and case studies (2000+ colleges, 500,000+ candidates reached) are stated as outcomes with no actual process behind them \u2014 no step-by-step timeline for planning a virtual campus drive, and no concrete guidance on which assessment mix (coding vs aptitude vs personality) predicts performance for entry-level freshers.",
+    "asset": "Virtual Campus Recruitment: The Assessment Mix That Predicts Fresher Job Performance",
+    "distinct_angle": "Lays out an actual campus-drive timeline and the specific assessment mix by role type for entry-level hires, replacing this page's vague 'we connect/assess/select for you' framing and unverified aggregate stats.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2190,
+    "brand_fit": "CORE",
+    "angle_gap": "The skills breakdown (Java basics, OOPs, threads, exception handling) never names a Java version and reads as generic legacy-OOP coverage with no sample question shown and no mention of modern Java (streams, records, concurrency changes since Java 17) or code-plagiarism detection for the coding portion.",
+    "asset": "Java Developer Testing in 2026: What to Screen For Beyond Legacy OOP Questions",
+    "distinct_angle": "Adds a sample question, covers current Java capabilities (streams, records, modern concurrency) missing from this page's OOP/threads-only breakdown, and covers code-plagiarism detection the page never mentions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

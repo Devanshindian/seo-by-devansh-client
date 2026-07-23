@@ -1,0 +1,152 @@
+[
+  {
+    "kw": "how much to hire a pi",
+    "vol": 1000,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much to hire pi",
+    "vol": 1000,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much is 1 talent",
+    "vol": 880,
+    "kd": 1,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much is a talent",
+    "vol": 880,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much is one talent",
+    "vol": 880,
+    "kd": 1,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do recruiters make per hire",
+    "vol": 260,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do recruiters make per-hire",
+    "vol": 260,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "cost per hire",
+    "vol": 210,
+    "kd": 7,
+    "intent": "commercial"
+  },
+  {
+    "kw": "costs per hire",
+    "vol": 210,
+    "kd": 13,
+    "intent": "commercial"
+  },
+  {
+    "kw": "cost of hire",
+    "vol": 170,
+    "kd": 7,
+    "intent": "commercial"
+  },
+  {
+    "kw": "cost of hiring",
+    "vol": 170,
+    "kd": 37,
+    "intent": "informational"
+  },
+  {
+    "kw": "cost to hire",
+    "vol": 170,
+    "kd": 18,
+    "intent": "commercial"
+  },
+  {
+    "kw": "costs of hiring",
+    "vol": 170,
+    "kd": 31,
+    "intent": "informational"
+  },
+  {
+    "kw": "hire cost",
+    "vol": 170,
+    "kd": 16,
+    "intent": "informational"
+  },
+  {
+    "kw": "hiring cost",
+    "vol": 170,
+    "kd": 37,
+    "intent": "informational"
+  },
+  {
+    "kw": "hiring costs",
+    "vol": 170,
+    "kd": 27,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does jobhire ai cost",
+    "vol": 170,
+    "kd": 8,
+    "intent": "informational"
+  },
+  {
+    "kw": "cost per usage",
+    "vol": 140,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "calculate cost per hire",
+    "vol": 110,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "kw": "calculating cost per hire",
+    "vol": 110,
+    "kd": 2,
+    "intent": "informational"
+  },
+  {
+    "kw": "cost per hire calculator",
+    "vol": 110,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do recruitment companies charge",
+    "vol": 110,
+    "kd": 0,
+    "intent": "commercial"
+  },
+  {
+    "kw": "how much does a recruitment company charge",
+    "vol": 110,
+    "kd": 12,
+    "intent": "commercial"
+  },
+  {
+    "kw": "how much was a talent",
+    "vol": 110,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "kw": "total cost of job formula",
+    "vol": 110,
+    "kd": 0,
+    "intent": "informational"
+  }
+]

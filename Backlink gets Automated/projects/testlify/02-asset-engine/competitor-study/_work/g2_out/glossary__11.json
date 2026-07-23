@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3609,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines four competency types and lists five behavioral traits with one-line descriptions, but never shows how to actually assess behavioral competency \u2014 no structured interview question bank, no scoring rubric, and only one throwaway hypothetical example ('a person identifies themselves as a problem solver...').",
+    "asset": "Behavioral Competency Indicators, Mapped to Real Interview Questions and a Scoring Rubric",
+    "distinct_angle": "Turns the page's five one-line traits into a full set of STAR-style interview questions and a per-indicator scoring rubric \u2014 the assessment mechanics this page names but never builds.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3612,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 layoffs/workforce reduction is a post-hire workforce-management topic, not skills assessment or hiring; outside Testlify's world."
+  },
+  {
+    "row_id": 3615,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee orientation/onboarding is a post-hire HR administrative process, not hiring or skills assessment."
+  },
+  {
+    "row_id": 3638,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 OKRs is a goal-setting/performance-management framework, explicitly listed off-limits in the brand scope."
+  },
+  {
+    "row_id": 3661,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers inclusion broadly across the whole employee lifecycle (onboarding, performance, L&D) but gives hiring only one short section, asserting 'skills-based assessments level the playing field' without ever explaining how \u2014 no adverse-impact ratio, no validation-study method, no current EEOC/compliance guidance.",
+    "asset": "How to Build a Skills Assessment That Actually Reduces Hiring Bias",
+    "distinct_angle": "Goes deep on the one section this page skims \u2014 walks through adverse-impact testing and validation steps for a bias-reduced skills assessment, where the source page only asserts assessments help without showing the mechanics.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

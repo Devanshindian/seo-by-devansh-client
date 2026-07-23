@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2640,
+    "brand_fit": "CORE",
+    "angle_gap": "The page spends most of its space on why identifying hiring needs matters and lists generic problems (market change, 'lack of clear role definition', poor cross-department communication) but never operationalizes the fix \u2014 'lack of clear role definition' is named as a problem and left there, with no method for turning a role into the specific skill competencies a recruiter could actually test for.",
+    "asset": "Identifying Hiring Needs by Mapping the Skills Gap First, Not Just Headcount",
+    "distinct_angle": "Turns their unsolved 'lack of clear role definition' problem into a concrete method \u2014 defining hiring needs as specific, testable skill competencies rather than headcount and job-title guesses.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2642,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is project-management readiness (PMI/Standish Group data, budgets, scope creep), not hiring or assessment; belongs to a different product world entirely, and the checklist-guide format isn't distinctive enough to justify a transplant."
+  },
+  {
+    "row_id": 2660,
+    "brand_fit": "CORE",
+    "angle_gap": "The page stays abstract throughout \u2014 it defines problem-solving as a soft skill, contrasts 'conventional Q&A' with 'online tests' in general terms, and asks rhetorical questions ('What is a good example of problem-solving?') without ever showing an actual sample test question, a candidate answer, or how to score one.",
+    "asset": "Testing Problem-Solving Skills in Tech Interviews With Real Sample Questions and Scoring Criteria",
+    "distinct_angle": "Replaces their abstract definitions and generic 'use an online test' advice with actual worked sample problem-solving questions and a scoring rubric \u2014 the concrete examples this page promises ('a good example of problem-solving') but never delivers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2882,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The article is thorough on managing and coaching teams that already exist \u2014 psychological safety, communication rhythms, accountability \u2014 but every lever it offers is post-hire (behavioral assessment of people already on the team). It never addresses the earlier decision that determines team composition in the first place: who you hire and for which skills.",
+    "asset": "Building High-Performing Teams by Hiring the Right Skill Mix From Day One",
+    "distinct_angle": "Shifts the focus upstream from post-hire behavioral coaching (their whole framework) to the hiring decision itself \u2014 how skills-based assessment data at the point of hire shapes team composition, a stage this page skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2889,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 general workplace psychology / L&D content (Carol Dweck's growth mindset, employee coaching culture), not hiring or assessment; falls under post-hire development, outside Testlify's world."
+  }
+]

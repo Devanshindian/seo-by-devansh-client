@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3483,
+    "brand_fit": "CORE",
+    "angle_gap": "Runs through generic reasons upskilling matters but never explains how to identify WHICH skills each employee actually lacks before building a program \u2014 it jumps from 'skills are becoming obsolete' straight to best practices, skipping the skill-gap assessment step entirely.",
+    "asset": "How to Find the Real Skill Gaps Before You Build an Upskilling Program",
+    "distinct_angle": "Adds the skill-gap assessment method this page skips \u2014 how to identify precisely which skills each employee needs before designing an upskilling path, the missing step between 'upskilling matters' and 'here's our program.'",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3484,
+    "brand_fit": "CORE",
+    "angle_gap": "Compares the Schmidt & Hunter (1998) and Sackett et al. (2022) validity coefficients in depth but stops at the comparison \u2014 it never translates the numbers into a practical, combined-tool playbook for which 2-3 methods to pair for maximum incremental validity in an actual hiring process.",
+    "asset": "Which Hiring Tools Actually Predict Performance, and How to Combine Them",
+    "distinct_angle": "Turns the same validity-coefficient comparison into an actionable tool-combination playbook (incremental validity) a recruiter can apply directly, the practical step this page never takes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3493,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines four types of leadership agility with abstract company examples (Hyundai, Salesforce-style anecdotes) but never gives recruiters concrete, type-specific assessment criteria \u2014 no behavioral indicators or interview scenarios tied to each type before it pivots to a product plug.",
+    "asset": "How to Actually Assess Each Type of Leadership Agility in an Interview",
+    "distinct_angle": "Pairs each of the four agility types with concrete behavioral indicators and interview scenario questions a recruiter can use immediately, the assessment specificity this page never delivers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3494,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites an SHRM average cost-per-hire of $4,683 and 44-day time-to-hire without a current-year source, and lists calculation variables abstractly without ever plugging in numbers to walk through one complete worked example of a bad-hire's total cost.",
+    "asset": "What a Bad Hire Actually Costs, Worked Out Step by Step With Current Numbers",
+    "distinct_angle": "Refreshes the aging cost-per-hire and time-to-hire figures to current public numbers and walks through one full worked calculation, the concrete example this page never shows.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3495,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Built entirely on 2020-2022 metaverse hype (Hyundai/Samsung/PwC virtual job fairs, a 2022 Microsoft Gen Z stat) with no acknowledgment that metaverse recruiting has since stalled \u2014 it never addresses what actually replaced it or whether the approach still holds up.",
+    "asset": "What Happened to Metaverse Recruiting, and What Actually Replaced It",
+    "distinct_angle": "Updates the stalled 2020-2022 metaverse-hiring narrative with what recruiters actually use today instead (AI video interviewing), the current-state context this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

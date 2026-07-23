@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1071,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans on a 2022 survey of 500 hiring professionals that is now stale, and never delivers the step-by-step rubric-building guide it promises \u2014 that guide sits on a separate page, not this one.",
+    "asset": "Why Most 'Structured' Interviews Aren't Actually Structured (and How to Build One That Is)",
+    "distinct_angle": "Replaces the 2022 stat with current interview-practice data and adds the actual question-bank and rating-scale walkthrough this page only points to elsewhere.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1072,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 candidate-facing interview prep (what to wear, webcam setup, FAQ for the applicant taking the interview), not recruiter/TA content; job-seeker career advice is off-limits per brand scope"
+  },
+  {
+    "row_id": 1079,
+    "brand_fit": "CORE",
+    "angle_gap": "Takes down DISC alone, backs the core claim with an unattributed 'recent research suggests' line, and never compares DISC against the other popular-but-invalid tests (MBTI, Enneagram) hiring teams actually confuse it with.",
+    "asset": "The Popular Personality Tests That Still Don't Predict Job Performance",
+    "distinct_angle": "Extends the single DISC takedown into a sourced comparison of DISC, MBTI, and Enneagram against normative trait assessments, citing named validity research instead of the page's unattributed claim.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1082,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines reliability, construct validity, content validity, and criterion validity in the abstract but never shows a single worked number \u2014 no example Cronbach's Alpha score, no stated threshold for what counts as acceptable.",
+    "asset": "What Cronbach's Alpha and Content Validity Actually Look Like in a Real Assessment",
+    "distinct_angle": "Grounds the four validity types in a worked example with real thresholds and numbers, where the original page defines the terms without ever showing a calculation.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1088,
+    "brand_fit": "CORE",
+    "angle_gap": "Names four factors behind candidate drop-off (clarity, perceived fairness, recruiter responsiveness, feedback) but stops at naming them, with no framework or checklist for fixing any one.",
+    "asset": "The Real Reasons Candidates Abandon Assessments (and How to Fix Each One)",
+    "distinct_angle": "Turns the page's brief list of drop-off factors into a sourced, practical framework for reducing abandonment, since the original never goes past naming them.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

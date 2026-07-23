@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3073,
+    "brand_fit": "CORE",
+    "angle_gap": "Only method #1 (skills testing) gets real depth \u2014 types, a 4-step how-to, pros/cons; the other 6 methods are left thin by comparison, and the '75% of employers admit to mis-hiring' stat carries no source or year. No comparison across all 7 methods showing which combination fits which hiring stage or company size.",
+    "asset": "Which of the 7 Candidate Screening Methods Actually Fits Your Hiring Stage",
+    "distinct_angle": "Gives all 7 methods the same depth skills testing gets here (concrete how-to steps plus pros/cons), adds a stage-by-stage comparison so recruiters know which combination to run, and sources the '75% mis-hire' stat to a dated, citable study instead of leaving it unattributed.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3076,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employer value proposition / employer branding is a different product world (recruitment marketing, retention), not skills assessment; not in our owned subjects."
+  },
+  {
+    "row_id": 3085,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Cites 2018\u20132019 figures (2018 Hays Asia D&I report, 2019 Black senior-leadership share of 3.2%) presented without noting how dated they are, and states the revenue/innovation case for diversity abstractly without tying it to concrete hiring-funnel actions a TA leader can take.",
+    "asset": "The Current Business Case for Workplace Diversity, Past the 2018\u20132019 Numbers",
+    "distinct_angle": "Refreshes the outdated Hays 2018 and 2019 boardroom-representation stats to current public figures and connects the revenue/innovation case to specific hiring-funnel levers, which the original leaves abstract.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3087,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Describes generational traits and cites SHRM age-bias survey stats but stops at naming the 'dangers of age discrimination' without giving recruiters concrete screening fixes \u2014 no guidance on removing age-revealing signals (graduation years, decade-long tenure counts) from screening or building age-blind evaluation steps.",
+    "asset": "Fixing the Hiring-Stage Blind Spots Where Age Bias Actually Creeps In",
+    "distinct_angle": "Moves past describing generational stereotypes to name exactly where age bias enters the screening funnel (resume dates, 'digital native' phrasing in job ads) and how to strip it out \u2014 a practical fix this page never reaches.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3146,
+    "brand_fit": "CORE",
+    "angle_gap": "Written from a team-development angle (skills to 'master', stats on workplace communication) rather than a hiring angle \u2014 it never tells a recruiter how to actually test for these 10 soft skills before a hire, with no interview questions, scoring rubric, or situational prompts per skill.",
+    "asset": "How to Actually Test for Customer Service Soft Skills Before You Hire",
+    "distinct_angle": "Reframes the same 10 soft skills from 'how to develop your team' to 'how to assess candidates for them pre-hire' \u2014 a behavioral question, red/green-flag answer, and scoring note per skill, which this page never provides since it's written for existing employees, not screening.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

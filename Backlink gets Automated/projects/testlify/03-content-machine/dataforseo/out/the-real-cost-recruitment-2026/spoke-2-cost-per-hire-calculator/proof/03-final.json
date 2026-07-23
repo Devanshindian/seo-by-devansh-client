@@ -1,0 +1,64 @@
+{
+  "primary": {
+    "keyword": "cost per hire",
+    "volume": 210,
+    "kd": 7,
+    "intent": "commercial",
+    "why": "Exact head term for the article's core calculation topic; highest-volume term that clears the KD ceiling under commercial intent matching the DIY-calculation angle"
+  },
+  "variations": [
+    {
+      "keyword": "costs per hire",
+      "volume": 210,
+      "kd": 13
+    },
+    {
+      "keyword": "cost of hire",
+      "volume": 170,
+      "kd": 7
+    },
+    {
+      "keyword": "cost to hire",
+      "volume": 170,
+      "kd": 18
+    },
+    {
+      "keyword": "hire cost",
+      "volume": 170,
+      "kd": 16
+    }
+  ],
+  "secondary": [
+    {
+      "keyword": "calculate cost per hire",
+      "volume": 110,
+      "kd": 4,
+      "why": "Distinct DIY-process/formula section \u2014 matches the angle's build-your-own-number approach; folds in the near-duplicate 'calculating cost per hire'"
+    },
+    {
+      "keyword": "total cost of job formula",
+      "volume": 110,
+      "kd": 0,
+      "why": "Distinct formula-naming section that fits the line-item/benchmark breakdown the angle promises"
+    }
+  ],
+  "spoke_candidates": [
+    {
+      "keyword": "cost per hire calculator",
+      "volume": 110,
+      "kd": 0,
+      "intent": "informational",
+      "relevance": 9,
+      "why": "Tool intent \u2014 the named spoke for this pillar's cost breakdown; the natural next click for a reader who just built their own number and now wants a calculator, but deserves its own article rather than a section here",
+      "spoke_score": 0.825
+    }
+  ],
+  "in_body": [
+    "hard costs",
+    "soft costs",
+    "cost per hire by industry",
+    "cost per hire benchmark",
+    "SHRM average cost per hire"
+  ],
+  "notes": "Single verdict pass, no cross-batch conflicts. 'hire cost' is labeled informational in the numbers table against the primary's commercial intent, but kept as a variation since it's a plain word-order synonym of 'cost per hire' targeting the same employer audience and topic \u2014 the intent-label split reads as DataForSEO classifier noise on near-identical short queries, not a genuine audience shift. All KD37/31/27 duplicates of the primary concept (cost of hiring, hiring cost, hiring costs, costs of hiring) were correctly dropped for failing the KD ceiling. Recruiter-pay and off-topic homonym clusters (PI, talent-as-currency, jobhire ai) dropped as different metrics/entities entirely."
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brand Voice — Content Machine Stage 0</title>
+<style>
+  :root{--ink:#1c1a17;--muted:#6b6459;--line:#efe7d8;--paper:#fff;--cream:#fffdf8;--wash:#fff8ec;--yellow:#ffb703;--yellow-soft:#ffe9ad;--orange:#fb7a00;--orange-soft:#ffd9b0;--green:#e8f5ec;--green-line:#cfe8d5;--green-ink:#2e7d43;--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);}
+  *{box-sizing:border-box;}html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;line-height:1.62;font-size:16px;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:960px;margin:0 auto;padding:0 28px;}
+  header{background:linear-gradient(180deg,var(--wash),var(--paper));border-bottom:1px solid var(--line);padding:56px 0 38px;}
+  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--paper);border:1px solid var(--orange-soft);padding:4px 11px;border-radius:100px;margin-bottom:16px;}
+  h1{font-size:clamp(26px,5vw,42px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%);padding:0 2px;}
+  .lede{font-size:18px;color:var(--muted);max-width:660px;margin:0;}
+  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;padding:9px 0;}
+  nav a{font-size:12.5px;font-weight:600;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:100px;}
+  nav a:hover{color:var(--ink);background:var(--wash);}
+  section{padding:48px 0;border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  section.alt{background:var(--cream);}
+  h2{font-size:24px;letter-spacing:-.01em;margin:0 0 4px;}
+  h2 .num{color:var(--orange);margin-right:9px;}
+  .sub{color:var(--muted);margin:0 0 22px;font-size:16px;max-width:680px;}
+  h3{font-size:16px;margin:20px 0 6px;}
+  p{margin:0 0 10px;}
+  ul{margin:5px 0 10px;padding-left:20px;}
+  li{margin:4px 0;font-size:15px;color:var(--muted);}
+  li b{color:var(--ink);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11.5px;background:#fff;border:1px solid var(--orange-soft);border-radius:5px;padding:2px 6px;color:var(--ink);}
+  .note{border-radius:11px;padding:13px 16px;margin:12px 0;font-size:14.5px;border:1px solid;}
+  .note.yellow{background:var(--cream);border-color:var(--line);border-left:4px solid var(--yellow);}
+  .note.orange{background:var(--wash);border-color:var(--orange-soft);border-left:4px solid var(--orange);}
+  .note strong{display:block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;}
+  .note.yellow strong,.note.orange strong{color:var(--orange);}
+  .flow{margin-top:10px;}
+  .step{display:flex;gap:15px;position:relative;padding:10px 0;}
+  .step:not(:last-child)::after{content:"";position:absolute;left:21px;top:48px;bottom:-10px;width:2px;background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-weight:800;font-size:15px;color:var(--ink);background:var(--yellow-soft);border:2px solid var(--yellow);box-shadow:var(--shadow);}
+  .step-body{padding-top:2px;}
+  .step-body h3{margin:0 0 3px;font-size:15.5px;}
+  .step-body p{margin:0;color:var(--muted);font-size:14.5px;}
+  .step-body ul{margin:4px 0 0;padding-left:18px;}
+  .step-body li{font-size:14px;}
+  .outfile{border:1px solid var(--line);border-radius:11px;padding:12px 16px;background:var(--paper);box-shadow:var(--shadow);margin:12px 0;}
+  .outfile .f{margin-bottom:3px;}
+  .outfile p{margin:0;font-size:14px;color:var(--muted);}
+  .sec-table{width:100%;border-collapse:collapse;margin:12px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:14px;}
+  .sec-table th{text-align:left;padding:8px 12px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--cream);border-bottom:2px solid var(--line);}
+  .sec-table td{padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+  .sec-table tr:last-child td{border-bottom:none;}
+  .sec-table .sec{font-weight:600;font-size:13px;}
+  .eg-pillar{border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);margin:16px 0;}
+  .eg-pillar .eg-head{background:var(--wash);padding:10px 16px;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);border-bottom:1px solid var(--orange-soft);}
+  .eg-pillar .eg-row{display:flex;gap:12px;padding:10px 16px;border-bottom:1px solid var(--line);font-size:14px;}
+  .eg-pillar .eg-row:last-child{border-bottom:none;}
+  .eg-pillar .eg-key{min-width:110px;font-weight:600;font-size:13px;color:var(--muted);flex:none;}
+  .eg-pillar .eg-val{color:var(--ink);}
+  .ev-wrap{overflow-x:auto;margin:16px 0;}
+  .ev-table{border-collapse:collapse;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:13.5px;min-width:700px;width:100%;}
+  .ev-table th{text-align:left;padding:9px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--cream);border-bottom:2px solid var(--line);}
+  .ev-table td{padding:9px 13px;border-bottom:1px solid var(--line);vertical-align:top;font-size:13px;}
+  .ev-table tr:last-child td{border-bottom:none;}
+  .ev-table .col-name{font-weight:600;color:var(--orange);white-space:nowrap;}
+  .map-table{width:100%;border-collapse:collapse;margin:14px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:14px;}
+  .map-table th{text-align:left;padding:8px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--cream);border-bottom:2px solid var(--line);}
+  .map-table td{padding:9px 13px;border-bottom:1px solid var(--line);vertical-align:top;}
+  .map-table tr:last-child td{border-bottom:none;}
+  .map-table .sec{font-weight:600;font-size:13px;color:var(--ink);}
+  .map-table .col{font-size:13px;color:var(--orange);font-weight:600;}
+  footer{padding:32px 0 52px;color:var(--muted);font-size:13px;}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="kicker">Content Machine · Stage 0 — Brand Context</span>
+  <h1>Brand Voice — <span class="hl">the writing standard every piece follows</span></h1>
+  <p class="lede">Reads the company's own cornerstone pages and turns them into a complete voice document — pillars, tone, messaging, style rules, audience. Every line traces to a real page, nothing invented.</p>
+</div></header>
+
+<nav><div class="wrap">
+  <a href="#concept">Concept</a>
+  <a href="#output">Output</a>
+  <a href="#steps">Steps</a>
+  <a href="#sections">What's inside</a>
+</div></nav>
+
+<section id="concept">
+  <div class="wrap">
+    <h2><span class="num">01</span>The one rule</h2>
+    <p class="sub">Every cell in brand-voice.md must trace to a real page — either a trait observed in the prose or a verbatim excerpt. Nothing is invented.</p>
+    <p>If the company's pages don't evidence a section, it gets flagged for the human — never fabricated. A Castos reference example exists as a depth and completeness bar only. It is never copied from.</p>
+    <div class="note yellow"><strong>Input</strong>
+    ~30 cornerstone pages already saved as clean markdown files from the brand brain step. Plus the page shortlist with their live URLs in case any saved file reads thin.</div>
+  </div>
+</section>
+
+<section id="output" class="alt">
+  <div class="wrap">
+    <h2><span class="num">02</span>What this produces</h2>
+    <div class="outfile">
+      <div class="f"><span class="file">projects/[company]/content-machine/brand-context/brand-voice.md</span></div>
+      <p>The complete voice document. Every section filled, every claim backed by a page. This is what every later write, rewrite, and optimise pass reads first.</p>
+    </div>
+  </div>
+</section>
+
+<section id="steps">
+  <div class="wrap">
+    <h2><span class="num">03</span>Three steps</h2>
+    <div class="flow">
+      <div class="step"><div class="dot">1</div><div class="step-body">
+        <h3>Read each page and extract one evidence row per page</h3>
+        <p>Each of the ~30 pages gets its own AI agent that reads the full page and fills in five fixed fields. All agents run in parallel. The result is an evidence table — one row per page — that becomes the raw material for everything that follows. Nothing in the final document is invented; it all comes from these rows.</p>
+      </div></div>
+    </div>
+
+    <h3>What the evidence table looks like</h3>
+    <p style="font-size:14.5px; color:var(--muted); margin-bottom:12px;">Five columns, one row per page. Here is a real example row from Testlify's homepage:</p>
+    <div class="ev-wrap">
+      <table class="ev-table">
+        <tr>
+          <th>Page</th>
+          <th>Voice &amp; tone observed</th>
+          <th>Positioning / messaging claim</th>
+          <th>Audience &amp; pain signals</th>
+          <th>Quotable excerpt</th>
+          <th>Style · format · exact CTA</th>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap;">002-hire-the-best<br><span style="color:var(--muted);font-size:12px;">testlify.com/</span></td>
+          <td>Confident, direct, second-person; no hype</td>
+          <td>"Hire the best, not just hire" — quality-of-hire over speed</td>
+          <td>Hiring teams afraid of making bad hires</td>
+          <td><i>"Don't just hire — hire the best."</i></td>
+          <td>Short punchy H1s; colon-led lead-ins; CTA: "Try for Free", "Book a Demo"</td>
+        </tr>
+      </table>
+    </div>
+    <p style="font-size:14px; color:var(--muted);">Blank cells are fine — if a page doesn't speak to a particular column, leave it empty. A blank is useful data (this page doesn't address that topic); padding it with guesses would corrupt the evidence.</p>
+
+    <div class="flow" style="margin-top:28px;">
+      <div class="step"><div class="dot">2</div><div class="step-body">
+        <h3>Fill the brand voice document — section by section from the table</h3>
+        <p>The brand-voice document has fixed sections: pillars, tone guidelines, messaging, value propositions, writing style, formatting, voice examples, and audience understanding. Each section is built by pulling a specific column from all ~30 rows and writing from that evidence alone. Think of it as assembly, not writing from scratch.</p>
+      </div></div>
+    </div>
+
+    <h3>Which column feeds which section</h3>
+    <table class="map-table">
+      <tr><th>Section in brand-voice.md</th><th>Column it pulls from</th></tr>
+      <tr><td class="sec">Brand Voice Pillars</td><td class="col">Voice &amp; tone observed + Positioning/messaging claim</td></tr>
+      <tr><td class="sec">Tone Guidelines</td><td class="col">Voice &amp; tone observed</td></tr>
+      <tr><td class="sec">Messaging Framework</td><td class="col">Positioning / messaging claim</td></tr>
+      <tr><td class="sec">Value Propositions</td><td class="col">Positioning / messaging claim</td></tr>
+      <tr><td class="sec">Writing Style &amp; Formatting</td><td class="col">Style · format · exact CTA</td></tr>
+      <tr><td class="sec">Voice Examples ✅</td><td class="col">Quotable excerpt (pasted verbatim)</td></tr>
+      <tr><td class="sec">Voice Examples ❌</td><td class="col">Written from scratch — the one exception. A fake paragraph showing what the wrong tone looks like, so a writer knows exactly what to avoid.</td></tr>
+      <tr><td class="sec">Audience Understanding</td><td class="col">Audience &amp; pain signals</td></tr>
+    </table>
+
+    <h3>What "pillars" means</h3>
+    <p style="font-size:15px; color:var(--muted);">A pillar is a named theme in how the brand communicates — a recurring characteristic that shows up across multiple pages. For example, after reading 30 pages you might notice that the brand consistently writes in a confident, proof-backed tone and never uses adjectives without data to back them up. That pattern gets named "Confident, Proof-Backed" and becomes one pillar.</p>
+    <p style="font-size:15px; color:var(--muted);">The way to find pillars is to read the Voice &amp; tone and Positioning columns across all rows, group the ones that share a characteristic, and then name each group. The name comes last — not first. If you decide the name before reading the evidence, you end up forcing the evidence to fit a label instead of letting the label emerge from what's actually there. Most brands have 3–5 pillars.</p>
+    <p style="font-size:14px; color:var(--muted);">If after reading all 30 pages a section still doesn't have enough real evidence to fill it properly, flag it for the client. Don't fill the gap with generic statements — a brand voice document written from guesswork defeats its own purpose.</p>
+
+    <div class="flow" style="margin-top:28px;">
+      <div class="step"><div class="dot">3</div><div class="step-body">
+        <h3>Quality check</h3>
+        <p>Every section in the template must be filled with no placeholder text left. The document should have 3–5 pillars each with all four sub-fields (see the example in the next section), tone described for each content type, messaging for each real customer segment, real CTAs and product names throughout. Anything thin or vague goes back to Step 2 to be rebuilt from the evidence.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section id="sections" class="alt">
+  <div class="wrap">
+    <h2><span class="num">04</span>What brand-voice.md contains</h2>
+    <table class="sec-table">
+      <tr><th>Section</th><th>What it holds</th></tr>
+      <tr><td class="sec">Brand Voice Pillars</td><td>3–5 pillars, each with What it means · How it sounds · Example · Avoid</td></tr>
+      <tr><td class="sec">Tone Guidelines</td><td>General tone persona + tone by content type (how-to, strategy, news, product)</td></tr>
+      <tr><td class="sec">Messaging Framework</td><td>3–5 core messages, each with concept, key points, and when to use it</td></tr>
+      <tr><td class="sec">Value Propositions</td><td>One punchy benefit line per real customer segment — gaps flagged, not invented</td></tr>
+      <tr><td class="sec">Writing Style Guidelines</td><td>Sentence structure, paragraph structure, word choice, terminology Say This → Not That pairs</td></tr>
+      <tr><td class="sec">Content Formatting</td><td>Headlines, subheadings, lists, CTAs — with exact on-site CTA text</td></tr>
+      <tr><td class="sec">Voice Examples ✅ / ❌</td><td>Real verbatim excerpt (✅) + constructed anti-example (❌), each with specific reasons</td></tr>
+      <tr><td class="sec">Audience Understanding</td><td>Primary and secondary audiences, top priorities, pain points, how to serve them</td></tr>
+      <tr><td class="sec">Quality Checklist</td><td>~10 checkboxes, one per dimension, tied to this company's voice</td></tr>
+    </table>
+
+    <h3>What a filled pillar looks like</h3>
+    <div class="eg-pillar">
+      <div class="eg-head">Example pillar — Confident, Proof-Backed</div>
+      <div class="eg-row"><span class="eg-key">What it means</span><span class="eg-val">Claims land with real numbers, not adjectives. Every assertion is grounded in a stat, an outcome, or a named fact.</span></div>
+      <div class="eg-row"><span class="eg-key">How it sounds</span><span class="eg-val">Direct, second-person, specific — like a hiring expert talking to a peer, not a marketer talking at a prospect.</span></div>
+      <div class="eg-row"><span class="eg-key">Example</span><span class="eg-val"><i>"Companies that switch to skills-based hiring reduce time-to-hire by 55% and cut hiring costs by 72%."</i></span></div>
+      <div class="eg-row"><span class="eg-key">Avoid</span><span class="eg-val">World-class, seamless, revolutionary, game-changing — any adjective that asserts quality without evidence.</span></div>
+    </div>
+
+    <h3>What a value proposition entry looks like</h3>
+    <div class="eg-pillar">
+      <div class="eg-head">Value propositions — by segment</div>
+      <div class="eg-row"><span class="eg-key">For recruiters</span><span class="eg-val"><i>"Screen 10× faster without reading a single CV."</i></span></div>
+      <div class="eg-row"><span class="eg-key">For HR leaders</span><span class="eg-val"><i>"Cut cost-per-hire by 72% without sacrificing quality."</i></span></div>
+      <div class="eg-row"><span class="eg-key">For enterprises</span><span class="eg-val"><i>"Standardise hiring across every region, role, and team — with one platform."</i></span></div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">Brand Voice · Content Machine Stage 0 · The writing standard every later pass reads from.</div></footer>
+</body>
+</html>

@@ -1,0 +1,84 @@
+{
+  "primary": {
+    "keyword": "cost per hire",
+    "volume": 210,
+    "kd": 7,
+    "intent": "commercial",
+    "why": "The exact metric this asset refreshes (the 2022 SHRM figure), highest volume among commercial-intent heads in the cluster, and the lowest KD of the group \u2014 the clean primary target."
+  },
+  "variations": [
+    {
+      "keyword": "costs per hire",
+      "volume": 210,
+      "kd": 13
+    },
+    {
+      "keyword": "cost of hire",
+      "volume": 170,
+      "kd": 7
+    },
+    {
+      "keyword": "cost to hire",
+      "volume": 170,
+      "kd": 18
+    },
+    {
+      "keyword": "hire cost",
+      "volume": 170,
+      "kd": 16
+    }
+  ],
+  "secondary": [
+    {
+      "keyword": "calculate cost per hire",
+      "volume": 110,
+      "kd": 4,
+      "why": "The formula/how-to-calculate sub-topic the hard-vs-soft breakdown needs; folds in 'calculating cost per hire' as a gerund duplicate."
+    },
+    {
+      "keyword": "hard costs vs soft costs",
+      "volume": 880,
+      "kd": 3,
+      "why": "Matches the angle's hard/soft cost breakdown directly, very low KD; needs a recruiting-specific frame to differentiate from the large construction-terminology cluster it otherwise sits inside."
+    },
+    {
+      "keyword": "how much do recruitment agencies charge",
+      "volume": 110,
+      "kd": 4,
+      "why": "Agency-fee benchmark \u2014 a hard-cost line item the by-role breakdown needs; folds in the 'recruiting/companies/does a' phrasing duplicates."
+    },
+    {
+      "keyword": "recruitment fee",
+      "volume": 90,
+      "kd": 11,
+      "why": "Percent-of-salary fee-structure angle that complements the agency-charge section from a pricing-model view."
+    }
+  ],
+  "spoke_candidates": [
+    {
+      "keyword": "how much do recruiters make per hire",
+      "volume": 260,
+      "kd": 0,
+      "intent": "informational",
+      "relevance": 5,
+      "why": "Different audience and intent (recruiter's own commission/earnings vs. the employer's cost-per-hire), but close enough in the recruitment-cost cluster to be a plausible next read.",
+      "spoke_score": 0.75
+    },
+    {
+      "keyword": "cost per hire calculator",
+      "volume": 110,
+      "kd": 0,
+      "intent": "informational",
+      "relevance": 8,
+      "why": "Tool/utility intent (an interactive calculator) rather than an explainer section \u2014 a natural companion piece a reader of this cost breakdown would click next.",
+      "spoke_score": 0.65
+    }
+  ],
+  "in_body": [
+    "cost of hiring",
+    "costs of hiring",
+    "hiring cost",
+    "hiring costs"
+  ],
+  "notes": "Verdicts tagged 'cost of hiring', 'costs of hiring', 'hiring cost', 'hiring costs' as variations, but their KD (27-37) sits well above the rest of the cluster (7-18) and their intent is informational vs. the primary's commercial \u2014 demoted to in-body-only phrasing, not tracked variations, matching the verdicts' own caveat that KD37 is 'too high to target alone.' 'cost per hire calculator' was scored secondary but reclassified as a spoke: it's clear tool-seeking intent, not an in-article section. 'hard costs vs soft costs' kept as secondary despite the verdict's SERP-crowding flag, since it's the direct keyword for the angle's core hard/soft breakdown section and shares the same audience/intent as the rest of the piece. Terms with no scorer verdict at all (e.g. 'how much does a headhunter cost') were ignored, along with everything every verdict dropped (construction-cluster junk, 'talent'-as-currency, hard-drive costs, branded competitor query, off-topic math/skip queries)."
+}

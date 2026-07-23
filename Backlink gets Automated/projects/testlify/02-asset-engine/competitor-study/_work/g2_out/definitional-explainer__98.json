@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2954,
+    "brand_fit": "CORE",
+    "angle_gap": "Treats the informal A/B/C/D 'personality type' framework as settled fact with zero citation to actual research (Type D originates as a health-psychology construct, not a validated workplace typology), gives no example of how a recruiter would actually detect it in a candidate, and the piece cuts off mid-sentence in its own 'How to get the best out of candidates and employees with Type D personality' section before delivering the promised management guidance.",
+    "asset": "The Type D 'Personality' Label: What the Research Actually Supports for Hiring Decisions",
+    "distinct_angle": "Grounds the Type D construct in its real research origin and finishes what this page abandons \u2014 concrete, complete management tactics tied to an actual candidate scenario, instead of trailing off mid-list.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2965,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire remote-work productivity management (generic WFH tips, promoting Thomas's 'Managing Remote Workers Report'), not hiring or assessment; explicitly off-limits per brand scope's post-hire performance management exclusion."
+  },
+  {
+    "row_id": 2966,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists assessment types (DISC, 360-feedback, personality tests, behavioural assessments) purely abstractly with no adverse-impact/EEOC-defensibility discussion for using them in promotion decisions \u2014 a real legal exposure for HR \u2014 and the page cuts off mid-description of 'Behavioural assessments' before even finishing its own list.",
+    "asset": "How to Build a Leadership Assessment Battery That Survives an Adverse-Impact Review",
+    "distinct_angle": "Adds the adverse-impact/legal-defensibility angle for using these tests in promotion decisions, plus a concrete example battery \u2014 specifics this page never reaches before cutting off mid-list.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2967,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines task- vs people-oriented leadership and gestures at 'self-assessment, peer feedback, or psychometric assessments' to identify orientation, but never gives a recruiter a concrete way to actually screen for either style during a hiring or promotion decision, and the article cuts off mid-sentence ('The impact of leadership orientat...') before its closing section.",
+    "asset": "How to Test for Task- vs People-Oriented Leadership Before You Promote, Not After",
+    "distinct_angle": "Turns the page's vague 'self-assess or take a psychometric test' into an actual pre-promotion screening approach recruiters can run, closing both the practicality gap and the abrupt mid-sentence cutoff.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2969,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists what leadership tests measure (self-confidence, positive attitude, EQ, vision) as a flat catalogue with no comparison of which traits or test types actually predict on-the-job leadership performance, and the list itself cuts off mid-item ('Motivating and insp...') before completing its own framework.",
+    "asset": "Which Leadership Assessment Traits Actually Predict Job Performance, Ranked",
+    "distinct_angle": "Ranks leadership-assessment traits and methods by predictive validity for real job performance \u2014 a comparison this 'ultimate guide' never makes since it only lists traits without evaluating them, and never finishes its own list.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

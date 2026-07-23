@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3020,
+    "brand_fit": "CORE",
+    "angle_gap": "Page claims faster hiring, better candidate fit, and 'dynamically tailored' interview questions purely as marketing bullets \u2014 it never explains what People Science actually measures, how the Workable-Thomas integration works in practice, or shows any validity/proof point behind the claims.",
+    "asset": "What Actually Happens When You Plug Skills Assessments Into Your ATS (And Why Most Integrations Don't Improve Hiring Accuracy)",
+    "distinct_angle": "Where Thomas asserts speed and fit improve with zero mechanism or evidence, ours walks through the real assessment-validity science and the concrete ATS workflow steps that make an integration actually change hiring outcomes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3025,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire manager development/coaching content (self-awareness, communication style, engagement); this is L&D/management-training territory, not pre-employment skills assessment"
+  },
+  {
+    "row_id": 3028,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Homepage's 'data that doesn't expire' pitch asserts hiring-stage assessment insight carries through onboarding, internal mobility and management \u2014 but it stays at the level of vague verbs ('know', 'find', 'optimise', 'connect') with no worked example of what that data actually looks like or how a TA team would use it, and the hiring-accuracy point is diluted among six unrelated post-hire pillars (engagement, conflict resolution, leadership development).",
+    "asset": "How Pre-Hire Skills Data Should Follow a Candidate Into Onboarding and Internal Mobility",
+    "distinct_angle": "Thomas gestures at hiring data 'living on' across the employee lifecycle without ever showing the mechanism; ours stays inside the hiring/internal-mobility slice and lays out concretely which pre-hire assessment scores map to which onboarding and promotion decisions.",
+    "tool_escalation": "",
+    "g_notes": "narrows Thomas's broad lifecycle-platform pitch to only the hiring-to-internal-mobility piece we can credibly own"
+  },
+  {
+    "row_id": 3041,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee engagement, change-leadership and succession-planning content is post-hire talent-management/L&D, a different product world from pre-employment skills testing"
+  },
+  {
+    "row_id": 3093,
+    "brand_fit": "CORE",
+    "angle_gap": "FAQ section defines diversity recruiting software and asserts bias reduction generically, but never engages the actual legal/compliance mechanics (adverse impact ratio, EEOC's four-fifths rule, or how a validated skills test survives an audit) and the 90%/67%/98% stats are dropped with no source or date attached.",
+    "asset": "How Skills-Based Assessment Actually Reduces Adverse Impact \u2014 The Compliance Case Diversity-Hiring Pages Skip",
+    "distinct_angle": "Vervoe's page asserts bias reduction and cites unsourced stats; ours grounds the same claim in the actual adverse-impact math (EEOC four-fifths rule) and validity standards a legally defensible assessment has to meet.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

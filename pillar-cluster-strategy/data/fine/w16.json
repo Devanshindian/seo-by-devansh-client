@@ -1,0 +1,162 @@
+{
+  "slice_id": "w16",
+  "clusters": [
+    {
+      "pillar": "Hiring Technical & Engineering Talent by Role",
+      "intent": "informational",
+      "spokes": [
+        "a-guide-for-hiring-machine-learning-engineers",
+        "a-guide-to-evaluating-and-hiring-software-engineers",
+        "a-guide-to-hiring-cybersecurity-experts",
+        "art-and-science-of-hiring-software-developers",
+        "hiring-a-full-stack-developer",
+        "hiring-a-top-notch-network-engineer",
+        "hiring-a-ui-ux-designer-for-your-team",
+        "hiring-an-ai-engineer",
+        "guide-for-hiring-quality-assurance-manager",
+        "hiring-managers-assessing-hardware-engineers-common-mistakes"
+      ]
+    },
+    {
+      "pillar": "Hiring Data & Analytics Talent by Role",
+      "intent": "informational",
+      "spokes": [
+        "best-practices-for-hiring-data-analysts",
+        "guide-to-hire-data-scientists",
+        "hiring-a-data-scientist-a-guide-to-identifying-and-attracting-the-right-candidates"
+      ]
+    },
+    {
+      "pillar": "Hiring Sales, Marketing & Business Roles by Role",
+      "intent": "informational",
+      "spokes": [
+        "101-guide-on-hiring-business-development-manager",
+        "101-guide-to-hiring-a-operations-manager",
+        "finding-the-perfect-fit-ultimate-guide-on-hiring-a-pr-manager",
+        "guide-of-hiring-a-professional-business-consultant",
+        "guide-on-hiring-sales-development-representative",
+        "guide-to-hiring-a-product-manager",
+        "guide-to-hiring-a-sdr",
+        "guide-to-hiring-a-strong-inside-sales-representative",
+        "guide-to-hiring-an-advertising-and-promotions-manager",
+        "hiring-a-customer-success-manager-a-guide-to-finding-the-best-talent",
+        "hiring-a-marketing-manager-a-comprehensive-guide-for-businesses",
+        "hiring-an-executive-resume-writer",
+        "12-key-steps-to-hiring-the-right-virtual-assistant"
+      ]
+    },
+    {
+      "pillar": "New Hire Orientation Programs",
+      "intent": "informational",
+      "spokes": [
+        "case-studies-of-successful-new-hire-orientation-programs",
+        "common-mistakes-to-avoid-in-new-hire-orientation",
+        "create-a-successful-new-hire-orientation-program",
+        "deliver-a-new-hire-orientation-program",
+        "different-elements-of-new-hire-orientations",
+        "get-started-with-new-hire-orientation"
+      ]
+    },
+    {
+      "pillar": "High-Volume & Enterprise Hiring at Scale",
+      "intent": "informational",
+      "spokes": [
+        "an-ultimate-guide-to-plan-and-implement-volume-hiring",
+        "artificial-intelligence-for-large-volume-hiring",
+        "chat-simulation-for-enterprise-hiring",
+        "enterprise-hiring-funnel",
+        "enterprise-hiring-metrics",
+        "high-volume-hiring-checklist-for-faster-hiring",
+        "how-fedex-hires-at-scale",
+        "how-google-hires-tech-talent"
+      ]
+    },
+    {
+      "pillar": "Data-Driven Hiring Decisions",
+      "intent": "informational",
+      "spokes": [
+        "achieve-data-driven-hiring-without-a-data-team",
+        "demystifying-data-driven-hiring-decisions",
+        "how-automated-candidate-scoring-systems-improve-hiring-speed",
+        "how-data-analytics-can-improve-hiring-decisions"
+      ]
+    },
+    {
+      "pillar": "Executive & Leadership Hiring",
+      "intent": "informational",
+      "spokes": [
+        "executive-hiring-playbook",
+        "find-your-next-executive-hire-in-toronto",
+        "how-lateral-hiring-can-enhance-your-teams-inclusivity"
+      ]
+    },
+    {
+      "pillar": "Developer Hiring: Coding Assessments & Pipelines",
+      "intent": "informational",
+      "spokes": [
+        "10-technical-hiring-tips-for-tech-companies",
+        "best-coding-challenge-platforms-for-developer-hiring",
+        "coding-bootcamps-in-developer-hiring",
+        "developer-costs-before-hiring"
+      ]
+    },
+    {
+      "pillar": "AI in the Hiring Process",
+      "intent": "informational",
+      "spokes": [
+        "applications-of-generative-ai-in-hiring",
+        "how-conversational-ai-reshapes-entry-level-hiring",
+        "hiring-via-job-simulation"
+      ]
+    },
+    {
+      "pillar": "Fair, Compliant & Bias-Free Hiring",
+      "intent": "informational",
+      "spokes": [
+        "are-your-hiring-decisions-compliant-with-laws",
+        "attract-diverse-candidates-to-your-job-postings",
+        "common-examples-of-unfair-hiring-practices-how-to-avoid-them"
+      ]
+    },
+    {
+      "pillar": "Global, Seasonal & Freelance Hiring",
+      "intent": "informational",
+      "spokes": [
+        "best-practices-and-strategies-for-freelance-hiring",
+        "employers-guide-hiring-seasonal-international-workers",
+        "global-hiring-challenges-and-solutions",
+        "global-hiring-insights",
+        "hiring-global-qa-talent-integrating-offshore-testers"
+      ]
+    },
+    {
+      "pillar": "Resume Screening & Candidate Evaluation",
+      "intent": "informational",
+      "spokes": [
+        "detect-fake-resumes-in-hiring",
+        "drawbacks-of-relying-solely-on-resumes-in-pre-hiring",
+        "hiring-candidates-with-time-management-skills"
+      ]
+    },
+    {
+      "pillar": "Optimizing the Hiring Funnel & Speed",
+      "intent": "informational",
+      "spokes": [
+        "ghosting-how-to-fix-hiring-funnel-bottlenecks",
+        "hiring-velocity",
+        "breaking-hiring-silos",
+        "effective-ways-to-identify-hiring-needs"
+      ]
+    }
+  ],
+  "orphans": [
+    "5-tips-for-successful-hiring",
+    "best-job-boards-that-you-should-know",
+    "best-strategies-to-hire-higher-education-talent",
+    "campus-hiring-job-fair-email-templates",
+    "cost-of-a-bad-hire",
+    "email-templates-for-referrals-internal-hiring",
+    "handle-hiring-while-talent-shortages",
+    "hiring-in-the-wild-why-we-still-miss-the-mark"
+  ]
+}

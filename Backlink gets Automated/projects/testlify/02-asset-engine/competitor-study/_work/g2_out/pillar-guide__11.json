@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2235,
+    "brand_fit": "CORE",
+    "angle_gap": "Describes traditional/virtual/blended assessment centers purely as a textbook taxonomy \u2014 no decision framework for which type fits a given company size, budget, or role level, and no cost/time comparison between them.",
+    "asset": "Choosing Between Traditional, Virtual, and Blended Assessment Centers by Budget and Role Level",
+    "distinct_angle": "Adds the concrete decision criteria (cost, turnaround time, fit by role level) for picking a format that this page describes but never helps the reader choose between.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2239,
+    "brand_fit": "CORE",
+    "angle_gap": "Every test-type section (psychometric, aptitude, coding, domain, communication) pitches Mercer|Mettl's own product as the example instead of giving neutral criteria \u2014 validity evidence, adverse-impact risk, role-level fit \u2014 for actually choosing between them.",
+    "asset": "The Real Criteria for Building a Skills Test Battery, Beyond Any Vendor's Product List",
+    "distinct_angle": "Replaces the vendor-first, product-by-product framing with neutral selection criteria for combining test types into one hiring battery \u2014 the gap in this self-promotional walkthrough.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2253,
+    "brand_fit": "CORE",
+    "angle_gap": "Opens with a dated Harris Allied Tech Hiring and Retention survey stat and frames the hiring problem entirely in pre-AI terms \u2014 it never addresses the now-central complication in coder hiring: candidates using AI coding assistants during take-home tests.",
+    "asset": "Hiring Developers in the Age of AI Copilots: What Actually Separates Real Skill from Assisted Answers",
+    "distinct_angle": "Swaps the page's outdated pre-AI hiring-challenges framing and stale survey stat for the current defining problem in coder hiring \u2014 detecting AI-assisted coding \u2014 which this page never mentions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2273,
+    "brand_fit": "CORE",
+    "angle_gap": "Spends significant space on assessments for education use cases before reaching pre-employment guidance at all, and the eventual 'how to choose' section lists assessment categories without ever addressing legal defensibility (EEOC/adverse impact) or proctoring integrity \u2014 the two things a recruiter actually needs to vet a vendor on.",
+    "asset": "The Legal and Integrity Checklist for Choosing Pre-Employment Assessment Software",
+    "distinct_angle": "Cuts the education-assessment tangent and leads with the EEOC/adverse-impact and proctoring-integrity criteria this page's buying-guide section skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2302,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 multi-rater/360-degree feedback is post-hire performance and leadership-development appraisal (peer/subordinate/manager ratings for existing employees), which the brand scope explicitly excludes as 'post-hire performance management... as ends in themselves'; not a hiring/pre-employment-assessment subject."
+  }
+]

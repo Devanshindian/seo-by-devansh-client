@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1076,
+    "brand_fit": "CORE",
+    "angle_gap": "Findings come from Criteria's own single-year proprietary survey (2,000+ respondents) with only 1-2 sentences of advice per finding; already dated by mid-2026 and locked to one company's respondent pool rather than a fuller current picture of candidate sentiment.",
+    "asset": "The State of Candidate Expectations in 2026, and What Recruiters Should Do About Each One",
+    "distinct_angle": "Pulls current candidate-sentiment data from multiple public sources instead of one proprietary 2025 survey, and pairs each finding with a concrete recruiter action step instead of Criteria's one-sentence takeaway.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1078,
+    "brand_fit": "CORE",
+    "angle_gap": "Entirely COVID-era data from 2020 (remote-work transitions, hiring freezes, furloughs) that is now six years stale and describes hiring conditions unrecognizable in 2026; six single-line stats with no trend analysis of what changed since.",
+    "asset": "Hiring Benchmarks in 2026: How Volume, Remote Work, and Diversity Priorities Actually Changed Since the Pandemic",
+    "distinct_angle": "Replaces the 2020 COVID-snapshot figures with current public hiring-benchmark data, framed as a before/after comparison the original page never attempts.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1133,
+    "brand_fit": "CORE",
+    "angle_gap": "Stats are from 2019, pre-dating the pandemic-era labor market shift (e.g., the '24 days average time to hire' figure no longer reflects current hiring conditions), and each stat gets only one generic sentence of interpretation with no worked example of how to act on it.",
+    "asset": "What a Bad Candidate Experience Actually Costs You in 2026, Stat by Stat",
+    "distinct_angle": "Refreshes each 2019-era stat with current public figures and attaches a specific, concrete action per stat instead of the one generic sentence the original gives.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1169,
+    "brand_fit": "CORE",
+    "angle_gap": "50+ stats dumped as a flat bulleted list with zero synthesis or 'what this means for recruiters' guidance anywhere, and several figures are already stale under a 2024 headline (e.g., the video-interview usage stats and gender-selection-gap figures cite pre-2022 sources).",
+    "asset": "Job Interview Data That Should Actually Change How You Interview in 2026",
+    "distinct_angle": "Groups the same stat clusters (video, virtual, gender bias, duration) but attaches a specific recruiter action to each cluster and refreshes the stale sub-2022 figures, instead of leaving 50+ stats unexplained.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1174,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 social media recruitment/sourcing is a candidate-sourcing subject, explicitly outside Testlify's assessment-focused world (same bucket as passive-candidate sourcing called out as off-limits)"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 98,
+    "brand_fit": "CORE",
+    "angle_gap": "The page lists ~20 ATS/HRIS partners (SAP SuccessFactors, UKG, Workday, Greenhouse, Lever, iCIMS, SmartRecruiters, etc.) but gives each only a single recycled one-line company-description lifted straight from the partner's own About page \u2014 several partners (e.g. SAP SuccessFactors, UKG, Workday) appear twice with the identical blurb repeated verbatim. Nowhere does it say what data actually syncs (invites, scores, candidate status, SSO), how long setup takes, or which integration suits which ATS setup.",
+    "asset": "What Actually Syncs When You Connect an Assessment Platform to Your ATS",
+    "distinct_angle": "Where Bryq's page just repeats each partner's own boilerplate tagline (sometimes duplicated for the same partner) with zero sync detail, ours explains exactly what data flows each way \u2014 invites, scores, statuses \u2014 for each major ATS/HRIS and gives real setup steps, so a recruiter can pick and configure the right integration instead of guessing from a one-line blurb.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1114,
+    "brand_fit": "CORE",
+    "angle_gap": "Criteria's page groups 20+ integrations under ATS/HCM/HRIS tags with a one-line blurb each, but never explains the practical difference between them \u2014 native vs. custom-built, one-way vs. two-way data sync, which fields actually transfer \u2014 and gives no help choosing between overlapping options (multiple similar ATS platforms), leaving the reader to click through each 'Learn More' page one by one to find out.",
+    "asset": "Which ATS Integration Actually Fits Your Hiring Stack, Not Just a List of Logos",
+    "distinct_angle": "Criteria's page is a flat directory of one-line blurbs with no comparison; ours groups the same kind of integrations by what actually syncs (invite-only vs. full two-way results sync) and by team size/use case, closing the 'which one do I pick' gap their page leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1512,
+    "brand_fit": "CORE",
+    "angle_gap": "This single-integration landing page lists generic marketing bullets (access reports, cheating prevention, company branding) that are true of any iMocha assessment regardless of the SmartRecruiters connection, then pads out the page with customer testimonials about PMI's and L'Or\u00e9al's skills-development programs that have nothing to do with this integration. There is no actual walkthrough of the connected workflow: where the invite button sits inside SmartRecruiters, what data flows back, or how long setup takes.",
+    "asset": "Setting Up an ATS-to-Assessment Workflow Recruiters Can Actually Follow",
+    "distinct_angle": "iMocha's page substitutes real integration detail with generic feature bullets and unrelated testimonial padding; ours walks through the actual connected workflow step by step \u2014 where the invite button lives inside the ATS, what result data flows back and when \u2014 so a recruiter can picture and configure the real setup instead of reading marketing copy.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1907,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The page mixes VoIP phone systems, job boards, an AI voice-interviewing tool, and productivity apps into one undifferentiated list with a short blurb each, and the visible listing stops after six entries despite claiming a large partner ecosystem. There's no organization by hiring stage or use case, so a reader can't tell how these pieces are meant to fit together into an actual recruiting workflow.",
+    "asset": "How the Pieces of a Modern Hiring Stack Actually Connect, From Sourcing to Skills Screening",
+    "distinct_angle": "Instead of Recruiterflow's flat, uncategorized tool list with no workflow context, ours organizes the same kind of integrations (calling/VoIP, job boards, AI interviewing, skills assessment) by where they sit in the hiring funnel, showing how screening plugs into the rest of the stack \u2014 the 'how do these connect' gap their directory leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3032,
+    "brand_fit": "CORE",
+    "angle_gap": "Thomas names a '5 steps to integrate' process (Discover, Plan, Engage, Test, Integration) but only describes each step in the abstract \u2014 no real timeline, no detail on what's needed from the customer at each stage \u2014 and buries the fact that some integrations carry an extra charge in a single asterisked footnote, leaving cost and duration completely opaque.",
+    "asset": "What an Assessment-to-ATS Integration Actually Costs and Takes to Set Up",
+    "distinct_angle": "Thomas describes its 5-step process only in the abstract and hides pricing caveats in one footnote; ours spells out the real timeline per step and which integrations are standard versus chargeable custom builds, replacing a vague process outline with something a recruiter can actually plan a rollout around.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

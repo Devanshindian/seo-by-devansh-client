@@ -1,0 +1,35 @@
+{
+  "slice_id": "w37",
+  "clusters": [
+    {
+      "pillar": "Hiring Bias & Bias-Free Screening",
+      "intent": "mixed",
+      "spokes": [
+        "affinity-bias",
+        "common-types-of-hiring-bias",
+        "contrast-effect-bias-and-how-to-avoid-it",
+        "first-impression-bias-in-hiring-and-how-to-avoid-it",
+        "heuristic-bias",
+        "how-sjts-eliminate-hiring-bias",
+        "how-testlify-helps-companies-reduce-bias-in-hiring",
+        "how-testlify-supports-bias-free-hiring",
+        "how-to-use-ai-for-bias-free-candidate-screening",
+        "overcome-unconscious-bias-in-hiring",
+        "unconscious-biases-reinforce-the-glass-ceiling"
+      ]
+    },
+    {
+      "pillar": "Workplace Diversity, Equity & Inclusion (DEI)",
+      "intent": "informational",
+      "spokes": [
+        "diversity-in-the-workplace",
+        "how-to-manage-workplace-diversity",
+        "measures-to-promote-dei-in-hiring-practices",
+        "promote-diversity-in-leadership-roles-within-the-organization",
+        "what-is-dei",
+        "workplace-inclusion-strategies"
+      ]
+    }
+  ],
+  "orphans": []
+}

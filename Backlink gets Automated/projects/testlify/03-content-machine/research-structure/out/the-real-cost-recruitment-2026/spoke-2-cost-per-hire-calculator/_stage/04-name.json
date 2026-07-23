@@ -1,0 +1,889 @@
+{
+  "sections": [
+    {
+      "h2": "What is cost per hire, and what does it actually include?",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "How is cost per hire formally defined?",
+          "card_ids": [
+            22,
+            23,
+            24,
+            25
+          ]
+        },
+        {
+          "h3": "What counts as a cost, and what's deliberately left out?",
+          "card_ids": [
+            507,
+            508,
+            509,
+            510,
+            534,
+            535
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What does the ANSI/SHRM Cost-Per-Hire standard actually require?",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "What is the standard formula for cost per hire?",
+          "card_ids": [
+            26,
+            27,
+            28,
+            81,
+            82,
+            105,
+            106,
+            108,
+            272,
+            275,
+            276,
+            277,
+            312,
+            408,
+            409,
+            452
+          ]
+        },
+        {
+          "h3": "How does the standard split internal vs external recruiting costs?",
+          "card_ids": [
+            83,
+            278,
+            279,
+            281,
+            414
+          ]
+        },
+        {
+          "h3": "What quality and transparency practices does the standard require?",
+          "card_ids": [
+            107,
+            274,
+            280
+          ]
+        },
+        {
+          "h3": "Why does CPH still vary in practice despite the standard?",
+          "card_ids": [
+            112,
+            113,
+            410,
+            411,
+            514,
+            515,
+            516,
+            517
+          ]
+        },
+        {
+          "h3": "What is the CPHC comparable formula with 35 line items?",
+          "card_ids": [
+            273,
+            354
+          ]
+        },
+        {
+          "h3": "How do you apply the standard with a calculator and worked example?",
+          "card_ids": [
+            212,
+            213,
+            214,
+            215,
+            216,
+            307,
+            308,
+            309,
+            310,
+            311,
+            313,
+            503,
+            504,
+            505
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What costs count toward cost-per-hire? Internal vs. external cost breakdown",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "How the split is defined: internal vs. external (hard vs. soft) costs",
+          "card_ids": [
+            31,
+            32,
+            33,
+            34,
+            54,
+            69,
+            84,
+            85,
+            404,
+            405
+          ]
+        },
+        {
+          "h3": "External cost line items and typical ranges",
+          "card_ids": [
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            403,
+            513
+          ]
+        },
+        {
+          "h3": "Internal cost line items and typical ranges",
+          "card_ids": [
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            341,
+            400,
+            401,
+            402,
+            511,
+            512
+          ]
+        },
+        {
+          "h3": "A competing taxonomy: direct, indirect, and post-hire costs",
+          "card_ids": [
+            318,
+            319,
+            320,
+            321,
+            322,
+            323,
+            334
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How Do You Calculate Cost per Hire? Rules and Worked Examples",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "The rules for counting hires and costs correctly",
+          "card_ids": [
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        {
+          "h3": "Recruiting Cost Ratio: an alternative metric",
+          "card_ids": [
+            109,
+            110
+          ]
+        },
+        {
+          "h3": "Simple worked examples across company sizes",
+          "card_ids": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            314,
+            378,
+            445,
+            446,
+            466,
+            467
+          ]
+        },
+        {
+          "h3": "Detailed itemized cost breakdowns (international examples)",
+          "card_ids": [
+            325,
+            326,
+            327,
+            328,
+            519,
+            520,
+            521,
+            522
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What does cost-per-hire actually benchmark to?",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "The old SHRM figures ($4,000-$4,700) and why they're dated",
+          "card_ids": [
+            35,
+            37,
+            40,
+            41,
+            257,
+            294,
+            295,
+            296,
+            359,
+            391,
+            430,
+            331
+          ]
+        },
+        {
+          "h3": "SHRM's 2025 benchmark update",
+          "card_ids": [
+            39,
+            142,
+            297,
+            333,
+            360,
+            361,
+            453,
+            454,
+            455
+          ]
+        },
+        {
+          "h3": "How to actually use a CPH benchmark",
+          "card_ids": [
+            42,
+            256,
+            258,
+            259
+          ]
+        },
+        {
+          "h3": "Other recruiting cost and time benchmarks",
+          "card_ids": [
+            165,
+            298,
+            299,
+            300,
+            394
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What Does a Hire Really Cost Beyond the Reported Number?",
+      "is_differentiator": true,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "Why Benchmarks Alone Don't Reveal True Cost",
+          "card_ids": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "h3": "The Real Multiplier: Reported vs. True Cost-Per-Hire by Role Level",
+          "card_ids": [
+            47,
+            343,
+            344,
+            345,
+            346,
+            347,
+            348,
+            349,
+            350,
+            436,
+            437
+          ]
+        },
+        {
+          "h3": "Why Tracking True Cost Matters for Hiring Process Consistency",
+          "card_ids": [
+            20,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Why does cost per hire vary so much, and what should you compare it to?",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "Why a single blended CPH number misleads",
+          "card_ids": [
+            114,
+            148,
+            184,
+            193,
+            194,
+            195,
+            197,
+            549,
+            550,
+            551,
+            552
+          ]
+        },
+        {
+          "h3": "Cost per hire by role type: frontline, white-collar, high-volume",
+          "card_ids": [
+            43,
+            44,
+            45,
+            46,
+            145,
+            146,
+            147,
+            260,
+            261,
+            262,
+            525,
+            527
+          ]
+        },
+        {
+          "h3": "The executive vs. non-executive cost gap",
+          "card_ids": [
+            143,
+            144,
+            196,
+            362,
+            376,
+            392,
+            431
+          ]
+        },
+        {
+          "h3": "Cost per hire by industry and sector",
+          "card_ids": [
+            149,
+            150,
+            151,
+            152,
+            153
+          ]
+        },
+        {
+          "h3": "How company size changes cost per hire",
+          "card_ids": [
+            155,
+            156,
+            157,
+            158
+          ]
+        },
+        {
+          "h3": "What drives cost-per-hire variance",
+          "card_ids": [
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What Cost-Per-Hire Leaves Out \u2014 And What Those Gaps Actually Cost",
+      "is_differentiator": true,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "Why Cost-Per-Hire Only Covers Getting to Day One",
+          "card_ids": [
+            52,
+            99,
+            100,
+            101,
+            104,
+            160,
+            246,
+            247,
+            248,
+            282,
+            283,
+            284,
+            285,
+            286
+          ]
+        },
+        {
+          "h3": "What Vacant Roles, Bad Hires, and Turnover Really Cost",
+          "card_ids": [
+            102,
+            103,
+            161,
+            162,
+            163,
+            167,
+            168,
+            335,
+            342,
+            379,
+            380,
+            381,
+            468
+          ]
+        },
+        {
+          "h3": "The Time-to-Fill and Ramp Benchmarks Behind Those Numbers",
+          "card_ids": [
+            329,
+            367,
+            438,
+            439
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What hidden costs does the standard cost-per-hire number leave out?",
+      "is_differentiator": true,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "Why official CPH figures undercount the real cost of hiring",
+          "card_ids": [
+            86,
+            159,
+            287,
+            324,
+            339,
+            340,
+            432,
+            440,
+            470,
+            471,
+            472,
+            338
+          ]
+        },
+        {
+          "h3": "Recruiter and internal staff time",
+          "card_ids": [
+            164,
+            166,
+            539
+          ]
+        },
+        {
+          "h3": "Ramp-up time before a new hire is fully productive",
+          "card_ids": [
+            250,
+            288
+          ]
+        },
+        {
+          "h3": "Reference and background-check coordination time",
+          "card_ids": [
+            251,
+            289,
+            540
+          ]
+        },
+        {
+          "h3": "Recruiting technology and software costs",
+          "card_ids": [
+            252,
+            290,
+            526,
+            528,
+            536,
+            537,
+            538
+          ]
+        },
+        {
+          "h3": "Accounting and measurement mismatches that distort CPH",
+          "card_ids": [
+            249,
+            253,
+            254,
+            255,
+            351
+          ]
+        },
+        {
+          "h3": "Hidden costs specific to startups",
+          "card_ids": [
+            291,
+            292
+          ]
+        },
+        {
+          "h3": "Offer declines as a sunk cost",
+          "card_ids": [
+            541
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Is a lower cost-per-hire actually a good sign?",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "How widely is cost-per-hire tracked?",
+          "card_ids": [
+            53,
+            154
+          ]
+        },
+        {
+          "h3": "Why do published CPH benchmarks vary so much?",
+          "card_ids": [
+            48,
+            49,
+            382,
+            383,
+            384
+          ]
+        },
+        {
+          "h3": "How a low CPH can hide poor hiring outcomes",
+          "card_ids": [
+            50,
+            170,
+            171,
+            172,
+            206,
+            243,
+            244
+          ]
+        },
+        {
+          "h3": "Pairing CPH with quality-of-hire metrics",
+          "card_ids": [
+            51,
+            173,
+            174,
+            245
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How should cost per hire be used in practice, not just calculated?",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "Why shouldn't cost per hire be read in isolation?",
+          "card_ids": [
+            205,
+            301,
+            302,
+            303,
+            305,
+            306
+          ]
+        },
+        {
+          "h3": "How often and how should cost per hire be reported?",
+          "card_ids": [
+            185,
+            186,
+            201,
+            202,
+            203,
+            204
+          ]
+        },
+        {
+          "h3": "How is cost per hire used for budgeting and forecasting?",
+          "card_ids": [
+            187,
+            188,
+            192
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do CPA and CPH reveal true sourcing-channel efficiency?",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "CPA and CPH basics: what they measure, and why cheap isn't always efficient",
+          "card_ids": [
+            198,
+            199,
+            200
+          ]
+        },
+        {
+          "h3": "How CPH varies by hiring model: in-house, agency, RPO, and contingent",
+          "card_ids": [
+            207,
+            208,
+            210,
+            211,
+            336,
+            412,
+            413
+          ]
+        },
+        {
+          "h3": "What inflates CPH",
+          "card_ids": [
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            463
+          ]
+        },
+        {
+          "h3": "Tools for calculating and comparing source-channel ROI",
+          "card_ids": [
+            230,
+            483
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What Should a Cost-Per-Hire Framework and Checklist Include?",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "What the Framework Provides",
+          "card_ids": [
+            416,
+            417,
+            418,
+            421,
+            422,
+            434
+          ]
+        },
+        {
+          "h3": "A Standardized Cost-Tracking Checklist",
+          "card_ids": [
+            474,
+            475,
+            476,
+            477,
+            478,
+            479,
+            480,
+            424,
+            425,
+            426,
+            428
+          ]
+        },
+        {
+          "h3": "Practical Recommendations for Tracking Cost Per Hire",
+          "card_ids": [
+            377,
+            385,
+            386,
+            387
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How Do Cost-Per-Hire Calculators Work, and What Do They Miss?",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "What a CPH Calculator Actually Calculates",
+          "card_ids": [
+            217,
+            219,
+            223,
+            241,
+            242,
+            388
+          ]
+        },
+        {
+          "h3": "Calculator Examples: iCIMS, Connecteam, and Generic Tools",
+          "card_ids": [
+            225,
+            226,
+            228,
+            315,
+            316,
+            317,
+            337,
+            458,
+            459,
+            460,
+            461,
+            462,
+            464,
+            465,
+            484,
+            485,
+            488
+          ]
+        },
+        {
+          "h3": "What Drives Cost-Per-Hire Up or Down",
+          "card_ids": [
+            233,
+            236,
+            237,
+            238,
+            239,
+            240
+          ]
+        },
+        {
+          "h3": "Adjacent Tool Costs CPH Calculators Don't Capture",
+          "card_ids": [
+            495,
+            497,
+            498,
+            500,
+            501
+          ]
+        },
+        {
+          "h3": "The Methodological Gap: Why a Simple Number Isn't Enough",
+          "card_ids": [
+            530,
+            531,
+            532,
+            544,
+            545,
+            546,
+            547,
+            548
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What Is Cost Per Hire, and How Do You Calculate It?",
+      "is_differentiator": true,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "What is cost per hire?",
+          "card_ids": [
+            553,
+            562
+          ]
+        },
+        {
+          "h3": "The cost per hire formula",
+          "card_ids": [
+            554,
+            563
+          ]
+        },
+        {
+          "h3": "Internal vs. external costs (and hard costs vs. soft costs)",
+          "card_ids": [
+            555,
+            556,
+            564,
+            565,
+            570,
+            572,
+            573
+          ]
+        },
+        {
+          "h3": "Total number of hires",
+          "card_ids": [
+            557
+          ]
+        },
+        {
+          "h3": "Step-by-step: how to calculate cost per hire",
+          "card_ids": [
+            558,
+            577,
+            578,
+            579
+          ]
+        },
+        {
+          "h3": "Why cost per hire matters",
+          "card_ids": [
+            559
+          ]
+        },
+        {
+          "h3": "Cost per hire benchmarks by industry, role, and hiring volume",
+          "card_ids": [
+            560,
+            566,
+            567,
+            568,
+            569,
+            574,
+            575,
+            576,
+            580
+          ]
+        },
+        {
+          "h3": "Cost per hire calculator",
+          "card_ids": [
+            561,
+            571
+          ]
+        },
+        {
+          "h3": "In-house subscription pricing vs. per-placement agency fees",
+          "card_ids": [
+            491,
+            492
+          ]
+        }
+      ]
+    }
+  ]
+}

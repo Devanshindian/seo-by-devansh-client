@@ -1,0 +1,55 @@
+{
+  "slice_id": "w35",
+  "clusters": [
+    {
+      "pillar": "Workforce Planning Fundamentals & Strategy",
+      "intent": "informational",
+      "spokes": [
+        "case-studies-of-workforce-planning",
+        "common-mistakes-to-avoid-in-workforce-planning",
+        "different-steps-in-workforce-planning",
+        "get-started-with-workforce-planning",
+        "guide-to-workforce-planning-for-small-businesses",
+        "how-to-use-technology-to-support-workforce-planning",
+        "how-will-workforce-planning-shape-the-future-of-work",
+        "importance-of-workforce-planning",
+        "what-is-workforce-planning",
+        "workforce-planning-for-remote-teams",
+        "workforce-planning-for-startups"
+      ]
+    },
+    {
+      "pillar": "Succession Planning: Building & Running the Plan",
+      "intent": "informational",
+      "spokes": [
+        "common-mistakes-to-avoid-in-succession-planning",
+        "how-to-develop-a-succession-planning-plan",
+        "how-to-get-started-with-succession-planning",
+        "how-to-identify-key-positions-for-succession-planning",
+        "how-to-implement-a-succession-planning-plan",
+        "how-to-measure-the-success-of-a-succession-planning-plan",
+        "how-to-use-technology-to-support-succession-planning",
+        "the-5-steps-to-succession-planning",
+        "the-importance-of-succession-planning"
+      ]
+    },
+    {
+      "pillar": "Succession Planning for Specific Contexts",
+      "intent": "informational",
+      "spokes": [
+        "inclusive-succession-planning",
+        "small-business-succession-planning",
+        "succession-planning-a-quick-guide-for-future-work",
+        "succession-planning-a-quick-guide-for-startups",
+        "succession-planning-for-remote-teams",
+        "top-case-studies-of-successful-succession-planning"
+      ]
+    }
+  ],
+  "orphans": [
+    "guide-to-internal-mobility",
+    "job-analysis-for-hr-professionals",
+    "job-characteristics-model",
+    "organizational-structure-influence-hiring-decisions"
+  ]
+}

@@ -1,0 +1,511 @@
+{
+  "job": "j7_workplace_hr_skillsmgmt",
+  "pillars": [
+    {
+      "pillar": "Building a Strong Employer Brand",
+      "intent": "informational",
+      "spokes": [
+        "build-an-employer-brand-without-a-marketing-agency",
+        "build-and-maintain-a-positive-employer-brand-reputation",
+        "building-a-strong-employer-brand",
+        "building-a-strong-employer-brand-a-five-step-approach",
+        "building-employer-brand-visual-storytelling",
+        "develop-and-maintain-a-positive-employer-brand",
+        "employer-branding-what-is-it-and-why-is-it-important",
+        "how-communication-can-impact-your-employer-brand",
+        "how-silent-resignation-reshapes-employer-branding",
+        "how-to-build-a-strong-employer-brand",
+        "mastering-the-art-of-employer-branding-on-job-sites"
+      ]
+    },
+    {
+      "pillar": "HR & Hiring Trends",
+      "intent": "informational",
+      "spokes": [
+        "adapt-to-changing-market-trends-and-talent-demands",
+        "emerging-ai-trends-in-hr-management",
+        "emerging-trends-and-innovations-in-lateral-hiring",
+        "emerging-trends-in-talent-analytics",
+        "high-volume-hiring-trends",
+        "hiring-trends-in-content-marketing-manager-hiring",
+        "hiring-trends-in-digital-marketing-specialist-hiring",
+        "how-to-stay-up-to-date-on-hr-trends",
+        "major-trends-in-hiring",
+        "the-latest-trends-in-talent-management",
+        "understanding-campus-hiring-trends"
+      ]
+    },
+    {
+      "pillar": "Workplace Culture Strategy & Business Impact",
+      "intent": "informational",
+      "spokes": [
+        "future-of-workplace-culture",
+        "high-performance-culture",
+        "how-to-build-company-culture-in-a-recession",
+        "how-to-measure-workplace-culture",
+        "how-to-use-technology-to-improve-workplace-culture",
+        "how-to-use-workplace-culture-to-retain-top-talents",
+        "servant-leadership-transforms-workplace-culture",
+        "studies-of-companies-with-good-workplace-cultures",
+        "use-workplace-culture-to-improve-company-bottomline",
+        "what-is-an-american-workplace-culture",
+        "why-us-firms-prioritize-culture-first-hiring"
+      ]
+    },
+    {
+      "pillar": "State Employment & Labor Laws (Eastern & Southern US)",
+      "intent": "informational",
+      "spokes": [
+        "delaware-employment-and-labor-laws",
+        "florida-employment-and-labor-laws",
+        "georgia-employement-and-labor-laws",
+        "maryland-employment-and-labor-laws",
+        "massachusetts-employment-and-labor-laws-2025",
+        "new-jersey-employment-and-labor-laws",
+        "new-york-employment-and-labor-laws",
+        "ohio-employment-and-labor-laws",
+        "pennsylvania-employment-and-labor-laws",
+        "south-carolina-employment-and-labor-laws",
+        "virginia-employment-and-labor-laws"
+      ]
+    },
+    {
+      "pillar": "HR Compliance Policies, Audits & Legal Checklists",
+      "intent": "informational",
+      "spokes": [
+        "best-employer-of-record-services-for-gdpr-and-labor-compliance",
+        "common-hr-compliance-landmines-and-how-to-avoid-them",
+        "conduct-hr-audits-for-policy-compliance-in-the-organization",
+        "develop-implement-workplace-policie-for-hr-compliance",
+        "hr-statutory-compliance",
+        "hr-toolkit-compliance-calender-templates",
+        "key-compliance-trends",
+        "legal-compliance-checklist-for-hiring",
+        "manage-and-prevent-workplace-harassment-in-organization",
+        "smarter-operations-bridging-talent-management-workflow-automation-compliance",
+        "tips-to-overcome-legal-compliance-issues-related-to-equal-employment-opportunity"
+      ]
+    },
+    {
+      "pillar": "Workforce Planning Fundamentals & Strategy",
+      "intent": "informational",
+      "spokes": [
+        "case-studies-of-workforce-planning",
+        "common-mistakes-to-avoid-in-workforce-planning",
+        "different-steps-in-workforce-planning",
+        "get-started-with-workforce-planning",
+        "guide-to-workforce-planning-for-small-businesses",
+        "how-to-use-technology-to-support-workforce-planning",
+        "how-will-workforce-planning-shape-the-future-of-work",
+        "importance-of-workforce-planning",
+        "what-is-workforce-planning",
+        "workforce-planning-for-remote-teams",
+        "workforce-planning-for-startups"
+      ]
+    },
+    {
+      "pillar": "Hiring Bias & Bias-Free Screening",
+      "intent": "mixed",
+      "spokes": [
+        "affinity-bias",
+        "common-types-of-hiring-bias",
+        "contrast-effect-bias-and-how-to-avoid-it",
+        "first-impression-bias-in-hiring-and-how-to-avoid-it",
+        "heuristic-bias",
+        "how-sjts-eliminate-hiring-bias",
+        "how-testlify-helps-companies-reduce-bias-in-hiring",
+        "how-testlify-supports-bias-free-hiring",
+        "how-to-use-ai-for-bias-free-candidate-screening",
+        "overcome-unconscious-bias-in-hiring",
+        "unconscious-biases-reinforce-the-glass-ceiling"
+      ]
+    },
+    {
+      "pillar": "State Employment & Labor Laws (Central & Western US)",
+      "intent": "informational",
+      "spokes": [
+        "california-employment-and-labor-laws",
+        "colorado-employment-and-labor-laws",
+        "illinois-employment-and-labor-laws",
+        "indiana-employment-and-labor-laws",
+        "michigan-employment-and-labor-laws",
+        "minnesota-employment-and-labor-laws",
+        "new-mexico-employment-and-labor-laws",
+        "texas-employment-and-labor-laws",
+        "utah-employment-and-labor-laws",
+        "washington-employment-and-labor-laws"
+      ]
+    },
+    {
+      "pillar": "How to Hire Remote Employees",
+      "intent": "informational",
+      "spokes": [
+        "a-complete-guide-to-remote-hiring",
+        "financial-digital-skills-hybrid-roles-hiring",
+        "find-hire-job-ready-remote-interns-globally",
+        "mistakes-to-avoid-while-hiring-remotely",
+        "practical-ways-to-evaluate-job-candidates-remotely",
+        "remote-hiring-global-security",
+        "remote-hiring-statistics",
+        "strategies-for-overcoming-geographical-and-cultural-barriers-in-remote-hiring",
+        "top-challenges-in-remote-hiring-and-how-to-overcome-them",
+        "top-tools-for-efficient-and-effective-remote-hiring"
+      ]
+    },
+    {
+      "pillar": "HR Technology, HRMS & Automation",
+      "intent": "commercial",
+      "spokes": [
+        "best-hr-case-management-software",
+        "how-to-choose-the-right-hrms-for-your-business",
+        "how-to-use-hrms-to-assess-and-hire-top-talent",
+        "how-to-use-hrms-to-improve-employee-engagement",
+        "hr-automation",
+        "hr-digital-transformation",
+        "implement-effective-hr-technology-solutions-for-automation",
+        "the-latest-trends-in-hr-technology",
+        "top-hr-tech-tools"
+      ]
+    },
+    {
+      "pillar": "HR Strategy, Goals & Planning",
+      "intent": "informational",
+      "spokes": [
+        "hr-budget",
+        "hr-goals-and-objectives",
+        "hr-initiatives",
+        "hr-model",
+        "hr-priorities",
+        "hr-programs",
+        "hr-roadmap",
+        "hr-strategies-to-attract-top-talent",
+        "hr-teams-using-visual-storytelling-to-attract-talent"
+      ]
+    },
+    {
+      "pillar": "Succession Planning: Building & Running the Plan",
+      "intent": "informational",
+      "spokes": [
+        "common-mistakes-to-avoid-in-succession-planning",
+        "how-to-develop-a-succession-planning-plan",
+        "how-to-get-started-with-succession-planning",
+        "how-to-identify-key-positions-for-succession-planning",
+        "how-to-implement-a-succession-planning-plan",
+        "how-to-measure-the-success-of-a-succession-planning-plan",
+        "how-to-use-technology-to-support-succession-planning",
+        "the-5-steps-to-succession-planning",
+        "the-importance-of-succession-planning"
+      ]
+    },
+    {
+      "pillar": "Workplace Communication & Conflict Resolution",
+      "intent": "informational",
+      "spokes": [
+        "bridging-communication-gaps-in-workplace-disputes",
+        "cross-cultural-communication-in-the-workplace",
+        "handle-workplace-conflicts-with-professionalism-and-confidentiality",
+        "how-communication-enhances-workplace-harmony",
+        "how-to-create-an-effective-workplace-communication-plan",
+        "how-to-manage-workplace-conflicts-with-professionalism",
+        "importance-of-conflict-management-for-workplace-relationships",
+        "workplace-conflict-resolution-strategies"
+      ]
+    },
+    {
+      "pillar": "Creating a Positive Workplace Culture",
+      "intent": "informational",
+      "spokes": [
+        "7-ideas-to-fostering-a-positive-company-culture",
+        "create-a-positive-workplace-culture-for-increased-productivity",
+        "foster-a-positive-company-culture-in-your-organization",
+        "how-to-create-a-positive-blue-collar-workplace",
+        "how-to-create-a-positive-work-culture",
+        "how-to-create-a-positive-workplace-culture",
+        "how-to-improve-the-workplace-culture",
+        "why-caring-culture-in-the-workplace-is-important"
+      ]
+    },
+    {
+      "pillar": "HR Functions & Core Processes",
+      "intent": "informational",
+      "spokes": [
+        "hr-checklist",
+        "hr-communication-email-templates-for-hiring-managers",
+        "hr-consider-using-peer-reviews-in-pre-hiring-evaluations",
+        "hr-functions",
+        "hr-hiring-cycle",
+        "hr-holiday-calendar",
+        "hr-sops",
+        "hr-tips-for-successful-offer-management"
+      ]
+    },
+    {
+      "pillar": "Skills-Based Hiring: Guide & Benefits",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-skills-based-hiring",
+        "how-to-implement-skills-based-hiring-in-your-organization",
+        "how-to-use-technology-to-support-skills-based-hiring",
+        "rethinking-talent-validation-in-skills-based-hiring",
+        "skills-based-hiring-statistics",
+        "skills-based-organizations",
+        "ways-skill-based-hiring-can-counter-gender-gap",
+        "what-is-skills-based-hiring-and-why-is-it-important"
+      ]
+    },
+    {
+      "pillar": "Soft Skills Assessment in Hiring",
+      "intent": "informational",
+      "spokes": [
+        "an-hr-perspective-on-candidate-traits-and-nurturing-soft-skills",
+        "incorporating-soft-skills-in-campus-hiring",
+        "soft-skills-assess-what-matters-with-testlify",
+        "soft-skills-case-studies",
+        "soft-skills-statistics",
+        "soft-skills-to-assess-while-hiring-developers",
+        "the-role-of-soft-skills-in-data-science-hiring",
+        "what-are-soft-skills"
+      ]
+    },
+    {
+      "pillar": "Competency & Skills Frameworks, Taxonomies and Inventories",
+      "intent": "informational",
+      "spokes": [
+        "behavioral-competency-a-desired-attribute",
+        "competency-framework",
+        "competency-mapping",
+        "skills-audit",
+        "skills-inventory",
+        "skills-management",
+        "skills-matrix",
+        "skills-taxonomy"
+      ]
+    },
+    {
+      "pillar": "Building an HR Toolkit",
+      "intent": "informational",
+      "spokes": [
+        "build-an-hr-toolkit",
+        "components-of-hr-toolkit",
+        "hr-toolkit",
+        "hr-toolkit-roi",
+        "mistakes-to-avoid-when-building-your-hr-toolkit",
+        "must-have-documents-in-your-hr-toolkit"
+      ]
+    },
+    {
+      "pillar": "How to Build an Employee Compensation & Benefits Package",
+      "intent": "informational",
+      "spokes": [
+        "create-effective-employee-benefits-package",
+        "different-types-of-compensation-and-benefits",
+        "find-compensation-and-benefits-for-your-organization",
+        "how-to-create-a-compensation-benefits-package",
+        "how-to-get-started-with-compensation-and-benefits",
+        "importance-of-compensation-and-benefits"
+      ]
+    },
+    {
+      "pillar": "Succession Planning for Specific Contexts",
+      "intent": "informational",
+      "spokes": [
+        "inclusive-succession-planning",
+        "small-business-succession-planning",
+        "succession-planning-a-quick-guide-for-future-work",
+        "succession-planning-a-quick-guide-for-startups",
+        "succession-planning-for-remote-teams",
+        "top-case-studies-of-successful-succession-planning"
+      ]
+    },
+    {
+      "pillar": "Workplace Diversity, Equity & Inclusion (DEI)",
+      "intent": "informational",
+      "spokes": [
+        "diversity-in-the-workplace",
+        "how-to-manage-workplace-diversity",
+        "measures-to-promote-dei-in-hiring-practices",
+        "promote-diversity-in-leadership-roles-within-the-organization",
+        "what-is-dei",
+        "workplace-inclusion-strategies"
+      ]
+    },
+    {
+      "pillar": "Essential Workplace Skills & Competencies",
+      "intent": "informational",
+      "spokes": [
+        "importance-of-assessing-self-awareness-in-workplace-growth",
+        "importance-of-attention-to-detail-in-the-workplace",
+        "key-steps-for-workplace-success",
+        "the-importance-of-typing-speed-and-accuracy-in-the-workplace",
+        "ultimate-guide-to-problem-solving-in-the-workplace"
+      ]
+    },
+    {
+      "pillar": "Skills Gap Analysis",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-skills-gap-analysis",
+        "bridging-the-skills-gap-a-blueprint-for-effective-skills-gap-analysis",
+        "bridging-the-skills-gap-for-sports-teams",
+        "skill-gap-analysis",
+        "skills-gap-analysis-tools"
+      ]
+    },
+    {
+      "pillar": "Skills Mapping: Frameworks, Templates & Tools",
+      "intent": "mixed",
+      "spokes": [
+        "benefits-of-skills-mapping",
+        "free-skills-mapping-template",
+        "skills-mapping",
+        "skills-mapping-framework",
+        "top-skills-mapping-tools"
+      ]
+    },
+    {
+      "pillar": "Managing Compensation & Benefits Programs",
+      "intent": "informational",
+      "spokes": [
+        "case-studies-of-compensation-and-benefits-programs",
+        "common-mistakes-to-avoid-while-offering-compensation-and-benefits",
+        "communicate-compensation-and-benefits-to-your-employees",
+        "how-to-manage-compensation-and-benefits-costs",
+        "use-technology-to-support-compensation-and-benefits"
+      ]
+    },
+    {
+      "pillar": "Managing & Building Remote and Distributed Teams",
+      "intent": "informational",
+      "spokes": [
+        "handle-hr-responsibilities-in-remote-work-environment",
+        "how-to-manage-a-remote-team",
+        "organizational-development-for-remote-teams",
+        "strategies-for-building-managing-distributed-teams",
+        "the-role-of-hr-tools-in-remote-work-environment"
+      ]
+    },
+    {
+      "pillar": "Building a Diverse & Inclusive Workplace",
+      "intent": "informational",
+      "spokes": [
+        "9-ideas-for-making-your-workplace-more-inclusive",
+        "build-a-diverse-and-inclusive-workplace",
+        "build-a-diverse-workplace-culture-for-increased-productivity",
+        "build-inclusive-workplace-practical-strategies"
+      ]
+    },
+    {
+      "pillar": "Work-Life Balance & Workplace Wellness",
+      "intent": "informational",
+      "spokes": [
+        "19-ideas-for-creating-a-healthier-workplace",
+        "create-culture-of-work-life-balance-in-organization",
+        "how-to-create-a-culture-of-work-life-balance",
+        "implement-a-successful-workplace-wellness-program"
+      ]
+    },
+    {
+      "pillar": "Upskilling & Reskilling the Workforce",
+      "intent": "informational",
+      "spokes": [
+        "ai-upskilling-guide-for-hr-teams",
+        "transferable-skills",
+        "upskilling-and-reskilling",
+        "upskilling-improve-workplace-wellbeing"
+      ]
+    },
+    {
+      "pillar": "Compensation & Benefits by Company Type (Startup, Small Business, Remote)",
+      "intent": "informational",
+      "spokes": [
+        "compensation-and-benefits-for-the-future-of-work",
+        "provide-compensation-and-benefits-as-a-small-business",
+        "providing-compensation-and-benefits-as-a-remote-team",
+        "providing-compensation-and-benefits-as-startup"
+      ]
+    },
+    {
+      "pillar": "What Goes Into a Modern Benefits Package",
+      "intent": "informational",
+      "spokes": [
+        "comprehensive-benefits-packages-contribute-to-talent-retention",
+        "comprehensive-health-insurance-options-impact-benefits-packages",
+        "remote-work-allowances-becoming-staple-benefits-packages",
+        "retirement-planning-assistance-play-in-benefits-packages"
+      ]
+    },
+    {
+      "pillar": "Remote Team Collaboration & Work Environment",
+      "intent": "informational",
+      "spokes": [
+        "5-creative-strategies-for-retaining-remote-candidates",
+        "8-ideas-to-create-a-thriving-remote-work-environment",
+        "foster-team-collaboration-in-remote-work-environments",
+        "top-remote-work-collaboration-tools-for-distributed-teams"
+      ]
+    },
+    {
+      "pillar": "Quiet Quitting & Workplace Negativity",
+      "intent": "informational",
+      "spokes": [
+        "most-pressing-issues-in-the-workplace-with-solutions",
+        "quiet-quitting",
+        "workplace-negativity"
+      ]
+    },
+    {
+      "pillar": "HR Metrics, KPIs & Reporting",
+      "intent": "informational",
+      "spokes": [
+        "hr-benchmarking",
+        "hr-kpis",
+        "hr-reporting"
+      ]
+    },
+    {
+      "pillar": "HR Communication & Difficult Conversations",
+      "intent": "informational",
+      "spokes": [
+        "hr-issues",
+        "hr-layoff-communication-strategies",
+        "hr-workplace"
+      ]
+    },
+    {
+      "pillar": "HR Solutions by Company Type",
+      "intent": "informational",
+      "spokes": [
+        "hr-solutions-for-remote-work",
+        "hr-solutions-for-small-businesses",
+        "hr-sustainability-initiatives"
+      ]
+    },
+    {
+      "pillar": "HR Skills & People Management",
+      "intent": "informational",
+      "spokes": [
+        "hr-innovation",
+        "hr-skills",
+        "people-management-skills"
+      ]
+    },
+    {
+      "pillar": "Salary Negotiation & Pay Offers",
+      "intent": "informational",
+      "spokes": [
+        "how-to-address-salary-parity-concern-in-lateral-hires",
+        "how-to-make-blue-collar-salary-and-benefits-offers",
+        "negotiate-competitive-salary-and-benefits-packages-within-budget-constraints"
+      ]
+    },
+    {
+      "pillar": "Payroll Management & HR Payroll Integration",
+      "intent": "mixed",
+      "spokes": [
+        "best-peos-utah-small-business-hr-payroll",
+        "guide-to-payroll-management",
+        "integrating-hr-solutions-with-payroll-systems"
+      ]
+    }
+  ]
+}

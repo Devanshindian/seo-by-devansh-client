@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1703,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Covers stress, role overload, and engagement/wellness-driven causes of turnover but never surfaces poor candidate-job fit at the hiring stage \u2014 despite person-job mismatch being one of the most cited, well-documented turnover predictors \u2014 so the prevention advice stays reactive (surveys, wellness programs) instead of addressing the root cause upstream, before the hire is even made.",
+    "asset": "The Turnover Reasons HR Keeps Trying to Fix After the Hire Is Already Made",
+    "distinct_angle": "Reframes turnover prevention around the hiring-stage fit gap this page skips entirely, showing how mis-hires \u2014 not just stress or engagement \u2014 drive the departures its own list covers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1704,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists 11 broad best practices (job descriptions, careers page, technology, application process) with shallow 'HR tip' bullet boxes, but never once addresses the assessment/testing stage itself \u2014 a candidate's most scrutinized touchpoint \u2014 leaving out test length, feedback timing, and perceived fairness during screening.",
+    "asset": "What Candidates Actually Remember About Your Hiring Process: The Assessment Stage, Not the Application",
+    "distinct_angle": "Closes the assessment-stage blind spot this list skips over, covering test length, feedback speed, and perceived fairness \u2014 the touchpoints AIHR's 11 tips never mention.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1706,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 general L&D/remote-training-delivery content (virtual classrooms, e-learning formats), not hiring or assessment; outside our world"
+  },
+  {
+    "row_id": 1707,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 workplace wellness/benefits trends (mental health perks, telehealth), adjacent HR territory outside skills-assessment/hiring scope"
+  },
+  {
+    "row_id": 1801,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 internal HR-team upskilling/training-program design, not candidate hiring or assessment; belongs to L&D world, not ours"
+  }
+]

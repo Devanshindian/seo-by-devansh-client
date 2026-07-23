@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 491,
+    "brand_fit": "CORE",
+    "angle_gap": "The page is a sales/testimonial page, not proof of substance \u2014 four one-line skill bullets and nine customer quotes, but zero sample questions, no scoring breakdown, and no explanation of what 'accurate' clerical-skills scoring actually looks like.",
+    "asset": "Clerical & Administrative Skills, Tested With Real Sample Questions and a Scoring Breakdown",
+    "distinct_angle": "Where eSkill's page is four bullet points wrapped in testimonials, ours shows the actual sample questions and how each is scored, so a recruiter can judge the test's rigor before signing up.",
+    "tool_escalation": "format is a live skills assessment (quiz/test) \u2014 needs a real test-delivery build, not just an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 538,
+    "brand_fit": "CORE",
+    "angle_gap": "The FAQ teaches generic SQL history and syntax ('developed in the early 1970s at IBM') but never shows an actual graded SQL test question, and it raises the analyst-vs-engineer skill distinction ('DML and DDL... instead by data engineers') without ever developing it.",
+    "asset": "The SQL Test Questions That Separate a Data Analyst From a Data Engineer, With Sample Answers",
+    "distinct_angle": "Alooba's FAQ explains what SQL is in the abstract; ours shows real graded sample questions split by role level, closing the analyst-vs-engineer distinction the page raises but never answers.",
+    "tool_escalation": "format is a live SQL coding assessment \u2014 needs a real test-delivery build, not just an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 568,
+    "brand_fit": "CORE",
+    "angle_gap": "The page describes the practical, messy-dataset format in the abstract ('missing values, strangely named columns, outliers') but never shows one real example question, dataset snippet, or what a strong vs. weak 'actionable insight' answer actually looks like.",
+    "asset": "What a Strong Data Analysis Test Answer Actually Looks Like, Insight by Insight",
+    "distinct_angle": "Alooba describes the messy-dataset format but shows no worked example; ours walks through a real sample dataset and contrasts a weak answer against a strong, actionable one.",
+    "tool_escalation": "format is a live practical data-analysis assessment \u2014 needs a real test-delivery build, not just an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 570,
+    "brand_fit": "CORE",
+    "angle_gap": "The FAQ is almost entirely objection-handling (interview-vs-test, take-home-vs-platform) and never lists which actual Excel functions or skill levels (beginner/intermediate/advanced) the test covers, so a buyer can't judge its rigor from the page itself.",
+    "asset": "The Excel Functions That Actually Separate Beginner, Intermediate, and Advanced Candidates",
+    "distinct_angle": "Alooba's page argues why to test Excel at all but never says what's in the test; ours breaks down the real functions and tasks that mark each skill tier, the specificity this page skips.",
+    "tool_escalation": "format is a live Excel skills assessment \u2014 needs a real test-delivery build, not just an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 630,
+    "brand_fit": "CORE",
+    "angle_gap": "The FAQ covers R's history and general strengths ('created... in 1993 at the University of Auckland') but never shows a sample R test question, and it dismisses the data-scientist-vs-data-engineer distinction in a single line ('R is a bit more niche than Python') instead of exploring it.",
+    "asset": "The R Skills That Matter for a Data Scientist vs. a Data Engineer, With Sample Test Questions",
+    "distinct_angle": "Alooba's FAQ stays at the history-and-features level; ours shows real sample R questions split by the data-scientist/data-engineer distinction the page names but never explores.",
+    "tool_escalation": "format is a live R coding assessment \u2014 needs a real test-delivery build, not just an article.",
+    "g_notes": ""
+  }
+]

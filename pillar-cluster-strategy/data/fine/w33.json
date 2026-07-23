@@ -1,0 +1,73 @@
+{
+  "slice_id": "w33",
+  "clusters": [
+    {
+      "pillar": "Performance Management Fundamentals",
+      "intent": "informational",
+      "spokes": [
+        "what-is-performance-management",
+        "the-importance-of-performance-management",
+        "how-to-get-started-with-performance-management",
+        "different-steps-in-performance-management",
+        "performance-management-cycle",
+        "common-mistakes-to-avoid-in-performance-management"
+      ]
+    },
+    {
+      "pillar": "Building & Implementing a Performance Management System",
+      "intent": "informational",
+      "spokes": [
+        "create-a-performance-management-system",
+        "implement-a-performance-management-system",
+        "implementing-performance-management-system-in-smbs",
+        "implementing-performance-management-system-in-startup",
+        "case-studies-of-performance-management-system",
+        "how-to-measure-the-success-of-performance-management",
+        "top-performance-management-tools",
+        "use-technology-to-support-performance-management"
+      ]
+    },
+    {
+      "pillar": "Performance Management for Remote & Future Work",
+      "intent": "informational",
+      "spokes": [
+        "performance-appraisals-in-remote-work-environments",
+        "performance-management-system-in-remote-teams",
+        "performance-management-system-in-the-future-of-work"
+      ]
+    },
+    {
+      "pillar": "Learning & Development Planning",
+      "intent": "informational",
+      "spokes": [
+        "addressing-learning-and-development-needs-in-hr",
+        "how-to-create-a-learning-and-development-plan",
+        "types-of-learning-and-development-activities",
+        "kpis-for-evaluating-training-and-development",
+        "training-effectiveness"
+      ]
+    },
+    {
+      "pillar": "Employee Training Programs",
+      "intent": "informational",
+      "spokes": [
+        "cost-effective-employee-training-solutions",
+        "develop-a-successful-employee-training-program",
+        "develop-and-implement-employee-training-programs-for-professional-development",
+        "conduct-effective-hr-training-sessions-for-employees",
+        "targeted-training",
+        "incorporate-gamification-in-corporate-training",
+        "cross-training-employees"
+      ]
+    }
+  ],
+  "orphans": [
+    "conduct-effective-employee-performance-reviews",
+    "maintain-employee-performance-reviews-and-feedback",
+    "conduct-effective-diversity-training-for-a-diverse-workforce",
+    "increase-diversity-in-your-team-without-training",
+    "leadership-training-programs-for-educators",
+    "reverse-mentoring",
+    "hiring-and-training"
+  ]
+}

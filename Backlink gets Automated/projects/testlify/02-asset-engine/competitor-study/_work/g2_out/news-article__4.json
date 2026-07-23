@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2509,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee wellness/benefits value-proposition survey; belongs to benefits administration, not skills assessment or hiring, which the brand scope marks off-limits."
+  },
+  {
+    "row_id": 2511,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 workplace gossip/employee-relations policy; general post-hire conduct topic, not hiring or assessment."
+  },
+  {
+    "row_id": 2516,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 performance-review systems are post-hire performance management, explicitly off-limits; page body is also stripped/empty so there's no content to build a gap from."
+  },
+  {
+    "row_id": 2518,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Leans entirely on a June 2022 SHRM/Microsoft survey (48% 'definitely' want remote) and stops at reporting attitudes \u2014 it never translates the remote-work-demand finding into anything a recruiter or TA lead can act on, like how screening or interview design should change when hiring for remote-first roles.",
+    "asset": "What Workers' Growing Demand for Remote Roles Means for How You Screen and Interview Them",
+    "distinct_angle": "Refreshes the now-stale 2022 remote-work-demand figures with current data and adds the missing piece \u2014 concrete adjustments to screening and interview design for remote-first hiring \u2014 that this page never covers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2520,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "A 2023 labor-shortage forecast built on demographic projections; it name-drops 'a shift to skills-based hiring' as one fix from a single quoted economist but never explains how a hiring team would actually operationalize skills-based hiring to counter a shrinking talent pool \u2014 the forecast is also now several years stale against current labor-market data.",
+    "asset": "Why the Labor Shortage Never Went Away \u2014 and the Skills-Based Hiring Playbook That Actually Closes It",
+    "distinct_angle": "Checks the 2023 demographic forecast against where the labor market actually landed, then turns the article's passing 'skills-based hiring' mention into a concrete playbook for operationalizing it, which this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

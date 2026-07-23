@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1724,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The page is a generic team-effectiveness/organizational-development framework roundup (GRPI, Hackman, Robbins & Judge, Katzenbach & Smith, Tuckman, etc.) covering how to manage teams AFTER they're formed \u2014 it never connects any model to what should be screened for at the hiring stage, so the frameworks stay abstract with no worked example tied to a hiring decision.",
+    "asset": "The Team-Fit Traits Structured Interviews Should Be Screening For (and the Models Behind Them)",
+    "distinct_angle": "Replaces AIHR's post-hire team-management frameworks with a same-caliber listicle of named models mapped to what a pre-hire skills/behavioral assessment should screen for, closing the gap between 'know the model' and 'hire for it' that AIHR's page never addresses.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: team effectiveness / organizational development (post-hire team management)"
+  },
+  {
+    "row_id": 1726,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee wellbeing/wellness metrics is post-hire employee-experience and benefits territory, outside skills-assessment/hiring; falls in the off-limits post-hire performance/engagement bucket with no distinctive link-pulling format worth transplanting"
+  },
+  {
+    "row_id": 1727,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Covers 17 employer-branding metrics (candidate NPS, brand search volume, employee referral rate, Glassdoor rating trend, etc.) purely as marketing/comms outputs \u2014 it never ties any metric back to the hiring process itself, e.g. how a long, unfair, or buggy skills-assessment step drags down Candidate NPS and Glassdoor ratings.",
+    "asset": "The Employer-Branding Metrics That Actually Move When Your Hiring and Testing Process Changes",
+    "distinct_angle": "Ties each branding metric back to the concrete hiring/assessment touchpoint that moves it \u2014 e.g. test length and fairness affecting Candidate NPS and Glassdoor rating \u2014 the causal link AIHR's list never draws.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1728,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Defines descriptive, diagnostic, predictive, and prescriptive analytics using only generic HR examples (headcount, PTO, turnover) \u2014 none of the four types is illustrated with a recruiting or assessment use case, e.g. predictive analytics validating skills-test scores against later job performance.",
+    "asset": "What Descriptive, Diagnostic, Predictive, and Prescriptive Analytics Actually Look Like in a Hiring Funnel",
+    "distinct_angle": "Re-illustrates all four analytics types with recruiting- and assessment-specific examples instead of AIHR's generic headcount/turnover examples, the concrete application a TA leader is actually searching for.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1729,
+    "brand_fit": "CORE",
+    "angle_gap": "17 SMART goal examples span nearly every HR function (benefits, generalist career growth, engagement surveys) but only a couple touch recruiting, and none is built around structured hiring, assessment adoption, or cutting bad-hire rate \u2014 the goals a TA/recruiting leader would actually set.",
+    "asset": "SMART Goals for Recruiting Teams That Are Actually Trying to Cut Bad Hires, Not Just Fill Reqs",
+    "distinct_angle": "Narrows AIHR's mostly non-recruiting goal list to hiring- and assessment-specific SMART goals \u2014 e.g. raising structured-interview adoption, cutting time-to-hire via skills testing \u2014 with the same worked-example-plus-template shape they use.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

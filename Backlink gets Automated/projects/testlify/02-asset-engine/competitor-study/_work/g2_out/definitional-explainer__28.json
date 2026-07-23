@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 605,
+    "brand_fit": "CORE",
+    "angle_gap": "Thin: offers no worked example of what a strong data story looks like, no rubric for scoring candidate responses, and the page itself trails off mid-sentence in the 'Audience Consideration' section.",
+    "asset": "Data Storytelling Interview Prompts With a Scoring Rubric Recruiters Can Actually Use",
+    "distinct_angle": "Adds a real sample data-storytelling prompt with model strong/weak answers and a scoring rubric \u2014 the concrete evaluation guidance this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 606,
+    "brand_fit": "CORE",
+    "angle_gap": "Entirely abstract: five generic bullet benefits (Increased Efficiency, Enhanced Decision-Making, etc.) with no mention of actual integration methods (ETL, ELT, API-based, iPaaS) and no interview questions to assess the skill.",
+    "asset": "What to Ask Candidates About Data Integration Beyond ETL Buzzwords",
+    "distinct_angle": "Names the actual integration approaches (ETL, ELT, API-based, iPaaS) and gives sample interview questions with strong/weak answer examples, replacing the page's five generic bullet benefits.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 607,
+    "brand_fit": "CORE",
+    "angle_gap": "Describes the 'data cube' concept (slicing, dicing, drilling down) only in the abstract \u2014 never shows one real cube with actual dimension values \u2014 and the page cuts off mid-list under 'Topics Covered.'",
+    "asset": "Assessing Multidimensional Database Design With a Real Data-Cube Example, Not Just Theory",
+    "distinct_angle": "Walks through one real data-cube example with actual dimension values, filling the gap left by a page that only describes cubes abstractly and cuts off mid-list.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 608,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists five abstract 'key features' (Data Integration, Feature Versioning, Feature Serving, Feature Engineering, Security/Governance) without naming a single real feature-store tool (Feast, Tecton, SageMaker Feature Store) or giving an interview question to tell hands-on experience from memorized definitions.",
+    "asset": "Feature Store Interview Questions That Separate Hands-On Builders From Textbook Readers",
+    "distinct_angle": "Names real feature-store tools (Feast, Tecton, SageMaker) and gives an interview question that separates hands-on builders from candidates who only memorized the five bullet features listed here.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 609,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers the four-step data acquisition process (identify sources, plan, implement, validate) entirely in the abstract, with no concrete source-to-insight example and no sample interview question to test the skill.",
+    "asset": "Data Acquisition Interview Questions That Go Beyond the Textbook Steps",
+    "distinct_angle": "Walks through one real source-to-insight data acquisition example and sample interview questions, where this page stays entirely abstract across its four-step process.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

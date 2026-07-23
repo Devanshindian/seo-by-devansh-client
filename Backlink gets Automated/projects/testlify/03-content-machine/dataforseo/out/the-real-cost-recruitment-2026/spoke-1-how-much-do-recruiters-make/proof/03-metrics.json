@@ -1,0 +1,644 @@
+[
+  {
+    "kw": "food near me",
+    "vol": 68000000,
+    "kd": 5,
+    "intent": "commercial"
+  },
+  {
+    "kw": "food.near me",
+    "vol": 68000000,
+    "kd": 6,
+    "intent": "commercial"
+  },
+  {
+    "kw": "resta",
+    "vol": 45500000,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "restaurants",
+    "vol": 45500000,
+    "kd": 31,
+    "intent": "informational"
+  },
+  {
+    "kw": "target",
+    "vol": 45500000,
+    "kd": 24,
+    "intent": "informational"
+  },
+  {
+    "kw": "targets",
+    "vol": 45500000,
+    "kd": 49,
+    "intent": "informational"
+  },
+  {
+    "kw": "weather tomorrow",
+    "vol": 37200000,
+    "kd": 34,
+    "intent": "informational"
+  },
+  {
+    "kw": "blooket",
+    "vol": 30400000,
+    "kd": 23,
+    "intent": "informational"
+  },
+  {
+    "kw": "blookets",
+    "vol": 30400000,
+    "kd": 16,
+    "intent": "informational"
+  },
+  {
+    "kw": "walmart supercenter",
+    "vol": 30400000,
+    "kd": 33,
+    "intent": "navigational"
+  },
+  {
+    "kw": "wm supercenter",
+    "vol": 30400000,
+    "kd": 28,
+    "intent": "navigational"
+  },
+  {
+    "kw": "canvases",
+    "vol": 24900000,
+    "kd": 6,
+    "intent": "transactional"
+  },
+  {
+    "kw": "chorionic villus sampling",
+    "vol": 20400000,
+    "kd": 29,
+    "intent": "informational"
+  },
+  {
+    "kw": "google fl",
+    "vol": 20400000,
+    "kd": 38,
+    "intent": "navigational"
+  },
+  {
+    "kw": "walgreens",
+    "vol": 20400000,
+    "kd": 40,
+    "intent": "navigational"
+  },
+  {
+    "kw": "xdj",
+    "vol": 20400000,
+    "kd": 5,
+    "intent": "informational"
+  },
+  {
+    "kw": "best buy",
+    "vol": 16600000,
+    "kd": 41,
+    "intent": "navigational"
+  },
+  {
+    "kw": "conec",
+    "vol": 13600000,
+    "kd": 2,
+    "intent": "informational"
+  },
+  {
+    "kw": "connecting",
+    "vol": 13600000,
+    "kd": 36,
+    "intent": "informational"
+  },
+  {
+    "kw": "sam's club",
+    "vol": 13600000,
+    "kd": 40,
+    "intent": "transactional"
+  },
+  {
+    "kw": "trader joe",
+    "vol": 13600000,
+    "kd": 40,
+    "intent": "navigational"
+  },
+  {
+    "kw": "aldi's",
+    "vol": 11100000,
+    "kd": 37,
+    "intent": "transactional"
+  },
+  {
+    "kw": "aldis",
+    "vol": 11100000,
+    "kd": 42,
+    "intent": "navigational"
+  },
+  {
+    "kw": "breakfast near me",
+    "vol": 11100000,
+    "kd": 9,
+    "intent": "transactional"
+  },
+  {
+    "kw": "how much can a recruiter make",
+    "vol": 1600,
+    "kd": 2,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do it recruiters make",
+    "vol": 1600,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do recruiters earn",
+    "vol": 1600,
+    "kd": 3,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do recruiters make",
+    "vol": 1600,
+    "kd": 6,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does a recruiter earn",
+    "vol": 1600,
+    "kd": 5,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does a recruiter make",
+    "vol": 1600,
+    "kd": 1,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does an it recruiter make",
+    "vol": 1600,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does recruiters make",
+    "vol": 1600,
+    "kd": 1,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruiter pay",
+    "vol": 1000,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruiter salary",
+    "vol": 1000,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how do it recruiters get paid",
+    "vol": 720,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how do recruiters earn money",
+    "vol": 720,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how do recruiters get paid",
+    "vol": 720,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how do recruiters make money",
+    "vol": 720,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how does recruiter get paid",
+    "vol": 720,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how does recruiters get paid",
+    "vol": 720,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how do job placement agencies make money",
+    "vol": 480,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how do recruitment agencies earn money",
+    "vol": 480,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "average recruiter salary",
+    "vol": 320,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "kw": "average salary for a recruiter",
+    "vol": 320,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "average salary for it recruiter",
+    "vol": 320,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "average salary for recruiter",
+    "vol": 320,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "average salary of a recruiter",
+    "vol": 320,
+    "kd": 6,
+    "intent": "informational"
+  },
+  {
+    "kw": "average salary recruiter",
+    "vol": 320,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "kw": "do military recruiters get commission",
+    "vol": 320,
+    "kd": 1,
+    "intent": "informational"
+  },
+  {
+    "kw": "do recruiters get commission",
+    "vol": 320,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "does recruiters get commission",
+    "vol": 320,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruiter average salary",
+    "vol": 320,
+    "kd": 8,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruiter salary average",
+    "vol": 320,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do army recruiters make",
+    "vol": 260,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do recruiters make per hire",
+    "vol": 260,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do recruiters make per-hire",
+    "vol": 260,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does a army recruiter make",
+    "vol": 260,
+    "kd": 2,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does an army recruiter make",
+    "vol": 260,
+    "kd": 3,
+    "intent": "informational"
+  },
+  {
+    "kw": "hr recruiters salary",
+    "vol": 260,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "physician recruiter compensation",
+    "vol": 260,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "salary for recruiter human resources",
+    "vol": 260,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "corporate recruiter salary",
+    "vol": 210,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "corporate recruiters salary",
+    "vol": 210,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "do army recruiters get commission",
+    "vol": 210,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "executive recruiter compensation",
+    "vol": 210,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "executive recruiter pay",
+    "vol": 210,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "executive recruiters salary",
+    "vol": 210,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "management recruiter salary",
+    "vol": 210,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "salary for corporate recruiter",
+    "vol": 210,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "salary for executive recruiter",
+    "vol": 210,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "headhunters salary",
+    "vol": 170,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "headhunting salary",
+    "vol": 170,
+    "kd": 8,
+    "intent": "informational"
+  },
+  {
+    "kw": "how do job recruiters get paid",
+    "vol": 170,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how does a job recruiter get paid",
+    "vol": 170,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do it recruiters get paid",
+    "vol": 170,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do job recruiters make",
+    "vol": 170,
+    "kd": 3,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do recruiter get paid",
+    "vol": 170,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do recruiters get paid",
+    "vol": 170,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do temp agencies pay",
+    "vol": 170,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does a job recruiter make",
+    "vol": 170,
+    "kd": 6,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does a recruiter get paid",
+    "vol": 170,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does recruiter get paid",
+    "vol": 170,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does recruiters get paid",
+    "vol": 170,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does temp agency pay",
+    "vol": 170,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "army recruiter salary",
+    "vol": 140,
+    "kd": 2,
+    "intent": "informational"
+  },
+  {
+    "kw": "how do headhunters get paid",
+    "vol": 140,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how does a headhunter get paid",
+    "vol": 140,
+    "kd": 2,
+    "intent": "informational"
+  },
+  {
+    "kw": "how does headhunter get paid",
+    "vol": 140,
+    "kd": 3,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do headhunters earn",
+    "vol": 140,
+    "kd": 6,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do headhunters make",
+    "vol": 140,
+    "kd": 3,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do tech recruiters make",
+    "vol": 140,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does a headhunter earn",
+    "vol": 140,
+    "kd": 11,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does a headhunter make",
+    "vol": 140,
+    "kd": 6,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does headhunter make",
+    "vol": 140,
+    "kd": 5,
+    "intent": "informational"
+  },
+  {
+    "kw": "do recruiters get bonuses for recruits",
+    "vol": 110,
+    "kd": 2,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do military recruiters make per hire",
+    "vol": 110,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does a provider get paid",
+    "vol": 110,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruit salary",
+    "vol": 110,
+    "kd": 18,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruiter salary range",
+    "vol": 110,
+    "kd": 1,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruiting job salary",
+    "vol": 110,
+    "kd": 1,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruiting jobs salary",
+    "vol": 110,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruiting salaries",
+    "vol": 110,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruiting salary",
+    "vol": 110,
+    "kd": 3,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruitment career salary",
+    "vol": 110,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruitment wages",
+    "vol": 110,
+    "kd": 3,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruiting consultant salary",
+    "vol": 90,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruitment consultant earnings",
+    "vol": 90,
+    "kd": 0,
+    "intent": "informational"
+  }
+]

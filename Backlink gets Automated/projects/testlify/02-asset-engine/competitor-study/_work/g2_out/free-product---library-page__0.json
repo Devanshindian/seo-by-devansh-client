@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 61,
+    "brand_fit": "CORE",
+    "angle_gap": "Titled 'Sample Questions' but shows zero actual sample questions \u2014 just category labels (Skills, Profile Fit, Languages, AI Fluency) with generic 'why it matters' blurbs and no worked example of what a real question looks like.",
+    "asset": "The Real Sample Questions Behind Skills, Cognitive, and AI Fluency Testing",
+    "distinct_angle": "Bryq's 'Sample Questions' page lists category names and generic 'why it matters' text but never shows a single actual question; ours shows a real worked example question per category so buyers and candidates see exactly what's measured.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 70,
+    "brand_fit": "CORE",
+    "angle_gap": "Headlines unsourced outcome stats (2x faster hiring, 3x quality of hire, 47% lower attrition) with no study, sample size, or methodology cited anywhere on the page \u2014 pure marketing claims, no validity science shown.",
+    "asset": "The Validity Science Behind Predictive Candidate-Fit Scoring",
+    "distinct_angle": "Bryq headlines 2x/3x/47% outcome claims with zero source or methodology; ours explains the actual I/O psychology validity research and EEOC/OFCCP standards behind candidate-fit scoring, citing real published studies instead of bare numbers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 128,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 pure developer coding-practice content (algorithms, data structures) aimed at engineers learning to code; explicitly off-limits per brand scope"
+  },
+  {
+    "row_id": 131,
+    "brand_fit": "CORE",
+    "angle_gap": "Claims 'EEOC and OFCCP compliant' and 'compliance documentation available on request' in a single throwaway sentence with no explanation of what makes a technical/coding assessment legally defensible \u2014 no mention of adverse-impact analysis, validity evidence, or rubric design.",
+    "asset": "What Actually Makes a Coding Assessment EEOC and OFCCP Defensible",
+    "distinct_angle": "HackerEarth asserts 'EEOC and OFCCP compliant' in one line with zero explanation of adverse-impact testing or validity evidence; ours breaks down what legal defensibility for technical assessments actually requires, citing real EEOC/OFCCP guidance.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1038,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 candidate-facing test-prep content (job-seekers practicing for assessments); we serve the hiring side, not the applicant, per brand scope"
+  }
+]

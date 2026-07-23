@@ -1,0 +1,1272 @@
+{
+  "version": "0.1.20260717",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "11.4977 sec.",
+  "cost": 0.00445,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "07222206-2021-0139-0000-e81e6cfd7134",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "11.3297 sec.",
+      "cost": 0.00445,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "cost per hire",
+        "location_name": "United States",
+        "language_code": "en",
+        "depth": 20,
+        "people_also_ask_click_depth": 3,
+        "load_async_ai_overview": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "cost per hire",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=cost%20per%20hire&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-07-22 19:07:10 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "people_also_ask",
+            "organic",
+            "related_searches"
+          ],
+          "se_results_count": 131,
+          "pages_count": 2,
+          "items_count": 23,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "Cost per hire (CPH) is the average amount a company spends to recruit a new employee, typically ranging `between $4,500 and $4,800` . It is calculated by dividing the sum of internal and external recruiting costs by the total number of hires in a given period.[](https://juicebox.ai/blog/cost-per-hire) [[1]](https://juicebox.ai/blog/cost-per-hire)[[2]](https://www.teamed.global/insights/cost-per-hire-calculator-shrm-formula-and-benchmarks)\n\nThe industry standard formula for this calculation is:[](https://x0pa.com/glossary/cost-per-hire/) [[1]](https://x0pa.com/glossary/cost-per-hire/)[[2]](https://x0pa.com/calculators/cost-per-hire/)\n\nCost Per Hire=Internal Costs+External Costs Total Number of Hires Cost Per Hire equals the fraction with numerator Internal Costs plus External Costs and denominator Total Number of Hires end-fraction C o s t P e r H i r e=I n t e r n a l C o s t s+E x t e r n a l C o s t s T o t a l N u m b e r o f H i r e s\n\nWhat It Includes\n\n- **Internal Costs:** Prorated recruiter and HR salaries, employee referral awards, and the time hiring managers spend interviewing and evaluating candidates.[](https://x0pa.com/calculators/cost-per-hire/) \n- **External Costs:** Job board fees, agency/search firm fees, ATS (Applicant Tracking System) costs, background checks, and candidate travel or relocation expenses.[](https://x0pa.com/calculators/cost-per-hire/) \n\nBenchmarks & Variations\n\nAverage costs vary significantly based on company size, industry, and role seniority . For example, hiring for specialized technical roles or C-suite executive positions can cost anywhere from $15,000 to over $30,000.[](https://www.metrichq.org/human-resources/cost-per-hire/) [[1]](https://www.metrichq.org/human-resources/cost-per-hire/)\n\nHow to Use the Metric Tracking this metric quarterly helps companies optimize their recruitment budgets, justify spending, and assess the ROI of different hiring channels. To ensure you capture all hidden expenditures, use resources like the SHRM Cost-Per-Hire Standard to build a consistent internal tracking process.[](https://www.paylocity.com/resources/glossary/cost-per-hire/) [[1]](https://www.paylocity.com/resources/glossary/cost-per-hire/)",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Cost per hire (CPH) is the average amount a company spends to recruit a new employee, typically ranging between $4,500 and $4,800. It is calculated by dividing the sum of internal and external recruiting costs by the total number of hires in a given period. Juicebox +1",
+                  "markdown": "Cost per hire (CPH) is the average amount a company spends to recruit a new employee, typically ranging `between $4,500 and $4,800` . It is calculated by dividing the sum of internal and external recruiting costs by the total number of hires in a given period.[](https://juicebox.ai/blog/cost-per-hire) [[1]](https://juicebox.ai/blog/cost-per-hire)[[2]](https://www.teamed.global/insights/cost-per-hire-calculator-shrm-formula-and-benchmarks)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Juicebox",
+                      "domain": "juicebox.ai",
+                      "url": "https://juicebox.ai/blog/cost-per-hire",
+                      "title": "Cost Per Hire Guide: Formula & Benchmarks [2026] - Juicebox",
+                      "text": "Recruiting teams are often asked to justify or reduce hiring-related expenses. Unfortunately, since many don't have a consistent w..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Teamed",
+                      "domain": "www.teamed.global",
+                      "url": "https://www.teamed.global/insights/cost-per-hire-calculator-shrm-formula-and-benchmarks",
+                      "title": "Cost Per Hire Calculator: SHRM Formula & Benchmarks | teamed.",
+                      "text": "The SHRM-Standard Definition. Cost per hire is the total sum of internal and external recruiting costs divided by the number of hi..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "The industry standard formula for this calculation is: X0PA AI +1",
+                  "markdown": "The industry standard formula for this calculation is:[](https://x0pa.com/glossary/cost-per-hire/) [[1]](https://x0pa.com/glossary/cost-per-hire/)[[2]](https://x0pa.com/calculators/cost-per-hire/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "X0PA AI",
+                      "domain": "x0pa.com",
+                      "url": "https://x0pa.com/glossary/cost-per-hire/",
+                      "title": "Cost Per Hire: Definition & Comparison - X0PA AI",
+                      "text": "How do you calculate cost per hire? Cost per hire is calculated using a standardized formula developed by SHRM and the American Na..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "X0PA AI",
+                      "domain": "x0pa.com",
+                      "url": "https://x0pa.com/calculators/cost-per-hire/",
+                      "title": "Cost-Per-Hire Calculator - ANSI/SHRM Standard Formula",
+                      "text": "Cost-Per-Hire Formula: The central question this calculator answers is: how much does it cost your organization to hire one employ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Cost Per Hire = Internal Costs + External Costs Total Number of Hires Cost Per Hire equals the fraction with numerator Internal Costs plus External Costs and denominator Total Number of Hires end-fraction C o s t P e r H i r e = I n t e r n a l C o s t s + E x t e r n a l C o s t s T o t a l N u m b e r o f H i r e s",
+                  "markdown": "Cost Per Hire=Internal Costs+External Costs Total Number of Hires Cost Per Hire equals the fraction with numerator Internal Costs plus External Costs and denominator Total Number of Hires end-fraction C o s t P e r H i r e=I n t e r n a l C o s t s+E x t e r n a l C o s t s T o t a l N u m b e r o f H i r e s",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "What It Includes",
+                  "text": "Internal Costs: Prorated recruiter and HR salaries, employee referral awards, and the time hiring managers spend interviewing and evaluating candidates. X0PA AI External Costs: Job board fees, agency/search firm fees, ATS (Applicant Tracking System) costs, background checks, and candidate travel or relocation expenses. X0PA AI",
+                  "markdown": "- **Internal Costs:** Prorated recruiter and HR salaries, employee referral awards, and the time hiring managers spend interviewing and evaluating candidates.[](https://x0pa.com/calculators/cost-per-hire/) \n- **External Costs:** Job board fees, agency/search firm fees, ATS (Applicant Tracking System) costs, background checks, and candidate travel or relocation expenses.[](https://x0pa.com/calculators/cost-per-hire/)",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Benchmarks & Variations",
+                  "text": "Average costs vary significantly based on company size, industry, and role seniority. For example, hiring for specialized technical roles or C-suite executive positions can cost anywhere from $15,000 to over $30,000. MetricHQ +1",
+                  "markdown": "Average costs vary significantly based on company size, industry, and role seniority . For example, hiring for specialized technical roles or C-suite executive positions can cost anywhere from $15,000 to over $30,000.[](https://www.metrichq.org/human-resources/cost-per-hire/) [[1]](https://www.metrichq.org/human-resources/cost-per-hire/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "MetricHQ",
+                      "domain": "www.metrichq.org",
+                      "url": "https://www.metrichq.org/human-resources/cost-per-hire/",
+                      "title": "Cost Per Hire (CPH) - MetricHQ",
+                      "text": "What is Cost Per Hire? Cost Per Hire (CPH) is a key recruitment metric that quantifies the total expenditure an organization incur..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "How to Use the Metric",
+                  "text": "Tracking this metric quarterly helps companies optimize their recruitment budgets, justify spending, and assess the ROI of different hiring channels. To ensure you capture all hidden expenditures, use resources like the SHRM Cost-Per-Hire Standard to build a consistent internal tracking process. Paylocity +1",
+                  "markdown": "Tracking this metric quarterly helps companies optimize their recruitment budgets, justify spending, and assess the ROI of different hiring channels. To ensure you capture all hidden expenditures, use resources like the SHRM Cost-Per-Hire Standard to build a consistent internal tracking process.[](https://www.paylocity.com/resources/glossary/cost-per-hire/) [[1]](https://www.paylocity.com/resources/glossary/cost-per-hire/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Paylocity",
+                      "domain": "www.paylocity.com",
+                      "url": "https://www.paylocity.com/resources/glossary/cost-per-hire/",
+                      "title": "What is Cost Per Hire? | Workforce & Finance Glossary - Paylocity",
+                      "text": "Cost Per Hire. Summary Definition: A recruiting and HR metric that indicates the average amount a company spends to attract and hi..."
+                    }
+                  ]
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Paylocity",
+                  "domain": "www.paylocity.com",
+                  "url": "https://www.paylocity.com/resources/glossary/cost-per-hire/",
+                  "title": "What is Cost Per Hire? | Workforce & Finance Glossary - Paylocity",
+                  "text": "Cost Per Hire. Summary Definition: A recruiting and HR metric that indicates the average amount a company spends to attract and hi..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "MetricHQ",
+                  "domain": "www.metrichq.org",
+                  "url": "https://www.metrichq.org/human-resources/cost-per-hire/",
+                  "title": "Cost Per Hire (CPH) - MetricHQ",
+                  "text": "What is Cost Per Hire? Cost Per Hire (CPH) is a key recruitment metric that quantifies the total expenditure an organization incur..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Juicebox",
+                  "domain": "juicebox.ai",
+                  "url": "https://juicebox.ai/blog/cost-per-hire",
+                  "title": "Cost Per Hire Guide: Formula & Benchmarks [2026] - Juicebox",
+                  "text": "Recruiting teams are often asked to justify or reduce hiring-related expenses. Unfortunately, since many don't have a consistent w..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Teamed",
+                  "domain": "www.teamed.global",
+                  "url": "https://www.teamed.global/insights/cost-per-hire-calculator-shrm-formula-and-benchmarks",
+                  "title": "Cost Per Hire Calculator: SHRM Formula & Benchmarks | teamed.",
+                  "text": "The SHRM-Standard Definition. Cost per hire is the total sum of internal and external recruiting costs divided by the number of hi..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "X0PA AI",
+                  "domain": "x0pa.com",
+                  "url": "https://x0pa.com/calculators/cost-per-hire/",
+                  "title": "Cost-Per-Hire Calculator - ANSI/SHRM Standard Formula",
+                  "text": "Cost-Per-Hire Formula: The central question this calculator answers is: how much does it cost your organization to hire one employ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "X0PA AI",
+                  "domain": "x0pa.com",
+                  "url": "https://x0pa.com/glossary/cost-per-hire/",
+                  "title": "Cost Per Hire: Definition & Comparison - X0PA AI",
+                  "text": "How do you calculate cost per hire? Cost per hire is calculated using a standardized formula developed by SHRM and the American Na..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the meaning of cost per hire?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.aihr.com/blog/cost-per-hire/",
+                      "domain": "www.aihr.com",
+                      "title": "Cost per Hire: Definition, Formula, and Calculation - AIHR",
+                      "description": "Cost per hire is a recruiting metric that measures the costs associated with the process of hiring new employees. These include expenses such as sourcing and recruitment advertising costs, onboarding, referral bonus program costs, etc.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do I calculate cost per hire?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How to calculate cost per hire in SHRM?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.teamed.global/insights/cost-per-hire-calculator-shrm-formula-and-benchmarks",
+                      "domain": "www.teamed.global",
+                      "title": "Cost Per Hire Calculator: SHRM Formula & Benchmarks | teamed.",
+                      "description": "The SHRM-Standard Definition. Cost per hire is the total sum of internal and external recruiting costs divided by the number of hires in a given period. The formula is straightforward: (Internal Recruiting Costs + External Recruiting Costs) \u00f7 Total Number of Hires.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the cost of hiring?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://toggl.com/blog/cost-of-hiring-an-employee",
+                      "domain": "toggl.com",
+                      "title": "The True Cost of Hiring an Employee in 2024 - Toggl Track",
+                      "description": "The latest benchmark the Society for Human Resource Management puts the average cost to hire an employee at $4,700, with around 44 days to fill a position. Appcast estimated that the average cost per online job application is $28.47, up by 43% compared to 2020.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do I calculate cost per hire?",
+                  "seed_question": "What is the meaning of cost per hire?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[7]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How is Cph calculated?",
+                  "seed_question": "What is the meaning of cost per hire?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[8]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the average cost per hire in the US?",
+                  "seed_question": "How do I calculate cost per hire?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[9]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.paylocity.com/resources/glossary/cost-per-hire/",
+                      "domain": "www.paylocity.com",
+                      "title": "What is Cost Per Hire? | Workforce & Finance Glossary - Paylocity",
+                      "description": "What is a Good Cost Per Hire? According to the Society for Human Resource Managementopens in a new tab (SHRM), the average CPH rate in the United States is $4,683. Many factors, however, influence CPH, including industry, job level, etc.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How much does a $20 an hour employee cost an employer?",
+                  "seed_question": "How do I calculate cost per hire?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[10]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do I calculate cost per hire?",
+                  "seed_question": "How to calculate cost per hire in SHRM?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[11]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the average cost per hire in the US?",
+                  "seed_question": "How to calculate cost per hire in SHRM?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[12]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.paylocity.com/resources/glossary/cost-per-hire/",
+                      "domain": "www.paylocity.com",
+                      "title": "What is Cost Per Hire? | Workforce & Finance Glossary - Paylocity",
+                      "description": "What is a Good Cost Per Hire? According to the Society for Human Resource Managementopens in a new tab (SHRM), the average CPH rate in the United States is $4,683. Many factors, however, influence CPH, including industry, job level, etc.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]",
+              "domain": "www.aihr.com",
+              "title": "Cost per Hire: Definition, Formula, and Calculation",
+              "url": "https://www.aihr.com/blog/cost-per-hire/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.aihr.com \u203a blog \u203a cost-per-hire",
+              "website_name": "AIHR",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Cost per hire is a recruiting metric that measures the costs associated with the process of hiring new employees. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cost per hire is a recruiting metric"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "What is cost per hire?",
+                  "description": null,
+                  "url": "https://www.aihr.com/blog/cost-per-hire/#What",
+                  "domain": "www.aihr.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Cost per hire formula",
+                  "description": null,
+                  "url": "https://www.aihr.com/blog/cost-per-hire/#Formula",
+                  "domain": "www.aihr.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "How do you calculate cost per...",
+                  "description": null,
+                  "url": "https://www.aihr.com/blog/cost-per-hire/#Calculation",
+                  "domain": "www.aihr.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]",
+              "domain": "www.paylocity.com",
+              "title": "What is Cost Per Hire? | Workforce & Finance Glossary",
+              "url": "https://www.paylocity.com/resources/glossary/cost-per-hire/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.paylocity.com \u203a resources \u203a cost-per-hire",
+              "website_name": "Paylocity",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dec 19, 2025 \u2014 Cost per hire (CPH) is a recruiting metric that indicates the average amount a company spends on attracting and recruiting a new employee. Read more",
+              "pre_snippet": "12/19/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "average amount a company spends on attracting and recruiting a new employee"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "What is Cost Per Hire?",
+                  "description": null,
+                  "url": "https://www.paylocity.com/resources/glossary/cost-per-hire/#what-is-cost-per-hire",
+                  "domain": "www.paylocity.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "How to Calculate Cost Per Hire",
+                  "description": null,
+                  "url": "https://www.paylocity.com/resources/glossary/cost-per-hire/#how-to-calculate-cost-per-hire",
+                  "domain": "www.paylocity.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-19 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]",
+              "domain": "www.shrm.org",
+              "title": "The Real Costs of Recruitment",
+              "url": "https://www.shrm.org/topics-tools/news/talent-acquisition/real-costs-recruitment",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.shrm.org \u203a ... \u203a Talent Acquisition",
+              "website_name": "SHRM",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Apr 11, 2022 \u2014 the average cost per hire was nearly $4,700. But many employers estimate the total cost to hire a new employee can be three to four times the\u00a0...",
+              "pre_snippet": "04/11/2022 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "cost per hire",
+                "cost",
+                "hire"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-04-11 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[9]/div[1]/div[1]",
+              "domain": "www.icims.com",
+              "title": "How to analyze cost-per-hire and finally improve it",
+              "url": "https://www.icims.com/blog/how-to-analyze-cost-per-hire/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.icims.com \u203a blog \u203a how-to-analyze-cost-per...",
+              "website_name": "ICIMS",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Jul 9, 2025 \u2014 Cost-per-hire is a recruitment metric that measures the total expenses for hiring employees. It equals the sum of internal and external recruitment costs\u00a0... Read more",
+              "pre_snippet": "07/09/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cost-per-hire is a recruitment metric that measures the total expenses for hiring employees"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-07-09 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[11]/div[1]/div[1]",
+              "domain": "www.metrichq.org",
+              "title": "Cost Per Hire (CPH)",
+              "url": "https://www.metrichq.org/human-resources/cost-per-hire/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.metrichq.org \u203a Human Resources",
+              "website_name": "MetricHQ",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Cost per hire benchmarks range from $1,500-$5,000 for entry-level positions in small businesses to $7,000-$15,000 for mid-level professionals in mid-sized\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1,500-$5,000 for entry-level positions in small businesses"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]",
+              "domain": "www.indeed.com",
+              "title": "How To Calculate Cost Per Hire for More Efficient Recruiting",
+              "url": "https://www.indeed.com/career-advice/career-development/how-to-calculate-cost-per-hire",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.indeed.com \u203a ... \u203a Career development",
+              "website_name": "Indeed",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dec 16, 2025 \u2014 The cost per hire formula is:(Internal Recruiting Costs + External Recruiting Costs) / Total number of hires = Cost Per HireRelated: FAQ: What\u00a0... Read more",
+              "pre_snippet": "12/16/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "cost per hire",
+                "Cost Per Hire"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "What is cost per hire?",
+                  "description": null,
+                  "url": "https://www.indeed.com/career-advice/career-development/how-to-calculate-cost-per-hire#toc-what-is-cost-per-hire",
+                  "domain": "www.indeed.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Why is cost per hire important?",
+                  "description": null,
+                  "url": "https://www.indeed.com/career-advice/career-development/how-to-calculate-cost-per-hire#toc-why-is-cost-per-hire-important",
+                  "domain": "www.indeed.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-16 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[15]/div[1]/div[1]",
+              "domain": "www.metaview.ai",
+              "title": "Cost per hire is mostly labor: where your budget actually ...",
+              "url": "https://www.metaview.ai/resources/blog/cost-per-hire",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.metaview.ai \u203a resources \u203a blog \u203a cost-per-h...",
+              "website_name": "Metaview",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Oct 14, 2025 \u2014 Cost per hire is usually presented as an arithmetic problem: total recruiting spend divided by hires made. The formula is right. The framing is\u00a0... Read more",
+              "pre_snippet": "10/14/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "total recruiting spend divided by hires made"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-14 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[17]/div[1]/div[1]",
+              "domain": "www.hiretruffle.com",
+              "title": "Cost Per Hire Guide: Formula, Benchmarks, FAQs - Truffle",
+              "url": "https://www.hiretruffle.com/blog/cost-per-hire",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hiretruffle.com \u203a Blog",
+              "website_name": "hiretruffle.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "cost per hire is often cited at around $4,700, Cost per hire is a recruiting metric that measures the average total expense required to hire a new employee.\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "around $4,700"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Why Cost Per Hire Matters...",
+                  "description": null,
+                  "url": "https://www.hiretruffle.com/blog/cost-per-hire",
+                  "domain": "www.hiretruffle.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "The Cost Per Hire Formula",
+                  "description": null,
+                  "url": "https://www.hiretruffle.com/blog/cost-per-hire",
+                  "domain": "www.hiretruffle.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Does Cost Per Hire Include...",
+                  "description": null,
+                  "url": "https://www.hiretruffle.com/blog/cost-per-hire",
+                  "domain": "www.hiretruffle.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[19]/div[1]/div[1]",
+              "domain": "www.eskill.com",
+              "title": "Cost-per-Hire: Definition, Formula, and How to Reduce It",
+              "url": "https://www.eskill.com/resources/glossary/cost-per-hire",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.eskill.com \u203a ... \u203a Cost-per-hire",
+              "website_name": "eSkill",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Cost-per-hire is a recruiting metric that measures how much an organization spends, on average, to fill an open position. It helps employers understand the\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "how much an organization spends, on average, to fill an open position"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Cost-Per-Hire",
+                  "description": null,
+                  "url": "https://www.eskill.com/resources/glossary/cost-per-hire",
+                  "domain": "www.eskill.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "What Costs Are Included In...",
+                  "description": null,
+                  "url": "https://www.eskill.com/resources/glossary/cost-per-hire",
+                  "domain": "www.eskill.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "How Skills Testing Can...",
+                  "description": null,
+                  "url": "https://www.eskill.com/resources/glossary/cost-per-hire",
+                  "domain": "www.eskill.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Cost per hire formula",
+                "Cost per hire per hour",
+                "Cost per hire calculator",
+                "Cost per hire example",
+                "Cost per hire 2022",
+                "Average cost per hire by industry",
+                "Cost per hire shrm",
+                "Recruitment costs examples"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 13,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "juicebox.ai",
+              "title": "Cost Per Hire Guide: Formula & Benchmarks [2026]",
+              "url": "https://juicebox.ai/blog/cost-per-hire",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://juicebox.ai \u203a Blog",
+              "website_name": "Juicebox",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Nov 24, 2025 \u2014 Most estimates place the average cost per hire between $4,425 and $4,800. This varies widely by role type and industry. Company size is also a\u00a0... Read more",
+              "pre_snippet": "11/24/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "average cost per hire between $4,425 and $4,800"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-11-24 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 11,
+              "rank_absolute": 14,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "x0pa.com",
+              "title": "Cost-Per-Hire Calculator - ANSI/SHRM Standard Formula",
+              "url": "https://x0pa.com/calculators/cost-per-hire/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://x0pa.com \u203a Calculators",
+              "website_name": "X0PA AI",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Cost per hire is calculated using the ANSI/SHRM standard formula: CPH = (Total Internal Costs + Total External Costs) / Total Number of Hires. Internal costs\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "CPH = (Total Internal Costs + Total External Costs) / Total Number of Hires"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 12,
+              "rank_absolute": 15,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "recruiterflow.com",
+              "title": "Cost per Hire: Definition, Formula & How to Reduce",
+              "url": "https://recruiterflow.com/blog/cost-per-hire/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://recruiterflow.com \u203a blog \u203a cost-per-hire",
+              "website_name": "Recruiterflow",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "May 8, 2025 \u2014 Cost per hire is a crucial recruiting metric that helps companies understand how much money they spend on average to bring a new employee on board. Read more",
+              "pre_snippet": "05/08/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cost per hire"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-05-08 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 13,
+              "rank_absolute": 16,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "www.greenhouse.com",
+              "title": "Calculating cost per hire to optimize your recruiting",
+              "url": "https://www.greenhouse.com/guidance/calculating-cost-per-hire-to-optimize-your-recruiting",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.greenhouse.com \u203a guidance \u203a calculating-c...",
+              "website_name": "Greenhouse",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Sep 5, 2018 \u2014 You'll need to divide the sum of your internal and external costs by the number of hires in a given time period, and voila, you have your CPH. Read more",
+              "pre_snippet": "09/05/2018 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "costs",
+                "hires"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2018-09-05 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 14,
+              "rank_absolute": 17,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "What Is COST-PER-HIRE?! How to CALCULATE Cost-per ...",
+              "url": "https://www.youtube.com/watch?v=Ypryq7fsqbk",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "3.3K+ views  \u00b7  5 years ago",
+              "website_name": "YouTube\u00a0\u00b7\u00a0Milan Mraovic",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": null,
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2021-04-23 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 15,
+              "rank_absolute": 18,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "factorialhr.com",
+              "title": "Key HR Metrics: Analyzing Your Cost Per Hire",
+              "url": "https://factorialhr.com/blog/key-hr-metrics-cost-per-hire/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://factorialhr.com \u203a Blog \u203a Culture and Engagement",
+              "website_name": "factorialhr.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Apr 24, 2025 \u2014 The cost per hire is a widely used metric that allows organizations to see how much their company is spending to fill an open position. Read more",
+              "pre_snippet": "04/24/2025 00:00:00",
+              "extended_snippet": "4.5(243)  \u00b7 Free \u00b7 \u200eBusiness/Productivity",
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 243,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "cost per hire"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-04-24 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 16,
+              "rank_absolute": 19,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.deel.com",
+              "title": "Cost per hire",
+              "url": "https://www.deel.com/glossary/cost-per-hire/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.deel.com \u203a Glossary \u203a Cost Per Hire",
+              "website_name": "Deel",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Cost per hire is a human resource management metric used to calculate the total cost of filling a vacant position within an organization. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cost"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 17,
+              "rank_absolute": 20,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "workllama.com",
+              "title": "The Real Cost Per Hire: Formula, Breakdown, and Hidden ...",
+              "url": "https://workllama.com/blog/how-to-calculate-the-real-cost-of-hiring-an-employee-its-more-than-you-think/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://workllama.com \u203a blog \u203a how-to-calculate-the-re...",
+              "website_name": "WorkLLama",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Frontline Roles: The CPH is between $1,500\u2013$3,500, but with more than 50% turnover, the true cost exceeds $4,000 per seat annually. White-\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1,500\u2013$3,500"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 18,
+              "rank_absolute": 21,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "onpay.com",
+              "title": "Cost Per Hire: Definition, Formula, Plus Practical Calculations",
+              "url": "https://onpay.com/insights/cost-per-hire-metric/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://onpay.com \u203a Insights \u203a HR",
+              "website_name": "OnPay",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "May 16, 2026 \u2014 The cost per hire formula is calculated by adding all internal and external recruitment costs over a specific timeframe, divided by the total\u00a0... Read more",
+              "pre_snippet": "05/16/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "adding all internal and external recruitment costs over a specific timeframe"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-05-16 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 19,
+              "rank_absolute": 22,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.pelagohealth.com",
+              "title": "Cost-Per-Hire: HR Terms Explained",
+              "url": "https://www.pelagohealth.com/resources/hr-glossary/cost-per-hire/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.pelagohealth.com \u203a resources \u203a hr-glossary",
+              "website_name": "Pelago Health",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Cost-per-hire is the total cost of recruiting, hiring and training a new employee, divided by the number of new employees hired.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "total cost of recruiting, hiring and training a new employee"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 2,
+              "rank_absolute": 23,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Cost per hire formula",
+                "Cost per hire calculator",
+                "Cost per hire example",
+                "Cost per hire 2022",
+                "Average cost per hire by industry",
+                "Cost per hire shrm",
+                "Recruitment costs examples",
+                "Cost per hire dashboard"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

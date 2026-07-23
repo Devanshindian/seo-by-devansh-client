@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3573,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "A generic listicle of retention/career-growth benefits (training, job rotation, stretch assignments) citing one HBR stat, but never explains how an organization actually decides who is ready for a stretch assignment or promotion \u2014 no objective, skills-based criteria for the internal mobility moves it recommends.",
+    "asset": "The Missing Skills Evidence Behind Every Internal Mobility Decision",
+    "distinct_angle": "Grounds career-growth and internal-mobility moves in objective skills-assessment evidence for who's ready to rotate or advance, the concrete decision criteria this page's generic benefits list never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3574,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Cites a Gallup 'watching for new jobs' trend that stops at 2023 and a 2017-2022 BLS turnover series, then pivots to generic engagement fixes (fair pay, respecting boundaries, communication) without ever asking whether the people leaving were the right hires in the first place.",
+    "asset": "How a Bad Hire, Not Low Morale, Quietly Drives Your Turnover Number",
+    "distinct_angle": "Reframes turnover economics around quality-of-hire and screening accuracy instead of the generic engagement-and-communication fixes this page lists, and updates its stale 2014-2023 Gallup figures with the current public number.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3576,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 general workplace-location/culture topic (office vs. remote vs. hybrid pros and cons) with no hiring, screening, or assessment content; a different product world from Testlify's core (pre-employment testing)."
+  },
+  {
+    "row_id": 3578,
+    "brand_fit": "CORE",
+    "angle_gap": "A vendor-neutral benefits list (resume screening, chatbots, predictive analytics) that never addresses the bias-audit and legal-compliance exposure of AI hiring tools \u2014 no mention of NYC LL144, the EU AI Act, or any validity evidence behind the tools it names, despite repeatedly claiming AI 'reduces bias.'",
+    "asset": "Where AI Recruitment Tools Create Bias and Compliance Risk, Not Just Efficiency",
+    "distinct_angle": "Adds the bias-audit, NYC LL144, and EU AI Act compliance depth this page skips entirely in favor of a generic efficiency-and-benefits list, plus the validity evidence missing behind its bias-mitigation claims.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3582,
+    "brand_fit": "CORE",
+    "angle_gap": "Written for the job applicant rather than the employer, and its 'how it works' steps are vague marketing language ('it analyzes information,' 'it scores candidates,' 'it disqualifies unsuitable candidates') with no explanation of actual test types, validity, or adverse-impact safeguards an HR buyer needs to trust the score.",
+    "asset": "What a Validated AI Employment Test Actually Measures, Step by Step",
+    "distinct_angle": "Replaces this page's vague, candidate-facing steps with the real mechanics \u2014 test types, validity evidence, and adverse-impact safeguards \u2014 written for the HR buyer deciding whether to trust the score, not the applicant taking it.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

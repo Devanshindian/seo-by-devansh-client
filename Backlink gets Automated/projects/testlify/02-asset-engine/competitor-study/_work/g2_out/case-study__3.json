@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2651,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans entirely on vague claims \u2014 'thousands of assessments', 'some accounts eliminated L1' \u2014 with no actual before/after time-to-hire numbers, no cost data, and no detail on how the assessment redesign actually worked role by role across Persistent's multiple customer accounts.",
+    "asset": "How Skills Assessments Let Engineering Teams Cut the L1 Interview Round Without Losing Signal",
+    "distinct_angle": "goes beyond the vague 'some accounts' claim by laying out concrete before/after metrics and the role-by-role assessment redesign process this case study never details.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2652,
+    "brand_fit": "CORE",
+    "angle_gap": "Claims 'complete elimination of manual labour' and reduced cost-per-hire but gives no actual cost-per-hire figures, no comparison against the HackerRank/Codility alternatives it name-drops, and no detail on how the fresher-vs-lateral test design actually differed in practice.",
+    "asset": "Building Separate Screening Tracks for Freshers and Lateral Engineering Hires That Actually Cut Cost-per-Hire",
+    "distinct_angle": "fills in the concrete cost-per-hire math and the fresher-vs-lateral test design details this case study only gestures at.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2776,
+    "brand_fit": "CORE",
+    "angle_gap": "Gives strong top-line numbers ($50k spent vs an estimated $500k for an HR team, 1,500 applicants/month) but never shows what the pre-screening test actually assessed, what the pass criteria were, or whether candidate drop-off was tracked \u2014 the reader can't replicate the screening design behind the number.",
+    "asset": "What a 1,500-Applicant-a-Month Pre-Screening Test Actually Needs to Ask",
+    "distinct_angle": "shows the actual test design and pass-criteria logic behind the cost-savings headline that this case study leaves unexplained.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2777,
+    "brand_fit": "CORE",
+    "angle_gap": "Strong narrative with real numbers (47 tested, 4 advanced, 50+ hours saved) but never addresses the risk it raises \u2014 how they guarded against false negatives from a short automated test before trusting it to filter out 90% of candidates \u2014 and never says which specific skills the test covered.",
+    "asset": "How to Cut 90% of Developer Candidates with a Skills Test Without Losing the Good Ones",
+    "distinct_angle": "addresses the false-negative risk and the specific test-content question this story raises but never answers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2955,
+    "brand_fit": "CORE",
+    "angle_gap": "Attributes '300% business growth in 10 years' loosely to using PPA/GIA assessments without isolating the actual hiring or redeployment decisions those results changed, and gives no example of what an actual behavioural or aptitude profile looked like or how a redeployment call was made from one.",
+    "asset": "How Behavioural and Aptitude Testing Actually Changes Who Gets Hired and Redeployed",
+    "distinct_angle": "shows a concrete before/after assessment-to-decision example instead of the growth-correlation claim this case study leans on without isolating cause.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

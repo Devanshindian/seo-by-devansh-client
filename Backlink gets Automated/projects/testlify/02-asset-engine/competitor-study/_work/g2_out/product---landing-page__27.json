@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2217,
+    "brand_fit": "CORE",
+    "angle_gap": "Sample questions blend generic verbal/grammar trivia (odd-word-out, antonym of 'pertinent', accept/except) with the one genuinely job-relevant item (Excel formulas), but the page never explains how any of it maps to actual business-analyst job performance, and cites no reliability/validity or adverse-impact evidence for the test.",
+    "asset": "What Actually Predicts Business-Analyst Job Performance, and How to Prove a Test Measures It",
+    "distinct_angle": "Explains the competency-to-question mapping and cites current validity/adverse-impact evidence this page omits, so buyers can judge whether the test is defensible rather than take the vocabulary questions on faith.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2218,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists five basic MCQ trivia samples (comment syntax, header extensions) but never shows the actual coding-simulator task despite advertising '19 MCQs + 1 Coding', never states which C++ standard (C++11/17/20) is tested, and says nothing about detecting AI-assisted cheating during the live coding portion.",
+    "asset": "C++ Hiring Tests That Catch AI-Assisted Cheating, Not Just Syntax Trivia",
+    "distinct_angle": "Adds a real coding-simulator task example, names the C++ standard being tested, and covers AI-cheating detection during live coding \u2014 the concrete gaps this page's trivia-only MCQs leave open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2219,
+    "brand_fit": "CORE",
+    "angle_gap": "Generic marketing bullets ('improve quality of hires', 'predict potential') and a vague FAQ define psychometric-test categories, but the page never explains how to choose the right test per role, cites no reliability/validity coefficients, and never addresses adverse-impact/compliance requirements (e.g. NYC LL144, EU AI Act) despite these being live buyer concerns.",
+    "asset": "Choosing a Legally Defensible Psychometric Test for Every Role, Not Just What It Measures",
+    "distinct_angle": "Replaces the vague feature-bullet claims with concrete per-role test-selection guidance plus current adverse-impact/compliance framing (NYC LL144, EU AI Act) this page never mentions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2221,
+    "brand_fit": "CORE",
+    "angle_gap": "Indonesian-market aptitude-test page lists categories and generic stats ('25M+ assessments annually') but never explains how to match a specific aptitude test to a specific role or how to interpret scores against a benchmark population \u2014 buyers get marketing claims, not decision guidance.",
+    "asset": "How to Match the Right Aptitude Test to Each Role, and Read the Results Correctly",
+    "distinct_angle": "Adds role-matching guidance and score-interpretation depth against benchmark norms that this page's feature-bullet list and generic FAQ never provide.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2224,
+    "brand_fit": "CORE",
+    "angle_gap": "FAQ claims the forced-choice format (MPM-FC) makes it 'harder for the candidate to guess the right answer' but never addresses the well-documented social-desirability/faking risk in behavioral assessments or gives evidence for how forced-choice actually mitigates it \u2014 an unsupported claim a skeptical searcher would question.",
+    "asset": "Why Behavioral Assessments Get Faked, and What Actually Stops It",
+    "distinct_angle": "Cites the page's unsupported faking-resistance claim and closes it with the actual mechanics/evidence behind why forced-choice formats resist social-desirability bias.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

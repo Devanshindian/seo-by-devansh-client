@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2485,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee engagement/retention tactics for existing staff, not hiring or assessment; falls under off-brand 'post-hire performance/engagement' territory"
+  },
+  {
+    "row_id": 2500,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 page is broken/junk (CMS component scaffolding text like 'NewsFeed Container... Starts here', no real article body to read a gap from)"
+  },
+  {
+    "row_id": 2628,
+    "brand_fit": "CORE",
+    "angle_gap": "Each company profile (Amazon, Unilever, Delta) is a press-release-style summary of vague self-reported 'results' with no scrutiny \u2014 e.g. it credits Unilever's AI video-interview tool with '\u00a31 million in annual savings' and improved diversity but never mentions the documented bias and transparency criticism that tool faced, so a reader can't tell which practices are safe to copy versus legally risky",
+    "asset": "What AI Recruiting Case Studies Like Amazon and Unilever Leave Out About Bias and Risk",
+    "distinct_angle": "Same nine company examples, but each one is checked against the public record for the fairness/bias scrutiny the original omits \u2014 the accountability layer this page skips entirely",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2630,
+    "brand_fit": "CORE",
+    "angle_gap": "The list mixes genuinely structured skills-based practices (Menlo's paired work simulations, Informatica's technical assessment rounds, Dyson's work-study pipeline) with pure novelty/culture gimmicks, but never distinguishes which are validated, scalable assessment methods versus which carry adverse-impact or legal exposure risk (e.g. group 'mass auditions' with peer-voting) \u2014 it treats all 20 as equally worth copying",
+    "asset": "Which 'Unique' Hiring Practices at Companies Like Menlo and Dyson Are Actually Defensible Assessments",
+    "distinct_angle": "Sorts the same company examples into validated skills-based methods versus novelty gimmicks with legal/adverse-impact risk, a distinction the original never draws",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2875,
+    "brand_fit": "CORE",
+    "angle_gap": "Written by a company that sells the Thomas Behavior/DISC assessment, so it presents DISC as settled science ('one of the most valid psychometric assessments') without addressing the well-documented industrial-psychology critique of forced-choice, ipsative personality tools in hiring \u2014 faking under social desirability and weak criterion validity for job performance versus tools like structured skills tests",
+    "asset": "The Real Strengths and Limits of the Four DISC Personality Types in Hiring",
+    "distinct_angle": "Covers the same four DISC types but adds the validity and faking critique from I-O psychology research that a DISC-vendor page has an obvious incentive to leave out",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

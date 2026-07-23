@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3479,
+    "brand_fit": "CORE",
+    "angle_gap": "Despite the title promising 'how to assess' each skill, the page only gives generic dictionary-style definitions and benefit tables (e.g. 'Interpersonal skills include: Active listening, Teamwork...') and never shows an actual test scenario, sample question, or scoring rubric for any of the 7 skills \u2014 it stops short of the assessment method it's named after.",
+    "asset": "How to Actually Assess IT Troubleshooting Skills, Skill by Skill",
+    "distinct_angle": "Pairs each of the 7 skills with a concrete scenario question and scoring guidance the original never delivers, closing the gap between naming a skill and testing for it.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3489,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The trends are anchored to 2024 predictions built on 2023-era data (SHRM labor-market forecasts, a 'recent' Gallup stat), and several of the 7 (wages, benefits, internal mobility) are general workforce trends rather than hiring/assessment-specific \u2014 there's no throughline tying any trend back to how you'd actually screen for it.",
+    "asset": "Which 2024 Hiring Trends Actually Held Up Through 2026",
+    "distinct_angle": "Replaces the 2024 predictions with what verifiably held up by 2026 using current public data, and ties each surviving trend to the skills or screening method it changed.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3491,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The piece spends nearly all its length on generic C-suite role definitions (what a CEO/COO/CFO/CMO/CTO does) and only gestures once at 'using aptitude tests like our Leadership and People Management test' \u2014 it never breaks down which specific competencies should be tested for each distinct leadership role.",
+    "asset": "The Real Competencies Behind Hiring Strong C-Suite Leaders, Role by Role",
+    "distinct_angle": "Turns the generic role-description page into a per-role competency breakdown (CEO vs COO vs CFO vs CMO vs CTO), naming what to actually test for each \u2014 the specificity this page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3504,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 flexible working policy/scheduling design is a workplace-policy topic (adjacent to benefits/HR ops), not hiring or assessment; outside Testlify's world."
+  },
+  {
+    "row_id": 3517,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 organizational culture change case studies (Aetna, Squarespace, Salesforce) are general company-culture content, not hiring or assessment; outside Testlify's world."
+  }
+]

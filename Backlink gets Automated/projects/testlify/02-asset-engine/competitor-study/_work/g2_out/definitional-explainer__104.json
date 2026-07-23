@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3111,
+    "brand_fit": "CORE",
+    "angle_gap": "Despite the title promising 'how to avoid' similarity bias, the visible page spends nearly all its length on defining the bias, its academic history (Sumner, Tajfel), and its consequences \u2014 the actionable mitigation steps a recruiter needs never actually arrive in the text.",
+    "asset": "How Structured Hiring Actually Stops Similarity Bias, Step by Step",
+    "distinct_angle": "Delivers the concrete mitigation tactics (structured interviews, blind screening, standardized scorecards) that this page's title promises but never reaches after its theory-and-history-heavy setup.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3113,
+    "brand_fit": "CORE",
+    "angle_gap": "The piece raises a real problem (72% of ResumeBuilder respondents admit lying on resumes) but resolves it with a product plug ('Vervoe uses machine learning to screen candidates in...') rather than a concrete framework for how a recruiter should actually cross-check a portfolio against real skill evidence.",
+    "asset": "When a Work Portfolio Proves Skill and When It's Just a Good Story",
+    "distinct_angle": "Replaces the product-pitch turn with a concrete verification framework \u2014 which portfolio claims to test for and how \u2014 instead of asserting that skills testing is the answer without showing the method.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3119,
+    "brand_fit": "CORE",
+    "angle_gap": "The title promises '4 easy steps' and the body lists benefits (accurate prediction, reduced bias, candidate comparison, legal defensibility) in detail, but never shows an actual worked example \u2014 no sample question set and no sample scoring rubric appear in the piece.",
+    "asset": "A Structured Interview Question Bank and Scorecard You Can Actually Use",
+    "distinct_angle": "Supplies the worked example this page never delivers: real sample questions per competency paired with a scoring rubric, instead of describing structured interviewing only in the abstract.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3123,
+    "brand_fit": "CORE",
+    "angle_gap": "The page carefully taxonomizes three mismatch types (horizontal, vertical, skill obsolescence) with generic career examples (teacher-to-HR, lawyer-to-customer-support) but never connects any of it to how a recruiter would actually test for these mismatches before hiring \u2014 it stays a descriptive glossary.",
+    "asset": "The Skills-Mismatch Checklist: Testing for All Three Types Before You Hire, Not After",
+    "distinct_angle": "Converts the horizontal/vertical/obsolescence taxonomy into a pre-hire testing checklist tied to concrete assessment methods, rather than leaving the three types as an academic classification.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3133,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The business case leans on dated sources \u2014 Namely's 2018 Workplace Diversity Report and a Vision Critical Gen Z report \u2014 for what is presented as a current argument, and never ties the diversity benefits back to how hiring/assessment practices actually produce them.",
+    "asset": "What the Diversity Dividend Actually Looks Like in 2026's Hiring Data",
+    "distinct_angle": "Refreshes the 2018-era stats with current diversity-hiring figures and ties the business case directly to bias-reduced, assessment-based hiring practices, which this page never connects to its own numbers.",
+    "tool_escalation": "",
+    "g_notes": "adjacent \u2014 general workplace diversity benefits rather than hiring/assessment process itself"
+  }
+]

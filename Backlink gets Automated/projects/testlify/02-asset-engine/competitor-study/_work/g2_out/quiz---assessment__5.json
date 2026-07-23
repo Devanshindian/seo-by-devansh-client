@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1259,
+    "brand_fit": "CORE",
+    "angle_gap": "Sample questions (the tennis-team puzzle, the CID code puzzle, the correlation-vs-causation question) are shown with no correct answer or explanation, so a recruiter reading the page can't judge what 'correct reasoning' looks like or how the test maps to job performance.",
+    "asset": "Logical Reasoning Screening That Explains Every Right Answer",
+    "distinct_angle": "Publishes the worked-answer rationale for every sample question so recruiters can verify the test's rigor, closing the answer-free gap in Adaface's question bank.",
+    "tool_escalation": "format tag is Quiz / assessment, itself a tool: the asset must be a working question bank/test, not a written article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1260,
+    "brand_fit": "CORE",
+    "angle_gap": "The page mixes real UX-critique scenarios (a delete-confirmation popup, a music-app mockup) with a generic logic puzzle (the tennis-team question) that has nothing to do with design skill, and gives no rubric for what a strong design critique answer looks like.",
+    "asset": "Graphic Design Screening Built Entirely From Real UX Critique Scenarios",
+    "distinct_angle": "Drops the off-skill logic-puzzle filler and adds a scoring rubric for each UX critique scenario, the evaluation criteria Adaface's page never states.",
+    "tool_escalation": "format tag is Quiz / assessment, itself a tool: the asset must be a working question bank/test, not a written article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1261,
+    "brand_fit": "CORE",
+    "angle_gap": "Several sample questions reference code output or debugging tasks ('What will the following Python code output?') without showing the code or explaining the correct answer, and nothing on the page distinguishes junior-level from senior-level Python competency.",
+    "asset": "Python Screening Calibrated to Junior, Mid, and Senior Skill Bands",
+    "distinct_angle": "Tags each question to a seniority band and explains the reasoning behind the correct answer, fixing the seniority-blind, unexplained-answer gap in this test.",
+    "tool_escalation": "format tag is Quiz / assessment, itself a tool: the asset must be a working question bank/test, not a written article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1265,
+    "brand_fit": "CORE",
+    "angle_gap": "Coverage stops at classic ER-diagrams, normalization, and SQL, with no mention of the cloud data-warehouse modeling (dbt-style transformations, dimensional modeling for Snowflake/BigQuery) that modern data-modeling roles actually use, and MCQ answers are never explained.",
+    "asset": "Data Modeling Screening for the Modern Cloud Warehouse Stack",
+    "distinct_angle": "Extends the skill coverage to current cloud-warehouse modeling practices and explains the correct answer for each question, going beyond the classic SQL/ER-diagram-only, answer-free scope shown here.",
+    "tool_escalation": "format tag is Quiz / assessment, itself a tool: the asset must be a working question bank/test, not a written article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1273,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'covered skills' list and sample questions read like general marketing-manager competencies (email campaign optimization, audience segmentation for a course launch) rather than skills specific to a content strategist, and no answer explanation is given for any scenario.",
+    "asset": "Content Strategy Screening That Separates Strategists From Generalist Marketers",
+    "distinct_angle": "Narrows the question set to competencies unique to content strategy (content governance, multichannel strategy, content lifecycle) instead of generic marketing questions, and explains why each answer is correct, filling both gaps in this test.",
+    "tool_escalation": "format tag is Quiz / assessment, itself a tool: the asset must be a working question bank/test, not a written article.",
+    "g_notes": ""
+  }
+]

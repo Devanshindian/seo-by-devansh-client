@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1187,
+    "brand_fit": "CORE",
+    "angle_gap": "Asserts cognitive tests are '2x as predictive as job interviews and 4x as predictive as education level' with zero citation, and never once mentions that cognitive ability tests are the selection method most associated with adverse impact in the I/O psychology literature \u2014 a critical legal-risk fact a buyer needs before adopting one.",
+    "asset": "The Real Research Behind Cognitive Aptitude Tests and Their Adverse-Impact Trade-Off",
+    "distinct_angle": "Cites the actual peer-reviewed predictive-validity meta-analyses behind the '2x/4x' claim instead of asserting it uncited, and addresses the adverse-impact risk of cognitive testing that Adaface's page ignores entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1258,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 candidate-facing mock interview prep tool; brand scope explicitly excludes job-seeker interview prep (we serve the hiring side, not the applicant)"
+  },
+  {
+    "row_id": 1402,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists 135+ coding tests with candidate/organization counts but never addresses that AI coding assistants (Copilot, ChatGPT) have made unproctored take-home coding tests easy to game \u2014 a live 2026 concern for anyone using this list \u2014 and gives no guidance on matching difficulty tier (basic/medium/high) to seniority level.",
+    "asset": "Coding Tests That Still Work Now That Every Candidate Has Copilot",
+    "distinct_angle": "Addresses the AI-assisted cheating problem on coding tests that iMocha's list ignores completely, and adds tier-to-seniority guidance (basic/medium/high) so buyers pick the right test for the role \u2014 depth this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1403,
+    "brand_fit": "CORE",
+    "angle_gap": "A flat, uncategorized list of 40+ disconnected assessments (typing tests, AI readiness, business judgment, technical skills) with no guidance on how to combine 2-3 of them into a coherent battery for a specific role \u2014 a buyer has to guess which tests actually predict performance together.",
+    "asset": "How to Build a Multi-Test Assessment Battery That Actually Predicts Job Performance",
+    "distinct_angle": "Unlike iMocha's flat list of 40+ disconnected tests, ours groups tests into role-based batteries with public research on which combinations add predictive value \u2014 the structure this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1790,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The 'Launchpad' spreads its curated content across all of HR (policy writing, HR analytics dashboards, general automation ideas), most of which sits outside hiring \u2014 a TA leader searching specifically for AI-in-screening guidance gets diluted, generalist coverage instead of depth on their actual problem.",
+    "asset": "What's Actually Working in AI-Powered Candidate Screening and Interviewing Right Now",
+    "distinct_angle": "Narrows AIHR's broad, generalist 'AI for all of HR' hub \u2014 which mixes in off-topic items like HR policy writing and analytics dashboards \u2014 into curated content laser-focused on AI in candidate screening and interviewing, the depth a TA leader actually needs.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: general AI-for-HR resource hub (broad HR ops, not hiring-specific)"
+  }
+]

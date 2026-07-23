@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gap-check — Does the Research Actually Cover What Matters?</title>
+<style>
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:720px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:720px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;} .mem ul{margin:6px 0 6px;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+
+  /* step flow */
+  .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
+  .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:18px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow);}
+  .step-body h3{margin:4px 0 4px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
+  .step-body ul{margin:6px 0 4px; color:var(--muted); font-size:14.5px;} .step-body ul .file{font-size:11.5px;}
+  .step-body ul .fn{color:var(--ink); font-weight:600;}
+  .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
+  .xref:hover{background:var(--orange-soft);}
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
+  .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
+  .files .k{font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
+
+  /* generic cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .grid.four{grid-template-columns:repeat(4,1fr);}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+  .card .file{margin-top:10px; display:inline-block;}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11.5px;}
+  td b{color:var(--ink);}
+  .v{font-weight:700; font-size:12px; padding:2px 9px; border-radius:100px; white-space:nowrap;}
+  .v.covered{color:var(--green-ink); background:var(--green); border:1px solid var(--green-line);}
+  .v.partial{color:#a6791b; background:var(--yellow-soft); border:1px solid var(--yellow);}
+  .v.no{color:var(--red-ink); background:var(--red); border:1px solid var(--red-line);}
+
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
+
+  /* two-column compare */
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--yellow-soft); border:2px solid var(--yellow);}
+  .agent.answ .cap{background:var(--orange-soft); border:2px solid var(--orange);}
+  .agent h3{margin:0 0 2px; font-size:19px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+  .mem{font-size:14px; padding:9px 12px; border-radius:10px; margin-top:9px;}
+  .mem.yes{background:var(--green); border:1px solid var(--green-line);}
+  .mem.no{background:var(--red); border:1px solid var(--red-line);}
+  .mem .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
+  .mem.yes .lbl{color:var(--green-ink);} .mem.no .lbl{color:var(--red-ink);}
+
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three,.grid.four{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="kicker">Content Machine · Research Phase</span>
+    <h1>How <span class="hl">gap-check</span> makes sure the research covers what matters</h1>
+    <p class="lede">By this point we have two research documents for a topic: a <b>brief</b> (from DataForSEO) that
+    lists what the article must cover, and a <b>dossier</b> (from STORM) full of gathered evidence. Gap-check is the
+    auditor between them: it treats the brief as a checklist, ticks off every item the dossier can already support,
+    and — only for the important misses — orders a few targeted re-searches to fill them. Here is exactly how it
+    works, script by script.</p>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#idea">The idea</a>
+    <a href="#words">The words</a>
+    <a href="#architecture">The architecture</a>
+    <a href="#pipeline">Full pipeline</a>
+    <a href="#check">What we check</a>
+    <a href="#judge">The verdict</a>
+    <a href="#reruns">Spending the re-runs</a>
+    <a href="#output">The output</a>
+  </div>
+</nav>
+
+<!-- IDEA -->
+<section id="idea">
+  <div class="wrap">
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">STORM gathers a lot of evidence, but nobody has checked whether it actually covers the specific
+    things this article needs — especially our unique angle. Gap-check is that check: audit the evidence against the
+    brief, and re-search only the important gaps.</p>
+    <div class="grid four">
+      <div class="card"><div class="ic">📋</div><h3>1. Read the checklist</h3><p>Pull every item the brief says the
+        article must cover — keywords, competitor sections, questions, and our angle.</p></div>
+      <div class="card"><div class="ic">🔍</div><h3>2. Audit the evidence</h3><p>For each item, check whether the
+        STORM dossier already has the substance to write it — proven by a real quote.</p></div>
+      <div class="card"><div class="ic">🎯</div><h3>3. Re-search the gaps</h3><p>For the important misses only, write
+        up to 3 sharp STORM queries and run them again — nothing else.</p></div>
+      <div class="card"><div class="ic">🧾</div><h3>4. Write the report</h3><p>One roll-up: what's covered, what was
+        missing, and which re-runs were fired to fill it.</p></div>
+    </div>
+    <div class="note orange"><span class="tag">The one rule that governs everything</span><br>
+    <b>A re-run only fires for a real, checkable gap.</b> Every gap must name the exact brief item it came from and
+    why the dossier doesn't cover it. No gap → no re-run. It is capped at <b>2–3 queries, one round only — never a
+    loop.</b> The scarcity is the point: it forces the re-runs onto our angle, not onto trivia.</div>
+  </div>
+</section>
+
+<!-- THE WORDS -->
+<section id="words" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">Gap-check sits on top of the two earlier engines, so it borrows their vocabulary. Here it is in
+    plain language, once.</p>
+    <div class="define"><b>Brief</b> — the DataForSEO research doc. The <b>checklist</b>: what the article must cover
+      (keywords, the sections competitors have, the questions people ask, and our distinct angle).</div>
+    <div class="define"><b>Dossier</b> — STORM's densely-cited research write-up. The <b>evidence</b> we audit against
+      the checklist.</div>
+    <div class="define"><b>Coverage item</b> — one thing the brief says matters, pulled out as a single checkable
+      unit (a secondary keyword, a competitor section, a question, the gap we can own).</div>
+    <div class="define"><b>Verdict</b> — the judge's call on one item: <b>covered</b>, <b>partial</b>, or
+      <b>no</b> — plus a one-line reason and a real quote from the dossier as proof.</div>
+    <div class="define"><b>Gap we can own</b> — the brief's most important item: our unique angle, the thing
+      competitors don't do. Gap-check cares most about whether the dossier can support this.</div>
+    <div class="define"><b>Iteration</b> — a fresh, targeted STORM re-run saved as its own folder
+      (<span class="file">iteration-1</span>, <span class="file">-2</span>…). It never overwrites the original dossier.</div>
+    <div class="define"><b>Headless LLM (Claude or Codex)</b> — a coding assistant run from the command line so a
+      script can call it, no chat window, no API key. Either the <b>Claude</b> CLI (default) or the <b>Codex</b> CLI,
+      set by one <span class="file">--provider</span> switch. All the judging runs on it for free.</div>
+  </div>
+</section>
+
+<!-- ARCHITECTURE -->
+<section id="architecture">
+  <div class="wrap">
+    <h2><span class="num">03</span>The architecture — free judgment, one paid reach</h2>
+    <p class="sub">Almost all of gap-check is free thinking on a headless LLM CLI (Claude or Codex). The only step
+    that reaches outside is the re-run — because re-running STORM needs STORM.</p>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">🧠</div><h3>Free judgment</h3>
+        <div class="role">Steps 0–2 · headless Claude or Codex</div>
+        <div class="mem yes"><span class="lbl">Runs standalone, free</span>
+          <ul>
+            <li>Read the brief into checkable items</li>
+            <li>Judge each item against the dossier</li>
+            <li>Turn the misses into a few queries</li>
+          </ul></div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">🔗</div><h3>The one outside reach</h3>
+        <div class="role">Step 3 · calls STORM</div>
+        <div class="mem no"><span class="lbl">The only cross-folder dependency</span>
+          <ul>
+            <li>Re-running STORM needs STORM's own runner</li>
+            <li>It fires only if there are real gaps</li>
+            <li>Everything else in gap-check is self-contained</li>
+          </ul></div>
+      </div>
+    </div>
+
+    <h3>The scripts — what each does &amp; where it's used</h3>
+    <table>
+      <tr><th style="width:26%">File</th><th>What it does &amp; where it's used</th></tr>
+      <tr>
+        <td><span class="file">config.py</span><br><span class="muted" style="font-size:12.5px;">settings + policy</span></td>
+        <td>Settings in one place, plus the coverage-target policy.
+          <ul>
+            <li>All paths (output folder, where STORM writes) computed from one anchor.</li>
+            <li>Holds the <b>policy</b>: which item types get judged and which are ignored (see §05).</li>
+            <li>Holds the crash-safe save helpers.</li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td><span class="file">llm.py</span><br><span class="muted" style="font-size:12.5px;">the AI caller</span></td>
+        <td>The one doorway to a headless LLM CLI — Claude or Codex (free).
+          <ul>
+            <li>Returns clean JSON for the judging steps, re-asking once if the reply won't parse.</li>
+            <li>Loads each step's prompt from the <span class="file">prompts/</span> folder.</li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td><span class="file">run_gapcheck.py</span><br><span class="muted" style="font-size:12.5px;">the orchestrator</span></td>
+        <td>The one command you run.
+          <ul>
+            <li>Runs Steps 0 → 4 in order and prints <span class="file">== Step N ==</span>.</li>
+            <li><b>Resumable</b> — reuses a finished step; Step 3 even skips iterations already run, so a crash never re-fires a ~7-minute STORM run.</li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td><span class="file">parse_brief.py</span><br><span class="muted" style="font-size:12.5px;">Step 0</span></td>
+        <td>Reads the brief into checkable items — <b>by meaning, not fixed patterns</b>, so a brief that drifts from the exact template still parses.</td>
+      </tr>
+      <tr>
+        <td><span class="file">judge.py</span><br><span class="muted" style="font-size:12.5px;">Step 1</span></td>
+        <td>The coverage judge: one call per item, the whole dossier in each call, run several at once. Writes a verdict + proof quote per item.</td>
+      </tr>
+      <tr>
+        <td><span class="file">triage.py</span><br><span class="muted" style="font-size:12.5px;">Step 2</span></td>
+        <td>Looks only at the misses, drops the minor ones, and clusters what's left into <b>at most 3</b> research questions.</td>
+      </tr>
+      <tr>
+        <td><span class="file">rerun_storm.py</span><br><span class="muted" style="font-size:12.5px;">Step 3</span></td>
+        <td>Fires STORM once per query into a new <span class="file">iteration-n/</span> folder; auto-starts STORM's bridge if it's down. Runs nothing if there are no queries.</td>
+      </tr>
+      <tr>
+        <td><span class="file">report.py</span><br><span class="muted" style="font-size:12.5px;">Step 4</span></td>
+        <td>Assembles <span class="file">gap-check.md</span> — pure assembly, every line traced to an upstream file, no new thinking.</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<!-- PIPELINE -->
+<section id="pipeline" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">04</span>The full pipeline — steps 0 to 4</h2>
+    <p class="sub">One command runs the whole chain. Each step writes a named file the next step reads. Steps 0–2 and
+    4 are free; Step 3 only costs money if it actually fires re-runs (STORM's web search). Sections 05–08 zoom in.</p>
+    <div class="flow">
+      <div class="step"><div class="dot">0</div><div class="step-body">
+        <h3>Read the brief <span class="pill free">free</span></h3>
+        <p><b>What it does:</b> an AI reads the whole brief and pulls out every item the article must cover, plus the
+        asset title and angle. Reading <b>by meaning</b>, so an off-template brief still parses.</p>
+        <ul>
+          <li><span class="fn"><span class="file">parse_brief.py</span></span> → <span class="file">coverage-items.json</span> — each item as <span class="file">{id, type, item, context}</span>.</li>
+        </ul>
+        <a class="xref" href="#check">↓ §05 — which item types it pulls (and which it ignores)</a></div></div>
+
+      <div class="step"><div class="dot">1</div><div class="step-body">
+        <h3>Judge coverage, item by item <span class="pill free">free</span></h3>
+        <p><b>What it does:</b> for each item, an AI reads the <b>entire dossier</b> and decides covered / partial /
+        no — and must quote a real dossier sentence as proof. Many items are judged at once (in parallel).</p>
+        <ul>
+          <li><span class="fn"><span class="file">judge.py</span></span> → <span class="file">coverage-verdicts.json</span> — per item: <span class="file">{verdict, reason, evidence}</span>.</li>
+        </ul>
+        <a class="xref" href="#judge">↓ §06 — how a verdict is made (with an example)</a></div></div>
+
+      <div class="step"><div class="dot">2</div><div class="step-body">
+        <h3>Triage the misses into queries <span class="pill free">free</span></h3>
+        <p><b>What it does:</b> an AI looks only at the <b>no</b> + <b>partial</b> items, drops the minor or duplicate
+        ones, prioritises (our angle first), and clusters the survivors into <b>at most 3</b> research questions.
+        Nothing important missing → zero queries.</p>
+        <ul>
+          <li><span class="fn"><span class="file">triage.py</span></span> → <span class="file">gap-queries.json</span> — <span class="file">{queries: [{query, fills, why}]}</span>.</li>
+        </ul>
+        <a class="xref" href="#reruns">↓ §07 — the priority order + the 2–3 cap</a></div></div>
+
+      <div class="step"><div class="dot">3</div><div class="step-body">
+        <h3>Re-run STORM on the gaps <span class="pill paid">search $ (only if gaps)</span></h3>
+        <p><b>What it does:</b> for each query it runs STORM again and saves the fresh run as its own iteration
+        folder, next to the original — which is never touched. Starts STORM's bridge first if it's down.</p>
+        <ul>
+          <li><span class="fn"><span class="file">rerun_storm.py</span></span> → <span class="file">storm/out/&lt;Topic&gt;/iteration-n/</span> + <span class="file">storm-iterations.json</span> (a manifest).</li>
+          <li>No queries from Step 2 → this step does nothing.</li>
+        </ul>
+        <a class="xref" href="#reruns">↓ §07 — how the re-run is bounded</a></div></div>
+
+      <div class="step"><div class="dot">4</div><div class="step-body">
+        <h3>Write the report <span class="pill free">free</span></h3>
+        <p><b>What it does:</b> assemble one readable roll-up — the coverage table, the gaps found, the queries fired
+        and where each was saved, and a pointer to every proof file. Pure assembly, no new thinking.</p>
+        <ul>
+          <li><span class="fn"><span class="file">report.py</span></span> → <span class="file">gap-check.md</span>.</li>
+        </ul>
+        <a class="xref" href="#output">↓ §08 — what comes out and where it goes</a></div></div>
+    </div>
+    <div class="note"><span class="tag">Bounded, not a loop</span><br>
+    It's <b>one gap-fill round</b> — after the re-runs, it does <b>not</b> re-check and re-fire. The gap iterations
+    are kept as separate folders (never merged into the original), and the whole thing is resumable, so a crash
+    mid-run resumes instead of repeating the expensive STORM calls.</div>
+  </div>
+</section>
+
+<!-- WHAT WE CHECK -->
+<section id="check">
+  <div class="wrap">
+    <h2><span class="num">05</span>What we check — and what we deliberately don't</h2>
+    <p class="sub">Not everything in the brief is about <i>evidence</i>. Gap-check only judges items where the
+    question is "does the dossier have the substance to write this?" — and skips pure positioning signals. The policy
+    lives in one place (<span class="file">config.py</span>).</p>
+
+    <table>
+      <tr><th>Item type</th><th>Where it comes from in the brief</th><th>Judged?</th></tr>
+      <tr><td><b>gap_we_own</b></td><td>What the winners cover → "Gaps we can own"</td><td><span class="v covered">yes — the priority</span></td></tr>
+      <tr><td><b>secondary_kw</b></td><td>Keywords → Secondary table</td><td><span class="v covered">yes</span></td></tr>
+      <tr><td><b>in_body</b></td><td>Keywords → In-body-only</td><td><span class="v covered">yes</span></td></tr>
+      <tr><td><b>winner_h2</b></td><td>What the winners cover → Common H2s</td><td><span class="v covered">yes</span></td></tr>
+      <tr><td><b>paa</b></td><td>SERP snapshot → People-also-ask (on-angle)</td><td><span class="v covered">yes</span></td></tr>
+      <tr><td><b>aio_subtopic</b></td><td>SERP snapshot → what the AI Overview covers</td><td><span class="v covered">yes</span></td></tr>
+      <tr><td><b>aeo_faq</b></td><td>AI answer landscape</td><td><span class="v partial">yes — only if there's a usable signal</span></td></tr>
+      <tr><td><b>primary</b></td><td>Keywords → Primary</td><td><span class="v partial">parsed, never judged</span></td></tr>
+      <tr><td class="muted">spokes · PAA off-angle · related searches · snippet-holder · "cited by AI"</td><td class="muted">positioning / GEO signals, not dossier substance</td><td><span class="v no">excluded</span></td></tr>
+    </table>
+
+    <div class="note"><span class="tag">Why exclude the positioning signals</span><br>
+    Things like "who holds the featured snippet" or "is Testlify cited by AI" are about <i>where we rank</i>, not
+    about whether the dossier has enough <i>substance</i>. Judging them would trigger re-runs that can't fix them —
+    so they're left out. <b>primary</b> is read but never judged: the whole dossier is built from it, so it's always
+    covered and never worth a re-run.</div>
+  </div>
+</section>
+
+<!-- THE VERDICT -->
+<section id="judge" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">06</span>The verdict — how one item is judged</h2>
+    <p class="sub">The judge is the smart part. No thresholds, no keyword-matching — an AI reads the actual evidence
+    and decides, and it has to <b>show its work</b> with a real quote.</p>
+
+    <div class="grid three">
+      <div class="card"><div class="ic">🎯</div><h3>One item at a time</h3><p>Each brief item is judged on its own,
+        with the <b>whole dossier</b> handed over each time — so nothing is missed because it sat in another section.</p></div>
+      <div class="card"><div class="ic">🚫</div><h3>Ignore outside knowledge</h3><p>The judge is told to use only the
+        dossier text, not what the model happens to know. That's what keeps "covered" honest.</p></div>
+      <div class="card"><div class="ic">📎</div><h3>Prove it with a quote</h3><p>A "covered" verdict must carry a
+        <b>verbatim sentence</b> from the dossier. No quote, no coverage.</p></div>
+    </div>
+
+    <h3>What the verdicts look like <span class="muted" style="font-size:13px; font-weight:400;">(illustrative)</span></h3>
+    <table>
+      <tr><th>Verdict</th><th>Type</th><th>Item</th><th>Why</th><th>Proof quote from the dossier</th></tr>
+      <tr>
+        <td><span class="v covered">covered</span></td><td>secondary_kw</td>
+        <td>time to hire benchmark</td>
+        <td>Dossier gives industry figures with a source.</td>
+        <td class="muted">"Median time-to-hire sits around 44 days across industries…"</td>
+      </tr>
+      <tr>
+        <td><span class="v partial">partial</span></td><td>winner_h2</td>
+        <td>how to calculate cost per hire</td>
+        <td>Formula is stated, but no worked example.</td>
+        <td class="muted">"Cost per hire equals total recruiting costs divided by the number of hires."</td>
+      </tr>
+      <tr>
+        <td><span class="v no">no</span></td><td>gap_we_own</td>
+        <td>benchmarks by role and company size + a how-to-improve playbook</td>
+        <td>Only aggregate numbers; nothing segmented by role/size.</td>
+        <td class="muted">— (no dossier sentence supports it)</td>
+      </tr>
+    </table>
+    <div class="note orange"><span class="tag">Read the last row</span><br>
+    That <b>no</b> on our <b>gap_we_own</b> — our whole angle — is exactly the kind of miss the next step spends a
+    re-run on. A <b>partial</b> can be enough to leave alone; a <b>no</b> on the angle almost never is.</div>
+  </div>
+</section>
+
+<!-- SPENDING THE RE-RUNS -->
+<section id="reruns">
+  <div class="wrap">
+    <h2><span class="num">07</span>Spending the 2–3 re-runs</h2>
+    <p class="sub">There are only ever 2–3 re-runs to spend, so triage is about <b>ruthless prioritisation</b>: put
+    the scarce re-searches on the misses that actually matter, and ignore the rest.</p>
+
+    <h3>The priority order (top gets a re-run first)</h3>
+    <ol>
+      <li><b>Gaps we can own</b> — our unique angle. Always first.</li>
+      <li><b>Section-anchoring keywords</b> — a secondary keyword that a whole section depends on.</li>
+      <li><b>Table-stakes competitor sections</b> — the common H2s a reader expects.</li>
+      <li><b>Answer-level items</b> — individual questions (PAA, FAQ candidates).</li>
+    </ol>
+    <p>Triage drops minor and duplicate misses, then <b>clusters</b> the survivors into <b>at most 3 comprehensive
+    research questions</b> — one good query can fill several related gaps. If nothing important is missing, it writes
+    zero queries and no re-run happens.</p>
+
+    <div class="grid">
+      <div class="card"><div class="ic">🎯</div><h3>Scarcity is a feature</h3><p>Capping at 2–3 forces the re-runs
+        onto the angle, not onto trivia. An open budget would chase every tiny miss and dilute the research.</p></div>
+      <div class="card"><div class="ic">🗂️</div><h3>Kept separate, never merged</h3><p>Each re-run lands in its own
+        <span class="file">iteration-n/</span> folder beside the original dossier. The original is never overwritten,
+        so the added evidence is additive and traceable.</p></div>
+    </div>
+
+    <div class="note"><span class="tag">One round, then stop</span><br>
+    After the re-runs there is <b>no second check</b> — gap-check does not loop. STORM's bridge is auto-started if it
+    isn't running, each fresh run takes a few minutes, and the run is resumable so a completed iteration is never
+    fired twice.</div>
+  </div>
+</section>
+
+<!-- OUTPUT -->
+<section id="output" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">08</span>What comes out — and where it goes</h2>
+    <p class="sub">A short readable report, plus any gap-fill dossiers, sitting next to the original research.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="big">$0</div><div class="cap">the check itself — all on the subscription</div></div>
+      <div class="stat"><div class="big">0–3</div><div class="cap">targeted re-runs, one round only</div></div>
+      <div class="stat"><div class="big">~$0.15</div><div class="cap">web-search cost per re-run (if any)</div></div>
+      <div class="stat"><div class="big">1</div><div class="cap">report per topic</div></div>
+    </div>
+
+    <div class="grid">
+      <div class="card"><div class="ic">🧾</div><h3>The report</h3><p>The coverage table, the gaps found, the queries
+        fired and where each was saved, and a pointer to every proof file.</p>
+        <span class="file">gap-check.md</span></div>
+      <div class="card"><div class="ic">🗃️</div><h3>The gap-fill dossiers</h3><p>Each targeted re-run, saved as its own
+        iteration folder beside the original STORM dossier — extra evidence, never a replacement.</p>
+        <span class="file">storm/out/&lt;Topic&gt;/iteration-n/</span></div>
+    </div>
+
+    <div class="note orange"><span class="tag">Where gap-check sits in the bigger machine</span><br>
+    Gap-check is the <b>coverage gate</b> between STORM and the blueprint. The next engine
+    (<b>research-structure</b>) turns the research into the article's structure — and it ingests the original dossier
+    <b>plus these gap iterations</b>. So gap-check's job is to make sure our angle is actually backed by evidence
+    <i>before</i> the blueprint gets built on top of it.</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Gap-check · Research-phase architecture overview · The coverage gate — brief as checklist,
+  dossier as evidence, up to 2–3 targeted re-runs for the gaps that matter.</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+{
+  "theme": "Personality & Aptitude Testing",
+  "key": "c03",
+  "n_pillars": 18,
+  "pillars": [
+    {
+      "pillar": "Using Personality Tests in Hiring: Value & Debate",
+      "n": 15,
+      "intent": "informational",
+      "sample_spokes": [
+        "advantages-of-using-personality-tests-in-the-hiring-process",
+        "assess-the-personality-and-attitude-of-candidates",
+        "best-practices-for-using-personality-tests-for-inclusive-hiring"
+      ]
+    },
+    {
+      "pillar": "Aptitude Tests: Types, Benefits & Recruitment Strategy",
+      "n": 15,
+      "intent": "informational",
+      "sample_spokes": [
+        "advantages-and-disadvantages-of-an-aptitude-test",
+        "aptitude-tests",
+        "customizing-aptitude-tests-for-entry-level-vs-experienced-hires"
+      ]
+    },
+    {
+      "pillar": "DISC Personality Test for Hiring",
+      "n": 14,
+      "intent": "informational",
+      "sample_spokes": [
+        "disc-assessment-help-in-identifying-employee-fit",
+        "disc-personality-test-for-hiring-is-a-must-have",
+        "does-the-disc-personality-test-belong-in-the-workplace"
+      ]
+    },
+    {
+      "pillar": "Assessing Character & Behavioral Traits in Recruitment",
+      "n": 13,
+      "intent": "informational",
+      "sample_spokes": [
+        "importance-of-assessing-adaptability-in-recruitment-for-thriving-in-a-dynamic-workplace",
+        "importance-of-assessing-cultural-sensitivity-in-recruitment-for-diverse-workplaces",
+        "importance-of-assessing-customer-service-orientation-in-recruitment-for-positive-customer-experience"
+      ]
+    },
+    {
+      "pillar": "Emotional Intelligence Tests for Hiring",
+      "n": 12,
+      "intent": "informational",
+      "sample_spokes": [
+        "advantages-of-using-the-emotional-intelligence-test-in-the-hiring-process",
+        "does-the-emotional-intelligence-test-belong-in-the-workplace",
+        "emotional-intelligence-test-for-hiring-is-a-must-have"
+      ]
+    },
+    {
+      "pillar": "Big Five Personality Test in Recruitment",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "beyond-resumes-using-the-big-five-to-identify-the-ideal-candidate",
+        "how-to-incorporate-big-five-personality-test-into-your-recruitment-strategy",
+        "importance-of-using-big-five-personality-test-for-recruitment-and-selection"
+      ]
+    },
+    {
+      "pillar": "Psychometric Tests in Recruitment",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-psychometric-tests-enhance-recruitment-accuracy-and-objectivity",
+        "how-to-use-psychometric-tests-to-improve-employee-performance",
+        "how-to-use-psychometric-tests-to-predict-job-performance"
+      ]
+    },
+    {
+      "pillar": "Using Cognitive Ability Tests in Recruitment",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "can-cognitive-ability-tests-create-a-fairer-hiring-landscape",
+        "challenges-of-using-cognitive-ability-tests-in-recruitment-and-overcoming-them",
+        "how-to-choose-the-right-cognitive-ability-test-for-hiring-top-talent"
+      ]
+    },
+    {
+      "pillar": "Assessing Cognitive & Analytical Skills in Recruitment",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "importance-of-assessing-analytical-skills-in-recruitment-for-data-driven-decision-making",
+        "importance-of-assessing-attention-to-detail-in-recruitment-for-flawless-execution",
+        "importance-of-assessing-attention-to-detail-in-recruitment-for-quality-work-output"
+      ]
+    },
+    {
+      "pillar": "Personality Tests for Culture Fit, Retention & Development",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-can-personality-tests-help-you-identify-training-and-development-needs",
+        "how-to-integrate-personality-tests-into-your-workflow",
+        "how-to-interpret-the-results-of-personality-tests"
+      ]
+    },
+    {
+      "pillar": "Personality & Motivational Fit Assessments",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "cognitive-diversity-at-workplace",
+        "counterproductive-work-behavior",
+        "discriminant-validity"
+      ]
+    },
+    {
+      "pillar": "Personality Test Types: DISC, Big Five, Enneagram & Visual",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "enneagram-test-and-how-to-use-it",
+        "image-personality-test",
+        "istp-personality"
+      ]
+    },
+    {
+      "pillar": "Cognitive Reasoning Assessments: Predicting & Developing Top Performers",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "can-cognitive-reasoning-assessments-identify-talents",
+        "enhance-team-productivity-via-cognitive-reasoning",
+        "how-cognitive-reasoning-can-predict-top-performers"
+      ]
+    },
+    {
+      "pillar": "Hiring with Cognitive & Aptitude Tests",
+      "n": 7,
+      "intent": "commercial",
+      "sample_spokes": [
+        "hire-top-talent-using-a-verbal-reasoning-test",
+        "hire-top-talent-using-abstract-reasoning-test",
+        "hire-top-talent-using-cognitive-tests"
+      ]
+    },
+    {
+      "pillar": "Reasoning & Cognitive Skill Tests by Type",
+      "n": 6,
+      "intent": "commercial",
+      "sample_spokes": [
+        "how-to-incorporate-analytical-ability-test-into-your-recruitment-strategy",
+        "how-to-incorporate-deductive-reasoning-test-into-your-recruitment-strategy",
+        "incorporating-attention-to-detail-tests-in-entry-level-hiring"
+      ]
+    },
+    {
+      "pillar": "Cognitive & Aptitude Skills Assessments",
+      "n": 6,
+      "intent": "commercial",
+      "sample_spokes": [
+        "crucial-skill-assessment-attention-to-detail-hiring",
+        "how-to-evaluate-candidates-skills-with-a-basic-double-digit-math-assessment",
+        "how-to-evaluate-candidates-skills-with-a-mechanical-reasoning-assessment"
+      ]
+    },
+    {
+      "pillar": "Hiring with Personality & Behavioral Assessments",
+      "n": 5,
+      "intent": "commercial",
+      "sample_spokes": [
+        "hire-top-talent-using-integrity-test",
+        "hire-top-talent-using-leadership-assessment",
+        "hire-top-talent-using-personality-assessment"
+      ]
+    },
+    {
+      "pillar": "Hiring with Aptitude & Cognitive Ability Tests",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-hire-top-talent-using-analytical-ability-test",
+        "how-to-hire-top-talent-using-aptitude-assessment",
+        "how-to-hire-top-talent-using-big-five-personality-test"
+      ]
+    }
+  ]
+}

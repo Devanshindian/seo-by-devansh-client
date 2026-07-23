@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2900,
+    "brand_fit": "CORE",
+    "angle_gap": "The guide gives one generic 18-day worked example and no benchmark data by role, industry, or company size, so a reader can't tell whether their own number is good or bad; it also drops an unsourced, undated stat ('57% of job seekers lose interest') with no citation.",
+    "asset": "Time-to-Hire Benchmarks by Role and Industry, and What Actually Shortens Them",
+    "distinct_angle": "Replaces the single generic timeline with current, sourced benchmark ranges broken out by role/industry/company size, and attributes every stat to its actual source and date \u2014 the specificity and currency this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2909,
+    "brand_fit": "CORE",
+    "angle_gap": "The guide explains DISC's four styles and repeats 'should not be used alone' as a caveat, but never engages the well-documented reliability and social-desirability faking problems behavioral self-report tests face, or how DISC holds up under adverse-impact/EEOC scrutiny next to validated skills evidence.",
+    "asset": "DISC Personality Testing: What the Validity Research Actually Says",
+    "distinct_angle": "Cites the actual validity, reliability, and adverse-impact research on DISC-style assessments that this guide omits, and shows how to pair it responsibly with skills evidence \u2014 the risk and compliance context missing here.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2915,
+    "brand_fit": "CORE",
+    "angle_gap": "The guide lists five generic benefits of data-driven recruitment (repeatable process, better quality of hire, lower cost, better candidate experience, trend forecasting) without ever naming which metrics to track first, what data sources feed them, or a step-by-step adoption path \u2014 a reader finishes persuaded but with nothing to execute.",
+    "asset": "The Data-Driven Recruitment Framework: Which Metrics to Track First",
+    "distinct_angle": "Replaces the five-generic-benefits list with a concrete metrics-and-data-source framework and a phased adoption path \u2014 the actionable specificity this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2919,
+    "brand_fit": "CORE",
+    "angle_gap": "The guide repeatedly says organizations must 'evaluate the skills and abilities of current employees' to identify successors, but never supplies a concrete framework (e.g. a readiness-scoring model or skills-gap matrix) for doing that evaluation objectively \u2014 it stays at the policy level, not the how.",
+    "asset": "A Skills-Gap Framework for Picking Succession Candidates Objectively",
+    "distinct_angle": "Supplies the concrete readiness-scoring, evidence-based framework this guide talks around but never provides, so a reader can actually run the evaluation step instead of just knowing it should happen.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2928,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Talent management is treated as one continuous blob spanning attract, select, develop, retain, motivate, and transition, with 'selecting the right talent' reduced to a single vague bullet ('using assessment tools, scheduling interviews') while retention and motivation get far more space \u2014 the selection stage that determines the whole strategy's success gets no real depth.",
+    "asset": "Why Talent Management Strategies Break at the Selection Stage",
+    "distinct_angle": "Zooms into the selection stage this guide reduces to one generic bullet, giving it the structured-evaluation depth missing from a lifecycle-wide overview.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

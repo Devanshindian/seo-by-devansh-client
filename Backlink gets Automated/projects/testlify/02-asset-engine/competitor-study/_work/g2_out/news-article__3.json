@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2492,
+    "brand_fit": "CORE",
+    "angle_gap": "The whole piece leans on a single 2022 Appcast/InFlight stat set (92% drop-off, 51 clicks, 4:52 average completion time) with nothing more recent, and it never connects application friction to the assessment step itself \u2014 silent on how a poorly designed skills test compounds the exact drop-off it's describing.",
+    "asset": "Why Job Applications Still Lose 9 in 10 Candidates \u2014 and Where the Assessment Step Fits In",
+    "distinct_angle": "Refreshes the stale 2022 Appcast/InFlight figures with current public application-funnel data and extends the diagnosis to the assessment step, which the original piece never touches.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2493,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The entire evidentiary base is a 2018 LinkedIn heat-map study of 450 users; since then, pay-transparency laws have taken effect across many US states and the EU, fundamentally changing what 'listing salary' means for a job ad, and the piece never mentions this shift.",
+    "asset": "What Job Ads Should Say About Pay Now That Transparency Laws Aren't Optional",
+    "distinct_angle": "Replaces the 2018 heat-map-only evidence with the current pay-transparency legal landscape, which changes the advice and postdates the original piece entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2497,
+    "brand_fit": "CORE",
+    "angle_gap": "Diagnoses the soft-skills gap in college grads at length (anecdotes, a 2019 SHRM stat) but never once addresses how an employer would actually measure or screen for soft skills in hiring \u2014 it stops at 'this is a problem' with no assessment path forward.",
+    "asset": "How to Actually Screen for Soft Skills When a Degree Doesn't Prove Them",
+    "distinct_angle": "Picks up exactly where this piece stops \u2014 diagnosing the gap \u2014 and adds the missing half: concrete methods for assessing soft skills in candidates, which the original never covers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2502,
+    "brand_fit": "CORE",
+    "angle_gap": "Built on a single SHRM survey fielded in January 2024 and now dated; it reports AI adoption at a broad HR level (64% in talent acquisition) but stays shallow on AI interviewing specifically, lumping resume screening, candidate communication, and search automation into one vague 33% figure without distinguishing them.",
+    "asset": "What AI Interviewing Actually Looks Like Inside Recruiting Teams Now",
+    "distinct_angle": "Refreshes the January 2024 SHRM survey with current adoption data and unpacks the AI-interviewing use case the original piece buries in one vague statistic.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2508,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire performance management (annual reviews) is explicitly off-limits per brand scope"
+  }
+]

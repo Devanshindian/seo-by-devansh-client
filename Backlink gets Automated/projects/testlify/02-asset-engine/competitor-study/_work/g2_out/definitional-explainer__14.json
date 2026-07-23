@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 528,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 data sharding is a niche database-engineering concept; this is a developer-skill glossary entry (pure dev-tooling), not a hiring-strategy, soft-skill, or role-craft subject Testlify owns."
+  },
+  {
+    "row_id": 530,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 page load speed is a web-performance/marketing metric for developers, not a hiring or assessment subject; outside Testlify's world even under the transplant lens (the subject itself would become ours, which is disallowed)."
+  },
+  {
+    "row_id": 531,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 same pattern as the data-sharding page: a niche database-engineering skill entry from a technical glossary, developer-tooling territory, not hiring or assessment strategy."
+  },
+  {
+    "row_id": 532,
+    "brand_fit": "CORE",
+    "angle_gap": "The page defines versatility only in the abstract \u2014 five generic numbered 'why it matters' points and a five-point 'how Alooba assesses it' section that never gives a single concrete behavioral indicator, sample interview question, or worked scenario a recruiter could actually use in an interview.",
+    "asset": "The Behavioral Signals That Actually Prove a Candidate Is Versatile, Not Just Says So",
+    "distinct_angle": "Replaces the page's abstract five-point definition and vague 'performance-based tests' mention with concrete behavioral indicators, sample interview questions, and a scoring rubric for versatility \u2014 the specificity and worked examples this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 533,
+    "brand_fit": "CORE",
+    "angle_gap": "The page lists six generic 'key features' of logical thinking (deductive reasoning, inductive reasoning, analytical skills, etc.) and generic benefits of assessing it, but never shows a single sample reasoning question, a model answer, or a way to tell a genuinely sound answer from a rehearsed one.",
+    "asset": "Logical Reasoning Interview Answers That Sound Smart But Aren't, and How to Tell the Difference",
+    "distinct_angle": "Adds worked logical-reasoning questions with model answers and a rubric for distinguishing genuine deductive/inductive reasoning from rehearsed responses \u2014 the concrete examples and evaluation depth this page never supplies.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3352,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites blanket national averages (bad hire ~$18,700, cost-per-hire $4,700) and lumps every cost category together, but never breaks the cost of a mis-hire down by role or seniority, or walks through a worked calculation for a specific hire \u2014 a reader can't size their own risk.",
+    "asset": "The Real Cost of a Bad Hire, Broken Down by Role and Seniority",
+    "distinct_angle": "Breaks the national-average bad-hire cost figures down by role/seniority with worked calculations, instead of citing one blanket $18,700 figure for every job \u2014 the granularity this page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3353,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists 7 reasoning-skill traits (critical thinking, problem-solving, analytical thinking, etc.) with generic descriptions and interstitial sales CTAs, but never gives a sample assessment question or scoring cue for any of them \u2014 a reader can't tell what a strong vs. weak answer actually looks like.",
+    "asset": "The Reasoning Skills That Predict Job Performance, With Sample Answers Scored Strong to Weak",
+    "distinct_angle": "Adds a worked sample question and a scoring rubric for each of the 7 reasoning skills, where this page only offers abstract trait descriptions with no example of a strong vs. weak answer.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3354,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Builds the business case for diversity from studies spanning nearly a decade (BCG, Cloverpop, Josh Bersin), but never connects any cited benefit back to the specific hiring mechanism \u2014 bias-reduced, skills-based screening \u2014 that actually produces it, so the 'benefits' and the 'how' stay disconnected.",
+    "asset": "How Bias-Reduced Screening Actually Delivers the Diversity Benefits Companies Cite",
+    "distinct_angle": "Ties each cited diversity benefit (innovation, faster decisions, adaptability) back to the specific bias-reducing assessment practice that produces it, where this page states the benefits but never shows the hiring mechanism behind them.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3356,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans entirely on motivational retention/engagement stats (LinkedIn Learning, Quantum Workplace) for why upskilling matters, but never shows assessment data collected at hiring turning into an actual skills-gap analysis or development plan for a real role \u2014 the 'hand in hand' claim in the title is never demonstrated.",
+    "asset": "Turning Hiring Assessment Scores Into a Real Skills-Gap Development Plan",
+    "distinct_angle": "Walks through a worked example of converting skills-assessment scores gathered at hiring into a concrete gap analysis and development plan, where this page stops at motivational stats for why upskilling matters.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3362,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 individual employee career/personal-development advice (networking, mindfulness, confidence-building), unconnected to hiring, assessment, or skills-based screening; outside Testlify's world"
+  }
+]

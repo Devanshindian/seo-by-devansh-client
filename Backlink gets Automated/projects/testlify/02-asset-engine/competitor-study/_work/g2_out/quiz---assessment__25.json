@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3388,
+    "brand_fit": "CORE",
+    "angle_gap": "Explains Oldham & Hackman's Job Characteristics Model in the abstract but never shows a worked example of an actual job-preference profile or how the moderators are scored, and asserts the alignment 'is correlated to better performance and longer retention' without citing any supporting study or figure.",
+    "asset": "The Job-Preference Fit Test That Shows Which Motivators Actually Predict Retention",
+    "distinct_angle": "Grounds the job-fit assessment in a worked example \u2014 a real job profile mapped against candidate preference moderators \u2014 and cites the actual retention/performance research behind the correlation this page only asserts.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 this needs a live, customizable job-preference survey and candidate-matching test built, not an article",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3391,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists the four competencies (hooks, state management, props, lifecycle) as one flat list with no seniority breakdown, and never mentions current React (Server Components, concurrent rendering) \u2014 the coverage reads as frozen at an older version of the library.",
+    "asset": "A React Skills Test That Separates Junior, Mid, and Senior Developers on Today's React",
+    "distinct_angle": "Breaks the same four competencies into junior/mid/senior benchmarks and updates coverage to current React (Server Components, concurrent features) \u2014 the seniority levels and version currency this page lacks.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 a working leveled coding test has to be built, not written",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3392,
+    "brand_fit": "CORE",
+    "angle_gap": "Reports a Cronbach's alpha reliability of only .68 \u2014 below the conventional .70 acceptability threshold \u2014 yet labels it 'Acceptable' with no explanation of what that tradeoff means for a hiring decision, and coverage stops at VLOOKUP/SUMIF with no mention of Power Query or Power Pivot, now standard in data-analyst-level Excel work.",
+    "asset": "An Excel Skills Test That Covers What Data-Analyst Roles Actually Use Now, Not Just VLOOKUP",
+    "distinct_angle": "Extends coverage to Power Query and Power Pivot alongside core formulas, and is transparent about what a .68 reliability score means for a hiring decision \u2014 the currency and honesty this page skips.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 the asset is a live skills test requiring a build",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3393,
+    "brand_fit": "CORE",
+    "angle_gap": "Grounds the test in the Situational Leadership Model (Blanchard & Hersey) but gives no concrete example situational-judgment scenario or sample question, and never addresses remote/hybrid team leadership, now the default context for most managers.",
+    "asset": "A Leadership Assessment Built Around Real Remote-Team Scenarios, Not Just the Theory",
+    "distinct_angle": "Shows an actual worked scenario question and extends the four competencies to remote/hybrid leadership situations \u2014 the concrete example and current work context this page never provides.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 a scored situational-judgment test needs to be built, not written",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3397,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites '60 million websites' built on WordPress as its authority stat with no date attached, and covers only classic admin/customization/security/plugin skills \u2014 no mention of Gutenberg block development or headless WordPress (WP as a REST/GraphQL backend), now a common WordPress developer skill set.",
+    "asset": "A WordPress Developer Test That Covers Gutenberg and Headless Builds, Not Just Classic Plugin Work",
+    "distinct_angle": "Refreshes the adoption stat to the current public figure and adds Gutenberg block development and headless WordPress skills to the competency list \u2014 the currency and modern coverage this page is missing.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 the asset is a live coding/skills test that has to be built",
+    "g_notes": ""
+  }
+]

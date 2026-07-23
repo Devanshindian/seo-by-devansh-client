@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 97,
+    "brand_fit": "CORE",
+    "angle_gap": "The page cites round, dramatic stats (3x quality of hire, 2x faster hiring, 47% lower attrition) with zero methodology, sample size, or source, and introduces the new 'AI Fluency Assessment' as built on '6 peer-reviewed frameworks' without naming a single one.",
+    "asset": "The Peer-Reviewed Frameworks Behind Measuring Real AI Fluency in Candidates",
+    "distinct_angle": "Names and explains the actual peer-reviewed frameworks (and what each one measures) behind assessing practical AI fluency, closing the gap where Bryq claims '6 peer-reviewed frameworks' but never names one.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 105,
+    "brand_fit": "CORE",
+    "angle_gap": "Asserts specific completion stats (4.3/5 satisfaction, 85% average completion, 88% for one case study) but never explains WHY the chatbot format drives completion \u2014 no breakdown by assessment length, question type, or device, just the headline number.",
+    "asset": "What Actually Drives Candidates to Finish or Abandon a Pre-Employment Assessment",
+    "distinct_angle": "Breaks down completion and drop-off by assessment length, question type, and device using public benchmark data, supplying the causal explanation Bryq's page asserts a number for but never shows.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 111,
+    "brand_fit": "CORE",
+    "angle_gap": "Describes 'Strategic Talent Reports' as a paid service that answers questions like 'who should we promote' but gives no example of what such a report contains or how psychometric data actually gets turned into a promotion/succession decision \u2014 the reader learns Bryq will do it, not how it's done.",
+    "asset": "The Method Behind Turning Assessment Data Into a Promotion or Succession Decision",
+    "distinct_angle": "Walks through the actual analysis steps and criteria for answering 'who should we promote' from assessment data, using public I-O psychology methodology \u2014 the explanation Bryq names as a deliverable but never shows.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 126,
+    "brand_fit": "CORE",
+    "angle_gap": "Testimonials cite dramatic single-line metrics (Dunnhumby 10x conversion, Tallan 50% faster, Zalora 50% shorter cycle) with no baseline, company size, or role context given, so the numbers can't be judged or replicated.",
+    "asset": "The Real Time-to-Hire Math Behind 'We Cut Technical Hiring in Half'",
+    "distinct_angle": "Unpacks the before/after baseline and context behind each cited case-study metric so a reader can judge whether a similar gain would replicate for their own team, filling in what HackerEarth's one-line testimonials omit.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 147,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 hackathon/contest page for edge AI machine-learning hardware; the format itself is a live judged event with prizes, not a writer-producible article, and the subject (embedded ML engineering) is entirely outside hiring/assessment"
+  }
+]

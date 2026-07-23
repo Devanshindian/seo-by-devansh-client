@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2910,
+    "brand_fit": "CORE",
+    "angle_gap": "Sells the TEIQue purely on vague outcome claims ('organizations report...') with no facet-by-facet depth, no validity/reliability figures, and never distinguishes trait (self-report) EI from ability-based EI or addresses the self-report faking risk that a hiring buyer would need to weigh.",
+    "asset": "Trait vs Ability Emotional Intelligence Tests: Which One Actually Predicts Leadership Performance",
+    "distinct_angle": "Where the Thomas page stays at generic benefit claims and never separates trait (self-report) EI from ability-based EI or flags self-report faking risk, ours explains the facets concretely and gives recruiters a defensible way to choose between EI test types.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2913,
+    "brand_fit": "CORE",
+    "angle_gap": "Markets the Big Five HPTI purely on outcome claims and never once addresses the best-known credibility problem with self-report personality testing in hiring \u2014 candidate faking/social-desirability bias \u2014 or cites any adverse-impact data despite the enterprise-scale claims.",
+    "asset": "Can Candidates Fake a Big Five Personality Test \u2014 and How Hiring Teams Should Guard Against It",
+    "distinct_angle": "Thomas never addresses faking or social-desirability bias, the central credibility question for self-report personality testing in hiring; ours tackles it directly with the actual research on fakability and mitigation.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2914,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists all four assessment types (behavior, personality, EI, aptitude) side by side with matching generic benefit bullets, but gives no guidance on which combination fits which role type, and never flags that aptitude and personality tests carry materially different EEOC/adverse-impact risk profiles.",
+    "asset": "Which Pre-Employment Assessment Type Actually Fits Which Role: Behavior, Personality, EI, or Aptitude",
+    "distinct_angle": "Thomas presents the four assessment types as an undifferentiated menu and never tells a buyer which to pick for which role or that aptitude tests carry higher adverse-impact exposure than behavioral ones; ours builds that decision framework with the real EEOC context the page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2916,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 360-degree feedback is a post-hire leadership/performance-development tool, not pre-employment assessment; brand scope explicitly excludes post-hire performance management as an end in itself"
+  },
+  {
+    "row_id": 2918,
+    "brand_fit": "CORE",
+    "angle_gap": "Promotes the General Intelligence Assessment purely on productivity/ramp-up claims and never mentions that cognitive-ability ('g') tests are the most litigated, highest-adverse-impact test category under EEOC guidance \u2014 a real legal exposure the page leaves out entirely.",
+    "asset": "The Adverse-Impact Risk Every Recruiter Should Know Before Using a Cognitive Ability Test",
+    "distinct_angle": "The GIA page sells fluid-intelligence testing on speed and ramp-up gains but omits the well-documented adverse-impact/EEOC litigation history of cognitive ability tests entirely; ours covers that risk head-on with the actual case law and mitigation practice.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

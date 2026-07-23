@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2465,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Stale (2016, citing a 2013 Georgetown study and a 2013 LinkedIn survey) and treats early turnover as purely an onboarding-execution problem \u2014 it never asks whether the turnover started upstream, at a bad hiring decision made off a resume rather than a verified skill fit.",
+    "asset": "Why New-Hire Turnover Starts at the Offer Letter, Not the Onboarding Desk",
+    "distinct_angle": "Traces early turnover back to resume-based hiring mismatches instead of blaming onboarding execution, and refreshes the decade-old job-hopping and internal-mobility stats with current public figures \u2014 the causal depth and currency this 2016 piece lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2473,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 pay/benefits satisfaction is compensation and benefits-administration territory, explicitly off-brand and not a hiring or assessment subject"
+  },
+  {
+    "row_id": 2610,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 attendance/sick-leave incentive design is post-hire benefits administration, not hiring or assessment"
+  },
+  {
+    "row_id": 2615,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 FLSA overtime/bonus wage-hour compliance is payroll/deep employment law, not hiring-compliance framing"
+  },
+  {
+    "row_id": 2618,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 bonus-payout expectations and compensation budgeting is a total-rewards/compensation subject, not hiring or assessment"
+  }
+]

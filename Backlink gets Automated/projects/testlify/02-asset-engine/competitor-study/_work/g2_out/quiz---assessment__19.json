@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3117,
+    "brand_fit": "CORE",
+    "angle_gap": "The 10-question bank leans on dated hardware trivia (e.g. 'which of the following is a major function of MCUs in hard drives/disks') and tests only 3 skills (Communication, Troubleshooting, IT), with no coverage of cloud infrastructure, remote-support tooling, or basic cybersecurity \u2014 the parts of a modern IT technician's job the current questions skip entirely.",
+    "asset": "A Computer Technician Skills Test Built for Cloud and Remote-Support Reality, Not Just Hardware Trivia",
+    "distinct_angle": "Expands past hardware trivia like MCU functions and PCI-e slots into cloud infrastructure, remote troubleshooting, and cybersecurity basics that modern IT technician roles actually require \u2014 the coverage gap in the current 3-skill, hardware-only question bank.",
+    "tool_escalation": "Format tag is Quiz/assessment \u2014 a graded, working test requires building it on our assessment platform, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3124,
+    "brand_fit": "CORE",
+    "angle_gap": "All 9 questions are pure soft-skill judgment scenarios (phone rings mid-conversation, greeting visitors, handling an unfamiliar task); nothing tests fluency with the software a modern front desk actually runs on \u2014 visitor-management systems, multi-line VOIP phones, or scheduling tools.",
+    "asset": "A Receptionist Skills Test That Checks Front-Desk Software Fluency, Not Just Etiquette Judgment",
+    "distinct_angle": "Adds front-desk software and multi-line phone-system scenarios alongside the soft-skill judgment calls this page tests exclusively, closing the technical-fluency gap the current question set leaves open.",
+    "tool_escalation": "Format tag is Quiz/assessment \u2014 a graded, working test requires building it on our assessment platform, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3140,
+    "brand_fit": "CORE",
+    "angle_gap": "The Forecasting question only asks the candidate to describe past forecasting experience in an open audio response ('tell me what you have done...') rather than having them actually forecast from data \u2014 there is no scored, quantitative pipeline exercise anywhere in the 9 questions.",
+    "asset": "A Sales Manager Skills Test That Scores Actual Pipeline Math, Not Just Forecasting Stories",
+    "distinct_angle": "Replaces the open-ended 'tell me what you've done' forecasting prompt with a scored pipeline-math exercise, testing quantitative forecasting ability instead of self-reported experience.",
+    "tool_escalation": "Format tag is Quiz/assessment \u2014 a graded, working test requires building it on our assessment platform, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3187,
+    "brand_fit": "CORE",
+    "angle_gap": "Sample questions are brain-teaser puzzles disconnected from the job (listing prime numbers under 50 without a '3', retyping a poem) rather than tasks that mirror real data-entry work like cleaning a messy spreadsheet or catching duplicate records.",
+    "asset": "A Data Entry Skills Test Built Around Real Spreadsheet Cleanup Tasks, Not Brain-Teaser Puzzles",
+    "distinct_angle": "Swaps the prime-number puzzle and poem-retyping busywork for real spreadsheet data-cleaning and duplicate-detection tasks that mirror actual data-entry work, the job-relevance gap in the current question set.",
+    "tool_escalation": "Format tag is Quiz/assessment \u2014 a graded, working test requires building it on our assessment platform, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3215,
+    "brand_fit": "CORE",
+    "angle_gap": "Despite the role title pairing sales AND marketing, all 8 questions test sales strategy, pricing, and communication \u2014 there's no question touching marketing channels, campaign analytics, or positioning research, so the 'marketing' half of the role goes untested.",
+    "asset": "A Sales and Marketing Manager Skills Test That Actually Tests Marketing Analytics, Not Just Sales Pricing",
+    "distinct_angle": "Adds digital-marketing-channel and analytics questions since the current test, despite its title, tests almost entirely sales pricing and strategy with no marketing-analytics component.",
+    "tool_escalation": "Format tag is Quiz/assessment \u2014 a graded, working test requires building it on our assessment platform, not an article.",
+    "g_notes": ""
+  }
+]

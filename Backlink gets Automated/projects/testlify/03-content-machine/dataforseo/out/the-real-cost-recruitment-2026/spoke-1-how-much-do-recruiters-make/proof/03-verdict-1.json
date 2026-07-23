@@ -1,0 +1,482 @@
+[
+  {
+    "keyword": "how much do recruiters make per hire",
+    "relevance": 10,
+    "distinctness": 10,
+    "brand_fit": 9,
+    "reason": "Exact match to asset title and the per-hire earnings angle; low KD, on-topic head term.",
+    "role": "primary"
+  },
+  {
+    "keyword": "how much do recruiters make per-hire",
+    "relevance": 10,
+    "distinctness": 2,
+    "brand_fit": 9,
+    "reason": "Same query as primary, hyphen variant only.",
+    "role": "variation"
+  },
+  {
+    "keyword": "how much do recruiters make",
+    "relevance": 9,
+    "distinctness": 4,
+    "brand_fit": 8,
+    "reason": "Broader reword of primary, same intent, high volume.",
+    "role": "variation"
+  },
+  {
+    "keyword": "how much does a recruiter make",
+    "relevance": 9,
+    "distinctness": 4,
+    "brand_fit": 8,
+    "reason": "Singular reword of primary, lowest KD in the cluster.",
+    "role": "variation"
+  },
+  {
+    "keyword": "how much can a recruiter make",
+    "relevance": 8,
+    "distinctness": 4,
+    "brand_fit": 7,
+    "reason": "Modal reword of primary, same topic.",
+    "role": "variation"
+  },
+  {
+    "keyword": "how much do recruiters earn",
+    "relevance": 8,
+    "distinctness": 4,
+    "brand_fit": 7,
+    "reason": "Earn/make synonym of primary.",
+    "role": "variation"
+  },
+  {
+    "keyword": "how much does a recruiter earn",
+    "relevance": 8,
+    "distinctness": 4,
+    "brand_fit": 7,
+    "reason": "Earn/make synonym of primary, singular.",
+    "role": "variation"
+  },
+  {
+    "keyword": "how much does an it recruiter make",
+    "relevance": 8,
+    "distinctness": 8,
+    "brand_fit": 8,
+    "reason": "IT-recruiter earnings is a genuine role-specific sub-topic the angle's 'by role' breakdown covers.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "how do recruiters get paid",
+    "relevance": 8,
+    "distinctness": 8,
+    "brand_fit": 8,
+    "reason": "Commission-structure question, core to 'commission rates by type' angle.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "do recruiters get commission",
+    "relevance": 8,
+    "distinctness": 7,
+    "brand_fit": 8,
+    "reason": "Direct commission-existence question, matches angle's commission focus.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "corporate recruiter salary",
+    "relevance": 8,
+    "distinctness": 8,
+    "brand_fit": 8,
+    "reason": "Matches the 'in-house' recruiter category named in the angle.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "executive recruiter compensation",
+    "relevance": 8,
+    "distinctness": 8,
+    "brand_fit": 8,
+    "reason": "Matches the 'retained' recruiter category named in the angle.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "how much do it recruiters make",
+    "relevance": 8,
+    "distinctness": 3,
+    "brand_fit": 7,
+    "reason": "Duplicate of 'how much does an it recruiter make', higher KD.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how do recruiters earn money",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Duplicate of 'how do recruiters get paid'.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how do recruiters make money",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Duplicate of 'how do recruiters get paid'.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how does recruiter get paid",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Duplicate of 'how do recruiters get paid', grammar variant.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how does recruiters get paid",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Duplicate of 'how do recruiters get paid', grammar variant.",
+    "role": "drop"
+  },
+  {
+    "keyword": "does recruiters get commission",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Duplicate of 'do recruiters get commission'.",
+    "role": "drop"
+  },
+  {
+    "keyword": "corporate recruiters salary",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Duplicate of 'corporate recruiter salary'.",
+    "role": "drop"
+  },
+  {
+    "keyword": "salary for corporate recruiter",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Duplicate of 'corporate recruiter salary'.",
+    "role": "drop"
+  },
+  {
+    "keyword": "executive recruiter pay",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Duplicate of 'executive recruiter compensation'.",
+    "role": "drop"
+  },
+  {
+    "keyword": "executive recruiters salary",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Duplicate of 'executive recruiter compensation'.",
+    "role": "drop"
+  },
+  {
+    "keyword": "salary for executive recruiter",
+    "relevance": 8,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Duplicate of 'executive recruiter compensation'.",
+    "role": "drop"
+  },
+  {
+    "keyword": "recruiter pay",
+    "relevance": 7,
+    "distinctness": 4,
+    "brand_fit": 7,
+    "reason": "Broad synonym head term for primary.",
+    "role": "variation"
+  },
+  {
+    "keyword": "recruiter salary",
+    "relevance": 7,
+    "distinctness": 7,
+    "brand_fit": 7,
+    "reason": "Base salary is a distinct concept from per-hire commission, worth its own section.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "how do it recruiters get paid",
+    "relevance": 7,
+    "distinctness": 7,
+    "brand_fit": 7,
+    "reason": "IT-specific commission-structure facet, distinct from the general and the amount question.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "how do job placement agencies make money",
+    "relevance": 7,
+    "distinctness": 7,
+    "brand_fit": 6,
+    "reason": "Agency business-model question fits the agency/contingency category in the angle.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "physician recruiter compensation",
+    "relevance": 7,
+    "distinctness": 8,
+    "brand_fit": 7,
+    "reason": "Healthcare-recruiter niche, fits the angle's role-based breakdown.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "headhunters salary",
+    "relevance": 7,
+    "distinctness": 7,
+    "brand_fit": 6,
+    "reason": "Headhunter is a common synonym for contingency/retained recruiters.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "how much does recruiters make",
+    "relevance": 7,
+    "distinctness": 2,
+    "brand_fit": 6,
+    "reason": "Grammatically broken duplicate of the make-variation cluster, adds nothing new.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how do recruitment agencies earn money",
+    "relevance": 7,
+    "distinctness": 2,
+    "brand_fit": 6,
+    "reason": "Duplicate of 'how do job placement agencies make money'.",
+    "role": "drop"
+  },
+  {
+    "keyword": "average salary for it recruiter",
+    "relevance": 7,
+    "distinctness": 2,
+    "brand_fit": 6,
+    "reason": "Duplicate of the IT-recruiter earnings secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "hr recruiters salary",
+    "relevance": 6,
+    "distinctness": 6,
+    "brand_fit": 6,
+    "reason": "HR-recruiter role-specific pay, minor but distinct sub-topic.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "management recruiter salary",
+    "relevance": 6,
+    "distinctness": 6,
+    "brand_fit": 6,
+    "reason": "Mid-management tier fits the angle's seniority breakdown, distinct from executive tier.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "average recruiter salary",
+    "relevance": 6,
+    "distinctness": 2,
+    "brand_fit": 5,
+    "reason": "Duplicate of 'recruiter salary' secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "average salary for a recruiter",
+    "relevance": 6,
+    "distinctness": 2,
+    "brand_fit": 5,
+    "reason": "Duplicate of 'recruiter salary' secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "average salary for recruiter",
+    "relevance": 6,
+    "distinctness": 2,
+    "brand_fit": 5,
+    "reason": "Duplicate of 'recruiter salary' secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "average salary of a recruiter",
+    "relevance": 6,
+    "distinctness": 2,
+    "brand_fit": 5,
+    "reason": "Duplicate of 'recruiter salary' secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "average salary recruiter",
+    "relevance": 6,
+    "distinctness": 2,
+    "brand_fit": 5,
+    "reason": "Duplicate of 'recruiter salary' secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "recruiter average salary",
+    "relevance": 6,
+    "distinctness": 2,
+    "brand_fit": 5,
+    "reason": "Duplicate of 'recruiter salary' secondary, higher KD.",
+    "role": "drop"
+  },
+  {
+    "keyword": "recruiter salary average",
+    "relevance": 6,
+    "distinctness": 2,
+    "brand_fit": 5,
+    "reason": "Duplicate of 'recruiter salary' secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "salary for recruiter human resources",
+    "relevance": 6,
+    "distinctness": 2,
+    "brand_fit": 5,
+    "reason": "Duplicate of 'hr recruiters salary'.",
+    "role": "drop"
+  },
+  {
+    "keyword": "do military recruiters get commission",
+    "relevance": 5,
+    "distinctness": 8,
+    "brand_fit": 4,
+    "reason": "Military recruiting is outside the agency/retained/RPO/in-house scope of this asset \u2014 deserves its own future piece.",
+    "role": "spoke"
+  },
+  {
+    "keyword": "how much do army recruiters make",
+    "relevance": 5,
+    "distinctness": 2,
+    "brand_fit": 3,
+    "reason": "Duplicate framing of the military-recruiter spoke topic.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much does a army recruiter make",
+    "relevance": 5,
+    "distinctness": 2,
+    "brand_fit": 3,
+    "reason": "Duplicate/typo of the army-recruiter query.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much does an army recruiter make",
+    "relevance": 5,
+    "distinctness": 2,
+    "brand_fit": 3,
+    "reason": "Duplicate of the army-recruiter query.",
+    "role": "drop"
+  },
+  {
+    "keyword": "do army recruiters get commission",
+    "relevance": 5,
+    "distinctness": 2,
+    "brand_fit": 3,
+    "reason": "Duplicate of the military-recruiter spoke topic.",
+    "role": "drop"
+  },
+  {
+    "keyword": "food near me",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Unrelated local-search query, no connection to recruiter pay.",
+    "role": "drop"
+  },
+  {
+    "keyword": "food.near me",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Unrelated local-search query, no connection to recruiter pay.",
+    "role": "drop"
+  },
+  {
+    "keyword": "resta",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Fragment/typo, no topical connection.",
+    "role": "drop"
+  },
+  {
+    "keyword": "restaurants",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Unrelated dining topic.",
+    "role": "drop"
+  },
+  {
+    "keyword": "target",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Unrelated retailer brand query.",
+    "role": "drop"
+  },
+  {
+    "keyword": "targets",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Unrelated retailer brand query.",
+    "role": "drop"
+  },
+  {
+    "keyword": "weather tomorrow",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Unrelated weather query.",
+    "role": "drop"
+  },
+  {
+    "keyword": "blooket",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Unrelated ed-tech game query.",
+    "role": "drop"
+  },
+  {
+    "keyword": "blookets",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Unrelated ed-tech game query.",
+    "role": "drop"
+  },
+  {
+    "keyword": "chorionic villus sampling",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Unrelated medical procedure.",
+    "role": "drop"
+  },
+  {
+    "keyword": "xdj",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Meaningless fragment, no topical connection.",
+    "role": "drop"
+  },
+  {
+    "keyword": "conec",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Fragment/typo, no topical connection.",
+    "role": "drop"
+  },
+  {
+    "keyword": "connecting",
+    "relevance": 0,
+    "distinctness": 0,
+    "brand_fit": 0,
+    "reason": "Generic unrelated term.",
+    "role": "drop"
+  }
+]

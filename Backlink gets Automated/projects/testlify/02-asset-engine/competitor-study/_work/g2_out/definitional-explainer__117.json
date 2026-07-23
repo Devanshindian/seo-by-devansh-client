@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3434,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Leans on a 2022 Korn Ferry shortage stat (75% of companies) and 2021-2022 salary-growth figures to call the current state of the market \u2014 four-year-old numbers presented as the live read, with no update on where hiring conditions actually stand now.",
+    "asset": "Is It Still a Candidate's Market? What the Current Hiring Data Actually Shows",
+    "distinct_angle": "Replaces the 2022 shortage stat and 2021-2022 salary figures with current labor-market data, so the market call reflects now instead of a four-year-old snapshot.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3442,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is workplace culture, burnout, and employee wellbeing, not hiring or assessment; the closing pivot to 'hire for culture add' is too thin to bring the whole piece into our world"
+  },
+  {
+    "row_id": 3454,
+    "brand_fit": "CORE",
+    "angle_gap": "The visible page is entirely secondhand framework recap \u2014 Lombardo/Eichinger's definition, Korn Ferry's five factors, Mettl's skill-half-life stat (tracked only up to 2018) \u2014 with no worked example of what learning agility looks like in an actual role or how it's told apart from a candidate who just interviews well.",
+    "asset": "What Learning Agility Actually Looks Like on the Job, Role by Role",
+    "distinct_angle": "Grounds the Korn Ferry five-factor model and the dated Mettl half-life stat in concrete, role-specific examples of learning agility in action \u2014 the worked detail this page never supplies.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3468,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 retention bonus is a compensation/retention-pay topic, adjacent to payroll and benefits administration, which the scope explicitly places outside our world; not a skills-assessment or hiring-process subject"
+  },
+  {
+    "row_id": 3471,
+    "brand_fit": "CORE",
+    "angle_gap": "Frames AI-generated resumes as mostly neutral-to-positive for both sides using 2023-vintage adoption data (the Canva 45% survey, the MIT Sloan study) without engaging the real hiring problem: AI-written resumes make candidates look identical on paper, which is exactly why resume screening breaks down and skills evidence has to replace it.",
+    "asset": "Why AI-Written Resumes Are Making Resume Screening Unreliable",
+    "distinct_angle": "Refreshes the 2023 adoption stats to current figures and centers the actual hiring risk \u2014 that AI-generated resumes erase the signal recruiters used to screen on \u2014 rather than treating AI resume tools as a neutral convenience.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

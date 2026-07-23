@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1197,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites only its own 2022 research across 100+ SEA companies, gives just three reasons engineers refuse coding tests, then pivots straight into an Adaface product pitch (its own 86% test-taking rate vs. a vague 'industry standard 50%') instead of a fix any team could apply without switching vendors.",
+    "asset": "Why Skilled Engineers Skip Your Coding Test \u2014 and the Redesign That Gets Them to Finish",
+    "distinct_angle": "Covers the same three failure modes (trick algorithms, oversized time asks, unfamiliar IDEs) but backs each with current, cited completion-rate benchmarks and a concrete redesign checklist a team can run in-house, rather than closing on a pitch for the writer's own AI interviewer.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1331,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists five candidate complaints (puzzle questions with no real-life link, one-size-fits-all tests, cold automated process, personality-test social-desirability bias, low perceived purpose) but offers only vague advice ('set the context right') with zero data, and the piece cuts off without ever landing on a concrete fix.",
+    "asset": "The Pre-Employment Test Design Mistakes That Make Strong Candidates Walk Away",
+    "distinct_angle": "Turns the same five candidate complaints into a concrete redesign checklist \u2014 job-relevant task selection, role-specific test matching, structured candidate communication \u2014 backed by current completion-rate figures, where the original ends on unsupported advice.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2458,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is employer health-benefits design and retention, which sits in benefits administration; explicitly off-limits and not a hiring/assessment topic"
+  },
+  {
+    "row_id": 2463,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Cites PayScale (2017-2019 data) and NWLC (2016 Census data) wage-gap figures that are now stale, and treats the pay gap purely as a compensation-policy problem \u2014 it never connects the gap back to biased screening upstream (resume filters, unstructured interviews) even though its own 'opportunity gap' section describes exactly that mechanism.",
+    "asset": "Where Hiring Bias Creates the Pay Gap Before Compensation Ever Does",
+    "distinct_angle": "Traces the same opportunity-gap mechanism the article names (fewer black and Hispanic men reaching management-track roles) back to biased resume screens and unstructured interviews, and refreshes the pay-gap figures with current published data instead of 2016-2019 numbers.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: racial pay-equity / compensation"
+  },
+  {
+    "row_id": 2464,
+    "brand_fit": "CORE",
+    "angle_gap": "Built entirely on a single LinkedIn survey of ~1,500 recruiters from early 2021 and pandemic-era predictions (virtual hiring, internal mobility up 20%); it never mentions AI-driven screening or interviewing, which barely existed as a recruiting trend at the time but is now central to how the predicted shifts (volume, speed, remote screening) actually played out.",
+    "asset": "The 2021 Recruiting Predictions That Actually Held Up \u2014 and What AI Screening Replaced",
+    "distinct_angle": "Revisits the same predictions (virtual hiring becoming standard, internal mobility rising, DE&I focus) with what current public data shows actually happened, and adds the AI-screening shift the 2021 piece couldn't have anticipated.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

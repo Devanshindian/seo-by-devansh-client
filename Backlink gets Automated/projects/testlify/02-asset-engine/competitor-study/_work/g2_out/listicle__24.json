@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3378,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans on one aggregate stat (82% of employers say time-to-hire dropped) plus decade-plus-old research (1998 Hunter meta-analysis, older Glassdoor/Schmidt citations) with no stage-by-stage breakdown of where the time actually gets saved in the funnel.",
+    "asset": "How Skills-Based Hiring Cuts Time-to-Hire at Every Stage of the Funnel",
+    "distinct_angle": "Breaks the single 82% headline stat into a stage-by-stage view (screening, interview, decision) with current benchmark figures, instead of one aggregate number backed by decades-old studies.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3379,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists generic hard/soft skills (financial management, negotiation) and then pivots straight to naming their own product tests (Excel test, Instagram Marketing test) without ever explaining how to structure a scored assessment \u2014 no weighting, thresholds, or sample scenario per skill.",
+    "asset": "Property Manager Skills Assessment: What to Test For and How to Score It",
+    "distinct_angle": "Replaces the skill list plus product pitch with an actual scoring rubric and sample scenario per skill (e.g. a tenant-negotiation scenario, a maintenance-triage scenario) that a hiring team can apply directly, which the page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3380,
+    "brand_fit": "CORE",
+    "angle_gap": "Practice 4, 'build a robust, streamlined, and scalable hiring process,' names skills-based hiring as a goal but never explains how to actually build one \u2014 the rest of the piece is employer branding and candidate-persona advice, not process design.",
+    "asset": "Building a Skills-Based Hiring Process for an Early-Stage Startup",
+    "distinct_angle": "Turns the page's single unexplained bullet ('robust, skills-based hiring process') into the actual framework \u2014 funnel stages, which tests to use when, and a lean scorecard for a founder hiring without an HR team.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3390,
+    "brand_fit": "CORE",
+    "angle_gap": "Describes 9 teamwork qualities (emotional intelligence, courage, accountability) purely in the abstract \u2014 no interview question or scoring anchor is attached to any of them, so a recruiter reading it still can't test for the traits.",
+    "asset": "Interview Questions and Scorecards for Every Core Teamwork Quality",
+    "distinct_angle": "Pairs each of the page's 9 abstract traits with a concrete interview question and a scoring anchor, closing the gap between 'here's a quality' and 'here's how to actually evaluate it.'",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3398,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'how to assess observation skills' section only names 5 assessment types in passing \u2014 no example test question, scenario, or benchmark score is given for any of the 7 skills it just spent the article defining.",
+    "asset": "Observation Skills Interview Questions and Assessment Benchmarks for Recruiters",
+    "distinct_angle": "Adds a concrete sample question and benchmark score for each of the 7 observation skills, replacing the page's abstract trait descriptions with something a recruiter can actually score against.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

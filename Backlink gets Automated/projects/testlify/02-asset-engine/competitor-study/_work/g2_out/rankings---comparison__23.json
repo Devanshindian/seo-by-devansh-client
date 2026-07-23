@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3436,
+    "brand_fit": "CORE",
+    "angle_gap": "Each of the 9 role categories gets only a generic hiring-challenges list \u2014 the 'call center staff' entry, for example, opens with 'these roles involve hand...' and cuts off with no named competencies, skill dimensions, or test format tied to that specific role.",
+    "asset": "Which Job Roles Skills-Based Hiring Fits Best \u2014 and the Exact Skills to Test for Each",
+    "distinct_angle": "Pairs every role category with the specific skill dimensions and assessment types to use for it, where this page stops at generic hiring challenges per role.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3437,
+    "brand_fit": "CORE",
+    "angle_gap": "The 29 traits are covered as one-line, generic definitions per industry (e.g. 'Confidence: Displaying self-awareness...') with no behavioral indicators or way to actually observe/measure them, and the assessment section is reduced to '2 proven methods' with no depth on how to apply them per trait.",
+    "asset": "The Soft Skills Employers Actually Screen For, Industry by Industry",
+    "distinct_angle": "Adds observable behavioral indicators and a concrete assessment method for each industry's soft skills, not just a one-line trait definition with no way to measure it.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3458,
+    "brand_fit": "CORE",
+    "angle_gap": "The page spends most of its length on a 9-step merit-based hiring process walkthrough (job analysis through background checks) but, despite being tagged as a comparison, never delivers a direct side-by-side table contrasting skills-based vs. merit-based hiring on criteria like predictive validity, bias risk, cost, and time-to-hire.",
+    "asset": "Skills-Based vs. Merit-Based Hiring: The Side-by-Side Comparison Recruiters Actually Need",
+    "distinct_angle": "Delivers the direct criterion-by-criterion comparison table that this page's step-by-step merit-process walkthrough never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3469,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 pure developer/coding-education content (SQL vs. NoSQL database comparison); explicitly off-limits per brand scope (\"we test coders, we don't teach coding\")"
+  },
+  {
+    "row_id": 3533,
+    "brand_fit": "CORE",
+    "angle_gap": "Despite the comparison-format tag, the page is a one-sided listicle of '6 reasons why skills matter more' built from consultant quotes and a 2023 survey stat, with no structured comparison of skills vs. experience across criteria like predictive validity, cost-per-hire, time-to-fill, or bias risk.",
+    "asset": "Skills vs. Experience, Criterion by Criterion: What the Evidence Actually Shows",
+    "distinct_angle": "Replaces the one-sided reasons-list with a structured, criterion-by-criterion comparison (validity, cost, bias, time-to-hire) and refreshes the 2023 survey stat with the current figure.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

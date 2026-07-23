@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1295,
+    "brand_fit": "CORE",
+    "angle_gap": "Every skill (e.g. Ethical Judgment, Risk Assessment) gets a generic 2-3 sentence definition with no worked scenario, and the 'How to assess' section trails off into a promo for Adaface's own tests without ever naming a concrete technique, sample question, or rubric.",
+    "asset": "What Separates a Great Auditor from a Resume-Ready One: The Skills, the Red Flags, and How to Test for Them",
+    "distinct_angle": "Replaces the page's one-line trait definitions with worked scenario examples and sample assessment questions/rubrics per skill \u2014 the concrete assessment guidance the original promises in its intro but never delivers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1301,
+    "brand_fit": "CORE",
+    "angle_gap": "Skills like Memory Management and Concurrency are defined in the abstract ('Rust's ownership model is designed to manage memory safely...') with no code example, no sample interview question on the borrow checker, and no mention of the actual hiring pain point \u2014 a thin senior-Rust talent pool and how to assess juniors transitioning into it.",
+    "asset": "Hiring a Rust Developer: The Skills That Matter and What Strong vs Weak Answers Actually Sound Like",
+    "distinct_angle": "Adds a concrete ownership/borrow-checker code example and a strong-vs-weak sample answer per core skill, where the original only defines terms like 'ownership' and 'concurrency' abstractly.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1302,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'How to assess' section opens with 'It's important to have a structured approach' and then cuts off into a generic promo without naming a single technique; the page also never mentions safety certifications (e.g. OSHA) despite Safety Compliance being one of its own 8 listed skills.",
+    "asset": "What a Manufacturing Specialist Actually Needs to Know on the Floor, and How to Test for It Before You Hire",
+    "distinct_angle": "Names the OSHA/safety-certification specifics and a worked hands-on/simulation assessment method for floor roles, where the original's assessment section trails off without ever naming a technique.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1304,
+    "brand_fit": "CORE",
+    "angle_gap": "Cloud Platforms is described only as 'proficient in major cloud service providers like AWS, Azure, or Google Cloud' with no mention of the certifications (AWS Certified Solutions Architect, etc.) hiring teams actually screen for, and no example distinguishing what a junior vs senior cloud engineer's answer looks like on any listed skill.",
+    "asset": "Cloud Engineer Skills That Separate Junior from Senior Hires, and the Certifications That Prove Them",
+    "distinct_angle": "Names the specific certifications hiring teams screen for and gives a worked junior-vs-senior comparison per skill, where the original only lists platform names with no way to tell competence levels apart.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1319,
+    "brand_fit": "CORE",
+    "angle_gap": "Memory Management is described only via 'Automatic Reference Counting (ARC)' in the abstract with no retain-cycle code example, and the page never addresses the SwiftUI-vs-UIKit split that is the dominant real-world hiring distinction for iOS roles today.",
+    "asset": "Swift Developer Skills for 2026: The SwiftUI-vs-UIKit Divide and What Separates Strong Candidates",
+    "distinct_angle": "Covers the SwiftUI-vs-UIKit split that dominates current iOS hiring and adds a real retain-cycle code example, neither of which the original page mentions under its generic 'Memory Management' and 'API Integration' entries.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

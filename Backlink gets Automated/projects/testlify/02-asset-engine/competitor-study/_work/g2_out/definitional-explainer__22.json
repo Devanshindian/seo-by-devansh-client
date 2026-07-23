@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 573,
+    "brand_fit": "CORE",
+    "angle_gap": "Entirely abstract \u2014 no worked example decomposing an actual time series into trend/seasonal/irregular components, no concrete method named beyond 'decomposition' (no moving averages, no stationarity test), and the topics list itself is cut off mid-sentence ('duration and amplitude o').",
+    "asset": "How to Actually Test a Candidate's Seasonality Analysis Skills, With a Worked Decomposition Example",
+    "distinct_angle": "Walks through one real time-series decomposition end to end with actual numbers \u2014 the concrete step this page claims is 'commonly employed' but never shows.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 574,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines mean/median/mode correctly but never shows a worked numeric example of how an outlier pulls the mean away from the median, skips weighted/geometric/harmonic mean entirely, and names 'multiple-choice or coding tests' as assessment methods without giving a single sample question.",
+    "asset": "Central Tendency Interview Questions That Separate Real Analysts From Memorized Definitions",
+    "distinct_angle": "Supplies the skewed-data worked example and the actual interview questions the page says to use but never writes out.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 575,
+    "brand_fit": "CORE",
+    "angle_gap": "A generic bullet-point listicle (boosts productivity, improves communication) with zero concrete scenarios or sample questions, despite explicitly recommending 'behavioral interviews' and 'situational judgment tests' as the way to assess it.",
+    "asset": "Team Supervision Interview Questions That Reveal How Someone Actually Handles a Conflict",
+    "distinct_angle": "Delivers the actual behavioral and situational-judgment questions, with example strong vs. weak answers, that the page namechecks as methods but never writes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 576,
+    "brand_fit": "CORE",
+    "angle_gap": "Describes Power Query's capabilities only in the abstract \u2014 no actual M code, no walkthrough of a real transformation task \u2014 and recommends a 'File Upload' practical test while the topics section itself cuts off mid-sentence ('Power Query provid').",
+    "asset": "Power Query Interview Questions That Separate Real ETL Skill From Menu-Clicking",
+    "distinct_angle": "Shows one real M-code transformation walkthrough and the specific practical-test prompt the page recommends using but never demonstrates.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 577,
+    "brand_fit": "CORE",
+    "angle_gap": "Structurally solid (definition, steps, skills list) but never gives a concrete example: no sample two-entry dataset showing a caught discrepancy, no actual interview question, and its own topics outline cuts off mid-list under 'Error Detection and Correction.'",
+    "asset": "Double-Entry Verification Test Scenarios That Catch the Errors Candidates Actually Miss",
+    "distinct_angle": "Adds one worked example of two mismatched data entries plus the exact interview/practical-test question a hiring team can run, the concrete layer this page's own outline promises but never delivers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

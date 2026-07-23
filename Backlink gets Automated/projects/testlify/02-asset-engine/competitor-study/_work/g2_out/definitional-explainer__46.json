@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 703,
+    "brand_fit": "CORE",
+    "angle_gap": "Gives only the significance-level-adjustment formula and one toy example (5 tests, 0.05/5=0.01); never mentions the trade-off that matters most \u2014 Bonferroni's loss of statistical power / inflated Type II error rate \u2014 and the 'Exploring Topics' section cuts off mid-list without covering alternatives like Holm-Bonferroni.",
+    "asset": "Bonferroni Correction: The Power Trade-Off and Worked Example Most Explainers Skip",
+    "distinct_angle": "Adds a fully worked numeric example with real p-values plus the power/Type II error trade-off and Holm-Bonferroni alternative that this page omits entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 962,
+    "brand_fit": "CORE",
+    "angle_gap": "Promises 'Examples of Structured Interview Questions' as its own section but delivers none \u2014 it just links out to a separate guide; also cites 'a recent meta-analysis' for the 2x predictive-validity claim without naming the study or giving the actual validity coefficient.",
+    "asset": "Structured Interview Questions and Scoring Rubrics You Can Actually Use",
+    "distinct_angle": "Delivers the actual worked structured-interview questions and anchored scoring rubrics this page promises but outsources, and names the meta-analysis with its real validity coefficient instead of a vague citation.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 963,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'defensibility' benefit is listed as a single bullet and never developed, while the page leans entirely on undated, uncited case studies (a 'clothing retailer', a 'call center') for its productivity and turnover numbers.",
+    "asset": "Why Pre-Employment Tests Cut Turnover and Survive an EEOC Audit",
+    "distinct_angle": "Expands the underdeveloped defensibility bullet into a full adverse-impact/EEOC-compliance section and sources the productivity and turnover figures this page leaves undated and uncited.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 965,
+    "brand_fit": "CORE",
+    "angle_gap": "Opens on a '46% of new hires fail within 18 months' stat with no date or current source, and the piece introduces skills tests as one of five categories to cover but the content cuts off before ever actually discussing them.",
+    "asset": "What Skills Tests Measure That Aptitude and Personality Tests Can't",
+    "distinct_angle": "Goes deep on skills-based tests \u2014 the category this page lists but never covers \u2014 and refreshes the stale, undated '46% fail within 18 months' stat with a current sourced figure.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 990,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines each of the Big Five traits in one flat sentence with zero worked example of how a real test question or scoring pattern would look, and the hiring-application section only illustrates one role (sales) before cutting off.",
+    "asset": "The Big Five Personality Traits, Mapped to the Roles Where Each One Actually Predicts Performance",
+    "distinct_angle": "Adds worked scoring examples per trait and extends the single sales-role illustration into a role-by-role breakdown (technical, customer service, frontline) this page never reaches.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

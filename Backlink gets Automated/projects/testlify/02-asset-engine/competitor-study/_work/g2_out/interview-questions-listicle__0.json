@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 53,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists 20 generic critical-thinking prompts with no sample answer, scoring guidance, or named cognitive skill attached to any individual question \u2014 despite the page's own meta description promising 'sample answers, a scoring rubric, and the cognitive abilities each one tests,' none of that appears against the questions themselves, only a generic 'how to assess' section tacked on at the end.",
+    "asset": "Critical Thinking Interview Questions Scored Against the Cognitive Skill Each One Actually Tests",
+    "distinct_angle": "Pairs every question with its own sample answer, scoring rubric, and the specific cognitive ability it probes \u2014 the per-question depth this page promises in its description but never delivers in the actual list.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 116,
+    "brand_fit": "CORE",
+    "angle_gap": "Solid what-to-look-for/red-flag structure per question, but never once raises that 'culture fit' hiring is widely criticized for encouraging homogeneity and enabling unconscious bias \u2014 no guidance on keeping these same questions from becoming a proxy for 'people like us,' which is the actual risk fairness-conscious hiring teams worry about with culture-fit interviewing.",
+    "asset": "Culture Fit Interview Questions That Don't Quietly Select for Sameness",
+    "distinct_angle": "Adds the bias-and-fairness lens this page skips entirely, flagging where each question can slide into a 'similar to me' proxy and how to keep the scoring objective \u2014 closing the fairness gap a bias-aware recruiter would actually ask about.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 404,
+    "brand_fit": "CORE",
+    "angle_gap": "Most of the piece is generic throat-clearing \u2014 a history of how interview techniques evolved, a general case for why 'interesting' interviews matter \u2014 before ever reaching the 50 questions themselves; per the page's own table of contents, the questions get no per-question guidance on what a strong versus weak answer actually sounds like.",
+    "asset": "Interview Questions That Actually Surprise Candidates Into Honest Answers",
+    "distinct_angle": "Cuts the generic preamble about why interviews matter and goes straight to the questions with a strong/weak answer contrast for each one \u2014 the concrete per-question guidance this page skips in favor of essay-style filler.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 408,
+    "brand_fit": "CORE",
+    "angle_gap": "Written to coach the candidate ('conquer your interview,' 'land that coveted role') rather than the hiring manager running it, and the visible content is generic filler about what retail-manager interviews are and why they matter \u2014 no actual list of retail-specific questions, no evaluation criteria, no sample answers shown despite the title promising 50 Q&As.",
+    "asset": "Retail Manager Interview Questions That Reveal Store-Floor Judgment, Not Rehearsed Answers",
+    "distinct_angle": "Reframes the same subject for the hiring manager instead of the job-seeker, replacing the generic 'why interviews matter' filler with retail-specific scoring guidance per question \u2014 the recruiter-facing detail this page skips in favor of candidate coaching.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1179,
+    "brand_fit": "CORE",
+    "angle_gap": "72 questions with detailed answers, but every architecture-specific question shown stops at classic CNNs, RNNs, batch normalization, and dropout \u2014 no transformer or attention-mechanism questions appear anywhere, a real gap for 2026 deep learning hiring where transformer-based architectures are the default topic candidates are expected to know.",
+    "asset": "Deep Learning Interview Questions That Test Transformer and Attention Fluency, Not Just CNN Basics",
+    "distinct_angle": "Extends the same tiered format with the transformer and attention-mechanism questions this list omits entirely \u2014 closing the classic-architecture-only gap that leaves the current default deep learning topic untested.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

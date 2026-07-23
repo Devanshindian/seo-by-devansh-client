@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3521,
+    "brand_fit": "CORE",
+    "angle_gap": "The causes table (devalued education, skill-display uncertainty, neurodivergence, trauma/bad test history) is thorough but each cause is described in isolation \u2014 the piece never maps a specific cause to a specific test-design fix (e.g., which accommodation actually addresses neurodivergent anxiety vs. which addresses skill-display uncertainty), so a recruiter reading it can't act on it directly.",
+    "asset": "Designing Skills Tests That Don't Trigger Candidate Anxiety, Cause by Cause",
+    "distinct_angle": "Pairs each of the four anxiety causes TestGorilla lists with the concrete assessment-design fix that addresses it (untimed options, practice questions, transparent scoring, degree-respecting framing) \u2014 the practical bridge from cause to fix that their causes-only breakdown never builds.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3529,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee resource groups are a post-hire retention/DEI program, not hiring or skills assessment; belongs to a different product world than Testlify's."
+  },
+  {
+    "row_id": 3557,
+    "brand_fit": "CORE",
+    "angle_gap": "The piece leans on repeated unsourced hedges \u2014 'research shows,' 'studies show,' 'studies show' again \u2014 to back its bias-reduction and predictive-accuracy claims, but never names a single actual study, and it closes as a pitch for Xobin's own software rather than a genuinely neutral explainer of how AI-based psychometric testing works.",
+    "asset": "What AI Psychometric Testing Actually Measures, and the Research Behind Each Claim",
+    "distinct_angle": "Replaces every unattributed 'studies show' claim in the competitor piece with the actual named research or public source behind it, and drops the vendor pitch for a neutral breakdown of what these tests measure and why.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3564,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 social recruiting is passive-candidate sourcing via social platforms, explicitly outside Testlify's assessment/testing world per brand rules."
+  },
+  {
+    "row_id": 3571,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The piece walks the automation pipeline from sourcing straight to resume screening to chatbots to video interviews, but skips skills/psychometric testing as a stage entirely \u2014 a strange omission given it explicitly discusses evaluating 'skills and abilities' during screening. Its efficiency stats ('40 to 60 percent of working hours,' '3 to 5 hours per day reclaimed') are also stated with no source.",
+    "asset": "Where Skills Testing Fits in an AI-Automated Hiring Pipeline",
+    "distinct_angle": "Fills the stage this piece skips over \u2014 where skills/psychometric testing sits between automated resume screening and AI interviews \u2014 and replaces its uncited time-savings figures with sourced current numbers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

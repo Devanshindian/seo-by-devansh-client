@@ -1,0 +1,337 @@
+{
+  "theme": "HR Operations & Compliance",
+  "key": "c08",
+  "n_pillars": 33,
+  "pillars": [
+    {
+      "pillar": "Strategic Human Resource Planning",
+      "n": 15,
+      "intent": "informational",
+      "sample_spokes": [
+        "case-studies-of-strategic-human-resource-planning",
+        "different-steps-in-strategic-human-resource-planning",
+        "get-started-with-strategic-human-resource-planning"
+      ]
+    },
+    {
+      "pillar": "HR Tech Tools, Core Systems & Digital Transformation",
+      "n": 12,
+      "intent": "mixed",
+      "sample_spokes": [
+        "customisable-cloud-based-hr-solutions",
+        "factors-to-consider-for-choosing-the-right-core-hr-tools",
+        "how-digital-transformation-is-revolutionizing-hr"
+      ]
+    },
+    {
+      "pillar": "HR Compliance, Benefits & Policies",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "6-common-security-mistakes-hr",
+        "9-80-work-schedule",
+        "compassionate-leave"
+      ]
+    },
+    {
+      "pillar": "State Employment & Labor Laws (Eastern & Southern US)",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "delaware-employment-and-labor-laws",
+        "florida-employment-and-labor-laws",
+        "georgia-employement-and-labor-laws"
+      ]
+    },
+    {
+      "pillar": "HR Compliance Policies, Audits & Legal Checklists",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "best-employer-of-record-services-for-gdpr-and-labor-compliance",
+        "common-hr-compliance-landmines-and-how-to-avoid-them",
+        "conduct-hr-audits-for-policy-compliance-in-the-organization"
+      ]
+    },
+    {
+      "pillar": "Compensation & Benefits: Designing & Managing Programs",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "case-studies-of-compensation-and-benefits-programs",
+        "common-mistakes-to-avoid-while-offering-compensation-and-benefits",
+        "communicate-compensation-and-benefits-to-your-employees"
+      ]
+    },
+    {
+      "pillar": "HR Metrics & People Analytics",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "9-box-matrix",
+        "balanced-scorecard",
+        "departmentalization"
+      ]
+    },
+    {
+      "pillar": "HR Technology & AI for HR Teams",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "ai-features-transforming-hr-support-and-leadership",
+        "better-alternative-for-hr-teams-than-office-deployment-tool",
+        "esim-hr-global-talent-mobility-transformations"
+      ]
+    },
+    {
+      "pillar": "State Employment & Labor Laws (Central & Western US)",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "california-employment-and-labor-laws",
+        "colorado-employment-and-labor-laws",
+        "illinois-employment-and-labor-laws"
+      ]
+    },
+    {
+      "pillar": "HR Strategy, Policies & Business Alignment",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "align-hr-strategies-with-business-objectives",
+        "build-and-maintain-strong-hr-partnerships-with-other-departments",
+        "common-hr-mistakes-and-how-to-avoid-them"
+      ]
+    },
+    {
+      "pillar": "Fair, Compliant & Bias-Free Pre-Hiring Assessments",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "an-hr-approach-to-unbiased-assessments",
+        "best-practices-to-avoid-bias-in-employment-testing",
+        "ensure-bias-free-employment-assessments"
+      ]
+    },
+    {
+      "pillar": "HR Technology, HRMS & Automation",
+      "n": 9,
+      "intent": "commercial",
+      "sample_spokes": [
+        "best-hr-case-management-software",
+        "how-to-choose-the-right-hrms-for-your-business",
+        "how-to-use-hrms-to-assess-and-hire-top-talent"
+      ]
+    },
+    {
+      "pillar": "HR Strategy, Goals & Planning",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "hr-budget",
+        "hr-goals-and-objectives",
+        "hr-initiatives"
+      ]
+    },
+    {
+      "pillar": "HR Software & Tools",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "design-thinking-for-hr-mobile-apps-that-engage-employees",
+        "digital-record-keeping-tips-for-recruiters",
+        "instant-benefits-of-using-time-tracking-software"
+      ]
+    },
+    {
+      "pillar": "HR Functions & Core Processes",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "hr-checklist",
+        "hr-communication-email-templates-for-hiring-managers",
+        "hr-consider-using-peer-reviews-in-pre-hiring-evaluations"
+      ]
+    },
+    {
+      "pillar": "Compensation & Benefits by Company Type & Modern Packages",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "compensation-and-benefits-for-the-future-of-work",
+        "comprehensive-benefits-packages-contribute-to-talent-retention",
+        "comprehensive-health-insurance-options-impact-benefits-packages"
+      ]
+    },
+    {
+      "pillar": "Job Design & Work Structuring",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "job-crafting",
+        "job-design",
+        "job-enlargement"
+      ]
+    },
+    {
+      "pillar": "Human Resource Management Fundamentals",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "five-responsibilities-of-human-resources-director",
+        "how-ai-is-transforming-human-resources",
+        "human-resource-development"
+      ]
+    },
+    {
+      "pillar": "Recruitment Compliance & Legal Considerations",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "customize-recruitment-experiences-through-automation",
+        "ensuring-legal-compliance-in-recruitment-automation",
+        "how-do-recruitment-platforms-handle-gdpr-compliance"
+      ]
+    },
+    {
+      "pillar": "Building an HR Toolkit",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "build-an-hr-toolkit",
+        "components-of-hr-toolkit",
+        "hr-toolkit"
+      ]
+    },
+    {
+      "pillar": "Assessment Quality, Fairness & Best Practices",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "role-of-hr-in-assessment-quality",
+        "taking-a-hands-on-approach-to-assessment",
+        "tips-for-diversity-in-candidate-assessments"
+      ]
+    },
+    {
+      "pillar": "HR Manager Operational Skills & Crisis Management",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "conflict-resolution-skills-for-hr-manager",
+        "design-and-implement-successful-hr-crisis-management-plan",
+        "how-hr-leaders-can-prevent-quiet-firing"
+      ]
+    },
+    {
+      "pillar": "Employee Handbooks & Workplace Policy",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "best-practices-for-creating-an-employee-handbook",
+        "federal-laws-that-protect-employees-in-the-workplace",
+        "how-to-create-an-effective-employee-handbook"
+      ]
+    },
+    {
+      "pillar": "Internal Communication for HR",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "active-listening-techniques-for-employers",
+        "assess-communication-channels-and-strategies-in-the-organization-effectively",
+        "best-internal-communication-tools"
+      ]
+    },
+    {
+      "pillar": "Job Offer & Posting Templates",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-create-clear-and-engaging-job-postings",
+        "internal-job-posting-email-templates",
+        "job-offer-email-templates"
+      ]
+    },
+    {
+      "pillar": "Attrition & Turnover Explained",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "attrition-rate-and-meaning-for-hr",
+        "regretted-attrition",
+        "toxic-company-culture-is-driving-attrition-rates"
+      ]
+    },
+    {
+      "pillar": "HR for Small Businesses & Startups",
+      "n": 4,
+      "intent": "mixed",
+      "sample_spokes": [
+        "manage-hr-responsibilities-in-small-and-medium-sized-enterprises",
+        "tips-for-hr-to-optimize-working-days",
+        "why-smaller-businesses-turn-to-virtual-assistant-services"
+      ]
+    },
+    {
+      "pillar": "Fair, Compliant & Bias-Free Hiring",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "are-your-hiring-decisions-compliant-with-laws",
+        "attract-diverse-candidates-to-your-job-postings",
+        "common-examples-of-unfair-hiring-practices-how-to-avoid-them"
+      ]
+    },
+    {
+      "pillar": "HR Metrics, KPIs & Reporting",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "hr-benchmarking",
+        "hr-kpis",
+        "hr-reporting"
+      ]
+    },
+    {
+      "pillar": "HR Communication & Difficult Conversations",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "hr-issues",
+        "hr-layoff-communication-strategies",
+        "hr-workplace"
+      ]
+    },
+    {
+      "pillar": "HR Solutions by Company Type",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "hr-solutions-for-remote-work",
+        "hr-solutions-for-small-businesses",
+        "hr-sustainability-initiatives"
+      ]
+    },
+    {
+      "pillar": "Payroll Management & HR Payroll Integration",
+      "n": 3,
+      "intent": "mixed",
+      "sample_spokes": [
+        "best-peos-utah-small-business-hr-payroll",
+        "guide-to-payroll-management",
+        "integrating-hr-solutions-with-payroll-systems"
+      ]
+    },
+    {
+      "pillar": "Starting an HR Business or Agency",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "future-of-hr-consultancy-adapting-to-the-gig-economy",
+        "how-to-open-llc-for-hr-agency",
+        "how-to-start-an-hr-business-step-by-step"
+      ]
+    }
+  ]
+}

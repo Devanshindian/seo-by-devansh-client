@@ -1,0 +1,102 @@
+{
+  "slice_id": "w28",
+  "clusters": [
+    {
+      "pillar": "Building an HR Toolkit",
+      "intent": "informational",
+      "spokes": [
+        "build-an-hr-toolkit",
+        "components-of-hr-toolkit",
+        "hr-toolkit",
+        "hr-toolkit-roi",
+        "mistakes-to-avoid-when-building-your-hr-toolkit",
+        "must-have-documents-in-your-hr-toolkit"
+      ]
+    },
+    {
+      "pillar": "HR Technology, HRMS & Automation",
+      "intent": "commercial",
+      "spokes": [
+        "best-hr-case-management-software",
+        "how-to-choose-the-right-hrms-for-your-business",
+        "how-to-use-hrms-to-assess-and-hire-top-talent",
+        "how-to-use-hrms-to-improve-employee-engagement",
+        "hr-automation",
+        "hr-digital-transformation",
+        "implement-effective-hr-technology-solutions-for-automation",
+        "the-latest-trends-in-hr-technology",
+        "top-hr-tech-tools"
+      ]
+    },
+    {
+      "pillar": "HR Strategy, Goals & Planning",
+      "intent": "informational",
+      "spokes": [
+        "hr-budget",
+        "hr-goals-and-objectives",
+        "hr-initiatives",
+        "hr-priorities",
+        "hr-programs",
+        "hr-roadmap",
+        "hr-model",
+        "hr-strategies-to-attract-top-talent",
+        "hr-teams-using-visual-storytelling-to-attract-talent"
+      ]
+    },
+    {
+      "pillar": "HR Metrics, KPIs & Reporting",
+      "intent": "informational",
+      "spokes": [
+        "hr-benchmarking",
+        "hr-kpis",
+        "hr-reporting"
+      ]
+    },
+    {
+      "pillar": "HR Functions & Core Processes",
+      "intent": "informational",
+      "spokes": [
+        "hr-functions",
+        "hr-hiring-cycle",
+        "hr-checklist",
+        "hr-sops",
+        "hr-holiday-calendar",
+        "hr-communication-email-templates-for-hiring-managers",
+        "hr-tips-for-successful-offer-management",
+        "hr-consider-using-peer-reviews-in-pre-hiring-evaluations"
+      ]
+    },
+    {
+      "pillar": "HR Communication & Difficult Conversations",
+      "intent": "informational",
+      "spokes": [
+        "hr-layoff-communication-strategies",
+        "hr-workplace",
+        "hr-issues"
+      ]
+    },
+    {
+      "pillar": "HR Solutions by Company Type",
+      "intent": "informational",
+      "spokes": [
+        "hr-solutions-for-remote-work",
+        "hr-solutions-for-small-businesses",
+        "hr-sustainability-initiatives"
+      ]
+    },
+    {
+      "pillar": "HR Skills & People Management",
+      "intent": "informational",
+      "spokes": [
+        "hr-skills",
+        "people-management-skills",
+        "hr-innovation"
+      ]
+    }
+  ],
+  "orphans": [
+    "hr-industry-trends",
+    "hr-in-the-higher-education-industry",
+    "hr-trends-in-higher-education"
+  ]
+}

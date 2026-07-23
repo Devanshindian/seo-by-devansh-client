@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2179,
+    "brand_fit": "CORE",
+    "angle_gap": "The page defines cognitive testing and lists its business benefits at length but never once raises adverse impact or EEOC defensibility \u2014 the single biggest legal risk cognitive ability tests carry in hiring (they have the largest documented adverse-impact gap of any pre-employment test type) \u2014 and gives no sample question or subtest breakdown (verbal/numerical/abstract reasoning) a buyer could evaluate.",
+    "asset": "Cognitive Ability Testing and the Adverse-Impact Risk Nobody Puts on the Page",
+    "distinct_angle": "Mettl's page never mentions adverse impact or EEOC defensibility despite it being the top legal risk with cognitive tests; ours grounds the same test in that evidence, plus a worked subtest breakdown, so a TA leader can defend the score, not just buy it.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2180,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 an online hackathon platform is a distinct product category (crowdsourced innovation events, employer branding, ideathons), not skills assessment/testing; matching it honestly would mean building a hackathon product we don't sell, not writing a content page."
+  },
+  {
+    "row_id": 2183,
+    "brand_fit": "CORE",
+    "angle_gap": "The page publishes raw psychometric numbers (Cronbach's alpha .76-.90, convergent validity .30-.77) for its three tools but never explains what those figures mean or what counts as 'good enough' to trust in a hiring decision \u2014 a recruiter reading the page has data with no way to interpret it, and no discussion of the faking/social-desirability risk that comes with self-report personality testing in hiring.",
+    "asset": "How to Read a Personality Test's Validity Score Before You Trust It in Hiring",
+    "distinct_angle": "Mettl lists Cronbach's alpha and validity ranges with zero interpretation guidance and no mention of faking risk; ours explains what those numbers need to hit to be hiring-grade and how to guard against social-desirability bias, closing the gap between the stat and the decision.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2184,
+    "brand_fit": "CORE",
+    "angle_gap": "The page is dense with feature bullets, question-library counts, and testimonials but never addresses AI-assisted cheating on coding tests \u2014 candidates using ChatGPT/Copilot during take-home or live coding assessments is the single most-discussed integrity problem in technical hiring right now, and the page's anti-cheating claims are made elsewhere on the site, not here.",
+    "asset": "Coding Tests in the Age of AI-Assisted Cheating",
+    "distinct_angle": "Mettl's coding-test page never mentions ChatGPT/Copilot-assisted cheating, the top current integrity concern in technical hiring; ours addresses it directly \u2014 what it looks like and how to design a test that catches it.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2185,
+    "brand_fit": "CORE",
+    "angle_gap": "SpeechX claims alignment to CEFR guidelines and an 'unbiased' culturally-adaptive engine but never shows the actual score-to-CEFR-level mapping a recruiter would use to set a hiring cutoff, and offers zero evidence or methodology behind the bias claim despite accent-bias being a well-documented, active criticism of automated speech-scoring engines.",
+    "asset": "What a CEFR Score From an AI English Test Actually Means for Your Hiring Cutoff",
+    "distinct_angle": "Mettl asserts CEFR alignment and unbiased scoring without showing the mapping or addressing accent-bias criticism of automated speech engines; ours lays out the actual score-to-CEFR mapping and confronts the accent-fairness question head-on.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

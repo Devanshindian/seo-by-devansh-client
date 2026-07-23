@@ -1,0 +1,230 @@
+{
+  "asset_title": "How Much Recruiters Actually Make Per Hire: Commission Rates by Recruiter Type in 2026",
+  "distinct_angle": "Breaks down what 'per hire' pay really means across agency/contingency, retained, RPO, and in-house recruiters, with real commission percentages and dollar ranges by role and seniority from public salary and industry-fee data, answering the recruiter's-own-earnings question the keyword actually asks instead of restating employer cost-per-hire.",
+  "verdicts": [
+    {
+      "id": "secondary_kw-1",
+      "type": "secondary_kw",
+      "item": "how much does an it recruiter make",
+      "verdict": "partial",
+      "reason": "Only a single commission-rate range for tech/IT roles is given, with no base salary, dollar example, or seniority breakdown specific to IT recruiters \u2014 too thin for a full section.",
+      "evidence": "By role type (Quora/hrands): tech and IT roles pay 15\u201333% commission based on volume or billings; executive search roles pay 30\u201335% as a percentage of the agency's charged fee[13]."
+    },
+    {
+      "id": "secondary_kw-2",
+      "type": "secondary_kw",
+      "item": "recruiter salary",
+      "verdict": "covered",
+      "reason": "Dossier has a dedicated Base Salary Benchmarks section with multiple sourced figures, ranges, and city breakdowns, clearly separated from commission/fee discussion.",
+      "evidence": "Glassdoor puts the average US base recruiter salary at $52,657 per year, with offers commonly ranging from $35,000 up to $170,000 for Director of Talent and other senior roles[11]."
+    },
+    {
+      "id": "secondary_kw-3",
+      "type": "secondary_kw",
+      "item": "how do recruiters get paid",
+      "verdict": "covered",
+      "reason": "Dossier explains both the agency-fee mechanisms (six commission structures: contingency, retained, flat, hourly/daily, temp markup, temp-to-perm) and how individual recruiters are paid internally (base-plus-commission splits, draw-against-commission, escalating tiers), giving ample concrete material for a full section.",
+      "evidence": "The most common recruiting compensation model pairs a base salary with commission, with a standard 60:40 ratio \u2014 60% base salary, 40% commission[13]."
+    },
+    {
+      "id": "secondary_kw-4",
+      "type": "secondary_kw",
+      "item": "how do job placement agencies make money",
+      "verdict": "covered",
+      "reason": "Dossier extensively details the fee structures agencies use to generate revenue, including contingency, retained, flat-fee, markup, and conversion models with real percentages and dollar amounts.",
+      "evidence": "Recruitment and staffing agencies convert placements into revenue through roughly six distinct fee structures, including contingency search, retained search, contract/temp markups, flat fees, hourly/daily rates, and temp-to-perm conversion fees, which together accounted for virtually all of the $189 billion the U.S. staffing and recruiting industry generated in 2024[1]."
+    },
+    {
+      "id": "secondary_kw-5",
+      "type": "secondary_kw",
+      "item": "hr recruiters salary",
+      "verdict": "covered",
+      "reason": "Dossier gives detailed in-house/internal recruiter (the HR-side recruiting role) salary data with multiple sourced figures and city breakdowns, enough for a full section.",
+      "evidence": "In-house (internal) recruiter salaries cluster in a fairly narrow band. Glassdoor puts the average US base recruiter salary at $52,657 per year, with offers commonly ranging from $35,000 up to $170,000 for Director of Talent and other senior roles[11]."
+    },
+    {
+      "id": "secondary_kw-6",
+      "type": "secondary_kw",
+      "item": "physician recruiter compensation",
+      "verdict": "partial",
+      "reason": "Dossier only notes a generic healthcare fee-percentage range in a benchmarks list; nothing specific to physician recruiters (no physician-specific dollar ranges, seniority breakdown, or placement model detail) to write a full section from.",
+      "evidence": "Certain verticals command rates above the standard band: healthcare and life sciences placements often run 20-25% due to credentialing complexity; legal recruiting runs 20-25% for associate placements and 25-30% for partner or in-house counsel searches; high-demand tech specialties (AI/ML engineers, cybersecurity) can reach 25% even at mid-level; and niche government-contracting or cleared-role placements can exceed standard ranges given constrained candidate pools[1]."
+    },
+    {
+      "id": "secondary_kw-7",
+      "type": "secondary_kw",
+      "item": "corporate recruiter salary",
+      "verdict": "covered",
+      "reason": "Dossier gives multiple named-source salary figures, ranges, and city-level breakdowns for in-house/internal recruiters, enough to write a full section.",
+      "evidence": "In-house (internal) recruiter salaries cluster in a fairly narrow band. Glassdoor puts the average US base recruiter salary at $52,657 per year, with offers commonly ranging from $35,000 up to $170,000 for Director of Talent and other senior roles[11]."
+    },
+    {
+      "id": "secondary_kw-8",
+      "type": "secondary_kw",
+      "item": "executive recruiter compensation",
+      "verdict": "covered",
+      "reason": "Dossier gives concrete tenure-tiered and revenue-tiered pay figures specifically for executive-search recruiters, enough to write a full section.",
+      "evidence": "At the executive-search level, compensation scales sharply with tenure and revenue generation: recruiters with under five years of experience earned an average of $126,505 in total compensation in 2022; those with six to ten years averaged $250,872; those with eleven-plus years averaged $446,841; and recruiters generating over $1.5 million in revenue averaged $590,714[6]."
+    },
+    {
+      "id": "secondary_kw-9",
+      "type": "secondary_kw",
+      "item": "management recruiter salary",
+      "verdict": "covered",
+      "reason": "The dossier gives a dedicated fee table row for the Manager/Senior Manager tier with concrete base-salary and fee-dollar ranges at two different rates, plus supporting seniority-tier commentary elsewhere.",
+      "evidence": "| Manager / Senior Manager | $110K \u2013 $160K | $19.8K \u2013 $28.8K | $30.8K \u2013 $44. |"
+    },
+    {
+      "id": "secondary_kw-10",
+      "type": "secondary_kw",
+      "item": "headhunters salary",
+      "verdict": "covered",
+      "reason": "Headhunter = contingency/retained recruiter per context, and the dossier gives extensive contingency/retained fee percentages, worked dollar examples, and individual recruiter income figures, plus an explicit headhunting-specific fee rate distinct from executive search.",
+      "evidence": "One firm's stated pricing: executive search at 15% to 20% of first-year base salary (always retained) and headhunting at 10% to 15% (13-15% for complex, multi-stakeholder searches)[35]."
+    },
+    {
+      "id": "secondary_kw-11",
+      "type": "secondary_kw",
+      "item": "how do headhunters get paid",
+      "verdict": "covered",
+      "reason": "The dossier extensively details the payment mechanisms (contingency, retained, flat fee, hourly/daily, temp-to-perm) including when payment triggers, staging, and structure \u2014 enough to write a full section distinct from the total-income figures.",
+      "evidence": "Contingency is the default model for permanent placements: the agency is paid only when a candidate it presents actually starts the job[1][5]."
+    },
+    {
+      "id": "secondary_kw-12",
+      "type": "secondary_kw",
+      "item": "do recruiters get bonuses for recruits",
+      "verdict": "covered",
+      "reason": "Dossier details concrete bonus/incentive structures beyond base commission, including milestone bonuses, sourcing-specialist bonuses, and non-financial perks tied to placements.",
+      "evidence": "Performance bonuses in this model include $1,000 for filling a position within 30 days and $500 for achieving a 90% offer acceptance rate[30]."
+    },
+    {
+      "id": "secondary_kw-13",
+      "type": "secondary_kw",
+      "item": "recruitment consultant earnings",
+      "verdict": "covered",
+      "reason": "The dossier gives detailed agency/consultant commission structures, ratios, and worked payout examples across seniority, region, and role type.",
+      "evidence": "External/agency recruiters are typically paid a percentage of the placed candidate's first-year salary, most often cited as 20\u201330%[11], though other benchmarks narrow this to 15\u201325% (with 20% as the standard benchmark for contingency search) and 25\u201335% for retained executive search[1]."
+    },
+    {
+      "id": "in_body-1",
+      "type": "in_body",
+      "item": "RPO recruiter fees",
+      "verdict": "covered",
+      "reason": "Dossier gives concrete RPO fee models and dollar/percentage ranges (hourly billing, placement fee combo, and the three RPO variants with pricing), enough to write a specific section.",
+      "evidence": "RPO (Recruitment Process Outsourcing) fees are typically billed hourly at $100-$200 per hour[3], sometimes combined with a smaller placement fee of $2,500-$5,000 once a role is filled to align incentives between quick and delayed placements[3]; RPO variants price differently by scope \u2014 Project RPO uses cost-per-hire for a defined burst of roles, Selective RPO uses a monthly retainer plus cost-per-hire for an ongoing segment, and Full RPO uses a monthly management fee with volume-based pricing tiers[1]."
+    },
+    {
+      "id": "in_body-2",
+      "type": "in_body",
+      "item": "contingency recruiter fee percentage",
+      "verdict": "covered",
+      "reason": "Dossier gives detailed contingency fee percentages, benchmarks, and worked dollar examples across multiple sections.",
+      "evidence": "Contingency search is a \"pay-for-performance\" arrangement in which an agency is compensated only if it fills the role, typically for 15% to 30% of the hire's first-year salary, with 20% often cited as the industry benchmark; it requires no upfront payment but is non-exclusive, so recruiters may compete with rival firms and abandon difficult searches for easier ones[2][1][5]."
+    },
+    {
+      "id": "winner_h2-1",
+      "type": "winner_h2",
+      "item": "Agency vs. in-house recruiter pay compared side by side",
+      "verdict": "covered",
+      "reason": "Dossier has concrete in-house salary data (Glassdoor $52,657, Indeed $57,097, city breakdowns, $63,214 avg with $35K-$85K range) and concrete agency recruiter compensation data (20-30% commission, worked examples, $82K-$250K total comp range, gpac tiered case study up to $480K), enough to build a full side-by-side section.",
+      "evidence": "Across the recruitment agency world more broadly, total recruiter compensation (base plus commission) is commonly cited as ranging from $82,000 to $250,000, with top performers exceeding that range[28]."
+    },
+    {
+      "id": "winner_h2-2",
+      "type": "winner_h2",
+      "item": "Salary vs. commission structure explained",
+      "verdict": "covered",
+      "reason": "Dossier has a dedicated section with base salary benchmarks, commission rate ranges, tiered/draw structures, and the standard base:commission ratio \u2014 enough to write a full section from.",
+      "evidence": "The most common recruiting compensation model pairs a base salary with commission, with a standard 60:40 ratio \u2014 60% base salary, 40% commission[13]."
+    },
+    {
+      "id": "winner_h2-3",
+      "type": "winner_h2",
+      "item": "Per-placement / per-hire commission specifics",
+      "verdict": "covered",
+      "reason": "The dossier gives detailed percentage ranges and worked dollar examples for per-hire commissions across contingency, retained, and other models, broken out by role/seniority.",
+      "evidence": "At a $100,000 salary, that 20% benchmark converts to a $20,000 fee per hire[1]."
+    },
+    {
+      "id": "winner_h2-4",
+      "type": "winner_h2",
+      "item": "In-house recruiter pay broken out separately",
+      "verdict": "covered",
+      "reason": "Dossier has a dedicated 'Base Salary Benchmarks' section with multiple sourced figures specifically for in-house/internal recruiters, distinct from agency commission pay, plus city-level breakdowns.",
+      "evidence": "In-house (internal) recruiter salaries cluster in a fairly narrow band. Glassdoor puts the average US base recruiter salary at $52,657 per year, with offers commonly ranging from $35,000 up to $170,000 for Director of Talent and other senior roles[11]."
+    },
+    {
+      "id": "winner_h2-5",
+      "type": "winner_h2",
+      "item": "Commission models walked through in detail",
+      "verdict": "covered",
+      "reason": "Dossier walks through six fee/commission structures (contingency, retained, flat fee, hourly/daily, temp-to-perm, contract markup) plus individual recruiter commission mechanics (tiered rates, base-plus-commission splits, draw-against-commission, regional benchmarks) with concrete percentages and worked dollar examples throughout.",
+      "evidence": "Recruitment and staffing agencies convert placements into revenue through roughly six distinct fee structures, including contingency search, retained search, contract/temp markups, flat fees, hourly/daily rates, and temp-to-perm conversion fees, which together accounted for virtually all of the $189 billion the U.S. staffing and recruiting industry generated in 2024[1]."
+    },
+    {
+      "id": "gap_we_own-1",
+      "type": "gap_we_own",
+      "item": "Retained-search recruiter pay (retainer %, milestone/upfront splits) \u2014 absent from all three heading sets.",
+      "verdict": "covered",
+      "reason": "Dossier gives retained fee percentages, the three-milestone payment structure, and worked dollar examples of the splits.",
+      "evidence": "Payment is staged rather than collected upfront in a lump sum. The most common structure splits the fee into three equal installments tied to milestones \u2014 engagement/start of search, shortlist presentation, and placement/offer acceptance \u2014 sometimes billed at fixed intervals like 30, 60, and 90 days[1][26][6]."
+    },
+    {
+      "id": "gap_we_own-2",
+      "type": "gap_we_own",
+      "item": "RPO recruiter pay model \u2014 not named on any page.",
+      "verdict": "covered",
+      "reason": "Dossier gives multiple concrete RPO pricing structures with dollar figures across three RPO scope variants.",
+      "evidence": "RPO (Recruitment Process Outsourcing) fees are typically billed hourly at $100-$200 per hour[3], sometimes combined with a smaller placement fee of $2,500-$5,000 once a role is filled to align incentives between quick and delayed placements[3]; RPO variants price differently by scope \u2014 Project RPO uses cost-per-hire for a defined burst of roles, Selective RPO uses a monthly retainer plus cost-per-hire for an ongoing segment, and Full RPO uses a monthly management fee with volume-based pricing tiers[1]."
+    },
+    {
+      "id": "gap_we_own-3",
+      "type": "gap_we_own",
+      "item": "Role- and seniority-specific dollar ranges in a structured table rather than anecdote (Kondo covers career stage but through narrative \"stories,\" not $ ranges).",
+      "verdict": "covered",
+      "reason": "The dossier includes an actual structured markdown table breaking down fee dollar ranges by role/seniority level, plus supporting narrative ranges by role.",
+      "evidence": "One 2026 US-market benchmark breaks out typical fee amounts by role level, using both an 18% and a 28% fee rate against typical base salary ranges[35]: | Role level | Typical base salary | Fee at 18% | Fee at 28% |"
+    },
+    {
+      "id": "gap_we_own-4",
+      "type": "gap_we_own",
+      "item": "A single table comparing per-hire pay across agency/contingency, retained, RPO, and in-house \u2014 no page structures the comparison this way; Kondo only splits agency vs. in-house, gogpac splits salary vs. commission but not by engagement model.",
+      "verdict": "covered",
+      "reason": "The dossier has concrete per-hire figures for all four engagement models (contingency 15-25%, retained 25-35%, RPO hourly/cost-per-hire/monthly-fee tiers, and in-house base-salary benchmarks), enough to build the comparison table itself.",
+      "evidence": "RPO (Recruitment Process Outsourcing) fees are typically billed hourly at $100-$200 per hour[3], sometimes combined with a smaller placement fee of $2,500-$5,000 once a role is filled to align incentives between quick and delayed placements[3]; RPO variants price differently by scope \u2014 Project RPO uses cost-per-hire for a defined burst of roles, Selective RPO uses a monthly retainer plus cost-per-hire for an ongoing segment, and Full RPO uses a monthly management fee with volume-based pricing tiers[1]."
+    },
+    {
+      "id": "gap_we_own-5",
+      "type": "gap_we_own",
+      "item": "Sourced commission percentage benchmarks (e.g., 20% vs. 25% contingency fee) tied to public industry-fee data rather than a single site's claim.",
+      "verdict": "covered",
+      "reason": "The dossier gives multiple cited contingency-fee percentage ranges from named sources (SHRM, SIA, and others) rather than a single site's claim, plus parallel retained-search benchmarks for comparison.",
+      "evidence": "Industry-standard contingency fees run 15-25% of first-year salary, with 20% cited as the benchmark[1], though other sources widen the range to 10-30%, and up to 50% for hard-to-fill or senior positions[5], or 15-30%[24]."
+    },
+    {
+      "id": "paa-1",
+      "type": "paa",
+      "item": "How much do recruiters get paid per recruit?",
+      "verdict": "covered",
+      "reason": "Dossier gives per-hire fee percentages and dollar payouts by model (contingency, retained, flat, etc.) with worked examples like a $100,000 salary at 20% yielding a $20,000 fee.",
+      "evidence": "At a $100,000 salary, that 20% benchmark converts to a $20,000 fee per hire[1]."
+    },
+    {
+      "id": "paa-2",
+      "type": "paa",
+      "item": "What type of recruiters make the most money?",
+      "verdict": "covered",
+      "reason": "Dossier directly compares in-house, agency, retained/executive-search recruiters, showing executive-search/retained recruiters earn the most (six figures to $480K-$590K for top performers) versus in-house at $50-65K.",
+      "evidence": "Individual recruiter income is further shaped by base-salary-and-commission splits (commonly around 60:40), escalating in-house commission tiers at agencies, and role seniority, with in-house recruiter salaries in the U.S. averaging in the $50,000\u2013$65,000 range and top agency performers, particularly in executive search, earning into six figures or more[11][12][13][6]."
+    },
+    {
+      "id": "aio_subtopic-1",
+      "type": "aio_subtopic",
+      "item": "Defines recruiter pay as split between steady corporate salaries and volatile agency commissions ($60k-$110k average total comp), then breaks down: Corporate/In-House ($100k-$162k, base+bonus) \u2192 Agency/Third-Party ($50k-$90k standard billers, $150k-$250k+ top performers, commission-based) \u2192 Executive Search ($110k-$300k+, highest commissions) \u2192 a compensation-model table (Salary+Bonus vs Base+Commission vs Pure Commission, with structure/earnings potential/pros-cons) \u2192 agency fee mechanics (15%-25% of first-year salary) \u2192 top-paying industries (IT/Tech $94,315, Financial Services $88,799, Legal $84,725, Pharma/Biotech $84,063).",
+      "verdict": "no",
+      "reason": "None of the specific figures the item requires are in the dossier \u2014 in-house salaries there run $50k-65k/$52,657-$63,214 (not $100k-$162k), no $60k-$110k blended average, no $110k-$300k+ executive band, no salary+bonus/base+commission/pure-commission comparison table, and the top-paying-industries breakdown (IT/Tech $94,315 etc.) does not appear anywhere.",
+      "evidence": ""
+    }
+  ]
+}

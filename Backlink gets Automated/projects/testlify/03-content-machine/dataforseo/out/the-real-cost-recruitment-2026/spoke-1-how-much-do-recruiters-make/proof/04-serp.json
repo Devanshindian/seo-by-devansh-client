@@ -1,0 +1,1413 @@
+{
+  "version": "0.1.20260717",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "17.3945 sec.",
+  "cost": 0.00645,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "07222328-2021-0139-0000-f201422eae0e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "17.2298 sec.",
+      "cost": 0.00645,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "how much do recruiters make",
+        "location_name": "United States",
+        "language_code": "en",
+        "depth": 20,
+        "people_also_ask_click_depth": 3,
+        "load_async_ai_overview": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "how much do recruiters make",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=how%20much%20do%20recruiters%20make&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-07-22 20:28:19 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "discussions_and_forums",
+            "perspectives",
+            "related_searches"
+          ],
+          "se_results_count": 139,
+          "pages_count": 2,
+          "items_count": 23,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": "The average recruiter in the United States makes between **$60,000 and $110,000 per year** in total compensation. However, how much a recruiter makes depends entirely on **the type of recruiting** they do, their industry, and how their commission is structured.[](https://www.payscale.com/research/US/Job=Recruiter/Salary) [[1]](https://www.payscale.com/research/US/Job=Recruiter/Salary)[[2]](https://www.coursera.org/articles/recruiter-salary)[[3]](https://aiapply.co/blog/how-much-does-a-recruiter-make)[[4]](https://www.quora.com/How-much-money-does-a-Recruiter-earn)[[5]](https://www.trykondo.com/blog/recruiter-earnings-guide)\n---\n\nEarning Breakdown by Recruiter Type The career path splits into two primary models: steady, predictable corporate salaries, and volatile, high-ceiling agency commissions.[](https://www.trykondo.com/blog/recruiter-earnings-guide) \n\n- **Corporate (In-House) Recruiters** : These recruiters work directly for one company (like Google or Amazon) to fill internal roles. They enjoy a steady income consisting of a base salary and an annual performance bonus.\n\t- *Average Total Pay:* **$100,000 \u2013 $162,000/year**.[](https://www.glassdoor.com/Salaries/corporate-recruiter-salary-SRCH_KO0,19.htm) [[1]](https://www.glassdoor.com/Salaries/corporate-recruiter-salary-SRCH_KO0,19.htm)[[2]](https://www.glassdoor.com/Salaries/chicago-il-recruiter-salary-SRCH_IL.0,10_IM167_KO11,20.htm)[[3]](https://betterleap.com/blog/salary-guide-for-recruiters)\n- **Agency (Third-Party) Recruiters** : These recruiters work for staffing firms (like Aerotek or Insight Global) to find talent for multiple client companies. They operate heavily on a commission-based pay structure.\n\t- *Average Total Pay:* **$50,000 \u2013 $90,000/year** for standard billers; **$150,000 \u2013 $250,000+/year** for top performers.[](https://www.reddit.com/r/recruiting/comments/1e9hjo4/how_much_are_you_making_as_a_recruiter/) [[1]](https://www.reddit.com/r/recruiting/comments/1e9hjo4/how_much_are_you_making_as_a_recruiter/)[[2]](https://www.glassdoor.com/Salaries/recruiter-salary-SRCH_KO0,9.htm)[[3]](https://juicebox.ai/blog/commissioning-recruitment-agency)\n- **Executive Search Recruiters** : These specialized recruiters target high-level, C-suite executives. Because executive salaries are massive, these recruiters command the highest commissions in the industry.\n\t- *Average Total Pay:* **$110,000 \u2013 $300,000+/year**.[](https://www.quora.com/How-much-money-does-a-Recruiter-earn) [[1]](https://www.manatal.com/blog/recruiter-commission)[[2]](https://www.salary.com/research/salary/benchmark/recruiter-i-salary)[[3]](https://recruitcrm.io/blogs/how-much-does-a-recruiter-make/)[[4]](https://www.coursera.org/articles/recruiter)\n\n\n---\n\nSalary vs. Commission: How They Get Paid The compensation mechanics differ drastically based on the employer's model:[](https://www.ntechworkforce.com/news/what-does-the-commission-structure-look-like-when-collaborating-with-a-staffing-agency) [[1]](https://www.ntechworkforce.com/news/what-does-the-commission-structure-look-like-when-collaborating-with-a-staffing-agency)| Compensation Model | Typical Structure | Earnings Potential | Pros & Cons |\n|---|---|---|---|\n| **Salary + Bonus** *(Corporate)* | 90% base salary + 10% annual cash bonus. | Stable, but capped. Top earnings scale slowly with promotions. | High stability, great benefits, but no massive windfalls. |\n| **Base + Commission** *(Agency)* | Low base (~$45k\u2013$55k) + percentage of fees billed. | Highly variable. Average performers double their base; top performers make six figures. | High pressure. If you do not hit quotas or \"draws,\" you can be let go. |\n| **Pure Commission** *(Independent)* | 0% base salary. Recruiters keep 30% to 70% of the placement fee. | Unlimited. Can range from $0 to $500,000+ per year. | Extreme risk. No steady paycheck, requiring a massive network to survive. |\n\nHow Agency Commission Math Works When an agency recruiter places a permanent employee at a company, the agency charges a fee\u2014typically **15% to 25% of that candidate's first-year salary**.[](https://juicebox.ai/blog/commissioning-recruitment-agency) > *Example:* A recruiter places a software engineer with a **$100,000 salary** . At a 20% fee rate, the client company pays the agency **$20,000** . The individual recruiter then takes home a percentage of that $20,000 (usually **10% to 35%** depending on their agency tier), netting them **$2,000 to $7,000** for a single placement.[](https://www.reddit.com/r/recruiting/comments/scfiwv/agency_recruiters_what_does_your_commission/) [[1]](https://www.reddit.com/r/recruiting/comments/scfiwv/agency_recruiters_what_does_your_commission/)[[2]](https://www.techneeds.com/2025/09/13/how-much-commission-do-recruiters-make-a-step-by-step-guide/)[[3]](https://recruiterflow.com/blog/recruiter-commission-structure/)\n\n\n---\n\nEarning Potential by Industry Niche Recruiters who specialize in complex, high-paying industries earn significantly more than generalists. According to [Glassdoor market data](https://www.glassdoor.com/Salaries/recruiter-salary-SRCH_KO0,9.htm) , the top-paying sectors for recruiters include:[](https://www.trykondo.com/blog/recruiter-earnings-guide) \n\n- **Information Technology (IT) / Tech** : $94,315 median total pay.\n- **Financial Services** : $88,799 median total pay.\n- **Legal Services** : $84,725 median total pay.\n- **Pharmaceutical & Biotechnology** : $84,063 median total pay.[](https://www.glassdoor.com/Salaries/recruiter-salary-SRCH_KO0,9.htm) \n\nIf you are exploring recruiting as a career path, it helps to narrow down the target environment. Are you trying to figure out **which path fits you best** , or are you curious about **what a specific company pays** ? Let me know, and I can pull specific data.",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "The average recruiter in the United States makes between $60,000 and $110,000 per year in total compensation. However, how much a recruiter makes depends entirely on the type of recruiting they do, their industry, and how their commission is structured. Payscale +4",
+                  "markdown": "The average recruiter in the United States makes between **$60,000 and $110,000 per year** in total compensation. However, how much a recruiter makes depends entirely on **the type of recruiting** they do, their industry, and how their commission is structured.[](https://www.payscale.com/research/US/Job=Recruiter/Salary) [[1]](https://www.payscale.com/research/US/Job=Recruiter/Salary)[[2]](https://www.coursera.org/articles/recruiter-salary)[[3]](https://aiapply.co/blog/how-much-does-a-recruiter-make)[[4]](https://www.quora.com/How-much-money-does-a-Recruiter-earn)[[5]](https://www.trykondo.com/blog/recruiter-earnings-guide)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Payscale",
+                      "domain": "www.payscale.com",
+                      "url": "https://www.payscale.com/research/US/Job=Recruiter/Salary",
+                      "title": "Recruiter Salary in 2026 | PayScale",
+                      "text": "Average Recruiter Salary. Pay. Employers. $62,661. Base Salary (USD) $45k. $63k. $91k. The average salary for a Recruiter is $62,6..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Coursera",
+                      "domain": "www.coursera.org",
+                      "url": "https://www.coursera.org/articles/recruiter-salary",
+                      "title": "Recruiter Salary: How Much Can a Recruiter Make? - Coursera",
+                      "text": "Written by Coursera Staff \u2022 Updated on Jun 27, 2026. Recruiters work in various industries to connect job seekers with relevant po..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "AIApply",
+                      "domain": "aiapply.co",
+                      "url": "https://aiapply.co/blog/how-much-does-a-recruiter-make",
+                      "title": "How Much Does a Recruiter Make in 2026? | AiApply Blog",
+                      "text": "Government baseline (BLS): Human resources specialists (which includes recruiters) earn a median of $72,910 per year as of May 202..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Quora",
+                      "domain": "www.quora.com",
+                      "url": "https://www.quora.com/How-much-money-does-a-Recruiter-earn",
+                      "title": "How much money does a Recruiter earn?",
+                      "text": "Here are some average salaries for different types of recruiters: * **Agency recruiters** $90,000 annually, with 50k base salary a..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Try Kondo",
+                      "domain": "www.trykondo.com",
+                      "url": "https://www.trykondo.com/blog/recruiter-earnings-guide",
+                      "title": "Reality Check: What to Expect in Recruiter Earnings - Kondo",
+                      "text": "Summary. Recruiter salaries are split between two paths: stable, salary-based in-house roles (typically $65k-$130k+) and high-risk..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Earning Breakdown by Recruiter Type",
+                  "text": "The career path splits into two primary models: steady, predictable corporate salaries, and volatile, high-ceiling agency commissions. Try Kondo",
+                  "markdown": "The career path splits into two primary models: steady, predictable corporate salaries, and volatile, high-ceiling agency commissions.[](https://www.trykondo.com/blog/recruiter-earnings-guide)",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Corporate (In-House) Recruiters : These recruiters work directly for one company (like Google or Amazon) to fill internal roles. They enjoy a steady income consisting of a base salary and an annual performance bonus.Average Total Pay: $100,000 \u2013 $162,000/year. Glassdoor +4 Average Total Pay: $100,000 \u2013 $162,000/year. Glassdoor +4 Agency (Third-Party) Recruiters : These recruiters work for staffing firms (like Aerotek or Insight Global) to find talent for multiple client companies. They operate heavily on a commission-based pay structure.Average Total Pay: $50,000 \u2013 $90,000/year for standard billers; $150,000 \u2013 $250,000+/year for top performers. Reddit \u00b7 r/recruiting +4 Average Total Pay: $50,000 \u2013 $90,000/year for standard billers; $150,000 \u2013 $250,000+/year for top performers. Reddit \u00b7 r/recruiting +4 Executive Search Recruiters : These specialized recruiters target high-level, C-suite executives. Because executive salaries are massive, these recruiters command the highest commissions in the industry.Average Total Pay: $110,000 \u2013 $300,000+/year. Quora +2 Average Total Pay: $110,000 \u2013 $300,000+/year. Quora +2",
+                  "markdown": "- **Corporate (In-House) Recruiters** : These recruiters work directly for one company (like Google or Amazon) to fill internal roles. They enjoy a steady income consisting of a base salary and an annual performance bonus.\n\t- *Average Total Pay:* **$100,000 \u2013 $162,000/year**.[](https://www.glassdoor.com/Salaries/corporate-recruiter-salary-SRCH_KO0,19.htm) [[1]](https://www.glassdoor.com/Salaries/corporate-recruiter-salary-SRCH_KO0,19.htm)[[2]](https://www.glassdoor.com/Salaries/chicago-il-recruiter-salary-SRCH_IL.0,10_IM167_KO11,20.htm)[[3]](https://betterleap.com/blog/salary-guide-for-recruiters)\n- **Agency (Third-Party) Recruiters** : These recruiters work for staffing firms (like Aerotek or Insight Global) to find talent for multiple client companies. They operate heavily on a commission-based pay structure.\n\t- *Average Total Pay:* **$50,000 \u2013 $90,000/year** for standard billers; **$150,000 \u2013 $250,000+/year** for top performers.[](https://www.reddit.com/r/recruiting/comments/1e9hjo4/how_much_are_you_making_as_a_recruiter/) [[1]](https://www.reddit.com/r/recruiting/comments/1e9hjo4/how_much_are_you_making_as_a_recruiter/)[[2]](https://www.glassdoor.com/Salaries/recruiter-salary-SRCH_KO0,9.htm)[[3]](https://juicebox.ai/blog/commissioning-recruitment-agency)\n- **Executive Search Recruiters** : These specialized recruiters target high-level, C-suite executives. Because executive salaries are massive, these recruiters command the highest commissions in the industry.\n\t- *Average Total Pay:* **$110,000 \u2013 $300,000+/year**.[](https://www.quora.com/How-much-money-does-a-Recruiter-earn) [[1]](https://www.manatal.com/blog/recruiter-commission)[[2]](https://www.salary.com/research/salary/benchmark/recruiter-i-salary)[[3]](https://recruitcrm.io/blogs/how-much-does-a-recruiter-make/)[[4]](https://www.coursera.org/articles/recruiter)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Glassdoor",
+                      "domain": "www.glassdoor.com",
+                      "url": "https://www.glassdoor.com/Salaries/corporate-recruiter-salary-SRCH_KO0,19.htm",
+                      "title": "Corporate Recruiter: Average Salary & Pay Trends 2026",
+                      "text": "Total pay trajectory * Corporate Recruiter. $100K\u2013$162K/yr. * Assistant Director of HR. $80K\u2013$127K/yr. * Summer Intern Corporate R..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Glassdoor",
+                      "domain": "www.glassdoor.com",
+                      "url": "https://www.glassdoor.com/Salaries/chicago-il-recruiter-salary-SRCH_IL.0,10_IM167_KO11,20.htm",
+                      "title": "Salary: Recruiter in Chicago, IL 2026 - Glassdoor",
+                      "text": "Total pay trajectory * Recruiter. $85K\u2013$145K/yr. * Assistant Director of Recruiting. $79K\u2013$133K/yr. * Principal Recruiter. $214K\u2013$"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Betterleap",
+                      "domain": "betterleap.com",
+                      "url": "https://betterleap.com/blog/salary-guide-for-recruiters",
+                      "title": "Salary Guide for Recruiters - Betterleap",
+                      "text": "How much do recruiters get paid? Recruiters can potentially earn over $200,000 a year. Tech recruiters that help companies hire hi..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/recruiting/comments/1e9hjo4/how_much_are_you_making_as_a_recruiter/",
+                      "title": "How much are you making as a recruiter? - Reddit",
+                      "text": "Most agency recruiters prob make $50k-$80k and never see 6 figures. Really good ones can indeed make $100k+ and top whatever makes..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Glassdoor",
+                      "domain": "www.glassdoor.com",
+                      "url": "https://www.glassdoor.com/Salaries/recruiter-salary-SRCH_KO0,9.htm",
+                      "title": "Recruiter: Average Salary & Pay Trends 2026 - Glassdoor",
+                      "text": "Total pay trajectory * Recruiter. $85K\u2013$145K/yr. * Assistant Director of Recruiting. $79K\u2013$133K/yr. * Principal Recruiter. $214K\u2013$"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Juicebox",
+                      "domain": "juicebox.ai",
+                      "url": "https://juicebox.ai/blog/commissioning-recruitment-agency",
+                      "title": "Recruitment Agency Commission Structure Guide (2026)",
+                      "text": "Why a commission-based structure is right for you. A commission-based pay structure offers recruiters unparalleled earning potenti..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Manatal.com",
+                      "domain": "www.manatal.com",
+                      "url": "https://www.manatal.com/blog/recruiter-commission",
+                      "title": "Recruiter Commission Explained: 2026 Complete Guide",
+                      "text": "Q: What's a standard recruiter commission rate? \u200dA: Standard recruiter commission rates typically range from 15-25% of the hired c..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Salary.com",
+                      "domain": "www.salary.com",
+                      "url": "https://www.salary.com/research/salary/benchmark/recruiter-i-salary",
+                      "title": "Recruiter I Salary in the United States",
+                      "text": "Table_title: How much does a Recruiter I make in the United States? Table_content: | | Annual Salary | Monthly Pay | Weekly Pay | ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Recruit CRM",
+                      "domain": "recruitcrm.io",
+                      "url": "https://recruitcrm.io/blogs/how-much-does-a-recruiter-make/",
+                      "title": "How much does a recruiter make? See the real numbers inside",
+                      "text": "Executive recruiters, often referred to as headhunters, typically earn the most within the recruitment industry. These professiona..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Coursera",
+                      "domain": "www.coursera.org",
+                      "url": "https://www.coursera.org/articles/recruiter",
+                      "title": "What Is a Recruiter? Types, Tasks, and How to Become One",
+                      "text": "Executive recruiter: Find candidates to fill high-level executive positions, such as C-suite and senior management roles"
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Salary vs. Commission: How They Get Paid",
+                  "text": "The compensation mechanics differ drastically based on the employer's model: nTech Workforce",
+                  "markdown": "The compensation mechanics differ drastically based on the employer's model:[](https://www.ntechworkforce.com/news/what-does-the-commission-structure-look-like-when-collaborating-with-a-staffing-agency) [[1]](https://www.ntechworkforce.com/news/what-does-the-commission-structure-look-like-when-collaborating-with-a-staffing-agency)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "nTech Workforce",
+                      "domain": "www.ntechworkforce.com",
+                      "url": "https://www.ntechworkforce.com/news/what-does-the-commission-structure-look-like-when-collaborating-with-a-staffing-agency",
+                      "title": "What Does the Commission Structure Look Like When ...",
+                      "text": "Ransier explains: \"Staffing companies are generally compensated in various ways. For direct placement, the norm is between 15-25% ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Compensation Model Typical Structure Earnings Potential Pros & Cons\nSalary + Bonus (Corporate)90% base salary + 10% annual cash bonus. Stable, but capped. Top earnings scale slowly with promotions. High stability, great benefits, but no massive windfalls.\nBase + Commission (Agency)Low base (~$45k\u2013$55k) + percentage of fees billed. Highly variable. Average performers double their base; top performers make six figures. High pressure. If you do not hit quotas or \"draws,\" you can be let go.\nPure Commission (Independent)0% base salary. Recruiters keep 30% to 70% of the placement fee. Unlimited. Can range from $0 to $500,000+ per year. Extreme risk. No steady paycheck, requiring a massive network to survive.",
+                  "markdown": "| Compensation Model | Typical Structure | Earnings Potential | Pros & Cons |\n|---|---|---|---|\n| **Salary + Bonus** *(Corporate)* | 90% base salary + 10% annual cash bonus. | Stable, but capped. Top earnings scale slowly with promotions. | High stability, great benefits, but no massive windfalls. |\n| **Base + Commission** *(Agency)* | Low base (~$45k\u2013$55k) + percentage of fees billed. | Highly variable. Average performers double their base; top performers make six figures. | High pressure. If you do not hit quotas or \"draws,\" you can be let go. |\n| **Pure Commission** *(Independent)* | 0% base salary. Recruiters keep 30% to 70% of the placement fee. | Unlimited. Can range from $0 to $500,000+ per year. | Extreme risk. No steady paycheck, requiring a massive network to survive. |",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "How Agency Commission Math Works",
+                  "text": "When an agency recruiter places a permanent employee at a company, the agency charges a fee\u2014typically 15% to 25% of that candidate's first-year salary. Juicebox +1",
+                  "markdown": "When an agency recruiter places a permanent employee at a company, the agency charges a fee\u2014typically **15% to 25% of that candidate's first-year salary**.[](https://juicebox.ai/blog/commissioning-recruitment-agency)",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Earning Potential by Industry Niche",
+                  "text": "Recruiters who specialize in complex, high-paying industries earn significantly more than generalists. According to Glassdoor market data, the top-paying sectors for recruiters include: Try Kondo +1",
+                  "markdown": "Recruiters who specialize in complex, high-paying industries earn significantly more than generalists. According to [Glassdoor market data](https://www.glassdoor.com/Salaries/recruiter-salary-SRCH_KO0,9.htm) , the top-paying sectors for recruiters include:[](https://www.trykondo.com/blog/recruiter-earnings-guide)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Glassdoor market data",
+                      "description": null,
+                      "url": "https://www.glassdoor.com/Salaries/recruiter-salary-SRCH_KO0,9.htm",
+                      "domain": "www.glassdoor.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Information Technology (IT) / Tech : $94,315 median total pay. Financial Services : $88,799 median total pay. Legal Services : $84,725 median total pay. Pharmaceutical & Biotechnology : $84,063 median total pay. Glassdoor",
+                  "markdown": "- **Information Technology (IT) / Tech** : $94,315 median total pay.\n- **Financial Services** : $88,799 median total pay.\n- **Legal Services** : $84,725 median total pay.\n- **Pharmaceutical & Biotechnology** : $84,063 median total pay.[](https://www.glassdoor.com/Salaries/recruiter-salary-SRCH_KO0,9.htm)",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "If you are exploring recruiting as a career path, it helps to narrow down the target environment. Are you trying to figure out which path fits you best, or are you curious about what a specific company pays ? Let me know, and I can pull specific data.",
+                  "markdown": "If you are exploring recruiting as a career path, it helps to narrow down the target environment. Are you trying to figure out **which path fits you best** , or are you curious about **what a specific company pays** ? Let me know, and I can pull specific data.",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/recruiting/comments/1e9hjo4/how_much_are_you_making_as_a_recruiter/",
+                  "title": "How much are you making as a recruiter? - Reddit",
+                  "text": "Most agency recruiters prob make $50k-$80k and never see 6 figures. Really good ones can indeed make $100k+ and top whatever makes..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "gpac",
+                  "domain": "gogpac.com",
+                  "url": "https://gogpac.com/knowledge-center/how-much-do-recruiters-make",
+                  "title": "How Much Do Recruiters Make?: Salary vs Commission | gpac",
+                  "text": "According to gpac, the average salary for a recruiter is $90,000 per year. The top 50 billers can earn around $240k, and the top 1..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Quora",
+                  "domain": "www.quora.com",
+                  "url": "https://www.quora.com/How-much-money-does-a-Recruiter-earn",
+                  "title": "How much money does a Recruiter earn?",
+                  "text": "Here are some average salaries for different types of recruiters: * **Agency recruiters** $90,000 annually, with 50k base salary a..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Try Kondo",
+                  "domain": "www.trykondo.com",
+                  "url": "https://www.trykondo.com/blog/recruiter-earnings-guide",
+                  "title": "Reality Check: What to Expect in Recruiter Earnings - Kondo",
+                  "text": "Summary. Recruiter salaries are split between two paths: stable, salary-based in-house roles (typically $65k-$130k+) and high-risk..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Coursera",
+                  "domain": "www.coursera.org",
+                  "url": "https://www.coursera.org/articles/recruiter-salary",
+                  "title": "Recruiter Salary: How Much Can a Recruiter Make? - Coursera",
+                  "text": "Written by Coursera Staff \u2022 Updated on Jun 27, 2026. Recruiters work in various industries to connect job seekers with relevant po..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Glassdoor",
+                  "domain": "www.glassdoor.com",
+                  "url": "https://www.glassdoor.com/Salaries/recruiter-salary-SRCH_KO0,9.htm",
+                  "title": "Recruiter: Average Salary & Pay Trends 2026 - Glassdoor",
+                  "text": "Total pay trajectory * Recruiter. $85K\u2013$145K/yr. * Assistant Director of Recruiting. $79K\u2013$133K/yr. * Principal Recruiter. $214K\u2013$"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Betterleap",
+                  "domain": "betterleap.com",
+                  "url": "https://betterleap.com/blog/salary-guide-for-recruiters",
+                  "title": "Salary Guide for Recruiters - Betterleap",
+                  "text": "How much do recruiters get paid? Recruiters can potentially earn over $200,000 a year. Tech recruiters that help companies hire hi..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/recruiting/comments/scfiwv/agency_recruiters_what_does_your_commission/",
+                  "title": "Agency Recruiters: what does your commission structure look ...",
+                  "text": "10% commission of permanent placement fee (usually between 20%-30% of the FT salary), same for conversions. Contract work is tiere..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Glassdoor",
+                  "domain": "www.glassdoor.com",
+                  "url": "https://www.glassdoor.com/Salaries/corporate-recruiter-salary-SRCH_KO0,19.htm",
+                  "title": "Corporate Recruiter: Average Salary & Pay Trends 2026",
+                  "text": "Total pay trajectory * Corporate Recruiter. $100K\u2013$162K/yr. * Assistant Director of HR. $80K\u2013$127K/yr. * Summer Intern Corporate R..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Recruiterflow",
+                  "domain": "recruiterflow.com",
+                  "url": "https://recruiterflow.com/blog/recruiter-commission-structure/",
+                  "title": "A Complete Guide to Recruiter Commission Structure",
+                  "text": "1. Commission with a base salary. A base salary plus commission is the most classic form of a recruiting commission structure. In ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Juicebox",
+                  "domain": "juicebox.ai",
+                  "url": "https://juicebox.ai/blog/commissioning-recruitment-agency",
+                  "title": "Recruitment Agency Commission Structure Guide (2026)",
+                  "text": "Why a commission-based structure is right for you. A commission-based pay structure offers recruiters unparalleled earning potenti..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Payscale",
+                  "domain": "www.payscale.com",
+                  "url": "https://www.payscale.com/research/US/Job=Recruiter/Salary",
+                  "title": "Recruiter Salary in 2026 | PayScale",
+                  "text": "Average Recruiter Salary. Pay. Employers. $62,661. Base Salary (USD) $45k. $63k. $91k. The average salary for a Recruiter is $62,6..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Glassdoor",
+                  "domain": "www.glassdoor.com",
+                  "url": "https://www.glassdoor.com/Salaries/chicago-il-recruiter-salary-SRCH_IL.0,10_IM167_KO11,20.htm",
+                  "title": "Salary: Recruiter in Chicago, IL 2026 - Glassdoor",
+                  "text": "Total pay trajectory * Recruiter. $85K\u2013$145K/yr. * Assistant Director of Recruiting. $79K\u2013$133K/yr. * Principal Recruiter. $214K\u2013$"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Salary.com",
+                  "domain": "www.salary.com",
+                  "url": "https://www.salary.com/research/salary/benchmark/recruiter-i-salary",
+                  "title": "Recruiter I Salary in the United States",
+                  "text": "Table_title: How much does a Recruiter I make in the United States? Table_content: | | Annual Salary | Monthly Pay | Weekly Pay | ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Manatal.com",
+                  "domain": "www.manatal.com",
+                  "url": "https://www.manatal.com/blog/recruiter-commission",
+                  "title": "Recruiter Commission Explained: 2026 Complete Guide",
+                  "text": "Q: What's a standard recruiter commission rate? \u200dA: Standard recruiter commission rates typically range from 15-25% of the hired c..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "AIApply",
+                  "domain": "aiapply.co",
+                  "url": "https://aiapply.co/blog/how-much-does-a-recruiter-make",
+                  "title": "How Much Does a Recruiter Make in 2026? | AiApply Blog",
+                  "text": "Government baseline (BLS): Human resources specialists (which includes recruiters) earn a median of $72,910 per year as of May 202..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "nTech Workforce",
+                  "domain": "www.ntechworkforce.com",
+                  "url": "https://www.ntechworkforce.com/news/what-does-the-commission-structure-look-like-when-collaborating-with-a-staffing-agency",
+                  "title": "What Does the Commission Structure Look Like When ...",
+                  "text": "Ransier explains: \"Staffing companies are generally compensated in various ways. For direct placement, the norm is between 15-25% ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Techneeds",
+                  "domain": "www.techneeds.com",
+                  "url": "https://www.techneeds.com/2025/09/13/how-much-commission-do-recruiters-make-a-step-by-step-guide/",
+                  "title": "How Much Commission Do Recruiters Make? A Step-by-Step Guide",
+                  "text": "Calculate Recruiter Commission Step-by-Step * Determine the Candidate's Compensation: Begin with the yearly compensation of the ca..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "How much are you making as a recruiter?",
+              "url": "https://www.reddit.com/r/recruiting/comments/1e9hjo4/how_much_are_you_making_as_a_recruiter/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "230+ comments  \u00b7  2 years ago",
+              "website_name": "Reddit\u00a0\u00b7\u00a0r/recruiting",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Agencies sell the dream. They say things like:\n\n* after your first year you will be making over 100k.\n\n* \"Our top earners make 600k\"\n\nIs it true?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Recruiters how much are you making?",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/recruiting/comments/1bl3peg/recruiters_how_much_are_you_making/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "How do recruiters get paid?",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/recruiting/comments/xf1jdz/how_do_recruiters_get_paid/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=how+much+do+recruiters+make+site:www.reddit.com&sca_esv=75280e57e4653e14&hl=en&gl=US&sa=X&ved=2ahUKEwicpN3Rj-eVAxV_BdsEHcPAJ8sQrQIoAnoECCcQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How much do recruiters get paid per recruit?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is recruiter a stressful job?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What type of recruiters make the most money?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Do recruiters get paid if I quit?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is a recruiter a stressful job?",
+                  "seed_question": "How much do recruiters get paid per recruit?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[7]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Do recruiters get paid if I quit?",
+                  "seed_question": "How much do recruiters get paid per recruit?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[8]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How hard is it to become a recruiter?",
+                  "seed_question": "Is recruiter a stressful job?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[9]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What do recruiters do all day?",
+                  "seed_question": "Is recruiter a stressful job?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[10]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Do recruiters get paid if I quit?",
+                  "seed_question": "What type of recruiters make the most money?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[11]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the #1 most paying job?",
+                  "seed_question": "What type of recruiters make the most money?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[12]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "discussions_and_forums",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]",
+              "title": "Discussions and forums",
+              "items": [
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Recruiters how much are you making?",
+                  "url": "https://www.reddit.com/r/recruiting/comments/1bl3peg/recruiters_how_much_are_you_making/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2024-07-22 20:28:08 +00:00",
+                  "posts_count": 290
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "How much money does a Recruiter earn?",
+                  "url": "https://www.quora.com/How-much-money-does-a-Recruiter-earn",
+                  "domain": "www.quora.com",
+                  "source": "Quora",
+                  "description": null,
+                  "timestamp": "2016-07-22 20:28:08 +00:00",
+                  "posts_count": 10
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "How much do Recruiters make?? Explained by Recruiter!",
+              "url": "https://www.youtube.com/watch?v=OoUSbjq19eg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "17.9K+ views  \u00b7  4 years ago",
+              "website_name": "YouTube\u00a0\u00b7\u00a0Recruiter Preston",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": null,
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-02-10 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "perspectives",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]",
+              "title": "What people are saying",
+              "items": [
+                {
+                  "type": "perspectives_element",
+                  "title": "Base salary for an agency recruiter with 7+ years of experience?",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/recruiting/comments/1u88563/base_salary_for_an_agency_recruiter_with_7_years/",
+                  "domain": "www.reddit.com",
+                  "date": "1 month ago",
+                  "source": "r/recruiting",
+                  "timestamp": "2026-06-22 20:28:08 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "How much can you make as a Recruiter?",
+                  "description": null,
+                  "url": "https://www.instagram.com/reel/DZJw5PDlDXf/",
+                  "domain": "www.instagram.com",
+                  "date": "1 month ago",
+                  "source": "getahead.app",
+                  "timestamp": "2026-06-22 20:28:08 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "How recruiters are earning great income without sparing extra time or effort",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/RecruitmentAgencies/comments/1ttr49x/how_recruiters_are_earning_great_income_without/",
+                  "domain": "www.reddit.com",
+                  "date": "1 month ago",
+                  "source": "r/RecruitmentAgencies",
+                  "timestamp": "2026-06-22 20:28:08 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "How high in salary can you reach as someone in Talent Acquisition or a Recruiter",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/IndianWorkplace/comments/1t4kege/how_high_in_salary_can_you_reach_as_someone_in/",
+                  "domain": "www.reddit.com",
+                  "date": "May 5, 2026",
+                  "source": "r/IndianWorkplace",
+                  "timestamp": "2026-05-05 00:00:00 +00:00"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "www.trykondo.com",
+              "title": "Reality Check: What to Expect in Recruiter Earnings",
+              "url": "https://www.trykondo.com/blog/recruiter-earnings-guide",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.trykondo.com \u203a blog \u203a recruiter-earnings-...",
+              "website_name": "Try Kondo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Aug 6, 2025 \u2014 In-house recruiters earn a stable base from $45k (entry-level) to $130k+ (senior), plus bonuses. Agency recruiters have a lower base ($40k-$75k)\u00a0... Read more",
+              "pre_snippet": "08/06/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "recruiters"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-08-06 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "betterleap.com",
+              "title": "Salary Guide for Recruiters",
+              "url": "https://betterleap.com/en/blog/salary-guide-for-recruiters",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://betterleap.com \u203a blog \u203a salary-guide-for-recruiters",
+              "website_name": "Betterleap",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Recruiters can potentially earn over $200,000 a year. The range for a full time recruiter can be as low as $37,000 per year to a high as $170,000. States is $\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Recruiters can potentially earn over $200,000 a year"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.coursera.org",
+              "title": "Recruiter Salary: How Much Can a Recruiter Make?",
+              "url": "https://www.coursera.org/articles/recruiter-salary",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.coursera.org \u203a ... \u203a Business Strategy",
+              "website_name": "Coursera",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Jun 27, 2026 \u2014 0\u20131 year of experience: $89,000 \u00b7 1\u20133 years of experience: $104,000 \u00b7 4\u20136 years of experience: $118,000 \u00b7 7\u20139 years of experience: $132,000 \u00b7 10\u201314\u00a0... Read more",
+              "pre_snippet": "06/27/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "0\u20131 year of experience: $89,000"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-06-27 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "gogpac.com",
+              "title": "How Much Do Recruiters Make?: Salary vs Commission",
+              "url": "https://gogpac.com/knowledge-center/how-much-do-%20recruiters-make",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://gogpac.com \u203a knowledge-center \u203a how-much-d...",
+              "website_name": "gpac",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Oct 3, 2024 \u2014 the average yearly recruiter salary in the United States is $57,097 (as of September 2024). can range from $34,000 up to $89,000 or even more\u00a0...",
+              "pre_snippet": "10/03/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "the average yearly recruiter salary in the United States is $57,097"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-03 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "www.ziprecruiter.com",
+              "title": "Recruiter Salary: Hourly Rate July 2026 USA",
+              "url": "https://www.ziprecruiter.com/Salaries/Recruiter-Salary",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.ziprecruiter.com \u203a Salaries \u203a Recruiter-Salary",
+              "website_name": "ZipRecruiter",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "The average hourly pay for a Recruiter job in the US is $27.23. Hourly salary range is $12.02 to $44.95. the equivalent of $1,089/week or $4,720/month.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hourly salary range is $12.02 to $44.95"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "How much do recruiters make reddit",
+                "How much do recruiters make an hour",
+                "How much do recruiters make per hire",
+                "How much do recruiters make per hire military",
+                "How much do recruiters make in commission",
+                "How much do recruiters make in california",
+                "How much do recruiters make a year",
+                "How much do recruiters make at Google"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 13,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.quora.com",
+              "title": "How much money does a Recruiter earn?",
+              "url": "https://www.quora.com/How-much-money-does-a-Recruiter-earn",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "10+ answers  \u00b7  10 years ago",
+              "website_name": "Quora",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "How much money does a Recruiter earn?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 14,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "www.trykondo.com",
+              "title": "Reality Check: What to Expect in Recruiter Earnings",
+              "url": "https://www.trykondo.com/blog/recruiter-earnings-guide",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.trykondo.com \u203a blog \u203a recruiter-earnings-...",
+              "website_name": "Try Kondo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Aug 6, 2025 \u2014 In-house recruiters earn a stable base from $45k (entry-level) to $130k+ (senior), plus bonuses. Agency recruiters have a lower base ($40k-$75k)\u00a0... Read more",
+              "pre_snippet": "08/06/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "recruiters"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-08-06 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 15,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.indeed.com",
+              "title": "Recruiter salary in California (Updated 2026)",
+              "url": "https://www.indeed.com/career/recruiter/salaries/CA",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.indeed.com \u203a ... \u203a Recruiter Salary",
+              "website_name": "Indeed",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "The average salary for a Recruiter is $96419 per year in California. Learn about salaries, benefits, salary satisfaction and where you could earn the most.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "The average salary for a Recruiter is $96419 per year in California"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 11,
+              "rank_absolute": 16,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "www.glassdoor.com",
+              "title": "Recruiter: Average Salary & Pay Trends 2026",
+              "url": "https://www.glassdoor.com/Salaries/recruiter-salary-SRCH_KO0,9.htm",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.glassdoor.com \u203a Salaries \u203a Recruiter",
+              "website_name": "Glassdoor",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "The average salary for a Recruiter is $109,991 per year or $53 per hour, with top earners making up to $183,951 (90th percentile). Typically, pay ranges from\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "109,991 per year or $53 per hour"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 12,
+              "rank_absolute": 17,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "builtin.com",
+              "title": "2026 Recruiter Salary in US",
+              "url": "https://builtin.com/salaries/us/recruiter",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://builtin.com \u203a salaries \u203a recruiter",
+              "website_name": "Built In",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "The average salary for a Recruiter in US is $83,848. The average additional cash compensation for a Recruiter in US is $12,683. The average total compensation\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "3,848"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 13,
+              "rank_absolute": 18,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "recruitment.com",
+              "title": "Recruiter Salary: How Much Do They Make and How Are ...",
+              "url": "https://recruitment.com/process/recruiter-salary",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://recruitment.com \u203a process \u203a recruiter-salary",
+              "website_name": "Recruitment.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Laura M. LaVoie worked in the staffing industry as a recruiter for 15 years before becoming a writer and editor. Recruiter Salary: How Much Do They Make and\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "recruiter",
+                "Recruiter",
+                "How Much Do",
+                "Make"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 14,
+              "rank_absolute": 19,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "How Do Recruiters Get Paid? The TRUTH About Recruiter ...",
+              "url": "https://www.youtube.com/watch?v=aK7JWp701KA",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "720+ views  \u00b7  1 year ago",
+              "website_name": "YouTube\u00a0\u00b7\u00a0Patrick Recruiter",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": null,
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-12-08 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 15,
+              "rank_absolute": 20,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "oneupsales.com",
+              "title": "How Much Do Recruiters Make Per Hire in 2024?",
+              "url": "https://oneupsales.com/blog/how-much-do-recruiters-make-per-hire",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://oneupsales.com \u203a blog \u203a how-much-do-recruiter...",
+              "website_name": "OneUp Sales",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Oct 9, 2024 \u2014 How Much Do Recruiters Get Paid Per Hire in the UK? In the UK, recruiters generally earn a commission ranging from 10% to 30% of the candidate's\u00a0... Read more",
+              "pre_snippet": "10/09/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "recruiters generally earn a commission ranging from 10% to 30"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-09 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 16,
+              "rank_absolute": 21,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "www.indeed.com",
+              "title": "Recruiter salary in Phoenix, AZ (Updated 2026)",
+              "url": "https://www.indeed.com/career/recruiter/salaries/Phoenix--AZ",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.indeed.com \u203a ... \u203a Recruiter Salary",
+              "website_name": "Indeed",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "The average salary for a Recruiter is $64599 per year in Phoenix, AZ. Learn about salaries, benefits, salary satisfaction and where you could earn the most.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "The average salary for a Recruiter is $64599 per year in Phoenix, AZ"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 17,
+              "rank_absolute": 22,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "recruitcrm.io",
+              "title": "How much does a recruiter make? See the real numbers ...",
+              "url": "https://recruitcrm.io/blogs/how-much-does-a-recruiter-make/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://recruitcrm.io \u203a Blogs",
+              "website_name": "Recruit CRM",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Feb 17, 2026 \u2014 Recruiter salaries vary based on location, industry, experience, and specialization, with earnings ranging from $35,000 at the entry level to\u00a0... Read more",
+              "pre_snippet": "02/17/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 350,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "earnings ranging from $35,000 at the entry level"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-02-17 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 2,
+              "rank_absolute": 23,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "How much do recruiters make reddit",
+                "How much do recruiters make an hour",
+                "How much do recruiters make per hire",
+                "How much do recruiters make per hire military",
+                "How much do recruiters make in commission",
+                "How much do recruiters make in california",
+                "How much do recruiters make a year",
+                "How much do recruiters make at Google"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

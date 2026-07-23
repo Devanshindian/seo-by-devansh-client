@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3542,
+    "brand_fit": "CORE",
+    "angle_gap": "The page is almost entirely a client-logo carousel plus generic claims ('data driven reports', 'seamless') \u2014 it never explains how the software actually validates a candidate or how scoring works.",
+    "asset": "Pre-Employment Testing Software That Shows Its Validity Evidence",
+    "distinct_angle": "Explains our test-validity methodology and adverse-impact evidence in plain terms, the substantiation this page skips in favor of logo walls and generic claims.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3546,
+    "brand_fit": "CORE",
+    "angle_gap": "Asserts 'replace resume guesswork with statistical certainty' but backs it with nothing but a mock-UI screenshot and a trusted-by logo carousel \u2014 no reliability or scoring methodology anywhere on the page.",
+    "asset": "Skills Testing Software That Explains How Scoring Actually Works",
+    "distinct_angle": "Backs the 'statistical certainty' claim with our actual scoring and reliability methodology, the substantiation gap the mock-UI screenshots leave open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3547,
+    "brand_fit": "CORE",
+    "angle_gap": "Claims a hire/no-hire AI engine reaches '98% accuracy' assessing ~200 behavioral traits, but discloses no validation sample or methodology \u2014 a real gap given the page's own 'Diversity' bullet promises bias elimination it never demonstrates.",
+    "asset": "AI Hiring Decisions With Disclosed Validation and Bias Testing",
+    "distinct_angle": "Discloses the validation methodology and adverse-impact testing behind an AI hire/no-hire signal, the disclosure this page's unexplained '98% accuracy' claim never gives.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3548,
+    "brand_fit": "CORE",
+    "angle_gap": "Anti-cheating is reduced to one line \u2014 'webcam proctoring' plus a generic activity 'log sheet' \u2014 with no mention of AI-assistance or ChatGPT-era cheating detection, which is now the central remote-testing integrity concern.",
+    "asset": "Pre-Hire Testing Software With Real AI-Cheating Detection",
+    "distinct_angle": "Details AI-assistance and cheating-pattern detection alongside webcam monitoring, the anti-cheating depth this page's single 'log sheet' line leaves out.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3552,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists 8 generic assessment categories and a 3-step 'how it works' flow, but gives no concrete detail on volume-specific campus-hiring problems \u2014 funnel drop-off, batch invites, or mass proctoring across hundreds of candidates at once.",
+    "asset": "Campus Recruitment Software Built for High-Volume Screening at Scale",
+    "distinct_angle": "Walks through how the platform handles funnel volume, batch invites, and mass proctoring for campus drives, the volume-specific detail this page's generic feature list skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

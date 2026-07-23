@@ -1,0 +1,277 @@
+{
+  "theme": "Employee Experience & Development",
+  "key": "c07",
+  "n_pillars": 27,
+  "pillars": [
+    {
+      "pillar": "Employee Engagement Strategies & Programs",
+      "n": 15,
+      "intent": "informational",
+      "sample_spokes": [
+        "ai-in-hr-communication-engagement",
+        "avoid-low-employee-engagement-and-early-attrition",
+        "create-an-effective-employee-engagement-strategy"
+      ]
+    },
+    {
+      "pillar": "Succession Planning",
+      "n": 15,
+      "intent": "informational",
+      "sample_spokes": [
+        "common-mistakes-to-avoid-in-succession-planning",
+        "how-to-develop-a-succession-planning-plan",
+        "how-to-get-started-with-succession-planning"
+      ]
+    },
+    {
+      "pillar": "New Hire Orientation & Onboarding",
+      "n": 13,
+      "intent": "informational",
+      "sample_spokes": [
+        "case-studies-of-successful-new-hire-orientation-programs",
+        "common-mistakes-to-avoid-in-new-hire-orientation",
+        "create-a-successful-new-hire-orientation-program"
+      ]
+    },
+    {
+      "pillar": "Employee Training & Development Programs",
+      "n": 12,
+      "intent": "informational",
+      "sample_spokes": [
+        "addressing-learning-and-development-needs-in-hr",
+        "conduct-effective-hr-training-sessions-for-employees",
+        "cost-effective-employee-training-solutions"
+      ]
+    },
+    {
+      "pillar": "Thriving Workplaces, Motivation & Productivity",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "create-an-employee-thriving-workplace",
+        "employee-appreciation-day",
+        "employee-autonomy"
+      ]
+    },
+    {
+      "pillar": "Employee Onboarding Process Guides & Best Practices",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "communication-challenges-in-the-onboarding-process",
+        "create-effective-onboarding-process-for-new-hires",
+        "design-and-implement-successful-employee-onboarding-process"
+      ]
+    },
+    {
+      "pillar": "Organizational Development",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "case-studies-of-successful-organizational-development-programs",
+        "common-mistakes-to-avoid-in-organizational-development",
+        "future-of-organizational-development"
+      ]
+    },
+    {
+      "pillar": "Leadership Styles & Executive Leadership",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "adaptive-leadership",
+        "affiliative-leadership",
+        "build-visionary-leaders-without-lengthy-processes"
+      ]
+    },
+    {
+      "pillar": "HR & Employee Communication",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "bridge-the-generation-gap-in-employee-communications",
+        "build-strong-employer-employee-relationships-in-the-workplace",
+        "communication-strategies-for-long-employee-relations"
+      ]
+    },
+    {
+      "pillar": "Leadership Development Programs & Plans",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "conduct-effective-leadership-development-programs",
+        "design-and-implement-hr-leadership-development-programs",
+        "how-ai-shapes-leadership-development-for-a-team"
+      ]
+    },
+    {
+      "pillar": "Employee Retention Strategies",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "5-retention-strategies-for-campus-hiring",
+        "employee-retention-strategies",
+        "employee-retention-what-is-the-cost-of-losing-talent"
+      ]
+    },
+    {
+      "pillar": "Employee Experience Management",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "employee-experience-trends-for-2023-and-beyond",
+        "how-to-create-a-positive-employee-experience",
+        "how-to-create-an-inclusive-employee-experience"
+      ]
+    },
+    {
+      "pillar": "Talent Development & Growth",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "boomerang-employees",
+        "design-and-implement-effective-employee-development-programs",
+        "employee-poaching"
+      ]
+    },
+    {
+      "pillar": "Improving Job Satisfaction",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "create-an-employee-focused-workplace-for-improved-satisfaction",
+        "how-to-improve-job-satisfaction-for-your-employees",
+        "how-to-use-data-to-identify-and-address-job-satisfaction-issues"
+      ]
+    },
+    {
+      "pillar": "Career Development & Internal Mobility",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "build-a-successful-hr-career-path-within-the-organization",
+        "career-pathing",
+        "email-templates-for-referrals-internal-hiring"
+      ]
+    },
+    {
+      "pillar": "Employee Well-being, Morale & Mental Health",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "employee-reward-ideas-to-boost-morale",
+        "employee-well-being-initiative",
+        "handle-burnout-and-promote-mental-health-in-workplace"
+      ]
+    },
+    {
+      "pillar": "Learning Management Systems (LMS)",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "benefits-of-using-a-learning-management-system",
+        "how-lms-can-help-you-create-a-collaborative-learning-environment",
+        "sharepoint-and-benefits-of-lms-with-sharepoint-integration"
+      ]
+    },
+    {
+      "pillar": "Building a Continuous Learning Culture",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "buddy-system",
+        "foster-a-culture-of-continuous-learning-within-the-organization",
+        "how-to-create-a-culture-of-continuous-learning"
+      ]
+    },
+    {
+      "pillar": "Onboarding & Pre-boarding",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "hiring-and-training",
+        "new-hire-orientations-for-remote-teams",
+        "new-hire-orientations-for-the-future-of-work"
+      ]
+    },
+    {
+      "pillar": "Performance Management & Reviews",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "conduct-effective-employee-performance-reviews",
+        "maintain-employee-performance-reviews-and-feedback",
+        "pulse-surveys"
+      ]
+    },
+    {
+      "pillar": "Work-Life Balance & Workplace Wellness",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "19-ideas-for-creating-a-healthier-workplace",
+        "create-culture-of-work-life-balance-in-organization",
+        "how-to-create-a-culture-of-work-life-balance"
+      ]
+    },
+    {
+      "pillar": "Upskilling & Reskilling the Workforce",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "ai-upskilling-guide-for-hr-teams",
+        "transferable-skills",
+        "upskilling-and-reskilling"
+      ]
+    },
+    {
+      "pillar": "Exit Interview Questions & Best Practices",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "guide-to-important-exit-interview-questions",
+        "how-can-you-conduct-impartial-exit-interview",
+        "top-must-ask-exit-interview-questions-for-insightful-feedback"
+      ]
+    },
+    {
+      "pillar": "Employee Engagement & Recognition Tools",
+      "n": 3,
+      "intent": "commercial",
+      "sample_spokes": [
+        "top-5-employee-experience-tools-and-technologies",
+        "top-employee-engagement-tools",
+        "top-employee-recognition-tools"
+      ]
+    },
+    {
+      "pillar": "Onboarding Templates, Checklists & Welcome Ideas",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "onboarding-checklist",
+        "onboarding-email-templates",
+        "onboarding-ideas-to-welcome-new-employees"
+      ]
+    },
+    {
+      "pillar": "Onboarding Blue-Collar, External & Contingent Workers",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-onboard-and-train-blue-collar-workers",
+        "onboarding-external-workers-in-business",
+        "tailoring-integration-programs-for-talent-onboarding"
+      ]
+    },
+    {
+      "pillar": "HR Skills & People Management",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "hr-innovation",
+        "hr-skills",
+        "people-management-skills"
+      ]
+    }
+  ]
+}

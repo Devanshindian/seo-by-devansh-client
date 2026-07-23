@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2334,
+    "brand_fit": "CORE",
+    "angle_gap": "Piece is dated to 2021 ('Top 18 recruitment assessment tools to watch out for in 2021') despite reading as current guidance, and buries the actual tool list under generic definitional filler (what is a talent assessment tool, why bad hires cost money) instead of comparing tools on concrete criteria.",
+    "asset": "Talent Assessment Tools Ranked on What Actually Predicts a Good Hire in 2026",
+    "distinct_angle": "Skips the 2021-dated list and generic filler, and ranks tools against explicit, current evaluation criteria (validity, proctoring depth, ATS fit) instead \u2014 the currency and rigor this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2629,
+    "brand_fit": "CORE",
+    "angle_gap": "The comparison is structurally biased toward the publisher's own tool \u2014 WeCP's entry reads as unqualified sales copy while HackerRank, Codility, and iMocha get thin feature-bullet treatment with no shared rubric or scoring, and the '39% turnover reduction' Aberdeen stat is cited with no link back to the source.",
+    "asset": "Technical Assessment Tools Scored on the Same Criteria, Vendor Bias Removed",
+    "distinct_angle": "Applies one disclosed scoring rubric to every tool instead of front-loading the publisher's own product, and sources the turnover stat back to Aberdeen directly \u2014 the neutrality this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2641,
+    "brand_fit": "CORE",
+    "angle_gap": "Same self-promotional shape as their technical-tools list: WeCP's entry is a full pitch with unverifiable claims (850+ users, 2m+ candidates, no source), while the remaining ~19 tools drop to generic feature bullets with no shared criteria for sales-specific skills like objection handling or closing.",
+    "asset": "Sales Assessment Tools Compared on How They Actually Test Objection Handling and Closing",
+    "distinct_angle": "Replaces the unsourced self-promotion and generic bullets with a comparison scored on sales-specific competencies, sourcing every claimed stat instead of leaving it unverifiable.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2648,
+    "brand_fit": "CORE",
+    "angle_gap": "Names five specific CodeSignal weaknesses (limited customization, confusing UX, glitches, high cost, questionable auto-scoring) but never applies those same five criteria to the 15 alternatives that follow, so a reader can't tell which alternative actually fixes which CodeSignal problem; WeCP's own entry is pure sales copy, not scored against the stated criteria either.",
+    "asset": "CodeSignal Alternatives Judged Against CodeSignal's Own Known Weaknesses",
+    "distinct_angle": "Scores every alternative against the exact five weaknesses the page itself raises about CodeSignal \u2014 customization, UX, reliability, cost, scoring accuracy \u2014 instead of dropping into generic feature bullets.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2649,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The list mixes fundamentally different hiring-stage tools (sourcing platforms like HireEZ and Fetcher, video-interview tools like HireVue, skills testing like TestGorilla, conversational AI like Paradox) under one undifferentiated 'AI recruiting tools' banner, leaving the reader unable to tell which category actually solves their problem.",
+    "asset": "AI Hiring Tools Organized by the Hiring Stage They Actually Solve",
+    "distinct_angle": "Groups tools by hiring stage \u2014 sourcing vs. screening/testing vs. interviewing \u2014 instead of one flat undifferentiated list, fixing the category confusion this page leaves the reader with.",
+    "tool_escalation": "",
+    "g_notes": "page spans the full recruiting funnel (sourcing/CRM included); keep our version narrowed to screening- and assessment-stage tools, our actual world"
+  }
+]

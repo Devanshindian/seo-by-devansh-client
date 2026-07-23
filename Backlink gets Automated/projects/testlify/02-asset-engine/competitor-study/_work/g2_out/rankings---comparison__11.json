@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1668,
+    "brand_fit": "CORE",
+    "angle_gap": "Last updated July 2020 \u2014 six years stale in a fast-moving vendor category; several listed providers have since rebranded or been acquired (e.g. Mettl now trades as Mercer Mettl), and every entry is a short prose blurb with no comparison table, no evaluation criteria, and no mention of now-standard capabilities like AI video interviewing, proctoring depth, or ATS integration counts.",
+    "asset": "Pre-Employment Assessment Software Compared for 2026: What's Changed Since the Old Rankings",
+    "distinct_angle": "Refreshes the stale July-2020 vendor list with current 2026 status (rebrands, acquisitions, dropped/added players) and replaces the prose blurbs with a structured side-by-side comparison table across pricing model, proctoring depth, and AI-interview capability \u2014 the currency and scannability this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1744,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 coaching vs. mentoring is post-hire L&D/people-development content, not hiring or assessment; outside Testlify's world"
+  },
+  {
+    "row_id": 1756,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 learning vs. training is L&D terminology for existing employees, not hiring/assessment; outside Testlify's world"
+  },
+  {
+    "row_id": 1758,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 HR certification courses for beginners is career/education content for HR professionals' own advancement, not a hiring/assessment subject"
+  },
+  {
+    "row_id": 1767,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 best HR certifications is the same career-credentialing subject as row 1758, not hiring/assessment; outside Testlify's world"
+  }
+]

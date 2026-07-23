@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3054,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Defines Type A traits and vague workplace impact but names zero validated instrument (e.g., Jenkins Activity Survey / Type A Behavior Pattern scale) a recruiter could actually use, gives no interview questions or behavioral indicators to spot the traits during screening, and never flags the EEOC/adverse-impact risk of screening on personality type.",
+    "asset": "Spotting Type A Traits in Interviews Without Guessing or Risking a Biased Hire",
+    "distinct_angle": "Turns the abstract trait list into concrete, validated interview questions and behavioral indicators, plus the EEOC-defensibility angle the original never raises.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3057,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Defines both leadership styles and their pros/cons in the abstract but never connects either to hiring \u2014 no interview questions, behavioral indicators, or assessment criteria a recruiter could use to identify which style a leadership candidate actually practices.",
+    "asset": "How to Tell a Transactional Leader from a Transformational One Before You Hire Them",
+    "distinct_angle": "Rebuilds the same comparison as a hiring tool \u2014 concrete interview questions and behavioral signals for each style during candidate evaluation \u2014 instead of leaving it as abstract management theory.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: general leadership/management theory"
+  },
+  {
+    "row_id": 3066,
+    "brand_fit": "CORE",
+    "angle_gap": "Catalogs bias types and vivid examples at length but the 'how to avoid it' promised in the title stays generic \u2014 no tie to structured, validated mitigation like scored rubrics or skills-based assessment, and no current compliance framing (NYC LL144, EU AI Act) despite being 2024+ content.",
+    "asset": "The Confirmation-Bias Traps Structured Skills Scoring Actually Closes",
+    "distinct_angle": "Pairs each bias type with a concrete structural fix (blind scoring, standardized rubrics, skills-based evaluation) and current compliance context the original never delivers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3071,
+    "brand_fit": "CORE",
+    "angle_gap": "Walks through parsing/scoring/ranking mechanics and cites the 87% AI-adoption and 2024 Novor\u00e9sum\u00e9 stats, but never distinguishes resume-parsing AI from skills-based assessment as a more reliable filter, and glosses over audit/compliance exposure (NYC LL144, EEOC) of algorithmic scoring.",
+    "asset": "Where Resume-Screening AI Still Guesses and Skills Testing Doesn't",
+    "distinct_angle": "Draws the line the original blurs \u2014 between keyword/pattern-based resume AI and validated skills assessment \u2014 and adds the compliance exposure the page skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3072,
+    "brand_fit": "CORE",
+    "angle_gap": "Makes the case for skills-based hiring at length (citing an unsourced '4.3 million workers by 2030' shortfall figure) but stays almost entirely in 'why' \u2014 no step-by-step framework for building the process (mapping role skills, choosing valid assessments, setting scoring thresholds) despite the title promising how it 'can transform your organization.'",
+    "asset": "The Step-by-Step Framework for Actually Running Skills-Based Hiring",
+    "distinct_angle": "Replaces the page's why-it-matters argument with the concrete build steps it never delivers \u2014 skill mapping, assessment selection, and validated scoring thresholds.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

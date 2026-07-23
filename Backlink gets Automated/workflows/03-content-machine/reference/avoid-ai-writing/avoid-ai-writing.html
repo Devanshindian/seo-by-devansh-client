@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avoid AI Writing — Remove AI-isms Before Publishing</title>
+<style>
+  :root{--ink:#1c1a17;--muted:#6b6459;--line:#efe7d8;--paper:#fff;--cream:#fffdf8;--wash:#fff8ec;--yellow:#ffb703;--yellow-soft:#ffe9ad;--orange:#fb7a00;--orange-soft:#ffd9b0;--red:#fdf3f0;--red-line:#f6d9cf;--red-ink:#c2603a;--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);}
+  *{box-sizing:border-box;}html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;line-height:1.62;font-size:16px;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:960px;margin:0 auto;padding:0 28px;}
+  header{background:linear-gradient(180deg,var(--wash),var(--paper));border-bottom:1px solid var(--line);padding:56px 0 38px;}
+  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--paper);border:1px solid var(--orange-soft);padding:4px 11px;border-radius:100px;margin-bottom:16px;}
+  h1{font-size:clamp(26px,5vw,42px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%);padding:0 2px;}
+  .lede{font-size:18px;color:var(--muted);max-width:680px;margin:0;}
+  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;padding:9px 0;}
+  nav a{font-size:12.5px;font-weight:600;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:100px;}
+  nav a:hover{color:var(--ink);background:var(--wash);}
+  section{padding:48px 0;border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  section.alt{background:var(--cream);}
+  h2{font-size:24px;letter-spacing:-.01em;margin:0 0 4px;}
+  h2 .num{color:var(--orange);margin-right:9px;}
+  .sub{color:var(--muted);margin:0 0 20px;font-size:16px;max-width:700px;}
+  h3{font-size:16px;margin:20px 0 6px;font-weight:700;}
+  p{margin:0 0 10px;}
+  ul{margin:5px 0 10px;padding-left:20px;}
+  li{margin:4px 0;font-size:15px;color:var(--muted);}
+  li b{color:var(--ink);}
+  .note{border-radius:11px;padding:13px 16px;margin:12px 0;font-size:14.5px;border:1px solid;}
+  .note.yellow{background:var(--cream);border-color:var(--line);border-left:4px solid var(--yellow);}
+  .note.red{background:var(--red);border-color:var(--red-line);border-left:4px solid var(--red-ink);}
+  .note strong{display:block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;}
+  .note.yellow strong{color:var(--orange);}
+  .note.red strong{color:var(--red-ink);}
+  .pattern-list{margin:14px 0;}
+  footer{padding:32px 0 52px;color:var(--muted);font-size:13px;}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="kicker">Content Machine · Stage 0 — Brand Context</span>
+  <h1>Avoid AI Writing — <span class="hl">remove machine-generated patterns before ship</span></h1>
+  <p class="lede">Audit every article before publishing to strip AI-isms (machine-generated word choice, sentence structure, formatting). Applied as the final gate — no draft ships without this pass.</p>
+</div></header>
+
+<nav><div class="wrap">
+  <a href="#concept">Concept</a>
+  <a href="#patterns">Top patterns</a>
+  <a href="#words">Words to avoid</a>
+  <a href="#gate">The gate</a>
+</div></nav>
+
+<section id="concept">
+  <div class="wrap">
+    <h2><span class="num">01</span>The one rule</h2>
+    <p class="sub">Certain word choice, sentence shapes, and formatting patterns are statistically more common in LLM output. Remove them. The piece must read human — not generic vendor — before it publishes.</p>
+    <ul>
+      <li><b>Signals, not proof.</b> These patterns appear in human writing too (deadline pressure, non-native writers, technical genres). Use as a quality filter, not an accusation.</li>
+      <li><b>One final pass.</b> Run this AFTER seo-aeo-geo.md ships. It's the last gate before publishing.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="patterns" class="alt">
+  <div class="wrap">
+    <h2><span class="num">02</span>Top patterns to strip</h2>
+    <h3>Formatting</h3>
+    <ul>
+      <li><b>Em dashes (— or --):</b> Replace with commas, periods, or rewrite as two sentences. Target: zero per article.</li>
+      <li><b>Bold overuse:</b> Max one bolded phrase per major section, or none. If it's important, lead the sentence with it instead.</li>
+      <li><b>Emoji in headers:</b> Remove entirely. No "🚀 What This Means".</li>
+      <li><b>Excessive bullet lists:</b> Convert to prose paragraphs unless it's genuinely step-by-step or comparative.</li>
+    </ul>
+
+    <h3>Sentence structure</h3>
+    <ul>
+      <li><b>"It's not X — it's Y":</b> Rewrite as a direct positive statement. Max one per piece.</li>
+      <li><b>Hollow intensifiers:</b> Cut <b>genuine</b>, <b>real</b> (as intensifier), <b>truly</b>, <b>to be honest</b>, <b>let's be clear</b>. Just state the fact.</li>
+      <li><b>Vague endorsement:</b> Cut <b>worth reading</b>, <b>worth your time</b>, <b>worth exploring</b>. Say <i>why</i> it matters instead.</li>
+      <li><b>Hedging:</b> Cut <b>perhaps</b>, <b>could potentially</b>, <b>it's important to note that</b>. Make the point directly.</li>
+      <li><b>Compulsive rule of three:</b> Vary groupings. Use two, four, or a sentence instead of always three items.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="words">
+  <div class="wrap">
+    <h2><span class="num">03</span>Words to replace (always flag these)</h2>
+    <table style="width:100%;border-collapse:collapse;margin:14px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:14px;">
+      <tr style="background:var(--cream);"><th style="text-align:left;padding:8px 12px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:2px solid var(--line);">Replace</th><th style="text-align:left;padding:8px 12px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:2px solid var(--line);">With</th></tr>
+      <tr><td style="padding:8px 12px;border-bottom:1px solid var(--line);">delve · delve into</td><td style="padding:8px 12px;border-bottom:1px solid var(--line);">explore, dig into, look at</td></tr>
+      <tr><td style="padding:8px 12px;border-bottom:1px solid var(--line);">leverage (verb)</td><td style="padding:8px 12px;border-bottom:1px solid var(--line);">use</td></tr>
+      <tr><td style="padding:8px 12px;border-bottom:1px solid var(--line);">robust · comprehensive</td><td style="padding:8px 12px;border-bottom:1px solid var(--line);">strong · reliable · thorough · complete</td></tr>
+      <tr><td style="padding:8px 12px;border-bottom:1px solid var(--line);">seamless · seamlessly</td><td style="padding:8px 12px;border-bottom:1px solid var(--line);">smooth, easy, without friction</td></tr>
+      <tr><td style="padding:8px 12px;border-bottom:1px solid var(--line);">game-changing · paradigm</td><td style="padding:8px 12px;border-bottom:1px solid var(--line);">describe what actually changed</td></tr>
+      <tr><td style="padding:8px 12px;border-bottom:1px solid var(--line);">thought leadership · best practices</td><td style="padding:8px 12px;border-bottom:1px solid var(--line);">expertise · what works · proven methods</td></tr>
+      <tr><td style="padding:8px 12px;">holistic · synergy · actionable</td><td style="padding:8px 12px;">describe the actual thing, or cut</td></tr>
+    </table>
+    <div class="note yellow"><strong>Full list</strong>
+    The complete Tier-1 list (always replace) covers 40+ terms: <b>tapestry, landscape, realm, embark, beacon, testament, cutting-edge, pivotal, meticulous, underscores, utilise, watershed, nestled, vibrant, thriving, showcasing, unpack, bustling, intricate, enduring, daunting, learnings, in order to, due to the fact that, features (as verb), boasts, at its core.</b> See the SKILL.md for Tier 2 (flag in clusters) and Tier 3 (flag by density).</div>
+  </div>
+</section>
+
+<section id="gate" class="alt">
+  <div class="wrap">
+    <h2><span class="num">04</span>The gate — before publishing</h2>
+    <p class="sub">Every article gets one pass. No exceptions. This is part of the SEO / AEO / GEO ship gate (same as P0 failures).</p>
+    <ul>
+      <li>Run this skill over the final draft</li>
+      <li>Remove or replace every flagged pattern</li>
+      <li>Re-read for flow after editing — some replacements need sentence restructuring</li>
+      <li>Ship only after this pass is clean</li>
+    </ul>
+    <div class="note red"><strong>Non-negotiable</strong>
+    An article that passes seo-aeo-geo.md but fails avoid-ai-writing is NOT ready. The "human writing" gate is as hard as the "source integrity" gate. No exceptions.</div>
+  </div>
+</section>
+
+<footer><div class="wrap">Avoid AI Writing · Content Machine Stage 0 · The final gate before publishing. No draft ships without this pass.</div></footer>
+</body>
+</html>

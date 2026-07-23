@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2627,
+    "brand_fit": "CORE",
+    "angle_gap": "The listicle pads its 30-item count with stats that don't actually support skills-based hiring (e.g. trend #5 uses a Buffer stat about general remote-work preference, not anything about skills-based hiring), has an unfixed typo ('In 202, a college degree...'), and never says which sources are current vs. years-old.",
+    "asset": "Skills-Based Hiring in 2026: The Stats That Actually Hold Up",
+    "distinct_angle": "Curates only stats that directly measure skills-based hiring outcomes and drops the tangential filler this page leans on (its own #5 is a remote-work-preference stat unrelated to skills-based hiring), each dated to a current, checkable source.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3091,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The same 10 data points are stated as a list, then restated almost verbatim in prose right after, adding no new analysis; most figures trace to 2019-2022 sources (Korn Ferry's 2030 forecast, a pre-2022 ManpowerGroup 'past year' stat) with no 2025/26 refresh, and the piece never connects the shortage numbers to how skills-based assessment actually closes the gap.",
+    "asset": "The Real Scale of the 2026 Skills Shortage, and What Actually Closes It",
+    "distinct_angle": "Refreshes the 2019-2022 shortage figures to current 2026 published numbers and ties each one to a specific skills-based hiring response, which this page's list-then-repeat structure never does.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3100,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Of the 35+ stats, only a handful (blind-hiring callback rates, AI use for diverse sourcing) touch the actual hiring/screening process; the rest are general workforce demographics and pay-equity figures sourced from pre-2020 BLS and McKinsey data, now five-plus years stale.",
+    "asset": "Where Hiring Bias Really Shows Up: The Screening-Stage Data Behind Diversity Hiring in 2026",
+    "distinct_angle": "Narrows to hiring- and screening-stage bias data only, skipping the broad workforce-demographic and pay-equity stats that make up most of this page's 35 points, and replaces the pre-2020 BLS/McKinsey figures with current sourced numbers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3102,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Every statistic dates to 2020-2021 (Buffer, Gartner, Owl Labs, BCG, Payscale) and reads as pandemic-era content frozen in place; the piece names the skills that matter for remote work (self-motivation, time management) but never explains how a recruiter would actually screen for them.",
+    "asset": "Remote Hiring in 2026: The Numbers Behind Screening for Self-Directed Talent",
+    "distinct_angle": "Replaces the 2020/2021 COVID-era stats with current 2025/26 remote-work figures and follows through on the skills this page only names, by explaining how to actually assess for them.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3296,
+    "brand_fit": "CORE",
+    "angle_gap": "Nearly every one of the 52 stats traces to a single source \u2014 TestGorilla's own 'State of Skills-Based Hiring' survey \u2014 with no external corroboration from SHRM, LinkedIn, Deloitte, or Gallup, and the page cuts off mid-list, funneling readers to a gated 'handbook' instead of finishing the picture.",
+    "asset": "The Skills-Based Hiring Numbers That Hold Up Across More Than One Survey",
+    "distinct_angle": "Triangulates figures across multiple independent sources instead of relying on one vendor's proprietary survey, and delivers the complete picture instead of gating the rest behind a 'read the handbook' CTA.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

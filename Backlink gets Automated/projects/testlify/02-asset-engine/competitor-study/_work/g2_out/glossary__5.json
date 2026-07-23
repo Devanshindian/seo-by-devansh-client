@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1795,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employment status classification (casual/part-time/full-time/contractor) is general HR/labor-law/payroll subject matter, not a hiring, screening, or assessment decision; belongs to a different product world than skills assessment"
+  },
+  {
+    "row_id": 1797,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 relocation bonus is a compensation/benefits topic; not connected to skills-based hiring, assessment, or AI interviewing"
+  },
+  {
+    "row_id": 1799,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 pro rata salary is a payroll/compensation calculation topic, off-brand and outside the assessment/hiring world"
+  },
+  {
+    "row_id": 1802,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 voluntary termination/resignation is a post-hire offboarding topic, not a pre-hire screening or assessment subject"
+  },
+  {
+    "row_id": 1803,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee induction/onboarding happens after the hiring decision is made; it's a different product world from skills assessment and AI interviewing"
+  }
+]

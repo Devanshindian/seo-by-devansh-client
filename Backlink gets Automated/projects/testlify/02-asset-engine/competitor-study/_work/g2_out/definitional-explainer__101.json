@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3022,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Frames EQ as a trait to coach into leaders after they are already in the seat, and never addresses how to identify or screen for emotional intelligence before someone is hired or promoted into a leadership role; its Gartner stat is cited with no report link or year.",
+    "asset": "Screening for Emotional Intelligence Before You Promote or Hire a Leader",
+    "distinct_angle": "Moves the EQ conversation upstream from post-hire coaching to pre-hire and pre-promotion screening, showing how validated soft-skills assessment surfaces EQ in candidates instead of discovering its absence after the hire, the gap this page never closes.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: leadership development / EQ coaching (post-hire)"
+  },
+  {
+    "row_id": 3029,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Splits 'first impressions', 'interview experience' and 'candidate experience' into three sections that repeat the same point, and leans on undated Gallup/Deloitte stats (21% profitability, 40% lower turnover) with no source year or link, never showing how the hiring process itself is designed to produce a strong early experience.",
+    "asset": "Why the Hiring Process Decides Employee Experience Before Day One",
+    "distinct_angle": "Collapses the page's three overlapping candidate-stage sections into one grounded look at how structured, skills-based interviews and assessments (not vague 'transparency') shape first impressions, with the underlying stats refreshed to their current, sourced figures.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3040,
+    "brand_fit": "CORE",
+    "angle_gap": "Only one worked example with reasoning, and its 'tips' section reads as candidate exam-prep rather than guidance for the employer building the test, so it never covers designing role-specific scenarios, setting scoring keys, or checking the test for adverse impact.",
+    "asset": "Situational Judgement Tests That Predict Performance, Role by Role",
+    "distinct_angle": "Replaces the single generic example with multiple role-specific scenarios, each with full answer-choice reasoning, and adds the design and adverse-impact considerations for employers building an SJT, ground this page never covers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3046,
+    "brand_fit": "CORE",
+    "angle_gap": "Frames career progression around 'millennials' with 2024-era framing and generic advice (mentoring, blanket training) but offers no mechanism for judging who is actually ready for promotion, so the path it describes runs on tenure and manager opinion, not evidence.",
+    "asset": "Promotion Paths Built on Skills Evidence, Not Tenure or Generation",
+    "distinct_angle": "Replaces the dated millennial framing and vague mentoring advice with a promotion framework that validates internal candidates' skills the same evidence-based way external hires are screened, the concrete mechanism this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3053,
+    "brand_fit": "CORE",
+    "angle_gap": "Written as exam-prep tips for candidates ('practise mental maths', 'read widely') rather than guidance for the employer, so it never addresses validity evidence, adverse-impact risk (a known EEOC exposure point for cognitive tests), or how to set defensible cut-off scores by role.",
+    "asset": "Cognitive Ability Testing Without the Adverse-Impact Risk",
+    "distinct_angle": "Shifts from candidate practice tips to the employer's real decisions, validity evidence and adverse-impact management when setting cut-off scores by role, questions this page never answers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1893,
+    "brand_fit": "CORE",
+    "angle_gap": "Frames 'AI screening' almost entirely as AI-powered resume parsing and keyword matching (the whole 'How It Works' section is resume parsing \u2192 keyword matching); benefits rest on uncited or vaguely-sourced stats ('AI screening can effectively reduce bias by up to 40%' has no source), and there is no mention of candidates using AI to game screening, or of adverse-impact/legal defensibility \u2014 both live 2026 concerns for AI-driven hiring.",
+    "asset": "How AI Screening Holds Up When Candidates Are Using AI Too",
+    "distinct_angle": "Addresses the AI-vs-AI arms race (candidates using generative AI to beat resume and interview screening) and grounds every stat in a named source plus EEOC-style defensibility \u2014 the two things this guide's resume-parsing-centric walkthrough and unsourced stats never cover.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1899,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "'Conducting assessments' is named once as just one of several automatable tasks alongside sourcing, scheduling, and follow-ups; 11 of the 12 numbered benefits are about speed, communication, and branding, with none framed around what automating the screening/assessment step specifically protects or risks for hire quality.",
+    "asset": "Why Automating Skills Screening Is the Recruitment-Automation Benefit Everyone Skips",
+    "distinct_angle": "Goes deep on the one line this piece buries \u2014 automating the assessment step, not just scheduling and outreach \u2014 and explains why speeding up everything except screening just moves bad hiring decisions faster, a risk this benefits list never names.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1901,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 recruiter sales/persuasion technique content aimed at staffing-agency placement selling, not assessment or testing; belongs to a different product world than skills-assessment software."
+  },
+  {
+    "row_id": 1905,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The skiing-analogy framework caps its 'Level 1/2/3' progression at ATS-sourced operational metrics (cost-per-hire, time-to-fill, source-of-hire) and vague 'predictive candidate matching'; it never addresses validated assessment-score data as a predictive input, nor adverse-impact/bias analytics, despite positioning itself as covering the advanced end of recruiting analytics.",
+    "asset": "What Skills-Assessment Data Predicts That Time-to-Fill and Source-of-Hire Can't",
+    "distinct_angle": "Extends the piece's own 'Level 3' predictive-analytics tease with the input it never names \u2014 validated skills-test scores \u2014 and adds adverse-impact/bias analytics, the compliance layer missing from every level of its skiing framework.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1906,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Rounds up must-have features across ATS, Recruitment CRM, and Video Interview Software, but assessment/skills-testing software never appears as its own category, and the Video Interview Software section (where the excerpt cuts off) covers no anti-cheating, proctoring, or scoring-validity features anywhere in the list.",
+    "asset": "The Missing Feature Category in Every 'Must-Have Recruiting Software' List: Skills Testing",
+    "distinct_angle": "Adds the feature checklist this round-up skips entirely \u2014 assessment/testing software (proctoring, anti-cheat, scoring validity) \u2014 instead of stopping at ATS, CRM, and video-interview features.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

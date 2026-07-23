@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1555,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is employee experience/engagement (disengagement, hybrid-work preference, EX budgets), which the brand scope explicitly lists as off-limits (post-hire engagement, as an end in itself); different product world from skills assessment/pre-employment testing."
+  },
+  {
+    "row_id": 1557,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Covers L&D broadly (budgets, digital-learning sentiment, classroom-vs-remote delivery, leader capability gaps) but every skills-gap stat stops at spend/sentiment \u2014 none address whether the underlying skill gap was ever objectively verified before or after training, which is the step that actually proves the training worked.",
+    "asset": "The Skills Gap L&D Budgets Aren't Actually Closing",
+    "distinct_angle": "Ties each skills-gap and reskilling statistic back to whether the gap was objectively measured, not just funded or felt \u2014 the verification layer this page's budget/sentiment numbers never touch.",
+    "tool_escalation": "",
+    "g_notes": "transplanted lens from: general L&D budget/delivery stats -> our skills-verification angle"
+  },
+  {
+    "row_id": 1822,
+    "brand_fit": "CORE",
+    "angle_gap": "65 stats dumped as bare one-liners with a bracketed 'Source' link and zero interpretation (see #6-25), mixing a 2019 Zenefits figure and 2022-23 sources presented as evergreen 2026 numbers, with no throughline connecting cost-per-hire, time-to-hire, and candidate drop-off to a single cause a reader could act on.",
+    "asset": "The Recruitment Numbers That Actually Explain Why Cost-per-Hire and Time-to-Hire Keep Rising",
+    "distinct_angle": "Replaces the page's bare stat-plus-link format with current-year sourced figures and a plain 'what this means for your hiring process' line under every number \u2014 the explanatory layer and freshness check this page skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1871,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Titled 'AI Recruitment Market: Size, Trends' but never states an actual market size figure or CAGR anywhere in the body; the headline stats (88% interest, 61% burnout, 45% admin-cause) are attributed only to unnamed 'our research'/'internal analysis', not a citable public source.",
+    "asset": "What the AI Recruiting Market Is Actually Worth in 2026",
+    "distinct_angle": "Delivers the sourced market-size figure and growth rate the title promises but the body never gives, and swaps the page's unattributed 'our research shows' claims for citable public data.",
+    "tool_escalation": "",
+    "g_notes": "transplanted lens from: recruiter-ops AI-agent stats -> assessment/screening angle within our AI-interviewing territory"
+  },
+  {
+    "row_id": 2626,
+    "brand_fit": "CORE",
+    "angle_gap": "Across 100 well-sourced, well-annotated stats spanning cost-per-hire, sourcing, ATS, and candidate experience, there is not a single stat on skills-based hiring or pre-employment assessment adoption \u2014 the page names an assessment tool (WeCP) once in passing but never gives the reader a number on how many companies are actually testing skills pre-hire.",
+    "asset": "The 2026 Hiring Numbers That Prove Skills Tests Beat Resume Screening",
+    "distinct_angle": "Adds the skills-based-hiring and pre-employment-assessment adoption stats this otherwise-thorough 100-stat roundup omits entirely, closing the one gap in an already strong page.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

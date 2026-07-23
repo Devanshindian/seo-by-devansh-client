@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1537,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Stays entirely at the conceptual/culture level \u2014 defines D, E, I, B separately, distinguishes inclusion from belonging, and cites generic stats (McKinsey's 36%, Gartner's 30%) \u2014 but never connects DEIB to the one place TA leaders can act on it directly: the hiring and screening funnel where adverse impact is actually measurable.",
+    "asset": "Where DEIB Actually Breaks Down: Bias in the Hiring Funnel, Not Just the Culture Deck",
+    "distinct_angle": "Grounds DEIB in the concrete, measurable point HR can act on \u2014 biased screening and adverse impact in the hiring funnel \u2014 rather than the generic culture-level definitions and stats the AIHR page stops at.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1538,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 general people/HR analytics (turnover, absenteeism, compensation, workforce planning) belongs to a different product world (people-analytics platforms), not skills assessment/testing; recruiting is only one minor bullet among many."
+  },
+  {
+    "row_id": 1544,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Builds its whole framework on a single 2015 academic citation (Pawar & Charak) and a narrow 5-component model \u2014 compensation, work-life balance, stability, location, respect \u2014 that omits career growth/development, a component most current EVP frameworks include, leaving the guide dated and thin for what TA teams need to build an EVP in 2026.",
+    "asset": "The Employee Value Proposition Model TA Teams Actually Need in 2026, Beyond the 5-Component Checklist",
+    "distinct_angle": "Replaces the page's dated 2015 5-component EVP model with the components it omits \u2014 career growth and purpose \u2014 giving TA leads the currency the AIHR version lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1545,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 eNPS is a post-hire employee-engagement survey metric, explicitly off-limits per brand scope (engagement surveys as ends in themselves), not a hiring/assessment topic."
+  },
+  {
+    "row_id": 1546,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 HRIS/HR software (payroll, benefits administration, employee data management) is explicitly listed as off-limits/adjacent HR, not Testlify's job."
+  }
+]

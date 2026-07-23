@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 449,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines MS Word skill tests vs. simulations only in the abstract \u2014 no sample question shown, no guidance on what score threshold matters for which role (admin assistant vs. paralegal vs. executive assistant), and no mention of sibling office-skills tests (Excel, PowerPoint) hiring teams also need to screen for.",
+    "asset": "Setting MS Word Proficiency Thresholds by Role, With Real Sample Test Items",
+    "distinct_angle": "Shows worked example test items and role-specific score thresholds instead of only defining 'skill test' vs. 'simulation' in the abstract, which is as far as this page goes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 454,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists five disadvantages of pre-employment assessments as an unstructured essay, citing SHRM and Bright Talk survey figures with no publication year attached, and never pairs each objection with a concrete fix a hiring team can implement.",
+    "asset": "Every Objection to Pre-Employment Testing, Answered With What Actually Fixes It",
+    "distinct_angle": "Turns the same five objections into a fix-by-fix breakdown (validation process, anxiety-reducing formats, bias audits) with current, dated benchmark figures instead of an undated wall-of-text survey citation.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 464,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 general leadership/management-style development content (task- vs. people-oriented leadership), not hiring or skills-assessment subject matter; belongs to a different product world (leadership training) even though the buyer overlaps."
+  },
+  {
+    "row_id": 472,
+    "brand_fit": "CORE",
+    "angle_gap": "Explains what numerical reasoning tests measure and which occupations need the skill, but never shows a worked example problem or gives score benchmarks by job level, leaving the definition entirely abstract.",
+    "asset": "Numerical Reasoning Test Scores by Job Level: What 'Good' Actually Means, With a Worked Example",
+    "distinct_angle": "Adds a worked example problem plus job-level score benchmarks (entry-level clerical vs. analyst vs. management), going past the generic skill-area list this page stops at.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 473,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 candidate-sourcing/recruitment-channels content (job boards, referrals, career fairs); passive-candidate sourcing is explicitly outside Testlify's skills-assessment world."
+  }
+]

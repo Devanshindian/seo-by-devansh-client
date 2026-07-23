@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1221,
+    "brand_fit": "CORE",
+    "angle_gap": "The skills/qualifications section is a generic bullet checklist (React, HTML/CSS/JS, 'strong problem-solving') with no indication of what proficiency actually looks like at each level, and the 'Recommended Skills Tests' section is just a plug pointing to Adaface's own test page rather than real guidance on which specific coding challenges fit front-end vs back-end vs full-stack roles.",
+    "asset": "What Hiring Managers Should Actually Test For at Each Web Developer Level",
+    "distinct_angle": "Replaces the generic skills checklist with a junior/mid/senior breakdown of what to verify for each required skill, and concrete example test approaches per skill \u2014 the depth this page's bullet list and self-promotional test plug never deliver.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1227,
+    "brand_fit": "CORE",
+    "angle_gap": "The six-step process overview gives the 'Assessments' stage a single throwaway line ('keep tests engaging and concise, offer live assessments wherever possible') with no guidance on structuring a bias-resistant or legally defensible technical assessment, and the 2023 best-practices section is generic ('know precisely what you need') with no current EEOC/adverse-impact framing.",
+    "asset": "Where Tech Recruitment Processes Actually Break Down at the Assessment Stage",
+    "distinct_angle": "Goes deep specifically on the assessment stage this page dismisses in one sentence, with concrete guidance on building bias-resistant, EEOC-defensible technical assessments for 2026 \u2014 the depth this 2023 process overview skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1298,
+    "brand_fit": "CORE",
+    "angle_gap": "Each test type (domain, aptitude, communication, psychometric, behavioral, technical) gets a one-paragraph abstract definition with no worked example question and no discussion of test validity or EEOC/adverse-impact defensibility \u2014 a core concern for anyone actually deploying these tests.",
+    "asset": "The Skills Assessment Types That Actually Hold Up to an EEOC Audit",
+    "distinct_angle": "Adds the validity and adverse-impact/EEOC-defensibility angle for each test type, plus a concrete example item per type, replacing the one-paragraph abstract definitions this guide stops at.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1412,
+    "brand_fit": "CORE",
+    "angle_gap": "The guide leans on badly stale citations to make its case \u2014 a '90 percent of firms' stat sourced to Greenberg, 1996, and a general ~$4,000-per-hire/52-day figure with no current year attached \u2014 undermining the argument for pre-employment testing with decades-old evidence.",
+    "asset": "What Pre-Employment Testing Actually Costs and Delivers in 2026, Not 1996",
+    "distinct_angle": "Refreshes the vintage 1996-sourced adoption stat and the undated cost-of-hire figure with current public benchmarks, so the case for testing rests on today's numbers instead of decades-old citations.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1487,
+    "brand_fit": "CORE",
+    "angle_gap": "Skills-based, cognitive, personality, structured-interview, and job-simulation assessments are each covered in one generic paragraph with no guidance on which combination actually fits a given role type, and several sections end in a soft CTA to 'take help from iMocha' rather than real decision-making content.",
+    "asset": "How to Combine Assessment Types by Role, Not Just List Them",
+    "distinct_angle": "Replaces the generic one-paragraph-per-type overview with a role-by-role framework (technical vs sales vs frontline) for which mix of skills tests, cognitive tests, and simulations to use \u2014 the practical decision structure this list-format page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

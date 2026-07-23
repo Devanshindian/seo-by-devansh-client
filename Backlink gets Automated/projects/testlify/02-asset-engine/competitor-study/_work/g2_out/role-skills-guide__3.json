@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1263,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines 17 skills (JavaScript proficiency, dependency injection, unit testing, etc.) in 2-3 generic sentences each but never shows what a strong vs. weak answer actually looks like for any of them \u2014 the 'assess' promise in the intro is never paid off with a concrete example.",
+    "asset": "Angular Developer Skills: What a Strong vs Weak Answer Actually Sounds Like",
+    "distinct_angle": "Pairs every skill with a real example of a strong answer and a common red flag, closing the abstract-definition gap the source page leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1264,
+    "brand_fit": "CORE",
+    "angle_gap": "Same definition-only treatment across 19 skills (PHP proficiency, Blade templating, Composer, API documentation...) \u2014 the page even cuts off mid-sentence in the secondary-skills section, and no skill is ever tied to a seniority bar.",
+    "asset": "Laravel Developer Skills: Junior vs Senior Benchmarks for Every Core Skill",
+    "distinct_angle": "Sets an explicit junior/mid/senior bar for each skill (e.g. what solid Eloquent ORM usage looks like at each level), where the source treats every skill as equally undifferentiated.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1268,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists 17 skills (communication, CRM software, sales forecasting) as brief encyclopedia entries; the 'how to assess' section trails off into an Adaface product pitch before giving any concrete scenario or scoring criteria.",
+    "asset": "How to Score a Sales Consultant's Negotiation and Client-Assessment Skills in an Interview",
+    "distinct_angle": "Gives an actual scoring rubric and sample scenario prompts for the hardest-to-verify skills (negotiation tactics, client assessment), where the source never gets past definitions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1272,
+    "brand_fit": "CORE",
+    "angle_gap": "18 skills defined in isolation with no weighting of which matter most today \u2014 now-secondary tactics (voice search, video SEO) sit at equal billing with technical SEO, and no skill ever gets a real diagnostic question.",
+    "asset": "The SEO Specialist Skills That Actually Predict Performance in 2026",
+    "distinct_angle": "Re-ranks the skill list by current hiring relevance and adds a sample diagnostic question per core skill, fixing the flat, undated list the source offers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1280,
+    "brand_fit": "CORE",
+    "angle_gap": "20 skills (state management, Firebase integration, animation techniques...) each get a short definition, but the page cuts off before finishing even the secondary list, and no skill is ever tied to a concrete red flag or failure pattern.",
+    "asset": "Flutter Developer Skills: A Red-Flag Checklist for Each Core Competency",
+    "distinct_angle": "Attaches a concrete red flag to each core skill (e.g. what poor state-management design looks like in a code review), where the source stops at bare definitions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

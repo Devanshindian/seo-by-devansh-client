@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1543,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 the 18 skills listed (communication, admin, HRM knowledge, strategy, coaching) are competencies for HR professionals themselves, not about hiring, testing, or evaluating candidates; belongs to general HR career development, outside Testlify's world"
+  },
+  {
+    "row_id": 1554,
+    "brand_fit": "CORE",
+    "angle_gap": "The 21 tactics are generic sourcing/engagement tips (referrals, hidden workforce, AI-assisted screening); skill-based hiring is mentioned only once, in passing, inside strategy #1, with no explanation of how structured skills evidence should shape a recruiting strategy \u2014 none of the 21 items is built around assessment as the selection mechanism.",
+    "asset": "Recruiting Strategies Built Around Proof of Skill, Not Just Sourcing Volume",
+    "distinct_angle": "Where AIHR treats skill-based hiring as one bullet buried in a 21-item sourcing list, ours makes structured skills evidence the throughline of every strategy \u2014 closing the gap between a wider funnel and actually knowing who can do the job.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1566,
+    "brand_fit": "CORE",
+    "angle_gap": "The 9 tips assume a manager already knows who needs cross-training and rely on anecdote (the $30,000-new-hire vs $1,500-training figure is uncited and undated); there's no method for identifying which employees have the relevant skills gap before training, or for verifying the gap actually closed afterward.",
+    "asset": "Deciding Who to Cross-Train, Backed by Evidence of the Skills Gap",
+    "distinct_angle": "AIHR's tips skip straight to running a program without saying how to pick who needs it; ours closes that gap by showing how to identify and verify the skills gap before and after training, replacing the uncited cost anecdote with a real measurement approach.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1572,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee referral programs are a sourcing/channel-marketing topic, not skills assessment or evaluation; belongs to a different product world (recruiting/sourcing tools), same category as the passive-candidate-sourcing carve-out"
+  },
+  {
+    "row_id": 1573,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Only 1 of the 15 case studies (the tech conglomerate improving quality of hire from 38% to 75%) touches structured assessment; the rest cover absenteeism, contact-center coaching, and other non-hiring HR analytics, so the one hiring-relevant case is thin \u2014 no detail on which psychometric tests were used, how they were validated, or how QoH was actually calculated.",
+    "asset": "Case Studies Where Skills Assessment Data Actually Moved Quality of Hire",
+    "distinct_angle": "AIHR buries its single hiring-relevant case study among 14 unrelated HR-analytics stories with no methodology detail; ours goes deep on assessment-driven quality-of-hire cases specifically, naming the testing methodology and validation approach each company used.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

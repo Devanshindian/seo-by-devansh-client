@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1393,
+    "brand_fit": "CORE",
+    "angle_gap": "Promises (per the title) that pre-employment assessments reduce conscious bias, but the body never delivers that link \u2014 it's a rambling list of bias types (similarity bias, wishful thinking, overconfidence) padded with promotional plugs for the author's own ebook, and its cited stats (male-name callback rate, 2021 STEM-preference figure) are undated or old with no current-year figure.",
+    "asset": "The Hiring Biases Structured Skills Assessments Actually Remove (and How Each One Gets Countered)",
+    "distinct_angle": "Names each conscious bias the page lists (similarity/affinity bias, wishful thinking, overconfidence) and pairs it with the specific structured-assessment mechanism that counters it, replacing the ebook plugs and undated stats with a real, sourced connection between bias and fix.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1396,
+    "brand_fit": "CORE",
+    "angle_gap": "Each competency section is 2-3 generic sentences with no worked example or scoring criteria, and the FAQ block is largely mismatched filler \u2014 one answer defines 'visual assessment' as evaluating a software UI/GUI, which has nothing to do with sales hiring.",
+    "asset": "Sales Competency Assessments: The Scenarios and Scoring Criteria That Actually Predict Quota Attainment",
+    "distinct_angle": "Replaces the page's 2-3 sentence summaries with a concrete scenario and scoring rubric per core sales competency, and drops the off-topic FAQ filler (e.g. UI/GUI 'visual assessment') that has nothing to do with sales hiring.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1397,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans on deception-detection theory (Truth Default Theory, Ekman's Four Deception Rules) with undated or old stats (Tim Levine's 54% figure, an 'Undercover Recruiters' 33% stat with no year) and repeatedly redirects to the author's own ebook instead of explaining which hiring-side tools or assessment practices actually counter each bias.",
+    "asset": "Why Candidates Get Away With Deception in Interviews \u2014 and the Assessment Methods That Close the Gap",
+    "distinct_angle": "Cites current, dated research instead of the page's undated Levine/Undercover Recruiters figures, and swaps its ebook plugs for concrete guidance on which structured assessment methods counter each deception tactic it names.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1399,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'Top 3' comparison is one-sided: PMaps' own eVA test gets a five-point feature list, while Versant and Test Gorilla each get a single generic sentence with no comparison on accuracy, pricing, accent coverage, or proctoring \u2014 it's a sales page pretending to be a neutral comparison.",
+    "asset": "Voice and Accent Assessments Compared: Accuracy, Accent Coverage, and Proctoring Across the Top Providers",
+    "distinct_angle": "Gives every provider the same depth of evaluation (accent-neutrality, proctoring, pricing, turnaround) instead of the page's five-bullet writeup for its own product against one-line dismissals of the other two.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1408,
+    "brand_fit": "CORE",
+    "angle_gap": "Article is dated March 2015 and its cost breakdown uses stale job-board pricing (Craigslist $25, Monster $385, CareerBuilder $419) and outdated per-stage cost assumptions that no longer reflect current hiring costs.",
+    "asset": "What It Actually Costs to Hire One Candidate in 2026, Stage by Stage",
+    "distinct_angle": "Refreshes the page's 2015-era job-board and per-stage cost figures with current public 2026 pricing and hiring-cost benchmarks, stage by stage.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

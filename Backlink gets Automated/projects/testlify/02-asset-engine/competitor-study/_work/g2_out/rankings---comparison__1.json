@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 431,
+    "brand_fit": "CORE",
+    "angle_gap": "Twelve soft skills each get one generic paragraph (e.g. 'Integrity': candidates should 'follow procedures') with no way to actually evaluate whether a candidate has the skill, and the supporting stats are uncited/undated (a PWC survey, a Queens University survey, an HBR study \u2014 none dated), so there's no current backing and no assessment method for any trait listed.",
+    "asset": "The Soft Skills That Actually Predict Job Performance, and How to Screen for Each One",
+    "distinct_angle": "Pairs each skill with a concrete way to evaluate it in candidates and replaces the undated survey citations with current, sourced statistics \u2014 the assessment guidance and citation currency this page skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 443,
+    "brand_fit": "CORE",
+    "angle_gap": "Frames validity/compliance entirely as a two-horse eSkill-vs-Indeed sales pitch and leans on a single 2019 Talent Board stat ('71% of organizations used pre-employment assessments in 2019') with no updated figure, so a reader can't judge the current landscape or apply the argument to any provider besides these two.",
+    "asset": "What Actually Makes a Pre-Employment Test Legally Defensible in 2026",
+    "distinct_angle": "Builds an objective EEOC-validity checklist that works across providers instead of a two-vendor pitch, and refreshes the adoption stat to the current public figure \u2014 the neutrality and currency this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1204,
+    "brand_fit": "CORE",
+    "angle_gap": "The distinction is explained entirely in the abstract (long-term vs short-term, ongoing vs linear, dynamic vs static) with zero worked examples or real hiring scenarios showing the distinction changing an actual decision, and no data tying it to outcomes like cost-per-hire or time-to-hire.",
+    "asset": "Talent Acquisition vs Recruitment: What Actually Changes in How You Hire",
+    "distinct_angle": "Grounds each abstract contrast in a worked hiring scenario and current cost/time-to-hire figures, replacing the page's purely conceptual treatment with concrete examples.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1239,
+    "brand_fit": "CORE",
+    "angle_gap": "Opens by promising to 'use empirical data and research to evaluate the validity of these interview techniques' but never cites a single validity figure or study \u2014 the entire piece is a features table (question types, bias, usage) with no numbers behind the validity claim it leads with.",
+    "asset": "Structured vs Unstructured Interviews: What the Actual Validity Research Shows",
+    "distinct_angle": "Delivers the validity research the page promises but never cites \u2014 real predictive-validity figures behind the structured-vs-unstructured claim \u2014 closing the evidence gap this page opens and drops.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1262,
+    "brand_fit": "CORE",
+    "angle_gap": "Promises 52+ tools 'compared' but delivers a numbered name list plus three generic buying-criteria paragraphs (relevance, completion rate, brand fit) \u2014 there's no actual side-by-side comparison of what the tools differ on (proctoring depth, validation support, integration count, library size), so 'compared' is never delivered.",
+    "asset": "How Pre-Employment Assessment Platforms Actually Differ on Validity, Proctoring, and Integrations",
+    "distinct_angle": "Replaces the bare name-list with a real side-by-side breakdown on the criteria that matter (validation support, proctoring measures, ATS integrations, library size) \u2014 the actual comparison the title promises but the page never runs.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

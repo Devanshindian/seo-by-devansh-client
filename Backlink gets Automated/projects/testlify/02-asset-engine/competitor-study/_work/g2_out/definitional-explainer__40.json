@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 671,
+    "brand_fit": "CORE",
+    "angle_gap": "Generic textbook definition of Bayesian Analysis followed by boilerplate 'why assessing this matters' filler and a pitch for Alooba's own test types \u2014 no sample interview question, no worked example applied to a hiring scenario, and no rubric distinguishing a candidate who recites the theorem from one who can actually apply it.",
+    "asset": "How to Tell If a Candidate Actually Understands Bayesian Analysis, Not Just the Definition",
+    "distinct_angle": "Adds concrete interview questions and a scoring rubric that separates surface-level recall from real application \u2014 the practical hiring layer this page's generic definition and self-promotional filler never build.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 672,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines MSE in the abstract with no worked numeric example, no comparison to MAE/RMSE trade-offs, and no rubric for what a strong vs weak candidate answer looks like \u2014 just a generic explanation plus an Alooba test-type pitch.",
+    "asset": "What Separates Candidates Who Just Know the MSE Formula From Those Who Can Apply It",
+    "distinct_angle": "Adds a worked numeric example and a rubric that exposes whether a candidate understands MSE's outlier sensitivity versus MAE/RMSE trade-offs \u2014 depth this page's boilerplate definition and test-type pitch skip entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 673,
+    "brand_fit": "CORE",
+    "angle_gap": "Uses one textbook card-draw example and lists topics/applications, but never turns any of it into a usable interview question or answer rubric \u2014 recruiters are left to translate the stats explanation into an actual assessment themselves.",
+    "asset": "Conditional Probability Interview Questions That Actually Separate Strong Data Candidates",
+    "distinct_angle": "Supplies ready-to-ask interview questions with a strong/weak-answer rubric built on the same card-draw example this page stops at \u2014 the practical hiring layer it never reaches.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 674,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers null/alternative hypotheses, test statistics, and significance levels at a definitional level but never shows a worked example computing a test statistic or p-value, and the Type I/II error explanation is left thin with no concrete hiring-relevant illustration or answer rubric.",
+    "asset": "Hypothesis Testing Interview Questions That Reveal Real Statistical Reasoning, Not Memorized Formulas",
+    "distinct_angle": "Adds a worked example computing a test statistic and p-value plus a rubric that flags candidates who confuse Type I and Type II error trade-offs \u2014 this page stops at definitions with no practical assessment guidance.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 675,
+    "brand_fit": "CORE",
+    "angle_gap": "Explains linear extrapolation and its limitations in the abstract with no worked numeric example and no rubric for judging whether a candidate recognizes when extrapolation breaks down (non-linearity, outliers) versus just applying the formula blindly.",
+    "asset": "How to Assess Whether a Candidate's Linear Extrapolation Actually Holds Up",
+    "distinct_angle": "Adds a worked numeric extrapolation example and a rubric flagging candidates who ignore the technique's limitations \u2014 the practical judgment call this definition-only page never tests.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

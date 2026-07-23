@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2349,
+    "brand_fit": "CORE",
+    "angle_gap": "Frames a 3-round coding hiring funnel (MCQ filtration \u2192 role-based simulator \u2192 live interview) and lists 20,000+ questions and a huge tech-stack menu, but never explains how to actually design each round \u2014 no guidance on question mix/difficulty by seniority, no pass-threshold logic, and no explanation of how to read simulator signals (compilation attempts, error details, code playback) into an actual hire/no-hire call. It's feature marketing, not methodology.",
+    "asset": "Designing a Three-Round Coding Hiring Funnel That Actually Predicts Job Performance",
+    "distinct_angle": "Shows how to actually calibrate each round (MCQ difficulty mix, simulator pass thresholds, how to read compilation-attempt and error-pattern signals) \u2014 the concrete methodology this page skips in favor of feature buzzwords.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2350,
+    "brand_fit": "CORE",
+    "angle_gap": "Claims interviews are 'structured around weighted competencies mapped to job roles' and that this 'reduces interview bias,' but never shows a single worked competency-weighting example, scoring rubric, or anchor question \u2014 the core mechanics of what makes an interview actually 'structured' are asserted, never demonstrated.",
+    "asset": "How to Build a Weighted Competency Scorecard for Structured Video Interviews",
+    "distinct_angle": "Provides an actual worked competency-weighting example and rubric with anchor questions \u2014 the concrete mechanics of bias-reducing structure that this page only claims, never shows.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2352,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 360-degree feedback is post-hire performance management / leadership development / succession planning, explicitly outside Testlify's pre-employment assessment world; it's a generic product landing page, not a distinctive link-pulling format worth transplanting."
+  },
+  {
+    "row_id": 2353,
+    "brand_fit": "CORE",
+    "angle_gap": "The page's own competency framework doesn't match its subject \u2014 it lists 'ATD - Image based' and 'design aptitude test' competencies under a journalism aptitude test, and never covers the skills that actually matter for screening journalists (fact-checking accuracy, source verification, editorial judgment under deadline), nor how to pair the aptitude score with a writing-sample review, which is standard practice in journalism hiring.",
+    "asset": "How to Actually Screen Journalism Candidates for Fact-Checking and Editorial Judgment, Not Just Verbal Aptitude",
+    "distinct_angle": "Fixes the page's own mismatched competency list by covering the skills that actually predict journalism performance (fact-checking, editorial judgment, deadline writing) and how to pair the test with a writing-sample review \u2014 both missing here.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2354,
+    "brand_fit": "CORE",
+    "angle_gap": "Its 'free sample questions' for a Software Developer Aptitude Test are generic quantitative-reasoning puzzles unrelated to programming (a mother-and-son age-ratio problem, a clock-hand angle question, an apple-pricing problem) rather than anything tied to coding aptitude, and it never explains which cognitive skills (numerical ability, abstract reasoning, etc.) actually correlate with real coding performance or how to weight them against a hands-on coding test.",
+    "asset": "Which Aptitude Skills Actually Predict Software Developer Performance (and Which Generic Puzzles Don't)",
+    "distinct_angle": "Calls out the mismatch between the page's generic quant-puzzle 'sample questions' and real coding aptitude, and explains which cognitive skills genuinely predict developer performance and how to weight them against a hands-on coding test.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

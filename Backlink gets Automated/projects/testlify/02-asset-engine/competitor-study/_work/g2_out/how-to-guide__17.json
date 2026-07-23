@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1607,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'decision-making' pillar of AIHR's TA strategy framework tells readers to \"define success criteria and evaluation standards\" but never explains how \u2014 it names five abstract pillars (business alignment, talent market reality, employer positioning, decision-making, operating capability) without a single concrete evaluation criterion or worked scorecard example.",
+    "asset": "A Talent Acquisition Strategy Built on Skills Evidence, Not Vague Success Criteria",
+    "distinct_angle": "Where AIHR names 'decision-making' as a pillar without showing how to define success criteria, ours works through a concrete, skills-based evaluation standard a TA leader can actually apply when building the strategy.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1610,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The 'baseline assessment' step lists four assessment types (360-feedback, performance reviews, personality assessments, skills inventories) as interchangeable options with no guidance on which is actually valid for identifying leadership potential or how to combine them, so the plan's foundation stays a guess dressed up as data.",
+    "asset": "Choosing the Right Baseline Assessment for a Leadership Development Plan",
+    "distinct_angle": "AIHR lists four assessment types as if interchangeable with no guidance on which is valid for leadership potential; ours works through how to pick and combine them so the 'baseline' is evidence, not a guess.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1612,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The HR strategy page treats 'talent acquisition and recruitment' as one of five equal-weight bullets, a single generic sentence ('HR can target its talent acquisition tactics to reach and hire qualified talent') with zero detail on how that piece of the strategy should actually be structured \u2014 thin exactly where hiring decisions get made.",
+    "asset": "Where Hiring Actually Sits Inside an HR Strategy",
+    "distinct_angle": "AIHR gives talent acquisition one thin, generic sentence inside its five-part HR strategy framework; ours expands specifically that component with a concrete, skills-based structure a TA leader can build from.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1617,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The case for employer branding leans on stats (Glassdoor's 69%/86%/95%, CareerArc's 64%, LinkedIn's 20% growth figure) cited with no publication dates, several drawn from older surveys, so the 'why you need this' section reads as stale rather than grounded in current data.",
+    "asset": "What Employer Branding Actually Buys You in Today's Hiring Market",
+    "distinct_angle": "Refreshes the outdated, undated survey stats AIHR leans on to make its case, replacing them with current public figures and tying employer brand explicitly to the hiring/assessment experience.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1640,
+    "brand_fit": "CORE",
+    "angle_gap": "The page explains why quality of hire is hard to measure and lists the ISO/TS 30411 definitions, but never connects the post-hire measurement back to pre-hire signals \u2014 it doesn't show how a pre-employment assessment score correlates with the on-the-job performance it's trying to measure, leaving the 'how do you actually predict it' question open.",
+    "asset": "Measuring Quality of Hire by Tracing It Back to the Pre-Hire Assessment Score",
+    "distinct_angle": "AIHR frames quality of hire as a hard-to-measure post-hire outcome without linking it back to pre-hire signals; ours closes that loop by showing how assessment scores at the point of hire predict the quality-of-hire metrics it defines.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

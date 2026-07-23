@@ -1,0 +1,179 @@
+{
+  "slice_id": "w10",
+  "clusters": [
+    {
+      "pillar": "Organizational Development: Implementation & Measurement",
+      "intent": "informational",
+      "spokes": [
+        "case-studies-of-successful-organizational-development-programs",
+        "common-mistakes-to-avoid-in-organizational-development",
+        "future-of-organizational-development",
+        "how-to-choose-the-right-organizational-development-intervention",
+        "how-to-implement-organizational-development-successfully",
+        "how-to-measure-the-success-of-organizational-development"
+      ]
+    },
+    {
+      "pillar": "Candidate Screening & Search",
+      "intent": "informational",
+      "spokes": [
+        "ai-powered-phone-screening",
+        "candidate-screening",
+        "challenges-of-manual-candidate-screening",
+        "dos-and-donts-of-candidate-screening",
+        "conduct-a-successful-candidate-search",
+        "candidate-profiling",
+        "candidate-persona"
+      ]
+    },
+    {
+      "pillar": "Assessing Candidate Cultural Fit",
+      "intent": "informational",
+      "spokes": [
+        "assess-candidates-for-cultural-fit",
+        "creative-ways-to-assess-a-candidates-cultural-fit",
+        "how-to-determine-a-candidates-cultural-fit",
+        "cultural-alignment"
+      ]
+    },
+    {
+      "pillar": "HR Strategy, Policies & Business Alignment",
+      "intent": "informational",
+      "spokes": [
+        "align-hr-strategies-with-business-objectives",
+        "create-an-effective-hr-strategy-aligned-with-overall-business-goals",
+        "build-and-maintain-strong-hr-partnerships-with-other-departments",
+        "develop-and-maintain-strong-hr-partnerships-with-other-departments",
+        "create-and-implement-effective-hr-policies-and-procedures",
+        "foster-innovation-and-creativity-within-hr-department",
+        "implement-effective-hr-practices-for-small-and-medium-sized-enterprises",
+        "essential-skills-every-hr-professional-needs-to-succeed",
+        "common-hr-mistakes-and-how-to-avoid-them",
+        "handle-sensitive-hr-issues-with-confidentiality"
+      ]
+    },
+    {
+      "pillar": "Internal Communication for HR",
+      "intent": "informational",
+      "spokes": [
+        "best-internal-communication-tools",
+        "create-an-effective-internal-communication-strategy",
+        "assess-communication-channels-and-strategies-in-the-organization-effectively",
+        "conduct-hr-communication-during-organizational-changes",
+        "active-listening-techniques-for-employers"
+      ]
+    },
+    {
+      "pillar": "Work-Life Balance & Flexible Work Arrangements",
+      "intent": "informational",
+      "spokes": [
+        "10-ideas-to-promote-work-life-balance",
+        "how-to-improve-work-life-balance",
+        "how-to-measure-work-life-balance",
+        "how-to-implement-effective-flexible-work-arrangements",
+        "create-and-maintain-a-supportive-work-environment"
+      ]
+    },
+    {
+      "pillar": "Starting an HR Business or Agency",
+      "intent": "informational",
+      "spokes": [
+        "future-of-hr-consultancy-adapting-to-the-gig-economy",
+        "how-to-open-llc-for-hr-agency",
+        "how-to-start-an-hr-business-step-by-step"
+      ]
+    },
+    {
+      "pillar": "Candidate Experience: Drop-off, Ghosting & Feedback",
+      "intent": "informational",
+      "spokes": [
+        "candidate-drop-off",
+        "candidate-ghosting",
+        "how-to-give-constructive-feedback-to-candidates",
+        "candidate-rejection-email-templates",
+        "how-to-build-strong-employer-candidate-relations",
+        "how-to-handle-negative-glassdoor-reviews"
+      ]
+    },
+    {
+      "pillar": "Core HR Tools & Digital Transformation",
+      "intent": "commercial",
+      "spokes": [
+        "customisable-cloud-based-hr-solutions",
+        "factors-to-consider-for-choosing-the-right-core-hr-tools",
+        "how-to-streamline-hr-administration-with-core-hr-tools",
+        "how-digital-transformation-is-revolutionizing-hr",
+        "how-hr-and-web-app-development-can-drive-business-success"
+      ]
+    },
+    {
+      "pillar": "Hiring & Assessing Specialized Roles",
+      "intent": "informational",
+      "spokes": [
+        "attract-automotive-engineers-without-hands-on-tasks",
+        "attract-legal-minds-without-bar-exams",
+        "find-out-finance-potential-without-number-crunching",
+        "find-the-perfect-network-engineer-for-your-business",
+        "finding-right-senior-seo-specialist-employer-guide",
+        "how-to-find-the-perfect-digital-marketer-for-your-businesss-growth",
+        "how-to-find-the-right-senior-developer",
+        "assessing-candidate-digital-marketing-skills",
+        "5-tips-to-evaluate-data-analysis-software-proficiency"
+      ]
+    },
+    {
+      "pillar": "AI in Candidate Assessment & Evaluation",
+      "intent": "informational",
+      "spokes": [
+        "how-to-evaluate-candidates-with-ai-safely",
+        "how-testlify-ai-scoring-works",
+        "guide-to-enterprise-ai-in-large-organizations",
+        "how-to-run-role-simulations",
+        "how-to-assess-ethical-judgment-of-candidates"
+      ]
+    }
+  ],
+  "orphans": [
+    "6-common-security-mistakes-hr",
+    "9-box-matrix",
+    "achieve-manufacturing-efficiency-with-situational-awareness",
+    "active-candidates",
+    "addressing-the-full-candidate-acquisition-journey",
+    "authenticating-trust-in-the-digital-epoch",
+    "b2b-content-strategy",
+    "balanced-scorecard",
+    "balancing-theory-and-practice-effective-essay-strategies-for-aspiring-hr-professionals",
+    "best-truck-driving-jobs-with-no-experience",
+    "blog",
+    "bridging-communication-gaps-in-the-gig-economy",
+    "buddy-system",
+    "build-and-manage-an-effective-marketing-department",
+    "clerical-skills",
+    "compassionate-leave",
+    "compensatory-off",
+    "counterproductive-work-behavior",
+    "departmentalization",
+    "develop-a-job-profile",
+    "drive-conversions-with-video-pop-ups",
+    "easily-scale-your-business-with-automated-solutions",
+    "elevate-your-business-with-cloud-telephony-software-excellence",
+    "employer-value-proposition",
+    "empowering-businesses-with-custom-solutions",
+    "gauge-candidate-motivation-and-long-term-commitment",
+    "gender-pay-gap-causes-implications-and-solutions",
+    "geofencing-applications-across-industries",
+    "global-employment",
+    "grey-collar-jobs",
+    "halo-and-horn-effect",
+    "healthcare-entry-level-certification-readiness",
+    "how-cloud-solutions-help-streamline-it-equipment-tracking-in-schools",
+    "how-employers-can-strengthen-university-partnerships",
+    "how-lms-can-help-you-create-a-collaborative-learning-environment",
+    "how-to-build-relationships-with-suppliers",
+    "how-to-use-seo-for-better-job-advertising",
+    "hrs-role-in-recognizing-future-proof-degrees",
+    "human-capital-analytics",
+    "identify-and-address-fake-employment-references",
+    "impact-of-globalization-on-hr-practices"
+  ]
+}

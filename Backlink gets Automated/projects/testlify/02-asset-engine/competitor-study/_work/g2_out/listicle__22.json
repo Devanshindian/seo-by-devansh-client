@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3269,
+    "brand_fit": "CORE",
+    "angle_gap": "Myths 2 and 3 both argue AI won't replace recruiters / isn't ineffective \u2014 near-duplicate ground \u2014 and the supporting stats (86% of recruiters say ATS helped, Hays' 67% using AI/analytics) are generic AI-adoption figures, not evidence tied to skills-based hiring outcomes specifically.",
+    "asset": "The Skills-Based Hiring Objections Recruiters Actually Raise, Answered With Evidence Specific to Skills-Based Hiring",
+    "distinct_angle": "Collapses the page's redundant AI-replaces-recruiters and AI-is-ineffective myths into one sharper objection and backs each debunk with a stat measured against skills-based hiring outcomes rather than generic AI-adoption numbers, the mismatch this page has.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3276,
+    "brand_fit": "CORE",
+    "angle_gap": "Tip 5 ('Skills testing') \u2014 the tactic closest to our product \u2014 gets one thin paragraph and a single uncredited-year stat ('Talent Board's Candidate Experience found 82%'), with no worked example showing how a skills-test score actually moves the quality-of-hire number.",
+    "asset": "Quality of Hire in 2026: A Worked Example for Every Lever That Moves It, Skills Testing Included",
+    "distinct_angle": "Gives each quality-of-hire lever a worked, numbers-attached example instead of a one-paragraph description, and expands the skills-testing tip \u2014 the page's thinnest and most relevant-to-us section \u2014 into an actual case showing the score move.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3284,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 customer service team naming/culture content; not hiring, assessment, or recruiter-craft, outside our world."
+  },
+  {
+    "row_id": 3298,
+    "brand_fit": "CORE",
+    "angle_gap": "The page's sole credibility stat ('Aberdeen Group... 36% more likely to be satisfied') carries no year, and Aberdeen's pre-employment-assessment research dates to the early 2010s; the 7 test types are described generically with no guidance on which types actually predict performance for which roles or industries.",
+    "asset": "The 7 Pre-Employment Test Types, Matched to the Roles Where Each One Actually Predicts Performance",
+    "distinct_angle": "Maps each of the 7 test types to the specific roles/industries it best predicts and replaces the undated Aberdeen figure with a current sourced stat \u2014 the role-specific guidance and currency this page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3307,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire employee morale/engagement content, explicitly off-limits per brand scope (post-hire performance/engagement as an end in itself); a generic tips listicle isn't a link-worthy format worth transplanting."
+  }
+]

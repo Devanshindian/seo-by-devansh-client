@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1616,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The page bundles 19 HR metrics across recruitment, revenue, retention, and 'soft' HR \u2014 only the first few (time-to-hire, cost-per-hire, quality-of-hire) sit in our world, and even those are thin: formulas with no worked numeric example, no benchmark ranges by role/industry, and the cost-per-hire cost-breakdown table is visibly garbled ('aiAdministrative costs', 'hSinging bonus').",
+    "asset": "Recruiting Metrics That Actually Predict a Good Hire, With Real Benchmarks",
+    "distinct_angle": "Narrows to just the hiring-relevant metrics (time-to-hire, cost-per-hire, quality-of-hire), adds worked numeric examples and current benchmark ranges by role/industry, and fixes the broken cost breakdown this page never explains properly.",
+    "tool_escalation": "",
+    "g_notes": "narrowed from: broad HR metrics (recruitment metrics only are on-brand; revenue/retention/soft-HR metrics are off-brand)"
+  },
+  {
+    "row_id": 1671,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Treats AI/automation as one story across five HR stages (recruitment, onboarding, retention, L&D) and covers hiring only as one bullet list of vendor names (HireVue, Eightfold, Fetcher) with a one-line description each \u2014 never explains how a TA leader should actually evaluate an AI screening tool for validity, bias, or candidate experience.",
+    "asset": "How to Actually Evaluate an AI Interview Tool Before You Buy One",
+    "distinct_angle": "Narrows from a five-stage HR-wide tool roundup to hiring/screening specifically, replacing one-line vendor blurbs with real evaluation criteria (validity evidence, bias/adverse-impact testing, candidate experience) drawn from public research.",
+    "tool_escalation": "",
+    "g_notes": "narrowed from: AI/automation across the whole employee lifecycle (only the recruitment-stage content is on-brand)"
+  },
+  {
+    "row_id": 2274,
+    "brand_fit": "CORE",
+    "angle_gap": "Pure product marketing \u2014 personality, cognitive, coding, domain, and communication tests are listed as one-line feature bullets ('Right Coding Knowledge And The Ability To Solve Problems Through Code') with zero explanation of test validity, how to choose which test types for which role, or adverse-impact/EEOC risk. It sells the platform; it never teaches assessment design.",
+    "asset": "How to Choose the Right Mix of Pre-Employment Tests for Any Role",
+    "distinct_angle": "Replaces the feature-bullet sales copy with an actual decision framework for combining cognitive, personality, technical, and communication tests per role family, plus the adverse-impact/EEOC considerations the page never mentions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2281,
+    "brand_fit": "CORE",
+    "angle_gap": "Another feature-bullet product page (multi-panel interviews, live coding environment, whiteboard tool) with no explanation of how to actually design a structured interview \u2014 no competency-mapping method, no scorecard/rubric guidance, no evidence on why structure reduces bias.",
+    "asset": "How to Build a Structured Interview Scorecard That Actually Reduces Bias",
+    "distinct_angle": "Swaps the feature-list pitch for the real method \u2014 mapping competencies to weighted scorecard questions and citing the public research on why structured interviews outperform unstructured ones \u2014 content this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2429,
+    "brand_fit": "CORE",
+    "angle_gap": "The entire piece runs on 2016 data \u2014 CareerBuilder's 60% abandonment figure, a decade-old Appcast study of 500K applicants, a Kelton mobile-usage stat \u2014 presented with no acknowledgment that ATS design, one-click apply, and pre-hire assessments have reshaped the application funnel since.",
+    "asset": "Why Candidates Still Abandon Job Applications in 2026, and What Actually Fixes It",
+    "distinct_angle": "Refreshes the decade-old abandonment and conversion figures with current public data, and covers what this 2016 piece never touches \u2014 how adding a skills assessment early in the funnel affects completion versus a long-form application.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

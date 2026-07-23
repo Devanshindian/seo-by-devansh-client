@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1448,
+    "brand_fit": "CORE",
+    "angle_gap": "cites 'the current version of PHP is 7.4.12' as a live fact \u2014 years stale \u2014 and several answers are garbled/self-contradictory (e.g. the variable-naming rule literally repeats 'you can't use characters like +,-,%,(,).&' as both allowed and disallowed in the same sentence)",
+    "asset": "PHP Interview Questions Rebuilt for the PHP 8 Era",
+    "distinct_angle": "refreshes the stale 'PHP 7.4.12 is current' claim to the real current PHP 8.x release and fixes the garbled, self-contradictory answers (like the broken variable-naming rule) with correct, worked explanations.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1454,
+    "brand_fit": "CORE",
+    "angle_gap": "the 30 AngularJS questions are a bare list with zero model answers, so a recruiter with no Angular background has no way to judge a candidate's response; it also blends legacy AngularJS with unrelated Angular 4 questions with no framework distinction for what's current",
+    "asset": "Angular Interview Questions With the Answers That Reveal Real Skill",
+    "distinct_angle": "pairs every question with a model answer explaining what a strong response sounds like \u2014 this page lists 30 bare questions with no answers at all, forcing the recruiter to already know Angular.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1482,
+    "brand_fit": "CORE",
+    "angle_gap": "each challenge gives tasks and hints but no grading rubric or common-mistake flags, so a hiring manager receives a candidate's code with no way to judge if it's a pass or a red flag",
+    "asset": "React Coding Challenges Recruiters Can Actually Grade",
+    "distinct_angle": "adds a grading rubric and common-mistake flags to each challenge \u2014 what separates a passing solution from a junior-level one \u2014 since the original only lists tasks and hints with no way to judge the submitted code.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1503,
+    "brand_fit": "CORE",
+    "angle_gap": "the intro promises coverage of 'system design and architecture,' but the visible 55+ questions are almost entirely generic behavioral prompts ('tell me about yourself,' 'what's your weakness') with no actual coding or CS-fundamentals questions to test junior technical skill",
+    "asset": "Junior Software Engineer Questions That Test Real Technical Skill, Not Small Talk",
+    "distinct_angle": "delivers the technical depth (data structures, debugging, code-reading) the intro promises but the page never provides, instead of the near-entirely behavioral question set it actually contains.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1509,
+    "brand_fit": "CORE",
+    "angle_gap": "each SAP module (MM, ABAP, Basis, BI) is just a bare question dump with no answers or evaluation guidance \u2014 the page's only 'answer' is to pitch iMocha's own test instead of helping the recruiter judge a response",
+    "asset": "SAP Interview Questions With the Answer Guidance Recruiters Actually Need",
+    "distinct_angle": "adds what a strong ABAP/MM/Basis answer sounds like per question, replacing the original's bare question dump that offers no evaluation help beyond a plug for its own test.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

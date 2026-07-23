@@ -1,0 +1,96 @@
+{
+  "slice_id": "w27",
+  "clusters": [
+    {
+      "pillar": "AI Interviews for Hiring",
+      "intent": "mixed",
+      "spokes": [
+        "ai-interviewers",
+        "ai-interviews-for-candidate-screening",
+        "ai-interviews-for-global-hiring",
+        "ai-interviews-improve-high-volume-hiring",
+        "chat-ai-interviews-for-support-hiring",
+        "conversational-ai-audio-interviews",
+        "how-to-streamline-the-interview-process-with-ai",
+        "what-are-ai-interviews-and-do-they-really-work",
+        "video-ai-interviews-for-sales-hiring"
+      ]
+    },
+    {
+      "pillar": "Video & Audio Interviews",
+      "intent": "mixed",
+      "spokes": [
+        "benefits-of-using-video-and-audio-interviews",
+        "challenges-of-using-video-and-audio-interviews",
+        "how-to-score-video-and-audio-interview-responses",
+        "how-to-use-video-and-audio-interviews-to-assess-candidates",
+        "pros-cons-of-pre-recorded-video-interviews",
+        "video-interviews",
+        "video-interviews-effective-in-assessing-candidates"
+      ]
+    },
+    {
+      "pillar": "How to Conduct Effective & Structured Interviews",
+      "intent": "informational",
+      "spokes": [
+        "how-to-conduct-a-structured-job-interview",
+        "how-to-conduct-an-effective-job-interview",
+        "how-to-conduct-effective-interviews",
+        "star-interview-method",
+        "structured-interview-why-they-work-and-how-to-conduct",
+        "strengths-based-interviewing-for-hiring-managers",
+        "types-of-interviews"
+      ]
+    },
+    {
+      "pillar": "Interviewing Platforms & Tools",
+      "intent": "commercial",
+      "spokes": [
+        "top-interviewing-platforms",
+        "top-video-interviewing-tools",
+        "white-label-interview-tools",
+        "global-interview-infrastructure"
+      ]
+    },
+    {
+      "pillar": "Remote Interviews & Candidate Communication",
+      "intent": "informational",
+      "spokes": [
+        "the-role-of-communication-in-remote-job-interviews",
+        "tips-for-successful-remote-interviews",
+        "how-to-bridge-communication-gaps-during-interviews",
+        "how-to-communicate-with-candidates-post-interview",
+        "interview-invitation-email-templates"
+      ]
+    },
+    {
+      "pillar": "Interview Integrity & Red Flags",
+      "intent": "informational",
+      "spokes": [
+        "prevent-impostors-in-video-interviews",
+        "proxy-interview",
+        "interview-red-flags-candidates"
+      ]
+    },
+    {
+      "pillar": "Interview Process Metrics & Efficiency",
+      "intent": "informational",
+      "spokes": [
+        "broken-interview-process",
+        "interview-scheduling",
+        "interview-to-hire-ratio",
+        "what-is-an-interview-scorecard"
+      ]
+    }
+  ],
+  "orphans": [
+    "nvidia-interview-process",
+    "openai-interview-process",
+    "best-practices-for-blue-collar-interviewing-and-screening",
+    "build-efficient-schools-without-traditional-interviews",
+    "how-can-you-conduct-impartial-exit-interview",
+    "hr-intern-first-job-interview-tips",
+    "key-computer-skills-to-assess-during-job-interviews",
+    "screen-and-interview-data-scientist-candidates"
+  ]
+}

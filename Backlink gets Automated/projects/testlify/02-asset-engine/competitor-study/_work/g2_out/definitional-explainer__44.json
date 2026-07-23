@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 693,
+    "brand_fit": "CORE",
+    "angle_gap": "Page defines innovative thinking generically (openness, adaptability, creativity, vision, perseverance) with zero concrete behavioral examples or scoring guidance, and its 'assessment' section is just a pitch for Alooba's own MCQ and async-interview products rather than any usable evaluation criteria.",
+    "asset": "How to Tell Genuine Innovative Thinking from a Rehearsed Interview Answer",
+    "distinct_angle": "Where the page lists abstract traits with no evaluation method, ours gives a worked behavioral rubric and real example answers scored against it \u2014 the concrete evaluation guidance this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 694,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'topics and subtopics' section is a bare outline (Desktop Environment, Taskbar, File Explorer) with no example test tasks, and the 'why assess' section stays at generic claims like 'problem-solving abilities' with no worked example separating a basic user from a power user.",
+    "asset": "Windows OS Proficiency in Hiring: The Tasks That Separate Basic Users from Power Users",
+    "distinct_angle": "Where the page only outlines topics without a single worked scenario, ours walks through concrete task examples (file recovery, multi-user profile setup, troubleshooting a driver conflict) that actually reveal skill level.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 695,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines version control only at the concept level (commit, branch, merge) without ever naming or comparing real systems (Git vs. Mercurial vs. SVN), and the assessment section pitches Alooba's platform instead of giving concrete criteria for what separates a junior from a senior engineer's workflow.",
+    "asset": "Version Control Interview Questions That Separate Git Novices from Senior Engineers",
+    "distinct_angle": "Where the page stays abstract and names no real tool, ours names Git specifically and walks through a real merge-conflict scenario to show what a strong vs weak answer looks like \u2014 the worked example this page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 696,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines geospatial analytics purely as a concept with no worked example (a real site-selection or disease-tracking case) and no comparison of the actual tools practitioners use (ArcGIS, QGIS, Google Earth Engine), so there's nothing concrete separating a junior from a senior analyst.",
+    "asset": "Geospatial Analytics Skills That Separate a Junior GIS Analyst from a Senior One",
+    "distinct_angle": "Where the page never names a tool or a real scenario, ours walks through an actual site-selection case using named tools (QGIS vs. ArcGIS) to show what distinguishes real expertise \u2014 the worked detail this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 697,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists IDE features generically (autocompletion, debugging, plugins) without ever naming or comparing real IDEs (VS Code, IntelliJ, PyCharm, Eclipse) or giving a single worked task that shows what separates a novice from a power user.",
+    "asset": "IDE Proficiency in Technical Hiring: What Separates a Novice from a Power User",
+    "distinct_angle": "Where the page never names a real IDE or gives an example task, ours compares named tools (VS Code vs. IntelliJ) on a concrete debugging task to show what real proficiency looks like \u2014 the specificity this page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3416,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is blockchain HR tech (record-keeping, smart contracts, payments/security), which sits in HRIS/payroll/general-HR-tech territory the brand scope excludes; only a sliver touches skills verification and the format (generic pillar guide) has no special link-pulling shape worth transplanting"
+  },
+  {
+    "row_id": 3426,
+    "brand_fit": "CORE",
+    "angle_gap": "Thorough on why traditional sourcing fails (leans on SHRM/Gem/McKinsey and TestGorilla's own proprietary survey stats) but, per its own table of contents, the payoff section \u2014 'Your skills-first candidate sourcing roadmap' \u2014 is where it turns generic: no channel-by-channel breakdown (Boolean strings for LinkedIn/GitHub, niche skill communities, outreach templates) a recruiter could actually execute from.",
+    "asset": "The Skills-First Sourcing Playbook: Channel by Channel Tactics for Finding People Who Can't Fake It",
+    "distinct_angle": "Replaces the survey-stat problem-framing with concrete, channel-by-channel sourcing tactics and outreach scripts \u2014 the actionable specificity this page's roadmap section skips past.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3440,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Stale and dated: frames 'targeted recruitment' around pay-for-performance, college-campus recruiting, and trade journals/industry magazines, citing CareerBuilder and Monster as reference points \u2014 no mention of skills-based job boards, programmatic/niche-community sourcing, or how test data can target candidate pools, which is how targeted recruiting is actually run now.",
+    "asset": "Targeted Recruiting Rebuilt Around Skills, Not Job Boards From 2015",
+    "distinct_angle": "Swaps the dated trade-journal/campus-recruiting playbook for current, skills-based targeting channels and metrics \u2014 closing the currency gap this page's job-board references leave open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3444,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers test types and definitions broadly (cognitive, personality, aptitude, MBTI) but treats legal/adverse-impact risk as a single aside about IQ-test cultural bias \u2014 there's no test-by-test breakdown of predictive validity or EEOC adverse-impact exposure, which is exactly what a recruiter needs before choosing which psychometric test to deploy.",
+    "asset": "Psychometric Tests Ranked by Predictive Validity and Adverse-Impact Risk",
+    "distinct_angle": "Adds a validity-and-legal-risk breakdown per test type (cognitive vs. personality vs. situational judgment) that this page never goes beyond a brief IQ-bias mention on.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3448,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists talent-mapping benefits and steps as abstract bullet points ('identify skills gaps,' 'define learning strategies,' 'improve succession planning') built mostly on one McKinsey stat, but never shows what a completed talent map actually looks like \u2014 no worked example of a role-by-skill gap matrix a reader could copy.",
+    "asset": "A Worked Example of Talent Mapping: Turning One Team's Skills Gaps Into a Succession Plan",
+    "distinct_angle": "Walks through one concrete worked example \u2014 a sample role-by-skill gap matrix and resulting succession plan \u2014 instead of stopping at the abstract benefit-list this page never gets past.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

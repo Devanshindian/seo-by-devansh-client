@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1506,
+    "brand_fit": "CORE",
+    "angle_gap": "Page is a mega-nav dump of every skill category iMocha sells, not actual cognitive-ability content \u2014 most of the 80+ listed tests (e.g. Associative Memory Ability, IoT Security Testing) show 'No items found' for candidates-assessed and organizations-served, and nothing explains what each cognitive skill measures or which role it predicts success in.",
+    "asset": "Which Cognitive Ability Tests Actually Predict Job Performance, Skill by Skill",
+    "distinct_angle": "Where iMocha lists 80+ cognitive tests with broken usage stats and zero context, ours pairs each cognitive skill (memory, reasoning, processing speed) with the specific roles it predicts success in and why.",
+    "tool_escalation": "Format tag is Quiz/assessment \u2014 matching it means building an actual cognitive-ability test library page on our platform, not just an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1520,
+    "brand_fit": "CORE",
+    "angle_gap": "The 11+ Python tests are listed with templated, near-identical stat blocks (13,221\u201317,822 'Candidates Assessed' across unrelated test types) and generic boilerplate copy ('submit your requirement, and we will create a customized Python aptitude test'), with no guidance on which Python test variant fits which role \u2014 data engineer vs. Django developer vs. junior coder.",
+    "asset": "The Python Skill Tests That Actually Separate Junior Coders From Senior Engineers",
+    "distinct_angle": "Where iMocha's page dumps 14 near-identical Python tests with copy-pasted stat blocks and no role mapping, ours ties each Python test variant directly to the seniority level and role it should screen for.",
+    "tool_escalation": "Format tag is Quiz/assessment \u2014 this is a live Python test library page, which needs real assessment content on our platform, not article copy alone.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1521,
+    "brand_fit": "CORE",
+    "angle_gap": "Page describes the Selenium 'Descriptive Test Simulator' and names 6 topic areas (alert boxes, response time, SQL injection, DB connection, cross-browser testing) but shows no sample question, no example answer, and no scoring rubric \u2014 a recruiter can't tell what a strong vs. weak descriptive response actually looks like.",
+    "asset": "How to Score a Selenium Descriptive Answer Like a QA Lead",
+    "distinct_angle": "Where iMocha names 6 Selenium topics with no worked example, ours shows a real subjective question per topic plus a strong-vs-weak answer breakdown recruiters can grade against.",
+    "tool_escalation": "Format tag is Quiz/assessment \u2014 building the actual Selenium descriptive test needs real assessment content on our platform, not just an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2355,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 page has no leadership-test content; body text is entirely sitewide nav menu, footer links, and generic testimonials, with H1/title both empty (broken or index scrape, nothing to beat)."
+  },
+  {
+    "row_id": 2356,
+    "brand_fit": "CORE",
+    "angle_gap": "The headline block repeats the identical sentence 'Coding tests to hire top tech talent in the Philippines' three times (a duplicated/templated render), the 600+ skill list is a raw keyword dump with no guidance on which stack fits which role, and the 'Featured insights' links point to a 2022 skills-trends report and a 2023 blog post \u2014 stale, uncurrent data.",
+    "asset": "The Coding Test Stack Every Tech Role in the Philippines Actually Needs",
+    "distinct_angle": "Where Mettl dumps 600+ raw skill tags behind duplicated headline copy and a stale 2022 trends report, ours maps the exact test combination (language + framework + system design) to each tech role and refreshes the skills-demand data to now.",
+    "tool_escalation": "Format tag is Quiz/assessment \u2014 assembling the actual coding-test stack per role needs real assessment content on our platform, not article copy alone.",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3463,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Frames talent acquisition broadly (workforce planning, sourcing, employer branding, matching) and promises a '5-step roadmap' in its table of contents, but the visible page never delivers that roadmap \u2014 it stops at listing five reasons traditional recruiting fails (talent crunch, active-candidate blindness, bias, rushed decisions, cost) without ever connecting those failure points to concrete practices.",
+    "asset": "The Skills-First Roadmap TestGorilla Promised But Never Wrote",
+    "distinct_angle": "Delivers the step-by-step roadmap the page's own table of contents names but never shows in the text, mapping each of their five recruiting-failure points to the specific skills-based practice that fixes it.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3502,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites a single SHRM average ($4,700) and an industry benchmark table missing common industries (technology, finance, retail, BPO), and tells readers to use 'skills assessments for a quicker, more accurate hiring process' without ever showing the actual math of how a testing step changes the number.",
+    "asset": "What Adding a Skills Test Actually Does to Your Cost Per Hire, Industry by Industry",
+    "distinct_angle": "Fills the industries missing from their benchmark table and walks through a worked cost-per-hire calculation showing exactly which cost line drops when a skills-test step replaces extra interview rounds, the concrete math their guide skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3530,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee self-service is HR/HRIS administrative software (payroll, PTO, benefits self-service), explicitly off-limits per brand scope; not a hiring or assessment subject."
+  },
+  {
+    "row_id": 3538,
+    "brand_fit": "CORE",
+    "angle_gap": "Makes several unsourced statistical claims (e.g. skills assessments 'reduce unqualified applicants by up to 50%') with no citation, and its own TL;DR process (capture \u2192 assess \u2192 analyze \u2192 decide \u2192 improve) is never fleshed out with a concrete example before the visible text cuts off.",
+    "asset": "The Data-Driven Recruiting Metrics Worth Tracking, With the Sourced Numbers Behind Them",
+    "distinct_angle": "Sources every stat this page states without citation and replaces its unfinished five-step framework with one fully worked example of a hiring funnel showing the actual metric tracked at each stage.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3545,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists generic, uncited benefits ('Enhances Quality of Hires', 'Predicting Job Performance') without ever naming specific test types, validity evidence, or adverse-impact/EEOC considerations, and cuts off just as it reaches 'How Companies Use Pre-Employment Testing Solutions' without listing any.",
+    "asset": "Which Pre-Employment Tests Actually Predict Performance, Role by Role, and Which Won't Survive an Audit",
+    "distinct_angle": "Names the actual test categories (cognitive, technical, personality, situational judgment) mapped to specific role types and adds the adverse-impact/EEOC-defensibility angle this page never mentions, closing the compliance gap it leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

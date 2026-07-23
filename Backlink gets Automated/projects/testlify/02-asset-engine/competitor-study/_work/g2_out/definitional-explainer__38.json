@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 659,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists the six thread states with one-line abstractions but never shows a real code example (e.g. Java's Thread.State enum or a JS async lifecycle) for any state, and the 'how to assess' section only names two generic test types (MCQ, coding challenge) without a single sample question or scoring rubric.",
+    "asset": "How to Actually Test Whether a Developer Understands Thread Lifecycle (Sample Questions and Scoring Rubrics)",
+    "distinct_angle": "Replaces the abstract state list with real code-based sample questions and a scoring rubric per state, which this page names as assessment types but never demonstrates.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 660,
+    "brand_fit": "CORE",
+    "angle_gap": "The seven 'key elements' are generic 2018-era SEO advice (meta tags, mobile-friendly, CTAs) with no mention of how AI search/answer engines have changed what good SEO writing looks like, and the two assessment types (content-creation test, optimization test) are named but never given a sample prompt or scoring criteria.",
+    "asset": "What to Actually Look for When Assessing an SEO Writer in the AI-Search Era",
+    "distinct_angle": "Updates the assessment criteria for how SEO writing actually works today and adds concrete scoring criteria for the two test types this page only names.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 661,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers machining processes and skills abstractly with no reference to real certifications (e.g. NIMS credentials) or safety standards, and the 'how to assess' section names 'practical skills test' and 'knowledge assessment' without a single concrete task or scoring rubric.",
+    "asset": "The Machinist Skills Test That Actually Predicts Shop-Floor Performance",
+    "distinct_angle": "Adds concrete sample practical-test tasks and a scoring rubric tied to real machining certifications and safety standards, which this page never provides beyond naming test types.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 662,
+    "brand_fit": "CORE",
+    "angle_gap": "Gives generic advice and suggests behavioral-interview and role-play assessment methods, but never shows what a strong versus weak candidate answer actually sounds like, and provides no scoring rubric for evaluating the role-play responses it recommends.",
+    "asset": "What a Strong vs. Weak Active-Listening Answer Actually Sounds Like in an Interview",
+    "distinct_angle": "Adds a worked strong-vs-weak answer example and scoring rubric for the exact behavioral/role-play methods this page names but never demonstrates.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 664,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 broken/thin scrape (empty title and h1, page body is a generic list of unrelated roles like Account Executive and Brand Manager, not actual content about a senior HR analyst)"
+  }
+]

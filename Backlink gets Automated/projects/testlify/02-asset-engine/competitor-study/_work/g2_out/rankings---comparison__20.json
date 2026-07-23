@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3181,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "A 2021 listicle of diversity-recruiting tools spanning sourcing, screening and retention, but the screening section (the stage most prone to bias) gets only five thin one-line blurbs with no criteria for evaluating them and no mention of validity or adverse-impact data \u2014 and several listed vendors (e.g. Blendoor) are stale picks from a 2021 snapshot never revisited.",
+    "asset": "Which Diversity Recruiting Tools Actually Reduce Bias at the Screening Stage in 2026",
+    "distinct_angle": "Refreshes the stale 2021 vendor list to current, active tools and goes deep specifically on the screening stage, evaluating each option against validity and adverse-impact evidence rather than the one-line blurbs this page offers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3189,
+    "brand_fit": "CORE",
+    "angle_gap": "The buying-criteria checklist covers integrations, communications and implementation time but never mentions legal defensibility (EEOC/adverse-impact) or anti-cheating/proctoring, despite both being top concerns for a pre-employment assessment buyer; the vendor list is also dated (e.g. Pymetrics) and omits the now-major AI interviewing category.",
+    "asset": "How to Pick Pre-Employment Assessment Software That Holds Up to an EEOC Audit in 2026",
+    "distinct_angle": "Adds the legal-defensibility and anti-cheating/proctoring buying criteria this page's checklist skips entirely, and updates the vendor landscape past its 2021-era snapshot.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3192,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites HBR, Corporate Executive Board, DePaul, and BLS stats on why the right sales hire matters, but never translates the AE-vs-AM distinction into concrete screening criteria or competencies a recruiter could actually test for \u2014 it's dictionary-style definitions with no hiring-decision framework attached.",
+    "asset": "Account Executive vs Account Manager: The Skills Gap Recruiters Actually Need to Screen For",
+    "distinct_angle": "Turns the page's role definitions into the specific competencies and screening criteria that separate a true AE hire from an AM hire, closing the gap between its abstract job descriptions and an actual hiring decision.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3225,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 job boards/sourcing is a different product world (where to post jobs), not skills assessment; same category as reference checking or background checks, which are explicitly out of scope."
+  },
+  {
+    "row_id": 3231,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Frames outsourcing-vs-in-house cybersecurity hiring around 2021-2023 stats (Checkpoint attack growth, an Accenture 'rising to $5T by 2024' projection now stale) but never addresses the actual hiring problem it raises \u2014 how to verify a cybersecurity candidate's or vendor's real skill level, whether you outsource or hire in-house.",
+    "asset": "Outsourced or In-House: How to Actually Verify a Cybersecurity Hire's Skills Either Way",
+    "distinct_angle": "Refreshes the stale cyberattack-cost projections to current public figures and adds the skills-verification step this page frames as the core decision but never actually answers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

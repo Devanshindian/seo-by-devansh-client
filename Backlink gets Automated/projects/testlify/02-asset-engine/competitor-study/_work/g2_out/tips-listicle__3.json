@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3128,
+    "brand_fit": "CORE",
+    "angle_gap": "Title banner says '2026' but the H1 and byline still read 'in 2025' (stale versioning never fixed), and the two practices shown in full \u2014 inclusive job descriptions, career-site accessibility \u2014 never mention structured, skills-first assessment as a bias-removal lever at all; the piece stays at the 'attract' stage and never reaches the actual hiring decision.",
+    "asset": "The Inclusive Hiring Practices That Actually Remove Bias From the Hiring Decision Itself",
+    "distinct_angle": "Puts structured, skills-first assessment at the center of inclusive hiring instead of omitting it entirely like this page does, closing the gap between DEI intent (job ads, career sites) and the moment bias actually enters \u2014 the decision.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3137,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Every anchor stat is dated to 2020/2021 \u2014 a 14.7% April-2020 unemployment figure, a Gallup 2020 remote-work-doubling claim, an April-2020 Gartner poll on virtual interviewing \u2014 five years stale by 2026, and skills-based hiring and AI interviewing (now the dominant recruiting shifts) are absent from the trend list entirely.",
+    "asset": "Recruiting Trends Actually Shaping Hiring Decisions in 2026",
+    "distinct_angle": "Replaces the 2020/2021 COVID-era data points with the current 2026 recruiting landscape \u2014 skills-based hiring, AI interviewing, proctoring \u2014 that this page predates entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3208,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "'Implement skills testing' sits as one equal bullet among 13 broad recruiting-marketing tactics, while sibling items like Employer Brand and EVP get multi-paragraph treatment complete with a 'Key stat', bulleted perk lists, and explicit Do/Don't callouts \u2014 the one strategy most tied to actual hiring accuracy gets the shallowest treatment on the page.",
+    "asset": "Recruitment Strategies Built Around Validated Skills Testing, Not Employer-Brand Optics",
+    "distinct_angle": "Goes deep on structuring and validating a skills-testing strategy instead of burying it as one flat bullet inside a 13-item generic recruiting-marketing checklist.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3588,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 page is about talent management, employee engagement, L&D, and succession planning (post-hire performance/development), which the brand scope explicitly places outside Testlify's world; only one of eight tips (data-driven recruitment) touches hiring, and even that is a generic plug rather than an assessment-specific angle."
+  },
+  {
+    "row_id": 3616,
+    "brand_fit": "CORE",
+    "angle_gap": "Every 'Solution' stays abstract \u2014 'standardize pre-interview tech checks', 'use platforms with...', 'adopt platforms with built-in identity verification' \u2014 with no concrete rubric, checklist, or worked scoring example anywhere in the visible ten items, and several solutions double as unlabeled plugs for Xobin's own features (EyeGazer tracking) rather than vendor-neutral guidance.",
+    "asset": "Live Video Interview Problems and the Structured Fixes That Actually Hold Up at Scale",
+    "distinct_angle": "Replaces the vague 'use platforms that...' solutions with concrete structured-scoring rubrics and step-by-step fixes for each failure point \u2014 the specificity this page skips in favor of feature name-drops.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

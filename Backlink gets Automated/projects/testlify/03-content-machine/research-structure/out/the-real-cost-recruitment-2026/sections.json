@@ -1,0 +1,1047 @@
+{
+  "sections": [
+    {
+      "h2": "How Do You Calculate Cost-Per-Hire?",
+      "is_differentiator": true,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "The SHRM/ANSI Standard for Cost-Per-Hire",
+          "card_ids": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            34,
+            40,
+            41
+          ]
+        },
+        {
+          "h3": "What Costs Count as Internal vs External",
+          "card_ids": [
+            5,
+            35,
+            42,
+            43,
+            44,
+            71,
+            74,
+            131,
+            132,
+            360,
+            446,
+            447,
+            448,
+            449,
+            450,
+            451,
+            452,
+            453,
+            495,
+            496,
+            497,
+            765,
+            772,
+            784
+          ]
+        },
+        {
+          "h3": "Worked Examples of the Formula",
+          "card_ids": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            103,
+            362,
+            363,
+            498,
+            722,
+            691
+          ]
+        },
+        {
+          "h3": "Using a Cost-Per-Hire Calculator",
+          "card_ids": [
+            716,
+            717,
+            718,
+            719
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How Much Does Hiring Really Cost? Direct, Indirect, and Per-Hire Costs Explained",
+      "is_differentiator": true,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "Direct vs. Indirect Hiring Costs: What's the Difference?",
+          "card_ids": [
+            609,
+            610,
+            611,
+            612,
+            613,
+            615,
+            616,
+            617,
+            104,
+            105,
+            106,
+            107,
+            767
+          ]
+        },
+        {
+          "h3": "Where Indirect Hiring Costs Actually Come From",
+          "card_ids": [
+            109,
+            110,
+            111,
+            112,
+            138
+          ]
+        },
+        {
+          "h3": "What Is Cost-Per-Hire, and What Does It Include?",
+          "card_ids": [
+            764,
+            771,
+            721,
+            726,
+            731,
+            773,
+            774,
+            780,
+            781,
+            782,
+            783
+          ]
+        },
+        {
+          "h3": "How to Measure Recruitment Efficiency",
+          "card_ids": [
+            594,
+            599,
+            604,
+            605,
+            608
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How much does it cost to hire, and what do the benchmarks show?",
+      "is_differentiator": true,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "What's the average cost per hire, and how has it changed over time?",
+          "card_ids": [
+            55,
+            56,
+            59,
+            72,
+            277,
+            278,
+            297,
+            298,
+            299,
+            300,
+            302,
+            314,
+            361,
+            418,
+            614,
+            766,
+            776,
+            785
+          ]
+        },
+        {
+          "h3": "How does cost per hire vary by role level and industry?",
+          "card_ids": [
+            57,
+            58,
+            60,
+            73,
+            419,
+            499,
+            775
+          ]
+        },
+        {
+          "h3": "What counts as cost per hire \u2014 direct vs. indirect costs?",
+          "card_ids": [
+            503,
+            705,
+            741
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Why cost-per-hire numbers don't tell the whole story",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "The hidden-cost undercount: true cost runs 2-3x the reported figure",
+          "card_ids": [
+            45,
+            69,
+            70,
+            108,
+            130,
+            137,
+            435,
+            436,
+            443,
+            444,
+            445,
+            479,
+            480,
+            549
+          ]
+        },
+        {
+          "h3": "What's the actual average cost per hire? The benchmarks disagree",
+          "card_ids": [
+            312,
+            313,
+            315,
+            316,
+            432,
+            433,
+            434,
+            437,
+            438,
+            439,
+            440,
+            441,
+            442
+          ]
+        },
+        {
+          "h3": "How to measure cost per hire without the common mistakes",
+          "card_ids": [
+            51,
+            52,
+            53,
+            54
+          ]
+        },
+        {
+          "h3": "Low cost per hire isn't automatically good \u2014 pair it with a quality metric",
+          "card_ids": [
+            424,
+            425,
+            426,
+            427,
+            428,
+            429,
+            430,
+            431,
+            489,
+            502,
+            552
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What Determines Cost-Per-Hire? Benchmarks by Role, Industry, Geography, and Company Size",
+      "is_differentiator": true,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "What Factors Drive Cost-Per-Hire Up or Down",
+          "card_ids": [
+            164,
+            165,
+            166,
+            167,
+            262,
+            223,
+            263,
+            724,
+            725,
+            768,
+            777,
+            778,
+            779
+          ]
+        },
+        {
+          "h3": "Cost-Per-Hire Benchmarks by Role and Seniority",
+          "card_ids": [
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            280,
+            281,
+            282
+          ]
+        },
+        {
+          "h3": "Cost-Per-Hire Benchmarks by Industry",
+          "card_ids": [
+            224,
+            225,
+            226,
+            227,
+            228,
+            229,
+            230,
+            261,
+            264,
+            268,
+            269,
+            270
+          ]
+        },
+        {
+          "h3": "How Geography Affects Cost-Per-Hire",
+          "card_ids": [
+            168,
+            238,
+            266,
+            267,
+            272
+          ]
+        },
+        {
+          "h3": "How Company Size Affects Cost-Per-Hire",
+          "card_ids": [
+            233,
+            234,
+            235,
+            236,
+            237,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            273,
+            274,
+            275,
+            276
+          ]
+        },
+        {
+          "h3": "Small Business Hiring Costs by Role Level",
+          "card_ids": [
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260
+          ]
+        },
+        {
+          "h3": "Remote and Offshore Hiring as a Cost Lever",
+          "card_ids": [
+            755,
+            756,
+            757,
+            761,
+            762
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How long does it actually take to fill a role?",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "Time-to-fill vs. time-to-hire: what's the difference?",
+          "card_ids": [
+            8,
+            9,
+            676
+          ]
+        },
+        {
+          "h3": "Current time-to-fill benchmarks",
+          "card_ids": [
+            13,
+            116
+          ]
+        },
+        {
+          "h3": "How time-to-fill varies by seniority and role type",
+          "card_ids": [
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What Does an Open Position Actually Cost You?",
+      "is_differentiator": false,
+      "card_ids": [
+        500
+      ],
+      "h3": [
+        {
+          "h3": "What Cost of Vacancy Means (and Why There's No Standard Formula)",
+          "card_ids": [
+            14,
+            26,
+            28,
+            484,
+            27
+          ]
+        },
+        {
+          "h3": "How to Calculate Cost of Vacancy",
+          "card_ids": [
+            18,
+            16,
+            17,
+            216,
+            217,
+            31,
+            115,
+            32,
+            30,
+            485,
+            421,
+            29
+          ]
+        },
+        {
+          "h3": "What Drives Vacancy Cost Higher or Lower",
+          "card_ids": [
+            15,
+            215,
+            219,
+            220,
+            486,
+            487,
+            482
+          ]
+        },
+        {
+          "h3": "The Hidden Costs Beyond Salary",
+          "card_ids": [
+            133,
+            113,
+            114,
+            117,
+            134,
+            135,
+            136,
+            139,
+            141,
+            142,
+            146,
+            163,
+            221,
+            222
+          ]
+        },
+        {
+          "h3": "The Special Case of Executive Vacancies",
+          "card_ids": [
+            211,
+            218
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How Much Does a Bad Hire Actually Cost?",
+      "is_differentiator": true,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "Replacement Cost Benchmarks by Seniority Level",
+          "card_ids": [
+            125,
+            126,
+            127,
+            162,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            201,
+            382
+          ]
+        },
+        {
+          "h3": "The Hidden Costs That Outweigh the Direct Spend",
+          "card_ids": [
+            124,
+            128,
+            158,
+            364,
+            365,
+            378,
+            379,
+            380,
+            381,
+            384,
+            388
+          ]
+        },
+        {
+          "h3": "The Ripple Effect on Team Performance and Customers",
+          "card_ids": [
+            147,
+            149,
+            150,
+            151,
+            154,
+            156,
+            157,
+            202,
+            770
+          ]
+        },
+        {
+          "h3": "How Often Bad Hires Happen",
+          "card_ids": [
+            200,
+            383,
+            675
+          ]
+        },
+        {
+          "h3": "Deciding to Cut Losses vs Fixing It Through Onboarding",
+          "card_ids": [
+            129,
+            385,
+            386,
+            387
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What Does It Actually Cost to Hire? Job Boards, Agency Fees, and Executive Search",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "Job board and advertising costs",
+          "card_ids": [
+            75,
+            76,
+            77,
+            78,
+            79,
+            283,
+            284,
+            285,
+            286,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335
+          ]
+        },
+        {
+          "h3": "Agency and recruiter fees by role level",
+          "card_ids": [
+            80,
+            89,
+            90,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            231,
+            240,
+            241,
+            287,
+            288,
+            289,
+            290,
+            336,
+            337,
+            338,
+            339,
+            340,
+            341,
+            342,
+            343
+          ]
+        },
+        {
+          "h3": "Executive search fee structures: contingency, retained, and hybrid",
+          "card_ids": [
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            232
+          ]
+        },
+        {
+          "h3": "Executive hire cost benchmarks",
+          "card_ids": [
+            279,
+            304,
+            305,
+            306,
+            307,
+            308,
+            309,
+            310
+          ]
+        },
+        {
+          "h3": "What drives cost per hire up, and how to bring it down",
+          "card_ids": [
+            463,
+            464,
+            465,
+            466,
+            467
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What other costs factor into cost-per-hire?",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "What do background checks, drug tests, and skills assessments cost?",
+          "card_ids": [
+            91,
+            92,
+            93,
+            94,
+            95
+          ]
+        },
+        {
+          "h3": "What other line items factor into cost-per-hire?",
+          "card_ids": [
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102
+          ]
+        },
+        {
+          "h3": "How does international hiring complicate cost-per-hire?",
+          "card_ids": [
+            293,
+            294,
+            295
+          ]
+        },
+        {
+          "h3": "How do temp, contractor, and RPO hiring costs compare to traditional CPH?",
+          "card_ids": [
+            456,
+            457,
+            459,
+            461
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do internal recruiting, employee referrals, and employer branding cut cost per hire?",
+      "is_differentiator": true,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "Bringing recruiting in-house and using internal mobility",
+          "card_ids": [
+            344,
+            345,
+            346,
+            347,
+            348,
+            358,
+            359
+          ]
+        },
+        {
+          "h3": "Employee referrals cut cost per hire",
+          "card_ids": [
+            349,
+            350,
+            351,
+            352,
+            353,
+            354,
+            355,
+            356,
+            357,
+            366,
+            367,
+            368,
+            369,
+            370,
+            371,
+            372,
+            373
+          ]
+        },
+        {
+          "h3": "Designing a referral program that actually converts",
+          "card_ids": [
+            374,
+            375,
+            377
+          ]
+        },
+        {
+          "h3": "Employer branding and social recruiting",
+          "card_ids": [
+            328,
+            389,
+            390,
+            391,
+            392,
+            393
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What Do Onboarding and Training Actually Cost?",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "Onboarding Costs",
+          "card_ids": [
+            118,
+            119,
+            122,
+            123,
+            681
+          ]
+        },
+        {
+          "h3": "Training Costs",
+          "card_ids": [
+            120,
+            121,
+            159,
+            160
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What are the most effective levers for reducing cost per hire?",
+      "is_differentiator": true,
+      "card_ids": [
+        20,
+        769,
+        618,
+        501,
+        178,
+        179,
+        624
+      ],
+      "h3": [
+        {
+          "h3": "Employee referral programs",
+          "card_ids": [
+            21,
+            491
+          ]
+        },
+        {
+          "h3": "Simplifying job descriptions and the hiring process",
+          "card_ids": [
+            22,
+            619
+          ]
+        },
+        {
+          "h3": "Automating repetitive recruiting tasks",
+          "card_ids": [
+            24,
+            492,
+            412
+          ]
+        },
+        {
+          "h3": "Pre-employment and skills-based assessments",
+          "card_ids": [
+            23,
+            413,
+            414,
+            622
+          ]
+        },
+        {
+          "h3": "Building a warm talent pipeline",
+          "card_ids": [
+            25,
+            620
+          ]
+        },
+        {
+          "h3": "Internal mobility as a hiring source",
+          "card_ids": [
+            621
+          ]
+        },
+        {
+          "h3": "Strengthening employer branding",
+          "card_ids": [
+            493,
+            623
+          ]
+        },
+        {
+          "h3": "Speeding up and humanizing the candidate experience",
+          "card_ids": [
+            585
+          ]
+        },
+        {
+          "h3": "AI recruiting tools: adoption and ROI data",
+          "card_ids": [
+            329,
+            396,
+            397,
+            398,
+            399,
+            400,
+            401,
+            402,
+            403,
+            404,
+            405,
+            407,
+            408,
+            409,
+            410
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How Do You Measure Recruitment Cost, ROI, and Key Hiring Metrics?",
+      "is_differentiator": true,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "What Is Cost Per Hire and How Is It Standardized?",
+          "card_ids": [
+            473,
+            474,
+            476,
+            477,
+            478
+          ]
+        },
+        {
+          "h3": "How Often Should You Benchmark Cost Per Hire?",
+          "card_ids": [
+            470,
+            471,
+            556
+          ]
+        },
+        {
+          "h3": "How Do You Calculate Recruitment ROI, and Why Does Quality of Hire Matter Most?",
+          "card_ids": [
+            546,
+            548,
+            550,
+            553,
+            554,
+            558
+          ]
+        },
+        {
+          "h3": "What Are the Core Recruitment KPIs to Benchmark in 2026?",
+          "card_ids": [
+            551,
+            560,
+            562
+          ]
+        },
+        {
+          "h3": "How Mature Is Your Recruitment Analytics Stack?",
+          "card_ids": [
+            557,
+            565,
+            566,
+            567,
+            569,
+            570
+          ]
+        },
+        {
+          "h3": "How Do You Reduce Time-to-Hire?",
+          "card_ids": [
+            555,
+            564
+          ]
+        },
+        {
+          "h3": "What Hiring Challenges and Retention Costs Should You Plan Around?",
+          "card_ids": [
+            673,
+            680
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Recruitment Metrics and Cost Per Hire: What to Track and Why",
+      "is_differentiator": false,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "Cost Per Hire: Direct vs. Indirect Costs",
+          "card_ids": [
+            625,
+            626,
+            628
+          ]
+        },
+        {
+          "h3": "The Eight Recruitment Metrics to Monitor in 2026",
+          "card_ids": [
+            685,
+            686,
+            687,
+            689
+          ]
+        },
+        {
+          "h3": "Using Structured Scoring and Predictive Analytics",
+          "card_ids": [
+            667
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What Bad Hires Actually Cost, and How to Stop Paying for Them",
+      "is_differentiator": true,
+      "card_ids": [],
+      "h3": [
+        {
+          "h3": "How much does a bad hire actually cost?",
+          "card_ids": [
+            511,
+            513,
+            522,
+            523,
+            524,
+            517
+          ]
+        },
+        {
+          "h3": "Where hiring budgets quietly leak",
+          "card_ids": [
+            518,
+            520,
+            519,
+            521,
+            525
+          ]
+        },
+        {
+          "h3": "Can assessments prevent mis-hires?",
+          "card_ids": [
+            514,
+            754
+          ]
+        },
+        {
+          "h3": "The Screen-First Hiring Model: a four-step framework",
+          "card_ids": [
+            533,
+            536,
+            537,
+            526,
+            528,
+            529,
+            538
+          ]
+        },
+        {
+          "h3": "How to confirm the changes are actually saving money",
+          "card_ids": [
+            539,
+            540
+          ]
+        },
+        {
+          "h3": "Key takeaways and FAQs",
+          "card_ids": [
+            541,
+            542,
+            515,
+            543
+          ]
+        },
+        {
+          "h3": "Mapping the fix to your hiring KPIs",
+          "card_ids": [
+            714
+          ]
+        }
+      ]
+    }
+  ]
+}

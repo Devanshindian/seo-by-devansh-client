@@ -1,0 +1,1115 @@
+{
+  "job": "j4_recruiting_process",
+  "pillars": [
+    {
+      "pillar": "AI in Recruitment",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "mixed",
+      "spokes": [
+        "advantages-challenges-of-generative-ai-in-recruitment",
+        "agentic-ai-in-recruitment-key-trends",
+        "ai-in-recruitment",
+        "ai-is-changing-the-game-for-job-applicants",
+        "ai-use-cases-in-recruitment",
+        "benefits-of-ai-in-recruitment",
+        "enhance-recruitment-efficiency-with-ai-without-sacrificing-human-connection",
+        "future-proof-recruitment-process-with-ai-in-hiring",
+        "how-ai-recruitment-can-positively-improve-recruitment",
+        "how-to-use-ai-in-recruiting",
+        "is-ai-a-threat-to-recruiters-and-hr-professionals",
+        "know-about-ethical-dimension-of-ai-in-recruitment",
+        "seo-for-recruitment-the-role-of-ai-in-talent-search",
+        "why-hr-optimize-recruitment-budget-for-ai-first-hiring",
+        "will-ai-replace-recruiters"
+      ]
+    },
+    {
+      "pillar": "AI Recruitment Tools & Platforms",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "commercial",
+      "spokes": [
+        "ai-recruitment-platforms",
+        "optimizing-talent-acquisition-with-ai-and-ppc",
+        "platforms-for-ai-recruitment-agents",
+        "role-of-ai-in-ats-integration",
+        "top-ai-powered-recruitment-tools-changing-the-hiring-game",
+        "top-ai-recruiting-tools-for-improved-hiring-process"
+      ]
+    },
+    {
+      "pillar": "Talent Planning & Talent Lifecycle",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "internal-talent-marketplace-and-how-does-it-work",
+        "navigating-talent-planning-in-the-digital-era",
+        "roadmap-to-success-with-strategic-talent-planning",
+        "talent-density",
+        "talent-development",
+        "talent-gap",
+        "talent-intelligence",
+        "talent-leader",
+        "talent-lifecycle",
+        "talent-mapping-and-how-to-use-it-to-your-advantage",
+        "talent-matching",
+        "talent-mobility",
+        "talent-planning-essentials-for-modern-businesses",
+        "talent-review",
+        "talent-search"
+      ]
+    },
+    {
+      "pillar": "Attracting & Retaining Top Talent",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "becoming-a-talent-attractor",
+        "best-strategies-for-attracting-top-tech-talent",
+        "boost-visibility-and-attract-top-talent-from-job-search-sites",
+        "compete-with-other-employers-for-top-talent-in-a-tight-job-market",
+        "evp-tools-strategies-attracting-senior-talent",
+        "how-ai-is-helping-startups-attract-top-talent",
+        "how-hr-leaders-can-work-with-branding-agencies-to-win-talent-wars",
+        "how-to-attract-and-retain-top-blue-collar-talent",
+        "how-to-retain-top-talent",
+        "small-businesses-use-scheduling-software-to-attract-top-talent",
+        "stand-out-in-a-competitive-talent-market",
+        "strategies-to-attract-top-talents",
+        "techniques-for-identifying-and-attracting-top-talent",
+        "top-7-strategies-to-attract-the-best-technical-talent",
+        "why-mental-health-perks-helps-attract-top-talent"
+      ]
+    },
+    {
+      "pillar": "Finding & Attracting Qualified Candidates",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "find-best-candidates-for-your-vacancies",
+        "how-to-find-and-attract-skilled-freelance-talent",
+        "how-to-find-qualified-candidates",
+        "how-to-find-top-talent-with-skill-based-hiring-tools",
+        "strategies-to-find-talent-in-the-gig-economy"
+      ]
+    },
+    {
+      "pillar": "Strategic Human Resource Planning",
+      "theme": "HR Operations & Compliance",
+      "intent": "informational",
+      "spokes": [
+        "case-studies-of-strategic-human-resource-planning",
+        "different-steps-in-strategic-human-resource-planning",
+        "get-started-with-strategic-human-resource-planning",
+        "guide-to-strategic-human-resource-management",
+        "how-to-create-a-strategic-human-resource-plan",
+        "how-to-implement-a-strategic-human-resource-plan",
+        "measure-success-of-strategic-human-resource-planning",
+        "mistakes-to-avoid-strategic-human-resource-planning",
+        "strategic-human-resource-planning-for-future-of-work",
+        "strategic-human-resource-planning-for-remote-teams",
+        "strategic-human-resource-planning-for-small-business",
+        "strategic-human-resource-planning-for-startups",
+        "the-importance-of-strategic-human-resource-planning",
+        "use-tech-to-support-strategic-human-resource-planning",
+        "what-is-strategic-human-resource-planning"
+      ]
+    },
+    {
+      "pillar": "Hiring Developers with Programming Skill Tests",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "hire-top-talent-using-a-pandas-test",
+        "hire-top-talent-using-a-spring-framework-test",
+        "hire-top-talent-using-aws-test",
+        "hire-top-talent-using-dart-test",
+        "hire-top-talent-using-developer-test",
+        "hire-top-talent-using-flutter-test",
+        "hire-top-talent-using-java-code-test",
+        "hire-top-talent-using-javascript-test",
+        "hire-top-talent-using-kotlin-test",
+        "hire-top-talent-using-php-test",
+        "hire-top-talent-using-python-test",
+        "hire-top-talent-using-ruby-test",
+        "hire-top-talent-using-salesforce-test",
+        "hire-top-talent-using-technical-skills-assessment"
+      ]
+    },
+    {
+      "pillar": "Hiring with Office, Admin & Digital Skills Tests",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "hire-top-talent-using-admin-test",
+        "hire-top-talent-using-an-accounting-test",
+        "hire-top-talent-using-data-entry-test",
+        "hire-top-talent-using-digital-literacy-assessment",
+        "hire-top-talent-using-microsoft-office-test",
+        "hire-top-talent-using-photoshop-test",
+        "hire-top-talent-using-the-autocad-test",
+        "hire-top-talent-using-ux-design-test"
+      ]
+    },
+    {
+      "pillar": "Hiring with Cognitive & Aptitude Tests",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "commercial",
+      "spokes": [
+        "hire-top-talent-using-a-verbal-reasoning-test",
+        "hire-top-talent-using-abstract-reasoning-test",
+        "hire-top-talent-using-cognitive-tests",
+        "hire-top-talent-using-following-directions-test",
+        "hire-top-talent-using-logical-reasoning",
+        "hire-top-talent-using-mental-agility-test",
+        "hire-top-talent-using-quantitative-aptitude-test"
+      ]
+    },
+    {
+      "pillar": "Hiring Skilled Trades & Vocational Workers with Tests",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "hire-top-talent-using-carpenter-test",
+        "hire-top-talent-using-civil-engineering-test",
+        "hire-top-talent-using-construction-test",
+        "hire-top-talent-using-custodian-test",
+        "hire-top-talent-using-mechanic-test",
+        "hire-top-talent-using-pharmacy-technician-test",
+        "hire-top-talent-using-plumber-test"
+      ]
+    },
+    {
+      "pillar": "Hiring with English & Language Proficiency Tests",
+      "theme": "Skills & Job Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "hire-talent-using-english-proficiency-test",
+        "hire-top-talent-using-cefr-english-test",
+        "hire-top-talent-using-cefr-test",
+        "hire-top-talent-using-communication-assessment",
+        "hire-top-talent-using-communication-test",
+        "hire-top-talent-using-english-grammar-test"
+      ]
+    },
+    {
+      "pillar": "Hiring with Personality & Behavioral Assessments",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "commercial",
+      "spokes": [
+        "hire-top-talent-using-integrity-test",
+        "hire-top-talent-using-leadership-assessment",
+        "hire-top-talent-using-personality-assessment",
+        "hire-top-talent-using-psychometric-assessment",
+        "hire-top-talent-using-work-reliability-test"
+      ]
+    },
+    {
+      "pillar": "Assessing Character & Behavioral Traits in Recruitment",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "informational",
+      "spokes": [
+        "importance-of-assessing-adaptability-in-recruitment-for-thriving-in-a-dynamic-workplace",
+        "importance-of-assessing-cultural-sensitivity-in-recruitment-for-diverse-workplaces",
+        "importance-of-assessing-customer-service-orientation-in-recruitment-for-positive-customer-experience",
+        "importance-of-assessing-emotional-intelligence-in-recruitment-for-positive-workplace-culture",
+        "importance-of-assessing-empathy-in-recruitment-for-enhanced-employee-engagement",
+        "importance-of-assessing-flexibility-in-recruitment-for-adapting-to-changing-business-needs",
+        "importance-of-assessing-initiative-in-recruitment-for-proactive-and-self-starting-employees",
+        "importance-of-assessing-leadership-skills-in-recruitment-for-guiding-high-performing-teams",
+        "importance-of-assessing-open-mindedness-in-recruitment-for-embracing-new-ideas",
+        "importance-of-assessing-resilience-in-recruitment-for-overcoming-challenges",
+        "importance-of-assessing-self-motivation-in-recruitment-for-driven-and-goal-oriented-employees",
+        "importance-of-assessing-stress-management-skills-in-recruitment-for-resilient-employees",
+        "importance-of-assessing-trustworthiness-in-recruitment-for-building-trust-and-confidence"
+      ]
+    },
+    {
+      "pillar": "Assessing Communication & Interpersonal Skills in Recruitment",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "importance-of-assessing-active-listening-skills-in-recruitment-for-effective-communication",
+        "importance-of-assessing-collaboration-skills-in-recruitment-for-effective-teamwork",
+        "importance-of-assessing-communication-skills-in-recruitment-for-business-success",
+        "importance-of-assessing-conflict-resolution-skills-in-recruitment-for-harmonious-work-environment",
+        "importance-of-assessing-interpersonal-skills-in-recruitment-for-building-strong-relationships",
+        "importance-of-assessing-negotiation-skills-in-recruitment-for-successful-business-deals",
+        "importance-of-assessing-networking-skills-in-recruitment-for-professional-growth",
+        "importance-of-assessing-presentation-skills-in-recruitment-for-effective-communication",
+        "importance-of-assessing-relationship-building-skills-in-recruitment-for-strong-networks",
+        "importance-of-assessing-team-building-skills-in-recruitment-for-cohesive-teams",
+        "importance-of-assessing-teamwork-skills-in-recruitment-for-a-collaborative-work-environment"
+      ]
+    },
+    {
+      "pillar": "Assessing Cognitive & Analytical Skills in Recruitment",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "informational",
+      "spokes": [
+        "importance-of-assessing-analytical-skills-in-recruitment-for-data-driven-decision-making",
+        "importance-of-assessing-attention-to-detail-in-recruitment-for-flawless-execution",
+        "importance-of-assessing-attention-to-detail-in-recruitment-for-quality-work-output",
+        "importance-of-assessing-creativity-in-recruitment-for-driving-innovation",
+        "importance-of-assessing-critical-thinking-skills-in-recruitment-for-informed-decision-making",
+        "importance-of-assessing-decision-making-skills-in-recruitment-for-sound-business-decisions",
+        "importance-of-assessing-organizational-skills-in-recruitment-for-efficient-work-management",
+        "importance-of-assessing-problem-solving-skills-in-recruitment-for-innovative-solutions",
+        "importance-of-assessing-time-management-skills-in-recruitment-for-efficient-work-execution"
+      ]
+    },
+    {
+      "pillar": "Candidate Sourcing Strategy & Process",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "build-talent-sourcing-plan-for-business",
+        "case-studies-of-successful-sourcing-programs",
+        "common-mistakes-to-avoid-in-sourcing",
+        "direct-sourcing",
+        "how-to-create-a-sourcing-strategy",
+        "how-to-get-started-with-sourcing",
+        "how-to-manage-the-sourcing-process",
+        "how-to-master-effective-candidate-sourcing",
+        "how-to-measure-the-success-of-sourcing",
+        "strategies-for-candidate-sourcing-outreach",
+        "talent-sourcing-strategies",
+        "ultimate-guide-to-candidate-sourcing",
+        "what-are-the-different-types-of-sourcing-strategies"
+      ]
+    },
+    {
+      "pillar": "Candidate Sourcing Tools & Technology",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "commercial",
+      "spokes": [
+        "8-candidate-sourcing-tools-every-recruiter-should-use",
+        "best-tools-to-track-sources-of-recruitment",
+        "how-to-use-recruitment-tech-to-source-top-talent",
+        "sourcing-tools-recruiters-use-to-find-candidates",
+        "what-are-the-best-sourcing-tools-for-recruiters"
+      ]
+    },
+    {
+      "pillar": "Sources of Recruitment",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "choose-the-right-sources-of-recruitment",
+        "recruitment-sources",
+        "sources-of-recruitment-checklist",
+        "top-sources-of-recruitment",
+        "traditional-recruitment-sources-are-failing-modern-employers",
+        "best-proxies-for-recruitment-intelligence",
+        "boolean-search-in-recruitment",
+        "how-to-build-a-lateral-hiring-strategy-for-long-term-growth"
+      ]
+    },
+    {
+      "pillar": "Sourcing Passive Candidates & Talent Pipelines",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "5-creative-ways-to-find-blue-collar-workers",
+        "attract-passive-candidates-who-are-not-actively-seeking-employment",
+        "leverage-campus-hiring-for-talent-pipeline",
+        "passive-candidates",
+        "steps-to-take-to-nurture-talent-pipelines-for-future-hiring-needs"
+      ]
+    },
+    {
+      "pillar": "Sourcing for Specific Segments (Startups, SMBs, Remote, Hard-to-Fill)",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "how-to-source-candidates-for-hard-to-fill-roles",
+        "know-about-sourcing-for-small-businesses",
+        "know-about-sourcing-for-startups",
+        "sourcing-for-remote-teams"
+      ]
+    },
+    {
+      "pillar": "Designing & Managing the Hiring Process",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "building-engagement-strategy-hiring-process",
+        "hiring-process-checklist",
+        "hiring-process-flowchart",
+        "hiring-process-steps-you-should-never-skip",
+        "how-does-structured-hiring-improve-recruitment",
+        "how-handle-sensitive-information-in-hiring-process",
+        "how-long-should-the-hiring-process-take",
+        "how-to-create-an-excellent-hiring-process-that-converts",
+        "how-to-design-a-fair-and-inclusive-hiring-process",
+        "how-to-make-hiring-process-transparent-and-fair",
+        "how-to-manage-the-hiring-process",
+        "how-to-streamline-hiring-process-digitally"
+      ]
+    },
+    {
+      "pillar": "Streamlining & Improving the Hiring Process",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "role-of-support-services-in-streamlining-recruitment-process",
+        "steps-to-streamline-your-hiring-process",
+        "strategies-to-create-a-great-recruitment-experience",
+        "ways-to-improve-the-legal-base-of-your-hiring-process",
+        "why-transparent-communication-is-key-in-the-hiring-process"
+      ]
+    },
+    {
+      "pillar": "Reducing Time-to-Hire & Slow Hiring Costs",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "negative-impact-of-lengthy-recruitment-process",
+        "outbound-recruiting-strategies-to-hire-faster",
+        "real-cost-of-a-slow-hiring-process",
+        "reasons-you-need-a-consistent-hiring-process",
+        "recruitment-services-in-hiring-efficiency",
+        "recruitment-services-in-reducing-time-to-hire"
+      ]
+    },
+    {
+      "pillar": "Recruitment Trends in Tech & IT Role Hiring",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "recruitment-trends-in-it-support-specialist-hiring",
+        "recruitment-trends-in-network-administrator-hiring",
+        "recruitment-trends-in-product-manager-hiring",
+        "top-recruitment-trends-in-business-analyst-hiring",
+        "top-recruitment-trends-in-data-analyst-hiring",
+        "top-recruitment-trends-in-data-engineer-hiring",
+        "top-recruitment-trends-in-it-director-hiring",
+        "top-recruitment-trends-in-project-manager-hiring",
+        "top-recruitment-trends-in-qa-engineer-hiring",
+        "top-recruitment-trends-in-supply-chain-analyst-hiring",
+        "top-recruitment-trends-in-system-analyst-hiring",
+        "top-recruitment-trends-in-ui-designer-hiring"
+      ]
+    },
+    {
+      "pillar": "Recruitment Trends in Business, Marketing & HR Role Hiring",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "recruitment-trends-in-customer-service-manager-hiring",
+        "recruitment-trends-in-event-planner-hiring",
+        "recruitment-trends-in-marketing-coordinator-hiring",
+        "top-7-recruitment-trends-in-financial-planner-hiring",
+        "top-recruitment-trends-in-account-executive-hiring",
+        "top-recruitment-trends-in-brand-manager-hiring",
+        "top-recruitment-trends-in-financial-analyst-hiring",
+        "top-recruitment-trends-in-hr-coordinator-hiring",
+        "top-recruitment-trends-in-hr-manager-hiring",
+        "top-recruitment-trends-in-hrbp-hiring",
+        "top-recruitment-trends-in-marketing-manager-hiring",
+        "top-recruitment-trends-in-sales-manager-hiring"
+      ]
+    },
+    {
+      "pillar": "Modern & Emerging Recruitment Trends",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "inbound-recruiting",
+        "innovative-recruitment",
+        "know-about-the-new-era-of-recruitment",
+        "latest-freelance-recruiting-trends",
+        "modern-recruitment",
+        "on-demand-recruitment",
+        "proactive-recruitment",
+        "setting-recruitment-goals-for-2023",
+        "stay-updated-on-latest-trends-in-recruitment-and-hr",
+        "talent-recruitment-trends-influencing",
+        "top-10-recruitment-trends-to-watch-out-for-in-2022",
+        "trends-in-talent-acquisition-whats-changing",
+        "trends-to-watch-out-in-recruitment"
+      ]
+    },
+    {
+      "pillar": "Building High-Performing Teams by Function",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "build-a-top-notch-project-management-team",
+        "build-the-right-customer-support-team-structure",
+        "building-a-diverse-data-science-team",
+        "how-dedicated-development-teams-improve-project-delivery",
+        "how-to-build-a-successful-data-science-team",
+        "how-to-build-a-successful-finance-management-team",
+        "how-to-build-a-successful-marketing-team",
+        "how-to-build-a-successful-sales-team",
+        "lead-gen-teams-what-they-do-and-how-to-build-one",
+        "scale-r-and-d-teams-without-missing-innovation",
+        "tips-to-build-a-team-in-financial-sector",
+        "what-are-operations-teams-and-how-do-they-work"
+      ]
+    },
+    {
+      "pillar": "Recruitment Strategy for Strong Teams",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "9-ideas-for-recruiters-to-cultivate-growth",
+        "common-recruiting-challenges-and-how-to-overcome-them",
+        "dysfunctional-teams-affect-recruitment-and-solutions",
+        "effective-recruitment-strategies-strong-workplace-teams",
+        "how-to-build-a-successful-recruitment-team"
+      ]
+    },
+    {
+      "pillar": "Building & Managing a Talent Pool",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "build-a-talent-pool",
+        "how-to-assess-candidates-for-your-talent-pool",
+        "how-to-assess-the-current-talent-pool-for-succession-planning",
+        "how-to-source-candidates-for-your-talent-pool",
+        "how-to-use-talent-pool-to-improve-your-business-performance",
+        "how-to-use-talent-pool-to-improve-your-company-culture",
+        "how-to-use-talent-pool-to-improve-your-employee-retention",
+        "how-to-use-technology-to-manage-your-talent-pool",
+        "studies-of-companies-with-successful-talent-pools",
+        "uncovering-hidden-talent-pools-for-lateral-hires",
+        "what-are-the-benefits-of-building-a-talent-pool"
+      ]
+    },
+    {
+      "pillar": "Recruitment Technology & Automation Tools",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "commercial",
+      "spokes": [
+        "how-to-use-recruitment-technology-to-improve-your-hiring-process",
+        "leveraging-technology-in-talent-acquisition-trends-and-tools",
+        "maximizing-recruitment-roi-using-recruitment-software",
+        "recruitment-automation-tools",
+        "recruitment-chatbot",
+        "recruitment-crm",
+        "recruitment-dashboard",
+        "recruitment-database",
+        "recruitment-management-system-streamline-hiring",
+        "recruitment-technology"
+      ]
+    },
+    {
+      "pillar": "Recruitment Technology Tools & Trends",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "commercial",
+      "spokes": [
+        "recruitment-technology-shaping-the-future",
+        "simplify-campus-drive-with-recruitment-technology",
+        "the-best-recruitment-technology-tools-for-small-businesses",
+        "top-recruitment-technology-trends",
+        "types-of-recruitment-technology",
+        "use-recruitment-tech-to-conduct-virtual-interview",
+        "use-recruitment-technology-to-assess-candidates",
+        "use-recruitment-technology-to-onboard-new-employees",
+        "ways-to-simplify-campus-hiring-with-recruitment-tech",
+        "what-are-recruitment-tools"
+      ]
+    },
+    {
+      "pillar": "Building a Recruitment Tech Stack",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "benefits-cloud-storage-recruitment-platforms-efficiency",
+        "building-recruitment-tech-stack",
+        "building-your-hr-tech-stack-for-new-age-recruiting",
+        "case-studies-of-companies-that-successfully-used-recruitment-technology",
+        "how-digital-adoption-revolutionizing-employee-recruitment"
+      ]
+    },
+    {
+      "pillar": "Recruiting Tools & Software Selection",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "commercial",
+      "spokes": [
+        "social-media-recruiting-tools",
+        "talent-acquisition-tools",
+        "top-email-finder-tools-for-recruiters",
+        "top-recruitment-marketing-tools",
+        "top-recruitment-solutions-to-streamline-hiring",
+        "top-talent-acquisition-solutions-available-today",
+        "ultimate-guide-to-best-recruiting-tools",
+        "best-recruitment-methods",
+        "best-recruitment-tools-for-hiring-teams",
+        "choose-the-right-recruitment-method",
+        "how-recruitment-tools-contribute-to-business-success",
+        "how-to-choose-the-right-recruitment-technology",
+        "how-to-maximize-engagement-with-recruitment-tools"
+      ]
+    },
+    {
+      "pillar": "HR Technology & AI for HR Teams",
+      "theme": "HR Operations & Compliance",
+      "intent": "informational",
+      "spokes": [
+        "ai-features-transforming-hr-support-and-leadership",
+        "better-alternative-for-hr-teams-than-office-deployment-tool",
+        "esim-hr-global-talent-mobility-transformations",
+        "how-to-implement-a-learning-management-system-successfully",
+        "it-infrastructure-management-services-for-hr-and-ta-teams",
+        "simplify-hr-team-work-processes",
+        "timesheet-management",
+        "top-corporate-learning-management-systems",
+        "ways-technology-can-help-hr-teams",
+        "what-is-field-service-management-fsm-guide-hr-leadership"
+      ]
+    },
+    {
+      "pillar": "Creating a Positive Candidate Experience",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "candidate-experience-for-successful-talent-acquisition",
+        "candidate-experience-with-user-friendly-interface",
+        "create-positive-candidate-experience",
+        "creating-a-positive-candidate-experience",
+        "enhance-candidate-experience-without-additional-costs",
+        "enhance-communication-at-every-stage-of-recruitment",
+        "ensure-an-engaging-candidate-experience",
+        "how-poor-candidate-experience-affects-a-business",
+        "how-to-create-a-seamless-candidate-experience",
+        "importance-of-candidate-experience-in-recruitment",
+        "incorporate-feedback-from-exit-interviews-in-recruitment-strategy",
+        "incorporate-video-interview-in-recruitment-strategy",
+        "interview-to-onboarding-continuity-candidate-experience"
+      ]
+    },
+    {
+      "pillar": "Talent Acquisition Strategy & Best Practices",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "rethinking-global-hiring-strategies",
+        "scale-talent-acquisition",
+        "strategic-talent-acquisition-in-e-commerce",
+        "talent-acquisition-and-best-practices-for-hr-professionals",
+        "talent-acquisition-in-a-post-pandemic-world",
+        "the-evolution-of-talent-acquisition-from-traditional-to-modern-approaches",
+        "top-hiring-strategies",
+        "why-a-strategic-recruitment-plan-is-important",
+        "why-skills-based-hiring-is-transforming-talent-acquisition",
+        "building-a-winning-talent-acquisition-strategy-a-step-by-step-guide",
+        "develop-and-implement-talent-acquisition-strategy",
+        "hiring-a-talent-acquisition-specialist",
+        "how-hr-and-fintech-empower-global-talent-acquisition",
+        "how-to-reach-and-recruit-top-talent"
+      ]
+    },
+    {
+      "pillar": "General Talent Acquisition & Hiring Strategy",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "campus-hiring-guide-to-hire-new-grads-at-scale",
+        "hire-success-alternatives",
+        "hire-the-best-talent-using-hands-on-questions",
+        "hire-the-best-technical-talent-for-your-company",
+        "hire-the-right-talent-with-ai-driven-candidate-scoring"
+      ]
+    },
+    {
+      "pillar": "Global & Cross-Border Talent Acquisition",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "remote-work-and-talent-acquisition",
+        "return-migration-hiring-strategies-asia",
+        "talent-acquisition-benefits-citizenship-investment-programs",
+        "tips-and-tricks-for-recruiting-top-talent-across-time-zones-and-borders"
+      ]
+    },
+    {
+      "pillar": "Hiring Without Traditional Interviews & Trials",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "hire-compassionate-nurses-without-personal-interviews",
+        "hire-creative-marketing-team-without-missing-ideas",
+        "hire-data-scientists-without-coding-tests",
+        "hire-engineers-with-diverse-talent-without-biases",
+        "hire-event-planners-without-on-site-trials",
+        "hire-health-care-team-without-subjunctive-tests",
+        "hire-musicians-and-artists-without-auditions",
+        "hire-sales-performers-without-traditional-interviews",
+        "hire-top-educators-without-classroom-observations"
+      ]
+    },
+    {
+      "pillar": "How to Hire Developers & Tech Roles",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "a-hiring-guide-for-front-end-developer",
+        "hire-a-database-administrator",
+        "hire-a-ui-ux-designer",
+        "hire-a-web-developer",
+        "hire-a-wordpress-developer",
+        "hire-an-app-developer",
+        "hire-qualified-e-learning-app-developers",
+        "hire-right-backend-developer",
+        "how-to-hire-a-backend-developer",
+        "avoiding-pitfalls-in-the-developer-hiring-process",
+        "communication-skills-in-technical-recruitment",
+        "developer-hiring-strategies-for-tech-startups"
+      ]
+    },
+    {
+      "pillar": "How to Hire Construction & Building Trades",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-boilermaker",
+        "how-to-hire-a-brick-mason",
+        "how-to-hire-a-bricklayer",
+        "how-to-hire-a-builder",
+        "how-to-hire-a-building-inspector",
+        "how-to-hire-a-carpenter",
+        "how-to-hire-a-commercial-diver",
+        "how-to-hire-a-construction-manager",
+        "how-to-hire-a-construction-worker"
+      ]
+    },
+    {
+      "pillar": "How to Hire Service & Support Workers",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "hire-awesome-customer-service-representatives",
+        "how-to-hire-a-childcare-worker",
+        "how-to-hire-a-criminal-investigator",
+        "how-to-hire-a-custodian",
+        "how-to-hire-a-delivery-rider",
+        "how-to-hire-a-driver"
+      ]
+    },
+    {
+      "pillar": "How to Hire Marketing & Content Roles",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "hire-a-business-accountant",
+        "hire-a-hr-manager",
+        "hire-a-marketing-strategist",
+        "how-to-hire-a-content-marketer"
+      ]
+    },
+    {
+      "pillar": "How to Hire Food Service & Hospitality Staff",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-chef",
+        "how-to-hire-a-cook",
+        "how-to-hire-a-dishwasher"
+      ]
+    },
+    {
+      "pillar": "Recruiting for Specific Roles & Industries",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "5-tips-to-succeed-in-healthcare-recruiting",
+        "apple-hiring-process",
+        "best-strategies-to-recruit-nursing-talent",
+        "corporate-recruiting",
+        "graduate-recruiting",
+        "how-to-recruit-an-intern-a-complete-guide"
+      ]
+    },
+    {
+      "pillar": "Leadership Styles & Executive Leadership",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "adaptive-leadership",
+        "affiliative-leadership",
+        "build-visionary-leaders-without-lengthy-processes",
+        "executive-leadership-insights",
+        "identify-and-assess-potential-leaders",
+        "identifying-customer-centric-retail-leaders",
+        "leaderships-key-role-in-developing-core-competencies",
+        "leading-with-data-6-tech-strategies-for-executive-leaders",
+        "tasks-executives-should-delegate-to-boost-productivity"
+      ]
+    },
+    {
+      "pillar": "Leadership Development Programs & Plans",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "conduct-effective-leadership-development-programs",
+        "design-and-implement-hr-leadership-development-programs",
+        "how-ai-shapes-leadership-development-for-a-team",
+        "key-leadership-development-best-practices",
+        "leadership-development-programs-for-hr-professionals",
+        "most-in-demand-skills-driving-the-leadership-development",
+        "steps-to-create-a-leadership-development-plan",
+        "strategies-to-create-a-leadership-pipeline"
+      ]
+    },
+    {
+      "pillar": "Talent Management Fundamentals & Strategy",
+      "theme": "Skills Management",
+      "intent": "informational",
+      "spokes": [
+        "common-mistakes-to-avoid-in-talent-management",
+        "how-to-get-started-with-talent-management",
+        "how-to-measure-roi-of-talent-management-initiatives",
+        "how-to-measure-the-success-of-your-talent-management-strategy",
+        "how-to-use-data-to-drive-talent-management-decisions",
+        "talent-optimization",
+        "talent-strategy",
+        "the-importance-of-talent-management-in-todays-economy",
+        "what-are-the-4-pillars-of-talent-management"
+      ]
+    },
+    {
+      "pillar": "AI Interviews for Hiring",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "mixed",
+      "spokes": [
+        "ai-interviewers",
+        "ai-interviews-for-candidate-screening",
+        "ai-interviews-for-global-hiring",
+        "ai-interviews-improve-high-volume-hiring",
+        "chat-ai-interviews-for-support-hiring",
+        "conversational-ai-audio-interviews",
+        "how-to-streamline-the-interview-process-with-ai",
+        "video-ai-interviews-for-sales-hiring",
+        "what-are-ai-interviews-and-do-they-really-work"
+      ]
+    },
+    {
+      "pillar": "Video & Audio Interviews",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "mixed",
+      "spokes": [
+        "benefits-of-using-video-and-audio-interviews",
+        "challenges-of-using-video-and-audio-interviews",
+        "how-to-score-video-and-audio-interview-responses",
+        "how-to-use-video-and-audio-interviews-to-assess-candidates",
+        "pros-cons-of-pre-recorded-video-interviews",
+        "video-interviews",
+        "video-interviews-effective-in-assessing-candidates",
+        "the-silent-recruiter-video-content-attracts-top-talent",
+        "use-of-video-content-for-recruiting-top-talent",
+        "why-do-recruiters-use-virtual-interview"
+      ]
+    },
+    {
+      "pillar": "Recruitment Metrics, KPIs & ROI",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "leveraging-analytics-for-smarter-hiring-in-recruitment",
+        "measure-recruitment-performance-with-limited-data",
+        "measuring-the-roi-of-ats-integrations",
+        "measuring-the-roi-of-talent-acquisition",
+        "metrics-to-evaluate-the-efficiency-effectiveness-of-hiring-process",
+        "must-know-hr-and-recruitment-statistics",
+        "recruitment-kpis",
+        "recruitment-metrics-for-assessing-candidate",
+        "testlify-transforms-data-driven-recruitment",
+        "the-benefits-of-real-time-recruitment-metrics",
+        "top-recruitment-metrics-you-must-keep-track",
+        "ultimate-guide-to-recruitment-kpis",
+        "use-data-and-analytics-to-improve-recruitment-process"
+      ]
+    },
+    {
+      "pillar": "Recruitment Planning & Strategy Fundamentals",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "hr-recruitment-guide-for-perfect-employees",
+        "overcome-the-challenges-of-a-limited-budget-for-recruiting",
+        "recruitment-center-of-excellence",
+        "recruitment-challenges-and-how-to-solve-them",
+        "recruitment-methods",
+        "recruitment-methods-benchmark",
+        "recruitment-planning",
+        "recruitment-roles-for-building-successful-teams"
+      ]
+    },
+    {
+      "pillar": "Team Structures, Autonomy & Global Teams",
+      "theme": "Workplace Culture & Future of Work",
+      "intent": "informational",
+      "spokes": [
+        "balance-productivity-with-flexible-work-arrangements",
+        "building-autonomous-teams",
+        "creative-welcome-to-the-team-messages",
+        "effective-strategies-for-managing-global-team",
+        "future-of-digital-innovation-flexible-team-structures",
+        "role-of-hr-in-building-effective-teamwork",
+        "tips-for-organizing-perfect-workation-for-your-team",
+        "virtual-team-building"
+      ]
+    },
+    {
+      "pillar": "Human Resource Management Fundamentals",
+      "theme": "HR Operations & Compliance",
+      "intent": "informational",
+      "spokes": [
+        "five-responsibilities-of-human-resources-director",
+        "how-ai-is-transforming-human-resources",
+        "human-resource-development",
+        "reasons-to-study-human-resource-management",
+        "tips-for-human-resource-management-strategy",
+        "top-human-resource-management-systems",
+        "ways-hr-can-assist-employee-resource-groups"
+      ]
+    },
+    {
+      "pillar": "How to Conduct Effective & Structured Interviews",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "how-to-conduct-a-structured-job-interview",
+        "how-to-conduct-an-effective-job-interview",
+        "how-to-conduct-effective-interviews",
+        "star-interview-method",
+        "strengths-based-interviewing-for-hiring-managers",
+        "structured-interview-why-they-work-and-how-to-conduct",
+        "types-of-interviews"
+      ]
+    },
+    {
+      "pillar": "Remote Interviews & Candidate Communication",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "how-to-bridge-communication-gaps-during-interviews",
+        "how-to-communicate-with-candidates-post-interview",
+        "interview-invitation-email-templates",
+        "the-role-of-communication-in-remote-job-interviews",
+        "tips-for-successful-remote-interviews"
+      ]
+    },
+    {
+      "pillar": "Interviewing Platforms & Tools",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "commercial",
+      "spokes": [
+        "global-interview-infrastructure",
+        "top-interviewing-platforms",
+        "top-video-interviewing-tools",
+        "white-label-interview-tools"
+      ]
+    },
+    {
+      "pillar": "Interview Process Metrics & Efficiency",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "broken-interview-process",
+        "interview-scheduling",
+        "interview-to-hire-ratio",
+        "what-is-an-interview-scorecard"
+      ]
+    },
+    {
+      "pillar": "Interview Integrity & Red Flags",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "interview-red-flags-candidates",
+        "prevent-impostors-in-video-interviews",
+        "proxy-interview"
+      ]
+    },
+    {
+      "pillar": "ATS & Recruitment Tech Integration",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "ats-and-crm-integration",
+        "ats-tools-fail",
+        "avoiding-common-pitfalls-in-ats-integration",
+        "how-to-choose-right-ats-integration",
+        "how-to-use-ai-and-ats-for-efficient-lateral-hiring",
+        "reviving-cold-talent-in-ats",
+        "successful-ats-integration-stories-from-top-companies",
+        "the-future-of-ats-integration",
+        "top-applicant-tracking-systems-ats"
+      ]
+    },
+    {
+      "pillar": "Diversity & Inclusive Recruitment",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "a-recruiters-ultimate-guide-to-diversity-hiring",
+        "achieve-unbiased-recruitment-with-testlify",
+        "cross-cultural-recruiting-strategies-for-remote-teams",
+        "develop-inclusive-recruitment-strategy-for-diverse-candidates",
+        "diversity-and-inclusion-in-talent-acquisition-best-practices-for-success",
+        "operationalize-dei-in-enterprise-recruitment-funnel",
+        "recruiting-generation-z",
+        "recruitment-diversity"
+      ]
+    },
+    {
+      "pillar": "High-Volume, Blue-Collar & Mass Recruiting",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "10-latest-blue-collar-recruiting-trends",
+        "10-latest-volume-recruiting-trends",
+        "11-high-volume-hiring-strategies-for-enterprises",
+        "future-of-blue-collar-work-and-recruiter-preparation",
+        "high-volume-recruitment",
+        "mass-recruitment",
+        "overcoming-campus-hiring-recruitment-challenges",
+        "recruiting-for-high-demand-healthcare-roles",
+        "recruitment-agencies-help-with-high-volume-hiring"
+      ]
+    },
+    {
+      "pillar": "Modern & Remote Recruitment Approaches",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "adapt-recruitment-processes-for-a-virtual-environment",
+        "agile-recruitment",
+        "considerations-for-recruiting-in-a-hybrid-work-model",
+        "e-recruitment",
+        "efficient-recruitment-funnel"
+      ]
+    },
+    {
+      "pillar": "Social Media & Digital Recruiting Strategies",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "how-to-use-job-search-sites-for-optimizing-recruitment-strategy",
+        "how-to-use-social-media-as-a-recruiting-tool",
+        "how-to-use-social-media-for-recruiting",
+        "recruitment-advertising",
+        "recruitment-strategies-with-social-media-and-online-platforms",
+        "social-media-recruiting",
+        "social-media-recruiting-tips",
+        "text-recruiting"
+      ]
+    },
+    {
+      "pillar": "HR Manager Operational Skills & Crisis Management",
+      "theme": "HR Operations & Compliance",
+      "intent": "informational",
+      "spokes": [
+        "conflict-resolution-skills-for-hr-manager",
+        "design-and-implement-successful-hr-crisis-management-plan",
+        "how-hr-leaders-can-prevent-quiet-firing",
+        "skill-will-matrix-a-simple-guide-for-managers",
+        "steps-to-ensure-a-smooth-probation-period-management"
+      ]
+    },
+    {
+      "pillar": "Global Recruitment",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "advantages-and-disadvantages-of-global-recruitment",
+        "global-recruitment",
+        "global-recruitment-roi",
+        "how-to-adapt-sjts-for-global-recruitment"
+      ]
+    },
+    {
+      "pillar": "Recruiter Community, Networking & Career",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "hr-communities-recruiters-should-join",
+        "recruiter-burnout",
+        "recruiting-professional-in-the-recruitment-industry",
+        "recruitment-fair"
+      ]
+    },
+    {
+      "pillar": "Reverse Recruiting",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "recruitment-types",
+        "reverse-recruiting",
+        "reverse-recruiting-in-modern-talent-acquisition",
+        "what-is-360-recruitment-what-recruiters-should-know"
+      ]
+    },
+    {
+      "pillar": "Recruitment Compliance & Legal Considerations",
+      "theme": "HR Operations & Compliance",
+      "intent": "informational",
+      "spokes": [
+        "customize-recruitment-experiences-through-automation",
+        "ensuring-legal-compliance-in-recruitment-automation",
+        "how-do-recruitment-platforms-handle-gdpr-compliance",
+        "legal-considerations-in-recruitment-compliance-tips",
+        "licensing-and-compliance-specialist-questions-to-ask-job-applicants",
+        "recruiters-ensure-hiring-compliance"
+      ]
+    },
+    {
+      "pillar": "Writing Job Descriptions & Job Adverts",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "best-recruiting-email-templates-for-tech-startups",
+        "best-tips-for-recruiters-to-write-effective-job-descriptions",
+        "guide-for-recruiters-to-write-a-perfect-job-advert"
+      ]
+    },
+    {
+      "pillar": "Recruitment Agencies & Process Outsourcing",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-partnering-with-recruitment-agency",
+        "effective-recruitment-agency-collaboration",
+        "headhunting-in-recruitment",
+        "benefits-of-outsourcing-hr-functions",
+        "overcoming-hr-challenges-from-sourcing-to-onboarding",
+        "recruitment-process-outsourcing"
+      ]
+    },
+    {
+      "pillar": "Candidate Screening & Credential Verification",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "competency-evaluation-important-for-recruiting",
+        "evaluate-professional-certifications-for-recruiting-success",
+        "fake-certificates-in-recruitment"
+      ]
+    },
+    {
+      "pillar": "Skills-Based Hiring",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-skills-based-hiring-for-recruiters",
+        "data-driven-insights-for-recruiting-success-with-time-tracking",
+        "how-to-determine-your-recruitment-kpis"
+      ]
+    },
+    {
+      "pillar": "Recruiter Skills & Identifying Top Talent",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "skills-every-recruiter-should-look-for",
+        "strategies-recruiters-use-to-recognize-top-talent",
+        "the-evolving-role-of-enterprise-recruiters"
+      ]
+    }
+  ],
+  "orphans": []
+}

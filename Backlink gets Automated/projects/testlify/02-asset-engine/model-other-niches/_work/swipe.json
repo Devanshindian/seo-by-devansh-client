@@ -1,0 +1,218 @@
+[
+  {
+    "format": "Interactive \"how it works\" explainer / animation",
+    "example": "Animagraffs: *How a Car Engine Works*, *Inside a Jet Engine*",
+    "headline_template": "`How [TOPIC] Works` \u00b7 `Inside a [TOPIC]`",
+    "why_links": "**Reference/visual** \u2014 publishers embed & screenshot it",
+    "in_scope_subject": "How an AI video interview is scored, step by step",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Calculator",
+    "example": "*Compound Interest Calculator*, *Mortgage Calculator*, *How Much Car Can I Afford?*",
+    "headline_template": "`[QUESTION]? [Free Calculator]`",
+    "why_links": "**Utility** \u2014 cited as \"see how much it costs\"",
+    "in_scope_subject": "Cost of a bad hire calculator",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Branded index",
+    "example": "*Big Mac Index*, *Misery Index*",
+    "headline_template": "`The [TOPIC] Index`",
+    "why_links": "**Data** \u2014 recurring; journalists cite it **by name**",
+    "in_scope_subject": "The Testlify Skills Demand Index (most-tested skills each quarter)",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Original research / \"We analyzed X\"",
+    "example": "Backlinko: *We Analyzed 11.8M Google Search Results*",
+    "headline_template": "`We Analyzed [#] [TOPIC]. Here's What We Learned About [TOPIC]`",
+    "why_links": "**Data (original)** \u2014 most-cited format there is",
+    "in_scope_subject": "We analyzed 1M assessment results: which skills predict job performance",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Statistics roundup (curated)",
+    "example": "*161 Cybersecurity Statistics & Trends*, *57 NEW AI Statistics*",
+    "headline_template": "`# [TOPIC] Statistics and Trends [Updated YEAR]`",
+    "why_links": "**Reference** \u2014 writers grab a stat + link the source",
+    "in_scope_subject": "Skills-based hiring statistics",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Infographic / data-visual",
+    "example": "*Do Looks Matter? (Infographic)*, *How Much Toilet Paper Every Country Uses, Visualized*",
+    "headline_template": "`[HOOK]: [STATISTIC]` \u00b7 `How Much [TOPIC], Visualized`",
+    "why_links": "**Visual + data** \u2014 embeddable, can't copy without crediting",
+    "in_scope_subject": "The anatomy of bias in a hiring funnel",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Map / geo data viz",
+    "example": "*Map of Africa*; cost-of-living maps *(agent knowledge)*",
+    "headline_template": "`Map of [TOPIC]`",
+    "why_links": "**Visual data** \u2014 embed magnet",
+    "in_scope_subject": "US map of tech-hiring difficulty by state (time-to-fill)",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Generator tool",
+    "example": "*Business Name Generator*, *Citation Generator*",
+    "headline_template": "`[TOPIC] Generator`",
+    "why_links": "**Utility** \u2014 free reusable tool, shareable",
+    "in_scope_subject": "Interview question generator (by role and skill)",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Benchmark / grader",
+    "example": "*HubSpot Website Grader*",
+    "headline_template": "`How does your [TOPIC] compare?`",
+    "why_links": "**Utility** \u2014 personalised score \u2192 shareable",
+    "in_scope_subject": "Grade your hiring process (fairness + speed score)",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "\"Best of\" award + badge",
+    "example": "*Best Places to Work*",
+    "headline_template": "`Best [GROUP] for [TOPIC]`",
+    "why_links": "**Ego-bait** \u2014 winners embed a badge that **links back**",
+    "in_scope_subject": "Best companies for skills-based hiring (annual award)",
+    "brand_fit": "ADJACENT",
+    "transplant_from": ""
+  },
+  {
+    "format": "Definitive guide (+ free template)",
+    "example": "*On-Page SEO: The Definitive Guide + FREE Template*",
+    "headline_template": "`[TOPIC]: The Definitive Guide + FREE Template (YEAR)`",
+    "why_links": "**Reference** \u2014 the canonical link for the topic",
+    "in_scope_subject": "The definitive guide to skills-based hiring (+ free scorecard template)",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "\"Complete list\" / ranking-of-factors listicle",
+    "example": "*Google's 200 Ranking Factors: The Complete List*",
+    "headline_template": "`[TOPIC]: The Complete List (YEAR)`",
+    "why_links": "**Reference** \u2014 exhaustive, hard to out-do",
+    "in_scope_subject": "Every type of pre-employment test, ranked by predictive validity",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Rankings (recurring)",
+    "example": "*Law School Rankings*, *College Football Rankings*",
+    "headline_template": "`[TOPIC] Rankings`",
+    "why_links": "**Reference** \u2014 updated, cited each cycle",
+    "in_scope_subject": "The most in-demand job skills, ranked (updated quarterly)",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Glossary / terms",
+    "example": "*Poker Terminology*, *37 Must-Know Golf Terms*",
+    "headline_template": "`[TOPIC] Terms and Definitions`",
+    "why_links": "**Reference** \u2014 definitional pages attract citations",
+    "in_scope_subject": "Talent assessment & pre-employment testing glossary",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Facts listicle",
+    "example": "*125 Interesting Facts About Practically Everything*",
+    "headline_template": "`# Interesting Facts About [TOPIC]`",
+    "why_links": "**Reference** \u2014 curiosity + easy citation",
+    "in_scope_subject": "Surprising facts about hiring bias and resume screening",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Checklist / microsite tool",
+    "example": "*GDPR Compliance Checklist*, *Internet Speed Test*",
+    "headline_template": "`The [TOPIC] Checklist` \u00b7 `[TOPIC] Test`",
+    "why_links": "**Utility** \u2014 single-purpose free tool",
+    "in_scope_subject": "EEOC-defensible hiring compliance checklist",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Quiz / typology",
+    "example": "*Body Type Quiz*; *16Personalities (agent knowledge)*",
+    "headline_template": "`What is Your [TOPIC]?`",
+    "why_links": "**Novelty** \u2014 shareable; B2B angle only",
+    "in_scope_subject": "What's your hiring-bias profile? (recruiter typology quiz)",
+    "brand_fit": "TRANSPLANT",
+    "transplant_from": "personality / \"which character are you\" quizzes"
+  },
+  {
+    "format": "Controversy / opinion",
+    "example": "*How Google Is Killing Independent Sites*",
+    "headline_template": "`How [WELL-KNOWN ENTITY] Is [TOPIC]`",
+    "why_links": "**Emotion** \u2014 strong opinion drives shares + links",
+    "in_scope_subject": "Resumes are dead: stop screening on credentials",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Case study (results)",
+    "example": "*How I Increased Search Traffic 110% in 14 Days*",
+    "headline_template": "`[TOPIC] Case Study: How I [OUTCOME] in [X] Days`",
+    "why_links": "**Proof/data** \u2014 concrete results get cited",
+    "in_scope_subject": "How a company cut time-to-hire 40% with skills assessments",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Free asset library (attribution-link bait)",
+    "example": "Unsplash \u2014 unsplash.com",
+    "headline_template": "Free [ASSET TYPE] for [AUDIENCE] \u2014 no attribution required",
+    "why_links": "Utility",
+    "in_scope_subject": "Free library of scorecard and interview-question templates",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Live data tracker / real-time dashboard",
+    "example": "Worldometer \u2014 worldometers.info (also JHU COVID dashboard, coronavirus.jhu.edu)",
+    "headline_template": "Live [METRIC] Tracker: [TOPIC] in Real Time",
+    "why_links": "Data",
+    "in_scope_subject": "Live tech-hiring demand tracker (skills posted per week)",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Salary / compensation database",
+    "example": "Levels.fyi \u2014 levels.fyi (also PayScale, payscale.com)",
+    "headline_template": "How Much Do [ROLE]s Really Make? The [INDUSTRY] Salary Database",
+    "why_links": "Data",
+    "in_scope_subject": "Salary benchmarks by role, for setting hiring offers",
+    "brand_fit": "ADJACENT",
+    "transplant_from": ""
+  },
+  {
+    "format": "Curated resource directory / 'Awesome list'",
+    "example": "Awesome \u2014 github.com/sindresorhus/awesome",
+    "headline_template": "The Awesome [TOPIC] List: Every [RESOURCE] Worth Knowing",
+    "why_links": "Reference",
+    "in_scope_subject": "Awesome skills-based hiring: curated tools, studies, and templates",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  },
+  {
+    "format": "Coined framework / named methodology",
+    "example": "The Skyscraper Technique \u2014 backlinko.com/skyscraper-technique",
+    "headline_template": "The [NAME] Technique: A New Way to [OUTCOME]",
+    "why_links": "Reference",
+    "in_scope_subject": "The Skills-First Hiring Framework (a named 5-stage screening method)",
+    "brand_fit": "CORE",
+    "transplant_from": ""
+  }
+]

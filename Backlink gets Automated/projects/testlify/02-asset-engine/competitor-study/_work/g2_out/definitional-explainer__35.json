@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 644,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 chemistry/thermodynamics is a specific technical domain skill, unrelated to hiring, recruiting, or assessment process; belongs to alooba's generic skill-glossary program, not Testlify's world"
+  },
+  {
+    "row_id": 645,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 vendor evaluation is procurement/supplier management, a different business function than talent assessment; not a subject Testlify can credibly own"
+  },
+  {
+    "row_id": 646,
+    "brand_fit": "CORE",
+    "angle_gap": "The page defines thoroughness and gives generic self-improvement tips (make a checklist, double-check your work) but never shows what a thoroughness assessment actually looks like \u2014 the two test types it names ('Practical Work Assessments', 'Attention to Detail Tests') stay abstract, with no example scenario, no sample question, and no way to tell a genuinely thorough answer from one that just lists the right steps.",
+    "asset": "How to Tell a Truly Thorough Candidate from One Who Just Knows the Right Answers",
+    "distinct_angle": "Walks through a worked hiring scenario and scoring criteria that separate candidates who actually check their work from those who can describe checking their work \u2014 the concrete example and differentiation this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 647,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 image composition is a photography/design craft skill, not a hiring or assessment subject; outside Testlify's world"
+  },
+  {
+    "row_id": 648,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 query performance analysis is a database/developer-tooling skill; falls under the same off-limits bucket as coding-education content, not hiring or assessment strategy"
+  }
+]

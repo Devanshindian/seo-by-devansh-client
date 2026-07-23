@@ -1,0 +1,123 @@
+{
+  "slice_id": "w24",
+  "clusters": [
+    {
+      "pillar": "DISC Personality Test for Hiring",
+      "intent": "informational",
+      "spokes": [
+        "disc-assessment-help-in-identifying-employee-fit",
+        "disc-personality-test-for-hiring-is-a-must-have",
+        "does-the-disc-personality-test-belong-in-the-workplace",
+        "how-can-the-disc-personality-test-help-you-identify-training-and-development-needs",
+        "how-to-interpret-the-results-of-a-disc-personality-test",
+        "pre-employment-disc-personality-test-a-must-have-tool-for-hiring",
+        "pros-and-cons-of-the-disc-personality-test-in-hiring-process",
+        "reasons-why-you-should-use-the-disc-personality-test-in-recruitment",
+        "should-the-disc-personality-test-be-used-in-hiring",
+        "top-10-advantages-of-using-the-disc-personality-test-in-the-hiring-process",
+        "using-disc-personality-test-for-hiring-astrology-or-science",
+        "what-is-a-disc-personality-test-for-jobs-and-how-is-it-used",
+        "why-a-disc-personality-test-can-help-you-find-the-best-talent",
+        "why-disc-personality-test-is-more-important-than-ever"
+      ]
+    },
+    {
+      "pillar": "Big Five Personality Test in Recruitment",
+      "intent": "informational",
+      "spokes": [
+        "beyond-resumes-using-the-big-five-to-identify-the-ideal-candidate",
+        "how-to-incorporate-big-five-personality-test-into-your-recruitment-strategy",
+        "importance-of-using-big-five-personality-test-for-recruitment-and-selection",
+        "key-benefits-of-using-big-five-personality-test-in-the-recruitment-process",
+        "predicting-job-performance-the-big-five-as-a-recruitment-tool",
+        "top-10-big-five-personality-test-questions-for-potential-candidates",
+        "what-role-do-data-driven-big-five-personality-test-play-in-hiring-success",
+        "what-should-you-include-in-your-big-five-personality-test-to-ensure-comprehensive-candidate-evaluation",
+        "why-big-five-personality-test-is-the-best-for-hybrid-work",
+        "why-do-you-need-big-five-personality-test-in-your-hiring-process"
+      ]
+    },
+    {
+      "pillar": "Psychometric Tests in Recruitment",
+      "intent": "informational",
+      "spokes": [
+        "how-psychometric-tests-enhance-recruitment-accuracy-and-objectivity",
+        "how-to-use-psychometric-tests-to-improve-employee-performance",
+        "how-to-use-psychometric-tests-to-predict-job-performance",
+        "how-to-use-psychometric-tests-to-reduce-employee-turnover",
+        "strategies-for-psychometric-test-in-recruitment",
+        "the-benefits-of-using-psychometric-tests-in-the-workplace",
+        "the-value-of-psychometric-tests-in-candidate-evaluation",
+        "types-of-psychometric-tests-and-what-they-measure",
+        "what-is-the-future-of-psychometric-testing-in-hiring",
+        "psychometric-assessments-beyond-big-five-personality-test"
+      ]
+    },
+    {
+      "pillar": "Image & Visual Personality Tests",
+      "intent": "informational",
+      "spokes": [
+        "image-personality-test",
+        "personality-test-using-images",
+        "picture-personality-test",
+        "visual-personality-test"
+      ]
+    },
+    {
+      "pillar": "Using Personality Tests in Hiring: Value & Debate",
+      "intent": "informational",
+      "spokes": [
+        "advantages-of-using-personality-tests-in-the-hiring-process",
+        "assess-the-personality-and-attitude-of-candidates",
+        "best-practices-for-using-personality-tests-for-inclusive-hiring",
+        "do-personality-tests-belong-in-the-workplace",
+        "do-resume-ats-systems-overlook-key-personality-traits",
+        "incorporate-personality-assessment-in-recruitment",
+        "personality-tests-for-hiring-are-a-must-have",
+        "personality-tests-reliable-for-candidate-evaluation",
+        "pre-employment-personality-tests-a-must-have-tool-for-hiring",
+        "pros-and-cons-of-personality-tests-in-hiring-process",
+        "reasons-why-you-should-use-personality-tests-in-recruitment",
+        "should-personality-tests-be-used-in-hiring",
+        "using-personality-tests-for-hiring-astrology-or-science",
+        "why-a-personality-tests-can-help-you-find-the-best-talent",
+        "why-personality-tests-are-more-important-than-ever"
+      ]
+    },
+    {
+      "pillar": "Personality Tests for Culture Fit, Retention & Development",
+      "intent": "informational",
+      "spokes": [
+        "how-can-personality-tests-help-you-identify-training-and-development-needs",
+        "how-to-use-personality-test-for-employee-retention",
+        "identifying-red-flags-and-cultural-misfits-with-personality-tests",
+        "importance-of-assessing-self-discipline-for-consistent-work-habits",
+        "ways-organizations-can-assess-culture-fit-using-personality-tests"
+      ]
+    },
+    {
+      "pillar": "Personality Types & Type-Based Hiring",
+      "intent": "informational",
+      "spokes": [
+        "enneagram-test-and-how-to-use-it",
+        "istp-personality",
+        "personality-hires"
+      ]
+    },
+    {
+      "pillar": "Understanding & Applying Personality Test Results",
+      "intent": "informational",
+      "spokes": [
+        "how-to-integrate-personality-tests-into-your-workflow",
+        "how-to-interpret-the-results-of-personality-tests",
+        "what-are-personality-tests-and-how-are-they-used"
+      ]
+    }
+  ],
+  "orphans": [
+    "combining-personality-data-with-predictive-metrics",
+    "discover-innovative-designers-with-design-thinking-assessments",
+    "discriminant-validity",
+    "how-to-discover-top-talent-beyond-resume"
+  ]
+}

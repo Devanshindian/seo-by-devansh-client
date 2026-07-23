@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2305,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites a single 2012 Josephson Institute student-cheating stat as its whole evidence base, builds its case studies around university exam halls (IIM Bangalore, AIMA) rather than pre-employment screening, and Chapter 6 doubles as a vendor-comparison advertorial rather than real analysis.",
+    "asset": "The Real Numbers Behind Remote-Proctoring Cheating in Hiring, Not Just Exam Halls",
+    "distinct_angle": "Replaces the decade-old 2012 student-cheating stat with current hiring-specific integrity data and reframes every chapter around pre-employment screening instead of university exam halls, dropping the vendor-roundup chapter.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2325,
+    "brand_fit": "CORE",
+    "angle_gap": "Spends multiple paragraphs theorizing about abstract 'technical aptitude' (hereditary vs. environmental influences on ability) instead of showing concrete example test items, question types, or scoring rubrics for actual technical roles.",
+    "asset": "Technical Assessment Questions and Scoring Rubrics Recruiters Can Actually Use",
+    "distinct_angle": "Swaps the abstract aptitude theorizing for concrete worked example questions and scoring rubrics per technical role family, the practical detail this page never delivers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2343,
+    "brand_fit": "CORE",
+    "angle_gap": "Splits its attention between job-seeker exam-prep tips and employer use-cases, and its list of aptitude test types stays generic, never mapping a single type to a specific job family or citing validity evidence for using it there.",
+    "asset": "Which Aptitude Test Type Actually Predicts Performance for Which Role",
+    "distinct_angle": "Drops the candidate-prep-tips half entirely and maps each aptitude test type to specific job families with the validity reasoning this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2348,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The framework stays at the level of philosophical quotes and open questions ('How do I develop my team?') with no measurable competency framework or assessment criteria tying any step to evidence, and it functions as a vehicle for the Mercer|Mettl product pitch rather than an independent framework.",
+    "asset": "A Leadership Development Framework Anchored in Measurable Competencies, Not Slogans",
+    "distinct_angle": "Replaces the vague motivational Q&A structure with a concrete, measurable competency framework and assessment criteria per leadership level, built vendor-neutral instead of as a single product's showcase.",
+    "tool_escalation": "",
+    "g_notes": "adjacent \u2014 general leadership-development framework, not skills-based hiring/assessment specifically"
+  },
+  {
+    "row_id": 2357,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Its 'building your succession strategy' steps stay generic (define roles, assess talent) with no concrete competency matrix or example scorecard, and the piece functions largely as a showcase for Mercer's own assessment product rather than a vendor-neutral methodology.",
+    "asset": "A Succession-Planning Framework Built on Documented Skills Evidence, Not Guesswork",
+    "distinct_angle": "Fills in the concrete competency matrix and example scorecards the generic step list never provides, and drops the single-vendor product pitch for a vendor-neutral, skills-evidence-based methodology.",
+    "tool_escalation": "",
+    "g_notes": "adjacent \u2014 succession planning/talent pipelines, broader than the core skills-based hiring subject"
+  }
+]

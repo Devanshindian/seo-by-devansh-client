@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1212,
+    "brand_fit": "CORE",
+    "angle_gap": "The page lists 'English proficiency' and grammar/vocabulary as core screened skills but never addresses that heavy language-mechanics weighting in a writing test carries real EEOC national-origin-discrimination risk for non-native English speakers \u2014 a compliance angle a hiring-focused competitor page ignores entirely.",
+    "asset": "How to Screen Copywriters on Skill Without Screening Out Non-Native English Speakers",
+    "distinct_angle": "Surfaces the EEOC national-origin-discrimination risk baked into English-proficiency-heavy writing tests that this page never mentions, and shows how to weight grammar/vocabulary items so the test stays legally defensible.",
+    "tool_escalation": "Format is a scored MCQ skills test with a live question bank \u2014 needs real assessment infrastructure, not just an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1213,
+    "brand_fit": "CORE",
+    "angle_gap": "Under 'Premium tools' the covered-skills list still names Alexa as a tool SEO candidates should know \u2014 Amazon shut down Alexa Internet's ranking service in May 2022, so the test is screening for a tool that no longer exists.",
+    "asset": "What an SEO Skills Test Should Actually Check For in 2026, Not Alexa Rank",
+    "distinct_angle": "Flags that this test still lists Alexa \u2014 a tool Amazon retired in 2022 \u2014 as a core skill, and replaces it with the current SEO tool stack (GSC, GA4, Ahrefs, Semrush) recruiters should actually screen for.",
+    "tool_escalation": "Format is a scored MCQ skills test with a live question bank \u2014 needs real assessment infrastructure, not just an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1214,
+    "brand_fit": "CORE",
+    "angle_gap": "The covered-skills list caps out at Excel and raw SQL for data queries/tools, with no mention of BI tools like Tableau or Power BI, or Python \u2014 all of which now appear routinely in real data-analyst job postings, so the test misses what the role actually requires today.",
+    "asset": "Screening Data Analysts for the Tools They Actually Use in 2026, Not Just Excel and SQL",
+    "distinct_angle": "The test's covered-skills list stops at Excel and raw SQL with no mention of BI tools like Tableau/Power BI or Python, which now appear in the majority of data-analyst job postings \u2014 ours closes that coverage gap.",
+    "tool_escalation": "Format is a scored MCQ/SQL skills test with a live question bank \u2014 needs real assessment infrastructure, not just an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1216,
+    "brand_fit": "CORE",
+    "angle_gap": "The covered-skills list is entirely vanilla PHP (fundamentals, OOP, sessions, error handling) with zero mention of Laravel or Symfony, despite frameworks being the de facto standard for professional PHP roles \u2014 the test screens PHP trivia over practical, on-the-job ability.",
+    "asset": "Why Vanilla-PHP Trivia Tests Miss Laravel-Era PHP Developers",
+    "distinct_angle": "The skill list never mentions Laravel or Symfony despite them being the de facto standard for professional PHP roles today, so our version screens for framework fluency this page ignores entirely.",
+    "tool_escalation": "Format is a scored MCQ/coding skills test with a live question bank \u2014 needs real assessment infrastructure, not just an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1220,
+    "brand_fit": "CORE",
+    "angle_gap": "The covered-skills list (ratios, percentages, compound interest, work & time) is applied as one generic aptitude bar regardless of role, with no breakdown of which numerical-reasoning sub-skills actually matter for finance vs. operations vs. sales positions.",
+    "asset": "Matching Numerical Reasoning Test Difficulty to the Role, Not a Generic Aptitude Bar",
+    "distinct_angle": "Treats all candidates against the same generic ratios/percentages/compound-interest bar regardless of role, whereas ours breaks down which numerical-reasoning sub-skills actually predict performance in finance, ops, and sales roles.",
+    "tool_escalation": "Format is a scored MCQ skills test with a live question bank \u2014 needs real assessment infrastructure, not just an article.",
+    "g_notes": ""
+  }
+]

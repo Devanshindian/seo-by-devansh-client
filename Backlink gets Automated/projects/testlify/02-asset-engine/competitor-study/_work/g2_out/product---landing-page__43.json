@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2880,
+    "brand_fit": "CORE",
+    "angle_gap": "Makes broad, unsourced claims ('improved engagement', 'increased retention', 'improvement in coaching outcomes') with no effect sizes or citations, and on the one question a skeptical buyer actually has today \u2014 can candidates fake it with AI \u2014 the page dodges by linking OUT to a separate article instead of answering on the page itself.",
+    "asset": "Personality Assessments Recruiters Can Trust in the Age of AI-Coached Candidates",
+    "distinct_angle": "Where Thomas's page defers the AI-faking question to an off-page link, ours answers it directly on the page \u2014 explaining in plain terms how response-consistency and validity checks catch AI-shaped answers, closing the credibility gap Thomas's page leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2887,
+    "brand_fit": "CORE",
+    "angle_gap": "Stacks specific-sounding stats ($20,000\u2013$50,000 per bad hire, 30% ramp-time reduction, 25% team-output improvement) with zero source or citation for any of them \u2014 a compliance- or finance-literate TA buyer has no way to check where these numbers came from.",
+    "asset": "Behavioral Assessments Backed by Numbers You Can Actually Check",
+    "distinct_angle": "Thomas cites a $20k\u2013$50k mishire cost and 25%/30% improvement figures with no attribution; ours replaces them with sourced, current public figures and named studies, closing the credibility gap of unattributed stats.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2894,
+    "brand_fit": "CORE",
+    "angle_gap": "Repeats the same uncited $20k\u2013$50k mishire and 25%/30% stats seen on Thomas's other assessment pages nearly verbatim, and claims the tool lets buyers 'make unbiased decisions' without ever presenting adverse-impact or EEOC-relevant validation evidence \u2014 a real gap given the buyer is often screening for legal defensibility.",
+    "asset": "A Behavioral Assessment Page That Actually Shows Its Adverse-Impact Evidence",
+    "distinct_angle": "Thomas's PPA page asserts 'unbiased decisions' with no adverse-impact data anywhere on the page; ours states the validation and adverse-impact evidence plainly, the compliance proof a legal-aware TA buyer looks for and Thomas skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2907,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans on '45 years of behavioral science' and BPS registration as blanket authority, but never addresses the well-known, publicly documented critique that DISC has weaker peer-reviewed construct validity than frameworks like the Big Five \u2014 a question anyone researching 'DISC vs personality tests' will hit and this page ignores.",
+    "asset": "DISC Assessments That Show Their Validity Evidence, Not Just Their Framework's Age",
+    "distinct_angle": "Thomas cites '45 years of behavioral science' but never engages the published critique that DISC's peer-reviewed validity trails frameworks like Big Five; ours states that trade-off honestly with the actual evidence, instead of relying on tenure as proof.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2908,
+    "brand_fit": "CORE",
+    "angle_gap": "Headlines an oddly specific, uncited claim \u2014 'Reduce Turnover By 70% and Cut Hiring Costs by $1,200' \u2014 that is never sourced anywhere on the page, and is internally inconsistent with Thomas's own DISC/PPA pages, which put the cost of a bad hire at $20,000\u2013$50,000, not $1,200.",
+    "asset": "Emotional Intelligence Assessments With a Turnover Number You Can Actually Verify",
+    "distinct_angle": "Thomas headlines a $1,200 hiring-cost-savings claim with no citation, one that clashes with the $20k\u2013$50k mishire figure on its own other assessment pages; ours replaces it with one sourced, internally consistent figure.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

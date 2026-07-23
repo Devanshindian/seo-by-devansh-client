@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2988,
+    "brand_fit": "CORE",
+    "angle_gap": "The page is a pure sales funnel for paid ($600+) in-person/virtual accreditation courses (e.g. the PPA and HPTI accreditation courses) \u2014 it lists course dates and outcomes but never actually teaches how to interpret a behavioral or personality assessment report, so anyone who can't pay or attend gets zero educational value.",
+    "asset": "How to Read a Behavioral or Personality Assessment Report Without a Certification Course",
+    "distinct_angle": "Thomas gatekeeps assessment interpretation behind a $600+ in-person accreditation course; ours is a free, citable guide that teaches recruiters and hiring managers to read and act on DISC-style behavioral reports themselves, using public psychometric literature on trait interpretation.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2995,
+    "brand_fit": "CORE",
+    "angle_gap": "The FAQ explicitly names three ways to assess emotional intelligence (self-report questionnaires, others'-report, and ability tests) but the page cuts off without ever comparing them or addressing the well-known validity and faking risk of self-report EI tests like the TEIQue in a hiring context.",
+    "asset": "Self-Report vs. Ability-Based Emotional Intelligence Tests: Which One Actually Predicts Hiring Success",
+    "distinct_angle": "Thomas's TEIQue page raises but never resolves the three ways to measure EI; ours completes that comparison and explains the faking/social-desirability risk of self-report EI tests in hiring versus when an ability-based approach is more defensible.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2997,
+    "brand_fit": "CORE",
+    "angle_gap": "The page discloses that the PPA is scored ipsatively (each test-taker compared to themselves, not a norm group) but never flags the well-documented limitation that ipsative forced-choice results can't validly rank or compare candidates against each other for a single role \u2014 a critical gap for anyone using it in selection.",
+    "asset": "Why Ipsative Personality Tests Like the DISC-Based PPA Can't Be Used to Rank Candidates Head-to-Head",
+    "distinct_angle": "The PPA page discloses its self-referenced, ipsative scoring but never explains that this design makes cross-candidate ranking invalid; ours covers that limitation and how to pair ipsative personality data with normative measures for a defensible hiring decision.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3007,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Beyond one unexplained customer quote citing a '4% turnover rate,' the page offers only generic post-hire tips (communication style, motivators) and never explains the actual predictive link between pre-hire assessment data and early-tenure turnover \u2014 the mechanism a hiring team would need to act on before the offer stage.",
+    "asset": "How Pre-Hire Skills Assessments Predict \u2014 and Prevent \u2014 Early Employee Turnover",
+    "distinct_angle": "Thomas's retention page gives vague post-hire communication tips and one unexplained turnover stat; ours explains which pre-hire assessment signals (skills fit, behavioral fit) actually correlate with early-tenure turnover and how to act on them before the offer, not after.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: post-hire employee retention/engagement (off-brand subject); reframed as pre-hire predictors of turnover, which sits in core hiring/assessment territory"
+  },
+  {
+    "row_id": 3013,
+    "brand_fit": "CORE",
+    "angle_gap": "The page repeatedly claims its PPA/HPTI/EI/GIA assessments 'identify leadership potential' and 'strengths, risks and leadership potential' but never defines which specific traits or score patterns actually predict leadership success \u2014 it stays at the level of marketing bullets with no concrete framework or worked example.",
+    "asset": "Promoting on Potential, Not Just Performance: The Assessment Traits That Predict Future Leaders",
+    "distinct_angle": "Thomas's leadership page asserts its assessments 'identify leadership potential' without ever defining which traits or score patterns actually predict it; ours breaks the assessed traits (dominance, resilience, strategic thinking, emotional intelligence) into a concrete, citable framework for evaluating internal promotion candidates.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

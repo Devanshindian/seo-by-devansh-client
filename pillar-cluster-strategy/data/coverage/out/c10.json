@@ -1,0 +1,24 @@
+{
+  "theme": "Skills Management",
+  "key": "c10",
+  "pillars": [
+    {"pillar": "Performance Management Systems & Fundamentals", "status": "partial",
+     "hub_url": "hr-tools/performance-management", "note": "only an HR-software category page exists, not a dedicated performance-management blog hub"},
+    {"pillar": "Talent Management Fundamentals & Strategy", "status": "missing",
+     "hub_url": null, "note": "no talent-management hub page exists"},
+    {"pillar": "Competency & Skills Frameworks, Taxonomies and Inventories", "status": "missing",
+     "hub_url": null, "note": "no competency-framework hub page exists"},
+    {"pillar": "Skills Taxonomy & Skills Intelligence", "status": "missing",
+     "hub_url": null, "note": "no skills-taxonomy/skills-intelligence hub page exists"},
+    {"pillar": "Essential Workplace Skills & Competencies", "status": "partial",
+     "hub_url": "assess-and-develop-your-workplace-abilities", "note": "product page loosely about workplace abilities, not a dedicated workplace-skills hub"},
+    {"pillar": "Skills Gap Analysis", "status": "missing",
+     "hub_url": null, "note": "no skills-gap-analysis hub page exists"},
+    {"pillar": "Skills Mapping: Frameworks, Templates & Tools", "status": "missing",
+     "hub_url": null, "note": "no skills-mapping hub page exists"},
+    {"pillar": "Skills Gaps & Skills-Based Hiring", "status": "missing",
+     "hub_url": null, "note": "no skills-based-hiring hub page exists"},
+    {"pillar": "Performance Management for Remote & Future Work", "status": "partial",
+     "hub_url": "hr-tools/performance-management", "note": "only the generic performance-management software category page exists, not a remote/future-work hub"}
+  ]
+}

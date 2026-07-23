@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 400,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'expert advice' signals section is a mismatched, likely templated block \u2014 it lists retail-cashier criteria ('customer service or retail experience', 'ability to work with cash register', 'high school education') for a Maintenance Specialist role, and the interview questions never probe hands-on troubleshooting ability.",
+    "asset": "How to Hire a Maintenance Specialist Who Can Actually Fix Things",
+    "distinct_angle": "Replaces the mismatched retail-cashier screening signals this page reuses with maintenance-specific evaluation criteria and a hands-on troubleshooting interview scenario.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 401,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'expert advice' section is a single, region-specific job posting (South African cadastral surveying licensure, 'Professional Civil Engineering Forum', National Diploma requirements) copy-pasted as if it were general hiring guidance \u2014 unusable for most recruiters searching this role.",
+    "asset": "How to Hire a Land Development Manager on Skills, Not One Company's Job Ad",
+    "distinct_angle": "Swaps the lifted, region-locked job-ad text (a specific South African licensing body and degree requirement) for generalized, skills-based hiring signals any recruiter can apply.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 402,
+    "brand_fit": "CORE",
+    "angle_gap": "The five interview questions are listed bare with no guidance on what separates a strong answer from a weak one, and there's no practical troubleshooting scenario to actually test the skill the role requires.",
+    "asset": "How to Hire a Computer Support Specialist Who Can Actually Troubleshoot",
+    "distinct_angle": "Adds a practical troubleshooting scenario plus strong-vs-weak answer breakdowns for each interview question, which this page leaves as unguided bare prompts.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 403,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'essential tasks' list assigns project-manager duties (reading blueprints, preparing cost estimates, supervising and training other workers) to a Construction Laborer role, and the hiring bar in 'expert advice' requires a construction-management degree for what is an entry-level position.",
+    "asset": "How to Hire Construction Laborers for the Job They'll Actually Do",
+    "distinct_angle": "Corrects the mismatched project-manager task list and degree requirement this page assigns to an entry-level laborer role, rightsizing both the tasks and the hiring bar.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 407,
+    "brand_fit": "CORE",
+    "angle_gap": "The page explains what the OCEAN traits mean and vaguely says to 'align traits with job requirements,' but never addresses adverse-impact/EEOC defensibility for using a personality test in hiring decisions, nor the well-documented risk of faking/social-desirability bias in self-report personality tests \u2014 both essential for a recruiter actually deploying this.",
+    "asset": "How to Use the OCEAN Personality Test in Hiring Without the Adverse-Impact Risk",
+    "distinct_angle": "Covers the EEOC-defensibility and adverse-impact considerations and the faking/social-desirability limitations of self-report personality tests, both absent from this page's generic 'align traits with the role' framing.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

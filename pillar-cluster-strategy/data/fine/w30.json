@@ -1,0 +1,77 @@
+{
+  "slice_id": "w30",
+  "clusters": [
+    {
+      "pillar": "Sales Aptitude Tests for Hiring Salespeople",
+      "intent": "commercial",
+      "spokes": [
+        "assessing-candidate-skills-with-sales-aptitude-test",
+        "how-to-use-sales-aptitude-tests-to-hire-the-best-salespeople",
+        "the-best-sales-aptitude-test-for-different-types-of-sales-jobs",
+        "the-importance-of-sales-aptitude-tests-in-hiring",
+        "what-to-look-for-in-a-sales-aptitude-test"
+      ]
+    },
+    {
+      "pillar": "Cognitive Reasoning Assessments: Predicting & Developing Top Performers",
+      "intent": "informational",
+      "spokes": [
+        "can-cognitive-reasoning-assessments-identify-talents",
+        "enhance-team-productivity-via-cognitive-reasoning",
+        "how-cognitive-reasoning-can-predict-top-performers",
+        "how-to-use-analytics-to-refine-cognitive-reasoning",
+        "the-roi-of-cognitive-reasoning-why-its-the-smartest-hiring-metric",
+        "unlock-top-talent-with-cognitive-reasoning-assessment",
+        "why-cognitive-reasoning-matters"
+      ]
+    },
+    {
+      "pillar": "Using Cognitive Ability Tests in Recruitment",
+      "intent": "informational",
+      "spokes": [
+        "can-cognitive-ability-tests-create-a-fairer-hiring-landscape",
+        "challenges-of-using-cognitive-ability-tests-in-recruitment-and-overcoming-them",
+        "how-to-choose-the-right-cognitive-ability-test-for-hiring-top-talent",
+        "how-to-integrate-cognitive-ability-tests-into-your-hiring-process",
+        "how-to-use-cognitive-ability-test-results-for-better-hiring",
+        "incorporate-cognitive-tests-in-recruitment-strategy",
+        "reasons-to-use-cognitive-ability-tests-in-recruitment",
+        "ultimate-guide-cognitive-ability-tests",
+        "use-cognitive-ability-tests-for-candidate-development"
+      ]
+    },
+    {
+      "pillar": "Aptitude Tests: Types, Benefits & Recruitment Strategy",
+      "intent": "informational",
+      "spokes": [
+        "advantages-and-disadvantages-of-an-aptitude-test",
+        "aptitude-tests",
+        "customizing-aptitude-tests-for-entry-level-vs-experienced-hires",
+        "incorporate-aptitude-assessment-into-your-recruitment-strategy",
+        "incorporate-quantitative-aptitude-test-into-your-recruitment-strategy",
+        "key-benefits-of-using-aptitude-assessment-in-the-recruitment-process",
+        "key-components-of-a-technical-aptitude-test",
+        "tailoring-aptitude-tests-for-specific-industries-best-practices",
+        "the-role-of-aptitude-tests-in-assessing-efficiency",
+        "types-of-aptitude-tests",
+        "why-do-you-need-aptitude-assessment-in-your-hiring-process"
+      ]
+    },
+    {
+      "pillar": "Building an Effective Aptitude Assessment",
+      "intent": "informational",
+      "spokes": [
+        "tests-to-check-your-professional-aptitude-for-students",
+        "top-10-aptitude-assessment-questions-for-potential-candidates",
+        "what-role-do-data-driven-aptitude-assessment-play-in-hiring-success",
+        "what-should-you-include-in-your-aptitude-assessment-to-ensure-comprehensive-candidate-evaluation"
+      ]
+    }
+  ],
+  "orphans": [
+    "cognitive-bias-is-harming-your-hiring-process",
+    "cognitive-diversity-at-workplace",
+    "testlify-vs-ubiaptitude-detailed-comparison",
+    "ubiaptitude-alternatives"
+  ]
+}

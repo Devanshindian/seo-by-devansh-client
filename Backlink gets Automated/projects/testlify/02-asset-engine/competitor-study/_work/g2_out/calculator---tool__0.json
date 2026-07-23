@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1171,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 AI resume parsing/screening is an ATS/sourcing feature, a different product world from skills assessment (and cuts against our own 'skills over resumes' positioning); page content is also mostly nav junk with one vague sentence of substance"
+  },
+  {
+    "row_id": 1178,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Templates are just borrowed inspiration lines from big-tech JDs (Robinhood, Slack, Khan Academy etc.) with zero guidance on what makes a JD attract candidates who'll actually perform \u2014 no skills-based framing, no bias-reduction or EEOC-defensible language, just a static fill-in template dump.",
+    "asset": "Job Descriptions That Screen for Skills Before Credentials",
+    "distinct_angle": "Grounds each generated JD in the specific skills the role requires and bias-reduced, EEOC-defensible language, where Adaface's version is a plain template copy of other companies' JDs with no such guidance.",
+    "tool_escalation": "The asset itself is a generator \u2014 needs a working JD-generation tool, not just an article, to match the tagged format.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1252,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 online JS compiler is developer-tooling/coding-education content aimed at engineers learning to code, explicitly off-limits per brand scope ('we test coders, we don't teach coding')"
+  },
+  {
+    "row_id": 1326,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 online Java compiler is developer-tooling/coding-education content aimed at engineers learning to code, explicitly off-limits per brand scope ('we test coders, we don't teach coding')"
+  },
+  {
+    "row_id": 1838,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The FAQs confirm it's a bare title-in/tone-in generator with templates gated behind an email-capture form (\"Access Now\") \u2014 no methodology for what makes a JD effective, no bias or compliance framing, no example of a strong vs. weak output.",
+    "asset": "Compliant Job Descriptions Built Around Required Skills",
+    "distinct_angle": "Generates JDs anchored in the role's required skills with bias-reduced, compliance-ready language and a visible before/after example, unlike Recruiterflow's gated, tone-only generator with no methodology shown.",
+    "tool_escalation": "The asset itself is a generator \u2014 needs a working JD-generation tool, not just an article, to match the tagged format.",
+    "g_notes": ""
+  }
+]

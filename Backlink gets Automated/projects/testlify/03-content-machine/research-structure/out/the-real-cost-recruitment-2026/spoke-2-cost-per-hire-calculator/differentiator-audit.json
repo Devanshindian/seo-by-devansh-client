@@ -1,0 +1,110 @@
+{
+  "angle": "Lays out the exact hard-cost and soft-cost line items with 2026 benchmark ranges by role and hiring volume, so a reader can build their own number instead of quoting the generic SHRM figure \u2014 the same inputs the pillar's cost breakdown uses.  [spoke keyword: 'cost per hire calculator']",
+  "call_ok": true,
+  "fallback_sections": 0,
+  "competitor_topics": [
+    "A cost per hire calculator",
+    "AI Overview definition: average spend to recruit a new employee, typically $4,500-$4,800",
+    "AI Overview external costs: job board fees, agency/search-firm fees, ATS costs, background checks, candidate travel/relocation",
+    "AI Overview flags quarterly tracking for budget optimization and ROI",
+    "AI Overview formula: Internal Costs + External Costs / Total Hires",
+    "AI Overview internal costs: prorated recruiter/HR salaries, referral awards, hiring-manager interview time",
+    "AI Overview notes cost varies by company size, industry, and role seniority (specialized technical/C-suite: $15k-$30k+)",
+    "AI Overview points to the SHRM Cost-Per-Hire Standard for a consistent tracking process",
+    "Benchmarks / average cost per hire statistics",
+    "External costs",
+    "Internal costs",
+    "Step-by-step calculation walkthrough",
+    "The cost per hire formula",
+    "Total number of hires",
+    "What is cost per hire (definition)",
+    "Why cost per hire matters"
+  ],
+  "gaps": [
+    "A calculator tied back to a broader cost-per-hire pillar, not standing alone",
+    "An explicit hard-cost vs. soft-cost line-item framework, not just internal/external categorization",
+    "Benchmark ranges segmented by role and by hiring volume, not just one flat statistics block",
+    "Cost per hire benchmark",
+    "Cost per hire by industry",
+    "Hard costs",
+    "SHRM average cost per hire",
+    "Soft costs"
+  ],
+  "verdicts": [
+    {
+      "index": 0,
+      "is_differentiator": false,
+      "why": "Plain definition of cost per hire \u2014 table stakes, no line-item or benchmark angle"
+    },
+    {
+      "index": 1,
+      "is_differentiator": false,
+      "why": "Covers the official SHRM/ANSI standard and internal/external split \u2014 table stakes, not our hard/soft framework"
+    },
+    {
+      "index": 2,
+      "is_differentiator": true,
+      "why": "Explicit hard-cost vs soft-cost line items with typical ranges \u2014 matches our line-item gap directly"
+    },
+    {
+      "index": 3,
+      "is_differentiator": false,
+      "why": "Step-by-step calculation walkthrough and worked examples \u2014 standard coverage, not segmented by role/volume"
+    },
+    {
+      "index": 4,
+      "is_differentiator": true,
+      "why": "Directly critiques the dated generic SHRM figure and shows the 2025 update \u2014 matches the 'instead of quoting SHRM' angle"
+    },
+    {
+      "index": 5,
+      "is_differentiator": true,
+      "why": "True cost multiplier broken out by role level \u2014 matches benchmark-by-role gap"
+    },
+    {
+      "index": 6,
+      "is_differentiator": true,
+      "why": "Segments cost per hire by role type, industry, and company size/volume \u2014 matches both benchmark-by-role and by-industry gaps"
+    },
+    {
+      "index": 7,
+      "is_differentiator": false,
+      "why": "About costs CPH omits entirely (vacancy, bad hire, turnover) \u2014 a different angle from our hard/soft line-item breakdown"
+    },
+    {
+      "index": 8,
+      "is_differentiator": true,
+      "why": "Itemizes hidden soft-cost line items (recruiter time, ramp-up, background checks, tooling) \u2014 matches the soft-costs gap"
+    },
+    {
+      "index": 9,
+      "is_differentiator": false,
+      "why": "Whether low CPH signals poor hiring quality \u2014 standard cautionary-metric coverage, not our angle"
+    },
+    {
+      "index": 10,
+      "is_differentiator": false,
+      "why": "Practical usage/reporting cadence for CPH \u2014 generic best-practice coverage"
+    },
+    {
+      "index": 11,
+      "is_differentiator": false,
+      "why": "CPA/CPH and sourcing-channel efficiency \u2014 a different framework, not hard/soft line items or role/volume benchmarks"
+    },
+    {
+      "index": 12,
+      "is_differentiator": false,
+      "why": "Generic tracking framework/checklist \u2014 table stakes process content, not our specific angle"
+    },
+    {
+      "index": 13,
+      "is_differentiator": false,
+      "why": "Reviews third-party calculators (iCIMS, Connecteam) rather than a calculator tied to our own pillar breakdown"
+    },
+    {
+      "index": 14,
+      "is_differentiator": true,
+      "why": "Explicitly benchmarks by industry, role, and hiring volume plus hard/soft costs and a calculator \u2014 the clearest full match to our angle"
+    }
+  ]
+}

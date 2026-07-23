@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1037,
+    "brand_fit": "CORE",
+    "angle_gap": "Thin product pitch: lists O*NET skills/tasks and names two tests (CBST, EPP) but gives no worked example of what 'good' looks like on either \u2014 no sample item, no scoring rubric, no guidance on weighting personality vs. skills for this specific role.",
+    "asset": "Screening Customer Service Candidates: The Skills, Scenarios, and Red Flags Recruiters Miss",
+    "distinct_angle": "Where their page stops at naming two tests and a generic BLS summary, ours walks through concrete scenario-based evaluation criteria and red-flag behaviors for the role, closing the gap between 'here are the skills' and 'here's how to actually judge them.'",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1039,
+    "brand_fit": "CORE",
+    "angle_gap": "Very short: names two proprietary tests (MRAB, CAST) and a 3-job bullet list, but never explains what a concentration-test score actually looks like, how to interpret 'Attention Percentile,' or why it matters differently for a dispatcher vs. a truck driver.",
+    "asset": "What Concentration and Sustained-Attention Tests Should Actually Measure for Safety-Critical Roles",
+    "distinct_angle": "Goes past their bare test-name-and-job-list format to explain what the underlying attention constructs (divided, selective, reaction time) mean in practice per role, filling the interpretation gap the page leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1041,
+    "brand_fit": "CORE",
+    "angle_gap": "Marketing-heavy: cites an unsourced '84% would recommend' stat and vague 'rigorous and scientifically robust methodology' language without naming the validation study, sample size, or date \u2014 no way for a buyer to verify the science claims.",
+    "asset": "Measuring Emotional Intelligence in Candidates: The Evidence Behind the Score",
+    "distinct_angle": "Replaces their unsourced satisfaction stat and vague validity language with a walkthrough of what an ability-based EI assessment actually validates against and how to read the result, addressing the missing evidence their page glosses over.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1042,
+    "brand_fit": "CORE",
+    "angle_gap": "Same thin pattern as the concentration page: one test named (CCAT), a long undifferentiated job list, no example item, no explanation of what a critical-thinking score means for a manager vs. an engineer.",
+    "asset": "Critical Thinking in Hiring: What Strong Answers Actually Look Like, Role by Role",
+    "distinct_angle": "Adds the worked detail missing from their page \u2014 what distinguishes a strong critical-thinking response from a weak one for a handful of the roles they list, instead of just naming the test and the job titles.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1046,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans entirely on marketing claims \u2014 an unsourced '80% of candidates prefer' stat and a testimonial quote \u2014 without citing any predictive-validity data comparing game-based to traditional assessment scores, which is the actual question a skeptical recruiter has.",
+    "asset": "Do Game-Based Assessments Actually Predict Job Performance? The Evidence Employers Should Ask For",
+    "distinct_angle": "Where their page substitutes a candidate-preference stat for predictive-validity evidence, ours addresses the actual question \u2014 what public validity research exists on gamified assessments \u2014 that the page never answers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

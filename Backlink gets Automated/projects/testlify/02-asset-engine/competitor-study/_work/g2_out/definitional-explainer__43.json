@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 687,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'How to Assess' section gives only two vague paragraphs (run a behavioral interview, use a generic skills assessment) with no sample interview questions, no example candidate answer, and no way to tell a strong planner from someone who just name-drops SMART goals and SWOT.",
+    "asset": "Long-Term Planning Interview Questions That Separate Real Strategic Thinkers From Good Talkers",
+    "distinct_angle": "Replaces Alooba's generic 'do a behavioral interview' advice with actual sample questions, model answers, and red/green-flag signals for judging long-term planning \u2014 the concrete assessment guidance this page never gives.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 689,
+    "brand_fit": "CORE",
+    "angle_gap": "Most of the page teaches a reader how to track their OWN personal expenses (pick a notebook or app, review weekly) rather than how to evaluate a candidate; the hiring-relevant section is two generic paragraphs (practical assessment, MCQs) with no actual scenario, no scoring key, and no distinction between a candidate who tracks accurately vs. one who just knows the vocabulary.",
+    "asset": "How to Tell a Candidate Who Actually Tracks Expenses Accurately From One Who Just Knows the Terms",
+    "distinct_angle": "Swaps the personal-budgeting filler for a real hiring-focused exercise \u2014 a sample expense-categorization scenario with a scoring key \u2014 the concrete evaluation guidance this page skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 690,
+    "brand_fit": "CORE",
+    "angle_gap": "The techniques section (thread management, async programming, load balancing) stays abstract with zero code; 'How to Assess' offers only two generic ideas (a coding test, scenario questions) with no actual sample problem or rubric distinguishing a naive from an optimized solution.",
+    "asset": "How to Grade a Concurrency Optimization Take-Home So You Can Tell Naive Code From Optimized Code",
+    "distinct_angle": "Adds an actual sample coding scenario plus a rubric distinguishing thread-safe, deadlock-free solutions from naive ones \u2014 filling the gap left by Alooba's two vague assessment-method paragraphs.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 691,
+    "brand_fit": "CORE",
+    "angle_gap": "The page names four techniques (filtration, distillation, extraction, crystallization) but never ties them to a real evaluation scenario; 'How to Assess' offers only two generic categories (practical skills assessment, knowledge-based testing) with no worked technical problem or scoring criteria a non-chemist recruiter could actually use.",
+    "asset": "How to Assess a Chemical Separation Candidate When You're Not a Chemist Yourself",
+    "distinct_angle": "Adds a worked technical scenario (choosing distillation vs. extraction for a specific separation problem) with a scoring rubric a non-technical recruiter can apply, replacing the page's two vague assessment-method paragraphs.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 692,
+    "brand_fit": "CORE",
+    "angle_gap": "'How to Assess' names two test types (coding test, concepts test) but gives no actual buggy code sample or rubric distinguishing a candidate who wraps everything in a bare try/catch from one who designs proper exception hierarchies and logging.",
+    "asset": "How to Tell a Strong Error-Handling Answer From a Rehearsed One in a Coding Interview",
+    "distinct_angle": "Adds an actual buggy code sample and a rubric distinguishing shallow try/catch usage from robust exception design and logging \u2014 the concrete grading guidance this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

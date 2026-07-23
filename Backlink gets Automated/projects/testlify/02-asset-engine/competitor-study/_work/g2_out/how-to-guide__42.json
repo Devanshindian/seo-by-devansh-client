@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3425,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 personal/employee wellness topic (setting boundaries at work); no connection to hiring, assessment, or screening, outside Testlify's world"
+  },
+  {
+    "row_id": 3428,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists 5 assessment methods (soft skills, technical, leadership, etc.) and benefits at a high, generic level, but never shows what an actual skills-gap analysis looks like in practice \u2014 no worked example connecting a specific test score to a specific training or internal-mobility decision, and the bias stat cited (48% of HR professionals) is used as a throwaway line with no current framing.",
+    "asset": "Turning an Employee Skills Assessment Score Into an Actual Development Plan",
+    "distinct_angle": "Walks through a worked example that maps a real assessment result to a concrete upskilling or internal-mobility decision, the step this page lists as a benefit but never actually demonstrates.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3431,
+    "brand_fit": "CORE",
+    "angle_gap": "Names the skill categories to test for (language/communication, logic/problem-solving) and points generically at 'the TestGorilla test library,' but never gives a sample assessment question or a rubric for judging a technical-writing sample \u2014 the exact evaluation problem the intro raises ('can you really tell how accurately a candidate's 300-page manual was written?') is never answered.",
+    "asset": "The Technical Writing Skills Test Questions and Scoring Rubric This Guide Never Shows",
+    "distinct_angle": "Supplies actual sample test questions and a scoring rubric grounded in public style-guide standards (e.g. Microsoft/Google writing style guides) for evaluating a writing sample, closing the exact evaluation gap the page raises but never answers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3443,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers inclusive-hiring definitions, barriers, and general benefits (citing an older '85% of executives' stat) but never connects the topic to the compliance mechanics that make skills-based assessment legally defensible \u2014 adverse-impact analysis, audit trails, or current frameworks like NYC LL144 or the EU AI Act, all of which the page never mentions.",
+    "asset": "Making Skills-Based Assessment Your Inclusive-Hiring Compliance Evidence",
+    "distinct_angle": "Ties inclusive-hiring intent to the concrete audit-trail and adverse-impact mechanics under current regulations like NYC LL144 and the EU AI Act, the compliance layer this page never touches.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3452,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Frames a hiring plan purely as headcount and budget forecasting (how many people, how much budget, how fast) and never shows how to build the plan around defined skill requirements per role \u2014 the missing piece that would actually prevent the mis-hire scenario the intro opens with.",
+    "asset": "Building a Hiring Plan Around Skill Requirements Instead of Headcount",
+    "distinct_angle": "Shows how to anchor each planned hire to a specific skill benchmark for the role, rather than the budget/headcount-only framing this page uses throughout.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

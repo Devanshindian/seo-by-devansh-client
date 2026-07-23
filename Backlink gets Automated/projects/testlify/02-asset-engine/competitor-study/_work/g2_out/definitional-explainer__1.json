@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 13,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Defines coaching vs mentoring and touches AI 'as an option' in passing, but gives no framework for deciding WHICH one a given employee needs \u2014 it never ties the choice to any measurable skill gap, just generic role descriptions of who delivers each.",
+    "asset": "Coaching vs Mentoring: Which One Actually Closes a Measured Skill Gap",
+    "distinct_angle": "Where CIPD's factsheet only distinguishes coaching from mentoring in the abstract, ours gives a decision framework keyed to measurable skill-gap data (performance-deficit skills \u2192 coaching, career-growth skills \u2192 mentoring) \u2014 the practical 'which one, when' the factsheet never answers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 14,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The real content (measuring turnover, why people leave, retention tactics) sits entirely behind a membership login \u2014 the public page is just a table of contents \u2014 and what little is visible frames turnover as a post-hire wellbeing problem, never tracing it back to hiring-stage root causes.",
+    "asset": "Why Your Retention Problem Started at the Hiring Stage",
+    "distinct_angle": "CIPD gates its actual turnover analysis behind membership and treats retention as purely a post-hire wellbeing issue; ours is fully public and traces turnover data back to the hiring-stage mismatches (skill/fit gaps missed by resume screening) that quality-of-hire metrics are built to catch.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 15,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 CPD is about an HR practitioner's own career development/credentialing for CIPD membership, not about hiring, screening, or assessing candidates; different product world."
+  },
+  {
+    "row_id": 16,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Covers workforce planning as a generic process (stages, implementation, key actions) but outsources the actual 'how' to a separate linked guide, and never engages with planning around measured skill inventories \u2014 it's headcount/role planning, not skills-gap planning.",
+    "asset": "Workforce Planning by Skills Gap, Not Job Title",
+    "distinct_angle": "CIPD's factsheet describes workforce-planning stages in the abstract and punts the real method to another guide; ours builds the same stages around an actual skills-inventory-and-gap lens, answering the 'how do you know your current gap' question the factsheet leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 17,
+    "brand_fit": "CORE",
+    "angle_gap": "Frames EDI as a broad, org-wide culture initiative, and the real strategic detail (intersectionality, managing EDI, key lessons) is locked behind a membership login \u2014 nothing on the page addresses adverse-impact analysis or EEOC-defensible selection at the recruitment stage specifically.",
+    "asset": "Building an EEOC-Defensible Hiring Process, Not Just an EDI Policy",
+    "distinct_angle": "CIPD's EDI factsheet is workplace-wide and gates its real strategic content behind membership; ours stays free and narrows to the hiring stage specifically \u2014 adverse-impact analysis and EEOC-defensible test/selection design \u2014 the exact depth their page never reaches even for members.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

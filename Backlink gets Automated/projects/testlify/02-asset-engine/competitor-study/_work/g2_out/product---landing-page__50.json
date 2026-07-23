@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3096,
+    "brand_fit": "CORE",
+    "angle_gap": "Every feature (AI grading, anti-cheating, reporting) is described in one-line marketing claims with zero methodology \u2014 e.g. 'bias is reduced' and 'top performers keep surfacing' are asserted with no explanation of how the AI actually scores or what audit backs it.",
+    "asset": "Inside a Skills Assessment Platform: The Evidence Behind Every Feature Claim",
+    "distinct_angle": "Pairs each core feature (grading, anti-cheat, reporting) with the actual mechanism and validation evidence behind it \u2014 the specificity this page skips in favor of one-line claims.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3115,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites headline ROI figures (75% attrition drop at Bank of Queensland, 2,340 hours saved at iSelect, 3x fewer interviews at Findex) with no methodology, sample size, or timeframe \u2014 the reader can't verify or replicate the claim.",
+    "asset": "What the Real ROI Numbers Behind Skills-Based Enterprise Hiring Actually Measure",
+    "distinct_angle": "Sources and explains the methodology behind each headline ROI stat (attrition reduction, hours saved, interview reduction) instead of leaving them as unverifiable bare numbers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3116,
+    "brand_fit": "CORE",
+    "angle_gap": "Feature blocks (Assessment Library, Candidate Cards, Job Links) are the identical generic copy reused from the enterprise and high-volume pages, with nothing scaled to what a small, resource-constrained HR team actually needs \u2014 no budget guidance, no realistic setup-time estimate, no small-business-specific role examples.",
+    "asset": "Running Skills Assessments With a Five-Person HR Team: Budget, Setup Time, and Which Roles to Start With",
+    "distinct_angle": "Fills in the concrete small-business specifics \u2014 realistic setup time, cost expectations, and which roles to prioritize first \u2014 that this page's generic, copy-pasted feature list never addresses.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3125,
+    "brand_fit": "CORE",
+    "angle_gap": "Claims a scientific feedback loop ('~120 days after hire, the platform checks performance and feeds the data back into the AI') and an independent bias audit, but never shows the actual predictive-validity methodology, sample data, or what happens when a pre-hire score doesn't match on-the-job performance.",
+    "asset": "How Predictive a Skills Assessment Score Really Is, 120 Days Into the Job",
+    "distinct_angle": "Explains the actual predictive-validity methodology behind a pre-hire score versus on-the-job performance \u2014 the concrete study design this page asserts exists but never shows.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3129,
+    "brand_fit": "CORE",
+    "angle_gap": "Headline claim '90% faster' at identifying top performers is stated with no source, sample, or method, and the page gives no concrete frontline-hiring benchmarks (typical applicant volume per role, current average time-to-hire for retail/customer-service roles) a high-volume hiring team could actually use.",
+    "asset": "The Real Time-to-Hire Numbers for High-Volume Frontline Roles, and What's Actually Driving Them Down",
+    "distinct_angle": "Grounds the vague '90% faster' claim in sourced, current benchmark figures for frontline time-to-hire and applicant volume \u2014 the concrete numbers this page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

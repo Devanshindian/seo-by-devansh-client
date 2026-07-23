@@ -1,0 +1,106 @@
+{
+  "slice_id": "w26",
+  "clusters": [
+    {
+      "pillar": "Employee Engagement Strategies",
+      "intent": "informational",
+      "spokes": [
+        "create-an-effective-employee-engagement-strategy",
+        "initiatives-to-promote-employee-engagement",
+        "ways-to-boost-employee-engagement",
+        "the-importance-of-employee-engagement",
+        "unleashing-the-power-of-employee-engagement-solutions",
+        "employee-engagement-case-studies",
+        "employee-engagement-strategies-for-different-generations",
+        "the-role-of-leadership-in-employee-engagement",
+        "use-workplace-culture-to-improve-employee-engagement",
+        "ai-in-hr-communication-engagement",
+        "revolutionizing-talent-engagement-image-to-video-ai-hr"
+      ]
+    },
+    {
+      "pillar": "Measuring Employee Engagement & Its Business Impact",
+      "intent": "informational",
+      "spokes": [
+        "the-impact-of-employee-engagement-on-productivity-and-profitability",
+        "how-to-use-employee-engagement-data-to-improve-workplace",
+        "how-to-measure-and-improve-blue-collar-worker-productivity-and-engagement",
+        "fostering-engagement-in-a-remote-workforce",
+        "avoid-low-employee-engagement-and-early-attrition"
+      ]
+    },
+    {
+      "pillar": "Employee Retention Strategies",
+      "intent": "informational",
+      "spokes": [
+        "5-retention-strategies-for-campus-hiring",
+        "employee-retention-strategies",
+        "employee-retention-what-is-the-cost-of-losing-talent",
+        "handle-employee-turnover-and-develop-a-retention-strategy",
+        "how-ai-powered-tools-help-improve-employee-retention",
+        "how-to-overcome-retention-challenges-in-hr",
+        "implement-effective-employee-retention-programs",
+        "implement-effective-hr-strategies-for-talent-retention"
+      ]
+    },
+    {
+      "pillar": "Attrition & Turnover Explained",
+      "intent": "informational",
+      "spokes": [
+        "attrition-rate-and-meaning-for-hr",
+        "regretted-attrition",
+        "toxic-company-culture-is-driving-attrition-rates",
+        "what-is-involuntary-turnover"
+      ]
+    },
+    {
+      "pillar": "Employee Experience Management",
+      "intent": "informational",
+      "spokes": [
+        "employee-experience-trends-for-2023-and-beyond",
+        "how-to-create-a-positive-employee-experience",
+        "how-to-create-an-inclusive-employee-experience",
+        "how-to-measure-and-improve-employee-experience",
+        "how-to-optimize-core-hr-processes-for-a-good-employee-experience",
+        "how-workplace-tools-impact-employee-experience",
+        "improve-employee-experience-in-a-remote-workplace",
+        "what-is-employee-experience-and-why-is-it-important"
+      ]
+    },
+    {
+      "pillar": "Improving Job Satisfaction",
+      "intent": "informational",
+      "spokes": [
+        "how-to-improve-job-satisfaction-for-your-employees",
+        "how-to-use-data-to-identify-and-address-job-satisfaction-issues",
+        "implement-effective-employee-satisfaction-surveys",
+        "top-factors-that-contribute-to-job-satisfaction",
+        "open-pay-policies-impact-employee-satisfaction-and-retention",
+        "create-an-employee-focused-workplace-for-improved-satisfaction",
+        "implement-flexible-work-policies-for-employee-satisfaction"
+      ]
+    },
+    {
+      "pillar": "Employee Well-being, Morale & Mental Health",
+      "intent": "informational",
+      "spokes": [
+        "employee-reward-ideas-to-boost-morale",
+        "employee-well-being-initiative",
+        "handle-burnout-and-promote-mental-health-in-workplace",
+        "improve-employee-morale-proven-tactics-for-hr-professionals",
+        "perks-to-boost-employee-engagement-and-morale",
+        "promote-employee-well-being-and-mental-health-in-the-workplace"
+      ]
+    },
+    {
+      "pillar": "Employee Engagement & Recognition Tools",
+      "intent": "commercial",
+      "spokes": [
+        "top-employee-engagement-tools",
+        "top-employee-recognition-tools",
+        "top-5-employee-experience-tools-and-technologies"
+      ]
+    }
+  ],
+  "orphans": []
+}

@@ -1,0 +1,22 @@
+{
+  "primary_keyword": "cost per hire",
+  "attempts": [
+    {
+      "query": "cost per hire",
+      "match_type": "phrase_match",
+      "result": "0 items \u2014 off-topic ([])"
+    },
+    {
+      "query": "cost per hire",
+      "match_type": "word_match",
+      "result": "15 items \u2014 off-topic (['is $50 an hour good for house cleaning?', 'is $500,000 enough to work with a financial advisor?'])"
+    },
+    {
+      "query": "expense per hire",
+      "match_type": "phrase_match",
+      "result": "0 items \u2014 off-topic ([])"
+    }
+  ],
+  "stop": true,
+  "why": "3 anchored tries (phrase+word match on the term, plus a synonym swap) all returned empty or off-topic personal-finance content, not HR/recruiting signal"
+}

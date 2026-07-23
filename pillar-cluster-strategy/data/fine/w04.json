@@ -1,0 +1,217 @@
+{
+  "slice_id": "w04",
+  "clusters": [
+    {
+      "pillar": "Role-Specific Tests to Unveil Candidates' Hidden Abilities",
+      "intent": "informational",
+      "spokes": [
+        "how-can-a-business-judgement-test-unveil-candidates-hidden-abilities",
+        "how-can-a-customer-success-manager-test-unveil-candidates-hidden-abilities",
+        "how-can-a-data-visualization-test-unveil-candidates-hidden-abilities",
+        "how-can-a-full-stack-developer-test-unveil-candidates-hidden-abilities",
+        "how-can-a-performance-marketing-test-unveil-candidates-hidden-abilities",
+        "how-can-a-product-manager-assessment-unveil-candidates-hidden-abilities",
+        "how-can-a-react-native-test-online-unveil-candidates-hidden-abilities",
+        "how-can-an-accounting-manager-test-unveil-candidates-hidden-abilities",
+        "how-can-an-adaptability-test-unveil-candidates-hidden-abilities",
+        "how-can-an-attention-to-detail-visual-test-unveil-candidates-hidden-abilities",
+        "how-can-an-nlp-test-unveil-candidates-hidden-abilities"
+      ]
+    },
+    {
+      "pillar": "Attention to Detail Tests in Hiring",
+      "intent": "informational",
+      "spokes": [
+        "attention-to-detail-test-in-hiring-decisions",
+        "benefits-of-using-attention-to-detail-test",
+        "how-to-choose-the-right-attention-to-detail-test-for-your-hiring-process",
+        "how-to-create-an-attention-to-detail-test-thats-actually-effective"
+      ]
+    },
+    {
+      "pillar": "Emotional Intelligence Tests for Hiring",
+      "intent": "informational",
+      "spokes": [
+        "advantages-of-using-the-emotional-intelligence-test-in-the-hiring-process",
+        "does-the-emotional-intelligence-test-belong-in-the-workplace",
+        "emotional-intelligence-test-for-hiring-is-a-must-have",
+        "how-can-the-emotional-intelligence-test-help-you-identify-training-and-development-needs"
+      ]
+    },
+    {
+      "pillar": "Coding & Programming Tests for Tech Hiring",
+      "intent": "informational",
+      "spokes": [
+        "best-practices-for-designing-coding-assessments",
+        "common-mistakes-to-avoid-while-creating-coding-assessment",
+        "companies-that-successfully-used-coding-assessments-to-hire-top",
+        "how-to-administer-programming-tests-effectively",
+        "how-to-analyze-and-interpret-programming-test-results",
+        "how-to-choose-the-right-programming-test-for-your-hiring-needs",
+        "how-to-craft-effective-programming-tests-for-tech-recruitment"
+      ]
+    },
+    {
+      "pillar": "Technical Assessments in Recruitment",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-technical-assessments-in-recruitment",
+        "best-technical-assessment-tools",
+        "common-technical-assessment-mistakes-to-avoid",
+        "how-technical-assessments-fuel-amazon-hiring-process",
+        "how-to-administer-a-technical-assessment",
+        "how-to-choose-the-right-technical-assessment-tool",
+        "how-to-create-a-custom-technical-assessment"
+      ]
+    },
+    {
+      "pillar": "Computer Literacy Tests for Hiring",
+      "intent": "informational",
+      "spokes": [
+        "assessing-skills-with-computer-literacy-test",
+        "computer-literacy-test-in-hiring-decisions",
+        "how-to-choose-the-right-computer-literacy-test",
+        "how-to-create-a-computer-literacy-test-thats-fair-and-accurate"
+      ]
+    },
+    {
+      "pillar": "Excel Assessments in Hiring",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-using-excel-assessment-in-the-hiring-process",
+        "guide-to-advanced-excel-assessments",
+        "how-advanced-excel-assessments-help-you-with-hiring",
+        "how-companies-find-top-talent-using-excel-assessments"
+      ]
+    },
+    {
+      "pillar": "Choosing Talent & Team Assessment Tools",
+      "intent": "commercial",
+      "spokes": [
+        "best-talent-assessment-tools",
+        "best-team-assessment-tools-performance-management",
+        "build-a-hiring-process-with-talent-assessment-tools",
+        "guide-to-choose-the-best-talent-assessment-software",
+        "guide-to-choosing-employment-assessment-tools"
+      ]
+    },
+    {
+      "pillar": "Designing & Creating Effective Hiring Assessments",
+      "intent": "informational",
+      "spokes": [
+        "best-practices-for-designing-and-implementing-employment-assessments",
+        "considerations-when-selecting-or-creating-hiring-assessment-test",
+        "determine-the-duration-for-candidate-tests",
+        "elements-to-consider-when-creating-recruitment-tests",
+        "how-to-create-objective-hiring-assessments"
+      ]
+    },
+    {
+      "pillar": "Reducing Bias in Employment Testing",
+      "intent": "informational",
+      "spokes": [
+        "an-hr-approach-to-unbiased-assessments",
+        "best-practices-to-avoid-bias-in-employment-testing",
+        "ensure-bias-free-employment-assessments"
+      ]
+    },
+    {
+      "pillar": "Culture Fit Assessments for Hiring",
+      "intent": "informational",
+      "spokes": [
+        "culture-fit-assessments-for-hiring-remote-teams",
+        "exploring-ethical-considerations-in-culture-fit-assessments",
+        "how-to-build-your-own-culture-fit-assessment-quick-tips"
+      ]
+    },
+    {
+      "pillar": "AI in Recruitment Assessments",
+      "intent": "informational",
+      "spokes": [
+        "ai-powered-recruitment-assessment-tools-in-talent-acquisition",
+        "ai-vs-human-led-hiring-assessments",
+        "find-ai-talent-without-algorithm-tests"
+      ]
+    },
+    {
+      "pillar": "Building Teams & Global Hiring with Assessments",
+      "intent": "informational",
+      "spokes": [
+        "build-a-successful-global-team-using-assessments",
+        "build-development-teams-with-teamwork-assessments",
+        "how-to-build-stronger-teams-with-role-specific-tests"
+      ]
+    },
+    {
+      "pillar": "Data-Driven Hiring with Assessment Analytics",
+      "intent": "informational",
+      "spokes": [
+        "data-driven-hiring-leveraging-analytics-in-employment-testing",
+        "data-driven-recruitment-syncing-assessment-results",
+        "how-ats-integrated-assessments-improve-hiring"
+      ]
+    },
+    {
+      "pillar": "Assessment Integrity & Plagiarism Detection",
+      "intent": "informational",
+      "spokes": [
+        "a-comprehensive-guide-to-online-test-integrity",
+        "authenticity-in-assessment-human-resources-approach-to-plagiarism-detection",
+        "automated-scoring-for-custom-questions-in-assessments"
+      ]
+    },
+    {
+      "pillar": "When & Why to Use Pre-Hiring Assessments",
+      "intent": "informational",
+      "spokes": [
+        "5-benefits-of-integrating-employment-assessments-into-your-hiring-process",
+        "benefits-of-pre-hiring-assessments",
+        "common-employment-assessments-and-when-to-use-them",
+        "cvs-vs-online-assessments-which-is-better",
+        "employee-assessment-test-for-virtual-hiring"
+      ]
+    },
+    {
+      "pillar": "Marketing & Ads Skills Tests",
+      "intent": "informational",
+      "spokes": [
+        "benefits-of-using-marketing-test",
+        "google-ads-tests-in-identifying-marketing-talent",
+        "how-hr-can-utilize-react-js-test"
+      ]
+    }
+  ],
+  "orphans": [
+    "5-strategies-for-mastering-recruitment-tests",
+    "asc-smarter-assessment-alternatives",
+    "assess-with-autocad-test",
+    "assessing-candidate-skills-with-nlp-test",
+    "assessments-for-hiring-in-media-industry",
+    "assessments-with-chat-simulation",
+    "behavioral-assessments-impact-hiring-decisions",
+    "best-practices-in-implementing-hiring-assessments",
+    "boost-employee-retention-with-predictive-assessments",
+    "candidate-experience-with-white-labeled-assessments",
+    "case-studies-of-better-hires-using-talent-assessments",
+    "choosing-a-typing-test-how-and-why",
+    "common-criticisms-of-situational-judgement-test",
+    "competency-based-assessment",
+    "conduct-administrative-hiring-with-tests",
+    "conduct-advanced-java-online-test-tips-for-recruiters",
+    "conduct-an-effective-numpy-test-online",
+    "conduct-management-tests",
+    "conduct-managerial-hiring-with-judgement-tests",
+    "create-and-administer-effective-mysql-test",
+    "create-graphic-design-test-for-hiring",
+    "data-analyst-tests-to-identify-talent",
+    "design-an-effective-microsoft-word-test",
+    "english-proficiency-test-need-inhiring-process",
+    "english-proficiency-test-questions-for-candidates",
+    "gamified-assessments",
+    "good-problem-solving-assessment-to-test-candidates",
+    "hiring-test-legal-compliance",
+    "how-situational-judgement-tests-sjts-find-the-best-fits",
+    "how-testlifys-assessments-can-identify-skills-gap",
+    "how-to-design-html-test"
+  ]
+}

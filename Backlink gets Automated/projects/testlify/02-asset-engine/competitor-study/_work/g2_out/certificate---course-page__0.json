@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 27,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The hub lists six qualification paths (foundation, associate, apprenticeship, MOOCs, learning-for-teams, CPD) side by side with a one-line blurb each, but gives no comparison of cost, duration, or career outcome to help a visitor actually choose between them.",
+    "asset": "Which Skills-Assessment Certification Path Actually Fits Your Recruiting Role",
+    "distinct_angle": "CIPD's hub lists six learning paths with no way to compare them; ours ranks hiring/assessment certification and course options by role, cost, and time-to-complete so a TA lead can pick with confidence.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: HR/L&D professional qualification hub (CIPD)"
+  },
+  {
+    "row_id": 31,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The page structures itself around 'Who is it for / What will I learn / How long does it take / How much does it cost' but the actual answers never appear in the copy \u2014 just the section headers \u2014 so a visitor gets zero real detail on curriculum, price, or duration.",
+    "asset": "The Entry-Level Hiring Assessment Certification, With Real Curriculum, Cost, and Timeline Spelled Out",
+    "distinct_angle": "CIPD's Foundation Certificate page hides curriculum, cost, and duration behind unopened accordion headers with no visible text; ours states the actual syllabus, price range, and time commitment for an entry-level hiring/assessment credential up front.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: CIPD Foundation Certificate in People Practice (Level 3)"
+  },
+  {
+    "row_id": 32,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Same collapsed-accordion problem as the Foundation Certificate page (who/what/how long/cost headers with no visible answers), plus the international qualification-level equivalency (RQF/CQFW/NFQ/EQF) is buried in one dense run-on sentence instead of a scannable comparison.",
+    "asset": "The Assessment-Design Certification Path for Recruiters Ready to Lead Hiring Strategy",
+    "distinct_angle": "Where CIPD buries its qualification-level equivalencies in a single run-on sentence and hides the syllabus behind unopened tabs, ours lays out the curriculum and level-equivalency comparison in a clear table.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: CIPD Associate Diploma in Organisational Learning and Development (Level 5)"
+  },
+  {
+    "row_id": 34,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The page promises to answer 'What course types are available' and 'What methods of learning can you choose from' but delivers only marketing copy about flexibility and career benefits \u2014 no actual list of course titles, topics, formats, or prices.",
+    "asset": "Self-Paced vs Live Hiring-Assessment Training, Compared With Real Course Options and Prices",
+    "distinct_angle": "CIPD's short-courses page teases course types and learning methods but never names an actual course or price; ours lists real hiring/assessment-training options side by side with format, duration, and cost.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: CIPD short courses hub"
+  },
+  {
+    "row_id": 41,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "All seven learning outcomes stay at the level of generic org-wide EDI ('build a roadmap', 'use data to gain insights') with no worked example of an actual bias audit or roadmap, and the programme never narrows to hiring/selection specifically \u2014 despite recruitment being one of the highest bias-risk touchpoints.",
+    "asset": "A Bias-Audit Certification for Hiring Teams, With a Worked NYC LL144 and EU AI Act Compliance Roadmap",
+    "distinct_angle": "CIPD's EDI programme lists high-level outcomes with no worked roadmap and stays org-wide rather than hiring-specific; ours narrows to the hiring funnel and walks through one real bias-audit and compliance roadmap end to end.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: CIPD Equality, Diversity and Inclusion (EDI) Accredited Programme"
+  }
+]

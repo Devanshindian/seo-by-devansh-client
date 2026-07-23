@@ -1,0 +1,202 @@
+{
+  "slice_id": "w09",
+  "clusters": [
+    {
+      "pillar": "Recruitment Trends in Tech & IT Role Hiring",
+      "intent": "informational",
+      "spokes": [
+        "recruitment-trends-in-it-support-specialist-hiring",
+        "recruitment-trends-in-network-administrator-hiring",
+        "recruitment-trends-in-product-manager-hiring",
+        "top-recruitment-trends-in-business-analyst-hiring",
+        "top-recruitment-trends-in-data-analyst-hiring",
+        "top-recruitment-trends-in-data-engineer-hiring",
+        "top-recruitment-trends-in-it-director-hiring",
+        "top-recruitment-trends-in-project-manager-hiring",
+        "top-recruitment-trends-in-qa-engineer-hiring",
+        "top-recruitment-trends-in-system-analyst-hiring",
+        "top-recruitment-trends-in-ui-designer-hiring",
+        "top-recruitment-trends-in-supply-chain-analyst-hiring"
+      ]
+    },
+    {
+      "pillar": "Recruitment Trends in Business, Marketing & HR Role Hiring",
+      "intent": "informational",
+      "spokes": [
+        "recruitment-trends-in-customer-service-manager-hiring",
+        "recruitment-trends-in-event-planner-hiring",
+        "recruitment-trends-in-marketing-coordinator-hiring",
+        "top-7-recruitment-trends-in-financial-planner-hiring",
+        "top-recruitment-trends-in-account-executive-hiring",
+        "top-recruitment-trends-in-brand-manager-hiring",
+        "top-recruitment-trends-in-financial-analyst-hiring",
+        "top-recruitment-trends-in-hr-coordinator-hiring",
+        "top-recruitment-trends-in-hr-manager-hiring",
+        "top-recruitment-trends-in-hrbp-hiring",
+        "top-recruitment-trends-in-marketing-manager-hiring",
+        "top-recruitment-trends-in-sales-manager-hiring"
+      ]
+    },
+    {
+      "pillar": "General Recruitment Trends to Watch",
+      "intent": "informational",
+      "spokes": [
+        "setting-recruitment-goals-for-2023",
+        "stay-updated-on-latest-trends-in-recruitment-and-hr",
+        "talent-recruitment-trends-influencing",
+        "top-10-recruitment-trends-to-watch-out-for-in-2022",
+        "trends-in-talent-acquisition-whats-changing",
+        "trends-to-watch-out-in-recruitment"
+      ]
+    },
+    {
+      "pillar": "Recruitment Technology & Tools",
+      "intent": "commercial",
+      "spokes": [
+        "recruitment-technology-shaping-the-future",
+        "simplify-campus-drive-with-recruitment-technology",
+        "the-best-recruitment-technology-tools-for-small-businesses",
+        "top-recruitment-technology-trends",
+        "types-of-recruitment-technology",
+        "use-recruitment-tech-to-conduct-virtual-interview",
+        "use-recruitment-technology-to-assess-candidates",
+        "use-recruitment-technology-to-onboard-new-employees",
+        "ways-to-simplify-campus-hiring-with-recruitment-tech",
+        "what-are-recruitment-tools"
+      ]
+    },
+    {
+      "pillar": "Recruiting Tools & Software",
+      "intent": "commercial",
+      "spokes": [
+        "social-media-recruiting-tools",
+        "talent-acquisition-tools",
+        "top-email-finder-tools-for-recruiters",
+        "top-recruitment-marketing-tools",
+        "top-recruitment-solutions-to-streamline-hiring",
+        "top-talent-acquisition-solutions-available-today",
+        "ultimate-guide-to-best-recruiting-tools"
+      ]
+    },
+    {
+      "pillar": "AI-Powered Recruiting",
+      "intent": "mixed",
+      "spokes": [
+        "role-of-ai-in-ats-integration",
+        "seo-for-recruitment-the-role-of-ai-in-talent-search",
+        "top-ai-powered-recruitment-tools-changing-the-hiring-game",
+        "top-ai-recruiting-tools-for-improved-hiring-process",
+        "why-hr-optimize-recruitment-budget-for-ai-first-hiring",
+        "will-ai-replace-recruiters"
+      ]
+    },
+    {
+      "pillar": "ATS Integration",
+      "intent": "mixed",
+      "spokes": [
+        "reviving-cold-talent-in-ats",
+        "successful-ats-integration-stories-from-top-companies",
+        "the-future-of-ats-integration",
+        "top-applicant-tracking-systems-ats"
+      ]
+    },
+    {
+      "pillar": "Social Media Recruiting",
+      "intent": "informational",
+      "spokes": [
+        "social-media-recruiting",
+        "social-media-recruiting-tips",
+        "text-recruiting"
+      ]
+    },
+    {
+      "pillar": "Video & Virtual Interviews for Recruiting",
+      "intent": "informational",
+      "spokes": [
+        "the-silent-recruiter-video-content-attracts-top-talent",
+        "use-of-video-content-for-recruiting-top-talent",
+        "why-do-recruiters-use-virtual-interview"
+      ]
+    },
+    {
+      "pillar": "Recruitment Metrics & KPIs",
+      "intent": "informational",
+      "spokes": [
+        "the-benefits-of-real-time-recruitment-metrics",
+        "top-recruitment-metrics-you-must-keep-track",
+        "ultimate-guide-to-recruitment-kpis",
+        "use-data-and-analytics-to-improve-recruitment-process",
+        "testlify-transforms-data-driven-recruitment"
+      ]
+    },
+    {
+      "pillar": "Talent Acquisition Strategy & Best Practices",
+      "intent": "informational",
+      "spokes": [
+        "rethinking-global-hiring-strategies",
+        "scale-talent-acquisition",
+        "strategic-talent-acquisition-in-e-commerce",
+        "talent-acquisition-and-best-practices-for-hr-professionals",
+        "talent-acquisition-in-a-post-pandemic-world",
+        "the-evolution-of-talent-acquisition-from-traditional-to-modern-approaches",
+        "top-hiring-strategies",
+        "why-a-strategic-recruitment-plan-is-important",
+        "why-skills-based-hiring-is-transforming-talent-acquisition"
+      ]
+    },
+    {
+      "pillar": "Streamlining & Improving the Hiring Process",
+      "intent": "informational",
+      "spokes": [
+        "role-of-support-services-in-streamlining-recruitment-process",
+        "steps-to-streamline-your-hiring-process",
+        "strategies-to-create-a-great-recruitment-experience",
+        "ways-to-improve-the-legal-base-of-your-hiring-process",
+        "why-transparent-communication-is-key-in-the-hiring-process"
+      ]
+    },
+    {
+      "pillar": "Reverse Recruiting",
+      "intent": "informational",
+      "spokes": [
+        "reverse-recruiting",
+        "reverse-recruiting-in-modern-talent-acquisition",
+        "what-is-360-recruitment-what-recruiters-should-know",
+        "recruitment-types"
+      ]
+    },
+    {
+      "pillar": "Global & Cross-Border Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "remote-work-and-talent-acquisition",
+        "return-migration-hiring-strategies-asia",
+        "talent-acquisition-benefits-citizenship-investment-programs",
+        "tips-and-tricks-for-recruiting-top-talent-across-time-zones-and-borders"
+      ]
+    },
+    {
+      "pillar": "Recruiter Skills & Identifying Top Talent",
+      "intent": "informational",
+      "spokes": [
+        "skills-every-recruiter-should-look-for",
+        "strategies-recruiters-use-to-recognize-top-talent",
+        "the-evolving-role-of-enterprise-recruiters"
+      ]
+    }
+  ],
+  "orphans": [
+    "reduce-recruitment-costs-while-maintaining-quality-hires",
+    "scale-recruiting-efforts-without-expanding-your-team",
+    "role-of-internships-in-talent-acquisition-strategies",
+    "tips-on-recruiting-students-for-hr-professionals",
+    "selection-process",
+    "the-impact-of-patient-recruitment-organizations-on-trial-efficiency",
+    "the-importance-of-employer-branding-in-talent-acquisition",
+    "the-landscape-of-hiring-in-recruiting-services",
+    "the-pros-and-cons-of-internal-recruitment",
+    "tech-recruitment-with-talent-engagement-strategies",
+    "walmart-hiring-process",
+    "why-link-building-matters-for-recruiting-software-and-hr-platforms"
+  ]
+}

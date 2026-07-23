@@ -1,0 +1,231 @@
+{
+  "job": "j8_alternatives",
+  "pillars": [
+    {
+      "pillar": "Skills & Talent Assessment Platform Alternatives",
+      "theme": "Competitor Alternatives",
+      "intent": "commercial",
+      "spokes": [
+        "adaface-alternatives",
+        "canditech-alternatives",
+        "equip-alternatives",
+        "eskill-alternatives",
+        "evalgator-alternatives",
+        "glider-ai-alternatives",
+        "imocha-alternatives",
+        "makipeople-alternatives",
+        "mettl-alternatives",
+        "peoplogicaskill-alternatives",
+        "skillmeter-alternatives",
+        "talentate-alternatives",
+        "testello-alternatives",
+        "testgenius-alternatives",
+        "vervoe-alternatives"
+      ]
+    },
+    {
+      "pillar": "Video Interview & AI Interviewing Tool Alternatives",
+      "theme": "Competitor Alternatives",
+      "intent": "commercial",
+      "spokes": [
+        "harver-alternatives",
+        "hiremojo-alternatives",
+        "hirevue-alternatives",
+        "perspect-ai-alternatives",
+        "pixonality-alternatives",
+        "talview-alternatives",
+        "test-partnership-alternatives",
+        "testinvite-alternatives",
+        "the-talent-games-alternatives",
+        "traditional-hiring-interviews-alternatives",
+        "xobin-alternatives"
+      ]
+    },
+    {
+      "pillar": "ATS & Recruitment Platform Alternatives",
+      "theme": "Competitor Alternatives",
+      "intent": "commercial",
+      "spokes": [
+        "talentlyft-alternatives",
+        "talentmesh-alternatives",
+        "talentmetrix-alternatives",
+        "testgorilla-alternatives"
+      ]
+    },
+    {
+      "pillar": "Psychometric & Personality Assessment Tool Alternatives",
+      "theme": "Competitor Alternatives",
+      "intent": "commercial",
+      "spokes": [
+        "alva-labs-alternatives",
+        "cangrade-alternatives",
+        "criteria-corp-alternatives",
+        "sova-alternatives",
+        "talentclick-alternatives",
+        "talentlens-alternatives",
+        "talogy-alternatives",
+        "the-predictive-index-alternatives",
+        "thrive-alternatives",
+        "thrivemap-alternatives"
+      ]
+    },
+    {
+      "pillar": "Coding & Technical Assessment Tool Alternatives",
+      "theme": "Competitor Alternatives",
+      "intent": "commercial",
+      "spokes": [
+        "coderbyte-alternatives",
+        "codility-alternatives",
+        "hackerearth-alternatives",
+        "hackerrank-alternatives",
+        "testdome-alternatives",
+        "testgrid-alternatives",
+        "wecp-alternatives",
+        "zapilio-alternatives"
+      ]
+    },
+    {
+      "pillar": "Testlify vs Skills & Talent Assessment Platforms",
+      "theme": "Competitor Alternatives",
+      "intent": "comparison",
+      "spokes": [
+        "testlify-vs-adaface-detailed-comparison",
+        "testlify-vs-canditech-detailed-comparison",
+        "testlify-vs-equip-detailed-comparison",
+        "testlify-vs-eskill-detailed-comparison",
+        "testlify-vs-evalgator-detailed-comparison",
+        "testlify-vs-glider-ai-detailed-comparison",
+        "testlify-vs-imocha-detailed-comparison",
+        "testlify-vs-maki-people-detailed-comparison",
+        "testlify-vs-mercer-mettl-detailed-comparison",
+        "testlify-vs-peoplogica-skills-detailed-comparison",
+        "testlify-vs-skillmeter-detailed-comparison",
+        "testlify-vs-talentate-detailed-comparison",
+        "testlify-vs-testello-detailed-comparison",
+        "testlify-vs-vervoe-detailed-comparison",
+        "testlify-vs-xobin-detailed-comparison"
+      ]
+    },
+    {
+      "pillar": "Testlify vs ATS & Recruitment Platforms",
+      "theme": "Competitor Alternatives",
+      "intent": "comparison",
+      "spokes": [
+        "compare-testlify-vs-willo",
+        "testlify-vs-perspect-ai-detailed-comparison",
+        "testlify-vs-pixonality-detailed-comparison",
+        "testlify-vs-spark-hire-comparison",
+        "testlify-vs-symphony-talent-detailed-comparison",
+        "testlify-vs-talentlyft-detailed-comparison",
+        "testlify-vs-talentmesh-detailed-comparison",
+        "testlify-vs-talentmetrix-detailed-comparison",
+        "testlify-vs-testgenius-detailed-comparison",
+        "testlify-vs-testinvite-detailed-comparison",
+        "testlify-vs-testgorilla-detailed-comparison",
+        "testlify-vs-testtrick-detailed-comparison",
+        "testlify-vs-testwise-detailed-comparison",
+        "testlify-vs-veloxhire-detailed-comparison",
+        "testlify-vs-zapilio-detailed-comparison"
+      ]
+    },
+    {
+      "pillar": "Testlify vs AI Interview & Video Interviewing Tools",
+      "theme": "Competitor Alternatives",
+      "intent": "comparison",
+      "spokes": [
+        "compare-testlify-vs-metaview",
+        "compare-testlify-vs-sapia-ai",
+        "testlify-vs-alex-ai-detailed-comparison",
+        "testlify-vs-hire-success-detailed-comparison",
+        "testlify-vs-hiremojo-detailed-comparison",
+        "testlify-vs-hirevue-detailed-comparison",
+        "testlify-vs-hyring-ai-interviewing-tool-comparison",
+        "testlify-vs-incruiter-detailed-comparison",
+        "testlify-vs-jobma-detailed-comparison",
+        "testlify-vs-ribbon-ai-in-depth-comparison",
+        "testlify-vs-talently-ai-detailed-comparison",
+        "testlify-vs-talview-detailed-comparison",
+        "testlify-vs-vidcruiter-ai-interview-tools-compared"
+      ]
+    },
+    {
+      "pillar": "Testlify vs Psychometric & Personality Assessment Tools",
+      "theme": "Competitor Alternatives",
+      "intent": "comparison",
+      "spokes": [
+        "testlify-vs-alva-labs-detailed-comparison",
+        "testlify-vs-cangrade-detailed-comparison",
+        "testlify-vs-criteria-corp-detailed-comparison",
+        "testlify-vs-harver-detailed-comparison",
+        "testlify-vs-predictive-index-detailed-comparison",
+        "testlify-vs-sova-detailed-comparison",
+        "testlify-vs-talentclick-detailed-comparison",
+        "testlify-vs-talentlens-detailed-comparison",
+        "testlify-vs-talogy-detailed-comparison",
+        "testlify-vs-the-talent-games-detailed-comparison",
+        "testlify-vs-thrive-detailed-comparison",
+        "testlify-vs-thrivemap-detailed-comparison"
+      ]
+    },
+    {
+      "pillar": "Testlify vs Coding Assessment Platforms",
+      "theme": "Competitor Alternatives",
+      "intent": "comparison",
+      "spokes": [
+        "testlify-vs-coderbyte-detailed-comparison",
+        "testlify-vs-codesignal-detailed-comparison",
+        "testlify-vs-codility-detailed-comparison",
+        "testlify-vs-hackerearth-detailed-comparison",
+        "testlify-vs-hackerrank-detailed-comparison",
+        "testlify-vs-testdome-detailed-comparison",
+        "testlify-vs-testgrid-detailed-comparison",
+        "testlify-vs-wecp-detailed-comparison"
+      ]
+    },
+    {
+      "pillar": "Skills, Competencies & Job Definition Concepts Compared",
+      "theme": "Competitor Alternatives",
+      "intent": "informational",
+      "spokes": [
+        "a-recruiters-guide-to-super-skills-vs-micro-skills",
+        "hard-skills-vs-soft-skills",
+        "job-advertising-vs-job-posting",
+        "job-description-vs-job-profile",
+        "job-description-vs-job-specification",
+        "skills-mapping-vs-competency-mapping",
+        "skills-vs-competencies",
+        "skills-vs-titles-future-of-hiring-worldwide",
+        "white-collar-vs-blue-collar-jobs"
+      ]
+    },
+    {
+      "pillar": "Recruitment Methods & Sourcing Strategies Compared",
+      "theme": "Competitor Alternatives",
+      "intent": "informational",
+      "spokes": [
+        "centralized-vs-decentralized-recruitment",
+        "direct-vs-indirect-hiring-costs-whats-overlooked",
+        "internal-mobility-vs-external-hiring",
+        "internal-vs-external-recruitment-methods",
+        "internal-vs-external-sources-of-recruitment",
+        "recruitment-vs-executive-search",
+        "recruitment-vs-talent-acquisition",
+        "staff-augmentation-vs-outsourcing"
+      ]
+    },
+    {
+      "pillar": "Interviewing, Bias & Assessment Approaches Compared",
+      "theme": "Competitor Alternatives",
+      "intent": "informational",
+      "spokes": [
+        "ai-interviewer-vs-human-interviewer",
+        "culture-fit-vs-skill-fit",
+        "deductive-vs-inductive-reasoning",
+        "implicit-vs-explicit-bias",
+        "leadership-vs-management-in-project-management",
+        "structured-vs-unstructured-interviews"
+      ]
+    }
+  ],
+  "orphans": []
+}

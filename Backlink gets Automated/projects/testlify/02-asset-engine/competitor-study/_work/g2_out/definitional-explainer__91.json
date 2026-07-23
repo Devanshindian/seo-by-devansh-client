@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2632,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "A generic explainer on why team dynamics matter and how to manage them, leaning on a borrowed healthcare-OR statistic (30% of communication attempts fail in operating rooms) as its main evidence for a general-workplace claim; the entire piece is about improving dynamics inside a team that already exists \u2014 it never addresses how to spot team-fit signals in a candidate before they're hired.",
+    "asset": "Assessing Team Fit at the Interview Stage, Not After the New Hire Struggles",
+    "distinct_angle": "Their page explains post-hire team dynamics using a borrowed healthcare stat as its central evidence; ours flips the timing entirely, giving recruiters concrete interview questions and behavioral signals that predict team-fit before an offer goes out \u2014 the pre-hire angle their page never touches.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: post-hire team collaboration/culture management"
+  },
+  {
+    "row_id": 2637,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers only two delivery formats (in-interview vs. pre-interview coding tests) and repeats an unsourced '50% reduction in interview rate' stat with no citation or year; the trait breakdown (logical reasoning, language proficiency, workplace potential) stays surface-level and never once addresses the current biggest problem in coding assessments \u2014 candidates using AI coding assistants like Copilot or ChatGPT to pass \u2014 nor offers a worked example test or scoring rubric.",
+    "asset": "Coding Tests That Still Work Now That Every Candidate Has Copilot",
+    "distinct_angle": "WeCP's page describes coding-test types and traits abstractly with an unsourced 50%-reduction stat and no worked example; ours tackles the live 2026 problem of AI-assisted cheating on take-home and live coding tests, with concrete detection methods and a sample scoring rubric \u2014 the depth and currency their piece lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2644,
+    "brand_fit": "CORE",
+    "angle_gap": "Walks through Facebook, Apple, and Amazon's interview stages (resume screen, phone screen, whiteboard/take-home, multi-hour on-site, FaceTime rounds) as if describing current practice, but the process described reflects the pre-remote-hiring era; it never mentions the shift big tech has made toward async or AI-driven screening, structured scorecards, or adverse-impact concerns \u2014 and Google and Netflix are missing entirely from a piece framed as covering 'FAANG.'",
+    "asset": "How Big Tech Actually Screens Engineers Now, Not in the Whiteboard-Interview Era",
+    "distinct_angle": "Their page describes Facebook/Apple/Amazon's legacy on-site-heavy process and skips Google and Netflix entirely; ours covers all five companies and updates the process to how it runs today \u2014 remote-first screening, structured scorecards, and the compliance considerations their piece never raises.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2653,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Stacks a pile of unsourced statistics (Forbes 95%, HBR 50%/76%, Gallup 21%, CareerBuilder 73%) to argue why dependability matters, then offers generic coaching advice for developing it in employees who are already hired; it never gives recruiters a way to screen for dependability before extending an offer, despite reliability/conscientiousness being one of the most common pre-employment assessment categories.",
+    "asset": "The Interview and Test Signals That Actually Predict a Dependable Hire",
+    "distinct_angle": "Their page treats dependability as a trait to coach into current employees after hiring, backed by a pile of uncited stats; ours gives recruiters concrete pre-hire signals \u2014 structured interview probes and reliability-assessment criteria \u2014 to screen for the same trait before the offer goes out, closing the timing gap their piece leaves open.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: post-hire employee development/performance coaching"
+  },
+  {
+    "row_id": 2655,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines talent matching and argues its importance with vague, uncited statistics (45%/74% of employers reporting hiring difficulty, no year or source) and suspiciously tidy anonymized anecdotes (an unnamed 'marketing firm' hitting a round 40% engagement gain); despite the title promising 'Tools To Use,' it never actually compares any tools, and it never addresses the adverse-impact/bias risk of AI-driven candidate matching \u2014 a live compliance concern for any recruiter adopting this approach.",
+    "asset": "The Bias Risk Hiding Inside AI Talent Matching, and How to Audit for It",
+    "distinct_angle": "Their page leans on uncited stats and suspiciously tidy anonymized anecdotes with no real tool comparison despite the title's promise; ours replaces that with a concrete framework for auditing AI-matching tools for adverse impact \u2014 the compliance gap their piece never raises.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

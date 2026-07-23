@@ -1,0 +1,34 @@
+{
+  "kset": {
+    "primary": "cost per hire",
+    "variations": [
+      "costs per hire",
+      "cost of hire",
+      "cost to hire",
+      "hire cost"
+    ],
+    "secondaries": [
+      "calculate cost per hire",
+      "total cost of job formula"
+    ],
+    "in_body": [
+      "hard costs",
+      "soft costs",
+      "cost per hire by industry",
+      "cost per hire benchmark",
+      "SHRM average cost per hire"
+    ],
+    "h2_keywords": [
+      {
+        "keyword": "cost per hire",
+        "volume": 210,
+        "kd": 7
+      },
+      {
+        "keyword": "cost per hire calculator",
+        "volume": 110,
+        "kd": 0
+      }
+    ]
+  }
+}

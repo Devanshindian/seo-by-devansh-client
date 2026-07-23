@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1175,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "A 15-topic grab-bag of recruiting stats with no throughline \u2014 talent shortage, job ads, social recruiting, benefits, employer branding all dumped together with inconsistent sourcing (a 2014 White House projection sits next to 2024 Glassdoor data), and nothing on assessment or skills-testing despite 'hiring assessments statistics' being one of its own listed sections.",
+    "asset": "Recruiting Statistics Recruiters Can Still Defend in 2026",
+    "distinct_angle": "Re-verifies every stat against its current public source (dropping the 2014-era and undated figures this page still runs) and gives the hiring-assessment stats their own depth instead of one thin subsection buried among 14 others.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1186,
+    "brand_fit": "CORE",
+    "angle_gap": "Billed as the '2023 Edition' but leans on sources from 2014-2020 (Harvard Business School degree-tenure study, 2020 LinkedIn hard-skills list) with no organizing argument connecting them \u2014 it's a flat list, not a case for why skills-based hiring works, and it never ties any stat back to assessment validity, which is exactly Testlify's ground.",
+    "asset": "Skills-Based Hiring Statistics That Are Still True in 2026",
+    "distinct_angle": "Refreshes every citation to its current public figure, drops the stale tangential ones (old degree-tenure data), and threads the stats into a single argument for validated skills assessment \u2014 the currency and structure this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1201,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Framed as general workplace D&I (C-suite representation, promotion rates, pay-raise gaps) rather than hiring-stage bias \u2014 only 2 of the ~9 stats shown (blind-application callback rates, hiring-manager gender bias) actually touch the hiring decision, and none reference current hiring-bias regulation like NYC Local Law 144 or the EU AI Act.",
+    "asset": "Where Diversity Efforts Actually Break Down During Hiring",
+    "distinct_angle": "Narrows the stat set to the hiring stage specifically and adds the compliance angle (LL144, EU AI Act) this page never mentions, instead of the broader post-hire workplace stats it's padded with.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1224,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans on aging, loosely-dated citations (the 'resume whitening' callback study, an undated PwC gender-discrimination figure) and its 'Pros and Cons' section never mentions the modern alternative \u2014 structured, skills-based assessment \u2014 as a way to get blind hiring's bias-reduction benefits without its stated cons (no cultural-fit signal, breaks referrals).",
+    "asset": "Blind Hiring's Bias Numbers, and What Replaces It Once You're Past Resume Screening",
+    "distinct_angle": "Updates the aging citations to current public figures and extends the pros/cons into how skills-based assessment solves blind hiring's own listed weaknesses (cultural fit, referrals) \u2014 the connective angle this page never draws.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1533,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 onboarding is a post-hire HR process (belongs to HRIS/onboarding-software world, sourced here from BambooHR/TalentLMS), outside Testlify's pre-hire skills-assessment and screening territory"
+  }
+]

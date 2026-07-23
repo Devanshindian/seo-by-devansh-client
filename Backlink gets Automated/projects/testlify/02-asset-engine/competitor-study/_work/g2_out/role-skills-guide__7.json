@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1347,
+    "brand_fit": "CORE",
+    "angle_gap": "Title promises 'and how to assess them' for 20 skills (9 fundamental + 11 secondary), but every skill section is a 2-3 sentence definition of what the skill is used for \u2014 none show an actual way to assess it (no sample task, no interview probe, no strong-vs-weak answer signal). The one section titled 'How to assess Marketing Associate skills and traits' just repeats generic advice and links out to unrelated JD guides (Data Analyst, CRM Manager) instead of answering in place.",
+    "asset": "What a Marketing Associate's SEO, CRM, and PPC Skills Actually Look Like on the Job",
+    "distinct_angle": "Pairs each of the 20 listed skills (SEO, PPC, CRM, email marketing, etc.) with a concrete scenario or sample task and what a strong vs. weak answer looks like \u2014 the assessment substance Adaface's title promises but never delivers in the body.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1348,
+    "brand_fit": "CORE",
+    "angle_gap": "Same shallow pattern as their other role-skills pages: ETL, data governance, and data security are each given a generic 2-sentence description (e.g. 'Data Managers implement security measures like encryption') with no example of what a real governance policy gap or ETL failure looks like, and no way to distinguish a candidate who's actually run these processes from one reciting textbook terms.",
+    "asset": "Data Manager Skills That Look Good on a Resume But Fall Apart in Real ETL and Governance Work",
+    "distinct_angle": "Replaces the abstract skill definitions with worked scenarios (a data governance policy gap, an ETL pipeline failure, a GDPR compliance edge case) that separate real proficiency from buzzword familiarity \u2014 depth this page's one-paragraph-per-skill format never reaches.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1349,
+    "brand_fit": "CORE",
+    "angle_gap": "Names specific tools per skill (Terraform, Kubernetes, Prometheus/Grafana/ELK) but gives only a one-paragraph definition of what each tool category does \u2014 no incident scenario, no sample IaC or on-call question, and nothing that would reveal whether a candidate has actually run these tools under pressure versus just knowing the names.",
+    "asset": "DevOps Engineer Skills You Can't Verify From a Resume \u2014 What to Ask Instead",
+    "distinct_angle": "Turns each named tool category (CI/CD, IaC, orchestration, monitoring) into a concrete incident-response or deployment scenario with strong/weak answer signals, filling the assessment gap this page's tool-name-dropping never closes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1350,
+    "brand_fit": "CORE",
+    "angle_gap": "The Security Practices section names SQL injection, CSRF, and XSS by name but never shows a vulnerable code snippet or a probing question to test whether a candidate can actually spot or fix one \u2014 same one-paragraph-definition treatment as every other skill on the page, with real assessment deferred to an unrelated linked guide.",
+    "asset": "The Django Security and API Bugs Most Interviews Never Actually Show a Candidate",
+    "distinct_angle": "Replaces the named-but-undemonstrated vulnerabilities (CSRF, SQL injection, XSS) and API/ORM skills with actual code-review scenarios (a vulnerable snippet, an N+1 query) a writer can build from public Django documentation, where this page only lists the terms.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1351,
+    "brand_fit": "CORE",
+    "angle_gap": "Backup Management and Performance Tuning are each summarized in one generic paragraph ('must know how to set up and monitor backup protocols... perform restorations') with no worked restore-from-corruption scenario or slow-query optimization case \u2014 the page never shows what distinguishes a DBA who has actually done this from one who can describe it.",
+    "asset": "How to Tell a Database Administrator Who's Actually Restored a Failed Backup From One Who's Only Read About It",
+    "distinct_angle": "Builds scenario-based probes (a corrupted-backup restore walkthrough, a slow-query tuning case) around the skills this page only names abstractly, giving the concrete assessment detail its 'how to assess' framing never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

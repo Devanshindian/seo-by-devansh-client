@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1138,
+    "brand_fit": "CORE",
+    "angle_gap": "Vendor-specific description of the EPP/CPI Openness scale with no sample questions, no discussion of validity or adverse impact, and thin content padded out mainly by a 'Top Jobs' list.",
+    "asset": "Creativity Screening Questions That Reveal Real Job Fit, Not Just an Openness Score",
+    "distinct_angle": "Shows real sample questions and job-fit scoring guidance instead of the two-paragraph vendor-tool description (EPP/CPI) that Criteria Corp offers with no visible questions or interpretation.",
+    "tool_escalation": "The competitor page is itself a live pre-employment test, so beating it means shipping an actual creativity assessment with real questions and scoring, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1172,
+    "brand_fit": "CORE",
+    "angle_gap": "A flat wall of 100+ skill tags with no guidance on which combination fits a given engineering role, and no mention of AI-copilot/LLM-assisted cheating despite the page's 'non-googleable' claim.",
+    "asset": "Coding Test Questions That Still Work in the Age of AI Copilots",
+    "distinct_angle": "Organizes coding questions into role-specific skill bundles and addresses AI-copilot/LLM cheating risk, which Adaface's flat 100+ tag list and generic 'non-googleable' claim never cover.",
+    "tool_escalation": "The competitor page is itself a live coding-test product, so matching it means building an actual test with real questions, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1180,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists 14 covered Excel skills but gives no benchmark for what separates a strong from a weak score, and no mention of proctoring safeguards for a take-home-style spreadsheet test.",
+    "asset": "Excel Screening Questions That Show Whether a Candidate Can Actually Model Data",
+    "distinct_angle": "Adds an explicit strong-vs-weak candidate scoring benchmark and remote-proctoring guidance that Adaface's skills list never provides.",
+    "tool_escalation": "The competitor page is itself a live Excel test, so matching it means building an actual test with real questions, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1181,
+    "brand_fit": "CORE",
+    "angle_gap": "Dumps 11 Java skill areas (OOPs through multi-threading) with no seniority calibration, so junior and senior candidates would face the same undifferentiated question set.",
+    "asset": "Java Screening Questions Calibrated to Junior vs. Senior Skill Levels",
+    "distinct_angle": "Adds a seniority-calibrated rubric (junior vs mid vs senior Java competencies) that Adaface's flat 11-skill list doesn't provide.",
+    "tool_escalation": "The competitor page is itself a live Java test, so matching it means building an actual test with real questions, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1184,
+    "brand_fit": "CORE",
+    "angle_gap": "14 'covered skills' bullets are largely redundant restatements of the same 4 tags (Aptitude, Logical Reasoning, Lateral Thinking, Problem-solving), and unlike Criteria Corp's creativity page it never maps the test to specific roles that need it.",
+    "asset": "Critical Thinking Questions Mapped to the Roles That Actually Need Them",
+    "distinct_angle": "Cuts the redundant skill-bullet padding and adds a role-mapping section showing which jobs most need critical thinking, which Adaface's page never includes.",
+    "tool_escalation": "The competitor page is itself a live critical-thinking test, so matching it means building an actual test with real questions, not an article.",
+    "g_notes": ""
+  }
+]

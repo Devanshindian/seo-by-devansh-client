@@ -1,0 +1,20 @@
+[
+  {
+    "row_id": 1845,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 page is a Stack Overflow Boolean/X-ray query generator for sourcing developer candidates; passive-candidate sourcing sits outside Testlify's world (skills assessment/testing) per brand scope, and the scraped text is generic homepage marketing (AIRA, case studies, testimonials) with no tool-specific content to build a gap from."
+  },
+  {
+    "row_id": 2892,
+    "brand_fit": "CORE",
+    "angle_gap": "The page surfaces the tension with survey stats (76% say hiring too fast causes poor fit; 3 in 10 new hires don't work out; two-thirds want to change how they recruit) but never resolves it \u2014 the actual fix is locked behind a gated PDF download, no methodology or survey year is given (so the numbers can't be checked as current), and there's no mention of skills-based screening as the mechanism that lets you hire fast without sacrificing fit.",
+    "asset": "Where Rushing to Fill a Role Actually Costs You Candidate Fit",
+    "distinct_angle": "Ungates the resolution Thomas.co teases behind a PDF download: shows, with current sourced figures (not an unstated-year survey), how skills-based screening closes the speed-vs-fit gap their own stats expose.",
+    "tool_escalation": "format tag is itself a tool (an interactive curve placing the user's hiring speed against fit risk); the scoring/placement mechanic needs an actual build, not something a writer can produce from public sources.",
+    "g_notes": ""
+  }
+]

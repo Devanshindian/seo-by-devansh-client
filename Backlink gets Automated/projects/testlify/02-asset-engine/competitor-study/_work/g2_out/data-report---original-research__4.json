@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2220,
+    "brand_fit": "CORE",
+    "angle_gap": "Gated behind a download form with only three teaser stats surfaced publicly (42.6% overall employability, 41.7% female employability, 46.1% AI/ML job-readiness) despite claiming state-wise and tier-wise analysis across 2,700+ campuses and 1M+ students \u2014 a searcher gets headline numbers but no way to see the breakdown without handing over contact info.",
+    "asset": "What India's Graduate Employability Numbers Actually Mean for Your Campus Hiring Funnel",
+    "distinct_angle": "Synthesizes the same class of public graduate-employability metrics into an ungated, skill-by-skill and role-by-role breakdown recruiters can act on, instead of gating the detail Mettl only teases behind a lead form.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2339,
+    "brand_fit": "CORE",
+    "angle_gap": "Titled '2024' but built on hiring behavior from 2023, so by now it's two years stale on fast-moving territory (AI in hiring, gig/flexible work); its AI bullet ('AI will be used extensively in hiring and proficiency in AI for candidates is a must') is a single unsupported line with no detail on how AI is actually used in interviews or screening.",
+    "asset": "What Current Hiring Data Says About AI Interviewing and Skills-Based Recruiting",
+    "distinct_angle": "Refreshes the same category of stats (top-talent attraction, candidate experience, AI proficiency) with current public survey data and replaces the one-line AI claim with concrete detail on how AI interviewing and behavioral screening are actually being used.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2379,
+    "brand_fit": "CORE",
+    "angle_gap": "Survey of only 60+ HR respondents from 2018, now seven-plus years stale, yet its findings (37% valuing future-readiness aptitude, preference for in-house development) are presented as current guidance with no acknowledgment of how assessment-driven hiring has changed since \u2014 no AI-interviewing, no skills-based hiring shift, none of it addressed.",
+    "asset": "How Talent Assessment Practices Have Actually Changed Since This 2018 Survey",
+    "distinct_angle": "Sets this 60-respondent 2018 snapshot against current public benchmarks on assessment-tech adoption and predictive hiring analytics, showing what's actually shifted in the skills-based and AI-assessment era it predates.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2383,
+    "brand_fit": "CORE",
+    "angle_gap": "Framed as research-backed ('based on extensive research,' 'industry reports and statistics') but contains zero actual numbers \u2014 every claim is a generic bullet ('identify competencies needed,' 'measure ROI') with no cited figures, benchmarks, or worked example of a real L&D program.",
+    "asset": "What the Data Actually Says About Closing Skills Gaps Through Assessment-Led L&D",
+    "distinct_angle": "Backs each recommendation with a real public benchmark or stat on training ROI and skills-gap reskilling, where this ebook offers only unsupported bullet advice despite framing itself as research.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2388,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists eight-plus use cases for psychometric and cognitive pre-employment tests (campus recruitment, leadership hiring, retention, performance assessment) without ever addressing validity or adverse-impact/EEOC defensibility for any of them \u2014 the compliance question a TA lead actually asks before adopting a test type is never answered.",
+    "asset": "Which Pre-Employment Psychometric Tests Actually Hold Up to an EEOC Audit",
+    "distinct_angle": "Adds the validity and adverse-impact analysis for each cognitive/psychometric test type this 2019 ebook only names, closing the legal-defensibility question it never raises.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3179,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 candidate-facing interview prep (job-seeker advice), not hiring-side content; explicitly off-limits per brand scope"
+  },
+  {
+    "row_id": 3200,
+    "brand_fit": "CORE",
+    "angle_gap": "Purely anecdotal personal-opinion piece from one content marketer on 'characteristics I like in a writer' \u2014 no structured way to evaluate those traits before hiring, no interview questions, no work-sample criteria; a hiring manager reading it still has no repeatable process to tell a curious, fresh-voiced writer from someone who interviews well but can't deliver.",
+    "asset": "How to Evaluate a Copywriter's Storytelling and Range Before You Hire Them",
+    "distinct_angle": "Turns the author's subjective checklist (curiosity, humor, storytelling) into a structured pre-hire evaluation \u2014 sample prompts and criteria a recruiter can actually score against, which the original never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3204,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans on a single third-party stat set (attributed to 'Lever', undated in the visible text) and treats screening as a one-line touchpoint ('are candidates aware of the success criteria') without ever explaining how to make screening transparent or fair \u2014 no mention of structured, skills-based assessment as the mechanism for a better candidate experience at that stage.",
+    "asset": "Fixing the Screening Stage of Candidate Experience with Transparent Skills Assessments",
+    "distinct_angle": "Goes deep on the one stage (screening) the page treats as a throwaway bullet, showing how a transparent, skills-based process \u2014 not just 'good communication' \u2014 is what actually improves candidate experience there.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3213,
+    "brand_fit": "CORE",
+    "angle_gap": "Thin, promo-driven recruitment guide: a bullet list of duties and one vague 'Skills needed' paragraph, then pivots straight into a CTA to sign up for their assessment library \u2014 no actual interview questions, no breakdown of which skills to test for and how, no worked example of evaluating a candidate.",
+    "asset": "How to Hire a Warehouse Manager Who Can Actually Run the Floor, Not Just Talk About It",
+    "distinct_angle": "Replaces the vague 'skills needed' paragraph and sales pivot with concrete, testable competencies (inventory systems, staff scheduling, safety compliance) and sample interview questions tied to each \u2014 the depth this page skips in favor of a signup CTA.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3218,
+    "brand_fit": "CORE",
+    "angle_gap": "Skills testing is raised as step one but never developed \u2014 'customize a skills test with real-world tasks' is a single sentence with no guidance on what to test, how to weight it against the referral relationship, or how to keep the process consistent across referred vs. non-referred candidates; the piece then drifts into group interviews and reference checks without tying back to the skills-based framing it opened with.",
+    "asset": "Building a Skills-Based Vetting Process That Treats Referrals Like Every Other Candidate",
+    "distinct_angle": "Develops the one-line 'customize a skills test' suggestion into an actual framework \u2014 what to test, how to score it identically for referred and non-referred candidates \u2014 closing the gap this page opens and abandons.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

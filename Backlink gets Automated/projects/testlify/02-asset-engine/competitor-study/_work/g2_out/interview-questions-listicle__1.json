@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1231,
+    "brand_fit": "CORE",
+    "angle_gap": "The freshers section leans entirely on whimsical hypotheticals (soda launch, toy cars, lemonade stand, sneakers vs boots) with narrative model answers but never names the actual frameworks a market analyst uses daily \u2014 TAM/SAM/SOM sizing, SWOT, Porter's Five Forces \u2014 or a rubric for telling a strong answer from a weak one, so a hiring manager reading this still can't calibrate scoring.",
+    "asset": "Market Analyst Interview Questions Graded Against the Frameworks They Actually Use on the Job",
+    "distinct_angle": "Ties each scenario question to the specific framework a market analyst would apply (TAM/SAM/SOM, SWOT, competitive-intel tooling) and adds a pass/fail rubric per answer, replacing the framework-free narrative answers this page relies on.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1232,
+    "brand_fit": "CORE",
+    "angle_gap": "The general and junior answers are textbook-generic (KNN imputation, decision-tree definitions, retail market-basket analysis) with no red-flag/green-flag guidance for telling a candidate who has memorized definitions apart from one who has actually cleaned messy production data at scale.",
+    "asset": "Data Mining Interview Questions That Separate Memorized Theory From Production Experience",
+    "distinct_angle": "Adds explicit red-flag/green-flag interviewer guidance per question so a rehearsed textbook answer can be told apart from real hands-on production-data experience \u2014 the calibration this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1233,
+    "brand_fit": "CORE",
+    "angle_gap": "The 16-question basic tier is a bare bullet list with zero model answers or evaluation guidance, and the deeper sections describe Android via XML-era concepts (LayoutInflater, ViewModel wiring) while never once mentioning Jetpack Compose, Google's recommended UI toolkit since 2023 \u2014 a currency gap for anyone hiring an Android developer today.",
+    "asset": "Android Developer Interview Questions Updated for the Jetpack Compose Era",
+    "distinct_angle": "Fills the answer-free basic tier with real model answers and adds the Jetpack Compose questions this page skips entirely despite being published after Compose became Android's standard UI toolkit.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1237,
+    "brand_fit": "CORE",
+    "angle_gap": "Native Modules are explained purely through the legacy JavaScript bridge, and the page never mentions Fabric, TurboModules, or JSI \u2014 the New Architecture that shipped as React Native's default in version 0.76, released before this page's September 2024 publish date \u2014 so a candidate describing 'the old bridge' would sound correct here when it's outdated.",
+    "asset": "React Native Interview Questions That Actually Test the New Architecture",
+    "distinct_angle": "Replaces the legacy-bridge-only framing with questions on Fabric, TurboModules, and JSI, the New Architecture that was already default before this page went live, closing its currency gap.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1242,
+    "brand_fit": "CORE",
+    "angle_gap": "The basic tier (what is TypeScript, what is an interface, what does `any` do) tests pure definition recall \u2014 none of the shown questions hand the candidate a code snippet and ask them to spot a type-safety problem or judge whether `any` creeping into a PR is acceptable, which is the actual signal a hiring manager needs.",
+    "asset": "TypeScript Interview Questions That Test Judgment on Real Code, Not Definitions",
+    "distinct_angle": "Swaps recall-style definition prompts for short code snippets where the candidate has to spot a type-safety issue or judge acceptable `any` use, testing applied judgment instead of the vocabulary recall this page relies on.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2975,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire performance/development feedback cadence, not pre-hire assessment; falls under post-hire performance management, which is explicitly off-limits."
+  },
+  {
+    "row_id": 2977,
+    "brand_fit": "CORE",
+    "angle_gap": "The page debates whether generic unconscious bias training 'works' but never resolves it into an actionable alternative for hiring \u2014 it lists 7 bias types and a 7-step generic training program, but stops short of connecting bias reduction to structured, skills-based candidate evaluation, and leans on a single 2016-17 callback-rate study without any current figure.",
+    "asset": "Why Bias Training Doesn't Fix Hiring Decisions \u2014 and What Actually Does",
+    "distinct_angle": "Goes past the 'does UBT work' debate the page never resolves and grounds the answer in structured, skills-based assessment as the concrete fix for hiring-stage bias, refreshing the dated 2016-17 callback-rate stat with the current public figure.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2987,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 workplace empathy/culture is post-hire engagement content, explicitly off-limits even though it touches EQ; not a hiring or assessment subject."
+  },
+  {
+    "row_id": 2992,
+    "brand_fit": "CORE",
+    "angle_gap": "The page defines 6 HiPo traits (ability, aspiration, relationships, behaviour, adaptability, leadership) and 3 dimensions (career, growth, foundational) purely conceptually \u2014 it never maps any trait to a specific assessment type or shows how to actually score one, so a reader still doesn't know which test to run for which trait.",
+    "asset": "Mapping the 6 High-Potential Traits to the Assessments That Actually Measure Them",
+    "distinct_angle": "Fills the practical gap the page leaves open by pairing each of its 6 traits with the specific assessment type and scoring approach that measures it, instead of stopping at the conceptual framework.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2996,
+    "brand_fit": "CORE",
+    "angle_gap": "The page defines competency frameworks, their purpose, and how to build one in the abstract (including hard-vs-soft skill distinctions), but never shows a worked example framework for an actual role family, and never addresses adverse-impact/EEOC defensibility \u2014 a real risk for any framework used in hiring decisions.",
+    "asset": "Competency Frameworks That Hold Up in an EEOC Audit, Role by Role",
+    "distinct_angle": "Adds the worked, role-by-role framework example and the adverse-impact/EEOC-defensibility lens the page never covers, moving past its purely abstract treatment.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

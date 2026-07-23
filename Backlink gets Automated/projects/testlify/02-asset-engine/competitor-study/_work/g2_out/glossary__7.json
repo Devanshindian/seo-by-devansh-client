@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2304,
+    "brand_fit": "CORE",
+    "angle_gap": "The whole entry is two short paragraphs defining cognitive intelligence generically ('ability to generate knowledge using existing information'); it never names an actual cognitive-ability test format, never distinguishes cognitive intelligence from IQ/aptitude, and gives zero examples of how a score translates into on-the-job performance.",
+    "asset": "Cognitive Ability in Hiring: What It Actually Predicts and How to Measure It",
+    "distinct_angle": "Where Mettl's definition stops at 'ability to generate knowledge,' ours breaks cognitive intelligence into the specific sub-abilities (reasoning, memory, attention) recruiters can test for and ties each to a job-performance example \u2014 the concrete depth this page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2341,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines the five traits in the abstract (Openness, Conscientiousness, etc.) and asserts the test 'predicts job performance' without a single worked example \u2014 no sample item, no explanation of what a high or low score on any one trait actually looks like in workplace behavior.",
+    "asset": "What a High vs. Low Score on Each Big Five Trait Looks Like on the Job",
+    "distinct_angle": "goes past Mettl's abstract trait list to show what a high and low score on each of the five traits actually looks like in workplace behavior \u2014 the worked, job-relevant detail this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2365,
+    "brand_fit": "CORE",
+    "angle_gap": "Treats 'coding skills' as one monolithic thing ('write commands... create software, games, apps') and never breaks down what specific skills (language proficiency, DSA, debugging, code review) a hiring team should test for, or how the bar differs by role or seniority.",
+    "asset": "The Coding Skills That Actually Separate Job-Ready Developers by Role",
+    "distinct_angle": "unpacks 'coding skills' into the specific competencies (language proficiency, algorithmic reasoning, debugging, code review) that differ by role and seniority \u2014 the breakdown this page's one-size-fits-all definition never attempts.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2368,
+    "brand_fit": "CORE",
+    "angle_gap": "Near-identical shallow treatment to Mettl's own Big Five entry \u2014 defines OCEAN as five factors in the abstract and adds only that it 'can contain subgroups of related personality characteristics' without ever naming those subgroups (facets) or how they're used in an actual assessment.",
+    "asset": "The Facets Inside Each OCEAN Trait Recruiters Should Actually Test For",
+    "distinct_angle": "names the actual facets inside each OCEAN factor (e.g. the six facets under Conscientiousness) and how they surface in hiring assessments \u2014 the one specific thing this page gestures at ('can contain subgroups') but never explains.",
+    "tool_escalation": "",
+    "g_notes": "near-duplicate subject to row 2341 (Big Five/OCEAN); differentiated here via facet-level depth rather than trait-level examples"
+  },
+  {
+    "row_id": 2390,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines proctoring software generically (verifies identity, locks browser, monitors behavior) but never covers the specific integrity signals modern AI-assisted cheating requires (tab-switching, gaze/audio anomalies, AI-text detection), nor the accuracy/false-positive trade-offs a buyer needs to evaluate a vendor.",
+    "asset": "What Online Proctoring Actually Catches in the Age of AI-Assisted Cheating",
+    "distinct_angle": "covers the specific integrity signals (tab-switching, gaze tracking, AI-text detection) and the false-positive trade-offs modern proctoring must handle \u2014 the concrete, current detail this generic definition skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

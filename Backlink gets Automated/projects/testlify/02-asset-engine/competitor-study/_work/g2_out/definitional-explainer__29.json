@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 610,
+    "brand_fit": "CORE",
+    "angle_gap": "Every 'why assessing matters' bullet (efficient data analysis, streamlined integration, optimized performance, unified querying, scalability) restates the same abstract benefit in different words \u2014 the page never shows a real Trino query, a sample interview question, or how to tell a candidate who's read the docs from one who's run Trino in production.",
+    "asset": "What Real Trino Proficiency Looks Like in a Data Engineering Interview",
+    "distinct_angle": "Replaces the five repeated 'why it matters' bullets with real sample interview questions and a worked query scenario that separates hands-on Trino experience from memorized documentation.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 611,
+    "brand_fit": "CORE",
+    "angle_gap": "The five 'why assessing matters' bullets (database efficiency, data integrity, query optimization, problem-solving, collaboration) all restate the same core idea, and the 'assessing' section only points to a generic multi-choice or coding test \u2014 no actual schema example or interview question appears anywhere on the page.",
+    "asset": "Foreign-Key Interview Questions That Reveal Real Schema-Design Skill",
+    "distinct_angle": "Adds a worked schema example and concrete interview scenarios (e.g. a one-to-many vs many-to-many design call) in place of the repeated abstract bullets, giving hiring teams something they can actually run.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 612,
+    "brand_fit": "CORE",
+    "angle_gap": "Describes what heat maps are useful for (spotting trends, anomalies, cross-team communication) entirely in the abstract \u2014 never shows an actual heat map, a sample dataset, or a concrete interview prompt a hiring manager could hand a candidate to interpret.",
+    "asset": "Heat-Map Interview Prompts That Reveal Real Data-Analysis Skill",
+    "distinct_angle": "Pairs the concept with an actual sample heat map and a scenario-based interpretation task, replacing the page's purely descriptive claims with something an interviewer can score.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 613,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'how to assess' section names two test types (written communication test, role-playing scenario) but supplies no example scenario script or scoring guidance \u2014 just generic tips like 'know your audience' and 'be consistent' that repeat the definition section almost verbatim.",
+    "asset": "Multichannel Communication Scenarios That Separate Real Skill From Rehearsed Answers",
+    "distinct_angle": "Supplies an actual role-play script (customer call followed by a written follow-up) and a scoring rubric for channel-switching, replacing the page's generic tips with a runnable assessment.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 614,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'why assessing matters' and 'key aspects' sections repeat generic content-marketing advice (topic research, planning, tone, SEO technique) without ever showing a real writing prompt, sample brief, or model answer a hiring team could use to score actual output.",
+    "asset": "Content Generation Prompts That Reveal Real Writing Skill, Not SEO Theory",
+    "distinct_angle": "Swaps the abstract content-strategy lecture for an actual sample writing brief and model answer, so hiring teams score real produced content instead of a candidate's grasp of SEO theory.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

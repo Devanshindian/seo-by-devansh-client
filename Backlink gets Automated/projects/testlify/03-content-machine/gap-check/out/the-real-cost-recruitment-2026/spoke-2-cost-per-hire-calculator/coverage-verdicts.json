@@ -1,0 +1,198 @@
+{
+  "asset_title": "How to Calculate Your True Cost Per Hire, Not the Industry Average",
+  "distinct_angle": "Lays out the exact hard-cost and soft-cost line items with 2026 benchmark ranges by role and hiring volume, so a reader can build their own number instead of quoting the generic SHRM figure \u2014 the same inputs the pillar's cost breakdown uses.",
+  "verdicts": [
+    {
+      "id": "secondary_kw-1",
+      "type": "secondary_kw",
+      "item": "calculate cost per hire",
+      "verdict": "covered",
+      "reason": "Dossier gives the exact formula, worked numeric examples, and a full component breakdown, more than enough to write a build-your-own-number section",
+      "evidence": "The baseline, widely cited formula for cost per hire (CPH) is straightforward: CPH = (External Costs + Internal Costs) \u00f7 Total Number of Hires in a Time Period[19]."
+    },
+    {
+      "id": "secondary_kw-2",
+      "type": "secondary_kw",
+      "item": "total cost of job formula",
+      "verdict": "covered",
+      "reason": "The dossier gives the full CPH formula with named internal/external cost components, its standardization, and multiple fully itemized worked examples with dollar figures \u2014 enough to write a complete formula-naming section.",
+      "evidence": "The accepted formula is: Cost per Hire = (Total Internal Recruiting Costs + Total External Recruiting Costs) / Total Number of Hires in a given time period[3][19][1]"
+    },
+    {
+      "id": "in_body-1",
+      "type": "in_body",
+      "item": "hard costs",
+      "verdict": "covered",
+      "reason": "Dossier defines hard costs, gives concrete examples, and quantifies their share of total hiring spend",
+      "evidence": "HR practitioners further split these components into two practical buckets: hard costs are tangible, easily trackable expenses such as job board fees and agency invoices, while soft costs are intangible expenses such as the time an internal manager spends on the process[24]."
+    },
+    {
+      "id": "in_body-2",
+      "type": "in_body",
+      "item": "soft costs",
+      "verdict": "covered",
+      "reason": "Dossier defines soft costs as intangible internal time costs, quantifies their share (~60% of total hiring cost per Edie Goldberg), and details specific soft-cost line items like hiring manager and recruiter interview time with worked dollar examples.",
+      "evidence": "HR practitioners further split these components into two practical buckets: hard costs are tangible, easily trackable expenses such as job board fees and agency invoices, while soft costs are intangible expenses such as the time an internal manager spends on the process[24]."
+    },
+    {
+      "id": "in_body-3",
+      "type": "in_body",
+      "item": "cost per hire by industry",
+      "verdict": "covered",
+      "reason": "Dossier gives specific per-industry CPH figures (healthcare, skilled trades, legal, plus role-tier breakdowns) with dollar ranges and context.",
+      "evidence": "One benchmark set shows healthcare at $9,000\u2013$12,000, skilled trades at $12,000+, and legal/professional services at $16,000\u2013$20,000[10]."
+    },
+    {
+      "id": "in_body-4",
+      "type": "in_body",
+      "item": "cost per hire benchmark",
+      "verdict": "covered",
+      "reason": "Dossier gives multiple concrete 2026-relevant benchmark figures broken out by role, seniority, industry, and company size, not just a single generic average.",
+      "evidence": "The SHRM 2025 Benchmarking Report puts average cost per hire at $5,475 for all industries in non-executive roles, and $35,879 for executive roles[6]."
+    },
+    {
+      "id": "in_body-5",
+      "type": "in_body",
+      "item": "SHRM average cost per hire",
+      "verdict": "covered",
+      "reason": "Dossier gives multiple SHRM figures with dates, sample sizes, and methodology (2015's $4,129, 2025's $5,475/$35,879), enough for a full section.",
+      "evidence": "The SHRM 2025 Benchmarking Report puts average cost per hire at $5,475 for all industries in non-executive roles, and $35,879 for executive roles[6]."
+    },
+    {
+      "id": "winner_h2-1",
+      "type": "winner_h2",
+      "item": "What is cost per hire (definition)",
+      "verdict": "covered",
+      "reason": "Dossier gives both a plain-language definition and the formal SHRM/ANSI standard definition plus the formula, more than enough to write the section.",
+      "evidence": "Cost per hire (CPH) is a standardized recruiting metric that captures the average amount an organization spends to fill one open position, combining both the money paid to outside vendors and the internal labor and overhead consumed by the hiring process[1]."
+    },
+    {
+      "id": "winner_h2-2",
+      "type": "winner_h2",
+      "item": "The cost per hire formula",
+      "verdict": "covered",
+      "reason": "The dossier states the formula explicitly, names its ANSI/SHRM standardization, breaks down internal/external components, and gives multiple worked numeric examples.",
+      "evidence": "The accepted formula is: Cost per Hire = (Total Internal Recruiting Costs + Total External Recruiting Costs) / Total Number of Hires in a given time period[3][19][1]."
+    },
+    {
+      "id": "winner_h2-3",
+      "type": "winner_h2",
+      "item": "Internal costs",
+      "verdict": "covered",
+      "reason": "Dossier has a dedicated Internal Costs section with a full itemized list and worked examples of amounts.",
+      "evidence": "Recruiter salaries, benefits, and bonuses, allocated by the percentage of time spent on active recruiting. One worked example: a recruiter earning $80,000/year who spends 60% of their time recruiting contributes $48,000 to the cost-per-hire pool[11]."
+    },
+    {
+      "id": "winner_h2-4",
+      "type": "winner_h2",
+      "item": "External costs",
+      "verdict": "covered",
+      "reason": "Dossier has a dedicated External Costs section listing itemized line items with dollar ranges (job boards, agency fees, background checks, travel, etc.), enough to write a full section.",
+      "evidence": "External costs are third-party, invoiceable expenses \u2014 dollars that leave the organization \u2014 and are described as easier to calculate because vendors bill them directly[10][11]."
+    },
+    {
+      "id": "winner_h2-5",
+      "type": "winner_h2",
+      "item": "Total number of hires",
+      "verdict": "covered",
+      "reason": "The dossier has a dedicated subsection defining the denominator, its counting rules, and edge cases like declined offers.",
+      "evidence": "The denominator counts employees who accepted offers **and started** during the measurement period \u2014 not offers extended[23][11]."
+    },
+    {
+      "id": "winner_h2-6",
+      "type": "winner_h2",
+      "item": "Step-by-step calculation walkthrough",
+      "verdict": "covered",
+      "reason": "Dossier contains the formula, the internal/external cost taxonomy, and multiple fully itemized worked examples that walk from individual line items to a final per-hire figure, enough to build a step-by-step section.",
+      "evidence": "A two-month hiring period yielding 3 hires: internal costs totaling $26,080 (HR salary $20,000, ATS $50, background software $50, recruitment software $50, job board fees $30, job fair $150, travel to job fair $500, onboarding $2,250 at 10 hours \u00d7 3 employees \u00d7 $75/hour, and productivity loss of $3,000 at 30 hours \u00d7 $100/hour) plus external costs of $1,200 (agency fees $500, travel to job fair $500, legal fees $200) = $27,280 \u00f7 3 hires = **$9,093.33 per hire**[24]."
+    },
+    {
+      "id": "winner_h2-7",
+      "type": "winner_h2",
+      "item": "Why cost per hire matters",
+      "verdict": "covered",
+      "reason": "The dossier has an entire Applications section plus adoption-rate and quality-metric material laying out concrete reasons CPH matters: budgeting/forecasting, segmentation, sourcing-channel comparison, benchmarking, and its role as the most-tracked HR metric.",
+      "evidence": "Adoption of the metric remains high despite these caveats: Paychex's 2026 Business Leaders Priorities survey found cost per hire is the number one HR metric tracked by 47% of businesses with 5 to 19 employees, and by 54% of businesses with 20 to 49 employees[6]."
+    },
+    {
+      "id": "winner_h2-8",
+      "type": "winner_h2",
+      "item": "Benchmarks / average cost per hire statistics",
+      "verdict": "covered",
+      "reason": "Dossier has a dedicated section with multiple concrete benchmark figures (SHRM $4,129 and $5,475/$35,879, role-tier and industry-sector ranges) with sourcing and context on how each varies.",
+      "evidence": "More recent figures have superseded it. The SHRM 2025 Benchmarking Report puts average cost per hire at $5,475 for all industries in non-executive roles, and $35,879 for executive roles[6]."
+    },
+    {
+      "id": "winner_h2-9",
+      "type": "winner_h2",
+      "item": "A cost per hire calculator",
+      "verdict": "covered",
+      "reason": "The dossier has a dedicated subsection describing what CPH calculators are, the standard they're built on, and their exact inputs/outputs, enough to write a full section.",
+      "evidence": "Dedicated Cost-Per-Hire Calculators \u2014 also referred to as Recruitment Cost Calculators or Hiring Cost Calculators \u2014 are workforce analytics tools built around the ANSI/SHRM standard formula[15]."
+    },
+    {
+      "id": "gap_we_own-1",
+      "type": "gap_we_own",
+      "item": "Benchmark ranges segmented by role and by hiring volume \u2014 all three give one flat benchmark/statistics block, none break cost per hire out by role type or by annual hiring volume the way the distinct angle calls for.",
+      "verdict": "covered",
+      "reason": "The dossier gives concrete CPH ranges broken out both by role type (frontline, white-collar, executive vs non-executive, plus healthcare/skilled trades/legal sector splits) and by hiring volume (a distinct 'high-volume hiring' tier), enough to build the segmented benchmark table the angle calls for.",
+      "evidence": "Reported benchmarks include: frontline roles at $1,500\u2013$3,500 CPH (though with turnover exceeding 50%, the true annual cost per seat exceeds $4,000)[7]; white-collar roles at $5,000\u2013$15,000+ CPH, with higher retention driving stronger long-term ROI[7]; and high-volume hiring at $1,000\u2013$2,500 CPH through efficient processes[7]."
+    },
+    {
+      "id": "gap_we_own-2",
+      "type": "gap_we_own",
+      "item": "A hard-cost vs. soft-cost line-item framework \u2014 competitors categorize by internal/external only; none name the hard-cost/soft-cost split explicitly as its own structure.",
+      "verdict": "covered",
+      "reason": "Dossier defines hard vs. soft costs with concrete examples of each and gives a hard/soft percentage split, enough to write the section.",
+      "evidence": "HR practitioners further split these components into two practical buckets: **hard costs** are tangible, easily trackable expenses such as job board fees and agency invoices, while **soft costs** are intangible expenses such as the time an internal manager spends on the process[24]."
+    },
+    {
+      "id": "gap_we_own-3",
+      "type": "gap_we_own",
+      "item": "A calculator tied back to a pillar's broader cost breakdown \u2014 hiretruffle's calculator stands alone; none connect the line items to a wider cost-per-hire pillar the way this asset's angle requires.",
+      "verdict": "no",
+      "reason": "The dossier lists cost-per-hire calculators and their features but says nothing about which vendors' calculators are or aren't tied to a broader pillar page, so it doesn't cover this competitive-gap claim.",
+      "evidence": ""
+    },
+    {
+      "id": "paa-1",
+      "type": "paa",
+      "item": "How do I calculate cost per hire?",
+      "verdict": "covered",
+      "reason": "The dossier gives the full ANSI/SHRM formula, defines internal vs external cost components, and walks through multiple worked numeric examples.",
+      "evidence": "The baseline, widely cited formula for cost per hire (CPH) is straightforward: CPH = (External Costs + Internal Costs) \u00f7 Total Number of Hires in a Time Period[19]."
+    },
+    {
+      "id": "paa-2",
+      "type": "paa",
+      "item": "How to calculate cost per hire in SHRM?",
+      "verdict": "covered",
+      "reason": "The dossier gives the full ANSI/SHRM formula, its internal/external cost split, and worked examples, enough to write a direct answer.",
+      "evidence": "The accepted formula is:\nCost per Hire = (Total Internal Recruiting Costs + Total External Recruiting Costs) / Total Number of Hires in a given time period[3][19][1]"
+    },
+    {
+      "id": "paa-3",
+      "type": "paa",
+      "item": "How is Cph calculated?",
+      "verdict": "covered",
+      "reason": "Dossier gives the full formula and definition of the calculation directly.",
+      "evidence": "Cost per Hire = (Total Internal Recruiting Costs + Total External Recruiting Costs) / Total Number of Hires in a given time period[3][19][1]"
+    },
+    {
+      "id": "paa-4",
+      "type": "paa",
+      "item": "What is the average cost per hire in the US?",
+      "verdict": "covered",
+      "reason": "Dossier gives multiple sourced US average figures (SHRM $4,129 historic, $5,475 2025 non-executive, $35,879 executive) with context.",
+      "evidence": "The SHRM 2025 Benchmarking Report puts average cost per hire at $5,475 for all industries in non-executive roles, and $35,879 for executive roles[6]."
+    },
+    {
+      "id": "aio_subtopic-1",
+      "type": "aio_subtopic",
+      "item": "Defines cost per hire as the average spend to recruit a new employee (typically $4,500-$4,800), via the formula Internal Costs + External Costs / Total Hires; names Internal Costs (prorated recruiter/HR salaries, referral awards, hiring-manager interview time) and External Costs (job board fees, agency/search-firm fees, ATS costs, background checks, candidate travel/relocation); notes cost varies by company size, industry, and role seniority (specialized technical/C-suite: $15k-$30k+); flags quarterly tracking for budget optimization and ROI; points to the SHRM Cost-Per-Hire Standard for a consistent tracking process.",
+      "verdict": "covered",
+      "reason": "Dossier supplies the definition, the exact formula, itemized internal/external cost lists, variance by size/industry/seniority with dollar ranges, quarterly-tracking guidance, and the SHRM/ANSI standard, all with concrete figures a writer could draft a full answer from.",
+      "evidence": "Cost per hire (CPH) is a standardized recruiting metric that captures the average amount an organization spends to fill one open position, combining both the money paid to outside vendors and the internal labor and overhead consumed by the hiring process[1]."
+    }
+  ]
+}

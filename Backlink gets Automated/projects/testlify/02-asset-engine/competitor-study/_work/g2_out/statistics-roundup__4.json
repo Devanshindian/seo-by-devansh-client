@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3313,
+    "brand_fit": "CORE",
+    "angle_gap": "The stats are stitched from TestGorilla's own surveys across at least four different years (2022, 2023, 2024, 2025) with the year buried in prose rather than dated per stat, so a reader can't tell what's current; and despite covering AI elsewhere on the site, this page never touches AI-generated or fabricated resumes, a live 2025-2026 screening problem.",
+    "asset": "The Resume Statistics Everyone Cites That Are Already Out of Date",
+    "distinct_angle": "Dates every stat to its real survey year instead of blending 2022-2025 data together, and adds the AI-fabricated-resume figures this page omits entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3325,
+    "brand_fit": "CORE",
+    "angle_gap": "AI interviewing \u2014 Testlify's own product category \u2014 gets only 2 of 28 stats (#9 and #11) before the page moves on to unrelated interview-cost and scheduling trends; the depth is in traditional interview logistics, not in AI interview adoption or candidate trust in it.",
+    "asset": "The AI-Interview Statistics Every Other Roundup Buries",
+    "distinct_angle": "Expands the two AI-interviewing stats this page treats as a footnote into the full, current picture of AI interview adoption and candidate trust \u2014 the exact material it under-covers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3331,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 workplace wellness/wellbeing is post-hire employee experience, explicitly off-limits per brand scope (\"post-hire performance management... as ends in themselves\"), not a hiring/assessment subject"
+  },
+  {
+    "row_id": 3359,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 company culture/retention/DEI is a different product world (culture & engagement), not hiring/assessment; strict rule applies even though the buyer overlaps"
+  },
+  {
+    "row_id": 3414,
+    "brand_fit": "CORE",
+    "angle_gap": "The headline stat (\"23% of jobs will change by 2027\") is pulled from the WEF's 2023 Future of Jobs Survey without updating against WEF's newer report, and none of the six stats address how employers actually confirm an upskilling program produced a real, verifiable skill gain \u2014 it's all attitudes and intentions, no validation.",
+    "asset": "Why Most Upskilling Programs Never Prove the Skill Was Actually Gained",
+    "distinct_angle": "Refreshes the 2023 WEF projection with the current report's figures and adds the skills-validation gap this page never raises \u2014 that none of its stats touch how employers confirm upskilling worked.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2672,
+    "brand_fit": "CORE",
+    "angle_gap": "TestDome shows the raw prompts for written-response tasks (e.g. the 'Late Installation' angry-customer email) but never reveals what a strong vs. weak answer looks like or how it's scored \u2014 the page is opaque about the rubric behind 'top 25%'.",
+    "asset": "A Customer Service Screening Built on Visible Scoring Criteria, Not a Black-Box Rubric",
+    "distinct_angle": "Pairs each scenario with a stated rubric and example strong/weak response, closing the scoring-transparency gap TestDome's public sample questions leave open.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 this requires building an actual scored test, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2678,
+    "brand_fit": "CORE",
+    "angle_gap": "Sample questions (Mega Store App, Character Points) show the coding prompt and a demo video but never state what separates a passing junior solution from a senior-level one \u2014 no evaluation criteria beyond implicit pass/fail.",
+    "asset": "A React Screening Built Around What Separates Junior Hooks Usage From Senior-Level Code",
+    "distinct_angle": "Adds explicit evaluation criteria distinguishing junior from senior React patterns, the judgment context TestDome's sample tasks never state.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 needs a live coding-test build with execution, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2682,
+    "brand_fit": "CORE",
+    "angle_gap": "Sample questions (EMV calculation, cost variance) are isolated formula-recall drills with no connection to a real delivery context \u2014 nothing ties the math to an actual software, construction, or marketing project scenario.",
+    "asset": "A Project Management Screening Grounded in Real Delivery Scenarios, Not Isolated Formulas",
+    "distinct_angle": "Wraps each risk/budget calculation in a realistic role-specific delivery scenario instead of a bare formula, the context TestDome's generic sample questions skip.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 needs an actual scored test build, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2683,
+    "brand_fit": "CORE",
+    "angle_gap": "Sample and premium questions are PHP/WordPress trivia (which template file loads, enum discount logic) with no coverage of plugin security or vetting judgment \u2014 the page even lists an 'AI Code Review' skill tag with zero elaboration on what that actually tests.",
+    "asset": "A WordPress Developer Screening That Tests Secure Plugin and Code-Review Judgment, Not Just Trivia",
+    "distinct_angle": "Adds scenario coverage for plugin security and code-review judgment, the skill area TestDome's trivia-style questions never touch.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 needs a live coding-test build, not an article.",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2686,
+    "brand_fit": "CORE",
+    "angle_gap": "All three public sample questions (Difficult Customer, CAD System, First Meeting) test relationship tact and judgment calls only \u2014 none touch price negotiation, objection handling frameworks, or quota-driven outreach, the core mechanics of a sales role.",
+    "asset": "A Sales Screening That Measures Negotiation and Objection Handling, Not Just Customer Tact",
+    "distinct_angle": "Adds scenario coverage for price negotiation and objection handling, skill areas TestDome's three public sample questions never test.",
+    "tool_escalation": "format tag is Quiz/assessment \u2014 needs an actual scored test build, not an article.",
+    "g_notes": ""
+  }
+]

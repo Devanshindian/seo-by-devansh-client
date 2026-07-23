@@ -1,0 +1,368 @@
+[
+  {
+    "kw": "hard costs vs soft costs",
+    "vol": 880,
+    "kd": 3,
+    "intent": "informational"
+  },
+  {
+    "kw": "hard vs soft costs",
+    "vol": 880,
+    "kd": 2,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much is 1 talent",
+    "vol": 880,
+    "kd": 1,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much is a talent",
+    "vol": 880,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much is one talent",
+    "vol": 880,
+    "kd": 1,
+    "intent": "informational"
+  },
+  {
+    "kw": "soft costs vs hard costs",
+    "vol": 880,
+    "kd": 9,
+    "intent": "informational"
+  },
+  {
+    "kw": "hard drive costs",
+    "vol": 720,
+    "kd": 32,
+    "intent": "informational"
+  },
+  {
+    "kw": "hard drive data recovery costs",
+    "vol": 720,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "hard drive recovery costs",
+    "vol": 720,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "hard wood flooring costs",
+    "vol": 720,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "construction project soft costs",
+    "vol": 590,
+    "kd": 0,
+    "intent": "commercial"
+  },
+  {
+    "kw": "construction soft costs",
+    "vol": 590,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "soft construction costs",
+    "vol": 590,
+    "kd": 2,
+    "intent": "informational"
+  },
+  {
+    "kw": "soft costs",
+    "vol": 590,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "soft costs construction",
+    "vol": 590,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "soft costs for construction",
+    "vol": 590,
+    "kd": 9,
+    "intent": "informational"
+  },
+  {
+    "kw": "soft costs in construction",
+    "vol": 590,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "soft costs of construction",
+    "vol": 590,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does executive career partners cost",
+    "vol": 480,
+    "kd": 2,
+    "intent": "commercial"
+  },
+  {
+    "kw": "what are construction soft costs",
+    "vol": 390,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "what are soft costs",
+    "vol": 390,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "what are soft costs in construction",
+    "vol": 390,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "hard hat costs",
+    "vol": 320,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "hard costs",
+    "vol": 260,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do recruiters make per hire",
+    "vol": 260,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do recruiters make per-hire",
+    "vol": 260,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "construction hard costs vs soft costs",
+    "vol": 210,
+    "kd": 9,
+    "intent": "informational"
+  },
+  {
+    "kw": "construction soft costs vs hard costs",
+    "vol": 210,
+    "kd": 8,
+    "intent": "informational"
+  },
+  {
+    "kw": "cost per hire",
+    "vol": 210,
+    "kd": 7,
+    "intent": "commercial"
+  },
+  {
+    "kw": "costs per hire",
+    "vol": 210,
+    "kd": 13,
+    "intent": "commercial"
+  },
+  {
+    "kw": "hard costs versus soft costs",
+    "vol": 210,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "kw": "hard costs vs soft costs construction",
+    "vol": 210,
+    "kd": 9,
+    "intent": "informational"
+  },
+  {
+    "kw": "hard costs vs soft costs in construction",
+    "vol": 210,
+    "kd": 8,
+    "intent": "informational"
+  },
+  {
+    "kw": "soft costs vs hard costs construction",
+    "vol": 210,
+    "kd": 9,
+    "intent": "informational"
+  },
+  {
+    "kw": "value resourcing",
+    "vol": 210,
+    "kd": 26,
+    "intent": "navigational"
+  },
+  {
+    "kw": "what are hard costs",
+    "vol": 210,
+    "kd": 9,
+    "intent": "informational"
+  },
+  {
+    "kw": "construction hard costs",
+    "vol": 170,
+    "kd": 8,
+    "intent": "informational"
+  },
+  {
+    "kw": "cost of hire",
+    "vol": 170,
+    "kd": 7,
+    "intent": "commercial"
+  },
+  {
+    "kw": "cost of hiring",
+    "vol": 170,
+    "kd": 37,
+    "intent": "informational"
+  },
+  {
+    "kw": "cost to hire",
+    "vol": 170,
+    "kd": 18,
+    "intent": "commercial"
+  },
+  {
+    "kw": "costs of hiring",
+    "vol": 170,
+    "kd": 31,
+    "intent": "informational"
+  },
+  {
+    "kw": "external hard drive costs",
+    "vol": 170,
+    "kd": 39,
+    "intent": "commercial"
+  },
+  {
+    "kw": "hard construction costs",
+    "vol": 170,
+    "kd": 8,
+    "intent": "informational"
+  },
+  {
+    "kw": "hard costs construction",
+    "vol": 170,
+    "kd": 9,
+    "intent": "informational"
+  },
+  {
+    "kw": "hard costs in construction",
+    "vol": 170,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "kw": "hire cost",
+    "vol": 170,
+    "kd": 16,
+    "intent": "informational"
+  },
+  {
+    "kw": "hiring cost",
+    "vol": 170,
+    "kd": 37,
+    "intent": "informational"
+  },
+  {
+    "kw": "hiring costs",
+    "vol": 170,
+    "kd": 27,
+    "intent": "informational"
+  },
+  {
+    "kw": "3/4 times 1",
+    "vol": 140,
+    "kd": 5,
+    "intent": "informational"
+  },
+  {
+    "kw": "cost of hiring a skip",
+    "vol": 140,
+    "kd": 0,
+    "intent": "commercial"
+  },
+  {
+    "kw": "calculate cost per hire",
+    "vol": 110,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "kw": "calculating cost per hire",
+    "vol": 110,
+    "kd": 2,
+    "intent": "informational"
+  },
+  {
+    "kw": "cost per hire calculator",
+    "vol": 110,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do recruiting agencies charge",
+    "vol": 110,
+    "kd": 0,
+    "intent": "commercial"
+  },
+  {
+    "kw": "how much do recruitment agencies charge",
+    "vol": 110,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much do recruitment companies charge",
+    "vol": 110,
+    "kd": 0,
+    "intent": "commercial"
+  },
+  {
+    "kw": "how much does a headhunter cost",
+    "vol": 110,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "kw": "how much does a recruitment company charge",
+    "vol": 110,
+    "kd": 12,
+    "intent": "commercial"
+  },
+  {
+    "kw": "how much does recruitment agency charge",
+    "vol": 110,
+    "kd": 4,
+    "intent": "commercial"
+  },
+  {
+    "kw": "how much was a talent",
+    "vol": 110,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "kw": "recruitment fee",
+    "vol": 90,
+    "kd": 11,
+    "intent": "commercial"
+  }
+]

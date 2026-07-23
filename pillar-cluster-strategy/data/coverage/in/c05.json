@@ -1,0 +1,607 @@
+{
+  "theme": "Recruiting & Talent Acquisition",
+  "key": "c05",
+  "n_pillars": 60,
+  "pillars": [
+    {
+      "pillar": "AI in Recruitment",
+      "n": 15,
+      "intent": "mixed",
+      "sample_spokes": [
+        "advantages-challenges-of-generative-ai-in-recruitment",
+        "agentic-ai-in-recruitment-key-trends",
+        "ai-in-recruitment"
+      ]
+    },
+    {
+      "pillar": "Talent Planning & Talent Lifecycle",
+      "n": 15,
+      "intent": "informational",
+      "sample_spokes": [
+        "internal-talent-marketplace-and-how-does-it-work",
+        "navigating-talent-planning-in-the-digital-era",
+        "roadmap-to-success-with-strategic-talent-planning"
+      ]
+    },
+    {
+      "pillar": "Attracting & Retaining Top Talent",
+      "n": 15,
+      "intent": "informational",
+      "sample_spokes": [
+        "becoming-a-talent-attractor",
+        "best-strategies-for-attracting-top-tech-talent",
+        "boost-visibility-and-attract-top-talent-from-job-search-sites"
+      ]
+    },
+    {
+      "pillar": "Talent Acquisition Strategy & Best Practices",
+      "n": 14,
+      "intent": "informational",
+      "sample_spokes": [
+        "building-a-winning-talent-acquisition-strategy-a-step-by-step-guide",
+        "develop-and-implement-talent-acquisition-strategy",
+        "hiring-a-talent-acquisition-specialist"
+      ]
+    },
+    {
+      "pillar": "Staffing Services & the Staffing Process",
+      "n": 14,
+      "intent": "informational",
+      "sample_spokes": [
+        "accurate-staffing",
+        "case-studies-of-successful-staffing-programs",
+        "common-mistakes-to-avoid-in-staffing"
+      ]
+    },
+    {
+      "pillar": "Talent Acquisition Strategy",
+      "n": 13,
+      "intent": "informational",
+      "sample_spokes": [
+        "active-candidates",
+        "addressing-the-full-candidate-acquisition-journey",
+        "employer-value-proposition"
+      ]
+    },
+    {
+      "pillar": "Candidate Sourcing Strategy & Process",
+      "n": 13,
+      "intent": "informational",
+      "sample_spokes": [
+        "build-talent-sourcing-plan-for-business",
+        "case-studies-of-successful-sourcing-programs",
+        "common-mistakes-to-avoid-in-sourcing"
+      ]
+    },
+    {
+      "pillar": "Modern & Emerging Recruitment Trends",
+      "n": 13,
+      "intent": "informational",
+      "sample_spokes": [
+        "inbound-recruiting",
+        "innovative-recruitment",
+        "know-about-the-new-era-of-recruitment"
+      ]
+    },
+    {
+      "pillar": "Recruiting Tools & Software Selection",
+      "n": 13,
+      "intent": "commercial",
+      "sample_spokes": [
+        "best-recruitment-methods",
+        "best-recruitment-tools-for-hiring-teams",
+        "choose-the-right-recruitment-method"
+      ]
+    },
+    {
+      "pillar": "Creating a Positive Candidate Experience",
+      "n": 13,
+      "intent": "informational",
+      "sample_spokes": [
+        "candidate-experience-for-successful-talent-acquisition",
+        "candidate-experience-with-user-friendly-interface",
+        "create-positive-candidate-experience"
+      ]
+    },
+    {
+      "pillar": "Recruitment Metrics, KPIs & ROI",
+      "n": 13,
+      "intent": "informational",
+      "sample_spokes": [
+        "leveraging-analytics-for-smarter-hiring-in-recruitment",
+        "measure-recruitment-performance-with-limited-data",
+        "measuring-the-roi-of-ats-integrations"
+      ]
+    },
+    {
+      "pillar": "AI & Data-Driven Hiring",
+      "n": 13,
+      "intent": "informational",
+      "sample_spokes": [
+        "achieve-data-driven-hiring-without-a-data-team",
+        "applications-of-generative-ai-in-hiring",
+        "demystifying-data-driven-hiring-decisions"
+      ]
+    },
+    {
+      "pillar": "Designing & Managing the Hiring Process",
+      "n": 12,
+      "intent": "informational",
+      "sample_spokes": [
+        "building-engagement-strategy-hiring-process",
+        "hiring-process-checklist",
+        "hiring-process-flowchart"
+      ]
+    },
+    {
+      "pillar": "Building High-Performing Teams by Function",
+      "n": 12,
+      "intent": "informational",
+      "sample_spokes": [
+        "build-a-top-notch-project-management-team",
+        "build-the-right-customer-support-team-structure",
+        "building-a-diverse-data-science-team"
+      ]
+    },
+    {
+      "pillar": "High-Volume & Enterprise Hiring at Scale",
+      "n": 12,
+      "intent": "informational",
+      "sample_spokes": [
+        "an-ultimate-guide-to-plan-and-implement-volume-hiring",
+        "artificial-intelligence-for-large-volume-hiring",
+        "chat-simulation-for-enterprise-hiring"
+      ]
+    },
+    {
+      "pillar": "Building a Hiring Plan & Process",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "5-strategies-for-mastering-recruitment-tests",
+        "5-tips-for-successful-hiring",
+        "best-practices-in-implementing-hiring-assessments"
+      ]
+    },
+    {
+      "pillar": "Building & Managing a Talent Pool",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "build-a-talent-pool",
+        "how-to-assess-candidates-for-your-talent-pool",
+        "how-to-assess-the-current-talent-pool-for-succession-planning"
+      ]
+    },
+    {
+      "pillar": "Building a Strong Employer Brand",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "build-an-employer-brand-without-a-marketing-agency",
+        "build-and-maintain-a-positive-employer-brand-reputation",
+        "building-a-strong-employer-brand"
+      ]
+    },
+    {
+      "pillar": "Workforce Planning Fundamentals & Strategy",
+      "n": 11,
+      "intent": "informational",
+      "sample_spokes": [
+        "case-studies-of-workforce-planning",
+        "common-mistakes-to-avoid-in-workforce-planning",
+        "different-steps-in-workforce-planning"
+      ]
+    },
+    {
+      "pillar": "Recruitment Technology & Automation Tools",
+      "n": 10,
+      "intent": "commercial",
+      "sample_spokes": [
+        "how-to-use-recruitment-technology-to-improve-your-hiring-process",
+        "leveraging-technology-in-talent-acquisition-trends-and-tools",
+        "maximizing-recruitment-roi-using-recruitment-software"
+      ]
+    },
+    {
+      "pillar": "Recruitment Technology Tools & Trends",
+      "n": 10,
+      "intent": "commercial",
+      "sample_spokes": [
+        "recruitment-technology-shaping-the-future",
+        "simplify-campus-drive-with-recruitment-technology",
+        "the-best-recruitment-technology-tools-for-small-businesses"
+      ]
+    },
+    {
+      "pillar": "Global, Seasonal & Freelance Hiring",
+      "n": 10,
+      "intent": "informational",
+      "sample_spokes": [
+        "best-practices-and-strategies-for-freelance-hiring",
+        "employers-guide-hiring-seasonal-international-workers",
+        "global-hiring-challenges-and-solutions"
+      ]
+    },
+    {
+      "pillar": "ATS & Recruitment Tech Integration",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "ats-and-crm-integration",
+        "ats-tools-fail",
+        "avoiding-common-pitfalls-in-ats-integration"
+      ]
+    },
+    {
+      "pillar": "High-Volume, Blue-Collar & Mass Recruiting",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "10-latest-blue-collar-recruiting-trends",
+        "10-latest-volume-recruiting-trends",
+        "11-high-volume-hiring-strategies-for-enterprises"
+      ]
+    },
+    {
+      "pillar": "Sources of Recruitment",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "best-proxies-for-recruitment-intelligence",
+        "boolean-search-in-recruitment",
+        "choose-the-right-sources-of-recruitment"
+      ]
+    },
+    {
+      "pillar": "Recruitment Planning & Strategy Fundamentals",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "hr-recruitment-guide-for-perfect-employees",
+        "overcome-the-challenges-of-a-limited-budget-for-recruiting",
+        "recruitment-center-of-excellence"
+      ]
+    },
+    {
+      "pillar": "Diversity & Inclusive Recruitment",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "a-recruiters-ultimate-guide-to-diversity-hiring",
+        "achieve-unbiased-recruitment-with-testlify",
+        "cross-cultural-recruiting-strategies-for-remote-teams"
+      ]
+    },
+    {
+      "pillar": "Social Media & Digital Recruiting Strategies",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-use-job-search-sites-for-optimizing-recruitment-strategy",
+        "how-to-use-social-media-as-a-recruiting-tool",
+        "how-to-use-social-media-for-recruiting"
+      ]
+    },
+    {
+      "pillar": "Dealing with a Bad Hire: Signs, Cost & Recovery",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-identify-a-bad-hire",
+        "how-to-prevent-a-bad-hire",
+        "how-to-recover-from-a-bad-hire"
+      ]
+    },
+    {
+      "pillar": "Optimizing the Hiring Funnel & Time-to-Hire",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "breaking-hiring-silos",
+        "effective-ways-to-identify-hiring-needs",
+        "ghosting-how-to-fix-hiring-funnel-bottlenecks"
+      ]
+    },
+    {
+      "pillar": "Job Profiles & Job Requisitions",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "job-profile-components",
+        "job-profile-examples",
+        "job-profile-templates"
+      ]
+    },
+    {
+      "pillar": "Campus & University Recruiting",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "best-strategies-to-hire-higher-education-talent",
+        "campus-hiring-job-fair-email-templates",
+        "how-employers-can-strengthen-university-partnerships"
+      ]
+    },
+    {
+      "pillar": "Recruiting Efficiency & Cost Reduction",
+      "n": 7,
+      "intent": "informational",
+      "sample_spokes": [
+        "case-studies-of-better-hires-using-talent-assessments",
+        "cost-of-a-bad-hire",
+        "how-to-improve-quality-of-hire"
+      ]
+    },
+    {
+      "pillar": "How Top Companies Hire",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-microsoft-hires-tech-talent",
+        "jp-morgan-recruitment-process",
+        "netflix-hiring-process"
+      ]
+    },
+    {
+      "pillar": "AI Recruitment Tools & Platforms",
+      "n": 6,
+      "intent": "commercial",
+      "sample_spokes": [
+        "ai-recruitment-platforms",
+        "optimizing-talent-acquisition-with-ai-and-ppc",
+        "platforms-for-ai-recruitment-agents"
+      ]
+    },
+    {
+      "pillar": "Reducing Time-to-Hire & Slow Hiring Costs",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "negative-impact-of-lengthy-recruitment-process",
+        "outbound-recruiting-strategies-to-hire-faster",
+        "real-cost-of-a-slow-hiring-process"
+      ]
+    },
+    {
+      "pillar": "Recruitment Agencies & Process Outsourcing",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "benefits-of-outsourcing-hr-functions",
+        "benefits-of-partnering-with-recruitment-agency",
+        "effective-recruitment-agency-collaboration"
+      ]
+    },
+    {
+      "pillar": "Lateral Hiring Strategy",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-keep-lateral-hires-engaged-and-thriving",
+        "how-to-measure-the-impact-of-your-lateral-hiring-program",
+        "how-to-set-up-lateral-hires-for-success-in-new-roles"
+      ]
+    },
+    {
+      "pillar": "Candidate Experience: Drop-off, Ghosting & Feedback",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "candidate-drop-off",
+        "candidate-ghosting",
+        "candidate-rejection-email-templates"
+      ]
+    },
+    {
+      "pillar": "Finding & Attracting Qualified Candidates",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "find-best-candidates-for-your-vacancies",
+        "how-to-find-and-attract-skilled-freelance-talent",
+        "how-to-find-qualified-candidates"
+      ]
+    },
+    {
+      "pillar": "Candidate Sourcing Tools & Technology",
+      "n": 5,
+      "intent": "commercial",
+      "sample_spokes": [
+        "8-candidate-sourcing-tools-every-recruiter-should-use",
+        "best-tools-to-track-sources-of-recruitment",
+        "how-to-use-recruitment-tech-to-source-top-talent"
+      ]
+    },
+    {
+      "pillar": "Sourcing Passive Candidates & Talent Pipelines",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "5-creative-ways-to-find-blue-collar-workers",
+        "attract-passive-candidates-who-are-not-actively-seeking-employment",
+        "leverage-campus-hiring-for-talent-pipeline"
+      ]
+    },
+    {
+      "pillar": "Streamlining & Improving the Hiring Process",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "role-of-support-services-in-streamlining-recruitment-process",
+        "steps-to-streamline-your-hiring-process",
+        "strategies-to-create-a-great-recruitment-experience"
+      ]
+    },
+    {
+      "pillar": "Recruitment Strategy for Strong Teams",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "9-ideas-for-recruiters-to-cultivate-growth",
+        "common-recruiting-challenges-and-how-to-overcome-them",
+        "dysfunctional-teams-affect-recruitment-and-solutions"
+      ]
+    },
+    {
+      "pillar": "Building a Recruitment Tech Stack",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "benefits-cloud-storage-recruitment-platforms-efficiency",
+        "building-recruitment-tech-stack",
+        "building-your-hr-tech-stack-for-new-age-recruiting"
+      ]
+    },
+    {
+      "pillar": "General Talent Acquisition & Hiring Strategy",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "campus-hiring-guide-to-hire-new-grads-at-scale",
+        "hire-success-alternatives",
+        "hire-the-best-talent-using-hands-on-questions"
+      ]
+    },
+    {
+      "pillar": "Modern & Remote Recruitment Approaches",
+      "n": 5,
+      "intent": "informational",
+      "sample_spokes": [
+        "adapt-recruitment-processes-for-a-virtual-environment",
+        "agile-recruitment",
+        "considerations-for-recruiting-in-a-hybrid-work-model"
+      ]
+    },
+    {
+      "pillar": "Job Boards & Job Search Tools",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "best-job-boards-that-you-should-know",
+        "how-to-use-seo-for-better-job-advertising",
+        "top-job-application-trackers-perfect-tool-job-search"
+      ]
+    },
+    {
+      "pillar": "Sourcing for Specific Segments (Startups, SMBs, Remote, Hard-to-Fill)",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-source-candidates-for-hard-to-fill-roles",
+        "know-about-sourcing-for-small-businesses",
+        "know-about-sourcing-for-startups"
+      ]
+    },
+    {
+      "pillar": "Global & Cross-Border Talent Acquisition",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "remote-work-and-talent-acquisition",
+        "return-migration-hiring-strategies-asia",
+        "talent-acquisition-benefits-citizenship-investment-programs"
+      ]
+    },
+    {
+      "pillar": "Global Recruitment",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "advantages-and-disadvantages-of-global-recruitment",
+        "global-recruitment",
+        "global-recruitment-roi"
+      ]
+    },
+    {
+      "pillar": "Recruiter Community, Networking & Career",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "hr-communities-recruiters-should-join",
+        "recruiter-burnout",
+        "recruiting-professional-in-the-recruitment-industry"
+      ]
+    },
+    {
+      "pillar": "Reverse Recruiting",
+      "n": 4,
+      "intent": "informational",
+      "sample_spokes": [
+        "recruitment-types",
+        "reverse-recruiting",
+        "reverse-recruiting-in-modern-talent-acquisition"
+      ]
+    },
+    {
+      "pillar": "Building Teams & Global Hiring with Assessments",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "build-a-successful-global-team-using-assessments",
+        "build-development-teams-with-teamwork-assessments",
+        "how-to-build-stronger-teams-with-role-specific-tests"
+      ]
+    },
+    {
+      "pillar": "Writing Job Descriptions & Job Adverts",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "best-recruiting-email-templates-for-tech-startups",
+        "best-tips-for-recruiters-to-write-effective-job-descriptions",
+        "guide-for-recruiters-to-write-a-perfect-job-advert"
+      ]
+    },
+    {
+      "pillar": "Recruiter Skills & Identifying Top Talent",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "skills-every-recruiter-should-look-for",
+        "strategies-recruiters-use-to-recognize-top-talent",
+        "the-evolving-role-of-enterprise-recruiters"
+      ]
+    },
+    {
+      "pillar": "Industry-Specific Hiring Landscapes",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "navigating-the-hiring-landscape-in-the-energy-industry",
+        "navigating-the-hiring-landscape-in-the-real-estate-industry",
+        "the-blue-collar-hiring-landscape-and-beyond"
+      ]
+    },
+    {
+      "pillar": "Employee Referral Programs",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "design-a-successful-employee-referral-program",
+        "effectively-leverage-employee-referrals-to-fill-open-positions",
+        "employee-referrals-hold-significant-weight-in-hiring-decisions"
+      ]
+    },
+    {
+      "pillar": "Salary Negotiation & Pay Offers",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "how-to-address-salary-parity-concern-in-lateral-hires",
+        "how-to-make-blue-collar-salary-and-benefits-offers",
+        "negotiate-competitive-salary-and-benefits-packages-within-budget-constraints"
+      ]
+    },
+    {
+      "pillar": "Recruitment & Onboarding Email Templates",
+      "n": 3,
+      "intent": "informational",
+      "sample_spokes": [
+        "internship-offer-email-templates",
+        "internship-probation-confirmation-emails",
+        "rejection-emails-to-unsuccessful-candidates-free-templates"
+      ]
+    }
+  ]
+}

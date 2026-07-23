@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Persona — Who Each Article Is Written To</title>
+<style>
+  :root{--ink:#1c1a17;--muted:#6b6459;--line:#efe7d8;--paper:#fff;--cream:#fffdf8;--wash:#fff8ec;--yellow:#ffb703;--yellow-soft:#ffe9ad;--orange:#fb7a00;--orange-soft:#ffd9b0;--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);}
+  *{box-sizing:border-box;}html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;line-height:1.62;font-size:16px;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:960px;margin:0 auto;padding:0 28px;}
+  header{background:linear-gradient(180deg,var(--wash),var(--paper));border-bottom:1px solid var(--line);padding:56px 0 38px;}
+  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--paper);border:1px solid var(--orange-soft);padding:4px 11px;border-radius:100px;margin-bottom:16px;}
+  h1{font-size:clamp(26px,5vw,42px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%);padding:0 2px;}
+  .lede{font-size:18px;color:var(--muted);max-width:680px;margin:0;}
+  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;padding:9px 0;}
+  nav a{font-size:12.5px;font-weight:600;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:100px;}
+  nav a:hover{color:var(--ink);background:var(--wash);}
+  section{padding:48px 0;border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  section.alt{background:var(--cream);}
+  h2{font-size:24px;letter-spacing:-.01em;margin:0 0 4px;}
+  h2 .num{color:var(--orange);margin-right:9px;}
+  .sub{color:var(--muted);margin:0 0 22px;font-size:16px;max-width:700px;}
+  h3{font-size:16px;margin:20px 0 6px;}
+  p{margin:0 0 10px;}
+  ul{margin:5px 0 10px;padding-left:20px;}
+  li{margin:4px 0;font-size:15px;color:var(--muted);}
+  li b{color:var(--ink);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11.5px;background:#fff;border:1px solid var(--orange-soft);border-radius:5px;padding:2px 6px;color:var(--ink);}
+  .note{border-radius:11px;padding:13px 16px;margin:12px 0;font-size:14.5px;border:1px solid;}
+  .note.yellow{background:var(--cream);border-color:var(--line);border-left:4px solid var(--yellow);}
+  .note.orange{background:var(--wash);border-color:var(--orange-soft);border-left:4px solid var(--orange);}
+  .note strong{display:block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;}
+  .note.yellow strong,.note.orange strong{color:var(--orange);}
+  .flow{margin-top:10px;}
+  .step{display:flex;gap:15px;position:relative;padding:10px 0;}
+  .step:not(:last-child)::after{content:"";position:absolute;left:21px;top:48px;bottom:-10px;width:2px;background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-weight:800;font-size:15px;color:var(--ink);background:var(--yellow-soft);border:2px solid var(--yellow);box-shadow:var(--shadow);}
+  .dot.gate{background:var(--orange-soft);border-color:var(--orange);}
+  .step-body{padding-top:2px;}
+  .step-body h3{margin:0 0 3px;font-size:15.5px;}
+  .step-body p{margin:0 0 5px;color:var(--muted);font-size:14.5px;}
+  .step-body ul{margin:4px 0 0;padding-left:18px;}
+  .step-body li{font-size:14px;}
+  .outfile{border:1px solid var(--line);border-radius:11px;padding:12px 16px;background:var(--paper);box-shadow:var(--shadow);margin:12px 0;}
+  .outfile .f{margin-bottom:3px;}
+  .outfile p{margin:0;font-size:14px;color:var(--muted);}
+  /* persona table */
+  .p-table{width:100%;border-collapse:collapse;margin:16px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:13.5px;}
+  .p-table th{text-align:left;padding:9px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--cream);border-bottom:2px solid var(--line);}
+  .p-table td{padding:9px 13px;border-bottom:1px solid var(--line);vertical-align:top;}
+  .p-table tr:last-child td{border-bottom:none;}
+  .p-table .pname{font-weight:700;color:var(--orange);white-space:nowrap;}
+  /* pick-rule */
+  .pick-table{width:100%;border-collapse:collapse;margin:14px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:14px;}
+  .pick-table th{text-align:left;padding:8px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--cream);border-bottom:2px solid var(--line);}
+  .pick-table td{padding:9px 13px;border-bottom:1px solid var(--line);vertical-align:top;}
+  .pick-table tr:last-child td{border-bottom:none;}
+  .pick-table .topic{font-weight:600;color:var(--ink);}
+  footer{padding:32px 0 52px;color:var(--muted);font-size:13px;}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="kicker">Content Machine · Stage 0 — Brand Context</span>
+  <h1>Persona — <span class="hl">who each article is written to</span></h1>
+  <p class="lede">3–4 reader personas defined once per company. Each article is tagged with one. The persona sets the depth, vocabulary, and angle — not who wrote it.</p>
+</div></header>
+
+<nav><div class="wrap">
+  <a href="#concept">Concept</a>
+  <a href="#output">Output</a>
+  <a href="#steps">Steps</a>
+  <a href="#example">Real example</a>
+  <a href="#pick">How to pick one</a>
+</div></nav>
+
+<section id="concept">
+  <div class="wrap">
+    <h2><span class="num">01</span>What a persona is</h2>
+    <p class="sub">A persona is the reader the article targets — not the author. It sets the depth, vocabulary, and angle of the piece.</p>
+    <ul>
+      <li><b>Never name the persona in the article</b> — write so readers feel it's for them without being told</li>
+      <li><b>One article = one persona</b> — if it fits two, pick the one who decides or acts on the topic</li>
+    </ul>
+    <div class="note yellow"><strong>Input</strong>
+    brand-voice.md — specifically the Audience Understanding section, where the primary and secondary audiences are already captured.</div>
+  </div>
+</section>
+
+<section id="output" class="alt">
+  <div class="wrap">
+    <h2><span class="num">02</span>What this produces</h2>
+    <div class="outfile">
+      <div class="f"><span class="file">projects/[company]/content-machine/brand-context/persona.md</span></div>
+      <p>A short doc: one row per persona (name, who they are, what they read, what they care about, how to pitch to them, what would feel off) plus a rule for how to pick the right persona for a given article.</p>
+    </div>
+  </div>
+</section>
+
+<section id="steps">
+  <div class="wrap">
+    <h2><span class="num">03</span>Three steps</h2>
+    <div class="flow">
+      <div class="step"><div class="dot">1</div><div class="step-body">
+        <h3>Read brand-voice.md — Audience Understanding section</h3>
+        <p>The raw material is already there. Don't invent personas from scratch.</p>
+      </div></div>
+      <div class="step"><div class="dot">2</div><div class="step-body">
+        <h3>Generate 3–4 distinct reader personas</h3>
+        <p>Run one LLM call with brand-voice.md pasted in. It returns 3–4 non-overlapping personas, each with: name, who they are, what they read, what they care about, how to pitch to them, and what would feel off.</p>
+      </div></div>
+      <div class="step"><div class="dot gate">3</div><div class="step-body">
+        <h3>Show the user and save</h3>
+        <p>User edits/approves the set, then save to <span class="file">projects/[company]/content-machine/brand-context/persona.md</span>.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section id="example" class="alt">
+  <div class="wrap">
+    <h2><span class="num">04</span>Real example — one persona</h2>
+    <p class="sub">From the actual Testlify persona.md:</p>
+    <div style="margin:16px 0;border:1px solid var(--line);border-radius:11px;padding:14px 16px;background:var(--paper);box-shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);">
+      <div style="font-weight:700;color:var(--orange);margin-bottom:8px;">TA / Recruiting Leader</div>
+      <div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px solid var(--line);"><span style="min-width:120px;font-weight:600;font-size:13px;color:var(--muted);flex:none;">Who they are</span><span style="color:var(--ink);">Head of TA or Director of Recruiting; owns the hiring function at mid-market to enterprise</span></div>
+      <div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px solid var(--line);"><span style="min-width:120px;font-weight:600;font-size:13px;color:var(--muted);flex:none;">Reads</span><span style="color:var(--ink);">Recruiting metrics, process, tooling, scaling, time-to-hire and cost-per-hire</span></div>
+      <div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px solid var(--line);"><span style="min-width:120px;font-weight:600;font-size:13px;color:var(--muted);flex:none;">Cares about</span><span style="color:var(--ink);">Speed + quality at scale, proving ROI, defensible process</span></div>
+      <div style="display:flex;gap:10px;padding:6px 0;"><span style="min-width:120px;font-weight:600;font-size:13px;color:var(--muted);flex:none;">Pitch to them</span><span style="color:var(--ink);">Lead with the number/benchmark, then the play. Assume they know the basics.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="pick">
+  <div class="wrap">
+    <h2><span class="num">05</span>How to pick one per article</h2>
+    <p class="sub">Match the article's topic to the persona who'd actually read it. One article, one persona.</p>
+    <table style="width:100%;border-collapse:collapse;margin:14px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);font-size:14px;">
+      <tr style="background:var(--cream);"><th style="text-align:left;padding:8px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:2px solid var(--line);">Article topic / intent</th><th style="text-align:left;padding:8px 13px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:2px solid var(--line);">Right persona</th></tr>
+      <tr><td style="padding:9px 13px;border-bottom:1px solid var(--line);font-weight:600;">Strategy, business case, compliance, cost at scale</td><td style="padding:9px 13px;border-bottom:1px solid var(--line);">Executive / CHRO</td></tr>
+      <tr><td style="padding:9px 13px;border-bottom:1px solid var(--line);font-weight:600;">Metrics, process, tooling, scaling</td><td style="padding:9px 13px;border-bottom:1px solid var(--line);">TA / Recruiting Leader</td></tr>
+      <tr><td style="padding:9px 13px;border-bottom:1px solid var(--line);font-weight:600;">Hands-on screening, templates, "what to look for"</td><td style="padding:9px 13px;border-bottom:1px solid var(--line);">Recruiter / TA Specialist</td></tr>
+      <tr><td style="padding:9px 13px;font-weight:600;">Assessing for a specific role or skill</td><td style="padding:9px 13px;">Hiring Manager</td></tr>
+    </table>
+  </div>
+</section>
+
+<footer><div class="wrap">Persona · Content Machine Stage 0 · Built once per company. Used to tag every article at research and write time.</div></footer>
+</body>
+</html>

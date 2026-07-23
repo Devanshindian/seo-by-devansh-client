@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3094,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Reads as a 2019-2020-era trend piece (opens by asking whether '2019 would be a turning point' for VR) and leans on outdated evidence (a CareerBuilder video-application stat, a Forbes quote); it names the strongest use case \u2014 combining VR with skills assessments \u2014 in one line but never explains how an immersive assessment would work or hold up as a defensible hiring signal.",
+    "asset": "What Immersive Interview Tech Can and Can't Prove About a Candidate in 2026",
+    "distinct_angle": "Replaces the stale 2019-2020 VR-hype framing and the thin, unexplored 'VR + skills assessments' line with a current-dated look at immersive/AI interview formats through a validity lens \u2014 what these formats can actually measure about job-readiness versus what's novelty, closing the depth gap the original leaves on its own strongest claim.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3098,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Company profiles are frozen in 2020-2021 (cites Walmart data 'as of July 2020', a 2020 Eli Lilly award, pandemic-era pledges); it recognizes companies for representation numbers and PR pledges but never explains the actual hiring practices (structured interviews, blind screening, skills-based selection) behind those numbers \u2014 the part a recruiter reader could actually copy.",
+    "asset": "The Hiring Practices Behind the Most Diverse Employers' 2026 Numbers",
+    "distinct_angle": "Refreshes the 2020/2021 figures to current public numbers and, more importantly, extracts the specific bias-reducing hiring practices behind each company's results \u2014 the practical mechanism the original's stats-and-pledges list never explains.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3105,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 a directory of sourcing/job-board platforms; passive-candidate sourcing sits outside Testlify's assessment/testing world per the strict SKIP guidance."
+  },
+  {
+    "row_id": 3110,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Lists title hierarchies and definitions top to bottom (CCO down to entry-level) but never addresses the recruiter's actual problem: which specific skills or competencies distinguish confusingly similar titles like 'Customer Success Manager' vs. 'Account Manager,' so a hiring team knows what to screen for at each level.",
+    "asset": "Customer Service Job Titles Mapped to the Skills Each One Actually Requires",
+    "distinct_angle": "Goes past the naming/hierarchy glossary to map each title to the specific competencies a recruiter should test for, closing the gap between 'what a title is called' and 'what to actually screen a candidate for' that the original leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3171,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Case studies are over a decade old in places (BambooHR's video is from 2014) and the supporting stats are dated (2020-era CareerBuilder/Ragan survey figures); the page never asks whether these videos actually improved quality-of-hire versus just views and shares, and offers no example a recruiter could realistically emulate today.",
+    "asset": "The Recruitment Videos That Still Convert in 2026, and Why the 2014 Playbook Stopped Working",
+    "distinct_angle": "Swaps the decade-old case studies and stale engagement stats for current examples and current data, and adds the link the original never makes \u2014 whether these videos correlate with quality-of-hire, not just views and shares.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3456,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites stale 2019 Agency Central, 2019 HBR, and 2020 McKinsey stats, and offers only 3 shallow tactics (anonymize data, use skills tests, review interviews) with no EEOC/adverse-impact compliance framework \u2014 the piece even cuts off mid-thought on interviewer training.",
+    "asset": "Building a Bias-Resistant Hiring Process That Survives an EEOC Audit",
+    "distinct_angle": "Refreshes TestGorilla's dated 2019-2020 stats with current figures and adds the adverse-impact/compliance framework and audit checklist their 3-tactic list never covers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3459,
+    "brand_fit": "CORE",
+    "angle_gap": "Spends most of its length on brand-ambassador channels, hard/soft skills, and pay, but treats skills testing as a one-line afterthought ('skills tests') with no sample assessment questions or scoring rubric for skills like social-media analytics or product knowledge.",
+    "asset": "Scoring Brand Ambassador Candidates on the Skills That Actually Predict Performance",
+    "distinct_angle": "Turns TestGorilla's bare skills list into an actual assessment rubric and interview scoring guide per skill, instead of gesturing at 'skills tests' with no substance.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3460,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines each of the 9 negotiation skills in textbook language (e.g. 'Planning is one of the most important negotiation strategies...') without a single worked example, sample interview question, or strong-vs-weak answer benchmark tied to any of them.",
+    "asset": "The 9 Negotiation Skills Worth Testing For, With Sample Questions and Answer Benchmarks",
+    "distinct_angle": "Pairs each of the 9 skills with a real interview question and a strong-vs-weak answer benchmark, where TestGorilla only supplies dictionary-style definitions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3461,
+    "brand_fit": "CORE",
+    "angle_gap": "Recommends assessing soft skills like critical thinking via hard-skill coding tests (C++, Python, PHP, SQLite) \u2014 conflating technical ability with soft-skill signal \u2014 and never actually shows the 'six interview questions' it promises.",
+    "asset": "Testing Developer Soft Skills Without Mistaking Coding Ability for Communication",
+    "distinct_angle": "Fixes TestGorilla's core methodology error \u2014 using coding tests as a soft-skill proxy \u2014 by giving each soft skill its own behavioral, non-coding assessment method and the six interview questions the original never delivers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3462,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire people-management/leadership advice (handling employee mistakes), not hiring or assessment; explicitly off-limits per brand scope section 3."
+  }
+]

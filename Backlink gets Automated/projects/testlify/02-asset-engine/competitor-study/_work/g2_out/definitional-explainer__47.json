@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 995,
+    "brand_fit": "CORE",
+    "angle_gap": "Explains reliability only conceptually via one illustrative percentile-score example, and never covers the actual reliability statistics (test-retest, internal consistency/Cronbach's alpha, split-half) or what coefficient values count as acceptable \u2014 so a buyer still can't evaluate a vendor's reported reliability data after reading it.",
+    "asset": "Test Reliability Coefficients: What the Numbers Actually Mean for Buyers",
+    "distinct_angle": "Goes past the single abstract percentile example to explain the real reliability statistics and the coefficient thresholds worth expecting from a vendor \u2014 the buyer-usable detail this page never reaches.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1001,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Rests entirely on one 2019 survey stat (55% use an ATS/HRIS) with no update since, and never breaks usage down by industry or ties adoption to any hiring-quality outcome \u2014 just a single aging number reported once and left alone.",
+    "asset": "ATS and HRIS Adoption in 2026: The Numbers Behind the 2019 Benchmark",
+    "distinct_angle": "Replaces the single stale 2019 figure with the current public adoption rate and a by-company-size breakdown, refreshing a stat this page never revisited.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1002,
+    "brand_fit": "CORE",
+    "angle_gap": "A roughly 180-word abstract definition with one generic example ('correlating to other widely accepted measures') but no concrete construct named, no actual correlation coefficient cited, and no comparison against other validity types.",
+    "asset": "Construct Validity, Explained With the Actual Correlation Numbers Behind a Real Assessment",
+    "distinct_angle": "Trades the page's generic 'correlate to other measures' line for a worked example naming a real construct and citing published correlation coefficients, the concreteness this glossary entry skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1003,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines voluntary turnover and gestures at personality testing for 'job fit' in a single closing paragraph, but never cites an actual turnover-cost figure, never names which trait dimensions predict retention, and never shows how a job-fit assessment is actually built or scored.",
+    "asset": "The Personality Traits That Actually Predict Whether a New Hire Quits",
+    "distinct_angle": "Names the specific trait dimensions and assessment approach tied to retention and cites current turnover-cost figures, the concrete mechanics this page's one-paragraph mention never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1004,
+    "brand_fit": "CORE",
+    "angle_gap": "Builds up the three EI measurement methods (self-report, other-report, ability testing) only to pitch Criteria's own Emotify product at the end, never citing validity or reliability data for any method and never giving a worked example test item \u2014 the comparison serves the sales pitch rather than the reader.",
+    "asset": "Self-Report vs Ability Testing for Emotional Intelligence: What the Validity Data Actually Shows",
+    "distinct_angle": "Backs the self-report vs other-report vs ability-testing comparison with real validity and reliability evidence plus a worked example item per method, instead of using the comparison to set up one vendor's proprietary tool.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

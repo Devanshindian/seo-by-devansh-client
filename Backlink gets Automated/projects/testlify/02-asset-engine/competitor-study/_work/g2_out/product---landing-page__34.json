@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2295,
+    "brand_fit": "CORE",
+    "angle_gap": "Sample questions are trivia/definition-level (e.g. 'What is the character limit in Google Ads headlines?', 'Define SEO') rather than scenario-based skill checks, and the competency list never touches current digital-marketing skill areas like AI-assisted ad optimization or marketing analytics tooling.",
+    "asset": "Digital Marketing Skills That Actually Predict Campaign Performance, Not Just Vocabulary",
+    "distinct_angle": "Replaces the trivia-style sample questions (character limits, term definitions) with scenario-based competency examples tied to real campaign outcomes \u2014 the applied depth this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2296,
+    "brand_fit": "CORE",
+    "angle_gap": "The page recycles the same sentence verbatim across unrelated sections ('Assess critical experiences, domain knowledge...' appears under both 'Proven outcomes' and 'Commitment to your success'), and it never once addresses adverse-impact/EEOC defensibility \u2014 the single biggest known legal risk with general aptitude/cognitive tests since Griggs v. Duke Power.",
+    "asset": "Why General Aptitude Tests Draw the Most Legal Scrutiny \u2014 and How to Use Them Without the Risk",
+    "distinct_angle": "Covers the adverse-impact/EEOC defensibility question this page never raises, replacing its recycled boilerplate copy with a real legal-risk framing for cognitive ability testing.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2297,
+    "brand_fit": "CORE",
+    "angle_gap": "Despite naming specific functions (VLOOKUP, XLOOKUP, macros, pivot tables), the page shows zero actual sample questions or worked examples \u2014 every subskill section is a one-line description with no demonstration of what a real test item looks like.",
+    "asset": "The Excel Skills That Separate Someone Who Knows Formulas From Someone Who Can Build a Model",
+    "distinct_angle": "Adds real worked example questions per subskill (formulas, macros, pivot tables) where this page only lists category names with no demonstration of an actual item.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2298,
+    "brand_fit": "CORE",
+    "angle_gap": "The page conflates legacy ASP.NET MVC 5 concepts (Razor syntax, conventional routing) with references to ASP.NET Core and Angular without ever distinguishing which framework generation is being tested, leaving a hiring manager unclear on what skill set the test actually covers \u2014 and it shows only one sample MCQ, no coding sample despite advertising '19 MCQs + 1 coding.'",
+    "asset": "ASP.NET MVC vs ASP.NET Core \u2014 What to Actually Test For Depending on Which One You're Hiring",
+    "distinct_angle": "Draws the line this page blurs between legacy ASP.NET MVC and modern ASP.NET Core skills, mapping concrete competencies to each so recruiters test the right framework version.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2299,
+    "brand_fit": "CORE",
+    "angle_gap": "The page is generic corporate copy that repeats the identical line ('Assess critical experiences, domain knowledge and essential behavioral competencies in your future leaders') verbatim under both 'Career mapping' and 'Proven outcomes,' and never lays out a concrete framework for what evidence actually qualifies someone as succession-ready.",
+    "asset": "Building a Succession Plan on Proven Skills Instead of Tenure or Gut Feel",
+    "distinct_angle": "Replaces the page's repeated boilerplate with a concrete, evidence-based framework for what actually qualifies someone as succession-ready, including a worked example of the competencies measured.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

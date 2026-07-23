@@ -1,0 +1,119 @@
+{
+  "angle": "Breaks down what 'per hire' pay really means across agency/contingency, retained, RPO, and in-house recruiters, with real commission percentages and dollar ranges by role and seniority from public salary and industry-fee data, answering the recruiter's-own-earnings question the keyword actually asks instead of restating employer cost-per-hire.  [spoke keyword: 'how much do recruiters make per hire']",
+  "call_ok": true,
+  "fallback_sections": 0,
+  "competitor_topics": [
+    "Agency fee mechanics (15%-25% of first-year salary)",
+    "Agency vs. in-house recruiter pay compared side by side",
+    "Agency/third-party recruiter pay ($50k-$90k standard billers, $150k-$250k+ top performers, commission-based)",
+    "Commission models walked through in detail",
+    "Compensation-model comparison: salary+bonus vs. base+commission vs. pure commission",
+    "Corporate/in-house recruiter pay ($100k-$162k, base + bonus)",
+    "Executive search recruiter pay ($110k-$300k+, highest commissions)",
+    "In-house recruiter pay broken out separately",
+    "Per-placement / per-hire commission specifics",
+    "Salary vs. commission structure explained",
+    "Top-paying industries for recruiters (IT/Tech, Financial Services, Legal, Pharma/Biotech)"
+  ],
+  "gaps": [
+    "A single table comparing per-hire pay across agency/contingency, retained, RPO, and in-house",
+    "Contingency recruiter fee percentage",
+    "RPO recruiter fees",
+    "RPO recruiter pay model",
+    "Retained-search recruiter pay (retainer %, milestone/upfront splits)",
+    "Role- and seniority-specific dollar ranges in a structured table",
+    "Sourced commission percentage benchmarks (e.g., 20% vs. 25% contingency fee)"
+  ],
+  "verdicts": [
+    {
+      "index": 0,
+      "is_differentiator": false,
+      "why": "General fee-models/percentages overview and 'what recruiter keeps' \u2014 matches table-stakes 'per-placement commission specifics', not a listed gap"
+    },
+    {
+      "index": 1,
+      "is_differentiator": true,
+      "why": "Covers contingency recruiter fee percentage directly \u2014 a listed gap"
+    },
+    {
+      "index": 2,
+      "is_differentiator": true,
+      "why": "Covers retained-search pay including retainer % and payment splits \u2014 a listed gap"
+    },
+    {
+      "index": 3,
+      "is_differentiator": false,
+      "why": "Completion rates and guarantee windows, not fee percentages or dollar earnings \u2014 off-angle"
+    },
+    {
+      "index": 4,
+      "is_differentiator": false,
+      "why": "Guarantee periods and deal terms, not recruiter pay/commission \u2014 off-angle"
+    },
+    {
+      "index": 5,
+      "is_differentiator": true,
+      "why": "Includes RPO pricing models \u2014 a listed gap \u2014 even though other sub-headings (flat-fee, hourly, temp markups) are generic"
+    },
+    {
+      "index": 6,
+      "is_differentiator": false,
+      "why": "Generic drivers of fee percentage (seniority, exclusivity, volume) \u2014 standard explainer content, not tied to per-hire model breakdown or gaps"
+    },
+    {
+      "index": 7,
+      "is_differentiator": false,
+      "why": "General recruiter salary overview by level/location/industry \u2014 matches table-stakes 'agency vs in-house pay' and 'top-paying industries'"
+    },
+    {
+      "index": 8,
+      "is_differentiator": false,
+      "why": "Fill-rate mechanics are a novel lens but don't deliver commission %/dollar ranges by model \u2014 doesn't clearly match the angle or a listed gap"
+    },
+    {
+      "index": 9,
+      "is_differentiator": true,
+      "why": "Contains 'Commission Percentage Benchmarks' and retained/retainer executive fees \u2014 matches the sourced commission benchmark gap despite other table-stakes subs"
+    },
+    {
+      "index": 10,
+      "is_differentiator": false,
+      "why": "Generic incentive comp (bonuses, profit-sharing, equity) \u2014 matches table-stakes 'commission models walked through in detail'"
+    },
+    {
+      "index": 11,
+      "is_differentiator": true,
+      "why": "Worked examples calculating recruiter commission earnings and fee split between agency/recruiter directly answer the recruiter's-own-earnings angle"
+    },
+    {
+      "index": 12,
+      "is_differentiator": false,
+      "why": "Pay by location/country/remote \u2014 a different cut not covered by the angle or listed gaps"
+    },
+    {
+      "index": 13,
+      "is_differentiator": false,
+      "why": "Base-plus-commission and corporate base+bonus \u2014 matches table-stakes compensation-model coverage"
+    },
+    {
+      "index": 14,
+      "is_differentiator": false,
+      "why": "In-house vs agency pay and salary ranges \u2014 explicitly table stakes"
+    },
+    {
+      "index": 15,
+      "is_differentiator": false,
+      "why": "General earnings by experience/employment type/industry \u2014 matches table-stakes top-paying industries coverage"
+    },
+    {
+      "index": 16,
+      "is_differentiator": false,
+      "why": "Common agency commission structures and technical-vs-generalist pay \u2014 table-stakes commission coverage, not a listed gap"
+    },
+    {
+      "index": 17,
+      "is_differentiator": false,
+      "why": "Healthcare-specific niche pay, not part of the agency/contingency/retained/RPO/in-house breakdown or listed gaps"
+    }
+  ]
+}

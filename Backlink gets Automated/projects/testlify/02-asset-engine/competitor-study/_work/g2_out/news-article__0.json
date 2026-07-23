@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 74,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 competitor funding-round press release; company news, not a subject we can build content around"
+  },
+  {
+    "row_id": 100,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 competitor award-win press release; company news, not a subject we can build content around"
+  },
+  {
+    "row_id": 101,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 competitor analyst-recognition press release; company news, not a subject we can build content around"
+  },
+  {
+    "row_id": 2409,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites a 2022 SHRM cost-per-hire figure ($4,700) as its only hard number, then goes fully anecdotal (quotes on productivity, emotional toll, competition) with no breakdown of hard vs. soft costs by role, company size, or hiring volume.",
+    "asset": "The Real Cost of Recruitment in 2026: The Numbers Behind the 2022 Figure Everyone Still Quotes",
+    "distinct_angle": "Refreshes the 2022 SHRM cost-per-hire stat with the current public figure and breaks hard vs. soft costs down by role and hiring volume \u2014 the current data and structured breakdown this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2410,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "A 2017 piece leaning on outdated Click Boarding stats (69%, 58%, 50% figures) and naming Bauer's four onboarding levels (compliance, clarification, culture, connection) without a single worked example of what each looks like in practice.",
+    "asset": "Why New Hires Still Quit in Their First Six Months: 2026 Onboarding Data and What Each Stage Actually Looks Like",
+    "distinct_angle": "Replaces the 2017 Click Boarding stats with current attrition data and gives a concrete worked example for each of Bauer's four onboarding levels \u2014 the currency and depth this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

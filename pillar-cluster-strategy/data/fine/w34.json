@@ -1,0 +1,59 @@
+{
+  "slice_id": "w34",
+  "clusters": [
+    {
+      "pillar": "State Employment & Labor Laws (Eastern & Southern US)",
+      "intent": "informational",
+      "spokes": [
+        "delaware-employment-and-labor-laws",
+        "florida-employment-and-labor-laws",
+        "georgia-employement-and-labor-laws",
+        "maryland-employment-and-labor-laws",
+        "massachusetts-employment-and-labor-laws-2025",
+        "new-jersey-employment-and-labor-laws",
+        "new-york-employment-and-labor-laws",
+        "ohio-employment-and-labor-laws",
+        "pennsylvania-employment-and-labor-laws",
+        "south-carolina-employment-and-labor-laws",
+        "virginia-employment-and-labor-laws"
+      ]
+    },
+    {
+      "pillar": "State Employment & Labor Laws (Central & Western US)",
+      "intent": "informational",
+      "spokes": [
+        "california-employment-and-labor-laws",
+        "colorado-employment-and-labor-laws",
+        "illinois-employment-and-labor-laws",
+        "indiana-employment-and-labor-laws",
+        "michigan-employment-and-labor-laws",
+        "minnesota-employment-and-labor-laws",
+        "new-mexico-employment-and-labor-laws",
+        "texas-employment-and-labor-laws",
+        "utah-employment-and-labor-laws",
+        "washington-employment-and-labor-laws"
+      ]
+    },
+    {
+      "pillar": "HR Compliance Policies, Audits & Legal Checklists",
+      "intent": "informational",
+      "spokes": [
+        "best-employer-of-record-services-for-gdpr-and-labor-compliance",
+        "common-hr-compliance-landmines-and-how-to-avoid-them",
+        "conduct-hr-audits-for-policy-compliance-in-the-organization",
+        "develop-implement-workplace-policie-for-hr-compliance",
+        "hr-statutory-compliance",
+        "hr-toolkit-compliance-calender-templates",
+        "key-compliance-trends",
+        "legal-compliance-checklist-for-hiring",
+        "manage-and-prevent-workplace-harassment-in-organization",
+        "tips-to-overcome-legal-compliance-issues-related-to-equal-employment-opportunity",
+        "smarter-operations-bridging-talent-management-workflow-automation-compliance"
+      ]
+    }
+  ],
+  "orphans": [
+    "9-80-work-schedule",
+    "how-to-create-a-successful-hybrid-work-policy"
+  ]
+}

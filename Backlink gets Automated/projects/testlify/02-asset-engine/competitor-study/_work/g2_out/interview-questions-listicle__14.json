@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3509,
+    "brand_fit": "CORE",
+    "angle_gap": "For all 17 questions, TestGorilla only lists abstract 'look for' bullets (e.g. 'shows self-awareness') and never contrasts a strong answer against a weak/rehearsed one, so an interviewer has no calibration point \u2014 and the opening 'research shows demand growing faster than any other skill group' claim is never sourced or dated.",
+    "asset": "Critical Thinking Interview Questions That Separate Real Analysis From Rehearsed Buzzwords",
+    "distinct_angle": "Pairs every question with a green-flag and red-flag sample answer plus a simple scoring rubric, and sources the current skills-demand data \u2014 closing the calibration and sourcing gaps TestGorilla's bullet-only guidance leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3515,
+    "brand_fit": "CORE",
+    "angle_gap": "Every sample answer is written as an idealized 'candidates might explain...' description with no weak or red-flag contrast, and the page never connects the interview questions to the legal/compliance stakes of special education (IEP requirements, documentation obligations) that make hiring badly here especially risky.",
+    "asset": "Special Education Interview Questions That Reveal Real Classroom Judgment, Not Rehearsed Empathy",
+    "distinct_angle": "Adds explicit weak-answer contrasts next to each idealized response and ties questions to IEP/compliance stakes, closing the gap that TestGorilla's version only shows what a good candidate 'might say' with no way to spot a bad one.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3531,
+    "brand_fit": "CORE",
+    "angle_gap": "The title promises 38 questions but sample answers are only given for 20 (roughly half); the ones that do exist are dated \u2014 the top hard-skill answer is just 'Microsoft Office,' with no mention of the scheduling/AI tools EAs actually rely on today.",
+    "asset": "Executive Assistant Interview Questions Answered in Full, Not Just Half the List",
+    "distinct_angle": "Writes real sample answers for all 38 questions instead of 20, and updates the hard-skills answers past generic 'Microsoft Office' to the tools EAs use now \u2014 closing TestGorilla's coverage gap and stale-tools gap.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3630,
+    "brand_fit": "CORE",
+    "angle_gap": "Despite claiming '70+ hiring managers' contributed, the public page shows only 3 role-specific hard-skill questions before gating the rest behind a PDF download, and each 'what to listen for' note is a single generic line with no tool-specific depth (e.g. no Burp Suite/Metasploit-level detail).",
+    "asset": "Penetration Tester Interview Questions That Go Deeper Than Three Sample Prompts",
+    "distinct_angle": "Expands past Xobin's three gated hard-skill questions into a full public set of tool- and scenario-specific questions with real answer depth, closing the thin-and-gated coverage gap on their page.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3635,
+    "brand_fit": "CORE",
+    "angle_gap": "Only 3 role-specific hard-skill questions appear on the page (rest gated behind a PDF), and the 'soft skills' section miscategorizes 'What are your salary expectations?' as a soft-skill question \u2014 plus no product-sense or prioritization-framework questions (RICE, trade-offs) appear anywhere.",
+    "asset": "Associate Product Manager Interview Questions That Actually Test Product Judgment",
+    "distinct_angle": "Replaces Xobin's thin, gated 3-question set and miscategorized salary question with real product-sense and prioritization questions, closing the shallow-coverage and miscategorization gaps in their page.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,276 @@
+{
+  "job": "j9_misc",
+  "pillars": [
+    {
+      "pillar": "Assessing Soft Skills & Character Traits for Hiring",
+      "intent": "informational",
+      "spokes": [
+        "importance-of-accountability-skills-for-responsible-work-performance",
+        "importance-of-assessing-dependability-for-reliable-work-performance",
+        "importance-of-assessing-ethics-for-ethical-decision-making",
+        "importance-of-assessing-feedback-acceptance-for-continuous-improvement",
+        "importance-of-assessing-goal-setting-skills-in-ambitious-individuals",
+        "importance-of-assessing-patience-for-dealing-with-challenging-moments",
+        "importance-of-assessing-persuasion-skill-for-influential-communication",
+        "importance-of-assessing-persuasion-skill-for-influential-communications",
+        "importance-of-assessing-professionalism-for-a-positive-work-image",
+        "importance-of-assessing-tolerance-for-a-respectful-work-environment",
+        "important-interpersonal-skills-to-assess-candidates"
+      ]
+    },
+    {
+      "pillar": "HR Strategy, Policies & Business Alignment",
+      "intent": "informational",
+      "spokes": [
+        "align-hr-strategies-with-business-objectives",
+        "build-and-maintain-strong-hr-partnerships-with-other-departments",
+        "common-hr-mistakes-and-how-to-avoid-them",
+        "create-an-effective-hr-strategy-aligned-with-overall-business-goals",
+        "create-and-implement-effective-hr-policies-and-procedures",
+        "develop-and-maintain-strong-hr-partnerships-with-other-departments",
+        "essential-skills-every-hr-professional-needs-to-succeed",
+        "foster-innovation-and-creativity-within-hr-department",
+        "handle-sensitive-hr-issues-with-confidentiality",
+        "implement-effective-hr-practices-for-small-and-medium-sized-enterprises"
+      ]
+    },
+    {
+      "pillar": "Hiring & Assessing Specialized Roles",
+      "intent": "informational",
+      "spokes": [
+        "5-tips-to-evaluate-data-analysis-software-proficiency",
+        "assessing-candidate-digital-marketing-skills",
+        "attract-automotive-engineers-without-hands-on-tasks",
+        "attract-legal-minds-without-bar-exams",
+        "find-out-finance-potential-without-number-crunching",
+        "find-the-perfect-network-engineer-for-your-business",
+        "finding-right-senior-seo-specialist-employer-guide",
+        "how-to-find-the-perfect-digital-marketer-for-your-businesss-growth",
+        "how-to-find-the-right-senior-developer"
+      ]
+    },
+    {
+      "pillar": "HR Buzzwords & Modern Workforce Trends",
+      "intent": "informational",
+      "spokes": [
+        "job-aggregator",
+        "job-simulation",
+        "moonlighting",
+        "pay-transparency",
+        "phased-return-to-work",
+        "pink-collar-jobs",
+        "purple-squirrel",
+        "returnship",
+        "top-hr-buzzwords"
+      ]
+    },
+    {
+      "pillar": "Job Design & Work Structuring",
+      "intent": "informational",
+      "spokes": [
+        "job-crafting",
+        "job-design",
+        "job-enlargement",
+        "job-leveling",
+        "job-restructuring",
+        "job-specialization",
+        "role-mapping",
+        "spans-and-layers"
+      ]
+    },
+    {
+      "pillar": "Job Profiles & Job Requisitions",
+      "intent": "informational",
+      "spokes": [
+        "job-profile-components",
+        "job-profile-examples",
+        "job-profile-templates",
+        "job-profiling",
+        "job-profiling-tools",
+        "job-requisition-and-how-to-write-a-good-one",
+        "key-responsibility-areas-kras",
+        "requisition-position"
+      ]
+    },
+    {
+      "pillar": "Skills Taxonomy & Skills Intelligence",
+      "intent": "informational",
+      "spokes": [
+        "learning-agility",
+        "power-skills",
+        "skill-issue",
+        "skills-and-abilities",
+        "skills-intelligence",
+        "skills-ontology",
+        "skills-profile",
+        "t-shaped-skills"
+      ]
+    },
+    {
+      "pillar": "Candidate Screening & Search",
+      "intent": "informational",
+      "spokes": [
+        "ai-powered-phone-screening",
+        "candidate-persona",
+        "candidate-profiling",
+        "candidate-screening",
+        "challenges-of-manual-candidate-screening",
+        "conduct-a-successful-candidate-search",
+        "dos-and-donts-of-candidate-screening"
+      ]
+    },
+    {
+      "pillar": "HR Tech Tools & Efficiency",
+      "intent": "mixed",
+      "spokes": [
+        "leverage-ai-and-automation-for-efficient-hr-processes",
+        "leverage-hr-analytics-for-data-driven-decision-making",
+        "mobile-tools-to-simplify-hr-tasks",
+        "streamline-workflow-with-time-tracking-tools",
+        "tech-tools-for-enhancing-hr-efficiency",
+        "top-core-hr-tools",
+        "top-time-tracking-tools"
+      ]
+    },
+    {
+      "pillar": "Organizational Development: Implementation & Measurement",
+      "intent": "informational",
+      "spokes": [
+        "case-studies-of-successful-organizational-development-programs",
+        "common-mistakes-to-avoid-in-organizational-development",
+        "future-of-organizational-development",
+        "how-to-choose-the-right-organizational-development-intervention",
+        "how-to-implement-organizational-development-successfully",
+        "how-to-measure-the-success-of-organizational-development"
+      ]
+    },
+    {
+      "pillar": "Candidate Experience: Drop-off, Ghosting & Feedback",
+      "intent": "informational",
+      "spokes": [
+        "candidate-drop-off",
+        "candidate-ghosting",
+        "candidate-rejection-email-templates",
+        "how-to-build-strong-employer-candidate-relations",
+        "how-to-give-constructive-feedback-to-candidates",
+        "how-to-handle-negative-glassdoor-reviews"
+      ]
+    },
+    {
+      "pillar": "Resume Screening, Parsing & Verification",
+      "intent": "mixed",
+      "spokes": [
+        "optimize-resume-for-tech-jobs",
+        "resume-review-process-affects-your-company-brand",
+        "resume-verification-process",
+        "top-resume-writing-services-hr-professionals",
+        "using-gameplay-as-a-resume-professional-skills-game-behavior",
+        "what-is-resume-parsing"
+      ]
+    },
+    {
+      "pillar": "Candidate Screening & Online Exam Proctoring",
+      "intent": "mixed",
+      "spokes": [
+        "in-app-telephone-screening",
+        "lockdown-browser",
+        "system-compatibility-check-to-prevent-exam-failure",
+        "technical-screening",
+        "top-tools-for-running-a-system-requirement-check",
+        "which-tools-support-ai-generated-questions"
+      ]
+    },
+    {
+      "pillar": "Internal Communication for HR",
+      "intent": "informational",
+      "spokes": [
+        "active-listening-techniques-for-employers",
+        "assess-communication-channels-and-strategies-in-the-organization-effectively",
+        "best-internal-communication-tools",
+        "conduct-hr-communication-during-organizational-changes",
+        "create-an-effective-internal-communication-strategy"
+      ]
+    },
+    {
+      "pillar": "Work-Life Balance & Flexible Work Arrangements",
+      "intent": "informational",
+      "spokes": [
+        "10-ideas-to-promote-work-life-balance",
+        "create-and-maintain-a-supportive-work-environment",
+        "how-to-implement-effective-flexible-work-arrangements",
+        "how-to-improve-work-life-balance",
+        "how-to-measure-work-life-balance"
+      ]
+    },
+    {
+      "pillar": "Core HR Tools & Digital Transformation",
+      "intent": "commercial",
+      "spokes": [
+        "customisable-cloud-based-hr-solutions",
+        "factors-to-consider-for-choosing-the-right-core-hr-tools",
+        "how-digital-transformation-is-revolutionizing-hr",
+        "how-hr-and-web-app-development-can-drive-business-success",
+        "how-to-streamline-hr-administration-with-core-hr-tools"
+      ]
+    },
+    {
+      "pillar": "AI in Candidate Assessment & Evaluation",
+      "intent": "informational",
+      "spokes": [
+        "guide-to-enterprise-ai-in-large-organizations",
+        "how-testlify-ai-scoring-works",
+        "how-to-assess-ethical-judgment-of-candidates",
+        "how-to-evaluate-candidates-with-ai-safely",
+        "how-to-run-role-simulations"
+      ]
+    },
+    {
+      "pillar": "Assessing Candidate Cultural Fit",
+      "intent": "informational",
+      "spokes": [
+        "assess-candidates-for-cultural-fit",
+        "creative-ways-to-assess-a-candidates-cultural-fit",
+        "cultural-alignment",
+        "how-to-determine-a-candidates-cultural-fit"
+      ]
+    },
+    {
+      "pillar": "Organizational Development",
+      "intent": "informational",
+      "spokes": [
+        "organizational-development-for-small-businesses",
+        "organizational-development-for-startups",
+        "role-of-organizational-development-consultant",
+        "what-is-organizational-development"
+      ]
+    },
+    {
+      "pillar": "HR for Small Businesses & Startups",
+      "intent": "mixed",
+      "spokes": [
+        "manage-hr-responsibilities-in-small-and-medium-sized-enterprises",
+        "tips-for-hr-to-optimize-working-days",
+        "why-smaller-businesses-turn-to-virtual-assistant-services",
+        "why-startup-need-hr-consultancy-partner"
+      ]
+    },
+    {
+      "pillar": "Starting an HR Business or Agency",
+      "intent": "informational",
+      "spokes": [
+        "future-of-hr-consultancy-adapting-to-the-gig-economy",
+        "how-to-open-llc-for-hr-agency",
+        "how-to-start-an-hr-business-step-by-step"
+      ]
+    },
+    {
+      "pillar": "Recruitment & Onboarding Email Templates",
+      "intent": "informational",
+      "spokes": [
+        "internship-offer-email-templates",
+        "internship-probation-confirmation-emails",
+        "rejection-emails-to-unsuccessful-candidates-free-templates"
+      ]
+    }
+  ]
+}

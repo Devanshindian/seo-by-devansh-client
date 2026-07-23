@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2300,
+    "brand_fit": "CORE",
+    "angle_gap": "The page slaps 'Philippines' onto otherwise generic global aptitude-test marketing copy \u2014 every claim (2000+ job roles, fluid/crystallized reasoning, leadership identification) is template boilerplate with zero local labor-market detail: no Philippine role coverage specifics, no local compliance notes, no example test items or score interpretation.",
+    "asset": "Aptitude Testing for Philippine Hiring Teams: What the Scores Actually Predict",
+    "distinct_angle": "Grounds the same pitch in real Philippine hiring context \u2014 sample test items, how scores map to on-the-job performance, and local role coverage \u2014 where the original page is a global template with the country name swapped in.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2307,
+    "brand_fit": "CORE",
+    "angle_gap": "The 5-step leadership-assessment process (role analysis \u2192 competency mapping \u2192 assessment/report config \u2192 administration \u2192 data analysis) is named but never explained \u2014 each step gets one vague sentence, no example competency framework, no sample indicators, no sample report output.",
+    "asset": "How Leadership Assessments Actually Predict Who's Ready to Manage",
+    "distinct_angle": "Spells out a real competency framework with concrete behavioral indicators and a worked scoring example for each of the process steps the page only names in one line apiece.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2308,
+    "brand_fit": "CORE",
+    "angle_gap": "Page sells scale via raw stats ('100,000+ technical questions', '20,000+ questions') but never addresses AI-assisted cheating on coding tests (Copilot/ChatGPT), a live concern for technical screening, and never explains how to structure a screening process \u2014 it's a question-bank size pitch, not guidance.",
+    "asset": "Technical Screening in the Age of AI Coding Assistants",
+    "distinct_angle": "Covers detecting and designing around AI-assisted coding during screens \u2014 a topic the page never mentions despite leading with question-bank size as its main selling point.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2311,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 360-degree feedback is post-hire performance/development tooling, explicitly off-limits per brand scope (not pre-employment assessment)"
+  },
+  {
+    "row_id": 2313,
+    "brand_fit": "CORE",
+    "angle_gap": "Page lists psychometric test categories (personality, cognitive, sales, leadership) with pure marketing bullets and never once addresses validity evidence, adverse impact, or legal defensibility \u2014 a critical gap for any employer actually deploying these in hiring decisions.",
+    "asset": "Psychometric Testing for Hiring: How to Prove It's Valid and Legally Defensible",
+    "distinct_angle": "Fills the compliance and validity gap the page skips entirely \u2014 explaining how to defend psychometric test scores in an adverse-impact audit, where the original only lists test categories.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

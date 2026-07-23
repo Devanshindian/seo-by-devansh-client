@@ -1,0 +1,82 @@
+{
+  "slice_id": "w32",
+  "clusters": [
+    {
+      "pillar": "How to Build an Employee Compensation & Benefits Package",
+      "intent": "informational",
+      "spokes": [
+        "create-effective-employee-benefits-package",
+        "how-to-create-a-compensation-benefits-package",
+        "how-to-get-started-with-compensation-and-benefits",
+        "find-compensation-and-benefits-for-your-organization",
+        "different-types-of-compensation-and-benefits",
+        "importance-of-compensation-and-benefits"
+      ]
+    },
+    {
+      "pillar": "Compensation & Benefits by Company Type (Startup, Small Business, Remote)",
+      "intent": "informational",
+      "spokes": [
+        "provide-compensation-and-benefits-as-a-small-business",
+        "providing-compensation-and-benefits-as-a-remote-team",
+        "providing-compensation-and-benefits-as-startup",
+        "compensation-and-benefits-for-the-future-of-work"
+      ]
+    },
+    {
+      "pillar": "What Goes Into a Modern Benefits Package",
+      "intent": "informational",
+      "spokes": [
+        "comprehensive-benefits-packages-contribute-to-talent-retention",
+        "comprehensive-health-insurance-options-impact-benefits-packages",
+        "remote-work-allowances-becoming-staple-benefits-packages",
+        "retirement-planning-assistance-play-in-benefits-packages"
+      ]
+    },
+    {
+      "pillar": "Managing Compensation & Benefits Programs",
+      "intent": "informational",
+      "spokes": [
+        "how-to-manage-compensation-and-benefits-costs",
+        "communicate-compensation-and-benefits-to-your-employees",
+        "common-mistakes-to-avoid-while-offering-compensation-and-benefits",
+        "case-studies-of-compensation-and-benefits-programs",
+        "use-technology-to-support-compensation-and-benefits"
+      ]
+    },
+    {
+      "pillar": "Salary Negotiation & Pay Offers",
+      "intent": "informational",
+      "spokes": [
+        "how-to-address-salary-parity-concern-in-lateral-hires",
+        "how-to-make-blue-collar-salary-and-benefits-offers",
+        "negotiate-competitive-salary-and-benefits-packages-within-budget-constraints"
+      ]
+    },
+    {
+      "pillar": "Payroll Management & HR Payroll Integration",
+      "intent": "mixed",
+      "spokes": [
+        "best-peos-utah-small-business-hr-payroll",
+        "guide-to-payroll-management",
+        "integrating-hr-solutions-with-payroll-systems"
+      ]
+    }
+  ],
+  "orphans": [
+    "benefits-of-ai-resume-screening",
+    "benefits-of-implementing-servant-leadership-in-hr",
+    "benefits-of-organizational-development",
+    "benefits-of-personalized-customer-support",
+    "benefits-of-using-a-learning-management-system",
+    "instant-benefits-of-using-time-tracking-software",
+    "primary-benefits-of-implementing-time-tracking-systems-for-employees",
+    "sharepoint-and-benefits-of-lms-with-sharepoint-integration",
+    "garden-leave",
+    "compensation-transparency-hiring-trend-us-and-canada",
+    "stay-compliant-with-compensation-and-benefits-laws",
+    "when-benefits-audit-fails-data-infrastructure-is-the-real-problem",
+    "top-benefits-administration-tools",
+    "top-compensation-management-tools"
+  ]
+}

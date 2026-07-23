@@ -1,0 +1,60 @@
+{
+ "sections": [
+  {
+   "name": "Core Value Propositions",
+   "pass": true,
+   "why": "10 propositions, each with Feature/Benefit/Conversion Angle filled. No [BRACKET] leftovers. Specifics (3,500+ tests, 4,500+ roles, 20+ proctoring controls, 100+ ATS) read as sourced, and the one unsupported claim (Interview-as-a-Service expert counts) is correctly demoted to a `\u2691 HUMAN DECISION` flag rather than asserted.",
+   "redo": ""
+  },
+  {
+   "name": "Technical Features",
+   "pass": true,
+   "why": "Five named categories (Assessments & Test Library, Interviews & AI, Anti-Cheating & Proctoring, Reporting/Analytics & Fairness, Branding/Admin & Security), each densely filled with the full set. Per-unit counts (245 cognitive, 57 programming, 101 software skills, 22 language, 12 SJT) and add-on prices ($0.25/$0.50/$5) are consistent with the Pricing section, so they read as sourced rather than invented.",
+   "redo": ""
+  },
+  {
+   "name": "Integrations & Ecosystem",
+   "pass": true,
+   "why": "Grouped by category with named platforms and a one-line description each; the 100+ headline is actually backed by an enumerated list rather than asserted. Zapier's 'included in all plans, native integration is white-label only' matches the Add-Ons section. No invented-looking integration.",
+   "redo": ""
+  },
+  {
+   "name": "Competitive Differentiators",
+   "pass": false,
+   "why": "Two failures. (1) COMPLETENESS: HireVue is the only named competitor with no fair note on rival strength \u2014 it carries a HUMAN DECISION flag instead, but the flag does not substitute for the required note; and the Maki People entry's 'Where the alternatives stand' is a G2 leaderboard, not a note on Maki's own strength. (2) CONSOLIDATION: the Criteria Corp and Maki People entries are near-identical boilerplate (same four beats: test library, chat/voice/video AI interviews, 'dual webcam monitoring, randomized question banks, AI assistance detection, secure lockdown browser', 100+ ATS) \u2014 repeated marketing prose, not two distinct comparisons. Worse, the duplicate is non-canonical: Maki says '3,000+ ready-made tests' where every other section says 3,500+ (3,000+ is the assessments figure, not the tests figure).",
+   "redo": "Add a 'Where HireVue is genuinely strong' note (or drop the HireVue section per its own flag). Rewrite the Maki People strength note to address Maki's actual product strength rather than the alternatives leaderboard. Merge the Criteria Corp and Maki People bodies so the shared anti-cheating/AI-interview claims appear once, and differentiate each entry on what that specific rival actually lacks. Fix Maki's '3,000+ ready-made tests' to the canonical '3,500+ tests / 3,000+ ready-to-use assessments'."
+  },
+  {
+   "name": "Use Cases by Segment",
+   "pass": true,
+   "why": "Eight segments plus eight industry verticals, all filled with segment-specific evidence (named tests, plan credits/seats, named pains). Runs well above the 3-5 floor but every entry earns its place with distinct content, so completeness is met without duplication.",
+   "redo": ""
+  },
+  {
+   "name": "Pricing & Plan Benefits",
+   "pass": true,
+   "why": "Real tiers with both list and annual prices, seat/credit counts, per-extra-credit rates, the credit model, the 24-month lock with its scope carve-out, expiry, trial, refund, non-profit code, and itemised add-ons. Per-credit rates ($10/$7/$5/$3) reconcile with the credit-expiry Q&A. Nothing reads invented.",
+   "redo": ""
+  },
+  {
+   "name": "Key Messaging for Conversions",
+   "pass": false,
+   "why": "LEGAL: the Social Proof bullet 'A language assessment enabled unbiased decisions for an international hire' is an absolute fairness claim, which is an automatic fail regardless of it being reviewer-sourced. It also directly contradicts the draft's own Content Creation Guideline 8 and the Q&A line 'No assessment tool eliminates bias, and Testlify does not claim to.' Everything else in the section is sound, and the unsourced customer results (inDrive, Endiprev, 40,000+ recruiters, G2 award) are correctly flagged rather than asserted.",
+   "redo": "Rewrite the 'unbiased decisions' bullet to a defensible form, e.g. 'A language assessment gave an international hire a like-for-like evaluation' or quote the reviewer verbatim in quotation marks so it reads as reported speech, not a Testlify claim. Sweep the whole section for any other absolute fairness wording."
+  },
+  {
+   "name": "Common Questions & Objections",
+   "pass": true,
+   "why": "18 objections covering the real buying blockers (cheating, false-positive proctoring flags, bias, AI scoring method, price lock, credit expiry, trial/refund, ATS, validity, drop-off, tech requirements). The bias answer is handled with unusual discipline \u2014 it explicitly disclaims elimination. The AI-proctoring answer concedes false positives rather than deflecting, which reads as honest, not marketing prose.",
+   "redo": ""
+  },
+  {
+   "name": "Content Creation Guidelines",
+   "pass": true,
+   "why": "Eight actionable rules, each with a concrete test or example rather than a platitude. Rule 8 encodes the legal guardrail correctly, including the banned phrases and a usable sign-off test.",
+   "redo": ""
+  }
+ ],
+ "overall_pass": false,
+ "redo_notes": "Two blocking fixes, both narrow \u2014 the rest of the draft is publishable as is.\n\n1. LEGAL (Key Messaging for Conversions). Delete or rewrite the Social Proof bullet 'A language assessment enabled unbiased decisions for an international hire.' 'Unbiased decisions' is an absolute fairness claim. Either quote the G2 reviewer verbatim inside quotation marks so it is plainly reported speech, or restate it as 'gave an international hire a like-for-like evaluation.' Then re-sweep the section against the draft's own Guideline 8.\n\n2. COMPLETENESS + CONSOLIDATION (Competitive Differentiators). (a) Add a 'Where HireVue is genuinely strong' note or drop the section per its existing flag \u2014 every named competitor needs one fair note, and the HUMAN DECISION flag does not fill that slot. (b) Replace Maki People's 'Where the alternatives stand' with a note on Maki's own strength; the G2 leaderboard is not a rival-strength note. (c) The Criteria Corp and Maki People entries repeat the same four claims almost word for word, including the identical 'dual webcam monitoring, randomized question banks, AI assistance detection, secure lockdown browser' string. State those shared claims once, then differentiate each entry on what that specific rival actually lacks. (d) While consolidating, fix Maki's '3,000+ ready-made tests' to the canonical '3,500+ tests' \u2014 3,000+ is the ready-to-use assessments figure, and the non-canonical copy is exactly the drift consolidation exists to prevent."
+}

@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research-structure — How the Research Becomes the Article Blueprint</title>
+<style>
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:730px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:730px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;} .mem ul{margin:6px 0 6px;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+
+  /* step flow */
+  .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
+  .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:15px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow); text-align:center; line-height:1;}
+  .step-body h3{margin:4px 0 4px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
+  .step-body ul{margin:6px 0 4px; color:var(--muted); font-size:14.5px;} .step-body ul .file{font-size:11.5px;}
+  .step-body ul .fn{color:var(--ink); font-weight:600;}
+  .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
+  .xref:hover{background:var(--orange-soft);}
+  .phase{font-size:12px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin:26px 0 2px;}
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.code{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
+  .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
+  .files .k{font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
+
+  /* generic cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .grid.four{grid-template-columns:repeat(4,1fr);}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+  .card .file{margin-top:10px; display:inline-block;}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11.5px;}
+  td b{color:var(--ink);}
+  .t-tag{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; font-weight:700; padding:1px 7px; border-radius:5px; background:var(--wash); border:1px solid var(--orange-soft);}
+
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
+
+  /* the card anatomy */
+  .cardbox{background:var(--paper); border:1px solid var(--line); border-radius:16px; box-shadow:var(--shadow); padding:8px; margin:20px 0;}
+  .field{display:flex; gap:14px; padding:11px 12px; align-items:baseline;}
+  .field+.field{border-top:1px solid var(--line);}
+  .field .fk{flex:none; width:120px; font-family:ui-monospace,Menlo,monospace; font-size:12.5px; font-weight:700; color:var(--orange);}
+  .field .fv{font-size:14.5px; color:var(--muted);}
+  .field .fv b{color:var(--ink);}
+
+  /* two-column compare */
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--yellow-soft); border:2px solid var(--yellow);}
+  .agent.answ .cap{background:var(--orange-soft); border:2px solid var(--orange);}
+  .agent h3{margin:0 0 2px; font-size:19px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+  .mem{font-size:14px; padding:9px 12px; border-radius:10px; margin-top:9px;}
+  .mem.yes{background:var(--green); border:1px solid var(--green-line);}
+  .mem.no{background:var(--red); border:1px solid var(--red-line);}
+  .mem .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
+  .mem.yes .lbl{color:var(--green-ink);} .mem.no .lbl{color:var(--red-ink);}
+
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  /* before/after */
+  .ba{display:grid; grid-template-columns:1fr auto 1fr; gap:14px; align-items:center; margin:20px 0;}
+  .ba .box{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:16px 18px; box-shadow:var(--shadow); text-align:center;}
+  .ba .box .n{font-size:26px; font-weight:800;} .ba .box small{color:var(--muted); font-size:12.5px;}
+  .ba .arr{font-size:22px; color:var(--orange); font-weight:800;}
+  .ba .box.after{border-color:var(--green-line); background:var(--green);}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three,.grid.four{grid-template-columns:1fr;} .ba{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="kicker">Content Machine · Research Phase</span>
+    <h1>How <span class="hl">research-structure</span> turns the research into the article's blueprint</h1>
+    <p class="lede">This is the last step of the research phase. It takes everything gathered for one topic — STORM's
+    evidence, our own pages, the DataForSEO brief — and turns it into the article's <b>blueprint</b>: a skeleton of
+    sections where each one already carries its evidence, its links, and its target keyword. The writer then just
+    writes. Here is exactly how it's built, script by script.</p>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#idea">The idea</a>
+    <a href="#words">The words</a>
+    <a href="#card">The card</a>
+    <a href="#architecture">The architecture</a>
+    <a href="#pipeline">Full pipeline</a>
+    <a href="#filter">The angle filter</a>
+    <a href="#cluster">MECE clustering</a>
+    <a href="#output">Keywords &amp; output</a>
+  </div>
+</nav>
+
+<!-- IDEA -->
+<section id="idea">
+  <div class="wrap">
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">The problem: STORM gives us tens of thousands of words of evidence, but not a structure. This
+    engine builds the structure — and it does it <b>content-first</b>: shape the sections from the richest material,
+    then tag keywords on afterwards. Never the other way round.</p>
+    <div class="grid four">
+      <div class="card"><div class="ic">🧩</div><h3>1. Gather</h3><p>Break every source — STORM, our pages, the
+        brief — into small <b>cards</b>, one idea each.</p></div>
+      <div class="card"><div class="ic">✂️</div><h3>2. Prune</h3><p>Score each card through the reader's eyes and drop
+        the off-angle tail <b>before</b> it bloats the structure.</p></div>
+      <div class="card"><div class="ic">🗂️</div><h3>3. Organize</h3><p>Group the surviving cards into
+        non-overlapping sections (H2/H3), each named from its own cards.</p></div>
+      <div class="card"><div class="ic">🔗</div><h3>4. Enrich</h3><p>Hang evidence, links, and a target keyword on
+        each section, then render the blueprint.</p></div>
+    </div>
+    <div class="note orange"><span class="tag">The one rule that governs everything</span><br>
+    <b>Content-first, then keywords — and every card lands in exactly one section.</b> The skeleton is built from the
+    rich content (evidence + competitor coverage + gaps + our pages); keywords are tags on sections, never the
+    skeleton. If a section's content can't be traced back to a harvested card, it doesn't belong.</div>
+    <div class="note"><span class="tag">Why content-first, not keyword-first</span><br>
+    If keywords seeded the sections, thin keywords would give a thin article — and our keyword list is often thin on
+    the exact angle. So we build from the <b>rich</b> evidence we actually gathered, and map keywords on after.
+    Google rewards complete, helpful content, not keyword-shaped content.</div>
+  </div>
+</section>
+
+<!-- THE WORDS -->
+<section id="words" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">This engine has a small vocabulary that everything else leans on. Here it is in plain language, once.</p>
+    <div class="define"><b>Blueprint</b> — the output: the article's skeleton (H1 → H2 → H3 → FAQ) where every section
+      already holds its evidence, its links, and its target keyword. The writer consumes this and just writes.</div>
+    <div class="define"><b>Card</b> — the unit of work: one atomic idea from one source, with a one-line summary, the
+      exact source text, its links, and a tag. Everything downstream operates on cards, not documents.</div>
+    <div class="define"><b>Gloss</b> — a card's one-line summary. Deliberately the <b>only</b> thing the grouping step
+      reads (keeps it fast and stops the evidence text from bloating the decision).</div>
+    <div class="define"><b>Verbatim</b> — the exact source sentence(s), copied not reworded, kept for citation.</div>
+    <div class="define"><b>Tag</b> — what kind of card it is: <span class="t-tag">storm</span>
+      <span class="t-tag">ownpage</span> <span class="t-tag">competitor</span> <span class="t-tag">gap</span>
+      <span class="t-tag">question</span>.</div>
+    <div class="define"><b>Persona</b> — the one reader this article serves. Chosen once here and reused later, so the
+      research and the writing aim at the same person.</div>
+    <div class="define"><b>MECE</b> — "mutually exclusive, collectively exhaustive": every card sits in exactly one
+      section — nothing missed, nothing repeated. Guaranteed in code, not hoped for.</div>
+    <div class="define"><b>Differentiator</b> — a section that carries our unique angle, or a gap competitors don't
+      cover. The few sections where we actually beat the field.</div>
+    <div class="define"><b>Orphan keyword</b> — a high-demand keyword that no section happens to cover; a safety-net
+      flag so content-first doesn't miss obvious search demand.</div>
+  </div>
+</section>
+
+<!-- THE CARD -->
+<section id="card">
+  <div class="wrap">
+    <h2><span class="num">03</span>The card — the atom everything is built from</h2>
+    <p class="sub">Before anything can be organized, every source is shredded into cards. A card is one idea from one
+    place. Making the card the atom is what lets the engine prune, cluster, and cite with precision.</p>
+
+    <div class="cardbox">
+      <div class="field"><div class="fk">id</div><div class="fv">A single <b>continuous number</b> across every source (STORM cards 1…N, then our first page N+1…). A code check makes sure none is skipped.</div></div>
+      <div class="field"><div class="fk">gloss</div><div class="fv">The one-line summary. <b>The only field the clustering step reads.</b></div></div>
+      <div class="field"><div class="fk">verbatim</div><div class="fv">The exact source text (or empty for cards that have no underlying text, like a competitor heading).</div></div>
+      <div class="field"><div class="fk">source_urls</div><div class="fv">Where the verbatim came from — becomes the section's <b>external</b> citations.</div></div>
+      <div class="field"><div class="fk">internal_link</div><div class="fv">Set when the card is one of <b>our</b> pages — becomes an <b>internal</b> link.</div></div>
+      <div class="field"><div class="fk">tag</div><div class="fv"><span class="t-tag">storm</span> <span class="t-tag">ownpage</span> <span class="t-tag">competitor</span> <span class="t-tag">gap</span> <span class="t-tag">question</span> — where the card came from and how it's treated.</div></div>
+    </div>
+
+    <h3>How each source becomes cards</h3>
+    <p>The gloss always reads the <b>whole chunk</b> it summarises, never just a heading. What's LLM-written vs lifted
+    differs by source — and that's deliberate, so citations stay faithful:</p>
+    <table>
+      <tr><th>Source</th><th>Gloss</th><th>Verbatim</th><th>Tag</th></tr>
+      <tr><td>STORM chunk</td><td>LLM-written from the whole chunk</td><td>the chunk text (keeps its citation markers); <b>checked to exist in the source</b></td><td><span class="t-tag">storm</span></td></tr>
+      <tr><td>Our own page</td><td>LLM-written from the section text</td><td><b>code-sliced</b> from the page — 100% faithful, never LLM-copied</td><td><span class="t-tag">ownpage</span></td></tr>
+      <tr><td>Competitor H2 (from the brief)</td><td>the heading itself</td><td>— (none)</td><td><span class="t-tag">competitor</span></td></tr>
+      <tr><td>Gap we can own (from the brief)</td><td>the gap phrase itself</td><td>— (none)</td><td><span class="t-tag">gap</span></td></tr>
+      <tr><td>PAA / AI question (from the brief)</td><td>the question itself</td><td>— (none)</td><td><span class="t-tag">question</span></td></tr>
+    </table>
+    <div class="note"><span class="tag">The anti-fabrication check</span><br>
+    STORM is the only source whose verbatim the LLM writes, so each STORM verbatim is checked as an <b>exact
+    substring</b> of its source section — if it isn't really there, the card is dropped. Own-page verbatim is sliced
+    by code straight from the page, so it's faithful by construction. Nothing gets cited that wasn't actually said.</div>
+  </div>
+</section>
+
+<!-- ARCHITECTURE -->
+<section id="architecture" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">04</span>The architecture — free judgment, one paid lookup</h2>
+    <p class="sub">Nearly the whole engine is free thinking on a headless LLM CLI (Claude or Codex), plus some pure
+    code for the parts that must be guaranteed (like MECE). Only one step spends money, and it's skippable.</p>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">🧠</div><h3>Free judgment + code</h3>
+        <div class="role">almost every step</div>
+        <div class="mem yes"><span class="lbl">Runs free</span>
+          <ul>
+            <li>All the LLM steps run on a headless CLI — Claude or Codex (no key), several at once.</li>
+            <li>The guarantees (MECE, competitor-source removal, FAQ) are <b>plain code</b>, not LLM.</li>
+            <li>Fetching our own pages is a free web request.</li>
+          </ul></div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">💳</div><h3>The one paid step</h3>
+        <div class="role">Step 6 · per-H2 keyword</div>
+        <div class="mem no"><span class="lbl">Skippable</span>
+          <ul>
+            <li>Only the per-section keyword lookup calls the paid DataForSEO API.</li>
+            <li>It reuses the DataForSEO engine's own search method + credentials.</li>
+            <li><span class="file">--skip-keywords</span> turns it off entirely.</li>
+          </ul></div>
+      </div>
+    </div>
+
+    <h3>The skeleton — the three files that hold it together</h3>
+    <table>
+      <tr><th style="width:26%">File</th><th>What it does &amp; where it's used</th></tr>
+      <tr>
+        <td><span class="file">config.py</span><br><span class="muted" style="font-size:12.5px;">settings hub</span></td>
+        <td>Every path + tunable in one place: the source folders, the drop threshold, the keyword cut-offs
+          (<span class="file">KD &lt; 30</span>, <span class="file">volume ≥ 100</span>), retry counts, and the
+          crash-safe save helpers. Company is one setting.</td>
+      </tr>
+      <tr>
+        <td><span class="file">llm.py</span><br><span class="muted" style="font-size:12.5px;">the AI caller</span></td>
+        <td>The one doorway to a headless LLM CLI — Claude or Codex (free): returns clean JSON, re-asks once on a bad
+          reply, loads each step's prompt from <span class="file">prompts/</span>. Running several at once = the "subagents".</td>
+      </tr>
+      <tr>
+        <td><span class="file">build_structure.py</span><br><span class="muted" style="font-size:12.5px;">orchestrator</span></td>
+        <td>The one command you run. Sequences all the steps, prints <span class="file">== Step N ==</span>, and is
+          <b>resumable</b> — it reuses the big cached outputs (cards, drops, persona) unless a
+          <span class="file">--reharvest</span> / <span class="file">--refilter</span> flag forces a redo.</td>
+      </tr>
+    </table>
+    <p class="muted" style="font-size:14.5px;">Each step below has its own script and (where it thinks) its own prompt
+    file. They're named inline in the pipeline so you can see exactly which file does what.</p>
+  </div>
+</section>
+
+<!-- PIPELINE -->
+<section id="pipeline">
+  <div class="wrap">
+    <h2><span class="num">05</span>The full pipeline — from sources to blueprint</h2>
+    <p class="sub">One command runs it all. It moves through five phases: <b>gather → prune → organize → enrich →
+    finish</b>. Each step writes a named output the next step reads. <span class="pill code">code</span> = a
+    guarantee done in plain code; <span class="pill paid">paid</span> = the one DataForSEO step.</p>
+
+    <div class="phase">Phase A · Gather</div>
+    <div class="flow">
+      <div class="step"><div class="dot">1</div><div class="step-body">
+        <h3>Harvest cards <span class="pill free">free</span></h3>
+        <p>Read every source in its own small call (so nothing truncates) and emit cards with continuous ids.</p>
+        <ul>
+          <li><span class="fn"><span class="file">harvest_storm.py</span></span> — splits each STORM dossier (hub + every gap-fill iteration) by section, one call per section; resolves each citation marker to a real URL.</li>
+          <li><span class="fn"><span class="file">harvest_ownpages.py</span></span> — fetches our relevant pages live, keeps the real content sections (skips nav/footer/CTA), slices the verbatim by code.</li>
+          <li><span class="fn"><span class="file">harvest_brief.py</span></span> — lifts competitor H2s, gaps-we-can-own, and questions straight from the brief.</li>
+          <li><span class="fn"><span class="file">cards.json</span></span> — every card, numbered continuously. A 0-card section is retried, then flagged loudly — never silently dropped.</li>
+        </ul>
+        <a class="xref" href="#card">↓ §03 — what a card holds</a></div></div>
+
+      <div class="step"><div class="dot">1a</div><div class="step-body">
+        <h3>Pick the reader persona <span class="pill free">free</span></h3>
+        <p>Choose the <b>one</b> reader this asset serves from the brand's persona library — decided once, here, and
+        reused everywhere so research and writing target the same person.</p>
+        <ul>
+          <li><span class="fn"><span class="file">pick_persona.py</span></span> → <span class="file">persona.json</span> (<span class="file">{name, lens, why}</span>). Falls back to a generic "practitioner, not academic" reader if no library exists.</li>
+        </ul></div></div>
+    </div>
+
+    <div class="phase">Phase B · Prune</div>
+    <div class="flow">
+      <div class="step"><div class="dot">1b</div><div class="step-body">
+        <h3>Angle-relevance filter <span class="pill free">free</span> <span class="pill">the biggest lever</span></h3>
+        <p>Score <b>every card</b> through the persona's eyes against the asset's angle, and drop the off-angle tail
+        <b>before</b> clustering — so it never bloats the structure. Load-bearing data is protected.</p>
+        <ul>
+          <li><span class="fn"><span class="file">score_cards.py</span></span> → <span class="file">dropped-cards.json</span> (every drop logged with its score + reason).</li>
+        </ul>
+        <a class="xref" href="#filter">↓ §06 — the rubric, the PROTECT rule, and the real cut</a></div></div>
+    </div>
+
+    <div class="phase">Phase C · Organize</div>
+    <div class="flow">
+      <div class="step"><div class="dot">2·3</div><div class="step-body">
+        <h3>Cluster into sections + verify MECE <span class="pill free">free</span> <span class="pill code">code</span></h3>
+        <p>Group the surviving cards into non-overlapping sections reading <b>only the gloss</b> (anti-bloat), then a
+        code pass <b>guarantees</b> every card sits in exactly one section.</p>
+        <ul>
+          <li><span class="fn"><span class="file">cluster.py</span></span> → <span class="file">clusters.json</span>. Big sets switch to a batched two-level pass so one giant call can't time out.</li>
+        </ul>
+        <a class="xref" href="#cluster">↓ §07 — why gloss-only + code-verified MECE matters</a></div></div>
+
+      <div class="step"><div class="dot">4</div><div class="step-body">
+        <h3>Name + split each section <span class="pill free">free</span></h3>
+        <p>One call per cluster (small context) writes its working H2 label and, if it's big, splits its cards across
+        H3s. Labels are working drafts — final wording is the writer's job.</p>
+        <ul>
+          <li><span class="fn"><span class="file">name_clusters.py</span></span> → <span class="file">sections.json</span>.</li>
+        </ul></div></div>
+
+      <div class="step"><div class="dot">4c</div><div class="step-body">
+        <h3>Re-decide the differentiator flag <span class="pill free">free</span></h3>
+        <p>The "this is our angle" flag set during clustering over-fires (it never saw the angle or the competitors).
+        This step re-decides it <b>once, strictly</b> — given the asset's angle + what competitors cover + our gaps.</p>
+        <ul>
+          <li><span class="fn"><span class="file">redecide_differentiator.py</span></span> → <span class="file">differentiator-audit.json</span> (the authoritative flag; supersedes clustering's guess).</li>
+        </ul></div></div>
+    </div>
+
+    <div class="phase">Phase D · Enrich</div>
+    <div class="flow">
+      <div class="step"><div class="dot">4b</div><div class="step-body">
+        <h3>Strip competitor sources <span class="pill code">code</span></h3>
+        <p>Before evidence is attached, drop every competitor citation so none survives into the blueprint. A card
+        sourced <b>only</b> from a competitor is deleted; a mixed card keeps its legit source, competitor link removed.</p>
+        <ul>
+          <li><span class="fn"><span class="file">filter_sources.py</span></span> + <span class="fn"><span class="file">competitors.py</span></span> → <span class="file">competitor-drops.json</span>. Flags loudly if it deletes more than 5% of cards.</li>
+        </ul></div></div>
+
+      <div class="step"><div class="dot">5</div><div class="step-body">
+        <h3>Attach evidence + links <span class="pill code">code</span></h3>
+        <p>Under each section, collect its cards' verbatim + source URLs (external links) and our-page links
+        (internal), kept as separate lists. Pure assembly by card id — nothing new is written.</p>
+        <ul>
+          <li><span class="fn"><span class="file">attach.py</span></span> — folds evidence + links into each section.</li>
+        </ul></div></div>
+
+      <div class="step"><div class="dot">6</div><div class="step-body">
+        <h3>Target keyword per H2 <span class="pill paid">paid · DataForSEO</span></h3>
+        <p>For each section: an LLM makes 1–3 seed phrases → DataForSEO returns real phrases containing them → keep
+        only <b>KD &lt; 30 and volume ≥ 100</b> → an LLM picks the best fit. Differentiator/gap sections with no
+        qualifying keyword are left keyword-free — that's correct.</p>
+        <ul>
+          <li><span class="fn"><span class="file">keywords.py</span></span> — a keyword + KD + volume on each H2. Skip with <span class="file">--skip-keywords</span>.</li>
+        </ul>
+        <a class="xref" href="#output">↓ §08 — don't force keywords, and the orphan check</a></div></div>
+
+      <div class="step"><div class="dot">7</div><div class="step-body">
+        <h3>Orphan check <span class="pill free">free</span></h3>
+        <p>Scan the brief's existing keyword pool (no new API calls) for any high-demand keyword no section covers —
+        the safety net that stops content-first from missing obvious demand.</p>
+        <ul>
+          <li><span class="fn"><span class="file">orphan.py</span></span> — flags orphans, adds a candidate section if one's worth it.</li>
+        </ul></div></div>
+    </div>
+
+    <div class="phase">Phase E · Finish</div>
+    <div class="flow">
+      <div class="step"><div class="dot">8</div><div class="step-body">
+        <h3>FAQ + order <span class="pill free">free</span> <span class="pill code">code</span></h3>
+        <p>Build the FAQ from the question cards (code, no LLM), then order the sections using the AI Overview grouping
+        from the brief (logical order if there's none).</p>
+        <ul>
+          <li><span class="fn"><span class="file">faq_order.py</span></span> — the FAQ list + the sections reordered.</li>
+        </ul></div></div>
+
+      <div class="step"><div class="dot">8b</div><div class="step-body">
+        <h3>Keyword-set <span class="pill free">free</span></h3>
+        <p>Consolidate the keywords the writer must cover, from <b>two</b> sources: top-down from the brief (primary +
+        variations + secondaries + in-body), and bottom-up from the sections (each H2's own keyword).</p>
+        <ul>
+          <li><span class="fn"><span class="file">keyword_set.py</span></span> → <span class="file">keyword-set.json</span> (<span class="file">{primary, variations, secondaries, h2_keywords, in_body}</span>).</li>
+        </ul></div></div>
+
+      <div class="step"><div class="dot">9</div><div class="step-body">
+        <h3>Render the blueprint <span class="pill free">free</span></h3>
+        <p>Assemble everything into the machine-readable source of truth and an interactive viewer.</p>
+        <ul>
+          <li><span class="fn"><span class="file">render.py</span></span> → <span class="file">structure-&lt;slug&gt;.json</span> (the blueprint) + <span class="file">structure-&lt;slug&gt;.html</span> (hover an H2 → its keyword/KD/volume; hover evidence → its source links).</li>
+        </ul>
+        <a class="xref" href="#output">↓ §08 — what the blueprint contains</a></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- THE ANGLE FILTER -->
+<section id="filter" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">06</span>The angle-relevance filter — the biggest lever on quality</h2>
+    <p class="sub">Rich STORM floods the clusterer with off-angle cards — field history, off-topic uses, deep academic
+    theory. Left in, they become encyclopedia-scale sections. So before clustering, every card is scored and the
+    off-angle tail is dropped — but never the load-bearing data.</p>
+
+    <div class="grid three">
+      <div class="card"><div class="ic">🎯</div><h3>Score at the card level</h3><p>Each card is scored 0–5 on how
+        directly it helps the reader <b>choose / evaluate / interpret / use</b> the thing we offer. Judging the
+        atomic card (not the section) means a good stat buried in a bad section survives on its own merit.</p></div>
+      <div class="card"><div class="ic">🛡️</div><h3>The PROTECT rule</h3><p>A card is <b>never</b> dropped, whatever
+        its score, if it's tagged <span class="t-tag">gap</span>/<span class="t-tag">competitor</span>, or carries
+        hard data — a number, %, coefficient, threshold, stat, sample, or ties an option to an outcome.</p></div>
+      <div class="card"><div class="ic">🪜</div><h3>Tunable, conservative first</h3><p>Drop a card only if relevance
+        is at or below the threshold (default 1) <b>and</b> it's unprotected. Start conservative, read the drops,
+        then tighten. An implausibly high drop rate raises a loud flag.</p></div>
+    </div>
+
+    <div class="note"><span class="tag">Why it must be card-level, not section-level</span><br>
+    Reading the real cards proved good data hides inside off-angle sections: an "80%+ of Fortune 500 use tests" stat
+    sat inside a <i>history</i> section; reliability thresholds sat beside academic validity theory. A section-level
+    pruner would kill those. Scoring the atomic card + the PROTECT rule keeps them.</div>
+
+    <h3>What it did on a real run <span class="muted" style="font-size:13px; font-weight:400;">(the psychometric-tests topic)</span></h3>
+    <div class="ba">
+      <div class="box"><div class="n">1,227</div><small>cards after harvest</small></div>
+      <div class="arr">→</div>
+      <div class="box after"><div class="n">715</div><small>cards kept (512 dropped, 41.7%)</small></div>
+    </div>
+    <p class="muted" style="font-size:14.5px; margin-top:-4px;">Off-angle sections were gutted (field history ~97%
+    dropped, deep theory ~81%), while <b>14 of 14</b> must-survive cards were kept and nothing scoring ≥2 was
+    dropped. Downstream that took H3 sections 135 → 107 and evidence items 1,188 → 678. Deletion happens before
+    clustering, so nothing can dangle — and since harvest is exhaustive, the same fact usually sits on several cards,
+    so dropping one rarely loses it.</p>
+  </div>
+</section>
+
+<!-- MECE CLUSTERING -->
+<section id="cluster">
+  <div class="wrap">
+    <h2><span class="num">07</span>MECE clustering — one home per idea, guaranteed</h2>
+    <p class="sub">Now the surviving cards are grouped into the article's sections. Two design choices make this
+    reliable: the grouping reads only the gloss, and "one card, one section" is proven in code.</p>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">🏷️</div><h3>Cluster on the gloss only</h3>
+        <div class="role">the LLM step</div>
+        <div class="mem yes"><span class="lbl">Sees just id + one-line gloss</span><br>
+          The heavy verbatim never enters the grouping call, so the decision stays fast and un-bloated. Evidence is
+          re-attached by id afterwards. Cards with no verbatim (gaps, questions, competitor headings) cluster on their
+          gloss too — they contribute <b>what to cover</b>; the evidence comes from the STORM/own-page cards beside them.</div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">✅</div><h3>MECE verified in code</h3>
+        <div class="role">the code step — not the LLM</div>
+        <div class="mem no" style="background:var(--blue); border-color:var(--blue-line);"><span class="lbl" style="color:var(--blue-ink);">A guarantee, not a hope</span><br>
+          Code keeps each card in its first cluster only, gives any unplaced cards one more pass, drops leftovers into
+          an explicit "Unsorted (review)" bucket, then <b>asserts</b> every card is placed exactly once. No "LLM,
+          please review yourself" loop.</div>
+      </div>
+    </div>
+
+    <div class="note orange"><span class="tag">Why non-overlap is the whole game</span><br>
+    Two sections can only fight over the same keyword when they cover the same thing. Making the sections
+    <b>non-overlapping</b> kills that at the root — which is exactly what makes it safe to map one target keyword per
+    section in Step 6. Solve the overlap structurally, and per-section keywords become safe instead of risky.</div>
+  </div>
+</section>
+
+<!-- KEYWORDS & OUTPUT -->
+<section id="output" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">08</span>Keywords last, and the blueprint that comes out</h2>
+    <p class="sub">Only now — with clean, non-overlapping sections — do keywords get mapped on. Then everything
+    renders into the blueprint the writer consumes.</p>
+
+    <div class="grid three">
+      <div class="card"><div class="ic">🔑</div><h3>One keyword per section</h3><p>A fresh DataForSEO lookup per
+        section keeps only <b>KD &lt; 30, volume ≥ 100</b>, then picks the best fit. Safe because sections don't overlap.</p></div>
+      <div class="card"><div class="ic">🚫</div><h3>Don't force keywords</h3><p>A differentiator or gap section with
+        no qualifying keyword is left keyword-free. Some of our best sections have no search volume — and that's
+        correct. Forcing one recreates the thin-keyword problem.</p></div>
+      <div class="card"><div class="ic">🕳️</div><h3>Orphan safety-net</h3><p>Any high-demand keyword no section
+        covers is flagged (and a candidate section added if it's worth one) — so content-first doesn't miss real demand.</p></div>
+    </div>
+
+    <h3>What the blueprint contains</h3>
+    <ul>
+      <li><b>H1 → ordered H2s → H3s</b>, each section carrying its label, its evidence, its internal + external links, and its target keyword (KD + volume).</li>
+      <li>An <b>FAQ</b> built from the question cards.</li>
+      <li>The <b>keyword-set</b> the writer must cover, and <b>write-guidance</b> — the SEO shape rules (≤60-char H1, 2–3 keyword-carrying H2s, ≥50% questions, answer-first) for the writer to apply.</li>
+    </ul>
+
+    <div class="grid">
+      <div class="card"><div class="ic">🗂️</div><h3>The blueprint (JSON)</h3><p>The machine source of truth the write
+        phase consumes — every section with its evidence, links, and keyword.</p>
+        <span class="file">structure-&lt;slug&gt;.json</span></div>
+      <div class="card"><div class="ic">👀</div><h3>The interactive viewer (HTML)</h3><p>Hover a section to see its
+        keyword/KD/volume; hover evidence to see its source links. For reading and review.</p>
+        <span class="file">structure-&lt;slug&gt;.html</span></div>
+    </div>
+
+    <div class="note"><span class="tag">It's a menu, not the final article</span><br>
+    This produces the <b>complete, organized menu</b> of possible sections — it is <b>not</b> trimmed to the final
+    4–7 H2s and carries no intro, TL;DR, or close. The write phase selects which sections ship and does the wording;
+    the SEO shape travels alongside as guidance for the writer to apply, not something pre-applied here.</div>
+
+    <div class="note orange"><span class="tag">Where research-structure sits in the bigger machine</span><br>
+    This is the <b>last step of the research phase</b> — the pivot that turns all the gathered research into the
+    article's spine. It reads STORM's evidence (hub + gap iterations), our own pages, and the DataForSEO brief, and
+    hands <span class="file">/write</span> a blueprint so complete that the writer never has to hunt for a fact, a
+    link, a keyword, or a structure.</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Research-structure · Research-phase architecture overview · Content-first: cards → angle filter →
+  MECE sections → evidence + links + keywords → the article blueprint.</div>
+</footer>
+
+</body>
+</html>

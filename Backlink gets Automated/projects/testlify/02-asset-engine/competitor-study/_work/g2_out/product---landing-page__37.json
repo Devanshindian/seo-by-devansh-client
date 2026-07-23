@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2326,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'importance' section compresses AWS competency into four vague buckets ('security, operational excellence and reliability, performance efficiency, and cost optimization'), silently dropping the Sustainability pillar from AWS's own current Well-Architected Framework, and the sample questions are trivia ('What is the number of buckets one can create in AWS by default? Answer: 100 buckets') rather than applied design judgment.",
+    "asset": "AWS Skills Assessment Mapped to All Six Well-Architected Pillars, Including Sustainability",
+    "distinct_angle": "Builds the competency framework around the full, current six-pillar Well-Architected Framework the page only partially cites, and swaps bucket-count trivia for applied design-decision questions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2332,
+    "brand_fit": "CORE",
+    "angle_gap": "The competency framework (database tuning, performance monitoring, migration, mirroring/replication, partitioning, query optimization, backup/recovery) is entirely on-prem-DBA framed and never mentions cloud-managed SQL Server (Azure SQL Managed Instance, RDS for SQL Server, SQL Server on Linux/containers) \u2014 where most current DBA hiring now happens.",
+    "asset": "SQL Server DBA Skills Assessment Built for Cloud-Managed Databases, Not Just On-Prem",
+    "distinct_angle": "Extends the page's on-prem-only competency list to cloud-managed SQL Server skills it never mentions, reflecting where DBA work has actually moved.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2333,
+    "brand_fit": "CORE",
+    "angle_gap": "Unlike the AWS and SQL DBA pages on the same site, this page shows zero sample questions, its 'Advanced Topics' competency section is left visibly unfinished, and most of the page is a ~150-item dump of unrelated 'Skill Library' links rather than substantive C# test content \u2014 and the overview still frames C# as running on 'the .NET framework' rather than distinguishing legacy .NET Framework from current .NET.",
+    "asset": "C# Developer Skills Assessment Updated for Modern .NET, Not Legacy .NET Framework",
+    "distinct_angle": "Replaces the page's unfinished competency list and missing sample questions with real worked C# questions covering current .NET (async/await, LINQ, memory management), which this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2337,
+    "brand_fit": "CORE",
+    "angle_gap": "Plagiarism detection is stated as a bare feature bullet \u2014 'We use combination of MOSS (Measure of Software Similarity) and our in-house string comparison algorithm to keep a check on plagiarism' \u2014 with no explanation of how it distinguishes legitimate code reuse from cheating, how false positives are handled, or what a recruiter should actually do when a candidate is flagged.",
+    "asset": "How Code Playback and Plagiarism Detection Actually Catch Coding-Test Cheats",
+    "distinct_angle": "Explains the real mechanics and trade-offs (false-positive risk, what code playback actually reveals) behind coding-test integrity features this page only lists as unexplained bullet points.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2347,
+    "brand_fit": "CORE",
+    "angle_gap": "The page cites a stale, specific projection ('By 2027, the global big data market is expected to grow to US$103 billion') and frames R as broadly preferred ('many data engineers, scientists, machine learning engineers... prefer R over other languages') when current data-science hiring is overwhelmingly Python-first, with R holding an edge mainly in statistics-heavy roles.",
+    "asset": "What Data Science Hiring Actually Requires in 2026: Python-First, R Where It Still Wins",
+    "distinct_angle": "Corrects the page's outdated claim that R is broadly preferred and refreshes its 2027 market projection to the current public figure, scoping the R test to where R genuinely still wins instead of overselling it.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

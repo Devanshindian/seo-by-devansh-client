@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Report treats flexible/hybrid working as a broad workplace-policy topic; the recruiting-relevant finding (61% of employers say advertising flexibility matters for attracting talent amid labour shortages, and hybrid lets them recruit from a wider UK geography) is one buried bullet with no breakdown of which roles or industries benefit most, or how to act on it in job ads and screening.",
+    "asset": "Which Flexible-Work Policies Actually Win Candidates in 2026, Role by Role",
+    "distinct_angle": "Isolates and expands the attraction/recruiting angle CIPD buries as a single stat, breaking down by role and industry which flexible-work offers actually move candidates to apply \u2014 the depth this report never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 4,
+    "brand_fit": "CORE",
+    "angle_gap": "Report gives macro topline (net employment balance +10, a third of employers reporting hard-to-fill vacancies) but never breaks down which roles or skill categories are hardest to fill, or what hiring approach employers use to try to fill them \u2014 the deeper cuts sit behind a members-only paywall.",
+    "asset": "The Hardest Roles to Fill in 2026 and What's Actually Slowing Employers Down",
+    "distinct_angle": "Names the specific hard-to-fill roles and skill categories CIPD's topline stat leaves unbroken down, and ties the fix to skills-based screening \u2014 content this report doesn't unlock without membership.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 5,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Survey of 2,000+ women documents menopause symptoms' negative impact at work and the near-total absence of employer support (just 24% have a policy), but stops at general workplace culture \u2014 it never connects the finding to hiring or assessment practice, like whether affected candidates are disadvantaged in interview or test-based evaluation.",
+    "asset": "How Hiring Processes Quietly Penalize Candidates Managing Health Conditions",
+    "distinct_angle": "Takes CIPD's finding that unsupported employees suffer worse outcomes and applies it specifically to the hiring funnel \u2014 auditing where interview and test formats disadvantage candidates managing health conditions, the practical hiring angle this workplace-culture report never reaches.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: menopause workplace support"
+  },
+  {
+    "row_id": 9,
+    "brand_fit": "CORE",
+    "angle_gap": "The 2023 survey finds addressing the skills gap is L&D's top priority but flags that practitioners prioritize inputs (self-directed learning) over outputs (verified transfer of learning) \u2014 it never shows how an organization actually confirms a skill was gained, and the underlying data is now stale.",
+    "asset": "Why Most Skills-Gap Programs Never Prove the Skill Was Actually Closed",
+    "distinct_angle": "Targets the output-measurement blind spot CIPD's own finding names but never solves \u2014 pairing current skills-gap data with how organizations validate, not just deliver, training.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 10,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Report finds 49% of women never disclose that an absence was menstruation-related and only 12% of employers offer any support, but it addresses only being-in-post \u2014 it says nothing about the hiring stage itself, like how timed assessments, video-interview scheduling, or proctoring rules could disadvantage candidates managing symptoms before they're even hired.",
+    "asset": "Why Timed Skills Tests and Video Interviews Need a Health-Condition Accommodation Policy",
+    "distinct_angle": "Extends CIPD's post-hire-only disclosure and stigma finding to the pre-hire assessment stage \u2014 the accommodation gap in timed testing and interview scheduling this workplace report never touches.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: menstruation and workplace support"
+  }
+]

@@ -1,0 +1,422 @@
+{
+  "job": "j5_hiring",
+  "pillars": [
+    {
+      "pillar": "Hiring Sales, Marketing & Business Roles",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "101-guide-on-hiring-business-development-manager",
+        "101-guide-to-hiring-a-operations-manager",
+        "12-key-steps-to-hiring-the-right-virtual-assistant",
+        "finding-the-perfect-fit-ultimate-guide-on-hiring-a-pr-manager",
+        "guide-of-hiring-a-professional-business-consultant",
+        "guide-on-hiring-sales-development-representative",
+        "guide-to-hiring-a-product-manager",
+        "guide-to-hiring-a-sdr",
+        "guide-to-hiring-a-strong-inside-sales-representative",
+        "guide-to-hiring-an-advertising-and-promotions-manager",
+        "hiring-a-customer-success-manager-a-guide-to-finding-the-best-talent",
+        "hiring-a-marketing-manager-a-comprehensive-guide-for-businesses",
+        "hiring-an-executive-resume-writer"
+      ]
+    },
+    {
+      "pillar": "Hiring Skilled Trades & Construction Workers",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-general-contractor",
+        "how-to-hire-a-hvac-technician",
+        "how-to-hire-a-millwright",
+        "how-to-hire-a-plumber",
+        "how-to-hire-a-plumber-pipefitter",
+        "how-to-hire-a-solar-technician",
+        "how-to-hire-a-welder",
+        "how-to-hire-a-wind-turbine-technician",
+        "how-to-hire-an-electrician",
+        "how-to-hire-an-elevator-mechanic",
+        "how-to-hire-painter"
+      ]
+    },
+    {
+      "pillar": "Hiring Engineering & Software Talent by Role",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "a-guide-for-hiring-machine-learning-engineers",
+        "a-guide-to-evaluating-and-hiring-software-engineers",
+        "a-guide-to-hiring-cybersecurity-experts",
+        "art-and-science-of-hiring-software-developers",
+        "guide-for-hiring-quality-assurance-manager",
+        "hiring-a-full-stack-developer",
+        "hiring-a-top-notch-network-engineer",
+        "hiring-a-ui-ux-designer-for-your-team",
+        "hiring-an-ai-engineer",
+        "hiring-managers-assessing-hardware-engineers-common-mistakes",
+        "how-to-find-and-hire-the-best-flutter-developers-a-comprehensive-guide",
+        "key-considerations-when-hiring-a-coding-specialist",
+        "system-administrator-hiring",
+        "the-guide-to-hiring-a-cybersecurity-specialist",
+        "what-ctos-should-know-before-hiring-defi-developers"
+      ]
+    },
+    {
+      "pillar": "Hiring Software Developers",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-good-cloud-engineer-a-complete-guide",
+        "how-to-hire-a-php-developer-roles-skills-salaries-and-recruitment-guide",
+        "how-to-hire-a-react-developer-using-a-react-test",
+        "how-to-hire-game-devs-without-coding-challenges",
+        "how-to-hire-startup-web-app-development-company",
+        "how-to-hire-the-best-devops-engineers"
+      ]
+    },
+    {
+      "pillar": "Technical & Developer Hiring Strategy",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "how-to-get-technical-hiring-right",
+        "introduction-to-big-data-engineering-hiring",
+        "the-future-of-data-science-hiring",
+        "top-6-tips-hiring-it-specialists",
+        "top-technical-skills-you-must-assess-while-hiring",
+        "10-technical-hiring-tips-for-tech-companies",
+        "best-coding-challenge-platforms-for-developer-hiring",
+        "coding-bootcamps-in-developer-hiring",
+        "developer-costs-before-hiring"
+      ]
+    },
+    {
+      "pillar": "Hiring with Occupational Skill Tests",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-top-talent-using-accounting-principles-test",
+        "how-to-hire-top-talent-using-electrical-engineering-test",
+        "how-to-hire-top-talent-using-electrician-test",
+        "how-to-hire-top-talent-using-general-contractor-test",
+        "how-to-hire-top-talent-using-management-test",
+        "how-to-hire-top-talent-using-millwright-test",
+        "how-to-hire-top-talent-using-project-manager-test",
+        "how-to-hire-top-talent-using-sales-test",
+        "how-to-hire-top-talent-using-scrum-master-test"
+      ]
+    },
+    {
+      "pillar": "Hiring Developers with Coding & Language Skill Tests",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-top-talent-using-a-c-test",
+        "how-to-hire-top-talent-using-a-it-test",
+        "how-to-hire-top-talent-using-css-test",
+        "how-to-hire-top-talent-using-git-test",
+        "how-to-hire-top-talent-using-html-5-test",
+        "how-to-hire-top-talent-using-postgresql-test",
+        "how-to-hire-top-talent-using-qa-test",
+        "how-to-hire-top-talent-using-sql-test"
+      ]
+    },
+    {
+      "pillar": "Hiring with Aptitude & Cognitive Ability Tests",
+      "theme": "Personality & Aptitude Testing",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-top-talent-using-analytical-ability-test",
+        "how-to-hire-top-talent-using-aptitude-assessment",
+        "how-to-hire-top-talent-using-big-five-personality-test",
+        "how-to-hire-top-talent-using-deductive-reasoning-test",
+        "how-to-hire-top-talent-using-resilience-test"
+      ]
+    },
+    {
+      "pillar": "Hiring Mechanics & Repair Technicians",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-machinery-mechanic",
+        "how-to-hire-a-maintenance-worker",
+        "how-to-hire-a-mechanic",
+        "how-to-hire-a-repair-manager",
+        "how-to-hire-a-repair-technician",
+        "how-to-hire-a-technician",
+        "how-to-hire-an-aircraft-mechanic",
+        "how-to-hire-an-automotive-technician"
+      ]
+    },
+    {
+      "pillar": "Hiring Manufacturing & Machine Operators",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-machine-operator",
+        "how-to-hire-a-machinist",
+        "how-to-hire-a-patternmaker",
+        "how-to-hire-a-production-manager",
+        "how-to-hire-an-assembler",
+        "how-to-hire-an-equipment-operator",
+        "how-to-hire-food-processing-workers",
+        "how-to-hire-manufacturing-worker"
+      ]
+    },
+    {
+      "pillar": "Hiring Warehouse & Logistics Workers",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-laborer",
+        "how-to-hire-a-taxi-driver",
+        "how-to-hire-a-truck-driver",
+        "how-to-hire-a-warehouse-picker",
+        "how-to-hire-a-warehouse-supervisor",
+        "how-to-hire-a-warehouse-worker",
+        "how-to-hire-logistics-and-shipping-workers",
+        "how-to-hire-manual-packers-and-packagers"
+      ]
+    },
+    {
+      "pillar": "Hiring Outdoor, Agriculture & Resource Workers",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-farmer",
+        "how-to-hire-a-firefighter",
+        "how-to-hire-a-landscaper",
+        "how-to-hire-a-logger-for-logging",
+        "how-to-hire-a-miner",
+        "how-to-hire-an-animal-caretaker",
+        "how-to-hire-derrick-hand",
+        "how-to-hire-fisherman"
+      ]
+    },
+    {
+      "pillar": "High-Volume & Enterprise Hiring at Scale",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "an-ultimate-guide-to-plan-and-implement-volume-hiring",
+        "artificial-intelligence-for-large-volume-hiring",
+        "chat-simulation-for-enterprise-hiring",
+        "enterprise-hiring-funnel",
+        "enterprise-hiring-metrics",
+        "high-volume-hiring-checklist-for-faster-hiring",
+        "how-fedex-hires-at-scale",
+        "how-google-hires-tech-talent",
+        "meet-aggressive-hiring-targets",
+        "scale-bpo-industry-hiring",
+        "scale-it-industry-hiring",
+        "tips-to-hire-at-scale"
+      ]
+    },
+    {
+      "pillar": "Dealing with a Bad Hire: Signs, Cost & Recovery",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "how-to-identify-a-bad-hire",
+        "how-to-prevent-a-bad-hire",
+        "how-to-recover-from-a-bad-hire",
+        "red-flags-should-hrs-look-for-during-pre-hiring-checks",
+        "the-most-common-signs-of-a-bad-hire",
+        "the-real-cost-of-a-mis-hire",
+        "what-is-the-cost-of-a-bad-hire",
+        "what-to-do-if-youve-made-a-bad-hire"
+      ]
+    },
+    {
+      "pillar": "Hiring Facilities & Cleaning Staff",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-janitor",
+        "how-to-hire-a-room-attendant",
+        "how-to-hire-a-sanitation-worker",
+        "how-to-hire-a-utility-worker",
+        "how-to-hire-a-waste-management-technician",
+        "how-to-hire-maids-and-housekeeping-cleaners",
+        "how-to-hire-parking-attendants"
+      ]
+    },
+    {
+      "pillar": "Hiring Hospitality, Retail & Restaurant Staff",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-retail-merchandiser",
+        "how-to-hire-a-retail-sales-associate",
+        "how-to-hire-cashier",
+        "how-to-hire-hotel-hospitality-staff",
+        "how-to-hire-manicurists-and-pedicurists",
+        "how-to-hire-restaurant-hospitality-staff",
+        "how-to-hire-waiter"
+      ]
+    },
+    {
+      "pillar": "New Hire Orientation & Onboarding",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "how-to-foster-new-hires-for-success",
+        "how-to-measure-the-success-of-new-hire-orientations",
+        "new-hire-orientations-for-small-businesses",
+        "new-hire-orientations-for-startups",
+        "use-technology-to-support-new-hire-orientations",
+        "welcoming-new-hires-in-a-virtual-environment",
+        "what-is-the-importance-of-new-hire-orientations",
+        "case-studies-of-successful-new-hire-orientation-programs",
+        "common-mistakes-to-avoid-in-new-hire-orientation",
+        "create-a-successful-new-hire-orientation-program",
+        "deliver-a-new-hire-orientation-program",
+        "different-elements-of-new-hire-orientations",
+        "get-started-with-new-hire-orientation"
+      ]
+    },
+    {
+      "pillar": "Hiring HR, Management & Business Professionals",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-product-manager",
+        "how-to-hire-a-temporary-employee",
+        "how-to-hire-data-analysts-a-complete-guide",
+        "how-to-hire-hr-manager",
+        "how-to-hire-hr-professionals",
+        "how-to-hire-the-right-financial-analyst"
+      ]
+    },
+    {
+      "pillar": "Lateral Hiring Strategy",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "how-to-keep-lateral-hires-engaged-and-thriving",
+        "how-to-measure-the-impact-of-your-lateral-hiring-program",
+        "how-to-set-up-lateral-hires-for-success-in-new-roles",
+        "lateral-hiring-complete-guide",
+        "navigate-ethical-considerations-in-lateral-hiring",
+        "top-unconventional-techniques-to-make-lateral-hires"
+      ]
+    },
+    {
+      "pillar": "AI & Data-Driven Hiring",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "how-testlify-is-building-ai-skills-first-hiring",
+        "importance-of-ai-based-chat-simulation-when-hiring",
+        "predictive-hiring",
+        "role-of-big-data-in-predictive-hiring-insights-for-talent-management",
+        "smarter-ways-to-identify-top-talent-ai-hiring-practices",
+        "the-importance-of-data-driven-hiring",
+        "achieve-data-driven-hiring-without-a-data-team",
+        "demystifying-data-driven-hiring-decisions",
+        "how-automated-candidate-scoring-systems-improve-hiring-speed",
+        "how-data-analytics-can-improve-hiring-decisions",
+        "applications-of-generative-ai-in-hiring",
+        "hiring-via-job-simulation",
+        "how-conversational-ai-reshapes-entry-level-hiring"
+      ]
+    },
+    {
+      "pillar": "Global, Seasonal & Freelance Hiring",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "best-practices-and-strategies-for-freelance-hiring",
+        "employers-guide-hiring-seasonal-international-workers",
+        "global-hiring-challenges-and-solutions",
+        "global-hiring-insights",
+        "hiring-global-qa-talent-integrating-offshore-testers",
+        "practical-guide-hiring-virtual-assistants-business",
+        "seasonal-and-project-based-hiring",
+        "the-pros-and-cons-of-hiring-freelancers",
+        "tips-to-hire-a-writer-for-your-business",
+        "top-platforms-for-streamlined-freelance-hiring"
+      ]
+    },
+    {
+      "pillar": "Optimizing the Hiring Funnel & Time-to-Hire",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "breaking-hiring-silos",
+        "effective-ways-to-identify-hiring-needs",
+        "ghosting-how-to-fix-hiring-funnel-bottlenecks",
+        "hiring-velocity",
+        "how-to-reduce-the-time-to-hire",
+        "make-faster-hiring-decisions-with-real-time-analytics",
+        "reduce-hiring-time-without-losing-integrations",
+        "strategies-to-accelerate-time-to-fill-for-open-positions"
+      ]
+    },
+    {
+      "pillar": "Job Offer & Posting Templates",
+      "theme": "HR Operations & Compliance",
+      "intent": "informational",
+      "spokes": [
+        "how-to-create-clear-and-engaging-job-postings",
+        "internal-job-posting-email-templates",
+        "job-offer-email-templates",
+        "job-offer-letter-templates-for-all-types-of-hire"
+      ]
+    },
+    {
+      "pillar": "Hiring Data & Analytics Talent by Role",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "best-practices-for-hiring-data-analysts",
+        "guide-to-hire-data-scientists",
+        "hiring-a-data-scientist-a-guide-to-identifying-and-attracting-the-right-candidates"
+      ]
+    },
+    {
+      "pillar": "Executive & Leadership Hiring",
+      "theme": "Hiring by Role & Use-case",
+      "intent": "informational",
+      "spokes": [
+        "executive-hiring-playbook",
+        "find-your-next-executive-hire-in-toronto",
+        "how-lateral-hiring-can-enhance-your-teams-inclusivity",
+        "role-of-emotional-intelligence-in-leadership-and-hiring",
+        "the-ultimate-guide-on-hiring-an-executive-assistant",
+        "ultimate-guide-to-hiring-a-vp-of-sales"
+      ]
+    },
+    {
+      "pillar": "Fair, Compliant & Bias-Free Hiring",
+      "theme": "HR Operations & Compliance",
+      "intent": "informational",
+      "spokes": [
+        "are-your-hiring-decisions-compliant-with-laws",
+        "attract-diverse-candidates-to-your-job-postings",
+        "common-examples-of-unfair-hiring-practices-how-to-avoid-them"
+      ]
+    },
+    {
+      "pillar": "Resume Screening & Candidate Evaluation",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "detect-fake-resumes-in-hiring",
+        "drawbacks-of-relying-solely-on-resumes-in-pre-hiring",
+        "hiring-candidates-with-time-management-skills"
+      ]
+    },
+    {
+      "pillar": "Industry-Specific Hiring Landscapes",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "navigating-the-hiring-landscape-in-the-energy-industry",
+        "navigating-the-hiring-landscape-in-the-real-estate-industry",
+        "the-blue-collar-hiring-landscape-and-beyond"
+      ]
+    }
+  ],
+  "orphans": []
+}

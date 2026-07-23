@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1574,
+    "brand_fit": "CORE",
+    "angle_gap": "Treats 'Assessment' as just one line item among seven funnel steps, with no guidance on which assessment types actually reduce mis-hire risk or how they connect to EEOC-defensible selection \u2014 the piece stays at a generic funnel-overview level.",
+    "asset": "The Selection-Process Step Recruiters Shortchange: Assessment, Done Right",
+    "distinct_angle": "Goes deep on the one step (assessment) this page treats as a single bullet, tying test-type choice to reduced mis-hire cost and legal defensibility \u2014 depth this funnel-overview lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1579,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee referral program design is a sourcing/channel topic, same product world as passive-candidate sourcing which the brand scope explicitly excludes; not assessment, interviewing, or hiring-process quality"
+  },
+  {
+    "row_id": 1582,
+    "brand_fit": "CORE",
+    "angle_gap": "Stays abstract through definition/benefits/difficulties with no concrete assessment method or example question shown, and never flags that 'culture fit' interviewing is a known adverse-impact/legal risk area \u2014 a real gap for a testing-compliance audience.",
+    "asset": "How to Assess Cultural Fit Without the Legal Risk of 'Fit' Interviews",
+    "distinct_angle": "Adds concrete structured assessment techniques (behavioral questions, culture-add scoring) plus the adverse-impact risk of subjective fit hiring, both missing from this page's abstract definition-benefits-difficulties structure.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1588,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines 'Proficiency' as 'a number value placed on each employee's level' but never says how that number is determined \u2014 the matrix runs on self-reported or manager-guessed scores with no objective validation, a credibility gap for a skills-mapping tool.",
+    "asset": "The Skills Matrix Doesn't Work Until the Scores Are Verified",
+    "distinct_angle": "Shows how to validate proficiency scores with objective skills testing instead of the self-rated/manager-rated numbers this page defines but never questions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1605,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee turnover-rate calculation is a post-hire HR metric (analogous to the brand scope's excluded 'post-hire performance management... as ends in themselves'), not connected to assessment, interviewing, or skills-based hiring"
+  }
+]

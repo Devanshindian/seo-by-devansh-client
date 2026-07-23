@@ -1,0 +1,196 @@
+{
+  "slice_id": "w19",
+  "clusters": [
+    {
+      "pillar": "Candidate Screening Fundamentals & Best Practices",
+      "intent": "informational",
+      "spokes": [
+        "best-methods-for-screening-candidates",
+        "how-to-screen-candidates-effectively",
+        "how-to-screen-candidates-faster",
+        "how-to-streamline-screening-and-selection",
+        "how-to-automate-your-candidate-screening-process",
+        "save-screening-time-reduce-resume-fatigue",
+        "screening-and-interviewing-techniques-in-hrm",
+        "screening-in-vs-screening-out",
+        "screening-interview",
+        "pre-employment-screening-in-hiring-process",
+        "how-important-is-background-screening-before-hiring"
+      ]
+    },
+    {
+      "pillar": "Candidate Screening Software & Tools",
+      "intent": "commercial",
+      "spokes": [
+        "candidate-screening-software",
+        "candidate-screening-with-talent-assessment-tools",
+        "simplify-candidate-screening-with-skill-assessment-tools",
+        "technology-tools-or-platforms-to-use-for-sourcing-screening-candidates",
+        "employer-brand-best-pre-screening-tool",
+        "the-secret-to-creating-the-best-job-pre-screening-test",
+        "outsourcing-talent-screening-client-satisfaction"
+      ]
+    },
+    {
+      "pillar": "Screening Software Developers by Language & Stack",
+      "intent": "informational",
+      "spokes": [
+        "how-to-screen-candidates-for-backend-developer",
+        "how-to-screen-candidates-for-frontend-developer",
+        "how-to-screen-candidates-for-full-stack-developer",
+        "how-to-screen-candidates-for-web-developer",
+        "how-to-screen-candidates-for-java-developer",
+        "how-to-screen-candidates-for-javascript-developer",
+        "how-to-screen-candidates-for-python-developer",
+        "how-to-screen-candidates-for-php-developers",
+        "how-to-screen-candidates-for-net-developer",
+        "how-to-screen-candidates-for-ruby-on-rails-developers",
+        "how-to-screen-candidates-for-database-developer",
+        "how-to-screen-candidates-for-wordpress-developer",
+        "how-to-screen-candidates-for-security-developer"
+      ]
+    },
+    {
+      "pillar": "Screening Mobile, Game & Emerging-Tech Developers",
+      "intent": "informational",
+      "spokes": [
+        "how-to-screen-candidates-for-android-developer",
+        "how-to-screen-candidates-for-ios-developer",
+        "how-to-screen-candidates-for-mobile-app-developer",
+        "how-to-screen-candidates-for-game-developer",
+        "how-to-screen-candidates-for-ar-developer-positions",
+        "how-to-screen-candidates-for-vr-developer-positions",
+        "how-to-screen-candidates-for-blockchain-developer",
+        "how-to-screen-candidates-for-embedded-systems-developer"
+      ]
+    },
+    {
+      "pillar": "Screening Data, AI/ML, Cloud & DevOps Engineers",
+      "intent": "informational",
+      "spokes": [
+        "how-to-screen-candidates-for-ai-developer",
+        "how-to-screen-candidates-for-machine-learning-engineer",
+        "how-to-screen-candidates-for-data-scientist",
+        "how-to-screen-candidates-for-cloud-developers",
+        "how-to-screen-candidates-for-devops-engineer",
+        "how-to-screen-candidates-for-qa-tester"
+      ]
+    },
+    {
+      "pillar": "Screening with Programming & Technical Skill Tests",
+      "intent": "informational",
+      "spokes": [
+        "how-css-test-helps-you-screen-candidates",
+        "how-sql-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-css-test",
+        "how-to-simplify-candidate-screening-with-sql-test",
+        "how-to-simplify-candidate-screening-with-git-test",
+        "how-to-simplify-candidate-screening-with-postgresql-test",
+        "simplify-candidate-screening-with-java-code-test",
+        "simplify-candidate-screening-with-javascript-test",
+        "simplify-candidate-screening-with-kotlin-test",
+        "simplify-candidate-screening-with-php-test",
+        "simplify-candidate-screening-with-ruby-test",
+        "ruby-test-helps-you-screen-candidates",
+        "candidate-screening-with-technical-skills-assessment",
+        "how-to-use-nlp-test-to-screen-job-applicants"
+      ]
+    },
+    {
+      "pillar": "Screening with Cognitive & Aptitude Tests",
+      "intent": "informational",
+      "spokes": [
+        "how-analytical-ability-test-helps-you-screen-candidates",
+        "how-aptitude-assessment-helps-you-screen-candidates",
+        "how-deductive-reasoning-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-analytical-ability-test",
+        "how-to-simplify-candidate-screening-with-aptitude-assessment",
+        "how-to-simplify-candidate-screening-with-deductive-reasoning-test",
+        "simplify-candidate-screening-with-quantitative-aptitude-test",
+        "simplify-candidate-screening-with-cognitive-tests",
+        "simplify-candidate-screening-with-following-directions-test"
+      ]
+    },
+    {
+      "pillar": "Screening with Personality & Behavioral Assessments",
+      "intent": "informational",
+      "spokes": [
+        "candidate-screening-with-personality-assessment",
+        "candidate-screening-with-leadership-assessment",
+        "leadership-assessment-helps-screen-candidates",
+        "how-big-five-personality-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-big-five-personality-test",
+        "how-resilience-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-a-resilience-test",
+        "how-to-simplify-candidate-screening-with-resilence-test",
+        "simplify-candidate-screening-with-integrity-test",
+        "candidate-screening-with-work-reliability-test"
+      ]
+    },
+    {
+      "pillar": "Screening with English & Communication Tests",
+      "intent": "informational",
+      "spokes": [
+        "candidate-screening-with-communication-assessment",
+        "candidate-screening-with-english-proficiency-test",
+        "english-proficiency-test-helps-screen-candidates",
+        "simplify-candidate-screening-with-cefr-english-test",
+        "simplify-candidate-screening-with-cefr-test",
+        "simplify-candidate-screening-with-english-grammar-test"
+      ]
+    },
+    {
+      "pillar": "Screening for Management, Sales & Business Roles",
+      "intent": "informational",
+      "spokes": [
+        "how-management-test-helps-you-screen-candidates",
+        "how-project-manager-test-helps-you-screen-candidates",
+        "how-sales-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-management-test",
+        "how-to-simplify-candidate-screening-with-project-manager-test",
+        "how-to-simplify-candidate-screening-with-sales-test",
+        "how-to-simplify-candidate-screening-with-scrum-master-test",
+        "simplify-candidate-screening-with-business-analyst-test",
+        "simplify-candidate-screening-with-admin-test",
+        "use-a-digital-marketing-test-to-screen-candidates",
+        "salesforce-test-help-you-screen-candidates",
+        "simplify-candidate-screening-with-salesforce-test",
+        "how-to-simplify-candidate-screening-with-accounting-principles-test"
+      ]
+    },
+    {
+      "pillar": "Screening QA & Software Testing Candidates",
+      "intent": "informational",
+      "spokes": [
+        "how-qa-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-qa-test",
+        "simplify-candidate-screening-with-autocad-test",
+        "simplify-candidate-screening-with-aws-test",
+        "simplify-candidate-screening-with-microsoft-office-test"
+      ]
+    },
+    {
+      "pillar": "Screening Skilled Trades & Engineering Candidates",
+      "intent": "informational",
+      "spokes": [
+        "how-electrical-engineering-test-helps-you-screen-candidates",
+        "how-general-contractor-test-helps-you-screen-candidates",
+        "how-to-simplify-candidate-screening-with-electrical-engineering-test",
+        "how-to-simplify-candidate-screening-with-electrician-test",
+        "how-to-simplify-candidate-screening-with-millwright-test",
+        "mechanic-test-helps-you-screen-candidates",
+        "simplify-candidate-screening-with-mechanic-test",
+        "plumber-test-helps-you-screen-candidates",
+        "simplify-candidate-screening-with-plumber-test",
+        "simplify-candidate-screening-with-civil-engineering",
+        "simplify-candidate-screening-with-construction-test",
+        "simplify-candidate-screening-with-custodian-test"
+      ]
+    }
+  ],
+  "orphans": [
+    "resume-screening-every-recruiter-should-know",
+    "resume-screening-techniques",
+    "simplify-candidate-screening-with-video-interview"
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3662,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 appointment letters are post-offer HR/onboarding paperwork, not a hiring/assessment subject"
+  },
+  {
+    "row_id": 3663,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 compensation & benefits administration is explicitly off-limits (payroll/benefits world, not ours)"
+  },
+  {
+    "row_id": 3667,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 sensitivity/DEI training is post-hire L&D and culture training, not a hiring-screening or assessment subject"
+  },
+  {
+    "row_id": 3670,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines skill gap and lists generic analysis steps (identify required skills, note desired level, compare to current workforce) but never works through an actual example \u2014 no sample skill matrix, no role-by-role breakdown. It also misnames the underlying framework, calling it the 'Defryus model' instead of the Dreyfus model of skill acquisition, and leans on vague, unsourced stats ('35% of employees feel...').",
+    "asset": "Closing the Skill Gap Role by Role \u2014 A Worked Analysis for Technical, Sales, and Frontline Teams",
+    "distinct_angle": "Walks through a real skill-gap analysis with an actual skill matrix and role-by-role worked example, and gets the underlying Dreyfus skill-acquisition model right \u2014 the concrete detail and accuracy this page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3671,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The 'identify potential leaders' and 'assess current leaders' skills' steps \u2014 the two steps that matter most \u2014 are one line each with no methodology: no competency framework, no assessment criteria, no worked example of how to actually spot or evaluate a high-potential employee. Stats cited (63% of millennials, 38% of new leaders failing within 18 months) are given without a source or year.",
+    "asset": "How to Actually Identify High-Potential Leaders Before You Invest in Developing Them",
+    "distinct_angle": "Replaces this page's one-line 'identify potential leaders' step with a real assessment framework and worked selection criteria \u2014 the methodology this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

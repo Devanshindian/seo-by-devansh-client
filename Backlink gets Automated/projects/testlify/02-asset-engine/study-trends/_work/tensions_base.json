@@ -1,0 +1,6996 @@
+[
+  {
+    "tension_id": "T01",
+    "tension": "Job seekers grind through months or years of applications in a brutal, hiring-averse market yet still can't land a job.",
+    "phrases": [
+      {
+        "phrase": "brutal job market",
+        "post_ids": [
+          "1mt0ekr",
+          "1npydua",
+          "1o9erjz"
+        ]
+      },
+      {
+        "phrase": "brutal job search",
+        "post_ids": [
+          "1refk0c",
+          "1u1lbfc"
+        ]
+      },
+      {
+        "phrase": "can't get hired",
+        "post_ids": [
+          "1oeua90"
+        ]
+      },
+      {
+        "phrase": "can't get interview",
+        "post_ids": [
+          "1udssl4"
+        ]
+      },
+      {
+        "phrase": "college grads can't get hired",
+        "post_ids": [
+          "1qwkjfg"
+        ]
+      },
+      {
+        "phrase": "companies under-hiring",
+        "post_ids": [
+          "1n6nk56"
+        ]
+      },
+      {
+        "phrase": "got job tough market",
+        "post_ids": [
+          "1rqjc77"
+        ]
+      },
+      {
+        "phrase": "grinding without clearing interviews",
+        "post_ids": [
+          "1nhbs59"
+        ]
+      },
+      {
+        "phrase": "hesitant job market",
+        "post_ids": [
+          "1u7zqlt"
+        ]
+      },
+      {
+        "phrase": "impossible job market",
+        "post_ids": [
+          "1ntp9lo"
+        ]
+      },
+      {
+        "phrase": "job hunt humiliation",
+        "post_ids": [
+          "1sm6a4c"
+        ]
+      },
+      {
+        "phrase": "job market after layoff",
+        "post_ids": [
+          "1n74jad"
+        ]
+      },
+      {
+        "phrase": "job market gets worse",
+        "post_ids": [
+          "1nln213"
+        ]
+      },
+      {
+        "phrase": "job search exhaustion",
+        "post_ids": [
+          "1svuffl"
+        ]
+      },
+      {
+        "phrase": "landed job after grinding",
+        "post_ids": [
+          "1r8ckd2"
+        ]
+      },
+      {
+        "phrase": "long job search",
+        "post_ids": [
+          "1npydua"
+        ]
+      },
+      {
+        "phrase": "long-term unemployment despair",
+        "post_ids": [
+          "1uaj46z"
+        ]
+      },
+      {
+        "phrase": "months of job searching",
+        "post_ids": [
+          "1r8ckd2"
+        ]
+      },
+      {
+        "phrase": "months-long job search",
+        "post_ids": [
+          "1s04ili"
+        ]
+      },
+      {
+        "phrase": "new grad can't land job",
+        "post_ids": [
+          "1po0gip"
+        ]
+      },
+      {
+        "phrase": "prolonged unemployment",
+        "post_ids": [
+          "1u1lbfc"
+        ]
+      },
+      {
+        "phrase": "tired of sending CVs",
+        "post_ids": [
+          "1svuffl"
+        ]
+      },
+      {
+        "phrase": "tough new-grad market",
+        "post_ids": [
+          "1lptmof"
+        ]
+      },
+      {
+        "phrase": "unemployed to remote job",
+        "post_ids": [
+          "1mbz88x"
+        ]
+      },
+      {
+        "phrase": "year-long job search",
+        "post_ids": [
+          "1nhwbhc"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T02",
+    "tension": "Workers and candidates feel employers and clients deliberately pay or offer them less than their experience and real market value are worth.",
+    "phrases": [
+      {
+        "phrase": "IT pays too little",
+        "post_ids": [
+          "1lvb6ea"
+        ]
+      },
+      {
+        "phrase": "beginner salaries for experience",
+        "post_ids": [
+          "1rsl4uv"
+        ]
+      },
+      {
+        "phrase": "broken pay-rise promise",
+        "post_ids": [
+          "1np3o82"
+        ]
+      },
+      {
+        "phrase": "can't change pay retroactively",
+        "post_ids": [
+          "1mwgs0e"
+        ]
+      },
+      {
+        "phrase": "client lowballing top candidate",
+        "post_ids": [
+          "1potj30"
+        ]
+      },
+      {
+        "phrase": "companies suppressing wages",
+        "post_ids": [
+          "1s56uty"
+        ]
+      },
+      {
+        "phrase": "companies underpay on purpose",
+        "post_ids": [
+          "1pzw57g"
+        ]
+      },
+      {
+        "phrase": "experience requirement inflation",
+        "post_ids": [
+          "1ql25o4"
+        ]
+      },
+      {
+        "phrase": "insulting 2% raise",
+        "post_ids": [
+          "1qiwdqa"
+        ]
+      },
+      {
+        "phrase": "living wage debate",
+        "post_ids": [
+          "1uhxpst"
+        ]
+      },
+      {
+        "phrase": "lowballed during interview",
+        "post_ids": [
+          "1o36mjj"
+        ]
+      },
+      {
+        "phrase": "offering 2021 salaries",
+        "post_ids": [
+          "1tpvitj"
+        ]
+      },
+      {
+        "phrase": "pay better to retain",
+        "post_ids": [
+          "1sk3urh"
+        ]
+      },
+      {
+        "phrase": "power imbalance in hiring",
+        "post_ids": [
+          "1q73abu"
+        ]
+      },
+      {
+        "phrase": "salary based on current pay",
+        "post_ids": [
+          "1tpvitj"
+        ]
+      },
+      {
+        "phrase": "salary history questions",
+        "post_ids": [
+          "1r74273"
+        ]
+      },
+      {
+        "phrase": "salary jump skepticism",
+        "post_ids": [
+          "1u2eac7"
+        ]
+      },
+      {
+        "phrase": "salary lowball on unemployed",
+        "post_ids": [
+          "1n8g50s"
+        ]
+      },
+      {
+        "phrase": "senior experience junior pay",
+        "post_ids": [
+          "1tgi34h"
+        ]
+      },
+      {
+        "phrase": "underpaid hourly rate",
+        "post_ids": [
+          "1q3g7to"
+        ]
+      },
+      {
+        "phrase": "underpaid top performer",
+        "post_ids": [
+          "1mdcgh3"
+        ]
+      },
+      {
+        "phrase": "underpaying valued candidate",
+        "post_ids": [
+          "1rv81ia"
+        ]
+      },
+      {
+        "phrase": "unpaid internship red flags",
+        "post_ids": [
+          "1tcvmhu"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T03",
+    "tension": "Job seekers are frustrated that hiring filters reject competent candidates on shallow proxies (a missing degree, keyword/AI scans, resume gaps) instead of actual ability.",
+    "phrases": [
+      {
+        "phrase": "can't filter for competence",
+        "post_ids": [
+          "1oe8him"
+        ]
+      },
+      {
+        "phrase": "compliant not qualified",
+        "post_ids": [
+          "1ufbwvp"
+        ]
+      },
+      {
+        "phrase": "degree as compliance",
+        "post_ids": [
+          "1ufbwvp"
+        ]
+      },
+      {
+        "phrase": "degree requirement over experience",
+        "post_ids": [
+          "1nm3z9c"
+        ]
+      },
+      {
+        "phrase": "gaps assumed to be firing",
+        "post_ids": [
+          "1nz1ivd"
+        ]
+      },
+      {
+        "phrase": "hiring managers should screen",
+        "post_ids": [
+          "1ryo60i"
+        ]
+      },
+      {
+        "phrase": "hiring managers want unicorns",
+        "post_ids": [
+          "1nkks8w"
+        ]
+      },
+      {
+        "phrase": "lazy bulk filter",
+        "post_ids": [
+          "1q73abu"
+        ]
+      },
+      {
+        "phrase": "no degree rejection",
+        "post_ids": [
+          "1qzk4sj"
+        ]
+      },
+      {
+        "phrase": "non-negotiable qualifications check",
+        "post_ids": [
+          "1p50vs0"
+        ]
+      },
+      {
+        "phrase": "not screened by AI",
+        "post_ids": [
+          "1lx796l"
+        ]
+      },
+      {
+        "phrase": "outdated hiring checkboxes",
+        "post_ids": [
+          "1nm3z9c"
+        ]
+      },
+      {
+        "phrase": "rejecting skilled candidates",
+        "post_ids": [
+          "1nm3z9c"
+        ]
+      },
+      {
+        "phrase": "resume 7-second scan",
+        "post_ids": [
+          "1p50vs0"
+        ]
+      },
+      {
+        "phrase": "rounding up GPA",
+        "post_ids": [
+          "1tgx4y4"
+        ]
+      },
+      {
+        "phrase": "stop screening for GPA",
+        "post_ids": [
+          "1oe8him"
+        ]
+      },
+      {
+        "phrase": "won't budge on requirements",
+        "post_ids": [
+          "1nkks8w"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T04",
+    "tension": "Someone being harassed or abused (online or at work) can't figure out how to safely shut the person down or protect themselves without making the situation worse.",
+    "phrases": [
+      {
+        "phrase": "compassionate handling not policing",
+        "post_ids": [
+          "1n8j5r6"
+        ]
+      },
+      {
+        "phrase": "cut off abusive recipient",
+        "post_ids": [
+          "1o5mfjm"
+        ]
+      },
+      {
+        "phrase": "do not respond",
+        "post_ids": [
+          "1u0ub56"
+        ]
+      },
+      {
+        "phrase": "document in writing to HR",
+        "post_ids": [
+          "1poemw0"
+        ]
+      },
+      {
+        "phrase": "document the incident",
+        "post_ids": [
+          "1pntmta"
+        ]
+      },
+      {
+        "phrase": "escalate to HR",
+        "post_ids": [
+          "1rai4g9"
+        ]
+      },
+      {
+        "phrase": "get a lawyer instead",
+        "post_ids": [
+          "1u3i8f5"
+        ]
+      },
+      {
+        "phrase": "host anonymously for safety",
+        "post_ids": [
+          "1p06g8t"
+        ]
+      },
+      {
+        "phrase": "involve local authorities",
+        "post_ids": [
+          "1oo6ml7"
+        ]
+      },
+      {
+        "phrase": "just lie",
+        "post_ids": [
+          "1ufbwvp"
+        ]
+      },
+      {
+        "phrase": "leave Glassdoor review",
+        "post_ids": [
+          "1sekapw"
+        ]
+      },
+      {
+        "phrase": "leave the business",
+        "post_ids": [
+          "1sfawfb"
+        ]
+      },
+      {
+        "phrase": "let them fire you",
+        "post_ids": [
+          "1mc1byh"
+        ]
+      },
+      {
+        "phrase": "mass-reporting to trigger removals",
+        "post_ids": [
+          "1ot2azu"
+        ]
+      },
+      {
+        "phrase": "separate her from team",
+        "post_ids": [
+          "1slijiq"
+        ]
+      },
+      {
+        "phrase": "shut down LinkedIn",
+        "post_ids": [
+          "1r1c3h0"
+        ]
+      },
+      {
+        "phrase": "take the posting down",
+        "post_ids": [
+          "1qxg9vv"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T05",
+    "tension": "Job seekers feel applying online is a hopeless numbers game where they're just one of thousands, so they scramble for any edge \u2014 applying first, staying visible \u2014 just to avoid being ignored.",
+    "phrases": [
+      {
+        "phrase": "2000 applications one offer",
+        "post_ids": [
+          "1nhwbhc"
+        ]
+      },
+      {
+        "phrase": "be first applicant",
+        "post_ids": [
+          "1n3reu8"
+        ]
+      },
+      {
+        "phrase": "being an early applicant",
+        "post_ids": [
+          "1mt0ekr"
+        ]
+      },
+      {
+        "phrase": "don't self-eliminate applying",
+        "post_ids": [
+          "1npbu7w"
+        ]
+      },
+      {
+        "phrase": "easier to reach NBA",
+        "post_ids": [
+          "1ovx9nr"
+        ]
+      },
+      {
+        "phrase": "employer's market",
+        "post_ids": [
+          "1o6hb0e"
+        ]
+      },
+      {
+        "phrase": "employers don't care",
+        "post_ids": [
+          "1n2ncbs"
+        ]
+      },
+      {
+        "phrase": "first FAANG offer",
+        "post_ids": [
+          "1locuwk"
+        ]
+      },
+      {
+        "phrase": "hiring is numbers game",
+        "post_ids": [
+          "1qzituj"
+        ]
+      },
+      {
+        "phrase": "hundreds of applications needed",
+        "post_ids": [
+          "1o9erjz"
+        ]
+      },
+      {
+        "phrase": "hundreds of applications sent",
+        "post_ids": [
+          "1u1lbfc"
+        ]
+      },
+      {
+        "phrase": "hundreds of resumes sent",
+        "post_ids": [
+          "1s04ili"
+        ]
+      },
+      {
+        "phrase": "recruiter visibility",
+        "post_ids": [
+          "1nmapst"
+        ]
+      },
+      {
+        "phrase": "still hiring engineers",
+        "post_ids": [
+          "1slp30t"
+        ]
+      },
+      {
+        "phrase": "thousands of apps no offers",
+        "post_ids": [
+          "1t3gbbu"
+        ]
+      },
+      {
+        "phrase": "under-10-applicants filter",
+        "post_ids": [
+          "1mt0ekr"
+        ]
+      },
+      {
+        "phrase": "visa sponsorship hurts chances",
+        "post_ids": [
+          "1nhwbhc"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T06",
+    "tension": "The relentless pace, long hours, understaffing and always-on demands burn workers out and leave them no work-life balance, so they long for a way out of the grind.",
+    "phrases": [
+      {
+        "phrase": "after-hours work calls",
+        "post_ids": [
+          "1pfnn0x"
+        ]
+      },
+      {
+        "phrase": "better work-life balance",
+        "post_ids": [
+          "1qis6wa"
+        ]
+      },
+      {
+        "phrase": "brutal 24/7 on-call",
+        "post_ids": [
+          "1r7of81"
+        ]
+      },
+      {
+        "phrase": "burnout and retention",
+        "post_ids": [
+          "1mi8vnz"
+        ]
+      },
+      {
+        "phrase": "burnout one-person IT",
+        "post_ids": [
+          "1qis6wa"
+        ]
+      },
+      {
+        "phrase": "desk job mental health",
+        "post_ids": [
+          "1otuw7c"
+        ]
+      },
+      {
+        "phrase": "devs burning out",
+        "post_ids": [
+          "1rt62gb"
+        ]
+      },
+      {
+        "phrase": "escape the 9-5",
+        "post_ids": [
+          "1otuw7c"
+        ]
+      },
+      {
+        "phrase": "four-day work week",
+        "post_ids": [
+          "1mi8vnz"
+        ]
+      },
+      {
+        "phrase": "good work punished with more work",
+        "post_ids": [
+          "1mo2ki0"
+        ]
+      },
+      {
+        "phrase": "no work-life balance",
+        "post_ids": [
+          "1o95zv3"
+        ]
+      },
+      {
+        "phrase": "revenue up fewer hours",
+        "post_ids": [
+          "1rcbykx"
+        ]
+      },
+      {
+        "phrase": "right to disconnect",
+        "post_ids": [
+          "1pfnn0x"
+        ]
+      },
+      {
+        "phrase": "understaffed",
+        "post_ids": [
+          "1mhnd12"
+        ]
+      },
+      {
+        "phrase": "unreasonable office hours",
+        "post_ids": [
+          "1qwoi6a"
+        ]
+      },
+      {
+        "phrase": "what makes people burn out",
+        "post_ids": [
+          "1s1f90b"
+        ]
+      },
+      {
+        "phrase": "working during festival",
+        "post_ids": [
+          "1obonv6"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T07",
+    "tension": "Service providers struggle to charge and hold fair prices because clients constantly lowball, haggle, guilt-trip, and demand discounts.",
+    "phrases": [
+      {
+        "phrase": "charging no-show deposits",
+        "post_ids": [
+          "1rb2lh4"
+        ]
+      },
+      {
+        "phrase": "client crying poor",
+        "post_ids": [
+          "1p17d8b"
+        ]
+      },
+      {
+        "phrase": "client rate cut",
+        "post_ids": [
+          "1n95sty"
+        ]
+      },
+      {
+        "phrase": "determining market value",
+        "post_ids": [
+          "1qqd37p"
+        ]
+      },
+      {
+        "phrase": "discount on a sob story",
+        "post_ids": [
+          "1p17d8b"
+        ]
+      },
+      {
+        "phrase": "guilt-tripping over negotiation",
+        "post_ids": [
+          "1rv81ia"
+        ]
+      },
+      {
+        "phrase": "hagglers hardest customers",
+        "post_ids": [
+          "1od7j5k"
+        ]
+      },
+      {
+        "phrase": "hold your prices",
+        "post_ids": [
+          "1od7j5k"
+        ]
+      },
+      {
+        "phrase": "last-minute lowball offer",
+        "post_ids": [
+          "1nt8eko"
+        ]
+      },
+      {
+        "phrase": "offer below expectations",
+        "post_ids": [
+          "1n8g50s"
+        ]
+      },
+      {
+        "phrase": "raise their price instead",
+        "post_ids": [
+          "1o8zqpq"
+        ]
+      },
+      {
+        "phrase": "raised prices lost worst clients",
+        "post_ids": [
+          "1rcbykx"
+        ]
+      },
+      {
+        "phrase": "scope creep charges",
+        "post_ids": [
+          "1qdmgaj"
+        ]
+      },
+      {
+        "phrase": "setup cost question",
+        "post_ids": [
+          "1sv9mwm"
+        ]
+      },
+      {
+        "phrase": "stopped giving discounts",
+        "post_ids": [
+          "1od7j5k"
+        ]
+      },
+      {
+        "phrase": "unprofitable contract",
+        "post_ids": [
+          "1n95sty"
+        ]
+      },
+      {
+        "phrase": "years of undercharging",
+        "post_ids": [
+          "1rcbykx"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T08",
+    "tension": "Tech workers are frustrated that relentless mass layoffs have destroyed the job security that even big-tech and once-stable roles used to guarantee.",
+    "phrases": [
+      {
+        "phrase": "90% tech roles cut",
+        "post_ids": [
+          "1u81t0h"
+        ]
+      },
+      {
+        "phrase": "FAANG no longer stable",
+        "post_ids": [
+          "1lpwy62"
+        ]
+      },
+      {
+        "phrase": "IT cost-cutting backfires",
+        "post_ids": [
+          "1snww7w"
+        ]
+      },
+      {
+        "phrase": "Meta layoffs for AI",
+        "post_ids": [
+          "1rt62gb"
+        ]
+      },
+      {
+        "phrase": "Oracle mass layoffs",
+        "post_ids": [
+          "1s8qy30"
+        ]
+      },
+      {
+        "phrase": "amazon corporate layoffs",
+        "post_ids": [
+          "1ohnh7q"
+        ]
+      },
+      {
+        "phrase": "brutal tech job market",
+        "post_ids": [
+          "1mcop22"
+        ]
+      },
+      {
+        "phrase": "layoffs from budget redirects",
+        "post_ids": [
+          "1mvid8s"
+        ]
+      },
+      {
+        "phrase": "mass corporate layoffs",
+        "post_ids": [
+          "1qpcc2d"
+        ]
+      },
+      {
+        "phrase": "mass layoffs",
+        "post_ids": [
+          "1s9bz1x"
+        ]
+      },
+      {
+        "phrase": "mass layoffs everywhere",
+        "post_ids": [
+          "1u7u3o6"
+        ]
+      },
+      {
+        "phrase": "meta bay area layoffs",
+        "post_ids": [
+          "1qc7ake"
+        ]
+      },
+      {
+        "phrase": "stack ranking layoffs",
+        "post_ids": [
+          "1qc7ake"
+        ]
+      },
+      {
+        "phrase": "tech job market dead",
+        "post_ids": [
+          "1po0gip"
+        ]
+      },
+      {
+        "phrase": "tech job recession",
+        "post_ids": [
+          "1r89r35"
+        ]
+      },
+      {
+        "phrase": "tech mass layoffs",
+        "post_ids": [
+          "1lpwy62"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T09",
+    "tension": "Hiring teams can't trust code submissions as a skill signal because candidates hand in AI-generated or copied code they can't explain or actually understand.",
+    "phrases": [
+      {
+        "phrase": "AI cheating obvious",
+        "post_ids": [
+          "1mlgwky"
+        ]
+      },
+      {
+        "phrase": "AI interview cheating",
+        "post_ids": [
+          "1rh0kou"
+        ]
+      },
+      {
+        "phrase": "AI interview cheating tools",
+        "post_ids": [
+          "1r5my44"
+        ]
+      },
+      {
+        "phrase": "authors don't understand code",
+        "post_ids": [
+          "1towli9"
+        ]
+      },
+      {
+        "phrase": "blatant coding cheating",
+        "post_ids": [
+          "1o479rh"
+        ]
+      },
+      {
+        "phrase": "can't explain individual contribution",
+        "post_ids": [
+          "1rx0zy0"
+        ]
+      },
+      {
+        "phrase": "candidate can't explain solution",
+        "post_ids": [
+          "1o479rh"
+        ]
+      },
+      {
+        "phrase": "candidate using AI answers",
+        "post_ids": [
+          "1miu768"
+        ]
+      },
+      {
+        "phrase": "candidates using AI answers",
+        "post_ids": [
+          "1oec07f"
+        ]
+      },
+      {
+        "phrase": "cheating with ChatGPT in interviews",
+        "post_ids": [
+          "1mrg1k0"
+        ]
+      },
+      {
+        "phrase": "interviewers can detect AI",
+        "post_ids": [
+          "1mrg1k0"
+        ]
+      },
+      {
+        "phrase": "no meaningful code excuse",
+        "post_ids": [
+          "1p8k684"
+        ]
+      },
+      {
+        "phrase": "no understanding of code",
+        "post_ids": [
+          "1oex6aw"
+        ]
+      },
+      {
+        "phrase": "unvetted AI-generated code",
+        "post_ids": [
+          "1tysnmi"
+        ]
+      },
+      {
+        "phrase": "using AI in interviews",
+        "post_ids": [
+          "1o479rh"
+        ]
+      },
+      {
+        "phrase": "vibe coder can't code",
+        "post_ids": [
+          "1rteomh"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T10",
+    "tension": "Job seekers resent that gaps and breaks in their work history get stigmatized and interrogated by employers, forcing them to justify or disguise time away from work.",
+    "phrases": [
+      {
+        "phrase": "CV gap stigma",
+        "post_ids": [
+          "1swj9jd"
+        ]
+      },
+      {
+        "phrase": "CV gaps over-scrutinized",
+        "post_ids": [
+          "1nz1ivd"
+        ]
+      },
+      {
+        "phrase": "career break family",
+        "post_ids": [
+          "1t15bb9"
+        ]
+      },
+      {
+        "phrase": "caregiving employment gap",
+        "post_ids": [
+          "1tft2mv"
+        ]
+      },
+      {
+        "phrase": "explain resume gap",
+        "post_ids": [
+          "1ub3scn"
+        ]
+      },
+      {
+        "phrase": "explaining career gaps",
+        "post_ids": [
+          "1m88t4b"
+        ]
+      },
+      {
+        "phrase": "explaining resume gaps",
+        "post_ids": [
+          "1t15bb9"
+        ]
+      },
+      {
+        "phrase": "job-hopping red flag",
+        "post_ids": [
+          "1nhbs59"
+        ]
+      },
+      {
+        "phrase": "normalize career breaks",
+        "post_ids": [
+          "1nz1ivd"
+        ]
+      },
+      {
+        "phrase": "reason for leaving job",
+        "post_ids": [
+          "1rujqw4"
+        ]
+      },
+      {
+        "phrase": "resume employment gap",
+        "post_ids": [
+          "1m88t4b"
+        ]
+      },
+      {
+        "phrase": "resume gap questioning",
+        "post_ids": [
+          "1tft2mv"
+        ]
+      },
+      {
+        "phrase": "resume gap questions",
+        "post_ids": [
+          "1u7u3o6"
+        ]
+      },
+      {
+        "phrase": "wording termination on resume",
+        "post_ids": [
+          "1rujqw4"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T11",
+    "tension": "Workers are being laid off \u2014 juniors and engineers especially \u2014 with AI named as the reason, so people resent AI being used as cover or justification for cutting jobs whether or not it can actually do the work.",
+    "phrases": [
+      {
+        "phrase": "AI as scapegoat",
+        "post_ids": [
+          "1tchmgq"
+        ]
+      },
+      {
+        "phrase": "AI is overhyped scapegoat",
+        "post_ids": [
+          "1lzl3hx"
+        ]
+      },
+      {
+        "phrase": "AI kills labor market",
+        "post_ids": [
+          "1rteomh"
+        ]
+      },
+      {
+        "phrase": "AI replacing juniors",
+        "post_ids": [
+          "1n74jad"
+        ]
+      },
+      {
+        "phrase": "AI replacing legal advice",
+        "post_ids": [
+          "1s0fm90"
+        ]
+      },
+      {
+        "phrase": "AI replacing software engineers",
+        "post_ids": [
+          "1m1uw9v"
+        ]
+      },
+      {
+        "phrase": "AI won't replace engineers",
+        "post_ids": [
+          "1mk8zj6"
+        ]
+      },
+      {
+        "phrase": "AI-driven mass layoffs",
+        "post_ids": [
+          "1u81t0h"
+        ]
+      },
+      {
+        "phrase": "AI-first layoffs",
+        "post_ids": [
+          "1lzl3hx"
+        ]
+      },
+      {
+        "phrase": "engineering sidelined by AI",
+        "post_ids": [
+          "1rt62gb"
+        ]
+      },
+      {
+        "phrase": "layoffs blamed on AI",
+        "post_ids": [
+          "1tchmgq"
+        ]
+      },
+      {
+        "phrase": "replacing juniors with AI",
+        "post_ids": [
+          "1mvid8s"
+        ]
+      },
+      {
+        "phrase": "replacing vs augmenting employees",
+        "post_ids": [
+          "1lw14u1"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T12",
+    "tension": "People who invested in a CS degree or tech career are frustrated that it no longer delivers the prestige, security, or wealth it once promised.",
+    "phrases": [
+      {
+        "phrase": "CS degree devalued",
+        "post_ids": [
+          "1rh0kou"
+        ]
+      },
+      {
+        "phrase": "CS degree regret",
+        "post_ids": [
+          "1tc02xm"
+        ]
+      },
+      {
+        "phrase": "CS enrollment dropping",
+        "post_ids": [
+          "1sxyx3n"
+        ]
+      },
+      {
+        "phrase": "college ROI debate",
+        "post_ids": [
+          "1ostbi4"
+        ]
+      },
+      {
+        "phrase": "finance bro vs tech bro",
+        "post_ids": [
+          "1ogsqs4"
+        ]
+      },
+      {
+        "phrase": "gold rush over",
+        "post_ids": [
+          "1sxyx3n"
+        ]
+      },
+      {
+        "phrase": "juniors uninterested in engineering",
+        "post_ids": [
+          "1mrfgm2"
+        ]
+      },
+      {
+        "phrase": "learn to code betrayal",
+        "post_ids": [
+          "1meq3lv"
+        ]
+      },
+      {
+        "phrase": "learn to code lie",
+        "post_ids": [
+          "1qwkjfg"
+        ]
+      },
+      {
+        "phrase": "quitting CS career",
+        "post_ids": [
+          "1mcop22"
+        ]
+      },
+      {
+        "phrase": "tech millionaire lifestyle",
+        "post_ids": [
+          "1ogsqs4"
+        ]
+      },
+      {
+        "phrase": "tech startups rarely enrich",
+        "post_ids": [
+          "1sczfjo"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T13",
+    "tension": "Job seekers get rejected for reasons that feel arbitrary or outside their control \u2014 too eager, too qualified, wrong 'vibe' or culture fit, their grades, or a keyword filter.",
+    "phrases": [
+      {
+        "phrase": "arbitrary candidate rejection",
+        "post_ids": [
+          "1qpo21d"
+        ]
+      },
+      {
+        "phrase": "keyword-based screening rejects",
+        "post_ids": [
+          "1o01gie"
+        ]
+      },
+      {
+        "phrase": "nitpicking to exclude",
+        "post_ids": [
+          "1n0yysn"
+        ]
+      },
+      {
+        "phrase": "non-local rejection",
+        "post_ids": [
+          "1m495n7"
+        ]
+      },
+      {
+        "phrase": "odd applicant details",
+        "post_ids": [
+          "1qqb9kh"
+        ]
+      },
+      {
+        "phrase": "overqualified rejection",
+        "post_ids": [
+          "1ql25o4"
+        ]
+      },
+      {
+        "phrase": "personality culture-fit rejection",
+        "post_ids": [
+          "1lvn993"
+        ]
+      },
+      {
+        "phrase": "reason for rejecting candidates",
+        "post_ids": [
+          "1rx0zy0"
+        ]
+      },
+      {
+        "phrase": "rejected for desperation vibes",
+        "post_ids": [
+          "1ok0mi8"
+        ]
+      },
+      {
+        "phrase": "rejected for too perfect",
+        "post_ids": [
+          "1n11xse"
+        ]
+      },
+      {
+        "phrase": "rejected over grades",
+        "post_ids": [
+          "1n0yysn"
+        ]
+      },
+      {
+        "phrase": "rejection about vibe fit",
+        "post_ids": [
+          "1rx0zy0"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T14",
+    "tension": "US tech workers are frustrated that companies are laying them off and replacing them with cheaper foreign labor \u2014 either shipping jobs offshore or exploiting H-1B visas \u2014 instead of hiring domestic workers.",
+    "phrases": [
+      {
+        "phrase": "H-1B abuse",
+        "post_ids": [
+          "1ma4i05"
+        ]
+      },
+      {
+        "phrase": "H1B visa abuse",
+        "post_ids": [
+          "1m25nxx"
+        ]
+      },
+      {
+        "phrase": "hiring US citizens",
+        "post_ids": [
+          "1nno6ei"
+        ]
+      },
+      {
+        "phrase": "jobs outsourced to India",
+        "post_ids": [
+          "1lpe76e"
+        ]
+      },
+      {
+        "phrase": "layoffs alongside H1B filings",
+        "post_ids": [
+          "1m25nxx"
+        ]
+      },
+      {
+        "phrase": "layoffs and offshoring",
+        "post_ids": [
+          "1r89vhp"
+        ]
+      },
+      {
+        "phrase": "moving away from H1bs",
+        "post_ids": [
+          "1nno6ei"
+        ]
+      },
+      {
+        "phrase": "offshoring acceleration",
+        "post_ids": [
+          "1nlffj7"
+        ]
+      },
+      {
+        "phrase": "offshoring not AI",
+        "post_ids": [
+          "1mmx040"
+        ]
+      },
+      {
+        "phrase": "offshoring tech jobs",
+        "post_ids": [
+          "1m7zvlx",
+          "1ma4i05"
+        ]
+      },
+      {
+        "phrase": "offshoring will accelerate",
+        "post_ids": [
+          "1n6nk56"
+        ]
+      },
+      {
+        "phrase": "shifting to offshore hubs",
+        "post_ids": [
+          "1nno6ei"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T15",
+    "tension": "Workers feel treated as disposable while executives cut staff to pad their own bonuses and dodge the layoffs they caused.",
+    "phrases": [
+      {
+        "phrase": "cutting staff to boost bonuses",
+        "post_ids": [
+          "1qpcc2d"
+        ]
+      },
+      {
+        "phrase": "execs spared from layoffs",
+        "post_ids": [
+          "1qpcc2d"
+        ]
+      },
+      {
+        "phrase": "executive pay amid layoffs",
+        "post_ids": [
+          "1tchmgq"
+        ]
+      },
+      {
+        "phrase": "executives avoid consequences",
+        "post_ids": [
+          "1sfw7o5"
+        ]
+      },
+      {
+        "phrase": "greedy executives",
+        "post_ids": [
+          "1r5kxed"
+        ]
+      },
+      {
+        "phrase": "managers cutting headcount",
+        "post_ids": [
+          "1mk8zj6"
+        ]
+      },
+      {
+        "phrase": "out of touch CEO",
+        "post_ids": [
+          "1muz9kp"
+        ]
+      },
+      {
+        "phrase": "pandemic overhiring excuse",
+        "post_ids": [
+          "1ohnh7q"
+        ]
+      },
+      {
+        "phrase": "pay equity review",
+        "post_ids": [
+          "1oqvzo0"
+        ]
+      },
+      {
+        "phrase": "refuse to absorb layoff slack",
+        "post_ids": [
+          "1sfw7o5"
+        ]
+      },
+      {
+        "phrase": "workers are disposable pawns",
+        "post_ids": [
+          "1ohnh7q"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T16",
+    "tension": "Outside applicants feel the game is rigged \u2014 jobs are quietly locked up by internal candidates, referrals, and personal connections (or decided early on gut feel) before merit or an open application ever counts.",
+    "phrases": [
+      {
+        "phrase": "evergreen resume-harvesting postings",
+        "post_ids": [
+          "1tqtaub"
+        ]
+      },
+      {
+        "phrase": "hiring managers decide early",
+        "post_ids": [
+          "1rvnpnf"
+        ]
+      },
+      {
+        "phrase": "hiring on vibes",
+        "post_ids": [
+          "1ok0mi8"
+        ]
+      },
+      {
+        "phrase": "internal candidate preferred",
+        "post_ids": [
+          "1tcz6a3"
+        ]
+      },
+      {
+        "phrase": "jobs filled internally",
+        "post_ids": [
+          "1ti8s8h"
+        ]
+      },
+      {
+        "phrase": "networking beats online applications",
+        "post_ids": [
+          "1ra48qc"
+        ]
+      },
+      {
+        "phrase": "pre-selected internal candidate",
+        "post_ids": [
+          "1pszdaz"
+        ]
+      },
+      {
+        "phrase": "prewired internal hires",
+        "post_ids": [
+          "1ntp9lo"
+        ]
+      },
+      {
+        "phrase": "referral beats merit",
+        "post_ids": [
+          "1qzituj"
+        ]
+      },
+      {
+        "phrase": "referrals get interviews",
+        "post_ids": [
+          "1ra48qc"
+        ]
+      },
+      {
+        "phrase": "tier-1 hiring preference",
+        "post_ids": [
+          "1tvg8jn"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T17",
+    "tension": "Job seekers resent having to reverse-engineer keywords and file formats just so an automated ATS will pass their resume to a human at all.",
+    "phrases": [
+      {
+        "phrase": "ATS filtering transferable skills",
+        "post_ids": [
+          "1o01gie"
+        ]
+      },
+      {
+        "phrase": "ATS keyword matching",
+        "post_ids": [
+          "1r32a25",
+          "1skes0r"
+        ]
+      },
+      {
+        "phrase": "ATS keywords",
+        "post_ids": [
+          "1o1b9ak"
+        ]
+      },
+      {
+        "phrase": "docx over pdf resume",
+        "post_ids": [
+          "1r32a25"
+        ]
+      },
+      {
+        "phrase": "hand resume in person",
+        "post_ids": [
+          "1sdkw9z"
+        ]
+      },
+      {
+        "phrase": "print to PDF for ATS",
+        "post_ids": [
+          "1pc53zq"
+        ]
+      },
+      {
+        "phrase": "recruiters hunting for keywords",
+        "post_ids": [
+          "1ryo60i"
+        ]
+      },
+      {
+        "phrase": "resume filename matters",
+        "post_ids": [
+          "1npbu7w"
+        ]
+      },
+      {
+        "phrase": "resume keyword gaming",
+        "post_ids": [
+          "1oe8him"
+        ]
+      },
+      {
+        "phrase": "translate jargon for recruiters",
+        "post_ids": [
+          "1ohexl2"
+        ]
+      },
+      {
+        "phrase": "use Jake's resume template",
+        "post_ids": [
+          "1pc4i3t"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T18",
+    "tension": "Employees feel HR sides with the company \u2014 enforcing discipline, guarding liability, and even betraying or dismissing worker complaints \u2014 instead of protecting the people it claims to serve.",
+    "phrases": [
+      {
+        "phrase": "HR broke confidentiality",
+        "post_ids": [
+          "1ndxmta"
+        ]
+      },
+      {
+        "phrase": "HR delivering discipline",
+        "post_ids": [
+          "1slf670"
+        ]
+      },
+      {
+        "phrase": "HR dismissing harassment",
+        "post_ids": [
+          "1me3laj"
+        ]
+      },
+      {
+        "phrase": "HR dropped the ball",
+        "post_ids": [
+          "1mkkvrb"
+        ]
+      },
+      {
+        "phrase": "HR held to standards",
+        "post_ids": [
+          "1rykl1t"
+        ]
+      },
+      {
+        "phrase": "HR monitoring review",
+        "post_ids": [
+          "1rbmab1"
+        ]
+      },
+      {
+        "phrase": "HR not involved",
+        "post_ids": [
+          "1r0hbs3"
+        ]
+      },
+      {
+        "phrase": "HR prevents liability",
+        "post_ids": [
+          "1qfq40e"
+        ]
+      },
+      {
+        "phrase": "HR protects the company",
+        "post_ids": [
+          "1pvey5r"
+        ]
+      },
+      {
+        "phrase": "HR seen as villains",
+        "post_ids": [
+          "1pvey5r"
+        ]
+      },
+      {
+        "phrase": "not HR's job",
+        "post_ids": [
+          "1q4l32f"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T19",
+    "tension": "Job-seekers are ghosted or left waiting as recruiters and employers go silent or stall on them while applying, interviewing, and even after an offer.",
+    "phrases": [
+      {
+        "phrase": "delayed interview feedback",
+        "post_ids": [
+          "1m6gk8x"
+        ]
+      },
+      {
+        "phrase": "ghosted after interviews",
+        "post_ids": [
+          "1oeua90"
+        ]
+      },
+      {
+        "phrase": "ghosted after offer",
+        "post_ids": [
+          "1r8ckd2"
+        ]
+      },
+      {
+        "phrase": "ghosted after positive interview",
+        "post_ids": [
+          "1psasvo"
+        ]
+      },
+      {
+        "phrase": "ghosted by recruiters",
+        "post_ids": [
+          "1qxizav"
+        ]
+      },
+      {
+        "phrase": "ghosted then contacted",
+        "post_ids": [
+          "1syi8l7"
+        ]
+      },
+      {
+        "phrase": "hiring manager delays",
+        "post_ids": [
+          "1tpvitj"
+        ]
+      },
+      {
+        "phrase": "law against ghosting candidates",
+        "post_ids": [
+          "1o5w834"
+        ]
+      },
+      {
+        "phrase": "no interview feedback",
+        "post_ids": [
+          "1lzrd8r"
+        ]
+      },
+      {
+        "phrase": "no interview responses",
+        "post_ids": [
+          "1pc4i3t"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T20",
+    "tension": "Job seekers feel deceived when a posting sells a role that turns out to be false \u2014 a 'remote' job that isn't, a misrepresented location or pay, terms that change mid-process, or a position that never really existed.",
+    "phrases": [
+      {
+        "phrase": "bait and switch",
+        "post_ids": [
+          "1nt8eko"
+        ]
+      },
+      {
+        "phrase": "bait and switch offer",
+        "post_ids": [
+          "1n8g50s"
+        ]
+      },
+      {
+        "phrase": "bait-and-switch hiring event",
+        "post_ids": [
+          "1qcxr5v"
+        ]
+      },
+      {
+        "phrase": "bait-and-switch pay",
+        "post_ids": [
+          "1o36mjj"
+        ]
+      },
+      {
+        "phrase": "fake remote listings",
+        "post_ids": [
+          "1r13b1k",
+          "1t606n3"
+        ]
+      },
+      {
+        "phrase": "fully remote high pay",
+        "post_ids": [
+          "1qqdcbh"
+        ]
+      },
+      {
+        "phrase": "ghost job listings",
+        "post_ids": [
+          "1ntp9lo"
+        ]
+      },
+      {
+        "phrase": "misleading job location",
+        "post_ids": [
+          "1r13b1k"
+        ]
+      },
+      {
+        "phrase": "shifting job goalposts",
+        "post_ids": [
+          "1ql25o4"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T21",
+    "tension": "Job candidates feel disrespected and demeaned by the way recruiters and interviewers communicate \u2014 harsh, judgmental, insulting, and unprofessional.",
+    "phrases": [
+      {
+        "phrase": "disrespectful interviewer behavior",
+        "post_ids": [
+          "1pq5gaz"
+        ]
+      },
+      {
+        "phrase": "harsh feedback standards",
+        "post_ids": [
+          "1n5xc3s"
+        ]
+      },
+      {
+        "phrase": "harsh interview feedback",
+        "post_ids": [
+          "1qr7m2m"
+        ]
+      },
+      {
+        "phrase": "insulting feedback sent candidate",
+        "post_ids": [
+          "1lvn993"
+        ]
+      },
+      {
+        "phrase": "judgmental recruiters",
+        "post_ids": [
+          "1ok0mi8"
+        ]
+      },
+      {
+        "phrase": "recruiter bridge-burning threats",
+        "post_ids": [
+          "1pdar5o"
+        ]
+      },
+      {
+        "phrase": "toxic dismissive interviewer",
+        "post_ids": [
+          "1no2id4"
+        ]
+      },
+      {
+        "phrase": "unprofessional hiring communication",
+        "post_ids": [
+          "1sbkgxi"
+        ]
+      },
+      {
+        "phrase": "unprofessional recruiter comments",
+        "post_ids": [
+          "1sekapw"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T22",
+    "tension": "New and aspiring tech workers are frustrated that entry-level hiring has collapsed, leaving CS grads unemployed and early-career IT roles hard to land, advance in, or earn a living wage from.",
+    "phrases": [
+      {
+        "phrase": "CS job market floundering",
+        "post_ids": [
+          "1mtwz4c"
+        ]
+      },
+      {
+        "phrase": "IT career progression",
+        "post_ids": [
+          "1mj3ihg",
+          "1u2eac7"
+        ]
+      },
+      {
+        "phrase": "breaking into IT",
+        "post_ids": [
+          "1nd3ija",
+          "1sbxjcc",
+          "1tk2gm4"
+        ]
+      },
+      {
+        "phrase": "brutal CS job market",
+        "post_ids": [
+          "1ovx9nr"
+        ]
+      },
+      {
+        "phrase": "cs grad unemployment",
+        "post_ids": [
+          "1mmx040"
+        ]
+      },
+      {
+        "phrase": "entry-level IT wages stagnant",
+        "post_ids": [
+          "1lvb6ea"
+        ]
+      },
+      {
+        "phrase": "junior dev jobs",
+        "post_ids": [
+          "1r89r35"
+        ]
+      },
+      {
+        "phrase": "junior hiring collapse",
+        "post_ids": [
+          "1pt4yxh",
+          "1rnkv2t"
+        ]
+      },
+      {
+        "phrase": "pivot into IT",
+        "post_ids": [
+          "1mbz88x"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T23",
+    "tension": "Employers screen out or reject people based on age or other protected traits when hiring.",
+    "phrases": [
+      {
+        "phrase": "SHRM discrimination verdict",
+        "post_ids": [
+          "1pfc8cw"
+        ]
+      },
+      {
+        "phrase": "age discrimination",
+        "post_ids": [
+          "1ra7mwd"
+        ]
+      },
+      {
+        "phrase": "age discrimination hiring",
+        "post_ids": [
+          "1s9ikc5"
+        ]
+      },
+      {
+        "phrase": "age discrimination job posting",
+        "post_ids": [
+          "1lw0f9a"
+        ]
+      },
+      {
+        "phrase": "ageism in hiring",
+        "post_ids": [
+          "1n74jad",
+          "1s48g1j"
+        ]
+      },
+      {
+        "phrase": "discriminatory job description",
+        "post_ids": [
+          "1lw0f9a"
+        ]
+      },
+      {
+        "phrase": "hiring bias discrimination",
+        "post_ids": [
+          "1my63u8"
+        ]
+      },
+      {
+        "phrase": "illegal age limit",
+        "post_ids": [
+          "1lw0f9a"
+        ]
+      },
+      {
+        "phrase": "possibly illegal discrimination",
+        "post_ids": [
+          "1o95zv3"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T24",
+    "tension": "The interview process drags on with too many rounds and stages, keeping candidates and employers stuck in a slow, bloated pipeline for months.",
+    "phrases": [
+      {
+        "phrase": "bloated interview process",
+        "post_ids": [
+          "1seq609"
+        ]
+      },
+      {
+        "phrase": "dragged-out interview process",
+        "post_ids": [
+          "1potj30"
+        ]
+      },
+      {
+        "phrase": "endless interview process",
+        "post_ids": [
+          "1muxy4k"
+        ]
+      },
+      {
+        "phrase": "excessive hiring process",
+        "post_ids": [
+          "1qc3u51"
+        ]
+      },
+      {
+        "phrase": "months-long hiring process",
+        "post_ids": [
+          "1nq7ns4"
+        ]
+      },
+      {
+        "phrase": "roles sit open for months",
+        "post_ids": [
+          "1nkks8w"
+        ]
+      },
+      {
+        "phrase": "too many interview rounds",
+        "post_ids": [
+          "1muxy4k",
+          "1n1sfym",
+          "1nq7ns4",
+          "1qc3u51"
+        ]
+      },
+      {
+        "phrase": "too many interview stages",
+        "post_ids": [
+          "1seq609"
+        ]
+      },
+      {
+        "phrase": "wasted interview rounds",
+        "post_ids": [
+          "1tcz6a3"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T25",
+    "tension": "Job candidates are frustrated that assessments test framing, personality, or reading-comprehension instead of the actual skill the role needs.",
+    "phrases": [
+      {
+        "phrase": "automated coding assessments",
+        "post_ids": [
+          "1r0ezba"
+        ]
+      },
+      {
+        "phrase": "exam is reading comprehension",
+        "post_ids": [
+          "1tpfie6"
+        ]
+      },
+      {
+        "phrase": "framing not memory test",
+        "post_ids": [
+          "1t2w2ql"
+        ]
+      },
+      {
+        "phrase": "leetcode gatekeeping",
+        "post_ids": [
+          "1tc02xm"
+        ]
+      },
+      {
+        "phrase": "leetcode interviews broken",
+        "post_ids": [
+          "1r5my44"
+        ]
+      },
+      {
+        "phrase": "question with no right answer",
+        "post_ids": [
+          "1rvkcwo"
+        ]
+      },
+      {
+        "phrase": "skipping CS fundamentals",
+        "post_ids": [
+          "1lnu6v8"
+        ]
+      },
+      {
+        "phrase": "teach something unrelated",
+        "post_ids": [
+          "1rsjsv5"
+        ]
+      },
+      {
+        "phrase": "vague personality-test questions",
+        "post_ids": [
+          "1oexljh"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T26",
+    "tension": "Job-seekers' resumes get auto-screened out or ignored without a human ever reading them, so qualified applicants never surface or land interviews.",
+    "phrases": [
+      {
+        "phrase": "a human read my resume",
+        "post_ids": [
+          "1lx796l"
+        ]
+      },
+      {
+        "phrase": "applicants archived unread",
+        "post_ids": [
+          "1qxg9vv"
+        ]
+      },
+      {
+        "phrase": "employers ignore applications",
+        "post_ids": [
+          "1syi8l7"
+        ]
+      },
+      {
+        "phrase": "great candidates auto-rejected",
+        "post_ids": [
+          "1o01gie"
+        ]
+      },
+      {
+        "phrase": "not landing interviews",
+        "post_ids": [
+          "1ms8qvp"
+        ]
+      },
+      {
+        "phrase": "recruiters didn't read resume",
+        "post_ids": [
+          "1r967sx"
+        ]
+      },
+      {
+        "phrase": "rejected over resume interest",
+        "post_ids": [
+          "1qpo21d"
+        ]
+      },
+      {
+        "phrase": "resume screened out",
+        "post_ids": [
+          "1qzk4sj"
+        ]
+      },
+      {
+        "phrase": "resumes never surfaced",
+        "post_ids": [
+          "1r32a25"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T27",
+    "tension": "People caught in a firing fear the process is an adversarial, legally-loaded setup where a paper trail or sham PIP is built to justify pushing them out.",
+    "phrases": [
+      {
+        "phrase": "accept new role or fired",
+        "post_ids": [
+          "1r0hbs3"
+        ]
+      },
+      {
+        "phrase": "building termination case",
+        "post_ids": [
+          "1sfcu04"
+        ]
+      },
+      {
+        "phrase": "difficult employee termination",
+        "post_ids": [
+          "1noh7z3"
+        ]
+      },
+      {
+        "phrase": "fire within probation",
+        "post_ids": [
+          "1nihrir"
+        ]
+      },
+      {
+        "phrase": "gender dynamic termination",
+        "post_ids": [
+          "1o7drib"
+        ]
+      },
+      {
+        "phrase": "performance improvement plan joke",
+        "post_ids": [
+          "1sckmxd"
+        ]
+      },
+      {
+        "phrase": "preparing termination with legal",
+        "post_ids": [
+          "1noh7z3"
+        ]
+      },
+      {
+        "phrase": "wrongful termination paper trail",
+        "post_ids": [
+          "1nxxj9a"
+        ]
+      },
+      {
+        "phrase": "wrongful termination risk",
+        "post_ids": [
+          "1u0ub56"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T28",
+    "tension": "Employers are being cheated out of the hours and money they pay for, by employees who lie about time worked and fake the expenses they claim.",
+    "phrases": [
+      {
+        "phrase": "WFH employee lying hours",
+        "post_ids": [
+          "1sfxnau"
+        ]
+      },
+      {
+        "phrase": "employee faking expense reports",
+        "post_ids": [
+          "1pdax88"
+        ]
+      },
+      {
+        "phrase": "employee overemployment suspicion",
+        "post_ids": [
+          "1nq97gf"
+        ]
+      },
+      {
+        "phrase": "employee stole reimbursements",
+        "post_ids": [
+          "1pdax88"
+        ]
+      },
+      {
+        "phrase": "falsified time cards",
+        "post_ids": [
+          "1rai4g9"
+        ]
+      },
+      {
+        "phrase": "remote work monitoring logs",
+        "post_ids": [
+          "1sfxnau"
+        ]
+      },
+      {
+        "phrase": "retail petty lateness",
+        "post_ids": [
+          "1sfcu04"
+        ]
+      },
+      {
+        "phrase": "time theft",
+        "post_ids": [
+          "1rai4g9"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T29",
+    "tension": "People with no prior experience are locked out of entry-level jobs because those jobs demand years of experience they can't get without a job.",
+    "phrases": [
+      {
+        "phrase": "can't bypass entry level",
+        "post_ids": [
+          "1pzw57g"
+        ]
+      },
+      {
+        "phrase": "entry requires 3 years",
+        "post_ids": [
+          "1rfzdko"
+        ]
+      },
+      {
+        "phrase": "internships aren't real experience",
+        "post_ids": [
+          "1po0gip"
+        ]
+      },
+      {
+        "phrase": "landed job zero experience",
+        "post_ids": [
+          "1r7of81"
+        ]
+      },
+      {
+        "phrase": "need experience to get experience",
+        "post_ids": [
+          "1pclgy1"
+        ]
+      },
+      {
+        "phrase": "no experience means bottom",
+        "post_ids": [
+          "1pzw57g"
+        ]
+      },
+      {
+        "phrase": "no experience unemployed",
+        "post_ids": [
+          "1meq3lv"
+        ]
+      },
+      {
+        "phrase": "years experience required",
+        "post_ids": [
+          "1rsl4uv"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T30",
+    "tension": "Job seekers can't agree whether rewriting their resume for each specific role is worth the effort or a waste of time.",
+    "phrases": [
+      {
+        "phrase": "career switch resume rewrite",
+        "post_ids": [
+          "1ohexl2"
+        ]
+      },
+      {
+        "phrase": "change resume title",
+        "post_ids": [
+          "1pig7u1"
+        ]
+      },
+      {
+        "phrase": "gear resume to target job",
+        "post_ids": [
+          "1ohexl2"
+        ]
+      },
+      {
+        "phrase": "relevant experience first",
+        "post_ids": [
+          "1p50vs0"
+        ]
+      },
+      {
+        "phrase": "resume customization overrated",
+        "post_ids": [
+          "1n3reu8"
+        ]
+      },
+      {
+        "phrase": "tailor applications to roles",
+        "post_ids": [
+          "1t3gbbu"
+        ]
+      },
+      {
+        "phrase": "tailoring resume per role",
+        "post_ids": [
+          "1qqd37p"
+        ]
+      },
+      {
+        "phrase": "tailoring resume to posting",
+        "post_ids": [
+          "1skes0r"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T31",
+    "tension": "Job seekers wrestle with how much to inflate and aggressively self-promote on a resume to look impressive without crossing into dishonesty.",
+    "phrases": [
+      {
+        "phrase": "career self-promotion",
+        "post_ids": [
+          "1pwfx9l"
+        ]
+      },
+      {
+        "phrase": "inflated resume GPA",
+        "post_ids": [
+          "1t47ng7"
+        ]
+      },
+      {
+        "phrase": "job-hopping resume",
+        "post_ids": [
+          "1sedxcc"
+        ]
+      },
+      {
+        "phrase": "lead with accomplishments",
+        "post_ids": [
+          "1p6f8zb"
+        ]
+      },
+      {
+        "phrase": "making CV stand out",
+        "post_ids": [
+          "1rcb8hp"
+        ]
+      },
+      {
+        "phrase": "resume framing matters",
+        "post_ids": [
+          "1p6f8zb"
+        ]
+      },
+      {
+        "phrase": "resume title inflation",
+        "post_ids": [
+          "1lym1qd"
+        ]
+      },
+      {
+        "phrase": "wants applicants to stand out",
+        "post_ids": [
+          "1qpo21d"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T32",
+    "tension": "Business owners fear that a slowing, uncertain economy makes this the wrong time to build, invest, or commit resources.",
+    "phrases": [
+      {
+        "phrase": "business slowing down",
+        "post_ids": [
+          "1tbfwum"
+        ]
+      },
+      {
+        "phrase": "cutting costs to survive",
+        "post_ids": [
+          "1mywp7p"
+        ]
+      },
+      {
+        "phrase": "economic downturn timing",
+        "post_ids": [
+          "1qwkjfg"
+        ]
+      },
+      {
+        "phrase": "economic uncertainty pullback",
+        "post_ids": [
+          "1tbfwum"
+        ]
+      },
+      {
+        "phrase": "inventory risk",
+        "post_ids": [
+          "1mk3we6"
+        ]
+      },
+      {
+        "phrase": "market timing",
+        "post_ids": [
+          "1sivput"
+        ]
+      },
+      {
+        "phrase": "tariff threatening business",
+        "post_ids": [
+          "1mywp7p"
+        ]
+      },
+      {
+        "phrase": "worst time to build",
+        "post_ids": [
+          "1oo7d07"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T33",
+    "tension": "Romantic or sexual relationships between coworkers \u2014 especially across a manager-subordinate power gap \u2014 force agonizing decisions about whether to disclose, and blow up into scandal when they surface.",
+    "phrases": [
+      {
+        "phrase": "affair with coworker",
+        "post_ids": [
+          "1rykl1t"
+        ]
+      },
+      {
+        "phrase": "boss-subordinate relationship",
+        "post_ids": [
+          "1u3i8f5"
+        ]
+      },
+      {
+        "phrase": "disclose relationship to HR",
+        "post_ids": [
+          "1otzyf2"
+        ]
+      },
+      {
+        "phrase": "executive affair scandal",
+        "post_ids": [
+          "1m2dpgy"
+        ]
+      },
+      {
+        "phrase": "opposite-sex coworker dinners",
+        "post_ids": [
+          "1pwqnax"
+        ]
+      },
+      {
+        "phrase": "report affair to HR",
+        "post_ids": [
+          "1u3i8f5"
+        ]
+      },
+      {
+        "phrase": "surprise paternity at work",
+        "post_ids": [
+          "1otzyf2"
+        ]
+      },
+      {
+        "phrase": "workplace power imbalance",
+        "post_ids": [
+          "1rueh11"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T34",
+    "tension": "Workers are let go with no warning or human decency \u2014 finding out through a text, an email, a stopped paycheck, or by accident instead of a real conversation.",
+    "phrases": [
+      {
+        "phrase": "accidentally found out fired",
+        "post_ids": [
+          "1mc1byh"
+        ]
+      },
+      {
+        "phrase": "cold 6am layoff email",
+        "post_ids": [
+          "1s8qy30"
+        ]
+      },
+      {
+        "phrase": "fired with no warning",
+        "post_ids": [
+          "1tn7d00"
+        ]
+      },
+      {
+        "phrase": "ghosted after layoff",
+        "post_ids": [
+          "1roudce"
+        ]
+      },
+      {
+        "phrase": "laid off via email",
+        "post_ids": [
+          "1s9bz1x"
+        ]
+      },
+      {
+        "phrase": "laid off via text",
+        "post_ids": [
+          "1n2ncbs"
+        ]
+      },
+      {
+        "phrase": "salary stopped arriving",
+        "post_ids": [
+          "1nxsiwd"
+        ]
+      },
+      {
+        "phrase": "termination felt intimidating",
+        "post_ids": [
+          "1o7drib"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T35",
+    "tension": "Employees' personal time and legitimate absences are disregarded or punished by the employer \u2014 from a minute's lateness to bereavement, holidays, a single absence, notice periods, and maternity leave.",
+    "phrases": [
+      {
+        "phrase": "PIP over single absence",
+        "post_ids": [
+          "1mnzqxl"
+        ]
+      },
+      {
+        "phrase": "no leave during notice",
+        "post_ids": [
+          "1mknxjx"
+        ]
+      },
+      {
+        "phrase": "oncall during holiday",
+        "post_ids": [
+          "1obonv6"
+        ]
+      },
+      {
+        "phrase": "one hour to mourn",
+        "post_ids": [
+          "1rvha36"
+        ]
+      },
+      {
+        "phrase": "personal time disregarded",
+        "post_ids": [
+          "1rkldbw"
+        ]
+      },
+      {
+        "phrase": "punished for one minute late",
+        "post_ids": [
+          "1sfcu04"
+        ]
+      },
+      {
+        "phrase": "restructure during leave",
+        "post_ids": [
+          "1qfjv5y"
+        ]
+      },
+      {
+        "phrase": "role eliminated on maternity leave",
+        "post_ids": [
+          "1qfjv5y"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T36",
+    "tension": "Vague, feelings-based answers don't land, so people struggle to make their case with hard data, numbers, and clear structure.",
+    "phrases": [
+      {
+        "phrase": "avoid columns and tables",
+        "post_ids": [
+          "1pc53zq"
+        ]
+      },
+      {
+        "phrase": "keep it factual",
+        "post_ids": [
+          "1otzyf2"
+        ]
+      },
+      {
+        "phrase": "need math and statistics",
+        "post_ids": [
+          "1lnu6v8"
+        ]
+      },
+      {
+        "phrase": "pick the best answer",
+        "post_ids": [
+          "1tpfie6"
+        ]
+      },
+      {
+        "phrase": "respond in own words",
+        "post_ids": [
+          "1nq5npn"
+        ]
+      },
+      {
+        "phrase": "specificity and numbers",
+        "post_ids": [
+          "1rcb8hp"
+        ]
+      },
+      {
+        "phrase": "structuring your answer",
+        "post_ids": [
+          "1t2w2ql"
+        ]
+      },
+      {
+        "phrase": "test with data not feelings",
+        "post_ids": [
+          "1rb2lh4"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T37",
+    "tension": "Candidates get flagged and rejected on assumptions about their character, personal life, or likelihood of leaving rather than on their ability to do the job.",
+    "phrases": [
+      {
+        "phrase": "anything that gives you pause",
+        "post_ids": [
+          "1rvnpnf"
+        ]
+      },
+      {
+        "phrase": "fear of flight risk",
+        "post_ids": [
+          "1n11xse"
+        ]
+      },
+      {
+        "phrase": "poor judgment red flag",
+        "post_ids": [
+          "1s7tjj2"
+        ]
+      },
+      {
+        "phrase": "profiled as video gamer",
+        "post_ids": [
+          "1my63u8"
+        ]
+      },
+      {
+        "phrase": "richest person you know",
+        "post_ids": [
+          "1lr4dzb"
+        ]
+      },
+      {
+        "phrase": "risk is flight",
+        "post_ids": [
+          "1s35fhh"
+        ]
+      },
+      {
+        "phrase": "signals slow decision-making",
+        "post_ids": [
+          "1seq609"
+        ]
+      },
+      {
+        "phrase": "spouse discomfort matters",
+        "post_ids": [
+          "1pwqnax"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T38",
+    "tension": "People are cynical about self-serving PR and promotion stunts that ring hollow, spam, and can't even be measured.",
+    "phrases": [
+      {
+        "phrase": "PR agency execution work",
+        "post_ids": [
+          "1rn45nz"
+        ]
+      },
+      {
+        "phrase": "attracting VC attention",
+        "post_ids": [
+          "1nwkp7n"
+        ]
+      },
+      {
+        "phrase": "pitch from founder email",
+        "post_ids": [
+          "1rn45nz"
+        ]
+      },
+      {
+        "phrase": "self-marketing gaming promotions",
+        "post_ids": [
+          "1n7zuba"
+        ]
+      },
+      {
+        "phrase": "self-serving PR stunt",
+        "post_ids": [
+          "1qcxr5v"
+        ]
+      },
+      {
+        "phrase": "suspicious success story",
+        "post_ids": [
+          "1nmapst"
+        ]
+      },
+      {
+        "phrase": "tool promotion spam",
+        "post_ids": [
+          "1r6efr9"
+        ]
+      },
+      {
+        "phrase": "unmeasurable press attribution",
+        "post_ids": [
+          "1rn45nz"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T39",
+    "tension": "Employers can't trust that applicants are who they claim, because candidates fake their identities, credentials, and resumes to get hired.",
+    "phrases": [
+      {
+        "phrase": "North Korean fake applicants",
+        "post_ids": [
+          "1t3jwmw"
+        ]
+      },
+      {
+        "phrase": "North Korean impostor hire",
+        "post_ids": [
+          "1udssl4"
+        ]
+      },
+      {
+        "phrase": "catfish applicants",
+        "post_ids": [
+          "1o96fg4"
+        ]
+      },
+      {
+        "phrase": "fabricated resumes and credentials",
+        "post_ids": [
+          "1nhx4x6"
+        ]
+      },
+      {
+        "phrase": "fake job candidates",
+        "post_ids": [
+          "1o2kjdo",
+          "1o96fg4"
+        ]
+      },
+      {
+        "phrase": "fraudulent remote candidates",
+        "post_ids": [
+          "1t3jwmw"
+        ]
+      },
+      {
+        "phrase": "lying on resume",
+        "post_ids": [
+          "1ttrt35"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T40",
+    "tension": "Honest negative feedback about an employer or worker backfires \u2014 it gets filtered, disputed, or answered with retaliation, so the truth stays buried and speaking up is punished.",
+    "phrases": [
+      {
+        "phrase": "employee disputing feedback",
+        "post_ids": [
+          "1noofdl"
+        ]
+      },
+      {
+        "phrase": "glassdoor filters bad reviews",
+        "post_ids": [
+          "1rg4wxs"
+        ]
+      },
+      {
+        "phrase": "mining bad glassdoor reviews",
+        "post_ids": [
+          "1rg4wxs"
+        ]
+      },
+      {
+        "phrase": "punished for giving feedback",
+        "post_ids": [
+          "1nbkvnc"
+        ]
+      },
+      {
+        "phrase": "retaliatory 1-star review",
+        "post_ids": [
+          "1qdmgaj"
+        ]
+      },
+      {
+        "phrase": "toxic employer red flags",
+        "post_ids": [
+          "1pbh79a"
+        ]
+      },
+      {
+        "phrase": "vindictive former boss",
+        "post_ids": [
+          "1sh2o6c"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T41",
+    "tension": "Employers dread the candidate or new hire whose toxic character \u2014 arrogant, dishonest, abusive, or culturally aggressive \u2014 outweighs their qualifications.",
+    "phrases": [
+      {
+        "phrase": "Amazon work culture unwanted",
+        "post_ids": [
+          "1omx86l"
+        ]
+      },
+      {
+        "phrase": "abusive job candidate",
+        "post_ids": [
+          "1sedxcc"
+        ]
+      },
+      {
+        "phrase": "candidate came off arrogant",
+        "post_ids": [
+          "1n2s22u"
+        ]
+      },
+      {
+        "phrase": "lying backstabbing new hire",
+        "post_ids": [
+          "1nihrir"
+        ]
+      },
+      {
+        "phrase": "rejected candidate harassment",
+        "post_ids": [
+          "1mi2cgu"
+        ]
+      },
+      {
+        "phrase": "toxic high performer",
+        "post_ids": [
+          "1slijiq"
+        ]
+      },
+      {
+        "phrase": "won't hire ex-Amazon",
+        "post_ids": [
+          "1omx86l"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T42",
+    "tension": "Employers deny employees the pay, leave, accommodations, and medical privacy the law entitles them to.",
+    "phrases": [
+      {
+        "phrase": "ADA interactive process",
+        "post_ids": [
+          "1njgtwo"
+        ]
+      },
+      {
+        "phrase": "ADA reasonable accommodation",
+        "post_ids": [
+          "1n0wf37"
+        ]
+      },
+      {
+        "phrase": "FMLA protection",
+        "post_ids": [
+          "1qfjv5y"
+        ]
+      },
+      {
+        "phrase": "employer respecting grief",
+        "post_ids": [
+          "1rvha36"
+        ]
+      },
+      {
+        "phrase": "mandatory blood drive participation",
+        "post_ids": [
+          "1mpbrm4"
+        ]
+      },
+      {
+        "phrase": "medical privacy violation",
+        "post_ids": [
+          "1mpbrm4"
+        ]
+      },
+      {
+        "phrase": "withholding pay illegal",
+        "post_ids": [
+          "1p4yhsb"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T43",
+    "tension": "Workers doubt whether six figures is actually reachable \u2014 especially without a degree \u2014 when help-desk pay rarely gets there and hitting 100k seems to require job-hopping.",
+    "phrases": [
+      {
+        "phrase": "100k the new 50k",
+        "post_ids": [
+          "1odeha1"
+        ]
+      },
+      {
+        "phrase": "100k without a degree",
+        "post_ids": [
+          "1n33ojb"
+        ]
+      },
+      {
+        "phrase": "IT six figures no bachelors",
+        "post_ids": [
+          "1n33ojb"
+        ]
+      },
+      {
+        "phrase": "ask for 100k",
+        "post_ids": [
+          "1odeha1"
+        ]
+      },
+      {
+        "phrase": "help desk rarely six figures",
+        "post_ids": [
+          "1qqdcbh"
+        ]
+      },
+      {
+        "phrase": "leaving for 90% raise",
+        "post_ids": [
+          "1oq74un"
+        ]
+      },
+      {
+        "phrase": "six figures help desk",
+        "post_ids": [
+          "1qqdcbh"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T44",
+    "tension": "Job seekers feel dehumanized because commission and KPI-driven recruiters treat them as targets and props rather than people, so empathy and accountability disappear.",
+    "phrases": [
+      {
+        "phrase": "empathy in HR",
+        "post_ids": [
+          "1oqvzo0"
+        ]
+      },
+      {
+        "phrase": "empathy in recruiting",
+        "post_ids": [
+          "1nlcxvf"
+        ]
+      },
+      {
+        "phrase": "job seekers as props",
+        "post_ids": [
+          "1qcxr5v"
+        ]
+      },
+      {
+        "phrase": "recruiter KPIs",
+        "post_ids": [
+          "1p90cy8"
+        ]
+      },
+      {
+        "phrase": "recruiter accountability",
+        "post_ids": [
+          "1o5w834"
+        ]
+      },
+      {
+        "phrase": "recruiter commission incentive",
+        "post_ids": [
+          "1pdar5o"
+        ]
+      },
+      {
+        "phrase": "recruiting is about people",
+        "post_ids": [
+          "1nxapg9"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T45",
+    "tension": "Workers are pressured to put in extra hours and labour that their pay never covers, so they're effectively working part of the time for free.",
+    "phrases": [
+      {
+        "phrase": "asked to work free",
+        "post_ids": [
+          "1oto36c"
+        ]
+      },
+      {
+        "phrase": "doubled workload low pay",
+        "post_ids": [
+          "1r0hbs3"
+        ]
+      },
+      {
+        "phrase": "stated vs actual hours",
+        "post_ids": [
+          "1rkldbw"
+        ]
+      },
+      {
+        "phrase": "underpaid for overwork",
+        "post_ids": [
+          "1pbh79a"
+        ]
+      },
+      {
+        "phrase": "unpaid extra work",
+        "post_ids": [
+          "1mbf6iu"
+        ]
+      },
+      {
+        "phrase": "unpaid free labour",
+        "post_ids": [
+          "1p8k684"
+        ]
+      },
+      {
+        "phrase": "unpaid overtime expectations",
+        "post_ids": [
+          "1pbh79a"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T46",
+    "tension": "Rejections arrive cold and impersonal \u2014 mass form emails, no real feedback, or a reply years too late \u2014 leaving candidates without closure or a reason.",
+    "phrases": [
+      {
+        "phrase": "kind rejection email",
+        "post_ids": [
+          "1qgf4p1"
+        ]
+      },
+      {
+        "phrase": "mass rejection emails",
+        "post_ids": [
+          "1rtxijj"
+        ]
+      },
+      {
+        "phrase": "personal rejection feedback",
+        "post_ids": [
+          "1qr7m2m"
+        ]
+      },
+      {
+        "phrase": "personalized rejection",
+        "post_ids": [
+          "1qgf4p1"
+        ]
+      },
+      {
+        "phrase": "vague rejection feedback",
+        "post_ids": [
+          "1ryo60i"
+        ]
+      },
+      {
+        "phrase": "vague rejection reasons",
+        "post_ids": [
+          "1n11xse"
+        ]
+      },
+      {
+        "phrase": "years-late application response",
+        "post_ids": [
+          "1syi8l7"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T47",
+    "tension": "Job seekers are frustrated that pay is kept hidden and taboo, wanting ranges disclosed upfront instead of having to pry them out.",
+    "phrases": [
+      {
+        "phrase": "asking about salary",
+        "post_ids": [
+          "1lv8vjn"
+        ]
+      },
+      {
+        "phrase": "pay transparency fallout",
+        "post_ids": [
+          "1m1zole"
+        ]
+      },
+      {
+        "phrase": "pay transparency legislation",
+        "post_ids": [
+          "1npli6y"
+        ]
+      },
+      {
+        "phrase": "salary range disclosure",
+        "post_ids": [
+          "1npli6y"
+        ]
+      },
+      {
+        "phrase": "salary ranges in postings",
+        "post_ids": [
+          "1s56uty"
+        ]
+      },
+      {
+        "phrase": "salary talk taboo",
+        "post_ids": [
+          "1lv8vjn"
+        ]
+      },
+      {
+        "phrase": "state salary upfront",
+        "post_ids": [
+          "1r1t85m"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T48",
+    "tension": "Developers are fed up that AI-assisted 'vibe coding' ships low-quality slop that breaks in production, deserving the mockery it gets.",
+    "phrases": [
+      {
+        "phrase": "blindly pasting AI output",
+        "post_ids": [
+          "1tkccsi"
+        ]
+      },
+      {
+        "phrase": "plausible-looking AI bugs",
+        "post_ids": [
+          "1towli9"
+        ]
+      },
+      {
+        "phrase": "vibe coders sling slop",
+        "post_ids": [
+          "1me6nps"
+        ]
+      },
+      {
+        "phrase": "vibe coding mockery",
+        "post_ids": [
+          "1mtzb36"
+        ]
+      },
+      {
+        "phrase": "vibe coding risks",
+        "post_ids": [
+          "1oex6aw"
+        ]
+      },
+      {
+        "phrase": "vibe-coded MVP breaks",
+        "post_ids": [
+          "1o29tge"
+        ]
+      },
+      {
+        "phrase": "vibe-coded code failures",
+        "post_ids": [
+          "1mg2r6y"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T49",
+    "tension": "Devs argue the coding is the easy part while the real, unautomatable difficulty (understanding requirements, solving the problem, writing clearly) is what goes unrewarded.",
+    "phrases": [
+      {
+        "phrase": "clarity beats cleverness",
+        "post_ids": [
+          "1pylg24"
+        ]
+      },
+      {
+        "phrase": "coding going away",
+        "post_ids": [
+          "1slp30t"
+        ]
+      },
+      {
+        "phrase": "coding isn't the hard part",
+        "post_ids": [
+          "1on84au"
+        ]
+      },
+      {
+        "phrase": "essential complexity of requirements",
+        "post_ids": [
+          "1on84au"
+        ]
+      },
+      {
+        "phrase": "experienced devs paid for rewrites",
+        "post_ids": [
+          "1me6nps"
+        ]
+      },
+      {
+        "phrase": "no silver bullet",
+        "post_ids": [
+          "1on84au"
+        ]
+      },
+      {
+        "phrase": "solving problems without code",
+        "post_ids": [
+          "1tqfcfj"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T50",
+    "tension": "Readers are frustrated that online communities are flooded with low-quality AI-generated posts that pose as genuine human writing, so they can't trust that any post is real.",
+    "phrases": [
+      {
+        "phrase": "AI bot post",
+        "post_ids": [
+          "1se1g7m"
+        ]
+      },
+      {
+        "phrase": "AI slop",
+        "post_ids": [
+          "1nbykth",
+          "1rnkv2t"
+        ]
+      },
+      {
+        "phrase": "AI-generated fake posts",
+        "post_ids": [
+          "1r6efr9"
+        ]
+      },
+      {
+        "phrase": "AI-generated spam post",
+        "post_ids": [
+          "1rm6jq3"
+        ]
+      },
+      {
+        "phrase": "AI-written post",
+        "post_ids": [
+          "1mrujpf"
+        ]
+      },
+      {
+        "phrase": "reads like AI slop",
+        "post_ids": [
+          "1ofji17"
+        ]
+      },
+      {
+        "phrase": "suspected fake post",
+        "post_ids": [
+          "1mtwz4c"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T51",
+    "tension": "Job seekers are actively defrauded by criminal scams disguised as recruitment \u2014 fake interviews, malware, and paid upsell traps.",
+    "phrases": [
+      {
+        "phrase": "fabricated offer letter",
+        "post_ids": [
+          "1pa3xz9"
+        ]
+      },
+      {
+        "phrase": "fake interview malware scam",
+        "post_ids": [
+          "1udujvg"
+        ]
+      },
+      {
+        "phrase": "fake interview scam",
+        "post_ids": [
+          "1sfuaro"
+        ]
+      },
+      {
+        "phrase": "fake job trap",
+        "post_ids": [
+          "1nek3kc"
+        ]
+      },
+      {
+        "phrase": "online guides are scams",
+        "post_ids": [
+          "1mc4kly"
+        ]
+      },
+      {
+        "phrase": "resume specialist upsell scam",
+        "post_ids": [
+          "1sfuaro"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T52",
+    "tension": "Workers are frustrated that startups demand toxic, grinding conditions while offering unstable jobs and equity that rarely pays off.",
+    "phrases": [
+      {
+        "phrase": "lost startup equity",
+        "post_ids": [
+          "1r7z763"
+        ]
+      },
+      {
+        "phrase": "startup grind culture",
+        "post_ids": [
+          "1o95zv3"
+        ]
+      },
+      {
+        "phrase": "startup offer risk",
+        "post_ids": [
+          "1mrjz3v"
+        ]
+      },
+      {
+        "phrase": "startup success after years",
+        "post_ids": [
+          "1q0flx5"
+        ]
+      },
+      {
+        "phrase": "tech industry toxic",
+        "post_ids": [
+          "1mcop22"
+        ]
+      },
+      {
+        "phrase": "toxic startup culture",
+        "post_ids": [
+          "1p4yhsb"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T53",
+    "tension": "People struggle to turn cold outreach into genuine professional relationships, so generic messages fail and only personalized, rapport-building contact lands.",
+    "phrases": [
+      {
+        "phrase": "LinkedIn DM cold outreach",
+        "post_ids": [
+          "1ta5a5o"
+        ]
+      },
+      {
+        "phrase": "coffee chat networking",
+        "post_ids": [
+          "1sm6a4c"
+        ]
+      },
+      {
+        "phrase": "context-based outreach works",
+        "post_ids": [
+          "1t07sz5"
+        ]
+      },
+      {
+        "phrase": "informational interview outreach",
+        "post_ids": [
+          "1sm6a4c"
+        ]
+      },
+      {
+        "phrase": "rapport building",
+        "post_ids": [
+          "1p90cy8"
+        ]
+      },
+      {
+        "phrase": "recruiter coffee invites",
+        "post_ids": [
+          "1p90cy8"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T54",
+    "tension": "Professionals are bombarded by unprofessional, impersonal recruiter outreach and want to shut it off.",
+    "phrases": [
+      {
+        "phrase": "don't add candidates on LinkedIn",
+        "post_ids": [
+          "1mi2cgu"
+        ]
+      },
+      {
+        "phrase": "hibernate LinkedIn profile",
+        "post_ids": [
+          "1ne318p"
+        ]
+      },
+      {
+        "phrase": "inbox saturation from recruiters",
+        "post_ids": [
+          "1r83w9l"
+        ]
+      },
+      {
+        "phrase": "recruiter got name wrong",
+        "post_ids": [
+          "1sbkgxi"
+        ]
+      },
+      {
+        "phrase": "recruiter spam",
+        "post_ids": [
+          "1rtxijj"
+        ]
+      },
+      {
+        "phrase": "unprofessional recruiter messages",
+        "post_ids": [
+          "1r0ezba"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T55",
+    "tension": "Remote video interviews turn awkward and unprofessional \u2014 interruptions, distractions, bad backgrounds, and on-the-spot mishaps.",
+    "phrases": [
+      {
+        "phrase": "accidentally sent interview recording",
+        "post_ids": [
+          "1sekapw"
+        ]
+      },
+      {
+        "phrase": "distracted during interview",
+        "post_ids": [
+          "1mhy26c"
+        ]
+      },
+      {
+        "phrase": "remote interview interruption",
+        "post_ids": [
+          "1mhy26c"
+        ]
+      },
+      {
+        "phrase": "spot on video call",
+        "post_ids": [
+          "1t3jwmw"
+        ]
+      },
+      {
+        "phrase": "unprofessional interview background",
+        "post_ids": [
+          "1n5ohbj"
+        ]
+      },
+      {
+        "phrase": "unprofessional zoom interviews",
+        "post_ids": [
+          "1q63i3f"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T56",
+    "tension": "Applicants find there are no real openings to apply to \u2014 roles are already filled, there's no headcount, and the 'talent shortage' is a myth.",
+    "phrases": [
+      {
+        "phrase": "no entry level jobs",
+        "post_ids": [
+          "1rfzdko"
+        ]
+      },
+      {
+        "phrase": "no entry-level roles",
+        "post_ids": [
+          "1lpe76e"
+        ]
+      },
+      {
+        "phrase": "no headcount",
+        "post_ids": [
+          "1mhnd12"
+        ]
+      },
+      {
+        "phrase": "no jobs available",
+        "post_ids": [
+          "1sd1mk9"
+        ]
+      },
+      {
+        "phrase": "no real talent shortage",
+        "post_ids": [
+          "1tgi34h"
+        ]
+      },
+      {
+        "phrase": "position already filled",
+        "post_ids": [
+          "1mkkvrb"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T57",
+    "tension": "Workers feel controlled and mistreated by their employer during the exit itself, from forced notice periods to loyalty going unrewarded and exit-interview rituals.",
+    "phrases": [
+      {
+        "phrase": "company loyalty punishment",
+        "post_ids": [
+          "1nek3kc"
+        ]
+      },
+      {
+        "phrase": "declining exit interview",
+        "post_ids": [
+          "1qm355q"
+        ]
+      },
+      {
+        "phrase": "escaping a toxic employer",
+        "post_ids": [
+          "1ovyd48"
+        ]
+      },
+      {
+        "phrase": "exit interview after termination",
+        "post_ids": [
+          "1qm355q"
+        ]
+      },
+      {
+        "phrase": "forced office notice period",
+        "post_ids": [
+          "1mknxjx"
+        ]
+      },
+      {
+        "phrase": "last day work expectations",
+        "post_ids": [
+          "1qazv96"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T58",
+    "tension": "Job-seekers are frustrated that formal credentials (degree, GPA, r\u00e9sum\u00e9, qualifications) count for far less than proof you can actually do the work.",
+    "phrases": [
+      {
+        "phrase": "GPA doesn't matter",
+        "post_ids": [
+          "1tgx4y4"
+        ]
+      },
+      {
+        "phrase": "hungry team over resume",
+        "post_ids": [
+          "1r9659a"
+        ]
+      },
+      {
+        "phrase": "networking not degree",
+        "post_ids": [
+          "1ostbi4"
+        ]
+      },
+      {
+        "phrase": "qualifications don't matter",
+        "post_ids": [
+          "1qzituj"
+        ]
+      },
+      {
+        "phrase": "side projects over degree",
+        "post_ids": [
+          "1m952bp"
+        ]
+      },
+      {
+        "phrase": "trades over college",
+        "post_ids": [
+          "1lrskmr"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T59",
+    "tension": "Workers are frustrated that being liked, visible, and well-presented gets rewarded more than doing the real work well.",
+    "phrases": [
+      {
+        "phrase": "clarity beats skills",
+        "post_ids": [
+          "1ofji17"
+        ]
+      },
+      {
+        "phrase": "likeability beats productivity",
+        "post_ids": [
+          "1mrujpf"
+        ]
+      },
+      {
+        "phrase": "only visibility gets rewarded",
+        "post_ids": [
+          "1sgcy1e"
+        ]
+      },
+      {
+        "phrase": "perceived performance UX",
+        "post_ids": [
+          "1se1g7m"
+        ]
+      },
+      {
+        "phrase": "relationships over skills",
+        "post_ids": [
+          "1qzituj"
+        ]
+      },
+      {
+        "phrase": "soft skills over technical",
+        "post_ids": [
+          "1mrujpf",
+          "1ssm4am"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T60",
+    "tension": "A company's best and most experienced people keep leaving, and the churn hollows out its mentorship and culture while the replacements can't match them.",
+    "phrases": [
+      {
+        "phrase": "engineering culture and attrition",
+        "post_ids": [
+          "1n5xc3s"
+        ]
+      },
+      {
+        "phrase": "high turnover red flag",
+        "post_ids": [
+          "1reulsd"
+        ]
+      },
+      {
+        "phrase": "losing mentorship",
+        "post_ids": [
+          "1pt4yxh"
+        ]
+      },
+      {
+        "phrase": "loyalty is dead",
+        "post_ids": [
+          "1m9fl4k"
+        ]
+      },
+      {
+        "phrase": "replacements underperform",
+        "post_ids": [
+          "1o7jwzg"
+        ]
+      },
+      {
+        "phrase": "top performers leave",
+        "post_ids": [
+          "1np3o82"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T61",
+    "tension": "Screening rewards the wrong signal (polished code output, ATS keywords, boolean matches) so genuinely capable people get filtered out while the screen misses real ability.",
+    "phrases": [
+      {
+        "phrase": "broken boolean search",
+        "post_ids": [
+          "1n50dxd"
+        ]
+      },
+      {
+        "phrase": "clean code never rewarded",
+        "post_ids": [
+          "1sgcy1e"
+        ]
+      },
+      {
+        "phrase": "devs are dime-a-dozen",
+        "post_ids": [
+          "1u81t0h"
+        ]
+      },
+      {
+        "phrase": "execs fixate on code output",
+        "post_ids": [
+          "1r6olcv"
+        ]
+      },
+      {
+        "phrase": "outdated ATS can't read",
+        "post_ids": [
+          "1pc53zq"
+        ]
+      },
+      {
+        "phrase": "self-taught filtered out",
+        "post_ids": [
+          "1qzk4sj"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T62",
+    "tension": "AI makes coding look faster than it really is but produces buggy, insecure code that engineers must review and fix under rising expectations.",
+    "phrases": [
+      {
+        "phrase": "AI code vulnerabilities",
+        "post_ids": [
+          "1o29tge"
+        ]
+      },
+      {
+        "phrase": "AI coding productivity myth",
+        "post_ids": [
+          "1rnkv2t"
+        ]
+      },
+      {
+        "phrase": "AI perceived vs actual speed",
+        "post_ids": [
+          "1lwk503"
+        ]
+      },
+      {
+        "phrase": "AI raising expectations",
+        "post_ids": [
+          "1r89vhp"
+        ]
+      },
+      {
+        "phrase": "AI-generated code security flaws",
+        "post_ids": [
+          "1mg2r6y"
+        ]
+      },
+      {
+        "phrase": "reviewing AI-generated PRs",
+        "post_ids": [
+          "1towli9"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T63",
+    "tension": "People resent that management ceremony \u2014 standups, stakeholder updates, productivity metrics \u2014 becomes overhead and status-theater instead of reflecting real work done.",
+    "phrases": [
+      {
+        "phrase": "manage by deliverables",
+        "post_ids": [
+          "1sfxnau"
+        ]
+      },
+      {
+        "phrase": "management overhead",
+        "post_ids": [
+          "1mha63e"
+        ]
+      },
+      {
+        "phrase": "managing stakeholders",
+        "post_ids": [
+          "1tqfcfj"
+        ]
+      },
+      {
+        "phrase": "measuring productivity",
+        "post_ids": [
+          "1mi8vnz"
+        ]
+      },
+      {
+        "phrase": "standups as status reports",
+        "post_ids": [
+          "1nbfh94"
+        ]
+      },
+      {
+        "phrase": "systems and processes",
+        "post_ids": [
+          "1r9x049"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T64",
+    "tension": "Service providers keep getting stiffed or walked over by clients, so they feel forced to defensively lock everything down before doing the work.",
+    "phrases": [
+      {
+        "phrase": "address issues as they arise",
+        "post_ids": [
+          "1tn7d00"
+        ]
+      },
+      {
+        "phrase": "ask pay upfront",
+        "post_ids": [
+          "1lv8vjn"
+        ]
+      },
+      {
+        "phrase": "document everything",
+        "post_ids": [
+          "1nihrir"
+        ]
+      },
+      {
+        "phrase": "get everything in writing",
+        "post_ids": [
+          "1mknxjx"
+        ]
+      },
+      {
+        "phrase": "set and enforce boundaries",
+        "post_ids": [
+          "1o8zqpq"
+        ]
+      },
+      {
+        "phrase": "vet clients first",
+        "post_ids": [
+          "1p17d8b"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T65",
+    "tension": "People resent that polishing their communication into professional corporate-speak (often via AI) makes them sound fake and inhuman instead of authentically themselves.",
+    "phrases": [
+      {
+        "phrase": "AI to soften tone",
+        "post_ids": [
+          "1qei6om"
+        ]
+      },
+      {
+        "phrase": "AI-polished elevator pitches",
+        "post_ids": [
+          "1q63i3f"
+        ]
+      },
+      {
+        "phrase": "corporate word salad",
+        "post_ids": [
+          "1o1b9ak"
+        ]
+      },
+      {
+        "phrase": "corporate-speak translation",
+        "post_ids": [
+          "1qei6om"
+        ]
+      },
+      {
+        "phrase": "rebranded true to self",
+        "post_ids": [
+          "1o3qimp"
+        ]
+      },
+      {
+        "phrase": "sounding professional vs human",
+        "post_ids": [
+          "1o1b9ak"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T66",
+    "tension": "Employees are frustrated that staying and performing well earns no raise, so the only way to get paid more is to threaten to quit or actually leave.",
+    "phrases": [
+      {
+        "phrase": "no fair payoff",
+        "post_ids": [
+          "1mo2ki0"
+        ]
+      },
+      {
+        "phrase": "no raise promotion",
+        "post_ids": [
+          "1pig7u1"
+        ]
+      },
+      {
+        "phrase": "raise used to quit",
+        "post_ids": [
+          "1mdcgh3"
+        ]
+      },
+      {
+        "phrase": "willing to walk",
+        "post_ids": [
+          "1n95sty"
+        ]
+      },
+      {
+        "phrase": "won't negotiate within range",
+        "post_ids": [
+          "1o6hb0e"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T67",
+    "tension": "Job seekers waste effort on listings that aren't genuine hires because recruiters and companies post fake, ghost, or misrepresented jobs.",
+    "phrases": [
+      {
+        "phrase": "dishonest recruiters",
+        "post_ids": [
+          "1t606n3"
+        ]
+      },
+      {
+        "phrase": "fake entry level jobs",
+        "post_ids": [
+          "1rsl4uv"
+        ]
+      },
+      {
+        "phrase": "fake job postings",
+        "post_ids": [
+          "1muz9kp",
+          "1o9erjz",
+          "1udujvg"
+        ]
+      },
+      {
+        "phrase": "ghost job postings",
+        "post_ids": [
+          "1swj9jd"
+        ]
+      },
+      {
+        "phrase": "lying job postings",
+        "post_ids": [
+          "1r13b1k"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T68",
+    "tension": "Workers can only win real pay raises by switching jobs, yet employers stigmatize that and demand a steady, loyal work history.",
+    "phrases": [
+      {
+        "phrase": "doubled salary job hopping",
+        "post_ids": [
+          "1m9fl4k"
+        ]
+      },
+      {
+        "phrase": "job hopping for pay",
+        "post_ids": [
+          "1mj3ihg"
+        ]
+      },
+      {
+        "phrase": "job hopping seen negatively",
+        "post_ids": [
+          "1m9fl4k"
+        ]
+      },
+      {
+        "phrase": "steady work history demand",
+        "post_ids": [
+          "1u7u3o6"
+        ]
+      },
+      {
+        "phrase": "tripling salary switching jobs",
+        "post_ids": [
+          "1qqd37p"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T69",
+    "tension": "Employees resent bosses who police attendance and presence and take boundaries personally instead of trusting them to just do the work.",
+    "phrases": [
+      {
+        "phrase": "boss forcing attendance",
+        "post_ids": [
+          "1poemw0"
+        ]
+      },
+      {
+        "phrase": "don't micromanage Gen Z",
+        "post_ids": [
+          "1mddh04"
+        ]
+      },
+      {
+        "phrase": "managers offended by boundaries",
+        "post_ids": [
+          "1mbf6iu"
+        ]
+      },
+      {
+        "phrase": "policing others' attendance",
+        "post_ids": [
+          "1n7eahh"
+        ]
+      },
+      {
+        "phrase": "standup micromanagement",
+        "post_ids": [
+          "1nbfh94"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T70",
+    "tension": "Job seekers pour money and time into certifications to get hired and doubt whether the credentials actually pay off.",
+    "phrases": [
+      {
+        "phrase": "CompTIA trifecta success",
+        "post_ids": [
+          "1nd3ija"
+        ]
+      },
+      {
+        "phrase": "certification ROI",
+        "post_ids": [
+          "1tlnxwa"
+        ]
+      },
+      {
+        "phrase": "certs to get hired",
+        "post_ids": [
+          "1mbz88x"
+        ]
+      },
+      {
+        "phrase": "passed SPHR fast",
+        "post_ids": [
+          "1tpfie6"
+        ]
+      },
+      {
+        "phrase": "stop getting SHRM certs",
+        "post_ids": [
+          "1pfc8cw"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T71",
+    "tension": "The offer stage turns adversarial \u2014 a lowball, a counter, arrogance, or a stall blows up the deal and someone walks.",
+    "phrases": [
+      {
+        "phrase": "arrogance loses offers",
+        "post_ids": [
+          "1ssm4am"
+        ]
+      },
+      {
+        "phrase": "countering the offer backfired",
+        "post_ids": [
+          "1n8g50s"
+        ]
+      },
+      {
+        "phrase": "hostile reaction to counteroffer",
+        "post_ids": [
+          "1rv81ia"
+        ]
+      },
+      {
+        "phrase": "lowball offer lost candidate",
+        "post_ids": [
+          "1o6hb0e"
+        ]
+      },
+      {
+        "phrase": "offer promised then delayed",
+        "post_ids": [
+          "1nq7ns4"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T72",
+    "tension": "Managers find that real leadership rests on hard-won trust, and carrying that trust is its own weight.",
+    "phrases": [
+      {
+        "phrase": "building trust as manager",
+        "post_ids": [
+          "1meqxc2"
+        ]
+      },
+      {
+        "phrase": "clear expectations build trust",
+        "post_ids": [
+          "1mddh04"
+        ]
+      },
+      {
+        "phrase": "real names built trust",
+        "post_ids": [
+          "1lq1axg"
+        ]
+      },
+      {
+        "phrase": "trust enables real leadership",
+        "post_ids": [
+          "1meqxc2"
+        ]
+      },
+      {
+        "phrase": "weight of being trusted",
+        "post_ids": [
+          "1meqxc2"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T73",
+    "tension": "Speaking uncomfortable truths \u2014 blunt feedback, unspoken concerns, owning your own mistakes \u2014 is valued yet risky and hard to sit with.",
+    "phrases": [
+      {
+        "phrase": "honest feedback valued",
+        "post_ids": [
+          "1qr7m2m"
+        ]
+      },
+      {
+        "phrase": "honest ownership of mistakes",
+        "post_ids": [
+          "1r2q6ni"
+        ]
+      },
+      {
+        "phrase": "sitting with discomfort",
+        "post_ids": [
+          "1rvkcwo"
+        ]
+      },
+      {
+        "phrase": "surfacing unspoken concerns",
+        "post_ids": [
+          "1rvnpnf"
+        ]
+      },
+      {
+        "phrase": "too direct communication",
+        "post_ids": [
+          "1qei6om"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T74",
+    "tension": "People wrestle with trusting their own gut and taking career risks instead of waiting for permission or outside validation.",
+    "phrases": [
+      {
+        "phrase": "ask forgiveness not permission",
+        "post_ids": [
+          "1t47ng7"
+        ]
+      },
+      {
+        "phrase": "believe your work has value",
+        "post_ids": [
+          "1o3qimp"
+        ]
+      },
+      {
+        "phrase": "take career risks",
+        "post_ids": [
+          "1mj3ihg"
+        ]
+      },
+      {
+        "phrase": "trust your gut feeling",
+        "post_ids": [
+          "1pq5gaz"
+        ]
+      },
+      {
+        "phrase": "trusting your gut",
+        "post_ids": [
+          "1qfdosp"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T75",
+    "tension": "Candidates resent that interviews force them to put on a fake performance \u2014 a costume, a script, an act \u2014 instead of being an honest exchange.",
+    "phrases": [
+      {
+        "phrase": "costume for interview",
+        "post_ids": [
+          "1u6i4gf"
+        ]
+      },
+      {
+        "phrase": "interview humiliation ritual",
+        "post_ids": [
+          "1u6i4gf"
+        ]
+      },
+      {
+        "phrase": "interview is theater",
+        "post_ids": [
+          "1oqvlzf"
+        ]
+      },
+      {
+        "phrase": "interviews are humiliation ritual",
+        "post_ids": [
+          "1ub3scn"
+        ]
+      },
+      {
+        "phrase": "lying in interviews",
+        "post_ids": [
+          "1r74273"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T76",
+    "tension": "Job-seekers earned the certs and degrees they were told to get, but still can't land a job or a decent salary.",
+    "phrases": [
+      {
+        "phrase": "Network+ is worthless",
+        "post_ids": [
+          "1tlnxwa"
+        ]
+      },
+      {
+        "phrase": "certs and degree low pay",
+        "post_ids": [
+          "1lvb6ea"
+        ]
+      },
+      {
+        "phrase": "certs but no job",
+        "post_ids": [
+          "1rfzdko"
+        ]
+      },
+      {
+        "phrase": "no one checks GPA",
+        "post_ids": [
+          "1t47ng7"
+        ]
+      },
+      {
+        "phrase": "no shortcut to six figures",
+        "post_ids": [
+          "1ma04es"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T77",
+    "tension": "Departing workers worry they will be cheated out of the pay and benefits they are owed when they leave a job.",
+    "phrases": [
+      {
+        "phrase": "PTO clawback after termination",
+        "post_ids": [
+          "1s3xvix"
+        ]
+      },
+      {
+        "phrase": "W-2 questions dread",
+        "post_ids": [
+          "1q3g8zb"
+        ]
+      },
+      {
+        "phrase": "accrued vacation payout",
+        "post_ids": [
+          "1o6ib5n"
+        ]
+      },
+      {
+        "phrase": "file for unemployment",
+        "post_ids": [
+          "1mc1byh"
+        ]
+      },
+      {
+        "phrase": "sue for lost wages",
+        "post_ids": [
+          "1sfawfb"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T78",
+    "tension": "A business is trapped by dependence on one dominant customer or single market that can dictate bad payment terms because losing them would be devastating.",
+    "phrases": [
+      {
+        "phrase": "big customer bad terms",
+        "post_ids": [
+          "1mk3we6"
+        ]
+      },
+      {
+        "phrase": "client is half revenue",
+        "post_ids": [
+          "1o8zqpq"
+        ]
+      },
+      {
+        "phrase": "net 60 terms",
+        "post_ids": [
+          "1mk3we6"
+        ]
+      },
+      {
+        "phrase": "payment schedule leverage",
+        "post_ids": [
+          "1rfbz1t"
+        ]
+      },
+      {
+        "phrase": "single-market dependence",
+        "post_ids": [
+          "1mywp7p"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T79",
+    "tension": "Both recruiters and candidates have automated outreach and applications with AI, so hiring has decayed into bots messaging and answering bots and flooding everyone's inboxes.",
+    "phrases": [
+      {
+        "phrase": "AI bots auto-applying",
+        "post_ids": [
+          "1meq3lv"
+        ]
+      },
+      {
+        "phrase": "AI interviewing AI",
+        "post_ids": [
+          "1o2kjdo"
+        ]
+      },
+      {
+        "phrase": "AI outreach flooding inboxes",
+        "post_ids": [
+          "1r83w9l"
+        ]
+      },
+      {
+        "phrase": "AI-generated recruiter messages",
+        "post_ids": [
+          "1ta5a5o"
+        ]
+      },
+      {
+        "phrase": "recruiters started AI first",
+        "post_ids": [
+          "1oec07f"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T80",
+    "tension": "Managers and HR are frustrated by having to document and handle complaints exactly right \u2014 confidential, in writing, independently investigated \u2014 to avoid retaliation and liability.",
+    "phrases": [
+      {
+        "phrase": "complaint in writing",
+        "post_ids": [
+          "1me3laj"
+        ]
+      },
+      {
+        "phrase": "keeping complainants confidential",
+        "post_ids": [
+          "1noofdl"
+        ]
+      },
+      {
+        "phrase": "preventing retaliation",
+        "post_ids": [
+          "1rbmab1"
+        ]
+      },
+      {
+        "phrase": "third-party investigation",
+        "post_ids": [
+          "1m2dpgy"
+        ]
+      },
+      {
+        "phrase": "written warnings paper trail",
+        "post_ids": [
+          "1tn7d00"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T81",
+    "tension": "People can't trust reviews and compliance reports because they're routinely bought, faked, or suppressed.",
+    "phrases": [
+      {
+        "phrase": "SOC 2 fraud",
+        "post_ids": [
+          "1rz15ui"
+        ]
+      },
+      {
+        "phrase": "buying Google reviews",
+        "post_ids": [
+          "1okn7vb"
+        ]
+      },
+      {
+        "phrase": "companies suppressing negative reviews",
+        "post_ids": [
+          "1ot2azu"
+        ]
+      },
+      {
+        "phrase": "fake compliance reports",
+        "post_ids": [
+          "1rz15ui"
+        ]
+      },
+      {
+        "phrase": "prevent fake reports",
+        "post_ids": [
+          "1oo6ml7"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T82",
+    "tension": "Engineers are frustrated that getting recognized and promoted requires actively self-marketing (brag docs, visibility tactics, emailing execs) rather than the work speaking for itself.",
+    "phrases": [
+      {
+        "phrase": "brag doc",
+        "post_ids": [
+          "1pwfx9l"
+        ]
+      },
+      {
+        "phrase": "brag document habit",
+        "post_ids": [
+          "1n7zuba"
+        ]
+      },
+      {
+        "phrase": "emailed the exec team",
+        "post_ids": [
+          "1mi2cgu"
+        ]
+      },
+      {
+        "phrase": "engineer visibility tactics",
+        "post_ids": [
+          "1pwfx9l"
+        ]
+      },
+      {
+        "phrase": "self-marketing gaming promotions",
+        "post_ids": [
+          "1n7zuba"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T83",
+    "tension": "Job candidates get asked intrusive, legally off-limits personal questions during interviews.",
+    "phrases": [
+      {
+        "phrase": "candidate asked if pregnant",
+        "post_ids": [
+          "1s7tjj2"
+        ]
+      },
+      {
+        "phrase": "illegal interview questions",
+        "post_ids": [
+          "1mxgbxi",
+          "1nlcxvf"
+        ]
+      },
+      {
+        "phrase": "intrusive interview questions",
+        "post_ids": [
+          "1tft2mv"
+        ]
+      },
+      {
+        "phrase": "never appropriate question",
+        "post_ids": [
+          "1s7tjj2"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T84",
+    "tension": "Recruiters waste time screening a flood of mismatched applicants (unqualified juniors and overqualified candidates) who don't fit the role.",
+    "phrases": [
+      {
+        "phrase": "flooded junior applications",
+        "post_ids": [
+          "1rh0kou"
+        ]
+      },
+      {
+        "phrase": "junior candidates interview poorly",
+        "post_ids": [
+          "1q63i3f"
+        ]
+      },
+      {
+        "phrase": "overqualified screening",
+        "post_ids": [
+          "1s9ikc5"
+        ]
+      },
+      {
+        "phrase": "wasting time screening",
+        "post_ids": [
+          "1r1t85m"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T85",
+    "tension": "Even people who have work face income that is unstable and never enough, forcing second jobs or leaving them anxious and stuck in low pay.",
+    "phrases": [
+      {
+        "phrase": "income anxiety never settles",
+        "post_ids": [
+          "1oez2al"
+        ]
+      },
+      {
+        "phrase": "second full-time job",
+        "post_ids": [
+          "1nq97gf"
+        ]
+      },
+      {
+        "phrase": "stuck minimum wage jobs",
+        "post_ids": [
+          "1tk2gm4"
+        ]
+      },
+      {
+        "phrase": "unpredictable self-employed income",
+        "post_ids": [
+          "1oez2al"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T86",
+    "tension": "Interviews lean on canned questions and surface rituals instead of a real, performance-based conversation that reveals the actual candidate.",
+    "phrases": [
+      {
+        "phrase": "interview dress code",
+        "post_ids": [
+          "1n2s22u"
+        ]
+      },
+      {
+        "phrase": "performance based conversation",
+        "post_ids": [
+          "1ohipo8"
+        ]
+      },
+      {
+        "phrase": "tell me about yourself",
+        "post_ids": [
+          "1t2w2ql"
+        ]
+      },
+      {
+        "phrase": "why do you want job",
+        "post_ids": [
+          "1rqxb54"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T87",
+    "tension": "Disillusioned workers are pulling back and doing the bare minimum, quietly disengaging and showing up only for the paycheck.",
+    "phrases": [
+      {
+        "phrase": "declining overtime",
+        "post_ids": [
+          "1mbf6iu"
+        ]
+      },
+      {
+        "phrase": "disengaged for a paycheck",
+        "post_ids": [
+          "1mrfgm2"
+        ]
+      },
+      {
+        "phrase": "no one wants to work",
+        "post_ids": [
+          "1rsl4uv"
+        ]
+      },
+      {
+        "phrase": "silent quiet quitting",
+        "post_ids": [
+          "1mo2ki0"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T88",
+    "tension": "Workers are frustrated by managers who don't actually manage \u2014 glorified babysitters padding their stats and sitting above their competence while adding no value.",
+    "phrases": [
+      {
+        "phrase": "above her paygrade",
+        "post_ids": [
+          "1oe522u"
+        ]
+      },
+      {
+        "phrase": "boss padding manager stats",
+        "post_ids": [
+          "1mpbrm4"
+        ]
+      },
+      {
+        "phrase": "glorified babysitters",
+        "post_ids": [
+          "1lofy1t"
+        ]
+      },
+      {
+        "phrase": "managers who don't manage",
+        "post_ids": [
+          "1mhnd12"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T89",
+    "tension": "Deserving employees are denied the promotion or recognition they were owed.",
+    "phrases": [
+      {
+        "phrase": "blocked promotion promise",
+        "post_ids": [
+          "1np3o82"
+        ]
+      },
+      {
+        "phrase": "passed over for promotion",
+        "post_ids": [
+          "1ra7mwd"
+        ]
+      },
+      {
+        "phrase": "promotion denied over benefits",
+        "post_ids": [
+          "1ohipo8"
+        ]
+      },
+      {
+        "phrase": "refused recognition award",
+        "post_ids": [
+          "1qiwdqa"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T90",
+    "tension": "The candidate is the one who says no \u2014 declining or withdrawing from an employer they no longer want.",
+    "phrases": [
+      {
+        "phrase": "declined the offer",
+        "post_ids": [
+          "1nt8eko"
+        ]
+      },
+      {
+        "phrase": "declining an accepted offer",
+        "post_ids": [
+          "1pdar5o"
+        ]
+      },
+      {
+        "phrase": "rejecting the company",
+        "post_ids": [
+          "1n1sfym"
+        ]
+      },
+      {
+        "phrase": "withdrew after interview",
+        "post_ids": [
+          "1no2id4"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T91",
+    "tension": "Candidates resent being kept as a fallback \u2014 a second choice or backup held in reserve while the employer really wants someone else, often an internal hire.",
+    "phrases": [
+      {
+        "phrase": "always have backup candidate",
+        "post_ids": [
+          "1sk3urh"
+        ]
+      },
+      {
+        "phrase": "kept as backup candidate",
+        "post_ids": [
+          "1psasvo"
+        ]
+      },
+      {
+        "phrase": "lose to internal candidate",
+        "post_ids": [
+          "1tqtaub"
+        ]
+      },
+      {
+        "phrase": "second choice candidate",
+        "post_ids": [
+          "1lzrd8r"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T92",
+    "tension": "Employers lose candidates who take themselves out of the running \u2014 dropping out, pricing themselves out, or self-sabotaging \u2014 instead of being actively chosen or rejected.",
+    "phrases": [
+      {
+        "phrase": "candidates drop out",
+        "post_ids": [
+          "1m6gk8x"
+        ]
+      },
+      {
+        "phrase": "candidates priced out",
+        "post_ids": [
+          "1s56uty"
+        ]
+      },
+      {
+        "phrase": "letting candidates self-sabotage",
+        "post_ids": [
+          "1n2s22u"
+        ]
+      },
+      {
+        "phrase": "self-selected out",
+        "post_ids": [
+          "1sedxcc"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T93",
+    "tension": "Job seekers are unsure which personal details actually help versus hurt and should be left off a resume.",
+    "phrases": [
+      {
+        "phrase": "leave GPA off resume",
+        "post_ids": [
+          "1tgx4y4"
+        ]
+      },
+      {
+        "phrase": "leave address off resume",
+        "post_ids": [
+          "1m495n7"
+        ]
+      },
+      {
+        "phrase": "photos on resumes",
+        "post_ids": [
+          "1pc4i3t"
+        ]
+      },
+      {
+        "phrase": "weird resume interests",
+        "post_ids": [
+          "1qqb9kh"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T94",
+    "tension": "The lone HR practitioner is stretched across an entire company's HR function alone and burning out under it.",
+    "phrases": [
+      {
+        "phrase": "HR burnout",
+        "post_ids": [
+          "1rean2l"
+        ]
+      },
+      {
+        "phrase": "HR department of one",
+        "post_ids": [
+          "1rean2l"
+        ]
+      },
+      {
+        "phrase": "one-person HR department",
+        "post_ids": [
+          "1ndxmta"
+        ]
+      },
+      {
+        "phrase": "small startup with HR",
+        "post_ids": [
+          "1tcvmhu"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T95",
+    "tension": "Support staff are frustrated that users won't use the self-service tools and instead flood them with trivial requests they could handle themselves.",
+    "phrases": [
+      {
+        "phrase": "ignoring self-service portal",
+        "post_ids": [
+          "1qc5srv"
+        ]
+      },
+      {
+        "phrase": "password reset overload",
+        "post_ids": [
+          "1psmdby"
+        ]
+      },
+      {
+        "phrase": "users won't self-serve",
+        "post_ids": [
+          "1psmdby"
+        ]
+      },
+      {
+        "phrase": "what have you tried",
+        "post_ids": [
+          "1p6gglk"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T96",
+    "tension": "Skilled engineers are worn down by constant interrupt-driven low-level ticket work and wish for help to offload the grind.",
+    "phrases": [
+      {
+        "phrase": "AI handles small tickets",
+        "post_ids": [
+          "1m1uw9v"
+        ]
+      },
+      {
+        "phrase": "interrupt-driven ticket work",
+        "post_ids": [
+          "1snww7w"
+        ]
+      },
+      {
+        "phrase": "senior engineers clearing tickets",
+        "post_ids": [
+          "1snww7w"
+        ]
+      },
+      {
+        "phrase": "wish for an assistant",
+        "post_ids": [
+          "1rean2l"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T97",
+    "tension": "The team depends on one person who holds all the knowledge with no documentation or trained backup, turning them into a bottleneck.",
+    "phrases": [
+      {
+        "phrase": "coworker can't troubleshoot",
+        "post_ids": [
+          "1p6gglk"
+        ]
+      },
+      {
+        "phrase": "need backup cross-training",
+        "post_ids": [
+          "1qqfgk4"
+        ]
+      },
+      {
+        "phrase": "owner is the bottleneck",
+        "post_ids": [
+          "1r9x049"
+        ]
+      },
+      {
+        "phrase": "undocumented processes",
+        "post_ids": [
+          "1r9x049"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T98",
+    "tension": "AI is overhyped and doesn't deliver the promised productivity gains, so people feel the hype is dying and the money poured in was misallocated.",
+    "phrases": [
+      {
+        "phrase": "AI bubble misallocation",
+        "post_ids": [
+          "1s8qy30"
+        ]
+      },
+      {
+        "phrase": "AI diminishing returns",
+        "post_ids": [
+          "1mk8zj6"
+        ]
+      },
+      {
+        "phrase": "AI hype dying",
+        "post_ids": [
+          "1mvid8s"
+        ]
+      },
+      {
+        "phrase": "AI productivity myth",
+        "post_ids": [
+          "1r6olcv"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T99",
+    "tension": "AI generates low-quality 'slop' that experienced people are forced to clean up, which slows them down and degrades the software instead of improving it.",
+    "phrases": [
+      {
+        "phrase": "AI slop cleanup",
+        "post_ids": [
+          "1mg2r6y"
+        ]
+      },
+      {
+        "phrase": "AI slows experienced devs",
+        "post_ids": [
+          "1lwk503"
+        ]
+      },
+      {
+        "phrase": "enshittification of software",
+        "post_ids": [
+          "1tysnmi"
+        ]
+      },
+      {
+        "phrase": "fixing broken AI code",
+        "post_ids": [
+          "1o29tge"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T100",
+    "tension": "A product's quality steadily declines until users abandon it.",
+    "phrases": [
+      {
+        "phrase": "cluttered UX drove users away",
+        "post_ids": [
+          "1lq1axg"
+        ]
+      },
+      {
+        "phrase": "declining software quality",
+        "post_ids": [
+          "1tysnmi"
+        ]
+      },
+      {
+        "phrase": "giving up on quality",
+        "post_ids": [
+          "1sgcy1e"
+        ]
+      },
+      {
+        "phrase": "poorly built product",
+        "post_ids": [
+          "1mtzb36"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T101",
+    "tension": "The person doing the firing loses control of it \u2014 freezing up, getting lawyered up, having the fallout reach the employee's family, or realizing too late who they let go.",
+    "phrases": [
+      {
+        "phrase": "employee brought a lawyer",
+        "post_ids": [
+          "1slf670"
+        ]
+      },
+      {
+        "phrase": "fired employee's wife emailed",
+        "post_ids": [
+          "1u0ub56"
+        ]
+      },
+      {
+        "phrase": "fired someone secretly important",
+        "post_ids": [
+          "1o7jwzg"
+        ]
+      },
+      {
+        "phrase": "froze in disciplinary meeting",
+        "post_ids": [
+          "1slf670"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T102",
+    "tension": "The AI job market has become a frenzy of inflated pay, talent poaching, and AI-first listings that many suspect is a bubble.",
+    "phrases": [
+      {
+        "phrase": "AI hiring bubble",
+        "post_ids": [
+          "1n6nk56"
+        ]
+      },
+      {
+        "phrase": "AI-first job listings",
+        "post_ids": [
+          "1me6nps"
+        ]
+      },
+      {
+        "phrase": "AI/ML pay leap",
+        "post_ids": [
+          "1u2eac7"
+        ]
+      },
+      {
+        "phrase": "Meta poaching AI talent",
+        "post_ids": [
+          "1lsktlz"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T103",
+    "tension": "Developers feel pressured to build side projects and portfolios on their own time just to prove they're worth hiring.",
+    "phrases": [
+      {
+        "phrase": "built project for jobs",
+        "post_ids": [
+          "1oeua90"
+        ]
+      },
+      {
+        "phrase": "html css project",
+        "post_ids": [
+          "1sd1mk9"
+        ]
+      },
+      {
+        "phrase": "personal coding side project",
+        "post_ids": [
+          "1m952bp"
+        ]
+      },
+      {
+        "phrase": "quirky portfolio side project",
+        "post_ids": [
+          "1nw0yj9"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T104",
+    "tension": "Skilled professionals struggle to turn their existing experience into an independent income stream of clients, products, or an audience.",
+    "phrases": [
+      {
+        "phrase": "build in public",
+        "post_ids": [
+          "1nwkp7n"
+        ]
+      },
+      {
+        "phrase": "finding business ideas",
+        "post_ids": [
+          "1sivput"
+        ]
+      },
+      {
+        "phrase": "landing foreign clients",
+        "post_ids": [
+          "1q3g7to"
+        ]
+      },
+      {
+        "phrase": "monetizing my experience",
+        "post_ids": [
+          "1mc4kly"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T105",
+    "tension": "Startup founders are frustrated that the H-1B visa fee hike makes hiring foreign talent unaffordable and threatens small companies' survival.",
+    "phrases": [
+      {
+        "phrase": "H-1B visa fee",
+        "post_ids": [
+          "1nlffj7"
+        ]
+      },
+      {
+        "phrase": "H1-B fee hike",
+        "post_ids": [
+          "1nln213"
+        ]
+      },
+      {
+        "phrase": "H1B fee kills startups",
+        "post_ids": [
+          "1nlnu7z"
+        ]
+      },
+      {
+        "phrase": "startups don't use H1B",
+        "post_ids": [
+          "1nlnu7z"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T106",
+    "tension": "Solo operators and small businesses are anxious about personal legal exposure and scramble to shield themselves before a lawsuit hits.",
+    "phrases": [
+      {
+        "phrase": "form an LLC",
+        "post_ids": [
+          "1m0dipl"
+        ]
+      },
+      {
+        "phrase": "lawsuit liability fears",
+        "post_ids": [
+          "1n0wf37"
+        ]
+      },
+      {
+        "phrase": "legal liability risk",
+        "post_ids": [
+          "1nxxj9a"
+        ]
+      },
+      {
+        "phrase": "solo needs liability insurance",
+        "post_ids": [
+          "1m0dipl"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T107",
+    "tension": "People are terrified of wiping themselves out financially by going all-in on a venture instead of keeping a buffer and proving real income first.",
+    "phrases": [
+      {
+        "phrase": "bet all savings",
+        "post_ids": [
+          "1sczfjo"
+        ]
+      },
+      {
+        "phrase": "build a cash cushion",
+        "post_ids": [
+          "1oez2al"
+        ]
+      },
+      {
+        "phrase": "get into trades",
+        "post_ids": [
+          "1tk2gm4"
+        ]
+      },
+      {
+        "phrase": "start with revenue",
+        "post_ids": [
+          "1mn2g0a"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T108",
+    "tension": "Citizens have no way to see where public/road contract money goes, so corrupt contractors escape accountability.",
+    "phrases": [
+      {
+        "phrase": "contractor corruption danger",
+        "post_ids": [
+          "1p06g8t"
+        ]
+      },
+      {
+        "phrase": "government accountability tool",
+        "post_ids": [
+          "1oft1b5"
+        ]
+      },
+      {
+        "phrase": "public contractor transparency",
+        "post_ids": [
+          "1oft1b5"
+        ]
+      },
+      {
+        "phrase": "road contract transparency app",
+        "post_ids": [
+          "1p06g8t"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T109",
+    "tension": "Older workers are frustrated that their resume betrays their age and gets them screened out before anyone looks at their skill.",
+    "phrases": [
+      {
+        "phrase": "resume signals age",
+        "post_ids": [
+          "1s48g1j"
+        ]
+      },
+      {
+        "phrase": "show level not history",
+        "post_ids": [
+          "1p6f8zb"
+        ]
+      },
+      {
+        "phrase": "thrown out after 40",
+        "post_ids": [
+          "1nv4vkb"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T110",
+    "tension": "Workers are frustrated that their role is being eliminated (handed to AI or a pod) even though their performance is still fine.",
+    "phrases": [
+      {
+        "phrase": "not needed for SWE",
+        "post_ids": [
+          "1mwf5cc"
+        ]
+      },
+      {
+        "phrase": "performance still good",
+        "post_ids": [
+          "1nq97gf"
+        ]
+      },
+      {
+        "phrase": "replaced by AI pod",
+        "post_ids": [
+          "1lzl3hx"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T111",
+    "tension": "Remaining employees are frustrated that departed roles aren't backfilled, so the extra work just gets dumped onto them.",
+    "phrases": [
+      {
+        "phrase": "no IC work removed",
+        "post_ids": [
+          "1mhnd12"
+        ]
+      },
+      {
+        "phrase": "not replaced",
+        "post_ids": [
+          "1slp30t"
+        ]
+      },
+      {
+        "phrase": "possibly dumping work",
+        "post_ids": [
+          "1n7eahh"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T112",
+    "tension": "People are frustrated that no career field is a safe bet anymore because the jobs aren't coming back and every alternative saturates.",
+    "phrases": [
+      {
+        "phrase": "ME/EE will saturate",
+        "post_ids": [
+          "1sxyx3n"
+        ]
+      },
+      {
+        "phrase": "jobs won't return",
+        "post_ids": [
+          "1m7zvlx"
+        ]
+      },
+      {
+        "phrase": "trades not greener",
+        "post_ids": [
+          "1pclgy1"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T113",
+    "tension": "Employers can't trust that the person logging in is who they claim to be, because credentials and identities are being borrowed, stolen, or leaked.",
+    "phrases": [
+      {
+        "phrase": "borrowing coworker credentials",
+        "post_ids": [
+          "1ojbebq"
+        ]
+      },
+      {
+        "phrase": "leaked API key abuse",
+        "post_ids": [
+          "1twro01"
+        ]
+      },
+      {
+        "phrase": "stolen identity remote",
+        "post_ids": [
+          "1udssl4"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T114",
+    "tension": "Workplaces are unprepared to keep people safe or respond when an emergency happens.",
+    "phrases": [
+      {
+        "phrase": "allergy-unsafe work event",
+        "post_ids": [
+          "1poemw0"
+        ]
+      },
+      {
+        "phrase": "basic emergency training",
+        "post_ids": [
+          "1n2n5at"
+        ]
+      },
+      {
+        "phrase": "bystander effect",
+        "post_ids": [
+          "1n2n5at"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T115",
+    "tension": "The channels for applying have become a gatekept hassle \u2014 you can't apply in person, you're pushed to apply directly on company sites, and some places even make you pay to apply.",
+    "phrases": [
+      {
+        "phrase": "apply directly company site",
+        "post_ids": [
+          "1udujvg"
+        ]
+      },
+      {
+        "phrase": "nowhere takes in-person applications",
+        "post_ids": [
+          "1sdkw9z"
+        ]
+      },
+      {
+        "phrase": "pay to apply",
+        "post_ids": [
+          "1muz9kp"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T116",
+    "tension": "Job seekers can't find out what a role actually pays because salary is hidden until a call and endlessly qualified as 'depends on the company/sector.'",
+    "phrases": [
+      {
+        "phrase": "salary depends on company",
+        "post_ids": [
+          "1n33ojb"
+        ]
+      },
+      {
+        "phrase": "salary hidden until call",
+        "post_ids": [
+          "1r1t85m"
+        ]
+      },
+      {
+        "phrase": "varies by sector",
+        "post_ids": [
+          "1mia8v9"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T117",
+    "tension": "Candidates are frustrated that interviews treat them as the only party being judged, when they should be able to size up the employer's culture in return.",
+    "phrases": [
+      {
+        "phrase": "candidate assesses employer too",
+        "post_ids": [
+          "1pq5gaz"
+        ]
+      },
+      {
+        "phrase": "interview reveals company culture",
+        "post_ids": [
+          "1no2id4"
+        ]
+      },
+      {
+        "phrase": "interview the employer back",
+        "post_ids": [
+          "1s1f90b"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T118",
+    "tension": "Essential and low-wage workers aren't paid a living wage, so they labour just to survive while their work goes unseen and undervalued.",
+    "phrases": [
+      {
+        "phrase": "essential jobs poverty pay",
+        "post_ids": [
+          "1uhxpst"
+        ]
+      },
+      {
+        "phrase": "everyone works to survive",
+        "post_ids": [
+          "1rqxb54"
+        ]
+      },
+      {
+        "phrase": "invisible essential work",
+        "post_ids": [
+          "1o7jwzg"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T119",
+    "tension": "Workers live in constant fear of losing their jobs amid endless budget cuts and layoffs.",
+    "phrases": [
+      {
+        "phrase": "constant layoff fear",
+        "post_ids": [
+          "1lpwy62"
+        ]
+      },
+      {
+        "phrase": "endless budget cuts",
+        "post_ids": [
+          "1r5kxed"
+        ]
+      },
+      {
+        "phrase": "fear of being fired",
+        "post_ids": [
+          "1rbmab1"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T120",
+    "tension": "Employees wrestle with the guilt and relief of leaving a manager \u2014 escaping toxic ones while feeling bad about leaving good ones.",
+    "phrases": [
+      {
+        "phrase": "escaped toxic manager",
+        "post_ids": [
+          "1ozlobb"
+        ]
+      },
+      {
+        "phrase": "good manager celebrates departure",
+        "post_ids": [
+          "1oq74un"
+        ]
+      },
+      {
+        "phrase": "guilt leaving invested manager",
+        "post_ids": [
+          "1oq74un"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T121",
+    "tension": "Employees are pressured to lie on the job and pay the price when the lie surfaces.",
+    "phrases": [
+      {
+        "phrase": "asked to lie",
+        "post_ids": [
+          "1rueh11"
+        ]
+      },
+      {
+        "phrase": "forced to lie",
+        "post_ids": [
+          "1ub3scn"
+        ]
+      },
+      {
+        "phrase": "getting caught lying",
+        "post_ids": [
+          "1ttrt35"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T122",
+    "tension": "Candidates want to be judged on honest, authentic answers rather than a rehearsed performance or surface appearances.",
+    "phrases": [
+      {
+        "phrase": "authenticity over rehearsed answers",
+        "post_ids": [
+          "1r2q6ni"
+        ]
+      },
+      {
+        "phrase": "don't judge appearances",
+        "post_ids": [
+          "1t5xr2o"
+        ]
+      },
+      {
+        "phrase": "honest gap answers",
+        "post_ids": [
+          "1t15bb9"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T123",
+    "tension": "Developers resent having to sink endless, ongoing hours into leetcode drilling just to stay interview-ready.",
+    "phrases": [
+      {
+        "phrase": "1300-day leetcode streak",
+        "post_ids": [
+          "1nhbs59"
+        ]
+      },
+      {
+        "phrase": "endless leetcode grind",
+        "post_ids": [
+          "1mcop22"
+        ]
+      },
+      {
+        "phrase": "leetcode grind",
+        "post_ids": [
+          "1locuwk"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T124",
+    "tension": "Recruiters can't get candidates and developers to respond to their cold outreach and InMails.",
+    "phrases": [
+      {
+        "phrase": "InMails ignored",
+        "post_ids": [
+          "1t07sz5"
+        ]
+      },
+      {
+        "phrase": "developers ignoring recruiter outreach",
+        "post_ids": [
+          "1r83w9l"
+        ]
+      },
+      {
+        "phrase": "low InMail response rates",
+        "post_ids": [
+          "1n50dxd"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T125",
+    "tension": "Candidates struggle with nerves and rustiness that sabotage how they come across in interviews.",
+    "phrases": [
+      {
+        "phrase": "interview nerves",
+        "post_ids": [
+          "1rqjc77"
+        ]
+      },
+      {
+        "phrase": "interview rustiness",
+        "post_ids": [
+          "1nlcxvf"
+        ]
+      },
+      {
+        "phrase": "turning around bad interview",
+        "post_ids": [
+          "1r2q6ni"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T126",
+    "tension": "People distrust the pay figures quoted during negotiation because both sides fake salary ranges and competing offers to gain leverage.",
+    "phrases": [
+      {
+        "phrase": "faking competing offer",
+        "post_ids": [
+          "1pa3xz9"
+        ]
+      },
+      {
+        "phrase": "lying about salary ranges",
+        "post_ids": [
+          "1o36mjj"
+        ]
+      },
+      {
+        "phrase": "salary negotiation lie",
+        "post_ids": [
+          "1pa3xz9"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T127",
+    "tension": "Employers resent the fees recruiters and search firms charge and push to negotiate that cost down.",
+    "phrases": [
+      {
+        "phrase": "LinkedIn Recruiter overpriced",
+        "post_ids": [
+          "1n50dxd"
+        ]
+      },
+      {
+        "phrase": "declining recruiter pay",
+        "post_ids": [
+          "1mia8v9"
+        ]
+      },
+      {
+        "phrase": "negotiating search firm fees",
+        "post_ids": [
+          "1rfbz1t"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T128",
+    "tension": "People pushed out involuntarily struggle to rebuild and find new work in the aftermath of being fired or laid off.",
+    "phrases": [
+      {
+        "phrase": "job search after layoff",
+        "post_ids": [
+          "1tvg8jn"
+        ]
+      },
+      {
+        "phrase": "laid off aftermath",
+        "post_ids": [
+          "1npydua"
+        ]
+      },
+      {
+        "phrase": "work after being fired",
+        "post_ids": [
+          "1o6ib5n"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T129",
+    "tension": "Sales and recruitment reps are angry that employers retroactively cut or claw back the commission they already earned.",
+    "phrases": [
+      {
+        "phrase": "commission clawback",
+        "post_ids": [
+          "1mwgs0e"
+        ]
+      },
+      {
+        "phrase": "recruitment commission reductions",
+        "post_ids": [
+          "1mia8v9"
+        ]
+      },
+      {
+        "phrase": "retroactive commission change",
+        "post_ids": [
+          "1mwgs0e"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T130",
+    "tension": "People are subjected to unwanted advances and inappropriate behavior from colleagues or their own managers.",
+    "phrases": [
+      {
+        "phrase": "flirting with HR",
+        "post_ids": [
+          "1r9403h"
+        ]
+      },
+      {
+        "phrase": "inappropriate workplace advances",
+        "post_ids": [
+          "1r9403h"
+        ]
+      },
+      {
+        "phrase": "manager inappropriate behavior",
+        "post_ids": [
+          "1rueh11"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T131",
+    "tension": "HR's professional worth is dismissed as a valueless cost center that generates no revenue and contributes nothing anyone respects.",
+    "phrases": [
+      {
+        "phrase": "HR produces no revenue",
+        "post_ids": [
+          "1qfq40e"
+        ]
+      },
+      {
+        "phrase": "HR seen as useless",
+        "post_ids": [
+          "1qfq40e"
+        ]
+      },
+      {
+        "phrase": "SHRM increasingly irrelevant",
+        "post_ids": [
+          "1pfc8cw"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T132",
+    "tension": "Skilled builders are frustrated at being pushed into supervisory or management roles when they just want to keep building.",
+    "phrases": [
+      {
+        "phrase": "just let me build",
+        "post_ids": [
+          "1mha63e"
+        ]
+      },
+      {
+        "phrase": "prefer IC role",
+        "post_ids": [
+          "1lofy1t"
+        ]
+      },
+      {
+        "phrase": "unexpected supervisor role",
+        "post_ids": [
+          "1ovyd48"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T133",
+    "tension": "Engineers want the authority to own and merge their own work instead of being gatekept by someone else's approval.",
+    "phrases": [
+      {
+        "phrase": "engineers own their PRs",
+        "post_ids": [
+          "1tkccsi"
+        ]
+      },
+      {
+        "phrase": "report wants decision authority",
+        "post_ids": [
+          "1oe522u"
+        ]
+      },
+      {
+        "phrase": "self-approving first PR",
+        "post_ids": [
+          "1ojbebq"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T134",
+    "tension": "The whole AI push feels ethically wrong to people, like tech has abandoned any ethics and is spiraling toward a bad end.",
+    "phrases": [
+      {
+        "phrase": "AI doom loop",
+        "post_ids": [
+          "1mmx040"
+        ]
+      },
+      {
+        "phrase": "AI push feels evil",
+        "post_ids": [
+          "1mdcl9n"
+        ]
+      },
+      {
+        "phrase": "no ethics in tech",
+        "post_ids": [
+          "1mdcl9n"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T135",
+    "tension": "The company won't develop its people, so staff stay untrained, unable to work independently, and their potential goes wasted.",
+    "phrases": [
+      {
+        "phrase": "lack of self-sufficiency",
+        "post_ids": [
+          "1p6gglk"
+        ]
+      },
+      {
+        "phrase": "staff lacked training",
+        "post_ids": [
+          "1n2n5at"
+        ]
+      },
+      {
+        "phrase": "talents being wasted",
+        "post_ids": [
+          "1mrjz3v"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T136",
+    "tension": "A startup is fragile and collapses, whether from founder conflict or the odds that most simply fail.",
+    "phrases": [
+      {
+        "phrase": "founder conflict destroyed company",
+        "post_ids": [
+          "1nxsiwd"
+        ]
+      },
+      {
+        "phrase": "most startups fail",
+        "post_ids": [
+          "1sczfjo"
+        ]
+      },
+      {
+        "phrase": "startup dying",
+        "post_ids": [
+          "1nxsiwd"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T137",
+    "tension": "Employees' documented medical needs and accommodation requests are ignored or refused when they try to keep working.",
+    "phrases": [
+      {
+        "phrase": "WFH accommodation denied",
+        "post_ids": [
+          "1njgtwo"
+        ]
+      },
+      {
+        "phrase": "doctor's note ignored",
+        "post_ids": [
+          "1njgtwo"
+        ]
+      },
+      {
+        "phrase": "no-restrictions return policy",
+        "post_ids": [
+          "1n0wf37"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T138",
+    "tension": "People are frustrated that commercial pitches disguised as genuine community posts (native ads, influencers hawking courses, planted reviews) are manipulating them.",
+    "phrases": [
+      {
+        "phrase": "ads disguised as posts",
+        "post_ids": [
+          "1r6efr9"
+        ]
+      },
+      {
+        "phrase": "fake reviews flagged",
+        "post_ids": [
+          "1okn7vb"
+        ]
+      },
+      {
+        "phrase": "influencers selling courses",
+        "post_ids": [
+          "1ma04es"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T139",
+    "tension": "Recruiters are frustrated that candidates use AI to fake their identity or presence in interviews, so they can't trust who they're actually hiring.",
+    "phrases": [
+      {
+        "phrase": "AI face filter",
+        "post_ids": [
+          "1miu768"
+        ]
+      },
+      {
+        "phrase": "AI impersonating candidate",
+        "post_ids": [
+          "1o2kjdo"
+        ]
+      },
+      {
+        "phrase": "North Korean fake candidates",
+        "post_ids": [
+          "1nhx4x6"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T140",
+    "tension": "People feel on the back foot in tough conversations and negotiations, unsure how to deliver hard messages without losing leverage or goodwill.",
+    "phrases": [
+      {
+        "phrase": "ask probing questions",
+        "post_ids": [
+          "1miu768"
+        ]
+      },
+      {
+        "phrase": "negotiate from strength",
+        "post_ids": [
+          "1sqtvxz"
+        ]
+      },
+      {
+        "phrase": "soften the delivery",
+        "post_ids": [
+          "1rgqxh2"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T141",
+    "tension": "Developers distrust AI producing real code and communication autonomously, wanting it confined to boilerplate rather than pushing pull requests and writing replies.",
+    "phrases": [
+      {
+        "phrase": "AI for boilerplate only",
+        "post_ids": [
+          "1lwk503"
+        ]
+      },
+      {
+        "phrase": "AI pushing a PR",
+        "post_ids": [
+          "1m1uw9v"
+        ]
+      },
+      {
+        "phrase": "AI-generated PR replies",
+        "post_ids": [
+          "1nq5npn"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T142",
+    "tension": "Salespeople are frustrated that quotas and commission targets are set so high that nobody can actually hit them.",
+    "phrases": [
+      {
+        "phrase": "nobody hits quota",
+        "post_ids": [
+          "1opbf1c"
+        ]
+      },
+      {
+        "phrase": "unreachable commission targets",
+        "post_ids": [
+          "1opbf1c"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T143",
+    "tension": "Workers are frustrated that return-to-office is about optics and visibility, not any real need to be in the building.",
+    "phrases": [
+      {
+        "phrase": "remote for visibility",
+        "post_ids": [
+          "1t606n3"
+        ]
+      },
+      {
+        "phrase": "return to office outdated",
+        "post_ids": [
+          "1mqd0ot"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T144",
+    "tension": "Job seekers are frustrated that postings are shams because the pick (often a relative) is already made and the req was never truly open.",
+    "phrases": [
+      {
+        "phrase": "relative already chosen",
+        "post_ids": [
+          "1oqvlzf"
+        ]
+      },
+      {
+        "phrase": "wired reqs never open",
+        "post_ids": [
+          "1tqtaub"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T145",
+    "tension": "Employees are frustrated that advertised benefits are illusory, coming with hidden caps and no legal guarantee behind them.",
+    "phrases": [
+      {
+        "phrase": "ads not legal entitlement",
+        "post_ids": [
+          "1pqjore"
+        ]
+      },
+      {
+        "phrase": "hidden PTO caps",
+        "post_ids": [
+          "1o3ma5d"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T146",
+    "tension": "Companies and individuals inflate their own titles and certifications to appear more legitimate and qualified than they really are.",
+    "phrases": [
+      {
+        "phrase": "fake founder titles",
+        "post_ids": [
+          "1lym1qd"
+        ]
+      },
+      {
+        "phrase": "startup faking certifications",
+        "post_ids": [
+          "1rz15ui"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T147",
+    "tension": "Hiring managers are too busy and unavailable to interview, becoming the bottleneck that stalls hiring.",
+    "phrases": [
+      {
+        "phrase": "hiring managers as bottleneck",
+        "post_ids": [
+          "1m6gk8x"
+        ]
+      },
+      {
+        "phrase": "no time to interview",
+        "post_ids": [
+          "1sqtvxz"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T148",
+    "tension": "Recruiters lose scheduled candidates to interview no-shows and lean on reminder texts to stop the drop-off.",
+    "phrases": [
+      {
+        "phrase": "cut no-shows with texting",
+        "post_ids": [
+          "1rm6jq3"
+        ]
+      },
+      {
+        "phrase": "reminder texts reduce no-shows",
+        "post_ids": [
+          "1rb2lh4"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T149",
+    "tension": "Return-to-office mandates strip away the flexibility workers built their lives around, pushing them to disengage.",
+    "phrases": [
+      {
+        "phrase": "RTO forces quiet quitting",
+        "post_ids": [
+          "1rgqxh2"
+        ]
+      },
+      {
+        "phrase": "RTO kills childcare flexibility",
+        "post_ids": [
+          "1rgqxh2"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T150",
+    "tension": "Paid-time-off policies breed friction \u2014 unlimited PTO no one feels free to use, and resentment toward coworkers who take theirs.",
+    "phrases": [
+      {
+        "phrase": "resenting coworkers taking PTO",
+        "post_ids": [
+          "1n7eahh"
+        ]
+      },
+      {
+        "phrase": "unlimited PTO problems",
+        "post_ids": [
+          "1o3ma5d"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T151",
+    "tension": "Physically demanding jobs grind down the worker's body over the years.",
+    "phrases": [
+      {
+        "phrase": "physical toll of trades",
+        "post_ids": [
+          "1pclgy1"
+        ]
+      },
+      {
+        "phrase": "physical toll on body",
+        "post_ids": [
+          "1lrskmr"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T152",
+    "tension": "Job seekers are angry at discriminatory hiring where employers only hire single guys or refuse to hire Indians.",
+    "phrases": [
+      {
+        "phrase": "only hire single guys",
+        "post_ids": [
+          "1o95zv3"
+        ]
+      },
+      {
+        "phrase": "stop hiring Indians",
+        "post_ids": [
+          "1ma4i05"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T153",
+    "tension": "People resent entitled, out-of-touch elites whose elite education breeds hypocrisy rather than humility.",
+    "phrases": [
+      {
+        "phrase": "elite education hypocrisy",
+        "post_ids": [
+          "1ostbi4"
+        ]
+      },
+      {
+        "phrase": "out of touch entitled",
+        "post_ids": [
+          "1omx86l"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T154",
+    "tension": "Workers struggle to recognize toxic workplaces, and find finally leaving them a relief.",
+    "phrases": [
+      {
+        "phrase": "leaving toxicity liberating",
+        "post_ids": [
+          "1ozlobb"
+        ]
+      },
+      {
+        "phrase": "spotting toxic red flags",
+        "post_ids": [
+          "1rg4wxs"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T155",
+    "tension": "People do everything right and still get punished for it.",
+    "phrases": [
+      {
+        "phrase": "did everything right anyway",
+        "post_ids": [
+          "1qwkjfg"
+        ]
+      },
+      {
+        "phrase": "no good deed goes unpunished",
+        "post_ids": [
+          "1o5mfjm"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T156",
+    "tension": "Recruiters get ghosted by the candidates and clients they were already actively engaged with.",
+    "phrases": [
+      {
+        "phrase": "candidate ghosting",
+        "post_ids": [
+          "1npli6y"
+        ]
+      },
+      {
+        "phrase": "clients ghosting",
+        "post_ids": [
+          "1tbfwum"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T157",
+    "tension": "Candidates are frustrated that companies extract unpaid labor through interview assignments and write-ups.",
+    "phrases": [
+      {
+        "phrase": "free work during interview",
+        "post_ids": [
+          "1oto36c"
+        ]
+      },
+      {
+        "phrase": "unpaid interview writeup",
+        "post_ids": [
+          "1oto36c"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T158",
+    "tension": "Interviewers are frustrated that candidates game or cheat their way through interviews, letting unqualified people pass.",
+    "phrases": [
+      {
+        "phrase": "catching interview cheaters easily",
+        "post_ids": [
+          "1r5my44"
+        ]
+      },
+      {
+        "phrase": "how did he pass interview",
+        "post_ids": [
+          "1rteomh"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T159",
+    "tension": "Older applicants strip their graduation year off their resume to dodge age discrimination.",
+    "phrases": [
+      {
+        "phrase": "remove graduation year",
+        "post_ids": [
+          "1s48g1j"
+        ]
+      },
+      {
+        "phrase": "removed graduation year",
+        "post_ids": [
+          "1s9ikc5"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T160",
+    "tension": "Employers refuse to invest anything in new workers \u2014 no training and unpaid internships.",
+    "phrases": [
+      {
+        "phrase": "intern refused any pay",
+        "post_ids": [
+          "1p8k684"
+        ]
+      },
+      {
+        "phrase": "no training offered",
+        "post_ids": [
+          "1pszdaz"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T161",
+    "tension": "Job seekers struggle to make their LinkedIn profile actually pull its weight in the job hunt.",
+    "phrases": [
+      {
+        "phrase": "LinkedIn job search",
+        "post_ids": [
+          "1rtxijj"
+        ]
+      },
+      {
+        "phrase": "optimize LinkedIn profile",
+        "post_ids": [
+          "1nmapst"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T162",
+    "tension": "People can't get honest numbers on what others actually earn or make.",
+    "phrases": [
+      {
+        "phrase": "asking about real earnings",
+        "post_ids": [
+          "1opbf1c"
+        ]
+      },
+      {
+        "phrase": "asking about revenue",
+        "post_ids": [
+          "1tcvmhu"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T163",
+    "tension": "Employees who report a coworker's misconduct get outed or fear retaliation for having spoken up.",
+    "phrases": [
+      {
+        "phrase": "reporting racist coworker",
+        "post_ids": [
+          "1pntmta"
+        ]
+      },
+      {
+        "phrase": "told coworker who complained",
+        "post_ids": [
+          "1ndxmta"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T164",
+    "tension": "A toxic workplace culture, and the struggle to remove the toxic person poisoning it.",
+    "phrases": [
+      {
+        "phrase": "toxic employee removal",
+        "post_ids": [
+          "1noh7z3"
+        ]
+      },
+      {
+        "phrase": "toxic work culture",
+        "post_ids": [
+          "1qwoi6a"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T165",
+    "tension": "Coworkers cross personal boundaries by pulling pranks or messing with my workspace.",
+    "phrases": [
+      {
+        "phrase": "coworker rearranged my office",
+        "post_ids": [
+          "1q4l32f"
+        ]
+      },
+      {
+        "phrase": "workplace pranks",
+        "post_ids": [
+          "1s9sak7"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T166",
+    "tension": "Developers are frustrated at being forced onto Windows laptops that aren't suited to development work.",
+    "phrases": [
+      {
+        "phrase": "Windows not dev OS",
+        "post_ids": [
+          "1lyjs8d"
+        ]
+      },
+      {
+        "phrase": "forced Windows laptop",
+        "post_ids": [
+          "1lyjs8d"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T167",
+    "tension": "The easy-apply pipeline is flooded with low-quality and AI-generated applications, so submissions become meaningless noise that vanish without response.",
+    "phrases": [
+      {
+        "phrase": "application slop",
+        "post_ids": [
+          "1qxg9vv"
+        ]
+      },
+      {
+        "phrase": "easy apply black hole",
+        "post_ids": [
+          "1ti8s8h"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T168",
+    "tension": "Employers can't find enough qualified candidates and the applications that do come in are weak.",
+    "phrases": [
+      {
+        "phrase": "resume quality problem",
+        "post_ids": [
+          "1t3gbbu"
+        ]
+      },
+      {
+        "phrase": "talent shortage",
+        "post_ids": [
+          "1nlffj7"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T169",
+    "tension": "Users who get the product for free feel entitled and give the worst feedback.",
+    "phrases": [
+      {
+        "phrase": "free giveaway breeds entitlement",
+        "post_ids": [
+          "1o5mfjm"
+        ]
+      },
+      {
+        "phrase": "free users bad feedback",
+        "post_ids": [
+          "1r9659a"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T170",
+    "tension": "The company's public reputation and image are damaged in the eyes of outsiders.",
+    "phrases": [
+      {
+        "phrase": "bad company reputation",
+        "post_ids": [
+          "1mxgbxi"
+        ]
+      },
+      {
+        "phrase": "bad optics",
+        "post_ids": [
+          "1pwqnax"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T171",
+    "tension": "A candidate's failure in a test gets misread as lack of ability when it's really nerves or the test environment, not the person.",
+    "phrases": [
+      {
+        "phrase": "brain-fart on basics",
+        "post_ids": [
+          "1rqjc77"
+        ]
+      },
+      {
+        "phrase": "environment mismatch not character",
+        "post_ids": [
+          "1rrvc7e"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T172",
+    "tension": "People won't follow or read the instructions they're given.",
+    "phrases": [
+      {
+        "phrase": "couldn't follow simple instructions",
+        "post_ids": [
+          "1n5ohbj"
+        ]
+      },
+      {
+        "phrase": "users don't read instructions",
+        "post_ids": [
+          "1psmdby"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T173",
+    "tension": "Workers get fired for doing something completely reasonable \u2014 leaving at the end of their shift or interviewing for another job.",
+    "phrases": [
+      {
+        "phrase": "fired for interviewing",
+        "post_ids": [
+          "1nek3kc"
+        ]
+      },
+      {
+        "phrase": "fired for leaving on time",
+        "post_ids": [
+          "1rkldbw"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T174",
+    "tension": "An interview ends abruptly and badly, with one side cutting it short or walking out.",
+    "phrases": [
+      {
+        "phrase": "abruptly ended interview",
+        "post_ids": [
+          "1n5ohbj"
+        ]
+      },
+      {
+        "phrase": "walked out of interview",
+        "post_ids": [
+          "1mxgbxi",
+          "1opbf1c"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T175",
+    "tension": "Employees can't collect \u2014 or even clearly account for \u2014 the paid time off they already earned.",
+    "phrases": [
+      {
+        "phrase": "accrued vs annual PTO",
+        "post_ids": [
+          "1s3xvix"
+        ]
+      },
+      {
+        "phrase": "no PTO payout",
+        "post_ids": [
+          "1o3ma5d"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T176",
+    "tension": "Workers leave jobs abruptly without giving proper notice.",
+    "phrases": [
+      {
+        "phrase": "no two-week notice",
+        "post_ids": [
+          "1n2ncbs",
+          "1s9bz1x"
+        ]
+      },
+      {
+        "phrase": "quit after two days",
+        "post_ids": [
+          "1reulsd"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T177",
+    "tension": "AI-driven hiring tools like AI interviewers and recruiting software don't actually work, and people want companies to stop using them.",
+    "phrases": [
+      {
+        "phrase": "AI recruiting tools useless",
+        "post_ids": [
+          "1nxapg9"
+        ]
+      },
+      {
+        "phrase": "stop using AI interviews",
+        "post_ids": [
+          "1mlgwky"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T178",
+    "tension": "Honest creators are frustrated that their genuine work gets wrongly suspected or accused of being AI-generated.",
+    "phrases": [
+      {
+        "phrase": "AI-written content skepticism",
+        "post_ids": [
+          "1sivput"
+        ]
+      },
+      {
+        "phrase": "false AI accusations",
+        "post_ids": [
+          "1mrg1k0"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T179",
+    "tension": "People are unsure whether blocking ads on the client side is actually legally allowed.",
+    "phrases": [
+      {
+        "phrase": "ad blocking legality",
+        "post_ids": [
+          "1pqjore"
+        ]
+      },
+      {
+        "phrase": "client-side ad blocking",
+        "post_ids": [
+          "1pqjore"
+        ]
+      }
+    ]
+  },
+  {
+    "tension_id": "T180",
+    "tension": "People are stuck with bloated, heavy software when they just want a fast, lightweight native tool that does the job.",
+    "phrases": [
+      {
+        "phrase": "bloated mobile apps",
+        "post_ids": [
+          "1qcvz7o"
+        ]
+      },
+      {
+        "phrase": "lightweight native PDF editor",
+        "post_ids": [
+          "1qcvz7o"
+        ]
+      }
+    ]
+  }
+]

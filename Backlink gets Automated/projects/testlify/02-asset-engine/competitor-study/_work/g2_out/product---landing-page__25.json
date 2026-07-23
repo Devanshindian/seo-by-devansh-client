@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2192,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines six assessment categories (personality, behavioral, cognitive, domain, coding, communication) in one-line marketing blurbs \u2014 no predictive-validity evidence, no worked examples, and no EEOC/adverse-impact framing, so a buyer comparing test types has no basis to trust or defend any of them.",
+    "asset": "Which Pre-Employment Tests Actually Predict Job Performance (and Which Ones Don't)",
+    "distinct_angle": "Backs each test category with real predictive-validity evidence and EEOC-defensible framing plus a worked example per category \u2014 the substance this page's one-line blurbs skip.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2193,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire 360-degree feedback / performance-management survey tool; explicitly off-limits (post-hire performance management as an end in itself), and the page is a generic survey-admin product with no distinctive format worth transplanting into hiring/assessment."
+  },
+  {
+    "row_id": 2195,
+    "brand_fit": "CORE",
+    "angle_gap": "Explains why companies use cognitive/GMA tests and lists the areas covered (logical, numerical, verbal, abstract, situational judgment) but never once raises adverse-impact or EEOC-defensibility \u2014 a well-known legal exposure of cognitive ability testing \u2014 and gives no sample question or scoring example.",
+    "asset": "The Adverse-Impact Risk Behind Every Cognitive Ability Test (and How to Defend It)",
+    "distinct_angle": "Fills the adverse-impact/EEOC-defensibility question this page never raises about cognitive testing, with a worked example item and scoring rationale \u2014 the compliance context and concreteness missing here.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2197,
+    "brand_fit": "CORE",
+    "angle_gap": "Describes HireTrack as bundling applicant management, assessments, and structured interviews into 'one data-backed platform' purely in feature-bullet form, with no analysis of when an integrated platform actually beats separate best-of-breed tools, and no time-to-hire or cost evidence to back the claim.",
+    "asset": "When One Integrated Hiring Platform Beats Three Point Tools (and When It Doesn't)",
+    "distinct_angle": "Where this page just lists three bundled features, ours weighs the integration trade-off with real time-to-hire and cost-per-hire evidence \u2014 the analysis this page skips entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2200,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers speaking/reading/writing/listening test types and industry use cases in detail but never addresses the legal exposure of screening on English/accent proficiency \u2014 a real EEOC national-origin discrimination risk in language-based hiring tests \u2014 leaving a compliance-conscious buyer with no guidance on defensibility.",
+    "asset": "The Legal Risk Nobody Mentions in English-Proficiency Hiring Tests",
+    "distinct_angle": "Surfaces the EEOC/national-origin discrimination risk in language-proficiency screening that this page never addresses, citing real guidance/case precedent \u2014 the compliance angle missing entirely.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

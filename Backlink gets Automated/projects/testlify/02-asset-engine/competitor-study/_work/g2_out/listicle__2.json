@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1106,
+    "brand_fit": "CORE",
+    "angle_gap": "All five case studies are Criteria Corp's own paying customers citing turnover stats from 2016-2018 (Schweiger's 57% drop is from 2017, Heartland's 65% drop from 2016-2017), with no cross-industry benchmark, no breakdown of which specific assessment combination drove results by role type, and no way for a reader to estimate their own likely turnover reduction.",
+    "asset": "How Pre-Employment Testing Actually Cuts Turnover, With Numbers Recruiters Can Benchmark",
+    "distinct_angle": "Pulls turnover-reduction examples from across the industry rather than one vendor's paid customers, refreshes the case data past 2016-2018, and adds industry benchmarks so a reader can gauge expected impact for their own sector, the breadth and currency this page's five vendor testimonials lack.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1219,
+    "brand_fit": "CORE",
+    "angle_gap": "Each of the 13 aptitude-test types gets a bare one-to-two sentence definition with no example question and no guidance on which type predicts performance for which role; the only stat cited (Bersin by Deloitte's $4,000 average cost per hire) is a decade-old figure never refreshed.",
+    "asset": "Which Aptitude Test Actually Predicts Success in Which Job, Not Just What Each One Measures",
+    "distinct_angle": "Matches each test type to the specific roles it actually predicts performance for, adds a worked example question per type, and replaces the stale Bersin-by-Deloitte cost-per-hire figure with the current public number, the role-matching and currency this list lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1223,
+    "brand_fit": "CORE",
+    "angle_gap": "Names five hiring-engineer challenges (fit, market competition, interview investment, salary matching, candidate information) but only describes each problem; the one salary figure it cites (roughly $150,000 in the US) is framed around COVID-era cash-flow cuts and is never updated, and no challenge gets a concrete fix.",
+    "asset": "What Actually Fixes Each Engineering-Hiring Bottleneck, From Fit to Salary",
+    "distinct_angle": "Pairs each named challenge with a concrete, current-data-backed fix, including an updated engineer salary benchmark and a specific skills-testing tactic for the technical-interview-cost problem, where this page only describes the problems without resolving them.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1226,
+    "brand_fit": "CORE",
+    "angle_gap": "The six recruitment problems each get a generic fix (clearer job descriptions, Google Analytics for data tracking) and skills testing is mentioned exactly once, in passing, as a way to speed up hiring, with no explanation of which test types close which problem.",
+    "asset": "The Recruitment Bottlenecks Skills Testing Actually Fixes, Problem by Problem",
+    "distinct_angle": "Expands the single throwaway line about aptitude testing into the actual mechanism, naming which test types close each specific problem such as screening volume and rapid hiring, where this page only lists generic fixes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1228,
+    "brand_fit": "CORE",
+    "angle_gap": "The eight customer-service skills are each defined and backed with a stat, but none comes with a way to actually evaluate that skill during hiring, and the piece frames its urgency around a prediction for 'by 2021', now years stale.",
+    "asset": "How to Actually Screen for Customer Service Skills, Not Just List Them",
+    "distinct_angle": "Pairs each of the eight skills with a concrete way to evaluate it during hiring, such as a situational-judgment prompt or structured interview question, and updates the now-stale 'by 2021' framing, where this page only defines the skills without showing how to test for them.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

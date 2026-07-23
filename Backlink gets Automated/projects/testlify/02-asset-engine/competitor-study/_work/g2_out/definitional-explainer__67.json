@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1601,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 HR Business Partner is a broad HR org-design/generalist role (comp, engagement, org strategy), not a hiring, assessment, or skills-testing subject; different product world even though the buyer overlaps."
+  },
+  {
+    "row_id": 1604,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists 7 reasons to track recruitment ROI and names the cost/benefit inputs to the formula, but never runs an actual worked calculation with real dollar figures, and never prices the biggest lever into the formula: the cost of a bad hire / low quality-of-hire, which it mentions only as a separate metric, never folded into the ROI number itself.",
+    "asset": "Recruitment ROI, Recalculated: What a Bad Hire Actually Costs Your Formula",
+    "distinct_angle": "Runs a full worked ROI calculation with real dollar figures and folds mis-hire/quality-of-hire cost into the formula, the lever this page names as a metric but never prices in.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1608,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines talent development and gives two famous-brand anecdotes (Adobe, Costco), but the 'how to create a talent development strategy' section never addresses how an organization actually diagnoses WHICH skills gaps matter before building a program \u2014 it jumps from 'skills gaps are common' straight to brand examples, skipping the diagnostic step entirely.",
+    "asset": "How to Find the Real Skills Gaps Before You Build a Talent Development Plan",
+    "distinct_angle": "Fills the diagnostic step this page skips \u2014 how to actually identify which skills gaps to close \u2014 instead of jumping from 'gaps are common' straight to brand anecdotes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1609,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Explains the four quadrants and their coaching strategy in the abstract, backed by only one short fictional case study, and never grounds 'skill' in any measurable input (a test score, a structured assessment) \u2014 it stays at manager-judgment level throughout.",
+    "asset": "The Test-Score vs. Interview-Signal Matrix for Making the Final Hiring Call",
+    "distinct_angle": "Transplants the skill/will 2x2 into the hiring decision itself \u2014 plotting candidates by assessment score against interview/culture signal \u2014 with a worked multi-candidate example, replacing the single fictional case study this page relies on.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: post-hire employee coaching / performance management (Skill Will Matrix) into a hiring-decision framing"
+  },
+  {
+    "row_id": 1614,
+    "brand_fit": "CORE",
+    "angle_gap": "Gives a 6-element checklist for pipeline management, but 'screening and selection' \u2014 the step where a bad call actually costs you \u2014 is one throwaway sentence ('assess candidates for skills, experience, and cultural fit') with no guidance on how to keep pipelined candidates' skills verified and current between the day they're sourced and the day a role opens. The headline '72% of CEOs' stat is also attributed only to 'a recent survey,' with no year or source.",
+    "asset": "How to Actually Vet Candidates Sitting in Your Talent Pipeline",
+    "distinct_angle": "Expands the one-sentence screening step this page glosses over into a real how-to for keeping pipelined candidates' skills current and verified, and replaces the uncited 72%-CEOs stat with a sourced, current figure.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

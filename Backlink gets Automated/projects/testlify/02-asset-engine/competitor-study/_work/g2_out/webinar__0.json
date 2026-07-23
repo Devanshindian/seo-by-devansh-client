@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1053,
+    "brand_fit": "CORE",
+    "angle_gap": "Promotional page only \u2014 a single stat (\"just 28% of organizations have a defined talent mobility program,\" 2022) and a bullet list of topics with zero actual content on how to identify or develop high-potential employees.",
+    "asset": "A Working Framework for Spotting and Developing High-Potential Employees",
+    "distinct_angle": "Delivers the actual identification criteria and development framework the page only promises in its agenda, and refreshes the single 2022 talent-mobility stat with a current figure.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1054,
+    "brand_fit": "CORE",
+    "angle_gap": "Promises \"how to calculate and evaluate ROI\" in its bullet list but the page itself contains no formula, no worked example, and no named recruitment activities \u2014 pure webinar promo copy.",
+    "asset": "The Real Recruiting ROI Formula, With a Worked Example",
+    "distinct_angle": "Supplies the actual ROI calculation and a worked numeric example that this page's agenda promises but never delivers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1058,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 subject is employee engagement/retention feedback surveys, explicitly off-limits (post-hire performance management/engagement surveys) per brand scope section 3"
+  },
+  {
+    "row_id": 1059,
+    "brand_fit": "CORE",
+    "angle_gap": "Bases its whole pitch on Criteria's own 2022 Candidate Experience Report and never states any of the actual findings on the page itself \u2014 just an agenda promising \"Top 5 Things Candidates Want\" with no content behind it.",
+    "asset": "What Job Candidates Actually Want in 2026",
+    "distinct_angle": "Replaces the stale, unsourced 2022 Candidate Experience Report reference with current public candidate-expectation data and spells out the findings this page only teases.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1063,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites an Ernst & Young empathy stat with no year or source link, and lists \"why organizations should hire for EI\" as an agenda bullet without ever explaining how to actually assess EI in candidates.",
+    "asset": "How to Actually Assess Emotional Intelligence in Job Candidates",
+    "distinct_angle": "Provides concrete EI interview questions and assessment criteria where this page only lists \"why hire for EI\" as an unanswered agenda item, and properly sources the empathy stat.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

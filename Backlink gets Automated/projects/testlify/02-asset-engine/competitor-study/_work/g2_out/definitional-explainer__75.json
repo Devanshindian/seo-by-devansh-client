@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1701,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 sabbatical leave is a benefits/leave-of-absence policy topic (employee benefit administration), outside skills-assessment hiring world"
+  },
+  {
+    "row_id": 1708,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 GRPI is a post-hire team-effectiveness/organizational-development framework, not hiring or assessment"
+  },
+  {
+    "row_id": 1711,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 career-path guide for becoming an HR Generalist (qualifications, salary, career progression); job-seeker/career-education content, not a hiring/assessment buyer's problem"
+  },
+  {
+    "row_id": 1712,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'Level 3: predictive analytics' section rests on a single, dated case study (chatAssess at Rolls-Royce, application-completion rates) and never shows a TA team how to build a predictive model from their own data; it also never ties recruiting analytics to quality-of-hire, the metric that actually matters once a candidate is hired, despite listing it as an opening question.",
+    "asset": "Recruiting Analytics That Actually Predict Quality of Hire, Not Just Track Time-to-Fill",
+    "distinct_angle": "Replaces the page's single aging case study with a worked, source-cited walkthrough of how TA teams turn ATS and skills-assessment data into a real predictive quality-of-hire model across all three maturity levels \u2014 the practical build this page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1716,
+    "brand_fit": "CORE",
+    "angle_gap": "The article's 'pros/pitfalls' examples are dated (Alexander Mann Solutions, Textio, Pymetrics, PandoLogic) and it only ever frames AI as something recruiters wield against candidates \u2014 it never addresses the now-critical flip side: candidates using AI to generate answers, fake video/voice responses, or cheat on skills tests and interviews.",
+    "asset": "AI in Recruitment in 2026: What Changed Now That Candidates Use It Too",
+    "distinct_angle": "Updates past the page's dated tool roster to cover the current double-edged reality \u2014 AI-assisted cheating on interviews and assessments \u2014 and what it means for screening integrity, the dimension this page never touches.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

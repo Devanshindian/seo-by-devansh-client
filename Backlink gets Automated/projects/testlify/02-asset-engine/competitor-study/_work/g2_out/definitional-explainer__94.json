@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2884,
+    "brand_fit": "CORE",
+    "angle_gap": "Title promises 'How to Avoid It' but nearly the whole piece just defines five bias types (stereotyping, inconsistent questioning, negative emphasis, halo effect, cultural noise) \u2014 it never delivers a concrete avoidance framework tied to structured interviewing or scorecards.",
+    "asset": "The Interview Bias Playbook: A Fix for Every Type Thomas.co Only Names",
+    "distinct_angle": "Thomas.co names five bias types but stops short of showing how to fix any of them; we pair each named bias with a specific structured-interview or scorecard mitigation, closing the 'how to avoid it' gap the title promises but the text never delivers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2885,
+    "brand_fit": "CORE",
+    "angle_gap": "Explains skills vs. abilities through everyday analogies (drawing, baking) and lists life/job/leadership skill categories, but never applies the distinction to how employers should actually test for skills versus abilities when hiring \u2014 despite opening by claiming this matters for employers.",
+    "asset": "Skills vs. Abilities: Why Your Hiring Tests Need to Measure Them Differently",
+    "distinct_angle": "Thomas.co defines skills vs abilities with generic examples like baking and drawing but stops short of hiring application; we show how to design assessments and job descriptions that test each distinctly \u2014 the practical step their piece is missing.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2886,
+    "brand_fit": "CORE",
+    "angle_gap": "Makes uncited 'studies show' claims (e.g. calling conscientiousness 'the biggest predictor of workplace success') without naming the research, and treats trait relevance as generic across all roles rather than breaking it down by role type.",
+    "asset": "Which Big Five Traits Predict Performance in Which Roles, With the Research Behind Each Claim",
+    "distinct_angle": "Thomas.co makes uncited 'studies show' claims and applies traits generically across all jobs; we cite the specific named research behind each trait-performance link and break down which traits matter most for which role types.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2891,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire team-performance/OD content (engagement, retention, culture); only a passing mention of hiring, sits outside our skills-assessment world per brand scope's off-limits list"
+  },
+  {
+    "row_id": 2893,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee engagement via L&D/training content; post-hire engagement territory is explicitly off-limits and not tied to skills-gap assessment or hiring"
+  }
+]

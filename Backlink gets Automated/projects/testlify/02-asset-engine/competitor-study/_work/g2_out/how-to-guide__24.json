@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1902,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The visible text is a generic recruitment-marketing listicle (employer brand, DEI, digital outreach) with no tie to skills-based hiring at all \u2014 it treats marketing and assessment as separate worlds, and cites a 2024-sourced market-size projection without checking whether the number still holds in 2026.",
+    "asset": "Recruitment Marketing Ideas Built Around a Skills-First Hiring Process",
+    "distinct_angle": "Connects every marketing tactic (employer brand, DEI messaging, candidate experience) to a fair, skills-verified hiring process as the actual proof point recruiters can market \u2014 a link this page never makes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2196,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Defines talent pipeline vs. pool and lists engagement tactics and metrics (time to fill, source of hire, conversion rate) generically, and leans on an old LinkedIn stat (70% passive workforce, 87% open to offers) without checking whether that figure still holds; never addresses how to keep pipeline quality high with actual skills data rather than just relationship warmth.",
+    "asset": "Building a Talent Pipeline That Converts on Skills Data, Not Just Warm Contacts",
+    "distinct_angle": "Refreshes the stale passive-talent stat to a current public figure and ties pipeline engagement to ongoing skills verification, not just relationship-nurturing tactics \u2014 the gap this page leaves wide open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2199,
+    "brand_fit": "CORE",
+    "angle_gap": "Despite the 'how to assess' title, the page never actually describes an assessment method \u2014 it's a long list of positive and negative trait labels (persistence, loyalty, arrogance, etc.) with a sentence each, and gestures vaguely at 'technology-driven background checks' without naming any validated instrument or structured method.",
+    "asset": "How to Actually Score Personality Traits in Candidates, Not Just Name Them",
+    "distinct_angle": "Replaces the bare trait list with a real assessment methodology \u2014 validated instruments and structured behavioral questions tied to each trait \u2014 which this page substitutes with description alone.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2246,
+    "brand_fit": "CORE",
+    "angle_gap": "The advice is generic reassurance (clear communication, reliable tech, data-security promises) that resolves into a pitch for Mercer|Mettl's own SecureProctor rather than vendor-neutral guidance, and gives no concrete accommodation options for anxiety or disability, no communication script, and no research-backed data on what actually drives proctoring stress.",
+    "asset": "Making Proctored Exams Less Stressful With Real Accommodations, Not Reassurance",
+    "distinct_angle": "Gives concrete, vendor-neutral accommodations and a candidate-communication script instead of the generic reassurance-plus-product-pitch this page substitutes for actual guidance.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2275,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers hackathon types, benefits, and planning logistics (prize, software, judges) but never gives a scoring rubric for judging submissions fairly, and \u2014 despite being 2026-dated content on a coding competition format \u2014 never once addresses AI-assistance detection or an AI-use policy for hackathon submissions used in hiring decisions.",
+    "asset": "Running a Hiring Hackathon That Screens for Real Skill, With a Judging Rubric and an AI-Use Policy",
+    "distinct_angle": "Adds a concrete judging rubric and an AI-assistance policy for hackathon submissions \u2014 both entirely absent from this page's event-logistics-only coverage.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

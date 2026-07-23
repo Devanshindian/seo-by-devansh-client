@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1831,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Covers three automation types (process, workflow, marketing) and a software comparison table of staffing-agency CRMs, but every workflow example given (follow-up on silence, submittal notifications, onboarding tasks) jumps straight from application to interview scheduling \u2014 it never touches automating the pre-interview evaluation step, the highest-friction manual stage before a human ever talks to a candidate.",
+    "asset": "Recruitment Automation's Missing Stage: Skills Screening Before the Interview",
+    "distinct_angle": "Closes the gap the guide skips entirely \u2014 how automation applies to evaluating candidates before scheduling, not just chasing and notifying after.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1837,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 social media recruiting is candidate sourcing / employer-branding, explicitly outside Testlify's skills-assessment world"
+  },
+  {
+    "row_id": 1851,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites a 2021 Indeed ghosting stat (28% applicants, 76% recruiters) as current and lists generic process-hygiene fixes (shorter forms, staggered info requests, auto-scheduling), but never once names the screening/testing stage itself as a ghosting trigger \u2014 a slow, impersonal, or overlong skills assessment is a well-documented drop-off point the page skips entirely.",
+    "asset": "Candidate Ghosting in 2026: The Updated Numbers and the Screening-Stage Causes Nobody Names",
+    "distinct_angle": "Refreshes the 2021 Indeed stat with the current public figure and adds the screening-experience causes of ghosting (slow, generic, overlong assessments) the original never covers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1855,
+    "brand_fit": "CORE",
+    "angle_gap": "The definition, formula, and calculation walkthrough are solid, but every framing example is agency-to-client ('for your whole agency', 'for specific clients') \u2014 there's no version of the metric, benchmark, or reduction lever built for an in-house TA team measuring its own time-to-fill, which is most of the actual search traffic on this term.",
+    "asset": "Time-to-Fill Benchmarks and Levers for In-House Hiring Teams, Not Staffing Agencies",
+    "distinct_angle": "Rebuilds the same definition and formula around an in-house TA team's numbers and levers, where the original speaks only in agency-serving-clients language throughout.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1856,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 employee referral programs are a sourcing channel, not skills assessment; same off-limits territory as passive-candidate sourcing"
+  }
+]

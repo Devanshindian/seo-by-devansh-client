@@ -1,0 +1,290 @@
+[
+  {
+    "keyword": "how much do recruiters get paid",
+    "relevance": 10,
+    "distinctness": 10,
+    "brand_fit": 9,
+    "reason": "Cleanest, lowest-KD core phrasing of the exact question the asset answers.",
+    "role": "primary"
+  },
+  {
+    "keyword": "how do job recruiters get paid",
+    "relevance": 10,
+    "distinctness": 3,
+    "brand_fit": 8,
+    "reason": "Reword of primary, same intent/topic, no separate section needed.",
+    "role": "variation"
+  },
+  {
+    "keyword": "how does a job recruiter get paid",
+    "relevance": 10,
+    "distinctness": 3,
+    "brand_fit": 8,
+    "reason": "Reword of primary, same intent/topic.",
+    "role": "variation"
+  },
+  {
+    "keyword": "how much do job recruiters make",
+    "relevance": 10,
+    "distinctness": 3,
+    "brand_fit": 8,
+    "reason": "Reword of primary, same intent/topic.",
+    "role": "variation"
+  },
+  {
+    "keyword": "how much does a job recruiter make",
+    "relevance": 10,
+    "distinctness": 3,
+    "brand_fit": 8,
+    "reason": "Reword of primary, same intent/topic.",
+    "role": "variation"
+  },
+  {
+    "keyword": "how much does a recruiter get paid",
+    "relevance": 10,
+    "distinctness": 3,
+    "brand_fit": 8,
+    "reason": "Reword of primary, same intent/topic.",
+    "role": "variation"
+  },
+  {
+    "keyword": "how much do recruiter get paid",
+    "relevance": 9,
+    "distinctness": 2,
+    "brand_fit": 8,
+    "reason": "Grammatical variant (typo) of primary.",
+    "role": "variation"
+  },
+  {
+    "keyword": "how much does recruiter get paid",
+    "relevance": 9,
+    "distinctness": 2,
+    "brand_fit": 8,
+    "reason": "Grammatical variant of primary.",
+    "role": "variation"
+  },
+  {
+    "keyword": "how much does recruiters get paid",
+    "relevance": 9,
+    "distinctness": 2,
+    "brand_fit": 8,
+    "reason": "Grammatical variant of primary.",
+    "role": "variation"
+  },
+  {
+    "keyword": "how do headhunters get paid",
+    "relevance": 9,
+    "distinctness": 8,
+    "brand_fit": 7,
+    "reason": "Distinct sub-topic: contingency/retained headhunter payment mechanism, a named recruiter type in the angle.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "how does a headhunter get paid",
+    "relevance": 9,
+    "distinctness": 3,
+    "brand_fit": 7,
+    "reason": "Near-duplicate of the headhunter-payment secondary; redundant section.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how does headhunter get paid",
+    "relevance": 9,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Near-duplicate of the headhunter-payment secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much do headhunters earn",
+    "relevance": 9,
+    "distinctness": 3,
+    "brand_fit": 7,
+    "reason": "Near-duplicate of the headhunter-payment secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much do headhunters make",
+    "relevance": 9,
+    "distinctness": 3,
+    "brand_fit": 7,
+    "reason": "Near-duplicate of the headhunter-payment secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much does a headhunter earn",
+    "relevance": 9,
+    "distinctness": 3,
+    "brand_fit": 7,
+    "reason": "Near-duplicate of the headhunter-payment secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much does a headhunter make",
+    "relevance": 9,
+    "distinctness": 3,
+    "brand_fit": 7,
+    "reason": "Near-duplicate of the headhunter-payment secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much does headhunter make",
+    "relevance": 9,
+    "distinctness": 2,
+    "brand_fit": 7,
+    "reason": "Near-duplicate of the headhunter-payment secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "headhunting salary",
+    "relevance": 8,
+    "distinctness": 7,
+    "brand_fit": 6,
+    "reason": "Distinct angle from payment-mechanism: total headhunter income/salary benchmark figure.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "do recruiters get bonuses for recruits",
+    "relevance": 8,
+    "distinctness": 8,
+    "brand_fit": 6,
+    "reason": "Distinct sub-topic: bonus/incentive add-ons beyond base per-hire commission.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "how much do it recruiters get paid",
+    "relevance": 7,
+    "distinctness": 7,
+    "brand_fit": 6,
+    "reason": "Vertical-specific recruiter-earnings sub-topic (IT niche), section-worthy.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "recruiter salary range",
+    "relevance": 7,
+    "distinctness": 7,
+    "brand_fit": 6,
+    "reason": "Distinct angle: fixed base-salary benchmark vs. commission structure.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "recruitment consultant earnings",
+    "relevance": 7,
+    "distinctness": 7,
+    "brand_fit": 6,
+    "reason": "Agency/consultant recruiter earnings, a named recruiter-type sub-topic.",
+    "role": "secondary"
+  },
+  {
+    "keyword": "recruiting consultant salary",
+    "relevance": 7,
+    "distinctness": 4,
+    "brand_fit": 6,
+    "reason": "Near-duplicate of recruitment-consultant-earnings secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much do tech recruiters make",
+    "relevance": 7,
+    "distinctness": 4,
+    "brand_fit": 6,
+    "reason": "Near-duplicate vertical of the IT-recruiter secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much do military recruiters make per hire",
+    "relevance": 6,
+    "distinctness": 8,
+    "brand_fit": 3,
+    "reason": "Distinct recruiter type/intent not covered by this asset's taxonomy (agency/retained/RPO/in-house) \u2014 own future article.",
+    "role": "spoke"
+  },
+  {
+    "keyword": "recruiting job salary",
+    "relevance": 6,
+    "distinctness": 3,
+    "brand_fit": 5,
+    "reason": "Near-duplicate of the recruiter-salary-range secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "recruiting jobs salary",
+    "relevance": 6,
+    "distinctness": 2,
+    "brand_fit": 5,
+    "reason": "Near-duplicate of the recruiter-salary-range secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "recruiting salaries",
+    "relevance": 6,
+    "distinctness": 2,
+    "brand_fit": 5,
+    "reason": "Near-duplicate of the recruiter-salary-range secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "recruiting salary",
+    "relevance": 6,
+    "distinctness": 3,
+    "brand_fit": 5,
+    "reason": "Near-duplicate of the recruiter-salary-range secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "recruitment wages",
+    "relevance": 6,
+    "distinctness": 3,
+    "brand_fit": 5,
+    "reason": "Near-duplicate of the recruiter-salary-range secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "recruitment career salary",
+    "relevance": 5,
+    "distinctness": 3,
+    "brand_fit": 4,
+    "reason": "Vague career-progression filler, near-duplicate of salary-range secondary.",
+    "role": "drop"
+  },
+  {
+    "keyword": "army recruiter salary",
+    "relevance": 3,
+    "distinctness": 5,
+    "brand_fit": 2,
+    "reason": "Military salaried role, not a commission-based recruiter type this asset covers.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much does a provider get paid",
+    "relevance": 2,
+    "distinctness": 3,
+    "brand_fit": 1,
+    "reason": "Ambiguous 'provider' term, most likely unrelated (e.g. healthcare) rather than recruiters.",
+    "role": "drop"
+  },
+  {
+    "keyword": "recruit salary",
+    "relevance": 2,
+    "distinctness": 3,
+    "brand_fit": 1,
+    "reason": "Ambiguous \u2014 likely refers to the person being recruited, not recruiter earnings; high KD too.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much do temp agencies pay",
+    "relevance": 1,
+    "distinctness": 2,
+    "brand_fit": 1,
+    "reason": "About agency pay to placed workers, not recruiter commission \u2014 off-topic.",
+    "role": "drop"
+  },
+  {
+    "keyword": "how much does temp agency pay",
+    "relevance": 1,
+    "distinctness": 2,
+    "brand_fit": 1,
+    "reason": "Off-topic duplicate of temp-agency-pay query.",
+    "role": "drop"
+  }
+]

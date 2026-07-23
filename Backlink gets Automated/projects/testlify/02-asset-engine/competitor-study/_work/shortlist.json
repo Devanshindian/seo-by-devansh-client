@@ -1,0 +1,160 @@
+{
+  "competitors": [
+    {
+      "domain": "testgorilla.com",
+      "group": "DIRECT",
+      "why": "Skills-assessment platform with AI-screened talent pool \u2014 head-on rival",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "adaface.com",
+      "group": "DIRECT",
+      "why": "Coding, aptitude and psychometric tests for 500+ roles",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "imocha.io",
+      "group": "DIRECT",
+      "why": "AI skill assessments (3,000+) and skills-intelligence platform",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "mettl.com",
+      "group": "DIRECT",
+      "why": "Mercer | Mettl \u2014 online proctored talent assessments",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "criteriacorp.com",
+      "group": "DIRECT",
+      "why": "Pre-employment assessments + video interviewing",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "vervoe.com",
+      "group": "DIRECT",
+      "why": "AI-graded skills assessments for hiring",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "testdome.com",
+      "group": "DIRECT",
+      "why": "Pre-employment skills tests (dev + role-based)",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "eskill.com",
+      "group": "DIRECT",
+      "why": "Customizable pre-employment skills assessments",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "thomas.co",
+      "group": "DIRECT",
+      "why": "Psychometric / behavioural talent assessments",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "bryq.com",
+      "group": "DIRECT",
+      "why": "Psychometric talent-assessment platform",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "alooba.com",
+      "group": "DIRECT",
+      "why": "Skills-assessment platform for data/tech hiring",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "xobin.com",
+      "group": "DIRECT",
+      "why": "Skills tests, behavioural assessments + AI interviews",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "wecreateproblems.com",
+      "group": "DIRECT",
+      "why": "WeCP \u2014 AI talent assessment, interview and upskilling",
+      "user_supplied": false,
+      "aliases": [
+        "wecp.io"
+      ],
+      "resolved": true
+    },
+    {
+      "domain": "hackerearth.com",
+      "group": "DIRECT",
+      "why": "AI-powered dev assessments and automated interviews",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "hipeople.io",
+      "group": "DIRECT",
+      "why": "AI hiring platform: resume screening, AI interviews, skills assessments",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "pmapstest.com",
+      "group": "DIRECT",
+      "why": "PMaps \u2014 AI-powered talent assessment and hiring tools",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "shrm.org",
+      "group": "ADJACENT",
+      "why": "World's largest HR association \u2014 every talent buyer reads it",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "aihr.com",
+      "group": "ADJACENT",
+      "why": "AIHR \u2014 HR-skills/analytics academy this buyer upskills on",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "cipd.org",
+      "group": "ADJACENT",
+      "why": "CIPD \u2014 UK HR professional body, authority for people teams",
+      "user_supplied": false,
+      "resolved": true
+    },
+    {
+      "domain": "peoplemanagingpeople.com",
+      "group": "ADJACENT",
+      "why": "People-ops publication read by HR/hiring leaders",
+      "user_supplied": false,
+      "resolved": true
+    }
+  ],
+  "excluded_notable": [
+    "indeed.com / ziprecruiter.com / monster.com \u2014 job boards, not assessment vendors",
+    "g2.com \u2014 software directory (hard exclusion)",
+    "forbes.com / hbr.org / inc.com \u2014 general business media (hard exclusion)",
+    "jobtestprep.com / practiceaptitudetests.com / aptitude-test.com / graduatesfirst.com \u2014 candidate-side test PREP, not employer assessment tools",
+    "workable.com / manatal.com / recruitee.com / breezy.hr \u2014 ATS/recruiting software, not assessment-first competitors",
+    "bamboohr.com / rippling.com / keka.com / deel.com \u2014 HRIS/payroll, wrong product"
+  ],
+  "note": "16 genuine direct assessment/AI-interview rivals found \u2014 I returned all of them since missing a direct is worse than going over 15. A few borderline directs sit just outside: testpartnership.com (aptitude vendor), x0pa.com and elevatus.io (AI-recruitment/video-interview, more ATS than assessment), hirequotient.com (screening/sourcing automation). Add these if you want wider coverage.",
+  "validation": {
+    "swapped": [],
+    "dropped": []
+  }
+}

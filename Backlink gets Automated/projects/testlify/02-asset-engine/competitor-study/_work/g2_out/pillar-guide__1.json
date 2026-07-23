@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 525,
+    "brand_fit": "CORE",
+    "angle_gap": "The 'science' section leans entirely on the 1998 Hunter & Schmidt meta-analysis with nothing newer, and the only worked example of a role's skill mix is a single SDR case \u2014 everything else stays abstract definitions.",
+    "asset": "Skills-Test Validity: What the Research Says 25 Years After the Study Everyone Still Cites",
+    "distinct_angle": "Brings the validity science current past the 1998 Hunter & Schmidt study and replaces the single SDR example with worked skill-test breakdowns across several role types.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 529,
+    "brand_fit": "CORE",
+    "angle_gap": "The page frames cheating prevention as a pitch for Alooba's own proprietary AACPS system rather than explaining concrete, vendor-neutral defenses \u2014 the 'innovations' section just gestures at capabilities without describing how any of them actually work.",
+    "asset": "How to Actually Stop Candidates from Cheating on a Remote Skills Test",
+    "distinct_angle": "Drops the product-pitch framing around one vendor's proprietary system and instead lays out concrete, vendor-neutral cheating-prevention tactics and current AI-detection methods the original only gestures at.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 989,
+    "brand_fit": "CORE",
+    "angle_gap": "The headline claim that structured interviews are 'two times more predictive' than unstructured ones is stated with no citation, and the sample scoring rubric and staff-training steps promised in the table of contents are gated behind a separate PDF download rather than delivered on the page.",
+    "asset": "Structured Interviews: Sourcing the '2x More Predictive' Claim Everyone Repeats",
+    "distinct_angle": "Traces and cites the unattributed '2x more predictive' statistic to real research, and delivers the sample scoring rubric and training steps in the article itself instead of behind a gated PDF.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1007,
+    "brand_fit": "CORE",
+    "angle_gap": "The legal framework stops at UGESP and the ADA, sourcing its key testimony to a 2007 EEOC hearing, and never mentions the AI-hiring regulations now in force \u2014 NYC Local Law 144 or the EU AI Act \u2014 that directly govern automated pre-employment testing.",
+    "asset": "Pre-Employment Testing Law Beyond UGESP: NYC Local Law 144 and the EU AI Act",
+    "distinct_angle": "Extends the page's 2007-era UGESP/ADA framework to cover the NYC LL144 and EU AI Act obligations it never addresses, which now govern automated testing directly.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1013,
+    "brand_fit": "CORE",
+    "angle_gap": "Construct, content, and criterion validity are explained purely in the abstract, with no worked numeric example of a correlation coefficient or how to actually read one, and the validity-generalization claim rests on a single 2007 expert-witness testimony.",
+    "asset": "How to Read a Pre-Employment Test's Validity Report, with a Worked Example",
+    "distinct_angle": "Turns the abstract construct/content/criterion validity definitions into a worked example with an actual correlation coefficient interpreted step by step, which the original never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,158 @@
+{
+  "slice_id": "w20",
+  "clusters": [
+    {
+      "pillar": "Leadership Development Programs & Plans",
+      "intent": "informational",
+      "spokes": [
+        "conduct-effective-leadership-development-programs",
+        "design-and-implement-hr-leadership-development-programs",
+        "how-ai-shapes-leadership-development-for-a-team",
+        "key-leadership-development-best-practices",
+        "leadership-development-programs-for-hr-professionals",
+        "most-in-demand-skills-driving-the-leadership-development",
+        "steps-to-create-a-leadership-development-plan",
+        "strategies-to-create-a-leadership-pipeline"
+      ]
+    },
+    {
+      "pillar": "Leadership Styles & Executive Leadership",
+      "intent": "informational",
+      "spokes": [
+        "adaptive-leadership",
+        "affiliative-leadership",
+        "executive-leadership-insights",
+        "leading-with-data-6-tech-strategies-for-executive-leaders",
+        "leaderships-key-role-in-developing-core-competencies",
+        "identify-and-assess-potential-leaders",
+        "build-visionary-leaders-without-lengthy-processes",
+        "identifying-customer-centric-retail-leaders",
+        "tasks-executives-should-delegate-to-boost-productivity"
+      ]
+    },
+    {
+      "pillar": "Talent Management Fundamentals & Strategy",
+      "intent": "informational",
+      "spokes": [
+        "common-mistakes-to-avoid-in-talent-management",
+        "how-to-get-started-with-talent-management",
+        "how-to-measure-roi-of-talent-management-initiatives",
+        "how-to-measure-the-success-of-your-talent-management-strategy",
+        "how-to-use-data-to-drive-talent-management-decisions",
+        "the-importance-of-talent-management-in-todays-economy",
+        "what-are-the-4-pillars-of-talent-management",
+        "talent-strategy",
+        "talent-optimization"
+      ]
+    },
+    {
+      "pillar": "Talent Planning & Talent Lifecycle Glossary",
+      "intent": "informational",
+      "spokes": [
+        "navigating-talent-planning-in-the-digital-era",
+        "roadmap-to-success-with-strategic-talent-planning",
+        "talent-planning-essentials-for-modern-businesses",
+        "talent-lifecycle",
+        "talent-development",
+        "talent-density",
+        "talent-gap",
+        "talent-review",
+        "talent-mobility",
+        "talent-matching",
+        "talent-search",
+        "talent-intelligence",
+        "talent-leader",
+        "internal-talent-marketplace-and-how-does-it-work",
+        "talent-mapping-and-how-to-use-it-to-your-advantage"
+      ]
+    },
+    {
+      "pillar": "Attracting & Retaining Top Talent",
+      "intent": "informational",
+      "spokes": [
+        "becoming-a-talent-attractor",
+        "best-strategies-for-attracting-top-tech-talent",
+        "boost-visibility-and-attract-top-talent-from-job-search-sites",
+        "compete-with-other-employers-for-top-talent-in-a-tight-job-market",
+        "evp-tools-strategies-attracting-senior-talent",
+        "how-ai-is-helping-startups-attract-top-talent",
+        "how-to-attract-and-retain-top-blue-collar-talent",
+        "how-to-retain-top-talent",
+        "stand-out-in-a-competitive-talent-market",
+        "strategies-to-attract-top-talents",
+        "techniques-for-identifying-and-attracting-top-talent",
+        "top-7-strategies-to-attract-the-best-technical-talent",
+        "why-mental-health-perks-helps-attract-top-talent",
+        "small-businesses-use-scheduling-software-to-attract-top-talent",
+        "how-hr-leaders-can-work-with-branding-agencies-to-win-talent-wars"
+      ]
+    },
+    {
+      "pillar": "Building High-Performing Teams by Function",
+      "intent": "informational",
+      "spokes": [
+        "build-a-top-notch-project-management-team",
+        "build-the-right-customer-support-team-structure",
+        "building-a-diverse-data-science-team",
+        "how-to-build-a-successful-data-science-team",
+        "how-to-build-a-successful-finance-management-team",
+        "how-to-build-a-successful-marketing-team",
+        "how-to-build-a-successful-sales-team",
+        "lead-gen-teams-what-they-do-and-how-to-build-one",
+        "tips-to-build-a-team-in-financial-sector",
+        "what-are-operations-teams-and-how-do-they-work",
+        "how-dedicated-development-teams-improve-project-delivery",
+        "scale-r-and-d-teams-without-missing-innovation"
+      ]
+    },
+    {
+      "pillar": "Team Structures, Autonomy & Global Teams",
+      "intent": "informational",
+      "spokes": [
+        "building-autonomous-teams",
+        "effective-strategies-for-managing-global-team",
+        "future-of-digital-innovation-flexible-team-structures",
+        "balance-productivity-with-flexible-work-arrangements",
+        "role-of-hr-in-building-effective-teamwork",
+        "virtual-team-building",
+        "creative-welcome-to-the-team-messages",
+        "tips-for-organizing-perfect-workation-for-your-team"
+      ]
+    },
+    {
+      "pillar": "HR Technology & AI for HR Teams",
+      "intent": "informational",
+      "spokes": [
+        "ai-features-transforming-hr-support-and-leadership",
+        "ways-technology-can-help-hr-teams",
+        "simplify-hr-team-work-processes",
+        "how-to-implement-a-learning-management-system-successfully",
+        "top-corporate-learning-management-systems",
+        "it-infrastructure-management-services-for-hr-and-ta-teams",
+        "better-alternative-for-hr-teams-than-office-deployment-tool",
+        "what-is-field-service-management-fsm-guide-hr-leadership",
+        "timesheet-management",
+        "esim-hr-global-talent-mobility-transformations"
+      ]
+    },
+    {
+      "pillar": "HR Manager Operational Skills & Crisis Management",
+      "intent": "informational",
+      "spokes": [
+        "conflict-resolution-skills-for-hr-manager",
+        "design-and-implement-successful-hr-crisis-management-plan",
+        "how-hr-leaders-can-prevent-quiet-firing",
+        "steps-to-ensure-a-smooth-probation-period-management",
+        "skill-will-matrix-a-simple-guide-for-managers"
+      ]
+    }
+  ],
+  "orphans": [
+    "achieve-winning-sports-teams-without-field-trials",
+    "dnp-leadership-degrees-redefining-healthcare-management",
+    "ethereum-rewriting-tech-talent",
+    "find-product-managers-with-our-scenario-evaluations",
+    "strategies-for-evaluating-nursing-talent",
+    "why-hr-leaders-should-master-academic-writing"
+  ]
+}

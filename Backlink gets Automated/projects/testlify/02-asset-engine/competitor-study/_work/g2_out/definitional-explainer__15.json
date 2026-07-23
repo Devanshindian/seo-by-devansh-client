@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 534,
+    "brand_fit": "CORE",
+    "angle_gap": "Generic bullet-point definitions of user roles, access levels, and audits with no concrete example \u2014 never distinguishes RBAC from ABAC, shows no sample permission-audit walkthrough, and the 'practical simulation' assessment idea is only named, never illustrated with an actual scenario or question.",
+    "asset": "Assessing Permission Management Skills: The RBAC vs ABAC Scenarios That Actually Separate Candidates",
+    "distinct_angle": "Replaces the page's abstract role/access bullet lists with a worked RBAC-vs-ABAC audit scenario and concrete interview questions, the concrete depth this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 535,
+    "brand_fit": "CORE",
+    "angle_gap": "Describes Crazy Egg's features (heatmaps, A/B testing, session recordings) at length but the assessment section is vague \u2014 it only names 'Concepts & Knowledge test' and 'Coding test' without a single sample question or a worked example of reading and acting on an actual heatmap.",
+    "asset": "Vetting Heatmap-Analytics Skills Beyond 'Have You Used Crazy Egg'",
+    "distinct_angle": "Adds a worked heatmap-interpretation scenario and specific follow-up interview questions in place of the page's vague, unillustrated test-type name-drops.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 536,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 general AI/data-analysis productivity topic, not a hiring or assessment subject; the hiring pitch is one bolt-on sentence at the end"
+  },
+  {
+    "row_id": 537,
+    "brand_fit": "CORE",
+    "angle_gap": "Filed under prompt-engineering skill concepts but the content is generic 'why accuracy matters' bullets that never connect factual accuracy to evaluating AI-generated or LLM output \u2014 no hallucination-detection angle despite the URL's own AI framing, and no worked fact-check exercise.",
+    "asset": "The Interview Questions That Reveal Whether a Candidate Can Catch an AI Hallucination",
+    "distinct_angle": "Closes the page's own gap between its 'prompt engineering' filing and its content by adding hallucination-detection scenarios and a worked fact-check exercise it never delivers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 539,
+    "brand_fit": "CORE",
+    "angle_gap": "Generic trait-definition bullets on why enthusiasm matters, but the assessment section only vaguely names a 'Written Response Essay' with no concrete behavioral questions and no guidance on telling genuine enthusiasm from rehearsed interview performance.",
+    "asset": "Interview Questions That Separate Genuine Enthusiasm from Rehearsed Enthusiasm",
+    "distinct_angle": "Supplies concrete behavioral questions and scoring guidance for spotting rehearsed vs. authentic enthusiasm, the distinction this page never makes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

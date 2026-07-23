@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1471,
+    "brand_fit": "CORE",
+    "angle_gap": "All 15 tools are covered as sequential prose blurbs with no side-by-side table for price, G2 rating, or proctoring depth \u2014 a reader has to read through all 15 write-ups to compare the same facts, and the text itself cuts off mid-list (Kand.io, Devskiller never get a real description).",
+    "asset": "Candidate Assessment Tools Compared on Price, Proctoring Depth, and Skill-Library Size",
+    "distinct_angle": "puts all the platforms into one comparison table (price, G2 rating, proctoring rigor, skill-library size) instead of forcing readers through 15 separate prose blurbs to extract the same facts",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1472,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "every tool blurb repeats vendor marketing language (AI-powered, dynamic taxonomy) without ever asking whether a mapped skill has actually been validated \u2014 the list treats a taxonomy as complete once skills are labeled and tracked, never flagging that an unverified taxonomy just formalizes guesswork.",
+    "asset": "Why Most Skills Taxonomies Run on Unverified Skills",
+    "distinct_angle": "names the gap this list glosses over: a taxonomy without validated assessment data behind each skill tag is organized guesswork, and shows what a validated taxonomy actually requires",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1473,
+    "brand_fit": "CORE",
+    "angle_gap": "written as a 2022 post with a 2026 label added to the title, it lists proctoring and plagiarism-detection features without once mentioning the biggest change in technical screening since 2022 \u2014 candidates using AI coding assistants during live assessments.",
+    "asset": "Technical Screening Tools Ranked by How They Actually Catch AI-Assisted Cheating",
+    "distinct_angle": "addresses AI-assisted cheating directly instead of leaving it as an unspoken gap behind vague plagiarism-detection bullet points",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1488,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "career paths in every one of the ten tools (iMocha's own employee skills profiles, Zavvy's career frameworks) run on self-reported or manager-assigned skill data \u2014 none of them address what happens when the skills feeding the path are wrong, so a flawed profile just produces a confidently flawed path.",
+    "asset": "Career Pathing Only Works If the Skills Behind It Are Actually Verified",
+    "distinct_angle": "names the gap the list never raises \u2014 paths built on unverified self-reported skills can point people at roles they aren't ready for \u2014 and lays out what verified skill data changes",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1494,
+    "brand_fit": "CORE",
+    "angle_gap": "the pricing comparison dates to January 2023 (TestGorilla's tiers have since changed) and every feature table is scored by iMocha itself with no stated evaluation criteria \u2014 a reader can't tell whether an 'Available' vs 'Not available' mark reflects a real capability gap or just how iMocha framed its own product.",
+    "asset": "TestGorilla vs the Alternatives, Scored on Criteria a Buyer Would Actually Trust",
+    "distinct_angle": "rebuilds the comparison with current pricing and disclosed, neutral evaluation criteria instead of one vendor grading itself against a rival with no stated rubric",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

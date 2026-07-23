@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2528,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 page is a bare card/nav listing of member-only template downloads (memo templates, sample letters) with no substantive body prose; subject is communicable-disease workplace policy, entirely outside hiring/assessment"
+  },
+  {
+    "row_id": 2537,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 scrape returned no real content, only broken embed placeholder text ('changing the context unsafe to disable XSS protection...') and nav boilerplate; nothing to read or beat"
+  },
+  {
+    "row_id": 2540,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 scrape returned no real content, only broken embed placeholder text ('changing the context unsafe to disable XSS protection...') and nav boilerplate; nothing to read or beat"
+  },
+  {
+    "row_id": 2541,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Covers generational differences in values and communication style for managing an existing team, but never connects any of it to hiring \u2014 no guidance on interviewing or testing candidates across five generations without tripping age-bias/EEOC risk, and no mention of how the AI-interview or timed-testing experience itself lands differently by generation.",
+    "asset": "Hiring Across Five Generations Without Triggering Age Bias in Your Assessments",
+    "distinct_angle": "SHRM's guide stops at managing generational differences post-hire; ours moves the lens to the point that actually creates legal and experience risk \u2014 designing interviews and skills tests (AI video screens, timed assessments) that stay EEOC-defensible and don't disadvantage any generation.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: multi-generational workforce leadership/management (post-hire, off-brand subject)"
+  },
+  {
+    "row_id": 2544,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 despite an on-brand title (pre-employment testing), scrape returned no real body content, only the same broken embed placeholder text as the other SHRM toolkit pages; no page to read or gap to identify"
+  }
+]

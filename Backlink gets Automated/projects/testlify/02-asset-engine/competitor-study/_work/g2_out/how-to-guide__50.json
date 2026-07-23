@@ -1,0 +1,29 @@
+[
+  {
+    "row_id": 3703,
+    "brand_fit": "CORE",
+    "angle_gap": "The page names two co-equal bottlenecks \u2014 the 7-14 day screen-to-interview gap and the 3-7 day feedback-consolidation gap it calls 'the most undertracked delay' \u2014 but only delivers a concrete fix for the first (via a pitch for Xobin's own Agentic AI Interview product) before the excerpt pivots into vendor pitch, leaving the feedback bottleneck named but unsolved.",
+    "asset": "Fixing the Feedback Bottleneck That's Quietly Doubling Your Time-to-Hire",
+    "distinct_angle": "Delivers the actionable fix for the feedback-consolidation delay \u2014 the bottleneck this page itself flags as 'the most undertracked delay' but never solves, having spent its fix section pitching AI screening instead.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3707,
+    "brand_fit": "CORE",
+    "angle_gap": "Step 1 ('Establish Your Recruiting Process') and Step 2 ('Understand Your Recruitment Process') describe the same sourcing \u2192 screening \u2192 interviewing \u2192 hiring stages twice, nearly verbatim, with zero conversion-rate or drop-off data at any stage \u2014 pure definition, no diagnostic.",
+    "asset": "The Hiring Funnel Stage by Stage: Where Candidates Actually Drop Off and Why",
+    "distinct_angle": "Replaces the redundant stage-description listicle (steps 1 and 2 repeat the same four stages almost word for word) with real stage-to-stage conversion and drop-off benchmarks pulled from public recruiting-funnel research, turning a definition into a diagnostic.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3715,
+    "brand_fit": "CORE",
+    "angle_gap": "The intro states 'a great way to tackle such challenges is through skills testing' but the article never returns to that \u2014 despite its title promising to 'identify AND resolve' skill issues, the visible content only covers definitions, causes, and cost stats (SHRM's $7,000/employee, Work Institute's 21% turnover figure), stopping at business impact without a diagnostic framework or skills-testing methodology.",
+    "asset": "A Practical Framework for Diagnosing Skill Gaps Before They Show Up in Performance Reviews",
+    "distinct_angle": "Delivers the skills-testing diagnostic process this page's own intro promises but never explains, going past causes and turnover stats into an actual step-by-step gap-identification framework.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

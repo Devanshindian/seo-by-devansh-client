@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3039,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 team synergy/team-building is post-hire people-management content (team dynamics, not hiring or assessment); belongs to a different product world (OD/team coaching) than skills assessment."
+  },
+  {
+    "row_id": 3042,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 workplace communication styles/training is general L&D content with no hiring or assessment angle; outside our world even though the buyer overlaps with HR."
+  },
+  {
+    "row_id": 3051,
+    "brand_fit": "CORE",
+    "angle_gap": "The page treats perception bias as a general workplace phenomenon and gives hiring only one passing line (recruiters overlooking Muslim- or African-American-sounding names) before pivoting to generic 360-feedback and D&I training advice. It never covers the concrete, hiring-specific interventions a TA team can actually implement \u2014 structured interviews, blind resume/CV screening, standardized scoring rubrics, or how skills-based assessment scoring removes subjective judgment calls from a hiring decision.",
+    "asset": "How Unconscious Bias Actually Shapes Who Gets Hired, and the Structured Screening Practices That Remove It",
+    "distinct_angle": "Goes deep specifically on hiring-stage bias mitigation \u2014 structured interviews, blind screening, standardized skills-based scoring \u2014 instead of the one throwaway line on recruiter bias buried inside a page about general workplace perception bias.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3055,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The page's central data point ('2020 marked a milestone... will reach 75% by 2025') is a stale, now-past-due projection with no current figure to replace it, and its retention advice (transparency, mentorship, tech investment) never connects to skills-based hiring or growth \u2014 it stays at the level of generic generational-trend platitudes rather than a concrete, actionable practice.",
+    "asset": "Why Skills-Based Hiring and Growth Paths Are What Actually Keep Millennial and Gen Z Talent in 2026",
+    "distinct_angle": "Replaces the stale 2020-projected-to-2025 stat with the current 2026 workforce composition figure, and reframes retention around skills-based internal mobility and growth (concrete, measurable) instead of the vague transparency/mentorship platitudes this page offers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3058,
+    "brand_fit": "CORE",
+    "angle_gap": "The page's 4-step process (identify skills, choose tools, implement, analyze) stays abstract throughout \u2014 it never shows a worked example of what a soft-skills rubric or scorecard actually looks like for a specific skill (e.g., how 'communication' or 'problem-solving' gets scored 1-5 with defined criteria), and it never addresses validity or adverse-impact considerations, which is exactly the kind of defensibility question a TA team needs answered before rolling out soft-skills testing.",
+    "asset": "A Worked Rubric for Scoring Communication, Problem-Solving, and Teamwork in a Soft Skills Assessment",
+    "distinct_angle": "Provides an actual worked scoring rubric with defined criteria per skill plus a validity/adverse-impact check, instead of the four abstract steps and vague 'behavioral assessment in 8 minutes' claim this page stops at.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

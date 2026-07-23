@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1269,
+    "brand_fit": "CORE",
+    "angle_gap": "The page's own table of contents promises 'types of aptitude tests,' 'can aptitude tests predict success,' and 'history of aptitude tests,' but the visible article stays stuck at the why-use-tests stage, repeatedly gates the real content behind a 'DOWNLOAD THE GUIDE' CTA, and cites a general CareerBuilder bad-hire stat with no example test questions or per-type breakdown ever shown in the article itself.",
+    "asset": "Aptitude Test Types Explained With a Real Sample Question for Every Type",
+    "distinct_angle": "Delivers every item promised in the competitor's own outline (test types, predictive-validity evidence, a worked sample question per type) directly in the article, instead of teasing it and gating it behind a PDF download.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1282,
+    "brand_fit": "CORE",
+    "angle_gap": "Each of the five OCEAN traits gets only a one-sentence definition plus an unsourced occupational-variable percentage; the only worked example is a single hypothetical manager anecdote used twice, and the piece pivots into an Adaface product pitch instead of showing how scores actually translate into a hiring call across different roles.",
+    "asset": "Reading a Candidate's Big Five Score for Manager, Sales, and Support Roles",
+    "distinct_angle": "Adds a worked scoring example per role (manager, sales, support) showing how each OCEAN trait combination maps to an actual hiring decision, where this page repeats one generic manager anecdote and unsourced stats.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1303,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Leans on the same oft-repeated LinkedIn stats (50% more qualified applicants, 43% lower cost-per-hire) without a current source, and name-drops Netflix and Google's EVPs in a single sentence each rather than showing what those EVPs actually contain or how they were measured.",
+    "asset": "The Employer Brand Metrics That Actually Predict Cost-Per-Hire, With Real Company Breakdowns",
+    "distinct_angle": "Grounds the recycled LinkedIn stats with current sourced figures and expands the one-line Netflix/Google mentions into full worked EVP breakdowns, which this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1312,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists four distinct verbal-reasoning skills (pattern identification, decoding, problem-solving through words, following instructions) but shows only a single worked example overall, borrowed from an academic GRE/LSAT framing rather than a hiring context.",
+    "asset": "Verbal Reasoning Test Questions for Hiring, One Worked Example Per Skill",
+    "distinct_angle": "Gives a worked hiring-context example for each of the four verbal-reasoning skills the page lists, instead of one generic true/false example lifted from academic test prep.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1313,
+    "brand_fit": "CORE",
+    "angle_gap": "Promises a '4 boxes' framework but the visible content only partially covers box 2 (communication) using a single unsourced stat (94% want feedback, 41% receive it) and never connects candidate experience to the actual assessment/testing step, an odd gap for an assessment vendor's own blog.",
+    "asset": "What Candidates Actually Hate About Your Skills Tests, and How to Fix It",
+    "distinct_angle": "Connects candidate experience specifically to the assessment step itself (test length, feedback turnaround, anti-cheating friction) where this page stays generic recruiting-process advice with zero mention of testing.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

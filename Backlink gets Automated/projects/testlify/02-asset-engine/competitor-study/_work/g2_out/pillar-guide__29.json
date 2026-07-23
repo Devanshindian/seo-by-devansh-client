@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3575,
+    "brand_fit": "CORE",
+    "angle_gap": "The page lists 'Screening and assessments' as a single one-line bullet inside a five-bullet list of what Talent Acquisition involves \u2014 no depth on assessment methodology, test types, or how screening actually integrates into the TA funnel, despite that being the stage recruiters most need guidance on.",
+    "asset": "How Skills Assessments Fit Into a Modern Talent Acquisition Strategy",
+    "distinct_angle": "Expands the one-line 'screening and assessments' bullet this page glosses over into a full framework \u2014 where testing sits in the TA funnel, which test types map to which stage \u2014 the depth this page never gives that stage.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3586,
+    "brand_fit": "CORE",
+    "angle_gap": "Last updated June 2026 but frames the 'current state of remote recruiting' entirely around 2020 lockdown conditions and COVID-19 statistics (e.g. '31% say Coronavirus was the trigger'), plus a stray plug for a QR-code tool unrelated to hiring \u2014 badly stale for a page claiming to be a 2026 guide.",
+    "asset": "Remote Hiring in 2026: What Actually Changed Since the Pandemic Boom",
+    "distinct_angle": "Replaces the pandemic-era framing and outdated 2020 statistics with the current 2026 state of remote hiring and screening practice \u2014 the currency this page lacks despite its 2026 title.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3596,
+    "brand_fit": "CORE",
+    "angle_gap": "The framework explains what a skills gap analysis is and why it matters, with strong proprietary stats, but never addresses HOW current skill levels get measured objectively \u2014 the process as described leans on manager judgment and self-report rather than validated, standardized skill testing, leaving the measurement step underspecified.",
+    "asset": "Measuring Skill Gaps With Validated Tests Instead of Manager Guesswork",
+    "distinct_angle": "Fills in the measurement-rigor step this page assumes but never details \u2014 how to score current skill levels with validated, standardized assessments rather than the self-report or manager-rated proficiency implied throughout.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3618,
+    "brand_fit": "CORE",
+    "angle_gap": "Validity, reliability, and norms are each defined with only a basic illustrative example (MBTI, a generic aptitude retest) and no concrete numbers \u2014 no reliability coefficient thresholds, no worked adverse-impact calculation \u2014 and the legal/compliance angle is reduced to one vague sentence about 'meeting regulations,' despite this being the exact question hiring teams ask before trusting a test.",
+    "asset": "How to Prove Your Pre-Employment Tests Are Legally Defensible, Not Just Valid",
+    "distinct_angle": "Adds the concrete reliability-coefficient benchmarks and the adverse-impact/four-fifths-rule legal-defensibility layer this page reduces to a single vague sentence on 'legal and ethical standards.'",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3619,
+    "brand_fit": "CORE",
+    "angle_gap": "The page's entire bias section is one-sided \u2014 it claims aptitude tests 'reduce bias' and 'ensure fair screening' without ever mentioning the well-documented adverse-impact risk that cognitive ability tests carry against certain protected groups, or how to mitigate it \u2014 a real omission for a page aimed at hiring teams who need EEOC-defensible screening.",
+    "asset": "The Adverse-Impact Risk of Aptitude Tests, and How to Screen for It Anyway",
+    "distinct_angle": "Covers the adverse-impact/legal-risk trade-off of cognitive aptitude testing that this page's one-sided 'reduces bias' framing omits entirely, plus concrete mitigation steps.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

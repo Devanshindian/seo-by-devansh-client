@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 25,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "One-paragraph definition of talent management ('systematic attraction, identification, development, engagement, retention, deployment') with generic listed benefits; sections like 'the talent management loop' and 'tracking and evaluating' exist only as page-nav headers with no visible framework, worked example, or metric \u2014 the real content sits behind member-only guides and link roundups.",
+    "asset": "Talent Management, Tied to the Metrics That Actually Prove It's Working",
+    "distinct_angle": "fills in the worked example and concrete tracking metrics (time-to-hire, quality-of-hire, retention lift) that CIPD's factsheet only gestures at through bare section headers and locked 'further reading' links.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 29,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Every substantive section \u2014 the identification methods, how to prepare, collecting/using the data, and the smaller-organisation guidance \u2014 is reduced to a bare page-nav header with zero visible method, example, or template; the actual content is member-gated.",
+    "asset": "Running a Learning Needs Analysis When You Don't Have an L&D Team",
+    "distinct_angle": "spells out the actual identification methods plus a worked example for a small team with no dedicated L&D function, where this factsheet locks that exact section behind membership and shows only a heading.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 33,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 induction/onboarding is a separate HR product world (onboarding/adoption tooling), not skills-assessment or pre-employment hiring; also almost entirely paywalled with only the intro visible."
+  },
+  {
+    "row_id": 35,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The hub is a scattered directory of links to unrelated reports, case studies, and thought-leadership posts on general AI-at-work adoption; nothing on the page synthesizes guidance for the one AI use case most relevant to a recruiter \u2014 screening and interviewing candidates with AI \u2014 and adverse-impact/compliance risk for candidate-facing AI is never addressed.",
+    "asset": "What HR Should Actually Do About AI in Hiring, Not Just AI at Work",
+    "distinct_angle": "narrows CIPD's scattered AI-at-work link list into one synthesized guide on AI interviewing and screening specifically, including the adverse-impact and compliance considerations the hub page never surfaces.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 36,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The page's own 'AI and technology terms defined' section exists only as a page-nav heading \u2014 no actual term definitions appear in the visible content \u2014 and none of the material addresses AI use in candidate screening, proctoring, or the adverse-impact/compliance risk specific to hiring decisions.",
+    "asset": "The AI-in-Hiring Terms Recruiters Actually Need Defined, Not Just Listed",
+    "distinct_angle": "actually defines the AI-in-hiring vocabulary (proctoring, adverse impact, AI-assistance detection) that this factsheet's term section never shows, since that section is a locked heading rather than real definitions.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

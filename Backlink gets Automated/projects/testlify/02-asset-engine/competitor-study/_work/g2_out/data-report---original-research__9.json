@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2526,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Built entirely on a Jan\u2013Feb 2022 SHRM/TalentLMS survey \u2014 stale by 2026 \u2014 and the stats (training methods, barriers, spend bands) are dumped as a scattered list with no throughline connecting the training gaps employees name (relevance, currency, more of it) back to a practical way to decide which skill gaps to fund first.",
+    "asset": "What Employees Actually Want From Workplace Training, and How to Target Budget at the Real Skill Gaps",
+    "distinct_angle": "Refreshes the 2022 survey figures with current L&D benchmark data and adds the missing framework for identifying which skill gaps to fund first, something the original only gestures at via a bullet list.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2927,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans on a 2021 UK-only survey (\u00a33,000 cost-per-hire, 57% mis-hire rate) that's now stale, and names the fix \u2014 'test culture or role fit' \u2014 as a single bullet with zero methodology for how a hiring team would actually do that before an offer.",
+    "asset": "Why Most New Hires Fail Within a Year \u2014 and How to Actually Test for Role Fit Before You Extend an Offer",
+    "distinct_angle": "Replaces the 2021 UK-only stats with current mis-hire cost benchmarks and adds the concrete how-to for pre-offer fit testing that this piece only names, never explains.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2986,
+    "brand_fit": "CORE",
+    "angle_gap": "This is the gated landing page for the same Thomas report \u2014 the visible content is five one-line teaser bullets ('Five things you need to know now') with zero explanation of any of them; the reader gets the 57% headline and nothing else without trading an email for the PDF.",
+    "asset": "Inside the Data on Why 57% of New Hires Aren't Working Out (No Download Required)",
+    "distinct_angle": "Writes out the full explanation the teaser withholds \u2014 why poor role/culture fit predicts failed hires \u2014 sourced from public reporting on the study instead of a lead-gated PDF.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3164,
+    "brand_fit": "CORE",
+    "angle_gap": "Vervoe discloses only its own single bias-audit result with no benchmark context \u2014 a buyer comparing AI hiring vendors has no sense of what a typical LL144 audit finds, what usually fails, or how Vervoe's numbers stack up against other vendors who are equally required to publish.",
+    "asset": "What NYC LL144 Bias Audit Disclosures From AI Hiring Vendors Actually Show",
+    "distinct_angle": "Builds a comparative picture from the publicly-mandated LL144 disclosures multiple vendors must post, filling the single-vendor context Vervoe's page never gives a buyer evaluating tools.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3291,
+    "brand_fit": "CORE",
+    "angle_gap": "The 2024 edition is already superseded by TestGorilla's own 2025 report; the in-page industry breakdown is thin (four sectors, one line each) and the real industry cut is gated behind a separate 'Talent over Titles in Tech' download, and adoption is only shown as three isolated headline numbers (56%\u219273%\u219281%) with no real trend narrative.",
+    "asset": "How Skills-Based Hiring Adoption Has Actually Moved From 2022 to Now, Industry by Industry",
+    "distinct_angle": "Synthesizes TestGorilla's own multi-year public reports (2022-2025) into one trend view and fills the industry-by-industry breakdown gated behind a separate download here, without commissioning a new survey.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

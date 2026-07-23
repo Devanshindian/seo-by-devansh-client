@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3413,
+    "brand_fit": "CORE",
+    "angle_gap": "Only 15 of the 100 listed PHP questions (5 basic, 5 intermediate, 5 advanced) get an 'answers to listen for' explanation; the remaining 85 are bare questions with no guidance on what a good answer sounds like.",
+    "asset": "PHP Interview Questions Where Every Single One Comes With What a Strong Answer Sounds Like",
+    "distinct_angle": "TestGorilla explains only 15 of its 100 PHP questions with sample answers, leaving interviewers to judge the other 85 blind \u2014 ours gives answer guidance for the full set.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3435,
+    "brand_fit": "CORE",
+    "angle_gap": "The 12 sample answers read as polished, near-identical scripts (e.g. repeated 'I remained calm, gathered information...' phrasing) with no guidance for interviewers on how to probe when a candidate gives an equally rehearsed-sounding answer.",
+    "asset": "Problem-Solving Interview Answers That Separate Genuine Experience From a Rehearsed Script",
+    "distinct_angle": "TestGorilla's own sample answers are generic and rehearsed-sounding with no follow-up probe to test authenticity; ours adds a follow-up question and a genuine-vs-rehearsed tell for each of the 12.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3439,
+    "brand_fit": "CORE",
+    "angle_gap": "Only 5 of the 70 listed mechanical-engineering questions (across general, behavioral, personality sections) get an explained sample answer; the other 65 are bare questions with no evaluation guidance.",
+    "asset": "Mechanical Engineering Interview Questions With What a Qualified Answer Sounds Like, Question by Question",
+    "distinct_angle": "TestGorilla explains only 5 of 70 mechanical-engineering questions, leaving interviewers without guidance on the other 65; ours covers the full list with what to listen for.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3441,
+    "brand_fit": "CORE",
+    "angle_gap": "The title promises '(+ answers to look for)' but each of the 50 questions is followed only by a bullet list of traits (e.g. 'relationship-building, collaboration'), never an actual sample answer or a way to tell a strong response from a weak one.",
+    "asset": "Project Manager Behavioral Interview Answers, Not Just the Traits to Look For",
+    "distinct_angle": "TestGorilla lists traits to look for per category but never shows an actual sample answer despite promising 'answers to look for' in the title; ours pairs each question with a real example answer and what separates a strong one from a weak one.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3451,
+    "brand_fit": "CORE",
+    "angle_gap": "Same structural gap as TestGorilla's PM version: each category gives trait descriptions ('look for empathy, patience...') but no actual sample-answer text for any of the 51 finance questions, and it leans on a self-cited '80%' stat from TestGorilla's own report rather than an independently sourced figure.",
+    "asset": "Finance Interview Answers That Show Financial Judgment, Not Just a List of Traits",
+    "distinct_angle": "TestGorilla gives trait lists per category but no worked sample answer for any of the 51 finance questions; ours pairs each question with a real answer example and the specific financial judgment it should demonstrate.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

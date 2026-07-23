@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 991,
+    "brand_fit": "CORE",
+    "angle_gap": "Every claim ('sign of professionalism', tied to attention-to-detail) is pure assertion with zero citation, no sample test item, and no concrete example of a workplace spelling error and its actual cost \u2014 it reads as CBST ad copy, not a resource.",
+    "asset": "The Real Business Cost of Poor Workplace Spelling, With the Evidence Criteria Skips",
+    "distinct_angle": "Backs every claim with a named, dated source and shows real example errors/test items, unlike this page's assertion-only copy that cites nothing.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 992,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 this is Criteria's post-hire employee development/engagement product (coaching, TEAMscan sentiment, manager check-ins, retention); brand scope explicitly excludes post-hire performance/engagement as an end in itself, and it isn't pre-employment assessment."
+  },
+  {
+    "row_id": 997,
+    "brand_fit": "CORE",
+    "angle_gap": "Skills/tasks list is a generic O*NET dump and the 'Overview' drifts into an off-topic riff on social-media and mobile-marketing trends; it never shows what a CCAT/EPP question actually looks like for this role or what score threshold predicts success, and cites no data on the cost of a bad marketing-manager hire.",
+    "asset": "What Separates a Strategic Marketing Manager From a Tactical One \u2014 And How to Test for It",
+    "distinct_angle": "Shows real example aptitude/personality question types tied to marketing-manager judgment calls, replacing the generic O*NET task list and off-topic trends tangent this page relies on.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1005,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites an unnamed, undated 'recent study' claiming 45% of employers plan more grammar training \u2014 no source, and likely a decade-old figure dressed as current \u2014 and never shows an actual grammar-test item or common workplace error pattern.",
+    "asset": "Why Grammar Still Gets Candidates Cut, With the Current Data Behind It",
+    "distinct_angle": "Names and dates the source behind the training-investment stat (refreshed to the current public figure) and adds real example test items/error patterns this page never shows.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1006,
+    "brand_fit": "CORE",
+    "angle_gap": "The one case study is a teaser link with zero real detail (no numbers, no before/after), and the overview never explains what an EI test item looks like or how a score actually translates into a hiring decision across roles.",
+    "asset": "How to Read Emotional Intelligence in a Candidate's Actual Answers",
+    "distinct_angle": "Walks through real example EI-assessment scenarios and shows how scores map to role fit, filling the gap left by the competitor's case-study teaser that shares no actual numbers or methodology.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

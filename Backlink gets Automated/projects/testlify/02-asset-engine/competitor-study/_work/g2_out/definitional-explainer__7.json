@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 79,
+    "brand_fit": "CORE",
+    "angle_gap": "Leans entirely on two anecdotes (Zappos, Apple) and a single unlinked survey stat; gives no replicable framework \u2014 no behavioral question set, no scorecard, and no acknowledgment that 'culture fit' is a known bias risk (vs. the now-standard 'culture add' reframing). The page even cuts off mid-sentence in its final section.",
+    "asset": "Culture Fit vs. Culture Add: A Bias-Aware Framework for Assessing It in Interviews",
+    "distinct_angle": "Replaces the two anecdotes and unsourced survey stat with a structured, bias-aware framework (behavioral questions, a scorecard, and the culture-add reframing) recruiters can actually run.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 80,
+    "brand_fit": "CORE",
+    "angle_gap": "Claims Holland's theory is 'confirmed valid across gender, race, and culture' with zero citation, and gives no guidance on adverse-impact or EEOC-defensibility for an employer using RIASEC scoring in hiring \u2014 the exact legal question a recruiter would ask before adopting it. No worked example of embedding it into a structured hiring process either.",
+    "asset": "Holland Codes in Hiring: A Legally Defensible Way to Use RIASEC Scoring",
+    "distinct_angle": "Sources the validity claim this page states without a citation and adds the adverse-impact/EEOC-defensibility guidance and a step-by-step hiring workflow this page never provides.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 87,
+    "brand_fit": "CORE",
+    "angle_gap": "Reads as co-branded partnership marketing (Bryq x Humanly) rather than an educational resource \u2014 vague claims like 'game changer' and 'streamlines the hiring process' with no named tool categories, no metrics, and no explanation of what the 'regular audits' or NYC LL144 compliance it name-drops actually require.",
+    "asset": "What AI Actually Does at Each Stage of Talent Acquisition, Beyond the Vendor Pitch",
+    "distinct_angle": "Swaps the vague partnership-marketing framing for a concrete, stage-by-stage breakdown of AI touchpoints in hiring and explains what NYC LL144 bias-audit compliance actually requires \u2014 specifics this page only name-drops.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 88,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 workplace stress/employee wellbeing is post-hire culture and general HR, not hiring or assessment; off-limits per brand scope, and the format (plain explainer) isn't a strong link-pulling shape worth transplanting"
+  },
+  {
+    "row_id": 90,
+    "brand_fit": "CORE",
+    "angle_gap": "Asserts strong predictive validity for cognitive ability tests but never mentions their well-documented adverse-impact risk on protected groups, and cites '80% of Fortune 500 use pre-employment testing' with no source \u2014 a major omission for a legally-conscious hiring audience, with no example test subtypes or mitigation guidance.",
+    "asset": "Cognitive Ability Tests and Adverse Impact: Managing the Predictive-Validity Trade-off",
+    "distinct_angle": "Adds the adverse-impact/EEOC-defensibility trade-off this page omits entirely, plus concrete guidance on combining cognitive tests with other assessments to reduce disparate impact, sourcing the Fortune 500 stat it leaves unlinked.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

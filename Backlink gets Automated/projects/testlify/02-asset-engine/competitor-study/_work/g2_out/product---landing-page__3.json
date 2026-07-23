@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 415,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists only four generic skill areas (data entry, formulas, pivot tables, macros) in one line each, with no sample question, no difficulty tiers, and no explanation of how a score maps to real job performance in finance or admin roles.",
+    "asset": "Excel Skills by Job Level: What Data Entry Clerks, Analysts, and Controllers Need to Know",
+    "distinct_angle": "Breaks Excel competency into role-specific tiers with a worked example task per level, filling the depth the competitor's four one-line bullets skip.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 421,
+    "brand_fit": "CORE",
+    "angle_gap": "The URL and title promise typing and keyboarding testing, but the page text never mentions typing speed, WPM, or keyboarding once. It is a generic directory of test categories (cognitive, hard skills, soft skills, behavioral) with zero typing-specific content.",
+    "asset": "Typing and Data Entry Speed Standards by Job: WPM and Accuracy Benchmarks That Matter",
+    "distinct_angle": "Delivers the typing and keyboarding content the competitor's page title promises but never provides, citing WPM and accuracy benchmarks by role instead of a generic test-category list.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 423,
+    "brand_fit": "CORE",
+    "angle_gap": "Defines four behavioral traits (working style, team dynamics, emotional resilience, motivation) in one line each, names no underlying framework, gives no example scenario, and never addresses validity or adverse-impact risk, the exact question a TA leader or legal team would ask before adopting a behavioral test.",
+    "asset": "What Behavioral Assessments Measure and How to Defend Them If Challenged",
+    "distinct_angle": "Names the framework behind each trait and shows a worked example item, plus the validity and adverse-impact case the competitor's page never makes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 433,
+    "brand_fit": "CORE",
+    "angle_gap": "Claims recruiting costs drop 70% and time-to-hire drops 60% with no source or methodology, and lists three generic skills (basic computer, organizational, interpersonal) without staffing-specific detail like how to structure a high-volume screening funnel across light industrial, healthcare, or professional placements.",
+    "asset": "Building a High-Volume Screening Funnel for Staffing Agencies, Stage by Stage",
+    "distinct_angle": "Replaces the competitor's unsourced 70%/60% claims with a stage-by-stage funnel breakdown naming which test belongs at each stage, the staffing-specific depth the page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 436,
+    "brand_fit": "CORE",
+    "angle_gap": "Same shallow four-bullet structure as the competitor's Excel page: no sample mechanical-reasoning question, no difficulty tiers, and no mapping to specific trades (electrician, millwright, and HVAC tech are all lumped into one generic test).",
+    "asset": "Mechanical Aptitude by Trade: What Electricians, Millwrights, and HVAC Techs Need to Know",
+    "distinct_angle": "Breaks mechanical aptitude into trade-specific competencies with a worked example question per trade, unlike the competitor's generic four-bullet list with no examples or role mapping.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

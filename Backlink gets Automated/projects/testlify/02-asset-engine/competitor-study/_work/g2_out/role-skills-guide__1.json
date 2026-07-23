@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1205,
+    "brand_fit": "CORE",
+    "angle_gap": "The 8 fundamental and 10 secondary skills each get one generic paragraph (e.g. 'Technical Proficiency... helps them quickly diagnose problems') with no example ticket, no proficiency tiers (L1/L2/L3), and no sample answer to judge candidates against, despite the title promising 'how to assess them.'",
+    "asset": "How to Tell a Strong Help Desk Technician From a Resume Padder, Skill by Skill",
+    "distinct_angle": "Pairs each of the 8 core skills with a real ticket scenario and a strong-vs-weak sample answer, the worked detail this list-only page skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1207,
+    "brand_fit": "CORE",
+    "angle_gap": "SEO Knowledge is defined only as 'optimizing content to rank higher on search engines,' with no mention of AI-written content or search generative experience and how those shifts changed what the skill means for a hiring manager screening candidates in 2026.",
+    "asset": "What Content Manager Skills Actually Mean Now That AI Writes First Drafts",
+    "distinct_angle": "Updates the SEO and content-creation skill definitions for the AI-content era this 2024 list never addresses, with a scenario per skill instead of a one-line description.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1208,
+    "brand_fit": "CORE",
+    "angle_gap": "Negotiation Skills and Supplier Assessment are each described in the abstract ('must be adept at negotiating terms') with no worked bid-negotiation scenario or supplier-evaluation example to separate a candidate who talks about it from one who can do it.",
+    "asset": "Judging a Purchasing Officer's Negotiation and Supplier Calls With Real Scenarios",
+    "distinct_angle": "Replaces the abstract skill descriptions with a worked supplier-negotiation and cost-analysis scenario per skill, plus what a strong vs weak answer looks like.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1209,
+    "brand_fit": "CORE",
+    "angle_gap": "Process Optimization and Automation Systems are each covered in one paragraph with no worked root-cause scenario, and no mention of how Industry 4.0 automation adoption has shifted what 'automation skill' means for the role.",
+    "asset": "Assessing Manufacturing Engineers on Process-Optimization Judgment, Not a Skills Checklist",
+    "distinct_angle": "Adds a worked process-optimization scenario per core skill and folds in current automation-adoption context the checklist skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1210,
+    "brand_fit": "CORE",
+    "angle_gap": "Requirements Gathering and Data Modeling get a one-paragraph definition each, no worked requirements-gathering exercise, and no mention of AI-assisted or low-code tooling that has changed what a System Analyst needs to know since 2024.",
+    "asset": "What to Actually Test When Hiring a System Analyst in 2026",
+    "distinct_angle": "Pairs each core skill with a concrete requirements-gathering or data-modeling exercise and updates the skill set for AI-assisted and low-code tools the original list skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

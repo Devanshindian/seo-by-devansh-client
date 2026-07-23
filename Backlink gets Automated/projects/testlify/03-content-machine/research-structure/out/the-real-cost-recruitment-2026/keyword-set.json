@@ -1,0 +1,53 @@
+{
+  "primary": "cost per hire",
+  "variations": [
+    "costs per hire",
+    "cost of hire",
+    "cost to hire",
+    "hire cost"
+  ],
+  "secondaries": [
+    "calculate cost per hire",
+    "hard costs vs soft costs",
+    "how much do recruitment agencies charge",
+    "recruitment fee"
+  ],
+  "in_body": [
+    "cost of hiring",
+    "costs of hiring",
+    "hiring cost",
+    "hiring costs"
+  ],
+  "h2_keywords": [
+    {
+      "keyword": "cost per hire",
+      "volume": 210,
+      "kd": 7
+    },
+    {
+      "keyword": "calculate cost per hire",
+      "volume": 110,
+      "kd": 4
+    },
+    {
+      "keyword": "linkedin job posting fees",
+      "volume": 590,
+      "kd": 6
+    },
+    {
+      "keyword": "cost of background check",
+      "volume": 1300,
+      "kd": 4
+    },
+    {
+      "keyword": "time to fill",
+      "volume": 210,
+      "kd": 13
+    },
+    {
+      "keyword": "employee turnover cost",
+      "volume": 480,
+      "kd": 32
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1305,
+    "brand_fit": "CORE",
+    "angle_gap": "Gives a correct-answer explanation for each question (e.g., value vs reference types, polymorphism) but never states what separates a strong candidate's answer from a memorized one \u2014 no evaluation cues or follow-up probes for the interviewer running the session.",
+    "asset": "C# Interview Questions With Built-In Cues for Spotting a Rehearsed Answer",
+    "distinct_angle": "Adds an evaluation layer next to each answer \u2014 what a strong vs weak response sounds like and a follow-up probe \u2014 closing the rubric gap this page leaves open.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1307,
+    "brand_fit": "CORE",
+    "angle_gap": "Written as tutorial explanations aimed at teaching the concept itself (e.g., 'imagine a variable is like a labeled box... like explaining it to a child') rather than as an evaluation rubric \u2014 gives no guidance on what marks a junior vs a strong response, so a recruiter can't judge answer quality.",
+    "asset": "Programming Interview Questions a Non-Technical Recruiter Can Actually Score",
+    "distinct_angle": "Reframes each concept explanation as a scoring cue for interviewers instead of a teaching explainer, fixing the 'written for learners, not evaluators' gap.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1314,
+    "brand_fit": "CORE",
+    "angle_gap": "Already includes some evaluation cues ('look for candidates who understand the impact of missing data...') but they stay generic rather than a scored rubric distinguishing pass/fail responses \u2014 thin on the kind of defensible, auditable scoring a compliance-minded TA function needs.",
+    "asset": "SAS Interview Questions With a Defensible, Auditable Scoring Rubric",
+    "distinct_angle": "Turns the page's vague 'look for candidates who...' notes into a scored, auditable rubric per question \u2014 the defensibility this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1317,
+    "brand_fit": "CORE",
+    "angle_gap": "Frames 'Magento 1 vs Magento 2' as still the core knowledge check, but Magento 1 is end-of-life and the ecosystem has moved on to Adobe Commerce and headless/PWA architectures \u2014 the question set doesn't reflect what a Magento hire actually needs to know today.",
+    "asset": "Magento Interview Questions Rebuilt for the Adobe Commerce and Headless Era",
+    "distinct_angle": "Updates the question set to Adobe Commerce, cloud, and headless/PWA realities instead of the legacy Magento 1 vs 2 framing this page is stuck on.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1322,
+    "brand_fit": "CORE",
+    "angle_gap": "Covers only classic pre-LLM NLP (tokenization, stop-word removal, lexicon/classifier-based sentiment analysis) with no mention of transformers, embeddings, or LLM/prompt-engineering skills that now define most NLP hiring \u2014 stale relative to how the field has moved since 2023.",
+    "asset": "NLP Interview Questions for Hiring in the LLM Era, Not Just Classic NLP",
+    "distinct_angle": "Swaps in transformer, embeddings, and LLM/prompt-engineering questions to replace the classic-NLP-only coverage this page stopped at.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Competitor Study — Idea Backlog Method 1</title>
+<style>
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16px; -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:960px; margin:0 auto; padding:0 28px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:56px 0 38px;}
+  .kicker{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:4px 11px; border-radius:100px; margin-bottom:16px;}
+  h1{font-size:clamp(26px,5vw,42px); line-height:1.1; margin:0 0 12px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:18px; color:var(--muted); max-width:660px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.93); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:3px; flex-wrap:wrap; padding:9px 0;}
+  nav a{font-size:12.5px; font-weight:600; color:var(--muted); text-decoration:none; padding:5px 10px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:50px 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  section.alt{background:var(--cream);}
+  h2{font-size:25px; letter-spacing:-.01em; margin:0 0 4px;}
+  h2 .num{color:var(--orange); margin-right:9px;}
+  .sub{color:var(--muted); margin:0 0 24px; font-size:16px; max-width:700px;}
+  h3{font-size:16.5px; margin:22px 0 7px;}
+  p{margin:0 0 12px;}
+  ul{margin:6px 0 12px; padding-left:20px;}
+  li{margin:4px 0; font-size:15px; color:var(--muted);}
+  li b{color:var(--ink);}
+
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:11.5px; background:#fff;
+    border:1px solid var(--orange-soft); border-radius:5px; padding:2px 6px; color:var(--ink);}
+  code{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#f5f0e8; border-radius:4px; padding:1px 5px;}
+
+  .note{border-radius:11px; padding:13px 16px; margin:14px 0; font-size:14.5px; border:1px solid;}
+  .note.yellow{background:var(--cream); border-color:var(--line); border-left:4px solid var(--yellow);}
+  .note.orange{background:var(--wash); border-color:var(--orange-soft); border-left:4px solid var(--orange);}
+  .note.green{background:var(--green); border-color:var(--green-line); border-left:4px solid var(--green-ink);}
+  .note strong{display:block; font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; margin-bottom:3px;}
+  .note.yellow strong,.note.orange strong{color:var(--orange);}
+  .note.green strong{color:var(--green-ink);}
+
+  /* step flow */
+  .flow{margin-top:10px;}
+  .step{display:flex; gap:15px; position:relative; padding:10px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:21px; top:48px; bottom:-10px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-weight:800;
+    font-size:15px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow);}
+  .dot.gate{background:var(--orange-soft); border-color:var(--orange);}
+  .step-body{padding-top:1px;}
+  .step-body h3{margin:0 0 3px; font-size:15.5px;}
+  .step-body p{margin:0; color:var(--muted); font-size:14.5px;}
+  .step-body ul{margin:5px 0 0; padding-left:18px;}
+  .step-body li{font-size:14px;}
+
+  /* two-col */
+  .two{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:16px 0;}
+  .box{border:1px solid var(--line); border-radius:12px; padding:16px 18px; background:var(--paper); box-shadow:var(--shadow);}
+  .box.accent{border-left:3px solid var(--orange); background:var(--wash);}
+  .box .label{font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-bottom:6px;}
+  .box.accent .label{color:var(--orange);}
+  .box h3{margin:0 0 5px; font-size:15.5px;}
+  .box p{margin:0; font-size:13.5px; color:var(--muted);}
+
+  /* output files */
+  .outfiles{display:flex; flex-direction:column; gap:10px; margin:16px 0;}
+  .outfile{border:1px solid var(--line); border-radius:11px; padding:14px 16px; background:var(--paper); box-shadow:var(--shadow);}
+  .outfile .f{margin-bottom:5px;}
+  .outfile p{margin:0; font-size:14px; color:var(--muted);}
+
+  /* trap cards */
+  .traps{display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; margin:16px 0;}
+  .trap{border:1px solid var(--line); border-radius:11px; padding:14px 16px; background:var(--paper); box-shadow:var(--shadow);}
+  .trap .tnum{font-size:22px; font-weight:800; color:var(--yellow); line-height:1; margin-bottom:6px;}
+  .trap h3{margin:0 0 4px; font-size:14.5px;}
+  .trap p{margin:0; font-size:13px; color:var(--muted);}
+
+  /* compare tables */
+  .ctable{width:100%; border-collapse:collapse; margin:12px 0; border-radius:11px; overflow:hidden; border:1px solid var(--line); box-shadow:var(--shadow); font-size:14px;}
+  .ctable th{text-align:left; padding:8px 12px; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); background:var(--cream); border-bottom:2px solid var(--line);}
+  .ctable td{padding:9px 12px; border-bottom:1px solid var(--line); vertical-align:top;}
+  .ctable tr:last-child td{border-bottom:none;}
+  .bad{color:var(--red-ink);}
+  .good{color:var(--green-ink);}
+
+  /* score cards */
+  .scores{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:12px 0;}
+  .score{border:1px solid var(--line); border-radius:11px; padding:14px 16px; background:var(--paper); box-shadow:var(--shadow);}
+  .score h3{margin:0 0 8px; font-size:15px;}
+  .score ul{margin:0; padding-left:18px;}
+  .score li{font-size:13.5px; margin:4px 0;}
+
+  /* format sample table */
+  .ftable{width:100%; border-collapse:collapse; margin:12px 0; border-radius:11px; overflow:hidden; border:1px solid var(--line); box-shadow:var(--shadow); font-size:14px;}
+  .ftable th{text-align:left; padding:8px 12px; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); background:var(--cream); border-bottom:2px solid var(--line);}
+  .ftable td{padding:9px 12px; border-bottom:1px solid var(--line);}
+  .ftable tr:last-child td{border-bottom:none;}
+  .ftable .big{font-weight:600;}
+
+  footer{padding:32px 0 52px; color:var(--muted); font-size:13px;}
+  @media(max-width:700px){.two,.traps,.scores{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="kicker">Asset Engine · Idea Backlog · Method 1 of 3</span>
+    <h1>Competitor Study — <span class="hl">steal the format, not the topic</span></h1>
+    <p class="lede">Find the pages that earn competitors the most backlinks. Take the format — the shape
+    that earned those links — and build our own version on a subject we own.</p>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#concept">Concept</a>
+    <a href="#output">Output</a>
+    <a href="#step-a">A — Competitors</a>
+    <a href="#loop">B–E — The loop</a>
+    <a href="#step-f">F — Aggregate</a>
+    <a href="#step-g">G — Ideas</a>
+    <a href="#step-h">H — Deliver</a>
+  </div>
+</nav>
+
+<!-- CONCEPT -->
+<section id="concept">
+  <div class="wrap">
+    <h2><span class="num">01</span>Format, not topic</h2>
+    <p class="sub">The format is the shape of the page — a calculator, a glossary, a data report. The topic
+    is what it's about. Backlinks attach to formats. We steal the shape, change the subject.</p>
+    <div class="two">
+      <div class="box">
+        <div class="label">Topic — what the page covers</div>
+        <h3>Ignore this</h3>
+        <p>A competitor's "Retention Bonus: What It Is and How It Works." Copying the topic means
+        competing head-to-head on their turf.</p>
+      </div>
+      <div class="box accent">
+        <div class="label">Format — the shape that earned the links</div>
+        <h3>Steal this</h3>
+        <p>That same page is a definitional answer-bait page. Build one on a term we own.</p>
+      </div>
+    </div>
+    <div class="note yellow"><strong>Method 1 of 3</strong>
+    Competitor Study, Model Other Niches, and Study Trends all feed the same idea backlog. This method
+    finds which formats earn links inside our niche. The other two add formats from outside it.</div>
+  </div>
+</section>
+
+<!-- OUTPUT -->
+<section id="output" class="alt">
+  <div class="wrap">
+    <h2><span class="num">02</span>What this produces</h2>
+    <p class="sub">Two files. The decision file is what the team acts on. The evidence file is what backs it up.</p>
+    <div class="outfiles">
+      <div class="outfile">
+        <div class="f"><span class="file">competitor-study-ideas.xlsx</span> — decision file</div>
+        <p><b>Tab 1: Format summary</b> — which shapes earn links, ranked by total linking domains across all 15 competitors.<br>
+        <b>Tab 2: Ideas</b> — one row per buildable asset: brand fit, distinct angle, domain evidence, beatability, effort.</p>
+      </div>
+      <div class="outfile">
+        <div class="f"><span class="file">competitor-formats.xlsx</span> — evidence file</div>
+        <p>One row per kept competitor page across all 15: format tag, full scraped page text, and the Idea # linking it back to Tab 2.</p>
+      </div>
+    </div>
+    <p style="font-size:14px; color:var(--muted);">Raw exports and working files go in <span class="file">_raw/</span> and <span class="file">_work/</span>. The output folder holds only the two deliverables, <span class="file">competitors.md</span>, and <span class="file">brand-scope.md</span>.</p>
+  </div>
+</section>
+
+<!-- STEP A -->
+<section id="step-a">
+  <div class="wrap">
+    <h2><span class="num">A</span>Shortlist 15 competitors</h2>
+    <p class="sub">Build the list from three sources. Gate on user approval before studying anyone.</p>
+    <div class="flow">
+      <div class="step"><div class="dot">1</div><div class="step-body">
+        <h3>Two Semrush exports — user runs these</h3>
+        <p>SEO → Domain Overview → enter the company domain → export <b>Main Organic Competitors</b> (top 100) and <b>Main Paid Competitors</b> (top 100). Save both to <span class="file">_raw/discovery/</span>. Domains in both lists are the strongest candidates.</p>
+      </div></div>
+      <div class="step"><div class="dot">2</div><div class="step-body">
+        <h3>Ask the user</h3>
+        <p>Any competitors they already have in mind — add to the pool.</p>
+      </div></div>
+      <div class="step"><div class="dot">3</div><div class="step-body">
+        <h3>Pick 15 — ~10 direct, ~5 adjacent</h3>
+        <p>Rank by Competitor Relevance, then prefer higher Organic Keywords/Traffic. Search every domain before bucketing — don't guess from the name.</p>
+        <ul>
+          <li><b>Direct</b> — same product, same buyer</li>
+          <li><b>Adjacent content leaders</b> — same audience, different product (ATS platforms, HR academies, industry authorities). If the Semrush lists have none, add them manually.</li>
+        </ul>
+      </div></div>
+      <div class="step"><div class="dot gate">4</div><div class="step-body">
+        <h3>User approval — gate</h3>
+        <p>Present the 15 with the split. Only continue once approved. Write to <span class="file">output/competitors.md</span>.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- LOOP B–E -->
+<section id="loop" class="alt">
+  <div class="wrap">
+    <h2><span class="num">B–E</span>The loop — repeat for each of the 15</h2>
+    <p class="sub">Steps B, C, D, E run for every competitor and append to one growing master sheet <span class="file">_work/competitor-formats.csv</span>. Move to F only after all 15 are done.</p>
+
+    <h3>B — Pull Indexed Pages from Semrush (user runs this)</h3>
+    <p>Semrush → search the competitor domain → Link Building → Backlinks → Indexed Pages tab → sort by Domains descending → Export CSV. This is the competitor's own pages ranked by how many sites link to them. Attach in chat; the agent files it to <span class="file">_raw/[competitor]-indexed-pages.csv</span>.</p>
+    <p style="font-size:14px; color:var(--muted);">Validate before using: the first row must be the real CSV header. A file starting with <code>&lt;!DOCTYPE html&gt;</code> or a few KB is a login wall, not data — re-export. Tick off each competitor as a valid file arrives.</p>
+
+    <h3>C — Filter to replicable pages (top 300 by domains)</h3>
+    <p>Take the top 300 rows by Domains. Drop:</p>
+    <ul>
+      <li>Homepages and root variants</li>
+      <li>Dead pages — 404 and 410 only. <b>Keep redirects (301/302) on real content paths</b> — many sites serve editorial on migrated URLs and those pages still hold their links. Only drop root-variant redirects.</li>
+      <li>Locale duplicates — /fr/, /de/, /es/ etc. Keep the English original.</li>
+      <li>Commercial and utility pages — pricing, login, signup, contact</li>
+      <li>Navigation and archive pages — /blog/ index, tag/category archives</li>
+      <li>User-generated pages — certificate pages, single question pages, filtered question lists</li>
+      <li>Job postings and app pages</li>
+      <li>Non-content subdomains — keep only root, www., blog., resources.</li>
+    </ul>
+    <p style="font-size:14px; color:var(--muted);"><b>Keep free tests, tools, and calculators</b> — they earn real links and are replicable. Only commercial product pages get dropped. If one competitor's kept count looks very low compared to the others, the filter is over-dropping — check the redirect rule.</p>
+
+    <h3>D — Tag each kept page by format</h3>
+    <p>Read the URL and title, assign one format tag. Standard formats: answer-bait (what-is/how-it-works), glossary, calculator, data report, free test/assessment, interview-questions listicle, templates, comparison list, ultimate guide, checklist. Name a new format if a page genuinely fits none — apply it consistently across all 15.</p>
+    <p>Append to the master sheet: Competitor | URL | Format | Domains | Backlinks.</p>
+
+    <h3>E — Read every kept page in full</h3>
+    <p>For every kept page, scrape the complete body text and store it verbatim in the "What it is" column. Not a summary, not the title — the full page content. This is what the ideation step reads to find what's missing or thin. If this column just has a title, it's impossible to write a real angle from it.</p>
+    <ul>
+      <li>Read every kept page — not just the ones with the most linking domains. Under-served formats tend to show up in the pages further down the list, not at the top.</li>
+      <li>If a page won't load, note it clearly as failed. Never use the page title as a stand-in for the body text — it looks like data but tells you nothing about what's actually on the page.</li>
+      <li>At the end, confirm the count: pages successfully read plus pages that failed should equal the total number of kept pages. If the numbers don't add up, something was skipped.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- STEP F -->
+<section id="step-f">
+  <div class="wrap">
+    <h2><span class="num">F</span>Aggregate by format across all 15</h2>
+    <p class="sub">Once the B–E loop is done, aggregate the master sheet by format and rank by Total Domains.</p>
+    <table class="ftable">
+      <tr><th>Format</th><th>Pages</th><th>Total Domains</th><th>Avg Domains</th><th>Competitors</th></tr>
+      <tr><td class="big">Glossary / dictionary</td><td>37</td><td>4,565</td><td>123</td><td>7</td></tr>
+      <tr><td class="big">Free test / assessment</td><td>332</td><td>5,654</td><td>17</td><td>9</td></tr>
+      <tr><td class="big">Data report</td><td>14</td><td>3,820</td><td>273</td><td>6</td></tr>
+    </table>
+    <p style="font-size:14px; color:var(--muted);">Formats that recur across several competitors carry the strongest signal. Save to <span class="file">_work/format-summary.csv</span> — this becomes Tab 1 of the deliverable.</p>
+  </div>
+</section>
+
+<!-- STEP G -->
+<section id="step-g" class="alt">
+  <div class="wrap">
+    <h2><span class="num">G</span>Turn every row into an idea</h2>
+    <p class="sub">Each kept page becomes one proposed asset: same winning format, subject we own, built to beat the specific gap on that page. Pages that produce the same idea get merged. A 1,500–2,500 row master typically yields 100–300+ ideas.</p>
+
+    <h3>Three traps this step is designed against</h3>
+    <div class="traps">
+      <div class="trap">
+        <div class="tnum">1</div>
+        <h3>Too generic</h3>
+        <p>"Build a glossary because glossaries pull links." No topic, no angle.</p>
+      </div>
+      <div class="trap">
+        <div class="tnum">2</div>
+        <h3>Too copying</h3>
+        <p>"Build a retention-bonus glossary because Competitor A has one." Head-to-head on their exact topic.</p>
+      </div>
+      <div class="trap">
+        <div class="tnum">3</div>
+        <h3>Fake analysis</h3>
+        <p>A spreadsheet that looks full but is one template filled 400 times. Tell: asset names read as "Format on Topic," angle gaps repeat the same sentence across rows.</p>
+      </div>
+    </div>
+
+    <h3>G0 — Distil the brand scope (gate, runs once)</h3>
+    <p>Read the brand brain and write a short <span class="file">output/brand-scope.md</span>: what the company is, subjects it credibly owns, and what's off-limits. This is the shared reference every ideation agent in G2 reasons against. Get user approval before running G2.</p>
+
+    <h3>G1 — Prepare the working sheet</h3>
+    <p>Assign a stable Row ID to every master row. Add empty columns: Idea # | Asset | Brand fit | Angle gap | Distinct angle | Notes. G2 fills everything except Idea #. G3 fills Idea #.</p>
+
+    <h3>G2 — Per-row reasoning (parallel sub-agents, 5 rows at a time)</h3>
+    <p>Run as parallel sub-agents sharded by format. Each agent processes its rows <b>5 at a time</b> — more than that causes the model to pattern-match across the batch and go generic. Each agent receives the approved brand-scope.md, the naming rules, and its rows with full page text from Step E.</p>
+    <p>For each row, the agent:</p>
+    <ul>
+      <li>Sets <b>Brand fit</b> — CORE (own it outright), TRANSPLANT (off-brand subject but proven format — point it at our world), ADJACENT (same buyer, broader subject), or SKIP</li>
+      <li>Writes the <b>Angle gap first</b> — what's thin, missing, paywalled, or stale on this specific page. Must cite a concrete fact from the page.</li>
+      <li>Writes the <b>Asset</b> — a real working title built to fix that gap. Not "Format on Topic" glued together.</li>
+      <li>Writes the <b>Distinct angle</b> — one line on how our version beats this page, drawn from the gap.</li>
+    </ul>
+
+    <table class="ctable">
+      <tr><th>Angle gap — bad</th><th>Angle gap — good</th></tr>
+      <tr><td class="bad">"generic explainer, no original data"</td><td class="good">"11 questions, MCQ only, no public sample, cert paywalled"</td></tr>
+      <tr><td class="bad">"thin editorial list, generic items"</td><td class="good">"interactive but only 8 inputs, no industry benchmark"</td></tr>
+      <tr><td class="bad">"round-up that rarely updates"</td><td class="good">"2022 salary data, last refresh 14 months ago"</td></tr>
+    </table>
+    <table class="ctable" style="margin-top:10px;">
+      <tr><th>Asset name — bad</th><th>Asset name — good</th></tr>
+      <tr><td class="bad">"Glossary on hiring terms"</td><td class="good">"Hiring & Assessment Glossary with Bundled Micro-Tests"</td></tr>
+      <tr><td class="bad">"Data report on skills-based hiring"</td><td class="good">"Annual Skills-Based Hiring Report (free, interactive, quarterly-refreshed)"</td></tr>
+    </table>
+
+    <p style="font-size:14px; color:var(--muted); margin-top:12px;">After agents return, stitch chunks back by Row ID. Every kept row must appear exactly once. Re-dispatch any agent that dropped rows before moving to G3.</p>
+
+    <h3>G3 — Merge into distinct ideas</h3>
+    <p>By the end of G2, hundreds of rows each have a freely-written asset name. Many of these are different phrasings of the same underlying idea — one agent wrote "Python Skills Test" while another wrote "Coding Assessment (Python)." They're the same idea. You can't find and merge these by looking for identical text, because the wording is different. The only way to do it reliably is to have a model read all the proposed assets at once and group them by judgment — the same way a human would look across a list and say "these four are all basically the same thing." The result is a clean list of distinct ideas, each with the evidence from all its backing rows combined.</p>
+
+    <h3>G4 — Score each idea</h3>
+    <div class="scores">
+      <div class="score">
+        <h3>Beatability (1–3)</h3>
+        <ul>
+          <li><b>3</b> — backing pages are thin, stale, or paywalled</li>
+          <li><b>2</b> — winnable with one or two clear differentiators</li>
+          <li><b>1</b> — backing pages are strong and well-resourced</li>
+        </ul>
+      </div>
+      <div class="score">
+        <h3>Effort (S / M / L)</h3>
+        <ul>
+          <li><b>S</b> — one page, days to a week</li>
+          <li><b>M</b> — a small hub, a few weeks</li>
+          <li><b>L</b> — original-data report or full hub, a month or more</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>G5 — Rank and split NOW vs LATER</h3>
+    <p>Sort by: Brand fit (CORE and TRANSPLANT first) → Total Domains × Beatability → Effort (S first). Mark each idea <b>NOW</b> (ships this quarter, based on team capacity) or <b>LATER</b> (in the backlog).</p>
+
+    <h3>G6 — Sanity check</h3>
+    <ul>
+      <li>No generic asset names ("Glossary" without a topic)</li>
+      <li>No idea's subject is a single competitor's exact topic</li>
+      <li>Every NOW idea has ≥3 backing pages from ≥2 competitors</li>
+      <li>No angle gap string repeating across 10+ rows</li>
+      <li>No asset names in "Format on Topic" pattern</li>
+    </ul>
+    <div class="note green"><strong>What a good idea looks like</strong>
+    "Hiring &amp; Assessment Glossary with Bundled Micro-Tests. 47 competitor glossary pages across 8 competitors. Of those: 32 are definition-only, 11 add a worked example, 4 include a template — nobody bundles a test. That's our angle." Real name. Subject we own. Angle built from evidence.</div>
+  </div>
+</section>
+
+<!-- STEP H -->
+<section id="step-h">
+  <div class="wrap">
+    <h2><span class="num">H</span>Build the two end files</h2>
+
+    <h3>competitor-study-ideas.xlsx</h3>
+    <p><b>Tab 1 — Format summary:</b> Format | Pages | Total Domains | Avg Domains | Competitors, ranked by Total Domains.</p>
+    <p><b>Tab 2 — Ideas:</b> # | Build window | Brand fit | Asset | Total Domains | # Competitors | Beatability | Effort | Distinct angle | Backing URLs. Sorted NOW above LATER, CORE → TRANSPLANT → ADJACENT within each window, then by Total Domains × Beatability. Colour by brand fit. Backing URLs column carries the proof inline.</p>
+
+    <h3>competitor-formats.xlsx</h3>
+    <p>One row per kept page: Competitor | URL | Format | Domains | Backlinks | What it is | Asset | Brand fit | Angle gap | Distinct angle | Idea # | Notes. Filter by Idea # to see every page behind an idea.</p>
+
+    <div class="note orange"><strong>Recurrence beats raw domain count</strong>
+    An idea backed by 8 pages from 5 competitors at 400 domains each is a stronger signal than one page with 1,500 domains. G6 enforces ≥3 backing pages from ≥2 competitors on every NOW idea.</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Competitor Study · Idea Backlog Method 1 of 3 · Format evidence and ranked buildable ideas.</div>
+</footer>
+</body>
+</html>

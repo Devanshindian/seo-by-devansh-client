@@ -1,0 +1,157 @@
+{
+  "theme": "Competitor Alternatives",
+  "key": "c11",
+  "n_pillars": 15,
+  "pillars": [
+    {
+      "pillar": "Skills & Talent Assessment Platform Alternatives",
+      "n": 15,
+      "intent": "commercial",
+      "sample_spokes": [
+        "adaface-alternatives",
+        "canditech-alternatives",
+        "equip-alternatives"
+      ]
+    },
+    {
+      "pillar": "Testlify vs Skills & Talent Assessment Platforms",
+      "n": 15,
+      "intent": "comparison",
+      "sample_spokes": [
+        "testlify-vs-adaface-detailed-comparison",
+        "testlify-vs-canditech-detailed-comparison",
+        "testlify-vs-equip-detailed-comparison"
+      ]
+    },
+    {
+      "pillar": "Testlify vs ATS & Recruitment Platforms",
+      "n": 15,
+      "intent": "comparison",
+      "sample_spokes": [
+        "compare-testlify-vs-willo",
+        "testlify-vs-perspect-ai-detailed-comparison",
+        "testlify-vs-pixonality-detailed-comparison"
+      ]
+    },
+    {
+      "pillar": "Testlify vs AI Interview & Video Interviewing Tools",
+      "n": 13,
+      "intent": "comparison",
+      "sample_spokes": [
+        "compare-testlify-vs-metaview",
+        "compare-testlify-vs-sapia-ai",
+        "testlify-vs-alex-ai-detailed-comparison"
+      ]
+    },
+    {
+      "pillar": "Testlify vs Psychometric & Personality Assessment Tools",
+      "n": 12,
+      "intent": "comparison",
+      "sample_spokes": [
+        "testlify-vs-alva-labs-detailed-comparison",
+        "testlify-vs-cangrade-detailed-comparison",
+        "testlify-vs-criteria-corp-detailed-comparison"
+      ]
+    },
+    {
+      "pillar": "Video Interview & AI Interviewing Tool Alternatives",
+      "n": 11,
+      "intent": "commercial",
+      "sample_spokes": [
+        "harver-alternatives",
+        "hiremojo-alternatives",
+        "hirevue-alternatives"
+      ]
+    },
+    {
+      "pillar": "Psychometric & Personality Assessment Tool Alternatives",
+      "n": 10,
+      "intent": "commercial",
+      "sample_spokes": [
+        "alva-labs-alternatives",
+        "cangrade-alternatives",
+        "criteria-corp-alternatives"
+      ]
+    },
+    {
+      "pillar": "Skills, Competencies & Job Definition Concepts Compared",
+      "n": 9,
+      "intent": "informational",
+      "sample_spokes": [
+        "a-recruiters-guide-to-super-skills-vs-micro-skills",
+        "hard-skills-vs-soft-skills",
+        "job-advertising-vs-job-posting"
+      ]
+    },
+    {
+      "pillar": "Coding & Technical Assessment Tool Alternatives",
+      "n": 8,
+      "intent": "commercial",
+      "sample_spokes": [
+        "coderbyte-alternatives",
+        "codility-alternatives",
+        "hackerearth-alternatives"
+      ]
+    },
+    {
+      "pillar": "Testlify vs Coding Assessment Platforms",
+      "n": 8,
+      "intent": "comparison",
+      "sample_spokes": [
+        "testlify-vs-coderbyte-detailed-comparison",
+        "testlify-vs-codesignal-detailed-comparison",
+        "testlify-vs-codility-detailed-comparison"
+      ]
+    },
+    {
+      "pillar": "Recruitment Methods & Sourcing Strategies Compared",
+      "n": 8,
+      "intent": "informational",
+      "sample_spokes": [
+        "centralized-vs-decentralized-recruitment",
+        "direct-vs-indirect-hiring-costs-whats-overlooked",
+        "internal-mobility-vs-external-hiring"
+      ]
+    },
+    {
+      "pillar": "Testlify vs Competitor Assessment Comparisons",
+      "n": 6,
+      "intent": "comparison",
+      "sample_spokes": [
+        "saville-assessment-alternatives",
+        "testlify-vs-asc-smarter-assessment-comparison",
+        "testlify-vs-saville-assessment-detailed-comparison"
+      ]
+    },
+    {
+      "pillar": "Interviewing, Bias & Assessment Approaches Compared",
+      "n": 6,
+      "intent": "informational",
+      "sample_spokes": [
+        "ai-interviewer-vs-human-interviewer",
+        "culture-fit-vs-skill-fit",
+        "deductive-vs-inductive-reasoning"
+      ]
+    },
+    {
+      "pillar": "Testlify vs Competitor Alternatives",
+      "n": 4,
+      "intent": "commercial",
+      "sample_spokes": [
+        "asc-smarter-assessment-alternatives",
+        "testlify-empowering-businesses-through-pre-hiring-assessments",
+        "testlify-vs-ubiaptitude-detailed-comparison"
+      ]
+    },
+    {
+      "pillar": "ATS & Recruitment Platform Alternatives",
+      "n": 4,
+      "intent": "commercial",
+      "sample_spokes": [
+        "talentlyft-alternatives",
+        "talentmesh-alternatives",
+        "talentmetrix-alternatives"
+      ]
+    }
+  ]
+}

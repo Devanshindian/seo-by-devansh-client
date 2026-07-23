@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Style Guide — Content Machine Stage 0</title>
+<style>
+  :root{--ink:#1c1a17;--muted:#6b6459;--line:#efe7d8;--paper:#fff;--cream:#fffdf8;--wash:#fff8ec;--yellow:#ffb703;--yellow-soft:#ffe9ad;--orange:#fb7a00;--orange-soft:#ffd9b0;--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05);}
+  *{box-sizing:border-box;}html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;line-height:1.62;font-size:16px;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:960px;margin:0 auto;padding:0 28px;}
+  header{background:linear-gradient(180deg,var(--wash),var(--paper));border-bottom:1px solid var(--line);padding:56px 0 38px;}
+  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);background:var(--paper);border:1px solid var(--orange-soft);padding:4px 11px;border-radius:100px;margin-bottom:16px;}
+  h1{font-size:clamp(26px,5vw,42px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%);padding:0 2px;}
+  .lede{font-size:18px;color:var(--muted);max-width:660px;margin:0;}
+  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex;gap:3px;flex-wrap:wrap;padding:9px 0;}
+  nav a{font-size:12.5px;font-weight:600;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:100px;}
+  nav a:hover{color:var(--ink);background:var(--wash);}
+  section{padding:48px 0;border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  section.alt{background:var(--cream);}
+  h2{font-size:24px;letter-spacing:-.01em;margin:0 0 4px;}
+  h2 .num{color:var(--orange);margin-right:9px;}
+  .sub{color:var(--muted);margin:0 0 22px;font-size:16px;max-width:680px;}
+  h3{font-size:16px;margin:20px 0 6px;}
+  p{margin:0 0 10px;}
+  ul{margin:5px 0 10px;padding-left:20px;}
+  li{margin:4px 0;font-size:15px;color:var(--muted);}
+  li b{color:var(--ink);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11.5px;background:#fff;border:1px solid var(--orange-soft);border-radius:5px;padding:2px 6px;color:var(--ink);}
+  .note{border-radius:11px;padding:13px 16px;margin:12px 0;font-size:14.5px;border:1px solid;}
+  .note.yellow{background:var(--cream);border-color:var(--line);border-left:4px solid var(--yellow);}
+  .note strong{display:block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);margin-bottom:3px;}
+  .flow{margin-top:10px;}
+  .step{display:flex;gap:15px;position:relative;padding:10px 0;}
+  .step:not(:last-child)::after{content:"";position:absolute;left:21px;top:48px;bottom:-10px;width:2px;background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-weight:800;font-size:15px;color:var(--ink);background:var(--yellow-soft);border:2px solid var(--yellow);box-shadow:var(--shadow);}
+  .step-body{padding-top:2px;}
+  .step-body h3{margin:0 0 3px;font-size:15.5px;}
+  .step-body p{margin:0;color:var(--muted);font-size:14.5px;}
+  .step-body ul{margin:4px 0 0;padding-left:18px;}
+  .step-body li{font-size:14px;}
+  .outfile{border:1px solid var(--line);border-radius:11px;padding:12px 16px;background:var(--paper);box-shadow:var(--shadow);margin:12px 0;}
+  .outfile .f{margin-bottom:3px;}
+  .outfile p{margin:0;font-size:14px;color:var(--muted);}
+  .tags{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0;}
+  .tag-card{border:1px solid var(--line);border-radius:11px;padding:12px 16px;background:var(--paper);box-shadow:var(--shadow);flex:1;min-width:180px;}
+  .tag-card .badge{display:inline-block;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;font-weight:700;color:var(--orange);background:var(--wash);border:1px solid var(--orange-soft);border-radius:5px;padding:2px 8px;margin-bottom:7px;}
+  .tag-card h3{margin:0 0 4px;font-size:14.5px;}
+  .tag-card p{margin:0;font-size:13.5px;color:var(--muted);}
+  .eg-table{width:100%;border-collapse:collapse;margin:14px 0;border-radius:11px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);font-size:14px;}
+  .eg-table th{text-align:left;padding:8px 12px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--cream);border-bottom:2px solid var(--line);}
+  .eg-table td{padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+  .eg-table tr:last-child td{border-bottom:none;}
+  .eg-table .signal{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;font-weight:700;color:var(--orange);}
+  footer{padding:32px 0 52px;color:var(--muted);font-size:13px;}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="kicker">Content Machine · Stage 0 — Brand Context</span>
+  <h1>Style Guide — <span class="hl">grammar, punctuation, formatting, SEO</span></h1>
+  <p class="lede">Reads the top 30 blogs and fills a style guide template. 85% is editorial best practice written straight in. The rest — capitalization, punctuation choices, industry terms — comes from reading how the company actually writes.</p>
+</div></header>
+
+<nav><div class="wrap">
+  <a href="#concept">Concept</a>
+  <a href="#output">Output</a>
+  <a href="#steps">Steps</a>
+  <a href="#covers">What it covers</a>
+</div></nav>
+
+<section id="concept">
+  <div class="wrap">
+    <h2><span class="num">01</span>The one rule — three source tags</h2>
+    <p class="sub">Every field in the template is tagged by where it comes from. Nothing is invented and no section is left empty.</p>
+    <div class="tags">
+      <div class="tag-card">
+        <div class="badge">[BLOGS]</div>
+        <h3>Observed</h3>
+        <p>Decided by reading the real top 30 blogs — headline casing, Oxford comma, quote style, industry terms, preferred words.</p>
+      </div>
+      <div class="tag-card">
+        <div class="badge">[STANDARD]</div>
+        <h3>Best practice</h3>
+        <p>Editorial standard that applies to most companies — written straight into the template, no analysis needed.</p>
+      </div>
+      <div class="tag-card">
+        <div class="badge">[COMPANY]</div>
+        <h3>Confirm with marketing</h3>
+        <p>Filled from what the blogs show, then flagged for the marketing team to confirm — product names, positioning language.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="output" class="alt">
+  <div class="wrap">
+    <h2><span class="num">02</span>What this produces</h2>
+    <div class="outfile">
+      <div class="f"><span class="file">projects/[company]/content-machine/brand-context/style-guide.md</span></div>
+      <p>A fully filled style guide — grammar, punctuation, word choice, formatting, SEO standards, brand-specific terms. Every field resolved, no placeholder tags remaining.</p>
+    </div>
+    <div class="note yellow"><strong>Input</strong>
+    Top 30 blogs by traffic from content-database.csv (editorial articles only — no product, glossary, or commercial pages).</div>
+  </div>
+</section>
+
+<section id="steps">
+  <div class="wrap">
+    <h2><span class="num">03</span>Three steps</h2>
+    <div class="flow">
+      <div class="step"><div class="dot">1</div><div class="step-body">
+        <h3>Pull the top 30 blogs</h3>
+        <ul>
+          <li>Rank all pages in the content database by traffic</li>
+          <li>Keep only editorial blog articles — drop product pages, glossaries, templates, and non-English duplicates</li>
+          <li>Save as a ranked table: Rank · Traffic · Format · Title · URL</li>
+        </ul>
+      </div></div>
+      <div class="step"><div class="dot">2</div><div class="step-body">
+        <h3>Analyze — three AI agents read the blogs in parallel</h3>
+        <p>The 30 blogs are split into 3 batches of ~10. Each agent reads its batch and reports only what it actually observes. It looks for:</p>
+        <ul>
+          <li><b>Headline casing</b> — Title Case ("Top 15 Tools") or sentence case ("Top 15 tools")</li>
+          <li><b>Brand and product naming</b> — how the company name and products are capitalised</li>
+          <li><b>Industry terms</b> — which terms appear and how they're spelled (e.g. "skills assessment" vs "skills test")</li>
+          <li><b>Oxford comma</b> — whether the comma appears before "and" in a list ("skills, speed, and accuracy")</li>
+          <li><b>Em-dash vs hyphen usage</b> — which is preferred and how often</li>
+          <li><b>Quote style</b> — single or double quotation marks</li>
+          <li><b>Number style</b> — numerals vs spelled out, how percentages and currency are written</li>
+          <li><b>Acronyms</b> — which ones appear and need defining on first use</li>
+          <li><b>Preferred words and words to avoid</b> — consistent choices and hype or filler words that show up</li>
+        </ul>
+        <p>The three agents' findings are merged. For yes/no choices, majority wins. For lists, all findings are combined and deduplicated.</p>
+      </div></div>
+      <div class="step"><div class="dot">3</div><div class="step-body">
+        <h3>Fill the template</h3>
+        <ul>
+          <li><b>[STANDARD]</b> fields stay as-is — standard editorial rules that apply to any company</li>
+          <li><b>[BLOGS]</b> fields are replaced with the matching signal from the Step 2 analysis</li>
+          <li><b>[COMPANY]</b> fields are filled from what the blogs show, then flagged for marketing to confirm</li>
+          <li>No tag is left unresolved — every placeholder must be replaced before the file ships</li>
+        </ul>
+      </div></div>
+    </div>
+
+    <h3>What the Step 2 analysis returns</h3>
+    <table class="eg-table">
+      <tr><th>Signal</th><th>Observed value (example)</th></tr>
+      <tr><td class="signal">headline_case</td><td>Sentence case — "Top 15 skills assessment tools for 2025"</td></tr>
+      <tr><td class="signal">oxford_comma</td><td>Yes — "skills, speed, and accuracy"</td></tr>
+      <tr><td class="signal">industry_terms</td><td>skills assessment · candidate · ATS · time-to-hire · proctoring · talent acquisition</td></tr>
+      <tr><td class="signal">em_dash_usage</td><td>Rare — hyphens preferred over em dashes</td></tr>
+      <tr><td class="signal">acronyms</td><td>ATS, HR, DEI, KPI — define on first use</td></tr>
+      <tr><td class="signal">avoided_words</td><td>leverage, seamless, robust, innovative, game-changing</td></tr>
+    </table>
+
+    <h3>What a Say This → Not That pair looks like</h3>
+    <table class="eg-table">
+      <tr><th>Say this</th><th>Not that</th><th>Why</th></tr>
+      <tr><td>Skills assessment</td><td>Assessment test</td><td>Industry-standard term; "test" sounds academic</td></tr>
+      <tr><td>Candidate</td><td>Applicant</td><td>Consistent with how the site and the industry refer to people in the pipeline</td></tr>
+      <tr><td>Book a demo</td><td>Request a demo / Schedule a call</td><td>Exact CTA text used on-site — keep it consistent</td></tr>
+      <tr><td>Improve</td><td>Leverage / Optimise</td><td>Plain word; AI-slop alternatives undermine the brand's direct tone</td></tr>
+    </table>
+  </div>
+</section>
+
+<section id="covers" class="alt">
+  <div class="wrap">
+    <h2><span class="num">04</span>What style-guide.md covers</h2>
+    <ul>
+      <li><b>Grammar & mechanics</b> — capitalization (headlines, product names, industry terms), numbers, punctuation, abbreviations and acronyms</li>
+      <li><b>Word choice</b> — preferred terms (Say This → Not That pairs), words to avoid, inclusive language</li>
+      <li><b>Formatting</b> — bold/italic use, lists (bulleted vs numbered), links, callout boxes</li>
+      <li><b>Content structure</b> — intro hook, section length, conclusion and CTA</li>
+      <li><b>SEO-specific</b> — meta title length, meta description, URL slugs, alt text</li>
+      <li><b>Dates, stats, images</b> — date format, citing sources, screenshot and chart standards</li>
+      <li><b>Brand-specific</b> — product and feature naming, how competitors are referenced</li>
+      <li><b>Voice reminders</b> — a short reminder of the company's voice (full guide lives in brand-voice.md)</li>
+      <li><b>Editing checklist</b> — every standard check before publishing</li>
+    </ul>
+  </div>
+</section>
+
+<footer><div class="wrap">Style Guide · Content Machine Stage 0 · Grammar, punctuation, formatting, and SEO standards from the company's real top blogs.</div></footer>
+</body>
+</html>

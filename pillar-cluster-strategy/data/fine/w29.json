@@ -1,0 +1,94 @@
+{
+  "slice_id": "w29",
+  "clusters": [
+    {
+      "pillar": "AI Proctoring for Online Exams",
+      "intent": "informational",
+      "spokes": [
+        "ai-powered-proctoring",
+        "ai-proctoring-compliance",
+        "ai-proctoring-in-certification",
+        "ai-proctoring-solution",
+        "ai-vs-human-proctoring",
+        "human-proctoring-vs-ai-proctoring",
+        "human-proctors-with-ai-alerts"
+      ]
+    },
+    {
+      "pillar": "Online Proctoring Basics & Setup",
+      "intent": "informational",
+      "spokes": [
+        "automated-proctoring",
+        "live-proctoring",
+        "online-proctoring",
+        "remote-proctoring",
+        "proctored-exam",
+        "proctored-exams-key-features",
+        "setup-proctored-exam",
+        "types-of-online-exam-proctoring",
+        "what-is-proctoring-as-a-service-and-how-does-it-work",
+        "proctoring-services-compared",
+        "the-vital-role-of-proctoring-in-online-tests"
+      ]
+    },
+    {
+      "pillar": "Preventing Cheating in Online Tests",
+      "intent": "informational",
+      "spokes": [
+        "detect-cheating-in-exams-using-analytics",
+        "ensuring-integrity-in-online-tests-with-anti-cheating-measures",
+        "how-to-prevent-cheating-in-online-interviews",
+        "leveraging-ai-for-cheating-prevention-in-online-assessments",
+        "maintaining-fairness-designing-cheating-resistant-online-tests",
+        "stop-cheating-in-online-tests",
+        "the-ongoing-battle-technology-vs-cheating-in-online-tests",
+        "online-proctors-in-test-fairness-and-integrity"
+      ]
+    },
+    {
+      "pillar": "Background & Reference Checks in Hiring",
+      "intent": "informational",
+      "spokes": [
+        "background-checks",
+        "best-background-check-software-hr",
+        "conduct-thorough-background-checks-on-candidates-with-limited-resources",
+        "the-best-practices-for-reference-checks",
+        "verify-candidate-credibility-with-background-checks-and-references",
+        "risks-of-skipping-pre-hiring-background-checks"
+      ]
+    },
+    {
+      "pillar": "Recruitment & Employment Fraud Prevention",
+      "intent": "informational",
+      "spokes": [
+        "candidate-dishonesty",
+        "hr-training-strategies-to-stop-recruitment-fraud",
+        "prevent-qualification-fraud-in-hiring",
+        "recruitment-fraud-financial-and-brand-risk",
+        "stop-employment-fraud",
+        "which-hr-behaviors-increase-hiring-fraud-risk"
+      ]
+    },
+    {
+      "pillar": "Assessment Validity Types",
+      "intent": "informational",
+      "spokes": [
+        "concurrent-validity",
+        "criterion-related-validity",
+        "predictive-validity"
+      ]
+    },
+    {
+      "pillar": "Proctoring for Technical & Coding Assessments",
+      "intent": "informational",
+      "spokes": [
+        "proctored-live-coding-projects",
+        "recruiter-cheat-sheet-how-to-assess-technical-roles",
+        "technical-assessment-platforms-with-live-proctoring"
+      ]
+    }
+  ],
+  "orphans": [
+    "blind-hiring"
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1577,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites a 2020 EEOC discrimination-cost stat (67,448 charges, $439.2M) that is six years stale by 2026, and the 12 practices stay at the culture/DEI-language level (define D&I, write inclusive job descriptions) without ever naming structured, skills-based assessment as the single highest-leverage practice for removing the same bias its own unconscious-bias-training tip is trying to catch.",
+    "asset": "Why Structured Skills Testing Closes the Bias Gap Unconscious-Bias Training Can't",
+    "distinct_angle": "Refreshes the discrimination-cost data past AIHR's 2020 EEOC figure and names structured skills assessment as the concrete, implementable mechanism their generic DEI-culture list never gets to.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1581,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "\"Selective hiring\" appears as one line among ten Pfeffer-era HR bundles (job security, self-managed teams, fair pay) with zero operational detail on how to actually select well \u2014 no mention of structured testing, scorecards, or assessment design \u2014 and the piece leans on an uncited \"HR benchmark survey of over 2,000 small businesses\" with no source or year given.",
+    "asset": "Selective Hiring, Done Right: The Best Practice Most HR Best-Practice Lists Skip",
+    "distinct_angle": "Takes the one bullet AIHR treats as a throwaway line \u2014 selective hiring \u2014 and gives it the operational depth (how to actually test and score candidates) their ten-bullet survey format has no room for.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1583,
+    "brand_fit": "CORE",
+    "angle_gap": "The 18 competencies are presented as SHRM/Deloitte category labels (conflict management, self-management, learning agility) with no way to actually tell whether a candidate or employee has them \u2014 the page's own lead-gen \"free checklist\" is a download, not a scoring method, so a reader still can't distinguish real leadership potential from a rehearsed interview answer.",
+    "asset": "How to Actually Score Leadership Competencies in a Candidate, Not Just List Them",
+    "distinct_angle": "Turns AIHR's descriptive competency list into a scored evaluation approach with worked strong-vs-weak evidence examples per competency \u2014 the measurement layer their gated checklist stops short of.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1589,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "The 13 examples (EA, Oatly, Marriott, Netflix...) are picked for aesthetics and social-content polish, not hiring outcomes \u2014 none show whether the branding actually changed time-to-hire, application volume, or offer-acceptance, so a TA reader gets admiration, not evidence the tactics work.",
+    "asset": "The Employer-Branding Examples That Actually Moved a Hiring Metric",
+    "distinct_angle": "Swaps AIHR's admiration-only brand showcases for cases where a publicly reported hiring metric demonstrably moved, sourced from each company's own published data \u2014 evidence their roundup never cites.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: employer branding"
+  },
+  {
+    "row_id": 1593,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 post-hire performance management (managing already-hired underperforming employees) is explicitly off-limits; not a hiring/assessment subject"
+  }
+]

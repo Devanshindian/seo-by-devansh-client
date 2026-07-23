@@ -1,0 +1,60 @@
+{
+ "sections": [
+  {
+   "name": "Core Value Propositions",
+   "pass": true,
+   "why": "10 propositions, each with Feature/Benefit/Conversion Angle filled. Numbers (3,500+ tests, 100+ ATS, 1,500+ experts, 24-month price lock, TESTLIFYCARES25) all read as page-sourced and recur consistently elsewhere in the doc. No brackets, no absolute fairness language: #4 says 'reduce bias' and 'reduces adverse impact', never 'bias-free'.",
+   "redo": ""
+  },
+  {
+   "name": "Technical Features",
+   "pass": true,
+   "why": "Nine named categories rather than 3-5, but the brief asks for the FULL set and each category is genuinely distinct and populated, so breadth is not padding. Proctoring per-use prices ($0.25 / $0.50 / $5.00) match the Pricing section exactly, which is the consolidation behaviour wanted.",
+   "redo": ""
+  },
+  {
+   "name": "Integrations & Ecosystem",
+   "pass": true,
+   "why": "Grouped by function, 100+ partners named, per-platform capability notes carry their own sourced specifics (Teamtailor 10,000+ companies, Workable 1M+ hired). Nothing reads invented; the vendor claims are attributed to the vendor rather than to Testlify.",
+   "redo": ""
+  },
+  {
+   "name": "Competitive Differentiators",
+   "pass": false,
+   "why": "Three of thirteen competitor blocks carry no fair note on the rival's strength: HireVue, Criteria Corp, and Maki People. HireVue's block is entirely inferred (its own HUMAN DECISION flag admits this) yet still ends without any acknowledgement of HireVue's position. Criteria Corp and Maki People read as pure attack lists. Separately, the Maki People block says '3,000+ ready-made tests' while every other block says '3,500+' \u2014 the same fact stated two ways, which is exactly the non-canonical duplication rule 3 bars.",
+   "redo": "Add one fair, specific note on rival strength to the HireVue, Criteria Corp, and Maki People blocks, sourced the same way the other ten are. Then fix the test-count inconsistency: pick one canonical pair (3,500+ tests / 3,000+ ready-to-use assessments) and use the same wording in every competitor block, so a reader never sees two different totals for the same library."
+  },
+  {
+   "name": "Use Cases by Segment",
+   "pass": true,
+   "why": "Nine segments plus industry verticals against a 3-5 ask, but each segment is tied to a real plan tier, real credit counts and real named tests (Bricklayer, Millwright, Epic Systems), so the extra segments carry distinct evidence rather than restating one another. Plan figures match the Pricing section.",
+   "redo": ""
+  },
+  {
+   "name": "Pricing & Plan Benefits",
+   "pass": true,
+   "why": "Five real tiers with both list and annual prices, per-extra-credit rates, the credit model, expiry, 24-month lock with its stated exclusions, add-on table, per-use proctoring table, and the fair-usage cap. Specific enough to be page-sourced and internally consistent with the value-prop and use-case sections.",
+   "redo": ""
+  },
+  {
+   "name": "Key Messaging for Conversions",
+   "pass": true,
+   "why": "CTAs, pain-point pairs and proof points all trace to facts stated elsewhere. Two soft spots worth noting rather than failing on: '4.8 customer satisfaction (also cited as 4.7)' and '500+ reviews (128 G2 reviews cited on comparison pages)' both leave a conflict unresolved on the page instead of picking the canonical figure. Fairness language stays legal ('reduces adverse impact'); the one 'unbiased decision' phrase sits inside an attributed G2 reviewer quote, not in Testlify's own voice.",
+   "redo": ""
+  },
+  {
+   "name": "Common Questions & Objections",
+   "pass": true,
+   "why": "Covers the five objections the guidelines name plus twelve more. The AI-proctoring and bias answers are the strongest part of the draft: both state the limitation openly ('AI can flag normal behavior', 'No assessment tool eliminates bias, and any vendor claiming otherwise is overreaching'), which is a disclaimer, not a prohibited absolute claim.",
+   "redo": ""
+  },
+  {
+   "name": "Content Creation Guidelines",
+   "pass": true,
+   "why": "Eight actionable rules, each with a concrete example. Rule 8 explicitly bans 'bias-free', 'eliminates bias' and 'removes bias', which encodes the legal constraint into the downstream workflow.",
+   "redo": ""
+  }
+ ],
+ "overall_pass": false,
+ "redo_notes": "One section blocks the draft: Competitive Differentiators. Two fixes. (1) Add a fair note on rival strength to the HireVue, Criteria Corp and Maki People blocks \u2014 every other competitor block has one, and HireVue's is the most exposed because its own flag admits the whole comparison is inferred. (2) The Maki People block states '3,000+ ready-made tests' while eleven other blocks state '3,500+ tests'; state the library size one canonical way throughout (3,500+ tests / 3,000+ ready-to-use assessments are two different facts and must not be used interchangeably). Non-blocking, fix while you are in there: Key Messaging carries two unresolved figure conflicts ('4.8 ... also cited as 4.7' and '500+ reviews ... 128 G2 reviews cited') \u2014 pick the most specific sourced version and drop the alternative rather than printing both."
+}

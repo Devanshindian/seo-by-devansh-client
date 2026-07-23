@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1447,
+    "brand_fit": "CORE",
+    "angle_gap": "Claims each test goes through 'a proven Validity and Reliability process' but never explains the methodology, standard referenced, or how a buyer could verify the claim \u2014 it's an assertion, not an explanation.",
+    "asset": "What 'Validated and Reliable' Actually Means in a Skills Assessment (and How to Check a Vendor's Claim)",
+    "distinct_angle": "iMocha asserts its tests are validity/reliability-tested but never names the methodology or standard behind that claim \u2014 ours explains what real test validation involves (construct validity, reliability coefficients, adverse-impact checks) and gives buyers a checklist to verify any vendor's claim, not just take it on faith.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1484,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites Schmidt & Hunter's predictive-validity research and Thurstone's Primary Mental Abilities framework, but never addresses the well-documented adverse-impact risk of cognitive ability tests in hiring \u2014 a critical legal-defensibility issue the page is silent on despite being aimed at recruiters making hiring decisions.",
+    "asset": "Cognitive Ability Testing in Hiring: The Validity Case and the Adverse-Impact Trade-Off",
+    "distinct_angle": "The competitor page covers cognitive-ability validity research and Thurstone's ability model but never mentions the adverse-impact risk cognitive tests carry under EEOC guidance \u2014 ours covers both the predictive-validity case and the fairness trade-off recruiters need to weigh before relying on it.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1489,
+    "brand_fit": "CORE",
+    "angle_gap": "Page lists platform capabilities (skill-gap surfacing, learning-path recommendations, progress tracking) in marketing language but never explains the actual method for identifying, prioritizing, or benchmarking a skills gap \u2014 it's a sales page, not an explanation of the underlying process.",
+    "asset": "The Skills-Gap Analysis Framework Behind Any Upskilling Program",
+    "distinct_angle": "iMocha's page names skill-gap analysis as a capability but never walks through how to actually do it \u2014 ours lays out the concrete, vendor-agnostic method for identifying and prioritizing role-specific skill gaps before building an upskilling program.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1490,
+    "brand_fit": "CORE",
+    "angle_gap": "Markets 'AI-powered Skills Inference' from resumes, certifications, and project data as validation, but never addresses the accuracy limits of inferring skills this way versus measuring them with an actual test \u2014 a real evidence-quality gap for a hiring-decision audience.",
+    "asset": "Inferred Skills vs. Tested Skills: Why Resume-Based AI Guesses Aren't Validated Data",
+    "distinct_angle": "iMocha frames AI-inferred skills (from resumes, certs, project history) as 'validation,' but never discusses how that evidence quality compares to an actual assessment score \u2014 ours explains the gap between inferred and tested skills data and when each is defensible to rely on.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1491,
+    "brand_fit": "CORE",
+    "angle_gap": "Promises benchmarking 'against global standards' and 'AI-driven' gap analytics but never explains how a benchmark is actually constructed or which data sources make a benchmark credible \u2014 abstract capability claims with no worked method underneath.",
+    "asset": "How to Build Role-Specific Skills Benchmarks Without Guessing",
+    "distinct_angle": "The competitor page claims benchmarking against 'global standards' without ever explaining how a benchmark is built or sourced \u2014 ours lays out the actual methodology for constructing a defensible, role-specific skills benchmark.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

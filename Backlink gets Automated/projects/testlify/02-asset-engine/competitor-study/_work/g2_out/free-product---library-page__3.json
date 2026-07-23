@@ -1,0 +1,11 @@
+[
+  {
+    "row_id": 3633,
+    "brand_fit": "CORE",
+    "angle_gap": "The page is a bare alphabetized list of ~150 test names bucketed by tech category (Front End, Back End, DevOps, Database, etc.) with zero description of what each test actually measures, no guidance on which test fits which role or seniority level, and unresolved duplicates (e.g. 'React- Redux Online Test' and 'Unix Fundamentals Test' each listed twice under different categories) \u2014 a recruiter gets a directory, not a way to choose.",
+    "asset": "The Developer Skills Test Library That Tells You Which Test Fits Which Role",
+    "distinct_angle": "Unlike Xobin's flat, undifferentiated name-list (with unresolved duplicate entries like two separate React-Redux tests), ours pairs every test category with what it actually validates and maps tests to role/seniority so a recruiter can pick correctly instead of guessing from a title.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1633,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 performance appraisal is post-hire performance management, explicitly outside our world (skills assessment/pre-hire testing), not a subject we can own."
+  },
+  {
+    "row_id": 1638,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 job evaluation is a compensation and pay-equity process (wage grids, salary structures), a different product world from skills assessment/hiring."
+  },
+  {
+    "row_id": 1645,
+    "brand_fit": "CORE",
+    "angle_gap": "The guide spends nearly all its length on definitions and the 7 types of recruitment, then reduces the selection step \u2014 the part that actually determines who gets hired \u2014 to one throwaway line: 'various assessments like skills evaluations and personality assessments.' It never explains which assessments to use, how to validate them, or how they replace resume screening, leaving the most decision-critical part of the funnel unaddressed.",
+    "asset": "Recruitment Fundamentals for Teams Ready to Screen on Skills, Not Resumes",
+    "distinct_angle": "Expands the guide's one-line 'skills evaluations' mention into a full treatment of how to design and validate skills-based selection inside the recruitment funnel \u2014 the exact step this page glosses over.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1659,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 HR career path content is aimed at HR professionals planning their own career growth, not at recruiters trying to hire; belongs to AIHR's certification-course world, not ours."
+  },
+  {
+    "row_id": 1685,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 cultural transformation is organizational culture and change-leadership content, a different product world from pre-employment skills assessment."
+  }
+]

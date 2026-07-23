@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reuse Check — Do We Already Have This Asset?</title>
+<style>
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16px; -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:960px; margin:0 auto; padding:0 28px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:56px 0 38px;}
+  .kicker{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:4px 11px; border-radius:100px; margin-bottom:16px;}
+  h1{font-size:clamp(26px,5vw,42px); line-height:1.1; margin:0 0 12px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:18px; color:var(--muted); max-width:660px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.93); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:3px; flex-wrap:wrap; padding:9px 0;}
+  nav a{font-size:12.5px; font-weight:600; color:var(--muted); text-decoration:none; padding:5px 10px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:48px 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  section.alt{background:var(--cream);}
+  h2{font-size:24px; letter-spacing:-.01em; margin:0 0 4px;}
+  h2 .num{color:var(--orange); margin-right:9px;}
+  .sub{color:var(--muted); margin:0 0 22px; font-size:16px; max-width:680px;}
+  h3{font-size:16px; margin:20px 0 6px;}
+  p{margin:0 0 10px;}
+  ul{margin:5px 0 10px; padding-left:20px;}
+  li{margin:4px 0; font-size:15px; color:var(--muted);}
+  li b{color:var(--ink);}
+
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:11.5px; background:#fff;
+    border:1px solid var(--orange-soft); border-radius:5px; padding:2px 6px; color:var(--ink);}
+
+  .note{border-radius:11px; padding:13px 16px; margin:12px 0; font-size:14.5px; border:1px solid;}
+  .note.yellow{background:var(--cream); border-color:var(--line); border-left:4px solid var(--yellow);}
+  .note.orange{background:var(--wash); border-color:var(--orange-soft); border-left:4px solid var(--orange);}
+  .note strong{display:block; font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; margin-bottom:3px;}
+  .note.yellow strong{color:var(--orange);}
+  .note.orange strong{color:var(--orange);}
+
+  .flow{margin-top:10px;}
+  .step{display:flex; gap:15px; position:relative; padding:10px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:21px; top:48px; bottom:-10px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-weight:800;
+    font-size:15px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow);}
+  .step-body{padding-top:2px;}
+  .step-body h3{margin:0 0 3px; font-size:15.5px;}
+  .step-body p{margin:0; color:var(--muted); font-size:14.5px;}
+
+  /* verdicts */
+  .verdicts{display:flex; flex-direction:column; gap:10px; margin:14px 0;}
+  .verdict{border:1px solid var(--line); border-radius:11px; padding:14px 18px; background:var(--paper); box-shadow:var(--shadow); display:flex; gap:16px; align-items:flex-start;}
+  .verdict .emoji{font-size:22px; flex:none; margin-top:1px;}
+  .verdict h3{margin:0 0 3px; font-size:15.5px;}
+  .verdict p{margin:0; font-size:14px; color:var(--muted);}
+
+  /* columns filled */
+  .col-table{width:100%; border-collapse:collapse; margin:12px 0; border-radius:11px; overflow:hidden; border:1px solid var(--line); box-shadow:var(--shadow); font-size:14px;}
+  .col-table th{text-align:left; padding:8px 12px; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); background:var(--cream); border-bottom:2px solid var(--line);}
+  .col-table td{padding:8px 12px; border-bottom:1px solid var(--line); vertical-align:top;}
+  .col-table tr:last-child td{border-bottom:none;}
+  .col-table .col{font-weight:600; font-size:13px; white-space:nowrap;}
+  .col-table .stage{font-size:12px; color:var(--orange); font-weight:600;}
+
+  footer{padding:32px 0 52px; color:var(--muted); font-size:13px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="kicker">Asset Engine · D2</span>
+    <h1>Reuse Check — <span class="hl">do we already have this asset?</span></h1>
+    <p class="lede">Before building anything, every idea in the merged pool is checked against existing
+    content. RAG finds the closest pages; an LLM reads them and decides what to do.</p>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#concept">Concept</a>
+    <a href="#columns">What it fills</a>
+    <a href="#stages">The three stages</a>
+    <a href="#verdicts">The four verdicts</a>
+    <a href="#review">Review output</a>
+  </div>
+</nav>
+
+<section id="concept">
+  <div class="wrap">
+    <h2><span class="num">01</span>Why this runs before building</h2>
+    <p class="sub">Two payoffs: don't rebuild something we already own, and don't research from scratch
+    when related pages can be reused.</p>
+    <p>We use a two-step process: first, a semantic search finds the existing pages most likely to be relevant to each idea — ranking them by meaning, not just keyword overlap. Then an AI agent actually reads those pages and makes the judgment call. The search step can only say "these look similar." It can't decide whether to rebuild, improve, or start fresh — that requires reading and thinking, which is the agent's job.</p>
+    <div class="note yellow"><strong>Inputs</strong>
+    <b>clubbed-ideas.csv</b> — the merged pool from all three methods, with the reuse columns empty.<br>
+    <b>content-database.csv</b> — must include the Full content column. Every existing page is indexed from this file.</div>
+  </div>
+</section>
+
+<section id="columns" class="alt">
+  <div class="wrap">
+    <h2><span class="num">02</span>What it fills in clubbed-ideas.csv</h2>
+    <p class="sub">Six columns, empty at the start, filled across the three stages.</p>
+    <table class="col-table">
+      <tr><th>Column</th><th>What it holds</th><th>Stage</th></tr>
+      <tr><td class="col">RAG candidates</td><td>The top 15 closest existing pages by semantic match, each with a relevance score</td><td class="stage">Stage 2</td></tr>
+      <tr><td class="col">Topic pages we own</td><td>Every existing page whose title or URL contains the asset's topic keywords — complete list, no omissions</td><td class="stage">Stage 2</td></tr>
+      <tr><td class="col">Reference links</td><td>De-duped union of the two columns above — the fetch list for content creation</td><td class="stage">Stage 2</td></tr>
+      <tr><td class="col">Reuse verdict</td><td>🟢 Already have it · 🟡 Improve existing · 🟠 Build from parts · 🔴 Brand new</td><td class="stage">Stage 3</td></tr>
+      <tr><td class="col">Chosen links</td><td>The specific page(s) the verdict points to — drawn from RAG candidates only</td><td class="stage">Stage 3</td></tr>
+      <tr><td class="col">Why</td><td>A short paragraph citing what the page has or lacks that drove the verdict</td><td class="stage">Stage 3</td></tr>
+    </table>
+    <div class="note orange"><strong>Links only — no page content stored inline</strong>
+    The full text of every page already lives in content-database.csv. Storing it again per idea would balloon the file. Stage 3 fetches page text on demand by URL when it needs to read a candidate.</div>
+  </div>
+</section>
+
+<section id="stages">
+  <div class="wrap">
+    <h2><span class="num">03</span>The three stages</h2>
+    <div class="flow">
+      <div class="step"><div class="dot">1</div><div class="step-body">
+        <h3>Build the search index — once per company</h3>
+        <p>Every page in the content database is turned into a searchable index. Each page is indexed in two ways: once from its title alone, and once from its full body text. The reason for splitting them is that a long article body can overwhelm the title signal — indexing the title separately ensures a page about "hiring metrics" is always findable even if the body covers dozens of other topics. This index is built once and only needs to be refreshed when the content database changes.</p>
+      </div></div>
+      <div class="step"><div class="dot">2</div><div class="step-body">
+        <h3>Find the top 15 closest pages per idea</h3>
+        <p>For each idea, we search the index using the asset title as the query. The distinct angle is deliberately left out — it contains competitor and gap language that would steer the search in the wrong direction. The search casts a wide net of 40 candidates, then a second pass re-reads those 40 more carefully and cuts it down to the 15 most genuinely relevant. Alongside this, a simple keyword scan finds every existing page whose title or URL contains the asset's topic term — this gives a complete, no-omissions list of everything we own on that topic. Both sets of links are written into the CSV.</p>
+      </div></div>
+      <div class="step"><div class="dot">3</div><div class="step-body">
+        <h3>LLM judges each idea — one agent per idea, in parallel</h3>
+        <p>Each sub-agent receives the asset title, its distinct angle and format, plus the full text of its top candidate pages fetched on demand. It runs three tests on each candidate — topic match, format match, angle match — then returns one verdict, the relevant links, and a short explanation. No similarity scores are shown to the agent; the verdict comes purely from reading.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section id="verdicts" class="alt">
+  <div class="wrap">
+    <h2><span class="num">04</span>The four verdicts</h2>
+    <p class="sub">Applied top-down — first match wins.</p>
+    <div class="verdicts">
+      <div class="verdict">
+        <div class="emoji">🟢</div>
+        <div>
+          <h3>Already have it</h3>
+          <p>A page that already delivers this asset — same topic, same format, and already has the distinct angle at good quality. Building again would duplicate. <i>Rare — the angle is usually new.</i></p>
+        </div>
+      </div>
+      <div class="verdict">
+        <div class="emoji">🟡</div>
+        <div>
+          <h3>Improve existing</h3>
+          <p>One page is clearly the same topic but weaker — missing the angle, wrong format, thin, or outdated. Building means upgrading that page, not creating a second one. Example: asset is a cost calculator; we have a 700-word text article on the same topic. Upgrade it.</p>
+        </div>
+      </div>
+      <div class="verdict">
+        <div class="emoji">🟠</div>
+        <div>
+          <h3>Build from parts</h3>
+          <p>No single page is this asset, but two or more candidates each hold reusable material — data, definitions, sections — worth pulling from. Build new, reuse the research.</p>
+        </div>
+      </div>
+      <div class="verdict">
+        <div class="emoji">🔴</div>
+        <div>
+          <h3>Brand new</h3>
+          <p>Nothing relevant. No candidate genuinely covers the topic or feeds the build. Start from scratch.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="review">
+  <div class="wrap">
+    <h2><span class="num">05</span>Review output</h2>
+    <p class="sub">The finished CSV is delivered in two forms for review — always both, not just the raw file.</p>
+    <ul>
+      <li><b>A self-contained HTML viewer</b> — one offline file with all ideas inline, filterable by source method, brand fit, verdict, and format. Each row expands to show the full reasoning and all links clickable. Reviewers can mark Keep / Maybe / Cut per idea and export their decisions.</li>
+      <li><b>A GitHub Pages link</b> — the same HTML published so a reviewer opens one URL with nothing to install. Hosted on a personal account with a randomised repo name. When the review window closes, the repo comes down.</li>
+    </ul>
+    <div class="note yellow"><strong>Always update in place</strong>
+    Once the link is shared, every re-run pushes to the same repo and URL — never create a second one. The shared link must stay live and consistent through the review period.</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Reuse Check · Asset Engine D2 · RAG retrieval + LLM judgment on the merged idea pool.</div>
+</footer>
+</body>
+</html>

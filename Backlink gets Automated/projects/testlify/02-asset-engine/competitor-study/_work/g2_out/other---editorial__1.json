@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 2433,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 telework/remote-work productivity is a workplace-management subject, not hiring or assessment"
+  },
+  {
+    "row_id": 2434,
+    "brand_fit": "CORE",
+    "angle_gap": "Cites decade-old cost figures (a $240K estimate credited to J\u00f6rgen Sundberg, a 2012 CareerBuilder survey, and 2015 Brandon Hall Group data) with no breakdown by role or seniority, and never connects its own fix \u2014 a standardized interview process \u2014 back to structured skills assessment as the concrete mechanism.",
+    "asset": "What a Bad Hire Actually Costs in 2026, Broken Down by Role and Seniority",
+    "distinct_angle": "Refreshes the 2012-2017 cost estimates and CareerBuilder stats this page leans on with current figures, and breaks the blended $240K number down by role and seniority instead of citing one flat figure.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2435,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Built entirely on 2020-2021 pandemic-specific survey data (Achievers' Feb 2021 poll, Eagle Hill's Nov 2020 poll, Work Institute's monthly quit-rate figures) that reads as five years stale, and never translates the turnover forecast into what it means for hiring volume or backfill planning \u2014 the action a TA lead actually needs.",
+    "asset": "What Current Turnover Data Actually Means for 2026 Hiring Volume",
+    "distinct_angle": "Swaps the 2020-2021 pandemic-era quit-rate stats for current turnover figures and ties the forecast directly to backfill and hiring-volume planning, which this page never does.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 2437,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 vacation/PTO usage is an employee-benefits subject, unconnected to hiring or assessment"
+  },
+  {
+    "row_id": 2439,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 onboarding/culture is a post-hire subject outside skills-assessment scope, and the page itself is a content stub (only nav/card boilerplate, no substantive body text)"
+  }
+]

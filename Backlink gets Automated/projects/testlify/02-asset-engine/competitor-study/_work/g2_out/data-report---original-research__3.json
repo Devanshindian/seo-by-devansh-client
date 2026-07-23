@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 1107,
+    "brand_fit": "CORE",
+    "angle_gap": "The report is Criteria Corp's own 2023 survey (talent shortage, remote-work advantage, 12% AI adoption, 40% distrust of AI hiring) and is now three years stale \u2014 current public data on AI-hiring trust and talent-shortage sentiment has moved since 2023, and the piece never cross-references any outside source, just its own single survey.",
+    "asset": "The Real State of AI Trust and Talent Shortages in Hiring Right Now",
+    "distinct_angle": "Replaces Criteria Corp's 2023-only survey stats with a synthesis of current publicly published hiring-benchmark data (SHRM, LinkedIn Talent, Gartner) on AI trust and talent shortages \u2014 the currency and cross-source grounding their single 2023 survey lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1450,
+    "brand_fit": "CORE",
+    "angle_gap": "The page is a gated landing page, not an article \u2014 it repeats the same two generic paragraphs twice, names zero actual findings (no percentages, no named in-demand skills, no breakdown by IT/Telecom/BFSI), and everything of substance sits behind a report download.",
+    "asset": "What Tech Skills Actually Matter for IT, Telecom, and BFSI Hiring Right Now",
+    "distinct_angle": "Publishes the actual in-demand tech-skill findings by industry in the open article itself, instead of gating every real finding behind a download the way iMocha's landing page does.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1630,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "The stats come from a 2021 assessment explicitly framed around the 'post-pandemic economy' (5,648 HR professionals), and the only breakdown given is by seniority level \u2014 no cut by industry, company size, or function, and no link drawn from the competency gap to actual hiring/recruiting outcomes.",
+    "asset": "Where Talent-Acquisition Teams Fall Short on AI and Data Skills in 2026",
+    "distinct_angle": "Narrows and refreshes AIHR's 2021 post-pandemic, all-of-HR competency data to a current, TA/recruiting-specific skills-gap picture, with the industry and function breakdown their seniority-only cut never gives.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 1635,
+    "brand_fit": "TRANSPLANT",
+    "angle_gap": "Recruitainment (gamification in hiring) gets one short paragraph noting 45% of candidates have encountered game-like recruiting elements, then the piece moves on \u2014 it never covers how gamified elements show up in actual skills assessments, what candidates think of game-based testing specifically, or concrete recruitainment examples; that's buried under a broader piece about workplace training gamification.",
+    "asset": "How Candidates Really Respond to Game-Based Skills Assessments in Hiring",
+    "distinct_angle": "Pulls the recruitainment nugget AIHR's broad workplace-gamification survey only mentions in passing and builds it out with current public data on candidate sentiment toward gamified hiring assessments specifically \u2014 the depth this page never gives that angle.",
+    "tool_escalation": "",
+    "g_notes": "transplanted from: general workplace gamification / employee training engagement"
+  },
+  {
+    "row_id": 2216,
+    "brand_fit": "CORE",
+    "angle_gap": "The report gives topline employability percentages by gender, college tier, and state, and flags soft-skill gaps like creativity and critical thinking, but never translates any of it into what a recruiter should actually screen for \u2014 the practical hiring takeaway is missing, and full findings sit behind a report download.",
+    "asset": "What India's 2025 Graduate Employability Numbers Mean for How You Should Screen Campus Hires",
+    "distinct_angle": "Turns Mettl's employability percentages and named skill gaps (critical thinking, creativity, technical proficiency) into concrete, testable hiring criteria per gap \u2014 the practical 'now what for recruiters' their stats-only report leaves out.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

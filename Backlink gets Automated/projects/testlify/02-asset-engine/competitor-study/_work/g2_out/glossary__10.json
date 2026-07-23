@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3591,
+    "brand_fit": "CORE",
+    "angle_gap": "350-word definition-only piece; the 'types of interview' section is generic filler unrelated to situational interviews specifically, and it lists only 4 sample questions with no model answers, no scoring guidance, and no framework (e.g. STAR) for judging whether a candidate's answer is actually strong.",
+    "asset": "Situational Interview Questions and How to Score the Answers That Actually Predict Performance",
+    "distinct_angle": "adds a scoring rubric plus a strong-vs-weak sample answer for each question the page lists blind, closing the evaluation gap the page never addresses.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3594,
+    "brand_fit": "CORE",
+    "angle_gap": "walks through the six recruitment stages and lists generic benefits/challenges, but stays abstract throughout \u2014 no current benchmark figures (time-to-hire, cost-per-hire) and only a single passing name-drop of assessments at the 'screening' stage, with no explanation of how skills testing actually changes the outcome of that stage.",
+    "asset": "What a Skills-First Recruitment Process Actually Looks Like, Stage by Stage",
+    "distinct_angle": "replaces the generic stage list with current hiring benchmark numbers and shows concretely how a skills-assessment step changes the screening stage, detail this page only gestures at once.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3598,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "buries a single 'Pro Tip' about validating freelancer capabilities with structured skills assessments before onboarding, then never returns to it \u2014 the rest of the page is generic freelancer-management content (contracts, onboarding, types) with no actual evaluation framework.",
+    "asset": "How to Vet a Freelancer's Skills Before You Ever Pay an Invoice",
+    "distinct_angle": "expands the page's one buried tip into a full pre-hire skills-validation process for freelance and contract talent, the depth this page skips straight past.",
+    "tool_escalation": "",
+    "g_notes": "adjacent \u2014 page's real subject is general freelancer/gig-workforce management, not skills assessment; angle pulls it toward our world via the one testing-relevant line it contains"
+  },
+  {
+    "row_id": 3600,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "gives only the raw turnover formula, a generic causes list (toxic environment, better opportunities, workplace differences), and generic fixes (competitive pay, recognition) \u2014 never connects any cause back to a hiring-process failure (mis-hire, poor screening) and cites no current industry turnover benchmark.",
+    "asset": "Why Most Employee Turnover Traces Back to a Hiring Decision, Not a Culture Problem",
+    "distinct_angle": "reframes each turnover cause the page lists as a fixable hiring/screening failure and adds current industry turnover-rate benchmarks the page never cites.",
+    "tool_escalation": "",
+    "g_notes": "adjacent \u2014 turnover is a retention metric, not hiring/assessment itself, but same recruiter/HR buyer measured on quality-of-hire"
+  },
+  {
+    "row_id": 3608,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 Boolean search is a candidate-sourcing technique; sourcing/search-string craft is explicitly outside Testlify's skills-assessment world per the brand scope's off-limits guidance on passive-candidate sourcing"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3226,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 content marketing team-building is a general B2B marketing subject, unconnected to hiring/assessment; not Testlify's world"
+  },
+  {
+    "row_id": 3227,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": "SKIP \u2014 personal startup-CEO leadership essay, general founder advice with no hiring/assessment angle"
+  },
+  {
+    "row_id": 3229,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Cites a 2022-era Capterra survey and Fortune Business Insights' prediction that the recruiting-software market would hit '$3,000 million by 2025' \u2014 both now stale \u2014 and treats all recruiting software (ATS, sourcing, CRM, onboarding) as one undifferentiated buying decision, never isolating candidate-selection/skills-testing tools as their own evaluation with their own criteria.",
+    "asset": "Choosing Skills-Assessment Software: What the Generic Recruiting-Tech Checklists Miss",
+    "distinct_angle": "Narrows the buying decision specifically to skills-testing/selection tools inside the stack and replaces the page's stale 2022-to-2025 market prediction with current adoption figures \u2014 the granularity and currency this page lacks.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3246,
+    "brand_fit": "CORE",
+    "angle_gap": "The whole hiring guide is a content stub: one generic bullet list of daily tasks, a single vague 'pro tip', and one sample question locked behind a 'create a free account' CTA \u2014 it never breaks down the actual skills needed, gives worked interview questions with reasoning, or covers how to structure screening for the role.",
+    "asset": "The Real Skills and Interview Questions That Separate Strong Junior Sales Reps From Weak Ones",
+    "distinct_angle": "Replaces the one-line skill blurb and CTA-gated single question with a full skills breakdown and several worked interview questions with reasoning for what a strong vs. weak answer looks like \u2014 the depth this stub never delivers.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3248,
+    "brand_fit": "CORE",
+    "angle_gap": "The '7 telltale signs' lean entirely on body-language and micro-expression cues (citing Paul Ekman and Pamela Meyer) that later peer-reviewed meta-analyses have found perform barely above chance at detecting real deception \u2014 the page presents them as reliable without that caveat, and never connects the problem back to how structured, skills-based evidence removes the need to detect lying at all.",
+    "asset": "Why Most 'Signs of Lying' in Interviews Don't Hold Up \u2014 and What Actually Predicts a Bad Hire",
+    "distinct_angle": "Adds the contested-science caveat this page omits (controlled studies show body-language lie-detection near chance-level accuracy) and reframes the fix around verifiable skills evidence instead of subjective cue-reading.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

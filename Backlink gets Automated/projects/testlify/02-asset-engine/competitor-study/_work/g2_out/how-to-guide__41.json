@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 3372,
+    "brand_fit": "CORE",
+    "angle_gap": "The 6-step framework stays generic \u2014 it tells you to build a 'structured interview script' and use 'interview scorecards to assess people consistently' but only as a one-line bullet, with no worked example of a scorecard, no sample STAR question paired with a model answer, and no guidance on how two interviewers actually score the same answer the same way.",
+    "asset": "Structured Interviews That Score Candidates the Same Way Every Time",
+    "distinct_angle": "Shows how to actually build and apply an interview scorecard with a worked STAR-question example and shared scoring criteria, closing the gap where this guide only name-drops 'scorecards' in a bullet point without explaining how to build or use one.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3383,
+    "brand_fit": "CORE",
+    "angle_gap": "The guide leans on generic content-marketing stats (blog bounce rates, freelancer-usage percentages) to justify hiring a writer, then presumably moves into skills and process \u2014 but nowhere does it address how to verify a writing sample is genuinely the candidate's own work, a live concern now that AI-generated drafts are common in writing tests and portfolios.",
+    "asset": "How to Test Whether a Content Writer's Sample Is Actually Theirs",
+    "distinct_angle": "Covers how to design writing tests and evaluate samples for authentic, candidate-produced work in the AI-generated-content era, a dimension this stats-heavy, pre-AI-boom-framed guide never raises.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3394,
+    "brand_fit": "CORE",
+    "angle_gap": "The page maps CEFR levels cleanly to job types (A1 for warehouse workers, B2 for sales reps, etc.) but never addresses the flip side: requiring a higher fluency level than a role actually needs can create national-origin discrimination exposure under EEOC guidance \u2014 a compliance risk entirely absent from this mapping-only page.",
+    "asset": "The Legal Risk in Requiring More English Fluency Than the Job Needs",
+    "distinct_angle": "Adds the EEOC/adverse-impact angle \u2014 overspecifying language requirements can be discriminatory \u2014 a compliance dimension this CEFR-to-job-type mapping page never touches.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3401,
+    "brand_fit": "CORE",
+    "angle_gap": "The hard-skills section lists tools a marketing manager should know (Ahrefs, Moz, Semrush, HubSpot, Salesforce, Tableau, PowerBI) purely as a checklist of what to look for, with no example task or rubric for how to actually verify a candidate can use them, not just name them.",
+    "asset": "How to Actually Verify a Marketing Manager's SEO and Data Skills Before You Hire",
+    "distinct_angle": "Turns the tool checklist (Ahrefs, Semrush, Tableau, etc.) into concrete task-based evaluation prompts and scoring criteria, since the page only lists what to look for and never how to verify it.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 3419,
+    "brand_fit": "SKIP",
+    "angle_gap": "",
+    "asset": "",
+    "distinct_angle": "",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

@@ -1,0 +1,176 @@
+{
+  "slice_id": "w12",
+  "clusters": [
+    {
+      "pillar": "Hiring Developers with Programming Skill Tests",
+      "intent": "commercial",
+      "spokes": [
+        "hire-top-talent-using-a-pandas-test",
+        "hire-top-talent-using-a-spring-framework-test",
+        "hire-top-talent-using-aws-test",
+        "hire-top-talent-using-dart-test",
+        "hire-top-talent-using-developer-test",
+        "hire-top-talent-using-flutter-test",
+        "hire-top-talent-using-java-code-test",
+        "hire-top-talent-using-javascript-test",
+        "hire-top-talent-using-kotlin-test",
+        "hire-top-talent-using-php-test",
+        "hire-top-talent-using-python-test",
+        "hire-top-talent-using-ruby-test",
+        "hire-top-talent-using-salesforce-test",
+        "hire-top-talent-using-technical-skills-assessment"
+      ]
+    },
+    {
+      "pillar": "Hiring with Cognitive & Aptitude Tests",
+      "intent": "commercial",
+      "spokes": [
+        "hire-top-talent-using-abstract-reasoning-test",
+        "hire-top-talent-using-cognitive-tests",
+        "hire-top-talent-using-logical-reasoning",
+        "hire-top-talent-using-mental-agility-test",
+        "hire-top-talent-using-quantitative-aptitude-test",
+        "hire-top-talent-using-a-verbal-reasoning-test",
+        "hire-top-talent-using-following-directions-test"
+      ]
+    },
+    {
+      "pillar": "Hiring with English & Language Proficiency Tests",
+      "intent": "commercial",
+      "spokes": [
+        "hire-talent-using-english-proficiency-test",
+        "hire-top-talent-using-cefr-english-test",
+        "hire-top-talent-using-cefr-test",
+        "hire-top-talent-using-communication-assessment",
+        "hire-top-talent-using-communication-test",
+        "hire-top-talent-using-english-grammar-test"
+      ]
+    },
+    {
+      "pillar": "Hiring with Personality & Behavioral Assessments",
+      "intent": "commercial",
+      "spokes": [
+        "hire-top-talent-using-integrity-test",
+        "hire-top-talent-using-leadership-assessment",
+        "hire-top-talent-using-personality-assessment",
+        "hire-top-talent-using-psychometric-assessment",
+        "hire-top-talent-using-work-reliability-test"
+      ]
+    },
+    {
+      "pillar": "Hiring with Office, Admin & Digital Skills Tests",
+      "intent": "commercial",
+      "spokes": [
+        "hire-top-talent-using-admin-test",
+        "hire-top-talent-using-an-accounting-test",
+        "hire-top-talent-using-data-entry-test",
+        "hire-top-talent-using-digital-literacy-assessment",
+        "hire-top-talent-using-microsoft-office-test",
+        "hire-top-talent-using-photoshop-test",
+        "hire-top-talent-using-the-autocad-test",
+        "hire-top-talent-using-ux-design-test"
+      ]
+    },
+    {
+      "pillar": "Hiring Skilled Trades & Vocational Workers with Tests",
+      "intent": "commercial",
+      "spokes": [
+        "hire-top-talent-using-carpenter-test",
+        "hire-top-talent-using-civil-engineering-test",
+        "hire-top-talent-using-construction-test",
+        "hire-top-talent-using-custodian-test",
+        "hire-top-talent-using-mechanic-test",
+        "hire-top-talent-using-pharmacy-technician-test",
+        "hire-top-talent-using-plumber-test"
+      ]
+    },
+    {
+      "pillar": "Hiring Without Traditional Interviews & Trials",
+      "intent": "informational",
+      "spokes": [
+        "hire-compassionate-nurses-without-personal-interviews",
+        "hire-creative-marketing-team-without-missing-ideas",
+        "hire-data-scientists-without-coding-tests",
+        "hire-engineers-with-diverse-talent-without-biases",
+        "hire-event-planners-without-on-site-trials",
+        "hire-health-care-team-without-subjunctive-tests",
+        "hire-musicians-and-artists-without-auditions",
+        "hire-sales-performers-without-traditional-interviews",
+        "hire-top-educators-without-classroom-observations"
+      ]
+    },
+    {
+      "pillar": "How to Hire Developers & Tech Roles",
+      "intent": "informational",
+      "spokes": [
+        "a-hiring-guide-for-front-end-developer",
+        "hire-a-web-developer",
+        "hire-a-wordpress-developer",
+        "hire-an-app-developer",
+        "hire-qualified-e-learning-app-developers",
+        "hire-right-backend-developer",
+        "how-to-hire-a-backend-developer",
+        "hire-a-database-administrator",
+        "hire-a-ui-ux-designer"
+      ]
+    },
+    {
+      "pillar": "How to Hire Construction & Building Trades",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-boilermaker",
+        "how-to-hire-a-brick-mason",
+        "how-to-hire-a-bricklayer",
+        "how-to-hire-a-builder",
+        "how-to-hire-a-building-inspector",
+        "how-to-hire-a-carpenter",
+        "how-to-hire-a-construction-manager",
+        "how-to-hire-a-construction-worker",
+        "how-to-hire-a-commercial-diver"
+      ]
+    },
+    {
+      "pillar": "How to Hire Food Service & Hospitality Staff",
+      "intent": "informational",
+      "spokes": [
+        "how-to-hire-a-chef",
+        "how-to-hire-a-cook",
+        "how-to-hire-a-dishwasher"
+      ]
+    },
+    {
+      "pillar": "How to Hire Service & Support Workers",
+      "intent": "informational",
+      "spokes": [
+        "hire-awesome-customer-service-representatives",
+        "how-to-hire-a-childcare-worker",
+        "how-to-hire-a-criminal-investigator",
+        "how-to-hire-a-custodian",
+        "how-to-hire-a-delivery-rider",
+        "how-to-hire-a-driver"
+      ]
+    },
+    {
+      "pillar": "How to Hire Marketing & Content Roles",
+      "intent": "informational",
+      "spokes": [
+        "hire-a-marketing-strategist",
+        "how-to-hire-a-content-marketer",
+        "hire-a-business-accountant",
+        "hire-a-hr-manager"
+      ]
+    },
+    {
+      "pillar": "General Talent Acquisition & Hiring Strategy",
+      "intent": "informational",
+      "spokes": [
+        "campus-hiring-guide-to-hire-new-grads-at-scale",
+        "hire-success-alternatives",
+        "hire-the-best-talent-using-hands-on-questions",
+        "hire-the-best-technical-talent-for-your-company",
+        "hire-the-right-talent-with-ai-driven-candidate-scoring"
+      ]
+    }
+  ],
+  "orphans": []
+}

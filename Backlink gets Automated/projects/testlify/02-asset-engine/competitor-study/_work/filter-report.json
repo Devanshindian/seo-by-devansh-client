@@ -1,0 +1,424 @@
+[
+  {
+    "competitor": "adaface.com",
+    "in": 300,
+    "kept": 222,
+    "dropped": 78,
+    "reasons": {
+      "homepage/root-variant": 10,
+      "locale-duplicate": 10,
+      "commercial/utility:/privacy": 2,
+      "commercial/utility:/pricing": 3,
+      "commercial/utility:/account": 1,
+      "dead-404/410": 3,
+      "below-link-floor:<1": 33,
+      "duplicate-url(utm/slash/www)": 16
+    },
+    "cached": false
+  },
+  {
+    "competitor": "aihr.com",
+    "in": 300,
+    "kept": 284,
+    "dropped": 16,
+    "reasons": {
+      "homepage/root-variant": 5,
+      "dead-404/410": 2,
+      "below-link-floor:<1": 8,
+      "duplicate-url(utm/slash/www)": 1
+    },
+    "cached": false
+  },
+  {
+    "competitor": "alooba.com",
+    "in": 300,
+    "kept": 184,
+    "dropped": 116,
+    "reasons": {
+      "homepage/root-variant": 13,
+      "commercial/utility:/privacy": 1,
+      "commercial/utility:/search": 3,
+      "commercial/utility:/contact": 1,
+      "non-content-subdomain:support": 2,
+      "commercial/utility:/pricing": 1,
+      "commercial/utility:/terms": 1,
+      "below-link-floor:<1": 93,
+      "duplicate-url(utm/slash/www)": 1
+    },
+    "cached": false
+  },
+  {
+    "competitor": "bryq.com",
+    "in": 300,
+    "kept": 79,
+    "dropped": 221,
+    "reasons": {
+      "homepage/root-variant": 21,
+      "non-content-subdomain:help": 159,
+      "commercial/utility:/privacy": 2,
+      "dead-404/410": 10,
+      "commercial/utility:/book-a-demo": 1,
+      "commercial/utility:/pricing": 4,
+      "commercial/utility:/signup": 2,
+      "job-posting": 1,
+      "below-link-floor:<1": 13,
+      "nav/archive-index": 2,
+      "duplicate-url(utm/slash/www)": 6
+    },
+    "cached": false
+  },
+  {
+    "competitor": "cipd.org",
+    "in": 300,
+    "kept": 46,
+    "dropped": 254,
+    "reasons": {
+      "homepage/root-variant": 6,
+      "locale-duplicate": 231,
+      "dead-404/410": 5,
+      "non-content-subdomain:shop": 10,
+      "below-link-floor:<1": 2
+    },
+    "cached": false
+  },
+  {
+    "competitor": "criteriacorp.com",
+    "in": 300,
+    "kept": 209,
+    "dropped": 91,
+    "reasons": {
+      "homepage/root-variant": 23,
+      "commercial/utility:/free-trial": 3,
+      "non-content-subdomain:go": 3,
+      "dead-404/410": 4,
+      "commercial/utility:/privacy": 2,
+      "commercial/utility:/legal": 1,
+      "commercial/utility:/terms": 2,
+      "below-link-floor:<1": 34,
+      "duplicate-url(utm/slash/www)": 19
+    },
+    "cached": false
+  },
+  {
+    "competitor": "eskill.com",
+    "in": 300,
+    "kept": 112,
+    "dropped": 188,
+    "reasons": {
+      "homepage/root-variant": 16,
+      "commercial/utility:/demo": 6,
+      "commercial/utility:/contact": 3,
+      "commercial/utility:/admin": 2,
+      "commercial/utility:/privacy": 2,
+      "non-content-subdomain:support": 34,
+      "dead-404/410": 1,
+      "commercial/utility:/account": 3,
+      "below-link-floor:<1": 93,
+      "commercial/utility:/terms": 1,
+      "locale-duplicate": 6,
+      "commercial/utility:/cookie": 1,
+      "duplicate-url(utm/slash/www)": 20
+    },
+    "cached": false
+  },
+  {
+    "competitor": "hackerearth.com",
+    "in": 300,
+    "kept": 268,
+    "dropped": 32,
+    "reasons": {
+      "locale-duplicate": 3,
+      "homepage/root-variant": 8,
+      "job-posting": 4,
+      "below-link-floor:<1": 15,
+      "non-content-subdomain:help": 1,
+      "duplicate-url(utm/slash/www)": 1
+    },
+    "cached": false
+  },
+  {
+    "competitor": "hipeople.io",
+    "in": 300,
+    "kept": 18,
+    "dropped": 282,
+    "reasons": {
+      "homepage/root-variant": 35,
+      "dead-404/410": 3,
+      "non-content-subdomain:docs": 211,
+      "commercial/utility:/book-a-demo": 1,
+      "below-link-floor:<1": 31,
+      "locale-duplicate": 1
+    },
+    "cached": false
+  },
+  {
+    "competitor": "hrzone.com",
+    "in": 300,
+    "kept": 253,
+    "dropped": 47,
+    "reasons": {
+      "homepage/root-variant": 4,
+      "commercial/utility:/register": 1,
+      "commercial/utility:/tags/": 3,
+      "commercial/utility:/author/": 3,
+      "below-link-floor:<1": 25,
+      "commercial/utility:/search": 1,
+      "duplicate-url(utm/slash/www)": 10
+    },
+    "cached": false
+  },
+  {
+    "competitor": "imocha.io",
+    "in": 300,
+    "kept": 129,
+    "dropped": 171,
+    "reasons": {
+      "homepage/root-variant": 42,
+      "commercial/utility:/pricing": 2,
+      "non-content-subdomain:test": 1,
+      "commercial/utility:/privacy": 1,
+      "dead-404/410": 9,
+      "non-content-subdomain:help": 26,
+      "commercial/utility:/author/": 4,
+      "commercial/utility:/contact": 3,
+      "commercial/utility:/gdpr": 1,
+      "commercial/utility:/sitemap": 1,
+      "below-link-floor:<1": 62,
+      "commercial/utility:/tag/": 1,
+      "commercial/utility:/login": 1,
+      "commercial/utility:/register": 1,
+      "commercial/utility:/subscribe": 1,
+      "duplicate-url(utm/slash/www)": 15
+    },
+    "cached": false
+  },
+  {
+    "competitor": "makipeople.com",
+    "in": 300,
+    "kept": 0,
+    "dropped": 300,
+    "reasons": {
+      "homepage/root-variant": 18,
+      "dead-404/410": 18,
+      "locale-duplicate": 1,
+      "non-content-subdomain:candidates": 7,
+      "non-content-subdomain:help": 249,
+      "commercial/utility:/signup": 1,
+      "locale-subdomain:fr": 4,
+      "commercial/utility:/privacy": 1,
+      "below-link-floor:<1": 1
+    },
+    "cached": false
+  },
+  {
+    "competitor": "mettl.com",
+    "in": 300,
+    "kept": 239,
+    "dropped": 61,
+    "reasons": {
+      "homepage/root-variant": 9,
+      "dead-404/410": 10,
+      "locale-duplicate": 15,
+      "commercial/utility:/privacy": 3,
+      "commercial/utility:/pricing": 1,
+      "commercial/utility:/signup": 1,
+      "non-content-subdomain:support": 3,
+      "below-link-floor:<1": 3,
+      "duplicate-url(utm/slash/www)": 16
+    },
+    "cached": false
+  },
+  {
+    "competitor": "peoplemanagingpeople.com",
+    "in": 300,
+    "kept": 260,
+    "dropped": 40,
+    "reasons": {
+      "homepage/root-variant": 4,
+      "commercial/utility:/legal": 1,
+      "job-posting": 14,
+      "commercial/utility:/subscribe": 1,
+      "dead-404/410": 1,
+      "below-link-floor:<1": 17,
+      "duplicate-url(utm/slash/www)": 2
+    },
+    "cached": false
+  },
+  {
+    "competitor": "pmapstest.com",
+    "in": 52,
+    "kept": 11,
+    "dropped": 41,
+    "reasons": {
+      "homepage/root-variant": 5,
+      "below-link-floor:<1": 17,
+      "commercial/utility:/signup": 15,
+      "commercial/utility:/login": 2,
+      "commercial/utility:/register": 1,
+      "commercial/utility:/account": 1
+    },
+    "cached": false
+  },
+  {
+    "competitor": "recruiterflow.com",
+    "in": 300,
+    "kept": 95,
+    "dropped": 205,
+    "reasons": {
+      "homepage/root-variant": 6,
+      "job-posting": 177,
+      "dead-404/410": 13,
+      "commercial/utility:/pricing": 2,
+      "commercial/utility:/sign-up": 1,
+      "commercial/utility:/login": 1,
+      "non-content-subdomain:help": 1,
+      "below-link-floor:<1": 1,
+      "duplicate-url(utm/slash/www)": 3
+    },
+    "cached": false
+  },
+  {
+    "competitor": "shrm.org",
+    "in": 300,
+    "kept": 217,
+    "dropped": 83,
+    "reasons": {
+      "homepage/root-variant": 41,
+      "dead-404/410": 13,
+      "commercial/utility:/legal": 1,
+      "non-content-subdomain:portal": 1,
+      "non-content-subdomain:store": 4,
+      "non-content-subdomain:jobs": 1,
+      "commercial/utility:/signin": 1,
+      "commercial/utility:/category/": 2,
+      "below-link-floor:<1": 16,
+      "duplicate-url(utm/slash/www)": 3
+    },
+    "cached": false
+  },
+  {
+    "competitor": "testdome.com",
+    "in": 300,
+    "kept": 200,
+    "dropped": 100,
+    "reasons": {
+      "homepage/root-variant": 15,
+      "commercial/utility:/pricing": 4,
+      "commercial/utility:/admin": 1,
+      "dead-404/410": 4,
+      "non-content-subdomain:support": 3,
+      "commercial/utility:/legal": 2,
+      "non-content-subdomain:api": 1,
+      "below-link-floor:<1": 67,
+      "commercial/utility:/account": 1,
+      "duplicate-url(utm/slash/www)": 2
+    },
+    "cached": false
+  },
+  {
+    "competitor": "testgorilla.com",
+    "in": 300,
+    "kept": 246,
+    "dropped": 54,
+    "reasons": {
+      "homepage/root-variant": 7,
+      "commercial/utility:/pricing": 1,
+      "locale-duplicate": 10,
+      "commercial/utility:/account": 2,
+      "non-content-subdomain:candidates": 1,
+      "non-content-subdomain:app": 12,
+      "dead-404/410": 1,
+      "commercial/utility:/gdpr": 1,
+      "commercial/utility:/privacy": 1,
+      "non-content-subdomain:support": 2,
+      "commercial/utility:/demo": 1,
+      "below-link-floor:<1": 7,
+      "duplicate-url(utm/slash/www)": 8
+    },
+    "cached": false
+  },
+  {
+    "competitor": "thomas.co",
+    "in": 300,
+    "kept": 198,
+    "dropped": 102,
+    "reasons": {
+      "homepage/root-variant": 5,
+      "locale-duplicate": 73,
+      "dead-404/410": 1,
+      "commercial/utility:/contact": 2,
+      "commercial/utility:/author/": 3,
+      "commercial/utility:/privacy": 1,
+      "below-link-floor:<1": 12,
+      "duplicate-url(utm/slash/www)": 5
+    },
+    "cached": false
+  },
+  {
+    "competitor": "vervoe.com",
+    "in": 300,
+    "kept": 227,
+    "dropped": 73,
+    "reasons": {
+      "homepage/root-variant": 18,
+      "commercial/utility:/author/": 5,
+      "non-content-subdomain:app": 3,
+      "commercial/utility:/demo": 2,
+      "commercial/utility:/pricing": 2,
+      "dead-404/410": 3,
+      "commercial/utility:/category/": 2,
+      "commercial/utility:/admin": 2,
+      "commercial/utility:/wp-content": 2,
+      "non-content-subdomain:help": 5,
+      "commercial/utility:/contact": 1,
+      "below-link-floor:<1": 17,
+      "duplicate-url(utm/slash/www)": 11
+    },
+    "cached": false
+  },
+  {
+    "competitor": "wecreateproblems.com",
+    "in": 300,
+    "kept": 40,
+    "dropped": 260,
+    "reasons": {
+      "homepage/root-variant": 12,
+      "commercial/utility:/pricing": 1,
+      "non-content-subdomain:help": 226,
+      "dead-404/410": 7,
+      "commercial/utility:/signin": 3,
+      "commercial/utility:/privacy": 1,
+      "commercial/utility:/terms": 1,
+      "below-link-floor:<1": 7,
+      "duplicate-url(utm/slash/www)": 2
+    },
+    "cached": false
+  },
+  {
+    "competitor": "x0pa.com",
+    "in": 0,
+    "kept": 0,
+    "dropped": 0,
+    "reasons": {},
+    "cached": false
+  },
+  {
+    "competitor": "xobin.com",
+    "in": 300,
+    "kept": 198,
+    "dropped": 102,
+    "reasons": {
+      "homepage/root-variant": 26,
+      "commercial/utility:/pricing": 4,
+      "non-content-subdomain:app": 11,
+      "commercial/utility:/contact": 1,
+      "dead-404/410": 3,
+      "non-content-subdomain:docs": 4,
+      "commercial/utility:/account": 1,
+      "commercial/utility:/privacy": 1,
+      "below-link-floor:<1": 35,
+      "duplicate-url(utm/slash/www)": 16
+    },
+    "cached": false
+  }
+]

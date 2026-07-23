@@ -1,0 +1,351 @@
+{
+  "job": "j6_employee_experience",
+  "pillars": [
+    {
+      "pillar": "Staffing Services & the Staffing Process",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "accurate-staffing",
+        "case-studies-of-successful-staffing-programs",
+        "common-mistakes-to-avoid-in-staffing",
+        "how-to-choose-the-right-staffing-service",
+        "how-to-get-started-with-staffing",
+        "how-to-manage-the-staffing-process",
+        "how-to-measure-the-success-of-staffing",
+        "how-to-use-technology-to-support-staffing",
+        "top-staffing-tools",
+        "what-are-staffing-services",
+        "what-are-the-different-types-of-staffing-services",
+        "what-is-staffing-for-remote-teams",
+        "what-is-staffing-for-small-businesses",
+        "what-is-staffing-for-startups"
+      ]
+    },
+    {
+      "pillar": "Workforce Planning & Management",
+      "theme": "Workplace Culture & Future of Work",
+      "intent": "informational",
+      "spokes": [
+        "a-guide-to-staffing-for-the-future-of-work",
+        "align-hr-practices-with-modern-workforce-dynamics",
+        "build-a-resilient-workforce-in-challenging-times",
+        "future-proof-workforce",
+        "how-to-develop-a-workforce-plan",
+        "how-to-identify-your-workforce-needs",
+        "how-to-implement-a-workforce-plan",
+        "how-to-measure-the-success-of-a-workforce-plan",
+        "top-workforce-management-tools",
+        "workforce-analytics",
+        "workforce-reduction"
+      ]
+    },
+    {
+      "pillar": "Remote & Distributed Workforce Management",
+      "theme": "Workplace Culture & Future of Work",
+      "intent": "informational",
+      "spokes": [
+        "best-practices-for-remote-employee-management",
+        "how-remote-hiring-is-reshaping-the-global-workforce-landscape",
+        "how-to-engage-employees-in-a-remote-workplace",
+        "inbound-call-center-solutions-remote-workforce-management",
+        "predictive-analytics-for-remote-workforce-management",
+        "selecting-the-talent-for-the-distributed-workforce",
+        "unlocking-hr-efficiency-the-power-of-vpns-in-modern-workforce-management"
+      ]
+    },
+    {
+      "pillar": "Employee Engagement Strategies & Programs",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "ai-in-hr-communication-engagement",
+        "create-an-effective-employee-engagement-strategy",
+        "employee-engagement-case-studies",
+        "employee-engagement-strategies-for-different-generations",
+        "initiatives-to-promote-employee-engagement",
+        "revolutionizing-talent-engagement-image-to-video-ai-hr",
+        "the-importance-of-employee-engagement",
+        "the-role-of-leadership-in-employee-engagement",
+        "unleashing-the-power-of-employee-engagement-solutions",
+        "use-workplace-culture-to-improve-employee-engagement",
+        "ways-to-boost-employee-engagement",
+        "avoid-low-employee-engagement-and-early-attrition",
+        "fostering-engagement-in-a-remote-workforce",
+        "how-to-use-employee-engagement-data-to-improve-workplace",
+        "the-impact-of-employee-engagement-on-productivity-and-profitability"
+      ]
+    },
+    {
+      "pillar": "Thriving Workplaces, Motivation & Productivity",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "create-an-employee-thriving-workplace",
+        "employee-appreciation-day",
+        "employee-autonomy",
+        "employee-net-promoter-score",
+        "how-to-create-a-workplace-where-employees-thrive",
+        "how-to-use-workplace-culture-to-improve-employee-productivity",
+        "importance-of-employee-motivation",
+        "understanding-employee-empowerment",
+        "ways-to-cultivate-employee-loyalty",
+        "how-to-measure-and-improve-blue-collar-worker-productivity-and-engagement"
+      ]
+    },
+    {
+      "pillar": "Employee Engagement & Recognition Tools",
+      "theme": "Employee Experience & Development",
+      "intent": "commercial",
+      "spokes": [
+        "top-5-employee-experience-tools-and-technologies",
+        "top-employee-engagement-tools",
+        "top-employee-recognition-tools"
+      ]
+    },
+    {
+      "pillar": "Employee Onboarding Process Guides & Best Practices",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "communication-challenges-in-the-onboarding-process",
+        "create-effective-onboarding-process-for-new-hires",
+        "design-and-implement-successful-employee-onboarding-process",
+        "difference-between-orientation-and-onboarding",
+        "employee-onboarding-process-complete-guide",
+        "how-to-ensure-smooth-onboarding",
+        "how-to-onboard-new-employees",
+        "how-to-onboard-new-employees-effectively",
+        "steps-to-onboard-new-hires-into-company-culture",
+        "the-ultimate-guide-to-employee-onboarding"
+      ]
+    },
+    {
+      "pillar": "Onboarding Templates, Checklists & Welcome Ideas",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "onboarding-checklist",
+        "onboarding-email-templates",
+        "onboarding-ideas-to-welcome-new-employees"
+      ]
+    },
+    {
+      "pillar": "Onboarding Blue-Collar, External & Contingent Workers",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "how-to-onboard-and-train-blue-collar-workers",
+        "onboarding-external-workers-in-business",
+        "tailoring-integration-programs-for-talent-onboarding"
+      ]
+    },
+    {
+      "pillar": "HR & Employee Communication",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "bridge-the-generation-gap-in-employee-communications",
+        "build-strong-employer-employee-relationships-in-the-workplace",
+        "communication-strategies-for-long-employee-relations",
+        "effective-employee-feedback-mechanisms-for-improvement",
+        "foster-effective-communication-between-hr-and-employees",
+        "fostering-teamwork-between-old-and-lateral-employees",
+        "handle-employee-conflicts-with-a-proactive-approach",
+        "key-tips-for-employee-feedback-and-communication",
+        "ways-to-improve-team-dynamics-and-employee-behaviors"
+      ]
+    },
+    {
+      "pillar": "Employee Retention Strategies",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "5-retention-strategies-for-campus-hiring",
+        "employee-retention-strategies",
+        "employee-retention-what-is-the-cost-of-losing-talent",
+        "handle-employee-turnover-and-develop-a-retention-strategy",
+        "how-ai-powered-tools-help-improve-employee-retention",
+        "how-to-overcome-retention-challenges-in-hr",
+        "implement-effective-employee-retention-programs",
+        "implement-effective-hr-strategies-for-talent-retention"
+      ]
+    },
+    {
+      "pillar": "Talent Development & Growth",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "boomerang-employees",
+        "design-and-implement-effective-employee-development-programs",
+        "employee-poaching",
+        "guide-for-your-high-potential-employees-search",
+        "how-to-promote-growth-opportunities-for-employees",
+        "how-to-retain-top-employees",
+        "what-is-an-employee-value-proposition-why-it-matters"
+      ]
+    },
+    {
+      "pillar": "Attrition & Turnover Explained",
+      "theme": "HR Operations & Compliance",
+      "intent": "informational",
+      "spokes": [
+        "attrition-rate-and-meaning-for-hr",
+        "regretted-attrition",
+        "toxic-company-culture-is-driving-attrition-rates",
+        "what-is-involuntary-turnover"
+      ]
+    },
+    {
+      "pillar": "Employee Experience Management",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "employee-experience-trends-for-2023-and-beyond",
+        "how-to-create-a-positive-employee-experience",
+        "how-to-create-an-inclusive-employee-experience",
+        "how-to-measure-and-improve-employee-experience",
+        "how-to-optimize-core-hr-processes-for-a-good-employee-experience",
+        "how-workplace-tools-impact-employee-experience",
+        "improve-employee-experience-in-a-remote-workplace",
+        "what-is-employee-experience-and-why-is-it-important"
+      ]
+    },
+    {
+      "pillar": "Performance Management Systems & Fundamentals",
+      "theme": "Skills Management",
+      "intent": "informational",
+      "spokes": [
+        "common-mistakes-to-avoid-in-performance-management",
+        "different-steps-in-performance-management",
+        "how-to-get-started-with-performance-management",
+        "performance-management-cycle",
+        "the-importance-of-performance-management",
+        "what-is-performance-management",
+        "case-studies-of-performance-management-system",
+        "create-a-performance-management-system",
+        "how-to-measure-the-success-of-performance-management",
+        "implement-a-performance-management-system",
+        "implementing-performance-management-system-in-smbs",
+        "implementing-performance-management-system-in-startup",
+        "top-performance-management-tools",
+        "use-technology-to-support-performance-management"
+      ]
+    },
+    {
+      "pillar": "Performance Management for Remote & Future Work",
+      "theme": "Skills Management",
+      "intent": "informational",
+      "spokes": [
+        "performance-appraisals-in-remote-work-environments",
+        "performance-management-system-in-remote-teams",
+        "performance-management-system-in-the-future-of-work"
+      ]
+    },
+    {
+      "pillar": "Employee Monitoring & Performance Tracking",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "employee-monitoring-to-identify-top-performers",
+        "post-hire-employee-monitoring-and-behavioral-analysis",
+        "role-of-employee-monitoring-in-the-remote-work-era",
+        "time-tracking-without-invading-employee-privacy",
+        "top-employee-monitoring-tools",
+        "use-of-ai-in-employee-monitoring"
+      ]
+    },
+    {
+      "pillar": "Improving Job Satisfaction",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "create-an-employee-focused-workplace-for-improved-satisfaction",
+        "how-to-improve-job-satisfaction-for-your-employees",
+        "how-to-use-data-to-identify-and-address-job-satisfaction-issues",
+        "implement-effective-employee-satisfaction-surveys",
+        "implement-flexible-work-policies-for-employee-satisfaction",
+        "open-pay-policies-impact-employee-satisfaction-and-retention",
+        "top-factors-that-contribute-to-job-satisfaction"
+      ]
+    },
+    {
+      "pillar": "Employee Training & Development Programs",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "conduct-effective-hr-training-sessions-for-employees",
+        "cost-effective-employee-training-solutions",
+        "cross-training-employees",
+        "develop-a-successful-employee-training-program",
+        "develop-and-implement-employee-training-programs-for-professional-development",
+        "incorporate-gamification-in-corporate-training",
+        "targeted-training",
+        "addressing-learning-and-development-needs-in-hr",
+        "how-to-create-a-learning-and-development-plan",
+        "kpis-for-evaluating-training-and-development",
+        "training-effectiveness",
+        "types-of-learning-and-development-activities"
+      ]
+    },
+    {
+      "pillar": "Employee Well-being, Morale & Mental Health",
+      "theme": "Employee Experience & Development",
+      "intent": "informational",
+      "spokes": [
+        "employee-reward-ideas-to-boost-morale",
+        "employee-well-being-initiative",
+        "handle-burnout-and-promote-mental-health-in-workplace",
+        "improve-employee-morale-proven-tactics-for-hr-professionals",
+        "perks-to-boost-employee-engagement-and-morale",
+        "promote-employee-well-being-and-mental-health-in-the-workplace"
+      ]
+    },
+    {
+      "pillar": "Employee Handbooks & Workplace Policy",
+      "theme": "HR Operations & Compliance",
+      "intent": "informational",
+      "spokes": [
+        "best-practices-for-creating-an-employee-handbook",
+        "federal-laws-that-protect-employees-in-the-workplace",
+        "how-to-create-an-effective-employee-handbook",
+        "importance-of-managing-employee-absences",
+        "manage-employee-probation-periods"
+      ]
+    },
+    {
+      "pillar": "Assessing Employee Soft Skills & Traits",
+      "theme": "Skills & Job Assessments",
+      "intent": "informational",
+      "spokes": [
+        "importance-of-assessing-continuous-learning-skills-for-employees",
+        "importance-of-assessing-integrity-for-ethical-and-honest-employees",
+        "importance-of-assessing-positive-attitude-for-a-motivated-workforce",
+        "importance-of-empowerment-skills-in-engaged-and-autonomous-employees",
+        "importance-of-self-confidence-skills-for-assertive-employee"
+      ]
+    },
+    {
+      "pillar": "Employee Selection, Vetting & Evaluation",
+      "theme": "Candidate Screening & Proctoring",
+      "intent": "informational",
+      "spokes": [
+        "employee-evaluation-forms",
+        "employee-profiling",
+        "employee-selection-methods",
+        "employee-vetting"
+      ]
+    },
+    {
+      "pillar": "Employee Referral Programs",
+      "theme": "Recruiting & Talent Acquisition",
+      "intent": "informational",
+      "spokes": [
+        "design-a-successful-employee-referral-program",
+        "effectively-leverage-employee-referrals-to-fill-open-positions",
+        "employee-referrals-hold-significant-weight-in-hiring-decisions"
+      ]
+    }
+  ],
+  "orphans": []
+}

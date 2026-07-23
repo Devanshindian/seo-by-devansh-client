@@ -1,0 +1,47 @@
+[
+  {
+    "row_id": 484,
+    "brand_fit": "ADJACENT",
+    "angle_gap": "Generic cross-cultural business etiquette (personal space, greetings, reading social cues) aimed at any traveling employee \u2014 never once ties back to hiring, screening, or assessing candidates for intercultural competence, despite sitting on an assessment company's blog.",
+    "asset": "What Cross-Cultural Competence Actually Looks Like in a Candidate \u2014 and How to Spot It",
+    "distinct_angle": "Turns the eskill page's generic etiquette tips (personal space, greetings) into concrete, assessable hiring signals and interview probes for cross-cultural competence \u2014 the hiring-decision link the original never makes.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 492,
+    "brand_fit": "CORE",
+    "angle_gap": "Lists the four assessment types (skills, cognitive, simulation, behavioral) and generic benefits, but gives no guidance on which combination fits which role, and leans on an unyeared Korn Ferry '85 million shortage' figure and a 71% CEO stat with no date attached.",
+    "asset": "Which Pre-Hire Assessment Combination Actually Fits Each Role",
+    "distinct_angle": "Replaces the flat list-of-four-types with a role-by-role decision framework (data-entry vs. cybersecurity manager vs. customer-service rep) and refreshes the talent-shortage figures to current public numbers \u2014 the depth and currency eskill skips.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 496,
+    "brand_fit": "CORE",
+    "angle_gap": "Makes its case almost entirely through one anecdote (a Phoenix lead engineer clashing with a casual culture) plus generic SHRM/turnover-cost stats, without ever showing what a behavioral assessment rubric or sample scoring criteria actually looks like.",
+    "asset": "Designing a Behavioral Assessment Rubric That Actually Predicts Culture Fit",
+    "distinct_angle": "Adds the worked rubric and sample scoring criteria the eskill anecdote never provides, turning a single cautionary story into a reusable method for matching candidates to company culture.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 497,
+    "brand_fit": "CORE",
+    "angle_gap": "Built entirely on a 2021 study of AI-skills wage premiums and lists only three legacy test categories (general AI knowledge, classic Machine Learning, NLP) \u2014 no mention of prompt engineering, LLM evaluation, or generative-AI competencies that have defined the field since 2023.",
+    "asset": "What an AI Skills Assessment Should Actually Test in 2026",
+    "distinct_angle": "Swaps the 2021-era wage-premium framing and legacy-only test list for current public data on AI-skill demand plus the newer competencies (prompt engineering, LLM evaluation, applied generative AI) the eskill page predates.",
+    "tool_escalation": "",
+    "g_notes": ""
+  },
+  {
+    "row_id": 506,
+    "brand_fit": "CORE",
+    "angle_gap": "Reads as a product-feature list of eskill's own named tests (Pick and Pack, Forklift Operator, Supervisor, Supply Chain) with no example questions or competency levels, and cites a McKinsey '40% of orgs can't find skilled candidates' stat with no year attached.",
+    "asset": "Building a Warehouse Skills Test That Actually Predicts On-the-Job Performance",
+    "distinct_angle": "Supplies the concrete competency levels and example test items per warehouse role that eskill's product-feature list skips, and attaches a current, dated figure to the McKinsey stat it leaves floating.",
+    "tool_escalation": "",
+    "g_notes": ""
+  }
+]

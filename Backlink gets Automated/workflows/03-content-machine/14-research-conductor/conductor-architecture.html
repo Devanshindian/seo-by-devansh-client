@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research conductor — How One Command Runs the Whole Research Phase</title>
+<style>
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:730px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:730px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;} .mem ul{margin:6px 0 6px;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .note.red{border-left-color:var(--red-ink); background:var(--red);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+  .tag.r{color:var(--red-ink);}
+
+  /* step flow */
+  .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
+  .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:18px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow);}
+  .step-body h3{margin:4px 0 4px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
+  .step-body ul{margin:6px 0 4px; color:var(--muted); font-size:14.5px;} .step-body ul .file{font-size:11.5px;}
+  .step-body ul .fn{color:var(--ink); font-weight:600;}
+  .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
+  .xref:hover{background:var(--orange-soft);}
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.gate{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.eng{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
+  .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
+  .files .k{font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
+
+  /* generic cards */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .grid.four{grid-template-columns:repeat(4,1fr);}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+  .card .file{margin-top:10px; display:inline-block;}
+
+  /* the engine chain */
+  .chain{display:flex; flex-wrap:wrap; align-items:stretch; gap:8px; margin:22px 0;}
+  .link{flex:1; min-width:120px; background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:12px 10px; text-align:center; box-shadow:var(--shadow);}
+  .link .em{font-size:20px;} .link b{display:block; font-size:13px; margin:4px 0 1px;} .link small{color:var(--muted); font-size:11.5px;}
+  .link.pick{background:var(--wash); border-color:var(--orange-soft);}
+  .link.out{background:var(--green); border-color:var(--green-line);}
+  .chev{align-self:center; color:var(--orange-soft); font-weight:800; font-size:18px;}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11.5px;}
+  td b{color:var(--ink);}
+  td .n{font-family:ui-monospace,Menlo,monospace; font-weight:700; color:var(--orange);}
+
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
+
+  /* two-column compare */
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--yellow-soft); border:2px solid var(--yellow);}
+  .agent.answ .cap{background:var(--orange-soft); border:2px solid var(--orange);}
+  .agent h3{margin:0 0 2px; font-size:19px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+  .mem{font-size:14px; padding:9px 12px; border-radius:10px; margin-top:9px;}
+  .mem.yes{background:var(--green); border:1px solid var(--green-line);}
+  .mem.no{background:var(--blue); border:1px solid var(--blue-line);}
+  .mem .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
+  .mem.yes .lbl{color:var(--green-ink);} .mem.no .lbl{color:var(--blue-ink);}
+
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three,.grid.four{grid-template-columns:1fr;} .chev{display:none;} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="kicker">Content Machine · Research Phase</span>
+    <h1>How the <span class="hl">research conductor</span> runs the whole phase, hands-off</h1>
+    <p class="lede">The four earlier engines each do one job. The conductor is the thing that runs them <b>in
+    order</b>, unattended: it picks one topic, threads that topic's identity through DataForSEO → STORM → gap-check →
+    research-structure, checks each result, then packages a write-ready bundle and queues the topic's follow-ups.
+    You launch it with one command — <span class="hl">/research</span> — pick a provider (Claude or Codex) and model,
+    and walk away. One topic, no human in the loop. Here is exactly how it works.</p>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#idea">The idea</a>
+    <a href="#words">The words</a>
+    <a href="#queue">The queue</a>
+    <a href="#architecture">The architecture</a>
+    <a href="#pipeline">Full pipeline</a>
+    <a href="#resume">Resume &amp; the gate</a>
+    <a href="#bundle">The bundle</a>
+    <a href="#output">Spokes &amp; where it sits</a>
+  </div>
+</nav>
+
+<!-- IDEA -->
+<section id="idea">
+  <div class="wrap">
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">Each research engine already works on its own. What was missing was a single, reliable way to run
+    all of them for one topic without a person babysitting the handoffs. That's the conductor — it invents nothing,
+    it just sequences.</p>
+    <div class="grid four">
+      <div class="card"><div class="ic">🎯</div><h3>1. Pick</h3><p>Choose the next topic — from the queue, or the
+        idea cabinet if the queue is empty — and lock its identity.</p></div>
+      <div class="card"><div class="ic">🔗</div><h3>2. Sequence</h3><p>Run all four engines in order, passing the
+        topic's identity through each so every output lands together.</p></div>
+      <div class="card"><div class="ic">🛡️</div><h3>3. Guard</h3><p>Check each engine's output before the next one
+        uses it — a dud STORM run stops the whole thing.</p></div>
+      <div class="card"><div class="ic">📦</div><h3>4. Package &amp; queue</h3><p>Bundle the result for the writer,
+        mark the topic done, and queue its spokes.</p></div>
+    </div>
+    <div class="note orange"><span class="tag">The one rule that governs everything</span><br>
+    <b>The slug is the thread.</b> The conductor picks one topic and mints a short nickname — its <b>slug</b> — then
+    passes that same slug + title + angle to every engine, and every engine writes its output under that one slug.
+    That single shared thread is what lets four separate tools behave like one pipeline (and what makes a crash
+    resumable).</div>
+  </div>
+</section>
+
+<!-- THE WORDS -->
+<section id="words" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">The conductor pulls together the whole phase, so a few coordination terms matter. Plain language, once.</p>
+    <div class="define"><b>The conductor</b> — the top-level command (<span class="file">run_research.py</span>) that
+      runs the whole research phase for one topic by calling the four engines in order. It sequences; it doesn't think.</div>
+    <div class="define"><b>The queue</b> (<span class="file">research-log.csv</span>) — the to-do sheet: one row per
+      topic with its status. The single source of truth for what's done and what's next.</div>
+    <div class="define"><b>The idea cabinet</b> (<span class="file">clubbed-ideas.csv</span>) — where topics come
+      from: title, angle, competitor URLs. The source of truth for idea <i>data</i> (never edited by the conductor).</div>
+    <div class="define"><b>Slug</b> — the short nickname minted from a topic's title. It's the thread that ties every
+      engine's output together under one folder name.</div>
+    <div class="define"><b>Hub vs spoke</b> — a <b>hub</b> is a main topic from the cabinet; a <b>spoke</b> is a
+      sub-topic it spawns (its own future article), queued right after its hub.</div>
+    <div class="define"><b>The bundle</b> — the final handoff: one folder holding the blueprint plus pointers to
+      everything else the writer needs.</div>
+    <div class="define"><b>Resumable</b> — a step is skipped if its output already exists, so a crash (or a
+      usage-limit stop) picks up where it left off instead of repeating expensive work.</div>
+  </div>
+</section>
+
+<!-- THE QUEUE -->
+<section id="queue">
+  <div class="wrap">
+    <h2><span class="num">03</span>The queue — how a topic gets chosen</h2>
+    <p class="sub">Everything is <b>pull-based</b>: the conductor does exactly one topic per run and pulls the next
+    one itself. There are no triggers or push-events — a scheduler just fires the same command repeatedly, and the
+    queue decides what happens each time.</p>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">✅</div><h3>The queue</h3>
+        <div class="role"><span class="file">research-log.csv</span> · status only</div>
+        <div class="mem yes"><span class="lbl">Tracks progress</span><br>
+          One row per topic: <span class="file">slug · asset · angle · source · research_status · write_status ·
+          dates</span>. The conductor reads and writes this to know what's done and what's next.</div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">🗄️</div><h3>The idea cabinet</h3>
+        <div class="role"><span class="file">clubbed-ideas.csv</span> · idea data only</div>
+        <div class="mem no"><span class="lbl">Supplies topics</span><br>
+          Title, angle, proof URLs, reuse verdict. Read-only to the conductor — the competitor URLs and the like are
+          looked up live by matching the title, never copied into the queue.</div>
+      </div>
+    </div>
+
+    <h3>The pick order (every run)</h3>
+    <ol>
+      <li>Take the next <b>unfinished</b> row in the queue — <span class="file">pending</span>, or
+        <span class="file">in_progress</span> (reclaimed; see below).</li>
+      <li>Because spokes sit <b>right after their hub</b>, a cluster is researched depth-first: the hub, then its
+        spokes, then the next hub.</li>
+      <li>If the queue has nothing unfinished, pull the next <b>eligible</b> idea from the cabinet (reuse verdict =
+        "Brand new" or "Build from parts") and add it as a new row.</li>
+    </ol>
+
+    <div class="note"><span class="tag">Why "in_progress" gets reclaimed, not skipped</span><br>
+    A row left <span class="file">in_progress</span> means a previous run started that topic but crashed before
+    finishing. Since runs are strictly one-topic-at-a-time, that row is never a live parallel run — so the next run
+    <b>retries it</b> instead of orphaning it. Combined with the slug thread, that's what makes an interrupted run
+    safe to simply re-fire.</div>
+  </div>
+</section>
+
+<!-- ARCHITECTURE -->
+<section id="architecture" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">04</span>The architecture — a thin conductor over four engines</h2>
+    <p class="sub">The conductor is deliberately small. All the real work lives in the four engines it calls; this
+    folder only holds the sequencing, the queue, and the packaging.</p>
+
+    <div class="chain">
+      <div class="link pick"><div class="em">🎯</div><b>Pick</b><small>topic_pick</small></div>
+      <div class="chev">›</div>
+      <div class="link"><div class="em">🔑</div><b>DataForSEO</b><small>brief + keywords</small></div>
+      <div class="chev">›</div>
+      <div class="link"><div class="em">📚</div><b>STORM</b><small>evidence dossier</small></div>
+      <div class="chev">›</div>
+      <div class="link"><div class="em">🔍</div><b>gap-check</b><small>fill the gaps</small></div>
+      <div class="chev">›</div>
+      <div class="link"><div class="em">🗂️</div><b>structure</b><small>the blueprint</small></div>
+      <div class="chev">›</div>
+      <div class="link out"><div class="em">📦</div><b>bundle</b><small>write-ready</small></div>
+    </div>
+
+    <h3>The scripts — all in this folder</h3>
+    <table>
+      <tr><th style="width:26%">File</th><th>What it does &amp; where it's used</th></tr>
+      <tr>
+        <td><span class="file">run_research.py</span><br><span class="muted" style="font-size:12.5px;">the conductor</span></td>
+        <td>The one command you run. <b>Pure sequencing</b> — no business logic.
+          <ul>
+            <li>Picks a topic, then calls each engine's runner in order, handing outputs forward.</li>
+            <li>Starts STORM's bridge automatically before the STORM step.</li>
+            <li>Resumable; prints <span class="file">== Step N ==</span> as it goes.</li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td><span class="file">topic_pick.py</span><br><span class="muted" style="font-size:12.5px;">the queue</span></td>
+        <td>Owns the sheet.
+          <ul>
+            <li>Picks the next topic (queue first, else the cabinet) and mints its slug.</li>
+            <li>Marks a topic done and inserts its spokes right after it.</li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td><span class="file">bundle.py</span><br><span class="muted" style="font-size:12.5px;">Step 5</span></td>
+        <td>Packages the write-ready handoff: copies the blueprint in, picks the author byline, and writes a cover
+          sheet pointing to the brand constants (see §07).</td>
+      </tr>
+      <tr>
+        <td><span class="file">config.py</span><br><span class="muted" style="font-size:12.5px;">settings</span></td>
+        <td>Every path to every engine's runner and output, computed from one anchor, plus the STORM knobs (the
+          word-count gate, the shim port) and the reuse-verdict filter. Company is one setting.</td>
+      </tr>
+      <tr>
+        <td><span class="file">llm.py</span><br><span class="muted" style="font-size:12.5px;">the AI caller</span></td>
+        <td>The headless-Claude caller (free) — used only by the bundle step to pick the author byline. The four
+          engines each have their own.</td>
+      </tr>
+    </table>
+    <div class="note orange"><span class="tag">The entry point — the <span class="file">/research</span> command</span><br>
+    You launch a run by typing <span class="file">/research</span>. It first asks <b>two things</b>: which
+    <b>provider</b> to run every LLM step on — the locally authenticated <b>Claude</b> CLI (default) or the
+    <b>Codex</b> CLI — and which <b>model</b> (or the CLI's default). It then runs the whole chain on that choice.
+    Both providers are headless and <b>need no API key</b>; under the hood the command just passes your picks as
+    <span class="file">--provider</span> / <span class="file">--model</span> to the conductor (and to STORM's bridge).</div>
+  </div>
+</section>
+
+<!-- PIPELINE -->
+<section id="pipeline">
+  <div class="wrap">
+    <h2><span class="num">05</span>The full pipeline — steps 0 to 6</h2>
+    <p class="sub">One run of one topic. Each step calls one engine (<span class="pill eng">engine</span>) and writes
+    a named output the next step reads; the whole thing is keyed by the shared slug.</p>
+    <div class="flow">
+      <div class="step"><div class="dot">0</div><div class="step-body">
+        <h3>Pick the topic</h3>
+        <p>Choose the next topic (queue, else cabinet), mint its slug, and mark the row <span class="file">in_progress</span>.
+        Bookkeeping only — no research yet.</p>
+        <ul>
+          <li><span class="fn"><span class="file">topic_pick.py</span></span> → a row in <span class="file">research-log.csv</span>.</li>
+        </ul>
+        <a class="xref" href="#queue">↓ §03 — the pick order</a></div></div>
+
+      <div class="step"><div class="dot">1</div><div class="step-body">
+        <h3>DataForSEO — keyword + competitor research <span class="pill eng">10-dataforseo</span></h3>
+        <p>Run the brief engine on the topic's full title (a spoke passes its angle directly, since it isn't in the
+        cabinet). This also yields the <b>primary keyword</b> and the <b>spoke candidates</b> used later.</p>
+        <ul>
+          <li>→ <span class="file">dataforseo/out/&lt;slug&gt;/research-doc-&lt;slug&gt;.md</span> (the brief).</li>
+        </ul></div></div>
+
+      <div class="step"><div class="dot">2</div><div class="step-body">
+        <h3>STORM — the deep evidence dossier <span class="pill eng">11-storm</span> <span class="pill gate">gated</span></h3>
+        <p>Start STORM's bridge, then research a <b>subject</b> — not the SEO keyword. The conductor derives a
+        research topic by stripping the brand name and year from the title and appending the angle, because STORM
+        needs something to investigate, not a search phrase.</p>
+        <ul>
+          <li>→ <span class="file">storm/out/&lt;TopicDir&gt;/storm_gen_article_polished.txt</span> (the dossier).</li>
+        </ul>
+        <a class="xref" href="#resume">↓ §06 — the STORM quality gate</a></div></div>
+
+      <div class="step"><div class="dot">3</div><div class="step-body">
+        <h3>gap-check — fill what the brief needs but STORM missed <span class="pill eng">12-gap-check</span></h3>
+        <p>Audit the dossier against the brief and fire targeted STORM re-runs for the important gaps.</p>
+        <ul>
+          <li>→ <span class="file">gap-check/out/&lt;slug&gt;/gap-check.md</span> + STORM gap-fill iterations.</li>
+        </ul></div></div>
+
+      <div class="step"><div class="dot">4</div><div class="step-body">
+        <h3>build_structure — the article blueprint <span class="pill eng">13-research-structure</span></h3>
+        <p>Turn all the research (dossier + gap iterations + own pages + brief) into the blueprint, steering the
+        angle-relevance filter with the topic's distinct angle.</p>
+        <ul>
+          <li>→ <span class="file">research-structure/out/&lt;slug&gt;/structure-&lt;slug&gt;.json</span> + <span class="file">.html</span>.</li>
+        </ul></div></div>
+
+      <div class="step"><div class="dot">5</div><div class="step-body">
+        <h3>Bundle — the write-ready handoff <span class="pill free">free</span></h3>
+        <p>Package the blueprint plus pointers to every brand constant into one folder for the writer.</p>
+        <ul>
+          <li><span class="fn"><span class="file">bundle.py</span></span> → <span class="file">research-bundle/&lt;slug&gt;/bundle-&lt;slug&gt;.md</span> (+ the copied blueprint).</li>
+        </ul>
+        <a class="xref" href="#bundle">↓ §07 — what's in the bundle</a></div></div>
+
+      <div class="step"><div class="dot">6</div><div class="step-body">
+        <h3>Log done + enqueue spokes <span class="pill free">free</span></h3>
+        <p>Mark the topic <span class="file">research=done</span> and insert this hub's <b>top 3</b> ranked spoke
+        candidates right after it in the queue — so the next runs pick them up before moving to a new hub. A spoke
+        itself enqueues nothing (one level only).</p>
+        <ul>
+          <li><span class="fn"><span class="file">topic_pick.py</span></span> → updated <span class="file">research-log.csv</span>.</li>
+        </ul>
+        <a class="xref" href="#output">↓ §08 — how the top 3 spokes are chosen</a></div></div>
+    </div>
+    <div class="note"><span class="tag">Slow by nature, not hung</span><br>
+    STORM writes a full article through headless Claude, and gap-check re-runs it to fill gaps — so a cold topic can
+    take tens of minutes. That's inherent to the depth, not a stall.</div>
+  </div>
+</section>
+
+<!-- RESUME & GATE -->
+<section id="resume" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">06</span>Crash-safety and the one hard gate</h2>
+    <p class="sub">Because this runs unattended and each engine is expensive, two things matter most: it must resume
+    cleanly, and it must never carry a bad STORM result forward.</p>
+
+    <h3>How resume works</h3>
+    <ul>
+      <li><b>The slug is the thread</b> — every engine writes under <span class="file">out/&lt;slug&gt;/</span>, so
+        resume is just "does this step's output file already exist?" If yes, skip it.</li>
+      <li>Safe to Ctrl-C: the topic stays <span class="file">in_progress</span> and the next run reclaims it.</li>
+      <li>Flags to override: <span class="file">--redo</span> reruns everything, <span class="file">--from N</span>
+        forces a rerun from step N, <span class="file">--until N</span> stops after a step (e.g.
+        <span class="file">--until 2</span> stops after STORM).</li>
+    </ul>
+
+    <div class="note red"><span class="tag r">The STORM gate — the one place it refuses to continue</span><br>
+    STORM can exit "successfully" yet return an <b>empty or stub article</b> (~300 words instead of a healthy
+    ~9,000) when its write step transiently fails. The conductor checks the word count: below <b>1,500 words</b> it
+    <b>retries STORM once, then fails the whole run loudly</b> rather than proceed.
+    <div style="margin-top:8px;"><b>Why stop instead of limp on:</b> a stub dossier produces almost no evidence
+    cards, so our own pages dominate the blueprint and the citations come out nearly all our own site. A failed run
+    is treated exactly like an error — better to stop and retry than poison everything downstream.</div></div>
+  </div>
+</section>
+
+<!-- THE BUNDLE -->
+<section id="bundle">
+  <div class="wrap">
+    <h2><span class="num">07</span>The write-ready bundle — one clean handoff</h2>
+    <p class="sub">The last real work is packaging. The bundle is a single folder the writer opens: the plan itself,
+    plus a cover sheet pointing to everything else. It follows one discipline — copy the plan, point to the constants.</p>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">📋</div><h3>Copied in</h3>
+        <div class="role">the one thing unique to this topic</div>
+        <div class="mem yes"><span class="lbl">The blueprint</span><br>
+          The article plan is <b>copied</b> into the bundle folder, because it's specific to this topic and nothing
+          else holds it.</div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">🔗</div><h3>Pointed to</h3>
+        <div class="role">everything shared across topics</div>
+        <div class="mem no"><span class="lbl">The brand constants</span><br>
+          Voice, style, product facts, the SEO checklist, and the rest are <b>pointed to</b>, not copied — so there's
+          one source of truth and no drift between topics.</div>
+      </div>
+    </div>
+
+    <p>The cover sheet (<span class="file">bundle-&lt;slug&gt;.md</span>) opens with the topic's title, its picked
+    <b>reader persona</b> (reused from the blueprint, where it was decided once) and its <b>author byline</b> (picked
+    here), then lays out ten numbered divisions — Division 1 is the plan (WHAT to write), 2–10 are the HOW:</p>
+    <table>
+      <tr><th style="width:8%">#</th><th>Division</th><th>What it gives the writer</th></tr>
+      <tr><td class="n">1</td><td><b>The plan</b> (copied)</td><td>the blueprint — headings · per-H2 keywords · evidence · links · FAQ · write-guidance</td></tr>
+      <tr><td class="n">2</td><td>Voice</td><td>→ brand-voice</td></tr>
+      <tr><td class="n">3</td><td>Style &amp; mechanics</td><td>→ style-guide</td></tr>
+      <tr><td class="n">4</td><td>Product facts</td><td>→ features</td></tr>
+      <tr><td class="n">5</td><td>SEO/AEO/GEO checklist</td><td>→ the per-article checklist</td></tr>
+      <tr><td class="n">6</td><td>Cite-from material</td><td>→ stats · opinions · stories (the brand brain)</td></tr>
+      <tr><td class="n">7</td><td>Worked examples</td><td>→ writing-examples</td></tr>
+      <tr><td class="n">8</td><td>Writing integrity</td><td>→ honesty + differentiation + citation rules</td></tr>
+      <tr><td class="n">9</td><td>Anti-AI writing check</td><td>→ the mandatory final pass</td></tr>
+      <tr><td class="n">10</td><td>DataForSEO research detail</td><td>→ SERP snapshot · what winners cover · the full brief (for depth the blueprint doesn't fully carry)</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- OUTPUT / WHERE IT SITS -->
+<section id="output" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">08</span>Spokes, and where the conductor sits</h2>
+    <p class="sub">One run does one topic — but the queue turns that into a self-refilling loop that eventually clears
+    a whole cluster.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="big">1</div><div class="cap">topic per run — lean + crash-safe</div></div>
+      <div class="stat"><div class="big">4</div><div class="cap">engines chained, one slug</div></div>
+      <div class="stat"><div class="big">0</div><div class="cap">triggers — a cron just re-fires it</div></div>
+      <div class="stat"><div class="big">≤3</div><div class="cap">spokes per hub, ranked — one level only</div></div>
+    </div>
+
+    <h3>Spokes make it recurring — but bounded</h3>
+    <p>When a hub finishes, its spoke candidates (their own future articles) are inserted <b>right after it</b> in the
+    queue. So the next few runs research those spokes before moving to a brand-new hub — the cluster is worked
+    <b>depth-first</b>, and one command fired on a schedule steadily clears the backlog.</p>
+    <p>But not <i>every</i> candidate, and not forever. Two limits keep it sane:</p>
+    <ul>
+      <li><b>Ranked, top 3 only.</b> DataForSEO scores every spoke candidate —
+        <span class="file">0.5·relevance + 0.25·volume + 0.25·ease</span> — and the conductor enqueues only the top
+        <b>3</b> (<span class="file">config.MAX_SPOKES</span>). There's also a <b>hard floor</b>: any candidate whose
+        cluster-relevance is <b>≤2</b> is dropped outright, so a huge but off-topic head like "benchmarking" (110k
+        volume) can never sneak in on volume alone.</li>
+      <li><b>One level only.</b> A spoke never spawns its own spokes. Without this, each spoke would generate 3 more —
+        <span class="file">3 + 9 + 27…</span> with no bound; capping breadth alone wouldn't fix it. So each hub
+        yields at most 3 spokes, full stop.</li>
+    </ul>
+
+    <div class="note orange"><span class="tag">Where the conductor sits in the bigger machine</span><br>
+    The conductor is the <b>top of the research phase</b> — the single entry point that drives all four engines and
+    ends at the write-ready bundle. From there, <span class="file">/write</span> picks up any topic whose research is
+    done and turns the bundle into the finished article. Research is fully hands-off; the writer never has to gather
+    anything.</div>
+
+    <div class="note"><span class="tag">Status — honest note</span><br>
+    The chain is <b>built</b> and each engine is proven on real topics; DataForSEO and STORM have been verified on
+    fresh runs. The last validations still in progress are one clean end-to-end pass (gap-check → blueprint → bundle)
+    and the spoke path run end-to-end — both wired, not yet fully exercised.</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Research conductor · Research-phase architecture overview · One command · one topic · four engines
+  threaded by one slug · a write-ready bundle out the end.</div>
+</footer>
+
+</body>
+</html>
