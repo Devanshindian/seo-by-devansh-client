@@ -1,0 +1,1016 @@
+{
+  "slug": "the-validity-numbers-adverse-impact-data",
+  "format_archetype": "data-benchmark-report",
+  "spine": "Every assessment type carries two numbers, a predictive-validity coefficient and a group-difference figure, and this article puts the pair side by side for cognitive ability, personality and situational judgment tests so a CHRO or compliance-accountable HR leader can see which tests actually forecast performance and what each one costs in pass-rate disparity. It then shows how that disparity is measured under the four-fifths rule, what the employer has to prove once it is flagged, where federal enforcement now stands after Executive Order 14281, and which design choices shrink the gap without giving up validity. At the end the reader can defend a specific test battery with named evidence rather than a vendor's fairness claim.",
+  "coverage_note": "Google's own answer for this query is the generic disparate-impact doctrine (neutral rules, discriminatory effect, no intent needed, plaintiff's burden, employer's defense, less discriminatory alternative, Griggs/Title VII, recent federal shifts), and the ranking-page list came back empty. I gave that ground two real sections early enough to hold the reader: section 6 covers the measurement threshold, the burden shift, Griggs and the business-necessity defense, and section 7 covers the recent enforcement shift. I dropped only the housing/Fair Housing Act branch of Google's answer, because it sits outside employment law and outside this article's subject. The format's optional provenance block is folded into section 2, which names which publication and year each coefficient comes from and why the 1998 and 2022 figures cannot be compared directly.",
+  "item_fields": [],
+  "dropped_items": [],
+  "sections": [
+    {
+      "headline": "The Better a Test Predicts, the More It Screens Out",
+      "covers": null,
+      "job": "Set the whole argument in one comparison: rank the assessment methods by predictive validity, then show that the ranking runs almost backwards against group differences. Establish the trade-off the rest of the article prices, and rule out the obvious escape route by showing that dropping a test for an unstructured interview buys lower measured exposure and worse real discrimination.",
+      "is_item": false,
+      "boxes": [
+        7,
+        16,
+        8,
+        43,
+        9
+      ],
+      "table": {
+        "columns": [
+          "Assessment type",
+          "Predictive validity (r)",
+          "Black-White group difference (d)",
+          "Where the pairing leaves you"
+        ]
+      },
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Published meta-analytic Black-White standardized mean differences (Cohen's d) in employment selection for structured interviews, work sample tests, job knowledge tests, integrity tests, and Big Five conscientiousness measures, from named sources such as Bobko & Roth, Roth et al. (2001), Ployhart & Holtz (2008) or Dean et al., specifying applicant versus incumbent samples and the year of each estimate. Needed to fill the group-difference column for the rows other than cognitive ability and situational judgment tests.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          7,
+          16,
+          8,
+          43,
+          9
+        ],
+        "box_labels": [
+          "Cognitive ability at r=.51 against unstructured interviews at r=.20",
+          "Ranked against the other selection methods: 26% alone, 58% combined, above .60 in composite",
+          "The highest-validity method also produces the largest group differences",
+          "d=0.38 Black-White on SJTs against d=1.02-1.08 on cognitive tests",
+          "The interview paradox: lower validity, equal or worse adverse impact, less measured exposure"
+        ],
+        "from_h2": "Validity coefficients by method, and the group differences that ride along with them",
+        "tags": [
+          "asset-angle",
+          "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open.",
+          "paa: What is the 80% rule for disparate impact?",
+          "related: Disparate impact analysis",
+          "related: Disparate impact test"
+        ],
+        "card_ids": [
+          8,
+          9,
+          10,
+          11,
+          134,
+          240,
+          320,
+          339,
+          346,
+          402,
+          133,
+          135,
+          136,
+          137,
+          184,
+          185,
+          186,
+          187,
+          188,
+          230,
+          138,
+          139,
+          140,
+          141,
+          8004
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 292
+    },
+    {
+      "headline": "Why the 2022 Sackett Reanalysis Cut the Validity Numbers",
+      "covers": null,
+      "job": "Resolve the number conflict before it confuses anything downstream: explain that the 2022 Sackett reanalysis found a range-restriction correction error that inflated the older coefficients by .10 to .20, name which methods moved and in which direction, and settle that the absolute figures fell while the ordering of methods held. This is why every figure in this article carries its source and year.",
+      "is_item": false,
+      "boxes": [
+        11,
+        10,
+        14,
+        12
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Exact revised operational validity coefficients from Sackett, Zhang, Berry & Lievens (2022, Journal of Applied Psychology) for each selection method: structured interview, unstructured interview, job knowledge test, work sample, biodata, integrity test, conscientiousness scale and situational judgment test, each paired with the corresponding Schmidt & Hunter (1998) figure so the size and direction of every revision can be stated numerically.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          11,
+          10,
+          14,
+          12
+        ],
+        "box_labels": [
+          "The range-restriction correction error behind the overestimates",
+          "Test by test: which coefficients moved, and by how much",
+          "Schmidt & Hunter's r=.51 versus Sackett's rho=.31",
+          "Absolute numbers fell, but the ranking of methods held: cognitive ability ~.31 vs structured interviews ~.42"
+        ],
+        "from_h2": "The 2021 Sackett revision cut published validity coefficients by .10 to .20",
+        "tags": [
+          "asset-angle",
+          "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open.",
+          "gap: The dominant readable content is legal-risk/EO framing aimed at HR/legal compliance, not evidence-backed \"does this assessment actually predict performance without disparate impact\" — the science-backed angle has no visible incumbent here."
+        ],
+        "card_ids": [
+          17,
+          18,
+          19,
+          12,
+          13,
+          14,
+          15,
+          16,
+          1,
+          2,
+          3,
+          4,
+          298,
+          235,
+          591,
+          648,
+          9001,
+          9002,
+          9003,
+          9004,
+          9005,
+          9006,
+          9007,
+          9008,
+          9009,
+          9010,
+          9011,
+          9012,
+          9013
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 248
+    },
+    {
+      "headline": "Cognitive Ability: Best Predictor, Widest Score Gap",
+      "covers": null,
+      "job": "Price the cognitive-ability row properly. Show why validity climbs with job complexity and generalises across jobs, then give the measured score gaps by race and by sex, and settle the differential-validity question so the reader knows the gap is in scores rather than in the score-to-performance relationship. Sets up the mitigation section by proving the gap is real and large.",
+      "is_item": false,
+      "boxes": [
+        15,
+        32,
+        33,
+        34
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          15,
+          32,
+          33,
+          34
+        ],
+        "box_labels": [
+          "Validity climbs with job complexity, and generalises across jobs",
+          "Cognitive ability tests produce the largest adverse impact of any assessment type",
+          "The measured score gaps: large Black-White and Hispanic-White differences, negligible male-female difference",
+          "Differential validity: whether the test-performance correlation itself differs by subgroup"
+        ],
+        "from_h2": "Cognitive ability: validity of .51, reanalysed to .31, still the strongest single predictor",
+        "tags": [
+          "asset-angle",
+          "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open.",
+          "paa: What is an example of disparate impact?",
+          "related: Disparate impact examples",
+          "gap: The dominant readable content is legal-risk/EO framing aimed at HR/legal compliance, not evidence-backed \"does this assessment actually predict performance without disparate impact\" — the science-backed angle has no visible incumbent here."
+        ],
+        "card_ids": [
+          5,
+          6,
+          7,
+          43,
+          48,
+          44,
+          45,
+          46,
+          47,
+          49,
+          50
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 270
+    },
+    {
+      "headline": "What Personality Tests Predict, and Their ADA Risk",
+      "covers": null,
+      "job": "Show that personality tests trade a modest validity coefficient for a different kind of legal exposure. Establish conscientiousness at .20 to .30 and the composite of R = .60 with cognitive ability, state honestly that the wider evidence is mixed, then move the risk conversation to where it belongs for this test type: ADA screening of applicants with mental disabilities, and selection-ratio effects rather than race gaps.",
+      "is_item": false,
+      "boxes": [
+        18,
+        19,
+        21,
+        39,
+        22
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Named EEOC charges, consent decrees or settlements involving pre-employment personality tests and disability screening, with employer, year and settlement amount, plus any published meta-analytic subgroup differences (Cohen's d) by race and sex on Big Five conscientiousness and emotional stability scales used for selection.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          18,
+          19,
+          21,
+          39,
+          22
+        ],
+        "box_labels": [
+          "Conscientiousness is the most consistent trait predictor at .20-.30, and Big Five outperforms MBTI for selection",
+          "GMA plus conscientiousness reaches a composite validity of R = .60, making personality a supplement to cognitive testing",
+          "The predictive-validity record is mixed, so scores work as one signal among several",
+          "The impact comes from the construct and the selection ratio, not a race gap",
+          "ADA exposure: personality tests can screen out applicants with mental disabilities"
+        ],
+        "from_h2": "Personality tests: conscientiousness predicts performance at r = .20-.30, and pairs with cognitive ability for R = .60",
+        "tags": [
+          "asset-angle",
+          "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open.",
+          "gap: The dominant readable content is legal-risk/EO framing aimed at HR/legal compliance, not evidence-backed \"does this assessment actually predict performance without disparate impact\" — the science-backed angle has no visible incumbent here.",
+          "related: Disparate impact examples"
+        ],
+        "card_ids": [
+          23,
+          266,
+          24,
+          25,
+          71,
+          269,
+          270,
+          271,
+          61,
+          64,
+          68,
+          69,
+          72,
+          73,
+          74,
+          9014,
+          9015,
+          9016,
+          9017,
+          9018,
+          9019,
+          9020,
+          9021,
+          9022,
+          9023,
+          9024
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 270
+    },
+    {
+      "headline": "Do Situational Judgment Tests Really Reduce Adverse Impact?",
+      "covers": null,
+      "job": "Settle whether situational judgment tests are the compromise they are sold as. Give the meta-analytic validity range and the small incremental gain over cognitive ability and the Big Five, then attach the two caveats that decide whether the smaller gap survives contact with real hiring: cognitive loading in the scoring key, and the near doubling of the gap when measured on applicants rather than incumbents.",
+      "is_item": false,
+      "boxes": [
+        24,
+        26,
+        30,
+        46,
+        44
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          24,
+          26,
+          30,
+          46,
+          44
+        ],
+        "box_labels": [
+          "The meta-analytic validity range: .26 to .34, with leadership and interpersonal SJTs at the top",
+          "Incremental validity over cognitive ability and the Big Five: ΔR of .03 to .08",
+          "The trade-off in the numbers: weaker prediction, a d of 0.38, and the cognitive-loading caveat",
+          "Cognitive loading is the top driver of ethnic subgroup differences",
+          "The Black-White gap nearly doubles in applicants (d=0.66) versus incumbents (d=0.38)"
+        ],
+        "from_h2": "Situational judgment tests: validity of .26 to .34, and small gains over cognitive ability",
+        "tags": [
+          "asset-angle",
+          "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open.",
+          "gap: The dominant readable content is legal-risk/EO framing aimed at HR/legal compliance, not evidence-backed \"does this assessment actually predict performance without disparate impact\" — the science-backed angle has no visible incumbent here.",
+          "related: Disparate impact analysis"
+        ],
+        "card_ids": [
+          75,
+          159,
+          162,
+          163,
+          164,
+          165,
+          171,
+          172,
+          173,
+          174,
+          233,
+          208,
+          211,
+          212,
+          194,
+          195,
+          196,
+          204,
+          231,
+          232,
+          189,
+          190
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 270
+    },
+    {
+      "headline": "What the Four-Fifths Rule Flags, and What You Must Prove",
+      "covers": null,
+      "job": "Turn the score gaps of the previous four sections into the legal arithmetic. Define how the four-fifths ratio is calculated and where it misfires on small samples, establish that Section 4D lets a smaller difference still count, then show what the employer has to prove once a flag lands and which test types have survived that proof in court.",
+      "is_item": false,
+      "boxes": [
+        50,
+        51,
+        52,
+        53,
+        55
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          50,
+          51,
+          52
+        ],
+        "box_labels": [
+          "The 80% threshold and how the ratio is calculated",
+          "Significance testing at p ≤ .05 catches what the ratio gets wrong on small samples",
+          "Uniform Guidelines Section 4D: a gap above 80% can still count as adverse impact"
+        ],
+        "from_h2": "The four-fifths rule: an 80% pass-rate ratio that flags adverse impact but does not prove it",
+        "tags": [
+          "paa: What is the 80% rule for disparate impact?",
+          "paa: What is an example of disparate impact?",
+          "related: Disparate impact test",
+          "gap: No readable competitor cites EEOC adverse-impact data/enforcement evidence broken out by assessment type — same gap, unaddressed.",
+          "related: Disparate impact analysis",
+          "related: Disparate impact theory"
+        ],
+        "card_ids": [
+          99,
+          100,
+          142,
+          101,
+          102,
+          144,
+          145,
+          146,
+          103,
+          143,
+          147,
+          148
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "What the employer has to prove once the ratio flags",
+          "boxes": [
+            53,
+            55
+          ],
+          "box_labels": [
+            "The disparate-impact standard and the burden it shifts to the employer",
+            "Which tests hold up on job-relatedness: cognitive, physical, and custom-built"
+          ],
+          "from_h2": "Adverse-impact numbers in court: the disparate-impact standard and which tests survive it",
+          "tags": [
+            "asset-angle",
+            "paa: Is disparate impact still illegal?",
+            "related: Disparate impact theory",
+            "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open.",
+            "gap: No readable competitor cites EEOC adverse-impact data/enforcement evidence broken out by assessment type — same gap, unaddressed.",
+            "paa: What is an example of disparate impact?"
+          ],
+          "card_ids": [
+            115,
+            155,
+            156,
+            114,
+            116,
+            117,
+            118,
+            78,
+            79
+          ]
+        }
+      ],
+      "word_target": 405
+    },
+    {
+      "headline": "Executive Order 14281 Did Not Repeal Disparate Impact",
+      "covers": null,
+      "job": "Give the reader the current enforcement picture without letting them conclude the risk is gone. State the charge volume and settlement cost through the mid-2020s, the 2023 guidance that applied the four-fifths rule to AI tools, the 2025 reversal under Executive Order 14281, and then the correction: disparate impact still sits in Title VII, private plaintiffs still sue, and state and city rules now carry the accountability.",
+      "is_item": false,
+      "boxes": [
+        57,
+        56,
+        58,
+        59,
+        60,
+        61
+      ],
+      "table": null,
+      "list": {
+        "kind": "bulleted",
+        "of": "the four state and city AI hiring rules and the specific obligation each one imposes"
+      },
+      "needs_research": [
+        {
+          "topic": "Status as of 2026 of federal and state adverse-impact rules for hiring assessments: whether the EEOC has reinstated or replaced the AI technical-assistance documents it withdrew in 2025, the current posture of Executive Order 14281 and any litigation over it, the outcome or current stage of the DOJ-joined xAI v. Colorado case, and the in-force or stayed status and effective dates of NYC Local Law 144, the California Civil Rights Council ADS regulations, Colorado SB 26-189 and Connecticut PA 26-15.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          57,
+          56,
+          58,
+          59,
+          60,
+          61
+        ],
+        "box_labels": [
+          "Charge volume and settlement cost climbed through the mid-2020s: 27,000+ race charges a year, $145.7 million in 2023 settlements",
+          "The 2021 initiative and the May 2023 document that applied the four-fifths rule to AI tools",
+          "Executive Order 14281 pulled the EEOC off disparate-impact-only charges in 2025",
+          "Disparate impact still sits in Title VII, and state and local rules now carry the accountability",
+          "Four jurisdictions, four different mandates: audit, disclosure, notice, human review",
+          "The four-fifths threshold has become the de facto multi-state compliance floor"
+        ],
+        "from_h2": "The EEOC record: 88,000 charges in FY2024, then the 2025 enforcement reversal",
+        "tags": [
+          "gap: No readable competitor cites EEOC adverse-impact data/enforcement evidence broken out by assessment type — same gap, unaddressed.",
+          "related: Disparate impact test",
+          "related: Disparate impact analysis",
+          "asset-angle",
+          "paa: Is disparate impact still illegal?",
+          "related: Disparate impact discrimination",
+          "paa: What is the 80% rule for disparate impact?"
+        ],
+        "card_ids": [
+          86,
+          87,
+          110,
+          111,
+          112,
+          113,
+          104,
+          105,
+          106,
+          107,
+          109,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          132,
+          9025,
+          9026,
+          9027,
+          9028,
+          9029,
+          9030,
+          9031,
+          9032,
+          9033,
+          9034,
+          9035,
+          9036,
+          9037,
+          9038,
+          9039,
+          9040
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 270
+    },
+    {
+      "headline": "Shrink the Gap Without Losing Validity",
+      "covers": null,
+      "job": "Close by converting the article's evidence into the levers the reader controls. Show that fixed cutoffs are what turn a score gap into a four-fifths violation, name the design changes that shrink the composite gap while holding validity, and state what a defensible file contains: validation evidence, thresholds set before candidates are seen, documented rationale and quarterly pass-rate monitoring.",
+      "is_item": false,
+      "boxes": [
+        35,
+        36,
+        62,
+        37,
+        63
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          35,
+          36,
+          62,
+          37,
+          63
+        ],
+        "box_labels": [
+          "Fixed cutoffs on cognitive tests trigger four-fifths rule violations",
+          "Banding, multimethod batteries and lower reading demand cut the gap without losing validity",
+          "Design choices that shrink group differences: banding, compensatory models, lower reading demand (d=1.02 vs 1.08)",
+          "What EEOC defensibility requires: validation evidence, thresholds set in advance, documentation",
+          "Measuring the gap: four-fifths pass-rate checks and quarterly monitoring"
+        ],
+        "from_h2": "Adverse impact in cognitive testing: the group-difference numbers and what shrinks them",
+        "tags": [
+          "asset-angle",
+          "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open.",
+          "paa: What is the 80% rule for disparate impact?",
+          "gap: The dominant readable content is legal-risk/EO framing aimed at HR/legal compliance, not evidence-backed \"does this assessment actually predict performance without disparate impact\" — the science-backed angle has no visible incumbent here.",
+          "related: Disparate impact test",
+          "related: Disparate impact analysis",
+          "gap: No readable competitor cites EEOC adverse-impact data/enforcement evidence broken out by assessment type — same gap, unaddressed."
+        ],
+        "card_ids": [
+          53,
+          63,
+          324,
+          54,
+          55,
+          56,
+          57,
+          62,
+          149,
+          150,
+          151,
+          152,
+          154,
+          279,
+          280,
+          299,
+          303,
+          315,
+          328,
+          350,
+          153,
+          241,
+          284,
+          287,
+          8011
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 225
+    }
+  ],
+  "entities": [],
+  "yardsticks": [],
+  "artifact": null,
+  "unused_boxes": [
+    {
+      "n": 1,
+      "h3": "Title VII authority and the 1978 adoption of UGESP",
+      "from_h2": "UGESP: the 1978 federal standard that defines a valid hiring test",
+      "cards": 3,
+      "serves": [
+        "asset-angle"
+      ],
+      "why_benched": "Title VII authority and the 1978 UGESP adoption is framework background the compliance reader already has, and at 2,250 words the article spends its space on the operative tests instead."
+    },
+    {
+      "n": 2,
+      "h3": "What counts as a selection procedure, and what UGESP does not regulate",
+      "from_h2": "UGESP: the 1978 federal standard that defines a valid hiring test",
+      "cards": 2,
+      "serves": [
+        "asset-angle"
+      ],
+      "why_benched": "The definition of a selection procedure and the 'no such thing as EEOC compliant' point is definitional scene-setting; the AI-tool extension it hints at is already carried by box 56."
+    },
+    {
+      "n": 3,
+      "h3": "The three validation strategies: criterion-related, content, construct",
+      "from_h2": "UGESP: the 1978 federal standard that defines a valid hiring test",
+      "cards": 4,
+      "serves": [
+        "asset-angle",
+        "gap: The dominant readable content is legal-risk/EO framing aimed at HR/legal compliance, not evidence-backed \"does this assessment actually predict performance without disparate impact\" — the science-backed angle has no visible incumbent here."
+      ],
+      "why_benched": "The three validation strategies are a methodology primer; the article only ever uses criterion-related validity, which the coefficient sections cover directly."
+    },
+    {
+      "n": 4,
+      "h3": "Criterion-related validity, the method behind the numbers",
+      "from_h2": "Where the validity coefficients come from: criterion-related validation",
+      "cards": 4,
+      "serves": [
+        "asset-angle",
+        "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open."
+      ],
+      "why_benched": "Criterion-related validity as a method is I-O methodology explained for a practitioner, one level below what an executive buyer reads for."
+    },
+    {
+      "n": 5,
+      "h3": "What shrinks a coefficient: criterion quality and range restriction",
+      "from_h2": "Where the validity coefficients come from: criterion-related validation",
+      "cards": 4,
+      "serves": [
+        "asset-angle"
+      ],
+      "why_benched": "Range restriction as a general attenuation mechanism duplicates box 11, which delivers the same idea as the specific reason the Sackett numbers moved."
+    },
+    {
+      "n": 6,
+      "h3": "The validity evidence to demand from an assessment vendor",
+      "from_h2": "Where the validity coefficients come from: criterion-related validation",
+      "cards": 2,
+      "serves": [
+        "asset-angle",
+        "gap: The dominant readable content is legal-risk/EO framing aimed at HR/legal compliance, not evidence-backed \"does this assessment actually predict performance without disparate impact\" — the science-backed angle has no visible incumbent here.",
+        "paa: What is the 80% rule for disparate impact?"
+      ],
+      "why_benched": "The vendor evidence checklist duplicates box 37, which makes the same demand inside the defensibility section."
+    },
+    {
+      "n": 13,
+      "h3": "What a cognitive ability test measures, and how it differs from an IQ test",
+      "from_h2": "Cognitive ability: validity of .51, reanalysed to .31, still the strongest single predictor",
+      "cards": 3,
+      "serves": [
+        "asset-angle"
+      ],
+      "why_benched": "The cognitive test versus IQ test comparison is a definitional table, and the article already spends its one table on the validity and adverse-impact pairing."
+    },
+    {
+      "n": 17,
+      "h3": "What a hiring personality test measures: standardized Big Five trait questionnaires, not job-skills tests",
+      "from_h2": "Personality tests: conscientiousness predicts performance at r = .20-.30, and pairs with cognitive ability for R = .60",
+      "cards": 5,
+      "serves": [
+        "asset-angle",
+        "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open."
+      ],
+      "why_benched": "Introductory framing, TL;DR and at-a-glance material for a personality-test guide, none of which is evidence this article can cite."
+    },
+    {
+      "n": 20,
+      "h3": "The trade-off: less first-impression bias against faking, biased cutoffs and ADA exposure",
+      "from_h2": "Personality tests: conscientiousness predicts performance at r = .20-.30, and pairs with cognitive ability for R = .60",
+      "cards": 2,
+      "serves": [
+        "gap: No readable competitor cites EEOC adverse-impact data/enforcement evidence broken out by assessment type — same gap, unaddressed.",
+        "related: Disparate impact discrimination"
+      ],
+      "why_benched": "The pros and cons of personality testing are written for a practitioner choosing a tool, not for the reader who has to defend the choice on evidence."
+    },
+    {
+      "n": 23,
+      "h3": "The legal test: job-relatedness under the Uniform Guidelines and the business-necessity defense",
+      "from_h2": "Personality tests: mixed validity evidence and ADA adverse-impact exposure",
+      "cards": 2,
+      "serves": [
+        "paa: Is disparate impact still illegal?",
+        "related: Disparate impact theory"
+      ],
+      "why_benched": "The job-relatedness and business-necessity test is delivered once, in section 6, for all assessment types rather than repeated per type."
+    },
+    {
+      "n": 25,
+      "h3": "What moves the number: response-instruction format, scoring-key construction, and predictor-criterion matching",
+      "from_h2": "Situational judgment tests: validity of .26 to .34, and small gains over cognitive ability",
+      "cards": 6,
+      "serves": [
+        "asset-angle"
+      ],
+      "why_benched": "Scoring-key construction and response-instruction moderators are test-design detail for the vendor, not decision material for the buyer; the cognitive-loading half of it survives in box 46."
+    },
+    {
+      "n": 27,
+      "h3": "Below GMA, structured interviews, work samples and integrity tests in the Schmidt & Hunter hierarchy",
+      "from_h2": "Situational judgment tests: validity of .26 to .34, and small gains over cognitive ability",
+      "cards": 3,
+      "serves": [
+        "asset-angle",
+        "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open."
+      ],
+      "why_benched": "The SJT position in the Schmidt & Hunter hierarchy is already shown in the section 1 comparison table."
+    },
+    {
+      "n": 28,
+      "h3": "Empirical keying roughly doubles predictive validity, but needs a 30-50 person local study",
+      "from_h2": "Situational judgment tests: validity of .26 to .34, and small gains over cognitive ability",
+      "cards": 3,
+      "serves": [
+        "asset-angle"
+      ],
+      "why_benched": "Empirical keying and local validity studies pull into test construction, which the article treats as the vendor's problem rather than the buyer's."
+    },
+    {
+      "n": 29,
+      "h3": "Race and sex differences in SJT performance: the 2026 systematic review",
+      "from_h2": "Situational judgment tests: validity of .26 to .34, and small gains over cognitive ability",
+      "cards": 1,
+      "serves": [
+        "asset-angle",
+        "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open.",
+        "related: Disparate impact analysis"
+      ],
+      "why_benched": "A single card noting that a 2026 review exists, with no finding attached."
+    },
+    {
+      "n": 31,
+      "h3": "SJTs pair with cognitive ability rather than replace it",
+      "from_h2": "Situational judgment tests: lower predictive validity, smaller group differences (d = 0.38)",
+      "cards": 2,
+      "serves": [
+        "asset-angle",
+        "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open."
+      ],
+      "why_benched": "The supplement-not-replacement conclusion is already carried by the incremental-validity evidence in box 26."
+    },
+    {
+      "n": 38,
+      "h3": "Ongoing monitoring: quarterly pass rates by group, score-to-performance correlation",
+      "from_h2": "Adverse impact in cognitive testing: the group-difference numbers and what shrinks them",
+      "cards": 4,
+      "serves": [
+        "asset-angle",
+        "related: Disparate impact analysis"
+      ],
+      "why_benched": "Quarterly pass-rate monitoring and score-to-performance tracking duplicate box 63 in the same closing section."
+    },
+    {
+      "n": 40,
+      "h3": "Under real hiring incentives, faking shifts the group differences",
+      "from_h2": "Personality tests: adverse impact traces to selection ratio and faking, not group score gaps",
+      "cards": 2,
+      "serves": [
+        "asset-angle",
+        "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open."
+      ],
+      "why_benched": "The incentivised faking study is an interesting finding but a side-topic at this length; box 39 already establishes that the personality gap comes from the construct and the selection ratio."
+    },
+    {
+      "n": 41,
+      "h3": "Contextualizing items to the work setting raises validity",
+      "from_h2": "Personality tests: adverse impact traces to selection ratio and faking, not group score gaps",
+      "cards": 1,
+      "serves": [
+        "asset-angle",
+        "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open.",
+        "gap: The dominant readable content is legal-risk/EO framing aimed at HR/legal compliance, not evidence-backed \"does this assessment actually predict performance without disparate impact\" — the science-backed angle has no visible incumbent here."
+      ],
+      "why_benched": "Contextualising personality items is a test-design refinement with no adverse-impact or defensibility payoff for this reader."
+    },
+    {
+      "n": 42,
+      "h3": "SJT subgroup gaps sit near d=0.38, roughly a third of the cognitive-test gap",
+      "from_h2": "SJT subgroup gaps sit near d=0.38, roughly a third of the cognitive-test gap",
+      "cards": 1,
+      "serves": [
+        "asset-angle",
+        "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open."
+      ],
+      "why_benched": "An overview restatement of the SJT gap, fully covered by boxes 43 and 30."
+    },
+    {
+      "n": 45,
+      "h3": "Sex differences are small, with females scoring slightly higher",
+      "from_h2": "SJT subgroup gaps sit near d=0.38, roughly a third of the cognitive-test gap",
+      "cards": 2,
+      "serves": [
+        "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open."
+      ],
+      "why_benched": "Small sex differences on SJTs add a third decimal to a point section 3 already makes about the negligible male-female cognitive gap."
+    },
+    {
+      "n": 47,
+      "h3": "Fixed-response items widen group differences and invite faking",
+      "from_h2": "SJT subgroup gaps sit near d=0.38, roughly a third of the cognitive-test gap",
+      "cards": 4,
+      "serves": [
+        "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open."
+      ],
+      "why_benched": "Fixed-response versus open-ended item format is a construction choice the buyer does not make, and it competes with the cognitive-loading point that matters more."
+    },
+    {
+      "n": 48,
+      "h3": "Video-recorded responses cut group differences further, against expectation",
+      "from_h2": "SJT subgroup gaps sit near d=0.38, roughly a third of the cognitive-test gap",
+      "cards": 3,
+      "serves": [
+        "gap: No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open."
+      ],
+      "why_benched": "Video-recorded response formats are a research curiosity here, and the section can only carry the two caveats that change a purchase decision."
+    },
+    {
+      "n": 49,
+      "h3": "Adverse-impact tests of SJT gaps: Larison's hypotheses were not supported",
+      "from_h2": "SJT subgroup gaps sit near d=0.38, roughly a third of the cognitive-test gap",
+      "cards": 3,
+      "serves": [
+        "gap: No readable competitor cites EEOC adverse-impact data/enforcement evidence broken out by assessment type — same gap, unaddressed.",
+        "related: Disparate impact analysis"
+      ],
+      "why_benched": "Studies whose hypotheses were not supported give the reader nothing to act on and would sit awkwardly beside the confirmed d = 0.38 evidence."
+    },
+    {
+      "n": 54,
+      "h3": "The circuit split on practical significance at the prima facie stage",
+      "from_h2": "Adverse-impact numbers in court: the disparate-impact standard and which tests survive it",
+      "cards": 2,
+      "serves": [
+        "asset-angle",
+        "related: Disparate impact analysis"
+      ],
+      "why_benched": "The circuit split on practical significance is jurisdictional litigation detail that would pull section 6 away from the measure-then-defend line it has to hold."
+    },
+    {
+      "n": 64,
+      "h3": "Where mitigation fails in practice: unvalidated off-the-shelf tests, strict rank-ordering, no re-validation",
+      "from_h2": "Adverse impact is a fixable property of test use, not a fixed trait of the test",
+      "cards": 3,
+      "serves": [
+        "asset-angle",
+        "gap: The dominant readable content is legal-risk/EO framing aimed at HR/legal compliance, not evidence-backed \"does this assessment actually predict performance without disparate impact\" — the science-backed angle has no visible incumbent here."
+      ],
+      "why_benched": "The implementation-failure list restates the mitigation levers and the documentation requirement already delivered by boxes 62 and 37."
+    }
+  ],
+  "shared_box_warnings": [],
+  "research_failures": [
+    {
+      "section": "Cognitive ability tests predict job performance at r = .51. Unstructured interviews manage .20",
+      "h3": "Published meta-analytic Black-White standardized mean differences (Cohen's d) in employment selection for structured interviews, work sample tests, job knowledge tests, integrity tests, and Big Five conscientiousness measures, from named sources such as Bobko & Roth, Roth et al. (2001), Ployhart & Holtz (2008) or Dean et al., specifying applicant versus incumbent samples and the year of each estimate. Needed to fill the group-difference column for the rows other than cognitive ability and situational judgment tests.",
+      "status": "nothing usable found",
+      "queries": [
+        "Roth 2001 meta-analysis Black-White standardized mean differences employment selection work sample job knowledge tests",
+        "Ployhart Holtz 2008 subgroup differences Cohen's d structured interview integrity test conscientiousness applicant samples",
+        "Bobko Roth correlation matrix cognitive ability structured interview conscientiousness adverse impact d values hiring"
+      ],
+      "pages_loaded": 8
+    }
+  ],
+  "brand_cards": [
+    {
+      "card_id": 8004,
+      "kind": "research",
+      "section": 1,
+      "headline": "Cognitive ability tests predict job performance at r = .51. Unstructured interviews manage .20",
+      "goes_to": "opening",
+      "why": "Evidence for the section's point that swapping a test for an unstructured interview buys worse real discrimination: 45.8% report selection quality swinging by hiring manager, which is the unmeasured variance the r=.20 figure only implies.",
+      "gloss": "Selection quality swings by hiring manager for 45.8%"
+    },
+    {
+      "card_id": 8011,
+      "kind": "research",
+      "section": 8,
+      "headline": "Adverse impact is a property of how you use a test, not a fixed trait of the test",
+      "goes_to": "opening",
+      "why": "Evidence for the section's closing point that a defensible file rests on validation evidence: 44.5% report no one formally validates their assessments, so the file the reader needs is one most employers do not have.",
+      "gloss": "44.5% say no one formally validates their assessments"
+    }
+  ],
+  "word_budget": {
+    "band": {
+      "min": 2200,
+      "max": 2800
+    },
+    "band_middle": 2500,
+    "aim_low_pct": 10,
+    "base": 2250,
+    "overwrite_pct": 0,
+    "sum_of_targets": 2250,
+    "headings": {
+      "sections": 8,
+      "sub_headings": 1,
+      "total": 9,
+      "words_per_heading": 250,
+      "under_floor": []
+    }
+  },
+  "h1": "Adverse Impact vs Validity: The Numbers by Test Type",
+  "keywords": {
+    "primary": "disparate impact",
+    "primary_changed": false,
+    "why_primary": "",
+    "variations": [
+      "adverse impact",
+      "what is disparate impact",
+      "what is adverse impact"
+    ],
+    "section_keywords": [
+      "adverse impact",
+      "four-fifths rule",
+      "disparate impact"
+    ],
+    "unplaced": [
+      {
+        "keyword": "criterion-related validity",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "predictive validity",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "disparate impact vs disparate treatment",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "disparate impact liability",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "disparate impact example",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "criterion-related validity example",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "disparate impact theory",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "predictive validity example",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "disparate impact eeoc",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "disparate impact analysis",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "validity coefficient",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "disparate impact claim",
+        "why": "no section's heading took it"
+      }
+    ]
+  }
+}

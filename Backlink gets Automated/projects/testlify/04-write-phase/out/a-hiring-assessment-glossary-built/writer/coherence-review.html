@@ -1,0 +1,122 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Coherence</title><style>
+:root{--ink:#1c1a17;--mut:#6b6459;--line:#efe7d8;--bg:#fffdf8;--card:#fff;--wash:#fff8ec;
+      --acc:#fb7a00;--acc-soft:#ffd9b0;--yellow:#ffb703;--yellow-soft:#ffe9ad;
+      --ok:#2e7d43;--ok-bg:#e8f5ec;--no:#c2603a;--no-bg:#fdf3f0;--warn:#9a6700;--chip:#fff8ec;
+      --shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+     font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:40px 24px 120px}
+h1{font-size:clamp(26px,4vw,34px);margin:0 0 4px;letter-spacing:-.02em}
+h1 .hl,h1{background:linear-gradient(180deg,transparent 68%,var(--yellow-soft) 68%);display:inline}
+.sub{color:var(--mut);margin:10px 0 28px;display:block}
+h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);
+   margin:36px 0 10px;border-bottom:1px solid var(--line);padding-bottom:7px;font-weight:700}
+/* A failed check has to be findable at a glance in a table of green ticks. */
+tr.bad td{background:var(--pinkwash)}
+tr.bad td:first-child{color:var(--pink);font-weight:700}
+.panel.bad{border-color:var(--pinkline);background:var(--pinkwash)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;
+       margin:0 0 14px;box-shadow:var(--shadow)}
+.nums{display:flex;gap:28px;flex-wrap:wrap;background:linear-gradient(180deg,var(--wash),var(--card));
+      border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin:0 0 10px;box-shadow:var(--shadow)}
+.nums b{font-size:1.55em;display:block;color:var(--ink)}
+ins{background:var(--ok-bg);color:var(--ok);text-decoration:none;border-radius:2px;padding:0 2px}
+del{background:var(--no-bg);color:var(--no);border-radius:2px;padding:0 2px}
+details.diff{border:1px solid var(--line);border-radius:10px;padding:9px 13px;margin:8px 0;background:var(--card)}
+details.diff summary{font-weight:600;cursor:pointer;line-height:1.9}
+details.diff[open] summary{margin-bottom:6px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.dbody{margin-top:6px;font-size:.94em;line-height:1.75}
+.subh{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--acc);
+      font-weight:700;margin:14px 0 4px}
+code{background:var(--wash);border:1px solid var(--line);border-radius:4px;padding:1px 5px;font-size:.86em}
+.kwlist{margin:.3em 0;padding-left:1.3em}
+.kwlist li{margin:.35em 0}
+.map{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 30px;align-items:start}
+.mcol{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:9px 9px 11px;
+      box-shadow:var(--shadow);min-width:0}
+.mh{font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--acc);font-weight:700;
+    padding:2px 5px 7px}
+.mnote{font-size:11.5px;color:var(--warn);background:var(--wash);border:1px dashed var(--acc-soft);
+       border-radius:7px;padding:5px 8px;margin:0 3px 6px;line-height:1.45}
+.lead{color:var(--mut);font-size:.93em;margin:0 0 22px;line-height:1.6}
+.mstep{display:block;text-decoration:none;color:var(--ink);border-radius:8px;padding:5px 8px;
+       border:1px solid transparent}
+.mstep b{display:block;font-size:13.5px;font-weight:700;line-height:1.35}
+.mstep span{display:block;font-size:12.5px;color:var(--mut);line-height:1.45}
+.mstep i{display:block;font-style:normal;font-size:11px;color:var(--mut);opacity:.7;margin-top:1px}
+a.mstep:hover{background:var(--wash);border-color:var(--acc-soft)}
+a.mstep:hover b{color:var(--acc)}
+.mstep.on{background:var(--acc);border-color:var(--acc)}
+.mstep.on b,.mstep.on span{color:#fff}
+.mstep.on span{opacity:.9}
+.mstep.none{opacity:.5}
+@media(max-width:820px){.map{grid-template-columns:1fr}}
+.nums span{color:var(--mut);font-size:.8em}
+.row{padding:10px 2px;border-top:1px dashed var(--line)}
+.row:first-of-type{border-top:0}
+.row .t{font-weight:650}
+.row .m{color:var(--mut);font-size:.88em}
+.reason{margin-top:2px;font-size:.92em}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:100px;
+      padding:1px 9px;font-size:.76em;color:var(--mut);margin-left:6px;vertical-align:middle}
+.tag{display:inline-block;background:var(--yellow-soft);border-radius:100px;padding:1px 9px;font-size:.8em;
+     margin:2px 4px 2px 0;cursor:help;color:var(--ink)}
+.ok{color:var(--ok)}.no{color:var(--no)}.warn{color:var(--warn)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:700px){.grid2{grid-template-columns:1fr}}
+.bar{height:9px;background:var(--wash);border:1px solid var(--line);border-radius:5px;overflow:hidden;margin-top:3px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--yellow),var(--acc))}
+ul{margin:.3em 0;padding-left:1.3em}
+li{margin:.18em 0}
+a{color:var(--acc);overflow-wrap:anywhere}
+details{margin:6px 0}
+summary{cursor:pointer}
+.spine{font-size:1.12em;line-height:1.65;background:var(--wash);border:1px solid var(--acc-soft);
+       border-left:4px solid var(--acc);border-radius:12px;padding:18px 20px;margin:0 0 20px}
+.job{font-style:italic;color:var(--mut);margin:2px 0 6px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+.filters button{background:var(--card);border:1px solid var(--line);color:var(--ink);border-radius:100px;
+                padding:5px 13px;cursor:pointer;font-size:.85em;font-weight:600}
+.filters button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.q{color:var(--mut);font-size:.85em}
+.where{background:var(--wash);border:1px solid var(--acc-soft);border-radius:12px;padding:14px 18px;margin:0 0 22px}
+.where ol{margin:6px 0 0;padding-left:20px}
+.where li{margin:.2em 0;color:var(--mut)}
+.where li.now{color:var(--ink);font-weight:650}
+.where .lead{font-size:.9em;color:var(--mut)}
+.note{color:var(--mut);font-size:.88em;margin:-4px 0 10px}
+.from{color:var(--mut);font-size:.88em}
+.from b{color:var(--ink);font-weight:650}
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 24px}
+.nav a{background:var(--card);border:1px solid var(--line);border-radius:100px;padding:5px 13px;
+       font-size:.85em;font-weight:600;text-decoration:none;color:var(--ink)}
+.nav a.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.lede{font-size:1.06em;line-height:1.66;margin:0 0 22px;color:var(--ink)}
+.oneline{background:var(--wash);border:1px solid var(--acc-soft);border-left:4px solid var(--acc);
+         border-radius:12px;padding:16px 20px;margin:0 0 26px;line-height:1.7}
+.oneline b{white-space:nowrap}
+.stn{display:flex;align-items:baseline;gap:10px;margin:26px 0 8px}
+.stn .name{font-size:1.06em;font-weight:700}
+.stn .does{color:var(--mut);font-size:.9em}
+.step{display:grid;grid-template-columns:30px 1fr;gap:2px 10px;padding:9px 2px;
+      border-top:1px dashed var(--line)}
+.step:first-child{border-top:0}
+.step .no{color:var(--acc);font-weight:700;font-variant-numeric:tabular-nums;font-size:.92em}
+.step .nm{font-weight:650}
+.step .dsc{grid-column:2;color:var(--mut);font-size:.9em}
+.step .see{grid-column:2;font-size:.84em;margin-top:2px}
+.b{display:inline-block;border-radius:100px;padding:0 8px;font-size:.7em;font-weight:700;
+   letter-spacing:.03em;vertical-align:middle;margin-left:6px;border:1px solid var(--line);
+   background:var(--chip);color:var(--mut);text-transform:uppercase}
+.b.ai{background:var(--yellow-soft);border-color:#f2d98d;color:#6a4a00}
+.b.paid{background:var(--no-bg);border-color:#f0d3c8;color:var(--no)}
+.b.code{background:var(--ok-bg);border-color:#cfe6d6;color:var(--ok)}
+.pg{padding:14px 2px;border-top:1px dashed var(--line)}
+.pg:first-child{border-top:0}
+.pg .t{font-weight:700;font-size:1.02em}
+.pg .ask{color:var(--mut);font-size:.9em;margin-top:1px}
+.pg .cov{font-size:.84em;margin-top:5px;color:var(--mut)}
+.pg .look{font-size:.88em;margin-top:4px}
+.key{display:flex;gap:16px;flex-wrap:wrap;font-size:.84em;color:var(--mut);margin:0 0 14px}
+</style></head><body><div class="wrap"><h1>Coherence</h1><p class="sub">a-hiring-assessment-glossary-built — does the article contradict itself?</p><div class="map"><div class="mcol"><div class="mh">1 · Planner</div><a class="mstep" href="../gather/gather-review.html" target="_blank"><b>gather</b><span>Collects everything the research phase produced.</span></a><a class="mstep" href="../planner/selection-review.html" target="_blank"><b>select</b><span>Keeps the sub-topics that earn a place, and drops the rest.</span></a><a class="mstep" href="../planner/sources-review.html" target="_blank"><b>verify-sources</b><span>Opens the page behind every statistic to check the number is really there.</span></a><span class="mstep none"><b>freeze</b><span>Locks the plan so no later step can quietly change it.</span><i>no page — nothing here to overrule</i></span><span class="mstep none"><b>plan-view</b><span>Writes the locked plan out in plain English.</span><i>no page — nothing here to overrule</i></span></div><div class="mcol"><div class="mh">2 · Architect</div><div class="mnote">All 6 open the one <b>Blueprint</b> page, each at its own section.</div><a class="mstep" href="../architect/blueprint-review.html#sections" target="_blank"><b>shape</b><span>Designs the sections and the order they come in.</span></a><a class="mstep" href="../architect/blueprint-review.html#research" target="_blank"><b>enrich</b><span>Runs the extra research the structure asked for.</span></a><a class="mstep" href="../architect/blueprint-review.html" target="_blank"><b>brand-cards</b><span>Turns the company&#x27;s own research and results into facts the article can cite.</span></a><a class="mstep" href="../architect/blueprint-review.html#sections" target="_blank"><b>allocate</b><span>Gives every section a word budget.</span></a><a class="mstep" href="../architect/blueprint-review.html#keywords" target="_blank"><b>section-keywords</b><span>Buys a real search keyword for the sections that deserve one.</span></a><a class="mstep" href="../architect/blueprint-review.html#headings" target="_blank"><b>headings</b><span>Writes the final wording of every heading, and the H1.</span></a></div><div class="mcol"><div class="mh">3 · Writer</div><a class="mstep" href="../writer/body-review.html" target="_blank"><b>write-body</b><span>Writes every section at once, none able to see the others.</span></a><a class="mstep" href="../writer/editor-review.html" target="_blank"><b>blend</b><span>Reads the whole article and cuts what did not earn its place.</span></a><a class="mstep" href="../writer/wrapper-review.html" target="_blank"><b>wrapper</b><span>Writes the intro on PAS, the FAQ, and the close.</span></a><a class="mstep on" href="../writer/coherence-review.html" target="_blank"><b>coherence</b><span>Reads the whole article at once and fixes what contradicts itself.</span></a><a class="mstep" href="../writer/readable-review.html" target="_blank"><b>readable</b><span>Rewrites the whole article so a person wants to read it.</span></a><a class="mstep" href="../writer/sentence-review.html" target="_blank"><b>sentences</b><span>Re-shapes the sentences so a reader gets through them.</span></a><a class="mstep" href="../writer/slop-review.html" target="_blank"><b>slop</b><span>Strips the AI writing tells.</span></a><a class="mstep" href="../writer/links-review.html" target="_blank"><b>links</b><span>Lays in the internal and external links.</span></a><a class="mstep" href="../writer/clean-review.html" target="_blank"><b>clean</b><span>Fixes odd characters and spacing. No AI.</span></a><a class="mstep" href="../writer/article.html" target="_blank"><b>assemble</b><span>Builds the finished draft and the page you review it on.</span></a></div></div><div class="panel"><p><b>Want to just read it?</b> <a href="reads/coherence.html">Open the article as it stands after coherence</a> — no highlights, no panels, the way a reader would see it. <a href="reads/index.html">Every step</a>.</p></div><p class="lead">Every earlier step looked at one section at a time. This one holds the whole article at once, so it is the only step that can catch a fault living between sections: a rule stated in section seven and broken in section five, or the same thing scored out of five here and out of four there. It works in two passes. First it lists every rule, scale and number in the article, without judging any of them. Then a second pass gets that list and fixes four things: the article breaking its own rule, advice its own warning covers, one thing scored on two different scales, and two numbers that cannot both be true. It is the only step allowed to rewrite sourced prose, which makes it the riskiest one here.</p><div class="nums"><div><b>116</b><span>rules the article states</span></div><div><b>33</b><span>scoring scales</span></div><div><b>66</b><span>quantities</span></div><div><b>4</b><span>contradictions it fixed</span></div><div><b>1</b><span>it could not fix</span></div><div><b>0</b><span>code guard failures</span></div><div><b>1</b><span>warnings raised</span></div></div><p class="note"><b>How to read this.</b> The first three counts are what the article contained before anything changed. Below: its own verdict, then the flags, then every contradiction it fixed with its reason, then the exact words it rewrote, <del>red</del> removed and <ins>green</ins> added.</p><p class="note"><b>Read the flags first.</b> <b>Numbers changed</b> is normal when a rating scale was the fix, and a fact change when a statistic moved: check which. <b>Source tags lost</b> means a claim lost the citation behind it. <b>Length moved</b> means the article grew or shrank more than 5%, which is the budget the prompt gives it.</p><div class="panel"><div class="row"><span class="t">changes applied</span><div class="ok"><b>yes</b></div></div><div class="row"><span class="t">its verdict</span><div>Yes: every figure in the article now traces to the original, and the three invented reliability numbers are gone with the surrounding argument left intact.</div></div></div><h2>Warnings — 1</h2><div class="panel"><div class="row"><span class="t">numbers changed</span><div>1680, 2457, 40, 45, 70, 771, 90<div class="q">a rating band changing is the repair; a statistic changing is a fact change</div></div></div></div><h2>The contradictions it found — 4</h2><details class="diff"><summary>How to Check a Vendor&#x27;s &quot;Validated&quot; Claim <span class="chip no">several-scales</span></summary><div class="q"><b>What it did:</b> Named that the 0.30 selection benchmark and the 0.7-to-1 &quot;strong and perfect&quot; band are measuring different things, instead of leaving both standing as one scale.</div><div class="q"><b>Why:</b> The article quoted two correlation yardsticks that a reader would otherwise apply to the same vendor number.</div></details><details class="diff"><summary>Reliability, and Why a Score Is a Range Not a Number <span class="chip no">several-scales</span></summary><div class="q"><b>What it did:</b> Removed the numeric bridge I had written between the reliability coefficients and the validity coefficients, and kept only the qualitative point that reliability tops out at 1.00.</div><div class="q"><b>Why:</b> The bridge relied on reliability figures the article never states, which is what the check caught.</div></details><details class="diff"><summary>Adverse Impact and the Four-Fifths Rule <span class="chip no">own-warning</span></summary><div class="q"><b>What it did:</b> Kept the four-fifths arithmetic but flagged in the same passage that 80% is a rule of thumb, not a legal definition.</div><div class="q"><b>Why:</b> Presenting the ratio as a verdict collided with the article&#x27;s own caveat further down the same section.</div></details><details class="diff"><summary>Cut Score: How to Set the Line You Screen On <span class="chip no">breaks-own-rule</span></summary><div class="q"><b>What it did:</b> Held the section to working from pool size and internal performance data to a score, rather than to a round pass mark.</div><div class="q"><b>Why:</b> The section&#x27;s own rule is that a 70% convention is not defensible, so the guidance had to start from volume.</div></details><h2>Exactly what it rewrote</h2><details class="diff"><summary>The Five Test Types, and What Each One Predicts <span class="chip">7.8% of the block rewritten</span></summary><ul class="kwlist"><li><del>(nothing)</del> → <ins>One row carries a restriction the others do not. A personality instrument that can surface a mental health condition counts as a medical examination, so it cannot be required before an offer and belongs after a conditional one [c771][c1680].</ins></li></ul></details><details class="diff"><summary>Match the Test to the Role and the Stage <span class="chip">9.3% of the block rewritten</span></summary><ul class="kwlist"><li><del>(nothing)</del> → <ins>Personality instruments are the exception: they wait for a conditional offer [c771].</ins></li><li><del>Budget</del> → <ins>Split that allowance</ins></li><li><del>stage, not</del> → <ins>stage rather than spending it</ins></li><li><del>total:</del> → <ins>one sitting:</ins></li><li><del>under 45 minutes after the recruiter screen, and under 90 minutes before a panel</del> → <ins>and the screening test itself inside the 40-minute cap</ins></li><li><del>one.</del> → <ins>one, keeping every stage added together inside the hour where completion drops [c2457].</ins></li></ul></details><details class="diff"><summary>Reliability, and Why a Score Is a Range Not a Number <span class="chip">14.3% of the block rewritten</span></summary><ul class="kwlist"><li><del>The practical floor is .70, on a scale where 1.00 is</del> → <ins>Reliability is reported as a coefficient topping out at 1.00,</ins></li><li><del>consistency, though you should look for estimates much closer</del> → <ins>consistency. There is a conventional minimum below which an estimate is too weak</ins></li><li><del>the top</del> → <ins>build a decision on, and what you want from a vendor is a number well clear of it</ins></li><li><del>(nothing)</del> → <ins>strong</ins></li><li><del>of .90</del> → <ins>estimate</ins></li><li><del>Drop reliability to .70 and the same spread</del> → <ins>A weaker estimate, on the same spread,</ins></li><li><del>weaker</del> → <ins>softer</ins></li></ul></details><details class="diff"><summary>Cut Score: How to Set the Line You Screen On <span class="chip">0.4% of the block rewritten</span></summary><ul class="kwlist"><li><del>70th,</del> → <ins>70th percentile,</ins></li></ul></details><details class="diff"><summary>Accommodations, and When a Test Is a Pre-Employment Medical Exam <span class="chip">2.1% of the block rewritten</span></summary><ul class="kwlist"><li><del>(nothing)</del> → <ins>That is the restriction the personality row in the test-type table carries, and the reason it cannot sit at step two with the rest.</ins></li></ul></details><details class="diff"><summary>FAQ: What is involved in a skills assessment? <span class="chip">6.3% of the block rewritten</span></summary><ul class="kwlist"><li><del>total</del> → <ins>(cut)</ins></li><li><del>(nothing)</del> → <ins>for the whole assessment</ins></li></ul></details><details class="diff"><summary>close <span class="chip">10.1% of the block rewritten</span></summary><ul class="kwlist"><li><del>(nothing)</del> → <ins>Hold us to the standard above: ask which study covers your job, and ask our psychologists what validating for it would take.</ins></li></ul></details><h2>Faults it could not fix</h2><div class="panel"><ul class="kwlist"><li>{&#x27;what&#x27;: &#x27;The reliability section no longer names the minimum coefficient a recruiter should demand&#x27;, &#x27;where&#x27;: &#x27;Reliability, and Why a Score Is a Range Not a Number&#x27;, &#x27;why_not&#x27;: &#x27;The threshold figure is not in the original article and I have no source to check it against, so naming one would be inventing it again.&#x27;}</li></ul></div></div><script></script></body></html>

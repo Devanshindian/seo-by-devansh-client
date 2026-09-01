@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Architect — architecture overview</title>
+<style>
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1000px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:64px 0 44px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:20px;}
+  h1{font-size:clamp(30px,5vw,46px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:730px; margin:0;}
+
+  nav{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; gap:4px; flex-wrap:wrap; padding-top:11px; padding-bottom:11px;}
+  nav a{font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 11px; border-radius:100px;}
+  nav a:hover{color:var(--ink); background:var(--wash);}
+
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  h2{font-size:28px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 26px; font-size:17px; max-width:730px;}
+  h3{font-size:18px; margin:24px 0 8px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  b{color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+  td ul, td ol{margin:6px 0 0;} .mem ul{margin:6px 0 6px;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .note.red{border-left-color:var(--red-ink); background:var(--red);}
+  .tag{font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange);}
+  .tag.r{color:var(--red-ink);}
+
+  .flow{display:flex; flex-direction:column; gap:0; margin-top:10px;}
+  .step{display:flex; gap:18px; align-items:flex-start; position:relative; padding:14px 0;}
+  .step:not(:last-child)::after{content:""; position:absolute; left:23px; top:52px; bottom:-14px; width:2px; background:linear-gradient(var(--yellow),var(--orange-soft));}
+  .dot{flex:none; width:48px; height:48px; border-radius:14px; display:grid; place-items:center; font-weight:800; font-size:18px; color:var(--ink); background:var(--yellow-soft); border:2px solid var(--yellow); box-shadow:var(--shadow); text-align:center; line-height:1;}
+  .step-body h3{margin:4px 0 4px;}
+  .step-body p{margin:0 0 6px; color:var(--muted); font-size:15.5px;}
+  .step-body ul{margin:6px 0 4px; color:var(--muted); font-size:14.5px;} .step-body ul .file{font-size:11.5px;}
+  .step-body ul .fn{color:var(--ink); font-weight:600;}
+  .xref{font-size:12.5px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); border-radius:100px; padding:1px 9px; text-decoration:none;}
+  .xref:hover{background:var(--orange-soft);}
+  .phase{font-size:12px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); margin:26px 0 2px;}
+  .pill{display:inline-block; font-size:12px; font-weight:600; color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft); padding:2px 9px; border-radius:100px; margin-left:8px;}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.gate{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.code{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .pill.eng{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .file{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; background:#fff; border:1px solid var(--orange-soft); border-radius:6px; padding:2px 8px; color:var(--ink); white-space:nowrap;}
+  .files{display:flex; gap:6px; flex-wrap:wrap; margin-top:9px; align-items:center;}
+  .files .k{font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);}
+
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px;}
+  .grid.three{grid-template-columns:1fr 1fr 1fr;}
+  .grid.four{grid-template-columns:repeat(4,1fr);}
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .card h3{margin:0 0 6px; font-size:16.5px;}
+  .card p{margin:0; font-size:14.5px; color:var(--muted);}
+  .card .ic{font-size:20px; margin-bottom:6px;}
+  .card .file{margin-top:10px; display:inline-block;}
+
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  tr:last-child td{border-bottom:none;}
+  td .file{font-size:11.5px;}
+  td b{color:var(--ink);}
+  td .n{font-family:ui-monospace,Menlo,monospace; font-weight:700; color:var(--orange);}
+  .v{font-weight:700; font-size:12px; padding:2px 9px; border-radius:100px; white-space:nowrap;}
+  .v.covered{color:var(--green-ink); background:var(--green); border:1px solid var(--green-line);}
+  .v.partial{color:#a6791b; background:var(--yellow-soft); border:1px solid var(--yellow);}
+  .v.no{color:var(--red-ink); background:var(--red); border:1px solid var(--red-line);}
+  .t-tag{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; font-weight:700; padding:1px 7px; border-radius:5px; background:var(--wash); border:1px solid var(--orange-soft);}
+
+  .define{background:var(--paper); border:1px dashed var(--orange-soft); border-radius:12px; padding:14px 18px; margin:18px 0; font-size:15px;}
+  .define b{color:var(--orange);}
+
+  .cardbox{background:var(--paper); border:1px solid var(--line); border-radius:16px; box-shadow:var(--shadow); padding:8px; margin:20px 0;}
+  .field{display:flex; gap:14px; padding:11px 12px; align-items:baseline;}
+  .field+.field{border-top:1px solid var(--line);}
+  .field .fk{flex:none; width:120px; font-family:ui-monospace,Menlo,monospace; font-size:12.5px; font-weight:700; color:var(--orange);}
+  .field .fv{font-size:14.5px; color:var(--muted);}
+  .field .fv b{color:var(--ink);}
+
+  .agents{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0;}
+  .agent{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .agent .cap{width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:22px; margin-bottom:10px;}
+  .agent.asker .cap{background:var(--yellow-soft); border:2px solid var(--yellow);}
+  .agent.answ .cap{background:var(--orange-soft); border:2px solid var(--orange);}
+  .agent h3{margin:0 0 2px; font-size:19px;} .agent .role{font-size:13px; color:var(--muted); margin-bottom:12px;}
+  .mem{font-size:14px; padding:9px 12px; border-radius:10px; margin-top:9px;}
+  .mem.yes{background:var(--green); border:1px solid var(--green-line);}
+  .mem.no{background:var(--blue); border:1px solid var(--blue-line);}
+  .mem .lbl{font-weight:700; font-size:11px; letter-spacing:.08em; text-transform:uppercase;}
+  .mem.yes .lbl{color:var(--green-ink);} .mem.no .lbl{color:var(--blue-ink);}
+
+  .subflow{display:flex; gap:10px; flex-wrap:wrap; margin:6px 0 2px;}
+  .schip{font-size:12.5px; background:var(--paper); border:1px solid var(--orange-soft); border-radius:100px; padding:4px 11px; font-weight:600; color:var(--ink); display:flex; align-items:center; gap:6px;}
+  .schip .n{width:17px; height:17px; border-radius:100px; background:var(--orange); color:#fff; font-size:11px; display:grid; place-items:center; font-weight:800;}
+  .arrow{color:var(--orange-soft); font-weight:800; align-self:center;}
+
+  .stats{display:flex; gap:14px; flex-wrap:wrap; margin-top:18px;}
+  .stat{flex:1; min-width:150px; background:var(--wash); border:1px solid var(--orange-soft); border-radius:14px; padding:16px 18px;}
+  .stat .big{font-size:30px; font-weight:800; letter-spacing:-.02em;}
+  .stat .cap{font-size:13px; color:var(--muted);}
+
+  .chain{display:flex; flex-wrap:wrap; align-items:stretch; gap:8px; margin:22px 0;}
+  .link{flex:1; min-width:120px; background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:12px 10px; text-align:center; box-shadow:var(--shadow);}
+  .link .em{font-size:20px;} .link b{display:block; font-size:13px; margin:4px 0 1px;} .link small{color:var(--muted); font-size:11.5px;}
+  .link.pick{background:var(--wash); border-color:var(--orange-soft);}
+  .link.out{background:var(--green); border-color:var(--green-line);}
+  .chev{align-self:center; color:var(--orange-soft); font-weight:800; font-size:18px;}
+
+  .ba{display:grid; grid-template-columns:1fr auto 1fr; gap:14px; align-items:center; margin:20px 0;}
+  .ba .box{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:16px 18px; box-shadow:var(--shadow); text-align:center;}
+  .ba .box .n{font-size:26px; font-weight:800;} .ba .box small{color:var(--muted); font-size:12.5px;}
+  .ba .arr{font-size:22px; color:var(--orange); font-weight:800;}
+  .ba .box.after{border-color:var(--green-line); background:var(--green);}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px;}
+  @media(max-width:760px){ .agents,.grid,.grid.three,.grid.four{grid-template-columns:1fr;} .ba{grid-template-columns:1fr;} .chev{display:none;} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">Content Machine · Write Phase · Station 2</div>
+    <h1>The <span class="hl">Architect</span></h1>
+    <p class="lede">The planner hands over a pile of approved sub-topics with their evidence. The architect turns that
+    pile into the article's real skeleton: which sections exist, in what order, how long each one runs, which ones
+    deserve a search keyword, and the exact words of every heading and the H1. It designs the body and nothing else.
+    Here is how it works, script by script.</p>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#idea">01 The one idea</a>
+    <a href="#words">02 The words</a>
+    <a href="#arch">03 The architecture</a>
+    <a href="#pipeline">04 The five steps</a>
+    <a href="#shape">05 Shape</a>
+    <a href="#enrich">06 Enrich</a>
+    <a href="#keywords">07 Keywords &amp; headings</a>
+    <a href="#out">08 What comes out</a>
+  </div>
+</nav>
+
+<section id="idea">
+  <div class="wrap">
+    <h2><span class="num">01</span>The one idea</h2>
+    <p class="sub">Five moves, in order. Each writes a file the next one reads, so a crash resumes where it stopped
+    and you can open any file to see what that step decided.</p>
+
+    <div class="grid four">
+      <div class="card"><div class="ic">🧱</div><h3>Design the body</h3>
+        <p>Every approved sub-topic becomes a numbered box. The AI arranges the boxes into sections, in reading order,
+        and benches what the article does not need.</p></div>
+      <div class="card"><div class="ic">🔎</div><h3>Fill the holes</h3>
+        <p>Where the design says a section is thin, it searches the web, reads the pages, and builds new evidence cards
+        with their source links.</p></div>
+      <div class="card"><div class="ic">📏</div><h3>Budget the words</h3>
+        <p>Each section gets a word target, set by how much it matters to the argument, not by how much evidence it
+        happens to hold.</p></div>
+      <div class="card"><div class="ic">✍️</div><h3>Name everything</h3>
+        <p>It works out which sections a stranger would search for, buys one keyword for those, then writes every final
+        heading and the H1 last.</p></div>
+    </div>
+
+    <div class="note orange">
+      <span class="tag">The one rule that governs everything</span>
+      <p style="margin-top:8px">The architect <b>arranges, it never invents</b>. Every section it builds is made of boxes
+      the planner already approved, and every box traces back to a research card with a source. The only new material
+      that can enter is a card the enrich step fetched from a real page it downloaded, and those carry their link. If a
+      fact cannot be traced to a card, it does not exist here.</p>
+    </div>
+  </div>
+</section>
+
+<section id="words" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">02</span>The words you need first</h2>
+    <p class="sub">Six terms carry this whole page. Each is defined once and then used exactly.</p>
+
+    <div class="define"><b>Card</b> — one atomic fact, with the sentence it came from and the link to the page that said
+    it. Cards are made in the research phase; the architect moves them around and can add new ones, but never edits
+    what a card says.</div>
+
+    <div class="define"><b>Box</b> — one approved sub-topic (an H3) with all its cards attached, given a number
+    (#1, #2, #3…). The AI that designs the structure answers only in box numbers, so it cannot quietly invent a topic:
+    a number either exists or the code rejects it.</div>
+
+    <div class="define"><b>The spine</b> — one short paragraph saying what this article argues, for whom, and what the
+    reader can do at the end. The architect writes its own, after seeing which boxes actually survived.</div>
+
+    <div class="define"><b>The world</b> — two lines, <b>about</b> and <b>not about</b>, written back in the research
+    phase before any searching started. They mark the boundary of the article's subject, so material from a neighbouring
+    field that happens to share our words can be recognised and thrown out.</div>
+
+    <div class="define"><b>Archetype</b> — the shape family this page belongs to: a how-to guide, a listicle, a
+    comparison, a template, and so on. It decides which road the design step takes.</div>
+
+    <div class="define"><b>KD (keyword difficulty)</b> — a 0-100 score from the search-data provider estimating how hard
+    a phrase is to rank for. Paired with <b>search volume</b>, the monthly number of people who type it.</div>
+  </div>
+</section>
+
+<section id="arch">
+  <div class="wrap">
+    <h2><span class="num">03</span>The architecture</h2>
+    <p class="sub">One entry command, five step scripts, three shared files. Nothing else.</p>
+
+    <table>
+      <thead><tr><th>File</th><th>What it is for</th></tr></thead>
+      <tbody>
+        <tr><td><span class="file">run_architect.py</span></td>
+          <td><b>The one command.</b> Calls each step's <code>run()</code> in order and does nothing else. It prints the
+          step name as it goes, times each one, and records it to the shared usage ledger.</td></tr>
+        <tr><td><span class="file">config.py</span></td>
+          <td><b>Every path and setting, in one place.</b> All of it is worked out from a single anchor, so pointing the
+          engine at a different company is one line. Every tunable here is a named constant with a comment.</td></tr>
+        <tr><td><span class="file">llm.py</span></td>
+          <td><b>The one AI caller.</b> Runs prompts through the locally logged-in Claude or Codex command line, so
+          there is no API key and no per-call cost. It reads prompts from <code>prompts/</code>, pulls JSON out of the
+          reply even when the model wraps it in prose, and asks again once if the reply will not parse.</td></tr>
+        <tr><td><span class="file">article_ctx.py</span></td>
+          <td><b>The shared context reader.</b> Hands every step the same five facts about the article: title, angle,
+          spine, and the two world lines. Before it existed, each step worked out what it needed on its own and the
+          world reached almost nothing.</td></tr>
+        <tr><td><span class="file">dfs.py</span> <span class="pill paid">paid</span></td>
+          <td><b>The only file that talks to the search-data provider.</b> It lives with the research engine and is
+          imported only when a step is about to spend money, so everything else still runs when those credentials are
+          missing. It checks the account balance before it buys anything.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Who decides what</h3>
+    <p>The split is deliberate. The AI is confined to judgment; everything countable is arithmetic, because arithmetic
+    does not drift between runs.</p>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">🧠</div>
+        <h3>The AI decides</h3>
+        <div class="role">Judgment calls a formula would get wrong</div>
+        <div class="mem yes"><span class="lbl">It answers</span>
+          <ul>
+            <li>Which boxes group into which section, and in what order</li>
+            <li>What the article argues (the spine) and what each section's job is</li>
+            <li>What share of the article each section deserves</li>
+            <li>Whether a section is something a stranger would search for</li>
+            <li>The exact words of every heading and the H1</li>
+          </ul>
+        </div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">⚙️</div>
+        <h3>Code decides</h3>
+        <div class="role">Anything that must be identical every run</div>
+        <div class="mem no"><span class="lbl">It enforces</span>
+          <ul>
+            <li>Every box number is real, and no box lands in two sections</li>
+            <li>Word targets: shares are turned into word counts that add up</li>
+            <li>A keyword only survives if a real heading actually took it</li>
+            <li>A heading may only claim a keyword it was shown</li>
+            <li>Every file is written to a temp name and renamed into place, so a half-written file can never exist</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="note">
+      <span class="tag">Resumable by design</span>
+      <p style="margin-top:8px">Each step checks whether its output file already exists and reuses it if so. That is why
+      the rename matters: a file existing has to mean it is complete, or a crash mid-write would leave a broken file that
+      the next run silently trusts. Pass <code>--redo</code> to force every step to run again.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pipeline" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">04</span>The five steps</h2>
+    <p class="sub">Run it with <code>python3 run_architect.py --slug &lt;slug&gt;</code>. The planner must have run
+    first: this reads its frozen plan and never reaches back past it.</p>
+
+    <div class="flow">
+
+      <div class="step">
+        <div class="dot">1</div>
+        <div class="step-body">
+          <h3>SHAPE — design the body <span class="pill free">free</span></h3>
+          <p>Turns the approved sub-topics into numbered boxes, then asks the AI to build the article out of them:
+          the spine first, then the sections in reading order, each with its job written before its heading, then the
+          box numbers that go inside it.</p>
+          <ul>
+            <li><span class="fn">Four roads</span> by archetype, so a comparison and a how-to are not forced through the
+            same prompt.</li>
+            <li><span class="fn">Benching</span> is expected. A box the article does not need is left out, and any box
+            that carried a promise or a hard number has to be justified in writing.</li>
+            <li><span class="fn">Research markers</span> are raised here: a section that is genuinely thin names the
+            sub-topics it is missing, and the next step goes and finds them.</li>
+          </ul>
+          <div class="files"><span class="k">script</span><span class="file">shape.py</span>
+            <span class="k">writes</span><span class="file">_work/structure.shaped.json</span></div>
+          <a class="xref" href="#shape">↓ §05 — the boxes and the four roads</a>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="dot">2</div>
+        <div class="step-body">
+          <h3>ENRICH — go and find what is missing <span class="pill paid">paid</span></h3>
+          <p>For every sub-topic the design flagged as missing, it plans web searches, fetches the result pages,
+          downloads them, and builds new cards from what they actually say.</p>
+          <ul>
+            <li><span class="fn">Nothing flagged</span> means this step is instant: the shaped structure is simply
+            promoted to final.</li>
+            <li><span class="fn">New cards get IDs from 9001</span> up, so an enriched fact is always distinguishable
+            from a research-phase one.</li>
+            <li><span class="fn">A failure never spreads.</span> One sub-topic whose search comes back empty is logged
+            and skipped; the rest carry on.</li>
+          </ul>
+          <div class="files"><span class="k">script</span><span class="file">enrich.py</span>
+            <span class="k">writes</span><span class="file">structure.json</span><span class="file">enriched-cards.json</span></div>
+          <a class="xref" href="#enrich">↓ §06 — how a new card is built</a>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="dot">3</div>
+        <div class="step-body">
+          <h3>ALLOCATE — budget the words <span class="pill free">free</span></h3>
+          <p>The AI gives each section a percentage of the article, judged by how much it matters to the argument.
+          Code turns the percentages into word counts.</p>
+          <ul>
+            <li><span class="fn">The base is the middle of the word band</span>, not the top of it. Handing out the
+            ceiling leaves no room to cut anything later.</li>
+            <li><span class="fn">Evidence volume is explicitly not the measure.</span> The prompt says so outright: a
+            section with few cards can still be the heart of the piece.</li>
+            <li><span class="fn">A failed call falls back to an even split</span>, so this step can never stall a run.</li>
+          </ul>
+          <div class="files"><span class="k">script</span><span class="file">allocate_words.py</span>
+            <span class="k">writes</span><span class="file">_work/word-allocation.json</span></div>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="dot">4</div>
+        <div class="step-body">
+          <h3>SECTION KEYWORDS — which sections earn one <span class="pill paid">paid</span></h3>
+          <p>Two sub-steps. A free gate decides which sections are worth a paid lookup; only those go to the hunt.</p>
+          <div class="subflow">
+            <span class="schip"><span class="n">a</span> gate, one call, free</span>
+            <span class="arrow">›</span>
+            <span class="schip"><span class="n">b</span> hunt, per section, paid</span>
+          </div>
+          <ul>
+            <li><span class="fn">Silence means no.</span> A section the gate did not return a verdict for is not hunted,
+            so a malformed reply can never turn into spending.</li>
+            <li><span class="fn">Returning nothing is a good answer.</span> Both the gate and the picker are told so
+            explicitly.</li>
+          </ul>
+          <div class="files"><span class="k">script</span><span class="file">section_keywords.py</span>
+            <span class="k">writes</span><span class="file">_work/section-keywords.json</span></div>
+          <a class="xref" href="#keywords">↓ §07 — the gate, the hunt, the headings</a>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="dot">5</div>
+        <div class="step-body">
+          <h3>HEADINGS — write every heading, then the H1 <span class="pill free">free</span></h3>
+          <p>One call per section, all at once, each seeing that section's full evidence. Then one final call writes
+          the H1, having read every finished heading.</p>
+          <ul>
+            <li><span class="fn">The evidence outranks the plan.</span> A section's job was written before the research
+            came back; where the two disagree the prompt says the evidence wins.</li>
+            <li><span class="fn">The H1 goes last</span> for one reason: it must not promise something the finished
+            headings do not deliver.</li>
+            <li><span class="fn">The keyword list is then computed in code</span> from the headings that actually took
+            one. Nothing gets on that list for merely existing.</li>
+          </ul>
+          <div class="files"><span class="k">script</span><span class="file">headings.py</span>
+            <span class="k">writes</span><span class="file">structure.json</span><span class="file">_work/heading-map.json</span></div>
+          <a class="xref" href="#keywords">↓ §07 — the gate, the hunt, the headings</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="shape">
+  <div class="wrap">
+    <h2><span class="num">05</span>Shape — the boxes and the four roads</h2>
+    <p class="sub">This is the step that decides what the article is. Everything after it is refinement.</p>
+
+    <h3>Why boxes</h3>
+    <p>Asking an AI to "design an article from this research" invites it to write whatever it likes and attach evidence
+    afterwards. Numbering every approved sub-topic and demanding the answer come back as box numbers inverts that: the
+    material is fixed, and the only freedom is arrangement. Code then checks every number it returns, warns when one box
+    was put in two sections, and audits which boxes went unused.</p>
+
+    <div class="note orange">
+      <span class="tag">Real run — the hackathon article</span>
+      <p style="margin-top:8px">79 boxes went in. The design came back with 28 sections and 1 box benched with a written
+      reason, and raised no research markers because nothing was thin.</p>
+    </div>
+
+    <div class="ba">
+      <div class="box"><div class="n">79</div><small>approved sub-topics, as numbered boxes</small></div>
+      <div class="arr">→</div>
+      <div class="box after"><div class="n">28</div><small>sections, in reading order, 1 box benched</small></div>
+    </div>
+
+    <h3>The four roads</h3>
+    <p>All four share the same core prompt text and the same output shape. They differ only in what extra work happens
+    first and what extra field comes back.</p>
+
+    <table>
+      <thead><tr><th>Road</th><th>Archetypes</th><th>What happens before the design call</th><th>Extra output</th></tr></thead>
+      <tbody>
+        <tr><td><b>Simple</b></td>
+          <td>how-to guide · answer-bait · data report · glossary · common-spine</td>
+          <td>Nothing. One design call.</td>
+          <td>—</td></tr>
+        <tr><td><b>Listicle</b></td>
+          <td>listicle</td>
+          <td>An AI pass finds the actual list items in the evidence, merges near-duplicates, and drops any item the
+          material only mentions in passing.</td>
+          <td>A per-item contract: the labelled parts every item must end with, taken from what the angle promised.</td></tr>
+        <tr><td><b>Comparison</b></td>
+          <td>comparison-rankings</td>
+          <td>Three passes in a row:
+            <ul>
+              <li>name the options a buyer would shortlist</li>
+              <li>choose the 4-6 yardsticks they would be measured on</li>
+              <li>drop any option the evidence cannot speak to for at least <b>60%</b> of those yardsticks</li>
+            </ul></td>
+          <td>Each surviving option gets its own section.</td></tr>
+        <tr><td><b>Template</b></td>
+          <td>template-resource</td>
+          <td>Nothing extra before the call.</td>
+          <td>The artifact spec: what kind of file the download is, and which boxes go inside it rather than on the
+          page.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="note red">
+      <span class="tag r">The fairness rule</span>
+      <p style="margin-top:8px">On the comparison road, when our own brand is one of the options it is treated as an
+      option like any other. It keeps its section, it appears in every table and ranked list the rivals appear in, and
+      it is judged on the same yardsticks. It may score below a rival, and the prompt says to write that plainly. A grid
+      that scores every competitor but quietly omits the publisher reads as though the publisher has something to hide.
+      When the article compares something we do not sell against, the rule switches off entirely so the brand is not
+      inserted where it does not belong.</p>
+    </div>
+
+    <h3>What the design step returns</h3>
+    <div class="cardbox">
+      <div class="field"><div class="fk">spine</div><div class="fv">What the whole article argues, for whom, and what
+        the reader can do at the end. <b>Written first</b>, because every section has to serve it.</div></div>
+      <div class="field"><div class="fk">sections[].job</div><div class="fv">What this section must deliver and how it
+        moves the argument. <b>Written before the heading</b>, so the heading names something that already exists.</div></div>
+      <div class="field"><div class="fk">sections[].headline</div><div class="fv">A working heading. Step 5 replaces it
+        with the real one, once the evidence is final.</div></div>
+      <div class="field"><div class="fk">sections[].boxes</div><div class="fv">The box numbers inside this section. Code
+        validates every one.</div></div>
+      <div class="field"><div class="fk">sections[].needs_research</div><div class="fv">The sub-topic titles this section
+        is missing. Used <b>as written</b> by the enrich step.</div></div>
+      <div class="field"><div class="fk">benched</div><div class="fv">Every box left out that carried a promise or a hard
+        number, each with one line saying why.</div></div>
+    </div>
+
+    <div class="note orange">
+      <span class="tag">Two spines, on purpose</span>
+      <p style="margin-top:8px">The research phase already wrote a spine, before a single card existed. This one is
+      written after, by a step that can see what actually came back. They are a plan and the plan corrected by reality,
+      not a duplicate. The <b>world</b> is the opposite case: it is decided once, in the research phase, and every step
+      here only reads it.</p>
+    </div>
+  </div>
+</section>
+
+<section id="enrich" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">06</span>Enrich — building a new card from scratch</h2>
+    <p class="sub">The only step that can add material the research phase never found. Five moves per missing
+    sub-topic, run one sub-topic at a time.</p>
+
+    <div class="flow">
+      <div class="step">
+        <div class="dot">1</div>
+        <div class="step-body">
+          <h3>Plan the searches</h3>
+          <p>Up to <b>3</b> web queries per missing sub-topic, phrased the way people actually search: short, concrete,
+          varied, so one dead end does not sink the topic.</p>
+          <ul>
+            <li>The prompt carries the world, with an instruction to put the setting or the audience inside the query
+            itself. A bare query on a word two industries share returns the other industry's pages, and every card built
+            from them looks plausible and is wrong.</li>
+          </ul>
+          <div class="files"><span class="k">prompt</span><span class="file">plan-queries.md</span></div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="dot">2</div>
+        <div class="step-body">
+          <h3>Search <span class="pill paid">paid</span></h3>
+          <p>Organic results only from the search-data provider, with the account balance checked first.</p>
+          <ul>
+            <li>If the balance is below the floor, it falls back to a single web-search call through the local Claude
+            command line rather than failing the run.</li>
+          </ul>
+          <div class="files"><span class="k">prompt</span><span class="file">search-urls.md</span><span class="k">fallback only</span></div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="dot">3</div>
+        <div class="step-body">
+          <h3>Download the pages</h3>
+          <p>Results are interleaved across the queries by rank so no single query dominates, deduplicated, then fetched
+          until <b>15</b> pages have loaded. The top <b>8,000</b> characters of each are kept.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="dot">4</div>
+        <div class="step-body">
+          <h3>Build the cards</h3>
+          <p>The AI reads the downloaded pages and writes cards. As many as the material honestly supports, and an empty
+          list when the pages turned up nothing.</p>
+          <ul>
+            <li><span class="fn">One card, one page.</span> Blending two sources into a single card is forbidden, because
+            then neither link proves it. Several cards from the same page are fine.</li>
+            <li>Each card carries a one-line summary, the faithful detail with its numbers intact, and the page link
+            exactly as it was labelled.</li>
+          </ul>
+          <div class="files"><span class="k">prompt</span><span class="file">extract-cards.md</span></div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="dot">5</div>
+        <div class="step-body">
+          <h3>Validate and attach</h3>
+          <p>Code checks that every card's link is a page that was actually downloaded, assigns IDs from 9001 up, and
+          drops the new sub-topic into the section that asked for it.</p>
+          <ul>
+            <li>That link check is the anti-fabrication guard: a card citing a URL nobody fetched is rejected outright.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="note orange">
+      <span class="tag">Real run — the video-interview comparison</span>
+      <p style="margin-top:8px">That article's design flagged real holes and the enrich step produced <b>107</b> new
+      cards, each tied to a page it had downloaded. The other four articles in that batch raised no markers at all and
+      skipped the step entirely, which is the normal case.</p>
+    </div>
+  </div>
+</section>
+
+<section id="keywords">
+  <div class="wrap">
+    <h2><span class="num">07</span>Keywords and headings</h2>
+    <p class="sub">The last two steps, and the ones with the most guards. They decide what the reader actually sees.</p>
+
+    <h3>Why the keyword work happens here</h3>
+    <p>It used to happen in the research phase, against the <em>planned</em> outline. That outline no longer exists by
+    the time the article is built, so keywords were bought for sections that were later merged or deleted. Now nothing is
+    bought until the sections are real and their evidence is final.</p>
+
+    <h3>Step 4a — the gate <span class="pill free">free</span></h3>
+    <p>One call over the whole article, asking one question per section: would a person type this section's subject into
+    Google as its own search?</p>
+    <table>
+      <thead><tr><th>Answer</th><th>When</th></tr></thead>
+      <tbody>
+        <tr><td><span class="v covered">yes</span></td>
+          <td>
+            <ul>
+              <li>It answers a question someone would ask outside this article</li>
+              <li>It names something people look up: a method, a number, a cost, a comparison</li>
+              <li>Someone could land on it from a search and be satisfied</li>
+            </ul>
+          </td></tr>
+        <tr><td><span class="v no">no</span></td>
+          <td>
+            <ul>
+              <li>It only makes sense inside this article's argument</li>
+              <li>It sets up, bridges, concludes or summarises</li>
+              <li>Its subject is the article's main keyword again from another side, which the H1 already owns</li>
+              <li>It is about our own product, or it is the closing pitch</li>
+            </ul>
+          </td></tr>
+      </tbody>
+    </table>
+    <p>The prompt states the expected shape of the answer outright: roughly a third to a half of sections should be yes,
+    and saying yes to nearly all of them means being too generous. Most sections carry the argument rather than a search.</p>
+
+    <h3>Step 4b — the hunt <span class="pill paid">paid</span></h3>
+    <p>Only gated-yes sections get here. Each runs on its own, in parallel:</p>
+    <div class="subflow">
+      <span class="schip"><span class="n">1</span> seeds from the section's cards</span>
+      <span class="arrow">›</span>
+      <span class="schip"><span class="n">2</span> look each seed up</span>
+      <span class="arrow">›</span>
+      <span class="schip"><span class="n">3</span> filter by volume and difficulty</span>
+      <span class="arrow">›</span>
+      <span class="schip"><span class="n">4</span> pick one, or none</span>
+    </div>
+    <ul>
+      <li><b>Seeds come from the evidence, not the heading.</b> A section headed "pricing" whose cards are all commission
+      percentages is a section about commission rates, and gets seeded that way.</li>
+      <li><b>Seeds must be 2 or 3 words.</b> This is the single most important rule in that prompt, and it is there for a
+      measured reason: the suggestions index matches on the phrase itself, so a four or five word seed returns almost
+      nothing and the section ends up with no keyword at all. Seed the short head of the idea and let the index find the
+      longer phrases around it.</li>
+      <li><b>The filter is arithmetic:</b> at least <b>100</b> monthly searches, difficulty below <b>40</b>. The best 25
+      survivors by volume are shown to the picker.</li>
+      <li><b>The picker chooses fit first, volume second,</b> and is told that returning nothing is a good answer. A big
+      number for a phrase the section does not answer just means the page ranks and the reader bounces.</li>
+    </ul>
+
+    <div class="note red">
+      <span class="tag r">Two guards on this step</span>
+      <ul style="margin-top:8px">
+        <li><b>Silence is not consent.</b> A section the gate returned no verdict for is recorded as not hunted, so a
+        malformed reply costs nothing rather than triggering spending.</li>
+        <li><b>You cannot pick what you were not shown.</b> If the picker returns a phrase that was not in its candidate
+        list, it is rejected and the section gets no keyword.</li>
+      </ul>
+    </div>
+
+    <h3>Step 5 — the headings</h3>
+    <p>One call per section, all running at once, each seeing its section's job, its full evidence, its researched
+    keyword, the leftover pool, and the article's main keyword. It may use any of them or none.</p>
+
+    <table>
+      <thead><tr><th>Order of preference</th><th>What it is asked</th></tr></thead>
+      <tbody>
+        <tr><td><b>1. This section's own keyword</b></td>
+          <td>Does it name what this section delivers, and can the heading carry it without strain?</td></tr>
+        <tr><td><b>2. The leftover pool</b></td>
+          <td>Does a keyword another section did not take fit this one better?</td></tr>
+        <tr><td><b>3. The main keyword or a reword</b></td>
+          <td>Would it sit here naturally? It may, but the H1 already carries it.</td></tr>
+        <tr><td><b>4. None</b></td>
+          <td>Write the best heading this section deserves on its own. A well-researched keyword that does not fit is
+          still a keyword that does not fit.</td></tr>
+      </tbody>
+    </table>
+
+    <p>The prompt bans the generic heading by name. "Overview", "Key considerations", "Things to know", "Best practices"
+    and "Understanding X" are called out as the default an AI reaches for, with worked pairs showing the fix:</p>
+
+    <div class="cardbox">
+      <div class="field"><div class="fk">weak</div><div class="fv">Interview Question Considerations</div></div>
+      <div class="field"><div class="fk">strong</div><div class="fv"><b>Questions to Ask a Candidate About Failure</b></div></div>
+      <div class="field"><div class="fk">weak</div><div class="fv">Understanding Cost Per Hire</div></div>
+      <div class="field"><div class="fk">strong</div><div class="fv"><b>What a Bad Hire Actually Costs You</b></div></div>
+    </div>
+
+    <p><b>On length:</b> the target is under 60 characters, because longer gets cut off in search results and skimmed
+    past on the page. It is a target and not a wall. The prompt allows going over when the shorter version genuinely
+    says less, and the code only records an over-length heading rather than rejecting it. Throwing away a specific,
+    useful heading to save three characters is the worse trade.</p>
+
+    <h3>Then the H1, last</h3>
+    <p>One final call, after every heading is settled, seeing the whole list. It must carry the main keyword naturally
+    and it must not promise something the headings do not deliver. If the planned H1 already carries the keyword, it comes
+    back unchanged.</p>
+    <p><b>No cards are attached to the H1.</b> Cards attach to sub-topics, sub-topics sit inside sections. The H1 is a
+    promise about the article rather than a claim about the world, so the call that writes it never sees a single card.</p>
+
+    <div class="note">
+      <span class="tag">The keyword list is arithmetic</span>
+      <p style="margin-top:8px">After the headings are written, code walks them and collects the phrases that actually
+      landed in one. Everything else is recorded as unplaced, with the reason "no section's heading took it". No AI gets
+      to declare a keyword used.</p>
+    </div>
+  </div>
+</section>
+
+<section id="out" style="background:var(--cream);">
+  <div class="wrap">
+    <h2><span class="num">08</span>What comes out, and where it sits</h2>
+    <p class="sub">One article, one command, five files that matter.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="big">5</div><div class="cap">steps, resumable</div></div>
+      <div class="stat"><div class="big">2</div><div class="cap">that can spend money</div></div>
+      <div class="stat"><div class="big">10</div><div class="cap">prompt files, one per AI decision</div></div>
+      <div class="stat"><div class="big">0</div><div class="cap">facts it can invent</div></div>
+    </div>
+
+    <div class="grid">
+      <div class="card"><h3>The skeleton</h3>
+        <p>Every section in reading order, with its job, its sub-topics, its cards, its word target and its final
+        heading. Plus the H1 and the keyword decisions. This is what the writer writes from.</p>
+        <span class="file">architect/structure.json</span></div>
+      <div class="card"><h3>The human view</h3>
+        <p>The same thing as readable markdown, re-rendered whenever the structure changes, so you can read the plan
+        without opening JSON.</p>
+        <span class="file">architect/structure.md</span></div>
+      <div class="card"><h3>The new evidence</h3>
+        <p>Every card the enrich step built, with full text and source link, numbered from 9001 so it is always clear
+        which facts arrived late.</p>
+        <span class="file">architect/enriched-cards.json</span></div>
+      <div class="card"><h3>The decision record</h3>
+        <p>Why each thing happened: the AI's raw replies, what each section was allocated and why, every gate verdict and
+        candidate list, every heading decision, and any heading that ran long.</p>
+        <span class="file">architect/_work/</span></div>
+    </div>
+
+    <h3>The chain it belongs to</h3>
+    <div class="chain">
+      <div class="link pick"><div class="em">🔬</div><b>Research</b><small>cards, world, spine</small></div>
+      <div class="chev">›</div>
+      <div class="link"><div class="em">📋</div><b>Planner</b><small>picks and freezes what is worth writing</small></div>
+      <div class="chev">›</div>
+      <div class="link" style="background:var(--wash); border-color:var(--orange-soft);"><div class="em">📐</div><b>Architect</b><small>this engine</small></div>
+      <div class="chev">›</div>
+      <div class="link out"><div class="em">✍️</div><b>Writer</b><small>prose, blend, clean, links</small></div>
+    </div>
+
+    <div class="note orange">
+      <span class="tag">Where this sits in the bigger machine</span>
+      <p style="margin-top:8px">The planner decides <b>what is worth writing about</b> and freezes it. The architect
+      decides <b>what the article is</b>: its sections, their order, their length, their names. The writer then decides
+      <b>how it reads</b>, and it is not allowed to change any heading, because those were settled here with the
+      evidence in view. Each station trusts the one before it and does not reach back past it.</p>
+    </div>
+
+    <div class="note red">
+      <span class="tag r">Honest status</span>
+      <ul style="margin-top:8px">
+        <li>Steps 4 and 5 in their current form were built on 2026-08-04 and have <b>not yet run on a live article</b>.
+        The five saved runs in the output folder were produced by the older keyword step, so their heading and keyword
+        numbers are not a measurement of this design.</li>
+        <li>The world reaching the design step is also new. Whether it actually benches wrong-field material is the first
+        thing to check on the next run.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">The Architect · architecture overview · design the body from numbered boxes → research what is
+  missing → budget the words → gate and buy keywords → write every heading, then the H1.</div>
+</footer>
+
+</body>
+</html>

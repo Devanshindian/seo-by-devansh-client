@@ -1,0 +1,2607 @@
+{
+  "slug": "the-type-d-personality-label",
+  "generated_by": "gather_inputs.py",
+  "group_a": {
+    "slug": "the-type-d-personality-label",
+    "h1": "The Type D 'Personality' Label: What the Research Actually Supports for Hiring Decisions",
+    "internal_link_pool": [
+      "https://testlify.com/pros-and-cons-of-personality-tests-in-hiring-process/"
+    ],
+    "format_archetype": "answer-bait-definitional",
+    "primary_keyword": "type d personality",
+    "keyword_set": {
+      "primary": "type d personality",
+      "variations": [
+        "personality type d",
+        "type d personality type",
+        "d personality type",
+        "d type personality",
+        "d-personality-type",
+        "what is type d personality",
+        "what is a type d personality",
+        "what is d type personality",
+        "type d",
+        "what is type d",
+        "d personality",
+        "personality d"
+      ],
+      "secondaries": [
+        "characteristics of type d personality",
+        "type a and d personality",
+        "type d person"
+      ]
+    },
+    "persona": {
+      "name": "Hiring Manager (non-HR-native)",
+      "lens": "A functional lead who has spotted (or been told about) 'Type D' traits in a specific candidate and needs to know whether the label is even scientifically sound, plus what to actually do about it in the interview and on the job — not an HR theory lecture.",
+      "why": "The angle is candidate-scenario management tactics, not screening funnel or enterprise talent strategy — that's the hire-owning functional manager who has to make the call and then manage the person, not the recruiter running the pipeline or HR building programs."
+    },
+    "word_band": {
+      "min": 2400,
+      "max": 3200
+    },
+    "search_intent": "informational",
+    "ai_overview": "Type D (\"distressed\") personality is defined as negative affectivity plus social inhibition; then it names Negative Affectivity, Social Inhibition, Internal Distress, cardiovascular/health risks, Professional Counseling, Building a Support Network, Lifestyle Changes, and a note separating psychological Type D from DiSC \"Dominant\" D.",
+    "table_stakes": [
+      "What Type D personality is",
+      "Core Type D traits",
+      "Health concerns",
+      "Type D at work",
+      "Treatment or management of Type D traits"
+    ]
+  },
+  "group_b": {
+    "sections_menu": [
+      {
+        "h2": "What's at stake when personality tests enter hiring",
+        "target_keyword": null,
+        "evidence": [
+          {
+            "card_id": 267,
+            "gloss": "Intro framing personality tests as a supporting signal (not a pass/fail gate) and previewing what the guide covers: accuracy, legal limits, and how to use them well.",
+            "verbatim": "Try for free\nBook a demo\nPersonality tests in hiring measure traits like conscientiousness, openness, and how someone works with a team, and they can add real signal to a hiring decision. The catch: they are a supporting signal, not a verdict. Used well, a personality test sharpens your read on work style and fit. Used as a pass-or-fail gate, it invites faking, bias, and legal risk, and it still does not tell you whether the person can do the job.\nThis guide walks through the honest pros and cons of personality tests, what the research actually says about their accuracy, where they cross legal lines, and how to fold them into a hiring process without letting one score decide who gets hired. Across the hiring teams we work with, the pattern is consistent: personality data helps most when it informs the interview, and hurts most when it replaces one.\nSummarise this post with:",
+            "source_urls": [
+              "https://testlify.com/pros-and-cons-of-personality-tests-in-hiring-process/"
+            ],
+            "tag": "ownpage"
+          }
+        ],
+        "internal_links": [
+          "https://testlify.com/pros-and-cons-of-personality-tests-in-hiring-process/"
+        ],
+        "external_links": [
+          "https://www.kellyservices.com/insights/behavioral-interview-questions",
+          "https://hrdailyadvisor.hci.org/2019/02/19/job-interview-personality-tests-do-they-pass-or-fail-legal-scrutiny/"
+        ],
+        "h3": [
+          {
+            "h3": "The risk of irrelevant questioning vs. job-relevant, structured use",
+            "evidence": [
+              {
+                "card_id": 206,
+                "gloss": "Practical stakes: irrelevant questioning risk vs. job-relevant, structured scripting",
+                "verbatim": "Set against that, half of candidates report experiencing irrelevant questioning during interviews, and a majority say it would be enough to make them turn down an offer — the two data points together define the practical stakes of keeping an interview script anchored to job-relevant competencies and away from the kind of open-ended, trait-probing questions that a personality label invites.[14]",
+                "source_urls": [
+                  "https://www.kellyservices.com/insights/behavioral-interview-questions"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.kellyservices.com/insights/behavioral-interview-questions"
+            ]
+          },
+          {
+            "h3": "The risk of stereotype-driven hiring decisions",
+            "evidence": [
+              {
+                "card_id": 265,
+                "gloss": "Personality-stereotype hiring risks both overlooking real talent and rewarding performed affect",
+                "verbatim": "More broadly, building interview judgments around a stereotype of which personality type suits a role risks two errors that cut in opposite directions: overlooking an otherwise outstanding candidate who doesn't fit the expected profile, and instead selecting a weaker candidate who managed to perform the \"right\" affect for the room[11].",
+                "source_urls": [
+                  "https://hrdailyadvisor.hci.org/2019/02/19/job-interview-personality-tests-do-they-pass-or-fail-legal-scrutiny/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://hrdailyadvisor.hci.org/2019/02/19/job-interview-personality-tests-do-they-pass-or-fail-legal-scrutiny/"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "What Is Type D Personality?",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516",
+          "https://www.researchgate.net/publication/8057591_DS14_Standard_Assessment_of_Negative_Affectivity_Social_Inhibition_and_Type_D_Personality",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6444517/",
+          "https://www.sciencedirect.com/topics/psychology/type-d-personality",
+          "https://en.wikipedia.org/wiki/Type_D_personality",
+          "https://www.sciencedirect.com/science/article/abs/pii/S0191886910000942"
+        ],
+        "h3": [
+          {
+            "h3": "What \"Type D\" Means",
+            "evidence": [
+              {
+                "card_id": 2,
+                "gloss": "D stands for distressed",
+                "verbatim": "The letter \"D\" stands for \"distressed\"[2].",
+                "source_urls": [
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 1,
+                "gloss": "Definition of Type D as co-occurrence of NA and SI",
+                "verbatim": "Type D personality is a construct from medical psychology, defined by the co-occurrence of two traits: negative affectivity (NA) and social inhibition (SI)[1][2].",
+                "source_urls": [
+                  "https://www.researchgate.net/publication/8057591_DS14_Standard_Assessment_of_Negative_Affectivity_Social_Inhibition_and_Type_D_Personality",
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516",
+              "https://www.researchgate.net/publication/8057591_DS14_Standard_Assessment_of_Negative_Affectivity_Social_Inhibition_and_Type_D_Personality"
+            ]
+          },
+          {
+            "h3": "The Two Traits That Define It",
+            "evidence": [
+              {
+                "card_id": 3,
+                "gloss": "Definition of negative affectivity",
+                "verbatim": "Negative affectivity refers to a stable tendency to experience negative emotions across time and situations — worry, irritability, gloom, anger, hostility, anxiety, depression, and internal conflict[1][2].",
+                "source_urls": [
+                  "https://www.researchgate.net/publication/8057591_DS14_Standard_Assessment_of_Negative_Affectivity_Social_Inhibition_and_Type_D_Personality",
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 4,
+                "gloss": "Definition of social inhibition",
+                "verbatim": "Social inhibition refers to the restraint from disclosing these feelings and opinions in social interactions, out of fear of rejection or disapproval by others; it produces a sense of insecurity and discomfort that results in conscious repression in interpersonal contexts[1][2].",
+                "source_urls": [
+                  "https://www.researchgate.net/publication/8057591_DS14_Standard_Assessment_of_Negative_Affectivity_Social_Inhibition_and_Type_D_Personality",
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 31,
+                "gloss": "Definition of the two traits (NA and SI) that make up Type D",
+                "verbatim": "The construct is defined by the stable co-occurrence of two traits: negative affectivity (NA), the tendency to experience negative emotions such as dysphoria, anxiety, and irritability, and social inhibition (SI), discomfort in social interactions combined with a tendency to inhibit the expression of emotion around others[4][8].",
+                "source_urls": [
+                  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6444517/",
+                  "https://www.sciencedirect.com/topics/psychology/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 5,
+                "gloss": "Both traits required jointly, not either alone, to classify as Type D",
+                "verbatim": "A person needs both traits present together to be classified as Type D — the construct is specifically the *joint* or synergistic occurrence of NA and SI, not either trait alone[1][3][4].",
+                "source_urls": [
+                  "https://www.researchgate.net/publication/8057591_DS14_Standard_Assessment_of_Negative_Affectivity_Social_Inhibition_and_Type_D_Personality",
+                  "https://www.sciencedirect.com/topics/psychology/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 32,
+                "gloss": "Both traits must be elevated together to classify as Type D",
+                "verbatim": "A person is only classified as Type D when both traits are elevated together; the two dimensions were initially measured with separate instruments before being combined into one profile[8].",
+                "source_urls": [
+                  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6444517/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.researchgate.net/publication/8057591_DS14_Standard_Assessment_of_Negative_Affectivity_Social_Inhibition_and_Type_D_Personality",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC6444517/",
+              "https://www.sciencedirect.com/topics/psychology/type-d-personality",
+              "https://en.wikipedia.org/wiki/Type_D_personality"
+            ]
+          },
+          {
+            "h3": "Where the Concept Came From",
+            "evidence": [
+              {
+                "card_id": 6,
+                "gloss": "Origin: Denollet introduced Type D in 1995",
+                "verbatim": "Type D was first formulated and introduced by Johan Denollet in 1995 (Denollet, Sys, & Brutsaert, 1995)[5].",
+                "source_urls": [
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0191886910000942"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 7,
+                "gloss": "Denollet's background and basis for developing the construct",
+                "verbatim": "Denollet, a professor of Medical Psychology at Tilburg University in the Netherlands, developed the construct in the 1990s based on clinical observations in cardiac patients, empirical evidence, and existing theories of personality[1][2].",
+                "source_urls": [
+                  "https://www.researchgate.net/publication/8057591_DS14_Standard_Assessment_of_Negative_Affectivity_Social_Inhibition_and_Type_D_Personality",
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.sciencedirect.com/science/article/abs/pii/S0191886910000942",
+              "https://www.researchgate.net/publication/8057591_DS14_Standard_Assessment_of_Negative_Affectivity_Social_Inhibition_and_Type_D_Personality",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "How Is Type D Personality Measured? The DS14 Assessment",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://en.wikipedia.org/wiki/Type_D_personality",
+          "https://www.sciencedirect.com/science/article/abs/pii/S0191886910000942",
+          "https://www.psytoolkit.org/survey-library/personality-d.html",
+          "https://www.sciencedirect.com/topics/psychology/type-d-personality",
+          "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2019.00417/full",
+          "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+        ],
+        "h3": [
+          {
+            "h3": "What Is the DS14 and How Is It Structured?",
+            "evidence": [
+              {
+                "card_id": 10,
+                "gloss": "DS14 is the most accepted current diagnostic instrument",
+                "verbatim": "The DS14 is now the most accepted and widely used diagnostic instrument for the Type D pattern[3][5][6].",
+                "source_urls": [
+                  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3939967/"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 33,
+                "gloss": "DS14 is the standard assessment tool",
+                "verbatim": "The standard assessment tool is the DS14, a 14-item questionnaire that yields separate NA and SI subscale scores[4][7].",
+                "source_urls": [
+                  "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2019.00417/full",
+                  "https://www.sciencedirect.com/topics/psychology/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 11,
+                "gloss": "DS14 structure: 14 items, two 7-item subscales with example items",
+                "verbatim": "It consists of 14 Likert-style items split into two 7-item subscales — negative affectivity (e.g., \"I am often irritated\") and social inhibition (e.g., \"I find it hard to start a conversation\")[5][6].",
+                "source_urls": [
+                  "https://www.psytoolkit.org/survey-library/personality-d.html",
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0191886910000942"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 12,
+                "gloss": "DS14 item scoring and subscale range",
+                "verbatim": "Each item is scored 0 to 4, giving each subscale a possible range of 0 to 28[6].",
+                "source_urls": [
+                  "https://www.psytoolkit.org/survey-library/personality-d.html"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://en.wikipedia.org/wiki/Type_D_personality",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0191886910000942",
+              "https://www.psytoolkit.org/survey-library/personality-d.html",
+              "https://www.sciencedirect.com/topics/psychology/type-d-personality",
+              "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2019.00417/full"
+            ]
+          },
+          {
+            "h3": "How Are DS14 Scores Classified as Type D?",
+            "evidence": [
+              {
+                "card_id": 13,
+                "gloss": "Standard cut-off score of 10+ on both subscales to classify Type D",
+                "verbatim": "The standard cut-off, defined by Denollet as a median split in a sample of cardiac patients, classifies a person as Type D if they score 10 or more points on *both* the NA and SI subscales[3][2][5][6].",
+                "source_urls": [
+                  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12985532/"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 35,
+                "gloss": "Standardized DS14 cutoff scores for Type D classification",
+                "verbatim": "Standardized cutoffs of NA ≥ 10 and SI ≥ 10 on the DS14 are used to classify someone as Type D[2].",
+                "source_urls": [
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 14,
+                "gloss": "Dichotomous typology rather than continuous score, and its clinical rationale",
+                "verbatim": "This is explicitly a dichotomous (categorical) typology rather than a continuous score, which the literature notes is useful \"from a clinical perspective where dichotomous treatment decisions have to be made\"[7].",
+                "source_urls": [
+                  "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2019.00417/full"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516",
+              "https://en.wikipedia.org/wiki/Type_D_personality",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0191886910000942",
+              "https://www.psytoolkit.org/survey-library/personality-d.html",
+              "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2019.00417/full"
+            ]
+          },
+          {
+            "h3": "Is the DS14 a Valid and Reliable Tool?",
+            "evidence": [
+              {
+                "card_id": 37,
+                "gloss": "Chinese validation reliability figures (Cronbach's alpha) for NA/SI",
+                "verbatim": "Reliability figures from the Chinese validation: Cronbach's α for NA and SI were 0.90 and 0.85 respectively among coronary heart disease (CHD) patients, and 0.87 and 0.69 respectively among healthy subjects[2].",
+                "source_urls": [
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 38,
+                "gloss": "Self-report vs observer-rating correlations supporting validity",
+                "verbatim": "Correlations between self-reports and independent observer ratings were r = 0.56 for NA and r = 0.69 for SI, supporting consensual validity[2].",
+                "source_urls": [
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 39,
+                "gloss": "German general-population DS14 norms established",
+                "verbatim": "Population-based DS14 norms have also been established for a general (non-cardiac) representative German sample, described as a \"necessary precondition\" for using the tool outside cardiac populations and for individual diagnostics[5].",
+                "source_urls": [
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0191886910000942"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0191886910000942"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "What does the original Type D research actually show — and has it held up?",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368",
+          "https://www.sciencedirect.com/science/article/abs/pii/S0191886910000942",
+          "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516",
+          "https://en.wikipedia.org/wiki/Type_D_personality",
+          "https://www.ovid.com/00124294-201206000-00006",
+          "https://research.tilburguniversity.edu/files/67317509/PrePub_Lodder_2022_Type_D_personality_as_a_risk_factor_for_adverse.87.pdf"
+        ],
+        "h3": [
+          {
+            "h3": "The original studies: cardiac patients, not job candidates",
+            "evidence": [
+              {
+                "card_id": 40,
+                "gloss": "All foundational Type D studies were cardiac, not workplace, populations",
+                "verbatim": "Every foundational study on Type D was conducted in cardiac patient populations, not workplace or occupational settings.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 41,
+                "gloss": "Denollet's original cohorts were cardiac rehab/surgery patients, not job candidates",
+                "verbatim": "Denollet's early work followed cardiac rehabilitation patients and coronary artery surgery patients, not job candidates or employees[10].",
+                "source_urls": [
+                  "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 51,
+                "gloss": "Type D prevalence in cardiac populations (~38.5%)",
+                "verbatim": "Prevalence estimates of Type D in cardiac populations have been reported around 38.5% across several studies (Denollet 2005, Grande et al. 2004, Williams et al. 2008)[5]",
+                "source_urls": [
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0191886910000942"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 52,
+                "gloss": "Comparable Type D prevalence in Chinese CHD/control samples",
+                "verbatim": "while cross-cultural CHD samples show comparable rates — 31.4% among Chinese CHD patients and 31.9% among healthy Chinese controls, indicating the construct's prevalence in that population \"falls within the range of what has been found in Western countries\"[2]",
+                "source_urls": [
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 42,
+                "gloss": "10-year mortality rate in Type D vs non-Type D cardiac rehab patients",
+                "verbatim": "In one such cohort of over 300 cardiac rehabilitation patients, approximately 27% of Type D patients had died within 10 years, compared with 6% of non-Type D patients[10].",
+                "source_urls": [
+                  "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 43,
+                "gloss": "Elevated post-surgery risk for Type D bypass patients",
+                "verbatim": "Among nearly 900 patients who underwent coronary artery bypass surgery, Type D patients were reported to be over four times more likely to have a heart attack or die within nine months of surgery[10].",
+                "source_urls": [
+                  "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 44,
+                "gloss": "Early findings of ~4-fold mortality/MI/sudden death risk independent of disease severity",
+                "verbatim": "Similar early findings described up to a 4-fold increased risk of mortality, recurrent myocardial infarction, or sudden cardiac death, independent of traditional risk factors such as disease severity[3].",
+                "source_urls": [],
+                "tag": "storm",
+                "needs_source": true
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0191886910000942",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516",
+              "https://en.wikipedia.org/wiki/Type_D_personality"
+            ]
+          },
+          {
+            "h3": "Has the mortality-risk link held up to scrutiny?",
+            "evidence": [
+              {
+                "card_id": 53,
+                "gloss": "The core mortality-link finding has not held up to scrutiny",
+                "verbatim": "The link between Type D and cardiac mortality, which is the finding most often cited to justify the construct's importance, has not held up under larger and more rigorous scrutiny.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 54,
+                "gloss": "Large meta-analysis (11,000+ patients, 19 cohorts) found Type D is not a mortality risk factor",
+                "verbatim": "A high-powered individual patient data meta-analysis pooling more than 11,000 cardiovascular disease (CVD) patients across 19 previously published prospective cohort studies found that Type D is **not** a risk factor for mortality in CVD patients[3].",
+                "source_urls": [
+                  "https://research.rug.nl/en/publications/type-d-personality-as-a-risk-factor-for-adverse-outcome-in-patien/"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 55,
+                "gloss": "Failed replications led researchers to say early studies overestimated prognostic relevance",
+                "verbatim": "Multiple large-scale studies failed to replicate the original mortality associations, leading researchers to argue that the earlier, smaller studies \"may have inadvertently reached exaggerated or false conclusions,\" and that \"early type D studies had overestimated the prognostic relevance\"[11][3].",
+                "source_urls": [
+                  "https://www.ovid.com/00124294-201206000-00006"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 56,
+                "gloss": "Specific studies (heart-failure sample, intracoronary stenting) found no Type D effect",
+                "verbatim": "Specific negative replications include a large heart-failure sample showing no prognostic value of Type D for mortality[3], and a study of patients treated by intracoronary stenting finding Type D unrelated to major adverse cardiovascular events[3].",
+                "source_urls": [],
+                "tag": "storm",
+                "needs_source": true
+              },
+              {
+                "card_id": 57,
+                "gloss": "2023 analysis suggests publication bias (smaller studies show larger effects)",
+                "verbatim": "A 2023 analysis further found that studies with smaller sample sizes showed larger Type D effects than studies with larger sample sizes — a pattern \"possibly hinting at publication bias\" in the literature underlying the construct[12].",
+                "source_urls": [
+                  "https://research.tilburguniversity.edu/files/67317509/PrePub_Lodder_2022_Type_D_personality_as_a_risk_factor_for_adverse.87.pdf"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 68,
+                "gloss": "Even CVD-domain literature admits early Type D studies overstated prognostic relevance",
+                "verbatim": "Even within its home domain, the research base for Type D is described as having overstated its case: \"early Type D studies had overestimated the prognostic relevance\"[11].",
+                "source_urls": [
+                  "https://www.ovid.com/00124294-201206000-00006"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 69,
+                "gloss": "2023 Lodder analysis found smaller studies reported larger Type D effects, suggesting publication bias",
+                "verbatim": "A 2023 analysis (Lodder, cited 53 times) found that studies with smaller sample sizes reported larger Type D effects than studies with larger sample sizes, a pattern the authors flag as \"possibly hinting at publication bias\"[12].",
+                "source_urls": [
+                  "https://research.tilburguniversity.edu/files/67317509/PrePub_Lodder_2022_Type_D_personality_as_a_risk_factor_for_adverse.87.pdf"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 70,
+                "gloss": "Possible inflation of Type D's CVD associations argues for more caution when repurposing the label for hiring",
+                "verbatim": "That means the CVD associations Type D is actually known for may themselves be inflated in the published literature — a caveat that argues for more caution, not less, when the label is stretched into an entirely new and unvalidated use such as screening job candidates.",
+                "source_urls": [],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://en.wikipedia.org/wiki/Type_D_personality",
+              "https://www.ovid.com/00124294-201206000-00006",
+              "https://research.tilburguniversity.edu/files/67317509/PrePub_Lodder_2022_Type_D_personality_as_a_risk_factor_for_adverse.87.pdf"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "Is Type D a stable trait, or a sign of psychopathology?",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://en.wikipedia.org/wiki/Type_D_personality",
+          "https://www.researchgate.net/publication/8057591_DS14_Standard_Assessment_of_Negative_Affectivity_Social_Inhibition_and_Type_D_Personality",
+          "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+        ],
+        "h3": [
+          {
+            "h3": "How stable are Type D's traits over time?",
+            "evidence": [
+              {
+                "card_id": 16,
+                "gloss": "NA and SI are stable traits over a four-year period",
+                "verbatim": "Both negative affectivity and social inhibition have been shown to be relatively stable traits when measured across a four-year period[3].",
+                "source_urls": [],
+                "tag": "storm",
+                "needs_source": true
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://en.wikipedia.org/wiki/Type_D_personality"
+            ]
+          },
+          {
+            "h3": "Is Type D a psychiatric disorder?",
+            "evidence": [
+              {
+                "card_id": 17,
+                "gloss": "Type D is not a psychiatric disorder or psychopathology marker",
+                "verbatim": "Denollet has emphasized that Type D is explicitly *not* a psychiatric disorder or a marker of psychopathology — it describes normal personality traits, and people classified as Type D do not necessarily meet criteria for a clinical condition such as depression[1][2].",
+                "source_urls": [
+                  "https://www.researchgate.net/publication/8057591_DS14_Standard_Assessment_of_Negative_Affectivity_Social_Inhibition_and_Type_D_Personality",
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 18,
+                "gloss": "Caution against misreading Type D as psychopathological",
+                "verbatim": "Researchers have cautioned that Type D can be misunderstood as a psychopathological factor when in fact it was conceived as a normal personality type[2].",
+                "source_urls": [
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.researchgate.net/publication/8057591_DS14_Standard_Assessment_of_Negative_Affectivity_Social_Inhibition_and_Type_D_Personality",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "What Does a Type D Personality Look Like Day to Day?",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+        ],
+        "h3": [
+          {
+            "h3": "The negative traits: sadness, irritability, and social avoidance",
+            "evidence": [
+              {
+                "card_id": 107,
+                "gloss": "Type D shows sadness as a core negative trait",
+                "verbatim": "A team member who fits the Type D profile will typically present a cluster of recognizable traits: sadness, irritability when things depart from a plan they laid out for themselves, a pessimistic outlook that defaults to spotting what's wrong in a situation rather than what's right, negative self-talk that reinforces existing belief systems in a self-perpetuating cycle, and avoidance of social situations, particularly with people they don't already know[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 108,
+                "gloss": "Type D shows irritability when plans go off track",
+                "verbatim": "A team member who fits the Type D profile will typically present a cluster of recognizable traits: sadness, irritability when things depart from a plan they laid out for themselves, a pessimistic outlook that defaults to spotting what's wrong in a situation rather than what's right, negative self-talk that reinforces existing belief systems in a self-perpetuating cycle, and avoidance of social situations, particularly with people they don't already know[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 109,
+                "gloss": "Type D defaults to a pessimistic, what's-wrong-focused outlook",
+                "verbatim": "A team member who fits the Type D profile will typically present a cluster of recognizable traits: sadness, irritability when things depart from a plan they laid out for themselves, a pessimistic outlook that defaults to spotting what's wrong in a situation rather than what's right, negative self-talk that reinforces existing belief systems in a self-perpetuating cycle, and avoidance of social situations, particularly with people they don't already know[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 110,
+                "gloss": "Type D engages in self-reinforcing negative self-talk",
+                "verbatim": "A team member who fits the Type D profile will typically present a cluster of recognizable traits: sadness, irritability when things depart from a plan they laid out for themselves, a pessimistic outlook that defaults to spotting what's wrong in a situation rather than what's right, negative self-talk that reinforces existing belief systems in a self-perpetuating cycle, and avoidance of social situations, particularly with people they don't already know[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 111,
+                "gloss": "Type D avoids social situations, especially with unfamiliar people",
+                "verbatim": "A team member who fits the Type D profile will typically present a cluster of recognizable traits: sadness, irritability when things depart from a plan they laid out for themselves, a pessimistic outlook that defaults to spotting what's wrong in a situation rather than what's right, negative self-talk that reinforces existing belief systems in a self-perpetuating cycle, and avoidance of social situations, particularly with people they don't already know[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+            ]
+          },
+          {
+            "h3": "The positive traits: organized, caring, and persistent",
+            "evidence": [
+              {
+                "card_id": 112,
+                "gloss": "Positive side: Type D tends to be organized, caring, thoughtful, compassionate",
+                "verbatim": "On the positive side of the same profile, these individuals tend to be organized, caring, thoughtful, and compassionate; disorganization or mess in the work environment bothers them, and they are typically the last to give up on a task after others have already quit[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 113,
+                "gloss": "Type D is bothered by disorganization or mess at work",
+                "verbatim": "On the positive side of the same profile, these individuals tend to be organized, caring, thoughtful, and compassionate; disorganization or mess in the work environment bothers them, and they are typically the last to give up on a task after others have already quit[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 114,
+                "gloss": "Type D is typically the last to give up on a task",
+                "verbatim": "On the positive side of the same profile, these individuals tend to be organized, caring, thoughtful, and compassionate; disorganization or mess in the work environment bothers them, and they are typically the last to give up on a task after others have already quit[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "Is Type D Personality Linked to Job Performance?",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://www.sciencedirect.com/topics/psychology/type-d-personality",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC2822747/",
+          "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12300728/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6444517/",
+          "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516",
+          "https://www.businessmanagementdaily.com/71941/pre-employment-personality-test-options-and-considerations/",
+          "https://tilsonhr.com/blog/pros-and-cons-of-personality-tests-in-hiring-process/",
+          "https://flimp.net/employee-onboarding-should-you-use-a-personality-test/"
+        ],
+        "h3": [
+          {
+            "h3": "What the Research on Type D Actually Covers",
+            "evidence": [
+              {
+                "card_id": 61,
+                "gloss": "Type D studied in suicidality via systematic review of eight studies",
+                "verbatim": "and suicidality, where a systematic review of eight studies found Type D robustly associated with suicidal ideation (seven studies) and suicide attempts (two studies) across populations and countries, with proposed mechanisms including depression, alcohol misuse, posttraumatic stress, low belonging, social isolation, and lack of support[4].",
+                "source_urls": [
+                  "https://www.sciencedirect.com/topics/psychology/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 71,
+                "gloss": "Work-related correlates in the literature are framed as health/distress outcomes, not performance",
+                "verbatim": "Where research does report work-related correlates, they are framed as health and distress outcomes, not performance or fit.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 72,
+                "gloss": "Mols (2010) links Type D to absenteeism and vital exhaustion, framed as strain markers not productivity metrics",
+                "verbatim": "Mols (2010, cited 465 times) reports \"a negative effect of Type D personality on work-related problems (higher absence-leave, higher levels of vital exhaustion...)\"[14] — self-reported exhaustion and absenteeism, studied by health psychologists as markers of strain, not as a productivity or competence metric.",
+                "source_urls": [
+                  "https://pmc.ncbi.nlm.nih.gov/articles/PMC2822747/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 73,
+                "gloss": "A less rigorous source links Type D to workplace stress, burnout, and absenteeism, framed as lived experience",
+                "verbatim": "A separate, less rigorously sourced account describes Type D individuals as reporting more workplace stress, more job burnout, feeling less personally accomplished, and missing more days of work[10], again framed as lived experience rather than an employer-usable predictive signal.",
+                "source_urls": [
+                  "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 74,
+                "gloss": "Systematic review of eight studies links Type D to suicidal thoughts/behaviors via clinical vulnerability mechanisms",
+                "verbatim": "A systematic review of eight studies found Type D \"robustly associated with suicidal thoughts and behaviors, across populations and countries,\" related to both suicidal ideation and suicide attempts, with intra-psychic vulnerabilities (depression, alcohol misuse, posttraumatic stress) and interpersonal vulnerabilities (low belonging, social isolation, lack of support) proposed as the mechanism[4].",
+                "source_urls": [
+                  "https://www.sciencedirect.com/topics/psychology/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 75,
+                "gloss": "These are clinical/mental-health findings, outside what hiring decisions may screen on",
+                "verbatim": "These are clinical and mental-health findings — precisely the territory a hiring decision is not equipped, and not legally permitted, to screen on.",
+                "source_urls": [],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.sciencedirect.com/topics/psychology/type-d-personality",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2822747/",
+              "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368"
+            ]
+          },
+          {
+            "h3": "No Validation for Hiring or Employment Use",
+            "evidence": [
+              {
+                "card_id": 62,
+                "gloss": "None of the research base covers job performance, hiring, or workplace conduct",
+                "verbatim": "None of this research base — cardiac prognosis, somatic symptom treatment outcomes, stigmatization, general mental health, or suicidality — involves job performance, hiring, or workplace conduct as an outcome variable.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 63,
+                "gloss": "The evidence base for Type D is CVD research, not employment research",
+                "verbatim": "Every study underlying the Type D construct in the collected evidence base is framed around cardiovascular disease (CVD), not employment outcomes.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 65,
+                "gloss": "The review's own quality checklist tests epidemiological rigor, not hiring validity",
+                "verbatim": "Its own quality checklist interrogates study design, sample/comparison-group selection, confounding control, and outcome measurement robustness — the apparatus of epidemiological research, not psychometric validation for hiring or performance prediction[13].",
+                "source_urls": [
+                  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12300728/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 66,
+                "gloss": "DS14-RU validation confirms only research-measurement reliability, not job relevance",
+                "verbatim": "A separate validation study of the DS14-RU (the Russian-language version of the questionnaire) confirms only that the instrument is reliable for research assessment \"in Russian-speaking respondents\"[8] — a finding about measurement consistency, not about the tool's relevance to job tasks or workplace conduct.",
+                "source_urls": [
+                  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6444517/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 67,
+                "gloss": "No evidence validates DS14/Type D against any hiring or personnel criterion",
+                "verbatim": "Nowhere in this evidence does the DS14 or the Type D label get validated against a job-performance, hiring, or personnel-decision criterion.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 79,
+                "gloss": "Type D is even further removed than MBTI: built solely for cardiac-risk research, never for hiring or career use",
+                "verbatim": "Type D sits in the same position, one step further removed: it was built and validated for cardiac-risk research, never for career development or hiring at all.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 94,
+                "gloss": "Type D is a clinical cardiac risk-factor construct, not a job-performance measure",
+                "verbatim": "The same structural mismatch applies to Type D: it is a clinical risk-factor construct from psychosomatic medicine, developed to predict cardiac events, mortality, and transplant rejection in cardiovascular disease patients, not job performance[13][2].",
+                "source_urls": [
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516",
+                  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12300728/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 95,
+                "gloss": "Type D's clinical packaging (name, code, trait profile) makes it look hiring-ready despite the mismatch",
+                "verbatim": "Nothing in that evidence base speaks to how someone performs at work, yet the label carries the surface trappings of a \"personality type\" — a name, a two-letter code, a defined trait profile — which is exactly the kind of packaging that gets pulled into hiring conversations regardless of what the underlying research actually measured.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 105,
+                "gloss": "field guidance says even validated test results should supplement, not replace, hiring judgment",
+                "verbatim": "Finally, even where an instrument is properly validated, the field-level guidance is that results are meant to add insight, not to make a concrete hiring decision on their own — employers are cautioned to remain aware that test results supplement judgment rather than replace it[15].",
+                "source_urls": [
+                  "https://www.businessmanagementdaily.com/71941/pre-employment-personality-test-options-and-considerations/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 106,
+                "gloss": "Type D was never validated for employment use, so using it as a screening signal bypasses the supplement-not-replace caution",
+                "verbatim": "Type D research was never validated for employment decisions in the first place, so importing it as a screening or flagging signal skips past that caution entirely: the label offers the appearance of a decision-ready personality category while resting on a research base built for an unrelated clinical outcome.",
+                "source_urls": [],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC12300728/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC6444517/",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516",
+              "https://www.businessmanagementdaily.com/71941/pre-employment-personality-test-options-and-considerations/"
+            ]
+          },
+          {
+            "h3": "How Type D Is Measured, and Why Self-Report Tests Are Risky in Hiring",
+            "evidence": [
+              {
+                "card_id": 76,
+                "gloss": "General personality testing research says personality doesn't reliably predict job performance or fit",
+                "verbatim": "\"Personality doesn't necessarily predict job performance... Someone may have the right personality profile but still not quite be the right fit for the role.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 77,
+                "gloss": "Many common personality tests were never designed to predict performance or screen candidates",
+                "verbatim": "Many common personality tests weren't even designed to predict performance or screen candidates at all\"[15].",
+                "source_urls": [
+                  "https://www.businessmanagementdaily.com/71941/pre-employment-personality-test-options-and-considerations/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 80,
+                "gloss": "Consistent guidance: personality test results should add insight, not drive hiring decisions alone",
+                "verbatim": "The consistent guidance is that \"test results are there to provide added insights, not make a concrete hiring decision\"[15], and that employers should \"not allow results from personality tests alone to exclude a candidate\"[16].",
+                "source_urls": [
+                  "https://tilsonhr.com/blog/pros-and-cons-of-personality-tests-in-hiring-process/"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 89,
+                "gloss": "Personality tests carry a direct per-candidate cost of $100-$5000",
+                "verbatim": "these tests can run \"anywhere between $100 to $5000 per candidate,\"",
+                "source_urls": [
+                  "https://flimp.net/employee-onboarding-should-you-use-a-personality-test/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 92,
+                "gloss": "personality tools generally get repurposed for hiring after being validated elsewhere",
+                "verbatim": "Personality instruments migrate into hiring long after they were validated for an entirely different purpose, and Type D fits this pattern precisely.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 96,
+                "gloss": "self-report personality tests in hiring are vulnerable to candidates answering strategically",
+                "verbatim": "A second driver is the accuracy problem inherent to any self-report personality instrument used in a high-stakes selection context: candidates tend to answer based on what they think the employer wants to hear rather than their true disposition, so results aren't always accurate to begin with[16].",
+                "source_urls": [
+                  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12310618/"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 97,
+                "gloss": "Type D is measured via the DS14 self-report questionnaire covering negative affectivity and social inhibition",
+                "verbatim": "Type D is measured through a self-report questionnaire (the DS14) capturing negative affectivity (NA) — the stable tendency to experience negative emotions — and social inhibition (SI)[2].",
+                "source_urls": [
+                  "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 98,
+                "gloss": "NA and SI traits are especially prone to impression management, distorting hiring-context Type D results",
+                "verbatim": "Both are exactly the kind of introspective, mood-and-disposition traits most susceptible to impression management in an interview or pre-employment setting, compounding the risk that a hiring-context application of Type D produces a distorted read even before questions of validity are considered.",
+                "source_urls": [],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.businessmanagementdaily.com/71941/pre-employment-personality-test-options-and-considerations/",
+              "https://tilsonhr.com/blog/pros-and-cons-of-personality-tests-in-hiring-process/",
+              "https://flimp.net/employee-onboarding-should-you-use-a-personality-test/",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0022399908003516"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "What environment does Type D thrive in, and what should managers watch for?",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+        ],
+        "h3": [
+          {
+            "h3": "What kind of work brings out Type D's best performance?",
+            "evidence": [
+              {
+                "card_id": 115,
+                "gloss": "Task/environment fit directly affects Type D performance",
+                "verbatim": "Task and environment fit matters directly to how well a Type D team member performs.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 116,
+                "gloss": "Repetitive work is a strength area, not a weakness, for Type D",
+                "verbatim": "Repetitive work is a strength area rather than a weakness for this profile: repetition is easy for them to get comfortable with, and they enjoy the stability that comes with this kind of work[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 117,
+                "gloss": "Type D enjoys the stability repetitive work provides",
+                "verbatim": "Repetitive work is a strength area rather than a weakness for this profile: repetition is easy for them to get comfortable with, and they enjoy the stability that comes with this kind of work[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 118,
+                "gloss": "Low-risk, standard, non-negotiable-procedure work is 'perfect' for Type D",
+                "verbatim": "Low-risk work that follows standard, non-negotiable procedures is described as \"perfect\" for this personality type[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 121,
+                "gloss": "High turnover / frequently changing environments are not ideal for Type D",
+                "verbatim": "The reverse also holds: high employee turnover or an environment that changes regularly is explicitly identified as not ideal for Type D personalities, since they need stability and comfort and are prone to unease in environments prone to constant change[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 122,
+                "gloss": "Type D needs stability/comfort and is uneasy with constant change",
+                "verbatim": "The reverse also holds: high employee turnover or an environment that changes regularly is explicitly identified as not ideal for Type D personalities, since they need stability and comfort and are prone to unease in environments prone to constant change[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+            ]
+          },
+          {
+            "h3": "How does Type D show up in a team?",
+            "evidence": [
+              {
+                "card_id": 119,
+                "gloss": "Type D can bring organizing systems/tools to a disorganized team",
+                "verbatim": "If a team struggles to stay organized, a Type D team member can bring systems and tools that help others become better system-led practitioners[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 120,
+                "gloss": "Type D provides a stabilizing presence in group scenarios",
+                "verbatim": "In group scenarios, they can provide a stabilizing presence[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 123,
+                "gloss": "Type D plays a strongly supportive role, needing to feel wanted and of service",
+                "verbatim": "Type D team members can play a strongly supportive role: they need to feel wanted and appreciated by others and to be of service, and teams that need someone to help and support them are where this profile can thrive[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 124,
+                "gloss": "Type D thrives on teams that need help/support",
+                "verbatim": "Type D team members can play a strongly supportive role: they need to feel wanted and appreciated by others and to be of service, and teams that need someone to help and support them are where this profile can thrive[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 127,
+                "gloss": "Type D can create workforce harmony often missing in target-focused teams",
+                "verbatim": "they can contribute meaningfully to a workforce by creating harmony that is often missing in teams singularly focused on hitting targets[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+            ]
+          },
+          {
+            "h3": "What should managers watch for?",
+            "evidence": [
+              {
+                "card_id": 125,
+                "gloss": "Type D's emotional restraint can be taken advantage of and needs monitoring",
+                "verbatim": "That same trait carries a caution — because they hold in a lot of emotion, this dynamic \"can be taken advantage of\" and needs to be monitored[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 126,
+                "gloss": "With right work-life balance, Type D are happy, diligent workers who finish tasks well",
+                "verbatim": "Overall, when Type D employees find the right balance between work and life, they are described as capable of being \"incredibly happy and diligent workers\" who complete specific tasks well[24]",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "How Do You Manage a Type D Personality on Your Team?",
+        "target_keyword": null,
+        "evidence": [
+          {
+            "card_id": 138,
+            "gloss": "Managing Type D is an ongoing investment combining task fit, team context, and patient relationship-building",
+            "verbatim": "Combined, the evidence frames managing a Type D team member as an ongoing investment rather than a single onboarding conversation: pairing the right task fit (stable, repetitive, procedural work) and the right team context (low turnover, a role where support is needed and valued) with deliberate, patient relationship-building and, where useful, structured practices aimed at building confidence and regulating emotional distress[24][10].",
+            "source_urls": [
+              "https://www.thomas.co/resources/type/hr-blog/type-d-personality",
+              "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368"
+            ],
+            "tag": "storm"
+          }
+        ],
+        "internal_links": [],
+        "external_links": [
+          "https://www.thomas.co/resources/type/hr-blog/type-d-personality",
+          "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368"
+        ],
+        "h3": [
+          {
+            "h3": "Start by Understanding What Drives the Behavior",
+            "evidence": [
+              {
+                "card_id": 130,
+                "gloss": "Management approach starts with understanding what drives the negative behavior",
+                "verbatim": "The recommended management approach starts with understanding what is driving the negative behavior, then supporting the person to think more positively — up to and including investing in training or some form of counseling to help them grow in confidence[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 128,
+                "gloss": "Managing Type D's negative aspects requires time and patience",
+                "verbatim": "Managing the negative aspects of Type D behavior \"requires time and patience,\" including reassuring the team member of their worth to other people within the organization[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 131,
+                "gloss": "Management approach supports the person to think more positively",
+                "verbatim": "The recommended management approach starts with understanding what is driving the negative behavior, then supporting the person to think more positively — up to and including investing in training or some form of counseling to help them grow in confidence[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+            ]
+          },
+          {
+            "h3": "Reassure Them and Invest in Their Confidence",
+            "evidence": [
+              {
+                "card_id": 129,
+                "gloss": "Reassuring a Type D team member of their worth to others is part of managing them",
+                "verbatim": "Managing the negative aspects of Type D behavior \"requires time and patience,\" including reassuring the team member of their worth to other people within the organization[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 132,
+                "gloss": "Management can include investing in training or counseling to build confidence",
+                "verbatim": "The recommended management approach starts with understanding what is driving the negative behavior, then supporting the person to think more positively — up to and including investing in training or some form of counseling to help them grow in confidence[24].",
+                "source_urls": [
+                  "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.thomas.co/resources/type/hr-blog/type-d-personality"
+            ]
+          },
+          {
+            "h3": "Use Short-Term Goal-Setting to Build Hope",
+            "evidence": [
+              {
+                "card_id": 133,
+                "gloss": "Short-term goal-setting helps clarify personal values and priorities",
+                "verbatim": "**Short-term goal-setting**: helps a person gain clarity about personal values and priorities",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 134,
+                "gloss": "Short-term goal-setting builds future-focused hope, optimism, and confidence",
+                "verbatim": "teaches them to focus on the future with increased hope, optimism, and confidence[10].",
+                "source_urls": [
+                  "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368"
+            ]
+          },
+          {
+            "h3": "Encourage Mindfulness, Prayer, or Meditation",
+            "evidence": [
+              {
+                "card_id": 135,
+                "gloss": "Mindfulness, prayer, and meditation reliably regulate emotions in distress",
+                "verbatim": "**Mindfulness, prayer, and meditation**: offer a reliable method for regulating emotions in times of distress",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 137,
+                "gloss": "Mindfulness/prayer/meditation help a person learn to slow down under distress",
+                "verbatim": "help a person learn to slow down when they begin to experience distress[10].",
+                "source_urls": [
+                  "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "Why can't you diagnose Type D personality from an interview — and what should you do instead?",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://www.psytoolkit.org/survey-library/personality-d.html",
+          "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2019.00417/full",
+          "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1402422/full",
+          "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368",
+          "https://www.kore1.com/structured-interview-questions/",
+          "https://www.pin.com/blog/structured-interviews-guide/",
+          "https://www.kellyservices.com/insights/behavioral-interview-questions",
+          "https://www.hiretruffle.com/blog/structured-interview-questions",
+          "https://www.assesscandidates.com/combining-personality-assessments-with-interviews/",
+          "https://capd.mit.edu/resources/the-star-method-for-behavioral-interviews/"
+        ],
+        "h3": [
+          {
+            "h3": "Why you can't diagnose Type D personality from an interview",
+            "evidence": [
+              {
+                "card_id": 207,
+                "gloss": "Core problem: Type D features overlap with normal interview behavior",
+                "verbatim": "The core problem for an interviewer who has heard the phrase \"Type D personality\" attached to a candidate is that the construct's defining features overlap almost entirely with normal interview behavior.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 208,
+                "gloss": "Definition of negative affectivity (NA)",
+                "verbatim": "Negative affectivity (NA) is defined as \"the tendency to experience negative emotions across time/situations,\" producing \"feelings of dysphoria, anxiety, and irritability\" and a tendency to \"scan the world for signs of impending trouble\"[17].",
+                "source_urls": [
+                  "https://www.psytoolkit.org/survey-library/personality-d.html"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 209,
+                "gloss": "Definition of social inhibition (SI)",
+                "verbatim": "Social inhibition (SI) is defined as \"the tendency to inhibit the expression of emotions/behaviors in social interactions to avoid disapproval by others,\" leaving high-SI individuals \"feel[ing] inhibited, tense, and insecure when with others\"[18][19][17].",
+                "source_urls": [
+                  "https://www.psytoolkit.org/survey-library/personality-d.html",
+                  "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2019.00417/full",
+                  "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1402422/full"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 210,
+                "gloss": "Interview anxiety is a normal reaction, not a profile",
+                "verbatim": "Anxiety, tension, and guardedness in a novel, high-stakes, evaluative encounter (a job interview) are not evidence of a psychological profile — they are the expected reaction of most candidates to that setting.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 211,
+                "gloss": "Behavioral inhibition trait and unfamiliarity of interviews",
+                "verbatim": "A related trait sometimes folded into Type D descriptions, behavioral inhibition, is specifically the tendency to \"withdraw from new situations they are not familiar with\"[20] — and a first-round interview with strangers is, by definition, an unfamiliar situation for almost anyone.",
+                "source_urls": [
+                  "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 212,
+                "gloss": "Persistence over time, not intensity, separates trait from nerves",
+                "verbatim": "The one feature that actually separates a stable trait profile from situational nerves is persistence across time and context, not intensity in a single sitting.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 213,
+                "gloss": "Type D traits must occur more frequently/consistently than average",
+                "verbatim": "Descriptions of Type D explicitly note that \"people with type D personality experience these traits more frequently than the average person and more consistently over time\" than the general population, who \"can feel a variety of these things at times\"[20].",
+                "source_urls": [
+                  "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 214,
+                "gloss": "A single interview can't establish consistency over time",
+                "verbatim": "A single interview — one situation, one hour, one instance of stress — cannot establish \"more consistently over time\" no matter how guarded or flat the candidate seems.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 215,
+                "gloss": "DS14 instrument: validation sample and normed mean/SD bands",
+                "verbatim": "Denollet's own instrument for measuring the profile, the DS14, is a scored psychometric scale with population norms derived from thousands of respondents (a validation sample of 2,508 participants), with separate mean/SD bands for men and women on both NA (men: mean 6.3, SD 5.3; women: mean 8.0, SD 5.6) and SI (men: mean 10.2, SD 6.6; women: mean 9.7, SD 6.2), and a seven-band interpretive scale running from \"Very low\" to \"Very high\" for each[17].",
+                "source_urls": [
+                  "https://www.psytoolkit.org/survey-library/personality-d.html"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 216,
+                "gloss": "The only valid mechanism for assigning the label is the scored questionnaire",
+                "verbatim": "That is the only mechanism through which the label is actually assigned in the research it comes from — a multi-item questionnaire scored against normed population bands, not a clinician's or interviewer's impression formed from a candidate's affect in a single conversation.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 217,
+                "gloss": "Interviewers lack the instrument/data to infer the trait profile",
+                "verbatim": "An interviewer has no access to that instrument, no normed comparison group, and no repeated-observation data, which means there is no legitimate basis for inferring the trait profile from interview behavior in the first place.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 218,
+                "gloss": "Practical fix: measure job-relevant behavior against a rubric",
+                "verbatim": "Because the label cannot be validly inferred from a single conversation, the practical fix is to make the interview measure something else entirely: job-relevant behavior, scored against a fixed rubric, rather than global impressions of demeanor.",
+                "source_urls": [],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.psytoolkit.org/survey-library/personality-d.html",
+              "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2019.00417/full",
+              "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1402422/full",
+              "https://www.verywellmind.com/what-does-it-mean-to-have-type-d-personality-4175368"
+            ]
+          },
+          {
+            "h3": "What actually makes an interview 'structured'",
+            "evidence": [
+              {
+                "card_id": 162,
+                "gloss": "Structure is the starting point for performance-based (not personality-based) interviewing",
+                "verbatim": "The starting point for any interview process meant to evaluate a candidate on job performance rather than personality is structure itself.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 163,
+                "gloss": "OPM's three required components of a structured interview",
+                "verbatim": "The U.S. Office of Personnel Management defines a structured interview as having three required components: standardized questions derived from a job analysis, a standardized rating procedure, and consistently applied administration across every candidate.[12]",
+                "source_urls": [
+                  "https://www.kore1.com/structured-interview-questions/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 164,
+                "gloss": "Skipping the rating procedure leaves interviews only superficially fair",
+                "verbatim": "Skipping any one of the three, most commonly the rating procedure, means the process only looks fair from the outside while interviewers still score answers on unstated impressions.[12]",
+                "source_urls": [
+                  "https://www.kore1.com/structured-interview-questions/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 219,
+                "gloss": "Definition of structured interviews",
+                "verbatim": "Structured interviews — defined as formats where \"every candidate for the same role answers the same questions, in the same order, evaluated against the same predetermined scoring criteria\"[13] — are built explicitly to strip out the kind of impressionistic read (confident tone, warmth, sociability) that would cause a quiet or guarded candidate to be marked down for reasons unrelated to the job.",
+                "source_urls": [
+                  "https://www.indeed.com/career-advice/interviewing/structured-interviews"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 236,
+                "gloss": "OPM's three-component definition of a structured interview",
+                "verbatim": "The U.S. Office of Personnel Management's own definition of a structured interview has three components: standardized questions derived from a job analysis, a standardized rating procedure, and consistently applied administration[12].",
+                "source_urls": [
+                  "https://www.kore1.com/structured-interview-questions/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.kore1.com/structured-interview-questions/",
+              "https://www.pin.com/blog/structured-interviews-guide/"
+            ]
+          },
+          {
+            "h3": "The validity evidence behind structured interviews",
+            "evidence": [
+              {
+                "card_id": 165,
+                "gloss": "Validity evidence for structured interviews is substantial, not marginal",
+                "verbatim": "The validity evidence for structured interviews is not a marginal edge.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 166,
+                "gloss": "Schmidt and Hunter: structured .51 vs unstructured .38 validity",
+                "verbatim": "Schmidt and Hunter's landmark meta-analysis put unstructured interviews at a predictive validity of .38 against job performance, versus .51 for structured interviews — a 34% improvement in applicant identification.[13]",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 167,
+                "gloss": "Sackett et al. 2023: structured interview validity .42, top standalone predictor",
+                "verbatim": "Sackett and colleagues' 2023 update placed structured interview validity at .42, the highest-performing standalone predictor among all commonly used selection methods, ahead of cognitive tests, work samples, and personality measures evaluated individually.[12][13]",
+                "source_urls": [
+                  "https://www.kore1.com/structured-interview-questions/",
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 168,
+                "gloss": "Alternate framing: .42 structured vs .19 unstructured validity coefficient",
+                "verbatim": "One source in this set frames the same body of research as structured interviews reaching a validity coefficient of .42 against unstructured interviews at .19 — roughly five times the explained variance.[12]",
+                "source_urls": [
+                  "https://www.kore1.com/structured-interview-questions/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 169,
+                "gloss": "OPM Assessment Decision Guide: .51 standalone, .63 combined with cognitive-ability tests",
+                "verbatim": "The OPM's own Assessment Decision Guide puts structured-interview validity at .51 standalone, rising to .63 when combined with cognitive-ability measures.[12]",
+                "source_urls": [
+                  "https://www.kore1.com/structured-interview-questions/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 170,
+                "gloss": "Wingate et al. 2025 meta-analysis: task performance ρ=.30, contextual performance ρ=.28",
+                "verbatim": "A 2025 meta-analysis by Wingate and colleagues, drawing on 37 studies and 30,646 participants, found structured interviews predict task performance at ρ=.30 and contextual performance — citizenship behaviors, team collaboration, organizational commitment — at ρ=.28, meaning the method predicts not just whether someone can do the job but whether they contribute beyond the job description.[13]",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 171,
+                "gloss": "Google's internal re:Work research confirms the same pattern",
+                "verbatim": "Google's internal hiring research, published in the re:Work Structured Interviewing Guide, found the identical pattern across thousands of hires at every level and function.[13]",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 220,
+                "gloss": "Schmidt and Hunter: .51 vs .38 predictive validity",
+                "verbatim": "Meta-analytic evidence from Schmidt and Hunter's landmark study puts structured-interview predictive validity at .51 versus .38 for unstructured interviews, a 34% improvement in accurately identifying qualified applicants[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 221,
+                "gloss": "Sackett 2023: .42 validity, top-ranked predictor",
+                "verbatim": "Sackett and colleagues' 2023 meta-analysis puts structured-interview validity even higher, at .42 — the top-ranked standalone predictor among all commonly used selection methods, ahead of cognitive tests, work samples, and personality measures[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 222,
+                "gloss": "Wingate 2025: task and contextual performance validity",
+                "verbatim": "A 2025 meta-analysis by Wingate and colleagues (37 studies, 30,646 participants) found structured interviews predict task performance at ρ=.30 and contextual performance — citizenship behavior, team collaboration, organizational commitment — at ρ=.28, meaning the format is validated specifically against job outcomes, not against personality typologies[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 254,
+                "gloss": "Schmidt and Hunter: unstructured .38 vs structured .51 validity, 34% improvement",
+                "verbatim": "Schmidt and Hunter's meta-analysis put unstructured interview validity at .38 versus .51 for structured — a 34% improvement in identifying the right candidate[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 255,
+                "gloss": "Sackett et al. 2022: unstructured .19 vs structured .42, five times the variance",
+                "verbatim": "Sackett et al.'s 2022 update found an even larger gap: .19 for unstructured versus .42 for structured, meaning the structured method explains roughly five times the variance in job performance[12];",
+                "source_urls": [
+                  "https://www.kore1.com/structured-interview-questions/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 256,
+                "gloss": "Sackett et al. 2023: structured validity .42, top standalone predictor",
+                "verbatim": "a separate 2023 Sackett et al. analysis again lands structured validity at .42, ranking it the top standalone predictor[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 257,
+                "gloss": "OPM Assessment Decision Guide: structured-interview validity .51 standalone",
+                "verbatim": "OPM's Assessment Decision Guide puts structured-interview validity at .51 standalone[12].",
+                "source_urls": [
+                  "https://www.kore1.com/structured-interview-questions/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.pin.com/blog/structured-interviews-guide/",
+              "https://www.kore1.com/structured-interview-questions/"
+            ]
+          },
+          {
+            "h3": "Behavioral vs. situational interview questions",
+            "evidence": [
+              {
+                "card_id": 172,
+                "gloss": "Behavioral questions are 55% predictive vs 10% for traditional interviewing",
+                "verbatim": "Behavioral interview questions specifically carry their own validity claim: research indicates they are 55% predictive of future on-the-job behavior, compared to just 10% for traditional (hypothetical or unstructured) interviewing.[14]",
+                "source_urls": [
+                  "https://www.kellyservices.com/insights/behavioral-interview-questions"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 186,
+                "gloss": "Behavioral questions suit experienced candidates; situational suit entry-level",
+                "verbatim": "Behavioral questions are reported as slightly more predictive for experienced candidates who have a track record to draw from, while situational questions perform better for entry-level candidates.[13]",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 250,
+                "gloss": "Definition of behavioral interview questions (past action, not hypothetical/presentation)",
+                "verbatim": "Behavioral interview questions ask what a candidate actually did in a specific past situation rather than what they would hypothetically do or how they present in the room.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 251,
+                "gloss": "Behavioral questions are 55% predictive vs 10% for opinion-based interviewing",
+                "verbatim": "Research cited in the collected sources puts behavioral questions at 55% predictive of future on-the-job behavior compared to just 10% for traditional, opinion-based interviewing[14].",
+                "source_urls": [
+                  "https://www.kellyservices.com/insights/behavioral-interview-questions"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 253,
+                "gloss": "Behavioral questions shift focus from affect/performance to actual past action",
+                "verbatim": "Because the question demands a concrete, checkable account of past action rather than a real-time performance of confidence or ease, it shifts the evaluator's attention from \"how did this person come across\" to \"what did this person actually do\" — sidestepping the channel through which nerves, introversion, or guardedness would otherwise get folded into a performance judgment.",
+                "source_urls": [],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.kellyservices.com/insights/behavioral-interview-questions",
+              "https://www.pin.com/blog/structured-interviews-guide/"
+            ]
+          },
+          {
+            "h3": "How structure cuts interview bias",
+            "evidence": [
+              {
+                "card_id": 173,
+                "gloss": "Standardized formats cut bias effect size more than half (d=.23 vs d=.59)",
+                "verbatim": "Meta-analytic research published in the Journal of Business and Psychology found that standardized interview formats reduce bias effects by more than half compared to freeform conversations: an effect size of d = .23 for structured formats versus d = .59 for unstructured ones.[13]",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 174,
+                "gloss": "Bias reduction can reach 85% with diverse panels plus blind scoring",
+                "verbatim": "Some research suggests the reduction can reach as high as 85% when structured formats are combined with diverse interview panels and blind scoring.[13]",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 175,
+                "gloss": "Standardized script/rubric is the mechanism that blocks trait-driven questioning",
+                "verbatim": "This matters directly for a candidate carrying a subjective label like guardedness or negative affect: freeform interviews give an interviewer room to let an impression of reticence color the whole evaluation, while a standardized script and rubric locks every interviewer to the same job-relevant questions and the same scoring criteria, which is the mechanism that eliminates the conditions producing off-target, trait-driven questioning.[13]",
+                "source_urls": [
+                  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9553626/"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 223,
+                "gloss": "Structured formats reduce the bias channel affecting guarded candidates",
+                "verbatim": "The same research base shows structured formats measurably reduce the bias channel through which a trait like guardedness or low warmth could otherwise contaminate scoring.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 224,
+                "gloss": "Journal of Business and Psychology: bias effect sizes structured vs unstructured",
+                "verbatim": "Meta-analytic research published in the Journal of Business and Psychology found standardized interview formats reduce bias effects by more than half compared to freeform conversation (d = .23 for structured versus d = .59 for unstructured)[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 225,
+                "gloss": "85% bias reduction with panels and blind scoring",
+                "verbatim": "Some research suggests the reduction reaches as high as 85% when structured formats are combined with diverse interview panels and blind scoring[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 226,
+                "gloss": "Three mechanisms behind bias reduction",
+                "verbatim": "Three mechanisms explain why: a higher signal-to-noise ratio (predetermined questions mean every candidate is compared on the same content, rather than whatever a freewheeling conversation happened to surface), reduced cognitive bias (structure interrupts halo effects, confirmation bias, and similarity attraction that a candidate's flat affect or reticence would otherwise trigger), and strict job relevance (every question is built from a job analysis, mapping directly to a required competency rather than to confidence level or tone of voice)[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 227,
+                "gloss": "McGill finding: unstructured interviews favor rapport small talk over evaluation",
+                "verbatim": "Notably, research from McGill University found that interviewers in unstructured settings spend more time on rapport-building small talk than on job-relevant evaluation[13] — precisely the kind of small talk a socially inhibited or introverted candidate is likely to perform poorly at, for reasons having nothing to do with job capability, and which structured formats remove from the evaluation entirely.",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 235,
+                "gloss": "Bias against guarded candidates lives in scoring, not in the interview questions",
+                "verbatim": "The bias risk with a candidate who reads as reticent or guarded almost never lives in the interview questions themselves — it lives in how an interviewer scores the answer.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 258,
+                "gloss": "Meta-analysis: standardized formats cut bias effects by more than half (d=.23 vs .59), up to 85% with panels/blind scoring",
+                "verbatim": "On the bias side specifically, a meta-analysis in the Journal of Business and Psychology found standardized formats reduce bias effects by more than half compared to freeform conversations (d = .23 versus d = .59), with some research suggesting the reduction can reach as high as 85% when structure is combined with diverse panels and blind scoring[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.pin.com/blog/structured-interviews-guide/"
+            ]
+          },
+          {
+            "h3": "The adoption gap: how many companies actually structure their interviews",
+            "evidence": [
+              {
+                "card_id": 176,
+                "gloss": "Over half of candidates report irrelevant interview questions",
+                "verbatim": "The scale of the underlying problem is systemic rather than exceptional: over half of all candidates report having been asked irrelevant questions during an interview.[13]",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 177,
+                "gloss": "53% of US candidates would reject an offer over irrelevant/inappropriate questions",
+                "verbatim": "Separately, 53% of U.S. candidates say being asked inappropriate or irrelevant questions would be enough on its own to make them reject a job offer.[14]",
+                "source_urls": [
+                  "https://www.kellyservices.com/insights/behavioral-interview-questions"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 178,
+                "gloss": "Only about two-thirds of organizations use structured evaluation at all",
+                "verbatim": "Despite this, adoption of structured formats remains inconsistent — the Talent Board's 2024 Candidate Experience Benchmark Research found only about two-thirds of organizations use structured evaluation processes at all.[13]",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 179,
+                "gloss": "Structured processes correlate with 21% and 36% higher fairness ratings, more legally defensible",
+                "verbatim": "Among those that do, the fairness payoff is measurable: structured processes correlate with a 21% higher overall fairness rating and a 36% higher assessment fairness rating from applicants, and structured formats are also described as far more legally defensible than unstructured ones because scoring ties directly back to job analysis rather than to an interviewer's impression.[13]",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 197,
+                "gloss": "Google: structured guides make interviewers feel more prepared; candidates notice",
+                "verbatim": "Google found that interviewers using structured guides reported feeling more prepared and confident in their assessments, and applicants reportedly notice the difference between an organized interviewer and one who is winging it.[13]",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 198,
+                "gloss": "Only ~3% of hiring managers get formal interviewer training",
+                "verbatim": "This training gap is otherwise large: only about 3% of U.S. hiring managers opt into formal interviewer training, and fewer than 10% of employers mandate it, even though a short session on active listening, the STAR framework, and rubric use is reported to produce a noticeable difference in interview quality and outcomes.[14]",
+                "source_urls": [
+                  "https://www.kellyservices.com/insights/behavioral-interview-questions"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 205,
+                "gloss": "Positive interview experience linked to 50% higher 3-year retention",
+                "verbatim": "Beyond validity and legal defensibility, structured process is tied to measurable candidate outcomes: candidates who report a positive, in-depth interview experience are 50% more likely to stay with the company after three years.[14]",
+                "source_urls": [
+                  "https://www.kellyservices.com/insights/behavioral-interview-questions"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 228,
+                "gloss": "Talent Board 2024: only ~two-thirds use structured process, and many nominally",
+                "verbatim": "Despite the evidence, adoption is inconsistent: the Talent Board's 2024 Candidate Experience Benchmark Research found only about two-thirds of organizations use structured evaluation processes at all[13][15], and even among adopters, \"most teams that say they run structured interviews don't\" — many have \"standardized the opening line and improvised everything else,\" which means the bias-reduction and validity findings above apply only when the structure is genuine: identical questions, an anchored rubric, and independent scoring before any group discussion[21].",
+                "source_urls": [
+                  "https://www.hiretruffle.com/blog/structured-interview-questions",
+                  "https://www.pin.com/blog/structured-interviews-guide/",
+                  "https://www.assesscandidates.com/combining-personality-assessments-with-interviews/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 229,
+                "gloss": "Candidate-side fairness ratings for structured processes",
+                "verbatim": "Where the structure is real, the fairness effects are also measurable from the candidate's side: structured processes correlate with a 21% higher overall fairness rating and a 36% higher assessment fairness rating from applicants, compared with ad hoc formats[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 259,
+                "gloss": "Talent Board 2024: only about two-thirds of orgs use structured evaluation",
+                "verbatim": "The Talent Board 2024 Candidate Experience Benchmark Research found only about two-thirds of organizations use structured evaluation at all[13];",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 260,
+                "gloss": "Structured evaluation adopters see 21% and 36% higher fairness ratings",
+                "verbatim": "among those that do, applicants report a 21% higher overall fairness rating and a 36% higher assessment fairness rating[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 261,
+                "gloss": "Formal interviewer training is rare: ~3% opt in, <10% mandated; calibration often the only training",
+                "verbatim": "Formal interviewer training is rarer still — only about 3% of U.S. hiring managers opt into it, and fewer than 10% of employers mandate it[14] — which means the calibration session is often the only training an interviewer receives before being trusted to score a guarded or reserved candidate fairly.",
+                "source_urls": [
+                  "https://www.kellyservices.com/insights/behavioral-interview-questions"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 262,
+                "gloss": "Over half of candidates asked irrelevant questions; 53% would reject offer over it",
+                "verbatim": "Over half of all candidates report having been asked irrelevant questions during an interview, and 53% of U.S. candidates say being asked inappropriate or irrelevant questions would be enough to make them reject an offer outright[13][14].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/",
+                  "https://www.kellyservices.com/insights/behavioral-interview-questions"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 263,
+                "gloss": "Positive interview experience → 50% more likely to stay after three years",
+                "verbatim": "Conversely, candidates who had a positive, in-depth interview experience were 50% more likely to stay with the company after three years[14].",
+                "source_urls": [
+                  "https://www.kellyservices.com/insights/behavioral-interview-questions"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.pin.com/blog/structured-interviews-guide/",
+              "https://www.kellyservices.com/insights/behavioral-interview-questions",
+              "https://www.hiretruffle.com/blog/structured-interview-questions",
+              "https://www.assesscandidates.com/combining-personality-assessments-with-interviews/"
+            ]
+          },
+          {
+            "h3": "Six steps to build a structured, competency-based interview",
+            "evidence": [
+              {
+                "card_id": 180,
+                "gloss": "The six-step build sequence for a structured, competency-based interview",
+                "verbatim": "The reported build sequence for a structured, competency-based interview runs in six steps: job analysis, question writing, anchored rubric construction, interviewer calibration, independent scoring, and a structured debrief.[13]",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 182,
+                "gloss": "Step 1: derive competencies from top 3-5 responsibilities plus performance data",
+                "verbatim": "The recommended approach is to identify the top three to five responsibilities of the specific role and draw competencies directly from those responsibilities plus performance-review data — for example, for a senior account executive: consultative selling, objection handling, pipeline management, cross-functional collaboration, and industry knowledge.[14][13]",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/",
+                  "https://www.kellyservices.com/insights/behavioral-interview-questions"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 230,
+                "gloss": "Implementation sequence for genuine structure",
+                "verbatim": "The implementation sequence that produces a genuinely structured (rather than nominally structured) interview is: job analysis, question writing, anchored rubrics, interviewer calibration, independent scoring, and a structured debrief[13][21].",
+                "source_urls": [
+                  "https://www.hiretruffle.com/blog/structured-interview-questions",
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 231,
+                "gloss": "Recommended questions-per-competency range and fixed anchors",
+                "verbatim": "In practice, structured formats also specify how many questions to use per competency (5–7 questions across roughly five core competencies is one recommended range) and require the anchors to be written before the interview, not adjusted afterward to fit how a candidate performed[21].",
+                "source_urls": [
+                  "https://www.hiretruffle.com/blog/structured-interview-questions"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.pin.com/blog/structured-interviews-guide/",
+              "https://www.kellyservices.com/insights/behavioral-interview-questions",
+              "https://www.hiretruffle.com/blog/structured-interview-questions"
+            ]
+          },
+          {
+            "h3": "Anchoring scores to a behavioral rubric",
+            "evidence": [
+              {
+                "card_id": 189,
+                "gloss": "Rubric replaces subjective impressions with documented behavioral indicators",
+                "verbatim": "A rubric replaces subjective impressions (\"I liked her energy\") with documented, comparable behavioral indicators at each score level.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 190,
+                "gloss": "Rubric score 5 (Exceptional) indicators",
+                "verbatim": "| 5 | Exceptional | Detailed, specific example with measurable outcomes; mastery-level skill; articulates lessons learned |",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 191,
+                "gloss": "Rubric score 4 (Strong) indicators",
+                "verbatim": "| 4 | Strong | Clear, relevant example with positive outcomes; solid competency with minor gaps in depth or specificity |",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 192,
+                "gloss": "Rubric score 3 (Adequate) indicators",
+                "verbatim": "| 3 | Adequate | Relevant example but lacks detail or measurable outcomes; baseline competency without standout performance |",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 193,
+                "gloss": "Rubric score 2 (Below expectations) indicators",
+                "verbatim": "| 2 | Below expectations | Example is vague, off-topic, or shows limited skill; may not explain specific actions or impact |",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 194,
+                "gloss": "Rubric score 1 (Insufficient) indicators",
+                "verbatim": "| 1 | Insufficient | Cannot provide a relevant example, or the example reveals a significant skill gap |",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 195,
+                "gloss": "Anchoring scores to observable behavior structurally excludes trait-based impressions like Type D",
+                "verbatim": "Because every score level is anchored to an observable, job-relevant behavior — a specific example, a measurable outcome, articulated reasoning — rather than to communication style, warmth, or energy, the rubric structurally excludes the kind of impression (reticent, guarded, low-affect delivery) that a personality label like Type D would otherwise invite an interviewer to read into the answer.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 239,
+                "gloss": "Definition of an anchored behavioral rubric (1-5 scale, predetermined)",
+                "verbatim": "An anchored behavioral rubric forces the interviewer to score what the candidate actually said against a predetermined 1–5 scale — for example, defining in advance what a \"2\" answer sounds like versus a \"4\" answer — rather than scoring an overall impression of confidence, warmth, or forthcomingness[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.pin.com/blog/structured-interviews-guide/"
+            ]
+          },
+          {
+            "h3": "Calibration and independent scoring, before the debrief",
+            "evidence": [
+              {
+                "card_id": 196,
+                "gloss": "Step 4: 30-minute panel calibration session before interviews",
+                "verbatim": "A recommended 30-minute calibration session has interviewers walk through each question and discuss what a 2 versus a 4 answer sounds like, practice scoring a mock answer together to check for alignment, and are reminded to score independently before any group debrief.[13]",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 232,
+                "gloss": "Scoring/debrief discipline prevents trait-profile from re-entering",
+                "verbatim": "At the scoring and debrief stage, the same discipline that keeps the interview job-relevant also keeps it from re-introducing the trait-profile problem after the fact.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 233,
+                "gloss": "Independent scores before debrief, using scores not opinions",
+                "verbatim": "Each panelist submits independent scores before the group meets, and the debrief is run \"using scores, not opinions\" — focused on specific scores and documented evidence rather than on whether a candidate \"felt right\" or had \"good energy\"[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 234,
+                "gloss": "Scoring gaps resolved via behavioral anchors, not subjective demeanor read",
+                "verbatim": "A scoring gap between interviewers (for example a 2 and a 4 on the same collaboration question) signals a need to examine what each interviewer actually observed against the behavioral anchor, giving interviewers a shared, evidence-based language for resolving disagreement rather than falling back on a subjective read of demeanor, guardedness, or warmth that could otherwise stand in as a proxy for the trait label[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 237,
+                "gloss": "Most orgs only implement standardized questions, leave rating to private judgment",
+                "verbatim": "Most organizations that believe they run structured interviews have only implemented the first piece — identical questions handed to every interviewer — while leaving the rating procedure to each interviewer's private judgment.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 238,
+                "gloss": "Scoring on vibes makes bias consistent, which looks fair but isn't",
+                "verbatim": "That gap is precisely where a guarded demeanor gets misread as a deficiency: asking everyone the same question but scoring answers on vibes \"has made your bias consistent, which in some ways is worse because now it looks like a fair process from the outside while producing the same gut-feel outcomes\"[12].",
+                "source_urls": [
+                  "https://www.kore1.com/structured-interview-questions/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 240,
+                "gloss": "What a calibration session involves (30 min, mock scoring, independent-scoring reminder)",
+                "verbatim": "Calibration is the training step that makes the rubric usable in practice: a roughly 30-minute session before interviews start, in which the panel walks through each question, discusses what a 2 versus a 4 answer sounds like, practices scoring a mock answer together to check for alignment, and is reminded to score independently before any group debrief[13].",
+                "source_urls": [
+                  "https://www.metaview.ai/resources/blog/interview-rubrics"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 242,
+                "gloss": "In-interview discipline: same questions/order, verbatim notes, immediate scoring",
+                "verbatim": "During the interview itself, the discipline is: ask every candidate the same questions in the same order, take detailed notes on what candidates actually say rather than the interviewer's interpretation of it, and score each answer immediately, before impressions fade or interviewers cross-contaminate each other's scores[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 243,
+                "gloss": "Independent scoring before debrief prevents one interviewer's 'guarded' read from anchoring the panel",
+                "verbatim": "Scoring independently before the group debrief matters specifically for a reserved candidate: it prevents one interviewer's read of \"guarded\" or \"low energy\" from anchoring the rest of the panel's discussion before anyone has looked at the actual evidence.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 244,
+                "gloss": "Independent scoring lets team compare on documented answers, not vibes",
+                "verbatim": "It also lets the team compare candidates on documented answers instead of vibes[13].",
+                "source_urls": [
+                  "https://www.pin.com/blog/structured-interviews-guide/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.pin.com/blog/structured-interviews-guide/",
+              "https://www.kore1.com/structured-interview-questions/"
+            ]
+          },
+          {
+            "h3": "Asking follow-up questions without breaking the rubric",
+            "evidence": [
+              {
+                "card_id": 202,
+                "gloss": "STAR framework used by interviewer as a completeness checklist, not a candidate script",
+                "verbatim": "The interviewer-side tool for evaluating completeness is the STAR framework (Situation, Task, Action, Result), used not as a script for the candidate but as a checklist for the interviewer to judge whether an answer is complete and to know when to keep digging.[14][16]",
+                "source_urls": [
+                  "https://capd.mit.edu/resources/the-star-method-for-behavioral-interviews/",
+                  "https://www.kellyservices.com/insights/behavioral-interview-questions"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 204,
+                "gloss": "Follow-ups stay anchored to competency, not to personality-style impressions",
+                "verbatim": "In both cases the follow-up stays anchored to the competency being tested — the specific actions taken and their outcome — rather than drifting into a general assessment of how forthcoming, warm, or assertive the candidate seemed while answering.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 245,
+                "gloss": "Follow-up questions on thin/hesitant answers are encouraged",
+                "verbatim": "Interviewers are allowed — and should be encouraged — to probe deeper on a thin or hesitant answer with follow-up questions.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 246,
+                "gloss": "Follow-ups must not change the scoring rubric",
+                "verbatim": "The constraint is that follow-ups don't change the rubric the answer is scored against[21].",
+                "source_urls": [
+                  "https://www.hiretruffle.com/blog/structured-interview-questions"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 247,
+                "gloss": "Follow-up evidence is qualitative color / tiebreaker, not the primary score",
+                "verbatim": "A guarded first response that opens up under a well-posed follow-up can still surface the same evidence a more forthcoming candidate volunteered unprompted; the improvised follow-up shows up in the debrief as qualitative color and can break ties between candidates with similar rubric scores, but it doesn't drive the primary score[21].",
+                "source_urls": [
+                  "https://www.hiretruffle.com/blog/structured-interview-questions"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 248,
+                "gloss": "This separation is the direct antidote to penalizing reticence",
+                "verbatim": "That separation is what lets the interview feel conversational rather than robotic while keeping the evaluation methodologically sound — and it's also the direct antidote to penalizing reticence, since the interviewer is required to score the substance surfaced across the full exchange, not the ease with which the candidate volunteered it initially[21].",
+                "source_urls": [
+                  "https://www.hiretruffle.com/blog/structured-interview-questions"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 249,
+                "gloss": "Most common failure mode: no follow-up asked, losing about half the retrievable information",
+                "verbatim": "Notably, the most common interviewer failure mode runs the opposite direction: interviewers read a standardized question off a list, take the first answer, and move on without a single follow-up — which the evidence links to walking away with roughly half the retrievable information and an interview that feels robotic rather than evidentiary[14].",
+                "source_urls": [
+                  "https://www.kellyservices.com/insights/behavioral-interview-questions"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://capd.mit.edu/resources/the-star-method-for-behavioral-interviews/",
+              "https://www.kellyservices.com/insights/behavioral-interview-questions",
+              "https://www.hiretruffle.com/blog/structured-interview-questions"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "What legal risk does using a health-linked construct like Type D in hiring create?",
+        "target_keyword": null,
+        "evidence": [
+          {
+            "card_id": 103,
+            "gloss": "legal scholarship frames four ADA discrimination challenges applicable to personality testing, including unlawful medical inquiry",
+            "verbatim": "Legal scholarship identifies four distinct discrimination challenges that personality tests can face under the ADA, including unlawful medical inquiry, and academic analysis has applied this framework specifically to personality testing in employment[22].",
+            "source_urls": [
+              "https://www.akingump.com/a/web/34509/PDFArtic.pdf"
+            ],
+            "tag": "storm"
+          }
+        ],
+        "internal_links": [],
+        "external_links": [
+          "https://www.akingump.com/a/web/34509/PDFArtic.pdf",
+          "https://adata.org/legal-brief/legal-brief-revisiting-disability-related-inquiries-and-medical-examinations-under-title/",
+          "https://www.jackson-advisory.com/post/are-personality-tests-legal-for-hiring",
+          "https://jaapl.org/content/34/2/255",
+          "https://tilsonhr.com/blog/pros-and-cons-of-personality-tests-in-hiring-process/",
+          "https://onpay.com/insights/questions-employers-can-ask-employees-about-health/",
+          "https://adata.org/employment-resource-hub-pre-employment-interviews-hiring-and-examinations/",
+          "https://www.disabilityrightspa.org/wp-content/uploads/2018/02/DisabilityRelatedInquiriesMedExamsOfAppsEmplsFEB2018.pdf",
+          "https://www.employmentlawworldview.com/counseling-constitutes-an-ada-protected-medical-examination/",
+          "https://www.nbcnews.com/think/opinion/job-hiring-increasingly-relies-personality-tests-they-can-bar-people-ncna1259466",
+          "https://www.ada.gov/resources/ai-guidance/",
+          "https://www.shipmangoodwin.com/insights/beware-the-legal-risks-of-personality-tests-in-hiring.html",
+          "http://www.adalawproject.org/summary-of-the-adaaa",
+          "https://adata.org/legal-brief/regarded-as-having/",
+          "https://www.mdpi.com/2227-9032/14/14/2199",
+          "https://www.hiringtofiring.law/2018/04/10/legal-implications-employee-personality-testing/",
+          "https://hrdailyadvisor.hci.org/2019/02/19/job-interview-personality-tests-do-they-pass-or-fail-legal-scrutiny/"
+        ],
+        "h3": [
+          {
+            "h3": "Where does a Type D-based test cross the ADA medical-examination line?",
+            "evidence": [
+              {
+                "card_id": 81,
+                "gloss": "Using a health-linked construct like Type D in hiring risks ADA exposure",
+                "verbatim": "Because Type D is a health-linked construct, importing it into hiring risks crossing into ADA-protected territory.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 82,
+                "gloss": "ADA bars pre-offer health/disability inquiries and defines prohibited medical examinations, naming heart disease as a protected invisible disability",
+                "verbatim": "The ADA generally bars employers from asking about health conditions or disabilities before a conditional offer, and defines a prohibited \"medical examination\" partly by whether the test is designed to reveal \"an impairment or physical or mental health,\" is administered in a medical-like setting, or measures physiological responses — with \"invisible disabilities such as epilepsy, heart disease and mental illness\" specifically named as the kind of impairment Congress worried would be screened out this way[17].",
+                "source_urls": [
+                  "https://www.eeoc.gov/laws/guidance/enforcement-guidance-preemployment-disability-related-questions-and-medical"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 83,
+                "gloss": "A DS14-based test, rooted entirely in CVD risk, sits close to the ADA medical-examination line",
+                "verbatim": "A test built on the DS14, an instrument whose entire evidentiary base is cardiovascular disease risk, sits close to that line.",
+                "source_urls": [
+                  "https://www.psytoolkit.org/survey-library/personality-d.html"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 99,
+                "gloss": "Type D's clinical/medical nature creates legal exposure beyond typical personality hiring tests",
+                "verbatim": "Type D also sits closer to a clinical or medical inquiry than a conventional personality trait, which raises a distinct legal exposure that generic hiring-personality tests don't always carry to the same degree.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 100,
+                "gloss": "ADA restricts disability-revealing psychological tests to after a conditional job offer",
+                "verbatim": "Psychological tests that probe mental health, personality disorders, or emotional stability fall under ADA scrutiny: if a psychological test could reveal a disability, employers usually must wait until after a conditional job offer and then route any disability issues through accommodation rules rather than screening on them pre-offer[18].",
+                "source_urls": [
+                  "https://www.jackson-advisory.com/post/are-personality-tests-legal-for-hiring"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 101,
+                "gloss": "ADA's mental impairment definition covers emotional/mental illness; pre-offer questions limited to job-function ability",
+                "verbatim": "The ADA's definition of mental impairment explicitly includes \"emotional or mental illness,\" and before a genuine job offer an employer may ask only about a candidate's ability to perform job-related functions, not about the presence or severity of a disability[21].",
+                "source_urls": [
+                  "https://www.eeoc.gov/laws/guidance/enforcement-guidance-preemployment-disability-related-questions-and-medical"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 102,
+                "gloss": "negative affectivity overlaps with mood/emotional-stability constructs, risking ADA discrimination claims (e.g., bipolar, depression)",
+                "verbatim": "Negative affectivity, the core component of Type D, overlaps conceptually with mood and emotional-stability constructs that trigger this same scrutiny — commentators specifically flag that test questions about mood changes over the course of a day could discriminate against individuals with conditions like bipolar disorder or depression, opening the door to lawsuits under the ADA[16].",
+                "source_urls": [
+                  "https://tilsonhr.com/blog/pros-and-cons-of-personality-tests-in-hiring-process/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 139,
+                "gloss": "ADA pre-offer restrictions target using demeanor traits as a stand-in for a health condition",
+                "verbatim": "The ADA's pre-offer restrictions were written specifically to stop what a \"Type D\" label risks doing in practice: treating a candidate's reticence, guardedness, or flat affect as a stand-in for a health condition.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 140,
+                "gloss": "ADA pre-offer stage bars disability-related inquiries, defined broadly",
+                "verbatim": "During the pre-offer stage, the ADA prohibits employers from asking about the existence, nature, or severity of a disabling condition, and it defines a \"disability-related inquiry\" broadly as any question \"likely to elicit information about a disability\"[1][2].",
+                "source_urls": [
+                  "https://onpay.com/insights/questions-employers-can-ask-employees-about-health/",
+                  "https://adata.org/employment-resource-hub-pre-employment-interviews-hiring-and-examinations/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 141,
+                "gloss": "Prohibition covers indirect questions too, not just direct diagnosis questions",
+                "verbatim": "That prohibition covers not just direct questions about diagnoses but indirect ones — questions about symptoms, treatment, or a candidate's general disposition that would tend to surface impairment information[3][1].",
+                "source_urls": [
+                  "https://onpay.com/insights/questions-employers-can-ask-employees-about-health/",
+                  "https://www.disabilityrightspa.org/wp-content/uploads/2018/02/DisabilityRelatedInquiriesMedExamsOfAppsEmplsFEB2018.pdf"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 142,
+                "gloss": "EEOC distinguishes medical examinations from lawful non-medical inquiries for personality instruments",
+                "verbatim": "EEOC guidance draws the line for personality-style instruments directly: a \"medical examination\" is a procedure that seeks information about physical or mental impairments, while a lawful, non-medical inquiry does not[4][5].",
+                "source_urls": [
+                  "https://www.employmentlawworldview.com/counseling-constitutes-an-ada-protected-medical-examination/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 143,
+                "gloss": "EEOC: tests for mental disorders are medical exams, tests for honesty/preferences/habits are not",
+                "verbatim": "On that line, the EEOC has stated explicitly that \"psychological tests that are designed to identify a mental disorder or impairment\" are medical examinations, whereas \"psychological tests that measure personality traits such as honesty, preferences, and habits\" are not[5].",
+                "source_urls": [
+                  "https://www.employmentlawworldview.com/counseling-constitutes-an-ada-protected-medical-examination/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 144,
+                "gloss": "Type D was built as a health-psychology construct, not a workplace personality instrument, putting it near the medical-exam line",
+                "verbatim": "A Type D-style label sits uncomfortably close to the wrong side of that distinction, because Type D was never developed as a workplace personality-traits instrument — it is a health-psychology construct built to flag cardiovascular and psychological risk, which is exactly the \"impairment or health\" territory the EEOC's medical-examination definition targets[4].",
+                "source_urls": [],
+                "tag": "storm",
+                "needs_source": true
+              },
+              {
+                "card_id": 145,
+                "gloss": "Case law shows an interview practice can cross the medical-exam line without a direct medical question",
+                "verbatim": "Case law shows how easily an interview practice can cross that line even without asking a direct medical question.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 146,
+                "gloss": "Kroll v. White Lake Ambulance Authority: mandated counseling tied to mental health issues can be a medical examination",
+                "verbatim": "In *Kroll v. White Lake Ambulance Authority*, the Sixth Circuit held that requiring an employee to attend counseling could constitute a \"medical examination\" under the ADA once the record showed the request was tied to \"issues related to mental health,\" even though no one used clinical language in the original request[5].",
+                "source_urls": [
+                  "https://www.employmentlawworldview.com/counseling-constitutes-an-ada-protected-medical-examination/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 147,
+                "gloss": "Labeling a candidate guarded/distressed/inhibited and acting on it can be read like the Kroll counseling referral",
+                "verbatim": "The lesson for a hiring manager translates directly: characterizing a candidate as guarded, distressed, or socially inhibited — and then acting on that characterization — can be read the same way a court read the counseling referral in *Kroll*, as evidence that the employer was responding to a perceived mental-health or psychological profile rather than to job-relevant conduct[5].",
+                "source_urls": [
+                  "https://www.employmentlawworldview.com/counseling-constitutes-an-ada-protected-medical-examination/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://adata.org/legal-brief/legal-brief-revisiting-disability-related-inquiries-and-medical-examinations-under-title/",
+              "https://www.jackson-advisory.com/post/are-personality-tests-legal-for-hiring",
+              "https://jaapl.org/content/34/2/255",
+              "https://tilsonhr.com/blog/pros-and-cons-of-personality-tests-in-hiring-process/",
+              "https://onpay.com/insights/questions-employers-can-ask-employees-about-health/",
+              "https://adata.org/employment-resource-hub-pre-employment-interviews-hiring-and-examinations/",
+              "https://www.disabilityrightspa.org/wp-content/uploads/2018/02/DisabilityRelatedInquiriesMedExamsOfAppsEmplsFEB2018.pdf",
+              "https://www.employmentlawworldview.com/counseling-constitutes-an-ada-protected-medical-examination/"
+            ]
+          },
+          {
+            "h3": "Does the test meet ADA/Title VII job-relatedness and validation standards?",
+            "evidence": [
+              {
+                "card_id": 84,
+                "gloss": "Compliance guidance requires demonstrated job-relatedness and a clear trait-to-task link for personality tests",
+                "verbatim": "Compliance guidance for personality testing generally requires demonstrated job-relatedness and validation: \"Show that a pre-employment personality test measures traits that matter for the specific job. Courts look for a clear link between test traits and job tasks\"[18].",
+                "source_urls": [
+                  "https://www.criteriacorp.com/resources/definitive-guide-validity-of-preemployment-tests/what-are-the-legal-issues-relating-pre"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 85,
+                "gloss": "None of the collected evidence establishes a job-task link for Type D",
+                "verbatim": "None of the systematic-review evidence collected here establishes that link for Type D — its validated links run to coronary disease and suicidal distress, not job tasks.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 86,
+                "gloss": "Compliance framework bars disparate-impact screening, age-referenced scoring, and restricts disability-revealing tests to post-offer stage",
+                "verbatim": "The same framework requires that any test not disproportionately screen out a protected group \"unless the test is proven valid for the job,\" bars age-referenced scoring under the ADEA absent proven job relevance, and treats psychological tests capable of revealing a disability as generally restricted to the post-offer stage, triggering accommodation obligations from that point on[18].",
+                "source_urls": [
+                  "https://www.jackson-advisory.com/post/are-personality-tests-legal-for-hiring"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 87,
+                "gloss": "Unvalidated psychological screening tools risk excluding people with disabilities on attributes unrelated to job performance",
+                "verbatim": "More broadly, screening tools built on unvalidated psychological attributes \"run the risk of leaving people with disabilities out in the cold, screening them for attributes that have nothing to do with how they would perform their jobs\"[19]",
+                "source_urls": [
+                  "https://www.nbcnews.com/think/opinion/job-hiring-increasingly-relies-personality-tests-they-can-bar-people-ncna1259466"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 88,
+                "gloss": "Risk is amplified by scale: most large companies already use personality/aptitude tests in hiring",
+                "verbatim": "a risk compounded by scale, since more than 75 percent of large companies already use aptitude and personality assessment tools in hiring[19].",
+                "source_urls": [
+                  "https://www.nbcnews.com/think/opinion/job-hiring-increasingly-relies-personality-tests-they-can-bar-people-ncna1259466"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 104,
+                "gloss": "employers must ensure hiring tools don't unfairly screen out disabled candidates and meet business-necessity standard",
+                "verbatim": "Employers using hiring technologies are also obligated to evaluate whether those tools unfairly screen out qualified individuals with disabilities, and to show that any qualification standard is job-related and consistent with business necessity[23].",
+                "source_urls": [
+                  "https://www.ada.gov/resources/ai-guidance/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 264,
+                "gloss": "Legal dimension: consistent, multi-method, regularly validated assessment procedures expected",
+                "verbatim": "Consistent, job-relevant administration also carries a legal dimension beyond fairness optics: employers are expected to use multiple methods of assessment rather than a single test as the sole basis for a decision, to administer procedures fairly and consistently — same instructions, same time limits, same conditions for every applicant — and to regularly validate that their procedures are still job-related and non-discriminatory[9].",
+                "source_urls": [
+                  "https://www.shipmangoodwin.com/insights/beware-the-legal-risks-of-personality-tests-in-hiring.html"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.jackson-advisory.com/post/are-personality-tests-legal-for-hiring",
+              "https://www.nbcnews.com/think/opinion/job-hiring-increasingly-relies-personality-tests-they-can-bar-people-ncna1259466",
+              "https://www.ada.gov/resources/ai-guidance/",
+              "https://www.shipmangoodwin.com/insights/beware-the-legal-risks-of-personality-tests-in-hiring.html"
+            ]
+          },
+          {
+            "h3": "Does labeling a candidate 'Type D' expose employers to a regarded-as disability claim?",
+            "evidence": [
+              {
+                "card_id": 148,
+                "gloss": "The ADAAA 'regarded as' prong adds further risk",
+                "verbatim": "The ADA Amendments Act's \"regarded as\" prong compounds this risk.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 149,
+                "gloss": "Since 2008, coverage under 'regarded as' only requires a perceived impairment that isn't transitory and minor (over six months), not substantial limitation",
+                "verbatim": "Since 2008, an individual is covered under the ADA if the employer takes a prohibited action \"because of an actual or perceived physical or mental impairment,\" and the individual does not have to show that the impairment substantially limits a major life activity — only that it is not \"transitory and minor,\" meaning an expected duration longer than six months[6][7].",
+                "source_urls": [
+                  "http://www.adalawproject.org/summary-of-the-adaaa",
+                  "https://adata.org/legal-brief/regarded-as-having/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 150,
+                "gloss": "Type D as a stable clinical trait profile exposes a hiring manager who declines a candidate on that basis to a 'regarded as' claim",
+                "verbatim": "Because Type D personality is itself defined in the clinical literature as a stable trait profile studied for its association with cardiovascular disease and other health outcomes[8], a hiring manager who declines to advance a candidate after perceiving that profile is exposed to a \"regarded as\" claim: the focus of that prong is not whether the candidate actually has an impairment, but whether the adverse action was taken because of a perceived one, and no showing of \"substantial limitation\" is required to establish coverage[6][7].",
+                "source_urls": [
+                  "https://www.mdpi.com/2227-9032/14/14/2199",
+                  "http://www.adalawproject.org/summary-of-the-adaaa",
+                  "https://adata.org/legal-brief/regarded-as-having/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 151,
+                "gloss": "EEOC guidance confirms the 'regarded as' prong applies to perceived non-transitory-minor impairments, matching a 'distressed personality' label",
+                "verbatim": "The EEOC's own guidance confirms the prong applies \"when a covered entity takes an action prohibited by the ADA because of an actual or perceived impairment that is not both transitory and minor\"[7] — a description that fits a \"distressed personality\" label more closely than it fits an assessment of job-relevant conduct.",
+                "source_urls": [
+                  "https://adata.org/legal-brief/regarded-as-having/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 152,
+                "gloss": "Disparate-impact exposure exists alongside the regarded-as risk",
+                "verbatim": "Disparate-impact exposure runs alongside this.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 153,
+                "gloss": "Invisible conditions have historically been screened out via subjective, non-job-related hiring assessments",
+                "verbatim": "EEOC guidance recognizes that invisible conditions — epilepsy, heart disease, and mental illness among them — have historically been the conditions screened out through subjective, non-job-related assessments during hiring[4].",
+                "source_urls": [],
+                "tag": "storm",
+                "needs_source": true
+              },
+              {
+                "card_id": 154,
+                "gloss": "Type D's negative-affectivity/social-inhibition traits overlap with ASD and PTSD presentation, risking screens becoming interview barriers",
+                "verbatim": "Traits associated with Type D's negative-affectivity-and-social-inhibition profile (reticence, low positive affect, discomfort with unfamiliar people) overlap with the presentation of Autism Spectrum Disorder and Post-Traumatic Stress Disorder, and the source material notes these personality-style screens can become \"barriers to initial employment interviews\" for candidates with exactly those conditions[4].",
+                "source_urls": [],
+                "tag": "storm",
+                "needs_source": true
+              },
+              {
+                "card_id": 155,
+                "gloss": "76% of large companies use personality testing, placing Type D-adjacent reads in a widely litigated space",
+                "verbatim": "Separately, roughly 76% of companies with more than 100 employees report using some form of personality testing[4], meaning any employer relying on a Type D-adjacent read of a candidate is operating in a widely used but heavily litigated space:",
+                "source_urls": [
+                  "https://hbr.org/2015/07/ace-the-assessment"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 156,
+                "gloss": "EEOC's 2018 Best Buy settlement over personality assessments' racial/national-origin impact, building on 2007 EEOC validation fact sheet",
+                "verbatim": "EEOC's 2018 settlement with Best Buy addressed allegations that its personality assessments during the application process adversely affected applicants by race and national origin, building on a 2007 EEOC fact sheet warning that employment tests must be job-related, consistent with business necessity, validated in advance, and applied through multiple selection procedures rather than a single instrument[9].",
+                "source_urls": [
+                  "https://www.shipmangoodwin.com/insights/beware-the-legal-risks-of-personality-tests-in-hiring.html"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 157,
+                "gloss": "Personality-fit hiring is legal, but not when it proxies a protected class or impairment; tests must be job-related and validated under Title VII/ADA/ADEA",
+                "verbatim": "Personality itself is not a protected trait, and courts have accepted that an employer can decline to hire based on legitimate personality-fit concerns[10] — but that protection collapses if the trait being screened functions as a proxy for a protected class or a perceived impairment, and Title VII, the ADA, and the ADEA all require any test used in hiring to be job-related, professionally validated, and administered without adjusted cutoffs or scores tied to protected status[10].",
+                "source_urls": [
+                  "https://www.hiringtofiring.law/2018/04/10/legal-implications-employee-personality-testing/"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "http://www.adalawproject.org/summary-of-the-adaaa",
+              "https://adata.org/legal-brief/regarded-as-having/",
+              "https://www.mdpi.com/2227-9032/14/14/2199",
+              "https://adata.org/legal-brief/legal-brief-revisiting-disability-related-inquiries-and-medical-examinations-under-title/",
+              "https://www.shipmangoodwin.com/insights/beware-the-legal-risks-of-personality-tests-in-hiring.html",
+              "https://www.hiringtofiring.law/2018/04/10/legal-implications-employee-personality-testing/"
+            ]
+          },
+          {
+            "h3": "Does health-linked personality labeling add privacy-law exposure on top of ADA risk?",
+            "evidence": [
+              {
+                "card_id": 158,
+                "gloss": "Privacy law adds a further exposure layer for health-linked psychological labeling",
+                "verbatim": "Privacy law adds a further layer of exposure specific to labeling a candidate with a health-linked psychological profile.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 159,
+                "gloss": "Applicants have sued over intrusive personality-test questions or unmaintained confidentiality, against public and private employers",
+                "verbatim": "Applicants have brought claims — against public employers under constitutional privacy protections and against private employers under state law — where personality-test questions were considered too intrusive or where confidentiality of the results was not maintained[11].",
+                "source_urls": [
+                  "https://www.hiringtofiring.law/2018/04/10/legal-implications-employee-personality-testing/"
+                ],
+                "tag": "storm",
+                "source_fixed": true
+              },
+              {
+                "card_id": 160,
+                "gloss": "Massachusetts law specifically bars testing that renders an opinion on an applicant's mental illness",
+                "verbatim": "At least one state statute goes further: Massachusetts law prohibits testing that renders an opinion on a job applicant's mental illness[10].",
+                "source_urls": [
+                  "https://www.hiringtofiring.law/2018/04/10/legal-implications-employee-personality-testing/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 161,
+                "gloss": "Applying the Type D label informally from interview demeanor risks being seen as rendering a mental-illness opinion",
+                "verbatim": "Because Type D is explicitly a \"distressed personality\" construct originating in clinical cardiovascular research rather than an employment-validated instrument, applying that label to a candidate — even informally, based on interview demeanor — risks being characterized as rendering exactly that kind of opinion.",
+                "source_urls": [],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://hrdailyadvisor.hci.org/2019/02/19/job-interview-personality-tests-do-they-pass-or-fail-legal-scrutiny/",
+              "https://www.hiringtofiring.law/2018/04/10/legal-implications-employee-personality-testing/"
+            ]
+          }
+        ]
+      }
+    ],
+    "gaps_to_own": [
+      "Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label",
+      "Clear distinction between Type D personality research and workplace personality typing",
+      "Complete management tactics for a Type D candidate or employee",
+      "A concrete candidate scenario that shows how managers should respond in interviews, onboarding, feedback, and team settings",
+      "Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits"
+    ],
+    "winners_common_h2s": [
+      "What Type D personality is",
+      "Core Type D traits",
+      "Health concerns",
+      "Type D at work",
+      "Treatment or management of Type D traits"
+    ],
+    "winners_drift": [
+      "Healthline pivots into cardiology and patient self-care; Thomas pivots into HR candidate and employee handling"
+    ],
+    "paa_pool": [
+      "What is a type D person like?",
+      "What is type C and type D personality?",
+      "What are the 4 types of personality?",
+      "What is the best job for a type D personality?",
+      "What are type A, B, C, D personalities?"
+    ],
+    "related_searches": [
+      "Type D personality jobs",
+      "Type d personality traits",
+      "Type d personality test",
+      "Type D personality traits female",
+      "Type D personality disorder"
+    ]
+  }
+}

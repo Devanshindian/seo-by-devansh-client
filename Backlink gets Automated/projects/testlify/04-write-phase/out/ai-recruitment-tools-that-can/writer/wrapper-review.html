@@ -1,0 +1,124 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The wrapper</title><style>
+:root{--ink:#1c1a17;--mut:#6b6459;--line:#efe7d8;--bg:#fffdf8;--card:#fff;--wash:#fff8ec;
+      --acc:#fb7a00;--acc-soft:#ffd9b0;--yellow:#ffb703;--yellow-soft:#ffe9ad;
+      --ok:#2e7d43;--ok-bg:#e8f5ec;--no:#c2603a;--no-bg:#fdf3f0;--warn:#9a6700;--chip:#fff8ec;
+      --shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+     font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:40px 24px 120px}
+h1{font-size:clamp(26px,4vw,34px);margin:0 0 4px;letter-spacing:-.02em}
+h1 .hl,h1{background:linear-gradient(180deg,transparent 68%,var(--yellow-soft) 68%);display:inline}
+.sub{color:var(--mut);margin:10px 0 28px;display:block}
+h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);
+   margin:36px 0 10px;border-bottom:1px solid var(--line);padding-bottom:7px;font-weight:700}
+/* A failed check has to be findable at a glance in a table of green ticks. */
+tr.bad td{background:var(--pinkwash)}
+tr.bad td:first-child{color:var(--pink);font-weight:700}
+.panel.bad{border-color:var(--pinkline);background:var(--pinkwash)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;
+       margin:0 0 14px;box-shadow:var(--shadow)}
+.nums{display:flex;gap:28px;flex-wrap:wrap;background:linear-gradient(180deg,var(--wash),var(--card));
+      border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin:0 0 10px;box-shadow:var(--shadow)}
+.nums b{font-size:1.55em;display:block;color:var(--ink)}
+ins{background:var(--ok-bg);color:var(--ok);text-decoration:none;border-radius:2px;padding:0 2px}
+del{background:var(--no-bg);color:var(--no);border-radius:2px;padding:0 2px}
+details.diff{border:1px solid var(--line);border-radius:10px;padding:9px 13px;margin:8px 0;background:var(--card)}
+details.diff summary{font-weight:600;cursor:pointer;line-height:1.9}
+details.diff[open] summary{margin-bottom:6px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.dbody{margin-top:6px;font-size:.94em;line-height:1.75}
+.subh{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--acc);
+      font-weight:700;margin:14px 0 4px}
+code{background:var(--wash);border:1px solid var(--line);border-radius:4px;padding:1px 5px;font-size:.86em}
+.kwlist{margin:.3em 0;padding-left:1.3em}
+.kwlist li{margin:.35em 0}
+.map{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 30px;align-items:start}
+.mcol{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:9px 9px 11px;
+      box-shadow:var(--shadow);min-width:0}
+.mh{font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--acc);font-weight:700;
+    padding:2px 5px 7px}
+.mnote{font-size:11.5px;color:var(--warn);background:var(--wash);border:1px dashed var(--acc-soft);
+       border-radius:7px;padding:5px 8px;margin:0 3px 6px;line-height:1.45}
+.lead{color:var(--mut);font-size:.93em;margin:0 0 22px;line-height:1.6}
+.mstep{display:block;text-decoration:none;color:var(--ink);border-radius:8px;padding:5px 8px;
+       border:1px solid transparent}
+.mstep b{display:block;font-size:13.5px;font-weight:700;line-height:1.35}
+.mstep span{display:block;font-size:12.5px;color:var(--mut);line-height:1.45}
+.mstep i{display:block;font-style:normal;font-size:11px;color:var(--mut);opacity:.7;margin-top:1px}
+a.mstep:hover{background:var(--wash);border-color:var(--acc-soft)}
+a.mstep:hover b{color:var(--acc)}
+.mstep.on{background:var(--acc);border-color:var(--acc)}
+.mstep.on b,.mstep.on span{color:#fff}
+.mstep.on span{opacity:.9}
+.mstep.none{opacity:.5}
+@media(max-width:820px){.map{grid-template-columns:1fr}}
+.nums span{color:var(--mut);font-size:.8em}
+.row{padding:10px 2px;border-top:1px dashed var(--line)}
+.row:first-of-type{border-top:0}
+.row .t{font-weight:650}
+.row .m{color:var(--mut);font-size:.88em}
+.reason{margin-top:2px;font-size:.92em}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:100px;
+      padding:1px 9px;font-size:.76em;color:var(--mut);margin-left:6px;vertical-align:middle}
+.tag{display:inline-block;background:var(--yellow-soft);border-radius:100px;padding:1px 9px;font-size:.8em;
+     margin:2px 4px 2px 0;cursor:help;color:var(--ink)}
+.ok{color:var(--ok)}.no{color:var(--no)}.warn{color:var(--warn)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:700px){.grid2{grid-template-columns:1fr}}
+.bar{height:9px;background:var(--wash);border:1px solid var(--line);border-radius:5px;overflow:hidden;margin-top:3px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--yellow),var(--acc))}
+ul{margin:.3em 0;padding-left:1.3em}
+li{margin:.18em 0}
+a{color:var(--acc);overflow-wrap:anywhere}
+details{margin:6px 0}
+summary{cursor:pointer}
+.spine{font-size:1.12em;line-height:1.65;background:var(--wash);border:1px solid var(--acc-soft);
+       border-left:4px solid var(--acc);border-radius:12px;padding:18px 20px;margin:0 0 20px}
+.job{font-style:italic;color:var(--mut);margin:2px 0 6px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+.filters button{background:var(--card);border:1px solid var(--line);color:var(--ink);border-radius:100px;
+                padding:5px 13px;cursor:pointer;font-size:.85em;font-weight:600}
+.filters button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.q{color:var(--mut);font-size:.85em}
+.where{background:var(--wash);border:1px solid var(--acc-soft);border-radius:12px;padding:14px 18px;margin:0 0 22px}
+.where ol{margin:6px 0 0;padding-left:20px}
+.where li{margin:.2em 0;color:var(--mut)}
+.where li.now{color:var(--ink);font-weight:650}
+.where .lead{font-size:.9em;color:var(--mut)}
+.note{color:var(--mut);font-size:.88em;margin:-4px 0 10px}
+.from{color:var(--mut);font-size:.88em}
+.from b{color:var(--ink);font-weight:650}
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 24px}
+.nav a{background:var(--card);border:1px solid var(--line);border-radius:100px;padding:5px 13px;
+       font-size:.85em;font-weight:600;text-decoration:none;color:var(--ink)}
+.nav a.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.lede{font-size:1.06em;line-height:1.66;margin:0 0 22px;color:var(--ink)}
+.oneline{background:var(--wash);border:1px solid var(--acc-soft);border-left:4px solid var(--acc);
+         border-radius:12px;padding:16px 20px;margin:0 0 26px;line-height:1.7}
+.oneline b{white-space:nowrap}
+.stn{display:flex;align-items:baseline;gap:10px;margin:26px 0 8px}
+.stn .name{font-size:1.06em;font-weight:700}
+.stn .does{color:var(--mut);font-size:.9em}
+.step{display:grid;grid-template-columns:30px 1fr;gap:2px 10px;padding:9px 2px;
+      border-top:1px dashed var(--line)}
+.step:first-child{border-top:0}
+.step .no{color:var(--acc);font-weight:700;font-variant-numeric:tabular-nums;font-size:.92em}
+.step .nm{font-weight:650}
+.step .dsc{grid-column:2;color:var(--mut);font-size:.9em}
+.step .see{grid-column:2;font-size:.84em;margin-top:2px}
+.b{display:inline-block;border-radius:100px;padding:0 8px;font-size:.7em;font-weight:700;
+   letter-spacing:.03em;vertical-align:middle;margin-left:6px;border:1px solid var(--line);
+   background:var(--chip);color:var(--mut);text-transform:uppercase}
+.b.ai{background:var(--yellow-soft);border-color:#f2d98d;color:#6a4a00}
+.b.paid{background:var(--no-bg);border-color:#f0d3c8;color:var(--no)}
+.b.code{background:var(--ok-bg);border-color:#cfe6d6;color:var(--ok)}
+.pg{padding:14px 2px;border-top:1px dashed var(--line)}
+.pg:first-child{border-top:0}
+.pg .t{font-weight:700;font-size:1.02em}
+.pg .ask{color:var(--mut);font-size:.9em;margin-top:1px}
+.pg .cov{font-size:.84em;margin-top:5px;color:var(--mut)}
+.pg .look{font-size:.88em;margin-top:4px}
+.key{display:flex;gap:16px;flex-wrap:wrap;font-size:.84em;color:var(--mut);margin:0 0 14px}
+</style></head><body><div class="wrap"><h1>The wrapper</h1><p class="sub">ai-recruitment-tools-that-can — the intro, the FAQ and the close</p><div class="map"><div class="mcol"><div class="mh">1 · Planner</div><a class="mstep" href="../gather/gather-review.html" target="_blank"><b>gather</b><span>Collects everything the research phase produced.</span></a><a class="mstep" href="../planner/selection-review.html" target="_blank"><b>select</b><span>Keeps the sub-topics that earn a place, and drops the rest.</span></a><a class="mstep" href="../planner/sources-review.html" target="_blank"><b>verify-sources</b><span>Opens the page behind every statistic to check the number is really there.</span></a><span class="mstep none"><b>freeze</b><span>Locks the plan so no later step can quietly change it.</span><i>no page — nothing here to overrule</i></span><span class="mstep none"><b>plan-view</b><span>Writes the locked plan out in plain English.</span><i>no page — nothing here to overrule</i></span></div><div class="mcol"><div class="mh">2 · Architect</div><div class="mnote">All 6 open the one <b>Blueprint</b> page, each at its own section.</div><a class="mstep" href="../architect/blueprint-review.html#sections" target="_blank"><b>shape</b><span>Designs the sections and the order they come in.</span></a><a class="mstep" href="../architect/blueprint-review.html#research" target="_blank"><b>enrich</b><span>Runs the extra research the structure asked for.</span></a><a class="mstep" href="../architect/blueprint-review.html" target="_blank"><b>brand-cards</b><span>Turns the company&#x27;s own research and results into facts the article can cite.</span></a><a class="mstep" href="../architect/blueprint-review.html#sections" target="_blank"><b>allocate</b><span>Gives every section a word budget.</span></a><a class="mstep" href="../architect/blueprint-review.html#keywords" target="_blank"><b>section-keywords</b><span>Buys a real search keyword for the sections that deserve one.</span></a><a class="mstep" href="../architect/blueprint-review.html#headings" target="_blank"><b>headings</b><span>Writes the final wording of every heading, and the H1.</span></a></div><div class="mcol"><div class="mh">3 · Writer</div><a class="mstep" href="../writer/body-review.html" target="_blank"><b>write-body</b><span>Writes every section at once, none able to see the others.</span></a><a class="mstep" href="../writer/editor-review.html" target="_blank"><b>blend</b><span>Reads the whole article and cuts what did not earn its place.</span></a><a class="mstep on" href="../writer/wrapper-review.html" target="_blank"><b>wrapper</b><span>Writes the intro on PAS, the FAQ, and the close.</span></a><a class="mstep" href="../writer/coherence-review.html" target="_blank"><b>coherence</b><span>Reads the whole article at once and fixes what contradicts itself.</span></a><a class="mstep" href="../writer/readable-review.html" target="_blank"><b>readable</b><span>Rewrites the whole article so a person wants to read it.</span></a><a class="mstep" href="../writer/sentence-review.html" target="_blank"><b>sentences</b><span>Re-shapes the sentences so a reader gets through them.</span></a><a class="mstep" href="../writer/slop-review.html" target="_blank"><b>slop</b><span>Strips the AI writing tells.</span></a><a class="mstep" href="../writer/links-review.html" target="_blank"><b>links</b><span>Lays in the internal and external links.</span></a><a class="mstep" href="../writer/clean-review.html" target="_blank"><b>clean</b><span>Fixes odd characters and spacing. No AI.</span></a><a class="mstep" href="../writer/article.html" target="_blank"><b>assemble</b><span>Builds the finished draft and the page you review it on.</span></a></div></div><div class="panel"><p><b>Want to just read it?</b> <a href="reads/wrapper.html">Open the article as it stands after wrapper</a> — no highlights, no panels, the way a reader would see it. <a href="reads/index.html">Every step</a>.</p></div><p class="lead">The article has a middle but no beginning and no end. This step writes the four things around it: the opening, the Quick answer, the FAQ, and the closing. The Quick answer is the whole piece in 60 to 110 words, for the reader who reads nothing else — it has to ANSWER, not list takeaways. The opening follows problem, agitate, solution, and the solution is the article&#x27;s own answer, never the product. The FAQ takes real searched questions first, and it is allowed to answer things the article does not cover, because a question the article already answers under a heading is a wasted slot. Adding an opening and a closing creates two new seams, so it may also repair those two joins and nothing else.</p><div class="nums"><div><b>100</b><span>intro words</span></div><div><b>103</b><span>quick answer words</span></div><div><b>4</b><span>FAQ questions</span></div><div><b>0</b><span>answers over 40 words</span></div><div><b>99</b><span>close words</span></div><div><b>1</b><span>touch-ups applied</span></div><div><b>0</b><span>invented source tags removed</span></div></div><p class="note"><b>How to read this.</b> The H1 and opening, then every FAQ question (click one for its answer), then the closing, then any seam it repaired. In a seam repair, <del>red</del> is what it removed and <ins>green</ins> is what it added.</p><p class="note"><b>The FAQ badges.</b> <b>From real searches</b> means the question came from what people type into Google; <b>the editor found this one</b> means it wrote the question itself. The word count is the one to watch: an FAQ answer is what a search engine lifts and shows on its own, so it should be under 40 words. <b>Check N figures from outside the article</b> is not a fault, it is a spot-check: the FAQ may answer past the article, so those figures came from the model rather than a sourced card.</p><h2>The H1 and the intro</h2><div class="panel"><div class="row"><span class="t">H1</span><div><b>AI Recruitment Tools That Can Survive a Bias Audit</b></div></div><div class="row"><span class="t">intro</span><div>Ask a vendor for the bias audit behind their AI recruitment tools, and you will usually get a responsible-AI web page. That page is not evidence a regulator will accept. When a hiring tool selects one group at a much lower rate, the employer answers for it, not the vendor. In New York City, running one unaudited tool for a month carries roughly $15,000 to $45,000 in penalties.
+
+The tools you can defend are the ones an outside auditor has tested and published. Judged that way, four of the five best-known tools leave a blank where the numbers should be.</div></div><div class="row"><span class="t">quick answer</span><div>Judge an AI recruiting tool on published audit evidence, not on a fairness claim. The record you need names an independent auditor and states the method it used. It reports selection rates by sex, by race, and by the two combined. The bar is one number: a group selected at under 80% of the top group&#x27;s rate signals adverse impact. Measured that way, only Eightfold AI publishes a summary a regulator could read end to end. HireVue gates its audits, Workday publishes none, and Testlify posts a page with no impact ratios. Either way the employer, not the vendor, answers for the outcome.</div></div></div><h2>The FAQ — 4 question(s)</h2><details class="diff"><summary>Which AI tool is best for recruitment? <span class="chip">from real searches</span><span class="chip ok">40 words</span></summary><div class="dbody">On audit evidence, Eightfold AI. It is the only one of the five with a named independent auditor, a published method, and impact ratios inside the audit&#x27;s stated scope [c382][c383]. Best for your own funnel still depends on the role.</div></details><details class="diff"><summary>How to use AI tools for recruitment? <span class="chip">from real searches</span><span class="chip ok">35 words</span></summary><div class="dbody">Use them to rank and sequence candidates, never to auto-reject. Keep hard requirements as fixed rules, have a person sign off on every advance and rejection, and log the model version behind each ranking [c123][c97][c91].</div></details><details class="diff"><summary>Does the EU AI Act apply to AI recruitment tools? <span class="chip">the editor found this one</span><span class="chip ok">34 words</span></summary><div class="dbody">Yes. Recruitment and candidate screening count as high risk. That brings duties on risk management, data governance, human oversight, and record keeping. Candidates must also be told an AI system is evaluating them [c30].</div></details><details class="diff"><summary>How long does a bias audit take to complete? <span class="chip">the editor found this one</span><span class="chip ok">33 words</span></summary><div class="dbody">Plan for four to eight weeks. Most of that is data work: pulling selection outcomes by role, matching demographic fields, and explaining the gaps. The auditor&#x27;s own analysis is usually the fastest part.</div></details><h2>Questions it dropped</h2><div class="panel"><ul class="kwlist"><li>How much does a bias audit cost? — <span class="q">The article answers it under its own heading, so a search engine would lift that section instead.</span></li><li>Do I need a bias audit if my company is not based in New York City? — <span class="q">Already settled in the Local Law 144 section: the trigger is the candidate&#x27;s address.</span></li><li>Can a vendor audit its own tool? — <span class="q">Answered directly in the auditor independence section.</span></li><li>What questions should I ask an AI hiring vendor? — <span class="q">Same facts as the six yardsticks and the procurement section, so it duplicates a question the article already answers.</span></li></ul></div><h2>The close</h2><p class="note">It sits under its own heading, written in the same call so the two cannot drift: <b>Testing Skills You Can Show an Auditor</b>. The one product link in the whole article lives here.</p><div class="panel"><p>Most AI recruitment tools sell a fairness claim, because it costs less than an audit record. Testlify holds part of that record: a completed third-party audit of our matching model and a Local Law 144 transparency page. We have not published impact ratios, and we will not call our tests bias free. What we can put in front of a reviewer is our [3,500+ validated skills assessments](https://testlify.com/), built by I/O psychologists and validated for adverse impact. Start a free trial, run one role through it, and export every question, rubric, and outcome your next audit cycle will ask for.</p><div class="row"><span class="t">links to</span><div>https://testlify.com/</div></div></div><h2>Seam repairs it made — 1 section(s)</h2><details class="diff"><summary>The Four Kinds of AI Hiring Tools, and Which Ones Decide <span class="chip">touch-up</span></summary><div class="q">• added transition: The intro ends on missing audit evidence, so the section needed one line linking that to why the four categories are separated first.</div><div class="dbody"><ins>Before any of that evidence can be judged, the tools have to be told apart.</ins> Four functional categories sit inside what most vendors sell as a single AI recruitment tool, and only some of them make a decision about a candidate. Parsing pulls data out of a resume and drops it into fields, which is data cleanup rather than a judgment. Screening applies criteria and decides who moves forward. Assessments measure skills or simulate the job, and their scores feed screening; conversational AI runs a chat or SMS flow to capture things like availability [c68]. That distinction is the whole reason an audit has to work tool by tool. A vendor bundles all four under one contract, one login, and one responsible-AI page. The four are still separate systems, with separate training data, separate thresholds, and separate outputs. An audit opinion covering the assessment engine tells you nothing about the screening rule that sits on top of it. The spread is wide enough that few readers will find only one of these in their stack. 88% of organizations worldwide now use AI somewhere in hiring [c720]. A single job posting draws around 500 applications, and automated screening tools read those resumes with natural language processing and machine learning [c722]. They rank candidates on how closely the text matches the job description [c722]. That matching step is where the first failure mode shows up, and it has nothing to do with a protected class. AI screening often scans for particular keywords, so a candidate with the skill but not the vocabulary gets filtered out before a human sees the file [c775]. Matching tools compare candidate profiles against job requirements and produce a ranked shortlist [c746]. Video interview platforms score recorded answers, including body language and vocal tone [c723]. So keep the four labels: parsing, screening, assessment, and conversational AI. Every yardstick, audit record, and verdict that follows attaches to one of them, not to a vendor name.</div></details></div><script></script></body></html>

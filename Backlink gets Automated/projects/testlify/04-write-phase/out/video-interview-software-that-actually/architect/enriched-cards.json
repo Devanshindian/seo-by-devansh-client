@@ -1,0 +1,893 @@
+{
+  "9001": {
+    "gloss": "Truffle's Aug 2026 pricing comparison: published prices and pricing models for Spark Hire, Willo, Jobma, HireVue, Hireflix, VidCruiter and Truffle",
+    "verbatim": "Truffle (hiretruffle.com), 'Video interview software pricing for small businesses (2026 cost breakdown)', published Feb 2026 and updated Aug 2026, says it pulled published pricing for every major video interview platform and re-verified the numbers against each vendor's own pricing page in August 2026. Its comparison table: Truffle from $49/mo, credit-based, 7-day free trial with 30 credits and no card, AI features on all plans. Spark Hire $249-299/mo, tiered by company size, free trial not published, AI features tiered by plan. HireVue custom/enterprise contact-sales, demo only, AI as separate modules. Willo $279-409/mo, flat monthly, trial not published, AI tiered. Hireflix from $75/mo, flat monthly, 1-month trial, transcription only and no scoring. VidCruiter custom pricing, demo only, AI as an add-on. Jobma custom pricing, custom/enterprise model, demo only, AI as an add-on. The article groups the market into four charging models: flat monthly subscription (Hireflix, Willo), credit-based subscription (Truffle, plans from $49/month with credits that roll over on Core and up), tiered by company size (Spark Hire, where a five-person hiring team and a fifty-person one can land in different tiers even when screening the same volume), and custom/enterprise quote-only pricing (HireVue, VidCruiter and Jobma), where annual contracts are typical and the process is built for a buying committee rather than a solo hiring owner. It also notes third-party estimates put HireVue contracts at $35,000 to $145,000+ a year. On Spark Hire specifically: published pricing runs $249/month billed annually or $299/month month-to-month for the video interview product, priced by company headcount tier rather than a flat rate, so a growing team can be bumped into a pricier tier even if hiring volume has not changed; AI features (resume review, transcription, auto-summaries) are included. Truffle discloses it is one of the platforms compared. Truffle's own overage rate is a published flat $0.25 per credit on Core and up; Starter has a hard usage cap and no overage charges.",
+    "source_urls": [
+      "https://www.hiretruffle.com/blog/video-interview-software-pricing"
+    ],
+    "tag": "enriched",
+    "card_id": 9001
+  },
+  "9002": {
+    "gloss": "Willo's own review of Spark Hire prices the three Spark Hire products separately, with behavioural assessment sold as a $249/mo add-on product",
+    "verbatim": "Willo's blog review 'Spark Hire Review: Pricing, Features + 5 Pros & Cons We Found' by Rachel Thomson, last updated July 30, 2026, states Spark Hire pricing ranges from $299 to $499 per month depending on company size and product selection, split across three separately-sold products: Video Interview starting at $249/month billed annually; Behavior Assessment starting at $249/month billed annually; and the Applicant Tracking System at $299/month for Pro or $499/month for Growth, both billed annually. It says the review fact-checked pricing and add-ons, feature availability by tier and compliance claims against Spark Hire's latest pricing page and demos plus G2 data, and scanned recent G2, Capterra and TrustRadius reviews. On contract terms it warns that annual plans can leave a seasonal hirer paying for 12 months while only hiring during a few peak months, and that monthly plans include fewer features. It also warns Spark Hire's pricing scales with employee count, so costs can rise even when hiring volume stays flat. Feature notes tied to tier: one-way video interviews are unlimited on annual plans; unlimited hiring manager seats come on annual plans (no per-seat pricing); the behavioural assessment is 118 multiple-choice questions over 20 minutes scored against 138 research-backed traits and currently supports only multiple-choice, with no video, audio or open-ended responses; AI resume review is available only in the ATS tiers; the native ATS costs between $299 and $499. Spark Hire is rated 4.7/5 on both G2 and Capterra.",
+    "source_urls": [
+      "https://www.willo.video/blog/spark-hire-pricing-review"
+    ],
+    "tag": "enriched",
+    "card_id": 9002
+  },
+  "9003": {
+    "gloss": "Spark Hire's own pricing page: ATS from $335/mo annual, headcount-scaled, with SSO and API access as paid add-ons on lower tiers",
+    "verbatim": "Spark Hire's own pricing page (sparkhire.com/pricing) lists its Applicant Tracking System at 'Starting at $335/month' for Recruit Pro and 'Starting at $499/month' for Recruit Growth, both billed annually, with Recruit Enterprise as talk-to-sales. Its FAQ states that those prices are for companies with up to 50 employees, and that for companies above 50 employees pricing scales with employee count and requires a personalised quote. The Pro plan is available for companies with up to 200 employees; the Growth plan for companies with up to 500 employees. Pro includes video interviewing; Growth includes both video interviewing and the predictive behavioral assessment. The page states 'All Recruit plans are only available under an annual contract,' with Terms of Service and Data Processing Agreement 'Default' on Pro and Growth and 'Custom' on Enterprise. On what is bundled versus paid extra, the feature grid shows: Admin, Recruiter and Hiring Manager users are Unlimited on all three tiers; one-way video interviews, AI Video Review, AI summaries of one-way video interviews and transcription are Yes on all tiers; the predictive behavioral assessment is No on Pro and Yes on Growth and Enterprise; customizable scorecards are No on Pro; API access is an Add-on on Pro and Growth and included on Enterprise; Single Sign-On is an Add-on on Pro and Growth and included on Enterprise; location-based data retention settings are available only on Enterprise; EEO and GDPR compliance and SOC 2 Type II are Yes on all three tiers. Usage is metered on several features: AI Resume Review is capped at 6,000 reviews/year (Pro), 24,000 (Growth) and 36,000 (Enterprise); the AI notetaker at 50, 100 and 150 hours/year; e-signature offers at 100, 200 and 300 documents/year; data migration includes 5,000 candidates on every tier. Adding the ATS to an existing Spark Hire contract is priced as an incremental cost on top of the current plan, and most organisations implement within 30 days.",
+    "source_urls": [
+      "https://www.sparkhire.com/pricing/"
+    ],
+    "tag": "enriched",
+    "card_id": 9003
+  },
+  "9004": {
+    "gloss": "Willo's alternatives page prices Willo from $59 per live role (Lite) to $3,799/yr Enterprise and bundles identity verification and anti-cheat into the product",
+    "verbatim": "Willo's blog '5 Spark Hire Alternatives for Faster High-Volume Screening', by Rachel Thomson, last updated August 17, 2026, lists Willo at '$59/live role (Lite) · from $3,799/yr (Enterprise)', and describes Lite as the no-commitment option for seasonal hiring where you pay $59 per live role only while actively screening, covering up to 5 live roles and 150 assessed candidates. Its comparison table also gives Hireflix as starting at $150/mo moving to custom high-volume pricing, HireVue as custom (request quote), TestGorilla with paid plans from $135/mo moving to quote-based enterprise pricing with an annual commitment required, and Vidcruiter as quote-based with features sold separately. On what is bundled rather than sold as an add-on, the page states Willo combines Real Talk, identity verification, knock-out questions and anti-cheat guardrails to identify genuine candidates, with Real Talk detecting and flagging assessment responses that appear to have been completed with external help such as from a script or AI assistant, and digital identity verification used to verify a candidate's identity and right to work during initial screening rather than at offer stage. It contrasts this with Spark Hire, whose pricing increases with the number of employees in the organisation and rises further if you need its native ATS, versus Willo's plans that scale with hiring volume. Willo integrates natively with 50+ ATS platforms, is ISO 27001 certified and GDPR compliant, and does not support live interviews.",
+    "source_urls": [
+      "https://www.willo.video/blog/sparkhire-alternatives"
+    ],
+    "tag": "enriched",
+    "card_id": 9004
+  },
+  "9005": {
+    "gloss": "HappyRobot's HireVue pricing guide: quote-only tiers from ~$35,000/yr, Vendr average contract value $49,855, and AI scoring excluded at the entry tier",
+    "verbatim": "HappyRobot's hub page 'HireVue Reviews and Pricing (2026): Real Costs, Plans, and Alternatives' by Carlos Becker, updated Aug 27, 2026, reports that HireVue does not publish pricing and that the available figures come from G2's pricing data, Capterra listings and Vendr's procurement database. It states Vendr reports an average annual contract value of $49,855 across its tracked HireVue transactions, and puts public data on annual costs anywhere from around $35,000 to well over $200,000. Its estimated tiers: Essentials around $35,000/yr, enterprise pricing around $50,000-$100,000+/yr, and Premium $200,000+/yr. The pricing model is described as quote-only, priced on headcount, volume and modules, multi-year, with no free trial. On what is gated versus bundled, the page names two limitations: AI scoring is available only on Enterprise plans and above, so it is excluded at the entry tier, and scheduling is available on Essentials but you have to pay extra for it. It describes HireVue as best for large regulated enterprises typically of 7,500+ employees running 30,000+ applications a year, and not for SMBs or anyone wanting transparent flexible pricing. Reviewers criticise opaque pricing, multi-year contracts, the lack of a free trial and an implementation process that can take several weeks. HireVue is rated 4.1/5 on G2 across 255 reviews and 4.5/5 on Capterra across 50 reviews as of August 2026. On the security and compliance side it holds SOC 2, ISO 27001, GDPR and FedRAMP certifications and complies with state AI-hiring laws such as the Illinois AI Video Interview Act, and it dropped facial-expression analysis from its scoring models in 2021 after outside criticism.",
+    "source_urls": [
+      "https://www.happyrobot.ai/hub/hirevue-reviews-and-pricing"
+    ],
+    "tag": "enriched",
+    "card_id": 9005
+  },
+  "9006": {
+    "gloss": "Willo's head-to-head puts Willo entry at $233/mo with a 14-day trial against Spark Hire $249/mo and HireVue ~$35,000/yr",
+    "verbatim": "Willo's blog 'HireVue vs Spark Hire in 2026: Which One is Best for You?' by Rachel Thomson, last updated June 26, 2026, gives entry prices of ~$35,000/year for HireVue on a custom quote, $249/month for Spark Hire, and $233/month for Willo. On trials it lists HireVue as custom demo only, Spark Hire at 14 days and Willo at 14 days. Its pricing-model row describes HireVue as quote-based enterprise packages typically starting around $35,000/year, and Spark Hire as transparent plans starting at $249/month for the video interview product only. Setup time is listed as weeks for HireVue versus same day for both Spark Hire and Willo, and HireVue's setup is described as often taking a month, with a job analysis phase encouraged upfront and the structure staying fixed once configured to preserve comparability. G2 ratings given are 4.1/5 for HireVue, 4.5/5 for Spark Hire and 4.7/5 for Willo. ATS integration counts are 12 for HireVue, 50+ for Spark Hire and 5,000+ for Willo. On AI depth, HireVue offers deep competency-based AI ranking, Spark Hire manual ratings only with light transcription and summarisation, and Willo AI-assisted summaries with human review.",
+    "source_urls": [
+      "https://www.willo.video/blog/hirevue-vs-spark-hire-comparison"
+    ],
+    "tag": "enriched",
+    "card_id": 9006
+  },
+  "9007": {
+    "gloss": "Truffle's Willo vs Spark Hire comparison: Willo $279-409/mo month-to-month with candidate quotas, Spark Hire from $299/mo preferring annual contracts",
+    "verbatim": "Truffle's comparison 'Willo vs Spark Hire: Which video interview platform wins in 2026' by Rachel Hubbard, published Feb 2026 and updated Apr 2026, gives Willo pricing as $279/mo for the Growth plan to $409/mo for Scale, and Spark Hire as from $299/mo usually on annual contracts. On contract terms it lists Willo as month-to-month with an annual discount available, and Spark Hire as preferring annual contracts. The Willo Growth plan at $279/month covers unlimited jobs, 5 users and a 1,000 monthly candidate limit; Scale at $409/month lifts that to unlimited candidates. It describes Willo as one-way video interviews only, with no assessments, no resume parsing and about 5 direct ATS connections plus Zapier for the rest, supporting 18 languages, focused on the 100-1,000 employee market and claiming an 80% average completion rate across its customer base. Spark Hire is described as two products, Recruit (ATS-integrated async video) and Meet (live video), used together as a suite, with 40+ native ATS integrations including Greenhouse, Lever and BambooHR, predictive talent assessments Willo does not offer, and 7,000+ customers across 100+ countries. Its summary notes Spark Hire is 'pricier and often gated behind annual contracts and add-ons', and lists G2 ratings of 4.8/5 for Willo and 4.7/5 for Spark Hire Meet and 4.6/5 for Spark Hire Recruit.",
+    "source_urls": [
+      "https://www.hiretruffle.com/blog/compare-willo-vs-spark-hire"
+    ],
+    "tag": "enriched",
+    "card_id": 9007
+  },
+  "9008": {
+    "gloss": "Spark Hire's own best-software roundup lists its video product at $249/mo annual with no free trial, and Hireflix at $75/mo for teams under 50",
+    "verbatim": "Spark Hire's guide 'The 6 Best Video Interview Software Providers in 2026', published April 7, 2025 and last updated April 16, 2026, prices its own platform at 'Starting at $249/month, billed annually' and states in its pros-and-cons table that there is no free trial, only free demos, that some advanced features require higher-tier plans, and that storage is limited on lower-tier plans. It says all plans include unlimited video interviews, making it suited to high-volume hiring, along with one-way and live video interviews, flexible scheduling, integrations with over 40 ATS platforms plus Zapier and API options, and custom branding with intro and outro videos and closed captions. It states Spark Hire is used by over 7,000 organizations worldwide and averages 4.8/5 on G2 for ease of use and customer service, with a 4.7/5 candidate rating for flexibility and convenience. For Hireflix it gives tiered pricing by headcount: Small Teams (under 50 employees) at $75/month billed annually, with a Mid-Sized Teams tier for 50-250 employees. Hireflix is described as one-way interviews only, with multi-branding and transcriptions included in all plans, automated reminders by email, SMS or WhatsApp, and no downloads or logins required for candidates.",
+    "source_urls": [
+      "https://www.sparkhire.com/video-interviews/best-software/"
+    ],
+    "tag": "enriched",
+    "card_id": 9008
+  },
+  "9009": {
+    "gloss": "HackerEarth's 2026 proctoring roundup gives published tier prices of $99/mo and $399/mo and names Talview as requiring heavy IT setup",
+    "verbatim": "HackerEarth's blog 'Top 10 Automated Exam Proctoring Tools for Hiring 2026' by Shruti Sarkar, dated April 17, 2026, publishes pricing only for its own platform: HackerEarth tiers start at $99/month for Growth and $399/month for Scale, with enterprise pricing available for OnScreen and larger deployments, and it notes enterprise pricing details require a conversation with sales. For Mercer Mettl it says pricing 'can be a stretch for smaller hiring teams' without giving a figure. For Talview it says the platform brings AI behavioral analysis together across both skill assessments and video interviews, making it one of the few single vendors covering the full interview lifecycle, but that the setup is more involved than most competitors and you will need your IT team engaged from the start, making it better suited to larger organizations. The article cites Verified Market Research valuing the automated online exam proctoring market at $868 million in 2024 and projecting $2.3 billion by 2031 at a 15.5% CAGR, and reports roughly 45% of corporate firms had adopted remote proctoring for recruitment by 2024. On buying criteria it says code plagiarism detection is absent from most proctoring tools including Proctorio, ExamSoft, ProctorU, HireVue, Honorlock, Auto Proctor and Conduct Exam; that browser lockdown for developer assessments should block virtual machines, developer consoles and screen sharing rather than just tab switches; that AI identity verification should use photo ID matching plus liveness detection; and that adjustable proctoring intensity matters because an initial screening round does not need the same scrutiny as a final-stage technical test. It also cites a 2023 survey reported by industry analysts finding 48% of test-takers were uncomfortable with invasive webcam monitoring.",
+    "source_urls": [
+      "https://www.hackerearth.com/blog/top-10-automated-online-exam-proctoring-tools-for-secure-hiring-in-2026"
+    ],
+    "tag": "enriched",
+    "card_id": 9009
+  },
+  "9010": {
+    "gloss": "Pin's 2026 roundup ranges video interview pricing from $83/mo to $35K+/yr and flags vendor consolidation before signing annual contracts",
+    "verbatim": "Pin's '7 Best Video Interview Platforms for Remote Hiring in 2026', by Jenn Vu, published Apr 2, 2026 and updated Jun 3, 2026, compares seven platforms with pricing spanning $83/mo to $35K+/yr. Its named figures: Spark Hire at $249/mo leading mid-market, Willo at $209/mo for GDPR-first async, HireVue at $35K+/yr for enterprise assessments, and Pin itself at $100/mo with a free tier. It cites The Insight Partners valuing the video interviewing software market at $250 million in 2022 and projecting $892 million by 2030 at a 17.2% CAGR. On contract risk it warns that vendor stability matters, noting Zoom acquired BrightHire and Radancy absorbed myInterview in late 2025, and advises asking for roadmap and integration guarantees before signing annual contracts. It also cites a Criteria Corp survey of 2,500+ job seekers finding 43% have no preference between video and in-person interviews and 44% of tech workers actively prefer video, and a 2025 peer-reviewed study in the International Journal of Selection and Assessment finding asynchronous video interviews produce reliable structured performance signals only when questions are standardized and rubrics are defined.",
+    "source_urls": [
+      "https://www.pin.com/blog/video-interview-platforms/"
+    ],
+    "tag": "enriched",
+    "card_id": 9010
+  },
+  "9011": {
+    "gloss": "Jobma's own fraud-prevention product page lists liveness detection and government-ID checks but names no ISO 30107-3 result, iBeta level, IDV subprocessor or injection detection",
+    "verbatim": "Jobma's Interview Fraud Prevention page (jobma.com, site footer dated 2026) is the vendor's own product documentation for interview integrity. It documents, in Jobma's words: pre-interview audio, video and device testing; \"Liveness Detection\" that \"confirms the presence of a live candidate, preventing risks of deepfakes\"; \"ID Verification\" that \"validates candidate identity using government-issued documents\"; a network stability check; and AI proctoring flags for multiple faces on screen, copy-paste activity, window switching, mobile device use in frame, external screen or monitor connection, and \"changes in the speaker's voice\" as a signal of impersonation. It also claims \"Government ID Validation\", \"Selfie Verification to Avoid Deepfake Risks\" and \"Support Across Global Identification Protocols\". What the page does NOT contain, anywhere in its text: any reference to ISO/IEC 30107-3, any presentation-attack-detection test result, any iBeta liveness certification level, any named third-party identity-verification provider (no Persona, Veriff, Onfido or Jumio), and no mention of virtual-camera detection or video injection attack detection. The security claims are feature descriptions with no test, standard or subprocessor attached. The site's nav does carry a \"Trust Center\" link and the footer carries an \"EU AI Act\" link.",
+    "source_urls": [
+      "https://www.jobma.com/p/interview-fraud-prevention"
+    ],
+    "tag": "enriched",
+    "card_id": 9011
+  },
+  "9012": {
+    "gloss": "Jobma claims liveness detection and selfie verification while also stating it \"doesn't detect, analyze, or store biometric data\"",
+    "verbatim": "On the same Interview Fraud Prevention page (jobma.com, 2026), a \"Built with Privacy in Mind\" block states four things: monitoring is \"non-invasive - no unnecessary interruptions\"; there is \"explicit candidate consent before proctoring begins\"; the approach is \"privacy-first... aligned with global standards\"; and the product \"doesn't detect, analyze, or store biometric data\". That last claim sits on the same page as its liveness detection and selfie-verification-against-government-ID features, which are face-based checks. Jobma does not reconcile the two statements or explain what processing happens without biometric data being detected, analysed or stored. The page also promises \"downloadable interview reports, flags added within the interview timeline and detailed candidate activity logs\" plus \"audit-ready documentation and records\" for compliance reviews.",
+    "source_urls": [
+      "https://www.jobma.com/p/interview-fraud-prevention"
+    ],
+    "tag": "enriched",
+    "card_id": 9012
+  },
+  "9013": {
+    "gloss": "HireVue's homepage sells security as FedRAMP authorization, with no liveness, PAD or identity-verification claim anywhere on it",
+    "verbatim": "HireVue's homepage (hirevue.com, live capture 2026) is the vendor's top-level marketing page and its security pitch rests on two panels. The first: \"FedRAMP - The only FedRAMP-authorized hiring solution for the public sector, ensuring the highest security and compliance standards.\" The second, headed \"Trusted security\": \"Your hiring data is safe with us, secure, compliant, and protected at every step. With industry-leading security measures and strict compliance standards, we ensure your information stays confidential.\" The nav offers a dedicated \"Security\" page and a \"HireVue's AI Explainability Statement\". Nothing on the homepage mentions ISO/IEC 30107-3, presentation attack detection, an iBeta liveness certification level, liveness detection of any kind, ID document checking, face matching, a named identity-verification subprocessor, or virtual-camera or injection detection. The product claims on the page are about skills validation, AI interviewing, scheduling and scale (40+ languages, 60% less time screening, 90% faster time-to-hire, 50% decrease in cost per interview). HireVue's homepage therefore documents data security and government compliance, not interview identity integrity.",
+    "source_urls": [
+      "https://www.hirevue.com/"
+    ],
+    "tag": "enriched",
+    "card_id": 9013
+  },
+  "9014": {
+    "gloss": "Talview documents voice and face authentication and a \"7 Layer Security Framework\" but names no PAD standard, iBeta level or IDV subprocessor",
+    "verbatim": "Talview's own comparison page, Talview vs VidCruiter (talview.com, page footer dated 2026), lists the company's integrity products in its product nav and body: \"Candidate Verification - Protect your reputation, say no to proxy candidates\"; \"Interview Proctoring - Additional Layer of Security from Modern Interview Frauds\"; \"ID Verification - Secure Online Exams with Advanced ID Match\"; \"Secure Browser - Prevent unauthorized access, control test environment\"; \"Alvy: AI Proctor\", described as the \"World's First Patented Agentic AI Proctoring\"; plus automated, record-and-review and live remote proctoring. The body copy on candidate verification reads: \"Online assessments and interviews always have a possibility of attracting proxy candidates. Talview's Candidate Verification verifies candidate's identity with real-time voice and face authentication to help identify imposters earlier in the hiring process.\" The page also links to a \"Trust Center\", a \"7 Layer Security Framework\" and \"Our Compliance & Certifications\". Absent from the page: any ISO/IEC 30107-3 presentation-attack-detection result, any iBeta certification level, any named third-party identity-verification provider, and any mention of virtual-camera or video injection detection. The proctoring is described as patented, but no biometric test result or accreditation number is given.",
+    "source_urls": [
+      "https://www.talview.com/en/talview-vs-vidcruiter"
+    ],
+    "tag": "enriched",
+    "card_id": 9014
+  },
+  "9015": {
+    "gloss": "Talview's 2023 face-authentication article describes selfie-plus-ID capture and room checks, with no anti-spoofing standard or test cited",
+    "verbatim": "Talview's blog post \"5 Key Considerations for Implementing Face Authentication in Your Recruitment Process\" (talview.com, published February 12, 2023) is the company's own explanation of how its face authentication works. It describes: capturing both the candidate's image and their ID, so the selfie taken on the device camera is \"compared to the ID submitted by the candidate\"; ID verification done \"through various means such as scanning the candidate's government-issued ID or passport\"; microphone checks; \"360 degree room, ceiling, and worktable checks\"; hardware checks; and two-factor authentication to limit access to candidate data. It frames the goal as eliminating \"the risk of proxy candidates\" and confirming \"the person present in the interview is the same person who submitted their application\", and says captured images and ID information \"can be stored for future reference\". The article names accuracy and reliability as the first consideration and warns about \"false positive or false negative results\", but gives no accuracy figures, no false-accept or false-reject rates, no ISO/IEC 30107-3 or presentation-attack testing, no iBeta level, no third-party identity-verification partner, and no deepfake, virtual-camera or injection detection claim. Note the date: this is 2023 material, predating the 2025 to 2026 wave of real-time deepfake interview fraud.",
+    "source_urls": [
+      "https://www.talview.com/blog/5-key-considerations-for-implementing-face-authentication-in-your-recruitment-process"
+    ],
+    "tag": "enriched",
+    "card_id": 9015
+  },
+  "9016": {
+    "gloss": "VidCruiter's fraud guide, updated Aug 4 2026, lists AI Fraud Detection and Video Proctoring as products without documenting any biometric test or certification",
+    "verbatim": "VidCruiter's \"Candidate Fraud: How to Prevent It\" guide (vidcruiter.com, written by Sam Cook, reviewed by the VidCruiter Editorial Team, last modified August 4, 2026) sits under the company's Interview Intelligence hub and is the closest thing on the page to a documented fraud position. The site's own product nav on that page lists \"AI Fraud Detection\" and \"Interview Intelligence\" under an AI heading, \"Video Proctoring\" and \"Automated Reference Checks\" under Hire+, and a \"Security\" page under Platform. The guide's own table of contents covers \"Is Candidate Fraud on the Rise?\", \"Deepfake and AI-Based Fraud\", \"Common Types of Candidate Fraud\", \"Risks of Candidate Fraud for Employers\" and \"How to Detect and Prevent Candidate Fraud\", and its opening argues that \"generative AI has significantly simplified the ease with which candidates can mislead employers\" and that these tools now create \"convincing text, images, videos, and more\". Nowhere in the page is there an ISO/IEC 30107-3 presentation-attack-detection result, an iBeta liveness certification level, a named third-party identity-verification subprocessor, or a virtual-camera or video injection detection claim. AI Fraud Detection is named as a product but not specified, tested or certified on this page.",
+    "source_urls": [
+      "https://vidcruiter.com/interview/intelligence/candidate-fraud/"
+    ],
+    "tag": "enriched",
+    "card_id": 9016
+  },
+  "9017": {
+    "gloss": "iBeta's public PAD confirmation-letter registry, running to 19 Aug 2026, lists biometrics vendors and no video interview platform",
+    "verbatim": "iBeta publishes a public register of every Presentation Attack Detection confirmation letter it issues, on its ISO 30107-3 page (ibeta.com). Each row carries the date of letter, vendor, PAD level, product tested, versions tested, the FNMR or BPCER limit applied, and a PDF link. Letters are posted \"by written vendor consent\", iBeta charges no fee for posting them, and iBeta notes \"any correspondence from iBeta will come from ibeta.com only\". The most recent entries visible, running from 19 August 2026 backwards to 16 June 2026, are: Verigram, Level 1, ID Liveness v2B; TWYN T4ISB, Level 2, PAAS (Personhood Analysis ASsistant) 3.0; IDENTY, Level 1, Identy.io Finger AI v1.0.967; Entrust, Level 1, Facial Similarity Report: Motion v2.0; Suprema, Level 2, Q-Face Engine v0.15.2; UZINFOCOM, Level 1, MyID v1.0 (iOS); Oracle, Level 1, Automated Biometric Identification Service (ABIS) v0_2; Vega Fintech, Level 1, Face Liveness Check 2.0.16 (3); HuBOX, Level 1, Spooff 2.0.0; PIPO Resource, Level 2, Veritas v2.0 (Android) and v2.1 (iOS); and Suprema again at Level 1. Every one is a biometrics or identity vendor. No video interviewing or hiring assessment platform appears among these entries, and every one carries a 15% FNMR or BPCER limit.",
+    "source_urls": [
+      "https://www.ibeta.com/iso-30107-3-presentation-attack-detection-confirmation-letters/"
+    ],
+    "tag": "enriched",
+    "card_id": 9017
+  },
+  "9018": {
+    "gloss": "iBeta says its PAD testing confirms conformance, not certification, and caps bona-fide error at 15% for Levels 1 and 2, 10% for Level 3",
+    "verbatim": "iBeta's ISO 30107-3 methodology page (ibeta.com) sets out exactly what a PAD result means, which matters for reading any vendor's claim. iBeta is accredited by NIST NVLAP as an independent test lab, with ISO 30107-3 inside its scope of accreditation. Before testing it fixes the PAD mechanism as one of three: a PAD subsystem test (detection only), a data capture test (attack plus quality checks), or a full system test (the whole biometric subsystem). Subsystem tests report APCER and BPCER classification error rates; full system tests report IAPMR with associated FNMR and FMR. iBeta's own testing levels: Level 1 gives the tester 8 hours per subject or species, no expertise required, artefacts from a normal home or office and capped at $30 in materials, with 0% penetration allowed; Level 2 gives 2 to 4 days per subject or species, moderate expertise, more expensive artefacts such as 3D prints, resin or latex masks capped at $300, with 1% penetration allowed; Level 3 gives 7 days per species and 4 days per subject, significant expertise (at least 16 hours of research and 10 prior PAD tests on the modality), hyper-realistic facial masks in specialised environments, with 5% penetration allowed. Six species of attack (\"PAIS\") are selected as uniformly as possible. For Level 1 liveness-only testing iBeta targets 150 attacks alternated with 50 genuine presentations inside 8 hours. Bona-fide error is capped: BPCER and FNMR must be no higher than 15% to earn a PASS at Levels 1 and 2, and no higher than 10% at Level 3, a limit iBeta says was initially unconstrained, then capped at 20%, then reduced to 15%, and is reviewed every six months. Crucially, iBeta states the result \"does not translate to a certification of the vendor product\": the term certification was used when iBeta was first accredited but \"was corrected during the NIST/NVLAP audit in March 2019\", and the letters confirm conformance with the standard, not certification.",
+    "source_urls": [
+      "https://www.ibeta.com/iso-30107-3-presentation-attack-detection-confirmation-letters/"
+    ],
+    "tag": "enriched",
+    "card_id": 9018
+  },
+  "9019": {
+    "gloss": "iBeta is NVLAP-accredited lab 200962-0, tests PAD Levels 1 to 3 to ISO 30107-3, and now offers a separate Injection Attack Detection test",
+    "verbatim": "iBeta's Biometrics Testing page (ibeta.com) lists the accreditations and test types behind any PAD claim a vendor might make. iBeta is a NIST NVLAP accredited biometrics testing lab, NVLAP Testing Lab Code 200962-0, with a quality management system and test procedures independently audited by NVLAP against ISO/IEC 17025:2017. It was the first biometric testing lab accredited by the FIDO Alliance to conduct evaluations under the FIDO Alliance Biometric Component Certification Program, holds a Mastercard accreditation covering facial, palm, voice and fingerprint modalities on mobile and wearable devices, and is accredited by Android as an Android Security Partner authorised to run the Android Biometrics Certification. Its stated testing expertise covers: Presentation Attack Detection Levels 1, 2 and 3 to ISO 30107-3; PAD to ISO 30107-4 for mobile devices; spoofing and liveness testing; biometric performance testing per ISO 19795-2; biometric bias testing to ISO 19795-10; and DEA EPCS biometric subsystem certification. The page carries a banner reading \"Now offering iBeta Injection Attack Detection!\", establishing injection attack detection as a distinct, separately offered test from presentation attack detection rather than something a PAD level covers.",
+    "source_urls": [
+      "https://www.ibeta.com/biometric-testing/"
+    ],
+    "tag": "enriched",
+    "card_id": 9019
+  },
+  "9020": {
+    "gloss": "iBeta launched Level 3 PAD testing in June 2025 for face biometrics first, using custom hyper-realistic masks and curated environments",
+    "verbatim": "Biometric Update reported on 16 June 2025 (article by Chris Burt; the piece is labelled a sponsored post) that iBeta Quality Assurance was introducing Level 3 presentation attack detection testing based on ISO/IEC 30107-3, available for face biometrics first because face is \"the most common modality for remote transactions\". iBeta Director of Biometrics Ryan Borgstrom describes Level 3 as \"a more rigorous form of testing which will include, for instance, custom-made, hyper-realistic masks that we have had a chance to source from around the world\", with artists creating pieces to mimic the movements that active PAD systems prompt for. Deputy Director of Biometrics David Yambay adds that Level 3 is \"not just the PAI itself, but its also about creating the environment\", meaning lighting and other environmental factors are tailored, and that Level 2 deals with attacks \"not as carefully targeted\" as Level 3, which addresses attacks carried out with significant background knowledge and funding. The monetary and time constraints applied at Levels 1 and 2 are eased for Level 3. iBeta consulted NIST NVLAP accreditors while creating the level. Organisations may retry twice after a failure in the Readiness Review Phase and once during the Testing Phase. iBeta can run Level 3 for companies that did Levels 1 and 2 with it or with another lab. Named examples of consumer-facing companies recently getting PAD systems evaluated are Grab and Shopee, both outside hiring.",
+    "source_urls": [
+      "https://www.biometricupdate.com/202506/ibetas-biometric-presentation-attack-detection-testing-levels-up"
+    ],
+    "tag": "enriched",
+    "card_id": 9020
+  },
+  "9021": {
+    "gloss": "The full iBeta level table: Level 1 allows 0% APCER over ~900 attempts at $30 artefact cost, Level 2 allows 1% over 1,000 attempts at $300",
+    "verbatim": "Axon Labs' iBeta certification guide (axonlab.ai, dated August 2025) tabulates what each iBeta PAD level actually requires, which lets a vendor's stated level be read as a strength rather than a badge. Level 1 covers simple attacks (printed photo, image on a screen), caps presentation attack instrument cost at 30 USD, allows 8 hours per PAI, runs 6 types by 150 attacks plus 50 bona-fide presentations (about 900 attempts), and demands 0% APCER with BPCER no higher than 15%. Level 2 covers medium complexity attacks (dynamic video, 3D prints, latex and silicone masks), caps PAI cost at 300 USD, allows up to 24 hours per PAI and 2 to 4 days per type, runs 5 types by 150 attacks (750) plus 250 bona-fide presentations, and demands APCER no higher than 1% with BPCER no higher than 15%. Level 3 covers targeted high-end attacks with custom hyper-realistic masks and a controlled scene, has no fixed cost limit (budget agreed per system), sets time and conditions individually, and demands roughly 0% APCER on a strict PASS/FAIL basis with BPCER no higher than 10%. The Level 1 attack types are printed photograph, video replay of short videos on a smartphone or laptop screen, paper mask, and cutout mask. Level 2 adds silicone mask, latex mask, resin mask, 3D animation software, 3D-printed mask and realistic dolls. The guide notes ISO 30107-3 \"defines how to evaluate liveness detection systems against presentation attacks at the sensor (camera) during acquisition\", which means PAD testing covers what is shown to a camera and not video injected past it.",
+    "source_urls": [
+      "https://axonlab.ai/ibeta-certification-requirements-overview/"
+    ],
+    "tag": "enriched",
+    "card_id": 9021
+  },
+  "9022": {
+    "gloss": "Innovatrics shows what a documented PAD claim looks like: iBeta Level 1 and 2 conformance, 1,500 spoofs, 0% acceptance, on a dedicated awards page",
+    "verbatim": "Innovatrics, a biometrics vendor, publishes a dedicated page for its iBeta Presentation Attack Detection result (innovatrics.com, site footer dated 2026) and it is a useful benchmark for what a documented anti-spoofing claim contains. The page states that Innovatrics Passive Liveness Detection \"has been tested by iBeta, which found it fully compliant with ISO 30107-3 Biometric Presentation Attack Detection (PAD) Standard Level 1 and Level 2\". It gives the result in numbers: \"our submission has attained the highest possible level of accuracy in iBeta testing, correctly detecting all 1,500 attempted spoofs and accepting all of the genuine logins. Simply put, it accepts 0% of presentation attacks and doesn't mistakenly reject anyone who is indeed present.\" It states that iBeta is accredited by NIST NVLAP as an independent test lab and tests in accordance with ISO/IEC 30107-3 in alignment with the ISO/IEC 30107-1 framework, and that Level 1 and 2 compliance allows 0% penetration of spoof attacks. The same company's product menu separately lists \"Liveness detection\", \"Deepfake Detection\" and \"Video Injection Detection\" as three distinct technologies, alongside NFC verification and identity document verification, treating injection detection as its own capability rather than something covered by liveness testing.",
+    "source_urls": [
+      "https://www.innovatrics.com/awards/level-1-ibeta-presentation-attack-detection-conformance/"
+    ],
+    "tag": "enriched",
+    "card_id": 9022
+  },
+  "9023": {
+    "gloss": "Talview's On-Demand Video Interviewing page confirms native async support and its claimed speed gains, but never mentions proctoring or ID checks",
+    "verbatim": "Talview's own product page for On-Demand Video Interviewing (talview.com, page live as of 2026) confirms the company sells asynchronous, pre-recorded interviewing as a native product: the employer sets up interview questions in the platform, candidates get an invitation and record their responses to each question at a time that suits them, and the recordings are submitted automatically to the employer for review. Talview claims the format makes the first round of screening 80% faster and cuts interviewing time and resources by 70%, with a stack-ranking setup the page says takes under five minutes. The platform analyses the recorded answers with NLP and ML to read emotions, tone and psycholinguistics, and builds a behavioural profile of the candidate. Stated technical requirements for candidates: any device with a camera and microphone (laptop, desktop, tablet or smartphone), a stable internet connection, and any modern browser (Chrome, Firefox, Safari, Edge). Notably, the page's entire FAQ set covers how the format works, technical requirements, fairness and standardisation, and data privacy (GDPR compliance, encryption in transit and at rest, access controls, security audits, consent obtained before the interview starts) — it makes no mention anywhere of proctoring, identity verification, face matching or deepfake detection running inside the on-demand flow. The listed 'popular features' are Candidate Behavioral Profile, Reduce Time-to-Hire, Cost Effective, Customized Branding, Self Paced Interview and Works on Low Internet Speed. No price is stated on the page.",
+    "source_urls": [
+      "https://www.talview.com/en/on-demand-video-interviewing"
+    ],
+    "tag": "enriched",
+    "card_id": 9023
+  },
+  "9024": {
+    "gloss": "Talview's second one-way interview page repeats the async claims and lists integrations and support, again with no security features named",
+    "verbatim": "Talview runs a second, separate product page for the same format under the name One Way Video Interview (talview.com, live as of 2026), which describes one-way video interviewing as sending candidates a set of pre-recorded questions that they answer on video for recruiters to review later. It repeats the same two claims as the On-Demand page: screening 80% faster and interviewing time and resources cut by 70%. The page says the software integrates with any Applicant Tracking System the buyer already uses, that recruiters can fully customise the interview questions, and that Talview offers 24/7 customer support. Its 'popular features' list is identical to the On-Demand page: Candidate Behavioral Profile, Reduce Time-to-Hire, Cost Effective, Customized Branding, Self Paced Interview, Works on Low Internet Speed. Across the page's eight FAQs — how one-way interviews work, recruiter benefits, fairness, ATS integration, question customisation, time saved, support — there is no mention of proctoring, ID verification, face match, liveness or deepfake detection being applied to the one-way format. No pricing appears on the page.",
+    "source_urls": [
+      "https://www.talview.com/en/one-way-video-interview"
+    ],
+    "tag": "enriched",
+    "card_id": 9024
+  },
+  "9025": {
+    "gloss": "Talview's Live Interview Rooms page states plainly that the product is built for live synchronous interviews and tells async buyers to ask their contact",
+    "verbatim": "Talview's Live Interview Room page (talview.com, live as of 2026) carries an explicit scope statement under the heading 'Live or On-Demand? What Talview's Interview Platform Supports': 'Talview's Live Interview Rooms are built for live, synchronous interviews with real-time video, with an interviewer present. If your team is comparing on-demand video interviewing or asynchronous (pre-recorded, one-way) formats, talk to your Talview contact about which combination fits your hiring volume.' In other words the vendor's own page draws the line between the two modes and pushes the async question to a sales conversation rather than documenting it. The security features the page does name are all attached to the live mode: AI interview proxy detection and cheating prevention aimed at deepfakes, browser plugins and real-time assistance from GPT-based bots; Interview Proctoring plus a Secondary Camera Feed for a wider field of view; and Secure Browser, which the page says locks down the candidate's device and blocks unauthorised tools. Other listed features include real-time candidate verification, instant recording, an Interview Builder that uses generative AI to produce questions and follow-ups, a coding editor and whiteboard, evaluation forms, and Lockdown Browser, Environment Scan, Guide Videos and custom interview backgrounds. The page defines a virtual interview room as a secure browser-based meeting room built for hiring, with candidate verification, structured evaluation and recording built in.",
+    "source_urls": [
+      "https://www.talview.com/en/live-interview"
+    ],
+    "tag": "enriched",
+    "card_id": 9025
+  },
+  "9026": {
+    "gloss": "Talview publishes no prices: the pricing page is a demo form, with a 150-200 candidate minimum commitment and unit-based pricing stated only in its FAQ",
+    "verbatim": "Talview's pricing page (talview.com, copyright dated 2026) publishes no price at all. It is a lead-capture form: buyers are asked to fill in a form so 'a Solutions Expert will contact you to discuss your organization's needs', and the page notes that existing Microsoft customers can use their Azure credits to buy any Talview solution. The only commercial terms Talview states anywhere on the page sit in its FAQ block: (1) the pricing model is unit-based, meaning each feature has a specific unit assigned to it so the buyer 'only pay[s] for what you use'; (2) both individual features and bundled packages are sold, so buyers pick the combination they want; (3) 'To get started, a minimum commitment of approximately 150 to 200 candidates is typically required'; (4) for a pilot, 'additional charges may apply for more than 10 candidates', with pricing varying by candidate count and features selected; (5) there is no free trial as such, but a product walkthrough/demo is offered before purchase. No per-candidate rate, per-interview rate, annual licence figure or add-on module price is given, and no separate price is quoted for one-way versus live interviewing.",
+    "source_urls": [
+      "https://www.talview.com/en/pricing"
+    ],
+    "tag": "enriched",
+    "card_id": 9026
+  },
+  "9027": {
+    "gloss": "Third-party comparison lists Talview at 'Custom Pricing' against rivals with named starting prices",
+    "verbatim": "A competitor comparison guide published by PMaps (pmapstest.com, 'Top 10 Talview Alternatives & Competitors', by Pratisrutee Mishra, dated February 6, 2026, and stating it draws on listings from G2, Capterra and verified user reviews) puts Talview in a price-versus-value table where Talview's starting price is recorded only as 'Custom Pricing', with a value rating of 'Good'. The same table gives named starting prices for most of the alternatives: PMaps $100/month, SparkHire $249/month, TalentLyft $73.5/month, Prevue Assessments $195/month, Testgrid $30/month, Evalart $170/month, HireVue 'Custom Pricing', Talently 'Custom Pricing', Codility $1200/year, TalentNest 'Custom Pricing'. The page characterises Talview's offering as structured video interviews and workflow automation, with users praising ease of use and reporting, while arguing that many teams want deeper assessment science. Note the source is a rival vendor's own alternatives page, not a neutral review site.",
+    "source_urls": [
+      "https://www.pmapstest.com/alternatives/talview-competitors"
+    ],
+    "tag": "enriched",
+    "card_id": 9027
+  },
+  "9028": {
+    "gloss": "Talview's candidate docs list five assessment formats and set different bandwidth floors for async video (256 Kbps) versus live interviews (1 Mbps)",
+    "verbatim": "Talview's public candidate documentation (docs.talview.com, Candidate Assessment FAQs) enumerates the formats the platform supports: 'Asynchronous/Automated Video Assessments, Multiple Choice Video Assessments, Essay Video Assessments, Code Video Assessments, Live Interviews'. The docs draw several operational distinctions between the async and live modes. Bandwidth: a minimum of 256 Kbps is required for Automated/Asynchronous Video Interviews, Multiple-Choice, Essay and Code Video Assessments, while Live Interviews require a minimum of 1 Mbps (a separate requirements section states a general minimum of 2 Mbps stable connectivity). Mobile: the Talview mobile app supports only Automated/Asynchronous Video Interviews and Multiple-Choice Video Assessments; essay, code, VEPT and Versant assessments require a laptop or desktop. Practice: 'Talview offers a practice video assessment for all proctored video assessments' accessible from the invitation email, but 'practice assessments are not available for Live Interviews'. That wording is the docs' own acknowledgement that recorded video assessments run in a proctored form. Supported browsers are the latest Chrome, Firefox and Edge. The candidate help tree also carries dedicated sections for Proctored Assessments, Talview Secure Browser (TSB) compatibility, screen sharing and permissions, and Face & ID Verification, alongside separate Interviews sections.",
+    "source_urls": [
+      "https://docs.talview.com/candidates/assessments/faqs/candidate-assessment-faqs"
+    ],
+    "tag": "enriched",
+    "card_id": 9028
+  },
+  "9029": {
+    "gloss": "Talview's Candidate Verification page describes face, voice and device checks running continuously through the interview session, plus MS Teams support",
+    "verbatim": "Talview's Candidate Verification product page (talview.com, live as of 2026) describes identity checking built around the live interview. Before an interview starts, the candidate submits a selfie or ID scan through the browser or mobile app, which AI matches against an existing base image and against third-party ID and AML database records; Talview then 'continues to validate the candidate throughout the interview using pre-interview data'. Three signals run in real time: face matching, which confirms the same person stays on camera throughout the session; voice verification, which cross-checks vocal patterns against earlier interactions to flag someone else speaking on the candidate's behalf; and device and connection monitoring, which alerts recruiters to unexpected device switches or unauthorised secondary devices mid-interview. The page states the checks are monitored 'throughout the interview, not just at login'. It also says Talview Candidate Verification is available inside Microsoft Teams, and that two-way ATS integrations let teams track a candidate at the application, interview and onboarding stages from one place. Listed features: Available on MS Teams, Detect Proxy Candidates, Multi-Face Detection, No Face Detection, Make Informed Decisions, Real-time Verification. The page's own wording frames the flow around a live interview session; it does not state that these checks run inside pre-recorded one-way interviews. No pricing is given, and the module is presented as a distinct product from the interviewing products.",
+    "source_urls": [
+      "https://www.talview.com/en/candidate-verification"
+    ],
+    "tag": "enriched",
+    "card_id": 9029
+  },
+  "9030": {
+    "gloss": "Talview's fraud page positions detection across three stages — verification, interview proctoring, interview insights — and names deepfake scans and browser lockdown",
+    "verbatim": "Talview's Candidate Fraud Detection page (talview.com, live as of 2026, citing '2500+ Global Recruiters') says its fraud stack 'runs across three stages of the hiring journey: candidate verification, interview proctoring, and interview insights'. The six named components are: ID Fraud Detection (a selfie or government ID captured and matched against baseline images to catch forged, borrowed or mismatched documents at entry); Real-Time Face & Voice Matching (continuously confirming the same person stays on camera and cross-checking voice patterns against the verified baseline to catch mid-session swaps); Device & Multi-Face Monitoring (flagging unexpected device switches, unauthorised secondary devices, a second person in frame and empty-seat 'no-face' scenarios in real time); Third-Party & AML Screening for high-risk roles, which the page says typically resolves within hours; Lockdown & Activity Oversight (secure browser lockdown, disabled shortcuts and live screen monitoring to prevent unauthorised tools and LLM assistance 'during assessments and interviews'); and Deepfake Scans, described as a 360-degree environment scan plus secondary camera monitoring that exposes hidden cheating setups, screen-sharing tricks and deepfake artifacts. The stated workflow is: capture a verified baseline at registration, verify continuously rather than once, monitor the environment, screen against external databases, alert recruiters instantly in the dashboard or ATS so no manual video review is needed, and keep a timestamped auditable record of every verification event. The page frames the threat as proxy test-takers, deepfaked interviews and forged documents bypassing one-time identity checks. It does not distinguish which of the six run in one-way recorded interviews versus live sessions, and gives no prices.",
+    "source_urls": [
+      "https://www.talview.com/en/candidate-fraud-detection"
+    ],
+    "tag": "enriched",
+    "card_id": 9030
+  },
+  "9031": {
+    "gloss": "Talview's Workforce Verify page bundles ID document checks, face match, AML/PEP screening and live-agent I-9, with continuous identity assurance during assessments or interviews",
+    "verbatim": "Talview's Digital Identity Check page (talview.com, product name 'Workforce Verify', live as of 2026) documents identity verification as a standalone module: candidates upload a government-issued ID which Talview's AI validates for authenticity and signs of tampering, and photo/face matching compares the candidate's selfie or live video feed to the ID photo in real time. On top of that it offers AML watchlist screening against global sanctions and PEP lists, and a dynamic risk score combining document integrity, device intelligence and watchlist hits. For US employers it offers Live Remote Agent I-9 Verification, where an agent examines original documents over a secure video call, signs off the form and stores the digital record, while the page notes employers remain legally responsible for I-9 accuracy. Under 'Remote Interview & Assessment Proctoring' the page claims Continuous Identity Assurance — confirming the same candidate is taking 'the assessment or interview' through ongoing photo/video checks — and Cheating & Fraud Alerts that flag multiple faces on camera, unauthorised device usage or an abrupt face mismatch. Compliance claims: all PII encrypted, with GDPR, CCPA, ISO 27001 and NIST named, plus ATS/HRIS sync with Workday, SAP and Oracle. The wording covers assessments and interviews jointly and never separates recorded one-way interviews from live ones. No pricing is published.",
+    "source_urls": [
+      "https://www.talview.com/en/digital-identity-check"
+    ],
+    "tag": "enriched",
+    "card_id": 9031
+  },
+  "9032": {
+    "gloss": "Talview's ID Verification page frames face-photo ID matching around online exams rather than interviews",
+    "verbatim": "Talview's ID Verification page (talview.com, live as of 2026) is titled 'Best Identity Verification Software for Online Exams' and is written almost entirely around the assessment and exam flow rather than interviewing: it describes face-photo ID matching, advanced facial recognition to detect imposters, multi-layer authentication 'for exam integrity', and a deterrent against cheating, and its FAQs describe the mechanic as test-takers presenting an identification document to their webcam at the start of an exam, with the system capturing images of both the test-taker and the ID document and algorithms or manual checks comparing the document details with the real-time image before the test-taker is allowed to proceed. Accepted documents are government-issued IDs such as passports, national ID cards and driver's licences, varying by the exam provider's policy and local law. Listed features: 2 Factor Authentication, 'More Than 8 Critical Flags', Face-Photo ID Match, Secure Online Tests, Anti-Cheating Technology and a 360° Environment Check. The only nod to hiring is in the subheading, which says the face-photo ID matching enhances 'online exam security and interview security'; interviewing is otherwise not covered, and neither one-way nor live video interviewing is described. The page also claims integration with top LMS and ATS platforms, and states that personal information and document images are encrypted and access is strictly controlled.",
+    "source_urls": [
+      "https://www.talview.com/en/id-verification"
+    ],
+    "tag": "enriched",
+    "card_id": 9032
+  },
+  "9033": {
+    "gloss": "Willo's own Digital Identity Checks page: right-to-work, DBS and identity checks returning a certified report, UKDIATF-certified",
+    "verbatim": "Willo's product page for Digital Identity Checks (willo.video, page carrying a 2026 copyright) describes the feature as adding \"digital right-to-work, criminal background and identity checks to any interview\" and receiving \"a certified report that the candidate is who they claim to be.\" Willo states it handles all communication with, and takes on the risk of dealing with, the Home Office in the UK or equivalent international affairs offices in other countries. The page states the solution is \"Certified for the UK Digital Identity & Attributes Trust Framework (UKDIATF)\" and is GDPR-compliant. The page does not name a third-party identity provider, does not mention a face match against the recorded video answer, and does not say whether the check returns a score or a pass/fail verdict; the only described output is a \"certified report.\"",
+    "source_urls": [
+      "https://www.willo.video/integrations/identity-verification-right-to-work-checks"
+    ],
+    "tag": "enriched",
+    "card_id": 9033
+  },
+  "9034": {
+    "gloss": "Willo says ID checks are 100% automated inside the same candidate flow, available out-of-the-box or via API",
+    "verbatim": "On Willo's Digital Identity Checks page (willo.video, 2026), Willo states that its \"core identity verification, criminal background (DBS) or right-to-work checks\" can \"all be added to the same user flow, 100% automated,\" and that this GDPR-compliant solution is \"available out-of-the-box and as an API integration.\" The page also sets out Willo's four-step process as: Step 1 Setup (write the interview questions), Step 2 Share (send a link inviting candidates to an interview landing page), Step 3 Respond (candidates complete the video interview in their own time), Step 4 Review (review, shortlist and share responses). Notably, that published four-step flow names no identity-verification step, so the page never pins down at which point in the candidate journey the ID check runs.",
+    "source_urls": [
+      "https://www.willo.video/integrations/identity-verification-right-to-work-checks"
+    ],
+    "tag": "enriched",
+    "card_id": 9034
+  },
+  "9035": {
+    "gloss": "Willo's homepage names its two trust features: Willo Proof™ for employer legitimacy, Willo Verified™ for candidate identity",
+    "verbatim": "Willo's homepage (willo.video, 2026) lists under \"Security & compliance\" three claims: \"Willo Proof™ supports employer legitimacy,\" \"Willo Verified™ supports candidate identity verifcation\" [sic], and \"ISO 27001 certified, GDPR compliant, and enterprise-ready.\" The wording is deliberately soft: both features \"support\" rather than confirm or guarantee. Elsewhere the same page describes Willo as \"award-winning candidate screening and ID checking software,\" says teams get \"the confidence that every response is genuine,\" and claims 5,000+ hiring teams, 1,500+ ready-made assessments, 18+ languages, a 68 NPS, and 50+ integrations including Greenhouse, Workday and Lever. The homepage gives no detail on what Willo Verified actually captures or checks.",
+    "source_urls": [
+      "https://www.willo.video/"
+    ],
+    "tag": "enriched",
+    "card_id": 9035
+  },
+  "9036": {
+    "gloss": "Willo's knowledge base indexes ID verification as \"Willo Verified®\", with separate candidate and employer articles",
+    "verbatim": "The index of Willo's public knowledge base (support.willo.video, © Willo 2026) lists the identity feature under the registered name \"Willo Verified®\" twice: in the Candidates section as \"Willo Verified® (ID Verification & Right to Work)\" and in the Employers section as \"Willo Verified® (Digital Identity Checks).\" The General section of the same index lists articles for \"Privacy Notice,\" \"Information Security,\" \"Subprocessors,\" \"Your right to have your personal data deleted,\" \"Terms and Conditions of Supply\" and \"Report Suspicious Activity.\" There is no article title in the index that names a retention or deletion period for interview recordings or transcripts; the closest is the data-deletion right article.",
+    "source_urls": [
+      "https://support.willo.video/"
+    ],
+    "tag": "enriched",
+    "card_id": 9036
+  },
+  "9037": {
+    "gloss": "Willo's privacy notice: what it collects from candidates, and its AI features including Willo Insights fit scoring",
+    "verbatim": "Willo's Privacy Notice (support.willo.video, Willo Technologies Limited, current 2026 version) states that when a candidate interviews, Willo collects \"Name, Email address, Phone number, IP address and recorded video, audio answers and files uploaded to questions.\" It says Willo does not request special category data but that it \"may be incidentally present\" in assessment content, and that Willo monitors assessment questions and may flag ones designed to elicit special category data unlawfully. On AI, the notice says that where the hiring organisation enables it, responses may be processed with \"automated transcription of your responses, AI-generated summaries of that transcription, and - where your hiring organisation has enabled Willo Insights - AI-assisted analysis of your responses, including candidate fit scoring and related insights.\" It adds that all AI features run on behalf of and under the instructions of the hiring organisation, who \"remains responsible for all hiring decisions,\" and that AI outputs are \"intended to assist, not replace, human review.\" Willo positions itself as data processor for interview recordings and candidate data, with the customer as controller determining the lawful basis.",
+    "source_urls": [
+      "https://support.willo.video/article/10-privacy-notice"
+    ],
+    "tag": "enriched",
+    "card_id": 9037
+  },
+  "9038": {
+    "gloss": "Willo's privacy notice on storage: AWS, AES-256, primarily EU-hosted with limited US access, and no stated retention period",
+    "verbatim": "Willo's Privacy Notice (support.willo.video, Willo Technologies Limited, 2026) states that \"Willo production data is processed and stored using Amazon Web Services (AWS)\" with multilayer security controls, that \"All persistent data is encrypted at rest using industry-standard AES-256 encryption,\" and that \"Personal data is primarily hosted within the European Union.\" It qualifies this: \"Depending on service configuration and the use of certain third-party service providers, limited processing or access may occur in the United States,\" with transfers outside the UK or EU covered by the EU-U.S. Data Privacy Framework and its UK Extension, Standard Contractual Clauses with the UK Addendum, or the UK International Data Transfer Agreement. On cookies it says candidates accessing an assessment via an invite link \"are not subject to non-essential cookies\" and only essential platform security cookies operate in that context. The notice sets out lawful bases (contract, legitimate interests including fraud prevention, legal obligation, consent) but states no retention period, and gives no number of days, months or years for how long interview recordings, audio answers or transcripts are kept.",
+    "source_urls": [
+      "https://support.willo.video/article/10-privacy-notice"
+    ],
+    "tag": "enriched",
+    "card_id": 9038
+  },
+  "9039": {
+    "gloss": "Willo's Real Talk feature: three-tier flags on every response, automatic, plan-gated",
+    "verbatim": "Willo's support article \"Real Talk: Detecting scripted and AI-generated responses\" (support.willo.video, last reviewed August 27, 2026) describes Real Talk as \"A Willo Intelligence Feature - only available on selected plans.\" It \"analyzes each candidate response and flags answers that may appear scripted or AI-generated,\" and \"runs automatically in the background for every candidate response\" with three components: Scripted Detection (patterns consistent with heavily rehearsed or pre-written answers), AI-Generated Detection (characteristics commonly associated with AI-generated content), and a Natural Response Indicator (spontaneous, conversational speech). Results appear in the Willo dashboard as a traffic-light label on each response: \"Naturally Spoken (green indicator),\" \"Potentially Scripted (amber indicator),\" \"Potentially AI-Generated (red indicator),\" with a hover summary explaining why the suggestion was made. The article states Real Talk \"is automatically enabled and requires no additional setup.\" This is a speech and text pattern check on the answer, not an identity check on the person: the article never mentions ID documents, face matching, webcam monitoring or screen recording.",
+    "source_urls": [
+      "https://support.willo.video/article/196-real-talk"
+    ],
+    "tag": "enriched",
+    "card_id": 9039
+  },
+  "9040": {
+    "gloss": "Willo states its own anti-cheat flags are signals not verdicts, and can fire on non-native speakers",
+    "verbatim": "In its Real Talk support article (support.willo.video, last reviewed August 27, 2026), Willo explicitly limits the weight of its own detection output: \"Real Talk indicators are signals, not verdicts. A flag doesn't mean a candidate has done anything wrong - responses can be flagged for a variety of reasons, including strong preparation, a non-native speaking style, or simply how someone naturally communicates.\" Willo recommends using Real Talk \"alongside the full interview, your own notes, and any other context you have about the candidate before drawing any conclusions,\" and frames the feature as designed \"to support - not replace - your own judgement\" and to keep \"a human in the loop at every stage.\" That is Willo, in its own documentation, naming false positives on non-native speakers and well-prepared candidates as an expected behaviour of the feature rather than a defect.",
+    "source_urls": [
+      "https://support.willo.video/article/196-real-talk"
+    ],
+    "tag": "enriched",
+    "card_id": 9040
+  },
+  "9041": {
+    "gloss": "Willo restricts automatic scoring to multiple-choice questions with right/wrong answers; video responses are never algorithmically scored",
+    "verbatim": "Willo's own blog post \"One-Way Video Interview Platforms: 7 Best Solutions Compared\" (willo.video, by Rachel Thomson, last updated July 23, 2026) states Willo's scoring policy plainly: \"Auto-scoring for objective assessments only: Unlike platforms that use AI to score video responses (communication style, cultural fit), Willo limits algorithmic scoring to multiple-choice questions with factual right/wrong answers. Set a pass percentage (e.g., 75%), and candidates who don't meet it are filtered out automatically. For video responses where personality, presentation, and authentic communication matter, you maintain complete control while AI-generated transcripts and summaries speed up your review.\" It also says Willo has \"No black-box AI scoring algorithm\": Willo Insights evaluates responses against a customer-defined \"Blueprint\" of must-haves and differentiators and surfaces the reasoning (summary, criteria met, the moment in the answer that earned it) rather than a bare score. On fraud it says: \"Willo's RealTalk detection analyzes response patterns in video interviews to flag candidates using AI-generated scripts or coaching tools, ensuring authentic communication assessment without creating an invasive surveillance experience.\" The post lists Willo pricing at $209-307/mo against HireVue at $35K+/yr and Spark Hire at $299/mo.",
+    "source_urls": [
+      "https://www.willo.video/blog/one-way-video-interview-platforms"
+    ],
+    "tag": "enriched",
+    "card_id": 9041
+  },
+  "9042": {
+    "gloss": "Willo case study: Florence identity-verifies 1,400 candidates a month through Willo's API after its previous IDV vendor quit",
+    "verbatim": "Willo's customer case study on healthcare talent marketplace Florence (willo.video, 2026) reports that Florence \"screens and identity-verifies 1,400 candidates per month\" with Willo, with a recruiting team of 15. Product Manager Mikey de Mello says Florence needed to \"verify candidate identity to ensure they can legally work in the country from which they're applying\" and that both screening and identity verification had previously been entirely manual, with identity verification \"a multi-step process.\" The study states Florence \"initially started using Willo only for candidate screening but added identity verification when their other third-party provider stopped IDV services,\" and that Florence chose Willo partly on the API: \"Willo stood out to us because their product was simple, it was effective, and the API looked good.\" Candidates \"complete screening in a few clicks\" inside Florence's own application. This confirms the ID check is delivered through Willo's API inside the customer's own candidate flow, at high volume, but the study names no ID provider, no face-match step, and no output format.",
+    "source_urls": [
+      "https://www.willo.video/case-studies/how-florence-streamlined-identity-verification-for-1-400-candidates-per-month-with-willo"
+    ],
+    "tag": "enriched",
+    "card_id": 9042
+  },
+  "9043": {
+    "gloss": "Willo's own blog on async platforms frames identity verification as work-eligibility checking with a UKDIATF-backed certified report",
+    "verbatim": "In Willo's blog post \"6 Great Asynchronous Video Interview Platforms to Streamline Hiring\" (willo.video, by Rachel Thomson, last updated August 17, 2026), Willo describes its own identity feature as: \"Identity Verification: Willo's identity verification features make sure that each of your candidates is eligible to work for you. Integrate digital right-to-work and background checks into your evaluation process, and you'll receive a certified report supported by the UK Digital Identity and Attributes Trust Framework (UKDIATF).\" The framing is work eligibility and background checking rather than deepfake or proxy detection of the recorded answer. The same post lists Willo pricing as Lite at $59 per live role, pay as you go, up to 5 live roles, and Enterprise from $3,799/year, current as of August 2026.",
+    "source_urls": [
+      "https://www.willo.video/blog/6-great-asynchronous-video-interview-platforms-to-streamline-hiring"
+    ],
+    "tag": "enriched",
+    "card_id": 9043
+  },
+  "9044": {
+    "gloss": "Third-party read of Willo's docs: no screen recording or gaze tracking, and it claims anti-cheat is off by default per employer",
+    "verbatim": "A blog post on AceRound's site, \"Does Willo Detect Cheating? What Real Talk Actually Flags\" (aceround.app, by Alex Chen, August 22, 2026), reads Willo's published documentation and concludes Willo's anti-fraud surface is narrower than proctoring vendors: \"According to Willo's own comparison, screen recording and webcam gaze-tracking are methods it associates with other vendors in the category - Willo's own product centers on two things: Real Talk (its speech-authentication feature) and optional ID verification.\" It says Willo compares itself on response authentication, ID verification, code-plagiarism checks and proctoring, and that \"If you're taking a Willo interview, the thing most likely to be watched is how you're speaking - not what's on your monitor.\" It further claims \"Willo's support documentation confirms anti-cheat detection is off by default and only switched on per employer, at that employer's request,\" with no candidate-visible indicator of whether it is active. It also says Willo deliberately does not publish how detection works, quoting Willo's docs as declining to specify what anti-cheat stops candidates doing \"for obvious reasons.\" Two cautions for use: AceRound sells an interview-assistance tool and markets itself in the post as staying \"invisible on screen share and screen recording,\" so it is an interested party; and its off-by-default claim contradicts Willo's own Real Talk article, which says the feature \"is automatically enabled and requires no additional setup\" on selected plans.",
+    "source_urls": [
+      "https://www.aceround.app/blog/does-willo-detect-cheating/"
+    ],
+    "tag": "enriched",
+    "card_id": 9044
+  },
+  "9045": {
+    "gloss": "Interviewer.AI's own async interview page lists four integrity features by name but gives no detail on how any of them work",
+    "verbatim": "Interviewer.AI's asynchronous video interviews product page carries an \"Integrity & Proctoring\" feature block listing exactly four items: \"ID verification\", \"Tab-switch and lip-sync detection\", \"AI-generated answer detection\", and \"Full audit trail per candidate\". Those four bullet lines are the entire public description. The page states no thresholds, no accuracy figures, no explanation of what the lip-sync check compares, no description of what the audit trail records, and no indication of whether any of the four is on by default or is a paid add-on. The page also never mentions screen recording, multiple-face detection, second-device or mobile-phone detection, browser lockdown, or full-screen enforcement anywhere in its feature lists. The same page's other feature blocks are described at comparable depth: \"Explainable Scorecards\" (communication clarity scoring, response relevancy to the role, written rationale per competency, the clip that earned the score), \"Structured by Design\", \"Multilingual at Scale\" (interviews in 10+ languages, regional data hosting options), and \"24/7 Candidate Recording\".",
+    "source_urls": [
+      "https://interviewer.ai/asynchronous-video-interviews/"
+    ],
+    "tag": "enriched",
+    "card_id": 9045
+  },
+  "9046": {
+    "gloss": "Interviewer.AI documents a zero-install candidate flow: no app, no account, desktop or mobile, about 8 minutes end to end",
+    "verbatim": "Interviewer.AI's asynchronous video interviews page describes the candidate side of a recorded interview as a browser flow with nothing to install. In its three-step \"How it works\" section, Step 02 states candidates \"record on desktop or mobile — no app, no account, no scheduling\" and that \"Candidates finish in ≈ 8 minutes\". The recruiter-side setup is quoted at \"≈ 4 minutes to set up\" and shortlisting happens \"Same day\". The \"24/7 Candidate Recording\" feature block repeats the same claims: \"No scheduling, no phone tag\", \"Any phone, tablet or desktop\", \"Practice question before the real one\", \"Finishes in about 8 minutes\". The page's headline metrics for the product are 1,000+ hours saved per recruiter per year, an 80% reduction in time-to-shortlist, and 10x more candidates screened. The trial terms shown are a 14-day free trial with free interview credits and a card required. Nowhere does the page state a minimum browser version, an operating-system requirement, a bandwidth minimum, a permission the candidate must grant, or any separate time cost for the ID verification step.",
+    "source_urls": [
+      "https://interviewer.ai/asynchronous-video-interviews/"
+    ],
+    "tag": "enriched",
+    "card_id": 9046
+  },
+  "9047": {
+    "gloss": "Interviewer.AI's public pages say ID verification exists but never state what the candidate submits, how long it takes, or what happens on a failed match",
+    "verbatim": "Across Interviewer.AI's asynchronous video interviews page, the two-word bullet \"ID verification\" under \"Integrity & Proctoring\" is the only place the identity check appears. The page does not say whether the candidate photographs a government ID document, takes a selfie, does both, or only has a webcam still captured; it does not say who performs the match (Interviewer.AI itself or a third-party vendor); it gives no time-to-complete for the step; it states no retry or re-attempt policy if a match fails; it does not say whether the employer sees the document image or only a pass/fail verdict; and it gives no retention period for identity images. The candidate-facing step description on the same page (\"no app, no account, no scheduling\", finishing in about 8 minutes) makes no mention of an identity step at all, so the published candidate journey and the published feature list do not line up on whether an ID check is part of the 8 minutes. Reaching a specification of the check requires the sales path the page repeatedly pushes: \"Schedule a demo\", \"Talk to sales\", and \"Screening 500+ applicants per role? Talk to sales\".",
+    "source_urls": [
+      "https://interviewer.ai/asynchronous-video-interviews/"
+    ],
+    "tag": "enriched",
+    "card_id": 9047
+  },
+  "9048": {
+    "gloss": "Interviewer.AI's homepage sells four AI interview products and never mentions proctoring, fraud, or identity checks once",
+    "verbatim": "Interviewer.AI's homepage positions the company as \"The World's Most Advanced AI Interview Platform\" with four products: Asynchronous Video Interviews, AI Interviewers (conversational avatar-led interviews with dynamic follow-up questions, described as simulating \"real interviews like Zoom or Teams\"), University Admissions Interviews, and AI Mock Interviews. It claims 850+ companies trust the platform and up to 80% reduction in manual screening effort. On the candidate experience it states only that \"Candidates interview on their own schedule\" and that it \"Works on desktop and mobile\". The words proctoring, fraud, deepfake, impersonation, proxy, and identity verification do not appear anywhere on the homepage, including in the three-step \"How It Works\" section and the \"Why Interviewer.AI\" section, which sells explainability and fairness (\"Explainable AI: Transparent, bias-aware scoring\", \"Fair & Structured Assessments\") rather than interview integrity. The one adjacent claim sits in the Universities menu, where UK Admissions Interviews is pitched to \"Verify applicant intent for UK intakes\" and Australia Admissions Interviews to deliver \"Genuine-student checks at scale\" — again with no description of the mechanism.",
+    "source_urls": [
+      "https://interviewer.ai/"
+    ],
+    "tag": "enriched",
+    "card_id": 9048
+  },
+  "9049": {
+    "gloss": "Interviewer.AI's own candidate prep guide sets browser and permission requirements: Chrome or Firefox, camera and mic pre-granted, practice link 24 hours ahead",
+    "verbatim": "Interviewer.AI published a candidate technical guide, \"How to Prepare for AI Video Interviews: Technical Tips Every Candidate Should Know\", by Vidhee Pandey on May 26, 2025. Its software checklist tells candidates that \"Chrome or Firefox are best supported by most interview software platforms\" and to keep the browser up to date; to \"Pre-grant camera and microphone access in your browser settings\", warning that \"if blocked, the platform may prevent recording altogether\"; and to \"Complete any vendor-provided test link at least 24 hours before your interview\", noting that many asynchronous platforms offer a practice run to verify audio, video and network settings. On connectivity it recommends Ethernet where possible and states that a phone hotspot at \"10 Mbps down and 1 Mbps up is usually sufficient for smooth video conferencing\". On hardware it recommends an external HD webcam at eye level, soft diffused frontal lighting, and a USB condenser mic or noise-cancelling headset. The stakes it sets for candidates: \"If your feed freezes or audio cuts out, there's no second chance — AI platforms record and score your first take.\" The guide is written generically about AI video interviews rather than as a specification of Interviewer.AI's own candidate requirements, and it makes no mention of an identity verification step, an ID document upload, tab-switch monitoring, or any retry policy.",
+    "source_urls": [
+      "https://interviewer.ai/how-to-prepare-for-ai-video-interviews-technical-tips/"
+    ],
+    "tag": "enriched",
+    "card_id": 9049
+  },
+  "9050": {
+    "gloss": "AceRound's 2026 platform breakdown shows what async video monitoring documentation looks like when it is specific: HireVue logs tab switches but records no screen",
+    "verbatim": "AceRound's platform-by-platform breakdown \"Can Online Interviews Detect Cheating?\", by Alex Chen, dated May 31, 2026, sets out a comparison table of monitoring scope by interview type. For async AI interviews (its examples: HireVue, Modern Hire) it lists screen recording as \"No (webcam only)\", tab switch detection as \"Logged\", eye tracking as \"Basic gaze analysis\", and copy-paste detection as \"No\". For online assessments (HackerRank, Codility, AMCAT) it lists browser-locked screens, tab-switch detection with warnings, no eye tracking, and copy-paste detection via code comparison. For live video calls (Zoom, Google Meet, Teams) it lists all four as \"No\". Its itemised list of what HireVue async does: records webcam video and audio for the full duration, logs whether the candidate switches away from the HireVue browser tab, analyses facial positioning, gaze direction and speech characteristics, captures environment images to verify the setting, and flags sessions where the face leaves frame for extended periods. What it says HireVue does not do: record the screen or see other open applications, automatically disqualify for a single tab switch, know what is on off-camera paper notes, or detect wireless earpieces. The piece cites a 2026 Fabric analysis of 19,368 interviews that found 38.5% of candidates were flagged for potential cheating, a 3x rise on the year before.",
+    "source_urls": [
+      "https://www.aceround.app/blog/can-online-interviews-detect-cheating/"
+    ],
+    "tag": "enriched",
+    "card_id": 9050
+  },
+  "9051": {
+    "gloss": "Control AI, Aug 2026: the phrase \"identity verification\" on a hiring invite tells a candidate almost nothing, because vendor scope ranges from a webcam snapshot to document-plus-liveness",
+    "verbatim": "Control AI's candidate guide \"Interview Identity Verification: A Candidate's Guide\", published by the Control Editorial Team on August 23, 2026, argues that identity verification and proctoring answer different questions — proctoring asks what you were doing during the assessment, identity verification asks whether you are the person named on the application — and that a test can have one on and the other off. Comparing what vendors documented as of August 2026: HackerRank's Photo Identification captures a single webcam photo before the test, candidates must select \"Allow Photos\" to proceed, and \"the system captures it automatically after a short countdown\" if no photo is taken manually; HackerRank's own knowledge base states \"the system does not automatically validate or flag candidates based on their captured photo. The hiring team must manually verify each candidate's photo after the test\". Codility's check requires \"photos of front and back sides of the document and a selfie\" plus country and ID type, and \"candidates can't skip ID verification if it is enabled for the test\", with the employer seeing a pass or fail with reasoning and the ability to re-trigger the check. CodeSignal's proctored assessments prompt candidates to share \"camera, microphone, and screen for the duration of the assessment\" plus a face photo and a government-issued photo ID. On retention, Codility states identity data \"is not accessible to the Recruiter or Hiring Team\"; CodeSignal states identification and proctoring data \"is reviewed by CodeSignal only\" and is \"stored and deleted within 15 days\"; HackerRank surfaces the photo to the hiring team in the candidate summary report and its documentation gives no retention period. The guide's conclusion: \"'identity verification' on an invitation email tells you almost nothing about scope\", and candidates should ask which vendor performs the check, whether the employer receives the document image or only a result, and how long images are retained.",
+    "source_urls": [
+      "https://trycontrol.app/blog/interview-identity-verification-candidate-guide"
+    ],
+    "tag": "enriched",
+    "card_id": 9051
+  },
+  "9052": {
+    "gloss": "Jobma's fraud-prevention page lists pre-interview ID verification, liveness detection and selfie check, plus six proctoring flags, and states it does not store biometric data",
+    "verbatim": "Jobma's own Interview Fraud Prevention page (jobma.com, 2026) documents its identity and proctoring stack. Pre-interview checks run before the interview starts and cover: audio, video and device testing (confirms camera, microphone and system readiness), liveness detection (\"confirms the presence of a live candidate, preventing risks of deepfakes\"), ID verification (\"validates candidate identity using government-issued documents\"), and a network stability check on the internet connection. A separate real-time identity block states Jobma has \"built-in ID verification to ensure that you interact with a real, authentic person\", listing government ID validation, \"selfie verification to avoid deepfake risks\", and \"support across global identification protocols\". No third-party verification vendor or subprocessor is named anywhere on the page. During the interview, AI proctoring flags six behaviours: multiple faces present (more than one person on screen), copy-paste activity, window switching, mobile device usage within the camera frame, external screen or monitor detection, and \"changes in the speaker's voice\" during the interview, flagged as potential impersonation. On privacy, the page states monitoring is non-invasive, that there is \"explicit candidate consent before proctoring begins\", and that Jobma \"doesn't detect, analyze, or store biometric data\". Outputs include downloadable interview reports, flags placed on the interview timeline, and detailed candidate activity logs described as audit-ready.",
+    "source_urls": [
+      "https://www.jobma.com/p/interview-fraud-prevention"
+    ],
+    "tag": "enriched",
+    "card_id": 9052
+  },
+  "9053": {
+    "gloss": "Jobma's privacy policy sets a minimum one-year retention for interview data, hosted on Google Cloud in Iowa",
+    "verbatim": "Jobma's Privacy Policy (jobma.com, 2026) states that all information collected \"is stored on secure data servers in the United States (U.S.-Central1, Iowa) in partnership with Google Cloud\", and that \"retention periods are established to comply with business and legal obligations, with interview data retained for a minimum of one year unless otherwise required by law\". The policy is a minimum, not a maximum or a deletion date. Data collected includes \"any video, audio, or written content generated during your use of our platform\" plus IP address, device type, operating system, browser type, referring URLs and access times. The policy names the laws Jobma says it complies with: GDPR, the California Consumer Privacy Act (CCPA), EEOC guidelines, the Americans with Disabilities Act (ADA), New York City's Automated Employment Decision Tools Law (AEDT), and the Illinois Artificial Intelligence Video Interview Act (AIVIA). It states employers, not Jobma, are responsible for ensuring EEOC compliance. Candidate interview content (pre-recorded videos, live recordings, audio responses) is shared with the employer, recruiter or external evaluators. Jobma states it does not sell personal information, and consent can be withdrawn via a Data Privacy Officer at privacy@jobma.com.",
+    "source_urls": [
+      "https://www.jobma.com/privacy"
+    ],
+    "tag": "enriched",
+    "card_id": 9053
+  },
+  "9054": {
+    "gloss": "Jobma's GDPR page repeats the one-year minimum retention, and lists identity verification as an integration partner category rather than a built-in named vendor",
+    "verbatim": "Jobma's GDPR Compliance page (jobma.com, 2026) states data is stored on Google Cloud servers in Iowa (US-Central1, United States) and that \"retention is a minimum of one year or longer if required under law or for legitimate business purposes\". Jobma states it \"primarily operates as the processor\", acting on customer (employer) instructions, with the employer as controller. Interview data collected is listed as \"video recordings, audio, text responses, metadata associated with interviews (timestamps, device used, duration)\". Notably, the page says Jobma \"does not collect or process sensitive or special categories of data through our services\". In the recipients section, Jobma lists the third parties it may share personal data with, and identity verification appears there as a category of integration partner: \"Integration Partners such as applicant tracking systems (ATS), HR platforms, identity verification, and other software that connect to Jobma\" — no individual verification vendor is named. Data subject rights listed include access, rectification and erasure. The same compliance list appears as on the privacy policy: GDPR, CCPA, EEOC, ADA, NYC AEDT law, and the Illinois AIVIA.",
+    "source_urls": [
+      "https://www.jobma.com/gdpr-compliance"
+    ],
+    "tag": "enriched",
+    "card_id": 9054
+  },
+  "9055": {
+    "gloss": "Jobma's candidate help article for mobile one-way interviews: dedicated app, token ID, camera/mic AND location permissions, terms acceptance",
+    "verbatim": "Jobma's help centre article \"How to Complete a Jobma Pre-recorded Video Interview on Your Mobile Device\" (jobma.com, 2026) sets out the candidate-side requirements for a one-way interview on mobile. The candidate must download and install the dedicated \"Jobma Interviews\" app for candidates from the Apple App Store (iOS) or Google Play Store (Android) — it is not a browser flow. They then copy the interview token ID from the invitation email, open the app, and are prompted to allow access to camera and microphone. A further step requires the candidate to \"allow access to your location\". The next screen shows the candidate's name, company, job title, interview duration and number of questions, along with \"the terms and privacy policy, explaining what information is collected and how it's used\", which the candidate must accept to continue. Before starting, candidates can watch a tutorial and attempt a practice question to check audio and video quality. During the interview candidates can switch between front and rear cameras, retake a response (subject to limits), and submit each answer. Notably, no ID document capture, face match or liveness step appears anywhere in this documented mobile candidate flow. The article cross-references a separate \"Supported Devices for Jobma Interview\" page for the full device list.",
+    "source_urls": [
+      "https://www.jobma.com/help-center/candidates/interviews/how-to-complete-a-jobma-pre-recorded-video-interview-on-your-mobile-device"
+    ],
+    "tag": "enriched",
+    "card_id": 9055
+  },
+  "9056": {
+    "gloss": "Jobma's four-step candidate guide names Chrome or Safari on desktop and the app on mobile, with an automatic internet speed and camera/mic check",
+    "verbatim": "Jobma's \"Video Interviewing Guide for Candidates\" (jobma.com, 2026) documents the candidate-side requirements for a Jobma video interview in four steps. Step 1: open the interview link sent by email or phone. On desktop, Jobma recommends Google Chrome or Safari; on mobile it recommends downloading the Jobma Interviews app for candidates. Step 2: equipment checks run automatically — Jobma \"automatically checks your system to confirm that it's ready to record your interview, including an internet speed test, and camera and microphone availability\", and the candidate must allow full access to camera and microphone when prompted. Step 3: an optional practice question, whose responses \"won't be saved or shared with the employer\". Step 4: record and submit, with each question carrying its own time limit and retake limit, and some questions having a \"think time\" before recording starts. The guide covers no identity step at all: no government ID capture, no selfie or face match, and no liveness check appears in this candidate-facing walkthrough of the interview flow.",
+    "source_urls": [
+      "https://www.jobma.com/video-interview-process-and-guide"
+    ],
+    "tag": "enriched",
+    "card_id": 9056
+  },
+  "9057": {
+    "gloss": "Jobma's own 2026 roundup credits itself with identity verification and proctoring flags for multiple faces, tab switching and mobile devices",
+    "verbatim": "Jobma's blog post \"Best AI Video Interview Platforms in 2026\" (jobma.com, 2026), which ranks itself first, describes its own interview integrity features: \"To help maintain interview integrity, the platform includes identity verification and AI-assisted remote proctoring that can detect multiple faces, tab switching, mobile devices, and other suspicious activities during assessments.\" The post lists \"Identity verification and remote proctoring\" among Jobma's key features and states the platform \"is compliant with security standards and regulations such as GDPR, CCPA, SOC 2, and ISO 27001\". The identity verification claim is made in one clause with no detail on what it checks, when in the candidate flow it runs, or which vendor performs it. The post's own stated selection criteria included \"interview integrity and security measures\". It positions Jobma as \"best for high-volume enterprise hiring and skill assessment\", covering one-way, live and agentic AI interviews alongside coding, language and aptitude assessments.",
+    "source_urls": [
+      "https://www.jobma.com/blog/best-ai-video-interview-platforms-2026/"
+    ],
+    "tag": "enriched",
+    "card_id": 9057
+  },
+  "9058": {
+    "gloss": "Jobma's own assessment roundup names Proctortrack as the proctoring safeguard behind its multi-face and tab-switch detection",
+    "verbatim": "In its blog post \"Best Pre-Employment Assessment Tools for Smarter Hiring in 2026\" (jobma.com, 2026), Jobma describes its own anti-cheating stack and names an outside proctoring technology: \"To prevent cheating in unsupervised environments, Jobma employs strict Proctortrack proctoring safeguards like multi-face detection and tab-switch monitoring.\" This is the only named third-party proctoring or verification technology found on Jobma's own site; the fraud-prevention and GDPR pages name none. The same entry lists Jobma's security posture as \"SOC 2 / ISO 27001-aligned security\" with multi-language and multi-timezone support, AI-driven scoring and analytics to rank candidates, and configurable assessment kits spanning video answers, audio responses, written tasks, scenario-based simulations, technical coding, speaking-fluency checks and gamified questions. Pricing is listed as \"pricing upon request\", with a free demo available — Jobma publishes no price.",
+    "source_urls": [
+      "https://www.jobma.com/blog/best-pre-employment-assessment-tools/"
+    ],
+    "tag": "enriched",
+    "card_id": 9058
+  },
+  "9059": {
+    "gloss": "Jobma's LinkedIn post frames three fraud types and claims ID verification plus proctoring flags including repeated off-screen reading",
+    "verbatim": "A post on Jobma's LinkedIn company page (3,660 followers, posted roughly one week before capture and dated 2026) sets out Jobma's fraud framing and what its tooling claims to catch. It splits hiring fraud into three types: credential and resume fraud (inflated titles, fabricated qualifications); interview fraud (\"proxy candidates, deepfakes, and AI tools feeding answers in real time\"); and identity fraud (\"synthetic identities, borrowed documents, and misrepresented credentials\"). On the product, it states: \"With built-in ID verification and AI-powered interview proctoring, Jobma helps hiring teams verify candidate authenticity and surface unusual interview activity, such as multiple faces on screen, copy-and-paste behavior, and repeated off-screen reading patterns, for human review.\" The \"repeated off-screen reading patterns\" flag does not appear on Jobma's own fraud-prevention product page. The post stresses that flags go \"for human review\", with \"human judgment at the center of every hiring decision\" — the system surfaces signals rather than making a verdict. It states the same technology making fraud more sophisticated is also helping detect it earlier.",
+    "source_urls": [
+      "https://www.linkedin.com/posts/jobma_hiringintegrity-recruitment-videointerviewing-activity-7495757649200992256-QLnx"
+    ],
+    "tag": "enriched",
+    "card_id": 9059
+  },
+  "9060": {
+    "gloss": "Truffle's 2026 comparison: Jobma launched 2012, serves 3,000+ companies in 50+ countries, custom quotes only, 3-4 week implementation",
+    "verbatim": "Truffle's \"Jobma vs myInterview 2026 complete comparison\" (hiretruffle.com, first published February 2026, updated August 2026, by founder Sean Griffith) gives independent context on Jobma's scale and commercial terms. Jobma \"launched in 2012 and now serves over 3,000 companies in more than 50 countries, with customers including Mayo Clinic, Samsung, and the World Health Organization\", and holds a 4.6-star rating on Capterra. On pricing, the comparison is direct: \"Neither platform publishes its prices anymore. Jobma has always used custom pricing based on company size and hiring volume\" — the table lists Jobma's pricing transparency as \"Custom quotes based on size and volume\" and its free trial as \"typically demo-based onboarding\". Implementation timeline is given as 3 to 4 weeks for Jobma, versus 1 to 2 weeks for myInterview. On integrity features, the AI approach row lists \"Scoring against custom rubrics, transcription, question suggestions, proctoring\", and the article notes Jobma's AI \"monitors candidates during coding tests\" — proctoring is described in the context of coding tests and rubric scoring, with no mention of identity verification, ID document capture or face match anywhere in the comparison. Interview types covered are one-way, live, panel, and a newer autonomous on-demand AI interview format.",
+    "source_urls": [
+      "https://www.hiretruffle.com/blog/jobma-vs-myinterview-comparison"
+    ],
+    "tag": "enriched",
+    "card_id": 9060
+  },
+  "9061": {
+    "gloss": "Spark Hire's own one-way product page lists every capability and names no proctoring, ID check or face match",
+    "verbatim": "Spark Hire's official One-Way Video Interview Software product page (sparkhire.com, live as of 2026) publishes a complete \"Key Capabilities\" list in five groups: design the candidate experience (branded portal with intro and outro videos, record or upload personalized video questions, customize think time, take limits and answer duration); screen candidates (unlimited one-way and live video interviews, invite via link, SMS or bulk CSV, automated reminders and deadline extensions); prioritize with Spark Hire AI (transcription in 50+ languages, auto-summarized responses, submissions auto-scored against competencies); accelerate hiring manager feedback (user roles and permissions, share interviews in bulk with no sign-in required, interview scorecards); and integrate (40+ ATS integrations, Zapier, a Google Chrome extension). Nothing in that capability list mentions proctoring, browser lockdown, tab switching, browser focus loss, multiple-face detection, second-device or screen activity monitoring, ID document verification or face matching. The only integrity-adjacent control the page names is the employer-configurable \"take limits\" setting. The page's header promise is \"Faster Candidate Screening. No Automated Decisions,\" and its \"Not designed for\" line reads: \"Teams looking to fully automate screening or remove human judgment from hiring.\" The only security-related link on the page is a footer link to a \"Privacy & Security Policy\"; no SOC 2 or trust-centre material is linked from it.",
+    "source_urls": [
+      "https://www.sparkhire.com/one-way-video-interview/"
+    ],
+    "tag": "enriched",
+    "card_id": 9061
+  },
+  "9062": {
+    "gloss": "Spark Hire's AI scores competencies correlated with pass-rates; it is a review-prioritization layer, not an integrity check",
+    "verbatim": "On its own One-Way Video Interview Software page (sparkhire.com, 2026), Spark Hire describes what its AI does to a submitted recording: video responses are automatically transcribed in 50+ languages, each response is AI-summarized so reviewers understand the key points before watching, and submissions are \"auto-scored against competencies and characteristics that have demonstrated statistical correlation with pass-rates.\" The stated purpose of all three is faster and better-prioritized human review (\"Keep hiring decisions human, not algorithmic\"). None of the three outputs is described as checking who recorded the video, whether the answer was read from a second screen, or whether the footage is authentic. The page carries no claim that the AI flags anomalies, synthetic video or repeat faces across submissions.",
+    "source_urls": [
+      "https://www.sparkhire.com/one-way-video-interview/"
+    ],
+    "tag": "enriched",
+    "card_id": 9062
+  },
+  "9063": {
+    "gloss": "Spark Hire's own candidate walkthrough of the recording flow names only three per-question settings: answer length, think time and takes",
+    "verbatim": "Spark Hire's candidate guide \"How to Prepare for a Pre-Recorded or One-Way Video Interview\" (sparkhire.com, by Josh Tolan, published 8 May 2024, last updated 17 October 2024) walks step by step through what happens inside a Spark Hire one-way interview: the candidate is notified by email or SMS; accesses the interview \"through any mobile device or desktop computer from the link provided by the employer without downloading an app\"; is guided through a setup process that tests camera and microphone and shows a tutorial video; may watch an employer intro video; may record practice videos; then answers one question at a time. The guide states that questions \"may have unique settings regarding\" exactly three things: Answer Length (the maximum allowed duration per response), Think Time (the time to consider an answer before recording begins), and Takes (\"Some platforms may limit or allow unlimited attempts to record a response per question\"). Review and resubmission before submitting is available \"depending on the permissions allowed by the employers.\" The guide describes the format as letting the candidate \"respond in your own time and environment\" and mentions no browser restriction, no monitoring of tab switching or focus loss, no check on who else is in frame, and no restriction on a second device.",
+    "source_urls": [
+      "https://www.sparkhire.com/video-interviews/pre-recorded-preparation/"
+    ],
+    "tag": "enriched",
+    "card_id": 9063
+  },
+  "9064": {
+    "gloss": "Spark Hire's candidate boot camp explains one-way interviews with no reference to monitoring or identity checks",
+    "verbatim": "Spark Hire's \"Intro to One-Way Video Interviews for Candidates\" page (sparkhire.com, Candidate Boot Camp, live as of 2026) defines a one-way interview as a pre-recorded interview that \"enables job seekers to conveniently answer text or video-based interview questions on their own time via webcam or mobile app,\" and gives five employer reasons for using the format: replacing traditional phone screening, more efficiency in early-stage hiring at high application volume, reducing scheduling conflicts across time zones, lessening hiring bias through a standard question set, and evaluating communication style earlier. Across the whole candidate-facing explanation there is no mention of recording conditions being monitored, of any prohibition on notes or second screens, of identity verification, or of anything a reviewer would see about how the recording was made. The page's only security reference is a footer link to Spark Hire's \"Privacy & Security Policy.\"",
+    "source_urls": [
+      "https://www.sparkhire.com/candidates/intro-to-one-way-video-interviews/"
+    ],
+    "tag": "enriched",
+    "card_id": 9064
+  },
+  "9065": {
+    "gloss": "Spark Hire's self-description in its own 2026 buyer's guide lists no security or anti-fraud feature among its strengths",
+    "verbatim": "In its own guide \"The 6 Best Video Interview Software Providers in 2026\" (sparkhire.com, published 7 April 2025, last updated 16 April 2026), Spark Hire describes itself as \"trusted by over 7,000 organizations worldwide\" and lists its own key features as: one-way and live video interviews, unlimited video interviews on all plans, flexible scheduling tools with automated reminders and calendar integrations, integrations with over 40 ATS platforms plus Zapier and API options, and a personalized candidate experience with custom branding, intro and outro videos and closed captions. Its stated reviews are an average 4.8/5 on G2 for ease of use and customer service and a 4.7/5 candidate rating for flexibility and convenience. Pricing starts at $249/month billed annually. The page's own pros-and-cons table for Spark Hire lists five pros (unlimited interviews, intuitive interface, 24/7 customer service, ATS integrations and API, custom branding) and three cons (some advanced features require higher tiers, no free trial, and \"Limited storage on lower-tier plans\"). Neither the feature list nor the pros column contains any proctoring, identity verification, fraud detection or compliance capability. In the same guide, Spark Hire credits rival HireFlix with \"customizable settings for 'think time,' answer time, and retakes,\" the same three levers it offers itself.",
+    "source_urls": [
+      "https://www.sparkhire.com/video-interviews/best-software/"
+    ],
+    "tag": "enriched",
+    "card_id": 9065
+  },
+  "9066": {
+    "gloss": "Third-party account of Spark Hire's AI Video Review: six delivery factors, validated on 68,236 submissions, none about identity",
+    "verbatim": "The AceRound blog post \"How to Pass Your Spark Hire Interview: What the AI Scoring System Actually Checks\" (aceround.app, by Alex Chen, 15 May 2026) reports, citing Spark Hire's official AI Video Review documentation, that since August 2025 many employers have candidate videos scored by Spark Hire's AI before a recruiter watches. It states the system was \"validated on 68,236 candidate submissions and achieving over 90% accuracy against human ratings,\" and scores six dimensions: Communication, Execution, Comprehension, English Fluency, Enthusiasm and Motivation. The post says these scores are shown to recruiters alongside the video and push AI-highlighted responses to the top of the review queue, but do not replace human judgment. Its description of the recording flow gives think time of usually 30 to 60 seconds, a recording window typically 1 to 3 minutes per answer, and \"1-3 retakes, set by the employer.\" None of the six scored factors relates to identity, authenticity of the footage, or the candidate's environment during recording. Note on provenance: AceRound is a vendor selling AI interview assistance, and the same page advertises \"undetectable real-time answers\" for live interviews.",
+    "source_urls": [
+      "https://www.aceround.app/blog/spark-hire-interview-ai/"
+    ],
+    "tag": "enriched",
+    "card_id": 9066
+  },
+  "9067": {
+    "gloss": "Interview-copilot vendor states Spark Hire has no HireVue-style AI analysis layer and leaves the human reviewer as primary evaluator",
+    "verbatim": "FinalRound AI's guide \"One-Way Video Interview: How to Ace HireVue and Spark Hire\" (finalroundai.com, updated 17 August 2026) states that Spark Hire is used by more than 6,000 companies, including mid-size employers that cannot afford HireVue's enterprise pricing, and that \"Spark Hire does not offer the same AI analysis layer as HireVue, which means the human reviewer is the primary evaluator of your response.\" It contrasts the two: on Spark Hire, content quality and impression matter most; on HireVue, delivery mechanics also count, because HireVue's AI-assisted evaluation measures verbal content, vocal delivery (pace, tonal consistency, filler-word frequency), facial expression patterns including eye contact with the camera, and response coherence. It adds that facial expression analysis is configured per employer and is not universally enabled, and that companies operating in Illinois (where the AI Video Interview Act requires explicit candidate consent), California or the EU either disclose or disable the facial scoring component. The guide describes the shared flow of both platforms as a link, a preparation window of typically 15 to 60 seconds, and a recording of usually 2 to 3 minutes maximum, with retake allowances varying by employer. Note on provenance: FinalRound AI sells an \"Interview Copilot\" and related interview-assistance products.",
+    "source_urls": [
+      "https://www.finalroundai.com/blog/one-way-video-interview-guide"
+    ],
+    "tag": "enriched",
+    "card_id": 9067
+  },
+  "9068": {
+    "gloss": "A stealth-mode interview assistance vendor documents Spark Hire's format in detail and names no detection risk",
+    "verbatim": "Interview Sidekick's \"Spark Hire Interview Questions and Answers 2026\" (interviewsidekick.com, by Rishabh Jain, updated 8 July 2026) describes Spark Hire as used by more than 6,000 companies and sets out the mechanics: candidates record answers to pre-set questions with no interviewer present; \"Spark Hire lets candidates redo their answers several times\"; most interviews allow 2 to 3 minutes per question, with some employers setting as low as 1 minute or as high as 5; a countdown runs on screen and recording stops automatically when time runs out; candidates typically get 30 seconds of think time before recording starts; and \"Most employers allow 1 to 3 retakes per question, though some allow unlimited and a few allow none,\" with the retake limit usually shown at the start of the interview. Its advice includes using Spark Hire's test recording feature and that \"a few bullet points on a sticky note next to your camera is fine, but never a full script,\" the stated reason being that recruiters can tell, not that the platform detects it. The page names no monitoring, lockdown or detection mechanism anywhere. Note on provenance: the site's own navigation sells a \"Coding Copilot,\" a \"Stealth Mode\" and a desktop app for interview assistance.",
+    "source_urls": [
+      "https://interviewsidekick.com/blog/spark-hire-interview-questions"
+    ],
+    "tag": "enriched",
+    "card_id": 9068
+  },
+  "9069": {
+    "gloss": "Candidate-guide account: on Spark Hire the first take is usually what gets reviewed, and retakes depend on employer settings",
+    "verbatim": "The Interview Guys' \"Top 10 Spark Hire Interview Questions and Answers for 2026\" (blog.theinterviewguys.com, reviewed and edited by Mike Simpson, 19 June 2026) describes Spark Hire as a video interview platform \"used by more than 6,000 companies to screen job candidates before moving them into live interviews.\" It tells candidates that in the one-way format \"you control when you sit down, what your background looks like, and how many takes you use (if retakes are enabled),\" and that \"Your first take is usually what gets reviewed.\" It notes think time of 30 seconds before recording. The guide describes no restriction on the candidate's environment during recording and no monitoring of the recording session.",
+    "source_urls": [
+      "https://blog.theinterviewguys.com/spark-hire-interview-questions/"
+    ],
+    "tag": "enriched",
+    "card_id": 9069
+  },
+  "9070": {
+    "gloss": "Hireflix's own FAQ: candidates need no app, no account and no registration to record an interview",
+    "verbatim": "Hireflix's homepage (hireflix.com, page dated 2026 in its footer as \"2026 © Hireflix S.L.\") states in its FAQ: \"Yes, candidates can complete their video interview experience using any device with a camera and internet connection, such as a smartphone, tablet, or computer. Candidates do not need to download any apps or register anywhere.\" A customer testimonial on the same page repeats the point as a selling point: \"Seamless candidate experience. No signups. No downloads. Works in all devices.\" The page markets the product entirely on screening speed (\"No more scheduling\", \"More candidates in less time\", \"Share recorded interviews\", \"Integrated with your ATS\", \"Great candidate experience\") and contains no mention of proctoring, identity verification, ID document checks, face matching, retake limits, tab-switch or browser-focus monitoring, device or IP logging, multiple-face detection, or any other anti-cheating signal. The only security claim anywhere on the page is a footer line: \"We are SOC 2 compliant.\" Hireflix also states its deliberate scope on the same page: \"At Hireflix we focus on one thing and one thing only - delivering the world's most user-friendly one-way interviews. Other video interviewing tools branch into different areas of the interview process like live interviews, candidate assessments, and interview scheduling. We don't sacrifice quality to have all the extra bells & whistles.\" On response length it says only that an employer can set a time limit per question.",
+    "source_urls": [
+      "https://hireflix.com/"
+    ],
+    "tag": "enriched",
+    "card_id": 9070
+  },
+  "9071": {
+    "gloss": "Hireflix's security announcement lists SSO, auto-deletion and access logs as its full security feature set, with no anti-cheating features",
+    "verbatim": "Hireflix's own blog post \"Hireflix - SOC 2 compliant one-way video interviews\", written by co-founder and CEO Antonio Gonzalez and published 23 June 2022, states that Hireflix \"became SOC 2 Type I compliant in May 2022\" and that it had \"been GDPR compliant for years now\". SOC 2 is the Service Organization Control 2 standard set by the American Institute of Certified Public Accountants (AICPA), awarded by outside auditors against one or more of five trust principles (Security, Privacy, Availability, Processing Integrity and Confidentiality); the post says certification \"takes several months\". The post then enumerates what Hireflix offers on security: \"Hireflix also offers SSO, automatic data deletion, access and usage logs... basically all the security features needed for world class one-way video interviewing.\" That list is the complete set named. Nothing in the post refers to candidate identity verification, ID document checks, face match, proctoring, browser lockdown, retake tracking, tab-switch or focus monitoring, or deepfake and proxy-candidate detection. Note the certification named is SOC 2 Type I, which assesses controls at a point in time, not Type II.",
+    "source_urls": [
+      "https://hireflix.com/blog/soc2-compliant-one-way-video-interview-software/"
+    ],
+    "tag": "enriched",
+    "card_id": 9071
+  },
+  "9072": {
+    "gloss": "Hireflix's privacy policy sets no retention period for interview recordings and makes the employer, not Hireflix, the controller of them",
+    "verbatim": "The Hireflix Privacy Policy for Users (hireflix.com/en/privacy-policy-users), published by HIREFLIX, S.L. of Travessera de Gracia, 15, 08021 Barcelona, Spain, gives retention periods only for the account holder's own data, not for candidate video. It states that account-creation data is \"retained until the data subject withdraws the consent given for the creation of his or her account and, after that, for the legally stipulated periods of retention and prescription of liabilities\", and that enquiry data is kept until the query is answered plus the same legally stipulated periods. No number of days, months or years appears anywhere in the policy. On the recordings themselves, the policy places Hireflix in the processor role: \"HIREFLIX will be considered as the data processor of all personal data uploaded by both Users and candidates (interviewees) to the HIREFLIX software\", and it undertakes to process that data \"only on instructions from the User\". Deletion is likewise tied to the customer's instruction and the end of the contract: clause (g) says Hireflix will, \"Unless Users indicate otherwise, delete all personal data upon termination of the provision of the Services, as well as delete existing copies, unless the retention of personal data is required by Union or Member State law\". Other stated commitments: measures under GDPR Article 32, confidentiality obligations on authorised staff, no sub-processing without prior authorisation, assistance with data-subject rights communicated by email no later than the working day after receipt, and notification of any personal data breach by email \"without undue delay and, in any event, within a maximum period of 48 hours\". Hireflix has appointed a Data Protection Officer, contactable at dpd@hireflix.com. Some processors may sit outside the European Economic Area with safeguards adopted in advance. The policy contains no reference to proctoring, identity checks, device or IP data collection during interviews, or any anti-cheating monitoring.",
+    "source_urls": [
+      "https://hireflix.com/en/privacy-policy-users"
+    ],
+    "tag": "enriched",
+    "card_id": 9072
+  },
+  "9073": {
+    "gloss": "Hireflix's RecruiterFlow guide: completed interviews are watchable via a link with no Hireflix login, and that link expires in 75 days",
+    "verbatim": "Hireflix's own help centre article \"Integrating with RecruiterFlow: Setup and guide\" (help.hireflix.com, credited to Antonio, marked updated 3 years ago) documents how completed interviews are reviewed: once a candidate finishes, a link is automatically copied to the candidate profile in RecruiterFlow and tagged \"Hireflix Interview Done\", and \"You will be able to click the link and watch the interview straight away, without the need to login into Hireflix. That link expires in 75 days.\" The 75-day figure is an expiry on the shared viewing link inside the ATS, not a stated deletion date for the recording itself. The article also documents workflow mechanics with no integrity or identity component: invites launch 6 to 7 minutes after a candidate is moved to the trigger stage, a candidate can be invited to a given interview only once but can be invited to two different interviews, and Advanced Settings cover forcing a phone country code for SMS and WhatsApp, toggling tags, and choosing a progression stage. No identity verification, login requirement for candidates, or monitoring signal is described anywhere in the setup.",
+    "source_urls": [
+      "https://help.hireflix.com/article/4l0ko3thn4-integrating-with-recruiterflow-setup-and-guide"
+    ],
+    "tag": "enriched",
+    "card_id": 9073
+  },
+  "9074": {
+    "gloss": "Hireflix's BambooHR guide: each finished interview produces one link that needs no login at all",
+    "verbatim": "Hireflix's help centre article \"Integrating with BambooHR: Setup and guide\" (help.hireflix.com, by Daniel Limia Aspas, marked updated 2 years ago) describes how finished recordings are distributed: when a candidate completes an interview their BambooHR status changes from \"Hireflix Interview Pending\" to \"Hireflix Interview Done\", and \"You will find two links to that candidate's video response in their 'Notes' section. One of the links you can access without the need to login! The other is permanent but you will need to be logged into Hireflix to be able to watch the interview.\" So one of the two links to a candidate's recorded video is explicitly accessible with no authentication. The article also notes that only applicants with an email address are invited, that SMS requires a country prefix on the phone number, that status changes can take up to 8 minutes to propagate, and that Hireflix cannot invite the same email twice to the same position. It documents no identity step, no login requirement for the candidate, and no monitoring or anti-cheating signal of any kind.",
+    "source_urls": [
+      "https://help.hireflix.com/article/002m9ryeve-integrating-with-bamboo-hr-sync-positions-and-add-hireflix-stage-to-bamboo-hr-applicants"
+    ],
+    "tag": "enriched",
+    "card_id": 9074
+  },
+  "9075": {
+    "gloss": "An employer running Hireflix interviews has to write its own recording notice, and states retention only as \"a limited period\"",
+    "verbatim": "Staffing firm Bowman Williams published a candidate-facing page titled \"Video Interview Recording: Notice & Privacy Disclaimer\", dated 29 January 2026, to sit in front of its recorded interviews. It names the platform explicitly: \"We use Hireflix to host and facilitate recorded video interviews. Hireflix processes and stores your recorded interview on our behalf as a service provider. Your interview is accessed and used under our direction for the purposes described above.\" The notice is written and hosted by the employer, not surfaced by the platform. Its retention section gives no period at all: \"We retain recorded interviews for a limited period consistent with our recruiting and recordkeeping practices. In general, recordings may be retained to support hiring decisions, maintain a record of the selection process, and consider candidates for future opportunities. If you would like your recording deleted sooner, you may request deletion at any time using the contact information below.\" Deletion runs through a named person by email (Mark Hammond, Director of Operations, mhammond@bowmanwilliams.com) rather than any in-product control. The notice tells candidates that \"Participation in a recorded interview is voluntary\" and that they may contact the firm \"to discuss whether an alternative method of completing this step is available\". Nothing in the notice mentions identity verification, proctoring, or monitoring of the candidate during recording.",
+    "source_urls": [
+      "https://bowmanwilliams.com/video-interview-recording-notice-privacy-disclaimer/"
+    ],
+    "tag": "enriched",
+    "card_id": 9075
+  },
+  "9076": {
+    "gloss": "G2's 2026 roundup credits rival tools with proctoring and integrity controls but describes Hireflix purely as volume screening",
+    "verbatim": "G2's roundup \"8 Best Video Interviewing Tools I Recommend for HRs in 2026\" by Soundarya Jayaraman, published 5 June 2026 and built from a shortlist of 15+ tools, over 1,000 G2 reviews and the Summer 2026 Grid Report, lists Hireflix One-Way Video Interviewing at $150/month as \"Best for high-volume one-way screening\", summarised as: \"Record questions once, send to unlimited candidates, and review responses on your own schedule with no coordination needed.\" No integrity, proctoring or identity feature is attributed to Hireflix anywhere in its entry. By contrast the same list names those capabilities explicitly for other vendors: AI Interviewer at $99/month \"Runs one-way and two-way AI interviews, coding assessments, and proctoring from a single platform\", and HackerRank Developer Skills Platform at $199/month \"Combines realistic coding challenges, AI-led technical interviews, and integrity controls built for engineering-focused teams.\" The author frames candidate integrity as one of the questions HR teams ask constantly, alongside \"How do I know if a candidate is genuinely answering or using AI to cheat?\", and recounts a candidate who joined with an AI note-taker transcribing every word and another \"clearly getting real-time help from an AI assistant mid-conversation\". Other pricing given: Willo $279/month, Spark Hire $299/month, Metaview $60/month, Braintrust AIR and Indeed Hiring Platform on custom pricing. G2 data cited in the piece also puts average ROI on video interviewing software within nine months of adoption, with adoption for scale strongest among small businesses (43%) and mid-market teams (36%), and 21% of enterprise users adopting for consistency in high-volume recruitment.",
+    "source_urls": [
+      "https://learn.g2.com/best-video-interviewing-software"
+    ],
+    "tag": "enriched",
+    "card_id": 9076
+  },
+  "9077": {
+    "gloss": "NYC Local Law 144 bans AEDT use without a bias audit within one year, public posting, and candidate notice; DCWP enforcement began 5 July 2023",
+    "verbatim": "New York City's Department of Consumer and Worker Protection states that Local Law 144 of 2021 prohibits employers and employment agencies from using an automated employment decision tool (AEDT) unless three conditions are met: the tool has been subject to a bias audit within one year of the use of the tool, information about the bias audit is publicly available, and certain notices have been provided to employees or job candidates. DCWP began enforcement of the law and its rule on 5 July 2023. The agency runs a complaint channel for reporting an employer or employment agency that used an AEDT but did not make sure the required bias audit was done, did not post a summary of the results of the bias audit, or did not give the required notices; no account is needed to file. DCWP held educational roundtables on Local Law 144 in May 2023 (with business advocates/employers on 22 May, civil/worker rights advocates on 24 May, and audit industry stakeholders on 25 May), and in June 2023 revised its presentation slides to clarify that the notice must be provided 10 business days prior to use of an AEDT.",
+    "source_urls": [
+      "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page"
+    ],
+    "tag": "enriched",
+    "card_id": 9077
+  },
+  "9078": {
+    "gloss": "The AEDT definition under NYC LL144: a tool that scores, classifies or ranks candidates and substantially assists or replaces discretionary decision-making",
+    "verbatim": "Law firm Akerman LLP (blog post dated 20 June 2023) explains that the NYC AEDT Law became effective 1 January 2023, with enforcement starting 5 July 2023, and that it bans employers from using AI tools unless they have first submitted to an independent bias audit within a year of use. Under the NYC law, an AEDT is defined as any tool that applies artificial intelligence to \"substantially assist or replace discretionary decision making\" of an employer, such that it does any of the following: (i) scores, classifies or ranks job applicants or employees based on only one factor; (ii) gives more weight to a simplified output as one set of criteria; or (iii) uses a simplified output to overrule conclusions derived from human decision-making or other factors. Common examples given are resume scanners that prioritise applications using certain keywords, \"virtual assistants\" or chatbots that ask candidates about qualifications and reject those who do not meet pre-defined requirements, and monitoring software that rates employee performance on keystrokes or other predetermined factors. The AEDT Law only applies to employers with applicants and employees in NYC, but Akerman notes the EEOC has stated in its ADA and Title VII guidance that it will hold all employers liable for violations of equal employment laws even when using third-party AEDTs, so employers outside NYC should still consider running bias audits.",
+    "source_urls": [
+      "https://www.akerman.com/en/perspectives/hr-def-bias-beware-automated-employment-decision-tools-in-the-workplace.html"
+    ],
+    "tag": "enriched",
+    "card_id": 9078
+  },
+  "9079": {
+    "gloss": "What a LL144 bias audit must calculate: selection rate, impact ratio, and separate results for gender, ethnicity, race and intersectional categories",
+    "verbatim": "Akerman LLP (20 June 2023) sets out the minimum contents of a bias audit under NYC's AEDT Law. Employers must obtain an independent audit of their AEDT within a year of use and make the results publicly available on their websites, and must notify applicants and employees who reside in NYC of the use of an AEDT and the process for requesting an alternative selection process or reasonable accommodation 10 days before using the AEDT. The audit must, at a minimum: calculate the selection rate for each category, by dividing the number of individuals in the category moving forward or assigned a classification by the total number of individuals in that category who applied or were considered for promotion; calculate the impact ratio for each category, being either the selection rate for a category divided by the selection rate of the most selected category, or the scoring rate for a category divided by the scoring rate for the highest scoring category; separately calculate the impact of the AEDT on gender, ethnicity, and race, and on intersectional categories of sex, ethnicity and race; perform those calculations for each group; and indicate the number of individuals the AEDT assessed who are not included in the required calculations because they fall into an unknown category. The auditor must be independent: a person is not independent if they were involved in using, developing or distributing the AEDT, or have or had an employment or financial relationship with the employer using the AEDT or with the vendor developing or distributing it.",
+    "source_urls": [
+      "https://www.akerman.com/en/perspectives/hr-def-bias-beware-automated-employment-decision-tools-in-the-workplace.html"
+    ],
+    "tag": "enriched",
+    "card_id": 9079
+  },
+  "9080": {
+    "gloss": "LL144 audits are annual, the employer (not the vendor) must arrange them, and penalties run $500 first violation / $1,500 each subsequent, per day, uncapped",
+    "verbatim": "Purdue Global Law School (published 3 January 2024) explains that NYC Local Law 144 defines an AEDT as \"any computational process, derived from machine learning, statistical modeling, data analytics, or artificial intelligence, that issues simplified output, including a score, classification, or recommendation, that is used to substantially assist or replace discretionary decision making\", and notes that software which merely scans resumes without screening them would not qualify. The law requires that AEDTs undergo a bias audit no more than one year before use and at least annually thereafter. The audit must calculate the selection rate for the race/ethnicity and sex categories in the EEOC's EEO-1 Report, and the impact ratio for each category (the average score for individuals in the category divided by the average score of individuals in the highest-ranking category). Crucially, the employer, not the AEDT's developer, must arrange for the bias audit, and it must be conducted by an independent auditor with no affiliation with the employer, vendor or distributor, using historical data collected by the AEDT during use (test data or another employer's historical data may be used if the auditor finds the data statistically insufficient). Employers must publish the date and results of the most recent bias audit conspicuously in the careers or jobs section of their website, 10 days before the AEDT is used and for at least six months after last use, and must give candidates at least 10 business days' notice that an AEDT will be used, including the attributes it will assess and how to request an accommodation or alternative process. Coverage triggers when the job is located in a NYC office at least part-time, the job is fully remote but associated with a NYC office, or the employment agency using the AEDT is located in NYC. Penalties are up to $500 for a first violation and up to $1,500 for each subsequent violation, with each day of use counting as a violation and each failure to give notice counting separately; there is no cap. The article also notes that LL144 does not force employers to stop using an AEDT if bias is found, nor does it require compliance with the EEOC's 80% rule, though the EEOC has said an employer may violate Title VII if the AEDT breaches that rule. It cites an estimate that more than 80% of employers are using some type of AEDT, and notes Illinois and Maryland have passed AI hiring laws while California, New Jersey, New York, Vermont and Washington, D.C. have introduced similar bills.",
+    "source_urls": [
+      "https://www.purduegloballawschool.edu/blog/news/automated-employment-decision-tools"
+    ],
+    "tag": "enriched",
+    "card_id": 9080
+  },
+  "9081": {
+    "gloss": "Holistic AI on the NYC bias audit mechanics: impact ratios, binarised scoring rate for continuous scores, the 2% subgroup exclusion, and self-reported-only demographics",
+    "verbatim": "Holistic AI (article by Airlie Hilliard, 10 July 2023) details the NYC bias audit rules. Enforcement of the law, originally due to take effect 1 January 2023, was first delayed to 15 April 2023 after a high volume of comments on DCWP's proposed rules, and a final enforcement date of 5 July 2023 was announced; DCWP published FAQs at the end of June 2023, a few business days before final enforcement. A bias audit is defined as an impartial evaluation of an AEDT by an independent auditor, which should include assessing for disparate impact against category 1 protected characteristics (race/ethnicity and sex/gender at minimum). Employers must publish a summary of the audit on their website if using AEDTs to assess candidates residing in New York City and must inform them of the key features of the tool before using it. Impact ratios are calculated by dividing the subgroup selection rate or average score by that of the highest group; for AEDTs producing a continuous score, the updated rules binarise scores using a pass/fail criterion based on whether they fall above or below the median score of the sample, giving a \"scoring rate\". Required categories are: sex (male/female); race/ethnicity (Hispanic or Latino, White, Black or African American, Native Hawaiian or Pacific Islander, Asian, Native American or Alaska Native, Two or more races); and intersectional categories of sex and ethnicity or race. This demographic data cannot be inferred or computed for the purpose of the audit, it must be self-reported. The adopted rules let auditors exclude groups representing less than 2% of the sample, provided the exclusion is justified and the number of applicants and the scoring or selection rate for that category are included in the results. Where historical data is insufficient for a statistically significant audit, test data may be used if the reason is stated in the summary of results. Local Law 144 sets out audit requirements but does not require any action if the audit indicates bias. An independent auditor must exercise objective and impartial judgement and is not independent if they were involved in using, developing or distributing the AEDT, or during the audit have an employment relationship with the employer/employment agency or the vendor, or a direct or material indirect financial interest in either.",
+    "source_urls": [
+      "https://www.holisticai.com/blog/10-things-about-nyc-bias-audit"
+    ],
+    "tag": "enriched",
+    "card_id": 9081
+  },
+  "9082": {
+    "gloss": "EU AI Act: recruitment AI is high-risk under Annex III Section 4, and a vendor's provider compliance does not discharge the employer's deployer duties",
+    "verbatim": "HeyMilo (article by Rachel Valentino, 11 February 2026, updated April 2026) explains that the EU AI Act entered into force on 1 August 2024 and sorts AI systems into four risk levels: unacceptable, high, limited and minimal. AI systems used for recruitment and employment decisions fall squarely in the high-risk category under Annex III, Section 4, covering resume screening, candidate ranking, AI-powered interview agents, performance evaluation, promotion decisions, task allocation and termination. The law applies to any organisation whose AI outputs affect people in the EU, regardless of where the company is headquartered. The article lists seven obligations for high-risk recruitment AI by article: Risk Management (Article 9), a maintained system identifying and mitigating risks including bias and discrimination across the lifecycle; Data Governance (Article 10), training and evaluation data must be relevant, representative and free of errors that could produce discriminatory outcomes; Technical Documentation (Article 11), detailed records of how the system works, what data it uses and how it was validated, kept current; Record-Keeping (Article 12), automatic event logging so that if a candidate is rejected or ranked the reasoning is retrievable for audits or complaints; Transparency (Article 13), candidates must be informed when AI is part of the process; Human Oversight (Article 14), AI tools cannot make hiring decisions autonomously and a human must review rankings before a final decision; and Accuracy and Robustness (Article 15), consistent performance with monitoring for degradation and unintended outputs. It draws the provider/deployer distinction: the company that builds the tool is the provider, the company that uses it is the deployer, employers are deployers, and a vendor's compliance with provider obligations does not fulfil the employer's deployer obligations, with both parties carrying independent legal responsibility.",
+    "source_urls": [
+      "https://www.heymilo.ai/blog/how-the-eu-ai-act-changes-recruitment-and-what-employers-need-to-know"
+    ],
+    "tag": "enriched",
+    "card_id": 9082
+  },
+  "9083": {
+    "gloss": "EU AI Act phase-in dates as of April 2026, including AI literacy from 2 February 2026",
+    "verbatim": "HeyMilo (11 February 2026, updated April 2026) gives the EU AI Act's phased timeline as it stood in April 2026. Already in effect: 1 August 2024, the Act entered into force; 2 February 2025, banned AI practices became enforceable, which in the employment context includes emotion recognition systems in workplaces and biometric categorisation systems that infer protected characteristics such as race, political opinions or sexual orientation; 2 August 2025, Member States were required to designate national market surveillance and enforcement authorities; 2 February 2026, AI literacy obligations took effect, requiring organisations deploying AI to ensure staff have sufficient understanding of the systems' capabilities, limitations and risks. Coming next: 2 August 2026, full enforcement of high-risk AI rules begins, described as the critical deadline for EU AI Act recruitment compliance, when all AI systems used in hiring and employment must meet the full set of obligations under Articles 9 through 15.",
+    "source_urls": [
+      "https://www.heymilo.ai/blog/how-the-eu-ai-act-changes-recruitment-and-what-employers-need-to-know"
+    ],
+    "tag": "enriched",
+    "card_id": 9083
+  },
+  "9084": {
+    "gloss": "Truffle's EU AI Act guide: banned hiring features from 2 Feb 2025, high-risk crunch 2 Aug 2026, fines to €35M or 7% of global turnover",
+    "verbatim": "Truffle (Field Notes article by Rachel Hubbard, February 2026, updated April 2026) summarises the EU AI Act for hiring teams. The Act reaches any organisation whose AI is placed on the EU market or whose outputs are used in the EU, including non-EU companies hiring remotely into the EU, and treats tools that shortlist CVs, rank candidates or score interviews as high-risk. Four recruiting uses became outright prohibited on 2 February 2025 and must stop immediately: emotion recognition in workplaces (for example reading facial expressions or voice tone in interviews); biometric categorisation that infers protected traits such as race, political views or sexual orientation; social scoring of people's trustworthiness or suitability based on broad personal or online behaviour; and harmful manipulation that materially distorts behaviour and causes likely harm. The Act also bans untargeted scraping of facial images for recognition databases. High-risk covers AI used for recruitment, candidate screening and ranking, interview analysis, skills testing, performance prediction and related HR decisions, with obligations including risk management, data governance, documentation, accuracy/robustness, human oversight and CE marking before market placement, registration of high-risk systems in the EU database, post-market monitoring and incident reporting, and informing affected people plus a separate duty to inform workers before using high-risk AI at the workplace. The timeline given is: 1 August 2024, entry into force; 2 February 2025 (6 months), bans apply and AI literacy obligations start; 2 August 2025 (12 months), general-purpose AI model obligations start; 2 August 2026 (24 months), core obligations for Annex III high-risk systems including employment apply, described as the big hiring deadline; 2 August 2027 (36 months), extended date for high-risk AI embedded in regulated products. From August 2026, deployers (employers) need clear explanations of the AI's role and logic in decisions available to affected persons, records showing who reviewed AI-assisted decisions and what factors were considered beyond the AI's output, and use of provider information to complete a GDPR DPIA where applicable. Maximum fines reach €35 million or 7% of global annual turnover for prohibited uses, with other breaches at €15 million or 3%, enforced by member-state authorities. The Act sits alongside GDPR rather than replacing it, and GDPR Article 22 restricts solely automated decisions with legal or similarly significant effects, such as automatic rejections, unless strict conditions and safeguards, typically meaningful human involvement, are met.",
+    "source_urls": [
+      "https://www.hiretruffle.com/blog/eu-ai-act-hiring"
+    ],
+    "tag": "enriched",
+    "card_id": 9084
+  },
+  "9085": {
+    "gloss": "The Digital Omnibus moved high-risk hiring AI obligations from 2 Aug 2026 to 2 December 2027, six days before the original deadline",
+    "verbatim": "Jobful (article dated 20 August 2026) reports that the EU AI Act's high-risk hiring obligations were deferred. On 27 July 2026 the Digital Omnibus entered into force and pushed the high-risk obligations for hiring AI back from 2 August 2026 to 2 December 2027, six days before the original deadline would have landed. The package was published in the Official Journal on 24 July 2026, approved by the European Parliament on 16 June 2026 by 423 votes to 57, and given final green light by the Council of the EU on 29 June 2026. Citing law-firm analyses from Gibson Dunn and DLA Piper, the article says the deferral covers standalone Annex III systems including the employment category, while AI embedded in products already governed by EU product-safety law (Annex I) moves to 2 August 2028. It quotes the Cloud Security Alliance's framing that the deadline is deferred, not cancelled, the obligations are unchanged and only the clock moved, and warns the deferral is reversible. A status table sets out what still binds: prohibited practices (Article 5), in force from 2 February 2025, including the ban on emotion-recognition systems in the workplace, relevant to some video-interview tools; general-purpose AI provider duties, in force from 2 August 2025; transparency duties (Article 50), in force from 2 August 2026, requiring you to tell people when they interact with AI such as a chatbot screener and to label AI-generated content; and high-risk obligations (Annex III, Articles 9 to 15) covering risk management, human oversight, logging and worker notice, deferred to 2 December 2027. Fines: deployer breaches of high-risk duties can cost €15M or 3% of global turnover, and using a banned practice €35M or 7%. Under Annex III point 4, hiring AI is high-risk when used to place targeted job advertisements, filter or analyse applications, evaluate or rank candidates, or make decisions on employment terms, promotion, task allocation or termination, and the article states explicitly that a video-interview product that scores responses is in scope; the trigger is the use in an employment context, not the vendor's marketing label. Four deployer duties are listed: human oversight, where a named person must be able to understand, override and stop the system and a recruiter rubber-stamping a ranked list is not oversight; candidate and worker notice, informing people affected by a high-risk system and informing workers before deploying one in the workplace; logging and record-keeping, keeping the system's automatically generated logs so decisions can be reconstructed and audited; and monitoring for discrimination, watching outcomes for bias, following the provider's instructions for use and ensuring input data is relevant and representative. These duties come from Articles 26 and 29 and the European Commission's draft guidance on high-risk classification in employment. GDPR Article 22 still limits solely automated decisions with legal or similarly significant effects, and a hiring rejection qualifies. The Act reaches any employer whose AI affects candidates in the EU, wherever the company is headquartered.",
+    "source_urls": [
+      "https://jobful.io/resources/post/eu-ai-act-hiring-compliance"
+    ],
+    "tag": "enriched",
+    "card_id": 9085
+  },
+  "9086": {
+    "gloss": "Video interview platforms that score responses are named as high-risk; emotion recognition in interviews is prohibited outright, not merely high-risk",
+    "verbatim": "Axipro (article by Pedro Dias, 12 August 2026) states that Annex III, point 4 of the EU AI Act designates as high-risk any AI system intended for the recruitment or selection of natural persons, including placing targeted job advertisements, analysing and filtering applications, and evaluating candidates, and covers AI used for decisions on promotion, termination, task allocation and monitoring of workers. In practice the classification captures CV and resume screeners that rank or filter applicants, video interview platforms that score responses or delivery, psychometric and skills assessment tools producing scores that feed a hiring decision, sourcing and matching algorithms deciding which candidates a recruiter sees, and programmatic job ad targeting. The original compliance date was 2 August 2026; in June 2026 the EU's Digital Omnibus moved the deadline to 2 December 2027, a 16-month extension. The article stresses that emotion recognition in the workplace is not high-risk but prohibited under Article 5, applying since 2 February 2025 with the Act's top penalty tier attached, and says that if a video interview vendor markets \"engagement scoring\" or \"sentiment analysis\" of candidates, that feature needs to be switched off for EU hiring now, not in 2027. Some tools fall outside high-risk: the Act carves out systems performing narrow procedural tasks that do not materially influence decision outcomes, such as an applicant tracking system that stores applications, schedules interviews and sends templated emails, tools that transcribe interviews without scoring them, deduplicate candidate records, or draft job descriptions for a human to edit. The line is decision influence: the moment a tool ranks, scores, filters or recommends candidates it crosses into Annex III territory, and deployers relying on an exemption must be able to document that assessment on paper. On scope, the Act covers providers placing systems on the EU market and deployers established in the EU, and also reaches providers and deployers outside the EU where the output is used in the EU, so a US or UK company with no EU entity that screens applicants for roles in Berlin or Dublin is in scope, and Brexit does not move UK employers out of scope when they hire into or from the EU. One trap noted: an employer that substantially modifies a high-risk system or puts its own name on it can be reclassified as a provider and inherit the full provider obligations, and heavy customisation of a screening model or fine-tuning it on your own hiring data can be enough to trigger this.",
+    "source_urls": [
+      "https://axipro.co/eu-ai-act-recruitment-tools/"
+    ],
+    "tag": "enriched",
+    "card_id": 9086
+  },
+  "9087": {
+    "gloss": "The European Commission's own AI Act page dates high-risk obligations to 2 December 2027 and transparency rules to August 2026",
+    "verbatim": "The European Commission's official AI Act page (digital-strategy.ec.europa.eu) describes Regulation (EU) 2024/1689 as the first comprehensive legal framework on AI, setting risk-based rules for developers and deployers. It lists nine prohibited practices, including emotion recognition in workplaces and education institutions, biometric categorisation to deduce certain protected characteristics, social scoring, harmful AI-based manipulation and deception, and untargeted scraping of the internet or CCTV material to create or expand facial recognition databases. Prohibitions 1 to 8 became effective in February 2025; prohibition 9 (AI systems generating non-consensual sexually explicit content or CSAM) comes into effect in December 2026 and was introduced as part of the AI Omnibus. High-risk use cases include AI tools for employment, management of workers and access to self-employment, giving CV-sorting software for recruitment as the example, alongside AI systems used for remote biometric identification, emotion recognition and biometric categorisation. The page states that starting on 2 December 2027, high-risk AI systems will be subject to strict obligations before they can be put on the market: adequate risk assessment and mitigation systems, high-quality datasets to minimise risks of discriminatory outcomes, logging of activity to ensure traceability of results, detailed documentation providing all information necessary on the system and its purpose for authorities to assess compliance, clear and adequate information to the deployer, appropriate human oversight measures, and a high level of robustness, cybersecurity and accuracy. Separately, transparency-risk rules requiring that humans be informed when they interact with AI systems such as chatbots, that providers of generative AI ensure AI-generated content is identifiable, and that deep fakes and text published to inform the public on matters of public interest be clearly and visibly labelled, come into effect in August 2026. In practice, once a system is on the market, authorities handle market surveillance, deployers ensure human oversight and monitoring, providers run post-market monitoring, and both providers and deployers report serious incidents and malfunctioning.",
+    "source_urls": [
+      "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    ],
+    "tag": "enriched",
+    "card_id": 9087
+  },
+  "9088": {
+    "gloss": "Deployer duties spelled out for staffing and recruitment: Article 26(7) worker notice, Article 86 explanation rights, and a six-month log retention minimum",
+    "verbatim": "The EU Artificial Intelligence Act information site artificialintelligenceact.eu (guide for staffing businesses, published 17 March 2026 and updated August 2026 in light of the EU Digital Omnibus) sets out deployer obligations for employment AI. Under Regulation 2024/1689, AI systems used in employment decisions are high-risk, covering recruitment, selection, targeted job advertising, candidate evaluation, performance monitoring, and certain decisions about compliance, contract terms or termination. The date by which staffing businesses must comply is 2 December 2027, when the full suite of high-risk obligations becomes enforceable for Annex III systems including all employment-related AI. Obligations include mandatory risk assessments, technical documentation, bias testing, human oversight, transparency disclosures and continuous monitoring. Under Article 3, a \"deployer\" is any natural or legal person using an AI system under its authority, so if a firm selects, configures or relies on an AI tool to inform workforce decisions it is a deployer even if it did not build the technology and even if the platform vendor says compliance is theirs; obligations sit on both providers and deployers, and compliance cannot be passed to a technology partner any more than under GDPR. The Act has extraterritorial reach: if the output of the AI system is used in the EU or affects persons located in the Union, such as a candidate screened for a role in Berlin, a contractor evaluated in Dublin or a temp worker matched in Amsterdam, the regulation applies regardless of headquarters or hosting location. On oversight, Article 14 requires the people exercising oversight to detect and correct errors including discriminatory patterns, and a policy document alone does not satisfy this; no AI tool should make final placement, rejection or evaluation decisions without a qualified human in the loop. On notice, Article 26(7) requires informing workers' representatives and affected workers before deploying a high-risk AI system, which in staffing extends to candidates and contingent workers, and under Article 86 individuals subject to decisions made by high-risk AI systems can request an explanation of the main factors behind those decisions, so for high-volume recruitment the disclosure process must be operational and visible, not buried in a terms-of-service document. On data, deployers exercising control over input data must ensure it is relevant and representative. On records, deployers must keep logs generated by high-risk AI systems for at least six months, which combined with ongoing performance monitoring creates an operational infrastructure requirement. Since February 2025 certain practices have been prohibited, including biometric categorisation and emotion recognition in the workplace, and AI literacy obligations became effective though they have since been softened by amending legislation. National authorities have fining powers plus other enforcement powers such as withdrawing or recalling AI systems from the market.",
+    "source_urls": [
+      "https://artificialintelligenceact.eu/what-the-act-means-for-staffing-businesses/"
+    ],
+    "tag": "enriched",
+    "card_id": 9088
+  },
+  "9089": {
+    "gloss": "A vendor's own EU AI Act page: the employer is deployer and data controller, the vendor is processor, and the tool cannot make you compliant",
+    "verbatim": "Celper.ai's compliance page states that under the EU AI Act (Regulation (EU) 2024/1689), AI systems used in recruitment are classified as high-risk, which brings specific obligations for the employers that deploy them, and that deployer obligations become applicable on 2 August 2026. It notes a proposed \"Digital Omnibus\" could adjust the timing but says it is a proposal, not law, and advises treating 2 August 2026 as the date to plan for. Three provisions are highlighted: EU AI Act Article 14, meaningful human oversight, requiring high-risk AI to be designed so a person can understand its output, judge it and intervene rather than simply defer to it; GDPR Article 22, under which a candidate cannot be subject to a decision based solely on automated processing where it has a significant effect; and EU AI Act Article 99(6), which caps fines for SMEs and start-ups at the lower of the fixed amount or the percentage of turnover. The page is explicit on the split of responsibility: the employer is the deployer and data controller, the vendor is the processor, and the vendor \"cannot make you compliant on our own\" though the tooling is built to support the obligations the employer carries. Asked directly whether the product makes a customer compliant automatically, the FAQ answers \"No. As the employer you are the deployer and data controller responsible for compliance.\" Supporting measures listed are human-in-the-loop by default with the final hire/reject decision always sitting with a person, explainable reports carrying the AI's reasoning for every competency score so a reviewer can overrule it, EU data residency (Google Cloud / Firebase in Belgium and the Netherlands, encrypted in transit and at rest), and a Data Processing Agreement executed with every customer. The page repeatedly labels itself general information, not legal advice.",
+    "source_urls": [
+      "https://celper.ai/eu-ai-act-recruitment"
+    ],
+    "tag": "enriched",
+    "card_id": 9089
+  },
+  "9090": {
+    "gloss": "Practitioner commentary: LL144 bias audits already bite for NYC-based roles, and EEOC guidance does not shift liability from the employer to the AI vendor",
+    "verbatim": "A LinkedIn post by MeritHyre (a company page with 26 followers, posted roughly a week before capture) argues recruiting AI regulation is not theoretical: NYC Local Law 144 already requires bias audits for automated employment decision tools used on NYC-based roles, with public disclosure requirements for employers using them, and it states that under LL144 specifically this is already a problem today for NYC-based roles. It says EEOC guidance has made a clear statement that AI tools do not shift liability away from the employer, so if an AI screening tool produces a disparate impact that remains the employer's legal exposure, and that the EU AI Act classifies employment-related AI systems as high-risk, bringing mandatory risk assessments, documentation and human oversight requirements for any organisation hiring in the EU. It proposes three evaluation questions for compliance: whether you can produce a full audit trail for every automated decision on demand, whether the exact same criteria are applied to every candidate, documented and consistent, and whether a human makes the final call with the AI's reasoning visible to them rather than hidden in a black box. A separate post on the same page from BrightMove (857 followers) says the EU AI Act's compliance deadline for high-risk AI in employment decisions was set for 2 August 2026 and moved to December 2027, a sixteen-month extension finalised by EU lawmakers in June, while employment AI remains classified as high-risk under Annex III and the core deployer obligations around transparency, human oversight and data governance are unchanged: \"The deadline moved. The underlying standard for how AI can be used in recruiting and employment decisions did not.\" Another post, from Lucuma Shortlist, adds that from 2 August 2026 the AI Act's transparency duties and staff AI-literacy requirements apply, while the heavier obligations for high-risk recruitment AI were pushed back to December 2027 under the recent Omnibus.",
+    "source_urls": [
+      "https://www.linkedin.com/posts/brightmove-ats_the-eu-ai-acts-compliance-deadline-for-high-risk-activity-7490406427329634305-w5xW"
+    ],
+    "tag": "enriched",
+    "card_id": 9090
+  },
+  "9091": {
+    "gloss": "Talview archives all platform videos 90 days after creation, with a 2-business-day retrieval wait",
+    "verbatim": "Talview's own Q4 2020 product update announcement (talview.com, Product Updates Q4-2020) states a change to its video data lifecycle: all videos on the platform created at least 90 days ago are archived. This covers Proview processed videos, Live processed videos and Async processed videos. Once archived, a video is no longer directly accessible: any retrieval request takes at least two business days, after which the user can access the video, and the retrieval must be started by raising a support ticket. This is a vendor-set lifecycle applied platform-wide, announced by Talview rather than configured by the employer.",
+    "source_urls": [
+      "https://www.talview.com/product-updates-q4-2020"
+    ],
+    "tag": "enriched",
+    "card_id": 9091
+  },
+  "9092": {
+    "gloss": "Talview's ID Verification captures images of both the candidate and their ID document, and says it keeps them encrypted",
+    "verbatim": "Talview's own ID Verification product page (talview.com/en/id-verification, live 2026) describes how identity data is handled. The process prompts the test-taker to present a government-issued identification document (passport, national ID card or driver's licence) in front of the webcam; the system captures images of both the test-taker and their ID document, then advanced algorithms or manual checks compare the document details against the real-time image and the information on file. On storage, the page's FAQ states that personal information and document images are encrypted and transmitted securely, that access to this data is strictly controlled, and that it is used solely for the purpose of verifying the test-taker's identity, in compliance with applicable data protection laws. The page names no retention period for those document images, and does not say whether only a match verdict is retained.",
+    "source_urls": [
+      "https://www.talview.com/en/id-verification"
+    ],
+    "tag": "enriched",
+    "card_id": 9092
+  },
+  "9093": {
+    "gloss": "Jobma states outright that it does not detect, analyze or store biometric data, and takes explicit consent before proctoring",
+    "verbatim": "Jobma's own Interview Fraud Prevention page (jobma.com, 2026) sets out its identity and proctoring stack and then makes three specific privacy claims under a 'Built with Privacy in Mind' heading: monitoring is non-invasive with no unnecessary interruptions; explicit candidate consent is taken before proctoring begins; and the platform 'doesn't detect, analyze, or store biometric data'. The identity layer it describes includes government ID validation, selfie verification to avoid deepfake risks, liveness detection to confirm a live candidate, and support across global identification protocols. The monitoring layer flags multiple faces on screen, copy-paste activity, window switching, mobile device usage in frame, external screen connection, and noticeable changes in the speaker's voice. Jobma also advertises downloadable interview reports, flags placed on the interview timeline, detailed candidate activity logs and 'audit-ready' structured records for compliance reviews, and its site footer carries an EU AI Act link. The page states no retention period for recordings, transcripts or proctoring evidence, and does not describe how a candidate deletion request is routed.",
+    "source_urls": [
+      "https://www.jobma.com/p/interview-fraud-prevention"
+    ],
+    "tag": "enriched",
+    "card_id": 9093
+  },
+  "9094": {
+    "gloss": "Willo's own page claims ISO 27001 and GDPR compliance plus identity verification at screening, but publishes no retention window",
+    "verbatim": "Willo's own blog post '5 Spark Hire Alternatives for Faster High-Volume Screening' (willo.video, last updated 17 August 2026) describes its data and identity handling in its self-comparison. Willo says it is ISO 27001 certified and fully GDPR compliant, and that its Digital Identity Verification lets an employer verify a candidate's identity and right to work during initial screening rather than at the higher-stakes offer stage, so compliance is 'handled early on'. Alongside this it lists Real Talk, an anti-cheat feature that flags assessment responses that appear to have been completed with external help such as a script or AI assistant, plus knock-out questions and anti-cheat guardrails. Candidate material collected includes video, audio, text responses, multiple-choice answers, file uploads and CVs. Nowhere on the page does Willo state a retention period for those recordings, transcripts or identity records, whether the window is vendor-set or employer-configurable, or how a candidate deletion request is routed.",
+    "source_urls": [
+      "https://www.willo.video/blog/sparkhire-alternatives"
+    ],
+    "tag": "enriched",
+    "card_id": 9094
+  },
+  "9095": {
+    "gloss": "Greenhouse shows what employer-configurable retention actually looks like: a day count, a timer that resets, and manual deletion",
+    "verbatim": "Greenhouse's own support documentation, 'Configure a data retention rule' (support.greenhouse.io, last updated 8 April 2026), sets out how an employer-configurable retention rule works in an ATS. A site admin enters the retention period in days, choosing how long candidate personal data is kept after the candidate is hired or rejected on all applications; separate rules exist for hired and rejected candidates, and rejected-candidate rules can be set per office while hired-candidate rules apply to the whole organisation and are only available to organisations using single-purpose consent. The timer starts when a candidate is hired or rejected on all applications and is applied retroactively to existing records: Greenhouse's own worked example says that if the timer is activated on 25 May 2026 with a 365-day period, the admin is emailed immediately to delete personal data for any candidate rejected on or before 25 May 2025. The timer deactivates and resets if a rejected candidate is converted into a prospect for another job, or if a job moves to an office with no rejected-candidate rule. Crucially, deletion is not automatic: 'Deleting a candidate's personal data must be done manually', and the rule only configures which named users get an email notification, on which days, at which time and time zone, telling them to do it. The admin also picks from a 'Data to be Deleted' table which fields are used to anonymise the candidate, and Greenhouse warns that deleted personal data will not show up in reports and that selecting Name and Pronunciation Recording anonymises the candidate everywhere except Activity Notes unless Activity Notes is selected too. Greenhouse advises seeking legal counsel before configuring the feature.",
+    "source_urls": [
+      "https://support.greenhouse.io/hc/en-us/articles/360002418112-Configure-a-data-retention-rule"
+    ],
+    "tag": "enriched",
+    "card_id": 9095
+  },
+  "9096": {
+    "gloss": "GDPR Article 5(1)(e) is the anchor: personal data kept no longer than necessary, applicable since 25 May 2018",
+    "verbatim": "WorkSignal's 'Data Retention Policies: Your 2026 Guide for TA' (worksignal.com, published 1 June 2026) identifies the legal anchor for candidate-data retention as the GDPR, directly applicable from 25 May 2018, whose Article 5(1)(e) requires that personal data be kept 'for no longer than is necessary' for the purpose it was collected for. The piece argues that this moved retention out of housekeeping and into formal compliance, so that keeping candidate data indefinitely 'stopped looking cautious and started looking unjustified'. It draws a distinction hiring teams routinely blur: the retention policy is the governing standard (scope across ATS, scheduling tools, email, shared drives and screening vendors; roles for approvals, access reviews and deletion workflows; controls including access restrictions, encryption and logging; exceptions for litigation, audit or investigation holds; and a review cadence), while the retention schedule is the applied timeline that assigns a rule to each category such as resumes, interview notes, recordings, transcripts, offer documents or hired-candidate handoff records. It also names the operational failure mode specific to async screening: async tools generate recordings, transcripts and AI-generated summaries that pile up in separate systems, so deletion has to cover side channels (recruiter email, downloaded scorecards, spreadsheets, vendor dashboards) and not just the primary ATS, and every retention rule needs a legal hold path built before it is needed. Its practical test: if a team cannot explain the purpose and expiry logic for a candidate record, it probably should not still hold it.",
+    "source_urls": [
+      "https://worksignal.com/blog/data-retention-policies"
+    ],
+    "tag": "enriched",
+    "card_id": 9096
+  },
+  "9097": {
+    "gloss": "Recording interviews imports the candidate's home privacy regime, and about a dozen US states demand two-party consent",
+    "verbatim": "Writing for the National Law Review, Damon W. Silver of Jackson Lewis P.C. ('5 Key Data Privacy and Security Risks That Arise When Organizations Record Job Interviews', 13 April 2021) sets out why recording shifts the compliance burden onto the employer rather than the vendor. Privacy obligations attach to the location or residence of the data subject, not the data controller, so an organisation recording interviews of candidates residing in California or the EU may be subject to the CCPA or GDPR respectively; both require certain privacy notices, and the GDPR grants an expansive set of candidate rights over the collection, use, disclosure and retention of their data. The article notes that recordings contain far more personal information than notes or memos, because a candidate may volunteer a medical condition, religious affiliation or sexual orientation that would never reach a written record. On purpose limitation, the CCPA and GDPR require disclosure of the purposes for which personal information is used, and the GDPR may require the organisation to assess whether its purposes are overridden by the data subject's competing interests: recording to evaluate that candidate is the obvious, unobjectionable purpose, but later reuse of the same recording for staff training or marketing can trigger fresh disclosure, fresh consent and further analysis. On consent, about a dozen US states require the consent of both parties to record a conversation, so consent must be obtained from the candidate before recording begins.",
+    "source_urls": [
+      "https://natlawreview.com/article/5-key-data-privacy-and-security-risks-arise-when-organizations-record-job-interviews"
+    ],
+    "tag": "enriched",
+    "card_id": 9097
+  },
+  "9098": {
+    "gloss": "US floor for recruitment records: 1 year under the EEOC, 3 years under the ADEA, covering interview notes and assessments",
+    "verbatim": "Apollo Technical's guide 'How Long Should You Retain Employee Data?' (apollotechnical.com, by Ryan Bradshaw, 3 October 2024) sets out the US statutory minimums that sit underneath any vendor's retention setting. Under the EEOC, applications and hiring documentation must be retained for at least one year; the ADEA requires hiring and recruitment data to be kept for three years, and the guide states this explicitly includes interview notes and any assessments required during the application process. Keeping recruitment data for three years also satisfies Title VII of the Civil Rights Act and exceeds what the Americans with Disabilities Act requires. The applicant and hiring documents in scope are listed as the job posting, job application, pre-employment tests, references, background checks, offer letter, contracts and non-competes, and onboarding documentation. Beyond recruitment, the guide gives two years as best practice for personnel files, and says the ADA, ADEA and Title VII all require performance-related data to be kept for at least one year after termination, with federal contractors potentially needing two years. It also notes that non-written records fall in scope: an employer that records calls for training and monitoring may need to retain that audio too.",
+    "source_urls": [
+      "https://www.apollotechnical.com/how-long-should-you-retain-employee-data-a-comprehensive-guide/"
+    ],
+    "tag": "enriched",
+    "card_id": 9098
+  },
+  "9099": {
+    "gloss": "Employment lawyer: keep pre-employment documents 3 years after the no-hire decision, and follow the longer of conflicting laws",
+    "verbatim": "In HR Daily Advisor's 'Ask the Expert: Recruiting Document Retention' (hrdailyadvisor.hci.org, 14 April 2020), attorney Jodi R. Bohr of Tiffany & Bosco, P.A. answers how long recruitment records should be kept for candidates who are not hired. Her answer: pre-employment documents, including job descriptions, applications and resumes, interview evaluations and offer letters, must be kept for three years after the no-hire decision is made, and generally all pre-employment documents must be retained for three years following an employee's termination. Where a candidate is hired and further documentation results, such as the Form I-9, a background check or a new hire action form, those must also be kept for three years even if the person never ends up working for the company. She stresses that state laws may impose longer periods and that where laws conflict the employer must follow the longer retention policy, giving Arizona as an example: it sets no pre-employment retention requirement, so the federal three years applies, but it requires payroll records showing daily hours, wages paid and earned sick time to be kept for four years, and the IRS suggests keeping each employee's Form W-4 for at least four years after the last tax return that used it. Statutory periods are minimums, and litigation may require keeping records longer, but where no claim is pending she advises retaining only for the minimum period.",
+    "source_urls": [
+      "https://hrdailyadvisor.hci.org/2020/04/14/ask-the-expert-recruiting-document-retention/"
+    ],
+    "tag": "enriched",
+    "card_id": 9099
+  }
+}

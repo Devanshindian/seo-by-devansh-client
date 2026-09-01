@@ -1,0 +1,1156 @@
+{
+  "slug": "running-hiring-hackathon-that-screens",
+  "format_archetype": "how-to-guide",
+  "spine": "A hiring hackathon is a work sample test, so the thing that decides whether it produces a usable hiring signal is not the event but the scoring: a rubric with fixed criteria, weights and anchored bands written before the event, a panel calibrated against sample submissions and checked for agreement, and a published AI-use policy that says what candidates may generate, what they must disclose and how that disclosure is scored. Written for the in-house recruiter or TA lead running this at volume, who should finish able to build the rubric, run the calibration session and publish the AI policy for their next event.",
+  "coverage_note": "Left out the ranking pages' event-logistics ground (in-person expos vs online/hybrid judging formats, demo-day scheduling, prize framing) because it belongs to public prize hackathons, not a hiring screen. Left out 'what makes a project stand out' and most participant-facing advice because it is written for the candidate, not the recruiter running the funnel. Google's four-criterion list (Innovation, Technology, Impact, Presentation) is not dropped but compressed into one rubric table in section 2, so the article can spend its length on weights, anchors, calibration and the AI-use policy, which no ranking page delivers. 'Common score reducers' survives inside the anchored score bands rather than as its own section.",
+  "item_fields": [],
+  "dropped_items": [],
+  "sections": [
+    {
+      "headline": "Your Hackathon Is a Work Sample Test, Not a Demo Day",
+      "job": "Establish that a hiring hackathon is a work sample test in the technical sense, which is why it predicts well and why its judging carries selection-test weight. Settle what the score is for before any criterion gets written, so the rest of the article has a fixed target. Sets up every scoring decision that follows.",
+      "is_item": false,
+      "boxes": [
+        1,
+        4,
+        8,
+        9,
+        6
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          1,
+          4
+        ],
+        "box_labels": [
+          "Hackathons and Coding Challenges Are a Hiring Decision",
+          "The case for work samples: fairness, legal defensibility, and candidate experience"
+        ],
+        "from_h2": "Hackathons, AI Skills, and Assessment Integrity",
+        "tags": [
+          "asset-angle",
+          "gap: Anti-bias and consistency guardrails for judging panels"
+        ],
+        "card_ids": [
+          1,
+          2,
+          408,
+          13,
+          112,
+          14,
+          15,
+          16,
+          17,
+          21,
+          27
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "Decide What the Score Is Meant to Settle",
+          "boxes": [
+            8,
+            9,
+            6
+          ],
+          "box_labels": [
+            "Why judging without a rubric produces inconsistent results",
+            "Start by defining what the score should determine",
+            "A score is one input, not the decision itself"
+          ],
+          "from_h2": "Why you need a structured judging framework",
+          "tags": [
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "common-h2: Judge process",
+            "gap: Clear scoring guidance for judges, not just participant advice"
+          ],
+          "card_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            96,
+            97,
+            138,
+            139,
+            157,
+            158,
+            160,
+            8004
+          ]
+        }
+      ],
+      "word_target": 238
+    },
+    {
+      "headline": "The Rubric: Five or Six Criteria, Fixed Weights, One Total",
+      "job": "Render the actual rubric. Fix how many criteria to score, what each one measures, what weight it carries and how the weighted total is calculated, all locked before the event. This is the artifact the title promises, and sections three through five all operate on it.",
+      "is_item": false,
+      "boxes": [
+        10,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "table": {
+        "columns": [
+          "Criterion",
+          "What you are scoring",
+          "Weight",
+          "Score band anchors (1 / 3 / 5)"
+        ]
+      },
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Published per-criterion weightings from real hiring build challenges and take-home work sample scorecards: named employers or assessment vendors (Codility, HackerRank, Karat, DevSkiller) stating criterion names with their percentage weights, plus any 2023-2026 data on how many scoring dimensions a hiring panel can apply before reviewer fatigue degrades scoring consistency.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          10,
+          13,
+          14,
+          15
+        ],
+        "box_labels": [
+          "What makes a scoring rubric reliable",
+          "What goes into a rubric",
+          "How many dimensions to score",
+          "Lock in criteria before the event, not after"
+        ],
+        "from_h2": "Why you need a structured judging framework",
+        "tags": [
+          "asset-angle",
+          "gap: Concrete judging rubric with point weights beyond thin criteria lists",
+          "gap: Anti-bias and consistency guardrails for judging panels",
+          "common-h2: Judging criteria"
+        ],
+        "card_ids": [
+          22,
+          25,
+          28,
+          29,
+          30,
+          61,
+          95,
+          94,
+          40,
+          31,
+          32,
+          39,
+          60,
+          18,
+          19,
+          38,
+          9001,
+          9002,
+          9003,
+          9004,
+          9005,
+          9006,
+          9007,
+          9008,
+          9009,
+          9010,
+          9011
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "Weight the Criteria, Then Run the Same Math on Every Candidate",
+          "boxes": [
+            16,
+            17
+          ],
+          "box_labels": [
+            "Which criteria to judge on",
+            "How to calculate the weighted score"
+          ],
+          "from_h2": "How do you score and weight hackathon judging criteria?",
+          "tags": [
+            "common-h2: Judging criteria",
+            "related: Hackathon judging criteria",
+            "asset-angle",
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists",
+            "gap: Clear scoring guidance for judges, not just participant advice"
+          ],
+          "card_ids": [
+            86,
+            88,
+            98,
+            51,
+            52,
+            53,
+            89,
+            91
+          ]
+        }
+      ],
+      "word_target": 416
+    },
+    {
+      "headline": "What a 1, a 3, and a 5 Actually Mean",
+      "job": "Turn each number on the scale into a written description a judge can apply without guessing, then fix what evidence a score may rest on and what a judge must record alongside it. Resolves the gap between having criteria and scoring them consistently, which calibration in the next section then tests.",
+      "is_item": false,
+      "boxes": [
+        18,
+        19,
+        11,
+        12,
+        27
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          18,
+          19
+        ],
+        "box_labels": [
+          "Why anchored score bands keep judges consistent",
+          "How to write anchor definitions"
+        ],
+        "from_h2": "Why anchored score bands keep judges consistent",
+        "tags": [
+          "asset-angle",
+          "gap: Clear scoring guidance for judges, not just participant advice",
+          "gap: Anti-bias and consistency guardrails for judging panels",
+          "related: Hackathon judging criteria"
+        ],
+        "card_ids": [
+          8,
+          41,
+          44,
+          45,
+          92,
+          93,
+          42,
+          43,
+          46
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "Name the Evidence a Score Is Allowed to Rest On",
+          "boxes": [
+            11,
+            12,
+            27
+          ],
+          "box_labels": [
+            "Writing rubric evidence rules and edge cases",
+            "Verifying claims beyond the pitch deck",
+            "Capture the reasoning behind each score, not just the number"
+          ],
+          "from_h2": "How should the judging rubric be built?",
+          "tags": [
+            "asset-angle",
+            "gap: Clear scoring guidance for judges, not just participant advice",
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "common-h2: Submission review focus",
+            "common-h2: Judge process"
+          ],
+          "card_ids": [
+            47,
+            48,
+            54,
+            59,
+            99,
+            49,
+            50
+          ]
+        }
+      ],
+      "word_target": 297
+    },
+    {
+      "headline": "Calibrate the Panel Before Anyone Scores a Real Candidate",
+      "job": "Give the reader a runnable calibration session: independent private scoring of sample submissions, side-by-side reveal, outlier discussion that sharpens the rubric rather than forcing agreement. Then state plainly what calibration and structure can and cannot do about bias, so the claim stays honest.",
+      "is_item": false,
+      "boxes": [
+        20,
+        21,
+        7,
+        22,
+        5
+      ],
+      "table": null,
+      "list": {
+        "kind": "numbered",
+        "of": "the steps of one calibration session, from walking the rubric together to discussing only the score outliers"
+      },
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          20,
+          21,
+          7
+        ],
+        "box_labels": [
+          "Why Independent Scoring Beats a Shared Scoresheet",
+          "What a Calibration Session Actually Involves",
+          "Redundancy: more raters and more data points per candidate"
+        ],
+        "from_h2": "How Do You Calibrate Judges So Scores Are Consistent and Fair?",
+        "tags": [
+          "gap: Anti-bias and consistency guardrails for judging panels",
+          "gap: Clear scoring guidance for judges, not just participant advice",
+          "common-h2: Judge process"
+        ],
+        "card_ids": [
+          9,
+          20,
+          57,
+          133,
+          134,
+          135,
+          136,
+          347,
+          55,
+          56,
+          131,
+          132,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          356,
+          357,
+          358,
+          370,
+          371,
+          372,
+          373,
+          374
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "What Calibration Fixes, and What It Will Never Fix",
+          "boxes": [
+            22,
+            5
+          ],
+          "box_labels": [
+            "The Biases Calibration Is Meant to Catch",
+            "Structured rubrics narrow bias but don't remove it"
+          ],
+          "from_h2": "How Do You Calibrate Judges So Scores Are Consistent and Fair?",
+          "tags": [
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "common-h2: Judge process"
+          ],
+          "card_ids": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            359,
+            111,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            130
+          ]
+        }
+      ],
+      "word_target": 327
+    },
+    {
+      "headline": "How to Calculate Inter-Rater Reliability, and Fix Splits",
+      "job": "Move from calibration to proof. Show how to double-score a sample, read the agreement figure, adjudicate splits instead of averaging them, log the reasoning, and re-run calibration on a schedule as scores drift. Closes the judging half of the article.",
+      "is_item": false,
+      "boxes": [
+        23,
+        24,
+        28,
+        25,
+        26
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          23,
+          24,
+          28
+        ],
+        "box_labels": [
+          "How to Measure Whether Judges Actually Agree",
+          "Resolving Disagreement Without Averaging It Away",
+          "Build a scrutiny-proof scoring and judging process"
+        ],
+        "from_h2": "How Do You Calibrate Judges So Scores Are Consistent and Fair?",
+        "tags": [
+          "gap: Anti-bias and consistency guardrails for judging panels",
+          "common-h2: Judge process",
+          "gap: Concrete judging rubric with point weights beyond thin criteria lists",
+          "asset-angle",
+          "gap: Clear scoring guidance for judges, not just participant advice"
+        ],
+        "card_ids": [
+          150,
+          151,
+          152,
+          153,
+          154,
+          355,
+          360,
+          361,
+          58,
+          137,
+          155,
+          156,
+          141,
+          142,
+          143,
+          145
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "Re-Calibrate on a Schedule, Not Just Before the First Event",
+          "boxes": [
+            25,
+            26
+          ],
+          "box_labels": [
+            "Calibration Isn't a One-Time, Pre-Event Task",
+            "Why a hiring rubric isn't a one-and-done document"
+          ],
+          "from_h2": "How Do You Calibrate Judges So Scores Are Consistent and Fair?",
+          "tags": [
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "common-h2: Judge process",
+            "asset-angle"
+          ],
+          "card_ids": [
+            363,
+            364,
+            365,
+            366,
+            367,
+            368,
+            369,
+            23,
+            24
+          ]
+        }
+      ],
+      "word_target": 267
+    },
+    {
+      "headline": "Set the AI Rule Before Candidates Set It for You",
+      "job": "Open the AI half by pricing the cost of silence: candidates already use AI, submissions are exactly the artifact where it hides, and with no stated rule the scores compare tool access rather than skill. Rules out the blanket ban as a workable default and sets up the tier that follows.",
+      "is_item": false,
+      "boxes": [
+        2,
+        30,
+        31,
+        29
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          2,
+          30,
+          31,
+          29
+        ],
+        "box_labels": [
+          "How AI Adoption Is Changing What You Should Test",
+          "Are candidates already using AI regardless of the rules?",
+          "Why a hackathon needs a stated AI policy to be a valid skills signal",
+          "Why do some companies ban AI use outright?"
+        ],
+        "from_h2": "Hackathons, AI Skills, and Assessment Integrity",
+        "tags": [
+          "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+          "asset-angle"
+        ],
+        "card_ids": [
+          433,
+          67,
+          70,
+          163,
+          164,
+          165,
+          166,
+          167,
+          161,
+          162,
+          175,
+          181,
+          182,
+          183,
+          184,
+          185,
+          63,
+          171,
+          172,
+          173,
+          8016
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 178
+    },
+    {
+      "headline": "What Candidates May Generate, and What Disqualifies",
+      "job": "Draw the operative line: AI that scaffolds commodity work is permitted, AI that produces the judged deliverable is not. Render the tier as a table of permitted, disclosable and prohibited uses with build-submission examples, published before the event rather than adjudicated after it.",
+      "is_item": false,
+      "boxes": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "table": {
+        "columns": [
+          "AI use",
+          "Example in a build submission",
+          "Policy tier",
+          "How judging treats it"
+        ]
+      },
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Concrete published examples of compliant versus non-compliant AI-assisted submissions in hiring take-home tests and hiring hackathons: named employer or platform policies from 2023-2026 stating which tools are permitted by name (GitHub Copilot, Cursor, ChatGPT, Claude), whether AI-generated code must be flagged in the repository or commit messages, and documented cases where a submission was rejected or a candidate disqualified for AI use.",
+          "goes_to": "The Permitted and Prohibited List"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          33,
+          34
+        ],
+        "box_labels": [
+          "Preparation versus real-time substitution",
+          "Building an explicit AI-use tier for a hackathon"
+        ],
+        "from_h2": "Where's the line between acceptable and unacceptable AI use?",
+        "tags": [
+          "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+          "gap: Examples of compliant vs non-compliant AI-assisted work",
+          "asset-angle"
+        ],
+        "card_ids": [
+          71,
+          75,
+          76,
+          77,
+          174,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          207,
+          208
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "Boilerplate Is Fine. The Feature Code Is the Test.",
+          "boxes": [
+            35
+          ],
+          "box_labels": [
+            "Boilerplate versus feature code: scoping what AI may generate"
+          ],
+          "from_h2": "Where's the line between acceptable and unacceptable AI use?",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "gap: Examples of compliant vs non-compliant AI-assisted work"
+          ],
+          "card_ids": [
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229
+          ]
+        },
+        {
+          "h3": "The Permitted and Prohibited List",
+          "boxes": [
+            36,
+            37
+          ],
+          "box_labels": [
+            "Permitted AI use",
+            "Non-permitted AI use"
+          ],
+          "from_h2": "Where's the line between acceptable and unacceptable AI use?",
+          "tags": [
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "gap: Examples of compliant vs non-compliant AI-assisted work"
+          ],
+          "card_ids": [
+            215,
+            216,
+            217,
+            218,
+            219,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            9012,
+            9013,
+            9014,
+            9015,
+            9016,
+            9017,
+            9018,
+            9019,
+            9020,
+            9021,
+            9022
+          ]
+        }
+      ],
+      "word_target": 446
+    },
+    {
+      "headline": "What a Complete AI Disclosure Statement Says",
+      "job": "Specify the disclosure itself: the three elements that make it complete, where it sits in the submission, how much detail each kind of AI involvement needs, and what the stated consequence is for hiding it. Gives the reader wording they can paste into the submission form.",
+      "is_item": false,
+      "boxes": [
+        41,
+        42,
+        43,
+        44,
+        53,
+        39,
+        40
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          41,
+          42,
+          43
+        ],
+        "box_labels": [
+          "What elements make a disclosure statement complete?",
+          "The AID framework: a model borrowed from academic publishing",
+          "Where should the disclosure live in a submission?"
+        ],
+        "from_h2": "What does a complete AI-use disclosure statement look like?",
+        "tags": [
+          "asset-angle",
+          "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+          "gap: Clear scoring guidance for judges, not just participant advice"
+        ],
+        "card_ids": [
+          211,
+          212,
+          283,
+          284,
+          285,
+          312,
+          313,
+          314,
+          316,
+          238,
+          280,
+          281,
+          282,
+          288,
+          293
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "Scale the Disclosure to How Much AI Shaped the Build",
+          "boxes": [
+            44
+          ],
+          "box_labels": [
+            "Matching disclosure depth to how much AI shaped the work"
+          ],
+          "from_h2": "What does a complete AI-use disclosure statement look like?",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "gap: Examples of compliant vs non-compliant AI-assisted work"
+          ],
+          "card_ids": [
+            239,
+            240,
+            289,
+            291,
+            294,
+            296,
+            298
+          ]
+        },
+        {
+          "h3": "Attestation, Disclosure, and What Happens When They Hide It",
+          "boxes": [
+            53,
+            39,
+            40
+          ],
+          "box_labels": [
+            "Attestation vs. disclosure: the two enforcement mechanisms",
+            "What Happens When AI Use Isn't Disclosed?",
+            "How Is Disclosed AI Use Scored?"
+          ],
+          "from_h2": "How do companies actually enforce their AI-use policies?",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "gap: Clear scoring guidance for judges, not just participant advice"
+          ],
+          "card_ids": [
+            209,
+            210,
+            214,
+            320,
+            321,
+            326,
+            299,
+            300,
+            301,
+            325
+          ]
+        }
+      ],
+      "word_target": 356
+    },
+    {
+      "headline": "Spotting Undisclosed AI Use in a Submission",
+      "job": "Answer the obvious objection: policies only work if you can spot the candidate who ignored them. Name the checkable signals in the artifact and the process trace, and establish the live defence conversation as the verification step that actually holds.",
+      "is_item": false,
+      "boxes": [
+        45,
+        48,
+        47,
+        3
+      ],
+      "table": null,
+      "list": {
+        "kind": "bulleted",
+        "of": "the specific tells in a submission that flag undisclosed AI use"
+      },
+      "needs_research": [
+        {
+          "topic": "Data on undisclosed AI use in technical take-home assessments and hiring hackathon submissions, 2023-2026: measured rates of AI-assisted cheating reported by assessment vendors (HackerRank, Codility, CodeSignal, Karat), accuracy and false-positive rates of code-level AI detection, and documented process tells used by proctoring or assessment tools such as commit-history patterns, timestamp clustering and paste-event telemetry.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          45,
+          48,
+          47,
+          3
+        ],
+        "box_labels": [
+          "Why the live discussion is the real verification step",
+          "Process signals: rubric-gaming and missing iteration",
+          "Tells hiding in written and submitted materials",
+          "AI-Enabled Cheating and How to Guard Against It"
+        ],
+        "from_h2": "How do you actually detect undisclosed AI use in candidate work?",
+        "tags": [
+          "asset-angle",
+          "gap: Clear scoring guidance for judges, not just participant advice",
+          "common-h2: Submission review focus",
+          "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+        ],
+        "card_ids": [
+          78,
+          79,
+          269,
+          271,
+          272,
+          273,
+          277,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          459,
+          515,
+          9023,
+          9024,
+          9025,
+          9026,
+          9027,
+          9028,
+          9029,
+          9030,
+          9031,
+          9032,
+          9033,
+          9034,
+          9035,
+          9036,
+          9037
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 178
+    },
+    {
+      "headline": "Score How Well AI Was Used, Not Whether It Was",
+      "job": "Land the article by turning AI use from a compliance flag into a scored dimension: named bands for how well the candidate directed, verified and built on AI output, each score tied to cited evidence. Fixes the failure mode the disclosure section created, where judges quietly punish the candidates who told the truth.",
+      "is_item": false,
+      "boxes": [
+        49,
+        50,
+        32,
+        51
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          49,
+          50
+        ],
+        "box_labels": [
+          "Vendors are shifting to scoring how AI is used, not whether it's used",
+          "Rubrics need anchored score bands and evidence to resist gaming"
+        ],
+        "from_h2": "How should assessments score AI use instead of just detecting it?",
+        "tags": [
+          "asset-angle",
+          "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+          "gap: Concrete judging rubric with point weights beyond thin criteria lists",
+          "gap: Clear scoring guidance for judges, not just participant advice"
+        ],
+        "card_ids": [
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          304,
+          305,
+          306,
+          307,
+          309,
+          310,
+          311
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "Stop Judges Penalising the Candidates Who Told You the Truth",
+          "boxes": [
+            32,
+            51
+          ],
+          "box_labels": [
+            "Does disclosing AI use actually hurt candidates?",
+            "Fixing judges who penalize disclosed AI use"
+          ],
+          "from_h2": "Should hackathon challenges have an explicit AI-use policy?",
+          "tags": [
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "asset-angle",
+            "gap: Clear scoring guidance for judges, not just participant advice"
+          ],
+          "card_ids": [
+            302,
+            303,
+            327,
+            328,
+            329,
+            330,
+            331,
+            333,
+            334,
+            335
+          ]
+        }
+      ],
+      "word_target": 267
+    }
+  ],
+  "entities": [],
+  "yardsticks": [],
+  "artifact": null,
+  "unused_boxes": [
+    {
+      "n": 38,
+      "h3": "What AI Use Is Permitted vs Prohibited, and Does It Depend on the Stage?",
+      "from_h2": "How Should Hiring Policies Handle AI Disclosure?",
+      "cards": 6,
+      "serves": [
+        "asset-angle",
+        "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+        "gap: Examples of compliant vs non-compliant AI-assisted work"
+      ],
+      "why_benched": "Duplicates the permitted versus prohibited split already placed in section 7, and its stage-by-stage funnel framing belongs to a whole hiring policy rather than one event."
+    },
+    {
+      "n": 46,
+      "h3": "Setting policy when AI use is itself an evaluated skill",
+      "from_h2": "How do you actually detect undisclosed AI use in candidate work?",
+      "cards": 2,
+      "serves": [
+        "asset-angle",
+        "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+      ],
+      "why_benched": "Allowing AI so you can observe how the candidate uses it is exactly the argument the final section makes; running it twice would repeat the same point in two places."
+    },
+    {
+      "n": 52,
+      "h3": "How do companies actually enforce their AI-use policies?",
+      "from_h2": "How do companies actually enforce their AI-use policies?",
+      "cards": 1,
+      "serves": [
+        "asset-angle",
+        "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+      ],
+      "why_benched": "One card that states a thesis without adding evidence, and the point is already carried by the AI-policy section."
+    },
+    {
+      "n": 54,
+      "h3": "Strict-end policies: outright bans on AI use",
+      "from_h2": "How do companies actually enforce their AI-use policies?",
+      "cards": 3,
+      "serves": [
+        "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+      ],
+      "why_benched": "More employer ban examples on top of the ban case already made in section 6, without changing what the reader should do."
+    },
+    {
+      "n": 55,
+      "h3": "Soft-end policies: expectations without teeth",
+      "from_h2": "How do companies actually enforce their AI-use policies?",
+      "cards": 2,
+      "serves": [
+        "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+      ],
+      "why_benched": "A third policy survey of unenforceable soft wording that yields no operational instruction for a recruiter designing one event."
+    },
+    {
+      "n": 56,
+      "h3": "What does existing law require for AI-in-hiring disclosure?",
+      "from_h2": "What legal and regulatory requirements apply to AI use in hiring?",
+      "cards": 4,
+      "serves": [
+        "asset-angle",
+        "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+      ],
+      "why_benched": "Pulls the article into AI-in-hiring compliance law, which this reader explicitly does not want and which sits outside a single event's design."
+    },
+    {
+      "n": 57,
+      "h3": "Why do explainable, auditable scores matter for compliance?",
+      "from_h2": "What legal and regulatory requirements apply to AI use in hiring?",
+      "cards": 2,
+      "serves": [
+        "asset-angle"
+      ],
+      "why_benched": "Restates the audit-trail point already placed in section 5, framed as regulatory defensibility rather than hiring practice."
+    }
+  ],
+  "shared_box_warnings": [],
+  "brand_cards": [
+    {
+      "card_id": 8004,
+      "kind": "research",
+      "section": 1,
+      "headline": "Your Hackathon Is a Work Sample Test, and That Changes Who Has to Defend It",
+      "goes_to": "Decide What the Score Is Meant to Settle",
+      "why": "Puts a number on the section's core claim that without a judging plan the rating tracks who evaluated rather than what was built.",
+      "gloss": "Selection quality swings by hiring manager for 45.8%"
+    },
+    {
+      "card_id": 8016,
+      "kind": "research",
+      "section": 6,
+      "headline": "Without a Stated AI Policy, You Are Scoring AI Access, Not Skill",
+      "goes_to": "opening",
+      "why": "Evidence that undisclosed candidate AI use is a live integrity worry for the reader's peers, which is the cost of staying silent that the section is pricing.",
+      "gloss": "73.4% are concerned about candidates using AI to cheat"
+    }
+  ],
+  "word_budget": {
+    "band": {
+      "min": 2800,
+      "max": 3800
+    },
+    "band_middle": 3300,
+    "aim_low_pct": 10,
+    "base": 2970,
+    "overwrite_pct": 0,
+    "sum_of_targets": 2970,
+    "headings": {
+      "sections": 10,
+      "sub_headings": 10,
+      "total": 20,
+      "words_per_heading": 148,
+      "under_floor": [
+        {
+          "section": "Your Hackathon Is a Work Sample Test, and That Changes Who Has to Defend It",
+          "words": 238,
+          "sub_headings": 1,
+          "words_per_stretch": 119
+        },
+        {
+          "section": "Write Score Bands a Judge Cannot Argue With",
+          "words": 297,
+          "sub_headings": 1,
+          "words_per_stretch": 148
+        },
+        {
+          "section": "Calibrate the Panel Before Anyone Scores a Real Candidate",
+          "words": 327,
+          "sub_headings": 1,
+          "words_per_stretch": 163
+        },
+        {
+          "section": "Measure Whether Your Judges Actually Agree",
+          "words": 267,
+          "sub_headings": 1,
+          "words_per_stretch": 133
+        },
+        {
+          "section": "Without a Stated AI Policy, You Are Scoring AI Access, Not Skill",
+          "words": 178,
+          "sub_headings": 0,
+          "words_per_stretch": 178
+        },
+        {
+          "section": "Draw the Line: What Candidates May Generate, and What Disqualifies Them",
+          "words": 446,
+          "sub_headings": 2,
+          "words_per_stretch": 148
+        },
+        {
+          "section": "What a Candidate Actually Has to Write in the Disclosure",
+          "words": 356,
+          "sub_headings": 2,
+          "words_per_stretch": 118
+        },
+        {
+          "section": "Catching the AI Use Nobody Disclosed",
+          "words": 178,
+          "sub_headings": 0,
+          "words_per_stretch": 178
+        },
+        {
+          "section": "Score How Well AI Was Used, Not Whether It Was",
+          "words": 267,
+          "sub_headings": 1,
+          "words_per_stretch": 133
+        }
+      ]
+    }
+  },
+  "h1": "Hiring Hackathon Judging: Rubric, Calibration, AI Rule",
+  "keywords": {
+    "primary": "hackathon judging",
+    "primary_changed": false,
+    "why_primary": "",
+    "variations": [
+      "hackathon judging rubric"
+    ],
+    "section_keywords": [
+      "1-5 rating scale definitions",
+      "how to calculate inter-rater reliability",
+      "ai disclosure statement example"
+    ],
+    "unplaced": [
+      {
+        "keyword": "ai use policy",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "challenge statements",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "how does a hackathon work",
+        "why": "no section's heading took it"
+      }
+    ]
+  }
+}

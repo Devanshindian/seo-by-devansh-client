@@ -1,0 +1,2342 @@
+{
+  "slug": "the-resume-statistics-everyone-cites",
+  "generated_by": "gather_inputs.py",
+  "group_a": {
+    "slug": "the-resume-statistics-everyone-cites",
+    "h1": "The Resume Statistics Everyone Cites That Are Already Out of Date",
+    "internal_link_pool": [
+      "https://testlify.com/detect-fake-resumes-in-hiring/",
+      "https://testlify.com/resume-verification-process/",
+      "https://testlify.com/resume-screening-every-recruiter-should-know/",
+      "https://testlify.com/save-screening-time-reduce-resume-fatigue/"
+    ],
+    "format_archetype": "data-benchmark-report",
+    "primary_keyword": "curriculum vitae statistics",
+    "keyword_set": {
+      "primary": "curriculum vitae statistics",
+      "variations": [],
+      "secondaries": []
+    },
+    "persona": {
+      "name": "HR / Talent-Management Leader",
+      "lens": "A people-strategy leader who cites hiring/workforce stats in reports and decks and needs them dated correctly and current, including the AI-resume-fraud figures competitors omit, so their own claims hold up under scrutiny.",
+      "why": "This is a myth-busting, stat-accuracy piece (dating stats to survey year, surfacing an omitted data point) — squarely the 'myth-busting industry articles' and 'named research' register this persona reads and cites, not an operational screening how-to."
+    },
+    "word_band": {
+      "min": 4500,
+      "max": 5500
+    },
+    "search_intent": "informational",
+    "ai_overview": "entirely off-topic homonym collision — it defines \"CV\" as the statistical **coefficient of variation** (σ/μ, with population/sample formulas, percentage form, consistency check, limitations), not curriculum vitae. No resume/CV-career content at all.",
+    "table_stakes": [
+      "Recruiter time spent reading/screening resumes",
+      "Resume rejection rates and reasons resumes get rejected",
+      "Resume usage and application-volume stats",
+      "Key takeaways / summary block"
+    ]
+  },
+  "group_b": {
+    "sections_menu": [
+      {
+        "h2": "The 6-second screen is now four different numbers, and each one measured something else",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/",
+          "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study",
+          "https://resumeheatmap.com/eye-tracking-study",
+          "https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/",
+          "https://www.reddit.com/r/Resume/comments/1rj1ulf/the_eyetracking_research_on_resumes_is_real_and/",
+          "https://www.linkedin.com/pulse/recruiters-take-6-seconds-read-your-resume-why-thats-exactly-reagan",
+          "https://standout-cv.com/usa/stats-usa/how-long-recruiters-spend-looking-at-resume"
+        ],
+        "h3": [
+          {
+            "h3": "Tegze 2023: review time scales with CV length, well past 6 seconds",
+            "evidence": [
+              {
+                "card_id": 5,
+                "gloss": "Tegze 2023 study: review time scales with CV length, far above 6s",
+                "verbatim": "A 2023 study by Jan Tegze — a LinkedIn Top Voices member — showed 114 recruiters three CVs of different lengths and timed their review: the shortest CV averaged 17 seconds (fastest response 12 seconds), the mid-length CV averaged 27 seconds, and the longest CV averaged 46 seconds, with a peak read time of 2 minutes 27 seconds (136.2 seconds) — 22.7 times the commonly-cited 6-second figure[4].",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 103,
+                "gloss": "Jan Tegze 2023 study: methodology (114 recruiters, three CV lengths)",
+                "verbatim": "A study run by Jan Tegze, a member of LinkedIn's \"Top Voices\" group, presented 114 recruiters with three CVs of varying length and measured actual review time, producing results \"much closer to the reality of the day-to-day recruitment process\" than the 6-second figure[4].",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 104,
+                "gloss": "Tegze study: shortest CV review time results",
+                "verbatim": "Shortest CV: analyzed in an average of 17 seconds, with the fastest single review at 12 seconds — still double the commonly cited 6-second figure",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 105,
+                "gloss": "Tegze study: mid-length CV review time result",
+                "verbatim": "Mid-length CV: analyzed in an average of 27 seconds",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 106,
+                "gloss": "Tegze study: longest CV review time results",
+                "verbatim": "Longest CV: analyzed in an average of 46 seconds, with the single highest read time of 2 minutes 27 seconds for one reviewer (the source separately converts this longest-CV figure to \"136.2 seconds,\" described as 22.",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 107,
+                "gloss": "Tegze study: heat-mapped attention concentrated on first page",
+                "verbatim": "Heat-mapped attention data from the same study showed reviewer attention concentrated on the first page, with later pages only skim-read, suggesting the top of page one is the primary driver of whether a recruiter continues reading[4].",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 191,
+                "gloss": "Jan Tegze study design: 114 recruiters, three resumes of varying length",
+                "verbatim": "A study run by Jan Tegze — described as a member of LinkedIn's \"Top Voices\" group — presented 114 recruiters with three different CVs of varying length and measured how long each recruiter spent analyzing them, with review time varying according to resume length[4].",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 192,
+                "gloss": "Publication date of the Tegze study cannot be confirmed",
+                "verbatim": "The source describing this study places its publication \"in April of this year\" without stating which calendar year that refers to, so the exact date cannot be confirmed from the collected material",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 193,
+                "gloss": "Tegze study framed as more realistic than the original Ladders figures",
+                "verbatim": "it is characterized as producing results \"much closer to the reality of the day-to-day recruitment process\" than the original Ladders figures[4].",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+            ]
+          },
+          {
+            "h3": "InterviewPal: an 11.2-second first scan and 1 minute 34 seconds in total",
+            "evidence": [
+              {
+                "card_id": 95,
+                "gloss": "InterviewPal cross-tool study methodology and scope",
+                "verbatim": "A separate study — with participating recruiters recorded via consent while reviewing candidates through InterviewPal's interface, covering tech, finance, marketing, healthcare, and operations industries in Southeast Asia — reported markedly higher figures than the TheLadders benchmark[5]:",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 96,
+                "gloss": "InterviewPal study: average initial scan time figure",
+                "verbatim": "Average initial scan time: 11.",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 97,
+                "gloss": "InterviewPal study: median total review time per resume",
+                "verbatim": "Median total review time per resume: 1 minute 34 seconds[5]",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 101,
+                "gloss": "InterviewPal study: longer times attributed to AI-assisted review tool design",
+                "verbatim": "The source attributes recruiters' longer first-pass times in this dataset to the use of an AI-assisted or structured review tool that displays job-post context and key skills side-by-side with the resume[5].",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 196,
+                "gloss": "InterviewPal study design: Southeast Asia recruiters across multiple industries, recorded with consent",
+                "verbatim": "A recruiter study run through InterviewPal's review interface — recruiters based in Southeast Asia, spanning tech, finance, marketing, healthcare, and operations, recorded with consent while reviewing candidate resumes and giving feedback — produced numbers well outside the Ladders range[5].",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 197,
+                "gloss": "InterviewPal measured average initial scan time of 11.2 seconds, above the typical benchmark",
+                "verbatim": "The average initial scan time measured was 11.2 seconds, which the study's own writeup flags as \"notably higher than the '6-8 second' benchmark often cited,\"",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 198,
+                "gloss": "Gap attributed to AI-assisted/structured review tools showing job context alongside resume",
+                "verbatim": "attributing the gap to recruiters using AI-assisted or structured review tools spending longer on the first pass because job-post and key-skill context is visible side-by-side with the resume[5].",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 199,
+                "gloss": "InterviewPal median total review time per resume was 1 minute 34 seconds",
+                "verbatim": "Median total review time per resume, measured across the full review (not just the initial scan), was 1 minute 34 seconds, with most of that additional time spent verifying quantifiable results and role titles once a candidate had already cleared the initial fit check[5].",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+            ]
+          },
+          {
+            "h3": "Where the attention actually goes: 38% experience, 24% summary, 9% design",
+            "evidence": [
+              {
+                "card_id": 93,
+                "gloss": "Boston University study: 80% of review time on five resume elements",
+                "verbatim": "A cited Boston University study found that recruiters spent nearly 80% of their total resume-review time on five elements: the candidate's name, current job title/company, previous job title/company, employment dates (current and prior), and the education section[5].",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 98,
+                "gloss": "InterviewPal study: gaze-time distribution across resume sections",
+                "verbatim": "Gaze-time distribution (via cursor tracking): 38% on \"Experience,\" 24% on \"Summary + Headline,\" 18% on \"Skills,\" 11% on \"Education,\" 9% on layout/design elements[5]",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 201,
+                "gloss": "Experience section received 38% of gaze time",
+                "verbatim": "| Experience | 38% |",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 202,
+                "gloss": "Summary + Headline received 24% of gaze time",
+                "verbatim": "| Summary + Headline | 24% |",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 203,
+                "gloss": "Skills section received 18% of gaze time",
+                "verbatim": "| Skills | 18% |",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 204,
+                "gloss": "Education section received 11% of gaze time",
+                "verbatim": "| Education | 11% |",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 205,
+                "gloss": "Layout/design elements received 9% of gaze time",
+                "verbatim": "| Layout/design elements | 9% |",
+                "source_urls": [],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+            ]
+          },
+          {
+            "h3": "Wonsulting 2025: hidden eye-tracking finds the F-pattern still holds",
+            "evidence": [
+              {
+                "card_id": 108,
+                "gloss": "2025 Wonsulting hidden eye-tracking experiment description",
+                "verbatim": "In 2025, Jerry Lee of Wonsulting ran an eye-tracking experiment using hidden tracking equipment worn by recruiters.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 109,
+                "gloss": "Wonsulting findings reinforce F-pattern and persistence of scanning patterns since 2012",
+                "verbatim": "The findings reinforced the F-pattern scanning behavior and the outsized importance of quantified achievements, and the source frames this as evidence that the scanning patterns documented since 2012 \"persist across different methodologies and time periods\"[21].",
+                "source_urls": [
+                  "https://resumeheatmap.com/eye-tracking-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 194,
+                "gloss": "2025 Jerry Lee / Wonsulting eye-tracking replication using hidden tracking equipment",
+                "verbatim": "In 2025, Jerry Lee of Wonsulting ran a separate eye-tracking experiment in which recruiters wore hidden tracking equipment while reviewing resumes[21].",
+                "source_urls": [
+                  "https://resumeheatmap.com/eye-tracking-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 195,
+                "gloss": "2025 replication reinforced F-pattern reading and quantified-achievement emphasis from 2018 study",
+                "verbatim": "The findings were described as reinforcing the same F-pattern reading behavior and the same emphasis on quantified achievements that TheLadders' 2018 study had identified, which the source frames as evidence that these attention patterns \"persist across different methodologies and time periods\" rather than being an artifact of any one study's design[21].",
+                "source_urls": [
+                  "https://resumeheatmap.com/eye-tracking-study"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://resumeheatmap.com/eye-tracking-study"
+            ]
+          },
+          {
+            "h3": "What stretches the clock, and the 43% rejected for formatting",
+            "evidence": [
+              {
+                "card_id": 6,
+                "gloss": "Hybrid-workflow dataset: recruiters spend ~2x longer, with rejection triggers",
+                "verbatim": "A separate, more recent dataset (dated to “modern recruiters especially those working in hybrid human-AI workflows”) found recruiters willing to spend almost twice the classic 6–8 second range when resume design and relevance make evaluation easier, and broke out specific rejection triggers within that longer look: unclear career progression or unclear titles (31% of cases) and over-decorative templates that confused scan paths (18% of cases)[5].",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 207,
+                "gloss": "Factors that increased reading time: metrics, matching keywords, single-column layout",
+                "verbatim": "Reading time increased when a resume contained clear metric-based achievements (+27%), keywords matching the job description (+19%), or a modern single-column layout (+14%)[5].",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 208,
+                "gloss": "43% of rejected resumes dropped for dense text, inconsistent formatting, missing job info",
+                "verbatim": "On the other side, 43% of rejected resumes were dropped specifically for dense text blocks and inconsistent formatting, alongside missing job information as an additional named factor[5].",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+            ]
+          },
+          {
+            "h3": "Why the figures disagree: first pass, second pass, and industry",
+            "evidence": [
+              {
+                "card_id": 9,
+                "gloss": "Summary: screening-time figure migrated across four incompatible measurements",
+                "verbatim": "Strung together, the screening-time figure has migrated from 6 seconds (2012 data) → 7.4 seconds (Ladders, 2018) → 12–46+ seconds depending on resume length (Tegze, 2023) → “almost twice” 6–8 seconds in an undated hybrid-workflow dataset[1][2][3][4][5] — four different measurements, at least three different years, routinely presented online as one interchangeable “recruiters skim resumes for X seconds” fact.",
+                "source_urls": [
+                  "https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/",
+                  "https://www.reddit.com/r/Resume/comments/1rj1ulf/the_eyetracking_research_on_resumes_is_real_and/",
+                  "https://www.linkedin.com/pulse/recruiters-take-6-seconds-read-your-resume-why-thats-exactly-reagan",
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/",
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 121,
+                "gloss": "Screening-time variable: whether resume is on a second, deeper-pass review",
+                "verbatim": "whether the resume has already cleared an initial screening stage and is being given a second, deeper pass[5]",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 122,
+                "gloss": "Screening-time variable: industry regulation and qualification complexity",
+                "verbatim": "Industry regulation and qualification complexity also matter — highly regulated or technical roles requiring multiple qualifications take recruiters longer to screen than roles requiring only general industry experience[26].",
+                "source_urls": [
+                  "https://standout-cv.com/usa/stats-usa/how-long-recruiters-spend-looking-at-resume"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 123,
+                "gloss": "1:34 figure is second-pass verification time, not first-pass screen",
+                "verbatim": "One recruiting professional's median total review figure of 1 minute 34 seconds is explicitly described as the time \"verifying quantifiable results and role titles once the candidate passes the initial fit check,\" implying the sub-10-second figures describe only the first-pass screen, not the full review[5].",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/",
+              "https://www.reddit.com/r/Resume/comments/1rj1ulf/the_eyetracking_research_on_resumes_is_real_and/",
+              "https://www.linkedin.com/pulse/recruiters-take-6-seconds-read-your-resume-why-thats-exactly-reagan",
+              "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/",
+              "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study",
+              "https://standout-cv.com/usa/stats-usa/how-long-recruiters-spend-looking-at-resume"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "The six-second resume scan: a 2012 figure revised to 7.4 seconds in 2018, still cited as six",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [
+          "https://testlify.com/detect-fake-resumes-in-hiring/"
+        ],
+        "external_links": [
+          "https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/",
+          "https://joblist.ala.org/career-advice/how-to-pass-the-6-second-resume-test/162/",
+          "https://resumeheatmap.com/eye-tracking-study",
+          "https://www.bu.edu/com/files/2018/10/TheLadders-EyeTracking-StudyC2.pdf",
+          "https://www.ere.net/articles/is-the-6-second-resume-scan-a-myth",
+          "https://spectacletalentpartners.com/is-the-6-second-resume-scan-a-myth/",
+          "https://www.reddit.com/r/Resume/comments/1rj1ulf/the_eyetracking_research_on_resumes_is_real_and/",
+          "https://www.linkedin.com/pulse/recruiters-take-6-seconds-read-your-resume-why-thats-exactly-reagan",
+          "https://www.theladders.com/static/images/basicSite/pdfs/TheLadders-EyeTracking-StudyC2.pdf",
+          "https://www.theladders.com/career-advice/you-only-get-6-seconds-of-fame-make-it-count",
+          "https://www.forbes.com/sites/chriswestfall/2024/01/26/study-says-hiring-managers-expect-and-prefer-ai-enhanced-resumes/",
+          "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/",
+          "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study",
+          "https://standout-cv.com/usa/stats-usa/how-long-recruiters-spend-looking-at-resume",
+          "https://www.quantumtechresumes.com/blog/your-it-resume-the-6-8-second-myth",
+          "https://www.linkedin.com/posts/amymil_heres-an-uncomfortable-truth-that-should-activity-7401609839912947713-QATK"
+        ],
+        "h3": [
+          {
+            "h3": "Where the six-second number came from: TheLadders 2012 eye-tracking study",
+            "evidence": [
+              {
+                "card_id": 1,
+                "gloss": "The '6 seconds' resume stat as the most-repeated example",
+                "verbatim": "The single most-repeated resume statistic is also the best-documented example of blending: “recruiters spend six seconds on your resume.”",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 85,
+                "gloss": "Origin of the 6-second resume scan figure (2012 TheLadders eye-tracking study)",
+                "verbatim": "The \"6-second resume scan\" figure originates from TheLadders' first eye-tracking study, conducted in 2012, which found that recruiters spent an average of six seconds scanning a resume before making an initial fit/no-fit judgment[20][1][21][22].",
+                "source_urls": [
+                  "https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/",
+                  "https://joblist.ala.org/career-advice/how-to-pass-the-6-second-resume-test/162/",
+                  "https://resumeheatmap.com/eye-tracking-study",
+                  "https://www.bu.edu/com/files/2018/10/TheLadders-EyeTracking-StudyC2.pdf"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 176,
+                "gloss": "Origin of the six-second scan statistic (TheLadders 2012 study)",
+                "verbatim": "The most repeated resume statistic in circulation traces to TheLadders' 2012 eye-tracking study, which found that recruiters spent an average of six seconds scanning a resume before making an initial fit judgment[23][27][21].",
+                "source_urls": [
+                  "https://www.ere.net/articles/is-the-6-second-resume-scan-a-myth",
+                  "https://resumeheatmap.com/eye-tracking-study",
+                  "https://spectacletalentpartners.com/is-the-6-second-resume-scan-a-myth/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/",
+              "https://joblist.ala.org/career-advice/how-to-pass-the-6-second-resume-test/162/",
+              "https://resumeheatmap.com/eye-tracking-study",
+              "https://www.bu.edu/com/files/2018/10/TheLadders-EyeTracking-StudyC2.pdf",
+              "https://www.ere.net/articles/is-the-6-second-resume-scan-a-myth",
+              "https://spectacletalentpartners.com/is-the-6-second-resume-scan-a-myth/"
+            ]
+          },
+          {
+            "h3": "The 2018 follow-up put the average at 7.4 seconds",
+            "evidence": [
+              {
+                "card_id": 2,
+                "gloss": "Ladders' own 2018 study already revised 6s to 7.4s",
+                "verbatim": "The number traces to Ladders Inc.’s original eye-tracking research, but by the time of Ladders’ own 2018 Eye-Tracking Study, the figure had already moved to 7.4 seconds, up from an average of six seconds in 2012[1][2][3].",
+                "source_urls": [
+                  "https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/",
+                  "https://www.reddit.com/r/Resume/comments/1rj1ulf/the_eyetracking_research_on_resumes_is_real_and/",
+                  "https://www.linkedin.com/pulse/recruiters-take-6-seconds-read-your-resume-why-thats-exactly-reagan"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 87,
+                "gloss": "2018 TheLadders study's two-stage methodology",
+                "verbatim": "In 2018, TheLadders republished its research using a two-stage methodology: the first stage measured raw speed with recruiters who were not told they were being timed, and the second stage used eye-tracking technology to map exactly where recruiters looked and in what order[1][23][21][3][24].",
+                "source_urls": [
+                  "https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/",
+                  "https://www.linkedin.com/pulse/recruiters-take-6-seconds-read-your-resume-why-thats-exactly-reagan",
+                  "https://resumeheatmap.com/eye-tracking-study",
+                  "https://spectacletalentpartners.com/is-the-6-second-resume-scan-a-myth/",
+                  "https://www.theladders.com/static/images/basicSite/pdfs/TheLadders-EyeTracking-StudyC2.pdf"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 88,
+                "gloss": "2018 update: average scan time rose to 7.4 seconds",
+                "verbatim": "The updated average scan time rose to 7.4 seconds, up from roughly 6 seconds in 2012 — an increase of only about a second over six years[1][23][21][25].",
+                "source_urls": [
+                  "https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/",
+                  "https://resumeheatmap.com/eye-tracking-study",
+                  "https://www.theladders.com/career-advice/you-only-get-6-seconds-of-fame-make-it-count",
+                  "https://spectacletalentpartners.com/is-the-6-second-resume-scan-a-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 89,
+                "gloss": "One account of 2018 study's sample: 30 recruiters, 10 weeks, heat maps",
+                "verbatim": "One account states the study equipped 30 professional recruiters with eye-tracking technology and monitored them over 10 weeks reviewing hundreds of resumes, with results rendered as attention heat maps showing \"hot spots\" and \"cold spots\" on the page[21].",
+                "source_urls": [
+                  "https://resumeheatmap.com/eye-tracking-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 180,
+                "gloss": "TheLadders 2018 follow-up eye-tracking study design (30 recruiters, 10 weeks)",
+                "verbatim": "TheLadders revisited the question with a follow-up eye-tracking study in 2018, this time equipping 30 professional recruiters with eye-tracking technology and monitoring their behavior over a 10-week period as they reviewed resumes[21].",
+                "source_urls": [
+                  "https://resumeheatmap.com/eye-tracking-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 181,
+                "gloss": "2018 study updated the average scan time to 7.4 seconds",
+                "verbatim": "The updated average: recruiters spent 7.4 seconds on the initial screen, up from six seconds in the 2012 study — an increase of about one second[1][21].",
+                "source_urls": [
+                  "https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/",
+                  "https://resumeheatmap.com/eye-tracking-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 182,
+                "gloss": "Two-stage methodology of the 2018 study (speed, then attention mapping)",
+                "verbatim": "The two-stage design first measured raw speed, then used the eye-tracking data to map exactly where attention went",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 183,
+                "gloss": "Layout features that captured or lost recruiter attention in 2018 study",
+                "verbatim": "resumes with simple layouts, clear section and heading titles, and E- or F-pattern-friendly structure (bold titles, bulleted accomplishments) captured attention more effectively, while cluttered layouts, multi-column designs, long sentences, missing section headers, and text that didn't visually flow down the page performed worse[1].",
+                "source_urls": [
+                  "https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 184,
+                "gloss": "2018 study output visualized as attention heat maps",
+                "verbatim": "The output was converted into heat maps showing \"hot spots\" of high attention and \"cold spots\" that recruiters' eyes skipped entirely[21].",
+                "source_urls": [
+                  "https://resumeheatmap.com/eye-tracking-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 185,
+                "gloss": "FOX Business/Canva writeup repeats the 7.4-second figure without its own study",
+                "verbatim": "A widely-cited FOX Business/Canva-linked writeup independently repeats this same 7.4-second figure, describing it as \"generous\" relative to separate reporting from CNBC, without providing its own distinct primary study[35].",
+                "source_urls": [
+                  "https://www.forbes.com/sites/chriswestfall/2024/01/26/study-says-hiring-managers-expect-and-prefer-ai-enhanced-resumes/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/",
+              "https://www.reddit.com/r/Resume/comments/1rj1ulf/the_eyetracking_research_on_resumes_is_real_and/",
+              "https://www.linkedin.com/pulse/recruiters-take-6-seconds-read-your-resume-why-thats-exactly-reagan",
+              "https://resumeheatmap.com/eye-tracking-study",
+              "https://spectacletalentpartners.com/is-the-6-second-resume-scan-a-myth/",
+              "https://www.theladders.com/static/images/basicSite/pdfs/TheLadders-EyeTracking-StudyC2.pdf",
+              "https://www.theladders.com/career-advice/you-only-get-6-seconds-of-fame-make-it-count",
+              "https://www.forbes.com/sites/chriswestfall/2024/01/26/study-says-hiring-managers-expect-and-prefer-ai-enhanced-resumes/"
+            ]
+          },
+          {
+            "h3": "The superseded six-second figure was still in circulation in 2023",
+            "evidence": [
+              {
+                "card_id": 3,
+                "gloss": "6-second figure still cited in 2023 despite being superseded",
+                "verbatim": "Despite being superseded by its own successor study, the 2012 “6 seconds” figure is still cited by articles as recently as 2023, with one analysis suggesting the mutation persists because “6” is a catchier number than “7.4” and has spawned its own content subgenre — “beat the 6-second CV challenge” videos and interactive tests used to sell ATS-optimized templates and resume services[4].",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 4,
+                "gloss": "Analysis: many recycling pages cite no study, sell something",
+                "verbatim": "That analysis explicitly flags that many of the pages recycling the figure never link to a study at all, just cite “studies have shown,” and that most such articles were “not written by recruiters” or “were selling something”[4].",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 7,
+                "gloss": "Same source calls '6-8 seconds' outdated, yet still published as current",
+                "verbatim": "That same source explicitly frames “6–8 seconds” as “outdated market data” even while noting it is still the number multiple career-guidance sites and the Tufts Career Center continue to publish as current[5].",
+                "source_urls": [
+                  "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 86,
+                "gloss": "6-second figure still cited in 2023 despite being outdated/superseded",
+                "verbatim": "This is the number most frequently repeated online, even though it is now over a decade old, and it continues to be cited in articles as recently as 2023 despite being superseded by TheLadders' own 2018 update[4].",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 177,
+                "gloss": "Six-second figure still repeated today, undated and uncredited",
+                "verbatim": "That six-second figure is the one still reproduced today, uncredited and undated, in generic claims like \"studies have shown that the average recruiter scans a resume for six seconds before deciding if the applicant is a good fit for the role\"[20].",
+                "source_urls": [
+                  "https://joblist.ala.org/career-advice/how-to-pass-the-6-second-resume-test/162/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 178,
+                "gloss": "Critics note the six-second figure still cited in 2023, years after being updated",
+                "verbatim": "Critics have noted that this exact figure continued to be cited in articles as recently as 2023, more than a decade after the study that produced it and years after TheLadders itself published an updated number[4].",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 179,
+                "gloss": "Explanation offered for why the six-second number persists (catchier headline, content subgenre)",
+                "verbatim": "One explanation offered for the number's persistence: \"6\" reads as a catchier headline than \"7.4,\" and the six-second claim has generated its own content subgenre — \"beat the 6-second CV challenge\" articles and rapid-fire interactive tests — typically published by sites selling resume templates or ATS-optimization services rather than by recruiters[4].",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/",
+              "https://www.interviewpal.com/blog/how-long-recruiters-actually-spend-reading-your-resume-data-study",
+              "https://joblist.ala.org/career-advice/how-to-pass-the-6-second-resume-test/162/"
+            ]
+          },
+          {
+            "h3": "What neither study disclosed: sample, method, materials, replication",
+            "evidence": [
+              {
+                "card_id": 90,
+                "gloss": "2018 report doesn't disclose eye-tracking sample size, unlike 2012's 30",
+                "verbatim": "The 2018 report itself does not specify how many recruiters participated in the eye-tracking phase, unlike the 2012 study's disclosed sample of 30[4].",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 110,
+                "gloss": "Critique: small/undisclosed sample size vs. scale of recruiting industry",
+                "verbatim": "The 2012 study used only 30 recruiters, and the 2018 update does not state how many participated; for scale, roughly 39,000 staffing and recruiting offices were operating in the USA around the time of the original study[4].",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 111,
+                "gloss": "Critique: methodology details never disclosed (selection, timing, technology)",
+                "verbatim": "The methodology does not disclose how recruiters were selected, whether they came from the same agency or different locations, how many resumes each reviewed, how timing was conducted (only that recruiters \"were not aware\" they were being timed), or which eye-tracking technology was used[26][3][4].",
+                "source_urls": [
+                  "https://standout-cv.com/usa/stats-usa/how-long-recruiters-spend-looking-at-resume",
+                  "https://www.linkedin.com/pulse/recruiters-take-6-seconds-read-your-resume-why-thats-exactly-reagan",
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 112,
+                "gloss": "Critique: job specs and CVs used in study never published",
+                "verbatim": "The job specifications and CVs used in the study were never published, leaving the seniority, industry, and requirements of the roles being screened unknown — factors the same critiques note materially affect screening time[4].",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 113,
+                "gloss": "Critique: no peer-reviewed publication, replication impossible",
+                "verbatim": "The full methodology was never published in a peer-reviewed journal, making independent replication or evaluation impossible[21].",
+                "source_urls": [
+                  "https://resumeheatmap.com/eye-tracking-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 114,
+                "gloss": "Critique: TheLadders had commercial/marketing incentive behind the statistic",
+                "verbatim": "TheLadders is a job-search company with a business incentive to produce an attention-grabbing, actionable statistic, which critics argue functioned as marketing/clickbait rather than rigorous research — one critique calls the report \"essentially a how-to guide\" that spawned an industry of \"6-second resume scan\" templates and challenges[21][27][28].",
+                "source_urls": [
+                  "https://www.ere.net/articles/is-the-6-second-resume-scan-a-myth",
+                  "https://www.quantumtechresumes.com/blog/your-it-resume-the-6-8-second-myth",
+                  "https://resumeheatmap.com/eye-tracking-study"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 115,
+                "gloss": "Critique: geographic mismatch, US study cited internationally",
+                "verbatim": "The Ladders is US-based, and critics note that recruitment approaches in the USA differ drastically from other markets (e.g., the UK), a distinction often glossed over when the figure is cited internationally[4].",
+                "source_urls": [
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 116,
+                "gloss": "Critique: skepticism that the study was ever actually carried out",
+                "verbatim": "At least one critique goes further, arguing there is \"a strong chance this study was never even carried out,\" citing the total absence of detail on subjects, location, and the eye-tracking technology used, and suggesting the figure may have been \"a piece of PR whereby somebody in the Ladders marketing team picked a number\"[26].",
+                "source_urls": [
+                  "https://standout-cv.com/usa/stats-usa/how-long-recruiters-spend-looking-at-resume"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 186,
+                "gloss": "Critics flag missing methodological disclosures in both Ladders studies",
+                "verbatim": "Coverage skeptical of both Ladders figures has pointed out that neither the 2012 nor the 2018 report discloses the type or seniority level of the positions the sample resumes were written for, the length of those resumes, how many recruiters participated in the original 2012 round, their experience level, or how many times the two-stage study was repeated before the average was calculated[23][27].",
+                "source_urls": [
+                  "https://www.ere.net/articles/is-the-6-second-resume-scan-a-myth",
+                  "https://spectacletalentpartners.com/is-the-6-second-resume-scan-a-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 187,
+                "gloss": "Critique argues a literal six/7.4-second figure implies an implausible recruiting pace",
+                "verbatim": "One critique frames the practical implication bluntly: if a six- or 7.4-second-per-resume figure held literally, it would imply recruiters processing roughly 10 resumes a minute, or 300 in 30 minutes — a pace the critique treats as implausible as a description of real recruiting workflows rather than as a marketing figure meant to sell \"uncluttered resume\" advice[23].",
+                "source_urls": [
+                  "https://spectacletalentpartners.com/is-the-6-second-resume-scan-a-myth/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 188,
+                "gloss": "Critique questions whether being timed altered recruiter behavior",
+                "verbatim": "The same source questions whether recruiters in the study behaved differently knowing they were being timed",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 189,
+                "gloss": "Report characterized as a formatting how-to guide rather than a behavioral study",
+                "verbatim": "observes that the report itself functions largely as a how-to guide for resume formatting rather than a strict behavioral study, which is part of why so many \"pass the 6-second scan\" templates and challenges emerged from it[23][27][4].",
+                "source_urls": [
+                  "https://www.ere.net/articles/is-the-6-second-resume-scan-a-myth",
+                  "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/",
+                  "https://spectacletalentpartners.com/is-the-6-second-resume-scan-a-myth/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.distinctrecruitment.com/uk/resources/blog/the-6-second-cv-recruitments-biggest-myth/",
+              "https://standout-cv.com/usa/stats-usa/how-long-recruiters-spend-looking-at-resume",
+              "https://www.linkedin.com/pulse/recruiters-take-6-seconds-read-your-resume-why-thats-exactly-reagan",
+              "https://resumeheatmap.com/eye-tracking-study",
+              "https://www.ere.net/articles/is-the-6-second-resume-scan-a-myth",
+              "https://www.quantumtechresumes.com/blog/your-it-resume-the-6-8-second-myth",
+              "https://spectacletalentpartners.com/is-the-6-second-resume-scan-a-myth/"
+            ]
+          },
+          {
+            "h3": "Both figures are averages, not a ceiling every resume hits",
+            "evidence": [
+              {
+                "card_id": 8,
+                "gloss": "LinkedIn pushback: '7 second' is an average wrongly treated as universal",
+                "verbatim": "One LinkedIn commentator pushed back on the underlying premise itself, arguing the “7 second review” is an average being wrongly treated as universal — a recent graduate applying for a senior leadership role might be rejected in a fraction of a second, while a well-matched candidate gets a materially longer look — and that misinformation about the figure (e.g., blaming white-space usage) circulates because people don’t understand it’s an average, not a fixed rule[6].",
+                "source_urls": [
+                  "https://www.linkedin.com/posts/amymil_heres-an-uncomfortable-truth-that-should-activity-7401609839912947713-QATK"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 190,
+                "gloss": "Practitioner pushback: the six/7.4-second figures are an average, not a uniform ceiling",
+                "verbatim": "Separately, practitioner commentary pushes back on treating any single average as universal, noting a recent graduate applying to a senior leadership role might be rejected in a fraction of a second, while a closer-fit candidate's resume \"needs, deserves, and receives a longer review\" — meaning the six/7.4-second figures describe an average across a wide distribution, not a uniform per-resume ceiling[6].",
+                "source_urls": [
+                  "https://www.linkedin.com/posts/amymil_heres-an-uncomfortable-truth-that-should-activity-7401609839912947713-QATK"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 259,
+                "gloss": "FAQ: explains the '7 second rule' for resume review and why quick scanning is separate from real verification.",
+                "verbatim": "The 7 second rule refers to research suggesting initial resume reviews take an average of 7 seconds before a recruiter decides to read further or discard. For verification purposes, it is a reminder that speed of screening and quality of verification are completely separate activities. A 7 second scan cannot verify a single claim on the resume.",
+                "source_urls": [
+                  "https://testlify.com/detect-fake-resumes-in-hiring/"
+                ],
+                "tag": "ownpage"
+              }
+            ],
+            "internal_links": [
+              "https://testlify.com/detect-fake-resumes-in-hiring/"
+            ],
+            "external_links": [
+              "https://www.linkedin.com/posts/amymil_heres-an-uncomfortable-truth-that-should-activity-7401609839912947713-QATK"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "Resume lying rates in 2025: 44% or 64.2%, depending on which survey you cite",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c",
+          "https://discreetinvestigations.ca/research/resume-lie-statistics/"
+        ],
+        "h3": [
+          {
+            "h3": "The two 2025 headline figures: ResumeBuilder's 44% against StandOut CV's 64.2%, up from a 55% baseline in 2022",
+            "evidence": [
+              {
+                "card_id": 11,
+                "gloss": "ResumeBuilder 2025: 44% admit lying during hiring process",
+                "verbatim": "44% of job seekers admit to lying at some point in the hiring process (ResumeBuilder, 2025)",
+                "source_urls": [
+                  "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 12,
+                "gloss": "StandOut CV 2025: 64% have lied on a resume at least once",
+                "verbatim": "64% of workers say they have lied on a resume at least once (StandOut CV, 2025)",
+                "source_urls": [
+                  "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 59,
+                "gloss": "2025: surveys disagree sharply on headline lying rate by wording/sample",
+                "verbatim": "2025 produced the largest cluster of dated figures, and they disagree with each other by a wide margin depending on question wording and sample.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 60,
+                "gloss": "StandOut-CV 2025: sample size and headline 64.2% lying rate",
+                "verbatim": "**StandOut-CV (2025):** surveyed 2,102 U.S. adults and found 64.2% had lied on a resume — rounded elsewhere to \"64% of workers\"[15][7].",
+                "source_urls": [
+                  "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c",
+                  "https://discreetinvestigations.ca/research/resume-lie-statistics/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 61,
+                "gloss": "StandOut-CV's 64.2% is compared against the 2022 baseline of 55%",
+                "verbatim": "This is the figure being compared against the 2022 baseline of 55% cited above[15].",
+                "source_urls": [
+                  "https://discreetinvestigations.ca/research/resume-lie-statistics/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 63,
+                "gloss": "ResumeBuilder 2025: 44% of job seekers admit lying during hiring process",
+                "verbatim": "**ResumeBuilder (2025):** a separate, more recent ResumeBuilder figure — distinct from the firm's own 2021 number — found 44% of job seekers admit to lying at some point in the hiring process",
+                "source_urls": [
+                  "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c",
+              "https://discreetinvestigations.ca/research/resume-lie-statistics/"
+            ]
+          },
+          {
+            "h3": "The rate peaks at 80.4% for 18-25 year olds and drops to 46.9% in older groups",
+            "evidence": [
+              {
+                "card_id": 13,
+                "gloss": "StandOut CV 2025: 80% of 18-25 year olds admit resume lies, highest of any age group",
+                "verbatim": "80% of applicants aged 18–25 admit to resume lies — the highest of any age group in that same StandOut CV 2025 dataset[7]",
+                "source_urls": [
+                  "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 62,
+                "gloss": "StandOut-CV 2025: age skew, peaks at 80.4% for 18-25, falls to 46.9% for older",
+                "verbatim": "The rate is heavily age-skewed: it peaks at 80.4% (rounded to 80% elsewhere) among 18-to-25-year-olds, the highest of any age group, and falls to 46.9% among older respondents[15][7].",
+                "source_urls": [
+                  "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c",
+                  "https://discreetinvestigations.ca/research/resume-lie-statistics/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c",
+              "https://discreetinvestigations.ca/research/resume-lie-statistics/"
+            ]
+          },
+          {
+            "h3": "38% of those who lied inflated their years of experience",
+            "evidence": [
+              {
+                "card_id": 18,
+                "gloss": "ResumeBuilder 2025: 38% of resume liars inflated years of experience",
+                "verbatim": "38% of resume liars inflated their years of experience (ResumeBuilder, 2025)[7]",
+                "source_urls": [
+                  "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 64,
+                "gloss": "ResumeBuilder 2025: 38% of resume liars inflate years of experience",
+                "verbatim": "with 38% of resume liars specifically inflating their years of experience[7]",
+                "source_urls": [
+                  "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "The 30-45% resume-lying range blends surveys that measured different things",
+        "target_keyword": null,
+        "evidence": [
+          {
+            "card_id": 10,
+            "gloss": "Thesis: resume-lying stats vary widely by year/population, cited undifferentiated",
+            "verbatim": "Reported rates of resume dishonesty vary by tens of percentage points depending on which year and survey population is cited, and pages frequently list them together without distinguishing either variable.",
+            "source_urls": [],
+            "tag": "storm"
+          },
+          {
+            "card_id": 17,
+            "gloss": "These percentages measure entirely different things, yet get blended together",
+            "verbatim": "None of these percentages measure the same thing — self-admitted lifetime lying (64%), self-admitted lying in a single hiring process (44%), self-admitted lying in the past 12 months (10%), employer-observed catches (56%), or fraud-database case share (33%/44%) — yet they are the kind of figures that get pulled into a single undifferentiated “candidates lie on resumes” bullet list.",
+            "source_urls": [],
+            "tag": "storm"
+          },
+          {
+            "card_id": 68,
+            "gloss": "Summary source bookends self-reported lying range at 30-45% using the 2021 and 2025 extremes",
+            "verbatim": "**A summary source aggregating self-admission surveys** places the overall self-reported lying range at 30–45% across studies, explicitly bookending it with ResumeBuilder's 32% (2021) on the low end and StandOut-CV's 64.2% (2025) on the high end — a difference of more than double depending on which year and which survey is cited[15].",
+            "source_urls": [
+              "https://discreetinvestigations.ca/research/resume-lie-statistics/"
+            ],
+            "tag": "storm"
+          }
+        ],
+        "internal_links": [],
+        "external_links": [
+          "https://discreetinvestigations.ca/research/resume-lie-statistics/"
+        ],
+        "h3": []
+      },
+      {
+        "h2": "The 32% resume-lying rate is a 2021 ResumeBuilder figure, not a current one",
+        "target_keyword": null,
+        "evidence": [
+          {
+            "card_id": 39,
+            "gloss": "2021 ResumeBuilder survey timing and economic context",
+            "verbatim": "The earliest dated figure in circulation comes from a ResumeBuilder.com survey fielded in July 2021, timed to a month in which the U.S. economy added 934,000 jobs and resume volume was rising as pandemic-era hiring rebounded[14].",
+            "source_urls": [
+              "https://www.resumebuilder.com/1-in-3-americans-admit-to-lying-on-resume/"
+            ],
+            "tag": "storm"
+          },
+          {
+            "card_id": 40,
+            "gloss": "2021 survey sample size and headline lying rate (32%)",
+            "verbatim": "The survey polled 1,250 U.S. adults ages 18 and older and found that roughly 3 in 10 — later specified as 32% — admitted to lying on a resume[15][16][14].",
+            "source_urls": [
+              "https://staffinghub.com/hiring/roughly-30-of-americans-admit-to-lying-on-their-resume/",
+              "https://www.resumebuilder.com/1-in-3-americans-admit-to-lying-on-resume/",
+              "https://discreetinvestigations.ca/research/resume-lie-statistics/"
+            ],
+            "tag": "storm"
+          }
+        ],
+        "internal_links": [],
+        "external_links": [
+          "https://www.resumebuilder.com/1-in-3-americans-admit-to-lying-on-resume/",
+          "https://staffinghub.com/hiring/roughly-30-of-americans-admit-to-lying-on-their-resume/",
+          "https://discreetinvestigations.ca/research/resume-lie-statistics/"
+        ],
+        "h3": [
+          {
+            "h3": "What the 2021 respondents actually falsified: experience, education, tenure, skills",
+            "evidence": [
+              {
+                "card_id": 41,
+                "gloss": "Top 2021 fabrication: years of experience (46%)",
+                "verbatim": "years of experience (46%)",
+                "source_urls": [
+                  "https://staffinghub.com/hiring/roughly-30-of-americans-admit-to-lying-on-their-resume/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 42,
+                "gloss": "Top 2021 fabrication: educational background (44%)",
+                "verbatim": "educational background (44%)",
+                "source_urls": [
+                  "https://staffinghub.com/hiring/roughly-30-of-americans-admit-to-lying-on-their-resume/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 43,
+                "gloss": "Top 2021 fabrication: length of time in previous role (43%)",
+                "verbatim": "length of time in a previous role (43%)",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 44,
+                "gloss": "Top 2021 fabrication: embellished skills or abilities (40%)",
+                "verbatim": "embellished skills or abilities (40%)",
+                "source_urls": [
+                  "https://staffinghub.com/hiring/roughly-30-of-americans-admit-to-lying-on-their-resume/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://staffinghub.com/hiring/roughly-30-of-americans-admit-to-lying-on-their-resume/"
+            ]
+          },
+          {
+            "h3": "Why they did it in 2021: hiring odds, missing qualifications, firings, ATS keywords",
+            "evidence": [
+              {
+                "card_id": 45,
+                "gloss": "2021 motive: improve chances of getting hired (72%)",
+                "verbatim": "72% said they lied to improve their chances of getting hired",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 46,
+                "gloss": "2021 motive: lacked required qualifications (44%)",
+                "verbatim": "44% said they lacked the qualifications the job required",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 47,
+                "gloss": "2021 motive: covering up firing or bad departure (41%)",
+                "verbatim": "41% were covering up being fired or having left a previous job on bad terms",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 48,
+                "gloss": "2021 motive: inserting ATS keywords (40%)",
+                "verbatim": "40% added false material specifically to insert ATS keywords[16][14]",
+                "source_urls": [
+                  "https://staffinghub.com/hiring/roughly-30-of-americans-admit-to-lying-on-their-resume/",
+                  "https://www.resumebuilder.com/1-in-3-americans-admit-to-lying-on-resume/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://staffinghub.com/hiring/roughly-30-of-americans-admit-to-lying-on-their-resume/",
+              "https://www.resumebuilder.com/1-in-3-americans-admit-to-lying-on-resume/"
+            ]
+          },
+          {
+            "h3": "Who lied most in 2021: higher earners, IT and finance",
+            "evidence": [
+              {
+                "card_id": 49,
+                "gloss": "2021 income skew in resume lying rates",
+                "verbatim": "The 2021 data also showed a clear income skew: 49% of respondents earning $100,000–$149,000 and 46% of those earning over $150,000 admitted to lying, versus just 25% of those earning under $99,999[16].",
+                "source_urls": [
+                  "https://staffinghub.com/hiring/roughly-30-of-americans-admit-to-lying-on-their-resume/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 50,
+                "gloss": "2021 industry skew: IT and finance highest lying rates",
+                "verbatim": "By industry, IT-related roles had the highest self-reported lying rate (55%), followed by finance (45%)[16].",
+                "source_urls": [
+                  "https://staffinghub.com/hiring/roughly-30-of-americans-admit-to-lying-on-their-resume/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://staffinghub.com/hiring/roughly-30-of-americans-admit-to-lying-on-their-resume/"
+            ]
+          },
+          {
+            "h3": "Most 2021 liars got hired, and half had the offer rescinded",
+            "evidence": [
+              {
+                "card_id": 51,
+                "gloss": "2021 outcome: most liars hired, half later rescinded",
+                "verbatim": "Despite the fabrications, 80% of liars in this cohort were hired anyway — but nearly half of them later had the offer rescinded once the lie surfaced[14].",
+                "source_urls": [
+                  "https://www.resumebuilder.com/1-in-3-americans-admit-to-lying-on-resume/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.resumebuilder.com/1-in-3-americans-admit-to-lying-on-resume/"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "The 2022 55% figure traces back to a citation, not a 2022 survey",
+        "target_keyword": null,
+        "evidence": [
+          {
+            "card_id": 52,
+            "gloss": "2022 figure (55%) exists only as a retrospective baseline cited in a 2025 report",
+            "verbatim": "A 2022 figure appears only as a retrospective baseline inside a later (2025) report: StandOut-CV's 2025 study frames its own number as \"up from 55% in 2022,\" using that year's rate as the comparison point for showing growth in resume dishonesty[15].",
+            "source_urls": [
+              "https://discreetinvestigations.ca/research/resume-lie-statistics/"
+            ],
+            "tag": "storm"
+          },
+          {
+            "card_id": 53,
+            "gloss": "No independent 2022-dated survey exists; the 55% figure is a citation, not a standalone stat",
+            "verbatim": "No independent 2022-dated survey with its own methodology appears in the collected material — the 55% figure exists only as a citation embedded in the 2025 report, which is itself a caution for anyone repeating it as a standalone 2022 statistic.",
+            "source_urls": [],
+            "tag": "storm"
+          }
+        ],
+        "internal_links": [],
+        "external_links": [
+          "https://discreetinvestigations.ca/research/resume-lie-statistics/"
+        ],
+        "h3": []
+      },
+      {
+        "h2": "The UK numbers trace to Cifas's 2023 fraud data, not a 2023 survey",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://www.collegerecruiter.com/blog/2025/03/03/is-randomness-the-answer-to-fake-job-applicants"
+        ],
+        "h3": [
+          {
+            "h3": "The 10% who admit lying on a CV is a 2023 Cifas figure, up from 8%",
+            "evidence": [
+              {
+                "card_id": 15,
+                "gloss": "Cifas UK: ~10% admit lying on CV in past 12 months, up from 8%",
+                "verbatim": "Outside the US, UK-focused reporting (Cifas) finds “nearly a tenth of Brits” — about 10% — admit to lying on a CV in the past 12 months, up from 8% the year prior, alongside a finding that 56% of UK employers report having caught a candidate lying on a resume and 26% had encountered fake references[9].",
+                "source_urls": [
+                  "https://www.collegerecruiter.com/blog/2025/03/03/is-randomness-the-answer-to-fake-job-applicants"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 54,
+                "gloss": "2023 UK data source is Cifas's fraud database, not a self-report survey",
+                "verbatim": "UK-specific figures for 2023 come from Cifas's Internal Fraud Database rather than a self-report survey.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 56,
+                "gloss": "2023 Cifas: public awareness of CV lying rose to 10%",
+                "verbatim": "Separately, Cifas tracked public awareness ticking upward: the share of respondents who said they knew someone who had lied on a CV rose to 10%, from 8% the year before[9].",
+                "source_urls": [
+                  "https://www.collegerecruiter.com/blog/2025/03/03/is-randomness-the-answer-to-fake-job-applicants"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.collegerecruiter.com/blog/2025/03/03/is-randomness-the-answer-to-fake-job-applicants"
+            ]
+          },
+          {
+            "h3": "False employment applications fell from 44% to 33% of insider fraud cases",
+            "evidence": [
+              {
+                "card_id": 16,
+                "gloss": "Cifas Fraudscape: false employment application fraud case share fell 44%→33%",
+                "verbatim": "Cifas’s Fraudscape data further shows “false employment application” cases made up about 33% of insider fraud cases reported in 2023, down from 44% in 2022[9].",
+                "source_urls": [
+                  "https://www.collegerecruiter.com/blog/2025/03/03/is-randomness-the-answer-to-fake-job-applicants"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 55,
+                "gloss": "2023 Cifas: false employment application share of insider fraud (33%, down from 44%)",
+                "verbatim": "In 2023, cases classified as \"false employment application\" (candidates using false identities or credentials to gain jobs) made up about 33% of all insider fraud cases reported to Cifas, down from 44% in 2022[9].",
+                "source_urls": [
+                  "https://www.collegerecruiter.com/blog/2025/03/03/is-randomness-the-answer-to-fake-job-applicants"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.collegerecruiter.com/blog/2025/03/03/is-randomness-the-answer-to-fake-job-applicants"
+            ]
+          },
+          {
+            "h3": "56% of UK employers caught a lying candidate, 26% hit fake references",
+            "evidence": [
+              {
+                "card_id": 57,
+                "gloss": "2023 Cifas: UK employers who caught a candidate lying (56%)",
+                "verbatim": "56% of UK employers reported having caught a candidate lying on a resume",
+                "source_urls": [
+                  "https://www.collegerecruiter.com/blog/2025/03/03/is-randomness-the-answer-to-fake-job-applicants"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 58,
+                "gloss": "2023 Cifas: UK employers who encountered fake references (26%)",
+                "verbatim": "26% had encountered fake references[9]",
+                "source_urls": [
+                  "https://www.collegerecruiter.com/blog/2025/03/03/is-randomness-the-answer-to-fake-job-applicants"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.collegerecruiter.com/blog/2025/03/03/is-randomness-the-answer-to-fake-job-applicants"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "The resume-lying percentages that carry no survey year",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://www.bryq.com/blog/resume-screening-why-resumes-are-unreliable",
+          "https://www.amsinform.com/workplace/10-shocking-statistics-about-resume-fraud/",
+          "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/",
+          "https://www.hrdive.com/news/more-than-a-third-of-people-admit-to-lying-on-resumes/570565/",
+          "https://www.resumebuilder.com/resume-examples/1-4-americans-have-lied-on-their-resume/"
+        ],
+        "h3": [
+          {
+            "h3": "85%, 60%, 33%, 25%: the four undated headline rates",
+            "evidence": [
+              {
+                "card_id": 69,
+                "gloss": "Framing: many widely-repeated resume-lying stats carry no publication year",
+                "verbatim": "Several widely-repeated numbers in the collected material carry no attached publication year, which is itself the pattern this article is built to correct.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 14,
+                "gloss": "Unsourced, undated figure: ~85% of job seekers dishonest on resumes",
+                "verbatim": "A separate figure claims roughly 85% of job seekers are dishonest when writing their resumes, without a named source or year attached[8].",
+                "source_urls": [
+                  "https://www.bryq.com/blog/resume-screening-why-resumes-are-unreliable"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 19,
+                "gloss": "AMS Inform, undated: over 60% of candidates lie about skills",
+                "verbatim": "over 60% of candidates lie about their skills, undated, attributed only to a vendor (AMS Inform)[10]",
+                "source_urls": [
+                  "https://www.amsinform.com/workplace/10-shocking-statistics-about-resume-fraud/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 20,
+                "gloss": "Undated: roughly 33% of applicants lie about education history",
+                "verbatim": "roughly 33% of applicants admit to lying about their education history, similarly undated[10]",
+                "source_urls": [
+                  "https://www.amsinform.com/workplace/10-shocking-statistics-about-resume-fraud/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 21,
+                "gloss": "Undated compilation: 25%+ fabricate or embellish references",
+                "verbatim": "25%+ of candidates admit to making up or embellishing references in another undated compilation[11]",
+                "source_urls": [
+                  "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.bryq.com/blog/resume-screening-why-resumes-are-unreliable",
+              "https://www.amsinform.com/workplace/10-shocking-statistics-about-resume-fraud/",
+              "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/"
+            ]
+          },
+          {
+            "h3": "ResumeLab's 36% admitted lying, and the 31% who got caught",
+            "evidence": [
+              {
+                "card_id": 70,
+                "gloss": "ResumeLab (undated): 36% admitted lying, most common reason lack of experience/tenure",
+                "verbatim": "A ResumeLab survey found 36% of Americans admitted to lying on their resumes, most often citing a lack of experience or long-term employment tenure as the reason",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 71,
+                "gloss": "ResumeLab (undated): 31% of liars caught, 65% of those not hired/fired",
+                "verbatim": "of that group, 31% said they were caught, and 65% of those caught were either not hired or fired as a result[18]",
+                "source_urls": [
+                  "https://www.hrdive.com/news/more-than-a-third-of-people-admit-to-lying-on-resumes/570565/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 75,
+                "gloss": "ResumeLab (undated): 93% personally knew someone who lied on a resume",
+                "verbatim": "separately, 93% of respondents said they personally knew someone who had lied on a resume[18]",
+                "source_urls": [
+                  "https://www.hrdive.com/news/more-than-a-third-of-people-admit-to-lying-on-resumes/570565/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.hrdive.com/news/more-than-a-third-of-people-admit-to-lying-on-resumes/570565/"
+            ]
+          },
+          {
+            "h3": "Who lies: 88% of ATS-aware applicants, 30% of men vs 20% of women, and by generation",
+            "evidence": [
+              {
+                "card_id": 76,
+                "gloss": "TribePad UK (undated): 88% of ATS-aware applicants lied to beat ATS screening",
+                "verbatim": "A UK-focused TribePad study, also undated in the collected material, found that among the more-than-1-in-5 job applicants who say they understand how applicant tracking systems work, 88% admitted to lying about skills, experience, academic degrees, or certifications specifically to avoid being screened out by ATS software[18].",
+                "source_urls": [
+                  "https://www.hrdive.com/news/more-than-a-third-of-people-admit-to-lying-on-resumes/570565/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 78,
+                "gloss": "Generational breakdown (undated): men more likely than women to lie, 30% vs 20%",
+                "verbatim": "the same breakdown found men more likely than women to lie on a resume, 30% versus 20%[19]",
+                "source_urls": [
+                  "https://www.resumebuilder.com/resume-examples/1-4-americans-have-lied-on-their-resume/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 77,
+                "gloss": "Generational breakdown (undated, attributed to Stacie Haller): lying rates by generation",
+                "verbatim": "A separate generational breakdown — also without a stated survey year, though attributed to Resume Builder's Chief Career Advisor Stacie Haller — found resume-lying rates of 20% among Gen Z, 27% among Gen X, and 13% among Boomers, with one unnamed generation (the framing implies Millennials) reporting the highest rate at 29%",
+                "source_urls": [],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.hrdive.com/news/more-than-a-third-of-people-admit-to-lying-on-resumes/570565/",
+              "https://www.resumebuilder.com/resume-examples/1-4-americans-have-lied-on-their-resume/"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "AI-touched resumes went from negligible in 2022 to 52% of applicants in 2025",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://getpruf.ai/blog/resume-fraud-statistics-2026",
+          "https://standout-cv.com/usa/stats-usa/study-fake-job-references-resume-lies",
+          "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c",
+          "https://jobcannon.io/blog/ai-resume-statistics-2026"
+        ],
+        "h3": [
+          {
+            "h3": "The year-by-year climb: 2022 baseline, 30-40% at tech firms by late 2024, 52% in 2025",
+            "evidence": [
+              {
+                "card_id": 145,
+                "gloss": "AI-touched resume share trend overview",
+                "verbatim": "The share of AI-touched resumes has moved from negligible to a substantial minority in under three years.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 146,
+                "gloss": "2022 baseline — ChatGPT-assisted resumes negligible",
+                "verbatim": "In 2022, ChatGPT-assisted resumes represented a negligible share of applications[31].",
+                "source_urls": [
+                  "https://getpruf.ai/blog/resume-fraud-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 149,
+                "gloss": "Google search interest in \"AI resumes\" spiked in 2023",
+                "verbatim": "Interest in the underlying tools spiked earlier: Google searches for \"AI resumes\" rose 1,592% across 2023[32].",
+                "source_urls": [
+                  "https://standout-cv.com/usa/stats-usa/study-fake-job-references-resume-lies"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 147,
+                "gloss": "Late-2024 estimate — AI-assisted resumes 30-40% at some tech companies",
+                "verbatim": "By late 2024, estimates from ResumeLab and Jobscan put AI-assisted resumes at 30-40% of applications at some tech companies[31].",
+                "source_urls": [
+                  "https://getpruf.ai/blog/resume-fraud-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 65,
+                "gloss": "Employ 2025: 52% of applicants use AI to write or polish resumes",
+                "verbatim": "**Employ, 2025 Job Seeker Nation Report:** 52% of applicants now say they use AI to write or polish their resumes[7] — the adoption baseline behind the AI-fabrication figures below.",
+                "source_urls": [
+                  "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 148,
+                "gloss": "Projection — AI-generated resumes to exceed human-written by 2027 for under-30s",
+                "verbatim": "Extrapolating that trajectory, AI-generated resumes are projected to exceed human-written ones by 2027 among applicants under 30[31].",
+                "source_urls": [
+                  "https://getpruf.ai/blog/resume-fraud-statistics-2026"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://getpruf.ai/blog/resume-fraud-statistics-2026",
+              "https://standout-cv.com/usa/stats-usa/study-fake-job-references-resume-lies",
+              "https://www.linkedin.com/posts/corporate-intelligence-consultants_employmentscreening-backgroundchecks-hrcompliance-activity-7470962101403062272-rR3c"
+            ]
+          },
+          {
+            "h3": "On the employer side: 51% of US companies used AI in hiring in 2024, projected 68% by end of 2025",
+            "evidence": [
+              {
+                "card_id": 34,
+                "gloss": "ResumeBuilder (2024): 51% of US companies use AI in hiring, projected 68% by end of 2025",
+                "verbatim": "ResumeBuilder (n=948, 2024) found 51% of US companies use AI in hiring, projected to reach 68% by the end of 2025",
+                "source_urls": [
+                  "https://jobcannon.io/blog/ai-resume-statistics-2026"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://jobcannon.io/blog/ai-resume-statistics-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "AI-written resume rejection rates run from 49% to 80%, all dated 2025",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://jobcannon.io/blog/ai-resume-statistics-2026",
+          "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/",
+          "https://www.gem.com/blog/detect-ai-generated-resumes"
+        ],
+        "h3": [
+          {
+            "h3": "The 2025 rejection figures: 49% auto-dismiss, 62% reject unpersonalized, 80% discard outright",
+            "evidence": [
+              {
+                "card_id": 35,
+                "gloss": "Three 2025 surveys give three different AI-résumé rejection rates",
+                "verbatim": "three separate 2025 surveys give three different hiring-manager response rates — Resume.io (n=3,000) puts auto-dismissal of suspected AI résumés at 49%, Resume Now (n=925) puts rejection of AI résumés lacking personalization at 62%, and Resume Genius (n=1,000) finds 74% of hiring managers have seen an AI-generated application at all[13]",
+                "source_urls": [
+                  "https://jobcannon.io/blog/ai-resume-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 152,
+                "gloss": "49% of US hiring managers auto-dismiss suspected-AI resumes",
+                "verbatim": "Resume.io's survey of 3,000 respondents found 49% of US hiring managers auto-dismiss resumes they suspect are AI-generated[13].",
+                "source_urls": [
+                  "https://jobcannon.io/blog/ai-resume-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 153,
+                "gloss": "62% reject AI resumes lacking personalization",
+                "verbatim": "A separate 2025 Resume Now survey of 925 respondents found 62% of hiring managers reject AI resumes specifically when they lack personalization[13].",
+                "source_urls": [
+                  "https://jobcannon.io/blog/ai-resume-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 29,
+                "gloss": "Same source: 80% of hiring managers discard AI-generated apps, 74% say they can spot them",
+                "verbatim": "80% of hiring managers discard AI-generated applications and 74% say they can spot them[11]",
+                "source_urls": [
+                  "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://jobcannon.io/blog/ai-resume-statistics-2026",
+              "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/"
+            ]
+          },
+          {
+            "h3": "74% say they can spot AI content in 2025; 82% couldn't in 2023",
+            "evidence": [
+              {
+                "card_id": 36,
+                "gloss": "2023 ResumeBuilder: 82% of hiring managers couldn't reliably spot ChatGPT cover letter",
+                "verbatim": "A 2023 ResumeBuilder survey (n=1,000) found 82% of hiring managers could not reliably spot a ChatGPT-written cover letter[13]",
+                "source_urls": [
+                  "https://jobcannon.io/blog/ai-resume-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 37,
+                "gloss": "This 2023 stat contradicts the later 2025 claim that 74% can spot AI content",
+                "verbatim": "a figure that predates, and is in tension with, the 2025 claim that 74% of hiring managers say they can spot AI-generated content[11].",
+                "source_urls": [
+                  "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 38,
+                "gloss": "Blended snapshot obscures whether detection ability actually improved",
+                "verbatim": "Treated as a single blended snapshot rather than a two-year progression, these figures obscure whether hiring-manager detection ability has genuinely improved or whether the surveys are simply measuring different things.",
+                "source_urls": [],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://jobcannon.io/blog/ai-resume-statistics-2026",
+              "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/"
+            ]
+          },
+          {
+            "h3": "What the detection claims rest on: 51% cite phrasing, tools false-positive 30-50% of the time",
+            "evidence": [
+              {
+                "card_id": 154,
+                "gloss": "51% cite unnatural phrasing as top AI giveaway",
+                "verbatim": "On the detection side, 51% of hiring managers cite unnatural phrasing as the primary giveaway of AI-generated resumes, according to survey data referenced in the same source[33].",
+                "source_urls": [
+                  "https://www.gem.com/blog/detect-ai-generated-resumes"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 155,
+                "gloss": "AI-detection tools have 30-50% false positive rate",
+                "verbatim": "Standalone AI-detection tools applied to resumes are not trustworthy classifiers: studies show false positive rates of 30-50%, meaning they flag a large share of human-written resumes as AI-generated[33].",
+                "source_urls": [
+                  "https://www.gem.com/blog/detect-ai-generated-resumes"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 156,
+                "gloss": "Light editing after AI generation defeats detection",
+                "verbatim": "The tools are also easy to defeat — a candidate who generates a resume with AI and then lightly edits word choices, sentence structure, and personal details will often pass detection while still having relied primarily on AI for content[33].",
+                "source_urls": [
+                  "https://www.gem.com/blog/detect-ai-generated-resumes"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 174,
+                "gloss": "AI-polish removes the poor-grammar signal recruiters relied on",
+                "verbatim": "Separately, AI-polished language is described as eliminating a signal recruiters previously relied on: poor grammar or awkward phrasing used to flag potential-issue candidates, but AI-smoothed text now delivers uniformly polished, professional-sounding output regardless of the candidate's actual communication ability",
+                "source_urls": [],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.gem.com/blog/detect-ai-generated-resumes"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "The AI-fabricated resume numbers that blended overviews leave out",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [
+          "https://testlify.com/detect-fake-resumes-in-hiring/"
+        ],
+        "external_links": [
+          "https://www.metaview.ai/resources/blog/candidate-fraud-statistics-fake-applications",
+          "https://standout-cv.com/usa/stats-usa/study-fake-job-references-resume-lies",
+          "https://getpruf.ai/blog/resume-fraud-statistics-2026"
+        ],
+        "h3": [
+          {
+            "h3": "83% of AI-tool users admit using AI to exaggerate or lie (Capterra)",
+            "evidence": [
+              {
+                "card_id": 66,
+                "gloss": "Capterra: 83% of AI-tool users admit using AI to exaggerate or lie",
+                "verbatim": "**Capterra:** among job seekers who use AI tools in their search, 83% admitted to using AI to exaggerate or outright lie about skills on a résumé, cover letter, job application, or skills assessment[17].",
+                "source_urls": [
+                  "https://www.metaview.ai/resources/blog/candidate-fraud-statistics-fake-applications"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 67,
+                "gloss": "AI-assisted fabrication rate is a category most blended overviews omit",
+                "verbatim": "This is the category of figure — how often AI-assisted resumes cross into fabrication — that blended, undated overviews of resume statistics tend to omit entirely.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 150,
+                "gloss": "73.4% would consider AI to help lie on resume",
+                "verbatim": "In a 2023/2024 survey cited in that same research, 73.4% of respondents said they would consider using AI tools in 2024 to help lie on their resume",
+                "source_urls": [
+                  "https://standout-cv.com/usa/stats-usa/study-fake-job-references-resume-lies"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 230,
+                "gloss": "TL;DR stats on resume fraud prevalence, AI-generated candidates, deepfake interviews, cost of bad hires, and why live skills tests beat post-offer background checks.",
+                "verbatim": "- 24% of job seekers have lied on a resume (Resume Builder, 2025); 71% of HR professionals encountered false candidate information in the past year (Valid8) \n- By 2028, Gartner predicts 1 in 4 job applicants will be entirely AI-generated – not embellished, but built from scratch using generative tools \n- 6% of job seekers admitted to deepfake interview fraud in 2026; 15% of hiring managers witnessed face-swapping or voice cloning on a live call (Gartner) \n- SHRM puts the average direct cost of a single bad hire at $17,000; for senior roles, total costs reach 3-4x annual salary \n- Gem and Crosschq estimate resume fraud costs U.S. employers over $600 billion annually in aggregate \n- Traditional background checks run post-offer – by that point, a fraudulent candidate has already consumed 3-5 hours of your team’s interview time \n- A live skills assessment run before the phone screen catches most resume fraud in under 20 minutes at effectively zero cost \n- The FBI documented state-sponsored operatives using fully synthetic identities to secure remote IT roles at U.S. companies; Amazon confirmed a fabricated systems administrator identity in December 2025 \n\nResume screening used to be a document problem. A hiring manager checked dates, called a reference, and moved forward. That process no longer works.\n\nThe candidates filling your pipeline in 2026 include applicants who never held the jobs they describe, degrees that do not exist, and in some cases, identities built by a foreign intelligence operation. The tools to commit this fraud – and the tools to verify against it – have both changed faster than most hiring processes have kept up.\n\nThis guide covers the full resume fraud verification process: the 4 types of fraud now active, the tools that detect each one, a 5-step verification framework, and the 8 red flags that slip through document-only screening every time.",
+                "source_urls": [
+                  "https://testlify.com/detect-fake-resumes-in-hiring/"
+                ],
+                "tag": "ownpage"
+              }
+            ],
+            "internal_links": [
+              "https://testlify.com/detect-fake-resumes-in-hiring/"
+            ],
+            "external_links": [
+              "https://www.metaview.ai/resources/blog/candidate-fraud-statistics-fake-applications",
+              "https://standout-cv.com/usa/stats-usa/study-fake-job-references-resume-lies"
+            ]
+          },
+          {
+            "h3": "What AI-written resume content looks like: uniform verb bullets, round numbers, impossible claims",
+            "evidence": [
+              {
+                "card_id": 170,
+                "gloss": "Pattern — uniform action-verb bullet structure",
+                "verbatim": "uniform structure, where every bullet opens with an action verb because the underlying models are trained to produce action-verb bullets[31]",
+                "source_urls": [
+                  "https://getpruf.ai/blog/resume-fraud-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 171,
+                "gloss": "Pattern — round-number achievement claims",
+                "verbatim": "round-number achievements such as \"reduced costs by 30%\" or \"increased conversions by 25%,\" since AI models favor round percentages that appear more often in training data[31]",
+                "source_urls": [
+                  "https://getpruf.ai/blog/resume-fraud-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 172,
+                "gloss": "Pattern — contextually impossible claims from lack of grounding",
+                "verbatim": "contextually impossible claims, since an LLM has no grounding to recognize that \"led a team of 40\" is implausible for an intern-level role and will generate the phrase anyway[31]",
+                "source_urls": [
+                  "https://getpruf.ai/blog/resume-fraud-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 234,
+                "gloss": "Describes AI-generated fabricated work histories and how live conversation/skills tests expose them within 90 seconds.",
+                "verbatim": "A candidate uses a large language model to generate an entire work history – complete with plausible employer names, dates, metrics, and role descriptions tailored exactly to the job description. No real experience underpins any of it.\n\nThe tell is not in the document. It is in the conversation. An AI-generated resume produces candidates who cannot walk through a single project in specific detail, name a former colleague, or answer a direct technical question. The fabrication collapses within 90 seconds of a live skills test or a structured follow-up question.",
+                "source_urls": [
+                  "https://testlify.com/detect-fake-resumes-in-hiring/"
+                ],
+                "tag": "ownpage"
+              }
+            ],
+            "internal_links": [
+              "https://testlify.com/detect-fake-resumes-in-hiring/"
+            ],
+            "external_links": [
+              "https://getpruf.ai/blog/resume-fraud-statistics-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "Fortune 500 ATS use sits at 97.8-99%, and the newer number is AI ranking, not adoption",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://www.jobscan.co/blog/can-ats-detect-ai-resume/"
+        ],
+        "h3": [
+          {
+            "h3": "The 98-99% Fortune 500 ATS adoption figure and its 2025 sources",
+            "evidence": [
+              {
+                "card_id": 23,
+                "gloss": "2025 compilation: ~98-99% of Fortune 500 use an ATS",
+                "verbatim": "~98–99% of Fortune 500 companies use an ATS",
+                "source_urls": [
+                  "https://www.jobscan.co/blog/can-ats-detect-ai-resume/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 80,
+                "gloss": "2025: 98-99% of Fortune 500 companies use an ATS",
+                "verbatim": "roughly 98–99% of Fortune 500 companies use an ATS",
+                "source_urls": [
+                  "https://www.jobscan.co/blog/can-ats-detect-ai-resume/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 142,
+                "gloss": "97.8% of Fortune 500 companies use an ATS",
+                "verbatim": "Separate from the rejection-rate myth, ATS adoption itself is near-universal among large employers: 97.8% of Fortune 500 companies use an applicant tracking system to handle hiring, per proprietary research from an ATS-focused source[30].",
+                "source_urls": [
+                  "https://www.jobscan.co/blog/can-ats-detect-ai-resume/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.jobscan.co/blog/can-ats-detect-ai-resume/"
+            ]
+          },
+          {
+            "h3": "AI-ranking platforms cover 79.3% of Fortune 500 hiring, tiering applicants before human review",
+            "evidence": [
+              {
+                "card_id": 143,
+                "gloss": "AI now grades/tiers applicants via semantic analysis before human review",
+                "verbatim": "That same source describes a shift in what ATS platforms do once a resume is submitted — beyond keyword storage and retrieval, AI now analyzes the semantic content of work history, years of experience, and skill set to assign an applicant a grade or tier before any human reviews the application, based on market-share data from Jobscan's State of the Job Search report and third-party ATS analysis[30].",
+                "source_urls": [
+                  "https://www.jobscan.co/blog/can-ats-detect-ai-resume/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 144,
+                "gloss": "AI-ranking ATS platforms control 79.3% of Fortune 500 hiring",
+                "verbatim": "Among Fortune 500 employers specifically, ATS platforms with active AI-ranking features now control 79.3% of hiring[30].",
+                "source_urls": [
+                  "https://www.jobscan.co/blog/can-ats-detect-ai-resume/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://www.jobscan.co/blog/can-ats-detect-ai-resume/"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "The ATS auto-rejection figure: 92% of systems do not auto-reject, and application volume does the culling",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://jobcannon.io/blog/ai-resume-statistics-2026"
+        ],
+        "h3": [
+          {
+            "h3": "Only 8% of recruiters configure auto-rejection logic",
+            "evidence": [
+              {
+                "card_id": 128,
+                "gloss": "ATS vendors describe a different mechanism than mass auto-rejection",
+                "verbatim": "The vendors and platforms that build ATS software describe a different mechanism than mass auto-rejection.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 129,
+                "gloss": "Jobscan states ATS stores resumes, doesn't reject them",
+                "verbatim": "Jobscan, described as the largest ATS-optimization vendor, states directly that \"ATS doesn't reject resumes. It stores them and allows recruiters to search using keywords\"[13].",
+                "source_urls": [
+                  "https://jobcannon.io/blog/ai-resume-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 130,
+                "gloss": "Enhancv survey: 92% of recruiters' ATS doesn't auto-reject; only 8% configure auto-rejection logic",
+                "verbatim": "An Enhancv survey of US recruiters found that 92% confirmed their ATS does not auto-reject applications on formatting or content grounds; only 8% configure any auto-rejection logic at all, and where it exists it is typically a threshold filter — for example scoring below a 75% keyword match or meeting fewer than 7 of 10 required skills[13].",
+                "source_urls": [
+                  "https://jobcannon.io/blog/ai-resume-statistics-2026"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://jobcannon.io/blog/ai-resume-statistics-2026"
+            ]
+          },
+          {
+            "h3": "Volume, not the algorithm: applications grew about 4x faster than openings in H1 2024",
+            "evidence": [
+              {
+                "card_id": 131,
+                "gloss": "Volume, not algorithmic culling, drives rejection",
+                "verbatim": "Volume, not algorithmic culling, is the documented driver of rejection.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 132,
+                "gloss": "Workday data: applications grew ~4x faster than job openings in H1 2024",
+                "verbatim": "Workday Recruiting customers processed 173 million job applications in the first half of 2024, up 31% year-on-year, while job requisitions on the same platforms grew only 7% to 19 million openings — applications grew roughly four times faster than open roles (Workday Global Workforce Report, September 2024)[13].",
+                "source_urls": [
+                  "https://jobcannon.io/blog/ai-resume-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 133,
+                "gloss": "72% of hiring leaders raised qualification bars in response to volume",
+                "verbatim": "In response, 72% of hiring leaders reported raising their qualification bars[13].",
+                "source_urls": [
+                  "https://jobcannon.io/blog/ai-resume-statistics-2026"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://jobcannon.io/blog/ai-resume-statistics-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "The 75% ATS rejection rate and the Cornell 20-60% figure have no source behind them",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://jobcannon.io/blog/ai-resume-statistics-2026",
+          "https://standout-cv.com/usa/stats-usa/resume-statistics"
+        ],
+        "h3": [
+          {
+            "h3": "The 75% figure came from a 2012 startup's sales pitch and was debunked in 2024",
+            "evidence": [
+              {
+                "card_id": 124,
+                "gloss": "Origin of the 75% ATS rejection statistic",
+                "verbatim": "The most repeated ATS statistic — that applicant tracking systems automatically reject 75% of resumes before a human ever sees them — traces to a single source: a 2012 sales pitch from Preptel, a résumé-optimization startup that went out of business in 2013[13].",
+                "source_urls": [
+                  "https://jobcannon.io/blog/ai-resume-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 159,
+                "gloss": "75% figure originates from a defunct 2012 startup sales pitch",
+                "verbatim": "the 75% figure traces back to a 2012 sales pitch from a startup that went out of business in 2013[13].",
+                "source_urls": [
+                  "https://jobcannon.io/blog/ai-resume-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 125,
+                "gloss": "No methodology or data behind the 75% figure",
+                "verbatim": "No published methodology, no sample size, no primary document exists behind the number.",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 126,
+                "gloss": "75% figure formally debunked in 2024",
+                "verbatim": "Multiple independent investigations reached this same conclusion when they traced the citation chain, and the figure was formally debunked in 2024[13].",
+                "source_urls": [
+                  "https://jobcannon.io/blog/ai-resume-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 127,
+                "gloss": "Debunked 75% claim still circulates on undated pages",
+                "verbatim": "Despite the debunk, the same \"75% of resumes sent into larger businesses are rejected by these systems before a recruiter ever sees them\" claim still circulates on undated career-advice pages with no source attached[29].",
+                "source_urls": [
+                  "https://standout-cv.com/usa/stats-usa/resume-statistics"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://jobcannon.io/blog/ai-resume-statistics-2026",
+              "https://standout-cv.com/usa/stats-usa/resume-statistics"
+            ]
+          },
+          {
+            "h3": "The Cornell 20-60% claim has no traceable study",
+            "evidence": [
+              {
+                "card_id": 141,
+                "gloss": "Cornell 20-60% claim is unverifiable and should be treated as fabricated",
+                "verbatim": "A widely shared claim that \"Cornell University candidates with manual résumés lose in selection in 20–60% of cases\" cannot be matched to any verifiable Cornell publication across the ILR School, Cornell Career Services, NBER, arXiv, or Google Scholar, and should be treated as fabricated[13].",
+                "source_urls": [
+                  "https://jobcannon.io/blog/ai-resume-statistics-2026"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 158,
+                "gloss": "Cornell 20-60% and 75% ATS-rejection figures lack a traceable source",
+                "verbatim": "the \"Cornell 20-60% AI resume rejection\" figure and the \"75% ATS auto-rejection\" figure are both flagged as having no traceable primary source",
+                "source_urls": [
+                  "https://jobcannon.io/blog/ai-resume-statistics-2026"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://jobcannon.io/blog/ai-resume-statistics-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "The ATS rejection-rate figures nobody dates: 98%, 70%, fewer than 1 in 10",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [],
+        "external_links": [
+          "https://standout-cv.com/usa/stats-usa/resume-statistics"
+        ],
+        "h3": [
+          {
+            "h3": "The undated rejection claims in circulation",
+            "evidence": [
+              {
+                "card_id": 134,
+                "gloss": "Undated rejection-rate claims lack methodology framing",
+                "verbatim": "Several rejection-rate figures appear on career-advice sites with no attached survey year, sample size, or named methodology — a pattern the sourced material does not support once traced:",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 135,
+                "gloss": "CareerLauncher 98% rejection claim, undated/unsourced",
+                "verbatim": "\"98% of all resumes submitted to an online job vacancy\" are rejected, attributed to CareerLauncher, with no publication date or methodology given[29].",
+                "source_urls": [
+                  "https://standout-cv.com/usa/stats-usa/resume-statistics"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 136,
+                "gloss": "LinkedIn 70% initial-screening rejection claim, undated, not ATS-specific",
+                "verbatim": "\"70% of all resumes are rejected at the initial screening stage,\" attributed to LinkedIn, similarly undated, and the source notes this stage \"could either be by a software system or recruiter\" — it is not isolated to ATS auto-rejection[29].",
+                "source_urls": [
+                  "https://standout-cv.com/usa/stats-usa/resume-statistics"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 137,
+                "gloss": "Less than 1 in 10 resumes reach hiring manager, undated",
+                "verbatim": "\"Less than 1 in 10 resumes\" submitted via a job website reach the hiring manager for that vacancy, again undated[29].",
+                "source_urls": [
+                  "https://standout-cv.com/usa/stats-usa/resume-statistics"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 138,
+                "gloss": "Only 1 in 4 job seekers feel confident about ATS filtering, undated",
+                "verbatim": "Only \"1 in 4 job seekers\" feel confident their resume will get through ATS filtering, undated[29].",
+                "source_urls": [
+                  "https://standout-cv.com/usa/stats-usa/resume-statistics"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://standout-cv.com/usa/stats-usa/resume-statistics"
+            ]
+          },
+          {
+            "h3": "What the underlying ATS screening evidence actually measured",
+            "evidence": [
+              {
+                "card_id": 139,
+                "gloss": "ERE Media anecdote: ATS rejected 3 of 5 top engineering candidates",
+                "verbatim": "ERE Media reported its own applicant tracking system rejected 3 of its 5 top engineering candidates for lacking a listed relevant skill set — no year given[29].",
+                "source_urls": [
+                  "https://standout-cv.com/usa/stats-usa/resume-statistics"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 140,
+                "gloss": "Bersin & Associates: ideal resume scored only 43% relevancy across ATS tools",
+                "verbatim": "Bersin & Associates built an \"ideal\" candidate resume for a clinical science role and ran it through multiple ATS tools; it scored an average of only 43% relevancy for the role it was written for — no year given[29].",
+                "source_urls": [
+                  "https://standout-cv.com/usa/stats-usa/resume-statistics"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://standout-cv.com/usa/stats-usa/resume-statistics"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "Detection and consequences: 94% of employers now verify, and 41% pull the offer",
+        "target_keyword": null,
+        "evidence": [],
+        "internal_links": [
+          "https://testlify.com/resume-verification-process/"
+        ],
+        "external_links": [
+          "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/",
+          "https://www.amsinform.com/workplace/10-shocking-statistics-about-resume-fraud/",
+          "https://totalverify.equifax.com/blog/all-blogs/-/post/beyond-the-resume-a-deep-dive-into-employment-verification-data",
+          "https://www.resumebuilder.com/1-in-3-americans-admit-to-lying-on-resume/",
+          "https://www.hrdive.com/news/more-than-a-third-of-people-admit-to-lying-on-resumes/570565/"
+        ],
+        "h3": [
+          {
+            "h3": "How many employers actually check: 94% run background checks, 70% check social media (2025)",
+            "evidence": [
+              {
+                "card_id": 24,
+                "gloss": "2025 compilation: 94% of employers run background checks",
+                "verbatim": "94% of employers run background checks",
+                "source_urls": [
+                  "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 79,
+                "gloss": "2025: detection near-universal, 94% of employers run background checks",
+                "verbatim": "Detection has become close to universal by 2025: one 2025-dated source (last updated August 14, 2025) reports that 94% of employers now run background checks",
+                "source_urls": [
+                  "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 25,
+                "gloss": "2025 compilation: 70% of employers run social-media checks",
+                "verbatim": "70% of employers run social-media checks",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 81,
+                "gloss": "2025: 70% of employers conduct social media checks",
+                "verbatim": "and 70% of employers conduct social media checks as part of screening — layers of verification that the same source credits with surfacing resume inconsistencies quickly[11]",
+                "source_urls": [
+                  "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 27,
+                "gloss": "Same source: 53% always verify degrees, 24% sometimes, 77% combined",
+                "verbatim": "53% of employers “always” verify degrees and 24% “sometimes,” for a combined 77% that verify at least sometimes",
+                "source_urls": [
+                  "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/"
+            ]
+          },
+          {
+            "h3": "How often the check finds something: from 1 in 4 to over 75%, and discrepancies up 44% since FY21",
+            "evidence": [
+              {
+                "card_id": 22,
+                "gloss": "Undated: 1 in 4 background checks reveal discrepancies",
+                "verbatim": "A separate “1 in 4 background checks reveal discrepancies” figure is also given without a publication year[10].",
+                "source_urls": [
+                  "https://www.amsinform.com/workplace/10-shocking-statistics-about-resume-fraud/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 26,
+                "gloss": "2025 compilation: verification discrepancies up 44% since FY21",
+                "verbatim": "employment-verification discrepancies have risen 44% since FY21[11]",
+                "source_urls": [
+                  "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 265,
+                "gloss": "Cites HireRight's 2025 report that over 75% of businesses found at least one candidate discrepancy, with education and employment history most falsified.",
+                "verbatim": "According to HireRight’s 2025 Global Benchmark Report , more than 75% of businesses found at least one candidate discrepancy during screening in the preceding 12 months. Education credentials and employment history were the most frequently falsified categories across all regions surveyed.",
+                "source_urls": [
+                  "https://testlify.com/resume-verification-process/"
+                ],
+                "tag": "ownpage"
+              },
+              {
+                "card_id": 266,
+                "gloss": "Breaks down the most common discrepancy types: employment history, education, identity fraud (1 in 6 employers), licenses, and unverifiable references.",
+                "verbatim": "- Employment history: False job titles, inflated dates, and omitted terminations are the most common category. \n- Education credentials: Unverified degrees, diploma mill certificates, and embellished graduation years. \n- Identity discrepancies: HireRight 2025 found that 1 in 6 employers reported experiencing identity fraud during the hiring process. \n- Professional licenses: Particularly common in regulated industries including healthcare, finance, and engineering. \n- Unverifiable references: References who cannot confirm the candidate’s stated responsibilities or outputs.",
+                "source_urls": [
+                  "https://testlify.com/resume-verification-process/"
+                ],
+                "tag": "ownpage"
+              },
+              {
+                "card_id": 30,
+                "gloss": "Equifax study of 254 HR pros: 71% encountered fake candidate details, only 20% confident detecting",
+                "verbatim": "An Equifax study of 254 HR professionals and executives, cited without a year in the surrounding text, found 71% of HR professionals had already encountered fake or misleading candidate details — most commonly around employment history, education, and credentials — while only 20% described themselves as “very confident” in their ability to detect fabricated information, and 50% named workflow-automation technology as a top challenge[12].",
+                "source_urls": [
+                  "https://totalverify.equifax.com/blog/all-blogs/-/post/beyond-the-resume-a-deep-dive-into-employment-verification-data"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [
+              "https://testlify.com/resume-verification-process/"
+            ],
+            "external_links": [
+              "https://www.amsinform.com/workplace/10-shocking-statistics-about-resume-fraud/",
+              "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/",
+              "https://totalverify.equifax.com/blog/all-blogs/-/post/beyond-the-resume-a-deep-dive-into-employment-verification-data"
+            ]
+          },
+          {
+            "h3": "What happens when a lie is caught: 41% of offers rescinded, 18% of hires fired",
+            "evidence": [
+              {
+                "card_id": 28,
+                "gloss": "Same source: 41% of offers rescinded, 18% of hires fired over a lie",
+                "verbatim": "41% of offers get rescinded and 18% of hires get fired once a lie surfaces",
+                "source_urls": [],
+                "tag": "storm"
+              },
+              {
+                "card_id": 82,
+                "gloss": "Consequences of being caught: 41% rescinded offers, 18% fired",
+                "verbatim": "Consequences for candidates caught lying include rescinded offers (41%) and outright firings (18%)[11]",
+                "source_urls": [
+                  "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 83,
+                "gloss": "Consistency check: matches 2021 ResumeBuilder finding on rescinded offers",
+                "verbatim": "a figure roughly consistent with the 2021 ResumeBuilder finding that nearly half of hired liars eventually had their offer pulled after the fabrication was discovered[14]",
+                "source_urls": [
+                  "https://www.resumebuilder.com/1-in-3-americans-admit-to-lying-on-resume/"
+                ],
+                "tag": "storm"
+              },
+              {
+                "card_id": 84,
+                "gloss": "Consistency check: matches ResumeLab finding that 65% of caught liars were not hired or terminated",
+                "verbatim": "and with the ResumeLab finding that 65% of caught liars were not hired or were terminated[18]",
+                "source_urls": [
+                  "https://www.hrdive.com/news/more-than-a-third-of-people-admit-to-lying-on-resumes/570565/"
+                ],
+                "tag": "storm"
+              }
+            ],
+            "internal_links": [],
+            "external_links": [
+              "https://inside.wpriders.com/how-resume-lies-are-always-caught-2025-data/",
+              "https://www.resumebuilder.com/1-in-3-americans-admit-to-lying-on-resume/",
+              "https://www.hrdive.com/news/more-than-a-third-of-people-admit-to-lying-on-resumes/570565/"
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "The 73% 'don't meet all criteria' and 80% screening-time-saved figures",
+        "target_keyword": null,
+        "evidence": [
+          {
+            "card_id": 330,
+            "gloss": "Opens with the scale problem (73% of applicants don't meet all criteria per LinkedIn) and previews what the guide will cover: criteria beyond keywords, where manual/ATS screening falls short, and how AI screening helps.",
+            "verbatim": "Try for free\nBook a demo\nHiring teams aren’t short on applicants anymore. The struggle in 2026 is that most of them aren’t a good fit. LinkedIn found that 73% of HR professionals say less than half of the applications they receive meet all the criteria. That pressure makes resume screening one of the most important parts of the hiring process.\nIn this guide, we’ll break down what resume screening actually means in 2026, what you should be checking (beyond keyword matches), where manual screening and basic ATS filters fall short, and how AI resume screening can help you shortlist qualified candidates faster.\nSummarise this post with:",
+            "source_urls": [
+              "https://testlify.com/resume-screening-every-recruiter-should-know/"
+            ],
+            "tag": "ownpage"
+          },
+          {
+            "card_id": 441,
+            "gloss": "Quantifies the 80% time-savings claim with a worked example (500 applicants x 10 roles) and suggests reallocating saved time to strategic HR work.",
+            "verbatim": "Let’s translate that 80% into actual hours.\nImagine you’re screening for a role that gets 500 applicants. On average, it takes about 6 seconds to skim a resume. That’s 3,000 seconds, or 50 minutes, just to skim, not analyze, 500 resumes.\nNow multiply that by 10 open roles. That’s 500 minutes (over 8 hours).\nWith modern tools, that entire process can be automated, prioritized, and summarized in under 90 minutes total. That’s your 80% savings.\nNow imagine reallocating that time to:\n- Interview prep\n- DEI strategy\n- Employer branding\n- Candidate experience improvements\nSuddenly, your HR function starts looking more like a strategic powerhouse than an overwhelmed sorting machine.",
+            "source_urls": [
+              "https://testlify.com/save-screening-time-reduce-resume-fatigue/"
+            ],
+            "tag": "ownpage"
+          }
+        ],
+        "internal_links": [
+          "https://testlify.com/resume-screening-every-recruiter-should-know/",
+          "https://testlify.com/save-screening-time-reduce-resume-fatigue/"
+        ],
+        "external_links": [],
+        "h3": []
+      }
+    ],
+    "gaps_to_own": [
+      "Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.",
+      "AI-fabricated/exaggerated resume figures: resume.io and standout-cv carry no AI section at all; testgorilla's \"Statistics about resumes and AI\" covers AI writing-tool adoption, not fabrication or lying rates — the specific figures this asset adds are absent industry-wide.",
+      "ATS filter accuracy/usage stats appear on only one of three winners (standout-cv) — thin coverage elsewhere, worth a stronger own if it fits the angle."
+    ],
+    "winners_common_h2s": [
+      "Resume rejection rates and reasons resumes get rejected",
+      "Recruiter time spent reading/screening resumes",
+      "Key takeaways / summary block",
+      "Resume usage and application-volume stats"
+    ],
+    "winners_drift": [],
+    "paa_pool": [
+      "Can ATS detect ChatGPT resume?",
+      "What are red flags on a CV?"
+    ],
+    "related_searches": [
+      "Curriculum vitae statistics template",
+      "Curriculum vitae statistics pdf",
+      "Free curriculum vitae statistics",
+      "Curriculum vitae statistics template word",
+      "Curriculum vitae statistics examples",
+      "Sample resume for statistics graduate",
+      "Academic curriculum vitae example",
+      "MIT CV template Word"
+    ]
+  }
+}

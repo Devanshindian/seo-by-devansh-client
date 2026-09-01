@@ -1,0 +1,122 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>What we started with</title><style>
+:root{--ink:#1c1a17;--mut:#6b6459;--line:#efe7d8;--bg:#fffdf8;--card:#fff;--wash:#fff8ec;
+      --acc:#fb7a00;--acc-soft:#ffd9b0;--yellow:#ffb703;--yellow-soft:#ffe9ad;
+      --ok:#2e7d43;--ok-bg:#e8f5ec;--no:#c2603a;--no-bg:#fdf3f0;--warn:#9a6700;--chip:#fff8ec;
+      --shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+     font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:40px 24px 120px}
+h1{font-size:clamp(26px,4vw,34px);margin:0 0 4px;letter-spacing:-.02em}
+h1 .hl,h1{background:linear-gradient(180deg,transparent 68%,var(--yellow-soft) 68%);display:inline}
+.sub{color:var(--mut);margin:10px 0 28px;display:block}
+h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);
+   margin:36px 0 10px;border-bottom:1px solid var(--line);padding-bottom:7px;font-weight:700}
+/* A failed check has to be findable at a glance in a table of green ticks. */
+tr.bad td{background:var(--pinkwash)}
+tr.bad td:first-child{color:var(--pink);font-weight:700}
+.panel.bad{border-color:var(--pinkline);background:var(--pinkwash)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;
+       margin:0 0 14px;box-shadow:var(--shadow)}
+.nums{display:flex;gap:28px;flex-wrap:wrap;background:linear-gradient(180deg,var(--wash),var(--card));
+      border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin:0 0 10px;box-shadow:var(--shadow)}
+.nums b{font-size:1.55em;display:block;color:var(--ink)}
+ins{background:var(--ok-bg);color:var(--ok);text-decoration:none;border-radius:2px;padding:0 2px}
+del{background:var(--no-bg);color:var(--no);border-radius:2px;padding:0 2px}
+details.diff{border:1px solid var(--line);border-radius:10px;padding:9px 13px;margin:8px 0;background:var(--card)}
+details.diff summary{font-weight:600;cursor:pointer;line-height:1.9}
+details.diff[open] summary{margin-bottom:6px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.dbody{margin-top:6px;font-size:.94em;line-height:1.75}
+.subh{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--acc);
+      font-weight:700;margin:14px 0 4px}
+code{background:var(--wash);border:1px solid var(--line);border-radius:4px;padding:1px 5px;font-size:.86em}
+.kwlist{margin:.3em 0;padding-left:1.3em}
+.kwlist li{margin:.35em 0}
+.map{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 30px;align-items:start}
+.mcol{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:9px 9px 11px;
+      box-shadow:var(--shadow);min-width:0}
+.mh{font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--acc);font-weight:700;
+    padding:2px 5px 7px}
+.mnote{font-size:11.5px;color:var(--warn);background:var(--wash);border:1px dashed var(--acc-soft);
+       border-radius:7px;padding:5px 8px;margin:0 3px 6px;line-height:1.45}
+.lead{color:var(--mut);font-size:.93em;margin:0 0 22px;line-height:1.6}
+.mstep{display:block;text-decoration:none;color:var(--ink);border-radius:8px;padding:5px 8px;
+       border:1px solid transparent}
+.mstep b{display:block;font-size:13.5px;font-weight:700;line-height:1.35}
+.mstep span{display:block;font-size:12.5px;color:var(--mut);line-height:1.45}
+.mstep i{display:block;font-style:normal;font-size:11px;color:var(--mut);opacity:.7;margin-top:1px}
+a.mstep:hover{background:var(--wash);border-color:var(--acc-soft)}
+a.mstep:hover b{color:var(--acc)}
+.mstep.on{background:var(--acc);border-color:var(--acc)}
+.mstep.on b,.mstep.on span{color:#fff}
+.mstep.on span{opacity:.9}
+.mstep.none{opacity:.5}
+@media(max-width:820px){.map{grid-template-columns:1fr}}
+.nums span{color:var(--mut);font-size:.8em}
+.row{padding:10px 2px;border-top:1px dashed var(--line)}
+.row:first-of-type{border-top:0}
+.row .t{font-weight:650}
+.row .m{color:var(--mut);font-size:.88em}
+.reason{margin-top:2px;font-size:.92em}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:100px;
+      padding:1px 9px;font-size:.76em;color:var(--mut);margin-left:6px;vertical-align:middle}
+.tag{display:inline-block;background:var(--yellow-soft);border-radius:100px;padding:1px 9px;font-size:.8em;
+     margin:2px 4px 2px 0;cursor:help;color:var(--ink)}
+.ok{color:var(--ok)}.no{color:var(--no)}.warn{color:var(--warn)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:700px){.grid2{grid-template-columns:1fr}}
+.bar{height:9px;background:var(--wash);border:1px solid var(--line);border-radius:5px;overflow:hidden;margin-top:3px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--yellow),var(--acc))}
+ul{margin:.3em 0;padding-left:1.3em}
+li{margin:.18em 0}
+a{color:var(--acc);overflow-wrap:anywhere}
+details{margin:6px 0}
+summary{cursor:pointer}
+.spine{font-size:1.12em;line-height:1.65;background:var(--wash);border:1px solid var(--acc-soft);
+       border-left:4px solid var(--acc);border-radius:12px;padding:18px 20px;margin:0 0 20px}
+.job{font-style:italic;color:var(--mut);margin:2px 0 6px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+.filters button{background:var(--card);border:1px solid var(--line);color:var(--ink);border-radius:100px;
+                padding:5px 13px;cursor:pointer;font-size:.85em;font-weight:600}
+.filters button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.q{color:var(--mut);font-size:.85em}
+.where{background:var(--wash);border:1px solid var(--acc-soft);border-radius:12px;padding:14px 18px;margin:0 0 22px}
+.where ol{margin:6px 0 0;padding-left:20px}
+.where li{margin:.2em 0;color:var(--mut)}
+.where li.now{color:var(--ink);font-weight:650}
+.where .lead{font-size:.9em;color:var(--mut)}
+.note{color:var(--mut);font-size:.88em;margin:-4px 0 10px}
+.from{color:var(--mut);font-size:.88em}
+.from b{color:var(--ink);font-weight:650}
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 24px}
+.nav a{background:var(--card);border:1px solid var(--line);border-radius:100px;padding:5px 13px;
+       font-size:.85em;font-weight:600;text-decoration:none;color:var(--ink)}
+.nav a.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.lede{font-size:1.06em;line-height:1.66;margin:0 0 22px;color:var(--ink)}
+.oneline{background:var(--wash);border:1px solid var(--acc-soft);border-left:4px solid var(--acc);
+         border-radius:12px;padding:16px 20px;margin:0 0 26px;line-height:1.7}
+.oneline b{white-space:nowrap}
+.stn{display:flex;align-items:baseline;gap:10px;margin:26px 0 8px}
+.stn .name{font-size:1.06em;font-weight:700}
+.stn .does{color:var(--mut);font-size:.9em}
+.step{display:grid;grid-template-columns:30px 1fr;gap:2px 10px;padding:9px 2px;
+      border-top:1px dashed var(--line)}
+.step:first-child{border-top:0}
+.step .no{color:var(--acc);font-weight:700;font-variant-numeric:tabular-nums;font-size:.92em}
+.step .nm{font-weight:650}
+.step .dsc{grid-column:2;color:var(--mut);font-size:.9em}
+.step .see{grid-column:2;font-size:.84em;margin-top:2px}
+.b{display:inline-block;border-radius:100px;padding:0 8px;font-size:.7em;font-weight:700;
+   letter-spacing:.03em;vertical-align:middle;margin-left:6px;border:1px solid var(--line);
+   background:var(--chip);color:var(--mut);text-transform:uppercase}
+.b.ai{background:var(--yellow-soft);border-color:#f2d98d;color:#6a4a00}
+.b.paid{background:var(--no-bg);border-color:#f0d3c8;color:var(--no)}
+.b.code{background:var(--ok-bg);border-color:#cfe6d6;color:var(--ok)}
+.pg{padding:14px 2px;border-top:1px dashed var(--line)}
+.pg:first-child{border-top:0}
+.pg .t{font-weight:700;font-size:1.02em}
+.pg .ask{color:var(--mut);font-size:.9em;margin-top:1px}
+.pg .cov{font-size:.84em;margin-top:5px;color:var(--mut)}
+.pg .look{font-size:.88em;margin-top:4px}
+.key{display:flex;gap:16px;flex-wrap:wrap;font-size:.84em;color:var(--mut);margin:0 0 14px}
+</style></head><body><div class="wrap"><h1>What we started with</h1><p class="sub">strategic-interview-questions-paired-strong — gather review</p><div class="map"><div class="mcol"><div class="mh">1 · Planner</div><a class="mstep on" href="../gather/gather-review.html" target="_blank"><b>gather</b><span>Collects everything the research phase produced.</span></a><a class="mstep" href="../planner/selection-review.html" target="_blank"><b>select</b><span>Keeps the sub-topics that earn a place, and drops the rest.</span></a><a class="mstep" href="../planner/sources-review.html" target="_blank"><b>verify-sources</b><span>Opens the page behind every statistic to check the number is really there.</span></a><span class="mstep none"><b>freeze</b><span>Locks the plan so no later step can quietly change it.</span><i>no page — nothing here to overrule</i></span><span class="mstep none"><b>plan-view</b><span>Writes the locked plan out in plain English.</span><i>no page — nothing here to overrule</i></span></div><div class="mcol"><div class="mh">2 · Architect</div><div class="mnote">All 6 open the one <b>Blueprint</b> page, each at its own section.</div><a class="mstep" href="../architect/blueprint-review.html#sections" target="_blank"><b>shape</b><span>Designs the sections and the order they come in.</span></a><a class="mstep" href="../architect/blueprint-review.html#research" target="_blank"><b>enrich</b><span>Runs the extra research the structure asked for.</span></a><a class="mstep" href="../architect/blueprint-review.html" target="_blank"><b>brand-cards</b><span>Turns the company&#x27;s own research and results into facts the article can cite.</span></a><a class="mstep" href="../architect/blueprint-review.html#sections" target="_blank"><b>allocate</b><span>Gives every section a word budget.</span></a><a class="mstep" href="../architect/blueprint-review.html#keywords" target="_blank"><b>section-keywords</b><span>Buys a real search keyword for the sections that deserve one.</span></a><a class="mstep" href="../architect/blueprint-review.html#headings" target="_blank"><b>headings</b><span>Writes the final wording of every heading, and the H1.</span></a></div><div class="mcol"><div class="mh">3 · Writer</div><a class="mstep" href="../writer/body-review.html" target="_blank"><b>write-body</b><span>Writes every section at once, none able to see the others.</span></a><a class="mstep" href="../writer/editor-review.html" target="_blank"><b>blend</b><span>Reads the whole article and cuts what did not earn its place.</span></a><a class="mstep" href="../writer/wrapper-review.html" target="_blank"><b>wrapper</b><span>Writes the intro on PAS, the FAQ, and the close.</span></a><a class="mstep" href="../writer/coherence-review.html" target="_blank"><b>coherence</b><span>Reads the whole article at once and fixes what contradicts itself.</span></a><a class="mstep" href="../writer/readable-review.html" target="_blank"><b>readable</b><span>Rewrites the whole article so a person wants to read it.</span></a><a class="mstep" href="../writer/slop-review.html" target="_blank"><b>slop</b><span>Strips the AI writing tells.</span></a><a class="mstep" href="../writer/links-review.html" target="_blank"><b>links</b><span>Lays in the internal and external links.</span></a><a class="mstep" href="../writer/clean-review.html" target="_blank"><b>clean</b><span>Fixes odd characters and spacing. No AI.</span></a><a class="mstep" href="../writer/article.html" target="_blank"><b>assemble</b><span>Builds the finished draft and the page you review it on.</span></a></div></div><p class="lead">Nothing has been decided yet. This is the raw material the article will be built from, and the settings it will be built to.</p><h2>The settings this run used</h2><div class="panel"><div class="row"><span class="t">H1</span><div>Strategic Interview Questions Paired With Strong and Weak Sample Answers</div></div><div class="row"><span class="t">Format</span><div>listicle</div></div><div class="row"><span class="t">Primary keyword</span><div>good questions to ask an interviewee</div></div><div class="row"><span class="t">Variations</span><div>questions to ask interviewee, questions to ask an interviewee in an interview, question to ask the interviewee, interview question to ask the interviewee, what questions to ask interviewee, interview questions to ask candidates, interview questions to ask a candidate, interview questions to ask an applicant, interview questions to ask as an employer, strategic interview questions to ask candidates, best interview questions to ask candidates, best interview questions to ask applicants, good interview questions to ask a candidate, good interview questions to ask candidates, questions to ask during an interview as the employer, questions to ask during interview as an employer, questions to ask in an interview as the employer, what to ask an interviewee, best interview questions to ask an interviewee, good interview questions to ask an interviewee, questions to ask a candidate during an interview, questions to ask when interviewing candidates, questions to ask when interviewing someone</div></div><div class="row"><span class="t">Secondary pool (for section headings)</span><div>strategic interview questions, unique interview questions to ask candidates, basic interview questions to ask candidates, casual interview questions to ask candidates, opening question for interview, example of structured interview questions, example of strategic thinking, questions for recruiting interview, questions about strategy</div></div><div class="row"><span class="t">Persona</span><div>Hiring Manager (non-HR-native)</div></div><div class="row"><span class="t">Word band</span><div>5500–7500 words</div></div></div><h2>The world — what this article is and is not about</h2><p class="note">Google returns questions and searches for the WORDS in a query, not for the audience behind them, so some of what comes back belongs to a different field that happens to share our vocabulary. The two lines below are the boundary the vetting used. Read them before judging the keeps and drops.</p><div class="panel"><div class="row"><span class="t">IS about</span><div>Interview questions a hiring manager or recruiter asks candidates for a given role, each paired with a real strong-answer example and a real weak-answer example plus a short line on how to score the response — a rubric interviewers use DURING the interview to judge what a candidate actually said, replacing vague &#x27;look for good communication skills&#x27; criteria with something to benchmark against.</div></div><div class="row"><span class="t">is NOT about</span><div>Not job-seeker interview prep (articles coaching a candidate on how to answer questions to get hired) — this is written for the interviewer&#x27;s side of the table, not the candidate&#x27;s. Not &#x27;strategic interview&#x27; in the consulting/case-interview sense (McKinsey/BCG-style case questions testing business strategy or market-sizing skills) — &#x27;strategic&#x27; here means questions that probe a candidate&#x27;s ability to think strategically about their job function, not a case-study interview format. Not corporate strategy or strategic planning content. Not &#x27;interview&#x27; in the qualitative-research-methodology sense (structured/unstructured interviews as a data-collection technique) or the journalism sense (an interview as a published Q&amp;A piece). Not clinical or psychological intake interviews. Not general behavioral-question listicles that give the question alone with no paired answer or scoring guidance — the answer-pair-plus-score is the defining feature, not just &#x27;good interview questions.&#x27; Not interview scheduling, coordination, or ATS workflow tools.</div></div></div><h2>People-Also-Ask questions — kept 7 of 10</h2><div class="grid2"><div class="panel"><b class="ok">Kept</b><ul><li>What are the top 10 questions to ask a candidate?</li><li>What are the 5 star interview questions?</li><li>What is the killer question in an interview?</li><li>What questions can I ask an interviewee?</li><li>What are 5 good interview questions?</li><li>What are 10 good interview questions?</li><li>What are the 5 C&#x27;s of interviewing?</li></ul></div><div class="panel"><b class="no">Dropped</b><ul><li>What are the 5 best questions to ask an interviewer?</li><li>What are the top 10 questions an interviewer will ask?</li><li>What are good 5 questions to ask?</li></ul><p class="q">The vet call returns only the keeps, so no per-drop reason is on record. A drop means one of two things: off-topic for this article, or belonging to the world in the NOT ABOUT line above.</p></div></div><h2>Related searches — kept 6 of 8</h2><div class="grid2"><div class="panel"><b class="ok">Kept</b><ul><li>Good questions to ask an interviewee reddit</li><li>Strategic interview questions to ask candidates</li><li>Top 10 interview questions to ask candidates</li><li>Good questions to ask an interviewee as an employer</li><li>Casual interview questions to ask candidates</li><li>Best questions to ask as an interviewer</li></ul></div><div class="panel"><b class="no">Dropped</b><ul><li>Unique interview questions to ask employer</li><li>Good questions to ask an interviewee as a candidate</li></ul><p class="q">The vet call returns only the keeps, so no per-drop reason is on record. A drop means one of two things: off-topic for this article, or belonging to the world in the NOT ABOUT line above.</p></div></div><h2>Research depth per section (cards available)</h2><div class="panel"><div class="row"><div class="t">Why Do Structured Interviews Beat Unstructured Ones? <span class="chip">39 cards</span></div><div class="bar"><i style="width:32%"></i></div></div><div class="row"><div class="t">STAR, PAR, and XYZ: The Frameworks Behind Structured Interview Answers <span class="chip">18 cards</span></div><div class="bar"><i style="width:15%"></i></div></div><div class="row"><div class="t">What separates a strong interview answer from a weak one <span class="chip">26 cards</span></div><div class="bar"><i style="width:21%"></i></div></div><div class="row"><div class="t">How do you build strategic interview questions that predict job performance? <span class="chip">53 cards</span></div><div class="bar"><i style="width:44%"></i></div></div><div class="row"><div class="t">How do you build an interview scoring rubric that actually works? <span class="chip">117 cards</span></div><div class="bar"><i style="width:97%"></i></div></div><div class="row"><div class="t">How Is a Candidate&#x27;s Answer Scored? <span class="chip">1 cards</span></div><div class="bar"><i style="width:2%"></i></div></div><div class="row"><div class="t">How do you score interview answers fairly and consistently? <span class="chip">73 cards</span></div><div class="bar"><i style="width:60%"></i></div></div><div class="row"><div class="t">Why Probing Follow-Up Questions Matter More Than the Original Question <span class="chip">7 cards</span></div><div class="bar"><i style="width:6%"></i></div></div><div class="row"><div class="t">How should job-knowledge and technical questions be designed and evaluated? <span class="chip">15 cards</span></div><div class="bar"><i style="width:12%"></i></div></div><div class="row"><div class="t">Sample IT Interview Questions and Strong Answers <span class="chip">6 cards</span></div><div class="bar"><i style="width:5%"></i></div></div><div class="row"><div class="t">Which technical questions best separate strong ML candidates from weak ones? <span class="chip">12 cards</span></div><div class="bar"><i style="width:10%"></i></div></div><div class="row"><div class="t">How do you evaluate ambiguity and problem-framing questions? <span class="chip">22 cards</span></div><div class="bar"><i style="width:18%"></i></div></div><div class="row"><div class="t">How Do You Evaluate a Candidate&#x27;s Prioritization and Stakeholder-Management Skills? <span class="chip">32 cards</span></div><div class="bar"><i style="width:26%"></i></div></div><div class="row"><div class="t">What interview questions reveal how candidates handle difficult stakeholders? <span class="chip">16 cards</span></div><div class="bar"><i style="width:13%"></i></div></div><div class="row"><div class="t">Situational vs. behavioral questions for handling pricing objections <span class="chip">3 cards</span></div><div class="bar"><i style="width:2%"></i></div></div><div class="row"><div class="t">How do candidates respond when plans, priorities, or requirements suddenly change? <span class="chip">23 cards</span></div><div class="bar"><i style="width:19%"></i></div></div><div class="row"><div class="t">What Does the &#x27;Describe a Wrong Decision&#x27; Question Test? <span class="chip">4 cards</span></div><div class="bar"><i style="width:3%"></i></div></div><div class="row"><div class="t">What does the &#x27;ship something not ready&#x27; question actually test? <span class="chip">4 cards</span></div><div class="bar"><i style="width:3%"></i></div></div><div class="row"><div class="t">How do candidates handle disagreeing with a manager or a decision? <span class="chip">8 cards</span></div><div class="bar"><i style="width:7%"></i></div></div><div class="row"><div class="t">How do you tell a strong feedback-response answer from a weak one? <span class="chip">11 cards</span></div><div class="bar"><i style="width:9%"></i></div></div><div class="row"><div class="t">How do you structure a strong initiative answer? <span class="chip">2 cards</span></div><div class="bar"><i style="width:2%"></i></div></div><div class="row"><div class="t">What does the persistence rubric look like at each score level? <span class="chip">6 cards</span></div><div class="bar"><i style="width:5%"></i></div></div><div class="row"><div class="t">What Would Make You Quit Within Three Months? <span class="chip">3 cards</span></div><div class="bar"><i style="width:2%"></i></div></div><div class="row"><div class="t">How does the bar for leadership questions change by seniority? <span class="chip">4 cards</span></div><div class="bar"><i style="width:3%"></i></div></div><div class="row"><div class="t">How do you build a structured culture-fit assessment? <span class="chip">16 cards</span></div><div class="bar"><i style="width:13%"></i></div></div><div class="row"><div class="t">What interview questions reveal culture and values fit? <span class="chip">2 cards</span></div><div class="bar"><i style="width:2%"></i></div></div><div class="row"><div class="t">How do you interview for a customer success role? <span class="chip">9 cards</span></div><div class="bar"><i style="width:7%"></i></div></div><div class="row"><div class="t">What separates strong and weak answers to common interview questions <span class="chip">121 cards</span></div><div class="bar"><i style="width:100%"></i></div></div><div class="row"><div class="t">Key takeaways: making the question bank work as one system <span class="chip">1 cards</span></div><div class="bar"><i style="width:2%"></i></div></div></div><h2>The winners study</h2><div class="panel"><details><summary>Gaps we chose to own (4)</summary><ul><li>Strong-answer and weak-answer benchmarks attached to each question</li><li>Simple scoring lines that turn each question into an evaluation tool</li><li>Less abstract guidance on what a good response actually sounds like</li><li>More interviewer-ready structure for comparing candidates consistently</li></ul></details><details><summary>What every winning article covers (5)</summary><ul><li>Behavioral interview questions</li><li>Situational interview questions</li><li>Skills, capabilities, or qualifications questions</li><li>Culture fit or candidate fit questions</li><li>First-round or general interview questions</li></ul></details><details><summary>Where winners drift off-topic (1)</summary><ul><li>Some drift into adjacent recruiter content: questions to avoid, response assessment frameworks, product CTAs, and related job-seeker interview articles.</li></ul></details></div></div><script></script></body></html>

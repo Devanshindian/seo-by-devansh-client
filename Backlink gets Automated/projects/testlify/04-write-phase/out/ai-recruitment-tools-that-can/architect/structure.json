@@ -1,0 +1,2197 @@
+{
+  "slug": "ai-recruitment-tools-that-can",
+  "format_archetype": "comparison-rankings",
+  "spine": "For a CHRO or compliance owner who personally carries the adverse-impact risk, this article argues that the only defensible way to judge an AI recruiting tool is against published audit evidence: an independent auditor, a stated methodology, impact ratios reported by sex, race and their intersections, and a candidate notice you can prove you sent. Measured that way, the five tools in this category separate sharply, and most of them fail on transparency rather than on fairness. By the end the reader can name which of the five has evidence a regulator or a plaintiff's counsel would accept, run the four-fifths math on their own funnel, and tell a real audit summary from a responsible-AI marketing page.",
+  "coverage_note": "None of the three expected topics is left out: the numbered one-section-per-tool ranking runs as sections 7 to 11, the tools-at-a-glance table sits at section 6 immediately before the deep dives, and the how-to-choose criteria breakdown runs as section 23 (rebuilt around audit evidence rather than setup speed and pricing, because those are not what this reader signs off on). What is dropped from Google's own answer is its sourcing bucket (Juicebox, hireEz, Fetcher) and its scheduling bucket, which sit outside the screen/match/score/converse category this article audits, plus the ATS-integration and pricing criteria, which no bias audit measures.",
+  "item_fields": [],
+  "dropped_items": [],
+  "sections": [
+    {
+      "headline": "The Four Kinds of AI Hiring Tools, and Which Ones Decide",
+      "covers": null,
+      "job": "Set the boundary of what this article audits by naming the four functional categories of AI recruiting tool and stating what each one actually decides about a candidate. This gives the reader the vocabulary every later section reuses, and it establishes that these are separate systems even when one vendor bundles them, which is why an audit has to cover them one at a time.",
+      "is_item": false,
+      "boxes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "box_labels": [
+          "How far AI has spread across hiring",
+          "The tool categories an audit has to cover: resume screening, matching, video interviews, assessments",
+          "Keyword-based resume scanning filters out qualified candidates",
+          "Parsing, screening, assessment, and chat are separate systems"
+        ],
+        "from_h2": "The AI recruitment tools in use today and what each one decides about a candidate",
+        "tags": [
+          "gap: No current-year statistics section on either page — neither TOC has a stats/data roundup, leaving the dated-2019/2021-stats-refresh angle untouched",
+          "paa: How to use AI tools for recruitment?",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+        ],
+        "card_ids": [
+          720,
+          722,
+          746,
+          723,
+          721,
+          775,
+          68,
+          96,
+          62
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 324
+    },
+    {
+      "headline": "Which of Your Hiring Tools Count as an AEDT",
+      "covers": null,
+      "job": "Rule which of the reader's existing systems are in audit scope. Establish that the test is functional (does it screen, rank or score in a way a human relies on) rather than technical, walk the inventory step that surfaces covered tools, and name the gray area where an employer's own scope call is the only thing standing between them and a violation. Everything after this assumes the reader knows which of their tools count.",
+      "is_item": false,
+      "boxes": [
+        18,
+        20,
+        95
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          18,
+          20
+        ],
+        "box_labels": [
+          "The AEDT test is functional, not technical",
+          "Inventorying your HR tech stack to find covered tools"
+        ],
+        "from_h2": "NYC Local Law 144: which hiring tools it covers and what it requires",
+        "tags": [
+          "asset-angle",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+        ],
+        "card_ids": [
+          4,
+          5,
+          7,
+          186,
+          187,
+          193,
+          209,
+          210,
+          194,
+          208,
+          211
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "The gray area: who decides your ATS is in scope",
+          "boxes": [
+            95
+          ],
+          "box_labels": [
+            "Who decides a tool is in scope as an AEDT"
+          ],
+          "from_h2": "The limits of a bias audit: what a passing result proves and what it doesn't",
+          "tags": [
+            "asset-angle",
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+          ],
+          "card_ids": [
+            407,
+            408,
+            514,
+            522,
+            523,
+            524
+          ]
+        }
+      ],
+      "word_target": 324
+    },
+    {
+      "headline": "The Four-Fifths Rule Every Bias Audit Runs",
+      "covers": null,
+      "job": "Define the legal test the rest of the article scores tools against. Separate adverse impact, disparate impact and disparate treatment, state where employer liability sits under Title VII and the EEOC's guidance, and land the four-fifths rule as the benchmark number. This is the criteria half of the methodology: the reader cannot read the tool grid without it.",
+      "is_item": false,
+      "boxes": [
+        13,
+        14,
+        26
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          13,
+          14
+        ],
+        "box_labels": [
+          "Adverse impact, disparate impact, and disparate treatment under Title VII and the UGESP",
+          "How the EEOC applies that framework to AI hiring tools, and who carries the liability"
+        ],
+        "from_h2": "The legal framework a bias audit measures against",
+        "tags": [
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "asset-angle",
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+        ],
+        "card_ids": [
+          312,
+          313,
+          314,
+          315,
+          316,
+          594
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "The four-fifths rule, and where the 80% number comes from",
+          "boxes": [
+            26
+          ],
+          "box_labels": [
+            "What the four-fifths rule is and where it comes from"
+          ],
+          "from_h2": "The bias-audit math: selection rate, impact ratio, and the four-fifths rule",
+          "tags": [
+            "asset-angle"
+          ],
+          "card_ids": [
+            21,
+            22,
+            23,
+            80,
+            111,
+            112,
+            164,
+            195,
+            197,
+            230,
+            282,
+            283,
+            700
+          ]
+        }
+      ],
+      "word_target": 364
+    },
+    {
+      "headline": "How to Run the Four-Fifths Rule on Your Own Funnel",
+      "covers": null,
+      "job": "Show the reader how to run the calculation on their own funnel, not just read someone else's summary. Give the four steps from selection rate to benchmark group to impact ratio to the 0.80 comparison, render one worked pool that fails on race and clears on sex, then close on the intersectional and unknown-demographic slices that plain group math misses. This is the object the angle promises.",
+      "is_item": false,
+      "boxes": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "table": {
+        "columns": [
+          "Group",
+          "Applicants",
+          "Selected",
+          "Selection rate",
+          "Impact ratio vs highest group",
+          "Clears 0.80?"
+        ]
+      },
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          27
+        ],
+        "box_labels": [
+          "How the impact ratio is calculated, step by step"
+        ],
+        "from_h2": "The bias-audit math: selection rate, impact ratio, and the four-fifths rule",
+        "tags": [
+          "asset-angle",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+        ],
+        "card_ids": [
+          78,
+          104,
+          105,
+          106,
+          108,
+          109,
+          110,
+          163,
+          196,
+          284,
+          285,
+          286,
+          287,
+          296
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "A worked example: the same pool fails on race and clears on sex",
+          "boxes": [
+            28
+          ],
+          "box_labels": [
+            "Worked examples of the calculation"
+          ],
+          "from_h2": "The bias-audit math: selection rate, impact ratio, and the four-fifths rule",
+          "tags": [
+            "asset-angle"
+          ],
+          "card_ids": [
+            24,
+            79,
+            165,
+            231,
+            288,
+            289,
+            290,
+            291,
+            292,
+            293,
+            294,
+            295,
+            683
+          ]
+        },
+        {
+          "h3": "Intersections, unknowns, and the tests beyond adverse impact",
+          "boxes": [
+            29,
+            30
+          ],
+          "box_labels": [
+            "Intersectional categories and unknown-demographic counts",
+            "Audit techniques beyond adverse-impact analysis"
+          ],
+          "from_h2": "The bias-audit math: selection rate, impact ratio, and the four-fifths rule",
+          "tags": [
+            "asset-angle",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+          ],
+          "card_ids": [
+            35,
+            36,
+            37,
+            107,
+            129,
+            198,
+            232,
+            234,
+            268,
+            31,
+            32,
+            33,
+            34,
+            38
+          ]
+        }
+      ],
+      "word_target": 405
+    },
+    {
+      "headline": "The Six Yardsticks Every Tool Is Judged On",
+      "covers": null,
+      "job": "State the scoring method before the picks so the grid that follows is checkable. Name the six yardsticks every tool below is judged on, say that the review rests on published audit documents, court filings and regulatory records rather than hands-on testing, and state the inclusion rule: a tool earns a section only where the public record speaks to enough of the yardsticks to compare it fairly.",
+      "is_item": false,
+      "boxes": [],
+      "table": null,
+      "list": {
+        "kind": "bulleted",
+        "of": "the six yardsticks each tool is scored on, from published bias-audit evidence through to vendor contract terms"
+      },
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [],
+        "box_labels": [],
+        "from_h2": "",
+        "tags": [],
+        "card_ids": [],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 324
+    },
+    {
+      "headline": "The Five Tools at a Glance, and How to Read the Blanks",
+      "covers": "Tools-at-a-glance summary/comparison table before the ranked list",
+      "job": "Put all five tools side by side on the six yardsticks so the reader can see the split before reading a word of deep dive. Establish the reading rule that makes the grid honest: a blank cell means no public evidence, and no public evidence is not a pass. Sets up every deep dive that follows.",
+      "is_item": false,
+      "boxes": [
+        67
+      ],
+      "table": {
+        "columns": [
+          "Tool",
+          "What it scores",
+          "Published bias audit (auditor, date)",
+          "Adverse-impact results public?",
+          "Candidate notice and disclosure support",
+          "Known legal or regulatory exposure"
+        ]
+      },
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          67
+        ],
+        "box_labels": [
+          "Tools With No Public Bias-Audit Record: iCIMS, Workday, Paradox, Lumi"
+        ],
+        "from_h2": "Tools With No Public Bias-Audit Record: iCIMS, Workday, Paradox, Lumi",
+        "tags": [
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+        ],
+        "card_ids": [
+          405
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 324
+    },
+    {
+      "headline": "HireVue: Two Audits, Neither One You Can Read",
+      "covers": "Numbered \"best AI [hiring/recruiting] tools\" ranking with one section per tool",
+      "job": "Settle whether the most scrutinised video scoring tool in the category has an audit record a compliance review would accept. Show what the system measures and how much of the score comes from facial action, then weigh the FTC complaint, the two O'Neil audits nobody could read in full, and the accessibility complaint against the claim of a clean bill of health.",
+      "is_item": false,
+      "boxes": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          50,
+          51,
+          52
+        ],
+        "box_labels": [
+          "Video interview platforms as covered AEDTs",
+          "What the system scores",
+          "Disclosure and explainability claims"
+        ],
+        "from_h2": "HireVue",
+        "tags": [
+          "asset-angle",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+          "common-h2: Numbered \"best AI [hiring/recruiting] tools\" ranking with one section per tool"
+        ],
+        "card_ids": [
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          430,
+          431,
+          432,
+          433,
+          434,
+          144,
+          403,
+          441,
+          452
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "EPIC's FTC complaint, and the audits that followed",
+          "boxes": [
+            53,
+            54
+          ],
+          "box_labels": [
+            "EPIC's FTC complaint",
+            "The O'Neil and DCI audits"
+          ],
+          "from_h2": "HireVue",
+          "tags": [
+            "asset-angle",
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+          ],
+          "card_ids": [
+            435,
+            436,
+            437,
+            438,
+            439,
+            440,
+            442,
+            443,
+            444,
+            445,
+            446,
+            447,
+            448
+          ]
+        },
+        {
+          "h3": "The captioning complaint, and the verdict on the record",
+          "boxes": [
+            55,
+            56
+          ],
+          "box_labels": [
+            "The automated-captioning accessibility complaint",
+            "Audit verdict"
+          ],
+          "from_h2": "HireVue",
+          "tags": [
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+            "asset-angle",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+          ],
+          "card_ids": [
+            454,
+            455,
+            456,
+            458,
+            459,
+            460
+          ]
+        }
+      ],
+      "word_target": 356
+    },
+    {
+      "headline": "Pymetrics: The One Tool That Let Auditors Read the Code",
+      "covers": "Numbered \"best AI [hiring/recruiting] tools\" ranking with one section per tool",
+      "job": "Show what a cooperative audit produces when a vendor actually opens the source code, because this is the fullest public account of any tool tested against the methodology in section 4. Establish the terms that made the audit credible, the two changes the vendor made to pass, and the score-reuse practice the auditors found that no disclosure covered.",
+      "is_item": false,
+      "boxes": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          57,
+          58
+        ],
+        "box_labels": [
+          "What Pymetrics sells and what it claimed",
+          "How the cooperative audit was set up"
+        ],
+        "from_h2": "Pymetrics",
+        "tags": [
+          "asset-angle",
+          "common-h2: Numbered \"best AI [hiring/recruiting] tools\" ranking with one section per tool",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+        ],
+        "card_ids": [
+          461,
+          463,
+          465,
+          467,
+          462,
+          468,
+          469,
+          473,
+          474,
+          525,
+          526,
+          527,
+          528,
+          529,
+          530,
+          563
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "What the auditors tested, and the two changes made to pass",
+          "boxes": [
+            59,
+            60
+          ],
+          "box_labels": [
+            "What the auditors tested and confirmed",
+            "The two changes Pymetrics made to pass"
+          ],
+          "from_h2": "Pymetrics",
+          "tags": [
+            "asset-angle",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+          ],
+          "card_ids": [
+            531,
+            532,
+            533,
+            470,
+            471,
+            472
+          ]
+        },
+        {
+          "h3": "The 330-day score reuse nobody disclosed",
+          "boxes": [
+            61,
+            62
+          ],
+          "box_labels": [
+            "The 330-day score reuse disclosure gap",
+            "The missing-demographic-data caveat in the method"
+          ],
+          "from_h2": "Pymetrics",
+          "tags": [
+            "asset-angle",
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+          ],
+          "card_ids": [
+            475,
+            476,
+            477,
+            558,
+            559
+          ]
+        }
+      ],
+      "word_target": 356
+    },
+    {
+      "headline": "Eightfold AI: What BABL AI's Audit Covers, and Doesn't",
+      "covers": "Numbered \"best AI [hiring/recruiting] tools\" ranking with one section per tool",
+      "job": "Show what a compliant Local Law 144 audit package looks like when a vendor publishes one, since this is the reference the reader should demand from every other vendor. Name the auditor, the credential, the fee structure that protects independence and the published methodology, then be equally precise about the scope the opinion deliberately does not cover.",
+      "is_item": false,
+      "boxes": [
+        63,
+        64,
+        65,
+        66
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          63,
+          64
+        ],
+        "box_labels": [
+          "The auditor: BABL AI and its independence",
+          "The methodology: the Criterion Audit Framework"
+        ],
+        "from_h2": "Eightfold AI's Matching Model",
+        "tags": [
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+          "asset-angle"
+        ],
+        "card_ids": [
+          382,
+          383,
+          384,
+          386,
+          387,
+          385,
+          390,
+          391
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "What the audit covered, and what it deliberately did not",
+          "boxes": [
+            65,
+            66
+          ],
+          "box_labels": [
+            "What the audit tested",
+            "Scope and limits of the opinion"
+          ],
+          "from_h2": "Eightfold AI's Matching Model",
+          "tags": [
+            "asset-angle",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+          ],
+          "card_ids": [
+            388,
+            392,
+            393,
+            397,
+            389,
+            394,
+            395,
+            396,
+            398,
+            399,
+            400
+          ]
+        }
+      ],
+      "word_target": 356
+    },
+    {
+      "headline": "Workday AI Lawsuit, and No Published Bias Audit",
+      "covers": "Numbered \"best AI [hiring/recruiting] tools\" ranking with one section per tool",
+      "job": "Price the risk of the tool with no published audit and an active federal case. Establish that no bias-audit or four-fifths evidence exists for Workday's AI hiring functionality, then show what the Mobley litigation has already decided: that a vendor can be liable as an agent of the employer, that the disparate-impact claims survived, and how large the certified collective is.",
+      "is_item": false,
+      "boxes": [
+        69,
+        76,
+        77,
+        78,
+        79
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Workday Recruiting and HiredScore candidate-notice and AEDT disclosure tooling: whether Workday ships configurable Local Law 144 candidate notice templates, a 10-business-day advance notice workflow, job-posting AEDT disclosure fields, an alternative-selection-process request path, or an AEDT inventory/reporting report for customers. Look for Workday Community documentation, Workday Compliance or Trust pages, HiredScore responsible AI documentation, Workday's LL144 or NY AEDT customer guidance notes, and analyst or law-firm write-ups (Littler, Fisher Phillips, Ogletree) describing what Workday customers must build themselves versus what the platform provides. Include dates and exact feature names.",
+          "goes_to": "Whether Workday gives employers the notice and disclosure tooling the law requires"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          69,
+          76
+        ],
+        "box_labels": [
+          "Workday",
+          "Mobley v. Workday: who sued, and over what"
+        ],
+        "from_h2": "Tools With No Public Bias-Audit Record: iCIMS, Workday, Paradox, Lumi",
+        "tags": [
+          "asset-angle",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+        ],
+        "card_ids": [
+          402,
+          485,
+          47,
+          356,
+          357,
+          358,
+          360,
+          374,
+          381
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "The agent theory that put a vendor on the hook",
+          "boxes": [
+            77,
+            78
+          ],
+          "box_labels": [
+            "The 'agent of the employer' theory that made the vendor liable",
+            "Disparate impact, not intent: the claims the court let proceed"
+          ],
+          "from_h2": "The lawsuits that put AI hiring vendors on the hook",
+          "tags": [
+            "asset-angle",
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+          ],
+          "card_ids": [
+            359,
+            361,
+            363,
+            371,
+            49,
+            355,
+            362,
+            366,
+            376,
+            377,
+            379
+          ]
+        },
+        {
+          "h3": "The ADEA collective and its scale",
+          "boxes": [
+            79
+          ],
+          "box_labels": [
+            "The ADEA collective action and its scale"
+          ],
+          "from_h2": "The lawsuits that put AI hiring vendors on the hook",
+          "tags": [
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+          ],
+          "card_ids": [
+            48,
+            364,
+            365,
+            367,
+            368,
+            380
+          ]
+        },
+        {
+          "h3": "Whether Workday gives employers the notice and disclosure tooling the law requires",
+          "boxes": [],
+          "box_labels": [],
+          "from_h2": "",
+          "tags": [],
+          "card_ids": [
+            9001,
+            9002,
+            9003,
+            9004,
+            9005,
+            9006,
+            9007,
+            9008,
+            9009,
+            9010,
+            9011,
+            9012
+          ]
+        }
+      ],
+      "word_target": 356
+    },
+    {
+      "headline": "Testlify: A Transparency Page With No Impact Ratios",
+      "covers": "Numbered \"best AI [hiring/recruiting] tools\" ranking with one section per tool",
+      "job": "Judge the publisher's own tool on the same six yardsticks and say plainly where its evidence stops. Establish that Testlify publishes a Local Law 144 transparency page and a completed third-party audit of its matching model, then separate that from what a vendor-commissioned audit can and cannot prove, and name the impact-ratio numbers that are not in the public record.",
+      "is_item": false,
+      "boxes": [
+        32,
+        9
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Testlify's published bias-audit summary for its matching model (independent third-party audit completed 16 June 2023): the auditor's name and firm, the audit methodology used, the data source (historical use data or test data), the selection or scoring rates and impact ratios reported by sex, by race/ethnicity and by sex-race intersection, the distribution date, whether the audit has been renewed within the last twelve months, and whether the AI interview scoring and the 1500+ test library are inside or outside the audited scope. Check testlify.com's Local Law 144 or bias-audit page, its trust/security pages, and any DCWP-facing disclosure.",
+          "goes_to": "The adverse-impact numbers Testlify has not published"
+        },
+        {
+          "topic": "Testlify's customer contract terms and legal exposure relative to AI hiring law: whether its master services agreement, DPA or terms of service contain a compliance-with-laws covenant, an indemnity for the vendor's own legal violations, a liability cap expressed in fees, a customer indemnity obligation, or any commitment to re-audit after a material model change. Also check for any EEOC charge, DCWP enforcement action, FCRA claim or private discrimination suit naming Testlify. Sources: testlify.com legal pages, court dockets, EEOC press releases, DCWP enforcement records.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          32,
+          9
+        ],
+        "box_labels": [
+          "Vendor-commissioned audits and what they actually prove",
+          "What actually contains it: regular audits, explainable scoring, and human oversight"
+        ],
+        "from_h2": "The independent bias audit: who runs it, what it costs, how often",
+        "tags": [
+          "asset-angle",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+          "common-h2: How to choose the right AI tool (criteria breakdown: ATS integration, screening/matching capability, setup speed, pricing/scalability, candidate experience)"
+        ],
+        "card_ids": [
+          493,
+          494,
+          564,
+          568,
+          572,
+          732,
+          780,
+          791,
+          825,
+          9022,
+          9023,
+          9024,
+          9025,
+          9026,
+          9027,
+          9028,
+          9029,
+          9030,
+          9031
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "The adverse-impact numbers Testlify has not published",
+          "boxes": [],
+          "box_labels": [],
+          "from_h2": "",
+          "tags": [],
+          "card_ids": [
+            9013,
+            9014,
+            9015,
+            9016,
+            9017,
+            9018,
+            9019,
+            9020,
+            9021
+          ]
+        }
+      ],
+      "word_target": 356
+    },
+    {
+      "headline": "What NYC Local Law 144 Requires, and What Comes Next",
+      "covers": null,
+      "job": "Turn the audit standard into the reader's own compliance checklist now that they have seen how the five tools measure up. Set out who Local Law 144 covers and on what geographic trigger, the three obligations it imposes, the exact contents of the public summary and the ten-business-day notice, and the records that prove both. Then stack the state and cross-border rules on top and settle whether the April 2025 federal shift reduced the exposure.",
+      "is_item": false,
+      "boxes": [
+        17,
+        35,
+        36,
+        37,
+        15,
+        16
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          17
+        ],
+        "box_labels": [
+          "The law itself: dates, obligations, and who falls under it"
+        ],
+        "from_h2": "NYC Local Law 144: which hiring tools it covers and what it requires",
+        "tags": [
+          "asset-angle",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+        ],
+        "card_ids": [
+          1,
+          2,
+          6,
+          77,
+          248,
+          249,
+          250,
+          269,
+          270
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "What you publish, and what you tell the candidate",
+          "boxes": [
+            35,
+            36,
+            37
+          ],
+          "box_labels": [
+            "Publishing the audit summary on your website",
+            "Notifying candidates before the tool is used",
+            "Keeping the records that prove both"
+          ],
+          "from_h2": "The disclosure and notice duties that come with a bias audit",
+          "tags": [
+            "asset-angle",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+          ],
+          "card_ids": [
+            84,
+            256,
+            237,
+            12,
+            238,
+            257,
+            258,
+            166,
+            239,
+            260,
+            205,
+            204,
+            261,
+            262,
+            240,
+            790,
+            259,
+            242
+          ]
+        },
+        {
+          "h3": "The state rules, and the 2025 federal shift that changed less than it looked",
+          "boxes": [
+            15,
+            16
+          ],
+          "box_labels": [
+            "The April 2025 enforcement shift, and why the exposure has not gone away",
+            "State, local, and cross-border AEDT rules: disclosure duties and ongoing assessments"
+          ],
+          "from_h2": "The legal framework a bias audit measures against",
+          "tags": [
+            "asset-angle",
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+          ],
+          "card_ids": [
+            317,
+            318,
+            319,
+            320,
+            30,
+            88,
+            814
+          ]
+        }
+      ],
+      "word_target": 324
+    },
+    {
+      "headline": "Where Bias Actually Enters an AI Screening Tool",
+      "covers": null,
+      "job": "Explain why audit results come out the way they do by naming the distinct failure modes behind them. Separate data bias from measurement bias, mark the five points in a screening pipeline where an audit typically fails, and settle the knockout-criteria question, including why years-of-experience cutoffs are the most contested rule in the stack. This gives the evidence in the next section a mechanism.",
+      "is_item": false,
+      "boxes": [
+        7,
+        5
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          7,
+          5
+        ],
+        "box_labels": [
+          "The failure modes: data bias, measurement bias, and the five points a screening pipeline breaks",
+          "Knockout criteria and the years-of-experience problem"
+        ],
+        "from_h2": "Where bias enters an AI recruitment tool",
+        "tags": [
+          "asset-angle",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+        ],
+        "card_ids": [
+          51,
+          52,
+          53,
+          54,
+          60,
+          73,
+          74,
+          813,
+          63,
+          64
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 324
+    },
+    {
+      "headline": "What Bias Audits Found When Vendors Were Tested",
+      "covers": null,
+      "job": "Replace vendor claims with measured numbers and give every figure its year and its study, which is what a legal review will ask for. Show the cross-vendor audit results, the pass rates and the spread between vendors, set the human-bias baseline the EEOC records, then run the documented failures in named screening tools with their dates.",
+      "is_item": false,
+      "boxes": [
+        10,
+        12,
+        11,
+        6
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          10,
+          12
+        ],
+        "box_labels": [
+          "Audit and benchmark results across vendors",
+          "The baseline: how widely these tools are used, and how human bias compares"
+        ],
+        "from_h2": "The measured evidence on bias in AI recruitment tools",
+        "tags": [
+          "asset-angle",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "gap: No current-year statistics section on either page — neither TOC has a stats/data roundup, leaving the dated-2019/2021-stats-refresh angle untouched",
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+        ],
+        "card_ids": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          128,
+          769
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "The documented failures in real screening tools, by year",
+          "boxes": [
+            11,
+            6
+          ],
+          "box_labels": [
+            "Documented bias findings in real screening tools",
+            "Name bias in resume screening, and anonymization as a response"
+          ],
+          "from_h2": "The measured evidence on bias in AI recruitment tools",
+          "tags": [
+            "asset-angle",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+            "gap: No current-year statistics section on either page — neither TOC has a stats/data roundup, leaving the dated-2019/2021-stats-refresh angle untouched"
+          ],
+          "card_ids": [
+            70,
+            71,
+            72,
+            126,
+            127,
+            321,
+            322,
+            759
+          ]
+        }
+      ],
+      "word_target": 324
+    },
+    {
+      "headline": "The Data an Auditor Needs, and What You Won't Have",
+      "covers": null,
+      "job": "Settle what an auditor actually needs from the employer, because this is where most audits stall. Establish that historical use data is the default and test data a disclosed fallback, set out the demographic breakdowns the law requires, then price the two structural problems: intersectional slices too small to be meaningful, and demographic data that is missing precisely where it matters most.",
+      "is_item": false,
+      "boxes": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          22
+        ],
+        "box_labels": [
+          "Historical data versus test data"
+        ],
+        "from_h2": "The data a bias audit runs on",
+        "tags": [
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "asset-angle"
+        ],
+        "card_ids": [
+          9,
+          10,
+          81,
+          117,
+          120,
+          121,
+          122,
+          219,
+          220,
+          222,
+          223,
+          224
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "The demographic breakdowns an audit must report",
+          "boxes": [
+            23
+          ],
+          "box_labels": [
+            "The demographic breakdowns an audit must report"
+          ],
+          "from_h2": "The data a bias audit runs on",
+          "tags": [
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+          ],
+          "card_ids": [
+            113,
+            297,
+            298,
+            299,
+            300,
+            302,
+            303
+          ]
+        },
+        {
+          "h3": "Small samples and intersectional slices",
+          "boxes": [
+            24
+          ],
+          "box_labels": [
+            "Small samples and intersectional testing"
+          ],
+          "from_h2": "The data a bias audit runs on",
+          "tags": [
+            "asset-angle",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+          ],
+          "card_ids": [
+            11,
+            82,
+            114,
+            115,
+            301,
+            335,
+            336,
+            337,
+            338,
+            339,
+            340,
+            341
+          ]
+        },
+        {
+          "h3": "The records that go missing, and why they skew the result",
+          "boxes": [
+            25
+          ],
+          "box_labels": [
+            "Missing and unclassifiable demographic data"
+          ],
+          "from_h2": "The data a bias audit runs on",
+          "tags": [
+            "asset-angle",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+          ],
+          "card_ids": [
+            118,
+            119,
+            221,
+            226,
+            227,
+            228,
+            229,
+            267,
+            342,
+            343,
+            344
+          ]
+        }
+      ],
+      "word_target": 324
+    },
+    {
+      "headline": "Who Can Run Your Bias Audit, What It Costs, How Often",
+      "covers": null,
+      "job": "Answer the three procurement questions the reader will be asked in a board meeting: who is allowed to run the audit, what it costs, and how often it has to happen. Define the independence requirement and how to verify it, then set the price band and the twelve-month expiry, including what a material model change does to a valid audit.",
+      "is_item": false,
+      "boxes": [
+        31,
+        21,
+        33,
+        34
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          31,
+          21
+        ],
+        "box_labels": [
+          "Who counts as an independent auditor under Local Law 144",
+          "The data a bias audit runs on"
+        ],
+        "from_h2": "The independent bias audit: who runs it, what it costs, how often",
+        "tags": [
+          "asset-angle",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+        ],
+        "card_ids": [
+          212,
+          213,
+          214,
+          216,
+          217,
+          218,
+          252,
+          253,
+          254,
+          255,
+          562,
+          8
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "What an audit costs, and how often you need a new one",
+          "boxes": [
+            33,
+            34
+          ],
+          "box_labels": [
+            "What a bias audit costs",
+            "Audit cadence: annual renewal and re-auditing after changes"
+          ],
+          "from_h2": "The independent bias audit: who runs it, what it costs, how often",
+          "tags": [
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+          ],
+          "card_ids": [
+            566,
+            567,
+            167,
+            235,
+            236,
+            241,
+            251
+          ]
+        }
+      ],
+      "word_target": 324
+    },
+    {
+      "headline": "Why Video-Interview Scoring Fails a Bias Audit",
+      "covers": null,
+      "job": "Rule on the category with the weakest scientific footing. Lay out the speech-recognition, non-native-speaker and facial-analysis evidence against automated video scoring, then separate the disability failure mode as the one nobody has shown how to fix. Close by showing the counterfactual test that audits a black-box video tool and the structured-rubric design that makes video screening defensible at all.",
+      "is_item": false,
+      "boxes": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          42,
+          43
+        ],
+        "box_labels": [
+          "The evidence against automated video scoring",
+          "Disability bias, the hardest failure mode to fix"
+        ],
+        "from_h2": "Video-interview scoring tools under a bias audit",
+        "tags": [
+          "asset-angle",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+        ],
+        "card_ids": [
+          145,
+          146,
+          147,
+          148,
+          149,
+          151,
+          150,
+          202,
+          157,
+          158,
+          159,
+          160,
+          161
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "Auditing a black box: the counterfactual test, and what makes video defensible",
+          "boxes": [
+            44,
+            45
+          ],
+          "box_labels": [
+            "The counterfactual test: auditing a black-box video tool",
+            "What makes video screening defensible"
+          ],
+          "from_h2": "Video-interview scoring tools under a bias audit",
+          "tags": [
+            "asset-angle",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+            "common-h2: How to choose the right AI tool (criteria breakdown: ATS integration, screening/matching capability, setup speed, pricing/scalability, candidate experience)"
+          ],
+          "card_ids": [
+            152,
+            153,
+            154,
+            155,
+            156,
+            168,
+            233,
+            176,
+            177,
+            178,
+            179,
+            183
+          ]
+        }
+      ],
+      "word_target": 324
+    },
+    {
+      "headline": "Chat Screeners Cause Adverse Impact Without Asking Anything",
+      "covers": null,
+      "job": "Close the loophole a reader will assume exists: that a conversational screener escapes the audit because it never asks about a protected class. Establish when a chatbot crosses into AEDT territory and when it is carved out, then show the two concrete failure modes, format rejection of assistive-tech input and employment-gap probing, and the 2025 benchmark result for LLM screeners.",
+      "is_item": false,
+      "boxes": [
+        19,
+        46,
+        47,
+        48,
+        49
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          19,
+          46,
+          47,
+          48,
+          49
+        ],
+        "box_labels": [
+          "Chatbot and conversational screening tools, and the carve-outs",
+          "Chatbot and LLM screeners: adverse impact without a protected-class question",
+          "Format rejection as an assistive-tech screen-out",
+          "Employment-gap probing and caregiving or illness absences",
+          "FAIRE Benchmark (2025): racial and gender disparities in LLM screener scoring"
+        ],
+        "from_h2": "NYC Local Law 144: which hiring tools it covers and what it requires",
+        "tags": [
+          "asset-angle",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "gap: No current-year statistics section on either page — neither TOC has a stats/data roundup, leaving the dated-2019/2021-stats-refresh angle untouched"
+        ],
+        "card_ids": [
+          184,
+          185,
+          188,
+          189,
+          190,
+          191,
+          192,
+          199,
+          200,
+          201,
+          203,
+          169
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 324
+    },
+    {
+      "headline": "Who Is Liable When the Tool You Bought Discriminates",
+      "covers": null,
+      "job": "Settle who is answerable when a bought tool produces adverse impact, which is the question the reader personally carries. Establish that liability stays with the employer, that a vendor's compliance assurance is not a defence, and what the employer must still do with a purchased tool. Then read what the vendor contracts actually say about indemnity, liability caps and compliance with law.",
+      "is_item": false,
+      "boxes": [
+        72,
+        73,
+        74,
+        80,
+        81,
+        75
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          72,
+          73,
+          74,
+          80,
+          81
+        ],
+        "box_labels": [
+          "Liability stays with the employer, not the vendor",
+          "A vendor's compliance assurance is not a defense",
+          "What the employer still has to do with a bought tool",
+          "EEOC v. iTutorGroup and Kistler v. Eightfold AI",
+          "What the case law changes for employers buying these tools"
+        ],
+        "from_h2": "Vendor tools and where the liability actually sits",
+        "tags": [
+          "asset-angle",
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "common-h2: How to choose the right AI tool (criteria breakdown: ATS integration, screening/matching capability, setup speed, pricing/scalability, candidate experience)"
+        ],
+        "card_ids": [
+          56,
+          206,
+          245,
+          246,
+          207,
+          247,
+          57,
+          58,
+          46,
+          76,
+          50,
+          354,
+          422,
+          423,
+          424
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "What the vendor contracts actually say about a law violation",
+          "boxes": [
+            75
+          ],
+          "box_labels": [
+            "What the vendor contracts actually say about law violations"
+          ],
+          "from_h2": "Vendor tools and where the liability actually sits",
+          "tags": [
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+            "asset-angle"
+          ],
+          "card_ids": [
+            480,
+            481,
+            482,
+            483,
+            484
+          ]
+        }
+      ],
+      "word_target": 324
+    },
+    {
+      "headline": "How NYC Local Law 144 Is Enforced, and What It Costs",
+      "covers": null,
+      "job": "Price the downside honestly and correct the reader's likely conclusion that thin enforcement means low risk. Report what the State Comptroller's December 2025 audit found about the regulator's own record, then run the penalty math on how separate violations stack per tool per day, and name the visibility and maintenance gaps that produce most findings.",
+      "is_item": false,
+      "boxes": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          38,
+          39
+        ],
+        "box_labels": [
+          "Local Law 144 enforcement and penalty exposure",
+          "The enforcement record: what the State Comptroller's December 2025 audit found"
+        ],
+        "from_h2": "Local Law 144 enforcement and penalty exposure",
+        "tags": [
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+          "asset-angle",
+          "gap: No current-year statistics section on either page — neither TOC has a stats/data roundup, leaving the dated-2019/2021-stats-refresh angle untouched"
+        ],
+        "card_ids": [
+          271,
+          273,
+          15,
+          16,
+          17,
+          170,
+          171,
+          172,
+          174,
+          175,
+          243,
+          277,
+          411,
+          412,
+          413,
+          414,
+          415,
+          427,
+          496,
+          497,
+          498,
+          499,
+          500,
+          501,
+          502,
+          503,
+          504,
+          505,
+          506,
+          538,
+          539,
+          540,
+          541,
+          542,
+          543,
+          544,
+          547
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "Penalty math: how the exposure stacks up",
+          "boxes": [
+            40
+          ],
+          "box_labels": [
+            "Penalty math: what counts as a violation and how exposure stacks up"
+          ],
+          "from_h2": "Local Law 144 enforcement and penalty exposure",
+          "tags": [
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+          ],
+          "card_ids": [
+            13,
+            14,
+            85,
+            87,
+            274,
+            275,
+            276,
+            507,
+            508,
+            509,
+            510,
+            550,
+            551,
+            552,
+            553
+          ]
+        },
+        {
+          "h3": "The gaps employers keep missing",
+          "boxes": [
+            41
+          ],
+          "box_labels": [
+            "The compliance gaps employers keep missing"
+          ],
+          "from_h2": "Local Law 144 enforcement and penalty exposure",
+          "tags": [
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+          ],
+          "card_ids": [
+            278,
+            279,
+            280,
+            281,
+            511,
+            554,
+            555,
+            556,
+            557
+          ]
+        }
+      ],
+      "word_target": 324
+    },
+    {
+      "headline": "What a Passing Bias Audit Still Does Not Prove",
+      "covers": null,
+      "job": "Stop the reader treating a published audit as a fairness certificate before they sign anything on that basis. Establish that Local Law 144 is a disclosure law with no pass/fail standard, show where the four-fifths rule misfires in both directions and why a passing ratio says nothing about predictive validity, then name the shelf-life, scope and auditor-independence gaps that make a compliance record less than it appears.",
+      "is_item": false,
+      "boxes": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          89
+        ],
+        "box_labels": [
+          "Local Law 144 is a disclosure law, not a pass/fail standard"
+        ],
+        "from_h2": "The limits of a bias audit: what a passing result proves and what it doesn't",
+        "tags": [
+          "asset-angle",
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+        ],
+        "card_ids": [
+          263,
+          264,
+          265,
+          266,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          426,
+          560,
+          561
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "Where the four-fifths rule misfires in both directions",
+          "boxes": [
+            90,
+            91
+          ],
+          "box_labels": [
+            "Where the four-fifths rule misfires in both directions",
+            "A passing impact ratio says nothing about predictive validity"
+          ],
+          "from_h2": "The limits of a bias audit: what a passing result proves and what it doesn't",
+          "tags": [
+            "asset-angle",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+          ],
+          "card_ids": [
+            304,
+            305,
+            306,
+            307,
+            308,
+            309,
+            310,
+            311,
+            332,
+            333,
+            334
+          ]
+        },
+        {
+          "h3": "Shelf life, vendor assurances, and the independence problem",
+          "boxes": [
+            92,
+            93,
+            94
+          ],
+          "box_labels": [
+            "Audit shelf life and scope: one year, one model version, a limited set of protected classes",
+            "Vendor assurances that do not count as audit evidence",
+            "Auditor independence has no settled standard"
+          ],
+          "from_h2": "The limits of a bias audit: what a passing result proves and what it doesn't",
+          "tags": [
+            "asset-angle",
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+          ],
+          "card_ids": [
+            345,
+            346,
+            347,
+            348,
+            349,
+            350,
+            351,
+            352,
+            353,
+            425,
+            428,
+            518,
+            546,
+            548,
+            549,
+            515,
+            516,
+            517,
+            519,
+            520,
+            521
+          ]
+        }
+      ],
+      "word_target": 324
+    },
+    {
+      "headline": "The Human Review and Logging No Vendor Audit Covers",
+      "covers": null,
+      "job": "Move from judging vendors to what the reader controls, since section 21 has just shown a vendor's audit will not carry them. Define human review that a court would count as real oversight, specify the logging that makes a rejection reconstructable, set the recurring adverse-impact testing cadence, and ground the scoring in validated job-relevant criteria.",
+      "is_item": false,
+      "boxes": [
+        85,
+        86,
+        87,
+        88
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          85
+        ],
+        "box_labels": [
+          "Human review that counts as real oversight"
+        ],
+        "from_h2": "The Controls That Make an AI Hiring Tool Defensible Under Audit",
+        "tags": [
+          "asset-angle",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+        ],
+        "card_ids": [
+          59,
+          89,
+          90,
+          97,
+          123,
+          124,
+          679,
+          684,
+          737
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "Logging, monitoring, and validated scoring underneath",
+          "boxes": [
+            86,
+            87,
+            88
+          ],
+          "box_labels": [
+            "Logging and reconstructable decision records",
+            "Ongoing monitoring and recurring adverse-impact testing",
+            "Validated, job-relevant scoring underneath the tool"
+          ],
+          "from_h2": "The Controls That Make an AI Hiring Tool Defensible Under Audit",
+          "tags": [
+            "asset-angle",
+            "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+            "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+          ],
+          "card_ids": [
+            91,
+            92,
+            125,
+            25,
+            55,
+            93,
+            706,
+            675,
+            704,
+            712
+          ]
+        }
+      ],
+      "word_target": 324
+    },
+    {
+      "headline": "How to Choose an AI Recruiting Tool You Can Defend",
+      "covers": "How to choose the right AI tool (criteria breakdown: ATS integration, screening/matching capability, setup speed, pricing/scalability, candidate experience)",
+      "job": "Convert everything above into the diligence the reader runs before signature. Show that bias questions have already moved into procurement, define what an auditable vendor looks like against what opacity signals, and give the questions that pressure-test a vendor's accuracy and fairness claims against ground truth rather than marketing copy.",
+      "is_item": false,
+      "boxes": [
+        82,
+        83,
+        84
+      ],
+      "table": null,
+      "list": {
+        "kind": "bulleted",
+        "of": "the diligence questions to put to a vendor before signature, each one naming the document or output that answers it"
+      },
+      "needs_research": [
+        {
+          "topic": "Specific contract language enterprise buyers of AI hiring software are being advised to demand in 2025-2026: named clause types and sample wording for audit cooperation and data access for an independent auditor, re-audit obligations triggered by a material model change, vendor indemnity for the vendor's own discrimination-law violations, carve-outs from liability caps for discrimination claims, AEDT disclosure and candidate-notice support commitments, and audit-summary delivery deadlines. Sources: law-firm client alerts post-Mobley (DLA Piper, Littler, Fisher Phillips, Seyfarth), NYC Bar or SHRM procurement guidance, published university or government AI procurement templates. Include firm names and publication dates.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          82,
+          83,
+          84
+        ],
+        "box_labels": [
+          "Bias questions have moved into procurement",
+          "What an auditable vendor looks like (and what opacity signals)",
+          "Pressure-testing vendor claims before you sign"
+        ],
+        "from_h2": "Vendor diligence: separating auditable AI recruiting tools from opaque ones",
+        "tags": [
+          "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+          "asset-angle",
+          "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+        ],
+        "card_ids": [
+          132,
+          133,
+          69,
+          101,
+          102,
+          103,
+          134,
+          9032,
+          9033,
+          9034,
+          9035,
+          9036,
+          9037,
+          9038,
+          9039,
+          9040,
+          9041,
+          9042,
+          9043,
+          9044,
+          9045
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 324
+    },
+    {
+      "headline": "Which of the Five You Can Actually Defend, and When",
+      "covers": null,
+      "job": "Close the comparison with a decision rather than a summary. Give a constraint-segmented verdict for each of the five tools, naming the buyer situation each one survives and the situation it does not, then finish with the pick-A-if, pick-B-if line so a reader who read only this section still leaves with a defensible choice.",
+      "is_item": false,
+      "boxes": [],
+      "table": null,
+      "list": {
+        "kind": "bulleted",
+        "of": "one best-for verdict per tool, each naming the buyer constraint it holds up under and the one it fails"
+      },
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [],
+        "box_labels": [],
+        "from_h2": "",
+        "tags": [],
+        "card_ids": [],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 364
+    }
+  ],
+  "entities": [
+    "HireVue",
+    "Pymetrics",
+    "Eightfold AI",
+    "Workday",
+    "Testlify"
+  ],
+  "yardsticks": [
+    "published bias-audit evidence",
+    "auditor independence and transparency",
+    "adverse-impact and intersectional results",
+    "what the tool actually scores",
+    "candidate notice and disclosure support",
+    "legal exposure and vendor contract terms"
+  ],
+  "artifact": null,
+  "unused_boxes": [
+    {
+      "n": 8,
+      "h3": "Bias at the sourcing stage: Pin and the pool-construction approach",
+      "from_h2": "Where bias enters an AI recruitment tool",
+      "cards": 5,
+      "serves": [
+        "asset-angle",
+        "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions",
+        "related: AI sourcing tools"
+      ],
+      "why_benched": "Pin is a sourcing tool outside this article's category and outside the shortlist, and its pool-construction and inclusive-sourcing cards fall under the general diversity-hiring material the NOT ABOUT line excludes."
+    },
+    {
+      "n": 68,
+      "h3": "iCIMS",
+      "from_h2": "Tools With No Public Bias-Audit Record: iCIMS, Workday, Paradox, Lumi",
+      "cards": 7,
+      "serves": [
+        "asset-angle",
+        "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+        "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+      ],
+      "why_benched": "iCIMS was removed from the shortlist by the earlier step, so no section may carry its cards, not even as an example."
+    },
+    {
+      "n": 70,
+      "h3": "Paradox (Olivia)",
+      "from_h2": "Tools With No Public Bias-Audit Record: iCIMS, Workday, Paradox, Lumi",
+      "cards": 4,
+      "serves": [
+        "asset-angle",
+        "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)",
+        "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+      ],
+      "why_benched": "Paradox (Olivia) was removed from the shortlist by the earlier step, so no section may carry its cards."
+    },
+    {
+      "n": 71,
+      "h3": "Lumi",
+      "from_h2": "Tools With No Public Bias-Audit Record: iCIMS, Workday, Paradox, Lumi",
+      "cards": 1,
+      "serves": [
+        "asset-angle",
+        "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+      ],
+      "why_benched": "Lumi is not one of the five options this article compares, and the single card is vendor self-report with no audit evidence behind it."
+    },
+    {
+      "n": 96,
+      "h3": "Disclosure failures: where the summary sits and when the notice was last updated",
+      "from_h2": "The limits of a bias audit: what a passing result proves and what it doesn't",
+      "cards": 2,
+      "serves": [
+        "gap: No \"is this defensible\" framing anywhere — both pages optimize for speed/fit/pricing, not for audit-readiness or legal defensibility of AI-driven hiring decisions"
+      ],
+      "why_benched": "Both failure patterns, an audit summary buried outside the careers section and a candidate-notice process never updated after a tool swap, are already in box 41 in the enforcement section; keeping this too would state the same two gaps twice."
+    },
+    {
+      "n": 97,
+      "h3": "The platforms with no published audit at all",
+      "from_h2": "The limits of a bias audit: what a passing result proves and what it doesn't",
+      "cards": 4,
+      "serves": [
+        "asset-angle",
+        "gap: No dedicated validity or bias-audit section — hiretruffle.com only touches it as one bullet (\"Bias reduction and explainable AI scoring\") inside the how-to-choose list, with no audit methodology, adverse-impact data, or compliance framing (e.g. NYC Local Law 144, EEOC)"
+      ],
+      "why_benched": "Its central claim that no published audit exists for Eightfold AI is contradicted by box 63, the signed BABL AI audit of Eightfold's Matching Model, and a contradiction between two sections would cost the article its authority. The surviving idea, that absence of findings is not a compliance pass, is carried by box 67 in the comparison table."
+    }
+  ],
+  "shared_box_warnings": [],
+  "word_budget": {
+    "band": {
+      "min": 8000,
+      "max": 10000
+    },
+    "band_middle": 9000,
+    "aim_low_pct": 10,
+    "base": 8100,
+    "overwrite_pct": 0,
+    "sum_of_targets": 8097,
+    "headings": {
+      "sections": 24,
+      "sub_headings": 27,
+      "total": 51,
+      "words_per_heading": 158,
+      "under_floor": [
+        {
+          "section": "Which of your tools an audit actually covers",
+          "words": 324,
+          "sub_headings": 1,
+          "words_per_stretch": 162
+        },
+        {
+          "section": "Adverse impact: the legal test a bias audit is actually running",
+          "words": 364,
+          "sub_headings": 1,
+          "words_per_stretch": 182
+        },
+        {
+          "section": "How the impact ratio is calculated, step by step",
+          "words": 405,
+          "sub_headings": 2,
+          "words_per_stretch": 135
+        },
+        {
+          "section": "1. HireVue: two audits, neither one you can read",
+          "words": 356,
+          "sub_headings": 2,
+          "words_per_stretch": 118
+        },
+        {
+          "section": "2. Pymetrics: the one tool that let auditors read the code",
+          "words": 356,
+          "sub_headings": 2,
+          "words_per_stretch": 118
+        },
+        {
+          "section": "3. Eightfold AI: a signed audit, a named auditor, and a stated scope",
+          "words": 356,
+          "sub_headings": 1,
+          "words_per_stretch": 178
+        },
+        {
+          "section": "4. Workday: no published audit, and a certified age-discrimination collective",
+          "words": 356,
+          "sub_headings": 3,
+          "words_per_stretch": 89
+        },
+        {
+          "section": "5. Testlify: a published audit page, and the numbers still missing from it",
+          "words": 356,
+          "sub_headings": 1,
+          "words_per_stretch": 178
+        },
+        {
+          "section": "Local Law 144, and the rules stacking on top of it",
+          "words": 324,
+          "sub_headings": 2,
+          "words_per_stretch": 108
+        },
+        {
+          "section": "What the measured evidence shows across vendors",
+          "words": 324,
+          "sub_headings": 1,
+          "words_per_stretch": 162
+        },
+        {
+          "section": "The data a bias audit runs on, and the data you will not have",
+          "words": 324,
+          "sub_headings": 3,
+          "words_per_stretch": 81
+        },
+        {
+          "section": "Who runs the audit, what it costs, and how often",
+          "words": 324,
+          "sub_headings": 1,
+          "words_per_stretch": 162
+        },
+        {
+          "section": "Video-interview scoring under a bias audit",
+          "words": 324,
+          "sub_headings": 1,
+          "words_per_stretch": 162
+        },
+        {
+          "section": "Where the liability sits when you buy the tool",
+          "words": 324,
+          "sub_headings": 1,
+          "words_per_stretch": 162
+        },
+        {
+          "section": "Enforcement, and what a violation actually costs",
+          "words": 324,
+          "sub_headings": 2,
+          "words_per_stretch": 108
+        },
+        {
+          "section": "What a passing audit proves, and what it does not",
+          "words": 324,
+          "sub_headings": 2,
+          "words_per_stretch": 108
+        },
+        {
+          "section": "The controls that make a bought tool defensible",
+          "words": 324,
+          "sub_headings": 1,
+          "words_per_stretch": 162
+        }
+      ]
+    }
+  },
+  "h1": "AI Recruitment Tools That Can Survive a Bias Audit",
+  "keywords": {
+    "primary": "ai recruitment tools",
+    "primary_changed": false,
+    "why_primary": "",
+    "variations": [
+      "ai powered recruitment tools",
+      "ai-powered recruitment tools",
+      "ai tools for recruiting",
+      "ai tools for recruitment",
+      "ai tools for talent acquisition",
+      "ai hiring tools",
+      "best ai recruitment tools",
+      "recruiting ai tools",
+      "recruitment ai tools",
+      "ai powered tools for recruitment"
+    ],
+    "section_keywords": [
+      "ai hiring tools",
+      "four-fifths rule",
+      "babl ai",
+      "workday ai lawsuit",
+      "nyc local law 144"
+    ],
+    "unplaced": []
+  }
+}

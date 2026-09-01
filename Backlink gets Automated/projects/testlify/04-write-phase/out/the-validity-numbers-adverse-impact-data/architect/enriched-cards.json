@@ -1,0 +1,362 @@
+{
+  "9001": {
+    "gloss": "Side-by-side table of Schmidt & Hunter (1998) validity estimates and the Sackett et al. revised estimates, with the SD and the exact difference for each of 11 selection procedures",
+    "verbatim": "Master International (Danish assessment publisher Master-hr), in a blog post on the Sackett et al. reanalysis (the post cites the paper as Sackett et al., 2021; it is the study that revisits Schmidt & Hunter 1998), publishes the full paired table. Columns are: selection procedure, Schmidt & Hunter (1998) estimate, Sackett et al. revised estimate, the SD of the revised estimate, and the difference between old and new. Employment interviews – structured: .51 → .42, SD .19, difference -.09. Job knowledge tests: .48 → .40, SD .13, difference -.08. Empirically keyed biodata: .35 → .38, SD .09, difference +.03 (one of only two procedures that went UP). Work sample tests: .54 → .33, SD .09, difference -.21 (the largest fall in the table). Cognitive ability tests (GMA): .51 → .31, SD .14, difference -.20. Integrity test: .41 → .31, SD .20, difference -.10. Assessment centers: .37 → .29, SD .09, difference -.08. Interests: .10 → .24, SD .25, difference +.14 (the other riser). Conscientiousness – overall: .31 → .19, SD .15, difference -.12. Employment interviews – unstructured: .38 → .19, SD .16, difference -.19. Job experience (years): .18 → .07, SD .11, difference -.11. The page notes these are operational validity estimates for predicting job performance.",
+    "source_urls": [
+      "https://www.master-hr.com/insights/new-study-providing-updated-validity-estimates/"
+    ],
+    "tag": "enriched",
+    "card_id": 9001
+  },
+  "9002": {
+    "gloss": "The reanalysis cut estimates by an average of .10 to .20, and five procedures could not be revised at all because the old studies lacked the data",
+    "verbatim": "Master International (Master-hr) explains the mechanics behind the revision: the issue Sackett et al. raise is that the method for correcting range restriction in meta-analysis has often been applied inappropriately, so the study revisits the meta-analytic conclusions summarised in Schmidt & Hunter (1998) and reports revised estimates with the appropriate correction applied. After the revision, validity estimates are reduced by an average of .10 to .20 points. Master-hr stresses three limits stated on the page: the correction applies to meta-analytic conclusions, not to individual studies; the revised results are not new data but recalculations of the old data; and some of the old studies included in Schmidt & Hunter (1998) did not supply enough information for the recalculation, so five entries were never updated — reference checks, graphology, age, peer ratings and years of education. The page also warns the revised numbers are 'NOT meant as a new go-to-list' and that further refinement is expected.",
+    "source_urls": [
+      "https://www.master-hr.com/insights/new-study-providing-updated-validity-estimates/"
+    ],
+    "tag": "enriched",
+    "card_id": 9002
+  },
+  "9003": {
+    "gloss": "After the revision the job-analysis-based methods rank on top and have the tightest SDs, while GMA and integrity lead the job-independent tests",
+    "verbatim": "Master International (Master-hr), reading the revised Sackett et al. figures, groups the procedures two ways. The top performers all build on comprehensive job analysis — structured employment interviews (.42), job knowledge tests (.40), empirically keyed biodata (.38) and work sample tests (.33) — and they also carry the most consistent estimates, with SDs of .19, .13, .09 and .09 respectively. Procedures that measure a general psychological phenomenon are job-independent and show comparatively lower associations with job performance; within that group GMA (.31, SD .14) and integrity tests (.31, SD .20) come out on top, followed by personality-based measures of emotional intelligence. Because their point estimates are tied, Master-hr argues GMA edges out integrity on the strength of its smaller SD. Within the Big Five, conscientiousness is the best single predictor of job performance (revised to .19 overall from Schmidt & Hunter's .31). Contextualized tests — those asking about a work situation rather than in general — predict actual job performance better than non-contextualized ones. The stated takeaway: the procedures that ranked high before still rank high, they are just not as predictive as previously thought.",
+    "source_urls": [
+      "https://www.master-hr.com/insights/new-study-providing-updated-validity-estimates/"
+    ],
+    "tag": "enriched",
+    "card_id": 9003
+  },
+  "9004": {
+    "gloss": "Between-study SDs reported by Sackett et al. (2022) for six predictors, from interests at .25 down to conscientiousness at .15",
+    "verbatim": "Master International (Master-hr), in a 2023 commentary on Sackett et al.'s follow-up paper 'Revisiting the Design of Selection Systems in Light of New Findings Regarding the Validity of Widely Used Predictors' (Sackett et al., 2023), reports that Sackett et al. (2022) introduced standard deviations of the operational validity estimate for each predictor to show between-study variability around the mean. The SDs vary sharply by predictor: interests .25, integrity .20, structured interviews .19, personality-based emotional intelligence .17, unstructured interviews .16, and non-contextualized conscientiousness .15. Contextualized personality measures — personality measured at work rather than in general — show negligible standard deviations by comparison. Master-hr's point is that a large SD means individual studies can land far from the mean, so the effectiveness of a predictor varies significantly by context. Sackett et al. (2022) also report the lower 80% credibility value per predictor. The 2023 paper cautions (p. 288) that the updated estimates 'should not be viewed as a mandate for preferring one predictor over another regardless of circumstances' and that validity, cost, time constraints, testing volume, subgroup differences and applicant reactions must be integrated for an informed decision.",
+    "source_urls": [
+      "https://www.master-hr.com/insights/insights-from-sackett-et-al-2023/"
+    ],
+    "tag": "enriched",
+    "card_id": 9004
+  },
+  "9005": {
+    "gloss": "Griebe et al. (2022): 113 twenty-first-century studies put cognitive ability's validity at .23, dropping it from 5th to 12th among predictors",
+    "verbatim": "Master International (Master-hr), in its 2023 commentary on Sackett et al., cites Griebe et al. (2022), who point out that Schmidt and Hunter's (1998) validity estimate for general cognitive ability relied on data from studies more than 50 years old. Griebe et al.'s own meta-analysis of 113 studies drawn from the 21st century found an even lower average validity of .23 for cognitive ability's relationship with job performance, which moves cognitive ability from 5th to 12th in the ranking of predictors. Their hypothesis for the decline is the shift from a manufacturing economy to a service-oriented, team-based one: modern jobs demand a broader skill set including teamwork and citizenship behaviours, which lean less on cognitive ability. Master-hr adds that Sackett et al. attribute differences in mean validity within a predictor domain mainly to differing methodology for estimating validity, though for GMA specifically some of the gap may reflect the evolution of job roles and of what counts as effective job performance.",
+    "source_urls": [
+      "https://www.master-hr.com/insights/insights-from-sackett-et-al-2023/"
+    ],
+    "tag": "enriched",
+    "card_id": 9005
+  },
+  "9006": {
+    "gloss": "The Journal of Applied Psychology abstract itself: validity substantially overestimated, estimates cut .10–.20, structured interviews now top-ranked",
+    "verbatim": "The official abstract of Sackett, Zhang, Berry and Lievens, 'Revisiting Meta-Analytic Estimates of Validity in Personnel Selection: Addressing Systematic Overcorrection for Restriction of Range', Journal of Applied Psychology, volume 107, issue 11, pages 2040–2068, November 2022 (DOI 10.1037/apl0000994), as hosted by Ovid/Wolters Kluwer. The paper systematically revisits prior meta-analytic conclusions about the criterion-related validity of personnel selection procedures, focusing on how range restriction corrections affected those estimates. Corrections in this literature typically use an artifact distribution; the authors outline and critique five approaches commonly used to build and apply those distributions and conclude each has significant issues that often produce substantial overcorrection, meaning the validity of many selection procedures for predicting job performance has been substantially overestimated. Their stated key findings: most of the same selection procedures that ranked high in prior summaries remain high in rank, but with mean validity estimates reduced by .10 to .20 points, and structured interviews emerged as the top-ranked selection procedure. The paper also pairs each validity estimate with information about mean Black–White subgroup differences per selection procedure, to show validity–diversity tradeoffs. The abstract's conclusion: 'our selection procedures remain useful, but selection predictor–criterion relationships are considerably lower than previously thought.'",
+    "source_urls": [
+      "https://www.ovid.com/journals/japsy/fulltext/10.1037/apl0000994~revisiting-meta-analytic-estimates-of-validity-in-personnel"
+    ],
+    "tag": "enriched",
+    "card_id": 9006
+  },
+  "9007": {
+    "gloss": "Cognitive ability .51→.31, work samples .54→.33, structured interviews .51→.42 — and the revised top five averages .37 against Schmidt & Hunter's .49",
+    "verbatim": "Management Craft's source summary of Sackett, Zhang, Berry and Lievens (2022), Journal of Applied Psychology 107(11): 2040–2068. The paper is a predictor-by-predictor revisit of Schmidt and Hunter's 1998 summary of 19 selection procedures, scrutinising the range-restriction correction each underlying meta-analysis used and substituting a corrected or uncorrected estimate wherever the original correction was not credible. Running that fix through the 19 procedures: cognitive ability falls from .51 to .31, work samples from .54 to .33 (described as the largest point drop of any predictor), and structured interviews from .51 to .42, the smallest drop of the three. Because structured interviews fell least, the ranking reorders: structured interviews now rank as the single strongest predictor of job performance, ahead of cognitive ability. The revised top five keeps nearly the same cast as Schmidt and Hunter's, but its mean validity is .37 against their .49 — the ordering barely moved, the confidence behind the numbers did. Even under the most generous plausible range-restriction assumptions, cognitive ability's estimate rises only to .36, still far below Schmidt and Hunter's .51. Where no trustworthy correction was possible the authors applied none at all. The paper's own wording: 'our predictors are useful; but the predictive relationships are considerably weaker than previously thought.'",
+    "source_urls": [
+      "https://www.managementcraft.co/sources/sackett-et-al-personnel-selection"
+    ],
+    "tag": "enriched",
+    "card_id": 9007
+  },
+  "9008": {
+    "gloss": "Why the old numbers were inflated: 74–98% of the underlying studies were concurrent designs, where the correction should be roughly zero to 10 percent",
+    "verbatim": "Management Craft's summary of Sackett, Zhang, Berry and Lievens (2022, Journal of Applied Psychology) explains the mechanical cause of the overcorrection. A range-restriction correction assumes a predictive study design — test applicants, hire, validate later — where restriction on the predictor is direct. But 74 to 98 percent of the underlying studies behind most procedures were concurrent designs that tested people already on the job, who had been hired on the basis of something other than the predictor being scored. In a concurrent study restriction can only be indirect, and indirect restriction is mathematically small: unless the original hiring method happens to correlate very highly with the predictor under study, which it rarely does, the correction factor runs from zero to about 10 percent. Applying a predictive-study-sized correction to a body of studies that was mostly concurrent is where the overcorrection came from. The page also records two limits the authors flag on themselves: the reanalysis still assumes predictive and concurrent studies measure the same underlying validity, an unresolved assumption, and the authors state 'we do not put a stake in the ground regarding the meta-analytic estimates we put forward here.'",
+    "source_urls": [
+      "https://www.managementcraft.co/sources/sackett-et-al-personnel-selection"
+    ],
+    "tag": "enriched",
+    "card_id": 9008
+  },
+  "9009": {
+    "gloss": "The Schmidt & Hunter (1998) baseline table: 12 selection methods with their original operational validity coefficients",
+    "verbatim": "Cogn-IQ.org's guide to cognitive tests and job performance (updated 19 May 2026) sets out the Schmidt and Hunter (1998) baseline. Frank Schmidt and John Hunter's paper, published in Psychological Bulletin, aggregated validity coefficients from hundreds of studies spanning nearly a century — 85 years of selection research — and evaluated 19 different selection procedures on their ability to predict overall job performance as measured by supervisor ratings, production records and other criteria. Their headline finding was that general mental ability (GMA) was the single most valid predictor at an operational validity of r = .51 across all jobs. The page's table of the 1998 figures: work sample tests .54 (high validity but job-specific, does not generalise across occupations); GMA/cognitive ability tests .51 (most generalizable single predictor); structured interviews .51; job knowledge tests .48 (content-specific, valid for experienced applicants); reference checks .26; integrity tests .41 (predict counterproductive work behaviour and performance); unstructured interviews .38; conscientiousness from the Big Five .22 (generalizable across occupations, incremental over GMA); job experience in years .18 (diminishing returns after 5 years in the role); education in years .10; interest inventories .10; graphology/handwriting analysis .02 (essentially zero validity, no better than chance).",
+    "source_urls": [
+      "https://www.cogn-iq.org/blog/cognitive-tests-job-performance/"
+    ],
+    "tag": "enriched",
+    "card_id": 9009
+  },
+  "9010": {
+    "gloss": "Schmidt & Hunter's GMA validity by job complexity: .58 high, .51 medium, .23 low",
+    "verbatim": "Cogn-IQ.org reports the job-complexity breakdown from Schmidt and Hunter (1998): GMA validity rises with job complexity. High-complexity jobs (engineers, physicians, managers, scientists) show r = .58. Medium-complexity jobs (technicians, sales representatives, skilled trades) show r = .51. Low-complexity jobs (assembly workers, food service, custodial) show r = .23. Even at the lowest complexity level GMA retains some predictive power, and for professional and managerial roles it was the strongest single predictor available in the 1998 summary. The page attributes GMA's breadth to four mechanisms named in the literature: learning speed, problem-solving, knowledge acquisition (Schmidt and Hunter's 2004 causal chain of GMA → job knowledge → job performance), and generalizability across occupations, industries and cultures.",
+    "source_urls": [
+      "https://www.cogn-iq.org/blog/cognitive-tests-job-performance/"
+    ],
+    "tag": "enriched",
+    "card_id": 9010
+  },
+  "9011": {
+    "gloss": "Schmidt & Hunter's incremental-validity combinations: adding a second method to GMA lifts multiple R to between .58 and .65",
+    "verbatim": "Cogn-IQ.org sets out Schmidt and Hunter's (1998) incremental-validity findings — how much prediction improves when a second method is combined with a GMA test. GMA plus a structured interview: multiple R = .63, a gain of +.12 over GMA alone. GMA plus an integrity test: R = .65, gain +.14 (the strongest pairing listed). GMA plus conscientiousness: R = .60, gain +.09. GMA plus a work sample test: R = .63, gain +.12. GMA plus a job knowledge test: R = .58, gain +.07. The page's summary of the finding: adding GMA to any other method always improves prediction, and there is no selection procedure that fails to benefit from the cognitive component. Note these multiple-R figures are built on the pre-2022 Schmidt and Hunter coefficients, not the revised Sackett et al. ones.",
+    "source_urls": [
+      "https://www.cogn-iq.org/blog/cognitive-tests-job-performance/"
+    ],
+    "tag": "enriched",
+    "card_id": 9011
+  },
+  "9012": {
+    "gloss": "Scale of the Sackett review: over 1,000 studies synthesised across more than 20 common selection tools, 25 years after Schmidt & Hunter",
+    "verbatim": "ScienceForWork's evidence summary (Jocelyn Brown, 25 August 2023) describes Paul Sackett and Charlene Zhang's (2022) review of whether selection procedures accurately predict job performance. The authors collected meta-analyses and synthesised the findings of over 1,000 studies, producing an overview of the effectiveness of more than 20 common selection tools, across a variety of positions in many industries. Their work builds on Schmidt and Hunter's 1998 paper, 25 years earlier. The ranking that emerges primarily aligns with the late-1990s ordering despite the new methods and the added studies; the main difference is that almost all tools were found to be less able to predict future performance than previously believed. The page lists the resulting top five as structured interviews (most predictive of future job performance), job knowledge (a close second), empirically keyed biodata, and work samples and assessment centers. It states that unstructured interviews are less than half as predictive as structured ones and put companies at risk of biased decisions, and cites a Breezy HR survey finding that only 67% of companies report using structured interviews. It also notes that overall (non-contextualized) personality measures and years of job experience are not meaningful predictors of performance, that cognitive ability and integrity tests show predictive capacity comparable to work samples, that personality-based measures of emotional intelligence appear a slightly better predictor than conscientiousness, and that situational judgment tests come last on the list of useful methods, often appearing inside structured interviews as questions about what a candidate would do.",
+    "source_urls": [
+      "https://scienceforwork.com/en/blog/finding-the-right-match-can-be-tricky-how-effective-various-candidate-selection-methods-and-tools-may-shock-you/"
+    ],
+    "tag": "enriched",
+    "card_id": 9012
+  },
+  "9013": {
+    "gloss": "Sackett calls the reanalysis 'the most important paper of my career' and a course correction on 50 years of I-O research",
+    "verbatim": "HumRRO (Human Resources Research Organization) published a blog post on 27 September 2022 about the Sackett paper. It identifies Paul R. Sackett as chair of HumRRO's Board of Trustees and the Beverly and Richard Fink Distinguished Professor of Psychology and Liberal Arts at the University of Minnesota, with co-authors Charlene Zhang (University of Minnesota), Christopher Berry (Indiana University) and Filip Lievens (Singapore Management University), and names the paper 'Revisiting meta-analytic estimates of validity in personnel selection: Addressing systematic overcorrection for restriction of range', released as an advance online publication by the Journal of Applied Psychology. HumRRO frames the finding against a belief held in industrial-organizational psychology for over half a century — that cognitive ability is the best predictor of work performance — and reports that Sackett's work revealed structured interviews may in fact be the strongest predictor of job performance, not cognitive ability. Sackett is quoted saying, 'I view this as the most important paper of my career,' and describing it as a 'course correction' to the I-O field's cumulative knowledge about the validity of personnel selection assessments. The post explains the specific critique: the authors object to using range restriction estimates generated from predictive validation studies (which involve actual job applicants hired on the basis of the assessment) to correct a full set of meta-analytic studies that also includes many concurrent designs (which administer the assessment to current employees). It also notes that in psychology, correlations of the kind being synthesised typically fall in the .40 to -.40 range.",
+    "source_urls": [
+      "https://www.humrro.org/blog/is-cognitive-ability-the-best-predictor-of-job-performance-new-research-says-its-time-to-think-again/"
+    ],
+    "tag": "enriched",
+    "card_id": 9013
+  },
+  "9014": {
+    "gloss": "Sackett et al. (2022) puts the Black/White Cohen's d for work-framed conscientiousness at -.07 and emotional stability at .09, against .79 for cognitive ability",
+    "verbatim": "A 2026 evidence guide published by Poll Maker (author Michael Hodge, 19 August 2026) tabulates the Sackett, Zhang, Berry and Lievens (2022) re-analysis of selection-method validity alongside the Black/White Cohen's d for each method. On subgroup differences, personality measures are the cleanest predictors in the table: conscientiousness (both work-framed and generic) sits at d = -.07, effectively zero and marginally favouring Black applicants; emotional stability sits at d = .09 both work-framed and generic; agreeableness at .03; openness at .01 work-framed and .10 generic; extraversion at .16. By comparison, cognitive ability (GMA) shows d = .79, work sample tests .67, job knowledge tests .54, assessment centres .52, situational judgement tests .34 to .39, structured interviews .23, and integrity tests .10. The page notes this near-zero subgroup gap is the strongest practical argument for personality testing.",
+    "source_urls": [
+      "https://www.poll-maker.com/personality-test-for-hiring"
+    ],
+    "tag": "enriched",
+    "card_id": 9014
+  },
+  "9015": {
+    "gloss": "Work-framed conscientiousness predicts job performance at an operational validity of .25, against .42 for a structured interview",
+    "verbatim": "The same Poll Maker guide (published 19 August 2026) reports the Sackett et al. (2022) operational validity estimates for predicting job performance, which replaced the Schmidt and Hunter (1998) table after the older corrections for range restriction were shown to inflate almost every figure. Personality measures land mid-table: conscientiousness work-framed .25 (down from .31 for generic conscientiousness in the 1998 table, now .21), personality-based emotional intelligence .30, emotional stability work-framed .23 versus .09 generic, extraversion work-framed .21, agreeableness work-framed .19, openness work-framed .12. Non-personality methods above them: structured interview .42 (was .51), job knowledge test .40, empirically keyed biodata .38, work sample .33, cognitive ability .31 (was .51), integrity test .31, assessment centre .29, situational judgement test .26. The guide's framing is that the strongest single personality predictor delivers roughly a third of the variance the structured interview does, and that item framing (work-specific vs generic wording) changes the answer more than which trait is measured.",
+    "source_urls": [
+      "https://www.poll-maker.com/personality-test-for-hiring"
+    ],
+    "tag": "enriched",
+    "card_id": 9015
+  },
+  "9016": {
+    "gloss": "A conservative 2023 meta-analysis of conscientiousness found a raw r of .17 across 102 samples and 23,305 people, dropping to .14 in real applicant samples",
+    "verbatim": "Poll Maker's 2026 guide cautions that operational validity is a corrected figure and cites Watrin and colleagues (2023), who ran a deliberately conservative meta-analysis of conscientiousness and job performance: a raw uncorrected correlation of r = .17 across 102 samples and 23,305 people, falling to .14 in genuine applicant samples. Watrin et al. also found that only about 12% of studies in this literature used actual applicants in a predictive design, the only design matching how the test is really used in hiring. The guide advises treating .25 as an optimistic ceiling and .14 as a pessimistic floor for conscientiousness. It also translates the numbers with a Taylor-Russell calculation: with a 50% current success rate and selection of the top 25% of applicants, a predictor at .25 validity yields roughly 63% of new hires working out (a 13 point gain), while a structured interview at .42 yields about 72%.",
+    "source_urls": [
+      "https://www.poll-maker.com/personality-test-for-hiring"
+    ],
+    "tag": "enriched",
+    "card_id": 9016
+  },
+  "9017": {
+    "gloss": "The EEOC found in 2018 that Best Buy had probably caused race-based adverse impact through its use of personality tests",
+    "verbatim": "A 2025 study in Frontiers in Behavioral Economics (Andrew D. McGee, University of Alberta, and Peter J. McGee, University of Arkansas; published 25 April 2025, Vol. 4, doi 10.3389/frbhe.2025.1499464) records that the U.S. Equal Employment Opportunity Commission in 2018 found it probable that Best Buy adversely impacted applicants on the basis of race through its use of personality tests, citing the EEOC's own 2018 determination. The authors set this against the prior research consensus, noting that Autor and Scarborough (2008) found minority hiring rates at one firm's establishments were no different under personality-test screening than under informal interviews, and that psychology meta-analyses had found little evidence of adverse impact from personality testing on women (Hough et al., 2001) or on minorities (Foldes et al., 2008).",
+    "source_urls": [
+      "https://www.frontiersin.org/journals/behavioral-economics/articles/10.3389/frbhe.2025.1499464/full"
+    ],
+    "tag": "enriched",
+    "card_id": 9017
+  },
+  "9018": {
+    "gloss": "When personality tests carry hiring incentives, racial gaps open where none existed, failing the four-fifths rule in most trait comparisons",
+    "verbatim": "McGee and McGee's 2025 within-subject laboratory experiment in Frontiers in Behavioral Economics tested Big Five measures twice: once with no incentive, then a week later after subjects viewed a job ad and were told bonuses would go to those best fitting the hiring criteria. Controlling for opportunity-to-fake (groups with different unincentivized means have different scope to distort answers), they found evidence of racial but not gender differences in faking. Incentives attenuated the gender differences visible on unincentivized measures, but produced racial differences where none existed without incentives. In every instance where a gap emerged on an incentivized measure but not on the unincentivized one, the minority group would have been disadvantaged had hiring been based on that measure. Applying the EEOC's four-fifths rule to the realized group differences, they found no evidence that women would be adversely affected by selection on incentivized personality measures, but that racial minorities would be adversely impacted in the majority of trait-treatment comparisons. Their point is that existing subgroup-difference meta-analyses rest almost entirely on unincentivized measures, whereas selection tests are by definition incentivized.",
+    "source_urls": [
+      "https://www.frontiersin.org/journals/behavioral-economics/articles/10.3389/frbhe.2025.1499464/full"
+    ],
+    "tag": "enriched",
+    "card_id": 9018
+  },
+  "9019": {
+    "gloss": "Reliable Staffing paid $25,000 to settle an EEOC charge that pre-offer medical inquiries screened out applicants with disabilities",
+    "verbatim": "Ohio law firm Fishel Downey Albrecht & Riepenhoff reported (17 October 2019) that the EEOC reached a settlement with Reliable Staffing, an Indianapolis staffing firm, resolving a disability discrimination charge. The EEOC alleged the firm made unlawful pre-offer medical inquiries to numerous job applicants and used those inquiries to screen out applicants with disabilities. The investigation also found the firm stored protected medical information in general employee personnel files rather than the separate confidential medical file federal law requires. Reliable Staffing agreed to pay $25,000 and to change its information storage practices. The resolution came through the EEOC's conciliation program, the informal, confidential and voluntary process aimed at settling a charge before it reaches court.",
+    "source_urls": [
+      "https://fisheldowney.com/eeoc-reaches-settlement-pre-employment-medical-questions/"
+    ],
+    "tag": "enriched",
+    "card_id": 9019
+  },
+  "9020": {
+    "gloss": "EEOC v. Lori's Gifts resolved with a $600,000 consent decree over illegal pre-screening disability questions",
+    "verbatim": "A YouTube video is titled \"illegal Prescreening Disability Questions: EEOC v. Lori's Gifts $600,000 Consent Decree\". The title is the only content available on the page: it names the employer (Lori's Gifts), the EEOC as the plaintiff, the subject (unlawful pre-screening disability questions) and the settlement figure ($600,000 consent decree). No year, jurisdiction, case number or further detail appears anywhere on the page, so the case should not be described beyond employer, subject and amount without separate confirmation.",
+    "source_urls": [
+      "https://www.youtube.com/watch?v=IJhaPpI7nlA"
+    ],
+    "tag": "enriched",
+    "card_id": 9020
+  },
+  "9021": {
+    "gloss": "EEOC charges raising employment-testing issues peaked at 304 in FY 2007, and personality tests are named as a covered selection procedure",
+    "verbatim": "The EEOC's technical assistance document \"Employment Tests and Selection Procedures\" (OLC Control Number EEOC-NVTA-2007-2, issued 1 December 2007) states that the number of discrimination charges raising issues of employment testing, plus exclusions based on criminal background checks, credit reports and other selection procedures, reached a high point in FY 2007 at 304 charges. The document lists personality tests and integrity tests among the selection procedures covered, defining them as tests that assess the degree to which a person has certain traits or dispositions (dependability, cooperativeness, safety) or that predict the likelihood a person will engage in certain conduct (theft, absenteeism); it separately lists medical inquiries and physical examinations, including psychological tests, as procedures that assess physical or mental health. Title VII, the ADA and the ADEA prohibit discriminatory tests and selection procedures, and the EEOC notes that a test can violate those laws either through intentional discrimination or by disproportionately excluding people by race, sex or another covered basis unless the employer can justify it. It attributes the rise in testing partly to post-9/11 security concerns, workplace violence and liability worries, and to the large-scale adoption of online applications pushing employers to screen high volumes efficiently.",
+    "source_urls": [
+      "https://www.eeoc.gov/laws/guidance/employment-tests-and-selection-procedures"
+    ],
+    "tag": "enriched",
+    "card_id": 9021
+  },
+  "9022": {
+    "gloss": "Under the ADA, no disability-related question or medical exam is permitted before a conditional job offer, even if the results are only reviewed later",
+    "verbatim": "The EEOC's \"Enforcement Guidance: Preemployment Disability-Related Questions and Medical Examinations\" (Notice 915.002, issued 10 October 1995, EEOC-CVG-1995-3, signed by Chairman Gilbert F. Casellas) sets the rule that an employer may ask disability-related questions and require medical examinations of an applicant only after extending a conditional job offer. Critically for screening tool design, an employer may not ask disability-related questions or require a medical examination pre-offer even if it intends to look at the answers or results only at the post-offer stage. The guidance explains Congress's reasoning: applications and interviews historically requested information about physical or mental condition, which was used to exclude applicants with disabilities before their ability to do the job was evaluated, and a rejected applicant could not tell whether the reason was medical or a genuine skills gap. The ADA therefore isolates consideration of non-medical qualifications from consideration of medical condition. Employers may still evaluate whether an applicant is qualified pre-offer, including asking all applicants about their ability to perform job tasks.",
+    "source_urls": [
+      "https://www.eeoc.gov/laws/guidance/enforcement-guidance-preemployment-disability-related-questions-and-medical"
+    ],
+    "tag": "enriched",
+    "card_id": 9022
+  },
+  "9023": {
+    "gloss": "The ADA regulates screening at three stages, and predictive screening tests plus 'big data' hiring have revived the medical-exam question",
+    "verbatim": "ADA Knowledge Translation Center Legal Brief No. 1 (author Sharan E. Brown, 2018, published by ADATA.org) reviews employer authority to make disability-related inquiries and require medical examinations under Title I of the ADA, which covers private employers with more than 15 employees. It sets out the three regulated stages: pre-offer, where all disability-related inquiries and medical examinations are prohibited; post-offer but pre-hire, where they are permitted; and during employment, where they must be job-related and consistent with business necessity. The EEOC defines a disability-related inquiry as \"a question that is likely to elicit information about a disability,\" covering disability status, illness details and workers' compensation claims; impermissible pre-offer questions include asking about the existence of impairments, about limitations on major life activities, and asking one applicant to demonstrate job ability when others are not asked and no disability is obvious. The brief notes that as liability concerns grew and technology allowed it, employers began adding screening tests claiming to predict who would succeed at work, and that Congress was concerned such tests were used to exclude people with invisible disabilities such as epilepsy, heart disease and mental illness regardless of ability to do the job. It cites decisions from the Third, Seventh and Eighth Circuits in the two years before 2018, EEOC wellness-program regulations, and the increasing use of \"big data\" in employment decisions as reasons the issue has regained visibility. It also notes that asking about genetic information is separately prohibited by GINA (2008), and that EEOC guidance is not binding on courts.",
+    "source_urls": [
+      "https://adata.org/legal-brief/legal-brief-revisiting-disability-related-inquiries-and-medical-examinations-under-title/"
+    ],
+    "tag": "enriched",
+    "card_id": 9023
+  },
+  "9024": {
+    "gloss": "Once someone is employed, any disability-related inquiry or medical exam must be job-related and consistent with business necessity",
+    "verbatim": "The EEOC's \"Enforcement Guidance on Disability-Related Inquiries and Medical Examinations of Employees under the ADA\" (Notice 915.002, dated 27 July 2000, OLC Control Number EEOC-CVG-2000-4, signed by Chairwoman Ida L. Castro) covers the third stage of ADA screening: current employees. Title I limits an employer's ability to make disability-related inquiries or require medical examinations at all three stages (pre-offer, post-offer, during employment), and for existing employees such inquiries and examinations must be \"job-related and consistent with business necessity.\" The guidance gives examples of which questions count as disability-related and which tests and procedures generally count as medical, defines the job-related and business necessity standard, and covers periodic testing and monitoring plus other acceptable inquiries such as those required by federal law and those forming part of voluntary wellness and health screening programs. It cites the ADA, the Rehabilitation Act, 29 CFR Part 1630 and 29 CFR Part 1614, and carries a notice that it predates the ADA Amendments Act of 2008, which broadened the statutory definition of disability from 1 January 2009.",
+    "source_urls": [
+      "https://www.eeoc.gov/laws/guidance/enforcement-guidance-disability-related-inquiries-and-medical-examinations-employees"
+    ],
+    "tag": "enriched",
+    "card_id": 9024
+  },
+  "9025": {
+    "gloss": "As of August 2026 the EEOC has not reinstated the AI technical-assistance documents it removed in 2025, and EO 14281 still directs agencies to de-prioritize disparate impact.",
+    "verbatim": "Warden AI's compliance guide \"EEOC AI Hiring Guidance: Key Employer Compliance Rules\" (published 9 August 2026, updated 10 August 2026) states that in 2025, after Andrea Lucas became Acting Chair, the EEOC removed both of its AI technical-assistance documents from its website (the May 2022 document on the Americans with Disabilities Act and the May 2023 document on Title VII and adverse impact in software, algorithms and AI) and set aside its prior Strategic Enforcement Plan. The guide describes no reinstatement or replacement: as of its August 2026 update the documents are still gone and the AI and Algorithmic Fairness Initiative the EEOC launched in October 2021 has \"effectively wound down.\" Separately, Executive Order 14281, signed 23 April 2025, directs all federal agencies including the EEOC and DOJ to de-prioritize enforcement built on disparate-impact theory. Warden AI stresses that none of this changes the law: disparate-impact liability is codified in Title VII itself at 42 U.S.C. § 2000e-2(k), an executive order sets enforcement priorities but cannot amend a statute, and private plaintiffs can still bring disparate-impact claims. The guide's summary of where exposure now sits in 2026: it has shifted from federal agency action to private litigation, naming Mobley v. Workday, and to a growing set of state laws.",
+    "source_urls": [
+      "https://www.warden-ai.com/resources/eeoc-ai-hiring-guidance"
+    ],
+    "tag": "enriched",
+    "card_id": 9025
+  },
+  "9026": {
+    "gloss": "Employer liability for a vendor's tool is unchanged by the federal pullback, and the four-fifths rule still sets the adverse-impact benchmark in 2026.",
+    "verbatim": "Warden AI's August 2026 guide to EEOC AI hiring guidance notes that one principle survives the change in federal posture intact: the employer that uses a selection procedure is responsible for its results even when the tool was designed or administered by an outside vendor, and statutory liability cannot be shifted to a software developer by contract. The benchmark for flagging adverse impact remains the four-fifths rule from the Uniform Guidelines on Employee Selection Procedures, first issued in 1978: a selection rate for a protected group below four-fifths (80 percent) of the rate for the highest-selected group is treated as general evidence of adverse impact. Warden AI's worked example: a tool selecting 10 percent of male applicants but only 7 percent of female applicants gives a female rate that is 70 percent of the male rate, below the 80 percent threshold. The guide adds that the four-fifths rule can produce false signals at small sample sizes, so courts and agencies also apply tests of statistical significance, and that an adverse-impact finding shifts the burden to the employer to prove the procedure is job-related and consistent with business necessity through validation evidence.",
+    "source_urls": [
+      "https://www.warden-ai.com/resources/eeoc-ai-hiring-guidance"
+    ],
+    "tag": "enriched",
+    "card_id": 9026
+  },
+  "9027": {
+    "gloss": "Six US state and city regulations now govern AI in hiring under six different labels, with a December 2025 federal preemption EO being tested in the xAI case.",
+    "verbatim": "Warden AI's multi-jurisdiction guide \"Multi-State AI Hiring Compliance & Federal Outlook\" (published 18 June 2026, updated 1 July 2026) counts six US regulations now governing AI in employment decisions, each using its own term for the technology: AEDT (NYC Local Law 144), ADMT (California CCPA and Colorado SB 26-189), ADS (California FEHA), Predictive Data Analytics plus AI (Illinois HB 3773), and automated employment-related decision technology (Connecticut SB 5). NYC LL 144 is the only one of the six that mandates an annual independent bias audit by name; Colorado, California and Illinois create discrimination liability that audits defend against but do not require the audit itself. Colorado SB 26-189 is described as the only US regulation explicitly imposing direct obligations on both developers (HR tech vendors) and deployers (employers) in a dual structure. California runs two separate tracks, FEHA anti-discrimination enforced by the Civil Rights Department and CCPA/CPRA automated-decision transparency enforced by the California Privacy Protection Agency, and compliance with one does not satisfy the other. A federal preemption executive order signed in December 2025 promises to flatten this patchwork, but the guide says its scope is being tested in court through xAI's constitutional challenge to Colorado's law, which the DOJ has joined, and that the outcome \"won't be clear until 2027 or beyond.\"",
+    "source_urls": [
+      "https://www.warden-ai.com/resources/hr-tech-compliance-nyc-local-law-144"
+    ],
+    "tag": "enriched",
+    "card_id": 9027
+  },
+  "9028": {
+    "gloss": "Colorado SB 26-189 replaced SB 24-205 in May 2026, takes effect 1 January 2027, and its enforcement is currently stayed pending the xAI litigation.",
+    "verbatim": "Warden AI's multi-state AI hiring compliance guide (updated 1 July 2026) reports that Colorado SB 26-189 replaced the state's earlier SB 24-205 statute in May 2026 and takes effect 1 January 2027. Rather than mandating a bias audit, SB 26-189 uses a disclosure-and-human-review model: covered employers must disclose to candidates when AI is used in employment decisions and must provide a human-review pathway for adverse decisions. The Colorado Attorney General enforces the statute exclusively, with violations treated as deceptive trade practices under the Colorado Consumer Protection Act. There is no private right of action under SB 26-189 itself, though candidates retain discrimination claims under other state and federal laws. The guide states that enforcement is currently stayed pending the xAI litigation. It also notes that Connecticut's CART Act (SB 5) is a comprehensive consumer, employment and government AI statute built around transparency and enforced by the state Attorney General, which writes bias auditing into statute: using an AI tool is not a defense to a discrimination claim, but courts and the Connecticut Commission on Human Rights and Opportunities are directed to weigh anti-bias testing as a mitigating factor.",
+    "source_urls": [
+      "https://www.warden-ai.com/resources/hr-tech-compliance-nyc-local-law-144"
+    ],
+    "tag": "enriched",
+    "card_id": 9028
+  },
+  "9029": {
+    "gloss": "NYC Local Law 144 is in force with $500 to $1,500-a-day penalties, and a December 2025 state audit found DCWP had been enforcing it ineffectively.",
+    "verbatim": "Warden AI's multi-state AI hiring compliance guide (updated 1 July 2026) records that NYC Local Law 144, the first US law to directly regulate AI in hiring, took effect 1 January 2023 with enforcement by the NYC Department of Consumer and Worker Protection beginning 5 July 2023 after a six-month grace period. It applies to any employer or employment agency using an Automated Employment Decision Tool for a role connected to New York City, including remote roles filled by city residents and remote roles posted from an NYC office. Three obligations: an annual independent bias audit measuring impact ratios across sex and race/ethnicity including intersectional analysis; public disclosure of a summary of the most recent audit on the employer's website; and candidate notice at least 10 business days before the AEDT is used, with the right to request an alternative selection process. Penalties run from $500 for a first violation to $1,500 per day for each day a non-compliant AEDT remains in use. The guide reports that a December 2025 New York State Comptroller audit of DCWP enforcement concluded the agency had been enforcing the law ineffectively, that DCWP has since formalized its enforcement procedures and adopted an internal Enforcement Workbook, and that employment-law practices including DLA Piper have advised clients to expect tighter enforcement through 2026 and beyond.",
+    "source_urls": [
+      "https://www.warden-ai.com/resources/hr-tech-compliance-nyc-local-law-144"
+    ],
+    "tag": "enriched",
+    "card_id": 9029
+  },
+  "9030": {
+    "gloss": "xAI sued Colorado in April 2026, DOJ moved to intervene on Equal Protection grounds, and a federal court has paused the law.",
+    "verbatim": "Shortlister's \"Where AI Hiring Laws Stand in 2026 and What's Coming Next\" reports that Colorado's SB 24-205, signed in May 2024, was the first state law to regulate AI across employment, lending, housing and insurance decisions, requiring employers deploying \"high-risk AI systems\" to adopt risk management programs, complete annual impact assessments, notify workers when AI influenced decisions about them, and provide an appeals process for adverse outcomes, with penalties reaching $20,000 per violation. Before its delayed effective date, xAI sued Colorado in April 2026, arguing the law's algorithmic-discrimination rules and disclosure obligations violated constitutional protections. The US Department of Justice then moved to intervene, claiming the law violated the Equal Protection Clause by requiring AI companies to account for disparate impact based on protected traits while allowing certain diversity-related exceptions. Shortlister frames the dispute as a test case over how far states can go in regulating algorithmic bias before those rules collide with federal constitutional arguments, and notes in its opening that one of the country's broadest state AI laws has been paused by a federal court during a constitutional challenge. Colorado has since revised course, signing a replacement bill, SB 26-189, in May 2026 to replace the original framework with a narrower law.",
+    "source_urls": [
+      "https://www.myshortlister.com/insights/ai-hiring-laws"
+    ],
+    "tag": "enriched",
+    "card_id": 9030
+  },
+  "9031": {
+    "gloss": "A December 2025 executive order created a DOJ AI Litigation Task Force, formally stood up in January 2026, whose first action is the Colorado case.",
+    "verbatim": "Shortlister's 2026 review of AI hiring laws states that at the federal level no comprehensive AI employment legislation has been enacted, and that the administration's posture has split into two tracks. On the deregulation side, President Trump's January 2025 Executive Order revoked Biden-era AI safety requirements, and a December 2025 executive order directed the Attorney General to establish a DOJ AI Litigation Task Force to challenge state AI laws, which the DOJ formally created in January 2026; its involvement in the Colorado case is described as the task force's first direct action. On the enforcement side, Shortlister says the EEOC has affirmed that AI tools fall within Title VII enforcement and that the four-fifths rule applies to algorithmic selection. The same piece notes that roughly 88% of companies now use some form of AI in candidate screening, according to the World Economic Forum, and opens with the scenario of an employer posting a single remote-eligible role to candidates in New York, Illinois and Colorado triggering three separate AI compliance regimes with different definitions, disclosure rules and penalties.",
+    "source_urls": [
+      "https://www.myshortlister.com/insights/ai-hiring-laws"
+    ],
+    "tag": "enriched",
+    "card_id": 9031
+  },
+  "9032": {
+    "gloss": "A December 2025 Comptroller audit found DCWP missed 17 potential Local Law 144 violations among 32 companies checked.",
+    "verbatim": "Shortlister's 2026 status review of AI hiring laws reports that New York City's Local Law 144 has been enforceable since 5 July 2023 and remains one of the most closely watched local rules on AI in hiring. It prohibits employers and employment agencies from using automated employment decision tools unless they commission an independent annual bias audit, publish audit results on their website, and notify candidates at least 10 business days before the tool is used. The law applies based on where the candidate lives, not where the employer is headquartered. Penalties range from $500 to $1,500 per violation, with each day counted separately. For its first two years enforcement was minimal; in December 2025 a New York State Comptroller audit found DCWP's oversight \"ineffective,\" identifying at least 17 instances of potential non-compliance among 32 companies that the agency had missed. DCWP has since committed to proactive investigations, so employers that assumed weak enforcement meant low risk may now face scrutiny of whether their documentation can stand up to review.",
+    "source_urls": [
+      "https://www.myshortlister.com/insights/ai-hiring-laws"
+    ],
+    "tag": "enriched",
+    "card_id": 9032
+  },
+  "9033": {
+    "gloss": "Illinois HB 3773 took effect 1 January 2026 and California's ADS regulations in October 2025, with more states in the pipeline.",
+    "verbatim": "Shortlister's 2026 review of AI hiring laws reports that Illinois HB 3773, effective 1 January 2026, amends the Illinois Human Rights Act to prohibit employers from using AI that discriminates based on protected classes and requires employers to notify applicants and employees whenever AI is used in hiring, promotion, discharge or discipline. The Illinois Department of Human Rights released draft regulations covering resume screeners, video interview analyzers, personality assessments and AI analysis of third-party candidate data. The notice obligation applies regardless of whether the AI produces discriminatory outcomes, and the law prohibits using zip codes as a proxy for protected classes. Unlike Colorado, Illinois does not require impact assessments, and violations are enforced through civil rights investigations rather than consumer-protection fines. On California, Shortlister says the state has not passed a single AI hiring statute, but its Automated Decision Systems regulations, effective October 2025, clarify that FEHA applies when employers use AI, algorithms or other automated tools in employment decisions; and starting with the 2027 filing cycle, employers with 100 or more employees must submit pay-data demographic information across 23 new job categories rather than the current 10. New Jersey's Assembly Bill 4909 would require bias audits before AEDTs can be sold in the state, and Texas, Pennsylvania, Connecticut, Virginia and Massachusetts are at various stages of similar legislation.",
+    "source_urls": [
+      "https://www.myshortlister.com/insights/ai-hiring-laws"
+    ],
+    "tag": "enriched",
+    "card_id": 9033
+  },
+  "9034": {
+    "gloss": "California's ADS regulations took effect 1 October 2025 and require four years of automated-decision record retention.",
+    "verbatim": "Recruitly's compliance guide \"AI hiring law in the USA: no federal Act, only a state patchwork\" (dated 25 May 2026) reports that California's Civil Rights Council approved its automated-decision system (ADS) employment regulations on 27 June 2025 and that they took effect on 1 October 2025. Rather than a separate audit-and-notice regime like New York City's, California extends the existing anti-discrimination framework under the Fair Employment and Housing Act (FEHA) to cover ADS: use of an ADS may violate California law if it causes harm to applicants or employees on the basis of a protected characteristic, and the framework restricts ADS that elicit information about a disability because that can constitute an unlawful medical inquiry. Recruitly identifies record-keeping as the single biggest practical obligation: employers and covered entities must maintain employment records, including automated-decision data, for a minimum of four years, longer than most agencies' default ATS retention policy. Enforcement runs through the Civil Rights Department, and investigation typically follows a candidate complaint, with the added exposure that ADS records can be subpoenaed and examined.",
+    "source_urls": [
+      "https://recruitly.io/resources/ai-act-for-recruiters-usa"
+    ],
+    "tag": "enriched",
+    "card_id": 9034
+  },
+  "9035": {
+    "gloss": "Colorado's original AI Act was pushed from 1 February 2026 to 30 June 2026 by a bill the governor signed on 28 August 2025.",
+    "verbatim": "Recruitly's May 2026 guide to US AI hiring law states that there is no comprehensive federal law regulating AI in hiring, that the federal Executive Order on AI from 2023 was rescinded by a new Executive Order in January 2025, and that what remains federally is a mix of existing equal-opportunity employment law, sector-specific agency guidance and the FTC's general enforcement powers around deceptive practices. On Colorado, it reports that SB 24-205, \"Consumer Protections for Artificial Intelligence,\" was the first US state law to take a comprehensive AI-specific approach similar to the EU AI Act, and that its effective date was pushed back: originally 1 February 2026, Governor Polis signed SB25B-004 on 28 August 2025 extending the requirements' effective date to 30 June 2026. The Act covers \"high-risk artificial intelligence systems\" that make or are a substantial factor in making \"consequential decisions concerning the consumer,\" with employment decisions inside that definition; deployers must notify a consumer when a high-risk system substantially contributes to a consequential decision, and developers and deployers must use reasonable care to protect consumers from known or reasonably foreseeable risks of algorithmic discrimination. The Colorado Attorney General has exclusive enforcement authority, violations are deceptive trade practices under the Colorado Consumer Protection Act, and there is no private right of action under SB 24-205 itself.",
+    "source_urls": [
+      "https://recruitly.io/resources/ai-act-for-recruiters-usa"
+    ],
+    "tag": "enriched",
+    "card_id": 9035
+  },
+  "9036": {
+    "gloss": "NYC Local Law 144 catches any employer whose tool ranks an NYC-resident candidate, wherever that employer sits.",
+    "verbatim": "Recruitly's May 2026 US AI hiring law guide describes NYC Local Law 144, the Automated Employment Decision Tools law, as the oldest active AI hiring law in the country, enforced by the Department of Consumer and Worker Protection from 5 July 2023. Three components: any AEDT used to substantially assist or replace discretionary employment decisions must have had a bias audit within the previous twelve months; the employer must publish a summary of the audit results on its website; and candidates who reside in NYC must be given notice at least ten business days before the AEDT is used, with instructions on how to request an alternative selection process. DCWP can issue civil penalties between $500 and $1,500 per day of violation, and Recruitly stresses the structure is harsh because each day a non-compliant AEDT is in use counts as a separate violation, so fines accumulate across a quarter faster than most agencies realise. The rule reaches recruitment agencies whose tools touch NYC residents rather than only NYC-based employers: an agency operating from Toronto, London or Dubai whose AI sourcing tool ranks an NYC-resident candidate for a role is inside the rule.",
+    "source_urls": [
+      "https://recruitly.io/resources/ai-act-for-recruiters-usa"
+    ],
+    "tag": "enriched",
+    "card_id": 9036
+  },
+  "9037": {
+    "gloss": "Executive Order 14281, signed 23 April 2025, orders every federal agency to deprioritize disparate-impact enforcement including under Title VII.",
+    "verbatim": "The Rocky Mountain Employer (Campbell Litigation, post dated 1 May 2025 by Rob Thomas, Of Counsel) reports that on 23 April 2025 President Trump issued Executive Order 14281, titled \"Restoring Equality of Opportunity and Meritocracy,\" which seeks to curtail or eliminate the use of disparate impact liability among federal agencies charged with investigating or preventing discrimination, including the EEOC. Among its mandates: the Attorney General must initiate action to repeal or amend Title VI regulations across federal agencies to the extent they contemplate disparate impact liability; must report to the President on all existing federal regulations, guidance, rules or orders imposing disparate impact liability and agency steps to amend or repeal them; must, with the EEOC, assess all pending investigations, civil suits and positions in ongoing matters that rely on disparate impact liability and take \"appropriate action\"; must assess whether federal authorities preempt state laws imposing disparate-impact liability; and all agencies must deprioritize enforcement of statutes and regulations to the extent they include disparate impact liability, including but not limited to Title VII. The order also requires the Attorney General and EEOC Chair to jointly issue guidance to employers on \"appropriate\" methods to promote equal access to employment regardless of whether an applicant has a college education. The post notes disparate impact was recognized in Griggs v. Duke Power Co., 401 U.S. 424 (1971) and codified by Congress under Title VII in 1991, so the order has no effect on the statutory text, does not affect substantive rights under Colorado law or an individual's right to bring a private disparate impact claim, and is expected to lead to a new wave of lawsuits challenging it.",
+    "source_urls": [
+      "https://www.rockymountainemployersblog.com/blog/2025/5/1/executive-order-14281-disparate-impact-discrimination-claims-and-enforcement-directly-under-fire"
+    ],
+    "tag": "enriched",
+    "card_id": 9037
+  },
+  "9038": {
+    "gloss": "EO 14281 set 30, 45 and 90-day deadlines in 2025 for agencies to strip disparate impact out of their enforcement.",
+    "verbatim": "Bryan Cave Leighton Paisner's client alert \"New Executive Order Takes Aim at Disparate Impact Discrimination Claims\" (6 May 2025) sets out the compliance calendar Executive Order 14281 imposed after President Trump signed it on 23 April 2025. The order states the administration's policy is to eliminate the use of disparate impact liability \"in all contexts to the maximum degree possible,\" revokes prior Presidential approval of certain DOJ Title VI regulations concerning disparate impact, and mandates that all federal agencies deprioritize enforcement of disparate impact liability. Its deadlines: within 30 days (by 23 May 2025) the Attorney General, with other agency heads, must report identifying federal regulations, guidance and rules regarding disparate impact liability, the steps to amend or repeal them, other laws and decisions including at state level that may implicate disparate impact theories, and measures to address the legality of those; within 45 days (by 7 June 2025) the Attorney General with the EEOC Chair must assess all pending investigations, suits and positions relying on disparate impact theories and take appropriate measures, and the same 45-day assessment applies to HUD, the CFPB, the FTC and other agencies enforcing laws against unfair, deceptive or abusive practices; and within 90 days (by 22 July 2025) all agency heads must review existing consent judgments and permanent injunctions resting on disparate impact theories. BCLP's read for employers: the statutes and case law establishing disparate impact liability remain in place, since the Supreme Court recognized the theory in Griggs v. Duke Power Company, 401 U.S. 424 (1971) and Congress codified it under Title VII in 1991, and the laws cannot change absent Congress or the courts. The firm expects the EEOC not to prioritize investigating disparate impact charges and to issue right-to-sue notices instead, expects it not to pursue new litigation of that kind, notes that until there is a quorum of commissioners any new EEOC guidance will be informal, and advises that adverse impact analyses remain important because individuals can still sue, ideally conducted under attorney-client privilege.",
+    "source_urls": [
+      "https://www.bclplaw.com/en-US/events-insights-news/new-executive-order-takes-aim-at-disparate-impact-discrimination-claims.html"
+    ],
+    "tag": "enriched",
+    "card_id": 9038
+  },
+  "9039": {
+    "gloss": "What the withdrawn May 2023 EEOC document actually said, including that a vendor's assurance does not shield the employer.",
+    "verbatim": "Proskauer's Law and the Workplace blog (23 May 2023) describes the EEOC technical assistance document released on Thursday 18 May 2023, titled \"Assessing Adverse Impact in Software, Algorithms, and Artificial Intelligence Used in Employment Selection Procedures Under Title VII of the Civil Rights Act of 1964\" and issued as part of the EEOC's Artificial Intelligence and Algorithmic Fairness Initiative. This is the document later removed from the EEOC website. Then-Chair Charlotte A. Burrows called it \"another step in helping employers and vendors understand how civil rights laws apply to automated systems used in employment.\" Its positions: use of an algorithmic decision-making tool that has an adverse impact violates Title VII unless the employer can show the use is \"job related and consistent with business necessity\"; the employer can be held responsible even if the tool is designed or administered by another entity such as a software vendor, and remains liable if the vendor is wrong about its own assessment; employers should ask vendors before use whether they have evaluated the tool for a substantially lower selection rate for any Title VII-protected characteristic; and an employer may be liable if it fails to adopt a less discriminatory algorithm that was considered during development. The document applied the Uniform Guidelines on Employee Selection Procedures to algorithmic tools, and did not address disparate treatment or other stages of the disparate impact analysis.",
+    "source_urls": [
+      "https://www.lawandtheworkplace.com/2023/05/eeoc-releases-technical-document-on-ai-and-title-vii/"
+    ],
+    "tag": "enriched",
+    "card_id": 9039
+  },
+  "9040": {
+    "gloss": "NYC's own DCWP page states the Local Law 144 requirements and the 5 July 2023 enforcement start date.",
+    "verbatim": "The New York City Department of Consumer and Worker Protection's official Automated Employment Decision Tools page states that Local Law 144 of 2021 prohibits employers and employment agencies from using an automated employment decision tool unless the tool has been subject to a bias audit within one year of the use of the tool, information about the bias audit is publicly available, and certain notices have been provided to employees or job candidates. The page carries the note that DCWP began enforcement of the law and rule on 5 July 2023. It invites complaints from anyone reporting an employer or employment agency that used an AEDT without ensuring the required bias audit was done, without posting a summary of the audit results, or without giving the required notices, and states that no account is needed to file a complaint. DCWP held educational roundtables in May 2023 (with business advocates and employers on 22 May, civil and worker rights advocates on 24 May, and audit industry stakeholders on 25 May) and revised its presentation slides in June 2023 to clarify that the notice must be provided 10 business days prior to use of an AEDT.",
+    "source_urls": [
+      "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page"
+    ],
+    "tag": "enriched",
+    "card_id": 9040
+  }
+}

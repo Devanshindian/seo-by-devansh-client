@@ -1,0 +1,335 @@
+{
+  "9001": {
+    "gloss": "Zythr's weighted engineering scoring matrix: 40% core technical skills, 25% experience, 15% problem-solving, 10% communication, 5% certifications, 5% coding sample",
+    "verbatim": "Zythr, a recruiting software vendor, published a step-by-step weighted candidate scoring matrix guide (October 3, 2024) with a full per-criterion weight allocation for an engineering role, where the weights sum to 100: core technical skills (languages, system design) 40%, relevant experience in the product/domain 25%, problem-solving/architecture 15%, communication and collaboration 10%, certifications/education 5%, and coding assessment/sample work 5%. Its parallel sales-role allocation is: sales track record/quota attainment 40%, relevant industry relationships 20%, product knowledge and pitch ability 15%, communication and negotiation 15%, certifications/education 5%, CRM/process discipline 5%. Zythr also gives starting ranges teams commonly use before tuning: experience 20-35%, core skills 30-50%, role-specific metrics 10-25%, behavioural/communication 10-20%, education/certifications 0-10%, and says certifications should rarely exceed 10% weight.",
+    "source_urls": [
+      "https://zythr.com/resources/candidate-scoring-model-in-recruiting-what-it-is-and-how-to-build-one/how-to-build-a-weighted-candidate-scoring-matrix-stepbystep-template-and-examples"
+    ],
+    "tag": "enriched",
+    "card_id": 9001
+  },
+  "9002": {
+    "gloss": "Zythr: cap scored criteria at 6-8 because more criteria dilute weights and increase rater noise",
+    "verbatim": "Zythr's weighted scoring matrix guide (October 3, 2024) sets an explicit ceiling on how many scored dimensions a panel should apply: aim for 6 to 8 scored criteria, because \"more criteria dilute weights and increase rater noise.\" Its scoring mechanic is a 0-5 scale (0 = no evidence, 5 = outstanding) with written rubric anchors for each point \"to reduce rater variance,\" and each criterion's contribution is (candidate score / max score) x criterion weight, summing to a total out of 100. The guide's worked engineering example: technical skills 4/5 at 40% = 32, experience 3/5 at 25% = 15, problem-solving 5/5 at 15% = 15, communication 3/5 at 10% = 6, certifications 1/5 at 5% = 1, coding assessment 4/5 at 5% = 4, for a total of 73/100. It recommends piloting the matrix on 10-20 historic profiles, comparing predicted ranks against actual outcomes, and measuring inter-rater reliability by having two reviewers score the same candidate: high variance means the rubric needs clearer anchors or fewer subjective criteria.",
+    "source_urls": [
+      "https://zythr.com/resources/candidate-scoring-model-in-recruiting-what-it-is-and-how-to-build-one/how-to-build-a-weighted-candidate-scoring-matrix-stepbystep-template-and-examples"
+    ],
+    "tag": "enriched",
+    "card_id": 9002
+  },
+  "9003": {
+    "gloss": "Pin: 6-12 competencies max, because more than 12 dilutes focus and creates interviewer fatigue",
+    "verbatim": "Pin, a recruiting platform, published \"5 Best Interview Scorecard Templates for 2026\" (April 9, 2026, updated May 9, 2026) which states a hard band on scorecard size: job-specific competencies should number 6 to 12 at most, because \"more than 12 dilutes focus and creates interviewer fatigue,\" while \"fewer than 6 oversimplifies the evaluation.\" It names five elements every scorecard needs: job-specific competencies (6-12 max), competency weighting, behavioural anchors for each rating level, evidence notes, and a final hire/no-hire recommendation. On weighting it gives a concrete illustration: a senior backend engineer role might weight system design at 30% and communication at 15%, and argues weighting is what stops \"a candidate who's charming but technically weak\" from scoring the same as one who is technically exceptional. On scale design it says 5-point scales with behavioural anchors outperform 3-point scales and generic \"excellent/good/fair\" labels, and that interviewers should be calibrated on what each level means before the first candidate.",
+    "source_urls": [
+      "https://www.pin.com/blog/interview-scorecards-templates/"
+    ],
+    "tag": "enriched",
+    "card_id": 9003
+  },
+  "9004": {
+    "gloss": "Pin cites structured-scorecard validity of .51 vs .20 unstructured, and .57 for the most rigorous scoring",
+    "verbatim": "Pin's 2026 interview scorecard guide (published April 9, 2026) cites Schmidt and Hunter's meta-analysis for the claim that interviews conducted without structured scoring have a predictive validity of just .20, \"barely better than random selection,\" while adding a structured scorecard with behavioural anchors raises it to .51; it cites Oh, Postlethwaite and Schmidt (2012) for the most rigorous scoring methods pushing validity to .57. The same article reports SHRM Labs (2024) finding that 48% of HR managers admit biases affect their recruitment decisions, CareerBuilder research putting the share of employers who have hired the wrong person at 75%, and the U.S. Department of Labor estimating each bad hire costs up to 30% of first-year wages. On record-keeping it states the EEOC requires 1-year retention of scorecards, extended to 2 years for federal contractors, and that documented evidence per rating is what makes a decision defensible.",
+    "source_urls": [
+      "https://www.pin.com/blog/interview-scorecards-templates/"
+    ],
+    "tag": "enriched",
+    "card_id": 9004
+  },
+  "9005": {
+    "gloss": "HackerRank sets certified-assessment cut-scores at roughly the 75th percentile and lets each employer re-weight skills",
+    "verbatim": "HackerRank's own guide to benchmarking passing scores for senior engineer data structures tests explains that there is no universal passing score on its platform. Instead HackerRank Certified Assessments are scored on a percentile basis against the live candidate pool, bucketing candidates into Top 10% (90th-100th percentile, described as \"strong hire\"), Top 25% (75th-89th, \"hire\"), Top 50% (50th-74th, \"consider with additional evaluation\") and below 50% (\"likely not a fit\"). Cut-scores default to a HackerRank-generated benchmark set around the 75th percentile, meaning a passing candidate outperforms roughly 75% of all test-takers, but recruiters can assign their own weightage to individual skills within an assessment and move the cutoff, so the effective passing score varies by company and by role within the same company. HackerRank states the platform is used by over 2,500 companies with a community of 26 million developers, and that companies using it report an 83% decrease in the time engineers spend evaluating assessments.",
+    "source_urls": [
+      "https://www.hackerrank.com/writing/how-hackerrank-benchmarks-passing-scores-for-senior-engineer-data-structures-tests"
+    ],
+    "tag": "enriched",
+    "card_id": 9005
+  },
+  "9006": {
+    "gloss": "Codility scores on two dimensions (correctness and performance); Microsoft auto-rejects below 60%",
+    "verbatim": "A Codility assessment guide by Final Round AI (updated August 17, 2026) describes Codility's scoring as running on exactly two axes: correctness (does the solution produce the right output on every test case) and performance (the time and space complexity of the implementation), so an O(n squared) solution to a problem expecting O(n log n) receives a lower performance score even when all test cases pass. The guide states Codility is used by over 20,000 engineering teams including Microsoft, PayPal, Amazon and Tesla, gives candidates two to four algorithmic problems and a 60 to 120 minute limit, and that each employer configures its own cutoff. For Microsoft specifically it reports a score below 60% typically results in automatic rejection, with scores between 60% and 99% sent to recruiter review, and contrasts this with HackerRank, where the guide says many companies accept 70 to 75 percent test case coverage. It also notes Codility hands employers a full code progression timeline showing every edit, deletion, and the order problems were approached, and that in 2025-2026 Codility expanded an AI-assisted configuration letting employers permit AI copilot use during tests with full interaction logging for recruiter review.",
+    "source_urls": [
+      "https://www.finalroundai.com/blog/codility-assessment-guide"
+    ],
+    "tag": "enriched",
+    "card_id": 9006
+  },
+  "9007": {
+    "gloss": "Big tech coding rubrics use four dimensions: communication, problem solving, technical competency, testing",
+    "verbatim": "The Tech Interview Handbook, written by Yangshun Tay, an ex-Meta staff engineer, publishes a coding interview rubric guide stating that across top tech companies (Google, Amazon, Apple, Netflix and other FAANG/MANGA firms) the evaluation criteria do not differ greatly and split broadly into four dimensions: Communication (does the candidate clarify, communicate their approach, explain while coding), Problem Solving (understands the problem, sound approach, trade-off analysis, optimisation), Technical Competency (speed and accuracy of implementation, syntax errors), and Testing (common and corner cases, self-correcting bugs). It describes two accepted scoring methods: give a score of 1-4 for every dimension and sum them into an overall score, or give a single overall 1-4 score based on performance across the dimensions. Either way the resulting bands are Strong hire, Hire, No hire and Strong no hire, with some companies adding a middle band for indecision, and the handbook notes the final decision is based on overall performance across criteria rather than a strict mathematical cut-off.",
+    "source_urls": [
+      "https://www.techinterviewhandbook.org/coding-interview-rubrics/"
+    ],
+    "tag": "enriched",
+    "card_id": 9007
+  },
+  "9008": {
+    "gloss": "TicNote: turn the job into 6-10 weighted competencies and collect 3-5 independent signals per candidate",
+    "verbatim": "TicNote's candidate evaluation guide (June 23, 2026) sets its own dimension count: convert the job description into 6 to 10 measurable competencies that every candidate is assessed against in the same way, defined before anyone joins a call. Its recommended scorecard fields are role/level/stage, competencies with weighted importance, question mapping for each competency, behavioural rating anchors on a 1 to 5 scale, evidence fields in STAR format (situation, task, action, result), red-flag or knockout criteria, an overall recommendation, a confidence level, and open risks with mitigations. It also advises collecting 3 to 5 independent signals per candidate rather than letting any single interview, test or resume review decide the hire, ranks work samples and job simulations as the strongest evidence (time-boxed, scored with the same rubric), and says take-home projects should be avoided unless the candidate is paid. It draws a line between evidence and interpretation: \"Led a 6-person migration project under a 10-week deadline\" is evidence, \"seems strategic\" is not, and weights should shift by role type (execution quality for individual contributors, systems thinking and code quality for technical roles, communication clarity and objection handling for customer-facing roles).",
+    "source_urls": [
+      "https://ticnote.com/en/blog/candidate-evaluation-scorecard"
+    ],
+    "tag": "enriched",
+    "card_id": 9008
+  },
+  "9009": {
+    "gloss": "Indeed's interview matrix template: 8 criteria scored 1-5 for a 40-point total, or 10 questions for 50",
+    "verbatim": "Indeed's career guide article on interview matrix scoring (updated June 15, 2026) supplies a concrete matrix template with a fixed number of scored rows: eight qualifications, each rated out of 5, producing a total score out of 40 per candidate, with a notes row beneath for context on each rating. It gives an alternative question-based construction where 10 interview questions are each rated on a scale of one to five, so candidates can reach a total of 50 points, with points deducted for unsatisfactory or incomplete answers. The article describes the matrix as two-axis (candidates on one axis, grading criteria on the other), lists the criteria types employers use as interview questions, behavioural traits (timeliness, communication skills, teamwork, cultural fit) or professional qualifications, and stresses fixing the scoring system before interviews begin so every candidate is judged the same way, with a notes section to justify each score during later review.",
+    "source_urls": [
+      "https://www.indeed.com/career-advice/interviewing/interview-matrix-scoring"
+    ],
+    "tag": "enriched",
+    "card_id": 9009
+  },
+  "9010": {
+    "gloss": "Discovered's sample scorecard runs five competencies on a 1-5 scale with a mandatory notes field",
+    "verbatim": "Discovered, a hiring software vendor, publishes an interview candidate scorecard guide whose sample format uses exactly five competencies, each scored 1-5 with a notes column: Communication (clarity, listening, articulation), Problem Solving (analytical thinking, creativity), Team Collaboration (works well with others, empathy), a Role-Specific Skill (for example coding, sales pitching, writing), and Cultural Fit (alignment with company values). The standard scorecard sections it lists are candidate information, core competencies, a rating scale (often 1-5 or descriptive from Excellent to Poor), a freeform notes field to justify ratings, and a final total or average score to guide the decision. Its recommended process is to finalise and share the scorecard with all interviewers before interviews begin, have each interviewer score independently before any discussion to avoid groupthink, then compare scores and discuss discrepancies. The article cites Harvard Business Review for the figure that traditional unstructured interviews predict success only about 20% of the time. It also suggests role-specific extra criteria, such as persuasion and objection handling for sales, code quality and systems thinking for engineering, and empathy and de-escalation for customer support.",
+    "source_urls": [
+      "https://discovered.ai/post/interview-candidate-scorecard/"
+    ],
+    "tag": "enriched",
+    "card_id": 9010
+  },
+  "9011": {
+    "gloss": "Intervue: take-homes cost candidates 4-8 hours and reviewers manual evaluation per submission; project tests run 1-3 hours",
+    "verbatim": "Intervue's coding assessment guide (July 30, 2026) quantifies the reviewer-side burden that pushes teams toward tighter rubrics. It says take-home coding assignments carry a significant time investment on both sides, with candidates spending 4-8 hours on assignments and reviewers having to carefully evaluate each submission manually, and that you cannot verify the candidate completed the work independently. Project-based and simulation assessments, which give candidates a realistic codebase and business requirements, run 1-3 hours and, in Intervue's assessment, provide the highest predictive validity because they directly sample the work the candidate will do, but scoring is less automated since evaluators must assess decision-making and approach rather than just correctness. Live coding challenges are timed at 30 to 90 minutes in a browser IDE with automated execution against hidden test cases. On scoring the article states that objective scoring rubrics are what turn subjective code evaluation into consistent, defensible hiring decisions, and that without clear rubrics different reviewers apply different standards, introducing bias and reducing the assessment's predictive power.",
+    "source_urls": [
+      "https://www.intervue.io/blog/coding-assessment-test"
+    ],
+    "tag": "enriched",
+    "card_id": 9011
+  },
+  "9012": {
+    "gloss": "Wayfair's published candidate AI guidelines name permitted tools and set disqualification as the penalty",
+    "verbatim": "Wayfair publishes a public candidate-facing \"AI Guidelines\" page on aboutwayfair.com setting out how candidates may use AI in its hiring process. The core rule: candidates must disclose or cite any AI tools they use during the interview, and if Wayfair notices AI use beyond the guidelines it may disqualify the application and/or contact the candidate's references to confirm their qualifications and experience. Permitted: AI tools to help craft the resume and cover letter, provided the information accurately reflects the candidate's skills; AI for interview preparation (research, practice); research and exploration on take-home assignments. On live coding assessments Wayfair names the tools directly, saying its assessments \"may incorporate the use of generative AI tools like Open AI, ChatGPT and Gemini, and GitHub CoPilot,\" and that for certain roles it encourages transparent use of generative AI during the interview, asking candidates to \"be prepared to clearly explain the prompts you use and the technical choices you make when using AI.\" Prohibited: AI-generated answers during phone and virtual interviews, where Wayfair states that if it discovers such answers were used \"without authorization or prior disclosure, you may be disqualified from the hiring process\"; and AI tools may not be used to transcribe or record an interview at any time.",
+    "source_urls": [
+      "https://www.aboutwayfair.com/ai-guidelines"
+    ],
+    "tag": "enriched",
+    "card_id": 9012
+  },
+  "9013": {
+    "gloss": "Four named employers publish stage-by-stage candidate AI policies; permission drops the closer you get to a live round",
+    "verbatim": "A Joberney blog post dated 10 August 2026 compiles the candidate-facing AI policies published by four named employers and maps them stage by stage. Datadog's interviewing guidelines, last updated 13 May 2026, allow AI on resumes and applications if the materials represent the candidate accurately, allow it on take-homes for research and structure while warning to expect live questions on every choice, and disallow it in live rounds except a designated coding round the candidate is told about in advance; Datadog names failure to disclose as a disqualifying issue. GitLab's page on AI in the interview process is described as the only one of the four carrying a standing disclosure requirement rather than a stage-specific one: transparent use is welcome in technical assessments, take-home research must be cited with answers in the candidate's own words, no reading from generated answers in interviews, and candidates must say which tools they used. Code.org (publishing under the CodeAI name) allows AI as a thought partner and for drafts the candidate then edits, never copy-and-paste, and permits use on take-homes and live rounds only when disclosed to the interview team; disclosure is required for anything past the application. Anthropic's candidate guidance, last updated 10 July 2025, encourages AI on application materials but sets an order of operations (draft yourself first, then refine with the tool), and does not permit it on take-homes or live rounds unless the company says so for that specific assessment, with transparency stated as a mutual expectation. The post's read across the four: none says yes across the board, none says no across the board, and permission drops the closer the stage gets to a live human watching the candidate work.",
+    "source_urls": [
+      "https://joberney.com/blog/should-you-disclose-ai-use-to-an-employer"
+    ],
+    "tag": "enriched",
+    "card_id": 9013
+  },
+  "9014": {
+    "gloss": "Canva instructs candidates to use Copilot, Cursor and Claude in coding rounds; Amazon bans generative AI and calls it an unfair advantage",
+    "verbatim": "An Expert Hire blog post dated 12 June 2026 contrasts two named company positions as evidence there is no universally correct policy: Canva's engineering team tells candidates to use Copilot, Cursor, and Claude during its backend, frontend, and ML coding rounds, and writes that it \"insists\" on it, while Amazon explicitly bans generative AI tools during interviews and calls their use an unfair advantage. The post argues both are defensible because the right policy depends on four variables: the role, the interview stage, the regulatory context, and the signal the round is meant to produce. It sets out three coherent policy shapes: always allow (the Canva model), always ban (the Amazon model), and structured allow with rules (the middle path it says most companies should run). Two operational points for policy writers: a single policy across all rounds is the wrong policy, because per-round policy is the right one; and treating AI use and AI cheating as the same thing is a category error that will lose good hires. It also flags a compliance trap specific to enforcement: under NYC Local Law 144, any tool that substantially assists a hiring decision is an Automated Employment Decision Tool, so a \"ban AI\" policy enforced via a detection tool makes the detector an AEDT and triggers an annual bias-audit requirement plus a candidate notice.",
+    "source_urls": [
+      "https://www.experthire.io/blog/should-you-allow-ai-in-job-interviews"
+    ],
+    "tag": "enriched",
+    "card_id": 9014
+  },
+  "9015": {
+    "gloss": "62% of organisations still formally ban AI in interviews while Canva requires it and Code.org allows it with disclosure",
+    "verbatim": "An AceRound blog post dated 29 July 2026 maps the 2026 take-home AI policy landscape by named company. Canva publicly documented that candidates are expected to use AI tools like GitHub Copilot, Cursor, or Claude during backend, frontend, and ML coding rounds, its stated reasoning being that close to half its engineers already use AI tools daily, so an AI-banned interview stopped measuring anything close to real job performance; Canva redesigned its problems to be ambiguous enough that a single AI prompt cannot solve them outright, shifting evaluation to how the candidate directs the tool. Code.org has a formal written AI use policy allowing AI on interviews and take-homes as long as it is disclosed, and treats undisclosed use, or misrepresenting AI output as entirely the candidate's own thinking, as an integrity violation carrying a much harsher outcome than the AI use itself. Amazon has offered an optional AI-assisted interview round for some candidates, with candidates reporting online that a recruiter offered to reimburse AI coding tool costs up to $100 for use during one interview round, while Amazon still restricts AI use elsewhere in its process. Against that, the post cites survey data putting the share of organisations that still formally prohibit AI in interviews at roughly 62%, and notes that most job postings and take-home instructions say nothing at all. Its four-way framework for candidates: AI required (use it fully), AI allowed with disclosure (add a one-line README note naming the tool and what it did), instructions silent (ask the recruiter before assuming), AI banned (do not use it).",
+    "source_urls": [
+      "https://www.aceround.app/blog/take-home-coding-assignment-ai-help/"
+    ],
+    "tag": "enriched",
+    "card_id": 9015
+  },
+  "9016": {
+    "gloss": "Documented rejection: a candidate failed a take-home after being unable to explain why their recursion terminated",
+    "verbatim": "An AceRound blog post dated 29 July 2026 records a candidate account posted on Blind describing rejection after a take-home because they \"couldn't explain why the recursion terminated\" in code that technically ran correctly, code the hiring manager suspected but never confirmed was AI-assisted. The post's framing of the risk is that the dangerous position is not using AI when it was banned or skipping it when it was expected, both of which it says are recoverable with an explanation, but rather silence on an ambiguous assignment followed by a submission that reads as more polished than the candidate's live interview performance suggests they could produce alone. It also notes that almost every take-home coding pipeline, whether or not AI was permitted, ends in a live round where the candidate walks an interviewer through their own submission, which is where the outcome is actually decided.",
+    "source_urls": [
+      "https://www.aceround.app/blog/take-home-coding-assignment-ai-help/"
+    ],
+    "tag": "enriched",
+    "card_id": 9016
+  },
+  "9017": {
+    "gloss": "How employers actually detect AI use in take-home submissions, including a study where 96% of AI code was findable via Google",
+    "verbatim": "An AceRound blog post dated 29 July 2026 sets out four detection mechanics companies apply to take-home submissions. First, plagiarism-matching tools such as Codequiry compare submitted code against known public solutions, prior candidate submissions, and common AI outputs for the same problem statement. Second, traceability through search: the post cites a controlled academic study finding AI-generated code solutions were identifiable via a plain Google search in 96% of test cases, because language models tend to reproduce recognisable structural patterns from their training data rather than genuinely novel implementations. Third, commit and timing patterns, with reviewers looking at repository history for signals such as an entire complex function appearing in a single commit with no iteration, or code quality that jumps sharply between commits. Fourth, the live follow-up round, which requires no technical detection at all and simply asks the candidate to explain what they submitted. The post notes take-homes generally get lighter session monitoring than a proctored live coding round, and that no single one of these is foolproof, but together they make quietly outsourcing an entire assignment a poor bet.",
+    "source_urls": [
+      "https://www.aceround.app/blog/take-home-coding-assignment-ai-help/"
+    ],
+    "tag": "enriched",
+    "card_id": 9017
+  },
+  "9018": {
+    "gloss": "The four parts a candidate AI usage policy needs, with the acceptable/unacceptable line drawn item by item",
+    "verbatim": "A Fabric blog post dated 23 January 2026 specifies four components an interview AI usage policy needs. (1) Scope: define which parts of the hiring process the policy covers, since take-home assignments, live coding interviews, behavioural interviews, and technical discussions each warrant different rules, and it gives the example that a take-home might allow full AI assistance with disclosure while a live technical interview restricts it entirely. (2) Definitions: it lists acceptable use as using AI to prepare for interviews (researching the company, practising answers), using AI-assisted code completion in your regular development environment, and referencing AI-generated notes created beforehand; and unacceptable use as real-time AI tools that generate answers during the interview, having AI write code or responses presented as your own thinking, and using any tool that provides live assistance without disclosure. (3) Expectations: the policy's core test is that candidates can explain and defend their work, specifically walking through their reasoning step by step, explaining why they chose one approach over alternatives, discussing trade-offs and limitations, adapting the solution when requirements change, and demonstrating understanding under follow-up questions. (4) Consequences: state plainly what happens on violation, which may include immediate disqualification, termination of candidacy, or documentation in the applicant tracking system, since ambiguity here undermines the whole policy. The post also recommends communicating the policy at three points: in the job posting or initial outreach, again at interview scheduling, and at the start of each interview.",
+    "source_urls": [
+      "https://fabrichq.ai/blogs/developing-an-acceptable-use-policy-guidelines-for-ai-in-interviews"
+    ],
+    "tag": "enriched",
+    "card_id": 9018
+  },
+  "9019": {
+    "gloss": "AI interview cheating tool adoption doubled from 15% to 35% of candidates in six months, and 59% of hiring managers suspect candidates",
+    "verbatim": "A Fabric blog post dated 23 January 2026 reports that AI interview cheating tools doubled in adoption from 15% to 35% of candidates over the last six months of 2025, and that 59% of hiring managers suspect candidates of using AI tools to misrepresent their abilities. It names Cluely, Interview Coder, and Final Round AI as current cheating tools, describing how they use invisible overlays that render directly on the candidate's screen without appearing in screen shares, so the candidate sees a transparent heads-up display floating over their coding environment while the interviewer sees nothing. These tools capture interview audio in real time, transcribe it, feed it to large language models, and display answers in about two seconds, a pipeline the post says completes faster than most natural thinking pauses. It also cites the cost of a bad hire at 30% to 150% of first-year salary in direct costs, with indirect costs in team morale and delayed projects pushing the total higher.",
+    "source_urls": [
+      "https://fabrichq.ai/blogs/developing-an-acceptable-use-policy-guidelines-for-ai-in-interviews"
+    ],
+    "tag": "enriched",
+    "card_id": 9019
+  },
+  "9020": {
+    "gloss": "A blanket ban on candidate AI use may require a disability accommodation exception under the ADA",
+    "verbatim": "A K&L Gates US Labor, Employment, and Workplace Safety alert dated 28 March 2024, by M. Claire Healy, examines whether job applicants should be permitted to use AI and works through the legal constraints on banning it. Drawing on the EEOC's May 2022 guidance \"The Americans with Disabilities Act and the Use of Software, Algorithms, and Artificial Intelligence to Assess Job Applicants and Employees,\" the alert warns that if an employer has a general policy prohibiting applicant AI use on a legitimate, nondiscriminatory business reason such as combatting plagiarism and misrepresentations about skills and experience, it may still need to make an exception for applicants with disabilities who can articulate why they need AI to assist them in the application process. If the policy's underlying purpose could be achieved by alternative means, for example using AI tools plus human screeners to detect potential AI plagiarism in applications, employers may need to adjust the policy for those applicants; and where an applicant with a disability used AI to draft a resume but can still perform the position's essential functions, employers should be careful not to automatically screen them out under a blanket AI ban. The alert also cites the EEOC's May 2023 Title VII guidance that employers may be liable for discriminatory use of AI-influenced selection procedures with a disparate impact on protected characteristics. It carries an update noting that following President Trump's repeal of Executive Order 14110 on 23 January 2025, some federal-policy information in it may be out of date.",
+    "source_urls": [
+      "https://www.klgates.com/thought-leadership/Should-Job-Applicants-be-Permitted-to-Use-Artificial-Intelligence-3-27-2024"
+    ],
+    "tag": "enriched",
+    "card_id": 9020
+  },
+  "9021": {
+    "gloss": "2023 surveys on how widely candidates already use AI: nearly half used ChatGPT for resumes, 70% reported higher response rates",
+    "verbatim": "A K&L Gates alert dated 28 March 2024 collects survey data on candidate AI use. A 2023 survey from a provider of online and app-based job-seeker resources found almost half of job seekers were already using ChatGPT to generate resumes and cover letters, and 70% of applicants reported a higher response rate from employers when using ChatGPT to create or revise application materials. A separate survey cited in the alert found 41% of college students believe using AI to prepare for interviews is acceptable. The alert notes a 2023 Harvard Business Review article theorising that using tools like ChatGPT to help craft a resume \"may very well be the new norm in a few years' time,\" and describes 2023 news coverage of a TikTok video with over two million views showing how to use AI to generate likely interview questions from a job description, plus a second 2023 TikTok video showing a woman using a phone app to generate answers to video interview questions while they were being asked.",
+    "source_urls": [
+      "https://www.klgates.com/thought-leadership/Should-Job-Applicants-be-Permitted-to-Use-Artificial-Intelligence-3-27-2024"
+    ],
+    "tag": "enriched",
+    "card_id": 9021
+  },
+  "9022": {
+    "gloss": "A total-ban policy in the wild: disqualification if caught during hiring, termination if discovered after",
+    "verbatim": "A LinkedIn post by career coach Angela Croghan describes encountering a company that requires candidates to agree not to use AI during any part of the application or interview process, with a stated policy that a candidate found to have violated the agreement will be disqualified from candidacy, and if the violation is discovered after hiring, the person will be terminated. Croghan questions whether that reaches common candidate practices such as using AI to improve cover letters and resumes or to practise interview skills. Commenters push back on both sides: one calls such policies extreme responses by hiring managers who had selected unqualified candidates who looked qualified because of AI use, and says a clear statement of what counts as acceptable use plus better recruiter training beats a restrictive blanket ban. Another commenter describes a real case supporting the strict line, where a candidate for an employee-relations role answered a scenario question with an answer that was \"100% AI and not of their own thought,\" and argues that a candidate who cannot personally write a considered answer should not move forward. A third notes that in their experience bans were made clear only for the live interview itself, not the whole process.",
+    "source_urls": [
+      "https://www.linkedin.com/posts/angelacroghan_i-recently-encountered-a-company-that-requires-activity-7421989499431194626-cEvE"
+    ],
+    "tag": "enriched",
+    "card_id": 9022
+  },
+  "9023": {
+    "gloss": "HackerRank publishes the exact code-similarity thresholds that trigger a plagiarism flag, and they vary by question difficulty",
+    "verbatim": "AceRound (blog post dated June 6, 2026, titled \"Does HackerRank Detect Cheating in 2026?\") reports the disclosed thresholds from HackerRank's official plagiarism documentation: an easy question flags at 90% similarity, a medium question at 80%, and a hard question at 75%, and in every case the submission must be at least 10 lines long before a flag can fire. AceRound argues these numbers explain why false positives happen at scale: for sorting algorithms, graph traversal and other textbook implementations, the correct solution in a given language often exceeds 75% structural similarity to other correct solutions, especially when several candidates studied from the same preparation resources. The 10-line minimum means a short utility function that matches will not trigger a flag, while a full solution to a medium-difficulty problem almost certainly will if it came from a shared source.",
+    "source_urls": [
+      "https://www.aceround.app/blog/hackerrank-cheating-detection-explained/"
+    ],
+    "tag": "enriched",
+    "card_id": 9023
+  },
+  "9024": {
+    "gloss": "HackerRank runs two detection engines in parallel and its own docs admit it cannot identify the source a candidate used",
+    "verbatim": "AceRound (June 6, 2026) describes HackerRank's two parallel detection engines. The first is MOSS (Measure of Software Similarity, developed at Stanford), which compares submitted code structurally, looking at variable naming patterns, loop structures and function decomposition rather than raw text, so renaming variables and adding comments usually does not defeat it. The second is HackerRank's proprietary machine-learning plagiarism model, which looks at behavioural signals alongside code structure, such as how code was typed and when large blocks appeared; AceRound notes public documentation does not give enough detail to reproduce the model or independently verify an accuracy figure. It quotes a caveat from HackerRank's own documentation: \"It isn't possible to identify what source the candidate used.\" The system can flag that code resembles other submissions or public solutions, but cannot confirm whether the candidate looked at another person's code, used an AI, or wrote similar code independently, because those cases can look identical. AceRound also cites HackerRank's Plagiarism Best Practices documentation for the point that a similarity score is a review signal for a recruiter, not an automatic disqualification.",
+    "source_urls": [
+      "https://www.aceround.app/blog/hackerrank-cheating-detection-explained/"
+    ],
+    "tag": "enriched",
+    "card_id": 9024
+  },
+  "9025": {
+    "gloss": "What HackerRank's proctoring layer actually captures, and the four things it explicitly cannot see",
+    "verbatim": "AceRound (June 6, 2026) sets out what HackerRank's monitoring captures during a test: tab and window switching, logged with timestamps on the session timeline; periodic webcam snapshots, if the recruiter enables Proctor Mode; copy-paste detection, which logs the timestamp and volume of each paste event into the code editor; and code replay, letting recruiters review how a solution was entered, including edits and rewrites. It stresses the monitoring is session-level, not screenshot-granular. It also lists what the platform does not do: record the screen outside the browser tab, access clipboard contents, detect secondary devices or wireless earpieces, or see physical notes off-camera. Secure Browser mode (blocked right-click, disabled browser extensions) is a separate product the recruiter must purchase and configure; standard tests do not use it. On paste specifically, AceRound notes the detection is event and pattern analysis rather than clipboard-content inspection: the platform records that a block appeared instantly rather than being typed, and gives the example of a reviewer watching 150 lines appear in 3 seconds with no prior attempts or debugging. When a submission is flagged, the recruiter's report contains the similarity score and which submissions matched, a side-by-side code comparison, the full code replay, and the behavioural log of tab switches and copy-paste events; the recruiter then decides, not the algorithm.",
+    "source_urls": [
+      "https://www.aceround.app/blog/hackerrank-cheating-detection-explained/"
+    ],
+    "tag": "enriched",
+    "card_id": 9025
+  },
+  "9026": {
+    "gloss": "HackerRank puts its AI plagiarism detection at 93% accuracy and says 14% of candidates admitted using generative AI",
+    "verbatim": "HackerRank, writing on its own site in a piece on how recruiters see candidate AI usage during tests, states that its 2025 integrity stack (Enhanced Proctor Mode, Secure Mode, and AI-powered plagiarism detection) achieves a 93% accuracy rate, which it describes as three times more accurate than traditional methods, while reducing false positives. The same page reports that 14% of candidates admitted to using generative AI tools during assessments. It also cites developer adoption figures used to justify the investment: 84% of developers are already using or planning to use generative AI tools in their workflow, 82% of developers now experiment with AI tools, 55% actively use AI assistants at work, and 85% of HR leaders who use AI for recruitment report significant time savings. On the research side it cites a finding that multimodal fusion significantly reduced malpractice with an odds ratio of 0.43, which it presents as evidence for combining multiple detection methods rather than relying on one. HackerRank describes the signals its system tracks as dozens across coding-behaviour features, attempt-submission features and question features, explicitly excluding personal data such as gender, race or location, and names external tool usage patterns, typing cadence analysis, tab-switch proctoring and copy-paste tracking among them. Proctor Mode assigns an integrity result of High or Medium and includes session replay that captures screenshots of candidates using external tools; Secure Mode enforces full-screen, blocks copy and paste, prevents multiple monitors and alerts on tab switches. The page also characterises competitors: CodeSignal's Suspicion Score aggregates multiple factors but relies heavily on human review for final determinations, and CoderPad uses open-ended multi-file projects that are intentionally hard to complete with AI, with automated alerts for IDE exits and external pastes.",
+    "source_urls": [
+      "https://www.hackerrank.com/writing/how-recruiters-see-candidates-ai-usage-during-tests"
+    ],
+    "tag": "enriched",
+    "card_id": 9026
+  },
+  "9027": {
+    "gloss": "Atlassian's false-positive rate on HackerRank fell from 10% to 4% after the AI-aware integrity changes",
+    "verbatim": "HackerRank, on its own site comparing its AI IDE with standard coding assessment platforms, reports that its AI plagiarism detection reduced false positives from 10% to 4% at companies including Atlassian, attributing the figure to Atlassian's Senior Manager Srividya Sathyamurthy. The same page gives operating scale: Proctor Mode tracks webcam, screen capture and OS-level activity across 172,800 daily assessments, and the platform powers technical hiring for 2,500+ companies with Starter pricing from $165/month. It describes the AI plagiarism detection model as flagging potential plagiarism by analysing candidate behaviour, code evolution and submission similarities, tracking dozens of signals across coding behaviour, attempt submission patterns and question features. It also describes a dual-mode AI assistant: guarded mode for take-home assessments, limiting help to syntax, platform navigation and conceptual guidance without full solutions, and unguarded mode for live interviews, allowing complete AI interaction under observation, with every AI interaction recorded and reviewable. The IDE is built on Monaco, the editor behind Visual Studio Code, with IntelliSense across 55+ programming languages. HackerRank cites roughly 75% of knowledge workers worldwide using generative AI as context for allowing AI in assessments at all.",
+    "source_urls": [
+      "https://www.hackerrank.com/writing/hackerrank-ai-ide-vs-standard-coding-assessment-platforms"
+    ],
+    "tag": "enriched",
+    "card_id": 9027
+  },
+  "9028": {
+    "gloss": "A dedicated AI code detector reports 96.2% accuracy with a 0.3% false-positive rate, deliberately trading away recall",
+    "verbatim": "Pangram, in a blog post by Alex Roitman dated April 3, 2026, describes its AI code detector and gives its measured rates: 96.2% accuracy and a near-zero false positive rate of 0.3%, with an 8.5% false negative rate on code snippets over 40 lines long. Pangram says the tool is intentionally conservative and designed to miss some AI boilerplate so that it never falsely accuses a human developer. The post explains why detecting AI-written code is harder than detecting AI-written text: programming languages have fewer \"degrees of freedom\", so a human and a model solving the same problem may produce mathematically identical code, and standard boilerplate or simple configuration files carry almost no statistical signal a detector can use. On Stanford's MOSS, the post says it can generally determine whether a script was AI-generated, but a savvy developer can adjust their order of methods and change variable names to go undetected, and MOSS is only available for non-commercial use. For manual review at low volume, Pangram lists the tells reviewers can look for: hyper-specific commenting styles, over-documentation (models trained to be helpful insert exhaustive, unnatural comments on each line, which human developers rarely do), and extreme internal similarity, where AI code looks near-identical across multiple submissions. On hiring specifically, the post argues that rather than blanket-banning AI, recruiters use detection to prompt interview questions, giving the example: \"I see this function relies heavily on AI assistance. Can you walk me through why the model chose this specific loop structure?\"",
+    "source_urls": [
+      "https://www.pangram.com/blog/ai-code-detector"
+    ],
+    "tag": "enriched",
+    "card_id": 9028
+  },
+  "9029": {
+    "gloss": "Vendor false-positive claims for AI text detection range from under 1% to 50%, and detectors are biased against non-native English writers",
+    "verbatim": "The University of San Diego's Pardee Legal Research Center guide on generative AI detection tools (last updated July 8, 2026) states that multiple studies have found AI detectors \"neither accurate nor reliable\", producing high numbers of both false positives and false negatives, and that they are not recommended as a sole indicator of misconduct. On rates: Turnitin has stated its AI checker had a less than 1% false positive rate, while a later Washington Post study produced a much higher rate of 50%, albeit with a much smaller sample size. On false negatives, the guide notes Turnitin's AI checker can miss roughly 15 percent of AI-generated text in a document, quoting the company as saying \"We're comfortable with that since we do not want to highlight human-written text as AI text\", alongside its 1 percent false positive claim. The guide cites research that neurodivergent students (autism, ADHD, dyslexia) and students for whom English is a second language are flagged at higher rates than native English speakers, because of reliance on repeated phrases, terms and words, referencing Stanford HAI coverage (May 15, 2023) and Liang et al., \"GPT Detectors are Biased against Non-Native English Writers\", in Patterns (July 14, 2023). It also documents how easily detectors are evaded: paraphrasing, inserting emotion or anecdotes, increasing word or structure diversity, or running text through humanizer tools. Cat Casey, chief growth officer at Reveal and a member of the New York State Bar AI Task Force, is quoted saying she can fool detectors 80-90% of the time simply by adding the single word \"cheeky\" to a prompt.",
+    "source_urls": [
+      "https://lawlibguides.sandiego.edu/c.php?g=1443311&p=10721367"
+    ],
+    "tag": "enriched",
+    "card_id": 9029
+  },
+  "9030": {
+    "gloss": "Six categories of proctoring signal, and a platform-by-platform matrix of which vendor watches which",
+    "verbatim": "TechScreen, in a guide dated June 8, 2026 on passing a proctored coding test, says the proctoring stack has stabilised over the last three years around six categories of signal: webcam video (face presence, identity consistency, gaze direction, additional people, with confidence lower in shared spaces or with darker skin tones, which it names as a documented bias source producing false positives); microphone audio (scoring acoustic features for other voices rather than transcribing in most configurations); screen content (captured at browser-tab level on HackerRank, Codility and CodeSignal, with no OS-level capture on the web-based platforms; Karat and HireVue can see the whole screen because the candidate is screen-sharing into a video call); focus and tab-switching events (a normal session produces a handful of focus-loss events, and the canonical flag pattern is dozens of them, or a single very long focus loss followed by polished code); paste events (logged with timestamp and size of pasted content, not always disallowed but always logged and reviewed); and typing cadence (inter-keystroke intervals, burst lengths, and the ratio of insertions to deletions over time, with pasted or rapidly-retyped content producing a flatter cadence than natural typing). TechScreen says platform writing treats cadence as supplementary evidence rather than a primary classifier because its false positive rate is the highest of any layer. Its comparison matrix across HackerRank Proctored, Codility Test+, CodeSignal GCA and Karat Proctored shows all four log tab focus events, paste events and post-hoc plagiarism comparison, and all four run MOSS code similarity; typing-cadence ML is present on HackerRank and Codility, present on CodeSignal as its Suspicion Score, and limited on Karat; the AI code classifier is on HackerRank (which TechScreen renders as \"93% reported\") and Codility and CodeSignal, and limited on Karat; a human proctor is optional on HackerRank and absent on Codility and CodeSignal but always present on Karat. TechScreen states the score a company sees is a weighted combination of all layers, surfaced on the integrity dashboard as High, Medium or No suspicion, with post-session human review of flagged sessions only, and that no single layer determines an outcome by itself.",
+    "source_urls": [
+      "https://techscreen.app/articles/how-to-pass-proctored-coding-test-2026"
+    ],
+    "tag": "enriched",
+    "card_id": 9030
+  },
+  "9031": {
+    "gloss": "Prompt logs: what an assessment platform can and cannot record about a candidate's AI conversation",
+    "verbatim": "PracHub, in a knowledge-hub guide published August 20, 2026, defines a prompt log as a record of the messages sent to and received from an AI assistant during an assessment, showing what the candidate asked, how prompts changed, which suggestions were accepted or rejected, and how AI use contributed to the final code. It stresses prompt logging is only clean when the AI tool is built into the assessment: HackerRank's AI-assisted tests can provide an AI Usage Summary and full chat transcripts to hiring teams, and its prompt-engineering questions let reviewers replay activity and inspect how candidates iterated; Coderbyte's AI-fluency projects evaluate how candidates write prompts, accept or reject agent output, and explain the final work, with built-in ChatGPT, Claude and agent tools. PracHub warns not to assume a platform automatically possesses the private chat history of every external AI application. On other capture: HackerRank's Proctor Mode documents full-screen and tab monitoring, screen sharing, periodic screenshots, webcam analysis, object detection and a post-test Session Replay synchronised with test events, and its screenshot analysis looks for unauthorised websites, external AI assistants, collaboration tools, remote-desktop applications and question-leaking tools; HackerRank says Proctor Mode can capture webcam images every five seconds when the test includes candidate personal information. CodeSignal's proctored certified assessments require screen, camera and microphone access plus identity verification, and use a proctoring verification team rather than giving an AI model sole authority over verification, with the requesting company receiving the assessment result, score and verification decision rather than the candidate's identification and proctoring data. PracHub's framing throughout is that AI proctoring is a collection of configurable integrity tools, not one universal recording standard, that a flag is not a verdict, and that HackerRank lets reviewers override integrity flags and record a reason. It also notes ordinary explanations for flagged behaviour, such as looking away reflecting thinking, reading a permitted document, or a medical need.",
+    "source_urls": [
+      "https://prachub.com/resources/what-is-an-ai-proctored-coding-assessment-webcam-screen-recording-and-prompt-logs"
+    ],
+    "tag": "enriched",
+    "card_id": 9031
+  },
+  "9032": {
+    "gloss": "HackerRank markets its plagiarism detection at 95% accuracy in a 2026 vendor comparison",
+    "verbatim": "Truffle, in a CodeSignal vs HackerRank comparison page dated 2026, states that HackerRank markets its AI-powered plagiarism detection at 95% accuracy, and that HackerRank also offers AI bias detection and mitigation on training data positioned toward compliance with New York City's AI bias audit law. The page describes HackerRank's shift toward \"Human+AI\" skills assessments, including real-world tasks like debugging a Jira ticket with an AI assistant, built to test how candidates work alongside AI coding tools rather than solo. On the other side, it says CodeSignal offers AI proctoring, ID verification, and fraud and cheating detection alongside its standardised scoring. Supporting figures on the same page: G2 ratings of 4.6/5 across 545 reviews for HackerRank and 4.5/5 across roughly 1,408 reviews (July 2026) for CodeSignal; HackerRank published pricing from $165/month (Starter) with a question library scaling from 2,000+ on Starter to 7,500+ at Enterprise; CodeSignal self-serve pricing from $79/month with a 2,000+ question library across 70+ languages.",
+    "source_urls": [
+      "https://www.hiretruffle.com/compare/codesignal-vs-hackerrank"
+    ],
+    "tag": "enriched",
+    "card_id": 9032
+  },
+  "9033": {
+    "gloss": "HackerRank's CEO on who cheats and on camera-based impersonation detection",
+    "verbatim": "Interview Coder, in a post dated August 15, 2025 on how HackerRank detects cheating, quotes HackerRank CEO Vivek Ravisankar on several points. On proctoring: \"We have a proctoring service that can detect whether there are multiple people in the room when you turn on the camera.\" On who cheats: \"Many cheaters are university students... They are young and desperate to get a job, and they want to share questions.\" On leaked questions, the post says HackerRank sends takedown demands when its questions appear on sites like LeetCode and is building its own practice space to reduce leaks, quoting Ravisankar: \"It is like we want to kill Napster by building Apple Music.\" And on the trend: \"Cheating has increased, and people are getting more creative about it.\" The post also lists the process tells the platform uses: it logs time spent per question and per session, so a correct solution to a hard problem produced in an unusually short time raises an alert; it watches for odd submission rhythms such as many near-identical submissions in a short window; it watches frequent switching away from the test window; it logs IP addresses and geolocation and correlates them with account activity, flagging multiple candidates on the same IP during overlapping windows or an account showing logins from distant locations; and it compares outputs, test-case pass patterns, execution traces and resource profiles, so two programs that look different but behave identically (including identical failing cases) can be flagged even when variable names and structure differ. It names the underlying techniques as tokenization and abstract syntax tree comparison, string matching, Levenshtein distance, winnowing and Rabin-Karp style fingerprinting, and Moss or JPlag style algorithms. The described workflow is that automated detectors combine similarity scores, timing anomalies, camera evidence and IP patterns into risk models that prioritise suspicious cases, with high-risk items moving to human review by engineers and recruiting teams, a blend the post says reduces false positives while staying scalable. Detected cheating can disqualify a candidate and lead to platform bans for repeated or severe violations. Note that this post is published by a vendor selling an \"undetectable coding assistant\".",
+    "source_urls": [
+      "https://www.interviewcoder.co/blog/how-does-hackerrank-detect-cheating"
+    ],
+    "tag": "enriched",
+    "card_id": 9033
+  },
+  "9034": {
+    "gloss": "Codility's anti-cheating stack, its 0.47 predictive validity score, and its TryAI service for testing whether a task is AI-solvable",
+    "verbatim": "daily.dev Recruiter, in a comparison by Daniela Torres dated April 30, 2026, describes Codility's integrity features: plagiarism detection, proctoring, AI-resistant tasks, ID verification and suspicious-behaviour monitoring, plus Code Playback, which records the candidate's coding process and reveals their problem-solving and debugging technique. Codility offers a service called TryAI that lets recruiters test whether their custom tasks can be solved by AI, so assessments stay relevant in the age of generative AI, and it has an AI assistant called \"Cody\" plus templates for evaluating AI-assisted engineering skills. Supporting numbers from the same page: Codility has a predictive validity score of 0.47 for job performance, supports 70+ programming languages, has a 68% test completion rate, has evaluated more than 16 million engineers across 68 countries since its founding in 2009, holds a 96% customer satisfaction rate and 4.6/5 on G2 from 350 reviews, and charges from $3/test. The comparison table on the page puts test completion at 68% for Codility, 72% for HackerRank and 75-85% for CodeSignal, with HackerRank serving 26M+ developers and offering over 7,500 questions across 260 skills at $165/month, and CodeSignal at custom pricing from $249. It also notes building custom Codility assessments can take around two months.",
+    "source_urls": [
+      "https://recruiter.daily.dev/resources/technical-screening-tools-codility-vs-hackerrank-vs-codesignal/"
+    ],
+    "tag": "enriched",
+    "card_id": 9034
+  },
+  "9035": {
+    "gloss": "A platform-by-platform read on which assessment vendors have the strongest AI-cheating controls",
+    "verbatim": "HackerRank, in a 2026 guide comparing the eight best coding assessment tools, rates the anti-cheating stack of each. For HackerRank itself: browser lockdown mode, copy-paste detection, tab-switching monitoring, optional webcam proctoring, AI-assisted answer detection, and plagiarism comparison against a database of past submissions, with pricing from ~$249/month for small teams. For Codility, the guide says it is \"considered the strongest in this category\", listing screen recording, copy-paste monitoring, keystroke analysis and a proprietary plagiarism engine, and states it can detect when candidates use AI coding assistants and flag submissions accordingly; Codility is ISO 27001 certified and SOC 2 compliant. For CodeSignal, anti-cheating is described as strong for certified assessments, with full proctoring including webcam, screen recording and AI detection, while custom assessments have lighter proctoring options, and the premium tier is required for full anti-cheating and benchmark features. For CoderPad, anti-cheating is rated moderate, because the tool is designed for live interviews where a human is present, with tab monitoring and basic copy-paste detection available; pricing starts at $150/month. HackerEarth is named as the platform whose hackathon-hosting capability is \"unmatched\", popular with companies combining technical hiring with developer community building and campus recruitment. Note this comparison is published by HackerRank, one of the vendors it ranks.",
+    "source_urls": [
+      "https://www.hackerrank.com/writing/best-coding-assessment-tools"
+    ],
+    "tag": "enriched",
+    "card_id": 9035
+  },
+  "9036": {
+    "gloss": "CodeSignal's answer to AI use is to allow it and record the whole candidate-AI transcript",
+    "verbatim": "CodeSignal, announcing AI-Assisted Coding Assessments and Interviews on its own blog, cites Stack Overflow research that 76% of engineers now use AI copilots every day to write code, fix bugs and solve problems faster, and argues most technical hiring still evaluates candidates as if those tools do not exist. Its approach is to embed an AI assistant called Cosmo in the IDE and configure how much it helps: Full AI Co-Pilot Mode, where Cosmo actively collaborates on advanced challenges that would be unsolvable in the allotted time without AI, and Guided Support Mode, where Cosmo gives light-touch help with IDE navigation, syntax errors and documentation, keeping candidates in the platform rather than reaching for external tools. Every AI-assisted assessment or interview comes with a full transcript of candidate-AI interactions plus a session replay, which CodeSignal frames as letting hiring managers judge whether candidates asked well-informed questions, iterated effectively, relied too much on suggestions, or ignored valuable guidance. Tigran Sloyan, CEO and co-founder of CodeSignal, is quoted: \"AI is redefining what it means to be an engineer. With AI-Assisted Coding Assessments and Interviews, we're capturing how candidates approach real-world challenges, make decisions with AI support, and deliver solutions that reflect the way software is built today.\"",
+    "source_urls": [
+      "https://codesignal.com/blog/introducing-ai-assisted-coding-assessments-interviews/"
+    ],
+    "tag": "enriched",
+    "card_id": 9036
+  },
+  "9037": {
+    "gloss": "Which cheating methods automated detection reliably catches, and which it does not",
+    "verbatim": "AceRound (June 6, 2026) splits candidate cheating methods into two groups by how detectable they are. Methods it says are difficult for automated detection to catch: using a second device to look up solutions (not logged), physical reference materials such as notes or printed resources, verbal assistance from another person in the same room, and paraphrasing a solution significantly before typing it. Methods it says are reliably detected or flagged for review: copy-pasting large code blocks from external sources, submitting code structurally near-identical to public GitHub solutions, typing patterns inconsistent with the candidate's stated experience level (its example is a flawless 300-line solution in 4 minutes), and repeated tab switches to the same external domains. AceRound's broader argument is that copy-pasted external code is not really caught by a detection algorithm at all but by a human reviewer watching the code replay and then running a follow-up technical interview, where questions like \"walk me through your solution\" or \"how would you modify this for edge case X?\" expose a borrowed answer regardless of whether any automated flag fired. Note this post is published by a vendor selling real-time interview assistance.",
+    "source_urls": [
+      "https://www.aceround.app/blog/hackerrank-cheating-detection-explained/"
+    ],
+    "tag": "enriched",
+    "card_id": 9037
+  }
+}

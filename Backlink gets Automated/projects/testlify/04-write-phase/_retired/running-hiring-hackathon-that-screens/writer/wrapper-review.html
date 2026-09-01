@@ -1,0 +1,128 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The wrapper</title><style>
+:root{--ink:#1c1a17;--mut:#6b6459;--line:#efe7d8;--bg:#fffdf8;--card:#fff;--wash:#fff8ec;
+      --acc:#fb7a00;--acc-soft:#ffd9b0;--yellow:#ffb703;--yellow-soft:#ffe9ad;
+      --ok:#2e7d43;--ok-bg:#e8f5ec;--no:#c2603a;--no-bg:#fdf3f0;--warn:#9a6700;--chip:#fff8ec;
+      --shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+     font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:40px 24px 120px}
+h1{font-size:clamp(26px,4vw,34px);margin:0 0 4px;letter-spacing:-.02em}
+h1 .hl,h1{background:linear-gradient(180deg,transparent 68%,var(--yellow-soft) 68%);display:inline}
+.sub{color:var(--mut);margin:10px 0 28px;display:block}
+h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);
+   margin:36px 0 10px;border-bottom:1px solid var(--line);padding-bottom:7px;font-weight:700}
+/* A failed check has to be findable at a glance in a table of green ticks. */
+tr.bad td{background:var(--pinkwash)}
+tr.bad td:first-child{color:var(--pink);font-weight:700}
+.panel.bad{border-color:var(--pinkline);background:var(--pinkwash)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;
+       margin:0 0 14px;box-shadow:var(--shadow)}
+.nums{display:flex;gap:28px;flex-wrap:wrap;background:linear-gradient(180deg,var(--wash),var(--card));
+      border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin:0 0 10px;box-shadow:var(--shadow)}
+.nums b{font-size:1.55em;display:block;color:var(--ink)}
+ins{background:var(--ok-bg);color:var(--ok);text-decoration:none;border-radius:2px;padding:0 2px}
+del{background:var(--no-bg);color:var(--no);border-radius:2px;padding:0 2px}
+details.diff{border:1px solid var(--line);border-radius:10px;padding:9px 13px;margin:8px 0;background:var(--card)}
+details.diff summary{font-weight:600;cursor:pointer;line-height:1.9}
+details.diff[open] summary{margin-bottom:6px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.dbody{margin-top:6px;font-size:.94em;line-height:1.75}
+.subh{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--acc);
+      font-weight:700;margin:14px 0 4px}
+code{background:var(--wash);border:1px solid var(--line);border-radius:4px;padding:1px 5px;font-size:.86em}
+.kwlist{margin:.3em 0;padding-left:1.3em}
+.kwlist li{margin:.35em 0}
+.map{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 30px;align-items:start}
+.mcol{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:9px 9px 11px;
+      box-shadow:var(--shadow);min-width:0}
+.mh{font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--acc);font-weight:700;
+    padding:2px 5px 7px}
+.mnote{font-size:11.5px;color:var(--warn);background:var(--wash);border:1px dashed var(--acc-soft);
+       border-radius:7px;padding:5px 8px;margin:0 3px 6px;line-height:1.45}
+.lead{color:var(--mut);font-size:.93em;margin:0 0 22px;line-height:1.6}
+.mstep{display:block;text-decoration:none;color:var(--ink);border-radius:8px;padding:5px 8px;
+       border:1px solid transparent}
+.mstep b{display:block;font-size:13.5px;font-weight:700;line-height:1.35}
+.mstep span{display:block;font-size:12.5px;color:var(--mut);line-height:1.45}
+.mstep i{display:block;font-style:normal;font-size:11px;color:var(--mut);opacity:.7;margin-top:1px}
+a.mstep:hover{background:var(--wash);border-color:var(--acc-soft)}
+a.mstep:hover b{color:var(--acc)}
+.mstep.on{background:var(--acc);border-color:var(--acc)}
+.mstep.on b,.mstep.on span{color:#fff}
+.mstep.on span{opacity:.9}
+.mstep.none{opacity:.5}
+@media(max-width:820px){.map{grid-template-columns:1fr}}
+.nums span{color:var(--mut);font-size:.8em}
+.row{padding:10px 2px;border-top:1px dashed var(--line)}
+.row:first-of-type{border-top:0}
+.row .t{font-weight:650}
+.row .m{color:var(--mut);font-size:.88em}
+.reason{margin-top:2px;font-size:.92em}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:100px;
+      padding:1px 9px;font-size:.76em;color:var(--mut);margin-left:6px;vertical-align:middle}
+.tag{display:inline-block;background:var(--yellow-soft);border-radius:100px;padding:1px 9px;font-size:.8em;
+     margin:2px 4px 2px 0;cursor:help;color:var(--ink)}
+.ok{color:var(--ok)}.no{color:var(--no)}.warn{color:var(--warn)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:700px){.grid2{grid-template-columns:1fr}}
+.bar{height:9px;background:var(--wash);border:1px solid var(--line);border-radius:5px;overflow:hidden;margin-top:3px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--yellow),var(--acc))}
+ul{margin:.3em 0;padding-left:1.3em}
+li{margin:.18em 0}
+a{color:var(--acc);overflow-wrap:anywhere}
+details{margin:6px 0}
+summary{cursor:pointer}
+.spine{font-size:1.12em;line-height:1.65;background:var(--wash);border:1px solid var(--acc-soft);
+       border-left:4px solid var(--acc);border-radius:12px;padding:18px 20px;margin:0 0 20px}
+.job{font-style:italic;color:var(--mut);margin:2px 0 6px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+.filters button{background:var(--card);border:1px solid var(--line);color:var(--ink);border-radius:100px;
+                padding:5px 13px;cursor:pointer;font-size:.85em;font-weight:600}
+.filters button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.q{color:var(--mut);font-size:.85em}
+.where{background:var(--wash);border:1px solid var(--acc-soft);border-radius:12px;padding:14px 18px;margin:0 0 22px}
+.where ol{margin:6px 0 0;padding-left:20px}
+.where li{margin:.2em 0;color:var(--mut)}
+.where li.now{color:var(--ink);font-weight:650}
+.where .lead{font-size:.9em;color:var(--mut)}
+.note{color:var(--mut);font-size:.88em;margin:-4px 0 10px}
+.from{color:var(--mut);font-size:.88em}
+.from b{color:var(--ink);font-weight:650}
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 24px}
+.nav a{background:var(--card);border:1px solid var(--line);border-radius:100px;padding:5px 13px;
+       font-size:.85em;font-weight:600;text-decoration:none;color:var(--ink)}
+.nav a.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.lede{font-size:1.06em;line-height:1.66;margin:0 0 22px;color:var(--ink)}
+.oneline{background:var(--wash);border:1px solid var(--acc-soft);border-left:4px solid var(--acc);
+         border-radius:12px;padding:16px 20px;margin:0 0 26px;line-height:1.7}
+.oneline b{white-space:nowrap}
+.stn{display:flex;align-items:baseline;gap:10px;margin:26px 0 8px}
+.stn .name{font-size:1.06em;font-weight:700}
+.stn .does{color:var(--mut);font-size:.9em}
+.step{display:grid;grid-template-columns:30px 1fr;gap:2px 10px;padding:9px 2px;
+      border-top:1px dashed var(--line)}
+.step:first-child{border-top:0}
+.step .no{color:var(--acc);font-weight:700;font-variant-numeric:tabular-nums;font-size:.92em}
+.step .nm{font-weight:650}
+.step .dsc{grid-column:2;color:var(--mut);font-size:.9em}
+.step .see{grid-column:2;font-size:.84em;margin-top:2px}
+.b{display:inline-block;border-radius:100px;padding:0 8px;font-size:.7em;font-weight:700;
+   letter-spacing:.03em;vertical-align:middle;margin-left:6px;border:1px solid var(--line);
+   background:var(--chip);color:var(--mut);text-transform:uppercase}
+.b.ai{background:var(--yellow-soft);border-color:#f2d98d;color:#6a4a00}
+.b.paid{background:var(--no-bg);border-color:#f0d3c8;color:var(--no)}
+.b.code{background:var(--ok-bg);border-color:#cfe6d6;color:var(--ok)}
+.pg{padding:14px 2px;border-top:1px dashed var(--line)}
+.pg:first-child{border-top:0}
+.pg .t{font-weight:700;font-size:1.02em}
+.pg .ask{color:var(--mut);font-size:.9em;margin-top:1px}
+.pg .cov{font-size:.84em;margin-top:5px;color:var(--mut)}
+.pg .look{font-size:.88em;margin-top:4px}
+.key{display:flex;gap:16px;flex-wrap:wrap;font-size:.84em;color:var(--mut);margin:0 0 14px}
+</style></head><body><div class="wrap"><h1>The wrapper</h1><p class="sub">running-hiring-hackathon-that-screens — the intro, the FAQ and the close</p><div class="map"><div class="mcol"><div class="mh">1 · Planner</div><a class="mstep" href="../gather/gather-review.html" target="_blank"><b>gather</b><span>Collects everything the research phase produced.</span></a><a class="mstep" href="../planner/selection-review.html" target="_blank"><b>select</b><span>Keeps the sub-topics that earn a place, and drops the rest.</span></a><a class="mstep" href="../planner/sources-review.html" target="_blank"><b>verify-sources</b><span>Opens the page behind every statistic to check the number is really there.</span></a><span class="mstep none"><b>freeze</b><span>Locks the plan so no later step can quietly change it.</span><i>no page — nothing here to overrule</i></span><span class="mstep none"><b>plan-view</b><span>Writes the locked plan out in plain English.</span><i>no page — nothing here to overrule</i></span></div><div class="mcol"><div class="mh">2 · Architect</div><div class="mnote">All 6 open the one <b>Blueprint</b> page, each at its own section.</div><a class="mstep" href="../architect/blueprint-review.html#sections" target="_blank"><b>shape</b><span>Designs the sections and the order they come in.</span></a><a class="mstep" href="../architect/blueprint-review.html#research" target="_blank"><b>enrich</b><span>Runs the extra research the structure asked for.</span></a><a class="mstep" href="../architect/blueprint-review.html" target="_blank"><b>brand-cards</b><span>Turns the company&#x27;s own research and results into facts the article can cite.</span></a><a class="mstep" href="../architect/blueprint-review.html#sections" target="_blank"><b>allocate</b><span>Gives every section a word budget.</span></a><a class="mstep" href="../architect/blueprint-review.html#keywords" target="_blank"><b>section-keywords</b><span>Buys a real search keyword for the sections that deserve one.</span></a><a class="mstep" href="../architect/blueprint-review.html#headings" target="_blank"><b>headings</b><span>Writes the final wording of every heading, and the H1.</span></a></div><div class="mcol"><div class="mh">3 · Writer</div><a class="mstep" href="../writer/body-review.html" target="_blank"><b>write-body</b><span>Writes every section at once, none able to see the others.</span></a><a class="mstep" href="../writer/editor-review.html" target="_blank"><b>blend</b><span>Reads the whole article and cuts what did not earn its place.</span></a><a class="mstep on" href="../writer/wrapper-review.html" target="_blank"><b>wrapper</b><span>Writes the intro on PAS, the FAQ, and the close.</span></a><a class="mstep" href="../writer/coherence-review.html" target="_blank"><b>coherence</b><span>Reads the whole article at once and fixes what contradicts itself.</span></a><a class="mstep" href="../writer/readable-review.html" target="_blank"><b>readable</b><span>Rewrites the whole article so a person wants to read it.</span></a><a class="mstep" href="../writer/slop-review.html" target="_blank"><b>slop</b><span>Strips the AI writing tells.</span></a><a class="mstep" href="../writer/links-review.html" target="_blank"><b>links</b><span>Lays in the internal and external links.</span></a><a class="mstep" href="../writer/clean-review.html" target="_blank"><b>clean</b><span>Fixes odd characters and spacing. No AI.</span></a><a class="mstep" href="../writer/article.html" target="_blank"><b>assemble</b><span>Builds the finished draft and the page you review it on.</span></a></div></div><div class="panel"><p><b>Want to just read it?</b> <a href="reads/wrapper.html">Open the article as it stands after wrapper</a> — no highlights, no panels, the way a reader would see it. <a href="reads/index.html">Every step</a>.</p></div><p class="lead">The article has a middle but no beginning and no end. This step writes the four things around it: the opening, the Quick answer, the FAQ, and the closing. The Quick answer is the whole piece in 60 to 110 words, for the reader who reads nothing else — it has to ANSWER, not list takeaways. The opening follows problem, agitate, solution, and the solution is the article&#x27;s own answer, never the product. The FAQ takes real searched questions first, and it is allowed to answer things the article does not cover, because a question the article already answers under a heading is a wasted slot. Adding an opening and a closing creates two new seams, so it may also repair those two joins and nothing else.</p><div class="nums"><div><b>102</b><span>intro words</span></div><div><b>104</b><span>quick answer words</span></div><div><b>4</b><span>FAQ questions</span></div><div><b>0</b><span>answers over 40 words</span></div><div><b>80</b><span>close words</span></div><div><b>1</b><span>touch-ups applied</span></div><div><b>0</b><span>invented source tags removed</span></div></div><p class="note"><b>How to read this.</b> The H1 and opening, then every FAQ question (click one for its answer), then the closing, then any seam it repaired. In a seam repair, <del>red</del> is what it removed and <ins>green</ins> is what it added.</p><p class="note"><b>The FAQ badges.</b> <b>From real searches</b> means the question came from what people type into Google; <b>the editor found this one</b> means it wrote the question itself. The word count is the one to watch: an FAQ answer is what a search engine lifts and shows on its own, so it should be under 40 words. <b>Check N figures from outside the article</b> is not a fault, it is a spot-check: the FAQ may answer past the article, so those figures came from the model rather than a sourced card.</p><h2>The H1 and the intro</h2><div class="panel"><div class="row"><span class="t">H1</span><div><b>Hiring Hackathon Judging: Rubric, Calibration, AI Rule</b></div></div><div class="row"><span class="t">intro</span><div>The demos land, the panel takes notes, and then hackathon judging turns into a room where every judge measured something different. A topline report with SHRM Labs found 45.8% of HR and talent acquisition practitioners call their own hiring process inconsistent [c8004]. A hiring hackathon is a work sample test: real work, scored inside a hiring decision.
+
+So a score that changes with the judge is a hire that changes with the judge. The fix sits in the scoring, not the event. Three things decide it: the rubric, the panel that agrees on how to read it, and the rule on AI.</div></div><div class="row"><span class="t">quick answer</span><div>A hiring hackathon gives you a usable signal only if the scoring exists before the event does. Build the rubric from the job description, not from what the demos happen to show. Use a handful of weighted criteria, and write down what a failing, an acceptable and a top submission looks like on each.
+
+Then have judges score practice work privately and compare their numbers, so you can fix the wording two people read differently. Publish an AI rule with the brief: what candidates may generate, what they must disclose, and what disqualifies them. Score how well AI was used, not whether it was.</div></div></div><h2>The FAQ — 4 question(s)</h2><details class="diff"><summary>How many judges do you need on a hiring hackathon panel? <span class="chip">the editor found this one</span><span class="chip ok">35 words</span></summary><div class="dbody">Enough for two independent reads of every submission, so three to five judges for most events. A bigger panel adds scheduling cost without adding signal. Bring in a third reader only on borderline results [c371].</div></details><details class="diff"><summary>Is a hiring hackathon better than a take-home assignment? <span class="chip">the editor found this one</span><span class="chip ok">40 words</span></summary><div class="dbody">A hackathon shows how someone works and lets you question them live, which a take-home cannot. A take-home costs candidates less time and travel. Use the hackathon when collaboration and judgment under pressure are the skills you are hiring for.</div></details><details class="diff"><summary>Do you have to pay candidates for a hiring hackathon? <span class="chip">the editor found this one</span><span class="chip ok">39 words</span></summary><div class="dbody">Pay when the event runs long or the work has commercial value. A few hours of assessment work is normally unpaid. Anything approaching a full day deserves a stipend, and never ship a candidate&#x27;s build without paying for it.</div></details><details class="diff"><summary>Should you share hackathon judging scores with candidates? <span class="chip">the editor found this one</span><span class="chip ok">36 words</span></summary><div class="dbody">Share the criterion-level feedback, not the leaderboard. The written rationale your judges already recorded turns into usable feedback with almost no extra work. Keep other candidates&#x27; scores private, and say up front what will be shared.</div></details><h2>Questions it dropped</h2><div class="panel"><ul class="kwlist"><li>What is a good inter-rater reliability score for a judging panel? — <span class="q">The article settles it under its own heading, so a search engine will lift that section instead.</span></li><li>Can AI detection tools tell if a hackathon submission was AI-generated? — <span class="q">Answered directly in the section on spotting undisclosed AI use, including the false-flag problem.</span></li><li>How long should a hiring hackathon run? — <span class="q">Event duration sits outside judging and would have padded the list without helping this reader score anything.</span></li></ul></div><h2>The close</h2><p class="note">It sits under its own heading, written in the same call so the two cannot drift: <b>Build the Rubric Before You Book the Venue</b>. The one product link in the whole article lives here.</p><div class="panel"><p>The event is the easy part. Hackathon judging holds up when the rubric, the calibrated panel and the AI rule all exist before submissions open.
+
+Testlify covers the screening either side of that event. Our [3,500+ validated skills assessments](https://testlify.com/) are written by industrial and organizational psychologists, checked for adverse impact, and scored on the same criteria for every candidate. Start with the role your next hackathon is hiring for, and see what we already test before you write a brief.</p><div class="row"><span class="t">links to</span><div>https://testlify.com/</div></div></div><h2>Seam repairs it made — 1 section(s)</h2><details class="diff"><summary>Your Hackathon Is a Work Sample Test, Not a Demo Day <span class="chip">touch-up</span></summary><div class="q">• cut repetition: The intro already states that the classification is why the scoring carries hiring weight.</div><div class="dbody">A hiring hackathon that asks candidates to build features in a realistic environment counts as a work sample test in the industrial and organizational psychology sense [c112]. <del>That classification is the whole reason hackathon judging matters.</del> It sits inside a hiring decision, so how judges score it carries the same legal and practical weight as any other selection test. Work samples produce a standardized mean difference of roughly 0.38 between Black and white test-takers, against roughly 1.0 for cognitive ability tests. So a properly built one carries far lower adverse impact risk (when a hiring step rejects one group at a much higher rate than another) [c14]. That property is conditional. It holds only when you score on predetermined, job-linked criteria, established through structured analysis rather than guesswork [c15]. Work samples also come straight from job tasks, so they meet the content-validity requirements of the Uniform Guidelines on Employee Selection Procedures (1978). That makes a rubric a legal-defensibility argument and not only a fairness one [c16]. <del>### Decide What the Score Is Meant to Settle Define what the score is meant to determine before you write a single criterion [c97]. A hackathon can fund a pilot, surface a promising concept, or identify someone to hire, and the criteria that matter shift with that answer. Skip that step and judging drifts into opinion. Without a defined judging plan, judges apply criteria inconsistently, and a project&#x27;s rating becomes a function of which judge watched it [c3]. Our own topline report with SHRM Labs found 45.8% of HR and talent acquisition practitioners describe their process as inconsistent, with confidence varying by hiring manager or role [c8004]. The gap stays invisible until the debrief, when everyone compares notes and discovers they were each measuring something different. Fix the target now, and treat the resulting number as one input to a hiring decision rather than the decision itself.</del></div></details><h2>Touch-ups code refused</h2><p class="note">The wrapper asked for these and code rejected them, usually for reaching outside the two seams it is allowed to touch.</p><div class="panel"><ul class="kwlist"><li>Decide What the Score Is Meant to Settle — <span class="q">the wrapper named a heading that is not in the article, so it was skipped</span></li></ul></div></div><script></script></body></html>

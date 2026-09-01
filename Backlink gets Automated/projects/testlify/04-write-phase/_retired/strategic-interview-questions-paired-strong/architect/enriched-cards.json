@@ -1,0 +1,497 @@
+{
+  "9001": {
+    "gloss": "Honestify's quoted weak answer to the disagree-with-manager question, plus why it fails",
+    "verbatim": "Honestify's guide page for \"Tell me about a time you disagreed with your manager\" (updated June 2026, 18-minute read, tagged as a hard behavioral question) prints a verbatim weak answer example: \"I am a hard worker and team player. On every project I do my best and communicate well. People like working with me because I am positive.\" Honestify's stated reason it fails: \"It is generic, impossible to verify, and gives no signal on scope, conflict, or trade-offs. Interviewers cannot map it to the hard expectations for this role.\" The same page lists what panels score on this question: ownership and accountability without defensiveness; a clear timeline, scope and the candidate's specific contribution; stakeholder empathy and communication under ambiguity; learning loops and behavior change after setbacks. It also notes interviewers watch calibration, meaning whether the candidate asks clarifying questions and stops when the answer is sufficient. Honestify says the question appears in phone screens, recruiter rounds and hiring-manager behavioral blocks, often opening or closing an onsite loop, with startups weighting breadth and scrappiness while large organizations weight cross-team coordination, compliance and operational maturity.",
+    "source_urls": [
+      "https://honestify.me/questions/disagreed-with-manager"
+    ],
+    "tag": "enriched",
+    "card_id": 9001
+  },
+  "9002": {
+    "gloss": "Honestify's list of the common mistakes that sink an answer to this question",
+    "verbatim": "The Honestify guide to \"Tell me about a time you disagreed with your manager\" (updated June 2026) lists six common mistakes it says interviewers penalise: answering with jargon but no personal ownership or metrics; rambling past the four-minute mark without checking interviewer engagement; blaming teammates, vendors or \"the business\" without describing your own mitigation steps; claiming universal best practices with no trade-off discussion; skipping the result or the learning and stopping at what you did; and failing to tie the answer back to the job's scope. Its prescribed answer shape is a 15 to 20 second headline stating the outcome, then 2 to 3 minutes of STAR with one main thread, then evidence in the form of numbers, timelines or concrete artifacts such as dashboards, RFCs or incidents, then a reflection. Honestify also lists the follow-ups interviewers chain from the main answer, including \"What metrics proved success, or showed you were wrong?\", \"Who disagreed with your approach and how did you handle it?\" and \"What was the hardest trade-off you made?\", and advises answering each in under ninety seconds.",
+    "source_urls": [
+      "https://honestify.me/questions/disagreed-with-manager"
+    ],
+    "tag": "enriched",
+    "card_id": 9002
+  },
+  "9003": {
+    "gloss": "A recruiter's side-by-side weak and strong framing, both quoted, for the disagree-with-manager question",
+    "verbatim": "InterviewPal's guide to \"Tell Me About a Time You Disagreed With Your Manager\" (published 19 January 2026, written by a recruiter called Wilson, 17-minute read) prints a paired weak-versus-strong framing with both answers quoted. The weak framing: \"I knew the direction was wrong, but my manager insisted.\" What Wilson says recruiters hear from it: \"I fight authority, I need to win, and I blame leadership when things go sideways.\" Why it loses points, in Wilson's words: \"It centers ego, not impact. It is vague on stakes. It implies a power struggle. Even if you were right, this framing makes you sound like friction.\" The strong framing: \"I raised concerns about long-term risk and user trust, shared two alternatives, and asked for a quick one-on-one to align. Once the decision was final, I committed to execution and tracked outcomes so we could iterate.\" What recruiters hear from that: \"I can challenge a decision without destabilizing the team. I protect outcomes and relationships.\" Wilson's summary of why it wins: it shows judgment, frames trade-offs, respects incentives, and aligns after the decision.",
+    "source_urls": [
+      "https://www.interviewpal.com/blog/how-to-answer-tell-me-about-a-time-you-disagreed-with-your-manager-in-an-interview"
+    ],
+    "tag": "enriched",
+    "card_id": 9003
+  },
+  "9004": {
+    "gloss": "The four answer patterns a recruiter says quietly disqualify a candidate on this question",
+    "verbatim": "In InterviewPal's January 2026 recruiter guide to the disagree-with-your-manager question, Wilson, who says he has asked it in startups of twelve employees and companies of twelve thousand, names the specific answer patterns that disqualify candidates. Describing your manager as incompetent. Saying \"I knew the direction was wrong.\" Ending the story with you being proven right and leadership eventually realising it, which he says signals \"If your instinct is to win the narrative, I assume you do the same internally.\" Vagueness, specifically \"We just had different working styles,\" which he says usually means the disagreement was either trivial or unresolved. And defensiveness disguised as principle, meaning answers about how the candidate \"stood their ground\" and \"refused to compromise,\" which he says reads as rigidity in a company. His framing of the whole question is that he is not testing bravery: \"I am not trying to see if you are brave. I am trying to see if you are safe to hire,\" and \"Disagreement is not a personality test anymore. It is a performance test.\" He also states the three things strong candidates do unprompted: frame the disagreement around business impact rather than personal preference, acknowledge the manager's reasoning, and show restraint in how they approached the conversation. His summary line: strong candidates \"challenge privately, align publicly, and focus on outcomes.\"",
+    "source_urls": [
+      "https://www.interviewpal.com/blog/how-to-answer-tell-me-about-a-time-you-disagreed-with-your-manager-in-an-interview"
+    ],
+    "tag": "enriched",
+    "card_id": 9004
+  },
+  "9005": {
+    "gloss": "The quoted resolution line a recruiter says won a candidate the offer",
+    "verbatim": "InterviewPal's January 2026 recruiter guide to the disagree-with-manager question makes a point that resolution does not mean the candidate won, and backs it with a quoted answer. The recruiter, Wilson, writes: \"One of the strongest answers I ever heard ended with, 'We went with her decision. It was not the route I would have chosen, but once the call was made, I committed to making it succeed.' That candidate got the offer.\" He also describes the section of the story where most candidates lose discipline, which is jumping from the disagreement straight to the outcome instead of describing how they handled the conversation. The handling details he wants to hear named are whether the candidate scheduled a one-on-one instead of challenging the manager publicly, whether they came with data, whether they asked clarifying questions before making their case, and whether they proposed alternatives instead of just opposing the plan. He calls that middle section the place \"where your maturity lives.\" He also describes a further signal he calls political intelligence: if a candidate escalated immediately to a skip-level leader he wants to know why, and if they pushed back publicly in a group setting he wants to know whether that was strategic or reactive.",
+    "source_urls": [
+      "https://www.interviewpal.com/blog/how-to-answer-tell-me-about-a-time-you-disagreed-with-your-manager-in-an-interview"
+    ],
+    "tag": "enriched",
+    "card_id": 9005
+  },
+  "9006": {
+    "gloss": "A full published 1-to-5 anchored rubric with written descriptions at every level, including 1 and 2",
+    "verbatim": "Sprad's \"Structured Interview Templates for Hiring Managers 2026\" (published 15 August 2026, by Jürgen Ulbrich) publishes a complete anchored 1-to-5 scoring rubric with a written behavioural description at every level, plus the guidance the candidate needed and a scoring caution for each. Level 1 Awareness: \"Vague, low-complexity example, little personal ownership\"; guidance needed: \"Required close, constant guidance\"; caution: \"Do not round up for enthusiasm.\" Level 2 Basic: \"Partially relevant example, handled a simple situation\"; guidance needed: \"Needed frequent guidance\"; caution: \"A polished story is still a 2 if the situation was easy.\" Level 3 Intermediate: \"Relevant example, handled a difficult situation, clear result\"; occasional guidance; caution: \"The honest default for a solid answer.\" Level 4 Advanced: \"Complex example, independent judgment, strong stakeholder handling, measurable result\"; worked largely on their own; caution: \"Requires a concrete, quantified outcome.\" Level 5 Expert: \"Exceptional complexity, coached others, created a reusable improvement, strong measured impact\"; served as a resource to others; caution: \"Reserve for genuinely rare evidence.\" Sprad says the score rests on five signals: how complex the situation was, how independently the candidate acted, how much guidance they needed, how they handled stakeholders, and the impact they can measure. It states explicitly that likability, confidence, an impressive employer on the CV and an undefined sense of culture fit never raise a score, because none is job-related evidence.",
+    "source_urls": [
+      "https://sprad.io/blog/structured-interview-templates-for-hiring-managers-2026-scoring-rubrics-that-cut-bad-hires-by-40"
+    ],
+    "tag": "enriched",
+    "card_id": 9006
+  },
+  "9007": {
+    "gloss": "Sprad's five-competency bank, where conflict handling is scored under leadership and collaboration",
+    "verbatim": "Sprad's structured interview template guide (15 August 2026) publishes a five-competency question bank with a STAR prompt and the evidence signals to score for each. Ownership: \"Tell me about a time you took responsibility for an outcome that wasn't clearly assigned to you,\" scored on initiative, follow-through after a missed deadline, and a process improved without being asked. Collaboration: \"Tell me about a time you had to work with a difficult stakeholder,\" scored on role clarity, listening, trade-off handling and a shared outcome. Problem solving: \"Tell me about a time you diagnosed a complex problem with incomplete information.\" Technical depth: \"Tell me about the most technically complex project you owned.\" Leadership: \"Tell me about a time you led without formal authority,\" scored on direction-setting, accountability, coaching, conflict handling and outcome ownership. So disagreement and conflict handling appear as scored evidence signals inside the leadership and collaboration competencies rather than as a standalone competency. Sprad cites federal hiring guidance recommending a structured interview be built around four to six competencies unless the role is senior or unusual. It also flags the failure mode that breaks comparability: prepared probes that clarify the same evidence are fine, but \"A new question invented mid-interview is not.\" On low-evidence answers it says that when a story stays hypothetical or hides the candidate's own role behind \"we\", that is a low-evidence answer no matter how confident the delivery sounds.",
+    "source_urls": [
+      "https://sprad.io/blog/structured-interview-templates-for-hiring-managers-2026-scoring-rubrics-that-cut-bad-hires-by-40"
+    ],
+    "tag": "enriched",
+    "card_id": 9007
+  },
+  "9008": {
+    "gloss": "Robert Half data on hiring slowdown and admitted hiring mistakes, as cited by Sprad",
+    "verbatim": "Sprad's structured interview guide (published 15 August 2026) cites 2025 reporting on Robert Half data in which 93% of hiring managers said hiring takes longer than it did two years earlier, and 30% admitted to a hiring mistake in the prior two years. Sprad uses this to argue for a repeatable scoring method. The same page describes the surrounding discipline: ask the same role-specific STAR prompts of every candidate, score each answer on an anchored 1 to 5 scale, have interviewers rate independently before anyone speaks, calibrate the scores in a structured debrief, and track how those scores hold up against the new hire's 3-, 6- and 12-month outcomes. It also states that only documented behaviour should be allowed to overturn the arithmetic of the independent scorecards. On adjusting anchors by seniority, it says technical depth for a junior engineer asks whether they can reason through a trade-off they faced, while for a staff engineer it asks whether they set the architecture others build on, and that leadership barely registers for an individual contributor and becomes central for a team lead, while the core prompts stay fixed for everyone in the same role.",
+    "source_urls": [
+      "https://sprad.io/blog/structured-interview-templates-for-hiring-managers-2026-scoring-rubrics-that-cut-bad-hires-by-40"
+    ],
+    "tag": "enriched",
+    "card_id": 9008
+  },
+  "9009": {
+    "gloss": "How often a conflict-resolution question appears in behavioral interviews, and the cost of workplace conflict",
+    "verbatim": "Revarta's 2026 interview guide to \"Describe a time you resolved a conflict\" states that the question \"appears in over 80% of behavioral interviews across all professional levels\" and cites research that workplace conflict costs organisations an average of $359 billion annually in lost productivity, which it uses to argue conflict resolution is among the most valued competencies. The page lists what interviewers assess beyond the story's content, as six named dimensions: ownership versus blame, meaning whether the candidate frames the conflict as a mutual misunderstanding or positions themselves as righteous victim and the other party as unreasonable villain; solution focus, where dwelling on conflict details suggests grudge-holding while focusing on the resolution shows forward thinking; relationship preservation, meaning whether the candidate sees success as \"winning\" or as maintaining a productive working relationship despite disagreement; self-awareness, meaning whether they can acknowledge their own contribution to the conflict; professional boundaries, meaning whether they handled it directly rather than complaining to others, escalating unnecessarily or avoiding it; and learning and growth. Revarta also gives a time allocation for the STAR answer: Situation 20%, Task 10%, Action 50%, Result the remainder, and names the five things the Action section must cover, which are the initial emotional response, steps taken to understand the other perspective, how the candidate expressed their own viewpoint and listened, how they collaborated on a solution, and how they ensured agreement and follow-through.",
+    "source_urls": [
+      "https://www.revarta.com/interview-questions/describe-a-time-you-resolved-a-conflict"
+    ],
+    "tag": "enriched",
+    "card_id": 9009
+  },
+  "9010": {
+    "gloss": "A recruiter template that names professional disagreement under quota pressure as a scored behavioral competency",
+    "verbatim": "FirstHR's Business Development Manager interview template (by Nick Anisimov, FirstHR founder, dated 26 June 2026) publishes six interviewer-side question kits, one of which is \"Behavioral and Leadership,\" described as covering \"Resilience through a missed quarter, ownership of a lost deal, coaching reps, and professional disagreement under quota pressure.\" So disagreement handling is placed inside the behavioral kit rather than being its own competency. The page's four competency clusters for the role are pipeline and closing, strategy and partnerships, resilience and ownership, and influence and fit, with pipeline and live selling carrying the most weight. Each kit is written for the person doing the hiring and includes the questions with what to listen for on each one plus a scoring line, and the template instructs the interviewer to \"Score each answer 1 to 5 using the rubric and note the example the candidate gives.\" The set is tied together with a weighted 1-to-5 scorecard across six competencies, and the stated process rule is that every interviewer fills out the scorecard independently before the debrief \"so the debrief compares evidence, not impressions.\" The page states the behavioral and leadership kit belongs in the second interview, while the pipeline and role-play kits belong in every interview.",
+    "source_urls": [
+      "https://firsthr.app/templates/hiring/business-development-manager-interview-questions"
+    ],
+    "tag": "enriched",
+    "card_id": 9010
+  },
+  "9011": {
+    "gloss": "A finance hiring template listing 'disagrees professionally and commits' as a leadership competency line",
+    "verbatim": "FirstHR's Assistant Controller interview template (by Nick Anisimov, FirstHR founder, dated 26 June 2026) breaks the role into four competency clusters and lists, under Leadership, three scored lines: \"Develops and reviews staff accountants,\" \"Runs the team when the controller is out,\" and \"Disagrees professionally and commits.\" That last line is the disagree-and-commit behaviour written directly into an operations-side hiring rubric. The other clusters are technical depth, controls and integrity, and business partnering, and the page says technical depth and controls integrity are the gates while leadership and business partnering are what separate a good assistant controller from a great one. Its Leadership and Team Management kit is described as covering \"Developing and reviewing staff accountants, running the team when the controller is out, and professional disagreement.\" Each kit instructs the interviewer to \"Score each answer 1 to 5 using the rubric, and note an example the candidate gives in their own words,\" and the six kits are tied together with a weighted 1-to-5 scorecard across six competencies filled in independently by each interviewer before the debrief. The page places the leadership and behavioral kits in a second conversation rather than the core technical round.",
+    "source_urls": [
+      "https://firsthr.app/templates/hiring/assistant-controller-interview-questions"
+    ],
+    "tag": "enriched",
+    "card_id": 9011
+  },
+  "9012": {
+    "gloss": "Metaview on writing weak, solid and strong answer descriptions before anyone interviews",
+    "verbatim": "Metaview's structured interview guide (by Stephanie Bowker, 19 June 2026, 11-minute read) gives a five-step build for a structured loop, and step three is the rubric: \"Write down what a weak, a solid, and a strong answer sounds like for each competency, before anyone interviews. Teams skip this step, and it's the one that makes a score mean something to the person reading it.\" The other steps are defining the four or five competencies the role actually turns on rather than a generic list, writing two or three behavioural questions per competency each asking for a specific past example plus the follow-ups that get past the rehearsed answer, assigning each interviewer one or two competencies to own and go deep on, and having each interviewer score against the rubric while it is fresh, writing down the evidence behind the score. Metaview's framing of what a shared rubric actually buys is unusually blunt: \"A shared standard does not calibrate two people by itself. It gives a disagreement somewhere to happen, which a private scale never does.\" It also states two honest costs and limits. Structure costs time, because interviews that follow a loaded guide run longer than the ones that don't, so the minutes should be budgeted rather than expected to pay for themselves in speed. And adherence cannot be measured: a captured interview lets you read what was asked, but it carries no record of what the guide contained, so the gap between the two cannot be computed.",
+    "source_urls": [
+      "https://www.metaview.ai/resources/blog/structured-interview-guide"
+    ],
+    "tag": "enriched",
+    "card_id": 9012
+  },
+  "9013": {
+    "gloss": "Survey of 505 recruiting leaders on recruiter and hiring-manager alignment before the loop",
+    "verbatim": "Metaview's structured interview guide (19 June 2026) cites Metaview's own 2026 AI & Hiring Alignment Report, a survey of 505 recruiting leaders and hiring managers. Teams whose recruiter and hiring manager relationship was excellent and whose alignment was high reported exceeding their business goals 79% of the time; where the relationship was fair or poor and alignment was low, the figure was 36%. Where AI is core to hiring, 68% of searches started with both sides already aligned on requirements, versus 49% where teams don't use AI. Among the companies that exceeded their hiring goals, 85% use AI in hiring at all. And 67% of teams said they lose qualified candidates to faster-moving competitors every month. Metaview is explicit about the limits of its own numbers: the survey asked about working relationships, alignment on requirements, AI use and losing candidates on speed, but \"never asked whether anyone runs structured interviews,\" so none of it is evidence that structure works. It calls the figures self-reported answers, cross-tabulated, with no causal design behind them, and says the associations may run in either direction or come from something neither question touched.",
+    "source_urls": [
+      "https://www.metaview.ai/resources/blog/structured-interview-guide"
+    ],
+    "tag": "enriched",
+    "card_id": 9013
+  },
+  "9014": {
+    "gloss": "A published stakeholder-pushback framework ending in disagree and commit, from a Netflix interview question guide",
+    "verbatim": "PracHub's guide to the Netflix Data Scientist behavioral question \"Navigate conflicting signals and ambiguous expectations\" (last updated 29 March 2026, categorised as Behavioral & Leadership, difficulty medium, onsite round) publishes a six-step framework for the sub-question \"a PM insists on shipping a product-sense idea you disagree with; how do you push back while preserving the relationship?\" The framework is named Align, Diagnose, Quantify, Test, Decide, Document. Align on goals and risks by asking what outcome is being optimised and what the guardrails are. Diagnose whether the disagreement is about user value, feasibility or risk, surfacing assumptions explicitly. Quantify impact and risk with back-of-the-envelope sizing using ranges. Propose a learning plan such as a staged rollout or A/B test with pre-registered metrics. Run a pre-mortem listing the top three failure modes and mitigations. Then decision etiquette: \"Offer clear options with recommendations, including what you could accept. If overruled, 'disagree and commit' while monitoring guardrails.\" Finally document with a decision doc carrying assumptions, metrics and stop conditions. The page also supplies sample language a candidate can use, including \"I might be missing something, can we anchor on the primary metric and guardrails?\" and \"Given the uncertainty, can we derisk via a 10% ramp with a pre-registered analysis plan?\" Its behavioural prep allocation for an eight-round loop is 5% of preparation time across six to eight STAR stories covering conflict, failure, speed versus quality, influencing without authority, ambiguous projects and hiring or mentoring.",
+    "source_urls": [
+      "https://prachub.com/interview-questions/navigate-conflicting-signals-and-ambiguous-expectations"
+    ],
+    "tag": "enriched",
+    "card_id": 9014
+  },
+  "9015": {
+    "gloss": "The research numbers behind anchored rubrics: structured interviews at .51 validity versus .38, and bias halved",
+    "verbatim": "Pin's structured interviews guide (by Jacob Price, published 27 March 2026, updated 26 May 2026) collects the validity numbers behind anchored scoring. Citing Schmidt and Hunter's meta-analysis, it puts unstructured interviews at .38 predictive validity and structured interviews at .51, and says the structured format improves applicant identification by 34% compared with unstructured conversations. It notes more recent work by Sackett et al., 2023 puts structured interview validity at .42, the top-ranked standalone predictor. On bias it reports the effect shrinking from d=.59 in unstructured interviews to d=.23 in structured ones. On adoption, it cites Talent Board 2024 CandE research that only about two-thirds of employers use structured evaluation. It defines the anchored scoring rubric as one of three defining elements of a structured interview: \"Each response is rated on a predefined scale (typically 1-5) with specific behavioral indicators describing what each score looks like,\" alongside standardised job-related questions and a consistent evaluation process where all interviewers score independently before comparing notes. It also cites the U.S. Office of Personnel Management's Structured Interview Guide for the principle that questions should be developed from job analysis, scored using behavioral anchors, and documented thoroughly enough to withstand legal scrutiny, and Google's re:Work Structured Interviewing Guide for the same pattern across thousands of hires.",
+    "source_urls": [
+      "https://www.pin.com/blog/structured-interviews-guide/"
+    ],
+    "tag": "enriched",
+    "card_id": 9015
+  },
+  "9016": {
+    "gloss": "An executive coaching framing of disagree-in-the-room, commit-when-you-leave, with named research",
+    "verbatim": "Next Levels Coaching's post \"Productive Conflict: Why Strong Leadership Teams Debate Before They Decide\" (by Regina Zafonte, 2 June 2026, third in a four-part Executive Coordination series) sets out four practices that turn disagreement into a usable input rather than a threat, and it is written about leadership teams rather than about interviewing. First, separate ideas from identity, because conflict derails when leaders experience a challenge to their idea as a challenge to their expertise or standing; the post cites Amy Edmondson's research on psychological safety, saying teams with this norm surface concerns earlier and catch more risks. Second, encourage debate before commitment, which it attributes to Patrick Lencioni as \"mining for conflict,\" actively inviting differing viewpoints so issues surface during discussion rather than afterward. It gives the Intel example where executives debated exiting the memory chip business to focus on microprocessors, with CEO Andy Grove later reflecting the debates were uncomfortable but necessary. Third, focus conflict on organisational outcomes rather than people, citing Roger Martin's integrative thinking. Fourth, commit fully once the debate ends: \"Continued disagreement after the decision, expressed in team meetings, hallway conversations, or through passive non-compliance, fractures execution at every level below,\" citing John Kotter's research that executive alignment is one of the strongest predictors of whether strategy lands. The post's summary line is \"Disagree in the room. Commit when you leave it,\" and it opens with the claim that \"Leadership teams that never disagree are not aligned, they're avoiding.\" The quote it closes on is Lencioni's: \"The absence of conflict is not harmony, it's apathy.\"",
+    "source_urls": [
+      "https://www.nextlevelscoaching.com/blog/tag/Leadership"
+    ],
+    "tag": "enriched",
+    "card_id": 9016
+  },
+  "9017": {
+    "gloss": "SmartBear 2026 survey: 70% of software experts say app quality has already degraded as AI speeds up development, and 60% hit quality issues in the past year because development outpaced testing",
+    "verbatim": "SmartBear announced results of a survey on 18 March 2026, covering 273 respondents made up of CTOs, CIOs, software developers and quality assurance directors, with almost three quarters at director level or above, mostly at midsize to enterprise software and SaaS companies (nearly 7 of 10 at companies with more than $50 million in revenue). Findings: 70% say application quality has already degraded as AI accelerates development; 60% already experienced quality issues in the past year because application development outpaced testing; 67% worry about quality decline in the next 12 months as AI produces applications faster. On testing capacity: 68% are worried faster AI development will create testing bottlenecks; almost 60% of teams do more than 40% of their application testing manually; 87% have partially or fully automated more than 20% of testing, yet 92% still test manually. On leadership blind spots: 65% are concerned about under-investment in application-level testing versus code-based testing, and 65% worry that decision-makers do not recognise the risks of faster AI development without equivalent improvements in testing. On AI code volume: 93% have adopted AI coding tools, 40% use it to generate more than 40% of their code, and 60% expect that to be true within 12 months. SmartBear CEO Dan Faulkner is quoted saying the speed of AI-driven development 'is outpacing the ability of teams to test the resulting applications', and that 'it only takes one failure that can tank a customer experience and destroy brand good will.'",
+    "source_urls": [
+      "https://smartbear.com/news/news-releases/smartbear-survey-70-of-software-experts-concerned/"
+    ],
+    "tag": "enriched",
+    "card_id": 9017
+  },
+  "9018": {
+    "gloss": "SocialTalent's 2026 technical-skill question bank includes a direct behavioural question about shipping something you knew was not good enough, with four scripted follow-ups",
+    "verbatim": "SocialTalent's page '25 Interview Questions to Assess Technical Skill in Candidates' (by Johnny Campbell, published 31 July 2026, last updated 5 August 2026) covers 25 behavioural interview questions across four capability areas: Depth of Craft, Debugging and Diagnosis, Judgement About Tools and Trade-offs, and Keeping Skills Current. The page states all questions are behavioural and that none require the interviewer to be technical enough to grade a right answer; they require the interviewer to notice whether the story has real texture in it. Under Depth of Craft it lists this question, which maps directly to the ship-before-ready scenario: 'Describe something you shipped that you knew was not good enough.' Its four scripted probes are: What was wrong with it, specifically, at the point you shipped it? What made you ship it anyway rather than hold it back? What happened after it shipped — did the flaw ever surface, and how? Did you go back and fix it, and if not, why not? The page's stated 'what good looks like' anchor for this area: a candidate with real depth gets more specific the further you push, not less; they can walk through something they personally built or fixed, name the exact decisions and constraints involved, and point to a part of it they would do differently today; they talk about what they typed, drew or configured with their own hands, not what the team or the platform achieved around them.",
+    "source_urls": [
+      "https://www.socialtalent.com/best-interview-questions/competency-technical-skill"
+    ],
+    "tag": "enriched",
+    "card_id": 9018
+  },
+  "9019": {
+    "gloss": "SocialTalent gives a workaround-versus-rebuild situational scenario with a manager-pressure twist and three explicit listening anchors, including treating 'nobody's noticed' as a danger signal",
+    "verbatim": "SocialTalent's 2026 technical-skill question bank (by Johnny Campbell, published 31 July 2026, last updated 5 August 2026) includes a written situational scenario under Depth of Craft that sets up a readiness-versus-pressure decision. The scenario as published: you are three weeks into fixing a recurring problem inside something substantial you built two years ago; the person who could explain the original reasoning behind a key decision has since left; you have a workaround that would hide the symptom within a day, and a proper fix that means rebuilding part of it, with no guarantee you will fully reconstruct the original thinking before you do. The candidate is asked to walk through how they decide between the workaround and the rebuild. The interviewer then introduces a constraint mid-answer: 'Your manager tells you the workaround is fine for now because nobody else has noticed the problem yet. Does that change your decision?' The page gives three explicit 'what to listen for' anchors: whether they treat 'nobody's noticed' as a reason to stop or a reason the problem is more dangerous; whether they describe a concrete way to reconstruct the missing context rather than guessing; and whether they can articulate what they would be trading away by choosing the workaround. The page also argues the CV is structurally incapable of showing depth of craft, and names three ways interviewers assess it badly: tool-matching (the spec says Looker, the CV says Looker, tick), testing recall rather than judgement, and handing the assessment to the most technical person in the room to freestyle, which produces a strong conviction nobody else in the process can interrogate or compare.",
+    "source_urls": [
+      "https://www.socialtalent.com/best-interview-questions/competency-technical-skill"
+    ],
+    "tag": "enriched",
+    "card_id": 9019
+  },
+  "9020": {
+    "gloss": "PMaps publishes a 'describe a time you pushed back on a risky release' question with a full model strong answer and named evaluation criteria",
+    "verbatim": "PMaps' article 'Software Developer Interview Questions and Answers' (author Pratisrutee Mishra, 10 September 2025) publishes situational and behavioural questions each paired with what the question assesses, what to look for, and a written sample answer. Question 7 is the readiness-objection question: 'Describe a time you pushed back on a risky release.' What it assesses: risk judgment and communication. What to look for: evidence, phased rollout, and diplomacy — a safer plan with clear metrics. Its published sample answer: 'Load tests showed latency cliffs on older regions. I proposed a staged rollout at 5% with alerts on p95 and error rate. We found a thread pool limit, fixed it, and raised traffic safely the next day.' A neighbouring question, number 6, covers the aftermath side: 'Tell me about a production incident you led to resolution,' assessing incident response and root cause depth, looking for triage steps, stakeholder updates, rollback or patch, and learning steps that stuck. Its sample answer: 'Our checkout spiked errors after a config change. I paused rollout, switched traffic, and traced failures to a stale key. We patched, added a preflight check, and wrote a playbook. Error rate returned to baseline within thirty minutes.'",
+    "source_urls": [
+      "https://www.pmapstest.com/blog/software-developer-interview-questions"
+    ],
+    "tag": "enriched",
+    "card_id": 9020
+  },
+  "9021": {
+    "gloss": "PMaps also scripts a pre-freeze contract-change scenario and a latency-budget scenario, each with a model answer showing flags, canaries and staged relief",
+    "verbatim": "PMaps' 'Software Developer Interview Questions and Answers' (Pratisrutee Mishra, 10 September 2025) frames its situational section as testing judgment when requirements change or constraints collide, saying strong candidates communicate risks early, propose phased paths, and protect user experience. Question 11: 'The API contract changes a day before code freeze. What now?' It assesses resilience and release safety; what to look for is version pinning, adapters, feature flags, and contract tests. Sample answer: 'I pin the old version, add an adapter for new fields, and ship behind a flag. I write a contract test for both schemas. We flip the flag after a small canary proves stability.' Question 12: 'Your service hits a latency budget during a sale. Next steps?' It assesses performance triage and pragmatic fixes; what to look for is back-pressure, caching, and short-term relief before a deep refactor. Sample answer: 'I enable circuit breakers, raise caches on hot keys, and drop non-critical work to queues. I capture profiles, then ship a targeted fix. We plan the larger refactor after traffic cools.' The same page also publishes question 10 on conflicting asks from product and security, assessing negotiation and user trust, with the sample answer: 'Security wanted strict tokens; product feared friction. I added short-lived tokens with refresh, kept sessions smooth, and logged risk signals. We met both goals and saw no drop in conversion.' The article's own framing line: software developer interview questions 'separate coders from engineers who ship reliable value,' and strong hires 'design clean code, explain trade-offs, and stand behind production outcomes.'",
+    "source_urls": [
+      "https://www.pmapstest.com/blog/software-developer-interview-questions"
+    ],
+    "tag": "enriched",
+    "card_id": 9021
+  },
+  "9022": {
+    "gloss": "Stack Overflow's 2025 survey of 49,000+ developers: 66% are frustrated by AI output that is 'almost right, but not quite', and more developers distrust AI accuracy (46%) than trust it (33%)",
+    "verbatim": "The 2025 Stack Overflow Developer Survey, its fifteenth year, drew over 49,000 responses from 177 countries across 62 questions covering 314 technologies. On the reliability of what is being produced: 66% of developers named 'AI solutions that are almost right, but not quite' as their biggest single frustration, and 45.2% named 'Debugging AI-generated code is more time-consuming' as the second-biggest. On trust: 46% of developers actively distrust the accuracy of AI tools (26.1% somewhat distrust, 19.6% highly distrust) versus 33% who trust it (29.6% somewhat trust, 3.1% highly trust). The survey notes experienced developers are the most cautious, with the lowest 'highly trust' rate (2.6%) and the highest 'highly distrust' rate (20%), 'indicating a widespread need for human verification for those in roles with accountability.' Adoption is nonetheless high: 84% of respondents are using or planning to use AI tools in their development process, up from 76% last year, with 51% of professional developers using AI tools daily. Positive sentiment fell, from over 70% in 2023 and 2024 to 60% in 2025. On job satisfaction: 28.4% are not happy at work, 47.1% are complacent, and 24.5% are happy (up from 20% last year).",
+    "source_urls": [
+      "https://survey.stackoverflow.co/2025/"
+    ],
+    "tag": "enriched",
+    "card_id": 9022
+  },
+  "9023": {
+    "gloss": "Stack Overflow's blog on the 2025 survey: 66% say they spend more time fixing 'almost-right' AI code, and trust in AI accuracy fell from 40% to 29%",
+    "verbatim": "Stack Overflow's own write-up of the 2025 Developer Survey (published 29 December 2025 as a re-run of a top post of the year, based on 49,000+ developer responses) reports that AI tool adoption climbed to 80% of developers using them in their workflows, while trust in the accuracy of AI fell from 40% in previous years to 29% this year, and positive favorability dropped from 72% to 60% year over year. The number-one frustration, cited by 45% of respondents, is dealing with 'AI solutions that are almost right, but not quite,' which often makes debugging more time-consuming; 66% of developers say they are spending more time fixing 'almost-right' AI-generated code. When stakes are high, developers escalate to people: 75% said they would still ask another person for help when they don't trust AI's answer. On unproven workflows: nearly 72% said 'vibe coding' (generating entire applications from prompts) is not part of their professional work, with an additional 5% saying they emphatically do not participate in it, and while 52% say agents have affected how they complete their work, the primary benefit reported is personal productivity (69% agree they've seen an increase). On workforce mood, 46% of developers are 'not looking' for a new job, and a combined 75% of those in a role describe themselves as 'complacent' or 'not happy at work'; top drivers of satisfaction are 'autonomy and trust,' 'competitive pay,' and 'solving real-world problems.'",
+    "source_urls": [
+      "https://stackoverflow.blog/2025/12/29/developers-remain-willing-but-reluctant-to-use-ai-the-2025-developer-survey-results-are-here/"
+    ],
+    "tag": "enriched",
+    "card_id": 9023
+  },
+  "9024": {
+    "gloss": "ShiftMag's read of the 2024 Stack Overflow survey (65,000+ developers, 185 countries): technical debt is the number one cause of developer frustration, and 45% of professional developers say AI tools are poor to very bad at complex tasks",
+    "verbatim": "ShiftMag's 31 July 2024 article on the annual Stack Overflow Developer Survey reports on responses from more than 65,000 developers in 185 countries. It names technical debt as 'the number one cause of developer frustration,' saying working with imperfect systems demoralises programmers and makes it difficult to do quality work. It describes deadline pressure as often extreme in the IT industry, with developers under pressure to complete tasks as fast as possible, leading to unrealistic expectations and burnout. On AI reliability at the hard end of the work, nearly half (45%) of professional developers believe AI tools are poor to very bad at solving complex tasks; developers mostly use AI tools to write code (82%), while those interested but not yet using them are most curious about code testing (46%) — the article's reading is that experienced developers hand the initial code-writing phase to AI but understand testing is a complex process best left to traditional methods. Trust was split: 43% consider AI tools reliable while 31% are skeptical, and those learning to code are more confident in AI accuracy than more experienced developers (49% vs 42%). On workplace satisfaction it reports 80% of professional programmers are unhappy, with one in three actively hating their job and almost half in 'survival mode', leaving only 20% who claim to be somewhat happy. AI favourability was 72%, down from 77% the prior year, while 76% use or plan to use AI tools, up from 70%.",
+    "source_urls": [
+      "https://shiftmag.dev/unhappy-developers-stack-overflow-survey-3896/"
+    ],
+    "tag": "enriched",
+    "card_id": 9024
+  },
+  "9025": {
+    "gloss": "Ex-Amazon Bar Raiser publishes a 'ship it anyway' mock-interview scenario built on a real Prime Day 2019 pricing error that cost Amazon tens of millions",
+    "verbatim": "In a LinkedIn post, Nick Dimitrov (who describes himself as a former Amazon Bar Raiser who has interviewed hundreds of candidates, and founder of Amazon Bound / Score My Interview, ex-Microsoft) walks through a three-part mini mock interview. Part 1 is a functional scenario framed as 'Ship it anyway': on Prime Day 2019, a deep pricing error sold out high-end photography gear in minutes, costing Amazon tens of millions, and Amazon still chose to ship. The scenario put to the candidate is: what would you do — cancel the shipment, or ship and eat the loss? Dimitrov's stated evaluation frame is that when asked about a tough call, the interviewer is checking whether the candidate did what was right for the customer even if it meant a short-term loss; answers 'can't just sound good', they 'must reveal the instincts Amazon screens for.' He argues most Amazon candidates spend 90% of their prep rehearsing STAR stories and still don't get in because they miss Customer Obsession, which he calls the first filter Amazon uses. A separate post on the same page from Kamalesh Krishnakumar, who says he has taken 100+ interviews as a Bar Raiser at Amazon, lists the weak-answer signals to avoid: taking credit for team outcomes without clarity on your own role, giving generic examples such as 'we improved performance' without numbers or depth, and blaming others or external factors for failures instead of owning the lesson. His strong-answer signals include using 'I' not 'we' when describing what you specifically did, and knowing your metrics, data and root causes, since vague answers are a red flag.",
+    "source_urls": [
+      "https://www.linkedin.com/posts/thesupercreator_i-cracked-amazon-in-2022-and-the-bar-raiser-activity-7378459278900256768-X3pJ"
+    ],
+    "tag": "enriched",
+    "card_id": 9025
+  },
+  "9026": {
+    "gloss": "Big Interview (Dec 2024) lists the four things interviewers are actually scoring when they ask about a failure",
+    "verbatim": "Big Interview, in a behavioral-interview guide titled \"'Tell Me About a Time You Failed': How to Answer + Examples\" published on December 29, 2024, sets out four reasons interviewers ask \"Tell me about a time you failed\" or \"What is your biggest failure?\" — each functioning as a scoring lens. First, to assess self-awareness: the guide notes that some people cannot understand that they made a mistake and accept responsibility, so the question tests whether the candidate can reflect on their actions and accept consequences. Second, to check they learn from mistakes: the interviewer wants to know how past failures contributed to professional growth, and whether the candidate got discouraged and quit or got inspired and learned. Third, to gauge willingness to take risks and overcome challenges: the answer is meant to reveal problem-solving skills, how the candidate approaches difficult situations, how they make risky decisions and how they handle the consequences. Fourth, to determine cultural fit: talking about failure is said to display accountability, growth mindset, flexibility and collaboration, which many companies hold as key values.",
+    "source_urls": [
+      "https://www.biginterview.com/resources/biggest-failure-question"
+    ],
+    "tag": "enriched",
+    "card_id": 9026
+  },
+  "9027": {
+    "gloss": "Big Interview's five-part rule for a strong failure answer, plus the specific lessons that count as concrete",
+    "verbatim": "Big Interview's December 29, 2024 guide gives a five-part recipe for answering \"Tell me about a time you failed\": be honest and address a real failure; describe what led to the failure and what the consequences were; take responsibility, but stay positive; focus on what you learned from it; and use the STAR framework to structure the answer. It warns candidates not to invent a failure — a made-up one \"will sound cliché\" and recruiters \"will sense it from a mile away\" — and to pick a significant failure relevant to the industry and role, ideally one showing growth in a skill important for the job. It also separates generic learning claims from specific ones, giving three worked examples of the specific kind: a major miscommunication teaching assertive communication at regular intervals with everyone on the project; a project that ran late because people were on vacation teaching the candidate to plan tasks only after confirming each team member's availability and capacity; and ignoring customer feedback teaching that disregarding people's opinions damages both business decisions and interpersonal relationships. The guide separately notes that workplace mistakes come in three types, naming \"preventable\" (a mistake inside a strictly defined process or routine, usually from lack of attention or incompetence) and \"complexity-related\" (mistakes inside a complex system arising from uncertainty).",
+    "source_urls": [
+      "https://www.biginterview.com/resources/biggest-failure-question"
+    ],
+    "tag": "enriched",
+    "card_id": 9027
+  },
+  "9028": {
+    "gloss": "Big Interview flags research suggesting people learn more from successes and from others' failures than from their own mistakes",
+    "verbatim": "In its December 29, 2024 guide to the \"tell me about a time you failed\" question, Big Interview inserts a caveat against the standard \"failure teaches you\" premise: it states that some studies indicate we might not always be learning from our mistakes, that the results are similar across many other studies, and that it can be argued people tend to learn more from their successes or from other people's failures. The guide uses this to tell candidates not to feel discouraged if they do not think they learned enough from their own failures. No study names, sample sizes or effect sizes are given in the article.",
+    "source_urls": [
+      "https://www.biginterview.com/resources/biggest-failure-question"
+    ],
+    "tag": "enriched",
+    "card_id": 9028
+  },
+  "9029": {
+    "gloss": "Bill Carr spells out what separates a strong from a weak answer on Amazon's mistake-and-error behavioral questions",
+    "verbatim": "In a LinkedIn post on behavioral interviewing (the page shows it as 11 months old and prints no publication year), Bill Carr — who links readers to the Working Backwards \"Bar Raiser Hiring Mastery\" course — describes how Amazon and other companies use behavioral questions to predict performance, on the grounds that they uncover how a candidate has acted in real situations rather than relying on hypothetical responses. He lists four things the interviewer is evaluating, one of which is explicitly about failure: \"How did they react to their and others' mistakes?\" (the other three being how they handled a new challenge, how they handled leadership asking them to change direction rapidly, and how they influenced team, peers and leadership on a critical strategic decision). For the Amazon Leadership Principle \"Dive Deep\", he gives the matching question — \"Tell me about a time when there was a product or service where there was an operational error. How did you go about resolving the issue?\" — and then defines the bar: \"A strong answer will explain how they recruited others to engage from inside and outside their organization, demonstrate their analytical and methodical approach to gathering data, and show how they made decisions.\" He frames the whole format as \"a probe for depth\", with each question required to reveal a past action in detail.",
+    "source_urls": [
+      "https://www.linkedin.com/posts/bill-carr_behavioral-interviews-help-predict-performance-activity-7374161478347599872-FZkY"
+    ],
+    "tag": "enriched",
+    "card_id": 9029
+  },
+  "9030": {
+    "gloss": "The five follow-up probes Bill Carr uses to test whether a candidate really owned the error they described",
+    "verbatim": "In the comments on his own LinkedIn post about behavioral interviewing, Bill Carr publishes the follow-up questions an interviewer should ask after a candidate describes handling an operational error: \"How did you go about understanding the root cause of the issue?\", \"What kinds of data did you use and how did you analyze it?\", \"How did you work with your team or other teams to diagnose it?\", \"How did you document the issue once understood?\" and \"How did you communicate the issue upward, downward and laterally?\" His stated point is that experienced behavioral interviewers find these probes yield insight not only into management and leadership behaviour but also into functional skills, domain expertise and thought process. He adds a limit: some technical roles, particularly software engineering, may need rounds of non-behavioral interviews to assess functional skills at proper depth, and those rounds should be in addition to behavioral interviews, not instead of them. The post also draws a comment from Dan Simpkins, who says they have run behavioral interviews for decades, wrote a training class for their team, first learned the method at HP and later from a program called Quest (Quality through Effective Selection Techniques), and used it to build teams at SALIX, Hillcrest Labs and Dwellwell Analytics.",
+    "source_urls": [
+      "https://www.linkedin.com/posts/bill-carr_behavioral-interviews-help-predict-performance-activity-7374161478347599872-FZkY"
+    ],
+    "tag": "enriched",
+    "card_id": 9030
+  },
+  "9031": {
+    "gloss": "Day One Careers: ownership questions scale by level, with entry-level candidates judged on personal ownership and execution",
+    "verbatim": "In a post appearing on the same LinkedIn page as Bill Carr's behavioral-interviewing post (shown as 10 months old, with no printed publication year), the training company Day One Careers — which states it is not affiliated with, endorsed by or sponsored by Amazon — describes how Amazon's behavioral interview is structured around its 16 Leadership Principles, with the STAR method (Situation, Task, Action, Result) as the expected answer format regardless of role or level. It says the emphasis shifts by role type: technical roles skew towards problem-solving, ownership, and decisions in high-stakes situations, while non-technical roles focus on leadership, stakeholder management and delivering results, with behavioral weight heavier on non-tech roles. It also says the depth and scope of questions scale with seniority: entry-level candidates should focus on personal ownership and execution, while leaders should prepare for broader questions on cross-team mentorship and strategic vision. Bar Raisers are described as evaluators who check the candidate is not only a fit for the current team but raises the bar for future hires, and who scrutinise evidence of consistent excellence more closely the more senior the role.",
+    "source_urls": [
+      "https://www.linkedin.com/posts/bill-carr_behavioral-interviews-help-predict-performance-activity-7374161478347599872-FZkY"
+    ],
+    "tag": "enriched",
+    "card_id": 9031
+  },
+  "9032": {
+    "gloss": "A real candidate answer that names its own bad decision outright: the bank-charges trade that cost the client its own saving",
+    "verbatim": "PrepLounge, a consulting interview-prep community, hosts a public thread on \"Tell me about a time you failed!\" (question posted September 18, 2019) where candidates post their actual answers. One answer, from a user named Bianca posted March 28, 2020, is a full worked example of an owned bad decision. Under time pressure she had to execute a trade for a client and chose between negotiating the bank's charges lower or accepting them and trading immediately at favourable market levels. Believing from experience that the bank could go lower, she spent a few hours negotiating with two banks at once; she did get lower charges, but the market moved against the client in the meantime and \"the win from the lower charges was all but wiped out by higher market levels.\" She states the outcome honestly — net, the client still benefited from a slightly lower negotiated price, but \"the client wasn't happy\" — diagnoses the cause as a lack of proper communication between client and bank while the process ran, and names it plainly: \"This was my failure.\" Her stated change of behaviour is specific and testable: going forward she would always give the client a heads-up on market levels and the bank's price at that moment, regardless of an instruction to proceed ASAP.",
+    "source_urls": [
+      "https://www.preplounge.com/consulting-forum/tell-me-about-a-time-you-failed-4833"
+    ],
+    "tag": "enriched",
+    "card_id": 9032
+  },
+  "9033": {
+    "gloss": "Two real answers on the same thread that show the weak pattern: a labelled STAR shell and a group-blame story",
+    "verbatim": "The same public PrepLounge thread on \"Tell me about a time you failed!\" also carries answers that illustrate the weak end. One, from a user named Laura posted October 9, 2025, is written as four labelled STAR lines and runs to roughly fifty words in total: S — a swim team in Boston doing relays; T — each member assigned a stroke, swimming back and forth, aiming to be the winning team; A — when it was her turn she dropped the baton and had to \"deep dive improvising to grab it\"; R — although they were already behind, she gave it all and cheered for the next member. It carries no work context, no consequence for anyone else, and no stated lesson. Another, from a user named Khadija posted July 14, 2025, is a long academic-project story about a group that picked a rural Moroccan tourism association, planned to build it an Instagram presence, then collapsed when most of the group refused to travel to the area during Ramadan; the association stopped replying and they restarted with a different one for far less impact. The accountability in it is diffuse and group-directed — \"Many issues were within the group, less contact, we didn't discuss much before taking a decision\" — with the failure attributed to the group falling off rather than to a decision the speaker made. A third, from an anonymous user edited February 1, 2026, describes failing the final exam of a master's degree, then studying on public transport while working two jobs and passing at the next intake, with the lesson given as \"consistency was the key to my result.\"",
+    "source_urls": [
+      "https://www.preplounge.com/consulting-forum/tell-me-about-a-time-you-failed-4833"
+    ],
+    "tag": "enriched",
+    "card_id": 9033
+  },
+  "9034": {
+    "gloss": "An ex-McKinsey interviewer on why failure answers score well at MBB firms, and the two lessons that land",
+    "verbatim": "The top-rated answer in PrepLounge's public thread on \"Tell me about a time you failed!\" (thread opened September 18, 2019) comes from a coach identified on the page as \"McKinsey / ex-Interviewer at McKinsey\" and states how the firms read the question. The claim: \"failure experience is regarded very positively by MBB: if you failed, you took risks, i.e. you have proven your entrepreneurial nature\", so candidates should not be afraid to talk honestly about times they failed. The scoring weight, per the coach, sits on what was learned, and the lesson has to be converted into something valuable for consulting work. Two concrete examples of a lesson that lands are given: trying to do everything yourself and coming out of the failure understanding the importance of teamwork, and trying to do everything perfectly and coming out understanding the need for trade-offs and compromise to get results — summarised as 80/20 or \"better done than perfect\". The instruction is to be honest and talk about the failure, but to close with lessons learned that give the story an overall positive twist.",
+    "source_urls": [
+      "https://www.preplounge.com/consulting-forum/tell-me-about-a-time-you-failed-4833"
+    ],
+    "tag": "enriched",
+    "card_id": 9034
+  },
+  "9035": {
+    "gloss": "Peer-reviewed validity figures for structured situational interviews, and evidence that reading the situation right is what predicts performance",
+    "verbatim": "A study by Janneke K. Oostrom, Klaus G. Melchers, Pia V. Ingold and Martin Kleinmann, published in the Journal of Business Psychology (published online June 9, 2015; issue dated 2016), tested why structured situational interviews predict work performance. The paper reports that several meta-analyses found mean corrected validities of between 0.41 and 0.47 for situational interviews, making them one of the most criterion-valid interview techniques, and notes the employment interview remains the most frequently used predictor in personnel selection. The authors ran 101 students through a two-day selection simulation to test two competing explanations for that validity: that the interview measures a candidate's behavioral intentions, or that it measures their ability to correctly decipher what a situation demands (labelled \"ability to identify criteria\"). The first explanation got only moderate support — there was considerable similarity between what participants said they would do and what they actually did in matching work situations, but the mechanism the theory proposed was not supported by the data. The second was fully supported: participants' ability to correctly read situational demands was related to performance both in the interview and in the work-related exercises, and it partially explained the link between interview performance and performance on the job-like tasks. The authors' implication is that assessing whether candidates can identify what an interview question is really testing adds value to selection decisions, especially for jobs where reading situational demands matters.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4856718/"
+    ],
+    "tag": "enriched",
+    "card_id": 9035
+  },
+  "9036": {
+    "gloss": "Median 90-day new hire turnover is 3.4%, with 5.5% at the 75th percentile",
+    "verbatim": "HRBench, a people-analytics benchmarking vendor, published a metric page on 90-day new hire turnover on 30 April 2026. It defines the metric as the share of employees who leave (voluntarily or involuntarily) within their first 90 calendar days, calculated as (departures within 90 days of start date / average headcount) x 100, where average headcount is the count of active employees at the start and end of the period divided by two. Its benchmark figures: the national median 90-day new hire turnover rate is 3.4%, the 25th percentile is 1.7%, and the 75th percentile is 5.5%. HRBench says organisations above the 75th percentile are losing enough early-tenure employees to warrant immediate investigation of the recruiting-to-retention pipeline. It also gives 21.5% as the national median for overall turnover. A caution HRBench states directly: some organisations instead divide 90-day departures by total new hires, which answers a different question ('what share of our new-hire cohort failed?'), so the two versions are not comparable and one should be applied consistently.",
+    "source_urls": [
+      "https://www.hrbench.com/resource/learn/90-day-new-hire-turnover"
+    ],
+    "tag": "enriched",
+    "card_id": 9036
+  },
+  "9037": {
+    "gloss": "The three windows inside the first 90 days each fail for a different reason",
+    "verbatim": "The same HRBench metric page (30 April 2026) breaks the first 90 days into three failure modes. Departures in the first 30 days are, in its words, 'almost always driven by job fit and first-week experience'. Between days 30 and 60, manager relationships and training quality take over as the deciding factor. The 60-to-90-day window is where cultural alignment, peer dynamics and career-path clarity decide whether someone stays. Tracking the full 90-day rate captures all three in one number. HRBench also quotes Chipotle's former Chief People Officer describing the 90-day mark as a 'magic window': a new hire who makes it past day 90 is likely to stay at least a year, and someone who leaves before it signals that something broke early enough that no retention programme would have saved them. HRBench's worked example (a 1,400-employee construction firm) makes a second point: an aggregate rate of 2.3% looked healthy, but segmenting showed new expansion sites running at 5.7% versus 1.4% in legacy sites, and three recently promoted superintendents accounting for 14 of 20 departures.",
+    "source_urls": [
+      "https://www.hrbench.com/resource/learn/90-day-new-hire-turnover"
+    ],
+    "tag": "enriched",
+    "card_id": 9037
+  },
+  "9038": {
+    "gloss": "20% of turnover happens in the first 45 days; 33% of new hires leave within 90 days",
+    "verbatim": "FirstHR's compilation '50+ Employee Onboarding Statistics for Small Business' (published 10 February 2026, written by founder Nick Anisimov) gathers early-tenure turnover figures with each original source named. The ones on the early exit window: 20% of all turnover occurs within the first 45 days (credited to SHRM); 33% of new hires leave within the first 90 days (credited to Jobvite); 33% of new hires start looking for another job within their first six months (Jobvite); 23% leave within the first year (Allied Workforce Mobility); 4% of new hires quit after a disastrous first day (Recruiting Roundtable); and for hourly workers specifically, 22% of turnover happens in the first 45 days (Allied). On the other side, employees who experience great onboarding are 69% more likely to stay at least three years (SHRM), and strong onboarding improves new-hire retention by 82% and productivity by over 70% (Brandon Hall Group). On what new hires say they need: 67% want clear expectations for their role from day one, 72% say one-on-one time with their manager is essential, 56% prioritise building relationships with coworkers, 54% want to understand company culture and values, and 51% want to feel welcomed immediately. Note this is a secondary compilation, not original research; the figures are as FirstHR reports them from those named publishers.",
+    "source_urls": [
+      "https://firsthr.app/blog/onboarding/onboarding-statistics"
+    ],
+    "tag": "enriched",
+    "card_id": 9038
+  },
+  "9039": {
+    "gloss": "40% of first-year quits happen inside the first 90 days",
+    "verbatim": "HIGH5's US onboarding statistics report (12 August 2025) compiles early-exit rates with each original source named. Its headline figures: roughly 33% of new hires, one in three, leave within the first 90 days (credited to Enboarder); and 38% of employees quit within their first year, with 40% of those departures occurring in the first 90 days (credited to Work Institute). The report opens by stating that in the US, nearly 30% of new hires depart within their first 90 days while companies typically spend $4,700 per hire on recruitment and onboarding. It also cites Gallup for the finding that approximately 42% of voluntary turnover is assessed as preventable with better onboarding or manager support, and SHRM for the point that only 15% of employers continue onboarding beyond six months even though up to 90% of retention decisions are made within that window. This is a secondary compilation; the figures are as HIGH5 reports them from those named publishers.",
+    "source_urls": [
+      "https://high5test.com/employee-onboarding-statistics-and-trends/"
+    ],
+    "tag": "enriched",
+    "card_id": 9039
+  },
+  "9040": {
+    "gloss": "70% of new hires know within a month whether the job is a fit; 29% decide in week one",
+    "verbatim": "The same HIGH5 US onboarding report (12 August 2025) carries BambooHR findings on how fast new hires make up their minds. 70% of new hires know whether a job is a good fit within the first month, and 29% decide within the first week. 44% of hires regret starting the job within their first week, and BambooHR identifies the first 44 days as the critical window in which an employer can still influence whether they stay. Related figures in the same report: only 29% of new employees said they felt fully ready and supported on their first day (SHRM), and only 12% of US employees said their company did a 'great' onboarding job in 2023 (SHRM), though those 12% are nearly three times more likely to say they hold the best possible job for them. These are as HIGH5 reports them from BambooHR, SHRM and Gallup; the page is a compilation, not original research.",
+    "source_urls": [
+      "https://high5test.com/employee-onboarding-statistics-and-trends/"
+    ],
+    "tag": "enriched",
+    "card_id": 9040
+  },
+  "9041": {
+    "gloss": "At Parkview Health, unmet job expectations, not pay, was the number one reason first-year nurses quit",
+    "verbatim": "Work Institute's first-year turnover page states that over one-third of newly hired employees quit within their first year, and that the time to get a new employee productive ranges from as little as eight months to two years, so early leavers generate no return on recruiting, hiring, onboarding and training spend. Its named case study is Parkview Health, where one in every three nurses hired left within the first year. Work Institute ran exit interviews with the nurses who left in year one, and the key findings were: pay was not the number one reason nurses left; expectations for the job was the number one reason for leaving; the onboarding process needed improvement; and leadership behaviours had to change. After acting on those findings, Parkview recorded a 33% increase in 'Excellent' ratings for onboarding, a 36% decrease in 'Poor' ratings for onboarding, and an overall 36% decrease in first-year nursing turnover. Work Institute also lists the common reasons new hires leave within year one as unclear job expectations, insufficient onboarding, lack of support from leadership, and mismatched role fit, and notes that replacing a single employee can cost up to twice their annual salary. The page advertises a 2026 Retention Report as newly available.",
+    "source_urls": [
+      "https://workinstitute.com/first-year-turnover/"
+    ],
+    "tag": "enriched",
+    "card_id": 9041
+  },
+  "9042": {
+    "gloss": "22% of new hires leave within 90 days, and 75% of all voluntary exits were preventable",
+    "verbatim": "Pin's turnover-rate guide (published 16 February 2026, updated 7 May 2026, by Jenn Vu) sets early exits against the overall picture with each source named. US voluntary turnover averaged 13% in 2025 per Mercer's 2025 US Turnover Survey of 2,617 organisations, down from 24.7% in 2022. Per the Work Institute's 2025 Retention Report, 75% of voluntary exits are preventable, meaning three out of every four resignations did not have to happen. On the early window specifically, 22% of new hires leave within 90 days, a figure Pin credits to InsightGlobal research cited by AIHR, and it states that early exits 'almost always signal hiring or onboarding failures'. Gallup's estimate that voluntary departures cost US businesses roughly $1 trillion a year is also cited, with replacement running 0.5x to 2x a departing employee's annual salary. Pin's industry benchmarks for overall turnover run from 8.2% in insurance and 12% in tech to 26.7% in retail and around 74% in hospitality. Pin argues the four categories, voluntary, involuntary, regrettable and early turnover, each demand a different response and should be tracked separately.",
+    "source_urls": [
+      "https://www.pin.com/blog/turnover-rate-guide/"
+    ],
+    "tag": "enriched",
+    "card_id": 9042
+  },
+  "9043": {
+    "gloss": "20% quit within 45 days, and 60% of employers set new hires no goals at all",
+    "verbatim": "Devlin Peck's employee onboarding statistics report (updated 5 July 2026) lists among its top ten findings that 20% of employees quit within the first 45 days of employment, and that 60% of employers do not set any milestones or goals for new employees. It credits the Center for American Progress with the finding that replacing an employee costs approximately 21% of their annual salary, based on an analysis of 27 case studies that put the median cost of turnover at about one-fifth of the position's annual salary, and notes that workers earning under $50,000 a year account for three-quarters of all new hires in the United States. Other figures on the same page, each with its source named: 69% of employees who have an exceptional onboarding experience are likely to stay at least three years (SHRM); employees with better onboarding are 2.6x more likely to feel satisfied at work and only 29% of new employees feel fully ready and supported on their first day (Gallup); over 80% of employees who get clear expectations during onboarding hold their organisation in high regard (BambooHR); and hiring a new employee costs around $4,425 with an average 36 days to fill a vacancy (SHRM). This is a compilation of other publishers' numbers, not original research.",
+    "source_urls": [
+      "https://www.devlinpeck.com/content/employee-onboarding-statistics"
+    ],
+    "tag": "enriched",
+    "card_id": 9043
+  },
+  "9044": {
+    "gloss": "A poor onboarding experience pushes 1 in 5 new hires out within six months",
+    "verbatim": "Thirst's list of employee onboarding statistics for 2025 states that a poor onboarding experience causes 1 in 5 new hires to leave within the first six months, credited to Glassdoor (2025), and that 20% of employee turnover happens within the first 45 days, also credited to Glassdoor (2025). Alongside these it lists 69% of employees being more likely to stay three years after great onboarding (SHRM, 2025), 50% higher retention at organisations with structured onboarding (Harvard Business Review, 2025), 58% more likely to remain after three years with strong onboarding (LinkedIn Talent Solutions, 2025), and 82% improved new-hire retention with effective onboarding (UrbanBound, 2025). On cost: replacing an employee can cost up to 213% of their annual salary (Work Institute, 2025), poor onboarding leads to 76% higher turnover costs in the first year (LinkedIn Talent Solutions, 2025), and increasing onboarding investment by 10% can reduce turnover by 6% (Deloitte, 2025). Caution for the writer: this page is a secondary compilation and its citations are given only as publisher plus '2025' with no report titles, so the attributions are looser than those on the HRBench, Work Institute or Pin pages.",
+    "source_urls": [
+      "https://thirst.io/blog/employee-onboarding-statistics-for-2025/"
+    ],
+    "tag": "enriched",
+    "card_id": 9044
+  },
+  "9045": {
+    "gloss": "Career growth, not pay, tops the list of what people want from a new job",
+    "verbatim": "NXTThing RPO's article on the real cost of employee turnover (published 26 November 2023, updated 23 May 2025) reports on why people leave and what they look for next. Citing the Job Seeker Nation Survey, it says career growth is the most critical factor when looking for a new job at 56%, followed by compensation at 54%, benefits at 49% and flexible schedules at 33%. It states that while compensation often plays a part in the decision to leave, research continues to show pay is not the most important driver, with communication, leadership, workplace environment and a lack of appreciation cited far more often. It cites a Work Institute study finding that more than three-quarters of professionals who left a job voluntarily could have been retained by their employer, and lists the keys as providing career opportunities, creating a good workplace, and making employees feel valued. On cost: replacing a departing employee runs from one-half to two times their annual salary; SHRM puts the average cost of hiring a new full-time employee at around $4,700; TrainingMag puts the average training cost per learner at $986; and voluntary attrition ranges from 12% to 60% annually depending on the industry. It also reports that 40% of workers see high turnover in their organisation and a resulting increase in their own workloads, while only 26% of recruiters say their organisation is prioritising improvements to employee retention.",
+    "source_urls": [
+      "https://nxtthingrpo.com/2023/11/blog-real-cost-employee-turnover/"
+    ],
+    "tag": "enriched",
+    "card_id": 9045
+  },
+  "9046": {
+    "gloss": "Sackett et al. (2022, Journal of Applied Psychology) cut structured-interview validity from .51 to .42 and named concurrent-study designs as the reason the old correction overshot",
+    "verbatim": "Management Craft's source page on Sackett, Zhang, Berry and Lievens (2022), 'Revisiting Meta-Analytic Estimates of Validity in Personnel Selection: Addressing Systematic Overcorrection for Restriction of Range', Journal of Applied Psychology 107, no. 11 (2022): 2040-2068. The paper is a predictor-by-predictor revisit of Schmidt and Hunter's 1998 summary of 19 selection procedures, re-examining the range-restriction correction each underlying meta-analysis used. Range restriction is the statistical adjustment for the fact that a validity study can only measure the people who were actually hired, a narrower and higher-scoring slice than the full applicant pool. The mechanical cause of the overcorrection: a range-restriction correction assumes a predictive design (test applicants, hire, validate later), where restriction on the predictor is direct, but 74 to 98 percent of the studies behind most procedures were concurrent designs that tested people already on the job, hired on some basis other than the predictor being scored. In a concurrent study restriction can only be indirect, and indirect restriction is mathematically small: unless the original hiring method correlates very highly with the predictor under study, the correction factor runs from zero to about 10 percent. Applying a predictive-sized correction to a mostly concurrent pool is where the inflation came from. Rerunning the 19 procedures: cognitive ability falls from .51 to .31, work samples from .54 to .33 (the largest point drop of any predictor), and structured interviews from .51 to .42, the smallest drop of the three. That smaller drop makes structured interviews the single strongest predictor of job performance, ahead of cognitive ability. The revised top five keeps nearly the same cast as Schmidt and Hunter's, but its mean validity is .37 against their .49. The authors' own words: 'our predictors are useful; but the predictive relationships are considerably weaker than previously thought.' Even under the most generous plausible range-restriction assumptions, cognitive ability rises only to .36. The authors also state 'we do not put a stake in the ground regarding the meta-analytic estimates we put forward here.'",
+    "source_urls": [
+      "https://www.managementcraft.co/sources/sackett-et-al-personnel-selection"
+    ],
+    "tag": "enriched",
+    "card_id": 9046
+  },
+  "9047": {
+    "gloss": "The 2022 Journal of Applied Psychology abstract itself: validity estimates cut by .10-.20 points, structured interviews top-ranked",
+    "verbatim": "The Journal of Applied Psychology abstract for Paul R. Sackett, Charlene Zhang, Christopher M. Berry and Filip Lievens, 'Revisiting Meta-Analytic Estimates of Validity in Personnel Selection: Addressing Systematic Overcorrection for Restriction of Range', volume 107, issue 11, pages 2040-2068, November 2022, DOI 10.1037/apl0000994. The abstract states the paper critiques five approaches commonly used to create and apply range-restriction artifact distributions in meta-analyses, concluding each has significant issues that 'often result in substantial overcorrection and that therefore the validity of many selection procedures for predicting job performance has been substantially overestimated.' Key findings as stated: most of the same selection procedures that ranked high in prior summaries remain high in rank, 'but with mean validity estimates reduced by .10-.20 points', and 'Structured interviews emerged as the top-ranked selection procedure.' The paper also pairs validity estimates with mean Black-White subgroup differences per procedure to show validity-diversity tradeoffs, and concludes 'our selection procedures remain useful, but selection predictor-criterion relationships are considerably lower than previously thought.'",
+    "source_urls": [
+      "https://www.ovid.com/journals/japsy/fulltext/10.1037/apl0000994~revisiting-meta-analytic-estimates-of-validity-in-personnel"
+    ],
+    "tag": "enriched",
+    "card_id": 9047
+  },
+  "9048": {
+    "gloss": "Side-by-side table: structured interviews .51 to .42, unstructured .38 to .19, under the revised Sackett correction",
+    "verbatim": "Master International's write-up of the Sackett et al. re-analysis (which it cites as Sackett et al., 2021, revisiting Schmidt and Hunter 1998) publishes a side-by-side table of old and revised operational validity estimates. Structured employment interviews: .51 in Schmidt and Hunter (1998), .42 revised, standard deviation .19, a difference of -.09. Unstructured employment interviews: .38 old, .19 revised, SD .16, a difference of -.19. Other rows: job knowledge tests .48 to .40; empirically keyed biodata .35 to .38; work sample tests .54 to .33 (-.21); cognitive ability tests (GMA) .51 to .31 (-.20); integrity tests .41 to .31; assessment centres .37 to .29; interests .10 to .24; overall conscientiousness .31 to .19; job experience in years .18 to .07. Across the board, validity estimates are reduced by an average of .10 to .20 points. The stated cause is that a method for correcting range restriction in meta-analysis has often been applied inappropriately in the past; the new work re-derives estimates with the appropriate correction. The page adds three caveats: the correction applies to meta-analytic conclusions rather than to individual studies; the revised results are recalculations of old data rather than new data; and some procedures (reference checks, graphology, age, peer ratings, years of education) could not be updated because the old studies did not report enough information to repeat the calculation. The authors of the write-up also note the revised estimates are 'NOT meant as a new go-to-list' and that further refinement is needed.",
+    "source_urls": [
+      "https://www.master-hr.com/insights/new-study-providing-updated-validity-estimates/"
+    ],
+    "tag": "enriched",
+    "card_id": 9048
+  },
+  "9049": {
+    "gloss": "Schmidt & Hunter 1998, Psychological Bulletin: structured interviews .51 versus unstructured .38, across 85 years of research",
+    "verbatim": "Management Craft's source page on Frank L. Schmidt and John E. Hunter, 'The Validity and Utility of Selection Methods in Personnel Psychology: Practical and Theoretical Implications of 85 Years of Research Findings', Psychological Bulletin 124, no. 2 (1998): 262-274, DOI 10.1037/0033-2909.124.2.262. It is a meta-analysis ranking 19 personnel-selection procedures, correcting each underlying study for two statistical artefacts: measurement error in the job-performance ratings used as the criterion, and range restriction, the fact that people who get hired are a narrower slice of ability than the full applicant pool. Schmidt and Hunter call the resulting figures 'operational' or 'true' validity, a correction that raises the numbers relative to raw study results. Headline findings: general mental ability is the single best predictor for hiring inexperienced workers, with a corrected validity of .51 for the medium-complexity jobs that make up 62% of the U.S. workforce; structured interviews (.51) clear unstructured ones (.38) by a wide margin; GMA plus an integrity test reaches a composite validity of .65, with GMA plus a structured interview close behind at .63; job experience predicts performance only for roughly its first five years on a job; graphology has essentially no validity. The page notes the paper's own stated limits (only two-predictor combinations built around GMA were tested, and differential validity across gender and racial subgroups was out of scope) and adds that Sackett, Zhang, Berry and Lievens' 2022 re-analysis found the range-restriction correction at the centre of the method had been systematically overcorrecting. Its advice: 'Treat this paper as the method that shaped three decades of hiring practice, not as today's number.'",
+    "source_urls": [
+      "https://www.managementcraft.co/sources/schmidt-hunter-selection-methods"
+    ],
+    "tag": "enriched",
+    "card_id": 9049
+  },
+  "9050": {
+    "gloss": "The full Schmidt & Hunter 1998 validity table, with GMA validity by job complexity and the combination figures",
+    "verbatim": "Cogn-IQ's guide to cognitive tests and job performance (updated 19 May 2026) reproduces Schmidt and Hunter's 1998 meta-analysis, published in Psychological Bulletin, which aggregated validity coefficients from hundreds of studies across 85 years and evaluated 19 selection procedures against overall job performance measured by supervisor ratings, production records and other criteria. The operational validity table: work sample tests .54; GMA (cognitive ability) tests .51; structured interviews .51; job knowledge tests .48; integrity tests .41; unstructured interviews .38; reference checks .26; conscientiousness (Big Five) .22; job experience in years .18; years of education .10; interest inventories .10; graphology .02. GMA validity by job complexity: high complexity (engineers, physicians, managers, scientists) .58; medium complexity (technicians, sales representatives, skilled trades) .51; low complexity (assembly workers, food service, custodial) .23. Combination validities: GMA plus integrity test, multiple R of .65 (a gain of .14 over GMA alone); GMA plus structured interview .63 (+.12); GMA plus work sample test .63 (+.12); GMA plus conscientiousness .60 (+.09); GMA plus job knowledge test .58 (+.07). The page notes Sackett, Zhang, Berry and Lievens published a comprehensive update in the Journal of Applied Psychology in 2022 in which GMA validity, though still robust, came out lower than Schmidt and Hunter's original estimate once corrected differently.",
+    "source_urls": [
+      "https://www.cogn-iq.org/blog/cognitive-tests-job-performance/"
+    ],
+    "tag": "enriched",
+    "card_id": 9050
+  },
+  "9051": {
+    "gloss": "Practitioner framing: the defensible 2026 number for structured interviews is .40-.44, not the .51 people still quote",
+    "verbatim": "Intrvio's piece 'Structured Interviews: Why Schmidt & Hunter Still Matter in 2026' (last updated 30 April 2026) sets the two figures against each other. Schmidt and Hunter (1998) reported structured employment interviews correlating with job performance at r = .51 and unstructured at .38, a .13-point gap, from Table 1 of a paper summarising roughly 85 years of accumulated studies corrected for measurement error and range restriction; the same table gives work sample tests .54, GMA .51, job knowledge tests .48, integrity tests .41, job experience in years .18, years of education .10, graphology .02, and GMA plus structured interview at a multivariate .63. In November 2022 the Journal of Applied Psychology published a 28-page re-examination by Sackett, Zhang, Berry and Lievens arguing prior meta-analyses systematically over-corrected for range restriction (the artefact where you only see post-selection data, so variance is artificially compressed and correlations look bigger when back-corrected). Their revised estimates, in their Table 3, drop most procedures by .10 to .20 points; structured interviews emerge as the top-ranked single selection procedure, and GMA drops more sharply than interviews because it had relied more heavily on the most aggressive range-restriction correction. The page's practical line: 'If you used to quote .51 in deck slides, the defensible 2026 number is closer to .40-.44.' It frames the change as calibration rather than invalidation, since the rank order held. It also notes structured interviews show smaller mean Black-White subgroup differences than cognitive ability tests, and cites Schmidt and Zimmerman (2004) for the finding that three to four independent unstructured interviews can match a single structured interview's validity because aggregation averages out interviewer bias.",
+    "source_urls": [
+      "https://intrvio.com/blog/structured-interview-predictive-validity"
+    ],
+    "tag": "enriched",
+    "card_id": 9051
+  },
+  "9052": {
+    "gloss": "The 2023 Sackett follow-up: 'Revisiting the Design of Selection Systems', plus the .19 standard deviation behind the structured-interview mean",
+    "verbatim": "Master International's commentary on Sackett et al. (2023) describes the follow-up to the 2022 review: 'Revisiting the Design of Selection Systems in Light of New Findings Regarding the Validity of Widely Used Predictors', which takes the broader implications of the 2022 re-analysis. The 2023 paper compares mean validity estimates across three studies: the original Schmidt and Hunter (1998) meta-analysis, the revised Sackett et al. (2022) estimates, and the 2023 updates, and states that differences within a predictor domain (such as structured employment interviews) are mainly due to different methodology for estimating validity, with the 2022 paper's finding that range-restriction corrections had been misapplied in past meta-analyses driving the updated operational validity estimates. The authors caution their updated numbers 'should not be viewed as a mandate for preferring one predictor over another regardless of circumstances. Integration of multiple outcomes, such as validity, cost, time constraints, testing volume, subgroup differences, and applicant reactions, is needed for an informed decision.' (p. 288). The 2023 paper also pushes readers past the mean to the spread: Sackett et al. (2022) reported standard deviations of operational validity per predictor as a measure of between-study variability. Interests have a standard deviation of .25, integrity .20, structured interviews .19, personality-based emotional intelligence .17, unstructured interviews .16, and non-contextualised conscientiousness .15, while contextualised personality measures show negligible standard deviations. A large SD means individual studies can deviate substantially from the mean, so a predictor's effectiveness varies with context. The commentary adds that Griebe et al. (2022) note Schmidt and Hunter's cognitive-ability estimate relied on studies over 50 years old, and their own meta-analysis of 113 twenty-first-century studies found a mean validity of .23 for cognitive ability, dropping its rank among predictors from 5th to 12th.",
+    "source_urls": [
+      "https://www.master-hr.com/insights/insights-from-sackett-et-al-2023/"
+    ],
+    "tag": "enriched",
+    "card_id": 9052
+  },
+  "9053": {
+    "gloss": "Criteria Corp: the top five methods came out about 25% lower, and the true validities did not change, only the estimates",
+    "verbatim": "Criteria Corp's article by Dr Matthew Neale (16 June 2022) on the Sackett re-analysis, led by Professor Paul Sackett of the University of Minnesota. The study aggregated and re-analysed data from hundreds of prior studies, incorporating results from tens of thousands of people working in or applying for over 500 different jobs. Compared with the classic Schmidt and Hunter 1998 meta-analysis, the findings are broadly consistent in which methods rank highest: those that directly assess the knowledge, skills and abilities required to do the job in a structured and consistent manner. The most predictive methods in the new study are listed as structured interviews, job knowledge tests, empirically keyed biodata, work sample tests and cognitive ability tests. Two changes are called out. First, the gap between structured and unstructured interviews is larger than previously assessed: structured interviews have more than double the predictive power of unstructured ones, and nearly a third less bias. Second, on the top five methods the new paper finds validities about 25% lower than those reported in previous research. Neale's framing of why: 'The true validities of the selection methods have not changed over time, but we are now estimating validity more accurately, and more conservatively, than before.' The article also explains that a validity coefficient is a correlation, that 0.00 means no relationship and 1.00 means perfect prediction, and that most selection methods correlate with performance between 0.20 and 0.50.",
+    "source_urls": [
+      "https://www.criteriacorp.com/blog/updates-employee-selection-science"
+    ],
+    "tag": "enriched",
+    "card_id": 9053
+  },
+  "9054": {
+    "gloss": "A peer-reviewed 2023 journal restating that structured interviews still rank first under the revised estimates while unstructured is significantly lower",
+    "verbatim": "Samantha Sinclair, 'Applicants' Faith in Recruiters' Intuition Predicts Process Favorability for the Unstructured Employment Interview', Scandinavian Journal of Work and Organizational Psychology, volume 8, issue 1, article 10, DOI 10.16993/sjwop.183, submitted 25 March 2022, accepted 22 June 2023, published 18 September 2023 (study N = 345). The introduction states the position of the field after the revision: unstructured employment interviews often have relatively low interrater reliability (citing Huffcutt et al., 2013), and 'with revised meta-analytic estimates, structured interviews still emerge as the highest ranked selection procedure; while the validity estimate for unstructured interviews is significantly lower (Sackett et al., 2022).' Despite this, the paper notes the unstructured interview has remained the most used method in personnel selection for over a century, and that likely sources of the validity loss in intuitive and holistic approaches include lower consistency and a higher rate of unsystematic errors (Kuncel et al., 2013).",
+    "source_urls": [
+      "https://sjwop.com/en/articles/10.16993/sjwop.183"
+    ],
+    "tag": "enriched",
+    "card_id": 9054
+  },
+  "9055": {
+    "gloss": "A recruiting blog that quotes both numbers at once: .51/.38 from Schmidt & Hunter, .42 attributed to Sackett et al. 2023",
+    "verbatim": "Pin's guide 'Structured Interviews: How to Run Them and Why They Work (2026)' by Jacob Price (published 27 March 2026, updated 26 May 2026) states that according to Schmidt and Hunter's meta-analysis, unstructured interviews have a predictive validity of .38 and structured interviews .51, describing predictive validity as a measure of how accurately a selection method forecasts job performance, and says the .51 figure improves applicant identification by 34% compared with unstructured conversations. Its summary line reads: 'This format hits .51 validity vs. .38 for unstructured (Schmidt & Hunter), and more recent work by Sackett et al., 2023 puts validity at .42, the top-ranked standalone predictor.' The page also reports the bias effect shrinking from d = .59 in unstructured interviews to d = .23 in structured ones, cites Google's re:Work Structured Interviewing Guide as finding the same pattern across thousands of hires, and notes that only about two-thirds of employers use structured evaluation per Talent Board 2024 CandE research. Its comparison table lists structured interviews as scored on an anchored 1-5 rubric with standardised job-related questions, against subjective impression for unstructured.",
+    "source_urls": [
+      "https://www.pin.com/blog/structured-interviews-guide/"
+    ],
+    "tag": "enriched",
+    "card_id": 9055
+  }
+}

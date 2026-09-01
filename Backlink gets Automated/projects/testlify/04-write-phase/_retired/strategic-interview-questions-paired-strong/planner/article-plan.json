@@ -1,0 +1,2762 @@
+{
+  "slug": "strategic-interview-questions-paired-strong",
+  "h1": "Strategic Interview Questions Paired With Strong and Weak Sample Answers",
+  "format_archetype": "listicle",
+  "primary_keyword": "good questions to ask an interviewee",
+  "word_band": {
+    "min": 5500,
+    "max": 7500
+  },
+  "persona": {
+    "name": "Hiring Manager (non-HR-native)",
+    "lens": "A functional lead who personally conducts the interview and must judge answers on the spot despite not being a hiring specialist; needs to see exactly what a strong vs. weak answer sounds like, not abstract criteria.",
+    "why": "The article's angle — pairing each question with strong/weak sample answers and a scoring line — is precisely the 'job-realistic proof: what a good answer looks like' the doc names as this persona's convincer, matching their listed read type (interview-question lists with 'look for' guidance)."
+  },
+  "gaps_to_own": [
+    "Strong-answer and weak-answer benchmarks attached to each question",
+    "Simple scoring lines that turn each question into an evaluation tool",
+    "Less abstract guidance on what a good response actually sounds like",
+    "More interviewer-ready structure for comparing candidates consistently"
+  ],
+  "winners_common_h2s": [
+    "Behavioral interview questions",
+    "Situational interview questions",
+    "Skills, capabilities, or qualifications questions",
+    "Culture fit or candidate fit questions",
+    "First-round or general interview questions"
+  ],
+  "winners_drift": [
+    "Some drift into adjacent recruiter content: questions to avoid, response assessment frameworks, product CTAs, and related job-seeker interview articles."
+  ],
+  "paa_pool": [
+    "What are the top 10 questions to ask a candidate?",
+    "What are the 5 star interview questions?",
+    "What is the killer question in an interview?",
+    "What questions can I ask an interviewee?",
+    "What are 5 good interview questions?",
+    "What are 10 good interview questions?",
+    "What are the 5 C's of interviewing?"
+  ],
+  "related_searches": [
+    "Good questions to ask an interviewee reddit",
+    "Strategic interview questions to ask candidates",
+    "Top 10 interview questions to ask candidates",
+    "Good questions to ask an interviewee as an employer",
+    "Casual interview questions to ask candidates",
+    "Best questions to ask as an interviewer"
+  ],
+  "search_intent": "informational",
+  "ai_overview": "Defines the topic as using a mix of behavioral, cultural, and situational questions to assess candidates; names core competencies, adaptability, workplace fit, background, problem-solving skills, interest in the specific role, and team collaboration.",
+  "table_stakes": [
+    "Behavioral interview questions",
+    "Situational interview questions",
+    "Skills, capabilities, or qualifications questions",
+    "Culture fit or candidate fit questions"
+  ],
+  "sections": [
+    {
+      "h2": "Why Do Structured Interviews Beat Unstructured Ones?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Why Do Structured Interviews Beat Unstructured Ones?",
+          "tags": [
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              1051,
+              1154
+            ]
+          },
+          "card_ids": [
+            1051,
+            1154
+          ]
+        },
+        {
+          "h3": "How much more predictive are structured interviews?",
+          "tags": [
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              3,
+              4,
+              190,
+              336,
+              1000
+            ]
+          },
+          "card_ids": [
+            3,
+            4,
+            5,
+            33,
+            183,
+            184,
+            185,
+            190,
+            191,
+            550,
+            1000
+          ]
+        },
+        {
+          "h3": "Why do vague criteria fail interviewers?",
+          "tags": [
+            "asset-angle",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              1,
+              12,
+              23,
+              24
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              2,
+              20,
+              22,
+              335
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              13,
+              22
+            ]
+          },
+          "card_ids": [
+            1,
+            2,
+            10,
+            12,
+            13,
+            20,
+            22,
+            23,
+            24,
+            26,
+            29,
+            92,
+            93,
+            335
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "STAR, PAR, and XYZ: The Frameworks Behind Structured Interview Answers",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Why Structured Frameworks Make Scoring More Consistent",
+          "tags": [
+            "asset-angle",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              56,
+              310,
+              57
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              310,
+              314,
+              56
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              311,
+              313,
+              312
+            ],
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              57,
+              56
+            ]
+          },
+          "card_ids": [
+            56,
+            57,
+            310,
+            311,
+            312,
+            313,
+            314
+          ]
+        },
+        {
+          "h3": "STAR, PAR, and XYZ: How the Formulas Are Structured",
+          "tags": [
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "asset-angle"
+          ],
+          "tag_receipts": {
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              59,
+              60,
+              193
+            ],
+            "asset-angle": [
+              59,
+              193,
+              162
+            ]
+          },
+          "card_ids": [
+            58,
+            59,
+            60,
+            160,
+            161,
+            162,
+            193
+          ]
+        },
+        {
+          "h3": "How Candidates Should Prepare and Deliver STAR Answers",
+          "tags": [
+            "common-h2: Behavioral interview questions",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "common-h2: Behavioral interview questions": [
+              1055
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              1055
+            ]
+          },
+          "card_ids": [
+            192,
+            194,
+            195,
+            1055
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What separates a strong interview answer from a weak one",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What makes an answer strong",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              61,
+              63,
+              64,
+              65,
+              66,
+              67
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              63,
+              64,
+              65,
+              66,
+              67
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              61,
+              62,
+              66
+            ]
+          },
+          "card_ids": [
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67
+          ]
+        },
+        {
+          "h3": "Common failure patterns behind weak answers",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              68,
+              74,
+              75
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              1064
+            ]
+          },
+          "card_ids": [
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            1064
+          ]
+        },
+        {
+          "h3": "Avoiding the anchoring trap: samples are calibration aids, not templates",
+          "tags": [
+            "asset-angle"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              295,
+              302
+            ]
+          },
+          "card_ids": [
+            293,
+            294,
+            295,
+            302
+          ]
+        },
+        {
+          "h3": "How structured interviews score answers in real time",
+          "tags": [
+            "asset-angle",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              306,
+              307,
+              309
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              305,
+              306,
+              308
+            ],
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              303,
+              305
+            ]
+          },
+          "card_ids": [
+            303,
+            305,
+            306,
+            307,
+            308,
+            309
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do you build strategic interview questions that predict job performance?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What makes an interview question \"strategic\"?",
+          "tags": [
+            "common-h2: Behavioral interview questions",
+            "common-h2: Situational interview questions",
+            "related: Strategic interview questions to ask candidates"
+          ],
+          "tag_receipts": {
+            "common-h2: Behavioral interview questions": [
+              36,
+              37,
+              42
+            ],
+            "common-h2: Situational interview questions": [
+              38,
+              39,
+              42
+            ],
+            "related: Strategic interview questions to ask candidates": [
+              30,
+              32,
+              95
+            ]
+          },
+          "card_ids": [
+            30,
+            31,
+            32,
+            34,
+            35,
+            36,
+            37,
+            42,
+            95
+          ]
+        },
+        {
+          "h3": "How to build a competency-based question bank",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              1052,
+              423,
+              466
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              423,
+              1052
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              466,
+              1052,
+              423
+            ],
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              1052,
+              1053,
+              466
+            ]
+          },
+          "card_ids": [
+            52,
+            417,
+            418,
+            419,
+            421,
+            423,
+            425,
+            466,
+            500,
+            502,
+            1052,
+            1053
+          ]
+        },
+        {
+          "h3": "Tailoring questions by role, seniority, and function",
+          "tags": [
+            "common-h2: Skills, capabilities, or qualifications questions",
+            "common-h2: Culture fit or candidate fit questions"
+          ],
+          "tag_receipts": {
+            "common-h2: Skills, capabilities, or qualifications questions": [
+              254,
+              410,
+              257,
+              432
+            ],
+            "common-h2: Culture fit or candidate fit questions": [
+              435
+            ]
+          },
+          "card_ids": [
+            252,
+            254,
+            255,
+            256,
+            257,
+            258,
+            408,
+            409,
+            410,
+            431,
+            432,
+            433
+          ]
+        },
+        {
+          "h3": "Using an intake call to nail down role specifics",
+          "tags": [
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              415,
+              414
+            ]
+          },
+          "card_ids": [
+            413,
+            414,
+            415,
+            499
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do you build an interview scoring rubric that actually works?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Why vague, unanchored scales fail",
+          "tags": [
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              19,
+              300,
+              612,
+              761,
+              341
+            ]
+          },
+          "card_ids": [
+            19,
+            292,
+            300,
+            341,
+            761,
+            828
+          ]
+        },
+        {
+          "h3": "What makes an anchored (BARS) scale work",
+          "tags": [
+            "asset-angle",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              837,
+              776,
+              785
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              781,
+              537,
+              613,
+              1008
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              287,
+              564,
+              747,
+              544
+            ]
+          },
+          "card_ids": [
+            11,
+            76,
+            286,
+            287,
+            304,
+            343,
+            537,
+            556,
+            564,
+            617,
+            747,
+            776,
+            778,
+            779,
+            781,
+            782,
+            785,
+            837,
+            838,
+            1008
+          ]
+        },
+        {
+          "h3": "Choosing a scale format: 5-point, forced-choice, pass/fail, BARS",
+          "tags": [
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              77,
+              746,
+              555,
+              839,
+              508
+            ]
+          },
+          "card_ids": [
+            77,
+            80,
+            81,
+            82,
+            83,
+            508,
+            555,
+            562,
+            563,
+            746,
+            839,
+            867,
+            1009
+          ]
+        },
+        {
+          "h3": "Worked examples: what each score level looks like",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              78,
+              988,
+              992,
+              166
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              862,
+              866,
+              784,
+              16,
+              18
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              168,
+              246,
+              538,
+              541,
+              509
+            ]
+          },
+          "card_ids": [
+            15,
+            16,
+            17,
+            18,
+            78,
+            166,
+            167,
+            168,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            246,
+            352,
+            509,
+            510,
+            538,
+            539,
+            540,
+            541,
+            542,
+            557,
+            558,
+            559,
+            560,
+            561,
+            784,
+            840,
+            862,
+            863,
+            864,
+            865,
+            868,
+            869
+          ]
+        },
+        {
+          "h3": "How many competencies to score, and why not more",
+          "tags": [
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              543,
+              1003,
+              780
+            ]
+          },
+          "card_ids": [
+            260,
+            261,
+            543,
+            565,
+            614,
+            780,
+            1003
+          ]
+        },
+        {
+          "h3": "Why scorecards need an evidence field, not just a number",
+          "tags": [
+            "asset-angle",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              844
+            ],
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              843,
+              1011,
+              1012
+            ]
+          },
+          "card_ids": [
+            842,
+            843,
+            844,
+            1004,
+            1011,
+            1012
+          ]
+        },
+        {
+          "h3": "Scoring process: independent, immediate, and rolled up into bands",
+          "tags": [
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              317,
+              995,
+              870,
+              848,
+              1010,
+              1065
+            ]
+          },
+          "card_ids": [
+            316,
+            317,
+            318,
+            360,
+            847,
+            848,
+            849,
+            854,
+            870,
+            995,
+            1010,
+            1065
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How Is a Candidate's Answer Scored?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "How Is a Candidate's Answer Scored?",
+          "tags": [
+            "asset-angle",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              1156
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              1156
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              1156
+            ],
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              1156
+            ]
+          },
+          "card_ids": [
+            1156
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do you score interview answers fairly and consistently?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Score immediately, while the conversation is fresh",
+          "tags": [
+            "asset-angle",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              836,
+              245
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              84,
+              245,
+              566,
+              836
+            ]
+          },
+          "card_ids": [
+            28,
+            84,
+            89,
+            245,
+            567,
+            568,
+            569,
+            570,
+            834,
+            835,
+            836
+          ]
+        },
+        {
+          "h3": "Score independently before comparing notes, to defeat anchoring bias",
+          "tags": [
+            "asset-angle",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              267,
+              270,
+              273
+            ],
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              87,
+              171,
+              282,
+              288
+            ]
+          },
+          "card_ids": [
+            87,
+            90,
+            171,
+            198,
+            262,
+            264,
+            265,
+            267,
+            268,
+            270,
+            271,
+            273,
+            274,
+            278,
+            280,
+            282,
+            285,
+            288
+          ]
+        },
+        {
+          "h3": "Ground every score in written evidence, not gut feel",
+          "tags": [
+            "asset-angle",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              503,
+              504
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              291,
+              503,
+              504,
+              505,
+              506
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              365,
+              616
+            ]
+          },
+          "card_ids": [
+            88,
+            170,
+            197,
+            291,
+            298,
+            299,
+            301,
+            345,
+            364,
+            365,
+            507,
+            503,
+            504,
+            616,
+            169
+          ]
+        },
+        {
+          "h3": "Calibrate the panel and build the rubric before interviews start",
+          "tags": [
+            "asset-angle",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              321
+            ],
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              196,
+              200,
+              290,
+              829,
+              349
+            ]
+          },
+          "card_ids": [
+            196,
+            200,
+            290,
+            296,
+            321,
+            322,
+            323,
+            327,
+            347,
+            349,
+            626,
+            829
+          ]
+        },
+        {
+          "h3": "What ownership and red flags sound like in an answer",
+          "tags": [
+            "asset-angle",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              750,
+              751,
+              753
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              750,
+              751,
+              752,
+              753,
+              754
+            ]
+          },
+          "card_ids": [
+            750,
+            751,
+            752,
+            753,
+            754
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Why Probing Follow-Up Questions Matter More Than the Original Question",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Why Probing Follow-Up Questions Matter More Than the Original Question",
+          "tags": [
+            "asset-angle"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              53
+            ]
+          },
+          "card_ids": [
+            53
+          ]
+        },
+        {
+          "h3": "What Probing Questions Are and How to Phrase Them",
+          "tags": [
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "related: Best questions to ask as an interviewer"
+          ],
+          "tag_receipts": {
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              55
+            ],
+            "related: Best questions to ask as an interviewer": [
+              54,
+              55
+            ]
+          },
+          "card_ids": [
+            54,
+            55
+          ]
+        },
+        {
+          "h3": "Common Follow-Up Mistakes That Undermine the Interview",
+          "tags": [
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              831,
+              832
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              831,
+              833
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              611,
+              833
+            ]
+          },
+          "card_ids": [
+            611,
+            831,
+            832,
+            833
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How should job-knowledge and technical questions be designed and evaluated?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Design questions that mirror real work, not trivia",
+          "tags": [
+            "common-h2: Skills, capabilities, or qualifications questions"
+          ],
+          "tag_receipts": {
+            "common-h2: Skills, capabilities, or qualifications questions": [
+              426,
+              449,
+              427,
+              444,
+              445
+            ]
+          },
+          "card_ids": [
+            427,
+            445,
+            449,
+            467
+          ]
+        },
+        {
+          "h3": "Evaluate answers by process, not just the final answer",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              518,
+              519,
+              521,
+              524
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              518,
+              519,
+              521,
+              524
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              519,
+              520,
+              524
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              428,
+              524
+            ]
+          },
+          "card_ids": [
+            428,
+            518,
+            519,
+            520,
+            521,
+            522,
+            524
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Sample IT Interview Questions and Strong Answers",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "How would you debug a system while it's still running?",
+          "tags": [
+            "asset-angle",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "common-h2: Skills, capabilities, or qualifications questions"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              472,
+              473
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              473
+            ],
+            "common-h2: Skills, capabilities, or qualifications questions": [
+              472
+            ]
+          },
+          "card_ids": [
+            472,
+            473
+          ]
+        },
+        {
+          "h3": "How do you handle gaps in your own expertise?",
+          "tags": [
+            "asset-angle",
+            "common-h2: Skills, capabilities, or qualifications questions"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              474,
+              475
+            ],
+            "common-h2: Skills, capabilities, or qualifications questions": [
+              474,
+              475
+            ]
+          },
+          "card_ids": [
+            474,
+            475
+          ]
+        },
+        {
+          "h3": "How would you approach enhancing an existing IT system?",
+          "tags": [
+            "asset-angle",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "common-h2: Behavioral interview questions"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              476,
+              477
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              477
+            ],
+            "common-h2: Behavioral interview questions": [
+              476
+            ]
+          },
+          "card_ids": [
+            476,
+            477
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Which technical questions best separate strong ML candidates from weak ones?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The imbalanced dataset question",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              525,
+              526,
+              527
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              526,
+              527
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              526,
+              527
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              526
+            ]
+          },
+          "card_ids": [
+            525,
+            526,
+            527
+          ]
+        },
+        {
+          "h3": "The bagging vs. boosting question",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              529,
+              530
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              529,
+              530
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              529,
+              530
+            ]
+          },
+          "card_ids": [
+            528,
+            529,
+            530
+          ]
+        },
+        {
+          "h3": "The evaluation metrics question",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              532,
+              533
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              532,
+              533
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              533
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              532
+            ]
+          },
+          "card_ids": [
+            531,
+            532,
+            533
+          ]
+        },
+        {
+          "h3": "The decision tree pros and cons question",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              535,
+              536
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              535,
+              536
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              536
+            ]
+          },
+          "card_ids": [
+            534,
+            535,
+            536
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do you evaluate ambiguity and problem-framing questions?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What separates a strong answer from a weak one: the seniority scope ladder",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              110,
+              111,
+              113,
+              114
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              111,
+              113,
+              114,
+              116
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              110,
+              112,
+              115,
+              116
+            ]
+          },
+          "card_ids": [
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116
+          ]
+        },
+        {
+          "h3": "Scoring the answer on the 1-5 scale",
+          "tags": [
+            "asset-angle",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              123
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123
+            ],
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              117,
+              118,
+              123
+            ]
+          },
+          "card_ids": [
+            117,
+            118,
+            119,
+            121,
+            122,
+            123
+          ]
+        },
+        {
+          "h3": "Example prompts and sample answers by seniority level",
+          "tags": [
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              224,
+              225,
+              226,
+              228
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              224,
+              225,
+              226,
+              227
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              228
+            ]
+          },
+          "card_ids": [
+            223,
+            224,
+            225,
+            226,
+            227,
+            228
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How Do You Evaluate a Candidate's Prioritization and Stakeholder-Management Skills?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The Mid-Quarter Priority-Conflict Question and What It's Designed to Surface",
+          "tags": [
+            "common-h2: Situational interview questions",
+            "related: Strategic interview questions to ask candidates"
+          ],
+          "tag_receipts": {
+            "common-h2: Situational interview questions": [
+              96,
+              140,
+              141,
+              150,
+              213
+            ],
+            "related: Strategic interview questions to ask candidates": [
+              96,
+              97,
+              148,
+              149,
+              151
+            ]
+          },
+          "card_ids": [
+            96,
+            97,
+            140,
+            141,
+            142,
+            148,
+            149,
+            150,
+            151,
+            154,
+            213,
+            214,
+            217
+          ]
+        },
+        {
+          "h3": "Strong vs. Weak Answer Patterns",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              215,
+              216,
+              218
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              143,
+              144,
+              215,
+              216,
+              152,
+              153
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              99,
+              100,
+              101,
+              146,
+              218
+            ]
+          },
+          "card_ids": [
+            98,
+            99,
+            100,
+            101,
+            143,
+            144,
+            146,
+            152,
+            153,
+            215,
+            216,
+            218
+          ]
+        },
+        {
+          "h3": "How to Score the Response",
+          "tags": [
+            "asset-angle",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              102,
+              105,
+              147
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              102,
+              103,
+              104,
+              105,
+              147
+            ],
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              102,
+              106,
+              107
+            ]
+          },
+          "card_ids": [
+            102,
+            103,
+            104,
+            106,
+            107,
+            147
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What interview questions reveal how candidates handle difficult stakeholders?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The conflicting-expectations question",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              125,
+              128,
+              130,
+              131
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              128,
+              129,
+              130
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              131,
+              132
+            ]
+          },
+          "card_ids": [
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132
+          ]
+        },
+        {
+          "h3": "The difficult-stakeholder question",
+          "tags": [
+            "asset-angle",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              133,
+              139
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              139
+            ]
+          },
+          "card_ids": [
+            133,
+            135,
+            137,
+            139
+          ]
+        },
+        {
+          "h3": "The pushing-back-on-a-stakeholder question",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              233,
+              234,
+              235,
+              236
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              234,
+              235
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              236
+            ]
+          },
+          "card_ids": [
+            233,
+            234,
+            235,
+            236
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Situational vs. behavioral questions for handling pricing objections",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Situational vs. behavioral questions for handling pricing objections",
+          "tags": [
+            "common-h2: Situational interview questions",
+            "common-h2: Behavioral interview questions"
+          ],
+          "tag_receipts": {
+            "common-h2: Situational interview questions": [
+              156,
+              158
+            ],
+            "common-h2: Behavioral interview questions": [
+              157,
+              158
+            ]
+          },
+          "card_ids": [
+            156,
+            157,
+            158
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do candidates respond when plans, priorities, or requirements suddenly change?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Adjusting your approach after a change at work",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "common-h2: Behavioral interview questions"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              203,
+              205,
+              206,
+              207
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              205,
+              206
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              207
+            ],
+            "common-h2: Behavioral interview questions": [
+              203,
+              204
+            ]
+          },
+          "card_ids": [
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207
+          ]
+        },
+        {
+          "h3": "Adapting to a significant workplace change",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              734,
+              736,
+              737,
+              243
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              242,
+              736,
+              737
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              243
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              736,
+              734
+            ]
+          },
+          "card_ids": [
+            241,
+            242,
+            243,
+            244,
+            734,
+            736,
+            737
+          ]
+        },
+        {
+          "h3": "Shifting priorities, new skills, and comfort zone",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "common-h2: Behavioral interview questions"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              208,
+              210,
+              211
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              210,
+              211
+            ],
+            "common-h2: Behavioral interview questions": [
+              208,
+              209
+            ]
+          },
+          "card_ids": [
+            208,
+            209,
+            210,
+            211,
+            212
+          ]
+        },
+        {
+          "h3": "Handling unexpected changes in project requirements",
+          "tags": [
+            "asset-angle",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              220,
+              221,
+              222
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              222
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              221,
+              222
+            ]
+          },
+          "card_ids": [
+            219,
+            220,
+            221,
+            222
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What Does the 'Describe a Wrong Decision' Question Test?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What Does the 'Describe a Wrong Decision' Question Test?",
+          "tags": [
+            "common-h2: Behavioral interview questions",
+            "related: Strategic interview questions to ask candidates"
+          ],
+          "tag_receipts": {
+            "common-h2: Behavioral interview questions": [
+              229
+            ],
+            "related: Strategic interview questions to ask candidates": [
+              229
+            ]
+          },
+          "card_ids": [
+            229
+          ]
+        },
+        {
+          "h3": "What a Strong Answer Looks Like",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              230
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              230
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              230
+            ]
+          },
+          "card_ids": [
+            230
+          ]
+        },
+        {
+          "h3": "Common Weak Answer Patterns",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              231
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              231
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              231
+            ]
+          },
+          "card_ids": [
+            231
+          ]
+        },
+        {
+          "h3": "How to Score Responses",
+          "tags": [
+            "asset-angle",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              232
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              232
+            ],
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              232
+            ]
+          },
+          "card_ids": [
+            232
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What does the 'ship something not ready' question actually test?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What does the 'ship something not ready' question actually test?",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "common-h2: Situational interview questions"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              237,
+              238,
+              239,
+              240
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              238,
+              239
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              240
+            ],
+            "common-h2: Situational interview questions": [
+              237
+            ]
+          },
+          "card_ids": [
+            237,
+            238,
+            239,
+            240
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do candidates handle disagreeing with a manager or a decision?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The scenario: pushing back on a decision",
+          "tags": [
+            "common-h2: Behavioral interview questions",
+            "common-h2: Culture fit or candidate fit questions"
+          ],
+          "tag_receipts": {
+            "common-h2: Behavioral interview questions": [
+              659,
+              727
+            ],
+            "common-h2: Culture fit or candidate fit questions": [
+              659,
+              727,
+              730
+            ]
+          },
+          "card_ids": [
+            659,
+            727,
+            730
+          ]
+        },
+        {
+          "h3": "What separates a strong answer from a weak one",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              728,
+              729,
+              770
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              728,
+              729,
+              768
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              729,
+              769,
+              770
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              728,
+              768,
+              770
+            ]
+          },
+          "card_ids": [
+            728,
+            729,
+            768,
+            769,
+            770
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do you tell a strong feedback-response answer from a weak one?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Weak and low-signal answers",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              738,
+              755,
+              739,
+              756
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              738,
+              755,
+              756
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              739,
+              756
+            ]
+          },
+          "card_ids": [
+            738,
+            739,
+            755,
+            756
+          ]
+        },
+        {
+          "h3": "Strong answers: curiosity and real change",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              759,
+              760
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              757,
+              759,
+              760
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              757,
+              758,
+              759,
+              760
+            ]
+          },
+          "card_ids": [
+            757,
+            758,
+            759,
+            760
+          ]
+        },
+        {
+          "h3": "Scoring the answer by seniority level",
+          "tags": [
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              741
+            ],
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              740,
+              774
+            ]
+          },
+          "card_ids": [
+            740,
+            741,
+            774
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do you structure a strong initiative answer?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "How do you structure a strong initiative answer?",
+          "tags": [
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "asset-angle"
+          ],
+          "tag_receipts": {
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              771,
+              772
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              771
+            ],
+            "asset-angle": [
+              771,
+              772
+            ]
+          },
+          "card_ids": [
+            771,
+            772
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What does the persistence rubric look like at each score level?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What does the persistence rubric look like at each score level?",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              762,
+              763,
+              764,
+              765,
+              766
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              762,
+              765,
+              766
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              762,
+              763,
+              764,
+              765,
+              766
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              762,
+              767
+            ]
+          },
+          "card_ids": [
+            762,
+            763,
+            764,
+            765,
+            766,
+            767
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What Would Make You Quit Within Three Months?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What Would Make You Quit Within Three Months?",
+          "tags": [
+            "common-h2: Culture fit or candidate fit questions",
+            "related: Strategic interview questions to ask candidates"
+          ],
+          "tag_receipts": {
+            "common-h2: Culture fit or candidate fit questions": [
+              660,
+              723,
+              724
+            ],
+            "related: Strategic interview questions to ask candidates": [
+              660,
+              723
+            ]
+          },
+          "card_ids": [
+            660,
+            723,
+            724
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How does the bar for leadership questions change by seniority?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What the bar looks like at each seniority level",
+          "tags": [
+            "asset-angle",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              744,
+              775
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              744,
+              775
+            ],
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              773
+            ]
+          },
+          "card_ids": [
+            744,
+            773,
+            775
+          ]
+        },
+        {
+          "h3": "Score against a structured rubric, not a general impression",
+          "tags": [
+            "asset-angle",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              745
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              745
+            ],
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              745
+            ]
+          },
+          "card_ids": [
+            745
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do you build a structured culture-fit assessment?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Why culture fit needs structure, not vibes",
+          "tags": [
+            "gap: More interviewer-ready structure for comparing candidates consistently",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              640,
+              649
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              827
+            ]
+          },
+          "card_ids": [
+            640,
+            641,
+            649,
+            827
+          ]
+        },
+        {
+          "h3": "How to score culture-fit answers",
+          "tags": [
+            "asset-angle",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "common-h2: Culture fit or candidate fit questions"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              653,
+              748
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              748,
+              787,
+              790
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              787,
+              790
+            ],
+            "common-h2: Culture fit or candidate fit questions": [
+              654
+            ]
+          },
+          "card_ids": [
+            653,
+            654,
+            787,
+            790
+          ]
+        },
+        {
+          "h3": "Sample behavioral question answers and what to look for",
+          "tags": [
+            "asset-angle",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "common-h2: Behavioral interview questions"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              1119,
+              1131,
+              1203,
+              1212
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              1119,
+              1131,
+              1203
+            ],
+            "common-h2: Behavioral interview questions": [
+              1119,
+              1131,
+              1212
+            ]
+          },
+          "card_ids": [
+            1119,
+            1131,
+            1203,
+            1212
+          ]
+        },
+        {
+          "h3": "Sample personality question answers and what to look for",
+          "tags": [
+            "asset-angle",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "common-h2: Culture fit or candidate fit questions"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              1121,
+              1133,
+              1214
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              1121,
+              1133,
+              1214
+            ],
+            "common-h2: Culture fit or candidate fit questions": [
+              1121,
+              1214
+            ]
+          },
+          "card_ids": [
+            1121,
+            1133,
+            1214
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What interview questions reveal culture and values fit?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Values-alignment questions",
+          "tags": [
+            "common-h2: Culture fit or candidate fit questions"
+          ],
+          "tag_receipts": {
+            "common-h2: Culture fit or candidate fit questions": [
+              657
+            ]
+          },
+          "card_ids": [
+            657
+          ]
+        },
+        {
+          "h3": "The \"great workday\" question",
+          "tags": [
+            "common-h2: Culture fit or candidate fit questions",
+            "related: Casual interview questions to ask candidates"
+          ],
+          "tag_receipts": {
+            "common-h2: Culture fit or candidate fit questions": [
+              658
+            ],
+            "related: Casual interview questions to ask candidates": [
+              658
+            ]
+          },
+          "card_ids": [
+            658
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do you interview for a customer success role?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What questions should you ask CS candidates?",
+          "tags": [
+            "common-h2: Skills, capabilities, or qualifications questions",
+            "paa: What questions can I ask an interviewee?",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "common-h2: Skills, capabilities, or qualifications questions": [
+              453,
+              454,
+              457
+            ],
+            "paa: What questions can I ask an interviewee?": [
+              453,
+              454,
+              455,
+              456,
+              457
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              458
+            ]
+          },
+          "card_ids": [
+            453,
+            454,
+            455,
+            456,
+            457,
+            458
+          ]
+        },
+        {
+          "h3": "How do you build a CS-specific evaluation process?",
+          "tags": [
+            "gap: More interviewer-ready structure for comparing candidates consistently",
+            "gap: Less abstract guidance on what a good response actually sounds like"
+          ],
+          "tag_receipts": {
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              481,
+              483
+            ],
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              482
+            ]
+          },
+          "card_ids": [
+            481,
+            482,
+            483
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What separates strong and weak answers to common interview questions",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Tell me about yourself",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "common-h2: First-round or general interview questions"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              860,
+              861,
+              893,
+              894,
+              897
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              860,
+              861,
+              893,
+              894
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              896,
+              897,
+              898
+            ],
+            "common-h2: First-round or general interview questions": [
+              874,
+              876
+            ]
+          },
+          "card_ids": [
+            855,
+            856,
+            857,
+            858,
+            859,
+            860,
+            861,
+            874,
+            876,
+            877,
+            878,
+            879,
+            881,
+            882,
+            883,
+            884,
+            885,
+            886,
+            887,
+            888,
+            889,
+            890,
+            891,
+            892,
+            893,
+            894,
+            895,
+            896,
+            897
+          ]
+        },
+        {
+          "h3": "Why are you leaving your current job?",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              926,
+              927,
+              945,
+              949
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              917,
+              923,
+              931,
+              945,
+              946
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              924,
+              925,
+              947,
+              948,
+              949
+            ]
+          },
+          "card_ids": [
+            899,
+            900,
+            901,
+            902,
+            903,
+            904,
+            905,
+            906,
+            907,
+            908,
+            909,
+            910,
+            911,
+            912,
+            913,
+            914,
+            915,
+            916,
+            917,
+            918,
+            919,
+            920,
+            921,
+            922,
+            923,
+            924,
+            925,
+            926,
+            927,
+            928,
+            929,
+            930,
+            931,
+            932,
+            933,
+            934,
+            935,
+            936,
+            937,
+            938,
+            939,
+            942,
+            943,
+            944,
+            945,
+            946,
+            947,
+            948,
+            949
+          ]
+        },
+        {
+          "h3": "Why do you want to work here?",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "common-h2: Culture fit or candidate fit questions"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              965,
+              966,
+              976,
+              985
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              978,
+              979,
+              983,
+              962,
+              985
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              964,
+              965,
+              966,
+              967,
+              987
+            ],
+            "common-h2: Culture fit or candidate fit questions": [
+              968,
+              969,
+              973
+            ]
+          },
+          "card_ids": [
+            950,
+            951,
+            952,
+            953,
+            954,
+            955,
+            956,
+            957,
+            958,
+            959,
+            960,
+            961,
+            962,
+            963,
+            964,
+            965,
+            966,
+            967,
+            968,
+            969,
+            970,
+            971,
+            972,
+            973,
+            974,
+            975,
+            976,
+            977,
+            978,
+            979,
+            980,
+            981,
+            982,
+            983,
+            984,
+            985,
+            986,
+            987
+          ]
+        },
+        {
+          "h3": "Sample answers for other general interview questions",
+          "tags": [
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "common-h2: First-round or general interview questions"
+          ],
+          "tag_receipts": {
+            "gap: Less abstract guidance on what a good response actually sounds like": [
+              1117,
+              1129,
+              1201,
+              1210
+            ],
+            "common-h2: First-round or general interview questions": [
+              1201,
+              1210
+            ]
+          },
+          "card_ids": [
+            1117,
+            1129,
+            1201,
+            1210
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Key takeaways: making the question bank work as one system",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Key takeaways: making the question bank work as one system",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              1066
+            ],
+            "gap: Strong-answer and weak-answer benchmarks attached to each question": [
+              1066
+            ],
+            "gap: Simple scoring lines that turn each question into an evaluation tool": [
+              1066
+            ],
+            "gap: More interviewer-ready structure for comparing candidates consistently": [
+              1066
+            ]
+          },
+          "card_ids": [
+            1066
+          ]
+        }
+      ]
+    }
+  ]
+}

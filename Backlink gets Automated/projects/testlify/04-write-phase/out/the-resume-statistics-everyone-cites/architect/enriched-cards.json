@@ -1,0 +1,506 @@
+{
+  "9001": {
+    "gloss": "ResumeLab's 36% admitted-lying figure was published by HR Dive in January 2020, not recently",
+    "verbatim": "HR Dive, in a Dive Brief published Jan. 17, 2020 by contributor Valerie Bolden-Barrett, reported that 36% of Americans in a then-new ResumeLab survey admitted to lying on their resumes. Most who were dishonest said they did so because they lacked experience or long-term employment. Of the 31% who were caught lying, 65% were either not hired or fired. Besides experience, the most common lies related to skills and job duties. When asked whether they knew people who lied on their resumes, 93% of respondents said yes. The write-up also states that men were found to lie more often than women, that those aged 18 to 39 admitted to lying more often than older individuals, and that business and retail professionals were more apt to lie than other professionals. The HR Dive piece gives no sample size and no fieldwork dates for the ResumeLab survey, and describes the respondents only as Americans.",
+    "source_urls": [
+      "https://www.hrdive.com/news/more-than-a-third-of-people-admit-to-lying-on-resumes/570565/"
+    ],
+    "tag": "enriched",
+    "card_id": 9001
+  },
+  "9002": {
+    "gloss": "The 88% ATS figure is TribePad's, covers UK employees and job seekers, and was current as of January 2020",
+    "verbatim": "The same HR Dive brief of Jan. 17, 2020 sources the widely repeated 88% figure to TribePad: according to a TribePad study of U.K.-based employees and job seekers, 88% of the more than 1 in 5 job applicants who understand applicant tracking systems (ATS) lie about their skills, experience, academic degrees, certification and other credentials on resumes to avoid being screened out. Two details usually lost when the number is recycled: the 88% is not 88% of all applicants but 88% of the roughly one-in-five subset who understand how ATS work, and the study population is British, not American. HR Dive gives no sample size or field dates for the TribePad study. The same brief notes an Accountemps survey finding that managers reject a third of candidates after running reference checks, and closes by advising employers to make skills-testing part of recruiting to uncover applicants' real proficiencies.",
+    "source_urls": [
+      "https://www.hrdive.com/news/more-than-a-third-of-people-admit-to-lying-on-resumes/570565/"
+    ],
+    "tag": "enriched",
+    "card_id": 9002
+  },
+  "9003": {
+    "gloss": "AMS Inform's 85%, 60%, 33% and 25% figures appear in a November 2024 blog post with no year, publisher or sample attached to any of them",
+    "verbatim": "The blog post \"10 Shocking Statistics About Resume Fraud\" on AMS Inform, bylined Sachin Aggarwal and dated November 15, 2024, is where several of the most-recycled resume-lying numbers sit. It states that 85% of hiring managers report catching a lie on a resume; that over 60% of candidates lie about their abilities, with inflated skill sets topping the list of false claims; that roughly 33% of applicants admit to lying about their education history, including adding degrees they did not complete or inflating their GPA; and that 25% of executives have been caught lying on their resumes. The post attributes none of these to a named survey, publisher, year, country or sample size; the only sourcing language it uses is \"according to several surveys\" for its opening claim that over half of job applicants have admitted to lying. Note that the commonly repeated \"85% of job seekers are dishonest\" phrasing does not match what this page says: its 85% is employers who have caught a lie, not applicants who told one. Its 25% is executives caught lying, not fabricated references. AMS Inform is a background verification company headquartered in Noida, India.",
+    "source_urls": [
+      "https://www.amsinform.com/workplace/10-shocking-statistics-about-resume-fraud/"
+    ],
+    "tag": "enriched",
+    "card_id": 9003
+  },
+  "9004": {
+    "gloss": "The rest of the AMS Inform November 2024 list: 1 in 4 checks, 40% job titles, 30% dates, 15% fake references",
+    "verbatim": "The remaining figures in AMS Inform's \"10 Shocking Statistics About Resume Fraud\" (published November 15, 2024, bylined Sachin Aggarwal): over 50% of job applicants have admitted to lying on their resumes, described as one in two people; 1 in 4 background checks uncovers discrepancies between what candidates claim and what is true, ranging from mismatched employment dates to unearned degrees; nearly 40% of candidates have altered a previous job title to sound more impressive; 30% of job seekers admit to changing their employment dates to make their work history look continuous; and 15% of applicants have listed a falsified reference. The 15% reference figure is the one on this page, which is lower than the 25%-plus fabricated-references number that circulates elsewhere. As with the rest of the list, the page names no survey, year, sample size or country behind any of these numbers, and the piece runs as marketing for AMS Inform's own verification services.",
+    "source_urls": [
+      "https://www.amsinform.com/workplace/10-shocking-statistics-about-resume-fraud/"
+    ],
+    "tag": "enriched",
+    "card_id": 9004
+  },
+  "9005": {
+    "gloss": "The men 30% vs women 20% split and the generational breakdown come from Resume Builder's January 2025 survey of 2,000 Americans",
+    "verbatim": "Resume Builder (ResumeBuilder.com), in a report last updated January 28, 2025, published findings from its January 2025 survey of 2,000 Americans who have applied for jobs. Headline numbers: 44% of Americans admit they have lied in the hiring process; 24% have lied on their resume, 19% in an interview and 6% on a cover letter. This is the survey behind the gender split: men are more likely than women to lie on their resumes, 30% versus 20%. In interviews, the split is 23% of men versus 16% of women. The generational breakdown from the same survey: Millennials are most likely to lie on their resumes at 29%, followed by Gen X at 27%, Gen Z at 20% and Boomers at 13%; on interview lying, Millennials led at 24% and Boomers were lowest at 8%. The most frequent resume lies were years of experience (38%), skills and abilities (34%) and lengths of positions held (32%). Also from this survey: 9% have lied about disability status, 7% about race or ethnicity, 6% about veteran status; 36% of those who lied secured a job and 28% said they landed their current position that way; only 12% faced any repercussions (4% had an offer rescinded, 2% were fired, 5% were reprimanded); 64% believe lying helped them succeed professionally and 25% say it got them a higher salary; 11% of those planning to apply in 2025 expected to lie. Stacie Haller is identified here as Resume Builder's Chief Career Advisor and is the commentator quoted throughout this report; she is not the author of a separate generational study. Her comments include a prediction that as organizations prioritize skills and competencies, \"more testing and practical assessments\" will be integrated into hiring to reduce the incentive and opportunity for dishonesty.",
+    "source_urls": [
+      "https://www.resumebuilder.com/resume-examples/1-4-americans-have-lied-on-their-resume/"
+    ],
+    "tag": "enriched",
+    "card_id": 9005
+  },
+  "9006": {
+    "gloss": "StandOut CV's 64.2% figure: over 2,100 Americans surveyed, page updated March 25, 2025, replacing its own November 2022 study",
+    "verbatim": "StandOut CV's study \"How many people lie on their resume?\", credited to Andrew Fennell and updated on March 25, 2025, surveyed over 2,100 Americans. It found 64.2% said they had lied on their resume at least once, and explicitly compares this against the previous run of the same study from November 2022. Gender: 65.6% of men versus 63.6% of women admitted lying (the page also states 63.3% for women in its key findings). Age: 80.4% of 18-25-year-olds said they had lied, 64.9% of those aged 26-41, 58.2% of those aged 42-56, and 46.9% of those aged 65-plus. On references, 25.4% have lied about their employer references, and 18.5% of that group have used fake job reference services costing an average of $128.60 per reference, which can involve fake employers and paid actors. On education, 29.6% have lied about their college degree, and 54% of those told employers they had a degree when they did not; fake degree certificates and transcripts bought online cost an average of $197.83. 18.6% say they have not been caught. On AI, 73.4% said they would consider using AI tools in 2024 to help embellish or lie on their resume. Most-common lies: previous salary (32.8%), skills (30.8%), previous work experience (30.5%). By industry, arts and creative led at 79.8%, then retail and hospitality at 76.7% and education at 69.8%, with healthcare least likely. The page also notes Google searches for advice on lying on resumes rose 19% at the end of 2023 compared with 2022, and cites a University of Toronto study finding names of Indian, Pakistani or Chinese origin were 28% less likely to get an interview than anglo-sounding names with identical qualifications.",
+    "source_urls": [
+      "https://standout-cv.com/usa/stats-usa/study-fake-job-references-resume-lies"
+    ],
+    "tag": "enriched",
+    "card_id": 9006
+  },
+  "9007": {
+    "gloss": "The 55% figure is StandOutCV's October 2022 wave, 1,785 Americans, reported by CNBC in December 2022",
+    "verbatim": "CNBC Make It, in a story published December 20, 2022 by Molly Schiff and Emmie Martin, reported that 55% of Americans have lied on their resume at least once, from a StandOutCV survey of 1,785 Americans aged 18 or older who were employed, fielded between October 12 and October 26 (2022). This is the earlier wave of the same StandOutCV study that later reported 64.2%. The eight most common resume lies and their rates: previous work experience 55.4%, skills 43.1%, college degree or equivalent 41%, personal details such as age, location or name 39.5%, high school details 39.2%, salary information 33.6%, job-specific software or equipment skills 33.5%, employer references 21%. By industry, manufacturing was highest at 72%, healthcare workers at 64% and arts at 63%. By gender, 59.9% of men admitted lying versus 50.6% of women. CNBC also reported StandOutCV's finding that Google searches about how to fake a resume were up 48% that year, and searches specifically about faking a job reference up 52%.",
+    "source_urls": [
+      "https://www.cnbc.com/2022/12/20/most-common-resume-lies.html"
+    ],
+    "tag": "enriched",
+    "card_id": 9007
+  },
+  "9008": {
+    "gloss": "An earlier ResumeBuilder.com wave, from September 2021, put resume lying at roughly 3 in 10 on 1,250 respondents",
+    "verbatim": "Staffing Hub, in an article by a staff writer dated September 30, 2021, reported on a then-new ResumeBuilder.com survey finding that approximately 3 in 10 Americans admit they have lied about key job qualifications. The survey had 1,250 respondents. The most common lies were years of experience (46%), educational background (44%), how long the applicant held a previous position (43%) and embellishing skills or abilities (40%). Almost three-quarters (72%) said they lied to improve their chances of getting hired; other reasons were lacking necessary qualifications (44%), having been fired or parted on bad terms (41%) and adding keywords to the resume (40%). Higher earners lied more: 49% of those earning $100,000-$149,000 and 46% of those earning over $150,000, versus 25% of those earning under $99,999. IT-related fields led at 55%, finance-related at 45%. Men (42%) were roughly twice as likely as women (22%) to lie. By education, 41% of those whose highest level was middle school and 45% of those with a postgraduate degree lied, versus 25% of high-school-diploma holders and 27% of bachelor's-degree holders. Of the 1,250 respondents, 41% had a job offer rescinded once found out and 18% were hired and then fired. This is a distinctly different reading from the same publisher's January 2025 survey, which put resume lying at 24% and the gender split at 30% versus 20%.",
+    "source_urls": [
+      "https://staffinghub.com/hiring/roughly-30-of-americans-admit-to-lying-on-their-resume/"
+    ],
+    "tag": "enriched",
+    "card_id": 9008
+  },
+  "9009": {
+    "gloss": "The 70% ResumeLab figure is from 2023 and covers people who lied OR would consider lying, not people who lied",
+    "verbatim": "The University of North Carolina at Chapel Hill's University Policy Office, in a blog post dated June 28, 2024 written by Ethics and Policy Intern Jaleah Taylor, states that a 2023 survey by ResumeLab revealed that 70% of job applicants have lied or would consider lying on their resumes, and that common lies include inflating job titles, falsifying degrees and exaggerating skills. The wording matters: this figure combines people who have actually lied with people who say they would consider it, which is not the same measure as the 36% ResumeLab admitted-lying figure. The post gives no sample size or country for the ResumeLab survey. It also cites the case of David Tovar, former chief spokesperson for Wal-Mart Stores Inc., who resigned after it emerged he had falsely claimed a bachelor's degree from the University of Delaware in 1996, a claim that went undetected for almost two decades until a due-diligence screening for a promotion to senior vice president.",
+    "source_urls": [
+      "https://universitypolicy.unc.edu/news/2024/06/28/the-truth-about-lying-on-resumes/"
+    ],
+    "tag": "enriched",
+    "card_id": 9009
+  },
+  "9010": {
+    "gloss": "AMS Inform's February 2026 post gives ranges rather than the round numbers, and adds India-specific verification data",
+    "verbatim": "A later AMS Inform post, \"What Candidates Lie About Most: A Data-Driven Look at Background Check Discrepancies\", bylined Sachin Aggarwal and dated February 23, 2026, gives different and vaguer figures than the same company's 2024 list. It says that across the background verification industry globally, research suggests between 25% and 30% of education credentials listed on CVs contain some form of inaccuracy, exaggeration or outright fabrication, and that employment date discrepancies appear in between 15% and 20% of checks conducted at the senior level, citing only \"research from background screening providers\" with no named study. It adds one dated, specific data point: in India, employment-verification discrepancies rose 44% between FY21 and FY24, from 9.9% to 14.26%, as companies tightened checks. It also states that nearly half of Gen Z candidates say they have lied on job applications, again without naming the survey. AMS Inform's own operations span 160-plus countries; the company was founded in 1986 and is headquartered in Noida, India.",
+    "source_urls": [
+      "https://www.amsinform.com/fake-degree/what-candidates-lie-about-most-a-data-driven-look-at-background-check-discrepancies/"
+    ],
+    "tag": "enriched",
+    "card_id": 9010
+  },
+  "9011": {
+    "gloss": "An undated social post recycles the 64.2% and 55% StandOut CV figures side by side, showing how the numbers travel without dates",
+    "verbatim": "An undated Facebook video post by MPWR Services repeats the StandOut CV numbers as current: it states that according to a survey by StandOut CV, 64.2% of employees admitted to lying about their skills, experience or references at least once, \"up from 55% in 2022\", and that Google searches in the U.S. for \"lying on resumes\" shot up by 19% \"last year\". It also cites a study by recruitment agency Oriel Partners Limited finding that tools like ChatGPT are making an average of 14 embellishments per resume, with no sample size, date or methodology given for that study. The post carries no publication date, so a reader cannot tell which year \"last year\" refers to, which is the exact failure mode this section is about.",
+    "source_urls": [
+      "https://www.facebook.com/MPWRservices/videos/would-you-lie-on-your-resume-%EF%B8%8F-last-year-google-searches-in-the-us-for-lying-on-/1182729049682088/"
+    ],
+    "tag": "enriched",
+    "card_id": 9011
+  },
+  "9012": {
+    "gloss": "Employ's 2025 Job Seeker Nation Report: 52% of applicants use AI to write or review resumes, down from 58% in 2024",
+    "verbatim": "ABC11 (WTVD Raleigh-Durham), reporting 3 September 2025, cites the 2025 Job Seeker Nation Report by Employ: 69% of applicants say they use artificial intelligence to find or match their work history with relevant job listings, up one percentage point from 2024. In the same 2025 report, Employ found 52% of applicants write or review resumes using artificial intelligence, down from 58% in 2024. The same piece cites career website Zety finding 58% of HR managers believe it is ethical for candidates to use AI during their job search. No sample size, fieldwork dates or country for the Employ figures are given in this article.",
+    "source_urls": [
+      "https://abc11.com/post/job-seekers-hr-professionals-grapple-use-artificial-intelligence/17733051/"
+    ],
+    "tag": "enriched",
+    "card_id": 9012
+  },
+  "9013": {
+    "gloss": "Employ's 2025 Job Seeker Nation Report: 31% of job seekers used AI in their job search in 2025, based on 1,500+ respondents",
+    "verbatim": "Employ Inc. press release dated 24 June 2025 (Denver) announcing its 2025 Job Seeker Nation Report. Based on responses from more than 1,500 job seekers, the report finds 31 percent have used AI to support their job search in 2025, a seven-point increase over 2024. Employ says the surge is most pronounced among desk-based professionals in software, finance and government, where application volume and competition are highest. Other findings: 66 percent of job seekers report burnout from job searching, particularly in marketing, healthcare and food service; 61 percent believe AI in hiring can reduce bias; 58 percent still trust HR professionals more than algorithms. The release notes that while many job seekers are comfortable with AI screening resumes, fewer use AI for resume creation themselves. Fieldwork dates and country are not stated in the release.",
+    "source_urls": [
+      "https://www.employinc.com/news_item/report-reveals-candidates-perspectives-on-using-ai-in-the-hiring-process/"
+    ],
+    "tag": "enriched",
+    "card_id": 9013
+  },
+  "9014": {
+    "gloss": "The 52% AI-resume figure as circulated: attributed to Employ's 2025 Job Seeker Nation Report with no methodology attached",
+    "verbatim": "A Facebook video post by Corporate Intelligence Consultants states: \"52% of job applicants now use AI to write their resumes. That's from Employ's 2025 Job Seeker Nation Report, and honestly, the number will only go up.\" The post argues most AI use is harmless (cleaning up wording, fixing formatting) but that AI makes it as easy to invent a job title or a degree as to fix a typo, and the invented version reads exactly as polished as the real one; its recommended fix is verification with the source institution, which either holds the record or does not. The post carries no sample size, fieldwork dates or country for the 52% figure — an example of the statistic travelling without its survey attached.",
+    "source_urls": [
+      "https://www.facebook.com/corpintel/videos/52-of-job-applicants-now-use-ai-to-write-their-resumes-thats-from-employs-2025-j/1744240576796402/"
+    ],
+    "tag": "enriched",
+    "card_id": 9014
+  },
+  "9015": {
+    "gloss": "Employ's 2025 Recruiter Nation Report (released 15 Oct 2025) covers US talent teams, not applicant AI resume use",
+    "verbatim": "Employ Inc. press release, Denver, 15 October 2025, announcing the 2025 Recruiter Nation Report — \"Recruiting Realities: What's Shaping TA Today\" — described as a data-driven view of how U.S. talent teams are reinventing their strategies. Headline findings, all about recruiters rather than applicants: 70% of recruiters report increased hiring year-over-year; 52% of respondents say getting more candidates per role is their top priority, surpassing candidate quality for the first time in two years; 67% of TA leaders plan to increase spend, with 52% investing in new recruiting technology; 65% of recruiters already use AI within their workflows; 82% are satisfied with current systems but 76% expect to replace their primary recruiting platform within two years. Employ is the parent of the JazzHR, Lever and Jobvite ATS platforms and says it is trusted by more than 23,000 customers. Note the coincidence of two different 52% figures in Employ's 2025 reporting: this recruiter-side 52% (more candidates per role is the top priority) is a separate statistic from the job-seeker-side 52% AI resume figure in the Job Seeker Nation Report. No sample size or fieldwork dates are given in this release.",
+    "source_urls": [
+      "https://www.employinc.com/news_item/recruiter-nation-2025-whats-shaping-talent-acquisition-today/"
+    ],
+    "tag": "enriched",
+    "card_id": 9015
+  },
+  "9016": {
+    "gloss": "ResumeBuilder.com, February 2023: 46% of job seekers used ChatGPT for resumes/cover letters, 51% specifically for resumes (n=1,000 US, fielded 7 Feb 2023)",
+    "verbatim": "ResumeBuilder.com survey published 13 February 2023. Methodology as stated on the page: commissioned by ResumeBuilder.com and conducted online via the survey platform Pollfish on 7 February 2023; 1,000 US participants completed the full survey; all participants passed demographic filters confirming they were employed for wages or out of work and looking for work. The survey covered current and recent job seekers, defined as having looked for a job within the past two months. Findings: 46% of job seekers are using ChatGPT to write their resumes and/or cover letters — of the initial 2,153 screened current and recent job seekers, 1,000 said they wrote resumes and/or cover letters with ChatGPT's help. Broken out, 72% used ChatGPT for cover letters and 51% for resumes. Also: 69% report a somewhat (50%) or much (19%) higher response rate from companies; 78% got an interview using ChatGPT-written materials; 59% were hired; 40% say an interviewer was never aware they used ChatGPT; 11% of the total sample were denied a job after the interviewer discovered the ChatGPT use; 76% rate the ChatGPT materials high (52%) or very high (24%) quality; 28% did only a little (17%) or no (11%) editing; 88% are somewhat (41%) or highly (47%) likely to keep using ChatGPT for applications. ChatGPT had launched under three months before the fieldwork. Stacie Haller, ResumeBuilder's Chief Career Advisor, is quoted saying hiring managers cannot evaluate skills from materials the candidate did not write, and that the most important part of hiring remains interviews, skills and personality testing, and references.",
+    "source_urls": [
+      "https://www.resumebuilder.com/3-in-4-job-seekers-who-used-chatgpt-to-write-their-resume-got-an-interview/"
+    ],
+    "tag": "enriched",
+    "card_id": 9016
+  },
+  "9017": {
+    "gloss": "ResumeTemplates.com, November 2023: 26% had already used AI to write a resume; 66% of prospective job changers planned to",
+    "verbatim": "ResumeTemplates.com survey published 13 November 2023, of 800 American workers, asking about plans for the year ahead. Findings: 35% of workers say they are very likely (12%) or likely (23%) to quit their job next year; 55% say they will likely apply for a new job; of that group, 66% will apply with a resume created by AI; more than one-third of job seekers will exaggerate their ability to use AI on their resume; and 16% of workers have already gotten a job using a resume created by AI. Note the page has since been retitled to refer to 2026 while the November 2023 last-updated date and the 800-worker November fieldwork remain, so the year label on this page no longer matches the survey behind it.",
+    "source_urls": [
+      "https://www.resumetemplates.com/half-of-workers-will-apply-for-new-jobs-in-2024-majority-will-use-ai-generated-resume/"
+    ],
+    "tag": "enriched",
+    "card_id": 9017
+  },
+  "9018": {
+    "gloss": "The same ResumeTemplates November 2023 survey, with full methodology: n=800, fielded 9 Nov 2023 via SurveyMonkey, US",
+    "verbatim": "StaffingHub press release dated 27 November 2023 carrying the ResumeTemplates.com survey release (SEATTLE, 21 November 2023, PRNewswire-PRWeb). Methodology as stated: ResumeTemplates.com conducted the survey on 9 November 2023 using SurveyMonkey; respondents were collected via SurveyMonkey Audience as a national sample of 800 employed Americans representative of the US population by age, gender and income. Findings on AI resume use: of workers who say they will apply for new jobs in 2024, 2 in 3 are very likely or likely to apply using a resume created by AI, and 62% are likely to use AI to write their cover letter. On past behaviour: 26 percent of respondents say they have used AI to write a resume in the past, and 24 percent have used it to write a cover letter. On editing: 92 percent say they had to make manual edits to their AI-generated resumes and 85 percent to their AI-generated cover letters. Wider findings: 35 percent of workers say they are very likely or likely to quit in 2024; 55 percent likely to apply for new jobs; among those, 68 percent cite higher salary, 51 percent work-life balance, 45 percent better benefits. Andrew Stoner, ResumeTemplates' Executive Resume Writer and Career Coach, is quoted on salary and post-COVID work-life balance.",
+    "source_urls": [
+      "https://staffinghub.com/press-releases/resumetemplates-com-survey-finds-55-percent-of-workers-will-apply-for-new-jobs-in-2024-majority-will-use-ai-generated-resume/"
+    ],
+    "tag": "enriched",
+    "card_id": 9018
+  },
+  "9019": {
+    "gloss": "CoverSentry's compiled series: AI resume use rose 13.1% (Feb 2024) to 18.2% (May 2024) to 36.5% (Oct 2024), flat at 36.5% (Jan 2025)",
+    "verbatim": "CoverSentry's AI job search statistics page compiles survey data collected between February 2024 and January 2025, each point tied to a named survey and sample size. The share of applicants who used AI to write resumes: 13.1% in Feb 2024, 18.2% in May 2024, 36.5% in Oct 2024, 36.5% in Jan 2025. For cover letters: 11.2% (Feb 2024), 13.9% (May 2024), 28.4% (Oct 2024), 32% (Jan 2025). The underlying studies named are: ResumeBuilder US survey (Feb 2024, n=1,000); CharityJob UK Report (May 2024, n=2,309); ResumeTemplates Gen Z Study (May 2024, n=2,921); Capterra Global Study (Jun 2024, n=2,997, 11 countries); JobLeads US Research (Sep 2024, n=1,028); ResumeTemplates US Workplace Study (Oct 2024, n=1,258); MyPerfectResume Cover Letter Trends Report (Jan 2025, n=1,000). Their source table gives resume-writing AI use per study: ResumeBuilder Feb 2024 US n=1,000 at 13.1%; CharityJob May 2024 UK n=2,309 at 10.1%; ResumeTemplates May 2024 US n=2,921 at 18.2%; Capterra Jun 2024 Global n=2,997 at 23.2%; ResumeTemplates Oct 2024 US n=1,258 at 36.5%. By generation, AI use in job applications rose from Feb 2024 to Sep 2024: Gen Z 23% to 49%, Millennials 23% to 45%, Gen X 9% to 28%, Baby Boomers 3% to 10% (ResumeBuilder Feb 2024 n=1,000 and JobLeads Sep 2024 n=1,028). By gender (Feb 2024 to Sep 2024): male 25% to 37.5%, female 10% to 25.3%. Capterra's June 2024 global study found 23.2% of job seekers used AI for resumes, 19% for cover letters, 18% for interview prep and 16.8% for test assignments, and that AI users complete 41% more applications. CoverSentry states it excluded surveys showing methodological or narrative bias, noting many surveys in this space are funded by companies selling paid job search tools.",
+    "source_urls": [
+      "https://www.coversentry.com/ai-job-search-statistics"
+    ],
+    "tag": "enriched",
+    "card_id": 9019
+  },
+  "9020": {
+    "gloss": "ResumeBuilder Oct 2024 (n=948 US business leaders): 51% of US companies used AI in hiring, 82% of those to review resumes, 68% projected by end-2025",
+    "verbatim": "JobCannon's AI resume statistics hub, published 4 May 2026 by Peter Kolomiets, compiles employer-side AI adoption figures with sample sizes attached. It cites ResumeBuilder (October 2024, n=948 US business leaders) finding 51% of US companies leveraged AI in hiring as of Oct 2024, projected to reach 68% by end of 2025, with 82% of AI-using companies applying it to reviewing resumes. Other adoption figures on the page: Capterra (April 2025, n=3,256 across 11 countries) found 55% of organizations globally use AI in HR software, with 64% of those applying it to recruiting; LinkedIn's Future of Recruiting 2025 (n>1,000 talent professionals) found 37% of organizations actively integrating GenAI in recruiting; SHRM 2024 Talent Trends found 25% of organizations use AI in HR, 64% of those for talent acquisition. The page states these are 2023-2025 figures each anchored to a primary URL, with vendor blogs flagged.",
+    "source_urls": [
+      "https://jobcannon.io/blog/ai-resume-statistics-2026"
+    ],
+    "tag": "enriched",
+    "card_id": 9020
+  },
+  "9021": {
+    "gloss": "Three 2025 vendor surveys on employer rejection of AI resumes, each with sample size and fieldwork month",
+    "verbatim": "JobCannon's AI resume statistics hub (published 4 May 2026, author Peter Kolomiets) lists three independent 2025 surveys on employers rejecting AI-written resumes, each dated with its sample: Resume.io (January 2025, survey of 3,000 US hiring managers) found 49% of US hiring managers automatically dismiss resumes they identify as AI-generated, with state extremes of Iowa 71% and New Hampshire 20%. Resume Now (March 2025, n=925 US HR workers) found 62% reject AI resumes that lack personalization, 78% look for personalized details as a sign of fit, and 90% report a rise in low-effort AI-driven applications. Resume Genius (January 2025, n=1,000 US hiring managers) found 74% of hiring managers have encountered AI-generated content in applications and 58% are concerned about it. JobCannon flags that all three are vendor-published and each has a self-interest in the AI-rejection narrative, and argues the signal that survives is that generic AI prose triggers rejection rather than AI use itself.",
+    "source_urls": [
+      "https://jobcannon.io/blog/ai-resume-statistics-2026"
+    ],
+    "tag": "enriched",
+    "card_id": 9021
+  },
+  "9022": {
+    "gloss": "The \"75% ATS auto-rejection\" stat traces to a 2012 sales pitch by a startup that folded in 2013; the \"Cornell 20-60%\" stat has no source at all",
+    "verbatim": "JobCannon's AI resume statistics hub (4 May 2026) debunks two widely repeated hiring statistics at source. The \"75% of resumes are auto-rejected by ATS\" figure traces to a 2012 sales pitch by Preptel, a resume-optimization startup that went out of business in 2013; there is no published methodology, sample size or source behind it. Contradicting evidence: Jobscan, the largest ATS-optimization vendor, states \"ATS doesn't reject resumes. It stores them and allows recruiters to search using keywords\"; an Enhancv survey of US recruiters found 92% confirm their ATS does not auto-reject on formatting or content, with only 8% configuring any auto-rejection at all, typically threshold filters such as under 75% match or fewer than 7 of 10 required skills. The page argues the real filter is application volume: Workday Recruiting customers processed 173 million job applications in H1 2024, up 31% year on year, while job requisitions grew only 7% to 19 million (Workday Global Workforce Report, September 2024), meaning applications grew roughly 4x faster than openings. Separately, the LinkedIn-circulated claim that \"Cornell University candidates with manual resumes lose in selection in 20-60% of cases\" corresponds to no verifiable Cornell publication; searches across Cornell's ILR School, Cornell Career Services, NBER, arXiv and Google Scholar find no such study, and JobCannon treats the claim as fabrication.",
+    "source_urls": [
+      "https://jobcannon.io/blog/ai-resume-statistics-2026"
+    ],
+    "tag": "enriched",
+    "card_id": 9022
+  },
+  "9023": {
+    "gloss": "Randomized trial of 480,948 jobseekers: AI writing assistance raised hires 7.8%, but it measured AI as editor, not author",
+    "verbatim": "JobCannon's AI resume statistics hub (4 May 2026) summarizes the academic evidence on whether AI helps applicants. The MIT/NBER field experiment by Wiles, Munyikwa and Horton (NBER WP 30886, 2023) randomized algorithmic writing assistance covering grammar, style and spelling across n=480,948 jobseekers on a major online labor market, producing a 7.8% increase in hires for the assisted group and 8.4% higher wages ($18.62/hr vs $17.17/hr). Applicants did not change behaviour — same number of bids, same proposed wages — so writing quality was the only variable, and the effect was largest for non-native English writers, who made up over 80% of the sample. The Noy & Zhang (2023) Science paper, a pre-registered experiment with 453 college-educated professionals on real workplace writing tasks, found ChatGPT cut completion time 40% and raised blind-graded quality 18%, with weak writers benefiting most. JobCannon stresses both papers measure AI as an editor on top of human-written text, not AI generating a resume from scratch.",
+    "source_urls": [
+      "https://jobcannon.io/blog/ai-resume-statistics-2026"
+    ],
+    "tag": "enriched",
+    "card_id": 9023
+  },
+  "9024": {
+    "gloss": "AI resume detectors: GPTZero caught only 52% of texts in Scribbr's Aug 2024 test; Stanford HAI found >20% false positives on non-native English writers",
+    "verbatim": "JobCannon's AI resume statistics hub (4 May 2026) reports on the accuracy of AI-writing detectors used against resumes. Originality.ai claims 99% accuracy and a 0.5% false-positive rate for its Turbo model, on a test corpus the vendor selected. Independent testing differs: Scribbr's August 2024 evaluation found GPTZero correctly identified only 52% of texts overall, while Originality scored 76% on the same set. Stanford HAI analysis of more than 10,000 samples shows false-positive rates can exceed 20% on non-native English writers and on creative writing.",
+    "source_urls": [
+      "https://jobcannon.io/blog/ai-resume-statistics-2026"
+    ],
+    "tag": "enriched",
+    "card_id": 9024
+  },
+  "9025": {
+    "gloss": "SSRN/arXiv study of 2,245 resumes: LLM screeners are 23% to 60% more likely to shortlist candidates who used the same model",
+    "verbatim": "New York Post article by Kathianne Boniello, published 16 May 2026, on the study \"AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights\" by Jiannan Xu (University of Maryland), Gujie Li (National University of Singapore) and Jane Jiang (Ohio State University), described as an August study published on arxiv.org in February. Method: the researchers took 2,245 human-written resumes, created multiple counterfactual versions using a range of state-of-the-art LLMs including GPT-4o and Deepseek-V3.1, then simulated hiring pipelines for 24 occupations. Finding: AI evaluators were 23% to 60% more likely to select candidates who used the same LLM as the evaluator, with the effect \"most severe\" in accounting, sales and finance. The authors write that LLMs used as evaluators \"systematically prefer resumes they generated themselves over equivalent resumes written by humans\" and that left unaddressed the bias advantages candidates using the same LLM as employers while disadvantaging equally qualified applicants who do not. Boston University Professor Emma Wiles, who studies information systems and AI's labour-market impact, comments that instead of finding an applicant's true abilities, the tools find applicants the AI thinks sound like itself, and recommends tools that improve human writing rather than replace it. The article also notes Challenger, Gray & Christmas recorded more than 300,000 announced job cuts between January and April 2026, particularly in tech.",
+    "source_urls": [
+      "https://nypost.com/2026/05/16/us-news/artificial-intelligence-job-screeners-prefer-ai-written-resumes-over-human-ones-researchers-find/"
+    ],
+    "tag": "enriched",
+    "card_id": 9025
+  },
+  "9026": {
+    "gloss": "The same self-preference study as circulated on LinkedIn: LLMs favour AI-generated resumes over human ones by up to 88%",
+    "verbatim": "LinkedIn post by Vivienne Ming (posted roughly 7 months before capture) on LLM self-preference in resume screening, linking to the paper at papers.ssrn.com (abstract_id=5417394). Her summary: a large study on AI hiring finds LLMs have a self-preference bias, favouring resumes generated by AI over human-written ones by up to 88% even when candidate quality is identical, and that \"candidates using the same LLM as the evaluator are 23% to 60% more likely to be shortlisted than equally qualified applicants submitting human-written resumes\", with the worst effects in sales and accounting. Ming argues the AI is not using a deep model-based understanding of candidate quality but a model-free associative rule that pattern-matches surface structure over deep causes. In the comments, executive search professional Debbie Goodman notes recruiters now receive approximately 500 applications per recruiter, versus rarely more than about 30 per online ad before AI. Note the 88% figure appears in this LinkedIn summary of the study; the shortlisting range of 23% to 60% matches the published paper.",
+    "source_urls": [
+      "https://www.linkedin.com/posts/vivienneming_robotproof-aibias-futureofwork-activity-7417591652531445760-XszD"
+    ],
+    "tag": "enriched",
+    "card_id": 9026
+  },
+  "9027": {
+    "gloss": "LinkedIn hit 14,200 applications per minute in Feb 2026, up 58% from 2024; 41% of US job seekers admit prompt injection in applications",
+    "verbatim": "Pin's \"Future of Recruiting 2026\" post by Steven Lu, published 9 May 2026 and updated 8 June 2026, compiles dated 2025-2026 evidence on candidate-side AI. On application volume: LinkedIn applications hit 14,200 per minute in February 2026, up 58% from 2024 (attributed to Fortune/LinkedIn, 2026). On candidate AI behaviour: 41% of US job seekers admit to prompt injection in their applications, and 65% of hiring managers have caught candidates using AI deceptively. On the employer side: KPMG's Q3 2025 AI Pulse Survey recorded enterprise AI agent deployment quadrupling from 11% in Q1 2025 to 42% by Q3 2025, and 52% of talent leaders surveyed by Korn Ferry plan to add autonomous agents to their teams in 2026. On skills-based hiring: 53% of employers eliminated degree requirements in 2025 (TestGorilla), up from 30% in 2024, but Harvard Business School and the Burning Glass Institute found removing degree language alone lifts non-BA hiring by only 3.5 percentage points, while companies that built actual assessment infrastructure achieve nearly 20%. Also: only 24% of TA leaders expect headcount increases in 2026 (SHRM 2026 TA Trends), and EU AI Act enforcement for high-risk employment AI starts 2 August 2026 with fines up to €15M or 3% of global turnover. The author, who built Pin and Interseller, frames these as 2025-2026 measurements rather than speculative 2027 predictions.",
+    "source_urls": [
+      "https://www.pin.com/blog/future-of-recruiting-ai/"
+    ],
+    "tag": "enriched",
+    "card_id": 9027
+  },
+  "9028": {
+    "gloss": "83% of companies planned to use AI for resume screening by 2025; 82% already used AI to review resumes",
+    "verbatim": "The Interview Guys post, reviewed and edited by Jeff Gillis, dated 25 June 2026. Employer-side adoption figures as stated: 82% of companies currently use AI to review resumes; by 2025, 83% planned to use AI specifically for resume screening and 68% to integrate AI across their entire hiring process. Breakdown by function: candidate sourcing 58% of companies, screening 56%, nurturing prospects 55%, and 43% now use AI interviews as first-round screeners. Also: 42% of companies scan social media profiles, 63% planned to use facial recognition during video interviews by 2025, and only 8% currently use AI throughout the entire recruitment process; 99% of Fortune 500 companies already use some form of hiring automation. On candidate resistance: 66% of U.S. adults say they refuse to apply for jobs where AI plays a major role in hiring decisions, with acceptance splitting by age — 70% of job seekers aged 43 and under accept AI versus 53% of older workers. On volume: recruiters now manage 56% more open positions while processing 2.7 times more applications than three years ago, and AI recruitment tools can reduce hiring costs by up to 30% per hire. The page does not name the surveys, sample sizes or fieldwork dates behind these percentages.",
+    "source_urls": [
+      "https://blog.theinterviewguys.com/83-of-companies-will-use-ai-resume-screening/"
+    ],
+    "tag": "enriched",
+    "card_id": 9028
+  },
+  "9029": {
+    "gloss": "Capterra's 2024 Job Seeker AI Survey: nearly 3,000 job seekers across 12 countries, 58% using AI, 83% of those used it to exaggerate or lie about skills",
+    "verbatim": "A LinkedIn post by Jonny Hyde (posted about a year before the page was captured) quotes Capterra's Job Seeker AI Survey directly: 'Capterra's Job Seeker AI Survey of nearly 3,000 job seekers from 12 different countries reveals that a majority (58%) are using AI tools to help them in their current job search. And of those that are using AI, 83% say they have leveraged it to exaggerate or lie about their skills on a resume, cover letter, job application, or skills assessment.' So the 83% figure is a subset of the 58% who use AI, not of all job seekers, and the underlying study is Capterra's, with a sample of nearly 3,000 job seekers drawn from 12 countries. The post links to Capterra's article 'how to stop job application AI cheating'. The poster's own reaction was skeptical of the alarm: 'haven't people always embellished their achievements or exaggerated a little bit on their CVs?!'",
+    "source_urls": [
+      "https://www.linkedin.com/posts/jhyde2_capterras-job-seeker-ai-survey-of-nearly-activity-7242532599905026048-IEJ5"
+    ],
+    "tag": "enriched",
+    "card_id": 9029
+  },
+  "9030": {
+    "gloss": "Capterra's 2024 Job Seeker AI Survey dated to 30 Aug 2024 coverage: nearly 3,000 jobseekers globally, 58% using AI, with the task-by-task breakdown",
+    "verbatim": "Human Resources Director (HRD America), in an article by Dexter Tilo dated 30 August 2024, reports on 'Capterra's 2024 Job Seeker AI Survey, which polled nearly 3,000 jobseekers globally' and found 58% are using AI tools in their current job search. The breakdown of what they use it for: writing or refining a resume 40%, finding relevant job openings 37%, writing or refining a cover letter 33%, conducting mock interviews 31%. The article flags that more than a quarter may not be using AI appropriately: 29% use it for completing a test assignment or skills assessment, 28% for generating interview answers, and 26% for applying en masse to jobs. Brian Westfall, principal HR analyst at Capterra, is quoted: 'If a job seeker is using AI to refine their resume or cover letter, most employers won't bat an eye. It's when they're using AI to mask a skills deficiency that recruiters need to be on guard.' Capterra's recommended employer responses were to state up front which AI uses are acceptable, use detection tools for fraudulent content, shift to video or in-person interviews, lean harder on references, and give hiring managers enough time to screen thoroughly.",
+    "source_urls": [
+      "https://www.hcamag.com/us/specialization/hr-technology/1-in-2-jobseekers-using-ai-for-job-search-survey/503672"
+    ],
+    "tag": "enriched",
+    "card_id": 9030
+  },
+  "9031": {
+    "gloss": "Capterra's global study dated June 2024, n=2,997, with per-task AI usage across all job seekers",
+    "verbatim": "CoverSentry's job-seeker AI statistics page (data collected February 2024 to January 2025, published under CC BY 4.0) dates the Capterra Global Study to June 2024 with a sample of 2,997 job seekers. Its per-task figures, expressed as a share of ALL job seekers surveyed (not just AI users): resumes 23.2%, cover letters 19.0%, interview preparation 18.0%, test assignments / skills assessments 16.8%. The same page notes from the Capterra June 2024 study that job seekers using AI complete 41% more applications (1.41x). For comparison across studies it lists: ResumeBuilder (Feb 2024, US, n=1,000) 13.1% resumes, 11.2% cover letters, 9.2% skills tests; CharityJob (May 2024, UK, n=2,309) 10.1% resumes, 5% skills tests; ResumeTemplates (May 2024, US, n=2,921) 18.2% resumes; ResumeTemplates (Oct 2024, US, n=1,258) 36.5% resumes, 28.4% cover letters, 27% interview prep; MyPerfectResume (Jan 2025, US, n=1,000) 32% cover letters. CoverSentry states it excluded surveys showing methodological or narrative bias and notes many surveys in this space are funded by companies selling paid job-search tools. Also from ResumeTemplates' Gen Z study (May 2024, n=2,921): 23% of Gen Z job seekers do not edit AI-generated cover letters at all.",
+    "source_urls": [
+      "https://www.coversentry.com/ai-job-search-statistics"
+    ],
+    "tag": "enriched",
+    "card_id": 9031
+  },
+  "9032": {
+    "gloss": "2025 Greenhouse report, 4,100+ respondents in four countries, on application volume and recruiter time lost to spam",
+    "verbatim": "NACE (National Association of Colleges and Employers), in a 17 June 2026 article by Megan O'Connor, cites a 2025 Greenhouse report that surveyed more than 4,100 job applicants, recruiters, and hiring managers across four countries. It found nearly half of US job seekers (49%) submitted more applications in the past year than the year before, and 34% of recruiters reported spending up to half their workweek filtering spam and junk applications. Greenhouse CEO Daniel Chait described talent acquisition teams as drowning in application volume, and in late 2025 said trust is at an all-time low for both job seekers and recruiters.",
+    "source_urls": [
+      "https://www.naceweb.org/career-readiness/best-practices/the-ghostwritten-candidate-ai-fraud-auto-apply-and-the-fight-for-authentic-career-readiness"
+    ],
+    "tag": "enriched",
+    "card_id": 9032
+  },
+  "9033": {
+    "gloss": "Employer-side deception counts: 91% of US recruiters have spotted candidate deception, 65% of hiring managers saw AI-assisted cheating, 59% of 3,000 managers suspected AI misrepresentation",
+    "verbatim": "NACE's 17 June 2026 article by Megan O'Connor reports that 91% of US recruiters say they have spotted candidate deception of some form, and 65% of hiring managers have identified applicants appearing to cheat with AI, including reading from scripts, hiding prompt injections in resumes to bias applicant tracking system scoring, and in a smaller number of cases appearing as a deepfake during a video interview. A separate study of 3,000 American managers found 59% have personally suspected a candidate of using AI to misrepresent themselves during hiring, and nearly two-thirds believe job seekers are currently better at faking it with AI than recruiters are at detecting it. The article also cites Gartner's estimate that by 2028 one in every four candidate profiles globally will be fabricated. The author, a career coordinator and HR professional of more than 20 years, opens with three students in a single week submitting near-identical AI-generated resumes, one of whom could not say what her own resume claimed about her volunteer work at a homeless shelter because she had not written it.",
+    "source_urls": [
+      "https://www.naceweb.org/career-readiness/best-practices/the-ghostwritten-candidate-ai-fraud-auto-apply-and-the-fight-for-authentic-career-readiness"
+    ],
+    "tag": "enriched",
+    "card_id": 9033
+  },
+  "9034": {
+    "gloss": "2025 vendor surveys on employers rejecting AI-written resumes, each with publisher, month, and sample size",
+    "verbatim": "JobCannon's AI resume statistics hub (published 4 May 2026 by Peter Kolomiets, consolidating 72 statistics each anchored to a primary URL) dates and sizes three independent 2025 surveys on employer rejection of AI-generated resumes. Resume.io, survey of 3,000 US hiring managers, January 2025: 49% automatically dismiss resumes they identify as AI-generated, with state extremes of 71% in Iowa and 20% in New Hampshire. Resume Now, n=925 US HR workers, March 2025: 62% reject AI resumes that lack personalization, 78% look for personalized details as a sign of fit, and 90% report a rise in low-effort AI-driven applications. Resume Genius, n=1,000 US hiring managers, January 2025: 74% of hiring managers have encountered AI-generated content in applications and 58% are concerned about it. JobCannon flags all three as vendor-published research with a self-interest in the AI-rejection narrative, and argues the signal that survives is that generic AI prose triggers rejection, not AI use as such.",
+    "source_urls": [
+      "https://jobcannon.io/blog/ai-resume-statistics-2026"
+    ],
+    "tag": "enriched",
+    "card_id": 9034
+  },
+  "9035": {
+    "gloss": "The \"75% ATS auto-rejection\" stat traces to a 2012 sales pitch by a startup that folded in 2013, and the \"Cornell 20-60%\" stat has no source at all",
+    "verbatim": "JobCannon's AI resume statistics hub (4 May 2026) debunks two of the most-repeated resume statistics at source. The '75% ATS auto-rejection' figure traces to a 2012 sales pitch by Preptel, a resume-optimization startup that went out of business in 2013; there is no published methodology, sample size, or source behind it. Jobscan, the largest ATS-optimization vendor, states: 'ATS doesn't reject resumes. It stores them and allows recruiters to search using keywords.' An Enhancv survey of US recruiters found 92% confirm their ATS does not auto-reject on formatting or content, and only 8% configure any auto-rejection at all, typically threshold filters such as under 75% match or fewer than 7 of 10 required skills. Separately, the widely shared LinkedIn claim that 'Cornell University candidates with manual résumés lose in selection in 20-60% of cases' corresponds to no verifiable publication: a search across Cornell's ILR School, Cornell Career Services, NBER, arXiv, and Google Scholar finds no such study, and JobCannon calls it a viral hallucination. The page argues the real filter is volume, not algorithms: Workday Recruiting customers processed 173 million job applications in H1 2024, up 31% year on year, while job requisitions grew only 7% to 19 million (Workday Global Workforce Report, September 2024), meaning applications grew about four times faster than openings.",
+    "source_urls": [
+      "https://jobcannon.io/blog/ai-resume-statistics-2026"
+    ],
+    "tag": "enriched",
+    "card_id": 9035
+  },
+  "9036": {
+    "gloss": "The randomised trial showing AI writing assistance raised hires 7.8% across 480,948 jobseekers, dated 2023",
+    "verbatim": "JobCannon's hub (4 May 2026) sets the strongest causal evidence on AI-assisted resumes against the survey noise. The MIT/NBER field experiment by Wiles, Munyikwa and Horton (NBER Working Paper 30886, 2023) randomized algorithmic writing assistance covering grammar, style and spelling across n=480,948 jobseekers on a major online labor market, and produced a 7.8% increase in hires for the assisted group, with wages 8.4% higher ($18.62/hr vs $17.17/hr). Applicants did not change behaviour: same number of bids, same proposed wages, with writing quality the only variable. The effect was largest for non-native English writers, who were over 80% of the sample. Noy and Zhang (2023, Science), a pre-registered experiment with 453 college-educated professionals on real workplace writing tasks, found ChatGPT cut completion time 40% and raised blind-graded quality 18%, with weak writers gaining most. JobCannon's caveat is that both studies measure AI as an editor on human-written text, not AI generating a resume from scratch.",
+    "source_urls": [
+      "https://jobcannon.io/blog/ai-resume-statistics-2026"
+    ],
+    "tag": "enriched",
+    "card_id": 9036
+  },
+  "9037": {
+    "gloss": "AI-resume detectors are far less accurate than vendors claim and false-positive above 20% on non-native English writers",
+    "verbatim": "JobCannon's AI resume statistics hub (4 May 2026) reports on detector accuracy. Originality.ai claims 99% accuracy and a 0.5% false-positive rate on its Turbo model, measured on a test corpus the vendor itself selected. Independent testing disagrees: Scribbr's August 2024 evaluation found GPTZero correctly identified only 52% of texts overall, while Originality scored 76% on the same set. Stanford HAI analysis of more than 10,000 samples shows false-positive rates can exceed 20% on non-native English writers and on creative writing.",
+    "source_urls": [
+      "https://jobcannon.io/blog/ai-resume-statistics-2026"
+    ],
+    "tag": "enriched",
+    "card_id": 9037
+  },
+  "9038": {
+    "gloss": "Dated employer AI-adoption figures with samples: 51% of US companies (Oct 2024) rising to a projected 68%, 55% globally (Capterra, Apr 2025, n=3,256)",
+    "verbatim": "JobCannon's hub (4 May 2026) lists AI screening adoption by source and date. ResumeBuilder, n=948 US business leaders, October 2024: 51% of US companies use AI in hiring, projected to reach 68% by the end of 2025, and of those using it 82% use AI to review resumes. Capterra, n=3,256 across 11 countries, April 2025: 55% of organizations globally use AI in HR software, and 64% of those apply it to recruiting. LinkedIn's Future of Recruiting 2025, n>1,000 talent professionals: 37% of organizations are actively integrating generative AI in recruiting. SHRM 2024 Talent Trends: 25% of organizations use AI in HR, 64% of those for talent acquisition. JobCannon's summary judgement is that if an application crosses an enterprise ATS there is at least a 40% chance an AI reads it before a human does.",
+    "source_urls": [
+      "https://jobcannon.io/blog/ai-resume-statistics-2026"
+    ],
+    "tag": "enriched",
+    "card_id": 9038
+  },
+  "9039": {
+    "gloss": "Resume.org 2026 survey (n=1,399): 87% of companies use AI in recruitment, 75% let AI reject candidates with no human review",
+    "verbatim": "EmployerBranding.news, in a reference page dated 9 June 2026 by James Robbins that attributes every figure to a primary or named secondary source, reports from Resume.org (n=1,399 US workers) that 87% of companies use AI somewhere in their recruitment process as of 2026, 75% of companies allow AI to reject candidates without human review, and 62% of companies say it is extremely or very likely AI will run their entire hiring process by the end of 2026. Resume.org's funnel breakdown, as a share of AI-using companies: resume review and screening 79%, candidate assessments 66%, applicant research 63%, candidate communication 41%, onboarding 39%, AI-led interviews 34%. The same Resume.org data has 49% of US hiring managers auto-dismissing resumes they suspect are AI-generated and 62% rejecting AI resumes that lack personalisation, plus 50% of companies citing AI-introduced bias and 57% citing AI screening out qualified candidates as top concerns. The page warns the wide spread in adoption estimates reflects what is measured: Gallup (February 2026, n=23,717 US employees) puts organisational AI adoption at 41%, Indeed Hiring Lab found only 5.7% of US firms had at least one AI-related job posting in November 2025, and the Federal Reserve Board's March 2026 meta-analysis spans 5% to 40%. Indeed Hiring Lab's January 2026 analysis found almost 90% of all AI-related postings came from just 1% of companies.",
+    "source_urls": [
+      "https://employerbranding.news/resources/ai-in-hiring-statistics-2026-adoption-bias-trust-and-regulation/"
+    ],
+    "tag": "enriched",
+    "card_id": 9039
+  },
+  "9040": {
+    "gloss": "Greenhouse 2026 Candidate AI Interview Report, n=2,950 across five countries: only 26% of applicants trust AI to judge them fairly",
+    "verbatim": "EmployerBranding.news (9 June 2026) cites the Greenhouse 2026 Candidate AI Interview Report, a survey of 2,950 job seekers across the US, UK, Ireland, Germany and Australia. Only 26% of applicants trust AI to evaluate them fairly, 67% of job seekers feel uneasy about AI-led hiring systems, and nearly two-thirds of US job seekers (63%) say they have already experienced an AI interview in the past six months. The page notes most candidates were not told AI was involved until they were already in the process. For contrast it cites Pew Research Center (n=11,004, April 2023): 66% of US adults say they would not want to apply for a job if AI is used in hiring decisions. On the candidate side, Pew (n=5,123, February-March 2025) found 34% of US adults have used ChatGPT, double the 2023 share, rising to 58% among under-30s, and 21% of US workers now use AI on the job, up from 16% in 2024.",
+    "source_urls": [
+      "https://employerbranding.news/resources/ai-in-hiring-statistics-2026-adoption-bias-trust-and-regulation/"
+    ],
+    "tag": "enriched",
+    "card_id": 9040
+  },
+  "9041": {
+    "gloss": "Gartner's 1-in-4 fake candidate profiles by 2028, plus 62% of organizations hit by a deepfake attack in a 2025 cybersecurity survey",
+    "verbatim": "BambooHR's guide to stopping AI fraud in hiring states that 1 in 4 online candidate profiles worldwide will be fake by 2028, per Gartner, and cites a 2025 survey of cybersecurity leaders finding 62% of organizations had experienced at least one deepfake attack in the previous 12 months. The guide opens with a documented case: Dawid Moczadło, a cybersecurity expert at San Francisco startup Vidoc Security Lab, ended a virtual developer interview after the candidate refused to hold a hand in front of their face, revealing a deepfake; his video of the exchange spread on LinkedIn in early 2025, and he wrote it was the second such incident in two months. On resume and credential fraud specifically, BambooHR lists what AI now makes easy to fabricate: degrees or certifications from institutions that don't exist, inflated job titles or responsibilities, and employment histories that can't be verified. Its resume red flags include a resume matching the job description too perfectly, experience that reads generically without concrete examples, credentials or degrees that can't be verified, and vague or inconsistent employment gaps. Bekah Wilkerson, HR Business Partner at BambooHR, says recruiting is becoming more in-person and interactive as a result, purely to confirm candidates are real people.",
+    "source_urls": [
+      "https://www.bamboohr.com/resources/guides/stop-ai-fraud-in-hiring"
+    ],
+    "tag": "enriched",
+    "card_id": 9041
+  },
+  "9042": {
+    "gloss": "Gartner's 1-in-4 fake applicants by 2028 as recruiters cite it, plus 17% of hiring managers having met a deepfake in interviews",
+    "verbatim": "A LinkedIn thread of recruiter posts (led by tech recruiter Jayme Steinhilber) circulates Gartner's prediction that by 2028, globally, 1 in 4 job candidates will be fake, sourced to a CNBC piece on fake job seekers flooding US companies hiring for remote positions. In the same thread, staffing firm CSL Staffing states that 17% of hiring managers have already encountered deepfakes in interviews. Another post citing a global background-screening trend report says over 90% of employers discover discrepancies in background screenings, and lists the fraud types now appearing: synthetic identities, falsified degrees from fictitious institutions, AI-generated CVs and deepfake interviews, and inflated or entirely fabricated employment histories. These are recruiter posts rather than the underlying research, so the figures are second-hand attributions.",
+    "source_urls": [
+      "https://www.linkedin.com/posts/jaymeoshaben_fake-job-seekers-are-flooding-us-companies-activity-7315490157602738177-I1nf"
+    ],
+    "tag": "enriched",
+    "card_id": 9042
+  },
+  "9043": {
+    "gloss": "ATS vendors shipped AI-content classifiers in late 2025 that downgrade rather than reject, and the contradictory published figures each describe a different screening layer",
+    "verbatim": "HiredAI's June 2026 piece argues the contradictory published statistics on AI resume detection each describe one of four screening stages. Its stated figures: Resume Geni says 77% of employers actively scan for AI content; Dice says nearly half of AI-generated resumes are automatically dismissed; a Communications of the ACM survey found 78% of ChatGPT-written resumes got interviews while 11% were rejected when AI use was discovered; Jobscan says no major ATS detects AI-generated resumes. The four layers, across Workday, Greenhouse, iCIMS, Lever, SAP SuccessFactors and Oracle Taleo: (1) parsing, where about 75% of resumes have at least one parsing error and AI authorship is irrelevant; (2) keyword matching against the job description, the origin of the '71% of resumes never reach a human' claim, where Workday's HiredScore (integrated in 2024) grades every applicant A through D; (3) AI content detection, which several major ATS vendors did ship as a feature in late 2025 but which typically downgrades and routes to a lower-priority queue rather than rejecting, and which false-positives on human writers who use em dashes or the word 'however'; (4) human review, six to eight seconds per resume, where the actual rejection of AI-written resumes happens through pattern recognition rather than any detector. The page reads the 77% figure as counting employers with access to AI detection features, not necessarily those who act on them.",
+    "source_urls": [
+      "https://hiredaiapp.com/blog/can-ats-detect-ai-resume-2026/"
+    ],
+    "tag": "enriched",
+    "card_id": 9043
+  },
+  "9044": {
+    "gloss": "StandOut CV's 64.2% resume-lying figure comes from a survey of 2,100+ Americans, self-reported, benchmarked against a November 2022 wave",
+    "verbatim": "StandOut CV's US study \"How many people lie on their resume?\", by Andrew Fennell and shown as updated on March 25, 2025, states its own method in the article: \"we surveyed over 2,100 Americans to ask them about lies they may have told to get a job\", and \"We have compared all of this data to the previous results of this study from November 2022.\" So the figures are self-reported admissions by US respondents, not observed behaviour, and the study is a repeat wave of an earlier November 2022 survey. Headline results: 64.2% said they had lied on their resume at least once; 65.6% of men versus 63.3% of women; 80.4% of 18-25-year-olds versus 46.9% of those aged 65+; 25.4% lied about employer references; 29.6% lied about a college degree; 18.6% say they were never caught; 73.4% said they would consider using AI tools in 2024 to embellish or lie on a resume. The most common lies were previous salary (32.8%), skills (30.8%) and previous work experience (30.5%). The page carries no separate fieldwork window beyond the 2022 comparison point and the 2024 reference in the AI question.",
+    "source_urls": [
+      "https://standout-cv.com/usa/stats-usa/study-fake-job-references-resume-lies"
+    ],
+    "tag": "enriched",
+    "card_id": 9044
+  },
+  "9045": {
+    "gloss": "StandOut CV itself dates the 64.2% US resume-lying figure to 2024 fieldwork, in its 2026 UK follow-up",
+    "verbatim": "StandOut CV's UK study \"How many Brits lie on CVs and job interviews in 2026?\" (Andrew Fennell, updated August 10, 2026) dates its own earlier US work explicitly: \"In 2024, our U.S. research revealed that resume dishonesty is more common than many might expect. Nearly two-thirds (64.2%) of American respondents admitted they had lied on their resume at least once, with previous salary (32.8%), skills (30.8%), and work experience (30.5%) ranking as the most common areas of exaggeration.\" It repeats the dating later: \"our U.S. study in 2024 found that more than three in five (64.2%) people surveyed said they had lied on their resume at least once\", and says the UK version came \"three years later\". The UK survey's own provenance is stated: 1,004 UK adults surveyed, self-reported, covering CV embellishment, interview dishonesty and AI use. UK results: 46.3% admitted lying on their CV, 19.9% more than once, skills the most common lie (52.3%), then previous work experience (43.4%) and job titles (37.9%); 13.8% said they had been caught, and of those 47.9% faced no action; 37% admitted lying in a job interview; 34% said they had used AI during the hiring process.",
+    "source_urls": [
+      "https://standout-cv.com/blog/how-many-brits-lie-on-cvs-and-job-interviews-in-2026"
+    ],
+    "tag": "enriched",
+    "card_id": 9045
+  },
+  "9046": {
+    "gloss": "ResumeBuilder's 44% figure: a January 2025 survey of 2,000 Americans who had applied for jobs, all self-reported",
+    "verbatim": "ResumeBuilder.com's report \"1 in 4 Americans Have Lied on Their Resume\" (last updated January 28, 2025) states its provenance in the article itself: \"we share the findings from Resume Builder's January 2025 survey of 2,000 Americans who have applied for jobs.\" Every figure is a respondent self-admission, not an employer observation. Key results: 44% of Americans admit they have lied in the hiring process; 24% have lied on their resume, 19% in an interview, 6% on a cover letter; the most frequent resume lies are years of experience (38%), skills and abilities (34%) and lengths of positions held (32%); 9% have lied about disability status, 7% about race or ethnicity, 6% about veteran status; among those who lied, 36% landed a job and 28% said they got their current position that way; only 12% faced any repercussion; 64% believe lying helped them succeed professionally and 25% say it won them a higher salary; 11% of those job hunting expect to lie in applications or interviews. Generational splits on resume lying: Millennials 29%, Gen X 27%, Gen Z 20%, Boomers 13%; men 30% versus women 20%.",
+    "source_urls": [
+      "https://www.resumebuilder.com/resume-examples/1-4-americans-have-lied-on-their-resume/"
+    ],
+    "tag": "enriched",
+    "card_id": 9046
+  },
+  "9047": {
+    "gloss": "The ResumeBuilder 44% survey was released to press on February 6, 2025, and the release names the sample as 2,000 US job applicants",
+    "verbatim": "The PRWeb press release \"ResumeBuilder.com Survey Finds 1 in 4 Americans Have Lied on Their Resume\", issued from Seattle and dated Feb 6, 2025, 12:00 ET, describes the study as \"The survey of 2,000 U.S. job applicants\" and reports that 44% of Americans have lied during the hiring process. It repeats the breakdown: 24% lied on a resume, 19% in interviews, 6% on cover letters; resume lies were inflated years of experience (38%), exaggerated skills and abilities (34%), misrepresented length of previous positions (32%); 9% lied about a disability, 7% about race or ethnicity, 6% about veteran status; 36% of those who lied landed a job, 28% said it got them their current role, 64% believe it helped their career, 25% say it won a higher salary, and 11% of current job seekers plan to lie this year. This gives the press-release date (February 6, 2025) as distinct from the January 2025 fieldwork month and the January 28, 2025 report page.",
+    "source_urls": [
+      "https://www.prweb.com/releases/resumebuildercom-survey-finds-1-in-4-americans-have-lied-on-their-resume-many-say-it-helped-their-careers-302369063.html"
+    ],
+    "tag": "enriched",
+    "card_id": 9047
+  },
+  "9048": {
+    "gloss": "ResumeBuilder's other widely cited resume-lying number, 32%, is from July 2021 fieldwork with 1,250 Americans, on a page stamped December 2024",
+    "verbatim": "ResumeBuilder.com's \"1 in 3 Americans admit to lying on resume\" carries a \"Last Updated: December 26, 2024\" stamp, but the survey behind it is much older and the page says so: \"In a July survey, ResumeBuilder.com asked 1,250 Americans ages 18 and older if they had ever lied on a resume and found that roughly 3 in 10 have.\" The July in question is July 2021, dated by the article's own framing (\"The U.S. economy gained 934,000 new jobs in July 2021\"). Self-reported throughout. Findings: 32% of Americans admit to lying on their resume; the most common lie was years of experience (46%), then educational background (44%), length of a previous position (43%) and skills or abilities (40%); 44% who lied did so because they lacked the qualifications and 41% to cover up being fired or leaving on bad terms; 40% added inaccurate keywords to beat ATS software; 80% of those who lied were hired, but 41% of that group had the offer rescinded when caught and 18% were fired after starting; only 29% faced no consequences. Lying was highest in IT-related fields (55%) and finance (45%), lowest in education (18%) and healthcare (17%); 49% of those earning $100,000-$149,999 admitted lying versus 25% of those earning under $100,000.",
+    "source_urls": [
+      "https://www.resumebuilder.com/1-in-3-americans-admit-to-lying-on-resume/"
+    ],
+    "tag": "enriched",
+    "card_id": 9048
+  },
+  "9049": {
+    "gloss": "The Employ 52% AI-resume figure is from the 2025 Job Seeker Nation Report, self-reported by applicants, and is down from 58% in 2024",
+    "verbatim": "ABC11 (WTVD Raleigh-Durham), in a story by DeJuan Hoggard dated Wednesday, September 3, 2025, attributes the figure precisely: \"According to the 2025 Job Seeker Nation Report by Employ, 69% of applicants say they use artificial intelligence to find or match their work history with relevant job listings. That is up by one percent compared to 2024. Alternatively, in 2025, Employ found that 52% of applicants write or review resumes using artificial intelligence, down from 58% in 2024.\" So the 52% is applicants self-reporting their own AI use, it belongs to Employ's Job Seeker Nation report (not its Recruiter Nation report), and it is a decline from the 2024 wave rather than a rise. The article gives no sample size or fieldwork window for the Employ survey. It also cites career site Zety, which found 58% of HR managers believe it is ethical for candidates to use AI during their job search.",
+    "source_urls": [
+      "https://abc11.com/post/job-seekers-hr-professionals-grapple-use-artificial-intelligence/17733051/"
+    ],
+    "tag": "enriched",
+    "card_id": 9049
+  },
+  "9050": {
+    "gloss": "Employ's other 2025 report, Recruiter Nation, was released October 15, 2025 and has its own unrelated 52% (candidate quantity as top priority)",
+    "verbatim": "Employ Inc.'s press release \"Recruiter Nation 2025: What's Shaping Talent Acquisition Today\" is datelined \"DENVER, Oct. 15, 2025\" and announces the 2025 Recruiter Nation Report, subtitled \"Recruiting Realities: What's Shaping TA Today\", described as a view of how U.S. talent teams are working. Its respondents are recruiters and TA leaders, self-reporting. Key figures: 70% of recruiters report increased hiring year-over-year; 52% of respondents said getting more candidates per role is their top priority, surpassing candidate quality for the first time in two years; 67% of TA leaders plan to increase spend, with 52% investing in new recruiting technology; 65% of recruiters already use AI within their workflows; 82% are satisfied with their current systems yet 76% expect to replace their primary recruiting platform within two years. This matters for dating stats: Employ published two different 2025 surveys, and this recruiter-side 52% (candidate quantity priority, and separately tech investment) is a different number from the applicant-side 52% who use AI to write or review resumes. Employ owns the ATS platforms JazzHR, Lever and Jobvite and says it serves more than 23,000 customers.",
+    "source_urls": [
+      "https://www.employinc.com/news_item/recruiter-nation-2025-whats-shaping-talent-acquisition-today/"
+    ],
+    "tag": "enriched",
+    "card_id": 9050
+  },
+  "9051": {
+    "gloss": "Employ's 2025 Recruiter Nation Report surveyed more than 1,200 talent acquisition professionals",
+    "verbatim": "A LinkedIn post from Employ, reshared by its ATS brands Lever, Jobvite and JazzHR, states the sample size for the 2025 Recruiter Nation Report: \"76% of 1,200+ TA pros are planning for new systems because their tools are missing key ingredients.\" The same posts cite two further findings from that report: 67% are increasing spend on AI-powered recruiting tech, and 42% say automation already cuts stress and boosts productivity. The respondents are talent acquisition professionals self-reporting on their own tooling and plans. The posts are dated 10 months before the page was captured and point to the report as \"out now\", consistent with the October 2025 release.",
+    "source_urls": [
+      "https://www.linkedin.com/posts/lever-_recruiternation-hiringtrends-aiinhr-activity-7389668647373262848-Iczx"
+    ],
+    "tag": "enriched",
+    "card_id": 9051
+  },
+  "9052": {
+    "gloss": "The 6-8 second resume scan stat traces to a 2018 Ladders eye-tracking study that published no sample size or method",
+    "verbatim": "StandOut CV's analysis \"How long do recruiters spend looking at your resume?\" (Andrew Fennell, page updated February 25, 2025, study stamped Updated Nov 2023) traces the ubiquitous 6-8 second figure to two studies, the first being Ladders, a US job site advertising roles paying over $100k. It says Ladders \"carried out an 'eye-tracking' study in 2018 where they used eye tracking sensor technology to record which sections of a resume recruiter focused on when reviewing it\", producing a four-page PDF of heat maps, and that the study found recruiters spend 7.4 seconds performing an initial screen of a resume on average, scanning for job titles and subheadings. Crucially for provenance, the page reports that the methodology is a two-sentence statement at the bottom of the PDF and that Ladders never disclosed who was studied, how many recruiters took part, from which industries, how many resumes were reviewed, which eye-tracking technology was used, or how the averages were calculated. Fennell's verdict is that the study is not reliable and may never have been carried out. This is an observed-behaviour claim (eye tracking) rather than self-report, but with no published sample.",
+    "source_urls": [
+      "https://standout-cv.com/usa/stats-usa/how-long-recruiters-spend-looking-at-resume"
+    ],
+    "tag": "enriched",
+    "card_id": 9052
+  },
+  "9053": {
+    "gloss": "The second source behind resume-scan-time stats is Workopolis's Canadian recruiter database study, which measured behaviour rather than asking",
+    "verbatim": "The same StandOut CV analysis names the second study behind the 6-8 second claim: a Workopolis recruiter database study carried out in Canada. Workopolis, a Canadian job site and Indeed partner, studied logged user behaviour of recruiters searching its resume database, recording how long they spent on each resume and whether they saved or discarded it, then published the findings in a short blog post. Its results: nearly 60% of employers spend 11 seconds or less viewing a resume before saving or closing it; almost 80% of resumes do not get shortlisted and never pass the first screen; only 14% of recruiters spend more than one minute looking at a resume. Because it comes from database logs, this is observed behaviour, not recruiter self-report, though the page notes Workopolis does not explicitly state the method in the article and that the research is several years old. Elsewhere the page reports that recruiters themselves say they spend anywhere between 8 seconds and 15 minutes reviewing a resume, and that on average only 11% of applicants are considered suitable for the roles they apply to.",
+    "source_urls": [
+      "https://standout-cv.com/usa/stats-usa/how-long-recruiters-spend-looking-at-resume"
+    ],
+    "tag": "enriched",
+    "card_id": 9053
+  },
+  "9054": {
+    "gloss": "StandOut CV's headline resume-statistics page is a January 2023 study of 25,000 resumes plus 100 recruiters, still carrying a 2026 title",
+    "verbatim": "StandOut CV's \"Resume statistics\" page for the USA is titled \"the latest data for 2026\" but its own subtitle dates the underlying research: \"Study, recruiter survey and analysis of 25,000 resumes | Jan 2023\". It is bylined Andrew Fennell and stamped updated February 25, 2025. The method is stated in the text: \"We collated all of the most important resume statistics from across the web, analyzed over 25,000 of our users' resumes, and surveyed 100 recruiters.\" So the sample is 100 recruiters plus 25,000+ user resumes, a mix of self-report and file analysis, and it also aggregates third-party figures. Its \"Key resume statistics 2023\" list includes: 250 resumes per live job advert (attributed to Glassdoor); recruiters spend 6-8 seconds reviewing resumes, attributed to \"an eye-tracking study carried out by a US job board\"; 55% of Americans have lied on their resume at least once; 75% of resumes rejected by ATS software; fewer than 1 in 10 resumes reach the hiring manager; 3 in 10 rejected for an unprofessional email address (attributed to Motley Fool); a 2-page resume preferred by 90% of recruiters (attributed to a Flexjobs survey); average resume length 1.6 pages; job seekers spend 1 hour 10 minutes writing a resume; 3% of resumes result in an interview (attributed to CareerSidekick); 98% of large organisations use an ATS (attributed to Onrec); 51 resumes sent on average to secure a job. Note the 55% lying figure here sits against the 64.2% from the same publisher's later survey.",
+    "source_urls": [
+      "https://standout-cv.com/usa/stats-usa/resume-statistics"
+    ],
+    "tag": "enriched",
+    "card_id": 9054
+  },
+  "9055": {
+    "gloss": "The Capterra AI figure circulating in 2025 write-ups is 58% of job seekers using AI, cited with no fieldwork date or sample size",
+    "verbatim": "Sergio Rio's long analysis \"Is Your Next Hire Real? Detecting AI-Generated Resumes and Augmenting the Modern Recruiter\" cites Capterra once: \"A Capterra survey found that 58% of job seekers are now leveraging AI in their search, and those who do can complete 41% more applications than their counterparts who do not use AI.\" The citing page gives no survey year, no fieldwork window, no sample size and no country for that Capterra survey, and the figures are job-seeker self-reports of their own AI use. The same page's other volume claims: LinkedIn reports application submissions up over 45% in a year, reaching an average of 11,000 applications every minute; a single remote tech role requiring three years of experience drew 400 applications in 12 hours, 600 within a day and over 1,200 before the listing was pulled; one graduate student used LLMs to submit 1,200 tailored applications in a few weeks; and a cited projection holds that by 2028 one in four job applicants globally could be fake.",
+    "source_urls": [
+      "https://sergiorio.tech/flow/authenticity-arms-race-detecting-ai-generated-resumes-and-augmenting-the-modern-recruiter"
+    ],
+    "tag": "enriched",
+    "card_id": 9055
+  },
+  "9056": {
+    "gloss": "A July 2026 resume-stats roundup republishes the same undated 6-8 seconds and 75% ATS numbers, with one dated sample of 12,012 resumes",
+    "verbatim": "Skillademia's \"2026 Resume Statistics & Facts\", marked \"Updated July 2026\" and \"Reviewed by the Skillademia editorial team\", presents a key-stats box with no fieldwork dates attached to any figure: 90% of employers use applicant tracking systems; 75% of resumes rejected by ATS before a human sees them; 6-8 seconds spent scanning a resume; 3% of resumes result in an interview; 250 applications per corporate job opening; 21-80 applications to land one job offer; 475-600 words as the ideal resume length; 70% of recruiters check work experience first. Its attributions, where given, are to other aggregators rather than to primary fieldwork: StandOut CV for the most common resume font (Arial, 8 in 10 applicants), Find My Profession for best fonts and the 10-12pt font size, Ladders for the 475-600 word sweet spot (past 600 words, 43% less likely to be hired; resumes over 600 or under 450 words have a success rate below 5% against 8.2% inside the range), The Motley Fool for 17% of hiring managers refusing two-page resumes, and Novoresume for the claim that more than 80% of US applications are rejected when the candidate includes a photo. The one stated sample size is Enhancv's section analysis: of 12,012 resumes analysed, about 86% include a location or address in the header, about 87% use a personal email address, about 10% a company email and about 3.5% a university email.",
+    "source_urls": [
+      "https://www.skillademia.com/statistics/resume-statistics/"
+    ],
+    "tag": "enriched",
+    "card_id": 9056
+  }
+}

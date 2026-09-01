@@ -1,0 +1,56 @@
+{
+  "9001": {
+    "gloss": "Google's Project Aristotle: psychological safety, not team composition, predicted effectiveness across 180 teams",
+    "verbatim": "Ohio State University's Fisher College of Business blog (Lead Read Today, article by Richard Batts, February 2026) recounts Google's Project Aristotle, launched in 2012 to find the 'dream team' formula. Google analyzed 180 teams and found that who was on the team (PhDs vs. introverts vs. friends) mattered far less than how team members treated one another. Applying Amy Edmondson's research, Google identified psychological safety — the belief that you won't be punished for a mistake or a dissenting opinion — as the foundational floor for all high performance. Google's data showed high-safety teams were rated 'effective' twice as often as low-safety teams and consistently exceeded revenue targets. Two specific behaviors created that safety: social sensitivity (reading others' emotions) and conversational turn-taking (ensuring everyone speaks roughly the same amount). The same article notes research showing employees are 50% less likely to report 'near-miss' errors in cultures that punish mistakes, and cites Edmondson's 1999 study (Administrative Science Quarterly, 44(2), 350-383) finding that employees in low-safety groups engage in 'impression management' — prioritizing professional reputation over telling the truth, so dissenting opinions disappear and flawed plans proceed unchallenged.",
+    "source_urls": [
+      "https://fisher.osu.edu/blogs/leadreadtoday/psychological-safety-work-why-two-teams-speak-or-stay-silent"
+    ],
+    "tag": "enriched",
+    "card_id": 9001
+  },
+  "9002": {
+    "gloss": "Edmondson's four research-backed steps for building psychological safety, distilled from 185 papers",
+    "verbatim": "Harvard Business School Working Knowledge (Kara Baskin, June 14, 2023) reports on a new analysis by HBS professor Amy C. Edmondson and Harvard doctoral researcher Derrick P. Bransby that distills insights from 185 research papers on psychological safety. Edmondson coined the term 'team psychological safety' in the 1990s to describe work environments where candor is expected and employees can speak up without fear of retribution; the idea went mainstream in 2012 when Google's Project Aristotle identified it as a key component of successful teams. Edmondson says it is 'literally mission critical in today's work environment' and that leading or managing through fear no longer works, 'either as a motivator or as an enabler of high performance.' The analysis identifies four research-backed steps leaders can take, the first of which is to encourage teams to bond through day-to-day tasks: knowledge-sharing, teamwork and shared decision-making require interpersonal ease, and the act of being productive together becomes a feedback loop that bonds a team and creates the conditions for safety. As Edmondson puts it, 'Uncertainty and interdependence are attributes of most work today. And, therefore, without an ability to be candid, to ask for help, to share mistakes, we won't get things done.'",
+    "source_urls": [
+      "https://www.library.hbs.edu/working-knowledge/four-steps-to-build-the-psychological-safety-that-high-performing-teams-need-today"
+    ],
+    "tag": "enriched",
+    "card_id": 9002
+  },
+  "9003": {
+    "gloss": "1,150 leaders in 160 Norwegian management teams: psychological safety improves team effectiveness via behavioral integration",
+    "verbatim": "A study in the International Journal of Environmental Research and Public Health (Mogård, Rørstad and Bang, University of Oslo; published 27 December 2022, 20(1):406) surveyed 1,150 leaders across 160 Norwegian management teams, with team sizes ranging from 3 to 19 members. It found a significant indirect effect of psychological safety on management team effectiveness, mediated by behavioral integration: the more team members perceived the climate as safe enough to speak their mind without fear of repercussions, the more they took part in mutual collaboration, information sharing, and shared ownership of decisions — and those teams performed better. Psychological safety was positively related to behavioral integration, and both psychological safety and behavioral integration were positively related to team effectiveness. The authors note the effect holds for management teams at all levels of the organizational hierarchy.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9819141/"
+    ],
+    "tag": "enriched",
+    "card_id": 9003
+  },
+  "9004": {
+    "gloss": "1,000 Japanese workers: job resources drive engagement more than affectivity traits do",
+    "verbatim": "A study of 1,000 full-time Japanese regular workers, published in BMC Psychology on 3 August 2023 (Fukuzaki and Iwata, 11:219), used an online survey and hierarchical multiple regression to compare how negative affectivity, positive affectivity, and job demands and resources relate to work engagement versus psychological distress. Negative and positive affectivity explained a smaller proportion of the variance in work engagement than they did in psychological distress, while job demands and resources explained a higher proportion of the variance in work engagement than in psychological distress. In other words, the trait dispositions mattered less for engagement than the work conditions did. The authors conclude that enriching job resources would be effective both for improving work engagement and for alleviating psychological distress. The paper also cites Young et al.'s meta-analysis of personality traits and work engagement, which found positive affectivity was the trait most strongly associated with work engagement, and notes that negative affectivity is a personality trait strongly associated with work environment factors and stress responses — with a live methodological debate over whether researchers should statistically control for it, since doing so removes true variance and can distort the effects of job stressors.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10401739/"
+    ],
+    "tag": "enriched",
+    "card_id": 9004
+  },
+  "9005": {
+    "gloss": "Two samples, N = 1,293: an error management culture that allows mistakes tracks better well-being, on and off the job",
+    "verbatim": "A study in the International Journal of Applied Positive Psychology (Stephan, Hudecek, Frey and Lermer; published 20 December 2025, volume 11, article 1, 2026) analyzed two independent samples of employed participants, total N = 1,293, using bivariate correlations and multiple regression. It distinguishes an error-prevention culture, where mistakes become the basis for blaming employees, from an error management culture (EMC), which involves transparency about errors and treats them as an opportunity to learn (per Frese and Keith, 2015; Van Dyck et al., 2005). Results replicated the established positive relationship between EMC and both psychological capital (PsyCap) and job satisfaction at work, and additionally found a positive relationship between EMC and well-being in employees' private lives outside work. PsyCap and job satisfaction both played an essential role in the link between EMC and well-being. The authors conclude that companies should invest in an error management culture that allows for mistakes, because it relates positively not only to work-relevant variables but to employees' personal well-being, supporting them in times of uncertainty. The paper notes errors are more likely when stress is prevalent among employees, making how mistakes are handled crucial.",
+    "source_urls": [
+      "https://link.springer.com/article/10.1007/s41042-025-00265-7"
+    ],
+    "tag": "enriched",
+    "card_id": 9005
+  },
+  "9006": {
+    "gloss": "Survey of 101 employees: psychological safety significantly predicts team learning, efficacy and productivity",
+    "verbatim": "A research article in The Open Psychology Journal (Patil, Raheja, Nair, Deshpande and Mittal; published 8 August 2023, volume 16, e187435012307090) surveyed 101 regular employees using snowball and convenience sampling, and applied regression analysis to test the effect of team psychological safety on learning behavior and team efficacy. Team psychological safety is defined as the shared belief among team members that they can take interpersonal risks without fear of negative consequences. The results found that team dynamics are significantly impacted by psychological safety, team learning and team efficacy, and thereby productivity; team psychological safety was favorably correlated with organizational work teams and positively affected team effectiveness. The authors describe psychological safety as an environment where people feel comfortable asking bold questions, sharing concerns and asking for help, producing higher team performance and lower team conflict, and note that a lack of it hits both team performance and the organization's bottom line. They argue that to improve psychological safety, leaders must first look inward to understand their own feelings and concerns before helping others. The study is limited to team learning and team efficacy; the authors flag team leadership and mentoring/coaching as areas needing further research.",
+    "source_urls": [
+      "https://openpsychologyjournal.com/VOLUME/16/ELOCATOR/e187435012307090/FULLTEXT/"
+    ],
+    "tag": "enriched",
+    "card_id": 9006
+  }
+}

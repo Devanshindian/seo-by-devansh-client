@@ -1,0 +1,122 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>What we started with</title><style>
+:root{--ink:#1c1a17;--mut:#6b6459;--line:#efe7d8;--bg:#fffdf8;--card:#fff;--wash:#fff8ec;
+      --acc:#fb7a00;--acc-soft:#ffd9b0;--yellow:#ffb703;--yellow-soft:#ffe9ad;
+      --ok:#2e7d43;--ok-bg:#e8f5ec;--no:#c2603a;--no-bg:#fdf3f0;--warn:#9a6700;--chip:#fff8ec;
+      --shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+     font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:40px 24px 120px}
+h1{font-size:clamp(26px,4vw,34px);margin:0 0 4px;letter-spacing:-.02em}
+h1 .hl,h1{background:linear-gradient(180deg,transparent 68%,var(--yellow-soft) 68%);display:inline}
+.sub{color:var(--mut);margin:10px 0 28px;display:block}
+h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);
+   margin:36px 0 10px;border-bottom:1px solid var(--line);padding-bottom:7px;font-weight:700}
+/* A failed check has to be findable at a glance in a table of green ticks. */
+tr.bad td{background:var(--pinkwash)}
+tr.bad td:first-child{color:var(--pink);font-weight:700}
+.panel.bad{border-color:var(--pinkline);background:var(--pinkwash)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;
+       margin:0 0 14px;box-shadow:var(--shadow)}
+.nums{display:flex;gap:28px;flex-wrap:wrap;background:linear-gradient(180deg,var(--wash),var(--card));
+      border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin:0 0 10px;box-shadow:var(--shadow)}
+.nums b{font-size:1.55em;display:block;color:var(--ink)}
+ins{background:var(--ok-bg);color:var(--ok);text-decoration:none;border-radius:2px;padding:0 2px}
+del{background:var(--no-bg);color:var(--no);border-radius:2px;padding:0 2px}
+details.diff{border:1px solid var(--line);border-radius:10px;padding:9px 13px;margin:8px 0;background:var(--card)}
+details.diff summary{font-weight:600;cursor:pointer;line-height:1.9}
+details.diff[open] summary{margin-bottom:6px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.dbody{margin-top:6px;font-size:.94em;line-height:1.75}
+.subh{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--acc);
+      font-weight:700;margin:14px 0 4px}
+code{background:var(--wash);border:1px solid var(--line);border-radius:4px;padding:1px 5px;font-size:.86em}
+.kwlist{margin:.3em 0;padding-left:1.3em}
+.kwlist li{margin:.35em 0}
+.map{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 30px;align-items:start}
+.mcol{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:9px 9px 11px;
+      box-shadow:var(--shadow);min-width:0}
+.mh{font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--acc);font-weight:700;
+    padding:2px 5px 7px}
+.mnote{font-size:11.5px;color:var(--warn);background:var(--wash);border:1px dashed var(--acc-soft);
+       border-radius:7px;padding:5px 8px;margin:0 3px 6px;line-height:1.45}
+.lead{color:var(--mut);font-size:.93em;margin:0 0 22px;line-height:1.6}
+.mstep{display:block;text-decoration:none;color:var(--ink);border-radius:8px;padding:5px 8px;
+       border:1px solid transparent}
+.mstep b{display:block;font-size:13.5px;font-weight:700;line-height:1.35}
+.mstep span{display:block;font-size:12.5px;color:var(--mut);line-height:1.45}
+.mstep i{display:block;font-style:normal;font-size:11px;color:var(--mut);opacity:.7;margin-top:1px}
+a.mstep:hover{background:var(--wash);border-color:var(--acc-soft)}
+a.mstep:hover b{color:var(--acc)}
+.mstep.on{background:var(--acc);border-color:var(--acc)}
+.mstep.on b,.mstep.on span{color:#fff}
+.mstep.on span{opacity:.9}
+.mstep.none{opacity:.5}
+@media(max-width:820px){.map{grid-template-columns:1fr}}
+.nums span{color:var(--mut);font-size:.8em}
+.row{padding:10px 2px;border-top:1px dashed var(--line)}
+.row:first-of-type{border-top:0}
+.row .t{font-weight:650}
+.row .m{color:var(--mut);font-size:.88em}
+.reason{margin-top:2px;font-size:.92em}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:100px;
+      padding:1px 9px;font-size:.76em;color:var(--mut);margin-left:6px;vertical-align:middle}
+.tag{display:inline-block;background:var(--yellow-soft);border-radius:100px;padding:1px 9px;font-size:.8em;
+     margin:2px 4px 2px 0;cursor:help;color:var(--ink)}
+.ok{color:var(--ok)}.no{color:var(--no)}.warn{color:var(--warn)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:700px){.grid2{grid-template-columns:1fr}}
+.bar{height:9px;background:var(--wash);border:1px solid var(--line);border-radius:5px;overflow:hidden;margin-top:3px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--yellow),var(--acc))}
+ul{margin:.3em 0;padding-left:1.3em}
+li{margin:.18em 0}
+a{color:var(--acc);overflow-wrap:anywhere}
+details{margin:6px 0}
+summary{cursor:pointer}
+.spine{font-size:1.12em;line-height:1.65;background:var(--wash);border:1px solid var(--acc-soft);
+       border-left:4px solid var(--acc);border-radius:12px;padding:18px 20px;margin:0 0 20px}
+.job{font-style:italic;color:var(--mut);margin:2px 0 6px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+.filters button{background:var(--card);border:1px solid var(--line);color:var(--ink);border-radius:100px;
+                padding:5px 13px;cursor:pointer;font-size:.85em;font-weight:600}
+.filters button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.q{color:var(--mut);font-size:.85em}
+.where{background:var(--wash);border:1px solid var(--acc-soft);border-radius:12px;padding:14px 18px;margin:0 0 22px}
+.where ol{margin:6px 0 0;padding-left:20px}
+.where li{margin:.2em 0;color:var(--mut)}
+.where li.now{color:var(--ink);font-weight:650}
+.where .lead{font-size:.9em;color:var(--mut)}
+.note{color:var(--mut);font-size:.88em;margin:-4px 0 10px}
+.from{color:var(--mut);font-size:.88em}
+.from b{color:var(--ink);font-weight:650}
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 24px}
+.nav a{background:var(--card);border:1px solid var(--line);border-radius:100px;padding:5px 13px;
+       font-size:.85em;font-weight:600;text-decoration:none;color:var(--ink)}
+.nav a.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.lede{font-size:1.06em;line-height:1.66;margin:0 0 22px;color:var(--ink)}
+.oneline{background:var(--wash);border:1px solid var(--acc-soft);border-left:4px solid var(--acc);
+         border-radius:12px;padding:16px 20px;margin:0 0 26px;line-height:1.7}
+.oneline b{white-space:nowrap}
+.stn{display:flex;align-items:baseline;gap:10px;margin:26px 0 8px}
+.stn .name{font-size:1.06em;font-weight:700}
+.stn .does{color:var(--mut);font-size:.9em}
+.step{display:grid;grid-template-columns:30px 1fr;gap:2px 10px;padding:9px 2px;
+      border-top:1px dashed var(--line)}
+.step:first-child{border-top:0}
+.step .no{color:var(--acc);font-weight:700;font-variant-numeric:tabular-nums;font-size:.92em}
+.step .nm{font-weight:650}
+.step .dsc{grid-column:2;color:var(--mut);font-size:.9em}
+.step .see{grid-column:2;font-size:.84em;margin-top:2px}
+.b{display:inline-block;border-radius:100px;padding:0 8px;font-size:.7em;font-weight:700;
+   letter-spacing:.03em;vertical-align:middle;margin-left:6px;border:1px solid var(--line);
+   background:var(--chip);color:var(--mut);text-transform:uppercase}
+.b.ai{background:var(--yellow-soft);border-color:#f2d98d;color:#6a4a00}
+.b.paid{background:var(--no-bg);border-color:#f0d3c8;color:var(--no)}
+.b.code{background:var(--ok-bg);border-color:#cfe6d6;color:var(--ok)}
+.pg{padding:14px 2px;border-top:1px dashed var(--line)}
+.pg:first-child{border-top:0}
+.pg .t{font-weight:700;font-size:1.02em}
+.pg .ask{color:var(--mut);font-size:.9em;margin-top:1px}
+.pg .cov{font-size:.84em;margin-top:5px;color:var(--mut)}
+.pg .look{font-size:.88em;margin-top:4px}
+.key{display:flex;gap:16px;flex-wrap:wrap;font-size:.84em;color:var(--mut);margin:0 0 14px}
+</style></head><body><div class="wrap"><h1>What we started with</h1><p class="sub">the-validity-numbers-adverse-impact-data — gather review</p><div class="map"><div class="mcol"><div class="mh">1 · Planner</div><a class="mstep on" href="../gather/gather-review.html" target="_blank"><b>gather</b><span>Collects everything the research phase produced.</span></a><a class="mstep" href="../planner/selection-review.html" target="_blank"><b>select</b><span>Keeps the sub-topics that earn a place, and drops the rest.</span></a><a class="mstep" href="../planner/sources-review.html" target="_blank"><b>verify-sources</b><span>Opens the page behind every statistic to check the number is really there.</span></a><span class="mstep none"><b>freeze</b><span>Locks the plan so no later step can quietly change it.</span><i>no page — nothing here to overrule</i></span><span class="mstep none"><b>plan-view</b><span>Writes the locked plan out in plain English.</span><i>no page — nothing here to overrule</i></span></div><div class="mcol"><div class="mh">2 · Architect</div><div class="mnote">All 6 open the one <b>Blueprint</b> page, each at its own section.</div><a class="mstep" href="../architect/blueprint-review.html#sections" target="_blank"><b>shape</b><span>Designs the sections and the order they come in.</span></a><a class="mstep" href="../architect/blueprint-review.html#research" target="_blank"><b>enrich</b><span>Runs the extra research the structure asked for.</span></a><a class="mstep" href="../architect/blueprint-review.html" target="_blank"><b>brand-cards</b><span>Turns the company&#x27;s own research and results into facts the article can cite.</span></a><a class="mstep" href="../architect/blueprint-review.html#sections" target="_blank"><b>allocate</b><span>Gives every section a word budget.</span></a><a class="mstep" href="../architect/blueprint-review.html#keywords" target="_blank"><b>section-keywords</b><span>Buys a real search keyword for the sections that deserve one.</span></a><a class="mstep" href="../architect/blueprint-review.html#headings" target="_blank"><b>headings</b><span>Writes the final wording of every heading, and the H1.</span></a></div><div class="mcol"><div class="mh">3 · Writer</div><a class="mstep" href="../writer/body-review.html" target="_blank"><b>write-body</b><span>Writes every section at once, none able to see the others.</span></a><a class="mstep" href="../writer/editor-review.html" target="_blank"><b>blend</b><span>Reads the whole article and cuts what did not earn its place.</span></a><a class="mstep" href="../writer/wrapper-review.html" target="_blank"><b>wrapper</b><span>Writes the intro on PAS, the FAQ, and the close.</span></a><a class="mstep" href="../writer/coherence-review.html" target="_blank"><b>coherence</b><span>Reads the whole article at once and fixes what contradicts itself.</span></a><a class="mstep" href="../writer/readable-review.html" target="_blank"><b>readable</b><span>Rewrites the whole article so a person wants to read it.</span></a><a class="mstep" href="../writer/sentence-review.html" target="_blank"><b>sentences</b><span>Re-shapes the sentences so a reader gets through them.</span></a><a class="mstep" href="../writer/slop-review.html" target="_blank"><b>slop</b><span>Strips the AI writing tells.</span></a><a class="mstep" href="../writer/links-review.html" target="_blank"><b>links</b><span>Lays in the internal and external links.</span></a><a class="mstep" href="../writer/clean-review.html" target="_blank"><b>clean</b><span>Fixes odd characters and spacing. No AI.</span></a><a class="mstep" href="../writer/article.html" target="_blank"><b>assemble</b><span>Builds the finished draft and the page you review it on.</span></a></div></div><p class="lead">Nothing has been decided yet. This is the raw material the article will be built from, and the settings it will be built to.</p><h2>The settings this run used</h2><div class="panel"><div class="row"><span class="t">H1</span><div>The Validity Numbers and Adverse-Impact Data Behind Psychometric Hiring Tests</div></div><div class="row"><span class="t">Format</span><div>data-benchmark-report</div></div><div class="row"><span class="t">Primary keyword</span><div>disparate impact</div></div><div class="row"><span class="t">Variations</span><div>adverse impact, what is disparate impact, what is adverse impact</div></div><div class="row"><span class="t">Secondary pool (for section headings)</span><div>criterion-related validity, predictive validity, disparate impact vs disparate treatment, disparate impact liability, disparate impact example, criterion-related validity example, disparate impact theory, four-fifths rule, predictive validity example, disparate impact eeoc, disparate impact analysis, validity coefficient, disparate impact claim</div></div><div class="row"><span class="t">Persona</span><div>Executive &amp; Compliance Buyer</div></div><div class="row"><span class="t">Word band</span><div>2200–2800 words</div></div></div><h2>The world — what this article is and is not about</h2><p class="note">Google returns questions and searches for the WORDS in a query, not for the audience behind them, so some of what comes back belongs to a different field that happens to share our vocabulary. The two lines below are the boundary the vetting used. Read them before judging the keeps and drops.</p><div class="panel"><div class="row"><span class="t">IS about</span><div>The statistical evidence behind pre-employment psychometric/cognitive-ability and personality assessments: validity coefficients (how well a test score predicts job performance), criterion-related validity studies, and adverse-impact data (the disparate pass/hire rates a test produces across protected groups, e.g. the four-fifths rule, EEOC guidelines, disparate-impact litigation). It covers how employers and I-O psychologists read these numbers to judge whether a hiring test is both predictive and legally defensible.</div></div><div class="row"><span class="t">is NOT about</span><div>This is NOT about clinical or medical psychometrics (validity of a diagnostic instrument like a depression or IQ clinical scale, test-retest reliability in a clinical/research psychology sense). It is NOT about general statistical &#x27;validity&#x27; in research methodology, survey design, or scientific studies unrelated to hiring. It is NOT about &#x27;adverse impact&#x27; or &#x27;adverse events&#x27; as used in medicine/pharmacovigilance (drug side effects). It is NOT about credit-scoring or lending &#x27;adverse action&#x27; notices, which use similar disparate-impact language under different law (ECOA/FCRA) rather than employment law (Title VII/EEOC). It is NOT about broader DEI or workplace-culture diversity metrics unconnected to a specific test&#x27;s pass-rate data. It is NOT about personality/psychometric tests used for non-hiring purposes such as team-building, coaching, or consumer personality quizzes (e.g. Myers-Briggs marketed to general audiences). It is NOT about academic testing validity (SAT/GRE admissions test validity), even though the same statistical vocabulary (validity coefficients, adverse impact) is used in that literature.</div></div></div><h2>People-Also-Ask questions — kept 3 of 12</h2><div class="grid2"><div class="panel"><b class="ok">Kept</b><ul><li>What is an example of disparate impact?</li><li>Is disparate impact still illegal?</li><li>What is the 80% rule for disparate impact?</li></ul></div><div class="panel"><b class="no">Dropped</b><ul><li>Can you sue a company for being racist?</li><li>Can a white person sue for racial discrimination?</li><li>How to prove a hostile work environment?</li><li>How can I prove I am being targeted at work?</li><li>How to say toxic work environment professionally?</li><li>Can you give me some examples of silent treatment at work?</li><li>What words does HR not want to hear?</li><li>How to annoy a toxic coworker?</li><li>How to tell if a manager is targeting you?</li></ul><p class="q">The vet call returns only the keeps, so no per-drop reason is on record. A drop means one of two things: off-topic for this article, or belonging to the world in the NOT ABOUT line above.</p></div></div><h2>Related searches — kept 7 of 8</h2><div class="grid2"><div class="panel"><b class="ok">Kept</b><ul><li>Disparate impact examples</li><li>Disparate treatment</li><li>Disparate treatment vs disparate impact</li><li>Disparate impact discrimination</li><li>Disparate impact test</li><li>Disparate impact analysis</li><li>Disparate impact theory</li></ul></div><div class="panel"><b class="no">Dropped</b><ul><li>Disparate impact Title VI</li></ul><p class="q">The vet call returns only the keeps, so no per-drop reason is on record. A drop means one of two things: off-topic for this article, or belonging to the world in the NOT ABOUT line above.</p></div></div><h2>Research depth per section (cards available)</h2><div class="panel"><div class="row"><div class="t">UGESP: the 1978 federal standard that defines a valid hiring test <span class="chip">9 cards</span></div><div class="bar"><i style="width:33%"></i></div></div><div class="row"><div class="t">Where the validity coefficients come from: criterion-related validation <span class="chip">15 cards</span></div><div class="bar"><i style="width:56%"></i></div></div><div class="row"><div class="t">Validity coefficients by method, and the group differences that ride along with them <span class="chip">13 cards</span></div><div class="bar"><i style="width:48%"></i></div></div><div class="row"><div class="t">The 2021 Sackett revision cut published validity coefficients by .10 to .20 <span class="chip">11 cards</span></div><div class="bar"><i style="width:41%"></i></div></div><div class="row"><div class="t">Cognitive ability: validity of .51, reanalysed to .31, still the strongest single predictor <span class="chip">20 cards</span></div><div class="bar"><i style="width:74%"></i></div></div><div class="row"><div class="t">Personality tests: conscientiousness predicts performance at r = .20-.30, and pairs with cognitive ability for R = .60 <span class="chip">11 cards</span></div><div class="bar"><i style="width:41%"></i></div></div><div class="row"><div class="t">Personality tests: mixed validity evidence and ADA adverse-impact exposure <span class="chip">11 cards</span></div><div class="bar"><i style="width:41%"></i></div></div><div class="row"><div class="t">Situational judgment tests: validity of .26 to .34, and small gains over cognitive ability <span class="chip">26 cards</span></div><div class="bar"><i style="width:96%"></i></div></div><div class="row"><div class="t">Situational judgment tests: lower predictive validity, smaller group differences (d = 0.38) <span class="chip">5 cards</span></div><div class="bar"><i style="width:19%"></i></div></div><div class="row"><div class="t">Cognitive ability tests produce the largest adverse impact of any assessment type <span class="chip">8 cards</span></div><div class="bar"><i style="width:30%"></i></div></div><div class="row"><div class="t">Adverse impact in cognitive testing: the group-difference numbers and what shrinks them <span class="chip">18 cards</span></div><div class="bar"><i style="width:67%"></i></div></div><div class="row"><div class="t">Personality tests: adverse impact traces to selection ratio and faking, not group score gaps <span class="chip">5 cards</span></div><div class="bar"><i style="width:19%"></i></div></div><div class="row"><div class="t">SJT subgroup gaps sit near d=0.38, roughly a third of the cognitive-test gap <span class="chip">27 cards</span></div><div class="bar"><i style="width:100%"></i></div></div><div class="row"><div class="t">The four-fifths rule: an 80% pass-rate ratio that flags adverse impact but does not prove it <span class="chip">12 cards</span></div><div class="bar"><i style="width:44%"></i></div></div><div class="row"><div class="t">Adverse-impact numbers in court: the disparate-impact standard and which tests survive it <span class="chip">11 cards</span></div><div class="bar"><i style="width:41%"></i></div></div><div class="row"><div class="t">The EEOC record: 88,000 charges in FY2024, then the 2025 enforcement reversal <span class="chip">19 cards</span></div><div class="bar"><i style="width:70%"></i></div></div><div class="row"><div class="t">The state and city AI hiring laws that turn adverse-impact numbers into a compliance requirement <span class="chip">5 cards</span></div><div class="bar"><i style="width:19%"></i></div></div><div class="row"><div class="t">Adverse impact is a fixable property of test use, not a fixed trait of the test <span class="chip">14 cards</span></div><div class="bar"><i style="width:52%"></i></div></div></div><h2>The winners study</h2><div class="panel"><details><summary>Gaps we chose to own (3)</summary><ul><li>No readable competitor ties disparate impact to actual assessment types (cognitive, personality, situational judgment, etc.) or shows predictive-validity research per type — this is the core of the distinct angle and appears fully open.</li><li>No readable competitor cites EEOC adverse-impact data/enforcement evidence broken out by assessment type — same gap, unaddressed.</li><li>The dominant readable content is legal-risk/EO framing aimed at HR/legal compliance, not evidence-backed &quot;does this assessment actually predict performance without disparate impact&quot; — the science-backed angle has no visible incumbent here.</li></ul></details><details><summary>What every winning article covers (0)</summary><ul></ul></details><details><summary>Where winners drift off-topic (1)</summary><ul><li>The one readable page (jacksonlewis.com) is a law-firm legal update on a 2025 Executive Order pushing to eliminate disparate impact liability — it covers litigation/compliance risk for employers generally, not hiring assessments specifically, and never engages predictive validity or per-assessment-type evidence.</li></ul></details></div></div><script></script></body></html>

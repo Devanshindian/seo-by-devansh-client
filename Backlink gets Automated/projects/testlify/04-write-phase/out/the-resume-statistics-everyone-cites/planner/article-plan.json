@@ -1,0 +1,1212 @@
+{
+  "slug": "the-resume-statistics-everyone-cites",
+  "h1": "The Resume Statistics Everyone Cites That Are Already Out of Date",
+  "format_archetype": "data-benchmark-report",
+  "primary_keyword": "curriculum vitae statistics",
+  "word_band": {
+    "min": 4500,
+    "max": 5500
+  },
+  "persona": {
+    "name": "HR / Talent-Management Leader",
+    "lens": "A people-strategy leader who cites hiring/workforce stats in reports and decks and needs them dated correctly and current, including the AI-resume-fraud figures competitors omit, so their own claims hold up under scrutiny.",
+    "why": "This is a myth-busting, stat-accuracy piece (dating stats to survey year, surfacing an omitted data point) — squarely the 'myth-busting industry articles' and 'named research' register this persona reads and cites, not an operational screening how-to."
+  },
+  "gaps_to_own": [
+    "Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.",
+    "AI-fabricated/exaggerated resume figures: resume.io and standout-cv carry no AI section at all; testgorilla's \"Statistics about resumes and AI\" covers AI writing-tool adoption, not fabrication or lying rates — the specific figures this asset adds are absent industry-wide.",
+    "ATS filter accuracy/usage stats appear on only one of three winners (standout-cv) — thin coverage elsewhere, worth a stronger own if it fits the angle."
+  ],
+  "winners_common_h2s": [
+    "Resume rejection rates and reasons resumes get rejected",
+    "Recruiter time spent reading/screening resumes",
+    "Key takeaways / summary block",
+    "Resume usage and application-volume stats"
+  ],
+  "winners_drift": [],
+  "paa_pool": [
+    "Can ATS detect ChatGPT resume?",
+    "What are red flags on a CV?"
+  ],
+  "related_searches": [
+    "Curriculum vitae statistics template",
+    "Curriculum vitae statistics pdf",
+    "Free curriculum vitae statistics",
+    "Curriculum vitae statistics template word",
+    "Curriculum vitae statistics examples",
+    "Sample resume for statistics graduate",
+    "Academic curriculum vitae example",
+    "MIT CV template Word"
+  ],
+  "search_intent": "informational",
+  "ai_overview": "entirely off-topic homonym collision — it defines \"CV\" as the statistical **coefficient of variation** (σ/μ, with population/sample formulas, percentage form, consistency check, limitations), not curriculum vitae. No resume/CV-career content at all.",
+  "table_stakes": [
+    "Recruiter time spent reading/screening resumes",
+    "Resume rejection rates and reasons resumes get rejected",
+    "Resume usage and application-volume stats",
+    "Key takeaways / summary block"
+  ],
+  "sections": [
+    {
+      "h2": "The 6-second screen is now four different numbers, and each one measured something else",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Tegze 2023: review time scales with CV length, well past 6 seconds",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.",
+            "common-h2: Recruiter time spent reading/screening resumes"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              5,
+              103,
+              192,
+              193
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              5,
+              192
+            ],
+            "common-h2: Recruiter time spent reading/screening resumes": [
+              5,
+              104,
+              105,
+              106
+            ]
+          },
+          "card_ids": [
+            5,
+            103,
+            104,
+            105,
+            106,
+            107,
+            191,
+            192,
+            193
+          ]
+        },
+        {
+          "h3": "InterviewPal: an 11.2-second first scan and 1 minute 34 seconds in total",
+          "tags": [
+            "asset-angle",
+            "common-h2: Recruiter time spent reading/screening resumes"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              197,
+              199
+            ],
+            "common-h2: Recruiter time spent reading/screening resumes": [
+              96,
+              97,
+              197,
+              199
+            ]
+          },
+          "card_ids": [
+            95,
+            96,
+            97,
+            101,
+            196,
+            197,
+            198,
+            199
+          ]
+        },
+        {
+          "h3": "Where the attention actually goes: 38% experience, 24% summary, 9% design",
+          "tags": [
+            "common-h2: Recruiter time spent reading/screening resumes"
+          ],
+          "tag_receipts": {
+            "common-h2: Recruiter time spent reading/screening resumes": [
+              93,
+              98
+            ]
+          },
+          "card_ids": [
+            93,
+            98,
+            201,
+            202,
+            203,
+            204,
+            205
+          ]
+        },
+        {
+          "h3": "Wonsulting 2025: hidden eye-tracking finds the F-pattern still holds",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              108,
+              194,
+              195
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              194,
+              195,
+              109
+            ]
+          },
+          "card_ids": [
+            108,
+            109,
+            194,
+            195
+          ]
+        },
+        {
+          "h3": "What stretches the clock, and the 43% rejected for formatting",
+          "tags": [
+            "common-h2: Resume rejection rates and reasons resumes get rejected",
+            "common-h2: Recruiter time spent reading/screening resumes"
+          ],
+          "tag_receipts": {
+            "common-h2: Resume rejection rates and reasons resumes get rejected": [
+              6,
+              208
+            ],
+            "common-h2: Recruiter time spent reading/screening resumes": [
+              6,
+              207
+            ]
+          },
+          "card_ids": [
+            6,
+            207,
+            208
+          ]
+        },
+        {
+          "h3": "Why the figures disagree: first pass, second pass, and industry",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.",
+            "common-h2: Recruiter time spent reading/screening resumes"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              9,
+              123
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              9
+            ],
+            "common-h2: Recruiter time spent reading/screening resumes": [
+              121,
+              122,
+              123
+            ]
+          },
+          "card_ids": [
+            9,
+            121,
+            122,
+            123
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "The six-second resume scan: a 2012 figure revised to 7.4 seconds in 2018, still cited as six",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Where the six-second number came from: TheLadders 2012 eye-tracking study",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.",
+            "common-h2: Recruiter time spent reading/screening resumes"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              85,
+              176,
+              1
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              85,
+              176
+            ],
+            "common-h2: Recruiter time spent reading/screening resumes": [
+              85,
+              176
+            ]
+          },
+          "card_ids": [
+            1,
+            85,
+            176
+          ]
+        },
+        {
+          "h3": "The 2018 follow-up put the average at 7.4 seconds",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.",
+            "common-h2: Recruiter time spent reading/screening resumes"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              2,
+              88,
+              181
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              2,
+              88,
+              181,
+              185
+            ],
+            "common-h2: Recruiter time spent reading/screening resumes": [
+              88,
+              181,
+              89
+            ]
+          },
+          "card_ids": [
+            2,
+            87,
+            88,
+            89,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185
+          ]
+        },
+        {
+          "h3": "The superseded six-second figure was still in circulation in 2023",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              3,
+              86,
+              178
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              177,
+              4,
+              7
+            ]
+          },
+          "card_ids": [
+            3,
+            4,
+            7,
+            86,
+            177,
+            178,
+            179
+          ]
+        },
+        {
+          "h3": "What neither study disclosed: sample, method, materials, replication",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              90,
+              111,
+              116,
+              186
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              90,
+              110,
+              186
+            ]
+          },
+          "card_ids": [
+            90,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            186,
+            187,
+            188,
+            189
+          ]
+        },
+        {
+          "h3": "Both figures are averages, not a ceiling every resume hits",
+          "tags": [
+            "asset-angle",
+            "common-h2: Recruiter time spent reading/screening resumes"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              8,
+              190
+            ],
+            "common-h2: Recruiter time spent reading/screening resumes": [
+              190,
+              259
+            ]
+          },
+          "card_ids": [
+            8,
+            190,
+            259
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Resume lying rates in 2025: 44% or 64.2%, depending on which survey you cite",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The two 2025 headline figures: ResumeBuilder's 44% against StandOut CV's 64.2%, up from a 55% baseline in 2022",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              59,
+              60,
+              61,
+              63
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              11,
+              12,
+              60,
+              61,
+              63
+            ]
+          },
+          "card_ids": [
+            11,
+            12,
+            59,
+            60,
+            61,
+            63
+          ]
+        },
+        {
+          "h3": "The rate peaks at 80.4% for 18-25 year olds and drops to 46.9% in older groups",
+          "tags": [
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              13,
+              62
+            ]
+          },
+          "card_ids": [
+            13,
+            62
+          ]
+        },
+        {
+          "h3": "38% of those who lied inflated their years of experience",
+          "tags": [
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              18,
+              64
+            ]
+          },
+          "card_ids": [
+            18,
+            64
+          ]
+        },
+        {
+          "h3": "The 32% resume-lying rate is a 2021 ResumeBuilder figure, not a current one",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              39,
+              40
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              39,
+              40
+            ]
+          },
+          "card_ids": [
+            39,
+            40
+          ],
+          "placed_from": "The 32% resume-lying rate is a 2021 ResumeBuilder figure, not a current one"
+        },
+        {
+          "h3": "What the 2021 respondents actually falsified: experience, education, tenure, skills",
+          "tags": [
+            "paa: What are red flags on a CV?"
+          ],
+          "tag_receipts": {
+            "paa: What are red flags on a CV?": [
+              41,
+              42,
+              43,
+              44
+            ]
+          },
+          "card_ids": [
+            41,
+            42,
+            43,
+            44
+          ],
+          "placed_from": "The 32% resume-lying rate is a 2021 ResumeBuilder figure, not a current one"
+        }
+      ]
+    },
+    {
+      "h2": "The 30-45% resume-lying range blends surveys that measured different things",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The 30-45% resume-lying range blends surveys that measured different things",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              10,
+              17,
+              68
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              10,
+              68
+            ]
+          },
+          "card_ids": [
+            10,
+            17,
+            68
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "The 2022 55% figure traces back to a citation, not a 2022 survey",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The 2022 55% figure traces back to a citation, not a 2022 survey",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              52,
+              53
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              52,
+              53
+            ]
+          },
+          "card_ids": [
+            52,
+            53
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "The UK numbers trace to Cifas's 2023 fraud data, not a 2023 survey",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The 10% who admit lying on a CV is a 2023 Cifas figure, up from 8%",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              15,
+              54,
+              56
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              54,
+              56
+            ]
+          },
+          "card_ids": [
+            15,
+            54,
+            56
+          ]
+        },
+        {
+          "h3": "False employment applications fell from 44% to 33% of insider fraud cases",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              16,
+              55
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              16,
+              55
+            ]
+          },
+          "card_ids": [
+            16,
+            55
+          ]
+        },
+        {
+          "h3": "56% of UK employers caught a lying candidate, 26% hit fake references",
+          "tags": [
+            "common-h2: Resume rejection rates and reasons resumes get rejected",
+            "paa: What are red flags on a CV?"
+          ],
+          "tag_receipts": {
+            "common-h2: Resume rejection rates and reasons resumes get rejected": [
+              57,
+              58
+            ],
+            "paa: What are red flags on a CV?": [
+              58
+            ]
+          },
+          "card_ids": [
+            57,
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "The resume-lying percentages that carry no survey year",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "85%, 60%, 33%, 25%: the four undated headline rates",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              69,
+              14,
+              19,
+              20,
+              21
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              69,
+              14,
+              19,
+              20,
+              21
+            ]
+          },
+          "card_ids": [
+            69,
+            14,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "h3": "ResumeLab's 36% admitted lying, and the 31% who got caught",
+          "tags": [
+            "asset-angle",
+            "common-h2: Resume rejection rates and reasons resumes get rejected"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              70,
+              71,
+              75
+            ],
+            "common-h2: Resume rejection rates and reasons resumes get rejected": [
+              71
+            ]
+          },
+          "card_ids": [
+            70,
+            71,
+            75
+          ]
+        },
+        {
+          "h3": "Who lies: 88% of ATS-aware applicants, 30% of men vs 20% of women, and by generation",
+          "tags": [
+            "asset-angle",
+            "gap: ATS filter accuracy/usage stats appear on only one of three winners (standout-cv) — thin coverage elsewhere, worth a stronger own if it fits the angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              76,
+              77,
+              78
+            ],
+            "gap: ATS filter accuracy/usage stats appear on only one of three winners (standout-cv) — thin coverage elsewhere, worth a stronger own if it fits the angle.": [
+              76
+            ]
+          },
+          "card_ids": [
+            76,
+            78,
+            77
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "AI-touched resumes went from negligible in 2022 to 52% of applicants in 2025",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The year-by-year climb: 2022 baseline, 30-40% at tech firms by late 2024, 52% in 2025",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.",
+            "gap: AI-fabricated/exaggerated resume figures: resume.io and standout-cv carry no AI section at all; testgorilla's \"Statistics about resumes and AI\" covers AI writing-tool adoption, not fabrication or lying rates — the specific figures this asset adds are absent industry-wide."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              146,
+              147,
+              65,
+              149
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              146,
+              147,
+              65
+            ],
+            "gap: AI-fabricated/exaggerated resume figures: resume.io and standout-cv carry no AI section at all; testgorilla's \"Statistics about resumes and AI\" covers AI writing-tool adoption, not fabrication or lying rates — the specific figures this asset adds are absent industry-wide.": [
+              65,
+              147,
+              146
+            ]
+          },
+          "card_ids": [
+            145,
+            146,
+            149,
+            147,
+            65,
+            148
+          ]
+        },
+        {
+          "h3": "On the employer side: 51% of US companies used AI in hiring in 2024, projected 68% by end of 2025",
+          "tags": [
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              34
+            ]
+          },
+          "card_ids": [
+            34
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "AI-written resume rejection rates run from 49% to 80%, all dated 2025",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The 2025 rejection figures: 49% auto-dismiss, 62% reject unpersonalized, 80% discard outright",
+          "tags": [
+            "asset-angle",
+            "gap: AI-fabricated/exaggerated resume figures: resume.io and standout-cv carry no AI section at all; testgorilla's \"Statistics about resumes and AI\" covers AI writing-tool adoption, not fabrication or lying rates — the specific figures this asset adds are absent industry-wide.",
+            "common-h2: Resume rejection rates and reasons resumes get rejected"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              35,
+              152,
+              153
+            ],
+            "gap: AI-fabricated/exaggerated resume figures: resume.io and standout-cv carry no AI section at all; testgorilla's \"Statistics about resumes and AI\" covers AI writing-tool adoption, not fabrication or lying rates — the specific figures this asset adds are absent industry-wide.": [
+              35,
+              152,
+              153,
+              29
+            ],
+            "common-h2: Resume rejection rates and reasons resumes get rejected": [
+              152,
+              153,
+              29
+            ]
+          },
+          "card_ids": [
+            35,
+            152,
+            153,
+            29
+          ]
+        },
+        {
+          "h3": "74% say they can spot AI content in 2025; 82% couldn't in 2023",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              36,
+              37,
+              38
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              36,
+              37,
+              38
+            ]
+          },
+          "card_ids": [
+            36,
+            37,
+            38
+          ]
+        },
+        {
+          "h3": "What the detection claims rest on: 51% cite phrasing, tools false-positive 30-50% of the time",
+          "tags": [
+            "gap: AI-fabricated/exaggerated resume figures: resume.io and standout-cv carry no AI section at all; testgorilla's \"Statistics about resumes and AI\" covers AI writing-tool adoption, not fabrication or lying rates — the specific figures this asset adds are absent industry-wide.",
+            "paa: Can ATS detect ChatGPT resume?"
+          ],
+          "tag_receipts": {
+            "gap: AI-fabricated/exaggerated resume figures: resume.io and standout-cv carry no AI section at all; testgorilla's \"Statistics about resumes and AI\" covers AI writing-tool adoption, not fabrication or lying rates — the specific figures this asset adds are absent industry-wide.": [
+              154,
+              155
+            ],
+            "paa: Can ATS detect ChatGPT resume?": [
+              155,
+              156
+            ]
+          },
+          "card_ids": [
+            154,
+            155,
+            156,
+            174
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "The AI-fabricated resume numbers that blended overviews leave out",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "83% of AI-tool users admit using AI to exaggerate or lie (Capterra)",
+          "tags": [
+            "asset-angle",
+            "gap: AI-fabricated/exaggerated resume figures: resume.io and standout-cv carry no AI section at all; testgorilla's \"Statistics about resumes and AI\" covers AI writing-tool adoption, not fabrication or lying rates — the specific figures this asset adds are absent industry-wide."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              66,
+              67,
+              150
+            ],
+            "gap: AI-fabricated/exaggerated resume figures: resume.io and standout-cv carry no AI section at all; testgorilla's \"Statistics about resumes and AI\" covers AI writing-tool adoption, not fabrication or lying rates — the specific figures this asset adds are absent industry-wide.": [
+              66,
+              150,
+              230
+            ]
+          },
+          "card_ids": [
+            66,
+            67,
+            150,
+            230
+          ]
+        },
+        {
+          "h3": "What AI-written resume content looks like: uniform verb bullets, round numbers, impossible claims",
+          "tags": [
+            "gap: AI-fabricated/exaggerated resume figures: resume.io and standout-cv carry no AI section at all; testgorilla's \"Statistics about resumes and AI\" covers AI writing-tool adoption, not fabrication or lying rates — the specific figures this asset adds are absent industry-wide.",
+            "paa: Can ATS detect ChatGPT resume?",
+            "paa: What are red flags on a CV?"
+          ],
+          "tag_receipts": {
+            "gap: AI-fabricated/exaggerated resume figures: resume.io and standout-cv carry no AI section at all; testgorilla's \"Statistics about resumes and AI\" covers AI writing-tool adoption, not fabrication or lying rates — the specific figures this asset adds are absent industry-wide.": [
+              170,
+              171,
+              172,
+              234
+            ],
+            "paa: Can ATS detect ChatGPT resume?": [
+              170,
+              171,
+              172
+            ],
+            "paa: What are red flags on a CV?": [
+              170,
+              171,
+              172,
+              234
+            ]
+          },
+          "card_ids": [
+            170,
+            171,
+            172,
+            234
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Fortune 500 ATS use sits at 97.8-99%, and the newer number is AI ranking, not adoption",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The 98-99% Fortune 500 ATS adoption figure and its 2025 sources",
+          "tags": [
+            "asset-angle",
+            "gap: ATS filter accuracy/usage stats appear on only one of three winners (standout-cv) — thin coverage elsewhere, worth a stronger own if it fits the angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              142,
+              23,
+              80
+            ],
+            "gap: ATS filter accuracy/usage stats appear on only one of three winners (standout-cv) — thin coverage elsewhere, worth a stronger own if it fits the angle.": [
+              23,
+              80,
+              142
+            ]
+          },
+          "card_ids": [
+            23,
+            80,
+            142
+          ]
+        },
+        {
+          "h3": "AI-ranking platforms cover 79.3% of Fortune 500 hiring, tiering applicants before human review",
+          "tags": [
+            "gap: ATS filter accuracy/usage stats appear on only one of three winners (standout-cv) — thin coverage elsewhere, worth a stronger own if it fits the angle."
+          ],
+          "tag_receipts": {
+            "gap: ATS filter accuracy/usage stats appear on only one of three winners (standout-cv) — thin coverage elsewhere, worth a stronger own if it fits the angle.": [
+              144,
+              143
+            ]
+          },
+          "card_ids": [
+            143,
+            144
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "The ATS auto-rejection figure: 92% of systems do not auto-reject, and application volume does the culling",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Only 8% of recruiters configure auto-rejection logic",
+          "tags": [
+            "asset-angle",
+            "gap: ATS filter accuracy/usage stats appear on only one of three winners (standout-cv) — thin coverage elsewhere, worth a stronger own if it fits the angle.",
+            "common-h2: Resume rejection rates and reasons resumes get rejected"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              129,
+              130
+            ],
+            "gap: ATS filter accuracy/usage stats appear on only one of three winners (standout-cv) — thin coverage elsewhere, worth a stronger own if it fits the angle.": [
+              130
+            ],
+            "common-h2: Resume rejection rates and reasons resumes get rejected": [
+              130
+            ]
+          },
+          "card_ids": [
+            128,
+            129,
+            130
+          ]
+        },
+        {
+          "h3": "Volume, not the algorithm: applications grew about 4x faster than openings in H1 2024",
+          "tags": [
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.",
+            "common-h2: Resume usage and application-volume stats",
+            "common-h2: Resume rejection rates and reasons resumes get rejected"
+          ],
+          "tag_receipts": {
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              132
+            ],
+            "common-h2: Resume usage and application-volume stats": [
+              132
+            ],
+            "common-h2: Resume rejection rates and reasons resumes get rejected": [
+              131,
+              133
+            ]
+          },
+          "card_ids": [
+            131,
+            132,
+            133
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "The 75% ATS rejection rate and the Cornell 20-60% figure have no source behind them",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The 75% figure came from a 2012 startup's sales pitch and was debunked in 2024",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.",
+            "common-h2: Resume rejection rates and reasons resumes get rejected"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              124,
+              125,
+              126,
+              127
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              124,
+              126,
+              127
+            ],
+            "common-h2: Resume rejection rates and reasons resumes get rejected": [
+              124,
+              127
+            ]
+          },
+          "card_ids": [
+            124,
+            159,
+            125,
+            126,
+            127
+          ]
+        },
+        {
+          "h3": "The Cornell 20-60% claim has no traceable study",
+          "tags": [
+            "asset-angle"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              141,
+              158
+            ]
+          },
+          "card_ids": [
+            141,
+            158
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "The ATS rejection-rate figures nobody dates: 98%, 70%, fewer than 1 in 10",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The undated rejection claims in circulation",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.",
+            "common-h2: Resume rejection rates and reasons resumes get rejected",
+            "gap: ATS filter accuracy/usage stats appear on only one of three winners (standout-cv) — thin coverage elsewhere, worth a stronger own if it fits the angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              134,
+              135,
+              136,
+              137
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              135,
+              136,
+              137,
+              138
+            ],
+            "common-h2: Resume rejection rates and reasons resumes get rejected": [
+              135,
+              136,
+              137
+            ],
+            "gap: ATS filter accuracy/usage stats appear on only one of three winners (standout-cv) — thin coverage elsewhere, worth a stronger own if it fits the angle.": [
+              136,
+              138
+            ]
+          },
+          "card_ids": [
+            134,
+            135,
+            136,
+            137,
+            138
+          ]
+        },
+        {
+          "h3": "What the underlying ATS screening evidence actually measured",
+          "tags": [
+            "asset-angle",
+            "gap: ATS filter accuracy/usage stats appear on only one of three winners (standout-cv) — thin coverage elsewhere, worth a stronger own if it fits the angle.",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              139,
+              140
+            ],
+            "gap: ATS filter accuracy/usage stats appear on only one of three winners (standout-cv) — thin coverage elsewhere, worth a stronger own if it fits the angle.": [
+              139,
+              140
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              139,
+              140
+            ]
+          },
+          "card_ids": [
+            139,
+            140
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Detection and consequences: 94% of employers now verify, and 41% pull the offer",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "How many employers actually check: 94% run background checks, 70% check social media (2025)",
+          "tags": [
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              79,
+              24,
+              81
+            ]
+          },
+          "card_ids": [
+            24,
+            79,
+            25,
+            81,
+            27
+          ]
+        },
+        {
+          "h3": "How often the check finds something: from 1 in 4 to over 75%, and discrepancies up 44% since FY21",
+          "tags": [
+            "asset-angle",
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              22,
+              30
+            ],
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              22,
+              26,
+              265,
+              30
+            ]
+          },
+          "card_ids": [
+            22,
+            26,
+            265,
+            266,
+            30
+          ]
+        },
+        {
+          "h3": "What happens when a lie is caught: 41% of offers rescinded, 18% of hires fired",
+          "tags": [
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle."
+          ],
+          "tag_receipts": {
+            "gap: Per-stat survey-year dating: all three publish under a single page-level year badge (\"2025\", \"2023\") while blending stats from different years underneath — none anchors each individual stat to its original survey year, which is this asset's core angle.": [
+              83
+            ]
+          },
+          "card_ids": [
+            28,
+            82,
+            83,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "The 73% 'don't meet all criteria' and 80% screening-time-saved figures",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The 73% 'don't meet all criteria' and 80% screening-time-saved figures",
+          "tags": [
+            "common-h2: Recruiter time spent reading/screening resumes"
+          ],
+          "tag_receipts": {
+            "common-h2: Recruiter time spent reading/screening resumes": [
+              441
+            ]
+          },
+          "card_ids": [
+            330,
+            441
+          ]
+        }
+      ]
+    }
+  ]
+}

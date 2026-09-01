@@ -1,0 +1,32 @@
+{
+  "8004": {
+    "gloss": "Selection quality swings by hiring manager for 45.8%",
+    "verbatim": "45.8% of HR and TA practitioners describe their process as inconsistent — confidence that it picks the best candidate rather than the best interviewer varies by hiring manager or role (n=131). [Q4]",
+    "topics": [
+      "hiring consistency",
+      "interviewer bias",
+      "selection quality",
+      "hiring managers",
+      "structured interviews"
+    ],
+    "source_note": "SHRM Labs x Testlify: Skills Assessments — Topline Report",
+    "source_urls": [],
+    "tag": "brand-research",
+    "card_id": 8004
+  },
+  "8016": {
+    "gloss": "73.4% are concerned about candidates using AI to cheat",
+    "verbatim": "73.4% of HR and TA practitioners are concerned to some degree about candidates using AI during interviews or assessments, combining \"very concerned\" (12.5%), \"concerned\" (21.1%) and \"somewhat concerned\" (39.8%) (n=128). [Q12]",
+    "topics": [
+      "cheating",
+      "ai misuse",
+      "proctoring",
+      "assessment integrity",
+      "candidate fraud"
+    ],
+    "source_note": "SHRM Labs x Testlify: Skills Assessments — Topline Report",
+    "source_urls": [],
+    "tag": "brand-research",
+    "card_id": 8016
+  }
+}

@@ -1,0 +1,906 @@
+{
+  "slug": "the-real-cost-recruitment-2026",
+  "format_archetype": "data-benchmark-report",
+  "spine": "For a CHRO building or defending a hiring budget: the cost-per-hire figure most decks still quote is a stale edition of a SHRM number, and even the current one is a blended average that hides two axes the budget actually moves on, role band and hiring volume. This article dates every figure in circulation to its edition and statistic, then rebuilds the number from the invoiced hard costs (30-40%) and the uninvoiced soft costs (60-70%), so the reader leaves able to state a current, sourced benchmark, calculate their own segmented figure, and say exactly what it excludes.",
+  "coverage_note": "None left out. Four of the five expected topics get their own section (formula in section 1, benchmarks in section 2, factors in section 4, the internal/external and hard/soft breakdown in section 6). The fifth, the definition of cost per hire, is folded into section 1's opening rather than given a section of its own, because a standalone definition section would repeat the formula section a reader would answer the same way.",
+  "item_fields": [],
+  "dropped_items": [],
+  "sections": [
+    {
+      "headline": "How to Calculate Cost Per Hire, and What It Returns",
+      "covers": "Formula / how to calculate it",
+      "job": "Settle the definition and the arithmetic in one pass so every later section can assume both. State the SHRM/ANSI formula, name the current ~$4,700 non-executive benchmark, then run the same formula on real inputs to show it returning $3,667, $5,000 and $8,000, which sets up the article's case that one blended average cannot answer a budget question.",
+      "is_item": false,
+      "boxes": [
+        1,
+        9,
+        5
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          1,
+          9,
+          5
+        ],
+        "box_labels": [
+          "The SHRM/ANSI formula: (internal + external recruiting costs) / total hires",
+          "The formula behind the figure: external plus internal costs divided by total hires",
+          "The same formula run four ways: $3,667, $4,700, $5,000 and $8,000 per hire"
+        ],
+        "from_h2": "Cost per hire, defined: the SHRM formula and the ~$4,700 2026 benchmark",
+        "tags": [
+          "common-h2: Definition of cost per hire",
+          "common-h2: Formula / how to calculate it",
+          "paa: How to calculate cost per hire in SHRM?",
+          "gap: No winner anchors on a current-year public benchmark figure as a standalone, cited data point — Juicebox's \"Benchmarks and average cost\" section exists but headings alone don't confirm data recency, so this is the piece's clearest edge over the aging 2022 SHRM figure this page currently cites.",
+          "paa: How do I calculate cost per hire?",
+          "related: Cost per hire formula",
+          "related: Cost per hire example"
+        ],
+        "card_ids": [
+          40,
+          302,
+          303,
+          311,
+          524,
+          527,
+          529,
+          530,
+          499,
+          513,
+          49,
+          50,
+          51,
+          52,
+          306
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 252
+    },
+    {
+      "headline": "Which SHRM Number Is Current, and Which Is Stale",
+      "covers": "Benchmarks and average cost figures",
+      "job": "Resolve the figure confusion this article is named for. Date each number in circulation to its edition: $4,129 to SHRM's FY2015 report published in 2016, $4,700 to the current release, and separate the 2025 averages from the 2026 medians so a reader sees why two accurate SHRM figures differ by roughly 3x. Ends the habit of quoting a number without its edition.",
+      "is_item": false,
+      "boxes": [
+        6,
+        7,
+        8,
+        13,
+        14
+      ],
+      "table": {
+        "columns": [
+          "Figure",
+          "SHRM edition and publication year",
+          "Average or median",
+          "Sample and field dates",
+          "What stops a direct comparison"
+        ]
+      },
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Provenance details for SHRM's 2022 benchmarking edition, the source of the commonly quoted 2022 cost-per-hire number and the $8,800 executive median: exact report title, publication month and year, survey field dates, respondent sample size (n), and whether that edition reported averages, medians or both. Needed to complete the 2022 row of the provenance table alongside the FY2015 (n=2,048), 2025 (n=2,371) and 2026 (n=4,657) editions.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          6,
+          7,
+          8,
+          13,
+          14
+        ],
+        "box_labels": [
+          "$4,700 is SHRM's current average, and it superseded the 2022 number",
+          "$4,129 is a legacy figure from SHRM's 2016 benchmarking report, still quoted as current",
+          "Cross-edition comparisons and shifting sample sizes keep the old figure alive",
+          "The $35,879 executive average and the $10,600 executive median describe the same year",
+          "Sample sizes and survey windows behind each figure: n=2,371 in 2025, n=4,657 in 2026"
+        ],
+        "from_h2": "The cost-per-hire figures in circulation, and which edition each one actually comes from",
+        "tags": [
+          "asset-angle",
+          "gap: No winner anchors on a current-year public benchmark figure as a standalone, cited data point — Juicebox's \"Benchmarks and average cost\" section exists but headings alone don't confirm data recency, so this is the piece's clearest edge over the aging 2022 SHRM figure this page currently cites.",
+          "common-h2: Benchmarks and average cost figures",
+          "related: Cost per hire 2022",
+          "related: Cost per hire shrm",
+          "paa: What is the average cost per hire in the US?"
+        ],
+        "card_ids": [
+          24,
+          25,
+          1,
+          2,
+          423,
+          10,
+          11,
+          12,
+          13,
+          22,
+          23,
+          14,
+          15,
+          16,
+          17,
+          18,
+          26,
+          27,
+          28,
+          34,
+          35,
+          36,
+          143,
+          144,
+          188,
+          19,
+          20,
+          21,
+          30,
+          9001,
+          9002,
+          9003,
+          9004,
+          9005,
+          9006,
+          9007,
+          9008,
+          9009,
+          9010
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 441
+    },
+    {
+      "headline": "Executive Hiring Costs Doubled, Non-Executive Barely Moved",
+      "covers": null,
+      "job": "Deliver the headline correction. Show the executive median moving from $8,800 in 2022 to $15,000 in 2026 while the non-executive median stayed near flat, $1,600 in 2017 to $1,300 in 2026, and give SHRM's own reason for the split. Explains why a stale 2022 citation looked harmless for junior roles and was badly wrong for senior ones. Depends on the previous section having established these are medians.",
+      "is_item": false,
+      "boxes": [
+        11,
+        12
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          11,
+          12
+        ],
+        "box_labels": [
+          "Executive median cost-per-hire rose from $5,000 (2017) to $8,800 (2022) to $15,000 (2026)",
+          "Nonexecutive cost-per-hire barely moved: $1,600 (2017) to $1,300 (2026)"
+        ],
+        "from_h2": "SHRM's current figures: the executive median hit $15,000 in 2026, not the $8,800 still being quoted",
+        "tags": [
+          "asset-angle",
+          "gap: No winner anchors on a current-year public benchmark figure as a standalone, cited data point — Juicebox's \"Benchmarks and average cost\" section exists but headings alone don't confirm data recency, so this is the piece's clearest edge over the aging 2022 SHRM figure this page currently cites.",
+          "gap: No winner segments cost per hire by role/job type (all three keep the breakdown generic — internal vs. external, or leak-by-leak — never by role).",
+          "common-h2: Benchmarks and average cost figures"
+        ],
+        "card_ids": [
+          3,
+          4,
+          8,
+          9,
+          29,
+          32,
+          33,
+          187,
+          5,
+          6,
+          7,
+          31,
+          189
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 315
+    },
+    {
+      "headline": "What Cost Per Hire Looks Like by Role Band",
+      "covers": "Factors that drive cost per hire up or down",
+      "job": "Price the full range the blended average hides, from roughly $1,500 at entry level to $50,000-$250,000 for a retained executive search, and name what moves a role up it: seniority, interview rounds, scarce skills, industry, role type. Reconcile these market ranges against SHRM's lower medians by stating what each figure counts, so the two sets of numbers do not read as a contradiction.",
+      "is_item": false,
+      "boxes": [
+        15,
+        16,
+        17,
+        18,
+        21
+      ],
+      "table": {
+        "columns": [
+          "Role band",
+          "Typical cost per hire",
+          "Main driver of that band"
+        ]
+      },
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "What published role-band cost-per-hire benchmarks actually include, specifically whether the $50,000-$250,000 retained executive search band and the $28,000-$35,000 senior role figures count agency and search fees, relocation and sign-on, versus what SHRM's CPH Standard counts inside its $15,000 (2026) executive median and $35,879 (2025) executive average. Need the stated scope or inclusion list for each so the market ranges and the SHRM medians can be reconciled rather than compared.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          15,
+          16,
+          17,
+          18,
+          21
+        ],
+        "box_labels": [
+          "The blended average understates what a single hire actually costs",
+          "The seniority bands: individual contributor, manager/director, VP and above",
+          "The same bands split again by role type, industry and hiring volume",
+          "Longer searches and scarce skills are what push the senior figures up",
+          "By role: $28,000 for an executive hire, up to $35,000 for a developer"
+        ],
+        "from_h2": "Cost per hire is not one number: it runs from roughly $1,500 at entry level to $250,000 for a retained executive search",
+        "tags": [
+          "asset-angle",
+          "common-h2: Benchmarks and average cost figures",
+          "common-h2: Factors that drive cost per hire up or down",
+          "gap: No winner segments cost per hire by role/job type (all three keep the breakdown generic — internal vs. external, or leak-by-leak — never by role).",
+          "related: Average cost per hire by industry",
+          "gap: No winner segments cost per hire by hiring volume (high-volume vs. low-volume hiring cost structures are absent from every heading list).",
+          "related: Recruitment costs examples"
+        ],
+        "card_ids": [
+          138,
+          139,
+          183,
+          532,
+          146,
+          140,
+          141,
+          142,
+          184,
+          185,
+          186,
+          145,
+          307,
+          147,
+          148,
+          149,
+          165,
+          166,
+          167,
+          159,
+          160,
+          208,
+          209,
+          94,
+          95,
+          96,
+          97,
+          98,
+          9011,
+          9012,
+          9013,
+          9014,
+          9015,
+          9016,
+          9017,
+          9018,
+          9019,
+          9020,
+          9021,
+          9022,
+          9023,
+          9024
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 410
+    },
+    {
+      "headline": "Why Hiring Volume Changes Your Cost Per Hire",
+      "covers": null,
+      "job": "Show the second axis the average hides: the same fixed spend divided by a different number of hires. Price a 40-person employer at $1,875 a hire and a small firm at $5,000 against an enterprise at $2,000-$3,500, explain why smaller employers pay more per hire on far less total spend, set the in-house versus agency breakeven near 15-20 hires a year, and name flat-rate hiring events as the one structure where per-hire cost falls as volume climbs.",
+      "is_item": false,
+      "boxes": [
+        22,
+        23,
+        37
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          22,
+          23,
+          37
+        ],
+        "box_labels": [
+          "By volume: a 5-hire firm pays $5,000 per hire, a 50-hire employer pays $2,000-$3,500",
+          "The exception: flat-rate hiring events drop under $200 per hire as volume rises",
+          "In-house recruiting breaks even against agency fees at 15-20 hires a year"
+        ],
+        "from_h2": "Cost per hire ranges from about $1,875 to $35,000 once you split it by role and hiring volume",
+        "tags": [
+          "asset-angle",
+          "gap: No winner segments cost per hire by hiring volume (high-volume vs. low-volume hiring cost structures are absent from every heading list).",
+          "related: Cost per hire example",
+          "common-h2: Factors that drive cost per hire up or down",
+          "common-h2: Ways to reduce cost per hire"
+        ],
+        "card_ids": [
+          205,
+          206,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          260
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 346
+    },
+    {
+      "headline": "Hard Costs vs Soft Costs: Which Half Gets Invoiced",
+      "covers": "Breakdown of what counts as a cost (internal vs. external, hard vs. soft)",
+      "job": "Separate the two ways of splitting the number and rule out treating them as one. Define internal versus external costs, which is the formula's own division, then hard versus soft, which is a visibility division, and land the 30-40% / 60-70% split that makes the invoiced figure less than half the real cost, up to 2-4x salary counted in full. Sets up the two sections that price each half.",
+      "is_item": false,
+      "boxes": [
+        2,
+        3,
+        24,
+        25,
+        27
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Original source and publication year for the 30-40% hard cost / 60-70% soft cost split attributed to SHRM: which report or article it first appeared in, the sample behind it, whether the percentages describe one hire or an employer's total annual hiring spend, and whether SHRM has restated or updated the split in its 2025 or 2026 benchmarking releases. Also the source and year for the 2-4x salary total-cost multiplier.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          2,
+          3,
+          24,
+          25,
+          27
+        ],
+        "box_labels": [
+          "Internal costs: recruiter salaries, hiring-manager interview hours, HR admin, tech, referral bonuses",
+          "External costs: job ads, agency and search fees, background checks, sign-on bonuses, relocation",
+          "What sits in the hard-cost bucket and what sits in the soft-cost bucket",
+          "The split: 30-40% hard, 60-70% soft",
+          "Counted in full, a hire runs 2-4x salary"
+        ],
+        "from_h2": "Cost per hire, defined: the SHRM formula and the ~$4,700 2026 benchmark",
+        "tags": [
+          "common-h2: Breakdown of what counts as a cost (internal vs. external, hard vs. soft)",
+          "asset-angle",
+          "related: Recruitment costs examples",
+          "paa: What is the cost of hiring?"
+        ],
+        "card_ids": [
+          42,
+          43,
+          44,
+          304,
+          525,
+          45,
+          305,
+          526,
+          59,
+          100,
+          422,
+          534,
+          435,
+          426,
+          57,
+          60,
+          61,
+          62,
+          102,
+          103,
+          104,
+          106,
+          357,
+          56,
+          105,
+          434,
+          9025,
+          9026,
+          9027,
+          9028,
+          9029,
+          9030,
+          9031,
+          9032,
+          9033,
+          9034,
+          9035
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 252
+    },
+    {
+      "headline": "The Hard Costs You Can Point to on an Invoice",
+      "covers": null,
+      "job": "Price the invoiced half line by line so the reader can build the hard-cost column of a budget: job board and ad spend per posting and per hire, background checks and skills assessments per candidate, an ATS amortised across hires, relocation and signing bonuses. Leaves agency fees to the next section, because that single line outweighs everything listed here.",
+      "is_item": false,
+      "boxes": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "table": null,
+      "list": {
+        "kind": "bulleted",
+        "of": "each invoiced hard-cost line item with its typical dollar range, per posting, per candidate or per hire"
+      },
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "box_labels": [
+          "What counts as a hard cost",
+          "Job board and ad spend, per posting and per hire",
+          "Background checks and skills assessments, per candidate",
+          "ATS and recruiting software, amortized per hire",
+          "Relocation packages and signing bonuses"
+        ],
+        "from_h2": "Hard costs: the invoiced line items on a single hire",
+        "tags": [
+          "common-h2: Breakdown of what counts as a cost (internal vs. external, hard vs. soft)",
+          "related: Recruitment costs examples",
+          "gap: No winner segments cost per hire by role/job type (all three keep the breakdown generic — internal vs. external, or leak-by-leak — never by role).",
+          "gap: No winner segments cost per hire by hiring volume (high-volume vs. low-volume hiring cost structures are absent from every heading list)."
+        ],
+        "card_ids": [
+          418,
+          419,
+          424,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 221
+    },
+    {
+      "headline": "How Much Recruitment Agencies Charge, Model by Model",
+      "covers": null,
+      "job": "Price the largest external line and explain the role-band gap set out earlier. Fix the benchmark at 15-30% of first-year salary, separate contingency, container and retained engagements so the reader knows which one they are buying, take C-suite searches to 40-50% of first-year income, and convert the percentages into dollars at entry, mid and senior salary bands.",
+      "is_item": false,
+      "boxes": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          33,
+          34,
+          35,
+          36
+        ],
+        "box_labels": [
+          "The headline benchmark: 15-30% of first-year salary, varying by industry and geography",
+          "Contingency, retained, and container engagements price the same hire differently",
+          "Executive and C-suite searches reach 40-50% of first-year income",
+          "The same percentages in dollars: entry-level, mid-level, and senior salary bands"
+        ],
+        "from_h2": "Agency fees run 15-30% of first-year salary, the largest external line in cost per hire",
+        "tags": [
+          "common-h2: Breakdown of what counts as a cost (internal vs. external, hard vs. soft)",
+          "common-h2: Factors that drive cost per hire up or down",
+          "gap: No winner segments cost per hire by role/job type (all three keep the breakdown generic — internal vs. external, or leak-by-leak — never by role).",
+          "asset-angle",
+          "related: Recruitment costs examples"
+        ],
+        "card_ids": [
+          70,
+          150,
+          151,
+          190,
+          192,
+          195,
+          203,
+          244,
+          248,
+          71,
+          72,
+          73,
+          74,
+          81,
+          82,
+          193,
+          194,
+          196,
+          197,
+          201,
+          78,
+          155,
+          156,
+          198,
+          199,
+          200,
+          247,
+          76,
+          77,
+          79,
+          80,
+          152,
+          153,
+          154,
+          157,
+          191,
+          245,
+          246
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 346
+    },
+    {
+      "headline": "What Interview Hours, Recruiter Time and Ramp Cost You",
+      "covers": null,
+      "job": "Price the 60-70% nobody invoices, using numbers rather than the usual hand-waving about hidden costs: 11.7 interviews per business hire and 17.6 per technical hire, a talent acquisition salary working out near $2,000 a hire, 291 applications per hire against falling TA headcount, and three to nine months of ramp paid at full salary, adding to $62,000 on a $75,000 role.",
+      "is_item": false,
+      "boxes": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "box_labels": [
+          "Interview time: 11.7 interviews per business hire, 17.6 per technical hire",
+          "Recruiter time: a TA salary works out to about $2,000 per hire",
+          "Applications per hire tripled to 291 while TA headcount fell 14%",
+          "Onboarding and ramp: 3-9 months to full productivity on full salary",
+          "The combined figure: $62k+ of soft cost on a $75k role"
+        ],
+        "from_h2": "Soft costs: interview hours, recruiter time and ramp can add $62k to a $75k hire",
+        "tags": [
+          "asset-angle",
+          "gap: No winner segments cost per hire by role/job type (all three keep the breakdown generic — internal vs. external, or leak-by-leak — never by role).",
+          "common-h2: Breakdown of what counts as a cost (internal vs. external, hard vs. soft)",
+          "gap: No winner segments cost per hire by hiring volume (high-volume vs. low-volume hiring cost structures are absent from every heading list).",
+          "common-h2: Factors that drive cost per hire up or down",
+          "common-h2: Benchmarks and average cost figures"
+        ],
+        "card_ids": [
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          328,
+          125,
+          327,
+          115,
+          116,
+          213,
+          292,
+          293,
+          131,
+          132,
+          133,
+          134,
+          135,
+          210,
+          211,
+          299,
+          300,
+          111,
+          109,
+          110,
+          108,
+          112,
+          113,
+          114,
+          136,
+          333,
+          8003
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 346
+    },
+    {
+      "headline": "What the SHRM Formula Leaves Out, and What Vacancies Cost",
+      "covers": null,
+      "job": "Name what the formula excludes by design, so the reader stops defending a number that measures less than they think. Establish that the SHRM formula stops at the accepted offer, price vacancy at roughly $500 a day against a rising median time to fill, list the counting errors that distort the figure, and close on the finding that only 20% track quality of hire alongside cost.",
+      "is_item": false,
+      "boxes": [
+        4,
+        47,
+        48,
+        49
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          4,
+          47,
+          48,
+          49
+        ],
+        "box_labels": [
+          "The formula stops at the accepted offer, so onboarding cost sits outside cost per hire",
+          "Vacancy cost: roughly $500 a day for an empty role, and time-to-fill is rising",
+          "The counting mistakes that distort the number",
+          "Only 20% track quality of hire alongside cost, and cost alone can be gamed"
+        ],
+        "from_h2": "Cost per hire, defined: the SHRM formula and the ~$4,700 2026 benchmark",
+        "tags": [
+          "common-h2: Breakdown of what counts as a cost (internal vs. external, hard vs. soft)",
+          "asset-angle",
+          "gap: No winner segments cost per hire by role/job type (all three keep the breakdown generic — internal vs. external, or leak-by-leak — never by role).",
+          "common-h2: Formula / how to calculate it",
+          "paa: How to calculate cost per hire in SHRM?",
+          "common-h2: Business impact of high cost per hire (productivity, mis-hires)",
+          "related: Cost per hire example"
+        ],
+        "card_ids": [
+          47,
+          48,
+          126,
+          127,
+          128,
+          129,
+          130,
+          308,
+          182,
+          207,
+          310,
+          518,
+          519,
+          297,
+          348,
+          358,
+          360,
+          433
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 221
+    }
+  ],
+  "entities": [],
+  "yardsticks": [],
+  "artifact": null,
+  "unused_boxes": [
+    {
+      "n": 10,
+      "h3": "Public estimates beyond SHRM: US median, executive hires, healthcare, and an industry-by-industry spread",
+      "from_h2": "The cost-per-hire figures in circulation, and which edition each one actually comes from",
+      "cards": 3,
+      "serves": [
+        "common-h2: Benchmarks and average cost figures",
+        "gap: No winner segments cost per hire by role/job type (all three keep the breakdown generic — internal vs. external, or leak-by-leak — never by role).",
+        "related: Average cost per hire by industry"
+      ],
+      "why_benched": "Non-SHRM public estimates and the industry-by-industry spread duplicate the role and industry segmentation in boxes 16 and 17, and mixing in unsourced third-party averages would weaken the provenance argument the article is built on."
+    },
+    {
+      "n": 19,
+      "h3": "Onboarding spend moves in the opposite direction at the top",
+      "from_h2": "Cost per hire is not one number: it runs from roughly $1,500 at entry level to $250,000 for a retained executive search",
+      "cards": 4,
+      "serves": [
+        "asset-angle",
+        "common-h2: Breakdown of what counts as a cost (internal vs. external, hard vs. soft)"
+      ],
+      "why_benched": "Onboarding design by seniority level is training content, not a cost line, and it sits outside the formula boundary the article establishes in the closing section."
+    },
+    {
+      "n": 20,
+      "h3": "Global hires add cost lines a domestic hire never sees",
+      "from_h2": "Cost per hire is not one number: it runs from roughly $1,500 at entry level to $250,000 for a retained executive search",
+      "cards": 4,
+      "serves": [
+        "common-h2: Breakdown of what counts as a cost (internal vs. external, hard vs. soft)"
+      ],
+      "why_benched": "Global hiring ROI, EOR fees and the jobs-gap framing move the article onto recruitment ROI and international employment, a different metric from cost per hire and outside what this piece is about."
+    },
+    {
+      "n": 26,
+      "h3": "Invoice-only cost per hire captures under half the real spend",
+      "from_h2": "Hard costs are 30-40% of what a hire costs; soft costs are the other 60%",
+      "cards": 5,
+      "serves": [
+        "asset-angle",
+        "common-h2: Breakdown of what counts as a cost (internal vs. external, hard vs. soft)"
+      ],
+      "why_benched": "Restates the point boxes 25 and 27 already make, that the invoiced figure captures under half the real spend, so it would repeat inside its own section."
+    },
+    {
+      "n": 38,
+      "h3": "What counts as a soft cost, and why the headline fee is never the full price",
+      "from_h2": "Soft costs: interview hours, recruiter time and ramp can add $62k to a $75k hire",
+      "cards": 7,
+      "serves": [
+        "asset-angle",
+        "common-h2: Breakdown of what counts as a cost (internal vs. external, hard vs. soft)"
+      ],
+      "why_benched": "Definitional soft-cost material duplicated by box 24, which carries the hard-versus-soft definitions in the split section."
+    },
+    {
+      "n": 44,
+      "h3": "The referral bonus itself runs $500-$5,000, averaging about $2,500",
+      "from_h2": "Referral bonuses vs. agency fees: the per-hire cost gap",
+      "cards": 3,
+      "serves": [
+        "common-h2: Breakdown of what counts as a cost (internal vs. external, hard vs. soft)",
+        "related: Recruitment costs examples"
+      ],
+      "why_benched": "Referral bonus pricing is a channel-choice lever rather than a component of what a hire costs, and the article prices the number rather than advising on how to lower it."
+    },
+    {
+      "n": 45,
+      "h3": "A referred hire costs 40-60% less than an agency placement",
+      "from_h2": "Referral bonuses vs. agency fees: the per-hire cost gap",
+      "cards": 3,
+      "serves": [
+        "common-h2: Ways to reduce cost per hire",
+        "common-h2: Factors that drive cost per hire up or down",
+        "related: Recruitment costs examples"
+      ],
+      "why_benched": "Same reason as box 44: the referral-versus-agency saving is a cost-reduction tactic, and at this word budget it would take room from the hard and soft cost breakdown that carries the angle."
+    },
+    {
+      "n": 46,
+      "h3": "The other levers: vacancy days, candidate dropout, and bad hires",
+      "from_h2": "Referral bonuses vs. agency fees: the per-hire cost gap",
+      "cards": 2,
+      "serves": [
+        "common-h2: Factors that drive cost per hire up or down",
+        "common-h2: Ways to reduce cost per hire"
+      ],
+      "why_benched": "Vendor-style framing about services cutting vacancy days and dropout reads as promotion rather than a sourced cost figure, and this reader is signing off on budget, not reading tactics."
+    }
+  ],
+  "shared_box_warnings": [],
+  "brand_cards": [
+    {
+      "card_id": 8003,
+      "kind": "research",
+      "section": 9,
+      "headline": "$62,000 of soft cost on a $75,000 hire: interview hours, recruiter time and ramp",
+      "goes_to": "opening",
+      "why": "Evidence that recruiter screening time is genuinely uncounted, which is the section's premise that this 60-70% never shows up in the invoiced figure.",
+      "gloss": "A quarter have never measured how much recruiter time screening eats"
+    }
+  ],
+  "word_budget": {
+    "band": {
+      "min": 3000,
+      "max": 4000
+    },
+    "band_middle": 3500,
+    "aim_low_pct": 10,
+    "base": 3150,
+    "overwrite_pct": 0,
+    "sum_of_targets": 3150,
+    "headings": {
+      "sections": 10,
+      "sub_headings": 0,
+      "total": 10,
+      "words_per_heading": 315,
+      "under_floor": []
+    }
+  },
+  "h1": "Cost Per Hire in 2026: The Real Number, Not the 2022 One",
+  "keywords": {
+    "primary": "cost per hire",
+    "primary_changed": false,
+    "why_primary": "",
+    "variations": [
+      "costs per hire",
+      "cost of hire",
+      "cost to hire",
+      "hire cost"
+    ],
+    "section_keywords": [
+      "calculate cost per hire",
+      "cost per hire",
+      "hard costs vs soft costs",
+      "how much do recruitment agencies charge"
+    ],
+    "unplaced": [
+      {
+        "keyword": "recruitment fee",
+        "why": "no section's heading took it"
+      }
+    ]
+  }
+}

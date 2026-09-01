@@ -15,3 +15,12 @@ content-database-preview.csv
 
 # NOTE: .env is intentionally COMMITTED in this repo so the pipeline runs out of the box.
 # The DataForSEO credentials inside it should be rotated by the recipient.
+
+# Pipeline intermediates — regenerable, and never what a reader wants (added 31 Aug for the clean handoff).
+# The full versions live in the working repo; these are hundreds of MB of caches, embeddings and raw
+# scrapes that made the handoff 780 MB and hid the 40 MB anyone actually reads.
+_work/
+*.npy
+*.sqlite
+# STORM's per-call debug transcript. 21 MB of raw model chatter, useful to nobody reading this.
+llm_call_history.jsonl

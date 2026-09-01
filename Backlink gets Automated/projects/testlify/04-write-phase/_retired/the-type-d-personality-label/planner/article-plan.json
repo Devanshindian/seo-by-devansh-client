@@ -1,0 +1,1014 @@
+{
+  "slug": "the-type-d-personality-label",
+  "h1": "The Type D 'Personality' Label: What the Research Actually Supports for Hiring Decisions",
+  "format_archetype": "answer-bait-definitional",
+  "primary_keyword": "type d personality",
+  "word_band": {
+    "min": 2400,
+    "max": 3200
+  },
+  "persona": {
+    "name": "Hiring Manager (non-HR-native)",
+    "lens": "A functional lead who has spotted (or been told about) 'Type D' traits in a specific candidate and needs to know whether the label is even scientifically sound, plus what to actually do about it in the interview and on the job — not an HR theory lecture.",
+    "why": "The angle is candidate-scenario management tactics, not screening funnel or enterprise talent strategy — that's the hire-owning functional manager who has to make the call and then manage the person, not the recruiter running the pipeline or HR building programs."
+  },
+  "gaps_to_own": [
+    "Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label",
+    "Clear distinction between Type D personality research and workplace personality typing",
+    "Complete management tactics for a Type D candidate or employee",
+    "A concrete candidate scenario that shows how managers should respond in interviews, onboarding, feedback, and team settings",
+    "Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits"
+  ],
+  "winners_common_h2s": [
+    "What Type D personality is",
+    "Core Type D traits",
+    "Health concerns",
+    "Type D at work",
+    "Treatment or management of Type D traits"
+  ],
+  "winners_drift": [
+    "Healthline pivots into cardiology and patient self-care; Thomas pivots into HR candidate and employee handling"
+  ],
+  "paa_pool": [
+    "What is a type D person like?",
+    "What is type C and type D personality?",
+    "What are the 4 types of personality?",
+    "What is the best job for a type D personality?",
+    "What are type A, B, C, D personalities?"
+  ],
+  "related_searches": [
+    "Type D personality jobs",
+    "Type d personality traits",
+    "Type d personality test",
+    "Type D personality traits female",
+    "Type D personality disorder"
+  ],
+  "search_intent": "informational",
+  "ai_overview": "Type D (\"distressed\") personality is defined as negative affectivity plus social inhibition; then it names Negative Affectivity, Social Inhibition, Internal Distress, cardiovascular/health risks, Professional Counseling, Building a Support Network, Lifestyle Changes, and a note separating psychological Type D from DiSC \"Dominant\" D.",
+  "table_stakes": [
+    "What Type D personality is",
+    "Core Type D traits",
+    "Health concerns",
+    "Type D at work",
+    "Treatment or management of Type D traits"
+  ],
+  "sections": [
+    {
+      "h2": "What Is Type D Personality?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What \"Type D\" Means",
+          "tags": [
+            "common-h2: What Type D personality is"
+          ],
+          "tag_receipts": {
+            "common-h2: What Type D personality is": [
+              1,
+              2
+            ]
+          },
+          "card_ids": [
+            2,
+            1
+          ]
+        },
+        {
+          "h3": "The Two Traits That Define It",
+          "tags": [
+            "common-h2: Core Type D traits",
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label",
+            "paa: What is a type D person like?"
+          ],
+          "tag_receipts": {
+            "common-h2: Core Type D traits": [
+              3,
+              4,
+              31
+            ],
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label": [
+              5,
+              31,
+              32
+            ],
+            "paa: What is a type D person like?": [
+              3,
+              4
+            ]
+          },
+          "card_ids": [
+            3,
+            4,
+            31,
+            5,
+            32
+          ]
+        },
+        {
+          "h3": "Where the Concept Came From",
+          "tags": [
+            "asset-angle",
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              6,
+              7
+            ],
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label": [
+              6,
+              7
+            ]
+          },
+          "card_ids": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How Is Type D Personality Measured? The DS14 Assessment",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What Is the DS14 and How Is It Structured?",
+          "tags": [
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label",
+            "related: Type d personality test",
+            "common-h2: Core Type D traits"
+          ],
+          "tag_receipts": {
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label": [
+              11,
+              33,
+              12
+            ],
+            "related: Type d personality test": [
+              10,
+              33,
+              11
+            ],
+            "common-h2: Core Type D traits": [
+              11
+            ]
+          },
+          "card_ids": [
+            10,
+            33,
+            11,
+            12
+          ]
+        },
+        {
+          "h3": "How Are DS14 Scores Classified as Type D?",
+          "tags": [
+            "asset-angle",
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label",
+            "related: Type d personality test"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              13,
+              14
+            ],
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label": [
+              13,
+              35,
+              14
+            ],
+            "related: Type d personality test": [
+              13,
+              35
+            ]
+          },
+          "card_ids": [
+            13,
+            35,
+            14
+          ]
+        },
+        {
+          "h3": "Is the DS14 a Valid and Reliable Tool?",
+          "tags": [
+            "asset-angle",
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              37,
+              38,
+              39
+            ],
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              39
+            ]
+          },
+          "card_ids": [
+            37,
+            38,
+            39
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What does the original Type D research actually show — and has it held up?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The original studies: cardiac patients, not job candidates",
+          "tags": [
+            "asset-angle",
+            "gap: Clear distinction between Type D personality research and workplace personality typing",
+            "common-h2: Health concerns"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              40,
+              41,
+              44
+            ],
+            "gap: Clear distinction between Type D personality research and workplace personality typing": [
+              40,
+              41
+            ],
+            "common-h2: Health concerns": [
+              42,
+              43,
+              44,
+              51
+            ]
+          },
+          "card_ids": [
+            40,
+            41,
+            51,
+            52,
+            42,
+            43,
+            44
+          ]
+        },
+        {
+          "h3": "Has the mortality-risk link held up to scrutiny?",
+          "tags": [
+            "asset-angle",
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              53,
+              54,
+              70
+            ],
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              70
+            ]
+          },
+          "card_ids": [
+            53,
+            54,
+            55,
+            56,
+            57,
+            68,
+            69,
+            70
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Is Type D a stable trait, or a sign of psychopathology?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "How stable are Type D's traits over time?",
+          "tags": [
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label",
+            "common-h2: Core Type D traits"
+          ],
+          "tag_receipts": {
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label": [
+              16
+            ],
+            "common-h2: Core Type D traits": [
+              16
+            ]
+          },
+          "card_ids": [
+            16
+          ]
+        },
+        {
+          "h3": "Is Type D a psychiatric disorder?",
+          "tags": [
+            "asset-angle",
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label",
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits",
+            "related: Type D personality disorder"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              17,
+              18
+            ],
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label": [
+              17,
+              18
+            ],
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              17,
+              18
+            ],
+            "related: Type D personality disorder": [
+              17,
+              18
+            ]
+          },
+          "card_ids": [
+            17,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What Does a Type D Personality Look Like Day to Day?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The negative traits: sadness, irritability, and social avoidance",
+          "tags": [
+            "common-h2: Core Type D traits",
+            "paa: What is a type D person like?",
+            "related: Type d personality traits"
+          ],
+          "tag_receipts": {
+            "common-h2: Core Type D traits": [
+              107,
+              108,
+              109,
+              110,
+              111
+            ],
+            "paa: What is a type D person like?": [
+              107,
+              109,
+              111
+            ],
+            "related: Type d personality traits": [
+              107,
+              108,
+              109,
+              110,
+              111
+            ]
+          },
+          "card_ids": [
+            107,
+            108,
+            109,
+            110,
+            111
+          ]
+        },
+        {
+          "h3": "The positive traits: organized, caring, and persistent",
+          "tags": [
+            "common-h2: Core Type D traits",
+            "related: Type d personality traits"
+          ],
+          "tag_receipts": {
+            "common-h2: Core Type D traits": [
+              112,
+              113,
+              114
+            ],
+            "related: Type d personality traits": [
+              112,
+              113,
+              114
+            ]
+          },
+          "card_ids": [
+            112,
+            113,
+            114
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Is Type D Personality Linked to Job Performance?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What the Research on Type D Actually Covers",
+          "tags": [
+            "asset-angle",
+            "gap: Clear distinction between Type D personality research and workplace personality typing",
+            "common-h2: Type D at work"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              71,
+              72,
+              75
+            ],
+            "gap: Clear distinction between Type D personality research and workplace personality typing": [
+              71,
+              72,
+              73
+            ],
+            "common-h2: Type D at work": [
+              72,
+              73
+            ]
+          },
+          "card_ids": [
+            61,
+            71,
+            72,
+            73,
+            74,
+            75
+          ]
+        },
+        {
+          "h3": "No Validation for Hiring or Employment Use",
+          "tags": [
+            "asset-angle",
+            "gap: Clear distinction between Type D personality research and workplace personality typing",
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              62,
+              63,
+              94,
+              95
+            ],
+            "gap: Clear distinction between Type D personality research and workplace personality typing": [
+              79,
+              94,
+              95
+            ],
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              105,
+              106,
+              67
+            ]
+          },
+          "card_ids": [
+            62,
+            63,
+            65,
+            66,
+            67,
+            79,
+            94,
+            95,
+            105,
+            106
+          ]
+        },
+        {
+          "h3": "How Type D Is Measured, and Why Self-Report Tests Are Risky in Hiring",
+          "tags": [
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label",
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits",
+            "related: Type d personality test"
+          ],
+          "tag_receipts": {
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label": [
+              97
+            ],
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              80,
+              96,
+              98
+            ],
+            "related: Type d personality test": [
+              97,
+              98
+            ]
+          },
+          "card_ids": [
+            76,
+            77,
+            80,
+            89,
+            92,
+            96,
+            97,
+            98
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What environment does Type D thrive in, and what should managers watch for?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "How does Type D show up in a team?",
+          "tags": [
+            "common-h2: Type D at work"
+          ],
+          "tag_receipts": {
+            "common-h2: Type D at work": [
+              119,
+              120,
+              123,
+              124,
+              127
+            ]
+          },
+          "card_ids": [
+            119,
+            120,
+            123,
+            124,
+            127
+          ]
+        },
+        {
+          "h3": "What should managers watch for?",
+          "tags": [
+            "asset-angle",
+            "gap: Complete management tactics for a Type D candidate or employee"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              125,
+              126
+            ],
+            "gap: Complete management tactics for a Type D candidate or employee": [
+              125,
+              126
+            ]
+          },
+          "card_ids": [
+            125,
+            126
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How Do You Manage a Type D Personality on Your Team?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "How Do You Manage a Type D Personality on Your Team?",
+          "tags": [
+            "asset-angle",
+            "gap: Complete management tactics for a Type D candidate or employee",
+            "common-h2: Treatment or management of Type D traits"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              138
+            ],
+            "gap: Complete management tactics for a Type D candidate or employee": [
+              138
+            ],
+            "common-h2: Treatment or management of Type D traits": [
+              138
+            ]
+          },
+          "card_ids": [
+            138
+          ]
+        },
+        {
+          "h3": "Start by Understanding What Drives the Behavior",
+          "tags": [
+            "gap: Complete management tactics for a Type D candidate or employee",
+            "common-h2: Treatment or management of Type D traits"
+          ],
+          "tag_receipts": {
+            "gap: Complete management tactics for a Type D candidate or employee": [
+              130,
+              128,
+              131
+            ],
+            "common-h2: Treatment or management of Type D traits": [
+              130,
+              131
+            ]
+          },
+          "card_ids": [
+            130,
+            128,
+            131
+          ]
+        },
+        {
+          "h3": "Reassure Them and Invest in Their Confidence",
+          "tags": [
+            "gap: Complete management tactics for a Type D candidate or employee",
+            "common-h2: Treatment or management of Type D traits"
+          ],
+          "tag_receipts": {
+            "gap: Complete management tactics for a Type D candidate or employee": [
+              129,
+              132
+            ],
+            "common-h2: Treatment or management of Type D traits": [
+              132
+            ]
+          },
+          "card_ids": [
+            129,
+            132
+          ]
+        },
+        {
+          "h3": "Use Short-Term Goal-Setting to Build Hope",
+          "tags": [
+            "gap: Complete management tactics for a Type D candidate or employee",
+            "common-h2: Treatment or management of Type D traits"
+          ],
+          "tag_receipts": {
+            "gap: Complete management tactics for a Type D candidate or employee": [
+              133,
+              134
+            ],
+            "common-h2: Treatment or management of Type D traits": [
+              134
+            ]
+          },
+          "card_ids": [
+            133,
+            134
+          ]
+        },
+        {
+          "h3": "Encourage Mindfulness, Prayer, or Meditation",
+          "tags": [
+            "common-h2: Treatment or management of Type D traits"
+          ],
+          "tag_receipts": {
+            "common-h2: Treatment or management of Type D traits": [
+              135,
+              137
+            ]
+          },
+          "card_ids": [
+            135,
+            137
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Why can't you diagnose Type D personality from an interview — and what should you do instead?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Why you can't diagnose Type D personality from an interview",
+          "tags": [
+            "asset-angle",
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label",
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits",
+            "common-h2: Core Type D traits"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              207,
+              216,
+              217,
+              218
+            ],
+            "gap: Research origin of Type D as negative affectivity plus social inhibition, not a loose personality label": [
+              208,
+              209,
+              215,
+              216
+            ],
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              210,
+              214,
+              217,
+              218
+            ],
+            "common-h2: Core Type D traits": [
+              208,
+              209,
+              213
+            ]
+          },
+          "card_ids": [
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218
+          ]
+        },
+        {
+          "h3": "What actually makes an interview 'structured'",
+          "tags": [
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits"
+          ],
+          "tag_receipts": {
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              219,
+              164
+            ]
+          },
+          "card_ids": [
+            162,
+            219
+          ]
+        },
+        {
+          "h3": "Behavioral vs. situational interview questions",
+          "tags": [
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits"
+          ],
+          "tag_receipts": {
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              253,
+              250
+            ]
+          },
+          "card_ids": [
+            172,
+            250,
+            251,
+            253
+          ]
+        },
+        {
+          "h3": "How structure cuts interview bias",
+          "tags": [
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits"
+          ],
+          "tag_receipts": {
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              175,
+              223,
+              227,
+              235
+            ]
+          },
+          "card_ids": [
+            173,
+            174,
+            175,
+            223,
+            224,
+            225,
+            235,
+            258
+          ]
+        },
+        {
+          "h3": "Six steps to build a structured, competency-based interview",
+          "tags": [
+            "gap: Complete management tactics for a Type D candidate or employee"
+          ],
+          "tag_receipts": {
+            "gap: Complete management tactics for a Type D candidate or employee": [
+              180,
+              230,
+              231,
+              182
+            ]
+          },
+          "card_ids": [
+            231
+          ]
+        },
+        {
+          "h3": "Anchoring scores to a behavioral rubric",
+          "tags": [
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits",
+            "gap: Complete management tactics for a Type D candidate or employee"
+          ],
+          "tag_receipts": {
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              195,
+              189
+            ],
+            "gap: Complete management tactics for a Type D candidate or employee": [
+              190,
+              191,
+              192,
+              193,
+              194,
+              239
+            ]
+          },
+          "card_ids": [
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195
+          ]
+        },
+        {
+          "h3": "Calibration and independent scoring, before the debrief",
+          "tags": [
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits",
+            "gap: Complete management tactics for a Type D candidate or employee"
+          ],
+          "tag_receipts": {
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              232,
+              234,
+              238,
+              243
+            ],
+            "gap: Complete management tactics for a Type D candidate or employee": [
+              196,
+              233,
+              240,
+              242
+            ]
+          },
+          "card_ids": [
+            196,
+            232,
+            237,
+            240,
+            243
+          ]
+        },
+        {
+          "h3": "Asking follow-up questions without breaking the rubric",
+          "tags": [
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits",
+            "gap: Complete management tactics for a Type D candidate or employee"
+          ],
+          "tag_receipts": {
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              247,
+              248,
+              204
+            ],
+            "gap: Complete management tactics for a Type D candidate or employee": [
+              245,
+              246,
+              202,
+              249
+            ]
+          },
+          "card_ids": [
+            204,
+            245,
+            246,
+            247,
+            248
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What legal risk does using a health-linked construct like Type D in hiring create?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Where does a Type D-based test cross the ADA medical-examination line?",
+          "tags": [
+            "asset-angle",
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits",
+            "gap: Clear distinction between Type D personality research and workplace personality typing"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              83,
+              144,
+              147
+            ],
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              81,
+              82,
+              100,
+              101,
+              139,
+              140,
+              141,
+              147
+            ],
+            "gap: Clear distinction between Type D personality research and workplace personality typing": [
+              143,
+              144,
+              99
+            ]
+          },
+          "card_ids": [
+            81,
+            82,
+            83,
+            99,
+            101,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147
+          ]
+        },
+        {
+          "h3": "Does the test meet ADA/Title VII job-relatedness and validation standards?",
+          "tags": [
+            "asset-angle",
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              85
+            ],
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              84,
+              86,
+              87,
+              104,
+              264
+            ]
+          },
+          "card_ids": [
+            84,
+            85,
+            87,
+            88,
+            104,
+            264
+          ]
+        },
+        {
+          "h3": "Does labeling a candidate 'Type D' expose employers to a regarded-as disability claim?",
+          "tags": [
+            "asset-angle",
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              150
+            ],
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              149,
+              151,
+              153,
+              154,
+              157
+            ]
+          },
+          "card_ids": [
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157
+          ]
+        },
+        {
+          "h3": "Does health-linked personality labeling add privacy-law exposure on top of ADA risk?",
+          "tags": [
+            "asset-angle",
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              161
+            ],
+            "gap: Hiring and assessment caveats: avoid diagnosis, stereotyping, or screening out candidates based on distress traits": [
+              159,
+              160,
+              161
+            ]
+          },
+          "card_ids": [
+            158,
+            159,
+            161
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "9001": {
+    "gloss": "Criteria Corp: 80% completion up to 40 minutes of testing, falling to ~60% past an hour, from about half a million tests",
+    "verbatim": "Criteria Corp, in its Definitive Guide to Pre-Employment Testing (best-practices chapter), reports analysing roughly half a million completed tests to work out how long a testing session can run before candidates abandon it. Its finding: organisations can expect a completion rate of around 80% for assessments up to 40 minutes long. After the 40-minute mark the completion rate falls, dropping to around 60% once total testing length goes beyond one hour. Criteria frames this as the reason to keep tests as short and engaging as possible, optimising total testing volume to maximise talent signal while minimising candidate drop-off. The figure is platform-wide across Criteria's customer base rather than broken out by test category.",
+    "source_urls": [
+      "https://www.criteriacorp.com/resources/definitive-guide-validity-of-preemployment-tests/what-are-the-best-practices-implementing"
+    ],
+    "tag": "enriched",
+    "card_id": 9001
+  },
+  "9002": {
+    "gloss": "TestGorilla: a single test lasts around 10 minutes, and an assessment stacks up to five of them plus 10 custom questions",
+    "verbatim": "TestGorilla's own explainer on the seven test types for a pre-employment assessment (undated on the page, published by TestGorilla staff) states that a pre-employment test covers 3-4 skill areas in one skillset and that tests usually last around 10 minutes, a length it says is deliberate: enough time to answer the questions and move on to the next test, creating a sense of urgency. An assessment is then built by combining several of these tests: TestGorilla's assessments allow up to five premade tests plus up to 10 optional custom questions (multiple-choice, open-ended or media-led). On that arithmetic a full TestGorilla assessment made of five tests runs roughly 50 minutes of candidate time-on-task before custom questions. The company also says assessments are typically completed by candidates within a few days of being sent.",
+    "source_urls": [
+      "https://www.testgorilla.com/blog/7-test-types-for-a-pre-employment-assessment/"
+    ],
+    "tag": "enriched",
+    "card_id": 9002
+  },
+  "9003": {
+    "gloss": "JobTestPrep: TestGorilla advises clients to keep assessments under an hour, one minute per question, with coding tests running longer",
+    "verbatim": "JobTestPrep's candidate-facing guide to the TestGorilla assessment (undated on the page) describes the platform's administration rules from the test-taker's side. Client companies can use as few as one test and one custom question, and as many as five tests and 20 custom questions, so total duration varies significantly. TestGorilla advises its clients to keep assessments under an hour in order to maintain a positive candidate experience. The stated exception is software development assessments, which include coding tests and will often surpass the 60-minute mark. Every test is timed, with candidates receiving an average of one minute per question, and a visible countdown timer at the top of the screen; JobTestPrep reports the time constraint is a significant issue for many applicants. Candidates cannot pause a test but can take as long as they want between tests, and skipped questions cannot be returned to.",
+    "source_urls": [
+      "https://www.jobtestprep.com/testgorilla-assessment-practice"
+    ],
+    "tag": "enriched",
+    "card_id": 9003
+  },
+  "9004": {
+    "gloss": "TestGorilla: 350+ tests completable in 15 minutes on any device, against Criteria's 27-test library",
+    "verbatim": "TestGorilla's comparison page against Criteria Corp (updated 26 May 2024) states that its library of 350+ scientifically validated pre-employment screening tests uses formats including multiple-choice, video responses, open-text answers and file uploads, and that tests can be completed in 15 minutes on any device. The same page puts Criteria Corp's library at around 27 different pre-employment screening tests, spanning cognitive aptitude, personality, emotional intelligence, risk and job-specific skills, available in 23 languages (not all tests in all languages), with programming tests supplied through a partnership with HackerRank. Both libraries are listed as covering cognitive ability tests, situational judgment tests, job-specific tests, software tests, programming tests, language tests, personality tests and culture-add tests.",
+    "source_urls": [
+      "https://www.testgorilla.com/blog/testgorilla-vs-criteria/"
+    ],
+    "tag": "enriched",
+    "card_id": 9004
+  },
+  "9005": {
+    "gloss": "Predictive Index ships a 12-minute cognitive assessment alongside its four-drive behavioural test",
+    "verbatim": "TestGorilla's 2026 roundup of Criteria Corp alternatives (updated 12 August 2026) lists The Predictive Index's assessment as a behavioural test covering four drives plus a 12-minute cognitive assessment, validated on I/O psychology, priced from $4,950 a year. The same comparison table names the test-library size for other vendors in the category without stating their timings: TestGorilla 350+ validated tests, iMocha 3,000+ skills tests, TestDome 2,000+ questions across 130+ skills, Vervoe 300+ pre-built assessments, Wonderlic covering cognitive, personality and motivation and normed since 1936, and Harver covering cognitive, behavioural, gamified and situational judgment formats for high-volume and frontline hiring.",
+    "source_urls": [
+      "https://www.testgorilla.com/blog/criteria-corp-alternatives/"
+    ],
+    "tag": "enriched",
+    "card_id": 9005
+  },
+  "9006": {
+    "gloss": "isolved: 10 minutes for a quick skills test, 30 to 60 minutes for cognitive or personality evaluations",
+    "verbatim": "isolved HCM's pre-hire assessments page (undated), describing assessments powered by Prevue, answers the question of how long pre-employment assessments take: length varies by test type and role complexity, but assessments generally run anywhere from 10 minutes for a quick skills test to 30-60 minutes for more comprehensive evaluations, and the length can be customised to fit a hiring timeline. isolved attributes the longer end specifically to personality and cognitive ability tests, which it says provide deeper insight into a candidate's problem-solving skills and behavioural traits, while shorter assessments focus on a specific skill or competency needed for a role. The figures are vendor guidance rather than measured platform data, and no sample size or period is given.",
+    "source_urls": [
+      "https://www.isolvedhcm.com/talent-acquisition/applicant-tracking-system/pre-hire-assessments"
+    ],
+    "tag": "enriched",
+    "card_id": 9006
+  },
+  "9007": {
+    "gloss": "Peer-reviewed study of ~357 students found automated proctoring flagged darker skin tones and Black students significantly more often",
+    "verbatim": "Yoder-Himes et al., \"Racial, skin tone, and sex disparities in automated proctoring software,\" published in Frontiers in Education (Vol. 7, 20 September 2022, DOI 10.3389/feduc.2022.881449), is a peer-reviewed original research study from the University of Louisville. The team examined instructor outputs for approximately 357 students across four courses, taking one exam per course, and manually categorised skin tone from a high-resolution photograph alongside each student's self-reported race and sex. The proctoring software studied is used by at least 1,500 universities nationally in the US. The system uses facial detection, and an undetected face results in the session being flagged and the instructor notified of a \"suspicious\" instance needing manual review. Results: a significant increase in the likelihood that students with darker skin tones, and Black students, would be marked as needing instructor review for potential cheating. There was no significant difference between male and female students in aggregate, but at the intersection of race and sex, women with the darkest skin tones were far more likely to be flagged than darker-skinned men or lighter-skinned men and women. The authors state the phenomenon had not previously been quantified and is not readily available from the companies that make this software, and that theirs is the first study to quantitatively examine facial detection bias at the intersection of race and sex.",
+    "source_urls": [
+      "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.881449/full"
+    ],
+    "tag": "enriched",
+    "card_id": 9007
+  },
+  "9008": {
+    "gloss": "2025 peer-reviewed review of 33 proctoring systems: vendors do not disclose how AI decides a rule violation",
+    "verbatim": "Eva Heinrich, \"A Systematic-Narrative Review of Online Proctoring Systems and a Case for Open Standards,\" Open Praxis, Vol. 17, Issue 3, pages 485-499, published 11 August 2025 (DOI 10.55982/openpraxis.17.3.836), peer reviewed, submitted January 2025 and accepted April 2025. The review covers publicly available descriptions of 33 online proctoring systems. Its findings: significant shortcomings in data privacy and security, and unspecified use of AI technologies, particularly regarding the role AI plays in deciding whether an exam rule has been violated. Proprietary solutions dominate the market and no open-source alternatives are available. The review notes a prior concern in the literature (Coghlan et al., 2021) about a lack of transparency over how behaviours are classified as suspicious. It distinguishes three approaches that work in combination: live (a human proctor watches video feeds and decides whether to intervene), automated (the system checks via face or voice detection whether another person entered the space or the student is talking, and may intervene directly during the test), and recording (video, audio, screen, keyboard and pointer data captured for post-exam analysis to determine whether violations took place). Heinrich proposes a \"proctoring flag standard\" to give a transparent basis for capturing data on potential rule violations, evaluated both for individual students and across cohorts, and recommends the education sector demand more transparency from proctoring vendors.",
+    "source_urls": [
+      "https://openpraxis.org/articles/10.55982/openpraxis.17.3.836"
+    ],
+    "tag": "enriched",
+    "card_id": 9008
+  },
+  "9009": {
+    "gloss": "Systematic review of 43 AI-proctoring papers (2015-2021) reports security, privacy and ethics problems but publishes no flag-rate figures",
+    "verbatim": "Nigam, Pasricha, Singh and Churi, \"A Systematic Review on AI-based Proctoring Systems: Past, Present and Future,\" Education and Information Technologies (Dordrecht), Vol. 26, Issue 5, pages 6421-6445, published 23 June 2021 (DOI 10.1007/s10639-021-10597-x; PMCID PMC8220875). The authors searched Scopus, Web of Science and ERIC and shortlisted 43 papers published between 2015 and 2021, addressing four research questions on the existing architecture of AI-based proctoring systems, the parameters to consider when building them, trends and issues, and their future. Their stated conclusion is that security issues associated with AI-based proctoring are multiplying, with major issues being security and privacy concerns, ethical concerns, trust in AI-based technology, lack of training in the use of the technology, and cost, and that it is difficult to know whether the benefits of these technologies outweigh their risks. The authors say psychological, cultural and technological parameters must be considered when developing such systems. As published, the review's account of its own findings reports no false-positive rate, no flag rate, and no overturn-on-review figure for any system.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8220875/"
+    ],
+    "tag": "enriched",
+    "card_id": 9009
+  },
+  "9010": {
+    "gloss": "Six US senators wrote to ExamSoft citing a researcher's work on proctoring bias; a Black student was repeatedly told to add light to her face",
+    "verbatim": "Auraria Library (University of Colorado Denver), \"Why Online Test Proctoring is Biased, From an Expert,\" published 13 January 2021. Research by Shea Swauger, a librarian at Auraria Library, was cited in a letter from six United States senators to ExamSoft CEO Sebastian Vos. The letter cites Swauger's opinion article of 7 August 2020 in MIT Technology Review. Swauger says algorithmic proctoring \"is a modern surveillance technology that reinforces white supremacy, sexism, ableism, and transphobia\" and that its use is an invasion of student privacy and often a civil rights violation. He gives a first-hand account from his own institution: \"A Black woman at my university once told me that whenever she used Proctorio's test proctoring software, it always prompted her to shine more light on her face. The software couldn't validate her identity and she was denied access to tests so often that she had to go to her professor to make other arrangements. Her white peers never had this problem.\" The article names the providers the movement is directed at: ExamSoft, Examity, HonorLock, Proctorio, ProctorU and Respondus. Swauger first encountered algorithmic test proctoring in 2017 and started a petition to ban facial recognition and algorithmic proctoring, addressed to CU Denver's Faculty Council Executive Committee.",
+    "source_urls": [
+      "https://library.auraria.edu/news/2021/why-online-test-proctoring-biased-expert"
+    ],
+    "tag": "enriched",
+    "card_id": 9010
+  },
+  "9011": {
+    "gloss": "Proctoring researcher: peer-reviewed evidence lagged behind the rollout, leaving student testimony as the best available evidence",
+    "verbatim": "In the Auraria Library article of 13 January 2021, researcher Shea Swauger (University of Colorado Denver) describes the state of the published evidence on proctoring harms. Online test proctoring grew exponentially with the shift to remote education during the pandemic, and that growth outpaced the collection of empirical data from peer-reviewed journals questioning the ethics of the software. In his words: \"Right now, the best evidence we have is students who go on social media and describe what's happening and how bad these products are, then they go on to start petitions to ban them and get thousands of signatures, but the literature hasn't entirely caught up with those findings yet.\" He adds that algorithms designed to detect suspicious movement will flag disabled students and others who do not move the way the platforms expect.",
+    "source_urls": [
+      "https://library.auraria.edu/news/2021/why-online-test-proctoring-biased-expert"
+    ],
+    "tag": "enriched",
+    "card_id": 9011
+  },
+  "9012": {
+    "gloss": "Law student locked out of a bar exam by facial recognition; vendor denies disproportionate effect on people of colour",
+    "verbatim": "Christian Science Monitor / Thomson Reuters Foundation, \"Online exams raise concerns of racial bias in facial recognition,\" by Avi Asher-Schapiro, 17 November 2020. Law student Areeb Khan, trying to sign in to take his practice bar exam on Examplify (the ExamSoft platform adopted by New York state's law exam board during COVID-19), was met with the message \"Due to poor lighting we are unable to identify your face.\" Extra lighting did not fix it; he tried signing in from the brightest room in his New York apartment, the bathroom, and it took days of back-and-forth with customer service before he could sign in. He suspected his dark skin tone was the cause. ExamSoft spokeswoman Nici Sandberg responded that \"ExamSoft maintains a non-biased identification and exam delivery process to ensure that individuals of color are not disproportionately affected.\" Scale figures in the same piece: more than 90% of countries instituted some form of remote learning since the start of the pandemic, according to a UNICEF report in August 2020, and the vendor Proctorio reported proctoring more than five times as many exams in 2020 as the previous year. Shea Swauger (University of Colorado Denver) notes facial recognition systems are less accurate with dark-skinned people and that movement-detection algorithms will inevitably flag disabled students. Proctorio CEO Mike Olsen said critics misunderstand the tools, emphasising that they do not directly identify cheaters but simply flag suspicious behaviour to universities. In September 2020 the Supreme Court of India cancelled a remotely proctored admissions exam at the National Law School of India University after a lawsuit argued the AI-monitored exam was unfair to students of \"lesser means and from marginalized areas.\"",
+    "source_urls": [
+      "https://www.csmonitor.com/Technology/2020/1117/Online-exams-raise-concerns-of-racial-bias-in-facial-recognition"
+    ],
+    "tag": "enriched",
+    "card_id": 9012
+  },
+  "9013": {
+    "gloss": "Vendor blog cites industry false-positive rates of 30-50% for AI-only proctoring and under 5% for hybrid, with no sample size given",
+    "verbatim": "Proctor360, \"AI Proctoring False Positives: Why They Happen and How to Fix Them,\" a vendor blog post dated 30 April 2026 and written by co-founder and CTO Kranthi Bathula. Figures given, all attributed only to unnamed \"reports from the proctoring industry\" with no study, sample size or dataset named: some pure AI detection tools can generate false positives at rates as high as 30% to 50%; even a modest 4% false positive rate, applied across millions of scans, produces a large volume of incorrect flags for human teams to resolve manually; advanced hybrid systems \"consistently achieve false positive rates below 5%\", reducing erroneous flags by as much as 40% compared with traditional methods. The company also states that clients using its hybrid model report a 40% reduction in false positive flags compared with AI-only platforms, \"based on post-session review data collected across multiple institution deployments\" (number of sessions and institutions not stated). The mechanism it describes: AI monitors the session and escalates any flag above a configurable threshold to a trained human proctor, who reviews the footage before the flag is communicated to the candidate or institution. The post names the groups most exposed to false accusations as neurodiverse students, non-native speakers, and people with disabilities whose natural behaviours, such as fidgeting or eye movement, may be misinterpreted by an algorithm, and lists poor lighting, a pet entering frame, a sudden noise, muttering while problem-solving, and looking away to think as triggers. It also states the automated proctoring market is projected to grow at 18.7% CAGR through 2033. This is marketing material from a proctoring vendor selling the hybrid model, not an independent audit.",
+    "source_urls": [
+      "https://proctor360.com/blog/ai-proctoring-false-positives-hybrid-solution"
+    ],
+    "tag": "enriched",
+    "card_id": 9013
+  },
+  "9014": {
+    "gloss": "Vendor definition of a proctoring false positive and the ordinary behaviours that trigger one, with no rate published",
+    "verbatim": "Integrity Advocate, \"AI-Only Proctoring Has a False Positive Problem. Here's What That Costs Your Program,\" by Caroline Esteves, dated 24 June 2026, a proctoring vendor blog. Its working definition: a false positive is when a proctoring system flags a test taker for suspected misconduct and the flagged behaviour was not actually a violation. The behaviours it lists as commonly triggering automated flags: looking away from the screen to think through a question; moving lips while reading; a family member walking past in the background; connectivity drops in low-bandwidth environments; and disability-related behaviours covered under accommodations. Its central argument is stated as \"the flag is not the decision\" and \"flagging is not deciding\" - automated systems detect anomalies at scale but cannot evaluate whether an anomaly matters, and when automated flags are treated as decisions without human review, results get invalidated with no person ever having looked at the session. The company's own claims elsewhere on its site are mandatory human review on every flagged session, zero data breaches in 12 years, and a 98% client retention rate. The piece publishes no false-positive rate, no flag rate, and no overturn-on-review figure.",
+    "source_urls": [
+      "https://www.integrityadvocate.com/resources/ai-only-proctoring-has-a-false-positive-problem-heres-what-that-costs-your-program"
+    ],
+    "tag": "enriched",
+    "card_id": 9014
+  },
+  "9015": {
+    "gloss": "UK regulator Ofqual said AI-only proctoring is \"unlikely to be compliant\"; vendor lists human proctor-to-candidate ratios by stakes",
+    "verbatim": "TestReach, \"Human Led Remote Proctoring vs. AI Proctoring: Best for Secure Exams,\" by Louella Morton, Co-CEO, dated 16 August 2023, a vendor blog. It reports that Ofqual, the UK's exam regulator, stated that AI alone is \"unlikely to be compliant\" with its regulations, on the grounds that AI lacks the human judgment needed to make fair decisions in ambiguous situations, and that meeting compliance standards often requires a hybrid approach with human oversight. On the false-positive mechanism it states that AI-based proctoring relies on preset movement and noise thresholds, and that if AI sensitivity is set too high, false positives skyrocket, flagging innocent behaviour such as stretching or glancing away; it also argues post-exam video review is ineffective because intent is difficult to prove after the fact. On cost it disputes that AI is cheaper, citing extra labour for post-exam video review, more appeals and administrative work caused by false positives, and higher dropout and rescheduling costs. It gives human proctor-to-candidate ratios scaled to exam stakes: 1:12 for low-stakes exams, and 1:4 or 1:2 for high-stakes exams. No false-positive rate or overturn rate is published in the piece, and it is written by a vendor selling human-led proctoring.",
+    "source_urls": [
+      "https://www.testreach.com/blog-post/human-led-remote-proctoring-AI-Proctoring-best-for-secure-exams.html"
+    ],
+    "tag": "enriched",
+    "card_id": 9015
+  },
+  "9016": {
+    "gloss": "Hiring-assessment vendor: webcam proctoring false positives disproportionately hit darker skin tones and disabled candidates, so flags should trigger review, not rejection",
+    "verbatim": "HackerEarth, \"How Candidates Cheat on Technical Assessments in 2026,\" by Nischal V Chadaga, dated 10 February 2025, written for employers running technical hiring assessments rather than for education. Its stated position: \"Webcam-based proctoring produces false positives that disproportionately flag candidates with darker skin tones, candidates with disabilities, and candidates in non-ideal home environments, so algorithmic flags should trigger human review, not automatic rejection.\" On specific controls it says eye-tracking heuristics, where candidates whose gaze repeatedly drifts off-screen get flagged, are \"signal, not proof\" and should be treated as a reason to add a follow-up interview rather than a reason to reject; that audio analysis can flag whispered conversations but accuracy varies and background noise creates false positives; and that typing-pattern flags for a solution pasted in one keystroke produce false positives for candidates who legitimately draft in their own editor. It also notes that ID verification against a webcam capture raises privacy obligations, requiring explicit consent and data-handling disclosures in some jurisdictions, including parts of the EU and Illinois under BIPA. No numeric false-positive rate is given. The company sells technical assessment software.",
+    "source_urls": [
+      "https://www.hackerearth.com/blog/different-ways-candidates-cheat-in-online-technical-assessments"
+    ],
+    "tag": "enriched",
+    "card_id": 9016
+  },
+  "9017": {
+    "gloss": "Pre-hire testing veteran estimates only 1-4% of remote test takers actually cheat, and calls test unreliability the bigger source of false positives",
+    "verbatim": "HR Avatar, \"Automated Remote Proctoring is Revolutionizing Pre-hire Assessment,\" by Mike Russiello, an undated vendor blog post (site copyright 2026). Writing as someone involved in remote internet-based pre-hire testing for more than 20 years, Russiello offers a personal estimate, explicitly labelled as a guess rather than measured data, that the percentage of actual cheaters in remote pre-employment testing is \"somewhere between 1 and 4 percent.\" He then argues that the percentage of false positives caused by cheating test takers is \"almost certainly lower than the number of false positives caused by low reliability and weak validity in the test itself.\" On cost he states that full remote proctoring services using real-time human monitoring by video camera cost around 25 USD per test, which he judges acceptable for high-stakes, low-volume testing such as remote university final exams and certification exams, but not for pre-employment assessment, which he characterises as medium-stakes and medium-volume and \"not a go : no-go gate, but rather a data point in a collection of data points used to make a hiring decision.\" The automated alternative he describes uses the webcam to take stills during the assessment and facial recognition to detect if the test taker's face changes, disappears, or a second face appears; the company reports that after more than 100,000 assessments it has received virtually no candidate complaints about the proctoring solution. This is a vendor's own account, with no independent audit or published error rate behind it.",
+    "source_urls": [
+      "https://www.hravatar.com/ta/blogs/65/automated-remote-proctoring-is-revolutionizing-prehire-assessment.html"
+    ],
+    "tag": "enriched",
+    "card_id": 9017
+  },
+  "9018": {
+    "gloss": "Vendor guide claims 95% AI detection accuracy and hybrid AI-plus-human review as the emerging industry standard, with no study cited",
+    "verbatim": "Eklavvya, \"AI Proctoring Guide: Reduce Cheating by 95% in 2026,\" an undated vendor guide (2026 in the title). Its headline claims, none of which name a study, dataset or sample size: 95% detection accuracy for advanced machine-learning algorithms identifying suspicious behaviours; a 96% reduction in cheating versus unsupervised online assessments; 70% of educational institutions using the technology; and a market reaching $9.17 billion by 2033 at 18.7% annual growth. Its own comparison table gives detection rates by model: 60-70% for traditional in-person proctoring (visible cheating only), 75-85% for remote human proctoring, and 90-95% for AI proctoring, with per-exam costs of $15-30 for remote human and $5-15 for AI. It states that 53% of remote proctoring currently uses live human monitoring while 61% of deployed technologies now incorporate AI-assisted features, and that \"the hybrid approach (AI flagging + human review) is becoming the industry standard.\" On flag handling it describes the AI assigning a confidence score of 0-100% by severity, logging low-risk behaviours without intervention and alerting immediately on high-confidence violations, with all incidents timestamped and recorded on video, and states that \"human reviewers validate AI decisions before final academic penalties are applied.\" It names false positives, privacy concerns and infrastructure requirements as key challenges but publishes no false-positive rate and no share of flags overturned at human review. This is marketing material from a proctoring vendor.",
+    "source_urls": [
+      "https://www.eklavvya.com/blog/ai-proctoring-guide/"
+    ],
+    "tag": "enriched",
+    "card_id": 9018
+  }
+}

@@ -1,0 +1,122 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Readable</title><style>
+:root{--ink:#1c1a17;--mut:#6b6459;--line:#efe7d8;--bg:#fffdf8;--card:#fff;--wash:#fff8ec;
+      --acc:#fb7a00;--acc-soft:#ffd9b0;--yellow:#ffb703;--yellow-soft:#ffe9ad;
+      --ok:#2e7d43;--ok-bg:#e8f5ec;--no:#c2603a;--no-bg:#fdf3f0;--warn:#9a6700;--chip:#fff8ec;
+      --shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+     font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:40px 24px 120px}
+h1{font-size:clamp(26px,4vw,34px);margin:0 0 4px;letter-spacing:-.02em}
+h1 .hl,h1{background:linear-gradient(180deg,transparent 68%,var(--yellow-soft) 68%);display:inline}
+.sub{color:var(--mut);margin:10px 0 28px;display:block}
+h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);
+   margin:36px 0 10px;border-bottom:1px solid var(--line);padding-bottom:7px;font-weight:700}
+/* A failed check has to be findable at a glance in a table of green ticks. */
+tr.bad td{background:var(--pinkwash)}
+tr.bad td:first-child{color:var(--pink);font-weight:700}
+.panel.bad{border-color:var(--pinkline);background:var(--pinkwash)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;
+       margin:0 0 14px;box-shadow:var(--shadow)}
+.nums{display:flex;gap:28px;flex-wrap:wrap;background:linear-gradient(180deg,var(--wash),var(--card));
+      border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin:0 0 10px;box-shadow:var(--shadow)}
+.nums b{font-size:1.55em;display:block;color:var(--ink)}
+ins{background:var(--ok-bg);color:var(--ok);text-decoration:none;border-radius:2px;padding:0 2px}
+del{background:var(--no-bg);color:var(--no);border-radius:2px;padding:0 2px}
+details.diff{border:1px solid var(--line);border-radius:10px;padding:9px 13px;margin:8px 0;background:var(--card)}
+details.diff summary{font-weight:600;cursor:pointer;line-height:1.9}
+details.diff[open] summary{margin-bottom:6px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.dbody{margin-top:6px;font-size:.94em;line-height:1.75}
+.subh{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--acc);
+      font-weight:700;margin:14px 0 4px}
+code{background:var(--wash);border:1px solid var(--line);border-radius:4px;padding:1px 5px;font-size:.86em}
+.kwlist{margin:.3em 0;padding-left:1.3em}
+.kwlist li{margin:.35em 0}
+.map{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 30px;align-items:start}
+.mcol{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:9px 9px 11px;
+      box-shadow:var(--shadow);min-width:0}
+.mh{font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--acc);font-weight:700;
+    padding:2px 5px 7px}
+.mnote{font-size:11.5px;color:var(--warn);background:var(--wash);border:1px dashed var(--acc-soft);
+       border-radius:7px;padding:5px 8px;margin:0 3px 6px;line-height:1.45}
+.lead{color:var(--mut);font-size:.93em;margin:0 0 22px;line-height:1.6}
+.mstep{display:block;text-decoration:none;color:var(--ink);border-radius:8px;padding:5px 8px;
+       border:1px solid transparent}
+.mstep b{display:block;font-size:13.5px;font-weight:700;line-height:1.35}
+.mstep span{display:block;font-size:12.5px;color:var(--mut);line-height:1.45}
+.mstep i{display:block;font-style:normal;font-size:11px;color:var(--mut);opacity:.7;margin-top:1px}
+a.mstep:hover{background:var(--wash);border-color:var(--acc-soft)}
+a.mstep:hover b{color:var(--acc)}
+.mstep.on{background:var(--acc);border-color:var(--acc)}
+.mstep.on b,.mstep.on span{color:#fff}
+.mstep.on span{opacity:.9}
+.mstep.none{opacity:.5}
+@media(max-width:820px){.map{grid-template-columns:1fr}}
+.nums span{color:var(--mut);font-size:.8em}
+.row{padding:10px 2px;border-top:1px dashed var(--line)}
+.row:first-of-type{border-top:0}
+.row .t{font-weight:650}
+.row .m{color:var(--mut);font-size:.88em}
+.reason{margin-top:2px;font-size:.92em}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:100px;
+      padding:1px 9px;font-size:.76em;color:var(--mut);margin-left:6px;vertical-align:middle}
+.tag{display:inline-block;background:var(--yellow-soft);border-radius:100px;padding:1px 9px;font-size:.8em;
+     margin:2px 4px 2px 0;cursor:help;color:var(--ink)}
+.ok{color:var(--ok)}.no{color:var(--no)}.warn{color:var(--warn)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:700px){.grid2{grid-template-columns:1fr}}
+.bar{height:9px;background:var(--wash);border:1px solid var(--line);border-radius:5px;overflow:hidden;margin-top:3px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--yellow),var(--acc))}
+ul{margin:.3em 0;padding-left:1.3em}
+li{margin:.18em 0}
+a{color:var(--acc);overflow-wrap:anywhere}
+details{margin:6px 0}
+summary{cursor:pointer}
+.spine{font-size:1.12em;line-height:1.65;background:var(--wash);border:1px solid var(--acc-soft);
+       border-left:4px solid var(--acc);border-radius:12px;padding:18px 20px;margin:0 0 20px}
+.job{font-style:italic;color:var(--mut);margin:2px 0 6px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+.filters button{background:var(--card);border:1px solid var(--line);color:var(--ink);border-radius:100px;
+                padding:5px 13px;cursor:pointer;font-size:.85em;font-weight:600}
+.filters button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.q{color:var(--mut);font-size:.85em}
+.where{background:var(--wash);border:1px solid var(--acc-soft);border-radius:12px;padding:14px 18px;margin:0 0 22px}
+.where ol{margin:6px 0 0;padding-left:20px}
+.where li{margin:.2em 0;color:var(--mut)}
+.where li.now{color:var(--ink);font-weight:650}
+.where .lead{font-size:.9em;color:var(--mut)}
+.note{color:var(--mut);font-size:.88em;margin:-4px 0 10px}
+.from{color:var(--mut);font-size:.88em}
+.from b{color:var(--ink);font-weight:650}
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 24px}
+.nav a{background:var(--card);border:1px solid var(--line);border-radius:100px;padding:5px 13px;
+       font-size:.85em;font-weight:600;text-decoration:none;color:var(--ink)}
+.nav a.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.lede{font-size:1.06em;line-height:1.66;margin:0 0 22px;color:var(--ink)}
+.oneline{background:var(--wash);border:1px solid var(--acc-soft);border-left:4px solid var(--acc);
+         border-radius:12px;padding:16px 20px;margin:0 0 26px;line-height:1.7}
+.oneline b{white-space:nowrap}
+.stn{display:flex;align-items:baseline;gap:10px;margin:26px 0 8px}
+.stn .name{font-size:1.06em;font-weight:700}
+.stn .does{color:var(--mut);font-size:.9em}
+.step{display:grid;grid-template-columns:30px 1fr;gap:2px 10px;padding:9px 2px;
+      border-top:1px dashed var(--line)}
+.step:first-child{border-top:0}
+.step .no{color:var(--acc);font-weight:700;font-variant-numeric:tabular-nums;font-size:.92em}
+.step .nm{font-weight:650}
+.step .dsc{grid-column:2;color:var(--mut);font-size:.9em}
+.step .see{grid-column:2;font-size:.84em;margin-top:2px}
+.b{display:inline-block;border-radius:100px;padding:0 8px;font-size:.7em;font-weight:700;
+   letter-spacing:.03em;vertical-align:middle;margin-left:6px;border:1px solid var(--line);
+   background:var(--chip);color:var(--mut);text-transform:uppercase}
+.b.ai{background:var(--yellow-soft);border-color:#f2d98d;color:#6a4a00}
+.b.paid{background:var(--no-bg);border-color:#f0d3c8;color:var(--no)}
+.b.code{background:var(--ok-bg);border-color:#cfe6d6;color:var(--ok)}
+.pg{padding:14px 2px;border-top:1px dashed var(--line)}
+.pg:first-child{border-top:0}
+.pg .t{font-weight:700;font-size:1.02em}
+.pg .ask{color:var(--mut);font-size:.9em;margin-top:1px}
+.pg .cov{font-size:.84em;margin-top:5px;color:var(--mut)}
+.pg .look{font-size:.88em;margin-top:4px}
+.key{display:flex;gap:16px;flex-wrap:wrap;font-size:.84em;color:var(--mut);margin:0 0 14px}
+</style></head><body><div class="wrap"><h1>Readable</h1><p class="sub">ai-recruitment-tools-that-can — the readability rewrite, and what it kept</p><div class="map"><div class="mcol"><div class="mh">1 · Planner</div><a class="mstep" href="../gather/gather-review.html" target="_blank"><b>gather</b><span>Collects everything the research phase produced.</span></a><a class="mstep" href="../planner/selection-review.html" target="_blank"><b>select</b><span>Keeps the sub-topics that earn a place, and drops the rest.</span></a><a class="mstep" href="../planner/sources-review.html" target="_blank"><b>verify-sources</b><span>Opens the page behind every statistic to check the number is really there.</span></a><span class="mstep none"><b>freeze</b><span>Locks the plan so no later step can quietly change it.</span><i>no page — nothing here to overrule</i></span><span class="mstep none"><b>plan-view</b><span>Writes the locked plan out in plain English.</span><i>no page — nothing here to overrule</i></span></div><div class="mcol"><div class="mh">2 · Architect</div><div class="mnote">All 6 open the one <b>Blueprint</b> page, each at its own section.</div><a class="mstep" href="../architect/blueprint-review.html#sections" target="_blank"><b>shape</b><span>Designs the sections and the order they come in.</span></a><a class="mstep" href="../architect/blueprint-review.html#research" target="_blank"><b>enrich</b><span>Runs the extra research the structure asked for.</span></a><a class="mstep" href="../architect/blueprint-review.html" target="_blank"><b>brand-cards</b><span>Turns the company&#x27;s own research and results into facts the article can cite.</span></a><a class="mstep" href="../architect/blueprint-review.html#sections" target="_blank"><b>allocate</b><span>Gives every section a word budget.</span></a><a class="mstep" href="../architect/blueprint-review.html#keywords" target="_blank"><b>section-keywords</b><span>Buys a real search keyword for the sections that deserve one.</span></a><a class="mstep" href="../architect/blueprint-review.html#headings" target="_blank"><b>headings</b><span>Writes the final wording of every heading, and the H1.</span></a></div><div class="mcol"><div class="mh">3 · Writer</div><a class="mstep" href="../writer/body-review.html" target="_blank"><b>write-body</b><span>Writes every section at once, none able to see the others.</span></a><a class="mstep" href="../writer/editor-review.html" target="_blank"><b>blend</b><span>Reads the whole article and cuts what did not earn its place.</span></a><a class="mstep" href="../writer/wrapper-review.html" target="_blank"><b>wrapper</b><span>Writes the intro on PAS, the FAQ, and the close.</span></a><a class="mstep" href="../writer/coherence-review.html" target="_blank"><b>coherence</b><span>Reads the whole article at once and fixes what contradicts itself.</span></a><a class="mstep on" href="../writer/readable-review.html" target="_blank"><b>readable</b><span>Rewrites the whole article so a person wants to read it.</span></a><a class="mstep" href="../writer/sentence-review.html" target="_blank"><b>sentences</b><span>Re-shapes the sentences so a reader gets through them.</span></a><a class="mstep" href="../writer/slop-review.html" target="_blank"><b>slop</b><span>Strips the AI writing tells.</span></a><a class="mstep" href="../writer/links-review.html" target="_blank"><b>links</b><span>Lays in the internal and external links.</span></a><a class="mstep" href="../writer/clean-review.html" target="_blank"><b>clean</b><span>Fixes odd characters and spacing. No AI.</span></a><a class="mstep" href="../writer/article.html" target="_blank"><b>assemble</b><span>Builds the finished draft and the page you review it on.</span></a></div></div><div class="panel"><p><b>Want to just read it?</b> <a href="reads/readable.html">Open the article as it stands after readable</a> — no highlights, no panels, the way a reader would see it. <a href="reads/index.html">Every step</a>.</p></div><p class="lead">Every earlier step is either writing one section in isolation or guarding one property. None of them can fix how the article READS, because none of them sees the finished piece as a reader meets it. This step does, and changes only the wording: no fact, no link, no source, no section. It is also the step that makes the article SHORTER — it is asked for about a quarter off, because length is what makes a busy reader stop. Because it may touch every sentence, it is also the step most able to undo the rest, so code checks the result against the original rather than trusting it. The original draft is kept, so you can read both.</p><div class="nums"><div><b>46.4</b><span>reading ease before</span></div><div><b>57.5</b><span>reading ease after</span></div><div><b>9,905</b><span>words before</span></div><div><b>2,535</b><span>words after</span></div><div><b>-74%</b><span>cut</span></div><div><b>11/15</b><span>checks clean</span></div></div><div class="panel bad"><p class="q"><b>4 check(s) failed.</b> The rewrite is still saved and still published beside the original — nothing here stops a run. Read the failing rows first: each one names the earlier step whose work did not survive.</p></div><h2>What to watch for</h2><p class="note">Reading ease is the standard plain-English score: 60 or more reads easily, under 50 is heavy going. A rewrite that raises it while every check stays green is the step working. A rewrite that raises it by <i>losing</i> a link, a figure or a source has cheated, and the table below is where that shows.</p><h2>Every check</h2><table><thead><tr><th></th><th>Check</th><th>Result</th><th>What it protects</th></tr></thead><tbody><tr class=""><td>&#10003;</td><td><b>Expected topics survived</b></td><td>3/3 covered</td><td class="m">a rebuild must not quietly drop the ground readers came for</td></tr><tr class="bad"><td>&#10007;</td><td><b>Google&#x27;s own answer covered</b></td><td>4/9 covered — missing: Automated candidate sourcing; Automated interview scheduling</td><td class="m">the AI Overview is what Google already tells searchers this topic is made of</td></tr><tr class="bad"><td>&#10007;</td><td><b>No invented figures</b></td><td>INVENTED [&#x27;0.50&#x27;, &#x27;10%&#x27;, &#x27;5%&#x27;]</td><td class="m">a figure that was never in the research would be fabricated</td></tr><tr class=""><td>&#10003;</td><td><b>No invented sources</b></td><td>none invented (254 left with the text they proved)</td><td class="m">a tag that was never in the research would be a fabricated citation</td></tr><tr class=""><td>&#10003;</td><td><b>Source tags kept their numbers</b></td><td>every tag still carries its id</td><td class="m">a tag stripped of its number is a claim pretending to be sourced</td></tr><tr class=""><td>&#10003;</td><td><b>Facts have room to breathe (110+ words each)</b></td><td>36 -&gt; 110 words per fact (277 -&gt; 23 facts, 9,905 -&gt; 2,535 words)</td><td class="m">a fact with no room to be explained is a fact the reader cannot use</td></tr><tr class=""><td>&#10003;</td><td><b>Sub-headings survived</b></td><td>27 -&gt; 0 — 27 flattened into prose</td><td class="m">in a glossary or a ranking the sub-heading is the entry the reader came for</td></tr><tr class=""><td>&#10003;</td><td><b>The one link kept</b></td><td>1 link(s): https://testlify.com/</td><td class="m">the wrapper chose the page the close points at</td></tr><tr class=""><td>&#10003;</td><td><b>It rebuilt, not just trimmed</b></td><td>sections 24 -&gt; 10, table rows 13 -&gt; 7</td><td class="m">merging, reordering and tabling is where the words come from</td></tr><tr class="bad"><td>&#10007;</td><td><b>Primary keyword placed</b></td><td>&quot;ai recruitment tools&quot; — 0 heading(s), first 100 words yes</td><td class="m">the architect placed the keyword in the headings</td></tr><tr class=""><td>&#10003;</td><td><b>FAQ answers short</b></td><td>4 answers, 0 over 40 words</td><td class="m">the wrapper caps an answer at what a snippet shows</td></tr><tr class="bad"><td>&#10007;</td><td><b>Landed in the word band</b></td><td>9,905 -&gt; 2,535, asked for 2,100 (-74%)</td><td class="m">too long loses the reader; too short throws away what the research bought</td></tr><tr class=""><td>&#10003;</td><td><b>Reading ease 45-72</b></td><td>46.4 -&gt; 57.5  (band 45-72)</td><td class="m">readable is a band; too high means fragments, too low means textbook</td></tr><tr class=""><td>&#10003;</td><td><b>Long sentences</b></td><td>108 -&gt; 27 over 25 words</td><td class="m">this step should not add any</td></tr><tr class=""><td>&#10003;</td><td><b>Fat paragraphs</b></td><td>2 -&gt; 1 over 5 sentences</td><td class="m">this step should not add any</td></tr></tbody></table><h2>Where the cut actually happened</h2><p class="note">Measured from the two files, not reported by the model. A section that came back with fewer paragraphs genuinely removed something. One that kept every paragraph and barely moved on words only tightened sentences, and is marked in pink — that is the failure this step kept having.</p><div class="panel"><table><thead><tr><th>Section</th><th>Words</th><th>Change</th><th>Paragraphs</th></tr></thead><tbody><tr class=""><td><b>The Four Kinds of AI Hiring Tools, and Which Ones Decide</b></td><td>326 &rarr; 0</td><td>-100%</td><td>5 &rarr; 0</td></tr><tr class=""><td><b>Which of Your Hiring Tools Count as an AEDT</b></td><td>364 &rarr; 0</td><td>-100%</td><td>6 &rarr; 0</td></tr><tr class=""><td><b>The Four-Fifths Rule Every Bias Audit Runs</b></td><td>356 &rarr; 0</td><td>-100%</td><td>7 &rarr; 0</td></tr><tr class=""><td><b>How to Run the Four-Fifths Rule on Your Own Funnel</b></td><td>453 &rarr; 0</td><td>-100%</td><td>10 &rarr; 0</td></tr><tr class=""><td><b>The Six Yardsticks Every Tool Is Judged On</b></td><td>300 &rarr; 0</td><td>-100%</td><td>5 &rarr; 0</td></tr><tr class=""><td><b>The Five Tools at a Glance, and How to Read the Blanks</b></td><td>354 &rarr; 225</td><td>-36%</td><td>4 &rarr; 3</td></tr><tr class=""><td><b>HireVue: Two Audits, Neither One You Can Read</b></td><td>476 &rarr; 0</td><td>-100%</td><td>11 &rarr; 0</td></tr><tr class=""><td><b>Pymetrics: The One Tool That Let Auditors Read the Code</b></td><td>371 &rarr; 0</td><td>-100%</td><td>9 &rarr; 0</td></tr><tr class=""><td><b>Eightfold AI: What BABL AI&#x27;s Audit Covers, and Doesn&#x27;t</b></td><td>438 &rarr; 0</td><td>-100%</td><td>9 &rarr; 0</td></tr><tr class=""><td><b>Workday AI Lawsuit, and No Published Bias Audit</b></td><td>647 &rarr; 0</td><td>-100%</td><td>15 &rarr; 0</td></tr><tr class=""><td><b>Testlify: A Transparency Page With No Impact Ratios</b></td><td>369 &rarr; 0</td><td>-100%</td><td>8 &rarr; 0</td></tr><tr class=""><td><b>What NYC Local Law 144 Requires, and What Comes Next</b></td><td>460 &rarr; 0</td><td>-100%</td><td>10 &rarr; 0</td></tr><tr class=""><td><b>Where Bias Actually Enters an AI Screening Tool</b></td><td>334 &rarr; 0</td><td>-100%</td><td>7 &rarr; 0</td></tr><tr class=""><td><b>What Bias Audits Found When Vendors Were Tested</b></td><td>357 &rarr; 0</td><td>-100%</td><td>8 &rarr; 0</td></tr><tr class=""><td><b>The Data an Auditor Needs, and What You Won&#x27;t Have</b></td><td>353 &rarr; 0</td><td>-100%</td><td>9 &rarr; 0</td></tr><tr class=""><td><b>Who Can Run Your Bias Audit, What It Costs, How Often</b></td><td>379 &rarr; 0</td><td>-100%</td><td>8 &rarr; 0</td></tr><tr class=""><td><b>Why Video-Interview Scoring Fails a Bias Audit</b></td><td>457 &rarr; 0</td><td>-100%</td><td>9 &rarr; 0</td></tr><tr class=""><td><b>Chat Screeners Cause Adverse Impact Without Asking Anythin</b></td><td>314 &rarr; 0</td><td>-100%</td><td>5 &rarr; 0</td></tr><tr class=""><td><b>Who Is Liable When the Tool You Bought Discriminates</b></td><td>358 &rarr; 0</td><td>-100%</td><td>7 &rarr; 0</td></tr><tr class=""><td><b>How NYC Local Law 144 Is Enforced, and What It Costs</b></td><td>339 &rarr; 0</td><td>-100%</td><td>7 &rarr; 0</td></tr><tr class=""><td><b>What a Passing Bias Audit Still Does Not Prove</b></td><td>545 &rarr; 0</td><td>-100%</td><td>13 &rarr; 0</td></tr><tr class=""><td><b>The Human Review and Logging No Vendor Audit Covers</b></td><td>366 &rarr; 0</td><td>-100%</td><td>7 &rarr; 0</td></tr><tr class=""><td><b>How to Choose an AI Recruiting Tool You Can Defend</b></td><td>342 &rarr; 260</td><td>-24%</td><td>5 &rarr; 4</td></tr><tr class=""><td><b>Which of the Five You Can Actually Defend, and When</b></td><td>386 &rarr; 0</td><td>-100%</td><td>5 &rarr; 0</td></tr></tbody></table></div></div><script></script></body></html>

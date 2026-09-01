@@ -1,0 +1,317 @@
+{
+  "9001": {
+    "gloss": "SHRM's 2022 benchmarking release: 44 reports launched 10 April 2022, built on survey responses collected April–November 2021 from more than 2,400 SHRM members",
+    "verbatim": "SHRM's own news item \"SHRM HR Benchmarking Reports Launch as a Free Member-Exclusive Benefit\" (SHRM, published 11 April 2022, by Stephen Miller, CEBS) documents the 2022 benchmarking edition. SHRM released 44 new HR data benchmarking reports as a member-exclusive benefit, announced on 10 April 2022 at the SHRM Talent Conference & Expo 2022 in Denver. The 44 reports split into 22 Human Capital benchmarking reports and 22 Talent Access benchmarking reports, which together track more than 50 HR practice-area metrics. On field dates and sample: the data was drawn from survey responses collected from April through November 2021, from a sample of more than 2,400 SHRM members across both report series. Each series contains one overview report plus 21 further reports filtered by criteria such as industry, organization size, region and sector. SHRM senior researcher Daniel Stunes is quoted saying members can use the metrics to see where their organization stands against similar employers, and SHRM researcher Derrick Scheetz explains that the metrics in each individual report depend on the criteria members select.",
+    "source_urls": [
+      "https://www.shrm.org/topics-tools/news/benefits-compensation/shrm-hr-benchmarking-reports-launch-free-member-exclusive-benefit"
+    ],
+    "tag": "enriched",
+    "card_id": 9001
+  },
+  "9002": {
+    "gloss": "The commonly quoted 2022 figure traces to SHRM's 11 April 2022 article \"The Real Costs of Recruitment\", which reports average cost per hire of nearly $4,700",
+    "verbatim": "The article \"The Real Costs of Recruitment\" (SHRM, published 11 April 2022, by Katie Navarra) is where the widely quoted 2022 cost-per-hire number appears. Its wording: \"According to new benchmarking data from the Society for Human Resource Management (SHRM), the average cost per hire was nearly $4,700.\" The figure is described as an average, and the article names no sample size or survey field dates for that benchmarking data. The same article quotes Edie Goldberg, founder of Menlo Park, California talent management firm E.L. Goldberg & Associates and SHRM Foundation chair-elect, saying many employers estimate the total cost of hiring an employee runs three to four times the position's salary (so a $60,000 role could cost $180,000 or more to fill), and that of those costs \"30 percent to 40 percent are hard costs, and the other 60 percent are soft costs.\" Soft costs are described as the time departmental leaders and managers spend supporting the hiring process.",
+    "source_urls": [
+      "https://www.shrm.org/topics-tools/news/talent-acquisition/real-costs-recruitment"
+    ],
+    "tag": "enriched",
+    "card_id": 9002
+  },
+  "9003": {
+    "gloss": "An independent tracker dates the $4,700 figure to SHRM's 11 April 2022 article and labels it \"nearly $4,700\", against $4,129 (FY2015, pub. 8 Aug 2016) and $5,475 (Oct 2025)",
+    "verbatim": "InterviewCost.com, an independent hiring-cost research site not affiliated with SHRM, publishes a SHRM edition-by-edition provenance table (figures re-verified against SHRM on 2026-07-01). Its rows: SHRM Human Capital Benchmarking Report, fiscal year 2015, published 8 August 2016, $4,129, described as \"the widely cited legacy figure\"; SHRM, \"The Real Costs of Recruitment\", 11 April 2022, roughly $4,700, with the note that it was reported as \"nearly $4,700\"; the 2025 SHRM Benchmarking Report, released 15 October 2025, $5,475 nonexecutive, the current national average; and the same 2025 report's executive figure of $35,879, nearly 7x the nonexecutive number. The page states plainly that both $4,700 and $5,475 are real SHRM numbers from different years, that the $4,700 comes from SHRM's April 2022 reporting, and that $4,129 is older still, from the Human Capital Benchmarking Report covering fiscal year 2015. It also notes the SHRM figure follows the ANSI/SHRM cost-per-hire standard (CPH-001), external plus internal recruiting cost divided by hires, and excludes vacancy cost, so it is a floor rather than the true cost of a hire.",
+    "source_urls": [
+      "https://interviewcost.com/shrm-cost-per-hire"
+    ],
+    "tag": "enriched",
+    "card_id": 9003
+  },
+  "9004": {
+    "gloss": "SHRM's own October 2025 press release confirms the 2025 reports update SHRM's prior benchmarking studies from 2022",
+    "verbatim": "SHRM's press release \"SHRM Releases 2025 Benchmarking Reports: How Does Your Organization Compare?\" (SHRM, 15 October 2025, Alexandria, Va.) announces four HR benchmarking reports for 2025, covering CHRO Metrics, Learning and Development, Recruiting, and Talent Management, containing 88 individual data sets spanning overall, industry groupings, sectors, organization sizes and regions. Directly relevant to dating the earlier edition, the release states: \"This study updates SHRM's prior benchmarking studies from 2022, reflecting the latest trends and priorities in the HR landscape.\" Among the findings named, executive hires are on average nearly 7x more expensive than nonexecutive hires, critical thinking tops the skills required within the next five years at 71%, and screening and interviewing each average 8 to 9 days in the posting-to-offer-acceptance process. The reports are available to SHRM members at shrm.org/benchmarking.",
+    "source_urls": [
+      "https://www.shrm.org/about/press-room/shrm-releases-2025-benchmarking-reports--how-does-your-organizat"
+    ],
+    "tag": "enriched",
+    "card_id": 9004
+  },
+  "9005": {
+    "gloss": "SHRM's 2026 recruiting edition reports medians, not averages, and draws on data from more than 4,600 organizations",
+    "verbatim": "SHRM's research page \"2026 Recruiting Executives Benchmarking: Attracting Critical Talent\" (SHRM, data brief) describes the 2026 edition: data from over 4,600 organizations, with trends in cost-per-hire, requisitions per recruiter and time-to-fill dating back to 2017. The metrics it reports are stated as medians: the median percentage of nonexecutive positions filled externally rose from 93% in 2025 to 97% in 2026, and time-to-fill fell to a median of 39 calendar days for nonexecutive positions while executive time-to-fill was unchanged from the prior year. On cost, the brief says the cost-per-hire increased substantially for executive positions in 2026 while nonexecutive costs remained relatively stable, and that extra-large organizations saw a 67% increase in requisitions per recruiter in 2026. It also notes over 2 in 3 organizations reported struggles hiring for open positions in 2026. The full report is member-gated.",
+    "source_urls": [
+      "https://www.shrm.org/topics-tools/research/recruiting-benchmarking"
+    ],
+    "tag": "enriched",
+    "card_id": 9005
+  },
+  "9006": {
+    "gloss": "A vendor guide spells out that SHRM's 2026 report is median-based ($1,300 nonexec, $15,000 exec) while its 2025 report is average-based ($5,475 / $35,879)",
+    "verbatim": "Truffle's \"The complete cost per hire guide for 2026\" (hiretruffle.com, by Sean Griffith, founder, dated Feb 2026, updated Aug 2026) states that SHRM's newest data, the 2026 Recruiting Executives Benchmarking report, puts the median cost per hire at $1,300 for non-executive roles and $15,000 for executive roles, both up from 2025, while the $5,475 and $35,879 figures come from SHRM's separate 2025 average-based report. The guide's framing is that both are real SHRM numbers measuring different things, and that three different numbers compete for \"the\" current cost per hire without agreeing. It calls the $4,700 average cost-per-hire figure still in circulation old, and notes it is not the only outdated SHRM figure. It defines cost per hire under the SHRM/ANSI standard as the mean average of total costs divided by number of hires, using internal and external recruiting costs gathered over the same measurement period. It also cites CareerBuilder research putting the average cost of a bad hire at around $14,900.",
+    "source_urls": [
+      "https://www.hiretruffle.com/blog/cost-per-hire"
+    ],
+    "tag": "enriched",
+    "card_id": 9006
+  },
+  "9007": {
+    "gloss": "A recruiting vendor dates the 21% rise in executive cost per hire to a 2022 baseline, implying SHRM's 2022 edition carried an executive figure",
+    "verbatim": "Pin's \"Cost-Per-Hire: Complete Breakdown and Benchmarks 2026\" (pin.com, by Jenn Vu, published 13 June 2025, updated 26 May 2026) reports that, per SHRM's 2025 Benchmarking Report, the average cost per hire is $5,475 for non-executive roles, updated from $4,700, and executive hires cost $35,879, described as more than six times the non-executive figure and as a number that \"jumped 21% from 2022 alone\" — placing a comparable executive cost-per-hire figure in SHRM's 2022 edition as the baseline for that increase. The page also notes SHRM and the American National Standards Institute formalized the cost-per-hire formula in 2012 through the ANSI/SHRM 06001.2012 standard, with CPH = (internal recruiting costs + external recruiting costs) / total hires, and that the standard remains the benchmark for comparing across organizations of different sizes, industries and hiring volumes.",
+    "source_urls": [
+      "https://www.pin.com/blog/cost-per-hire-benchmarks/"
+    ],
+    "tag": "enriched",
+    "card_id": 9007
+  },
+  "9008": {
+    "gloss": "The $4,129 predecessor edition: SHRM's Human Capital Benchmarking Report, FY2015 data, published 8 August 2016, n=2,048, fielded February–April",
+    "verbatim": "SHRM's news item \"SHRM Benchmarking Report: $4,129 Average Cost-per-Hire\" (SHRM, published 8 August 2016, by SHRM Online staff) gives the provenance of the legacy figure that preceded the 2022 number. The findings come from SHRM's Human Capital Benchmarking Report and reflect fiscal year 2015. The data was collected February through April from a random sampling of 2,048 SHRM members. The article notes that the number of respondents to individual questions differed depending on the benchmark measured: 1,503 people answered the succession-plan questions and 1,192 responded to the average-time-to-fill question. Other data points from the same edition: 61 percent of organizations offered tuition reimbursement, with an average maximum of $4,000 annually, and only 6 percent of employees on average participated in tuition/education reimbursement programs.",
+    "source_urls": [
+      "https://www.shrm.org/topics-tools/news/shrm-benchmarking-report-4129-average-cost-per-hire"
+    ],
+    "tag": "enriched",
+    "card_id": 9008
+  },
+  "9009": {
+    "gloss": "The FY2015 edition mixed averages and medians in the same report: $4,129 average cost per hire, but a median HR-to-employee ratio of 1.33",
+    "verbatim": "Business Management Daily's \"SHRM Survey: Average cost per hire is $4,129\" (published 8 September 2016, updated 11 June 2019) summarizes SHRM's Human Capital Benchmarking Report, described as covering more than 2,000 employers. It shows the same edition reporting both averages and medians side by side. Averages: it costs the average employer $4,129 to hire a new employee; average time to fill is 42 days; average employee tenure eight years; annual turnover rate 19% and average involuntary turnover 8%; average annual salary increase 2.7%; average target bonus 4.7% for nonexecutives versus 10.2% for executives; salaries averaged 43.5% of operating budget. Medians in the same report: the median HR-to-employee ratio is 1.33, and middle managers have a median of eight direct reports versus a median of five at executive level. Also, 34% of companies had a succession plan and 61% offered tuition reimbursement, averaging a maximum of about $4,000 per year.",
+    "source_urls": [
+      "https://www.businessmanagementdaily.com/46997/shrm-survey-average-cost-per-hire-is-4129/"
+    ],
+    "tag": "enriched",
+    "card_id": 9009
+  },
+  "9010": {
+    "gloss": "HR Dive's contemporaneous report of the same FY2015 edition: average cost-per-hire about $4,100, 42 days to fill, 2,048 respondents polled",
+    "verbatim": "HR Dive's \"Latest SHRM benchmarking report offers data on recruiting, salary and more\" (published 4 August 2016, by Tom Starner, contributing editor) reports on SHRM's then-new Human Capital Benchmarking Report. It states the average cost-per-hire is about $4,100 and average time to fill a position is 42 days. On sample: the report analyzes data from the SHRM Human Capital Benchmarking Survey, which polled 2,048 respondents on employment, retirement, compensation, employer-paid tuition and other people metrics. Average employee tenure was eight years, annual turnover 19% and involuntary turnover 8%, and SHRM noted those statistics were stable compared with 2015 findings. Other figures: 61% of employers offered tuition reimbursement averaging a maximum of about $4,000 a year; average annual salary increase 2.7%; average target bonus 4.7% for non-executives versus 10.2% for executives; 34% of employers had a succession plan; middle managers had a median of 8 direct reports versus a median of 5 at executive level.",
+    "source_urls": [
+      "https://www.hrdive.com/news/latest-shrm-benchmarking-report-offers-data-on-recruiting-salary-and-more/423809/"
+    ],
+    "tag": "enriched",
+    "card_id": 9010
+  },
+  "9011": {
+    "gloss": "Retained executive search fees run 30-35% of total first-year compensation, calculated on base + bonus + equity, not base salary alone",
+    "verbatim": "Ikon Search's guide to executive search firm fee structures (published Jun 9, 2026) states that executive search fees typically range from 20% to 35% of the placed executive's first-year compensation, across three models. Retained search (used for C-suite and senior leadership: CEO, CFO, CHRO, CRO) is typically 30-35% of total first-year compensation, paid in three installments (one-third upfront, one-third at 60 days, one-third at placement). Contingency search runs 20-30% of first-year base or total compensation, paid only on placement. Container (engaged) search takes a modest upfront engagement fee of $8,000-$15,000 (citing The Good Search's published pricing), with total fees generally 25-33% of first-year compensation. The page is explicit that the fee basis matters: most retained firms calculate on total first-year compensation (base salary, target bonus, signing bonus, and sometimes equity), not base alone. Its worked example: a role with a $250,000 base and 20% target bonus has a fee basis of $300,000; at 33% that is a $99,000 fee, versus $82,500 on a base-salary-only calculation. It also cites SPMB's published fee guidance that CEO and CFO searches are commonly priced at one-third (33.3%) of first-year guaranteed cash compensation, and notes The Good Search lists minimum fees starting at $75,000 for C-suite and board searches regardless of compensation level.",
+    "source_urls": [
+      "https://ikonsearch.com/feeds/blog/ea-ceo-recruiter-pricing"
+    ],
+    "tag": "enriched",
+    "card_id": 9011
+  },
+  "9012": {
+    "gloss": "The $35,879 executive figure is SHRM's 2025 Benchmarking Report average, and the SHRM/ANSI formula's external bucket explicitly includes agency fees, relocation and candidate travel",
+    "verbatim": "Pin's cost-per-hire benchmarks guide (published Jun 13, 2025, updated May 26, 2026) reports that per SHRM's 2025 Benchmarking Report, the average cost per hire in the United States is $5,475 for non-executive roles (updated from $4,700) and $35,879 for executive hires, which it describes as more than six times higher and a 21% jump from 2022. It states the official formula is the ANSI/SHRM 06001.2012 standard, formalized by SHRM and the American National Standards Institute in 2012: Cost Per Hire = (Total Internal Recruiting Costs + Total External Recruiting Costs) / Total Hires. The page then lists what belongs inside each bucket. Internal recruiting costs: recruiter salaries, benefits and bonuses; hiring manager interview time (hourly rate x hours); employee referral program payouts; talent development and recruiter training; ATS and recruiting software subscriptions; internal recruitment marketing and employer branding; administrative overhead (compliance, background check coordination). External recruiting costs: job board posting fees ($50-$500 per posting, per Paychex); recruitment agency fees (15-20% of first-year salary for contingency, up to 40% for retained search); recruitment advertising and programmatic job ads; background checks and drug screenings; pre-employment assessments and skills tests; candidate travel and relocation expenses; career fair attendance and event sponsorships. It separately names costs most organizations leave out of the number: vacancy losses (~$500/day), bad hires (30% of annual salary), and manager interview time.",
+    "source_urls": [
+      "https://www.pin.com/blog/cost-per-hire-benchmarks/"
+    ],
+    "tag": "enriched",
+    "card_id": 9012
+  },
+  "9013": {
+    "gloss": "Search-fee basis includes base, sign-on and guaranteed bonuses but excludes equity and discretionary bonuses, with worked examples at 33% and 30%",
+    "verbatim": "JRG Partners, an executive search firm, published a breakdown (July 16, 2025, updated May 27, 2026) of exactly what compensation elements a retained search fee is calculated on. The fee is most commonly a percentage of the candidate's first-year total cash compensation, which is broader than base salary. Included: base salary, non-discretionary bonuses (tied to performance or retention), sign-on bonuses if contractually guaranteed, guaranteed commissions, and sometimes stipends or allowances paid regularly as cash. Excluded: equity, stock options and long-term incentives that vest in future years; discretionary bonuses awarded at the employer's whim with no formal criteria; and perks such as company cars or health insurance. Two worked examples are given. First: a candidate offered $200,000 base, a $25,000 signing bonus and a $50,000 guaranteed year-end bonus, at a firm charging 33%, produces a fee of ($200,000 + $25,000 + $50,000) x 33% = $90,750. Second: a Chief Marketing Officer offered $180,000 base, a $20,000 signing bonus, a $50,000 guaranteed annual performance bonus, and an equity grant on a 3-year vest (not included), at a retained firm charging 30%, produces ($180,000 + $20,000 + $50,000) x 30% = $75,000.",
+    "source_urls": [
+      "https://www.jrgpartners.com/bonuses-included-search-fee-calculation/"
+    ],
+    "tag": "enriched",
+    "card_id": 9013
+  },
+  "9014": {
+    "gloss": "The ANSI/SHRM standard counts agency fees, signing bonuses, relocation and candidate travel as external costs, but excludes everything after day one",
+    "verbatim": "Refine CV's cost-per-hire guide (June 9, 2026) sets out the inclusion list of the ANSI/SHRM 06001.2012 standard, which SHRM developed and ANSI approved in 2012. Formula: Cost per Hire = (Total Internal Recruiting Costs + Total External Recruiting Costs) / Total Number of Hires in a period. External recruiting costs under the standard include job advertising and job board posting fees, third-party recruiter and agency or search firm fees, job fairs and campus recruiting, signing bonuses, candidate travel reimbursement, background checks and drug screening, relocation packages, employee referral rewards, and recruiting technology or ATS subscriptions. Internal recruiting costs include fully loaded compensation (salary plus benefits) for the talent acquisition team and recruiters, sourcing staff time, internal referral program administration, recruiter training and development, recruiting department overhead and infrastructure, and internal recruiting technology costs; hiring managers' and interviewers' time is an optional inclusion. Critically for scope, the page states what the standard excludes: cost per hire covers only the cost of getting an employee to day one, and excludes the new employee's salary, onboarding and post-hire training, lost productivity during ramp-up, and the cost of the vacancy itself. It also flags that SHRM's Human Capital Benchmarking Report figure of $4,129 average US cost per hire reflects fiscal year 2015 data, collected February to April 2016 from a random sample of 2,048 SHRM members, with average time to fill of 42 days, and should be treated as historical rather than current.",
+    "source_urls": [
+      "https://refine-cv.com/blog/cost-per-hire-how-to-calculate/"
+    ],
+    "tag": "enriched",
+    "card_id": 9014
+  },
+  "9015": {
+    "gloss": "The $15,000 executive and $1,300 non-executive figures are SHRM 2026 medians from a different report than the $35,879 and $5,475 averages",
+    "verbatim": "Truffle's cost per hire guide (Feb 2026, updated Aug 2026, by founder Sean Griffith) directly reconciles the competing SHRM numbers. It states that SHRM's newest data, the 2026 Recruiting Executives Benchmarking report, puts the median cost per hire at $1,300 for non-executive roles and $15,000 for executive roles, both up from 2025. The $5,475 and $35,879 figures still widely cited come from SHRM's separate 2025 average-based report. The page's position is that both are real SHRM numbers that measure different things: one set is medians from the 2026 report, the other averages from the 2025 report. It also notes the older $4,700 average is outdated, and says there are three different numbers competing for the current cost per hire that do not agree with each other. On scope, it gives the SHRM/ANSI definition as the mean average of total costs divided by the number of hires, using internal and external recruiting costs gathered over the same measurement period, and says accuracy depends on what you include, especially opportunity costs such as hours hiring managers lose to interviews and coordination. That inputs gap, not the formula, is why two companies hiring similar roles report $3k versus $10k+ per hire. Internal costs listed: recruiter salaries and benefits, hiring manager time reviewing and interviewing, recruiting technology (ATS, video interview platform, assessment tools), employee referral bonuses, internal training for recruiters or interviewers. External costs listed: job board fees, recruitment agency fees, background checks and drug screenings, employer branding spend tied to recruiting, career fairs and recruiting events, candidate travel or reimbursed expenses. It also cites CareerBuilder research putting the average cost of a bad hire at around $14,900.",
+    "source_urls": [
+      "https://www.hiretruffle.com/blog/cost-per-hire"
+    ],
+    "tag": "enriched",
+    "card_id": 9015
+  },
+  "9016": {
+    "gloss": "The $28,000+ executive band is a market figure quoted against a $4,700 US average, with high-demand roles at $6,000-$12,000+",
+    "verbatim": "Manatal's cost per hire guide (March 11, 2026) states that the average cost per hire in the US recruitment industry is approximately $4,700, with executive roles often exceeding $28,000, and high-demand roles costing $6,000-$12,000+. It defines cost per hire as the average expenditure to fill a single open position, including all expenses from the initial job posting to the successful onboarding of a new employee, which is a wider scope than the ANSI/SHRM boundary at day one because it explicitly runs through onboarding.",
+    "source_urls": [
+      "https://www.manatal.com/blog/cost-per-hire"
+    ],
+    "tag": "enriched",
+    "card_id": 9016
+  },
+  "9017": {
+    "gloss": "Retained executive search fees are 25-35% of first-year total compensation, so agency fees alone on a $300,000 package run $75,000-$105,000, versus the $35,879 SHRM executive average",
+    "verbatim": "Obra's guide to the average cost of hiring an employee in 2026 (May 19, 2026) puts the two scopes side by side. It cites SHRM's 2025 Benchmarking Report for an average cost per hire of $5,475 for non-executive roles, up from $4,700 and $4,129 before that, and $35,879 for executive hiring, a 113% increase since 2017. It then gives a cost range table by role tier: entry-level / high-volume (retail, customer support) $2,000-$3,000; mid-level professional (marketing, software, ops) $4,000-$6,000; technical / engineering $6,200-$8,000; senior / director-level $10,000-$20,000, often requiring agency involvement; executive (C-suite) $35,879 average, with the note that agency fees alone can exceed $75,000+. On the search-fee side it states the commonly cited 15-25% range is outdated and that current authoritative sources place retained executive search fees at 25-35% of first-year total compensation, meaning that on a $300,000 package that is $75,000-$105,000 in agency fees alone, before any internal costs. It also lists relocation packages as a direct external cost averaging $21,792 for renters and $63,685 for homeowners relocating domestically, background checks at $20-$40 basic and $100+ comprehensive, LinkedIn contract postings at $200-$1,000/month per slot, ZipRecruiter Standard plans at $299-$399/month per job slot, and ATS software at $250-$3,000/month. It attributes to SHRM the claim that indirect costs (recruiter time, onboarding, productivity ramp) represent 60-70% of total hiring spend, and cites Appcast's 2026 Recruitment Marketing Benchmark Report that cost-per-hire rose another 6% in 2025.",
+    "source_urls": [
+      "https://feeds.obra.co/blog/average-recruiting-cost-per-hire"
+    ],
+    "tag": "enriched",
+    "card_id": 9017
+  },
+  "9018": {
+    "gloss": "Retained firms charge 25-33% of estimated total first-year compensation including commissions and bonuses but excluding benefits, and expenses charged back can push the total to 35%",
+    "verbatim": "Staffing Advisors, a retained executive search firm, explains what its industry's fees are calculated on. Retained executive search firms typically charge the employer between 25% and 33% of the estimated total annual compensation a candidate is expected to receive in their first year in the position. Many executive recruiters include first-year commissions and bonuses when estimating total first-year compensation, but do not include the cost of benefits. The worked example: at a 30% fee on a $100k salary the search fee is $30k, but if the candidate negotiates $110k, or $100k with a $10k sign-on bonus, the fee rises to $33k. Some firms also charge back their expenses to the client, so the total fee can easily rise to 35% of total annual compensation. Staffing Advisors itself charges a flat fee set in advance based on anticipated level of effort, with no chargeback except out-of-state travel, roughly averaging 20% of total base salary. Contingency search firms often charge between 20% and 25% of annual compensation, due only after the candidate starts work. On guarantees: most retained firms offer a replacement guarantee of a full year (Staffing Advisors' is 18 months), while contingency firms typically offer 30 days up to six months.",
+    "source_urls": [
+      "https://www.staffingadvisors.com/blog/what-do-executive-search-firms-charge/"
+    ],
+    "tag": "enriched",
+    "card_id": 9018
+  },
+  "9019": {
+    "gloss": "Retained search 20-30% and contingency 15-30% of first-year compensation, with a worked $62,500 fee on a $250,000 package and a list of what the fee covers",
+    "verbatim": "Pyck's explainer on executive search fees (Feb 20, 2026) states that most executive search fees fall between 15% and 30% of the hired executive's first-year compensation: retained firms typically 20-30%, contingency 15-30%, with the most senior C-level mandates at the top of that range. Worked examples: a leader with $250,000 in first-year compensation at an agreed 25% retained fee produces a total search fee of $62,500, paid in three installments (one-third at engagement, one-third at shortlist presentation, one-third on hire); the same $250,000 at a 20% contingency fee is $50,000, paid only on placement. A $300,000 first-year compensation role at 30% is around $90,000, with the page noting the exact figure depends on whether the fee basis includes bonus and equity, whether the fee is capped, and the firm's pricing model. On inclusion scope, the fee typically covers role scoping and market mapping, candidate outreach and screening, interview coordination, reference checks, and offer support and negotiation; some retained firms also include formal longlists, assessment tools, board-level reporting and structured research documentation. It separately names indirect costs that sit outside the fee: internal leadership time spent interviewing, delayed revenue while the role stays open, opportunity cost of mis-hires, and replacement cycles. Replacement guarantees typically cover a defined period of 60-180 days with a replacement search at no additional professional fee, but exclude salary or external advertising costs.",
+    "source_urls": [
+      "https://pyck.cc/signals/executive-search-fees"
+    ],
+    "tag": "enriched",
+    "card_id": 9019
+  },
+  "9020": {
+    "gloss": "One retained firm publishes 10-15% of first-year BASE salary only, explicitly excluding bonus, commission, equity and benefits",
+    "verbatim": "Valuable Recruitment, a boutique retained executive search firm (article by founder Mihai Arsene, 29 April 2026, last reviewed 27 July 2026), publishes a fee basis that is the opposite of the total-compensation norm. Its executive search is priced at 10% to 15% of the placed candidate's first-year base salary, and the calculation excludes bonus, commission, equity and benefits unless the agreement expressly says otherwise. Its published fee table: $150,000 base salary is $15,000 at 10% or $22,500 at 15%; $200,000 is $20,000 or $30,000; $250,000 is $25,000 or $37,500; $300,000 is $30,000 or $45,000. Clients typically pay 30% to 50% of the agreed fee at kickoff, with the balance usually due on contract signature. What the fee includes: stakeholder calibration, market mapping, direct outreach to passive candidates, structured leadership assessment tied to an agreed scorecard, written candidate briefs, reference conversations, interview and offer process management, and onboarding success criteria. Retained searches can include a 3 to 6 month replacement period. The page advises buyers comparing proposals to confirm the fee basis and which compensation elements are included or excluded.",
+    "source_urls": [
+      "https://valuablerecruitment.com/blog/how-much-does-executive-search-cost"
+    ],
+    "tag": "enriched",
+    "card_id": 9020
+  },
+  "9021": {
+    "gloss": "Sources differ on whether onboarding belongs inside cost per hire, and SHRM treats hiring-manager time as an optional inclusion",
+    "verbatim": "Integral Recruiting Design's analysis of cost-per-hire definitions (Alex Marcus, April 17, 2025) compares how the authoritative sources define scope, and finds the disagreement sits in what is counted rather than the formula. The SHRM/ANSI 2012 standard defines cost per hire as the mean average of total costs divided by the number of hires, covering all sourcing, recruiting and staffing costs to fill positions, both internal and external. SHRM's Human Capital Benchmarking definition is the total of all internal and external, direct and indirect costs associated with sourcing, recruiting and staffing an open position, divided by the number of hires. HCI defines it as all recruitment advertising, agency, travel and interview, relocation, referral bonus, and recruiter compensation/benefits costs divided by total new hires. CIPD (UK) defines it as the average cost of filling a vacancy including internal labour (recruitment staff and pro-rated time of interviewers) plus external costs (job adverts, agency fees). OnPay (2025) extends it further to include the onboarding process. The page states the general rule is that all expenses related to finding and bringing a new employee onboard up to their start date should be included, and that sources vary on whether onboarding counts. On internal components it names recruiting staff salaries and benefits (fully loaded), recruiting department overhead including a share of office rent and utilities and compliance costs, internal referral bonus payouts, recruiter training and development, and hiring managers' time as an opportunity cost, which it flags as an optional inclusion that SHRM notes not all companies track due to complexity. It gives the average US cost per hire from recent SHRM surveys as around $4,000-$4,700, and about £6,125 in the UK per CIPD data.",
+    "source_urls": [
+      "https://integralrecruiting.com/cost-per-hire-definitions-formulas-and-key-components/"
+    ],
+    "tag": "enriched",
+    "card_id": 9021
+  },
+  "9022": {
+    "gloss": "$28,329 executive versus $4,683 non-executive CPH, with agency fees at 15-30% of first-year salary named as the largest external line item",
+    "verbatim": "TuraHire's cost to hire guide (February 18, 2026) cites SHRM for an average cost per hire in the US of $4,683 for non-executive roles and $28,329 for senior and executive positions, using the SHRM/ANSI 2012 standard formula: CPH = (Total Internal Costs + Total External Costs) / Total Number of Hires. Its internal cost list: recruiter and HR salaries prorated by time spent per hire, ATS and HR technology subscriptions, internal referral bonuses, hiring manager interview time including preparation and debrief, and onboarding preparation covering paperwork, IT setup and orientation admin. Its external cost list: job board posting fees, staffing agency or executive search firm fees typically 15% to 30% of the placed candidate's first-year salary, background checks and drug screening, pre-employment assessments and skills testing platforms, employer branding campaigns, and career fair fees including travel and booth costs. It calls agency fees the single largest external cost for professional or senior roles, with a worked example of a 20% agency fee on a $75,000 salary placement equalling $15,000 from one vendor. It also quantifies the internal side: a mid-level manager earning $90,000 a year earns roughly $43 per hour, so 10 hours across interviews, debriefs and onboarding prep is $430 per hire from one manager. Soft costs it names as usually excluded: lost productivity during a vacancy (a senior sales role open 45 days costing $112,500 in lost revenue) and training ramp, with new hires in professional roles reaching full productivity between three and nine months after starting per research cited to the Association for Talent Development. It adds that a $50,000 salary hire actually costs $65,000-$74,000 in year one for a small business once taxes, benefits, equipment and onboarding are counted, and that a bad hire costs 1.5x-2x the role's salary to replace.",
+    "source_urls": [
+      "https://www.turahire.com/blog/cost-to-hire"
+    ],
+    "tag": "enriched",
+    "card_id": 9022
+  },
+  "9023": {
+    "gloss": "Agency commissions of 15-25% put a $100,000 technical hire at $15,000-$25,000 in fees alone, on top of a ~$4,700 average CPH",
+    "verbatim": "HackerEarth's guide to reducing hiring costs in 2026 (Medha Bisht, March 23, 2026) cites SHRM's Talent Access Report for an average US cost-per-hire of roughly $4,700, while noting costs run substantially higher for technical and executive roles. On what sits inside versus outside that number, it splits costs into direct (external) items such as job board fees, background checks and agency commissions, and indirect (internal) items covering internal hiring team time and lost productivity from open positions. It cites SHRM Talent Acquisition benchmarking for agency commissions commonly in the 15%-25% range of a candidate's first-year salary, and gives a worked example: hiring a technical employee at a $100,000 salary through an agency can cost $15,000-$25,000 at that commission rate. It also cites SHRM benchmarking data for the claim that many companies undercount internal costs by excluding recruiter and hiring manager time, with estimates in the 30%-50% range once loaded labour is included, meaning a small business that believes its cost-per-hire matches the ~$4,700 national average usually has a higher actual figure. Referral bonuses of $1,000-$5,000 are named as an internal cost. Vacancy cost is placed directionally in the hundreds of dollars per day in lost output, attributed to widely circulated CEB/Gartner analysis referenced in HR trade press, with the page explicitly noting a specific report URL was not confirmed.",
+    "source_urls": [
+      "https://assessment.hackerearth.com/blog/reducing-hiring-costs-in-2026"
+    ],
+    "tag": "enriched",
+    "card_id": 9023
+  },
+  "9024": {
+    "gloss": "Organisations differ on whether relocation and signing bonuses count, which is why two CPH figures are not comparable",
+    "verbatim": "Easy.jobs' cost per hire guide (published May 23, 2025) states that the metric gained acceptance when SHRM and ANSI published a standard formula in 2012, and that organisations have since refined which expenses they include: some now factor in relocation or signing bonuses, while others focus strictly on recruitment activities. Its internal cost column lists recruiter and HR team salaries and benefits, hiring manager time interviewing and screening, recruitment technology subscriptions (ATS, sourcing tools), compliance and administrative overhead, and onboarding platform or training costs. Its external cost column lists recruitment agency fees, job-board and advertising fees, background checks and pre-screening assessments, candidate travel and relocation expenses, and signing bonuses or referral rewards. The formula given is Cost Per Hire = (Total Internal Costs + Total External Costs) / Total Number of Hires, with a worked example of $80,000 total spend across 20 hires giving $4,000 per hire. On benchmarks, it puts the 2026 average cost per hire in the United States at around $4,800, modestly up from $4,425 in 2021, and the global average at about $3,500, varying by region and role.",
+    "source_urls": [
+      "https://easy.jobs/blog/cost-per-hire-everything-you-need-to-know/"
+    ],
+    "tag": "enriched",
+    "card_id": 9024
+  },
+  "9025": {
+    "gloss": "The 30-40% hard / 60-70% soft cost split traces to an April 2022 SHRM article quoting consultant Edie Goldberg, not a SHRM study",
+    "verbatim": "SHRM's article \"The Real Costs of Recruitment\" by Katie Navarra, published 11 April 2022, is where the hard/soft cost split appears. The split is not a SHRM research finding but a direct quote from Edie Goldberg, founder of Menlo Park, California talent management firm E.L. Goldberg & Associates, who is also SHRM Foundation chair-elect and co-author of the book The Inside Gig (LifeTree, 2020). Her exact words: \"Of those costs, I would say 30 percent to 40 percent are hard costs, and the other 60 percent are soft costs.\" Note she says \"I would say\" and gives 60 percent for soft costs, not 60-70 percent. No sample, survey or dataset is attached to the split anywhere in the article. The same article carries the 2-4x salary multiplier, also attributed to Goldberg: \"many employers estimate the total cost to hire a new employee can be three to four times the position's salary.\" SHRM's own benchmarking data in that piece put the average cost per hire at nearly $4,700. The article's worked example: for a job paying $60,000, you may spend $180,000 or more to fill it. Goldberg defines soft costs as the time departmental leaders and managers invest in supporting the HR-specific roles of the hiring process. Both the split and the multiplier describe the cost of one hire (a single position), not an employer's total annual hiring spend.",
+    "source_urls": [
+      "https://www.shrm.org/topics-tools/news/talent-acquisition/real-costs-recruitment"
+    ],
+    "tag": "enriched",
+    "card_id": 9025
+  },
+  "9026": {
+    "gloss": "SHRM's 2025 benchmarking release (Oct 2025) updated the 2022 studies but announced no hard/soft split",
+    "verbatim": "SHRM issued a press release on 15 October 2025 announcing four HR benchmarking reports for 2025, covering CHRO Metrics, Learning and Development, Recruiting, and Talent Management. The release states these reports feature 88 individual data sets spanning overall figures, industry groupings, sectors, organization sizes and regions, and that \"this study updates SHRM's prior benchmarking studies from 2022.\" The headline findings named in the release are: executive hires are on average nearly 7x more expensive than nonexecutive hires; critical thinking is the top skill required within the next 5 years at 71%; and the process from job posting to offer acceptance is highly segmented, with screening and interviewing each averaging 8-9 days. The release names no hard-cost/soft-cost percentage split and no salary multiplier. Reports are available to SHRM members at shrm.org/benchmarking.",
+    "source_urls": [
+      "https://www.shrm.org/about/press-room/shrm-releases-2025-benchmarking-reports--how-does-your-organizat"
+    ],
+    "tag": "enriched",
+    "card_id": 9026
+  },
+  "9027": {
+    "gloss": "The $4,129 figure came from a 2016 SHRM report on 2,048 members' fiscal 2015 data",
+    "verbatim": "SHRM published \"SHRM Benchmarking Report: $4,129 Average Cost-per-Hire\" on 8 August 2016, credited to SHRM Online staff. The figure comes from SHRM's Human Capital Benchmarking Report, whose findings reflect fiscal year 2015. The data was collected February to April from a random sampling of 2,048 SHRM members, who were surveyed on employment, retirement, compensation, employer-paid tuition and other people metrics such as the HR-professional-to-employee ratio. Respondent counts differed per question: 1,503 answered the succession plan questions and 1,192 responded to the average-time-to-fill question. This is the sample behind the legacy cost-per-hire number that later SHRM figures superseded.",
+    "source_urls": [
+      "https://www.shrm.org/topics-tools/news/shrm-benchmarking-report-4129-average-cost-per-hire"
+    ],
+    "tag": "enriched",
+    "card_id": 9027
+  },
+  "9028": {
+    "gloss": "An independent tracker dates every SHRM cost-per-hire edition and confirms no 2026 figure exists yet",
+    "verbatim": "InterviewCost.com, an independent site that states it is not affiliated with SHRM, ANSI/ISO, any ATS provider or recruiting agency, publishes a year-by-year table of SHRM cost-per-hire figures, re-verified against SHRM on 1 July 2026: SHRM Human Capital Benchmarking Report (fiscal year 2015, published 8 August 2016) gave $4,129, described as the widely cited legacy figure; SHRM's \"The Real Costs of Recruitment\" (11 April 2022) reported \"nearly $4,700\"; the 2025 SHRM Benchmarking Report (released 15 October 2025) gives $5,475 nonexecutive and $35,879 executive, with executives costing nearly 7x nonexecutives. The page states plainly that there is no separate 2026 SHRM figure: SHRM refreshes the benchmarking series annually in the fourth quarter, so a 2026 Benchmarking Report is expected around October 2026, and anyone quoting a distinct \"2026 SHRM cost per hire\" before then is either restating the $5,475 October 2025 figure or using a non-SHRM source. On scope: SHRM cost per hire follows the ANSI/SHRM standard (CPH-001), total external cost plus total internal cost divided by number of hires in the period, so it is a per-hire average derived from period totals. Counted: job boards, sponsored posts, career fairs, agency and search firm fees, background checks, relocation, recruiter and sourcer time, referral bonuses, ATS and recruiting tooling. Not counted: interviewer panel time at most companies, hiring manager time in the loop, candidate travel and onsite logistics, vacancy cost while the role stays open, onboarding and ramp to productivity, and the cost of a mis-hire. SHRM publishes a single national cost-per-hire figure, not an industry split.",
+    "source_urls": [
+      "https://interviewcost.com/shrm-cost-per-hire"
+    ],
+    "tag": "enriched",
+    "card_id": 9028
+  },
+  "9029": {
+    "gloss": "The Goldberg quote is reproduced verbatim in secondary coverage, showing how the 30-40/60 split entered circulation",
+    "verbatim": "Toggl's article \"The True Cost of Hiring an Employee in 2024\" (Elena Prokopets, last updated 27 January 2026) reproduces the split as a direct quote: \"Of the [total recruitment] costs, I would say 30 percent to 40 percent are hard costs, and the other 60 percent are soft costs,\" attributed to Edie Goldberg, SHRM Foundation chair-elect and co-author of the book The Inside Gig. The page attributes the cost-per-hire trend to SHRM: the average cost per hire was $4,129 in 2019 and rose to $4,700 in 2023, a 14% increase, with the average cost per hire for an executive position at $28,329. Toggl frames hard costs as the unavoidable costs of talent sourcing, selection and onboarding, averaging about $4,700 per employee, and states soft costs are harder to quantify but can increase the true cost of hiring by 2X to 3X, for both full-time and part-time employees. It sorts the categories: hard costs are recruitment costs (HR salaries, premium job boards, social media ads), HR software (ATS, skills assessment tools, onboarding apps), compensation (wages, benefits, bonuses, perks, payroll taxes), onboarding (structured training, welcome kits, new equipment) and miscellaneous admin (interview scheduling, background checks, legal contracts); soft costs are managerial time on recruitment, interviewing and training, impact on communication dynamics and team synergy, knowledge transfer from current employees, initial productivity loss during adaptation, and organizational disruption during onboarding.",
+    "source_urls": [
+      "https://toggl.com/blog/cost-of-hiring-an-employee"
+    ],
+    "tag": "enriched",
+    "card_id": 9029
+  },
+  "9030": {
+    "gloss": "A secondary page restates the split as 60% soft while separately claiming hiring manager time is 30-40% of costs",
+    "verbatim": "Taggd's HR glossary entry on Cost Per Hire (published 2 June 2025, Team Taggd Content) quotes the split as: \"Of the total recruitment costs, 30-40 percent are hard costs, and the other 60 percent are soft costs,\" attributed to Edie Goldberg, SHRM Foundation chair-elect. The page states these soft costs can elevate the true hiring expense by 2-3 times the documented figure. It separately claims that time-based internal costs, the salary expense of hiring managers conducting interviews, are typically 30-40% of total recruitment expenses. Other figures on the page: hiring one new employee costs approximately 40% of the position's base salary; average cost per hire reached $4,683 in 2024, with executive positions up to $28,000; banking organizations spend $4,323 per hire while manufacturing companies spend $5,611; the standard recruitment timeline spans 36 to 42 days. It states SHRM established a standardized cost-per-hire formula in 2012, and attributes to \"SHRM's real cost of recruitment\" the claim that average cost per hire was $4,125 in 2019 and rose to $4,700 in 2023, a 14% increase, with executive positions averaging $28,329. Entry-level roles typically require about 20% of annual salary in recruitment spending; mid-level positions may cost up to $60,000; executive roles can exceed 200% of an existing executive's salary.",
+    "source_urls": [
+      "https://taggd.in/hr-glossary/hidden-cost-per-hire-insights/"
+    ],
+    "tag": "enriched",
+    "card_id": 9030
+  },
+  "9031": {
+    "gloss": "The 3-4x salary multiplier is restated in secondary coverage with the same $60,000 to $180,000 example",
+    "verbatim": "Recruiterflow's cost-per-hire guide (Pragadeesh Natarajan, 8 May 2025) states that the total cost to hire a new employee can be 3 to 4 times the position's salary, giving the example that in manufacturing, hiring for a $60,000 role might cost $180,000 when all expenses are considered. The same page cites a median cost per hire in the U.S. of about $1,633, notes tech companies face costs up to $35,000 for software developers, and puts executive hires at upwards of $28,000. It states that smaller companies often face higher per-hire costs due to fewer resources while larger firms benefit from economies of scale, and that Ericsson cut its cost per hire by 70% through social media and employee advocacy initiatives.",
+    "source_urls": [
+      "https://recruiterflow.com/blog/cost-per-hire/"
+    ],
+    "tag": "enriched",
+    "card_id": 9031
+  },
+  "9032": {
+    "gloss": "Secondary sources restate the 60-70% soft-cost share as a share of total hiring spend, attributed to SHRM",
+    "verbatim": "Obra's \"Average Cost of Hiring an Employee in 2026\" (published 19 May 2026) states that indirect (soft) costs represent approximately 60-70% of total hiring spend, attributing that figure to SHRM. Note the framing is total hiring spend, not the per-hire quote in SHRM's own 2022 article, and the page does not name a SHRM report or year for the 60-70% range. Its cost-per-hire numbers, attributed to SHRM's 2025 Benchmarking Report, are $5,475 average for non-executive roles, up from $4,700 in prior cycles and $4,129 before that, with executive hiring averaging $35,879, a 113% increase since 2017. Also on the page: Appcast's 2026 Recruitment Marketing Benchmark Report found cost-per-hire rose another 6% in 2025 because of structural cost inflation in job board pricing, and recruiter workloads are up 93% year over year, partly driven by AI-generated applications. Executive search fees run 25-35% of first-year total compensation, so on a $300,000 package that is $75,000-$105,000 in agency fees alone. Gallup's onboarding research finds new employees typically take approximately 12 months to reach full performance potential. Vacancy losses run an estimated $500 per day for standard roles and up to $10,000 per month for revenue-generating positions.",
+    "source_urls": [
+      "https://feeds.obra.co/blog/average-recruiting-cost-per-hire"
+    ],
+    "tag": "enriched",
+    "card_id": 9032
+  },
+  "9033": {
+    "gloss": "A newer SHRM report (2026 Recruiting Executives Benchmarking) reports medians that differ from the 2025 averages",
+    "verbatim": "Truffle's cost-per-hire guide (Sean Griffith, Founder, published February 2026, updated August 2026) states that SHRM's newest data, the 2026 Recruiting Executives Benchmarking report, puts the MEDIAN cost per hire at $1,300 for non-executive roles and $15,000 for executive roles, both up from 2025. It notes the widely quoted $5,475 and $35,879 come from SHRM's separate 2025 average-based report, and that both sets are real SHRM numbers measuring different things (median versus average). The page says the $4,700 average cost per hire figure still circulating is old, and that there are three different numbers competing to be \"the\" current cost per hire which do not agree with each other. It defines cost per hire in the SHRM/ANSI standard as the mean average of total costs divided by the number of hires, using internal and external recruiting costs gathered over the same measurement period, and notes the SHRM/ANSI standard describes internal cost factors as staff, capital and organizational costs of the recruiting function, including fully loaded recruiting salaries and talent acquisition system costs. It cites CareerBuilder research putting the average cost of a bad hire at around $14,900.",
+    "source_urls": [
+      "https://www.hiretruffle.com/blog/cost-per-hire"
+    ],
+    "tag": "enriched",
+    "card_id": 9033
+  },
+  "9034": {
+    "gloss": "The SHRM/ANSI cost-per-hire formula was standardized in 2012 as ANSI/SHRM 06001.2012",
+    "verbatim": "Pin's cost-per-hire guide (Jenn Vu, published 13 June 2025, updated 26 May 2026) states that SHRM and the American National Standards Institute formalized the cost-per-hire formula in 2012 via the ANSI/SHRM 06001.2012 standard, and that the formula remains the universal benchmark for comparing CPH across organizations of different sizes, industries and hiring volumes. The formula: Cost Per Hire = (Total Internal Recruiting Costs + Total External Recruiting Costs) / Total Number of Hires. It reports the SHRM 2025 Benchmarking Report figures as $5,475 average cost per hire for non-executive roles in the United States and $35,879 for executive hires, more than six times higher, with the executive figure up 21% from 2022. Hidden costs it names as routinely missed: vacancy losses around $500 per day, bad hires at 30% of annual salary, and manager interview time. Agency fees are given as 15-20% of first-year salary for contingency and up to 40% for retained search; job board posting fees $50-$500 per posting, per Paychex.",
+    "source_urls": [
+      "https://www.pin.com/blog/cost-per-hire-benchmarks/"
+    ],
+    "tag": "enriched",
+    "card_id": 9034
+  },
+  "9035": {
+    "gloss": "SHRM's 50-200% of salary replacement-cost range comes from its Human Capital Benchmarking Reports, and the $4,700 figure is dated to the 2016 report",
+    "verbatim": "INOP's \"The True Cost of a Bad Hire in 2026\" (INOP Research Team, 10 February 2026) traces the most-cited bad-hire figures to their primary sources. It states SHRM's range of 50% to 200% of annual salary for replacing an employee comes from SHRM's research on employee replacement costs, detailed in its Human Capital Benchmarking Reports and referenced across multiple SHRM publications, with the range reflecting variation by seniority: entry-level roles trend toward 50-75%, mid-level managerial and technical roles toward 100-150%, and C-suite or executive positions toward 200% or above. It states SHRM's $4,700 average cost per hire figure comes from the 2016 Human Capital Benchmarking Report, with subsequent data confirming the figure has risen approximately 14% from pre-pandemic levels by 2024. On other multipliers: the U.S. Department of Labor's figure that a bad hire costs at least 30% of that employee's first-year earnings originates from the Department's historical workforce guidance on employee turnover costs, cited extensively since the early 2000s in DOL workforce development publications, with the Employment and Training Administration referencing it in turnover cost modeling; the page notes this 30% is a conservative floor covering direct replacement costs only. CareerBuilder's $17,000 average financial loss per bad hire (entry to mid-level) and the 74% of employers who reported making a bad hire come from CareerBuilder's annual survey research across thousands of US hiring managers, cited in its \"The State of Recruiting\" and related reports from 2014 through 2024; the $240,000 figure for executive-level bad hires is the upper range across executive-level respondents.",
+    "source_urls": [
+      "https://inop.ai/the-true-cost-of-a-bad-hire-in-2026/"
+    ],
+    "tag": "enriched",
+    "card_id": 9035
+  }
+}

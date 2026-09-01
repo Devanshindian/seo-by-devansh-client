@@ -1,0 +1,86 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>a-hiring-assessment-glossary-built — the article at every step</title><style>
+:root{--bg:#fffdf8;--ink:#1c1a17;--mut:#6b6459;--line:#efe7d8;--card:#fff;--wash:#fff8ec;
+--acc:#b25a00;--pink:#c2185b;--pinkwash:#fdf1f5;--pinkline:#f4d3e0;
+--shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:17px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:40px 24px 120px}
+/* The FAQ collapses. Colours come from the variables above so it follows the dark theme; the first
+   version hardcoded near-black text and vanished for anyone whose device is set to dark. */
+details.faq{border-bottom:1px solid var(--line)}
+details.faq summary{list-style:none;cursor:pointer;padding:15px 30px 15px 0;position:relative;
+ font-weight:600;font-size:17px;line-height:1.45;color:var(--ink)}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary:hover{color:var(--acc)}
+details.faq summary::after{content:"+";position:absolute;right:4px;top:13px;font-size:22px;
+ font-weight:400;color:var(--mut);transition:.15s}
+details.faq[open] summary{color:var(--acc)}
+details.faq[open] summary::after{content:"3";color:var(--acc)}
+details.faq .a{padding:0 30px 18px 0;color:var(--ink)}
+details.faq .a p{margin:0 0 10px}
+details.faq .a p:last-child{margin-bottom:0}
+h1{font-size:clamp(28px,4.5vw,38px);line-height:1.22;margin:.2em 0 .5em;letter-spacing:-.02em}
+/* every subheading in the article is pink; the H1 and the index cards stay ink */
+h2{font-size:clamp(21px,2.8vw,25px);line-height:1.3;margin:2.2em 0 .5em;letter-spacing:-.01em;
+color:var(--pink)}
+h3{font-size:18px;margin:1.7em 0 .4em;color:var(--pink)}
+.card h3{color:var(--ink)}
+p{margin:0 0 1.1em}
+ul,ol{margin:0 0 1.2em;padding-left:1.5em}
+li{margin:0 0 .55em}
+li>p{margin:.4em 0 .2em}
+a{color:var(--acc)}
+sup a,a.cite{font-size:.72em;text-decoration:none;padding:0 .12em;vertical-align:super;font-weight:600}
+.scroll{overflow-x:auto;margin:0 0 1.4em;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:15px;background:var(--card);
+box-shadow:var(--shadow);border-radius:8px;overflow:hidden}
+th,td{padding:10px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:var(--wash);font-weight:650;font-size:13.5px;letter-spacing:.02em}
+tr:last-child td{border-bottom:none}
+.bar{border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:5}
+.bar .in{max-width:760px;margin:0 auto;padding:13px 24px;display:flex;gap:18px;align-items:baseline;
+flex-wrap:wrap;font-size:14px}
+.bar a{text-decoration:none;color:var(--mut)}
+.bar a:hover{color:var(--acc)}
+.bar .now{color:var(--ink);font-weight:650}
+.meta{color:var(--mut);font-size:14.5px;margin:0 0 2.4em;padding-bottom:1.4em;
+border-bottom:1px solid var(--line)}
+.srcs{margin-top:3.5em;padding-top:1.6em;border-top:1px solid var(--line)}
+.srcs h2{margin-top:0;font-size:19px}
+.srcs ol{font-size:14px;line-height:1.6;color:var(--mut);word-break:break-word}
+.srcs li{margin-bottom:.45em}
+.cards{display:grid;gap:16px;margin:2em 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:20px 22px;
+box-shadow:var(--shadow)}
+.card h3{margin:0 0 .3em;font-size:19px;letter-spacing:-.01em}
+.card .n{color:var(--mut);font-size:13.5px;margin:0 0 .9em}
+.card .go{display:flex;gap:10px;flex-wrap:wrap}
+.card .go a{display:inline-block;text-decoration:none;font-size:14px;font-weight:600;
+padding:7px 14px;border-radius:7px;border:1px solid var(--line)}
+.card .go a.p{background:var(--acc);color:#fff;border-color:var(--acc)}
+.lead{font-size:18px;color:var(--mut);margin:0 0 2em;max-width:60ch}
+/* the draft view: same content, shown as the writer handed it over */
+.draft{font-size:16px}
+.draft .mk{color:#b0a08a;font-weight:400}
+/* the Keywords panel — a summary above the article, never inline in the prose */
+.kw{background:var(--pinkwash);border:1px solid var(--pinkline);border-radius:11px;
+padding:20px 22px 6px;margin:0 0 2.6em}
+.kw .t{margin:0 0 .15em;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+color:var(--pink)}
+.kw .n{margin:0 0 1.1em;font-size:14px;color:var(--mut)}
+.kw .p{margin:0 0 1em;font-size:17px}
+.kw .p b{color:var(--pink)}
+.kw table{background:transparent;box-shadow:none;font-size:14.5px}
+.kw th{background:transparent;color:var(--pink);border-bottom:1px solid var(--pinkline)}
+.kw td{border-bottom:1px solid var(--pinkline)}
+.kw .k{font-weight:650}
+.kw .no{color:var(--mut)}
+.kw .chk{list-style:none;padding:0;margin:0 0 1.2em;font-size:14.5px;color:var(--mut)}
+.kw .chk li{margin:0 0 .3em}
+.kw .chk .y{color:var(--pink);font-weight:700}
+@media (prefers-color-scheme: dark){
+:root{--bg:#171512;--ink:#efe9e0;--mut:#a49b8d;--line:#2e2a24;--card:#1e1b17;--wash:#241f19;--acc:#e08a2e;
+--pink:#ff8fb1;--pinkwash:#26191f;--pinkline:#3d2731}
+}
+</style></head><body><div class="wrap"><h1>The article at every step</h1><p class="whatis">The same piece, read at each stage of the writer. Nothing here is a diff or a report; it is what a reader would see if we stopped there.</p><div class="card"><h3><a href="write-body.html">after write-body</a></h3><p class="slug">4,469 words</p></div><div class="card"><h3><a href="blend.html">after blend</a></h3><p class="slug">3,944 words</p></div><div class="card"><h3><a href="wrapper.html">after wrapper</a></h3><p class="slug">4,483 words</p></div><div class="card"><h3><a href="coherence.html">after coherence</a></h3><p class="slug">4,618 words</p></div><div class="card"><h3><a href="readable.html">after readable</a></h3><p class="slug">2,398 words</p></div><div class="card"><h3><a href="sentences.html">after sentences</a></h3><p class="slug">2,419 words</p></div><div class="card"><h3><a href="slop.html">after slop</a></h3><p class="slug">2,412 words</p></div><div class="card"><h3><a href="links.html">after links</a></h3><p class="slug">2,439 words</p></div><div class="card"><h3><a href="clean.html">after clean</a></h3><p class="slug">2,439 words</p></div><div class="card"><h3><a href="assemble.html">after assemble</a></h3><p class="slug">2,430 words</p></div></div></body></html>

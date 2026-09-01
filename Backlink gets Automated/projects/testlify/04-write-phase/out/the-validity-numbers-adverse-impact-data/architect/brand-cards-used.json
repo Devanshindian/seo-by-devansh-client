@@ -1,0 +1,32 @@
+{
+  "8004": {
+    "gloss": "Selection quality swings by hiring manager for 45.8%",
+    "verbatim": "45.8% of HR and TA practitioners describe their process as inconsistent — confidence that it picks the best candidate rather than the best interviewer varies by hiring manager or role (n=131). [Q4]",
+    "topics": [
+      "hiring consistency",
+      "interviewer bias",
+      "selection quality",
+      "hiring managers",
+      "structured interviews"
+    ],
+    "source_note": "SHRM Labs x Testlify: Skills Assessments — Topline Report",
+    "source_urls": [],
+    "tag": "brand-research",
+    "card_id": 8004
+  },
+  "8011": {
+    "gloss": "44.5% say no one formally validates their assessments",
+    "verbatim": "44.5% of HR and TA practitioners say no one formally validates their assessments — the team goes on gut feel (n=128). [Q9]",
+    "topics": [
+      "validation",
+      "assessment governance",
+      "gut feel",
+      "ownership",
+      "hiring quality"
+    ],
+    "source_note": "SHRM Labs x Testlify: Skills Assessments — Topline Report",
+    "source_urls": [],
+    "tag": "brand-research",
+    "card_id": 8011
+  }
+}

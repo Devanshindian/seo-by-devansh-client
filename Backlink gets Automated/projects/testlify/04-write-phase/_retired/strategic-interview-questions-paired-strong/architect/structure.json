@@ -1,0 +1,1717 @@
+{
+  "slug": "strategic-interview-questions-paired-strong",
+  "format_archetype": "listicle",
+  "spine": "An interview question is only as useful as the benchmark you hold the answer against, and 'look for strategic thinking' is a label, not a benchmark. This article gives a functional lead who conducts interviews but does not do it for a living twelve questions worth asking, and attaches to each one a real answer that scores well, a real answer that scores badly, and one line naming the thing to score. Underneath them sits a single 1-5 anchored scale and the small set of habits (score in the room, score alone, write the evidence down) that keep the scale honest. At the end the reader can run a 45-minute interview from these twelve questions and defend every number they wrote.",
+  "coverage_note": "Left out the 'skills, capabilities and qualifications' category as a set of its own items — none of the twelve questions is role-technical, and the paired strong/weak benchmark only works on a question every interviewer actually asks, so the IT, ML, sales and customer-success question banks are benched and role-technical questions get one short adaptation section after the items instead. Also left out Google's split of 'core competencies' and 'team collaboration' into separate question categories: those are competencies the twelve questions already test, not questions of their own. Behavioral, situational and culture/values questions are all covered, and covered as items rather than as explained categories.",
+  "item_fields": [
+    "Strong answer",
+    "Weak answer",
+    "Scoring line"
+  ],
+  "dropped_items": [],
+  "sections": [
+    {
+      "headline": "\"Tell Me About Yourself\": Scoring the First 90 Seconds",
+      "job": "Open the list with the question every interview starts with, and settle what the first ninety seconds are actually for: not warm-up, but the first scorable answer. Show that the tell is whether the candidate connected their background to this role, and hand the reader the present-past-future shape so they can hear a structured answer from an unstructured ramble.",
+      "is_item": true,
+      "boxes": [
+        77
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          77
+        ],
+        "box_labels": [
+          "Tell me about yourself"
+        ],
+        "from_h2": "What separates strong and weak answers to common interview questions",
+        "tags": [
+          "asset-angle",
+          "gap: Strong-answer and weak-answer benchmarks attached to each question",
+          "gap: Simple scoring lines that turn each question into an evaluation tool",
+          "common-h2: First-round or general interview questions"
+        ],
+        "card_ids": [
+          855,
+          856,
+          857,
+          858,
+          859,
+          860,
+          861,
+          874,
+          876,
+          877,
+          878,
+          879,
+          881,
+          882,
+          883,
+          884,
+          885,
+          886,
+          887,
+          888,
+          889,
+          890,
+          891,
+          892,
+          893,
+          894,
+          895,
+          896,
+          897
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 322
+    },
+    {
+      "headline": "\"Why Are You Leaving?\": Specific Gap or Blame",
+      "job": "Settle the question interviewers most often let slide into small talk. Show that the answer predicts engagement in the next role, and separate the two axes that decide the score: whether the candidate names a specific gap and owns their part in it, or externalises the blame. Give the reader the acceptable reasons so they stop treating every departure story as a warning sign.",
+      "is_item": true,
+      "boxes": [
+        78
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          78
+        ],
+        "box_labels": [
+          "Why are you leaving your current job?"
+        ],
+        "from_h2": "What separates strong and weak answers to common interview questions",
+        "tags": [
+          "asset-angle",
+          "gap: Strong-answer and weak-answer benchmarks attached to each question",
+          "gap: Simple scoring lines that turn each question into an evaluation tool"
+        ],
+        "card_ids": [
+          899,
+          900,
+          901,
+          902,
+          903,
+          904,
+          905,
+          906,
+          907,
+          908,
+          909,
+          910,
+          911,
+          912,
+          913,
+          914,
+          915,
+          916,
+          917,
+          918,
+          919,
+          920,
+          921,
+          922,
+          923,
+          924,
+          925,
+          926,
+          927,
+          928,
+          929,
+          930,
+          931,
+          932,
+          933,
+          934,
+          935,
+          936,
+          937,
+          938,
+          939,
+          942,
+          943,
+          944,
+          945,
+          946,
+          947,
+          948,
+          949
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 351
+    },
+    {
+      "headline": "\"Why Do You Want to Work Here?\": Swap in a Rival's Name",
+      "job": "Kill the idea that this question measures enthusiasm. Show it measures research depth, and give the reader the single fastest test in the article: swap a competitor's name into the answer and see whether it still works. Following the departure question, this closes the pair that together tell the reader whether the candidate chose this job or just needed one.",
+      "is_item": true,
+      "boxes": [
+        79
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          79
+        ],
+        "box_labels": [
+          "Why do you want to work here?"
+        ],
+        "from_h2": "What separates strong and weak answers to common interview questions",
+        "tags": [
+          "asset-angle",
+          "gap: Strong-answer and weak-answer benchmarks attached to each question",
+          "gap: Simple scoring lines that turn each question into an evaluation tool",
+          "common-h2: Culture fit or candidate fit questions"
+        ],
+        "card_ids": [
+          950,
+          951,
+          952,
+          953,
+          954,
+          955,
+          956,
+          957,
+          958,
+          959,
+          960,
+          961,
+          962,
+          963,
+          964,
+          965,
+          966,
+          967,
+          968,
+          969,
+          970,
+          971,
+          972,
+          973,
+          974,
+          975,
+          976,
+          977,
+          978,
+          979,
+          980,
+          981,
+          982,
+          983,
+          984,
+          985,
+          986,
+          987
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 322
+    },
+    {
+      "headline": "Ask Who They'd Talk to First When Priorities Shift",
+      "job": "Move the list from background questions to judgment ones. Name the three signals this scenario surfaces at once — prioritisation logic, communication discipline, stakeholder management — and isolate the single load-bearing detail that separates strong from weak faster than anything else in the answer: who the candidate says they would talk to first.",
+      "is_item": true,
+      "boxes": [
+        43,
+        44,
+        45
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          43,
+          44,
+          45
+        ],
+        "box_labels": [
+          "The Mid-Quarter Priority-Conflict Question and What It's Designed to Surface",
+          "Strong vs. Weak Answer Patterns",
+          "How to Score the Response"
+        ],
+        "from_h2": "How Do You Evaluate a Candidate's Prioritization and Stakeholder-Management Skills?",
+        "tags": [
+          "common-h2: Situational interview questions",
+          "related: Strategic interview questions to ask candidates",
+          "asset-angle",
+          "gap: Strong-answer and weak-answer benchmarks attached to each question",
+          "gap: Less abstract guidance on what a good response actually sounds like",
+          "gap: Simple scoring lines that turn each question into an evaluation tool",
+          "gap: More interviewer-ready structure for comparing candidates consistently"
+        ],
+        "card_ids": [
+          96,
+          97,
+          140,
+          141,
+          142,
+          148,
+          149,
+          150,
+          151,
+          154,
+          213,
+          214,
+          217,
+          98,
+          99,
+          100,
+          101,
+          143,
+          144,
+          146,
+          152,
+          153,
+          215,
+          216,
+          218,
+          102,
+          103,
+          104,
+          106,
+          107,
+          147
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 351
+    },
+    {
+      "headline": "Ambiguity Answers: Score Scope, Not Polish",
+      "job": "Settle what separates a strong ambiguity answer from a weak one, and correct the assumption most interviewers arrive with: it is scope, not polish. Give the reader the concrete axis to score against — how many people and teams the candidate's story actually touched — so they can tell a junior-shaped answer from a senior one without guessing.",
+      "is_item": true,
+      "boxes": [
+        40,
+        41,
+        42
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          40,
+          41,
+          42
+        ],
+        "box_labels": [
+          "What separates a strong answer from a weak one: the seniority scope ladder",
+          "Scoring the answer on the 1-5 scale",
+          "Example prompts and sample answers by seniority level"
+        ],
+        "from_h2": "How do you evaluate ambiguity and problem-framing questions?",
+        "tags": [
+          "asset-angle",
+          "gap: Strong-answer and weak-answer benchmarks attached to each question",
+          "gap: Less abstract guidance on what a good response actually sounds like",
+          "gap: Simple scoring lines that turn each question into an evaluation tool",
+          "gap: More interviewer-ready structure for comparing candidates consistently"
+        ],
+        "card_ids": [
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          121,
+          122,
+          123,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 351
+    },
+    {
+      "headline": "\"How Did You Adapt?\": Score Actions, Not Acceptance",
+      "job": "Rule out the most common misread on adaptability questions: candidates who describe accepting a change rather than acting on it. Show that everything scorable sits in what the candidate did after the change, name the first-second-third action the reader should demand, and flag the pattern where someone adapted only once another person had solved the problem.",
+      "is_item": true,
+      "boxes": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          50,
+          51,
+          52,
+          53
+        ],
+        "box_labels": [
+          "Adjusting your approach after a change at work",
+          "Adapting to a significant workplace change",
+          "Shifting priorities, new skills, and comfort zone",
+          "Handling unexpected changes in project requirements"
+        ],
+        "from_h2": "How do candidates respond when plans, priorities, or requirements suddenly change?",
+        "tags": [
+          "asset-angle",
+          "gap: Strong-answer and weak-answer benchmarks attached to each question",
+          "gap: Simple scoring lines that turn each question into an evaluation tool",
+          "common-h2: Behavioral interview questions",
+          "gap: Less abstract guidance on what a good response actually sounds like"
+        ],
+        "card_ids": [
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          241,
+          242,
+          243,
+          244,
+          734,
+          736,
+          737,
+          208,
+          209,
+          210,
+          211,
+          212,
+          219,
+          220,
+          221,
+          222
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 322
+    },
+    {
+      "headline": "Conflicting Stakeholders: Specifics Beat a Happy Ending",
+      "job": "Turn the vaguest competency on most scorecards into something testable. Show that specifics beat a pleasant ending, so an answer that resolved nothing can still score above one that ends happily with no detail. Include the leading version of this question that fails, so the reader stops asking it that way.",
+      "is_item": true,
+      "boxes": [
+        46,
+        47,
+        48
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          46,
+          47,
+          48
+        ],
+        "box_labels": [
+          "The conflicting-expectations question",
+          "The difficult-stakeholder question",
+          "The pushing-back-on-a-stakeholder question"
+        ],
+        "from_h2": "What interview questions reveal how candidates handle difficult stakeholders?",
+        "tags": [
+          "asset-angle",
+          "gap: Strong-answer and weak-answer benchmarks attached to each question",
+          "gap: Simple scoring lines that turn each question into an evaluation tool"
+        ],
+        "card_ids": [
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          135,
+          137,
+          139,
+          233,
+          234,
+          235,
+          236
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 322
+    },
+    {
+      "headline": "Disagreeing With a Manager: Score the Process, Not the Win",
+      "job": "Separate principled disagreement from the candidate who casts themselves as the only rational person in the room. Establish that the reader scores the process and the reasoning, not whether the candidate won, and define the top anchor as a stand held, communicated respectfully, with the consequences understood. Builds on the stakeholder question by moving the conflict upward, to the boss.",
+      "is_item": true,
+      "boxes": [
+        59,
+        60
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Interviewer-side guidance published 2023-2026 on the behavioral question about disagreeing with a manager or a decision: real quoted weak-answer examples, and a full 1-5 behavioral anchor set for a 'constructive disagreement' or 'disagree and commit' competency, including the written descriptions used for a score of 1 and a score of 2. Name the guide, rubric or company hiring handbook each anchor comes from, and any published data on how often disagreement-handling appears as a scored competency in engineering and operations interview loops.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          59,
+          60
+        ],
+        "box_labels": [
+          "The scenario: pushing back on a decision",
+          "What separates a strong answer from a weak one"
+        ],
+        "from_h2": "How do candidates handle disagreeing with a manager or a decision?",
+        "tags": [
+          "common-h2: Behavioral interview questions",
+          "common-h2: Culture fit or candidate fit questions",
+          "asset-angle",
+          "gap: Strong-answer and weak-answer benchmarks attached to each question",
+          "gap: Simple scoring lines that turn each question into an evaluation tool",
+          "gap: Less abstract guidance on what a good response actually sounds like"
+        ],
+        "card_ids": [
+          659,
+          727,
+          730,
+          728,
+          729,
+          768,
+          769,
+          770,
+          9001,
+          9002,
+          9003,
+          9004,
+          9005,
+          9006,
+          9007,
+          9008,
+          9009,
+          9010,
+          9011,
+          9012,
+          9013,
+          9014,
+          9015,
+          9016
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 351
+    },
+    {
+      "headline": "Ship It Anyway? The Three Moves a Grounded Objection Makes",
+      "job": "Give the reader the situational counterpart to the previous question, where the disagreement is about the work itself rather than a person. Name the three moves a grounded objection must contain, and rule out both failure poles: the candidate who ships silently while privately objecting, and the one who refuses outright.",
+      "is_item": true,
+      "boxes": [
+        58
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Published interviewer-side guidance and real quoted candidate answers for the situational prompt about being asked to ship, launch or release something the candidate does not believe is ready: named engineering, QA, release-readiness and operations hiring guides from 2023-2026, with any documented strong and weak sample answers and any written scoring anchors attached to them. Also any survey data on how often teams report shipping against a known readiness objection, to ground why this scenario is worth asking about.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          58
+        ],
+        "box_labels": [
+          "What does the 'ship something not ready' question actually test?"
+        ],
+        "from_h2": "What does the 'ship something not ready' question actually test?",
+        "tags": [
+          "asset-angle",
+          "gap: Strong-answer and weak-answer benchmarks attached to each question",
+          "gap: Simple scoring lines that turn each question into an evaluation tool",
+          "common-h2: Situational interview questions"
+        ],
+        "card_ids": [
+          237,
+          238,
+          239,
+          240,
+          9017,
+          9018,
+          9019,
+          9020,
+          9021,
+          9022,
+          9023,
+          9024,
+          9025
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 322
+    },
+    {
+      "headline": "Feedback Received: Score the Change, Not the Story",
+      "job": "Settle what a feedback answer is actually evidence of: not the feedback received, but what changed afterwards. Separate the three low-signal patterns — a strength renamed as a criticism, feedback rejected without reflection, and the polished story with no operational change — and set the bar by seniority so the reader knows the answer scales.",
+      "is_item": true,
+      "boxes": [
+        61,
+        62,
+        63
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          61,
+          62,
+          63
+        ],
+        "box_labels": [
+          "Weak and low-signal answers",
+          "Strong answers: curiosity and real change",
+          "Scoring the answer by seniority level"
+        ],
+        "from_h2": "How do you tell a strong feedback-response answer from a weak one?",
+        "tags": [
+          "asset-angle",
+          "gap: Strong-answer and weak-answer benchmarks attached to each question",
+          "gap: Less abstract guidance on what a good response actually sounds like",
+          "gap: Simple scoring lines that turn each question into an evaluation tool",
+          "gap: More interviewer-ready structure for comparing candidates consistently"
+        ],
+        "card_ids": [
+          738,
+          739,
+          755,
+          756,
+          757,
+          758,
+          759,
+          760,
+          740,
+          741,
+          774
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 322
+    },
+    {
+      "headline": "The Wrong-Decision Question: Ownership vs. Blame",
+      "job": "Close the self-awareness pair by naming the clearest signal in the whole article: ownership versus blame. Show that a self-justifying answer reads as defensiveness rather than resilience, and that a candidate who cannot produce a wrong decision at all has told you something. This is the last question that judges a real event before the closing hypothetical.",
+      "is_item": true,
+      "boxes": [
+        54,
+        55,
+        56,
+        57,
+        27
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Real quoted strong and weak example answers to the behavioral question 'tell me about a decision you made that turned out to be wrong' or 'a time you failed', from interviewer-side hiring guides, structured-interview question banks and company hiring handbooks published 2023-2026. Include any written 1-5 scoring anchors attached to an 'ownership' or 'accountability' competency, and any research linking a candidate's willingness to name a bad decision to later manager-rated job performance.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          54,
+          55,
+          56,
+          57,
+          27
+        ],
+        "box_labels": [
+          "What Does the 'Describe a Wrong Decision' Question Test?",
+          "What a Strong Answer Looks Like",
+          "Common Weak Answer Patterns",
+          "How to Score Responses",
+          "What ownership and red flags sound like in an answer"
+        ],
+        "from_h2": "What Does the 'Describe a Wrong Decision' Question Test?",
+        "tags": [
+          "common-h2: Behavioral interview questions",
+          "related: Strategic interview questions to ask candidates",
+          "asset-angle",
+          "gap: Strong-answer and weak-answer benchmarks attached to each question",
+          "gap: Less abstract guidance on what a good response actually sounds like",
+          "gap: Simple scoring lines that turn each question into an evaluation tool",
+          "gap: More interviewer-ready structure for comparing candidates consistently"
+        ],
+        "card_ids": [
+          229,
+          230,
+          231,
+          232,
+          750,
+          751,
+          752,
+          753,
+          754,
+          9026,
+          9027,
+          9028,
+          9029,
+          9030,
+          9031,
+          9032,
+          9033,
+          9034,
+          9035
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 351
+    },
+    {
+      "headline": "\"What Would Make You Quit in the First 90 Days?\"",
+      "job": "Close the list with the question that surfaces dealbreakers before the offer rather than after it. Show that the score sits in whether the candidate names a specific, checkable condition and connects it to something they have actually lived, not in whether the answer is comfortable to hear. Sends the reader into the scoring sections with a values answer that still needs a number.",
+      "is_item": true,
+      "boxes": [
+        66,
+        70
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Real quoted example answers to 'what would make you quit a job within the first three months' or 'what would make you leave a job' from interviewer-side hiring guides published 2023-2026, including any written scoring guidance attached to them. Plus current first-90-day voluntary turnover rates and the most-cited reasons new hires give for leaving within three months, from named sources such as SHRM, BambooHR onboarding research, Work Institute retention reports or Gallup, with the report name and year, so the candidate's stated dealbreaker can be benchmarked against what actually causes early exits.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          66,
+          70
+        ],
+        "box_labels": [
+          "What Would Make You Quit Within Three Months?",
+          "How to score culture-fit answers"
+        ],
+        "from_h2": "What Would Make You Quit Within Three Months?",
+        "tags": [
+          "common-h2: Culture fit or candidate fit questions",
+          "related: Strategic interview questions to ask candidates",
+          "asset-angle",
+          "gap: Simple scoring lines that turn each question into an evaluation tool",
+          "gap: Less abstract guidance on what a good response actually sounds like"
+        ],
+        "card_ids": [
+          660,
+          723,
+          724,
+          653,
+          654,
+          787,
+          790,
+          9036,
+          9037,
+          9038,
+          9039,
+          9040,
+          9041,
+          9042,
+          9043,
+          9044,
+          9045
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 322
+    },
+    {
+      "headline": "The 1-5 Anchored Scale Behind Every Scoring Line",
+      "job": "Render the single scale that every scoring line above is written against, so the reader stops carrying twelve separate judgments. Establish first why a one-line label collapses the tiers and why a number with no written description underneath it is meaningless, then hand over the five anchored levels as an object the reader can copy onto a scorecard. Resolve the validity figures rather than stacking them: report the current corrected estimate and say plainly why the older, higher number is quoted so widely.",
+      "is_item": false,
+      "boxes": [
+        2,
+        3,
+        15,
+        16,
+        7,
+        8,
+        18
+      ],
+      "table": {
+        "columns": [
+          "Score",
+          "Label",
+          "What the answer sounds like"
+        ]
+      },
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "The current consensus figures for structured versus unstructured employment-interview predictive validity, and why they moved. Specifically: the Schmidt & Hunter 1998 meta-analytic estimates for structured and unstructured interviews, the Sackett, Zhang, Berry & Lievens re-analysis (2022 Journal of Applied Psychology and its 2023 follow-up) that revised structured-interview validity to roughly .42, and the exact methodological reason given for the drop, which is over-correction for range restriction. Include publication years, journal names, and the figure each paper actually reports, so the article can state one number and explain the older one instead of quoting both as if they agree.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          2,
+          3,
+          15,
+          16
+        ],
+        "box_labels": [
+          "How much more predictive are structured interviews?",
+          "Why do vague criteria fail interviewers?",
+          "Why vague, unanchored scales fail",
+          "What makes an anchored (BARS) scale work"
+        ],
+        "from_h2": "Why Do Structured Interviews Beat Unstructured Ones?",
+        "tags": [
+          "gap: More interviewer-ready structure for comparing candidates consistently",
+          "asset-angle",
+          "gap: Less abstract guidance on what a good response actually sounds like",
+          "gap: Simple scoring lines that turn each question into an evaluation tool"
+        ],
+        "card_ids": [
+          3,
+          4,
+          5,
+          33,
+          183,
+          184,
+          185,
+          190,
+          191,
+          550,
+          1000,
+          1,
+          2,
+          10,
+          12,
+          13,
+          20,
+          22,
+          23,
+          24,
+          26,
+          29,
+          92,
+          93,
+          335,
+          19,
+          292,
+          300,
+          341,
+          761,
+          828,
+          11,
+          76,
+          286,
+          287,
+          304,
+          343,
+          537,
+          556,
+          564,
+          617,
+          747,
+          776,
+          778,
+          779,
+          781,
+          782,
+          785,
+          837,
+          838,
+          1008,
+          9046,
+          9047,
+          9048,
+          9049,
+          9050,
+          9051,
+          9052,
+          9053,
+          9054,
+          9055
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "What a 5 sounds like, and what a 1 sounds like",
+          "boxes": [
+            7,
+            8,
+            18
+          ],
+          "box_labels": [
+            "What makes an answer strong",
+            "Common failure patterns behind weak answers",
+            "Worked examples: what each score level looks like"
+          ],
+          "from_h2": "What separates a strong interview answer from a weak one",
+          "tags": [
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "card_ids": [
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            1064,
+            15,
+            16,
+            17,
+            18,
+            78,
+            166,
+            167,
+            168,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            246,
+            352,
+            509,
+            510,
+            538,
+            539,
+            540,
+            541,
+            542,
+            557,
+            558,
+            559,
+            560,
+            561,
+            784,
+            840,
+            862,
+            863,
+            864,
+            865,
+            868,
+            869
+          ]
+        }
+      ],
+      "word_target": 585
+    },
+    {
+      "headline": "Make the Interview Scorecard Survive the Room",
+      "job": "Protect the scale from the way interviewers actually behave. Settle three habits that decide whether a rubric survives contact with a real interview: score each answer before the next question is asked, score alone before anyone compares notes, and write the quote that produced the number. Also resolve the risk this article creates for itself, which is that the sample answers above become anchors the reader matches candidates against instead of scoring them.",
+      "is_item": false,
+      "boxes": [
+        23,
+        10,
+        25,
+        20,
+        9,
+        24,
+        4,
+        28,
+        29,
+        30,
+        26
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          23,
+          10,
+          25,
+          20
+        ],
+        "box_labels": [
+          "Score immediately, while the conversation is fresh",
+          "How structured interviews score answers in real time",
+          "Ground every score in written evidence, not gut feel",
+          "Why scorecards need an evidence field, not just a number"
+        ],
+        "from_h2": "How do you score interview answers fairly and consistently?",
+        "tags": [
+          "asset-angle",
+          "gap: Simple scoring lines that turn each question into an evaluation tool",
+          "gap: More interviewer-ready structure for comparing candidates consistently",
+          "gap: Less abstract guidance on what a good response actually sounds like"
+        ],
+        "card_ids": [
+          28,
+          84,
+          89,
+          245,
+          567,
+          568,
+          569,
+          570,
+          834,
+          835,
+          836,
+          303,
+          305,
+          306,
+          307,
+          308,
+          309,
+          88,
+          170,
+          197,
+          291,
+          298,
+          299,
+          301,
+          345,
+          364,
+          365,
+          507,
+          503,
+          504,
+          616,
+          169,
+          842,
+          843,
+          844,
+          1004,
+          1011,
+          1012
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "Don't let the sample answers do your thinking for you",
+          "boxes": [
+            9,
+            24
+          ],
+          "box_labels": [
+            "Avoiding the anchoring trap: samples are calibration aids, not templates",
+            "Score independently before comparing notes, to defeat anchoring bias"
+          ],
+          "from_h2": "What separates a strong interview answer from a weak one",
+          "tags": [
+            "asset-angle",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "card_ids": [
+            293,
+            294,
+            295,
+            302,
+            87,
+            90,
+            171,
+            198,
+            262,
+            264,
+            265,
+            267,
+            268,
+            270,
+            271,
+            273,
+            274,
+            278,
+            280,
+            282,
+            285,
+            288
+          ]
+        },
+        {
+          "h3": "When an answer is too thin to score, probe before you mark it down",
+          "boxes": [
+            4,
+            28,
+            29,
+            30
+          ],
+          "box_labels": [
+            "Why Structured Frameworks Make Scoring More Consistent",
+            "Why Probing Follow-Up Questions Matter More Than the Original Question",
+            "What Probing Questions Are and How to Phrase Them",
+            "Common Follow-Up Mistakes That Undermine the Interview"
+          ],
+          "from_h2": "STAR, PAR, and XYZ: The Frameworks Behind Structured Interview Answers",
+          "tags": [
+            "asset-angle",
+            "gap: Simple scoring lines that turn each question into an evaluation tool",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "gap: More interviewer-ready structure for comparing candidates consistently",
+            "related: Best questions to ask as an interviewer",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question"
+          ],
+          "card_ids": [
+            56,
+            57,
+            310,
+            311,
+            312,
+            313,
+            314,
+            53,
+            54,
+            55,
+            611,
+            831,
+            832,
+            833
+          ]
+        },
+        {
+          "h3": "Agree what a 4 means before the first interview, not at the debrief",
+          "boxes": [
+            26
+          ],
+          "box_labels": [
+            "Calibrate the panel and build the rubric before interviews start"
+          ],
+          "from_h2": "How do you score interview answers fairly and consistently?",
+          "tags": [
+            "asset-angle",
+            "gap: More interviewer-ready structure for comparing candidates consistently"
+          ],
+          "card_ids": [
+            196,
+            200,
+            290,
+            296,
+            321,
+            322,
+            323,
+            327,
+            347,
+            349,
+            626,
+            829,
+            8004
+          ]
+        }
+      ],
+      "word_target": 819
+    },
+    {
+      "headline": "Write Your Own Questions From the Job Description",
+      "job": "Answer the reader whose role needs more than twelve general questions. Show how to derive role-specific questions from the job itself rather than a generic list, using an intake conversation to get concrete about day-one success and non-negotiables, and set the one rule that keeps job-knowledge questions scorable: judge the reasoning the candidate exposes, not whether the final answer matched yours.",
+      "is_item": false,
+      "boxes": [
+        11,
+        13,
+        14,
+        31,
+        32
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          11,
+          13,
+          14
+        ],
+        "box_labels": [
+          "What makes an interview question \"strategic\"?",
+          "Tailoring questions by role, seniority, and function",
+          "Using an intake call to nail down role specifics"
+        ],
+        "from_h2": "How do you build strategic interview questions that predict job performance?",
+        "tags": [
+          "common-h2: Behavioral interview questions",
+          "common-h2: Situational interview questions",
+          "related: Strategic interview questions to ask candidates",
+          "common-h2: Skills, capabilities, or qualifications questions",
+          "common-h2: Culture fit or candidate fit questions",
+          "gap: Less abstract guidance on what a good response actually sounds like"
+        ],
+        "card_ids": [
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          37,
+          42,
+          95,
+          252,
+          254,
+          255,
+          256,
+          257,
+          258,
+          408,
+          409,
+          410,
+          431,
+          432,
+          433,
+          413,
+          414,
+          415,
+          499
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "For job-knowledge questions, score the process, not the answer",
+          "boxes": [
+            31,
+            32
+          ],
+          "box_labels": [
+            "Design questions that mirror real work, not trivia",
+            "Evaluate answers by process, not just the final answer"
+          ],
+          "from_h2": "How should job-knowledge and technical questions be designed and evaluated?",
+          "tags": [
+            "common-h2: Skills, capabilities, or qualifications questions",
+            "asset-angle",
+            "gap: Strong-answer and weak-answer benchmarks attached to each question",
+            "gap: Less abstract guidance on what a good response actually sounds like",
+            "gap: Simple scoring lines that turn each question into an evaluation tool"
+          ],
+          "card_ids": [
+            427,
+            445,
+            449,
+            467,
+            428,
+            518,
+            519,
+            520,
+            521,
+            522,
+            524
+          ]
+        }
+      ],
+      "word_target": 439
+    }
+  ],
+  "entities": [
+    "\"Why are you leaving your current job?\"",
+    "\"Why do you want to work here?\"",
+    "\"Imagine your top priority changes mid-quarter. The new priority conflicts with commitments you've already made. Walk me through how you handle it.\"",
+    "\"Tell me about yourself\" / \"Walk me through your background\"",
+    "\"Tell me about a project or task that was ambiguous or underspecified. How did you decide what to work on?\"",
+    "\"Tell me about a time a change at work required you to adjust your approach. How did you adapt?\"",
+    "\"Describe a situation where you disagreed with a manager or stakeholder. How did you handle it?\"",
+    "\"Tell me about a piece of feedback you received. What did you do with it?\"",
+    "\"Tell me about a situation where you had to manage conflicting expectations from multiple stakeholders. What did you do?\"",
+    "\"Tell me about a decision you made that turned out to be wrong. What did you do next?\"",
+    "\"Your team is asked to ship something you don't think is ready. How do you respond?\"",
+    "\"What would make you quit a job within the first three months?\""
+  ],
+  "yardsticks": [],
+  "artifact": null,
+  "unused_boxes": [
+    {
+      "n": 1,
+      "h3": "Why Do Structured Interviews Beat Unstructured Ones?",
+      "from_h2": "Why Do Structured Interviews Beat Unstructured Ones?",
+      "cards": 2,
+      "serves": [
+        "gap: More interviewer-ready structure for comparing candidates consistently"
+      ],
+      "why_benched": "Summary restatement of the structured-vs-unstructured case already carried, with better evidence, by boxes 2 and 3."
+    },
+    {
+      "n": 5,
+      "h3": "STAR, PAR, and XYZ: How the Formulas Are Structured",
+      "from_h2": "STAR, PAR, and XYZ: The Frameworks Behind Structured Interview Answers",
+      "cards": 7,
+      "serves": [
+        "gap: Less abstract guidance on what a good response actually sounds like",
+        "asset-angle"
+      ],
+      "why_benched": "STAR, PAR and XYZ formula definitions with time allocations are answer-construction coaching for the candidate, not judging material for the interviewer."
+    },
+    {
+      "n": 6,
+      "h3": "How Candidates Should Prepare and Deliver STAR Answers",
+      "from_h2": "STAR, PAR, and XYZ: The Frameworks Behind Structured Interview Answers",
+      "cards": 4,
+      "serves": [
+        "common-h2: Behavioral interview questions",
+        "gap: Simple scoring lines that turn each question into an evaluation tool"
+      ],
+      "why_benched": "Explicitly candidate-side: how to prepare and deliver STAR stories. Wrong side of the table for this reader."
+    },
+    {
+      "n": 12,
+      "h3": "How to build a competency-based question bank",
+      "from_h2": "How do you build strategic interview questions that predict job performance?",
+      "cards": 12,
+      "serves": [
+        "asset-angle",
+        "gap: Strong-answer and weak-answer benchmarks attached to each question",
+        "gap: Simple scoring lines that turn each question into an evaluation tool",
+        "gap: More interviewer-ready structure for comparing candidates consistently"
+      ],
+      "why_benched": "Full competency question-bank construction methodology is a different article; this piece hands the reader twelve written questions rather than teaching them to build a bank."
+    },
+    {
+      "n": 17,
+      "h3": "Choosing a scale format: 5-point, forced-choice, pass/fail, BARS",
+      "from_h2": "How do you build an interview scoring rubric that actually works?",
+      "cards": 13,
+      "serves": [
+        "gap: Simple scoring lines that turn each question into an evaluation tool"
+      ],
+      "why_benched": "A menu of scale formats (forced-choice, pass/fail, 7-point) would undercut the single 1-5 scale the article commits to and leave the reader choosing instead of scoring."
+    },
+    {
+      "n": 19,
+      "h3": "How many competencies to score, and why not more",
+      "from_h2": "How do you build an interview scoring rubric that actually works?",
+      "cards": 7,
+      "serves": [
+        "gap: More interviewer-ready structure for comparing candidates consistently"
+      ],
+      "why_benched": "How many competencies to put on a scorecard is rubric-programme design, one level above judging a single answer, which is what this article does."
+    },
+    {
+      "n": 21,
+      "h3": "Scoring process: independent, immediate, and rolled up into bands",
+      "from_h2": "How do you build an interview scoring rubric that actually works?",
+      "cards": 12,
+      "serves": [
+        "gap: More interviewer-ready structure for comparing candidates consistently"
+      ],
+      "why_benched": "Averaging scores into overall bands across a whole interview loop is panel-process at a scale this reader does not run; its usable half duplicates boxes 24 and 25."
+    },
+    {
+      "n": 22,
+      "h3": "How Is a Candidate's Answer Scored?",
+      "from_h2": "How Is a Candidate's Answer Scored?",
+      "cards": 1,
+      "serves": [
+        "asset-angle",
+        "gap: Simple scoring lines that turn each question into an evaluation tool",
+        "gap: Less abstract guidance on what a good response actually sounds like",
+        "gap: More interviewer-ready structure for comparing candidates consistently"
+      ],
+      "why_benched": "One card giving the same 1-5 rubric already rendered in full by box 18."
+    },
+    {
+      "n": 33,
+      "h3": "How would you debug a system while it's still running?",
+      "from_h2": "Sample IT Interview Questions and Strong Answers",
+      "cards": 2,
+      "serves": [
+        "asset-angle",
+        "gap: Less abstract guidance on what a good response actually sounds like",
+        "common-h2: Skills, capabilities, or qualifications questions"
+      ],
+      "why_benched": "IT-specific question with its own answer pair; it would be a thirteenth list item the word budget cannot carry."
+    },
+    {
+      "n": 34,
+      "h3": "How do you handle gaps in your own expertise?",
+      "from_h2": "Sample IT Interview Questions and Strong Answers",
+      "cards": 2,
+      "serves": [
+        "asset-angle",
+        "common-h2: Skills, capabilities, or qualifications questions"
+      ],
+      "why_benched": "Same IT-specific question set, outside the twelve items."
+    },
+    {
+      "n": 35,
+      "h3": "How would you approach enhancing an existing IT system?",
+      "from_h2": "Sample IT Interview Questions and Strong Answers",
+      "cards": 2,
+      "serves": [
+        "asset-angle",
+        "gap: Less abstract guidance on what a good response actually sounds like",
+        "common-h2: Behavioral interview questions"
+      ],
+      "why_benched": "Same IT-specific question set, outside the twelve items."
+    },
+    {
+      "n": 36,
+      "h3": "The imbalanced dataset question",
+      "from_h2": "Which technical questions best separate strong ML candidates from weak ones?",
+      "cards": 3,
+      "serves": [
+        "asset-angle",
+        "gap: Strong-answer and weak-answer benchmarks attached to each question",
+        "gap: Less abstract guidance on what a good response actually sounds like",
+        "gap: Simple scoring lines that turn each question into an evaluation tool"
+      ],
+      "why_benched": "Machine-learning technical question with its own answer pair; another unplaceable extra item, and too narrow for a general hiring manager."
+    },
+    {
+      "n": 37,
+      "h3": "The bagging vs. boosting question",
+      "from_h2": "Which technical questions best separate strong ML candidates from weak ones?",
+      "cards": 3,
+      "serves": [
+        "asset-angle",
+        "gap: Strong-answer and weak-answer benchmarks attached to each question",
+        "gap: Less abstract guidance on what a good response actually sounds like"
+      ],
+      "why_benched": "Same ML question set, outside the twelve items."
+    },
+    {
+      "n": 38,
+      "h3": "The evaluation metrics question",
+      "from_h2": "Which technical questions best separate strong ML candidates from weak ones?",
+      "cards": 3,
+      "serves": [
+        "asset-angle",
+        "gap: Strong-answer and weak-answer benchmarks attached to each question",
+        "gap: Simple scoring lines that turn each question into an evaluation tool",
+        "gap: Less abstract guidance on what a good response actually sounds like"
+      ],
+      "why_benched": "Same ML question set, outside the twelve items."
+    },
+    {
+      "n": 39,
+      "h3": "The decision tree pros and cons question",
+      "from_h2": "Which technical questions best separate strong ML candidates from weak ones?",
+      "cards": 3,
+      "serves": [
+        "asset-angle",
+        "gap: Strong-answer and weak-answer benchmarks attached to each question",
+        "gap: Simple scoring lines that turn each question into an evaluation tool"
+      ],
+      "why_benched": "Same ML question set, outside the twelve items."
+    },
+    {
+      "n": 49,
+      "h3": "Situational vs. behavioral questions for handling pricing objections",
+      "from_h2": "Situational vs. behavioral questions for handling pricing objections",
+      "cards": 3,
+      "serves": [
+        "common-h2: Situational interview questions",
+        "common-h2: Behavioral interview questions"
+      ],
+      "why_benched": "Sales pricing-objection question; a role-specific question outside the twelve, with no room to give it a proper answer pair."
+    },
+    {
+      "n": 64,
+      "h3": "How do you structure a strong initiative answer?",
+      "from_h2": "How do you structure a strong initiative answer?",
+      "cards": 2,
+      "serves": [
+        "gap: Less abstract guidance on what a good response actually sounds like",
+        "gap: Strong-answer and weak-answer benchmarks attached to each question",
+        "asset-angle"
+      ],
+      "why_benched": "Initiative-answer structure belongs to an initiative question that is not on this list."
+    },
+    {
+      "n": 65,
+      "h3": "What does the persistence rubric look like at each score level?",
+      "from_h2": "What does the persistence rubric look like at each score level?",
+      "cards": 6,
+      "serves": [
+        "asset-angle",
+        "gap: Strong-answer and weak-answer benchmarks attached to each question",
+        "gap: Simple scoring lines that turn each question into an evaluation tool",
+        "gap: Less abstract guidance on what a good response actually sounds like"
+      ],
+      "why_benched": "Persistence rubric levels duplicate the 1-5 anchors rendered from box 18, for a competency none of the twelve questions tests."
+    },
+    {
+      "n": 67,
+      "h3": "What the bar looks like at each seniority level",
+      "from_h2": "How does the bar for leadership questions change by seniority?",
+      "cards": 3,
+      "serves": [
+        "asset-angle",
+        "gap: Less abstract guidance on what a good response actually sounds like",
+        "gap: More interviewer-ready structure for comparing candidates consistently"
+      ],
+      "why_benched": "Leadership-question seniority bars: leadership questions are not among the twelve, and seniority scaling is already carried by boxes 40, 42 and 63."
+    },
+    {
+      "n": 68,
+      "h3": "Score against a structured rubric, not a general impression",
+      "from_h2": "How does the bar for leadership questions change by seniority?",
+      "cards": 1,
+      "serves": [
+        "asset-angle",
+        "gap: Simple scoring lines that turn each question into an evaluation tool",
+        "gap: More interviewer-ready structure for comparing candidates consistently"
+      ],
+      "why_benched": "One card repeating the rubric-over-impression rule already settled in the scoring sections."
+    },
+    {
+      "n": 69,
+      "h3": "Why culture fit needs structure, not vibes",
+      "from_h2": "How do you build a structured culture-fit assessment?",
+      "cards": 4,
+      "serves": [
+        "gap: More interviewer-ready structure for comparing candidates consistently",
+        "gap: Less abstract guidance on what a good response actually sounds like"
+      ],
+      "why_benched": "Culture-fit assessment programme design sits above the answer-level judgment this article makes."
+    },
+    {
+      "n": 71,
+      "h3": "Sample behavioral question answers and what to look for",
+      "from_h2": "How do you build a structured culture-fit assessment?",
+      "cards": 4,
+      "serves": [
+        "asset-angle",
+        "gap: Less abstract guidance on what a good response actually sounds like",
+        "common-h2: Behavioral interview questions"
+      ],
+      "why_benched": "Sample answers for talent-acquisition-manager behavioral questions that are not on this list."
+    },
+    {
+      "n": 72,
+      "h3": "Sample personality question answers and what to look for",
+      "from_h2": "How do you build a structured culture-fit assessment?",
+      "cards": 3,
+      "serves": [
+        "asset-angle",
+        "gap: Less abstract guidance on what a good response actually sounds like",
+        "common-h2: Culture fit or candidate fit questions"
+      ],
+      "why_benched": "Sample answers for personality questions that are not on this list."
+    },
+    {
+      "n": 73,
+      "h3": "Values-alignment questions",
+      "from_h2": "What interview questions reveal culture and values fit?",
+      "cards": 1,
+      "serves": [
+        "common-h2: Culture fit or candidate fit questions"
+      ],
+      "why_benched": "Values-alignment questions are a different question from the twelve; placing them under a heading for another question would break the one-question-per-item shape."
+    },
+    {
+      "n": 74,
+      "h3": "The \"great workday\" question",
+      "from_h2": "What interview questions reveal culture and values fit?",
+      "cards": 1,
+      "serves": [
+        "common-h2: Culture fit or candidate fit questions",
+        "related: Casual interview questions to ask candidates"
+      ],
+      "why_benched": "The 'great workday' question is another separate question with no section that can honestly host it."
+    },
+    {
+      "n": 75,
+      "h3": "What questions should you ask CS candidates?",
+      "from_h2": "How do you interview for a customer success role?",
+      "cards": 6,
+      "serves": [
+        "common-h2: Skills, capabilities, or qualifications questions",
+        "paa: What questions can I ask an interviewee?",
+        "gap: Less abstract guidance on what a good response actually sounds like"
+      ],
+      "why_benched": "Customer-success-specific question set, outside the twelve items."
+    },
+    {
+      "n": 76,
+      "h3": "How do you build a CS-specific evaluation process?",
+      "from_h2": "How do you interview for a customer success role?",
+      "cards": 3,
+      "serves": [
+        "gap: More interviewer-ready structure for comparing candidates consistently",
+        "gap: Less abstract guidance on what a good response actually sounds like"
+      ],
+      "why_benched": "Customer-success scorecard design is role-programme material, outside this article's scope."
+    },
+    {
+      "n": 80,
+      "h3": "Sample answers for other general interview questions",
+      "from_h2": "What separates strong and weak answers to common interview questions",
+      "cards": 4,
+      "serves": [
+        "gap: Less abstract guidance on what a good response actually sounds like",
+        "common-h2: First-round or general interview questions"
+      ],
+      "why_benched": "Grab-bag sample answers for talent-strategy questions that are not among the twelve."
+    },
+    {
+      "n": 81,
+      "h3": "Key takeaways: making the question bank work as one system",
+      "from_h2": "Key takeaways: making the question bank work as one system",
+      "cards": 1,
+      "serves": [
+        "asset-angle",
+        "gap: Strong-answer and weak-answer benchmarks attached to each question",
+        "gap: Simple scoring lines that turn each question into an evaluation tool",
+        "gap: More interviewer-ready structure for comparing candidates consistently"
+      ],
+      "why_benched": "A takeaways recap; the TL;DR is added by a later step, so this would duplicate it."
+    }
+  ],
+  "shared_box_warnings": [],
+  "brand_cards": [
+    {
+      "card_id": 8004,
+      "kind": "research",
+      "section": 14,
+      "headline": "Scoring in the room: immediate, independent, written down",
+      "goes_to": "Agree what a 4 means before the first interview, not at the debrief",
+      "why": "The sub-heading argues a panel's scores drift apart without shared anchors; this gives the prevalence of that exact problem (selection quality swinging by hiring manager) to sit alongside the Brex example and the 3.8-vs-2.9 divergence.",
+      "gloss": "Selection quality swings by hiring manager for 45.8%"
+    }
+  ],
+  "word_budget": {
+    "band": {
+      "min": 5500,
+      "max": 7500
+    },
+    "band_middle": 6500,
+    "aim_low_pct": 10,
+    "base": 5850,
+    "overwrite_pct": 0,
+    "sum_of_targets": 5852,
+    "headings": {
+      "sections": 15,
+      "sub_headings": 5,
+      "total": 20,
+      "words_per_heading": 292,
+      "under_floor": []
+    }
+  },
+  "h1": "12 Interview Questions to Ask Candidates, Scored Answers",
+  "keywords": {
+    "primary": "good questions to ask an interviewee",
+    "primary_changed": false,
+    "why_primary": "",
+    "variations": [
+      "questions to ask interviewee",
+      "questions to ask an interviewee in an interview",
+      "question to ask the interviewee",
+      "interview question to ask the interviewee",
+      "what questions to ask interviewee",
+      "interview questions to ask candidates",
+      "interview questions to ask a candidate",
+      "interview questions to ask an applicant",
+      "interview questions to ask as an employer",
+      "strategic interview questions to ask candidates",
+      "best interview questions to ask candidates",
+      "best interview questions to ask applicants",
+      "good interview questions to ask a candidate",
+      "good interview questions to ask candidates",
+      "questions to ask during an interview as the employer",
+      "questions to ask during interview as an employer",
+      "questions to ask in an interview as the employer",
+      "what to ask an interviewee",
+      "best interview questions to ask an interviewee",
+      "good interview questions to ask an interviewee",
+      "questions to ask a candidate during an interview",
+      "questions to ask when interviewing candidates",
+      "questions to ask when interviewing someone"
+    ],
+    "section_keywords": [
+      "interview scorecard"
+    ],
+    "unplaced": [
+      {
+        "keyword": "strategic interview questions",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "unique interview questions to ask candidates",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "basic interview questions to ask candidates",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "casual interview questions to ask candidates",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "opening question for interview",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "example of structured interview questions",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "example of strategic thinking",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "questions for recruiting interview",
+        "why": "no section's heading took it"
+      },
+      {
+        "keyword": "questions about strategy",
+        "why": "no section's heading took it"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3059 @@
+{
+  "slug": "video-interview-software-that-actually",
+  "format_archetype": "comparison-rankings",
+  "spine": "Every published ranking of video interview software scores workflow, AI analytics and ATS integrations, and none of them rates whether the platform can prove the person on camera is the candidate who applied. This article scores all nine platforms on three integrity axes taken from the vendors' own documentation — ID document check and face match, proctoring and browser lockdown, and detection of deepfaked or proxy candidates in recorded video — then separates the fraud exposure of one-way and live interviewing, and prices the consent, bias-audit and retention duties the vendor's certification does not discharge. The reader is the executive or compliance buyer who signs the contract and answers for the selection process afterwards, and should finish able to shortlist on evidence and defend the shortlist.",
+  "coverage_note": "Three of the four expected topics get their own sections: the selection criteria/methodology block, the at-a-glance comparison table before the write-ups, and the per-vendor sections. The fourth, \"what video interviewing software is / introduction to the category\", is folded into the criteria section as a two-line category definition rather than given a heading of its own: the intent is commercial, nine option sections are mandatory, and a 2,835-word budget cannot fund a definitional section a buyer at decision stage will skip. I also dropped the SERP's own capability buckets (AI & analytics, ATS integration, candidate experience as feature lists), because scoring communication-analysis features would pull directly against the article's argument that scoring AI is not an identity control. Section count runs to fourteen: nine are the mandatory option sections, three are demanded by the format (criteria block, at-a-glance table, closing best-for verdicts), and two carry the angle's named differentiators (the one-way/live split, and the compliance load).",
+  "item_fields": [],
+  "dropped_items": [],
+  "sections": [
+    {
+      "headline": "How We Scored Nine Platforms on Interview Integrity",
+      "covers": "Selection criteria or methodology (\"how we chose\", \"what makes the best\")",
+      "job": "Fix the scoring standard the rest of the article is judged against. Define what counts as an employer video interview platform, state the fraud premise in numbers with its honest counterweight, separate AI assistance from impersonation so a vendor claim can be read correctly, and name what the published rankings score instead of integrity.",
+      "is_item": false,
+      "boxes": [
+        170,
+        167,
+        4,
+        8,
+        16,
+        168
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          170,
+          167,
+          4,
+          8,
+          16,
+          168
+        ],
+        "box_labels": [
+          "What counts as an employer video interview platform",
+          "What existing video interview rankings score on, and what they leave out",
+          "How Common Candidate Fraud Is Right Now",
+          "Where the Threat Numbers Are Overstated",
+          "What Counts as Assistance and What Counts as Impersonation",
+          "How the integrity rating is scored"
+        ],
+        "from_h2": "The video interview platforms, scored for interview integrity",
+        "tags": [
+          "common-h2: What video interviewing software is / introduction to the category",
+          "common-h2: Selection criteria or methodology (\"how we chose\", \"what makes the best\")",
+          "asset-angle",
+          "gap: Scored vendor comparison on a single named axis: both publish criteria and a comparison table, but the reviews are prose descriptions, so no vendor carries a rated depth score you can sort on",
+          "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+          "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+          "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated"
+        ],
+        "card_ids": [
+          452,
+          249,
+          250,
+          251,
+          2352,
+          2354,
+          2356,
+          2436,
+          1,
+          2,
+          3,
+          7,
+          8,
+          15,
+          142,
+          631,
+          632,
+          882,
+          883,
+          884,
+          885,
+          886,
+          947,
+          948,
+          949,
+          950,
+          1167,
+          1168,
+          1170,
+          1253,
+          1254,
+          1255,
+          1298,
+          1299,
+          1300,
+          1383,
+          1384,
+          1386,
+          1388,
+          1389,
+          1390,
+          1392,
+          1393,
+          1411,
+          1653,
+          1654,
+          1655,
+          1656,
+          1750,
+          1751,
+          1752,
+          1829,
+          1900,
+          1903,
+          1908,
+          1951,
+          2001,
+          2007,
+          2008,
+          2009,
+          2010,
+          2012,
+          2014,
+          2161,
+          644,
+          645,
+          647,
+          648,
+          2194,
+          783,
+          1166,
+          1169,
+          1261,
+          1262,
+          1296,
+          1297,
+          1374,
+          1375,
+          1376,
+          1377,
+          1378,
+          1379,
+          1380,
+          1381,
+          1391,
+          1394,
+          1395,
+          1402,
+          1403,
+          1412,
+          1414,
+          1746,
+          1747,
+          1748,
+          1749,
+          1817,
+          1898,
+          1901,
+          1902,
+          1906,
+          1907,
+          1915,
+          2011,
+          2013,
+          717,
+          732,
+          793,
+          795,
+          859,
+          8017
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 340
+    },
+    {
+      "headline": "The Best Video Interview Software, Scored on Integrity",
+      "covers": "At-a-glance comparison table of all vendors before the write-ups",
+      "job": "Render the rating itself. Score all nine platforms on ID check and face match, proctoring and lockdown, deepfake and proxy detection in recorded video, format coverage and entry price, from each vendor's own documentation. Then tell the reader to read a row as a coverage map rather than a pass mark, and state plainly where documentation does not exist at all.",
+      "is_item": false,
+      "boxes": [
+        169,
+        103,
+        187,
+        188,
+        195
+      ],
+      "table": {
+        "columns": [
+          "Platform",
+          "ID document check + face match",
+          "Proctoring & browser lockdown",
+          "Deepfake / proxy detection in recorded video",
+          "One-way / live",
+          "Entry price"
+        ]
+      },
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Published or reported entry pricing and contract terms for Talview, Jobma, Spark Hire, Interviewer.AI, Willo and Testlify video interviewing plans as of 2026: per-seat versus per-credit versus per-interview models, annual minimums and volume thresholds, and specifically whether proctoring or identity verification is bundled in the base tier or sold as a paid add-on. Vendor pricing pages, G2 pricing data and Vendr deal data.",
+          "goes_to": "opening"
+        },
+        {
+          "topic": "Whether any of the nine platforms (HireVue, Testlify, VidCruiter, Willo, Spark Hire, Hireflix, Interviewer.AI, Jobma, Talview) documents on its own security, trust-centre or product pages an ISO/IEC 30107-3 presentation-attack-detection result, an iBeta liveness certification level, a named third-party identity-verification subprocessor (Persona, Veriff, Onfido, Jumio), or any virtual-camera or injection detection. Name the exact page and date for each hit, and record explicit absence where there is none.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          169,
+          103,
+          187,
+          188,
+          195
+        ],
+        "box_labels": [
+          "Reading the scores as a coverage map, not a pass/fail",
+          "The signal stack: why no single detection feature is a gate",
+          "What the label 'identity verification' hides, and the ceiling on a pre-interview check",
+          "The documentation gaps across the whole vendor set",
+          "Vendor pricing at a glance, and why so little of it is published"
+        ],
+        "from_h2": "The interview-integrity rating: candidate fraud and how each vendor is scored on it",
+        "tags": [
+          "asset-angle",
+          "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+          "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+          "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+          "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated",
+          "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+          "paa: How much does HireVue cost?",
+          "common-h2: At-a-glance comparison table of all vendors before the write-ups"
+        ],
+        "card_ids": [
+          796,
+          797,
+          798,
+          66,
+          67,
+          114,
+          132,
+          133,
+          134,
+          147,
+          679,
+          681,
+          682,
+          1074,
+          1075,
+          1077,
+          1079,
+          1081,
+          1085,
+          1579,
+          1580,
+          1618,
+          1638,
+          2059,
+          1005,
+          1006,
+          1007,
+          1008,
+          1121,
+          1122,
+          1123,
+          1124,
+          930,
+          931,
+          932,
+          933,
+          934,
+          935,
+          936,
+          281,
+          283,
+          299,
+          312,
+          313,
+          1126,
+          1139,
+          1140,
+          1141,
+          2289,
+          2290,
+          2291,
+          2293,
+          2553,
+          2554,
+          2556,
+          2642,
+          2645,
+          2675,
+          2678,
+          9001,
+          9002,
+          9003,
+          9004,
+          9005,
+          9006,
+          9007,
+          9008,
+          9009,
+          9010,
+          9011,
+          9012,
+          9013,
+          9014,
+          9015,
+          9016,
+          9017,
+          9018,
+          9019,
+          9020,
+          9021,
+          9022
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 425
+    },
+    {
+      "headline": "VidCruiter: Top-Rated, but Fraud Detection Is One-Way Only",
+      "covers": "Per-vendor sections, one heading per tool, then a second deeper review pass on the same tools",
+      "job": "Justify the top rating and set the bar the eight entries after it are measured against. Show what VidCruiter's own documentation evidences: live and pre-recorded structured interviews, proctoring sold as a priced module, and AI candidate fraud detection scoped to the pre-recorded format only. Name the limit that scoping creates for a buyer whose final rounds are live.",
+      "is_item": false,
+      "boxes": [
+        174,
+        180
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          174,
+          180
+        ],
+        "box_labels": [
+          "VidCruiter",
+          "VidCruiter"
+        ],
+        "from_h2": "The video interview platforms, scored for interview integrity",
+        "tags": [
+          "asset-angle",
+          "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+          "common-h2: Per-vendor sections, one heading per tool, then a second deeper review pass on the same tools",
+          "common-h2: Shared vendor set across both winners: VidCruiter, Hireflix, Spark Hire (Truffle, HireVue, Willo, Jobma, myInterview appear on one only)",
+          "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+          "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+          "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated"
+        ],
+        "card_ids": [
+          445,
+          2392,
+          2393,
+          2394,
+          2395,
+          286,
+          287,
+          292,
+          293,
+          297,
+          1026,
+          1027,
+          1028,
+          1029,
+          1030,
+          2396
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 142
+    },
+    {
+      "headline": "Testlify: Proctoring Built for Tests, Not Live Calls",
+      "covers": null,
+      "job": "Score the publisher on exactly the same axes as its rivals. Itemise the documented identity and environment controls, the three strictness modes and the stated deletion term, then state plainly what is absent: no liveness or presentation-attack certification on record, and an integrity stack built around proctored assessments rather than a live interview identity gate.",
+      "is_item": false,
+      "boxes": [
+        177,
+        183
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          177,
+          183
+        ],
+        "box_labels": [
+          "Testlify",
+          "Testlify"
+        ],
+        "from_h2": "The video interview platforms, scored for interview integrity",
+        "tags": [
+          "asset-angle",
+          "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+          "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+          "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+          "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+        ],
+        "card_ids": [
+          2595,
+          2611,
+          2628,
+          2630,
+          2639,
+          2644,
+          2677,
+          2704,
+          2728,
+          2729,
+          2733,
+          2734,
+          2828
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 142
+    },
+    {
+      "headline": "Talview: Deep Identity Checks, Thin Public Record",
+      "covers": null,
+      "job": "Rate Talview on the identity depth its documentation does evidence, which is the most specific in the set after Testlify: ID document checks with liveness detection, continuous facial comparison and gaze tracking. Then be explicit that its format coverage and commercial terms are not on the public record, so the row carries a documented gap rather than a low score.",
+      "is_item": false,
+      "boxes": [
+        123
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Talview's documented coverage of one-way (asynchronous) versus live two-way video interviewing: which formats the product supports natively, whether its proctoring and identity verification run in both modes or only in the assessment flow, and its published pricing and contract terms (per-candidate, per-interview or annual licence, minimums, add-on modules). Source from Talview's own product pages, support documentation and trust centre, plus G2 and Capterra pricing entries, as of 2026.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          123
+        ],
+        "box_labels": [
+          "Device, browser and accessibility requirements"
+        ],
+        "from_h2": "What these checks cost the honest candidate",
+        "tags": [
+          "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+          "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+        ],
+        "card_ids": [
+          161,
+          162,
+          163,
+          165,
+          166,
+          384,
+          385,
+          386,
+          1239,
+          1240,
+          1241,
+          1245,
+          2037,
+          2040,
+          9023,
+          9024,
+          9025,
+          9026,
+          9027,
+          9028,
+          9029,
+          9030,
+          9031,
+          9032
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 113
+    },
+    {
+      "headline": "HireVue Scores the Answer but Never Checks the Person",
+      "covers": null,
+      "job": "Resolve the article's sharpest mismatch: the platform with the largest compliance surface and the highest entry price documents no ID capture, no face match and no liveness certification. Show what it does log, and that the integrity signals sit in the coding assessment rather than the video answer, then price what that combination costs a buyer.",
+      "is_item": false,
+      "boxes": [
+        171,
+        178,
+        179
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          171,
+          178,
+          179
+        ],
+        "box_labels": [
+          "HireVue",
+          "HireVue",
+          "HireVue CodeVue: the integrity signals sit in the technical assessment, not the video answer"
+        ],
+        "from_h2": "The video interview platforms, scored for interview integrity",
+        "tags": [
+          "common-h2: Per-vendor sections, one heading per tool, then a second deeper review pass on the same tools",
+          "paa: How much does HireVue cost?",
+          "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+          "asset-angle",
+          "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+          "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+        ],
+        "card_ids": [
+          442,
+          2370,
+          2373,
+          2374,
+          828,
+          829,
+          830,
+          831,
+          832,
+          851,
+          976,
+          977,
+          978,
+          979,
+          980,
+          981,
+          988,
+          1022,
+          1031,
+          1032,
+          2337,
+          982,
+          983,
+          984,
+          985,
+          986,
+          987,
+          989,
+          990
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 142
+    },
+    {
+      "headline": "Willo Runs One-Way and Won't Score the Video",
+      "covers": null,
+      "job": "Place Willo as the async-only option with a genuine compliance posture and an explicit refusal to score video responses with AI. Rate RealTalk for what it actually flags, which is scripted or AI-generated answers rather than identity, and record that its identity verification claim carries no published detail behind it.",
+      "is_item": false,
+      "boxes": [
+        173,
+        181
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "What Willo's identity verification feature actually does, from Willo's own help centre, product and security documentation: whether it captures a government ID document, performs a face match against the recorded answer, uses a named third-party provider, returns a score or a pass/fail, and at which point in the candidate flow it runs. Also Willo's stated retention period for recordings and transcripts.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          173,
+          181
+        ],
+        "box_labels": [
+          "Willo",
+          "Willo"
+        ],
+        "from_h2": "The video interview platforms, scored for interview integrity",
+        "tags": [
+          "asset-angle",
+          "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+          "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+          "common-h2: Per-vendor sections, one heading per tool, then a second deeper review pass on the same tools",
+          "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+          "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated"
+        ],
+        "card_ids": [
+          2389,
+          2390,
+          2631,
+          2632,
+          253,
+          254,
+          257,
+          2339,
+          9033,
+          9034,
+          9035,
+          9036,
+          9037,
+          9038,
+          9039,
+          9040,
+          9041,
+          9042,
+          9043,
+          9044
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 113
+    },
+    {
+      "headline": "Interviewer.AI's Face Match Is Sold, Not Included",
+      "covers": null,
+      "job": "Show that Interviewer.AI is the only platform in the set publishing a face-match score band, then price the catch: the check is flag-gated per interview, sold per assessment on a 24-hour quote rather than self-serve, and the platform's automated candidate ranking puts the buyer squarely inside automated employment decision rules.",
+      "is_item": false,
+      "boxes": [
+        175,
+        40
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Interviewer.AI's documented proctoring and monitoring scope during a recorded interview: whether it captures tab switching, browser focus loss, screen recording, multiple faces or second devices, and what the candidate is required to install or permit. Also the candidate-side friction of its ID verification step: device and browser requirements, time to complete, retry policy on a failed match. Source from Interviewer.AI's help documentation and candidate guides.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          175,
+          40
+        ],
+        "box_labels": [
+          "Interviewer.AI",
+          "How the vendors implement it"
+        ],
+        "from_h2": "The video interview platforms, scored for interview integrity",
+        "tags": [
+          "common-h2: Per-vendor sections, one heading per tool, then a second deeper review pass on the same tools",
+          "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+          "asset-angle",
+          "gap: Scored vendor comparison on a single named axis: both publish criteria and a comparison table, but the reviews are prose descriptions, so no vendor carries a rated depth score you can sort on",
+          "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+        ],
+        "card_ids": [
+          401,
+          85,
+          86,
+          87,
+          89,
+          742,
+          743,
+          744,
+          745,
+          746,
+          2605,
+          2620,
+          2692,
+          2711,
+          2713,
+          9045,
+          9046,
+          9047,
+          9048,
+          9049,
+          9050,
+          9051
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 113
+    },
+    {
+      "headline": "Jobma's ID Checks Appear Nowhere in Its Candidate Flow",
+      "covers": null,
+      "job": "Credit the one integrity artifact Jobma documents, a per-candidate proctoring report carrying mobile-usage detection and screen-minimise timestamps, and rule that nothing in its published material speaks to identity verification, so the buyer cannot score it on the axis that decides this comparison.",
+      "is_item": false,
+      "boxes": [
+        73
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Whether Jobma documents any identity verification: government ID capture, face match against the recorded answer, liveness detection, or a named verification subprocessor, and where in the candidate flow it runs. Also Jobma's candidate-side requirements for a proctored one-way interview (browser, device, permissions, mobile support) and its published retention period for recordings. Source from Jobma's own help centre, security page and pricing page as of 2026.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          73
+        ],
+        "box_labels": [
+          "The proctoring report: what it scores and where you find it"
+        ],
+        "from_h2": "Proctoring and monitoring: what these tools actually watch during an interview",
+        "tags": [
+          "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+          "asset-angle"
+        ],
+        "card_ids": [
+          2405,
+          2406,
+          2407,
+          2408,
+          2409,
+          2410,
+          2411,
+          2412,
+          2413,
+          2414,
+          779,
+          780,
+          782,
+          1238,
+          1843,
+          2619,
+          2622,
+          2582,
+          1601,
+          2652,
+          9052,
+          9053,
+          9054,
+          9055,
+          9056,
+          9057,
+          9058,
+          9059,
+          9060
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 113
+    },
+    {
+      "headline": "Spark Hire: Scoring That Never Checks Who Recorded It",
+      "covers": null,
+      "job": "Separate scoring from identity, which is the distinction the whole rating exists to make visible. Spark Hire's AI stack is validated triage across six competencies calibrated on tens of thousands of responses; none of it establishes who recorded the answer. Rate the format coverage, certification and integrations that are real, and place the platform where the evidence puts it.",
+      "is_item": false,
+      "boxes": [
+        172,
+        36
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Spark Hire's documented proctoring and monitoring scope in one-way video interviews: whether it records or flags tab switching, browser focus loss, multiple faces, retakes taken, second devices or screen activity, and whether any of it is exposed to the reviewer. Source from Spark Hire's own support documentation, security page and SOC 2 trust materials as of 2026.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          172,
+          36
+        ],
+        "box_labels": [
+          "Spark Hire",
+          "AI interview scoring is a performance signal, not an identity control"
+        ],
+        "from_h2": "The video interview platforms, scored for interview integrity",
+        "tags": [
+          "common-h2: Per-vendor sections, one heading per tool, then a second deeper review pass on the same tools",
+          "common-h2: Shared vendor set across both winners: VidCruiter, Hireflix, Spark Hire (Truffle, HireVue, Willo, Jobma, myInterview appear on one only)",
+          "gap: Scored vendor comparison on a single named axis: both publish criteria and a comparison table, but the reviews are prose descriptions, so no vendor carries a rated depth score you can sort on",
+          "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+          "related: Ai video interview platform",
+          "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+        ],
+        "card_ids": [
+          2384,
+          2385,
+          2387,
+          786,
+          787,
+          789,
+          790,
+          791,
+          794,
+          965,
+          966,
+          967,
+          968,
+          969,
+          970,
+          972,
+          973,
+          975,
+          1156,
+          1157,
+          1160,
+          9061,
+          9062,
+          9063,
+          9064,
+          9065,
+          9066,
+          9067,
+          9068,
+          9069
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 113
+    },
+    {
+      "headline": "Hireflix: An Invite Link Is Not an Identity Check",
+      "covers": null,
+      "job": "Close the ranking honestly at its floor. Hireflix's no-login invite link binds a submitted response to the link rather than to a person, it runs one-way only, and it holds the lower SOC 2 tier. Show why that combination cannot be scored upward, and name the hiring situation where it is still the right buy.",
+      "is_item": false,
+      "boxes": [
+        182
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "Hireflix's documented proctoring and monitoring scope: whether the platform records or reports retakes, tab switching, browser focus loss, device or IP data, multiple faces, or any anti-cheating signal at all in a one-way interview, and whether an employer can require a login or identity step. Also its stated retention period for recordings. Source from Hireflix's own help centre, security page and privacy policy as of 2026.",
+          "goes_to": "opening"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          182
+        ],
+        "box_labels": [
+          "Hireflix"
+        ],
+        "from_h2": "Vendor-by-vendor interview integrity: what each platform's own documentation actually shows",
+        "tags": [
+          "asset-angle",
+          "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+          "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated",
+          "common-h2: Per-vendor sections, one heading per tool, then a second deeper review pass on the same tools"
+        ],
+        "card_ids": [
+          272,
+          273,
+          277,
+          280,
+          284,
+          285,
+          9070,
+          9071,
+          9072,
+          9073,
+          9074,
+          9075,
+          9076
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 113
+    },
+    {
+      "headline": "One-Way vs Live: Where Deepfakes and Proxies Get In",
+      "covers": null,
+      "job": "Make the format column in the grid actionable by separating the two modes' exposure. Establish that the recorded interview removes the interviewer, the unscripted follow-up and most of the log at exactly the stage carrying the most volume, while the live interview replaces instrumentation with a human who can be fooled. Settle which control belongs at which stage.",
+      "is_item": false,
+      "boxes": [
+        27,
+        25,
+        28,
+        31
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          27,
+          25,
+          28,
+          31
+        ],
+        "box_labels": [
+          "What a live video interview is, and how the two formats differ",
+          "Why the recorded stage is the cheapest place to send a stand-in",
+          "Live presence as the detection mechanism, and its limits",
+          "Choosing the mix: which format at which hiring stage"
+        ],
+        "from_h2": "One-way and live video interviews: two different fraud surfaces",
+        "tags": [
+          "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated",
+          "common-h2: What video interviewing software is / introduction to the category",
+          "asset-angle",
+          "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+          "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+          "common-h2: Shared vendor set across both winners: VidCruiter, Hireflix, Spark Hire (Truffle, HireVue, Willo, Jobma, myInterview appear on one only)",
+          "related: Most common virtual interview platforms"
+        ],
+        "card_ids": [
+          1018,
+          1020,
+          1265,
+          1266,
+          1267,
+          1278,
+          941,
+          942,
+          329,
+          330,
+          390,
+          1362,
+          492,
+          491,
+          1835,
+          1836,
+          1837,
+          1021,
+          1023,
+          1024,
+          1025,
+          1282,
+          1283,
+          1604,
+          1605,
+          1677,
+          1678,
+          1834,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          1353,
+          1354,
+          1355,
+          1356,
+          2398,
+          2399,
+          2400,
+          2402,
+          2403,
+          2653
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 284
+    },
+    {
+      "headline": "Consent, Bias Audits and Retention Stay With You",
+      "covers": null,
+      "job": "Price the duties a vendor's certification does not transfer. Use the $3.75m HireVue BIPA settlement and the live Workday and Eightfold cases to show where liability actually lands when a third-party tool filters candidates, name the bias-audit regimes the buyer answers to, and set out how long each platform keeps the recording by default.",
+      "is_item": false,
+      "boxes": [
+        102,
+        136,
+        154,
+        157,
+        161
+      ],
+      "table": null,
+      "list": null,
+      "needs_research": [
+        {
+          "topic": "NYC Local Law 144 applied to video interviewing platforms: which of the nine (HireVue, Testlify, VidCruiter, Willo, Spark Hire, Hireflix, Interviewer.AI, Jobma, Talview) publish an annual independent bias audit or adverse-impact summary, the audit dates, and whether the tool meets the automated employment decision tool definition. Plus the EU AI Act's high-risk classification for AI used in recruitment and candidate evaluation: the specific obligations on the deploying employer and the compliance dates that bind in 2026.",
+          "goes_to": "opening"
+        },
+        {
+          "topic": "The published default retention period for interview recordings, transcripts, proctoring evidence and any identity data, for each of Testlify, VidCruiter, Willo, Spark Hire, Hireflix, Interviewer.AI, Jobma and Talview: whether the window is vendor-set or employer-configurable, whether ID document images are stored or only a verdict returned, and how a candidate deletion request is routed. Source from each vendor's own privacy policy, DPA and trust-centre documentation as of 2026.",
+          "goes_to": "How long each platform keeps the recording"
+        }
+      ],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          102,
+          136,
+          154,
+          157,
+          161
+        ],
+        "box_labels": [
+          "Compliance certifications are not process compliance",
+          "The HireVue settlement: facial geometry and voiceprints, $3.75m",
+          "The active cases: Workday, Eightfold and employer liability for a vendor's filter",
+          "Bias-audit duties: NYC Local Law 144, the EU AI Act and the audit trail",
+          "What each vendor's retention default actually is"
+        ],
+        "from_h2": "What the certifications, accuracy numbers and risk scores actually prove",
+        "tags": [
+          "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+          "asset-angle",
+          "common-h2: Shared vendor set across both winners: VidCruiter, Hireflix, Spark Hire (Truffle, HireVue, Willo, Jobma, myInterview appear on one only)",
+          "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+        ],
+        "card_ids": [
+          1188,
+          1189,
+          1190,
+          1191,
+          1192,
+          718,
+          839,
+          842,
+          843,
+          897,
+          1185,
+          710,
+          711,
+          712,
+          713,
+          714,
+          715,
+          899,
+          900,
+          901,
+          903,
+          1180,
+          1181,
+          2592,
+          2596,
+          206,
+          209,
+          589,
+          590,
+          591,
+          593,
+          1205,
+          1206,
+          1207,
+          1208,
+          1209,
+          1210,
+          1211,
+          1212,
+          1213,
+          1214,
+          1215,
+          1216,
+          9077,
+          9078,
+          9079,
+          9080,
+          9081,
+          9082,
+          9083,
+          9084,
+          9085,
+          9086,
+          9087,
+          9088,
+          9089,
+          9090
+        ],
+        "is_lead": true
+      },
+      "h3s": [
+        {
+          "h3": "How long each platform keeps the recording",
+          "boxes": [],
+          "box_labels": [],
+          "from_h2": "",
+          "tags": [],
+          "card_ids": [
+            9091,
+            9092,
+            9093,
+            9094,
+            9095,
+            9096,
+            9097,
+            9098,
+            9099
+          ]
+        }
+      ],
+      "word_target": 425
+    },
+    {
+      "headline": "Which Platform to Pick, and When Camera-On Is Enough",
+      "covers": null,
+      "job": "Convert the grid into constraint verdicts rather than a summary. Match verification depth to the access a role carries, then name which platform to pick under which condition, including the cases where a camera-on policy and interviewer training beat any paid integrity module. This is the article's last word, so it ends on a decision.",
+      "is_item": false,
+      "boxes": [
+        107,
+        198
+      ],
+      "table": null,
+      "list": {
+        "kind": "bulleted",
+        "of": "one-line constraint verdicts, each naming the platform to pick and the buying situation that makes it the right pick"
+      },
+      "needs_research": [],
+      "lead": {
+        "h3": "",
+        "boxes": [
+          107,
+          198
+        ],
+        "box_labels": [
+          "Which roles justify stronger identity checks",
+          "How much verification to buy for which roles: the three prevention tiers"
+        ],
+        "from_h2": "Deploying these checks: matching verification strictness to role risk",
+        "tags": [
+          "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+          "asset-angle",
+          "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+        ],
+        "card_ids": [
+          1316,
+          1399,
+          1732,
+          1729,
+          1397,
+          1398,
+          1400,
+          2351,
+          2360,
+          2361,
+          2362,
+          2363,
+          2364,
+          2365,
+          2366,
+          2367,
+          2368,
+          2369,
+          2473,
+          2670
+        ],
+        "is_lead": true
+      },
+      "h3s": [],
+      "word_target": 255
+    }
+  ],
+  "entities": [
+    "HireVue",
+    "Testlify",
+    "VidCruiter",
+    "Willo",
+    "Spark Hire",
+    "Hireflix",
+    "Interviewer.AI",
+    "Jobma",
+    "Talview"
+  ],
+  "yardsticks": [
+    "identity verification depth",
+    "proctoring and monitoring scope",
+    "one-way and live coverage",
+    "compliance and data handling",
+    "candidate friction",
+    "pricing and contract terms"
+  ],
+  "artifact": null,
+  "unused_boxes": [
+    {
+      "n": 1,
+      "h3": "Remote, contractor, and third-party hiring lost the in-person checkpoints",
+      "from_h2": "Why remote video interviews became the fraud target",
+      "cards": 7,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Remote and contractor exposure background; the intro carries the why-now and the article's job is scoring platforms."
+    },
+    {
+      "n": 2,
+      "h3": "The $20 deepfake: identity fraud got cheap, not new",
+      "from_h2": "Why remote video interviews became the fraud target",
+      "cards": 3,
+      "serves": [
+        "asset-angle",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "The cheap-deepfake framing is intro urgency material, not a scoring input."
+    },
+    {
+      "n": 3,
+      "h3": "A screening stack built for rare fraud, with evidence split across teams",
+      "from_h2": "Why remote video interviews became the fraud target",
+      "cards": 7,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Screening-stack fragmentation is org-design context, outside a vendor comparison."
+    },
+    {
+      "n": 5,
+      "h3": "The Proxy Interview Market and Why It Pays",
+      "from_h2": "The Scale and Cost of Deepfake and Proxy Candidate Fraud",
+      "cards": 19,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Proxy-market economics; the article scores tools, not the underground market that supplies the fraud."
+    },
+    {
+      "n": 6,
+      "h3": "How Confident Employers Are That They Would Catch It",
+      "from_h2": "The Scale and Cost of Deepfake and Proxy Candidate Fraud",
+      "cards": 6,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Employer-confidence survey data; duplicates the urgency #4 already carries with better numbers."
+    },
+    {
+      "n": 7,
+      "h3": "What a Fraudulent Hire Costs After Onboarding",
+      "from_h2": "The Scale and Cost of Deepfake and Proxy Candidate Fraud",
+      "cards": 31,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Post-hire cost of a fraudulent hire; an ROI argument the budget cannot fund alongside nine option sections."
+    },
+    {
+      "n": 9,
+      "h3": "The scale of the stolen-identity IT worker schemes",
+      "from_h2": "Where video interviews already failed: the fake remote worker cases",
+      "cards": 6,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "North Korean IT worker scheme scale; case-study material with no room in a scored comparison."
+    },
+    {
+      "n": 10,
+      "h3": "KnowBe4: every check passed and the hire was still fake",
+      "from_h2": "Where video interviews already failed: the fake remote worker cases",
+      "cards": 5,
+      "serves": [
+        "asset-angle",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "KnowBe4 case; same, and its one usable line belongs to the intro."
+    },
+    {
+      "n": 11,
+      "h3": "The controls that sit outside the software",
+      "from_h2": "Where video interviews already failed: the fake remote worker cases",
+      "cards": 8,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Controls that sit outside the software, so by definition nothing here can be scored against a vendor."
+    },
+    {
+      "n": 12,
+      "h3": "What counts as proxy fraud and what counts as a deepfake",
+      "from_h2": "The two candidate frauds this software has to stop: proxy stand-ins and deepfakes",
+      "cards": 19,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Fraud taxonomy; #16 carries the single distinction a buyer needs to read a vendor claim."
+    },
+    {
+      "n": 13,
+      "h3": "How the attacks are actually run in an interview",
+      "from_h2": "The two candidate frauds this software has to stop: proxy stand-ins and deepfakes",
+      "cards": 22,
+      "serves": [
+        "asset-angle",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Attack tradecraft; how the fraud is run is for the security team, not the purchase decision."
+    },
+    {
+      "n": 14,
+      "h3": "How common it is and why it got cheap",
+      "from_h2": "The two candidate frauds this software has to stop: proxy stand-ins and deepfakes",
+      "cards": 6,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Prevalence and economics; duplicated by #4."
+    },
+    {
+      "n": 15,
+      "h3": "What stops each fraud type",
+      "from_h2": "The two candidate frauds this software has to stop: proxy stand-ins and deepfakes",
+      "cards": 6,
+      "serves": [
+        "asset-angle",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "What stops each fraud type; the article answers this through the vendor scores instead of in the abstract."
+    },
+    {
+      "n": 17,
+      "h3": "How Common Each Problem Actually Is",
+      "from_h2": "AI Assistance Versus Impersonation: Two Different Fraud Problems",
+      "cards": 5,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Relative frequency of assistance versus impersonation; #4 carries the numbers the criteria section needs."
+    },
+    {
+      "n": 18,
+      "h3": "How Live AI Assistance Reaches the Candidate Mid-Interview",
+      "from_h2": "AI Assistance Versus Impersonation: Two Different Fraud Problems",
+      "cards": 11,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Mechanics of live AI copilots; attacker tradecraft, not a buying input."
+    },
+    {
+      "n": 19,
+      "h3": "Catching Assisted Answers: Probing Questions and Detection Features",
+      "from_h2": "AI Assistance Versus Impersonation: Two Different Fraud Problems",
+      "cards": 6,
+      "serves": [
+        "asset-angle",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Probing questions and detection features; interviewer technique for the person running the call."
+    },
+    {
+      "n": 20,
+      "h3": "Notice and Policy: AI Use Is Only Cheating If You Said So",
+      "from_h2": "AI Assistance Versus Impersonation: Two Different Fraud Problems",
+      "cards": 10,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "AI-use policy design; process advice for the team, not the executive signing the contract."
+    },
+    {
+      "n": 21,
+      "h3": "What a one-way (async) video interview is and where it sits in the funnel",
+      "from_h2": "One-way and live video interviews: two different fraud surfaces",
+      "cards": 10,
+      "serves": [
+        "common-h2: What video interviewing software is / introduction to the category",
+        "related: One-way video interview platforms free",
+        "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated"
+      ],
+      "why_benched": "Definition of a one-way interview; the format section defines both modes through their exposure instead."
+    },
+    {
+      "n": 22,
+      "h3": "What the recorded artifact buys you: standard questions, replay, blind scoring",
+      "from_h2": "One-way and live video interviews: two different fraud surfaces",
+      "cards": 5,
+      "serves": [
+        "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated",
+        "asset-angle"
+      ],
+      "why_benched": "What the recorded artifact buys you; the article's question is what it exposes, not its upside."
+    },
+    {
+      "n": 23,
+      "h3": "The candidate's controls: think time, answer length, retakes, pause and resume",
+      "from_h2": "One-way and live video interviews: two different fraud surfaces",
+      "cards": 12,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "asset-angle",
+        "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated"
+      ],
+      "why_benched": "Candidate controls such as think time and retakes; real attack surface, but the format section has room only for the structural point."
+    },
+    {
+      "n": 24,
+      "h3": "Where the standard funnel assumption breaks",
+      "from_h2": "One-way and live video interviews: two different fraud surfaces",
+      "cards": 5,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated",
+        "asset-angle"
+      ],
+      "why_benched": "Where the funnel assumption breaks; #25 makes the same point inside the format section."
+    },
+    {
+      "n": 26,
+      "h3": "No unscripted follow-up: what the missing interviewer removes",
+      "from_h2": "One-way and live video interviews: two different fraud surfaces",
+      "cards": 7,
+      "serves": [
+        "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "asset-angle"
+      ],
+      "why_benched": "No unscripted follow-up; the same structural point is carried by #25 in fewer words."
+    },
+    {
+      "n": 29,
+      "h3": "What each format actually logs",
+      "from_h2": "One-way and live video interviews: two different fraud surfaces",
+      "cards": 10,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated",
+        "gap: Scored vendor comparison on a single named axis: both publish criteria and a comparison table, but the reviews are prose descriptions, so no vendor carries a rated depth score you can sort on",
+        "asset-angle"
+      ],
+      "why_benched": "What each format logs; the logging detail belongs to the one vendor that documents it, and sits in the HireVue entry."
+    },
+    {
+      "n": 30,
+      "h3": "After-the-fact detection in async, and its false-positive cost",
+      "from_h2": "One-way and live video interviews: two different fraud surfaces",
+      "cards": 6,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "asset-angle"
+      ],
+      "why_benched": "After-the-fact detection and its false-positive cost; the false-positive economics thread is a separate article."
+    },
+    {
+      "n": 32,
+      "h3": "The endpoint of the format logic: in-person assessment",
+      "from_h2": "One-way and live video interviews: two different fraud surfaces",
+      "cards": 3,
+      "serves": [
+        "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "asset-angle"
+      ],
+      "why_benched": "In-person assessment as the endpoint; outside the software category being bought."
+    },
+    {
+      "n": 33,
+      "h3": "Background and reference checks verify history, not the person on camera",
+      "from_h2": "What identity verification actually covers, and the checks people mistake for it",
+      "cards": 18,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "asset-angle"
+      ],
+      "why_benched": "Background checks verify history not identity; a misconception worth naming but not fundable at this length."
+    },
+    {
+      "n": 34,
+      "h3": "The three documented forms of identity check, and where proctoring begins",
+      "from_h2": "What identity verification actually covers, and the checks people mistake for it",
+      "cards": 9,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "asset-angle"
+      ],
+      "why_benched": "The three forms of identity check; the grid's identity column carries this distinction in a line."
+    },
+    {
+      "n": 35,
+      "h3": "Why manual document review and a human watching the video fail against AI-driven fraud",
+      "from_h2": "What identity verification actually covers, and the checks people mistake for it",
+      "cards": 14,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated"
+      ],
+      "why_benched": "Why manual document review fails; supports a claim the article does not need to argue at length."
+    },
+    {
+      "n": 37,
+      "h3": "Collecting and keeping the minimum identity data",
+      "from_h2": "What identity verification actually covers, and the checks people mistake for it",
+      "cards": 3,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Minimum identity data collection; handled by the compliance section's retention beat."
+    },
+    {
+      "n": 38,
+      "h3": "What an identity check actually answers",
+      "from_h2": "ID verification and face match: proving the person on camera is the candidate",
+      "cards": 14,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "What an identity check answers; definitional depth beyond what the grid requires."
+    },
+    {
+      "n": 39,
+      "h3": "The document check and the face match, step by step",
+      "from_h2": "ID verification and face match: proving the person on camera is the candidate",
+      "cards": 14,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "asset-angle"
+      ],
+      "why_benched": "Document check and face match step by step; mechanism detail for the implementer, not the signer."
+    },
+    {
+      "n": 41,
+      "h3": "Where in the hiring funnel the check runs",
+      "from_h2": "ID verification and face match: proving the person on camera is the candidate",
+      "cards": 10,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Where in the funnel the check runs; deployment sequencing, past the buying decision."
+    },
+    {
+      "n": 42,
+      "h3": "What to require from a verification stack",
+      "from_h2": "ID verification and face match: proving the person on camera is the candidate",
+      "cards": 9,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "What to require from a verification stack; the grid is the requirement in this article."
+    },
+    {
+      "n": 43,
+      "h3": "What a face match check actually does",
+      "from_h2": "Face match and ID check accuracy: what the error rates actually are",
+      "cards": 4,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "What a face match does; technical definition beyond scope."
+    },
+    {
+      "n": 44,
+      "h3": "False positive versus false negative, and which one costs the candidate",
+      "from_h2": "Face match and ID check accuracy: what the error rates actually are",
+      "cards": 5,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "False positive versus false negative; accuracy economics the budget cannot carry."
+    },
+    {
+      "n": 45,
+      "h3": "The gap between algorithms is wider than the gap between demographic groups",
+      "from_h2": "Face match and ID check accuracy: what the error rates actually are",
+      "cards": 13,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "NIST algorithm spread; biometric accuracy research, a different article."
+    },
+    {
+      "n": 46,
+      "h3": "Which candidates the errors actually fall on",
+      "from_h2": "Face match and ID check accuracy: what the error rates actually are",
+      "cards": 18,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Which candidates the errors fall on; same NIST thread."
+    },
+    {
+      "n": 47,
+      "h3": "The stored face template is a regulated artifact, and employer duties are unsettled",
+      "from_h2": "Face match and ID check accuracy: what the error rates actually are",
+      "cards": 4,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Stored templates as a regulated artifact; the compliance section covers biometric exposure through the settlement instead."
+    },
+    {
+      "n": 48,
+      "h3": "What to ask a vendor about demographic testing",
+      "from_h2": "Face match and ID check accuracy: what the error rates actually are",
+      "cards": 1,
+      "serves": [
+        "asset-angle"
+      ],
+      "why_benched": "Single card on demographic testing; absorbed by the compliance section's liability point."
+    },
+    {
+      "n": 49,
+      "h3": "What liveness detection measures, and active versus passive checks",
+      "from_h2": "Liveness, presentation attack detection, and injection detection: what each check actually catches",
+      "cards": 8,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Active versus passive liveness; standards depth beyond a nine-vendor comparison."
+    },
+    {
+      "n": 50,
+      "h3": "Presentation attacks versus injection attacks: two attack classes, two defenses",
+      "from_h2": "Liveness, presentation attack detection, and injection detection: what each check actually catches",
+      "cards": 14,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Presentation versus injection attacks; same standards depth."
+    },
+    {
+      "n": 51,
+      "h3": "Challenge-response prompts and what a passed challenge proves",
+      "from_h2": "Liveness, presentation attack detection, and injection detection: what each check actually catches",
+      "cards": 6,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Challenge-response prompts; same."
+    },
+    {
+      "n": 52,
+      "h3": "Where liveness falls short: Level 3 spoofs, hyper-real masks, and real-time face swaps",
+      "from_h2": "Liveness, presentation attack detection, and injection detection: what each check actually catches",
+      "cards": 8,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Where liveness falls short; same."
+    },
+    {
+      "n": 53,
+      "h3": "The standard and the metrics behind a vendor's detection claim",
+      "from_h2": "Liveness, presentation attack detection, and injection detection: what each check actually catches",
+      "cards": 2,
+      "serves": [
+        "asset-angle",
+        "gap: Scored vendor comparison on a single named axis: both publish criteria and a comparison table, but the reviews are prose descriptions, so no vendor carries a rated depth score you can sort on"
+      ],
+      "why_benched": "ISO metrics behind a detection claim; same."
+    },
+    {
+      "n": 54,
+      "h3": "Presentation attacks and PAD: the four attack types and where detection sits",
+      "from_h2": "Presentation and injection attacks on video interviews, and the detection layers that catch them",
+      "cards": 8,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "asset-angle"
+      ],
+      "why_benched": "The four presentation attack types; same."
+    },
+    {
+      "n": 55,
+      "h3": "Injection attacks and the virtual camera",
+      "from_h2": "Presentation and injection attacks on video interviews, and the detection layers that catch them",
+      "cards": 13,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "asset-angle"
+      ],
+      "why_benched": "Injection attacks and the virtual camera; same."
+    },
+    {
+      "n": 56,
+      "h3": "The other injection vectors: emulators, rooted devices, SDK hooking, API interception, USB substitution",
+      "from_h2": "Presentation and injection attacks on video interviews, and the detection layers that catch them",
+      "cards": 6,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Other injection vectors; same."
+    },
+    {
+      "n": 57,
+      "h3": "How fast injection attacks are growing, and why",
+      "from_h2": "Presentation and injection attacks on video interviews, and the detection layers that catch them",
+      "cards": 10,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Injection attack growth rates; threat data with no vendor in this set to attach it to."
+    },
+    {
+      "n": 58,
+      "h3": "Where the verification pipeline is actually vulnerable: the trusted-camera assumption",
+      "from_h2": "Presentation and injection attacks on video interviews, and the detection layers that catch them",
+      "cards": 8,
+      "serves": [
+        "asset-angle",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "The trusted-camera assumption; deep architecture, out of budget."
+    },
+    {
+      "n": 59,
+      "h3": "Virtual camera detection: what it does and how it works",
+      "from_h2": "Presentation and injection attacks on video interviews, and the detection layers that catch them",
+      "cards": 16,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Virtual camera detection; same."
+    },
+    {
+      "n": 60,
+      "h3": "The layered defence stack a vendor should be able to describe",
+      "from_h2": "Presentation and injection attacks on video interviews, and the detection layers that catch them",
+      "cards": 15,
+      "serves": [
+        "asset-angle",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "The layered defence stack; #103 makes the layering point at the grid."
+    },
+    {
+      "n": 61,
+      "h3": "Liveness, presentation-attack detection and deepfake detection are three different checks",
+      "from_h2": "How Deepfake Detection Works in an Interview, and Where It Breaks",
+      "cards": 6,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "asset-angle"
+      ],
+      "why_benched": "Liveness versus PAD versus deepfake detection; definitional depth the grid does not need."
+    },
+    {
+      "n": 62,
+      "h3": "The signals a scan actually reads: audio, video, cross-signal, behaviour and device",
+      "from_h2": "How Deepfake Detection Works in an Interview, and Where It Breaks",
+      "cards": 10,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "The signals a deepfake scan reads; implementation detail."
+    },
+    {
+      "n": 63,
+      "h3": "Real-time face swaps leave artifacts the per-frame compute budget cannot hide",
+      "from_h2": "How Deepfake Detection Works in an Interview, and Where It Breaks",
+      "cards": 5,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated"
+      ],
+      "why_benched": "Real-time face swap artifacts; same."
+    },
+    {
+      "n": 64,
+      "h3": "Where detection degrades: compression, unseen generation methods, and human review",
+      "from_h2": "How Deepfake Detection Works in an Interview, and Where It Breaks",
+      "cards": 5,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "asset-angle"
+      ],
+      "why_benched": "Where detection degrades; same."
+    },
+    {
+      "n": 65,
+      "h3": "Risk scoring and rules decide which interviews reach a human",
+      "from_h2": "How Deepfake Detection Works in an Interview, and Where It Breaks",
+      "cards": 2,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Risk scoring and rules; same."
+    },
+    {
+      "n": 66,
+      "h3": "Humans cannot reliably spot a deepfake on a live call",
+      "from_h2": "Why in-call deepfake detection tricks fail",
+      "cards": 5,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Humans cannot spot deepfakes; a supporting claim the grid does not need to argue."
+    },
+    {
+      "n": 67,
+      "h3": "The three-finger hand-wave test and its short shelf life",
+      "from_h2": "Why in-call deepfake detection tricks fail",
+      "cards": 12,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "The three-finger hand-wave test; interviewer tradecraft, and explicitly not a product capability."
+    },
+    {
+      "n": 68,
+      "h3": "What replaces the visual trick: layered controls and interviewer-led probing",
+      "from_h2": "Why in-call deepfake detection tricks fail",
+      "cards": 3,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Layered controls replacing visual tricks; carried by #103."
+    },
+    {
+      "n": 69,
+      "h3": "Proctoring is a stack of layers, not a single detector",
+      "from_h2": "Proctoring and monitoring: what these tools actually watch during an interview",
+      "cards": 17,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Proctoring as a stack of layers; the grid's proctoring column carries the definition in a line."
+    },
+    {
+      "n": 70,
+      "h3": "The behavioural signals: gaze, typing rhythm, answer velocity, code playback",
+      "from_h2": "Proctoring and monitoring: what these tools actually watch during an interview",
+      "cards": 16,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Behavioural signals inside proctoring; implementation depth."
+    },
+    {
+      "n": 71,
+      "h3": "Continuous identity checks that run through the whole session",
+      "from_h2": "Proctoring and monitoring: what these tools actually watch during an interview",
+      "cards": 9,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "asset-angle"
+      ],
+      "why_benched": "Continuous identity checks; the Talview and Testlify entries carry the vendor-specific version."
+    },
+    {
+      "n": 72,
+      "h3": "Environment and device controls: lockdown, tab tracking, copy-paste, second devices",
+      "from_h2": "Proctoring and monitoring: what these tools actually watch during an interview",
+      "cards": 21,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "asset-angle"
+      ],
+      "why_benched": "Environment and device controls; a feature inventory the grid summarises."
+    },
+    {
+      "n": 74,
+      "h3": "Reading the flags: evidence for a human, not a cheating verdict",
+      "from_h2": "Proctoring and monitoring: what these tools actually watch during an interview",
+      "cards": 7,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Reading flags as evidence; the human-review duty is carried in the compliance section."
+    },
+    {
+      "n": 75,
+      "h3": "Capture scope and what the candidate notice has to say",
+      "from_h2": "Proctoring and monitoring: what these tools actually watch during an interview",
+      "cards": 7,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Capture scope and candidate notice; notice is carried by the compliance section."
+    },
+    {
+      "n": 76,
+      "h3": "The blind spots of a webcam stream",
+      "from_h2": "What proctoring and a webcam feed cannot catch",
+      "cards": 11,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "asset-angle"
+      ],
+      "why_benched": "Webcam blind spots; a limits argument that needs its own article."
+    },
+    {
+      "n": 77,
+      "h3": "Desktop overlays that screen share never transmits",
+      "from_h2": "What proctoring and a webcam feed cannot catch",
+      "cards": 7,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Async (one-way) vs live interviewing is never split out as its own section, so the security profile of each mode is never separated"
+      ],
+      "why_benched": "Desktop overlays screen share never transmits; attacker tradecraft."
+    },
+    {
+      "n": 78,
+      "h3": "Off-frame help: phones, notes, virtual machines, remote access",
+      "from_h2": "What proctoring and a webcam feed cannot catch",
+      "cards": 5,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Off-frame help; same."
+    },
+    {
+      "n": 79,
+      "h3": "Proctoring produces evidence, not a verdict",
+      "from_h2": "What proctoring and a webcam feed cannot catch",
+      "cards": 9,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Proctoring produces evidence not a verdict; same point as #74 and out of budget."
+    },
+    {
+      "n": 80,
+      "h3": "Structured interviewing as the baseline defense",
+      "from_h2": "Live interviewing: the probes and tells that catch a proxy without a detection tool",
+      "cards": 17,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Structured interviewing; interview design, not platform selection."
+    },
+    {
+      "n": 81,
+      "h3": "The unexpected follow-up question",
+      "from_h2": "Live interviewing: the probes and tells that catch a proxy without a detection tool",
+      "cards": 20,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "The unexpected follow-up question; interviewer technique."
+    },
+    {
+      "n": 82,
+      "h3": "Cross-checking the resume inside the interview",
+      "from_h2": "Live interviewing: the probes and tells that catch a proxy without a detection tool",
+      "cards": 12,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Cross-checking the resume live; same."
+    },
+    {
+      "n": 83,
+      "h3": "Live exercises instead of take-home work",
+      "from_h2": "Live interviewing: the probes and tells that catch a proxy without a detection tool",
+      "cards": 18,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Live exercises instead of take-home work; same."
+    },
+    {
+      "n": 84,
+      "h3": "Behavioral tells of a scripted, coached, or AI-assisted answer",
+      "from_h2": "Live interviewing: the probes and tells that catch a proxy without a detection tool",
+      "cards": 36,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Behavioural tells; written for the interviewer, not the buyer."
+    },
+    {
+      "n": 85,
+      "h3": "Live challenges that break a deepfake in real time",
+      "from_h2": "Live interviewing: the probes and tells that catch a proxy without a detection tool",
+      "cards": 14,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "asset-angle"
+      ],
+      "why_benched": "Live challenges that break a deepfake; same."
+    },
+    {
+      "n": 86,
+      "h3": "Identity and logistics checks around the call",
+      "from_h2": "Live interviewing: the probes and tells that catch a proxy without a detection tool",
+      "cards": 12,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Identity and logistics checks around the call; process advice outside the software."
+    },
+    {
+      "n": 87,
+      "h3": "A second interviewer and who reviews a flag",
+      "from_h2": "Live interviewing: the probes and tells that catch a proxy without a detection tool",
+      "cards": 7,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "A second interviewer; process design."
+    },
+    {
+      "n": 88,
+      "h3": "Tools that watch the live call",
+      "from_h2": "Live interviewing: the probes and tells that catch a proxy without a detection tool",
+      "cards": 6,
+      "serves": [
+        "asset-angle",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Tools that watch the live call; dominated by cards for vendors this article removed."
+    },
+    {
+      "n": 89,
+      "h3": "Designing the process so cheating is pointless",
+      "from_h2": "Live interviewing: the probes and tells that catch a proxy without a detection tool",
+      "cards": 16,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Designing the process so cheating is pointless; process advice, not a buying input."
+    },
+    {
+      "n": 90,
+      "h3": "Training interviewers to catch the casual attempts",
+      "from_h2": "Live interviewing: the probes and tells that catch a proxy without a detection tool",
+      "cards": 4,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Training interviewers; same."
+    },
+    {
+      "n": 91,
+      "h3": "ISO/IEC 30107 and why Part 3 is the part that counts",
+      "from_h2": "Liveness and anti-spoof certifications: what each standard actually proves",
+      "cards": 9,
+      "serves": [
+        "asset-angle",
+        "gap: Scored vendor comparison on a single named axis: both publish criteria and a comparison table, but the reviews are prose descriptions, so no vendor carries a rated depth score you can sort on",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "ISO/IEC 30107 parts; certification depth, and no vendor in this set documents one."
+    },
+    {
+      "n": 92,
+      "h3": "How presentation attack detection works: active versus passive liveness",
+      "from_h2": "Liveness and anti-spoof certifications: what each standard actually proves",
+      "cards": 11,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "PAD active versus passive; same."
+    },
+    {
+      "n": 93,
+      "h3": "The iBeta PAD levels and the attacks each one survives",
+      "from_h2": "Liveness and anti-spoof certifications: what each standard actually proves",
+      "cards": 21,
+      "serves": [
+        "asset-angle",
+        "gap: Scored vendor comparison on a single named axis: both publish criteria and a comparison table, but the reviews are prose descriptions, so no vendor carries a rated depth score you can sort on",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "iBeta PAD levels; same."
+    },
+    {
+      "n": 94,
+      "h3": "Where PAD certification stops: injection attacks and CEN/TS 18099",
+      "from_h2": "Liveness and anti-spoof certifications: what each standard actually proves",
+      "cards": 28,
+      "serves": [
+        "asset-angle",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "CEN/TS 18099 and the injection gap; same."
+    },
+    {
+      "n": 95,
+      "h3": "Reading a vendor's certification claim: labs, scope and the questions to ask",
+      "from_h2": "Liveness and anti-spoof certifications: what each standard actually proves",
+      "cards": 12,
+      "serves": [
+        "asset-angle",
+        "gap: Scored vendor comparison on a single named axis: both publish criteria and a comparison table, but the reviews are prose descriptions, so no vendor carries a rated depth score you can sort on"
+      ],
+      "why_benched": "Reading a certification claim; same, with nothing in the set to read."
+    },
+    {
+      "n": 96,
+      "h3": "Grading a vendor's own integrity claims",
+      "from_h2": "What the certifications, accuracy numbers and risk scores actually prove",
+      "cards": 6,
+      "serves": [
+        "asset-angle",
+        "gap: Scored vendor comparison on a single named axis: both publish criteria and a comparison table, but the reviews are prose descriptions, so no vendor carries a rated depth score you can sort on"
+      ],
+      "why_benched": "Grading vendor integrity claims; built on HireID, a removed option."
+    },
+    {
+      "n": 97,
+      "h3": "Independent lab testing and the metrics it reports",
+      "from_h2": "What the certifications, accuracy numbers and risk scores actually prove",
+      "cards": 10,
+      "serves": [
+        "asset-angle",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Independent lab testing metrics; certification depth with no vendor to attach it to."
+    },
+    {
+      "n": 98,
+      "h3": "What iBeta liveness certification covers, and the injection gap it leaves",
+      "from_h2": "What the certifications, accuracy numbers and risk scores actually prove",
+      "cards": 11,
+      "serves": [
+        "asset-angle",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "iBeta coverage and the injection gap; same."
+    },
+    {
+      "n": 99,
+      "h3": "Accuracy numbers move with the threshold, and so does who absorbs the errors",
+      "from_h2": "What the certifications, accuracy numbers and risk scores actually prove",
+      "cards": 9,
+      "serves": [
+        "asset-angle"
+      ],
+      "why_benched": "Accuracy numbers move with the threshold; accuracy economics thread."
+    },
+    {
+      "n": 100,
+      "h3": "Lab matching accuracy versus end-to-end system accuracy",
+      "from_h2": "What the certifications, accuracy numbers and risk scores actually prove",
+      "cards": 7,
+      "serves": [
+        "asset-angle"
+      ],
+      "why_benched": "Lab versus end-to-end accuracy; same."
+    },
+    {
+      "n": 101,
+      "h3": "Session risk scores and the number left sitting in the candidate's file",
+      "from_h2": "What the certifications, accuracy numbers and risk scores actually prove",
+      "cards": 8,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "asset-angle"
+      ],
+      "why_benched": "Session risk scores; implementation depth."
+    },
+    {
+      "n": 104,
+      "h3": "Where the checks fire: one top-of-funnel gate is not enough",
+      "from_h2": "Layered, continuous identity verification across the hiring funnel",
+      "cards": 38,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Where the checks fire across the funnel; deployment sequencing, past the purchase."
+    },
+    {
+      "n": 105,
+      "h3": "Wiring verification into the ATS and HR stack",
+      "from_h2": "Layered, continuous identity verification across the hiring funnel",
+      "cards": 6,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Wiring verification into the ATS; integration depth the grid cannot fund."
+    },
+    {
+      "n": 106,
+      "h3": "What each added check costs the real candidate",
+      "from_h2": "Layered, continuous identity verification across the hiring funnel",
+      "cards": 15,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "What each check costs the real candidate; candidate friction is reduced to what the vendor entries can evidence."
+    },
+    {
+      "n": 108,
+      "h3": "The proctoring and monitoring tiers to choose between",
+      "from_h2": "Deploying these checks: matching verification strictness to role risk",
+      "cards": 8,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Proctoring tiers by role risk; the closing verdict section makes the role-risk call in far fewer words."
+    },
+    {
+      "n": 109,
+      "h3": "Human review on every flag, no automatic rejections",
+      "from_h2": "Deploying these checks: matching verification strictness to role risk",
+      "cards": 2,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Human review on every flag; two cards, absorbed by the compliance section's liability argument."
+    },
+    {
+      "n": 110,
+      "h3": "What candidates are told, and how they tell it from a scam",
+      "from_h2": "Deploying these checks: matching verification strictness to role risk",
+      "cards": 5,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "What candidates are told; rollout communications, not a buying input."
+    },
+    {
+      "n": 111,
+      "h3": "Piloting before rollout: the metrics that decide whether it scales",
+      "from_h2": "Deploying these checks: matching verification strictness to role risk",
+      "cards": 4,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Piloting before rollout; post-purchase."
+    },
+    {
+      "n": 112,
+      "h3": "A detection score is a signal, not proof",
+      "from_h2": "Fraud flags: what a detection score proves, and the human process that has to sit behind it",
+      "cards": 30,
+      "serves": [
+        "asset-angle",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "A detection score is a signal not proof; important, but a whole article of its own."
+    },
+    {
+      "n": 113,
+      "h3": "False positives and who pays for them",
+      "from_h2": "Fraud flags: what a detection score proves, and the human process that has to sit behind it",
+      "cards": 16,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "False positives and who pays; same."
+    },
+    {
+      "n": 114,
+      "h3": "The tells a trained interviewer can spot without software",
+      "from_h2": "Fraud flags: what a detection score proves, and the human process that has to sit behind it",
+      "cards": 6,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Tells a trained interviewer can spot; interviewer technique."
+    },
+    {
+      "n": 115,
+      "h3": "Human review is the guardrail, and a recruiter rewatching the tape is not one",
+      "from_h2": "Fraud flags: what a detection score proves, and the human process that has to sit behind it",
+      "cards": 21,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "common-h2: Shared vendor set across both winners: VidCruiter, Hireflix, Spark Hire (Truffle, HireVue, Willo, Jobma, myInterview appear on one only)"
+      ],
+      "why_benched": "Human review as the guardrail; leans heavily on cards for removed vendors."
+    },
+    {
+      "n": 116,
+      "h3": "What happens after a flag: escalation, verification, appeal",
+      "from_h2": "Fraud flags: what a detection score proves, and the human process that has to sit behind it",
+      "cards": 35,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "What happens after a flag; escalation process, post-purchase."
+    },
+    {
+      "n": 117,
+      "h3": "The session record a reviewer actually works from",
+      "from_h2": "After a fraud flag: the review record, escalation, and legal exposure",
+      "cards": 6,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "The session record a reviewer works from; same."
+    },
+    {
+      "n": 118,
+      "h3": "Documenting a flag: fields, evidence, and neutral language",
+      "from_h2": "After a fraud flag: the review record, escalation, and legal exposure",
+      "cards": 9,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Documenting a flag; same."
+    },
+    {
+      "n": 119,
+      "h3": "The four escalation steps",
+      "from_h2": "After a fraud flag: the review record, escalation, and legal exposure",
+      "cards": 5,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "The four escalation steps; same."
+    },
+    {
+      "n": 120,
+      "h3": "Lawful verification and the cost of a botched protocol",
+      "from_h2": "After a fraud flag: the review record, escalation, and legal exposure",
+      "cards": 5,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Lawful verification and a botched protocol; the compliance section makes the liability point through live litigation instead."
+    },
+    {
+      "n": 121,
+      "h3": "Flag rate is not the metric",
+      "from_h2": "After a fraud flag: the review record, escalation, and legal exposure",
+      "cards": 2,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Flag rate is not the metric; measurement advice, post-purchase."
+    },
+    {
+      "n": 122,
+      "h3": "The friction genuine applicants absorb",
+      "from_h2": "What these checks cost the honest candidate",
+      "cards": 11,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Friction genuine applicants absorb; the candidate-friction thread is out of budget at this length."
+    },
+    {
+      "n": 124,
+      "h3": "Liveness prompts and the completion-rate trade-off",
+      "from_h2": "What these checks cost the honest candidate",
+      "cards": 7,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Liveness prompts and completion rates; no vendor in the set documents liveness, so there is nothing to attach it to."
+    },
+    {
+      "n": 125,
+      "h3": "What happens when verification fails",
+      "from_h2": "What these checks cost the honest candidate",
+      "cards": 12,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "What happens when verification fails; drawn entirely from removed assessment vendors."
+    },
+    {
+      "n": 126,
+      "h3": "Framing, transparency and handling a flag",
+      "from_h2": "What these checks cost the honest candidate",
+      "cards": 14,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Framing and transparency with candidates; rollout communications."
+    },
+    {
+      "n": 127,
+      "h3": "Detectors measure signal, not proof",
+      "from_h2": "What these checks cost honest candidates: the false-positive surface",
+      "cards": 6,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Detectors measure signal not proof; duplicates #112."
+    },
+    {
+      "n": 128,
+      "h3": "The AI-detector false-positive rate on non-native English writers",
+      "from_h2": "What these checks cost honest candidates: the false-positive surface",
+      "cards": 22,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "AI-detector false positives on non-native writers; a fairness thread that deserves its own piece."
+    },
+    {
+      "n": 129,
+      "h3": "Webcam proctoring and face match: benign behaviour that reads as cheating",
+      "from_h2": "What these checks cost honest candidates: the false-positive surface",
+      "cards": 8,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Benign behaviour that reads as cheating; same."
+    },
+    {
+      "n": 130,
+      "h3": "Where ID and document checks fail an honest candidate",
+      "from_h2": "What these checks cost honest candidates: the false-positive surface",
+      "cards": 6,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Where ID checks fail an honest candidate; same."
+    },
+    {
+      "n": 131,
+      "h3": "Friction, drop-off and completion rate",
+      "from_h2": "What these checks cost honest candidates: the false-positive surface",
+      "cards": 6,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Friction, drop-off and completion rate; same."
+    },
+    {
+      "n": 132,
+      "h3": "Who the false flags land on, and why they stay invisible",
+      "from_h2": "What these checks cost honest candidates: the false-positive surface",
+      "cards": 7,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Who the false flags land on; same."
+    },
+    {
+      "n": 133,
+      "h3": "Designing the process so it does not punish the honest candidate",
+      "from_h2": "What these checks cost honest candidates: the false-positive surface",
+      "cards": 5,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Designing a process that does not punish honest candidates; same."
+    },
+    {
+      "n": 134,
+      "h3": "What BIPA actually covers: the faceprint, not the photo",
+      "from_h2": "The consent and biometric-privacy rules behind face match, liveness and voice checks",
+      "cards": 14,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "BIPA covers the faceprint; the compliance section uses the applied settlement rather than a statute walkthrough."
+    },
+    {
+      "n": 135,
+      "h3": "Sosa v. Onfido: the ID-document-plus-selfie check itself is in scope",
+      "from_h2": "The consent and biometric-privacy rules behind face match, liveness and voice checks",
+      "cards": 9,
+      "serves": [
+        "asset-angle"
+      ],
+      "why_benched": "Sosa v. Onfido; Onfido is a removed option and the doctrine is carried by the settlement."
+    },
+    {
+      "n": 137,
+      "h3": "What a BIPA claim costs after the 2024 amendment",
+      "from_h2": "The consent and biometric-privacy rules behind face match, liveness and voice checks",
+      "cards": 16,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "What a BIPA claim costs after the 2024 amendment; damages arithmetic beyond the section's room."
+    },
+    {
+      "n": 138,
+      "h3": "What the employer owes: notice, written consent, retention, security",
+      "from_h2": "The consent and biometric-privacy rules behind face match, liveness and voice checks",
+      "cards": 11,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "What the employer owes under BIPA; duty detail the compliance section has to compress."
+    },
+    {
+      "n": 139,
+      "h3": "Outside Illinois: Maryland waivers, GDPR, FCRA and no-go jurisdictions",
+      "from_h2": "The consent and biometric-privacy rules behind face match, liveness and voice checks",
+      "cards": 8,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Maryland, GDPR and FCRA; a jurisdiction sweep beyond the section's room."
+    },
+    {
+      "n": 140,
+      "h3": "US recording consent law: one-party, two-party, and the stricter rule across state lines",
+      "from_h2": "Consent, disclosure and data rules for recorded and monitored interviews",
+      "cards": 11,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "US recording consent law; state-by-state detail out of budget."
+    },
+    {
+      "n": 141,
+      "h3": "What the candidate is told, and when the consent is captured",
+      "from_h2": "Consent, disclosure and data rules for recorded and monitored interviews",
+      "cards": 17,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "When the consent is captured; process detail."
+    },
+    {
+      "n": 142,
+      "h3": "The disclosure gap: most candidates are never told AI is evaluating them",
+      "from_h2": "Consent, disclosure and data rules for recorded and monitored interviews",
+      "cards": 5,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "The disclosure gap; candidate-trust data with no vendor to attach it to."
+    },
+    {
+      "n": 143,
+      "h3": "The fallback when a candidate refuses recording or the check fails",
+      "from_h2": "Consent, disclosure and data rules for recorded and monitored interviews",
+      "cards": 5,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "The fallback when a candidate refuses recording; process detail."
+    },
+    {
+      "n": 144,
+      "h3": "Storage, access, retention and deletion of recordings and scores",
+      "from_h2": "Consent, disclosure and data rules for recorded and monitored interviews",
+      "cards": 8,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Storage, access and deletion; retention is carried by #161's vendor-specific defaults."
+    },
+    {
+      "n": 145,
+      "h3": "Face match and liveness as biometric special-category data",
+      "from_h2": "Consent, disclosure and data rules for recorded and monitored interviews",
+      "cards": 7,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Face match as special-category data; carried by the settlement beat."
+    },
+    {
+      "n": 146,
+      "h3": "The compliance questions to put to a vendor, and the documented controls behind them",
+      "from_h2": "Consent, disclosure and data rules for recorded and monitored interviews",
+      "cards": 19,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Compliance questions to put to a vendor; a diligence checklist the closing section cannot also carry."
+    },
+    {
+      "n": 147,
+      "h3": "Recording an interview is personal data processing, and it needs a lawful basis",
+      "from_h2": "The compliance load these checks add: consent, biometric data and interview recordings",
+      "cards": 18,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "asset-angle"
+      ],
+      "why_benched": "Recording as personal data processing; a GDPR walkthrough beyond the section's room."
+    },
+    {
+      "n": 148,
+      "h3": "What the candidate privacy notice must disclose, and the rights that follow",
+      "from_h2": "The compliance load these checks add: consent, biometric data and interview recordings",
+      "cards": 11,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "asset-angle"
+      ],
+      "why_benched": "Privacy notice contents; same."
+    },
+    {
+      "n": 149,
+      "h3": "ID document checks and face match turn the stack into Article 9 biometric processing",
+      "from_h2": "The compliance load these checks add: consent, biometric data and interview recordings",
+      "cards": 19,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "asset-angle"
+      ],
+      "why_benched": "Article 9 biometric processing; same."
+    },
+    {
+      "n": 150,
+      "h3": "Why candidate consent is the weakest basis for an identity check",
+      "from_h2": "The compliance load these checks add: consent, biometric data and interview recordings",
+      "cards": 19,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "asset-angle"
+      ],
+      "why_benched": "Why consent is the weakest basis; same."
+    },
+    {
+      "n": 151,
+      "h3": "The enforcement cases where facial recognition consent was struck down",
+      "from_h2": "The compliance load these checks add: consent, biometric data and interview recordings",
+      "cards": 9,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Enforcement cases on facial recognition consent; same."
+    },
+    {
+      "n": 152,
+      "h3": "Vendor-side duties: processor lists, DPAs and cross-border transfers",
+      "from_h2": "The compliance load these checks add: consent, biometric data and interview recordings",
+      "cards": 4,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "asset-angle"
+      ],
+      "why_benched": "Processor lists, DPAs and transfers; VidCruiter's hosting is noted in its own entry, the rest is out of budget."
+    },
+    {
+      "n": 153,
+      "h3": "Where the liability sits: verifying identity versus scoring the candidate",
+      "from_h2": "The legal side of integrity tooling: consent, bias audits and who carries the liability",
+      "cards": 9,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "asset-angle"
+      ],
+      "why_benched": "Where liability sits; carried by #154's live cases, which are more concrete for this reader."
+    },
+    {
+      "n": 155,
+      "h3": "What the vendors changed: HireVue's facial analysis, Spark Hire's scoring, Willo's refusal",
+      "from_h2": "The legal side of integrity tooling: consent, bias audits and who carries the liability",
+      "cards": 10,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "common-h2: Shared vendor set across both winners: VidCruiter, Hireflix, Spark Hire (Truffle, HireVue, Willo, Jobma, myInterview appear on one only)"
+      ],
+      "why_benched": "What the vendors changed; the HireVue and Willo entries carry their own scoring positions."
+    },
+    {
+      "n": 156,
+      "h3": "Consent and notice: the Illinois AI Video Interview Act amendments",
+      "from_h2": "The legal side of integrity tooling: consent, bias audits and who carries the liability",
+      "cards": 3,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Illinois AI Video Interview Act amendments; the Illinois consent duty is carried by the BIPA settlement beat."
+    },
+    {
+      "n": 158,
+      "h3": "Vendor due diligence: validation studies, adverse-impact audits and contract terms",
+      "from_h2": "The legal side of integrity tooling: consent, bias audits and who carries the liability",
+      "cards": 10,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "asset-angle"
+      ],
+      "why_benched": "Vendor due diligence; a procurement checklist the budget cannot fund."
+    },
+    {
+      "n": 159,
+      "h3": "Unsettled law: facial recognition restrictions and FCRA disclosure",
+      "from_h2": "The legal side of integrity tooling: consent, bias audits and who carries the liability",
+      "cards": 5,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Unsettled law on facial recognition and FCRA; open questions with no resolution to offer the reader."
+    },
+    {
+      "n": 160,
+      "h3": "How long you can defensibly keep an interview recording",
+      "from_h2": "What Happens to the Recording After the Interview: Retention, Deletion Rights, and Audit Trails",
+      "cards": 15,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Defensible retention windows in the abstract; #161 gives this reader the vendor-specific answer instead."
+    },
+    {
+      "n": 162,
+      "h3": "Candidate access and deletion requests, GDPR versus CCPA",
+      "from_h2": "What Happens to the Recording After the Interview: Retention, Deletion Rights, and Audit Trails",
+      "cards": 10,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "asset-angle"
+      ],
+      "why_benched": "GDPR versus CCPA rights; jurisdiction detail out of budget."
+    },
+    {
+      "n": 163,
+      "h3": "Securing the ID images and biometric data you now hold",
+      "from_h2": "What Happens to the Recording After the Interview: Retention, Deletion Rights, and Audit Trails",
+      "cards": 8,
+      "serves": [
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Securing the ID images you now hold; security posture beyond what the grid scores."
+    },
+    {
+      "n": 164,
+      "h3": "The audit trail: what a flagged session record has to preserve",
+      "from_h2": "What Happens to the Recording After the Interview: Retention, Deletion Rights, and Audit Trails",
+      "cards": 12,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "The audit trail behind a flagged session; implementation detail."
+    },
+    {
+      "n": 165,
+      "h3": "What counts as interview fraud: proxies, deepfakes and AI-assisted answers",
+      "from_h2": "The interview-integrity rating: candidate fraud and how each vendor is scored on it",
+      "cards": 6,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both"
+      ],
+      "why_benched": "Definition of interview fraud; #16 carries the definition the buyer actually needs."
+    },
+    {
+      "n": 166,
+      "h3": "Why remote hiring turned this into a buying problem",
+      "from_h2": "The interview-integrity rating: candidate fraud and how each vendor is scored on it",
+      "cards": 16,
+      "serves": [
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Why remote hiring turned this into a buying problem; the intro's job, not a body section's."
+    },
+    {
+      "n": 176,
+      "h3": "BrightHire",
+      "from_h2": "The video interview platforms, scored for interview integrity",
+      "cards": 1,
+      "serves": [
+        "asset-angle",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "common-h2: Per-vendor sections, one heading per tool, then a second deeper review pass on the same tools"
+      ],
+      "why_benched": "BrightHire is a removed option."
+    },
+    {
+      "n": 184,
+      "h3": "Spark Hire, Interviewer.AI, Jobma, 1WayInterview and Hirebee: thin or absent integrity documentation",
+      "from_h2": "Vendor-by-vendor interview integrity: what each platform's own documentation actually shows",
+      "cards": 6,
+      "serves": [
+        "asset-angle",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Thin documentation across several vendors; partly removed options, and #188 states the gap for the whole set."
+    },
+    {
+      "n": 185,
+      "h3": "Assessment platforms: HackerRank, Codility, CodeSignal and TestGorilla",
+      "from_h2": "Vendor-by-vendor interview integrity: what each platform's own documentation actually shows",
+      "cards": 18,
+      "serves": [
+        "asset-angle",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "Assessment platforms HackerRank, Codility, CodeSignal and TestGorilla; every vendor in it was removed."
+    },
+    {
+      "n": 186,
+      "h3": "Specialist deepfake detection vendors outside the interview platforms",
+      "from_h2": "Vendor-by-vendor interview integrity: what each platform's own documentation actually shows",
+      "cards": 10,
+      "serves": [
+        "asset-angle",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Specialist deepfake detection vendors; every vendor in it was removed."
+    },
+    {
+      "n": 189,
+      "h3": "The diligence frame: what to demand instead of a feature grid",
+      "from_h2": "The buyer's diligence checklist for interview-integrity claims",
+      "cards": 10,
+      "serves": [
+        "asset-angle",
+        "gap: Scored vendor comparison on a single named axis: both publish criteria and a comparison table, but the reviews are prose descriptions, so no vendor carries a rated depth score you can sort on",
+        "common-h2: Selection criteria or methodology (\"how we chose\", \"what makes the best\")"
+      ],
+      "why_benched": "The diligence frame; procurement guidance the budget cannot fund alongside nine option sections."
+    },
+    {
+      "n": 190,
+      "h3": "The four evidence categories: validation, data flow, human control, and the flag record",
+      "from_h2": "The buyer's diligence checklist for interview-integrity claims",
+      "cards": 9,
+      "serves": [
+        "asset-angle",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "common-h2: Selection criteria or methodology (\"how we chose\", \"what makes the best\")"
+      ],
+      "why_benched": "Four evidence categories to demand; same."
+    },
+    {
+      "n": 191,
+      "h3": "Vendor anti-deepfake claims that deserve a direct challenge",
+      "from_h2": "The buyer's diligence checklist for interview-integrity claims",
+      "cards": 7,
+      "serves": [
+        "asset-angle",
+        "gap: Deepfake and AI-assisted candidate detection, the live 2026 problem in async video screening, is absent from both",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying"
+      ],
+      "why_benched": "Vendor anti-deepfake claims to challenge; no vendor in this set makes those claims."
+    },
+    {
+      "n": 192,
+      "h3": "What to test in the demo and pilot: signals, thresholds, and review evidence",
+      "from_h2": "The buyer's diligence checklist for interview-integrity claims",
+      "cards": 11,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "gap: Identity verification: no heading on ID document checks, face match, or confirming the person interviewing is the person applying",
+        "asset-angle",
+        "common-h2: Selection criteria or methodology (\"how we chose\", \"what makes the best\")"
+      ],
+      "why_benched": "What to test in the demo and pilot; post-shortlist."
+    },
+    {
+      "n": 193,
+      "h3": "Structured interview and scoring requirements the tool must support",
+      "from_h2": "The buyer's diligence checklist for interview-integrity claims",
+      "cards": 5,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure",
+        "common-h2: Selection criteria or methodology (\"how we chose\", \"what makes the best\")"
+      ],
+      "why_benched": "Structured interview and scoring requirements; interview design rather than integrity scoring."
+    },
+    {
+      "n": 194,
+      "h3": "Compliance, data governance, and consent checks at procurement",
+      "from_h2": "The buyer's diligence checklist for interview-integrity claims",
+      "cards": 5,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "common-h2: Selection criteria or methodology (\"how we chose\", \"what makes the best\")"
+      ],
+      "why_benched": "Procurement compliance checks; duplicates #146, itself benched."
+    },
+    {
+      "n": 196,
+      "h3": "HireVue's tiers: what sits in Essentials versus Enterprise",
+      "from_h2": "What Integrity-Grade Video Interviewing Actually Costs",
+      "cards": 18,
+      "serves": [
+        "paa: How much does HireVue cost?",
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page"
+      ],
+      "why_benched": "HireVue tier pricing; duplicated by #171 inside the HireVue entry."
+    },
+    {
+      "n": 197,
+      "h3": "The sticker price is not the bill: implementation, volume thresholds, and compliance you pay for anyway",
+      "from_h2": "What Integrity-Grade Video Interviewing Actually Costs",
+      "cards": 15,
+      "serves": [
+        "paa: How much does HireVue cost?"
+      ],
+      "why_benched": "HireVue total cost of ownership; cost modelling beyond what the pricing column can carry."
+    },
+    {
+      "n": 199,
+      "h3": "Contract terms that carry the biometric and bias liability",
+      "from_h2": "What Integrity-Grade Video Interviewing Actually Costs",
+      "cards": 12,
+      "serves": [
+        "gap: Compliance around recorded interviews (AI hiring bias audits, consent, recording retention) gets no heading on either page",
+        "asset-angle"
+      ],
+      "why_benched": "Contract terms carrying biometric liability; contract drafting, past the buying decision this article serves."
+    },
+    {
+      "n": 200,
+      "h3": "Measuring whether the spend worked: hiring outcomes, not flag rate",
+      "from_h2": "What Integrity-Grade Video Interviewing Actually Costs",
+      "cards": 9,
+      "serves": [
+        "gap: Anti-cheating and interview integrity: neither winner has a single heading on proctoring, browser lockdown, or candidate-fraud detection anywhere in the parsed structure"
+      ],
+      "why_benched": "Measuring whether the spend worked; post-purchase measurement."
+    }
+  ],
+  "shared_box_warnings": [],
+  "brand_cards": [
+    {
+      "card_id": 8017,
+      "kind": "research",
+      "section": 1,
+      "headline": "How we scored these nine on interview integrity, and what the usual rankings score instead",
+      "goes_to": "opening",
+      "why": "Evidence that integrity is missing from the buying rubric, not just the review rubric: almost two-thirds of buyers never ask about proctoring at all.",
+      "gloss": "Almost two-thirds of buyers do not look for proctoring at all"
+    }
+  ],
+  "word_budget": {
+    "band": {
+      "min": 2800,
+      "max": 3500
+    },
+    "band_middle": 3150,
+    "aim_low_pct": 10,
+    "base": 2835,
+    "overwrite_pct": 0,
+    "sum_of_targets": 2833,
+    "headings": {
+      "sections": 14,
+      "sub_headings": 1,
+      "total": 15,
+      "words_per_heading": 189,
+      "under_floor": [
+        {
+          "section": "1. VidCruiter: the only platform whose live interface carries an integrity mechanism",
+          "words": 142,
+          "sub_headings": 0,
+          "words_per_stretch": 142
+        },
+        {
+          "section": "2. Testlify: the deepest documented proctoring stack, built around assessments",
+          "words": 142,
+          "sub_headings": 0,
+          "words_per_stretch": 142
+        },
+        {
+          "section": "3. Talview: liveness and continuous face comparison, on thin public record",
+          "words": 113,
+          "sub_headings": 0,
+          "words_per_stretch": 113
+        },
+        {
+          "section": "4. HireVue: the biggest compliance surface, and no documented identity check",
+          "words": 142,
+          "sub_headings": 0,
+          "words_per_stretch": 142
+        },
+        {
+          "section": "5. Willo: EU-hosted, async only, and honest about what it will not score",
+          "words": 113,
+          "sub_headings": 0,
+          "words_per_stretch": 113
+        },
+        {
+          "section": "6. Interviewer.AI: a real face-match score, gated behind a sales call",
+          "words": 113,
+          "sub_headings": 0,
+          "words_per_stretch": 113
+        },
+        {
+          "section": "7. Jobma: a per-candidate proctoring report, and nothing on identity",
+          "words": 113,
+          "sub_headings": 0,
+          "words_per_stretch": 113
+        },
+        {
+          "section": "8. Spark Hire: validated scoring AI, no identity control",
+          "words": 113,
+          "sub_headings": 0,
+          "words_per_stretch": 113
+        },
+        {
+          "section": "9. Hireflix: no login, no identity, no live interview",
+          "words": 113,
+          "sub_headings": 0,
+          "words_per_stretch": 113
+        }
+      ]
+    }
+  },
+  "h1": "9 Video Interview Platforms, Scored on Deepfake Defense",
+  "keywords": {
+    "primary": "video interview platform",
+    "primary_changed": false,
+    "why_primary": "",
+    "variations": [
+      "video interview platforms",
+      "video interviewing platform",
+      "video interview software",
+      "video interviewing software",
+      "interview video software",
+      "best video interviewing software"
+    ],
+    "section_keywords": [
+      "best video interview software"
+    ],
+    "unplaced": [
+      {
+        "keyword": "one way video interview platforms",
+        "why": "no section's heading took it"
+      }
+    ]
+  }
+}

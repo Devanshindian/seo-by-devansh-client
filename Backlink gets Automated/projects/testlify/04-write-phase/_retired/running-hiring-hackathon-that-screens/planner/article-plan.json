@@ -1,0 +1,1696 @@
+{
+  "slug": "running-hiring-hackathon-that-screens",
+  "h1": "Running a Hiring Hackathon That Screens for Real Skill, With a Judging Rubric and an AI-Use Policy",
+  "format_archetype": "how-to-guide",
+  "primary_keyword": "hackathon judging",
+  "word_band": {
+    "min": 2800,
+    "max": 3800
+  },
+  "persona": {
+    "name": "TA / Recruiting Practitioner",
+    "lens": "Runs (or is weighing) hiring hackathons as a screening format at volume and needs a repeatable, defensible event design — not just logistics but a scoring rubric that keeps judging consistent across candidates and an explicit AI-use policy that closes the obvious cheating gap",
+    "why": "Running the hackathon end to end (format, rubric, integrity policy) is a screening/pipeline how-to they own and act on directly, and the AI-use policy is anti-cheating territory, squarely their stated concern — not a hiring manager's single-role interview or a strategy/compliance topic"
+  },
+  "gaps_to_own": [
+    "Concrete judging rubric with point weights beyond thin criteria lists",
+    "AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+    "Clear scoring guidance for judges, not just participant advice",
+    "Anti-bias and consistency guardrails for judging panels",
+    "Examples of compliant vs non-compliant AI-assisted work"
+  ],
+  "winners_common_h2s": [
+    "Judging criteria",
+    "Judge process",
+    "Submission review focus",
+    "What makes a project stand out",
+    "Common score reducers",
+    "Competitor advice",
+    "Judge FAQs or logistics"
+  ],
+  "winners_drift": [
+    "ohack drifts into judge recruitment and social-impact mission content; Devpost drifts into judge interviews and related hackathon stories"
+  ],
+  "paa_pool": [],
+  "related_searches": [
+    "Hackathon judging criteria",
+    "Hackathon judging criteria template",
+    "Online hackathon judging"
+  ],
+  "search_intent": "informational",
+  "ai_overview": "defines hackathon judging as evaluating team projects built in a set timeframe; names process stages of initial technical screening followed by live demo sessions or expert panel reviews; names judging formats of In-Person Expos and Online/Hybrid; names criteria in this order: Innovation, Technology & Implementation, Impact & Viability, Presentation & Messaging.",
+  "table_stakes": [
+    "Judging criteria",
+    "What makes a project stand out",
+    "Common score reducers",
+    "Submission review focus",
+    "Judge process"
+  ],
+  "sections": [
+    {
+      "h2": "Hackathons, AI Skills, and Assessment Integrity",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Hackathons and Coding Challenges Are a Hiring Decision",
+          "tags": [
+            "asset-angle"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              1,
+              2,
+              408
+            ]
+          },
+          "card_ids": [
+            1,
+            2,
+            408
+          ]
+        },
+        {
+          "h3": "How AI Adoption Is Changing What You Should Test",
+          "tags": [
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              433
+            ]
+          },
+          "card_ids": [
+            433
+          ]
+        },
+        {
+          "h3": "AI-Enabled Cheating and How to Guard Against It",
+          "tags": [
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              459,
+              515
+            ]
+          },
+          "card_ids": [
+            459,
+            515
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Are hackathon-style work sample tests actually valid and fair?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "The case for work samples: fairness, legal defensibility, and candidate experience",
+          "tags": [
+            "asset-angle",
+            "gap: Anti-bias and consistency guardrails for judging panels"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              15,
+              16,
+              27
+            ],
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              15,
+              21
+            ]
+          },
+          "card_ids": [
+            13,
+            112,
+            14,
+            15,
+            16,
+            17,
+            21,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Can a rubric actually make hackathon judging fair?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Structured rubrics narrow bias but don't remove it",
+          "tags": [
+            "gap: Anti-bias and consistency guardrails for judging panels"
+          ],
+          "tag_receipts": {
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              122,
+              123,
+              124,
+              125,
+              120
+            ]
+          },
+          "card_ids": [
+            111,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            130
+          ]
+        },
+        {
+          "h3": "A score is one input, not the decision itself",
+          "tags": [
+            "gap: Clear scoring guidance for judges, not just participant advice",
+            "common-h2: Judge process"
+          ],
+          "tag_receipts": {
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              138,
+              139,
+              140
+            ],
+            "common-h2: Judge process": [
+              139,
+              140
+            ]
+          },
+          "card_ids": [
+            138,
+            139,
+            157,
+            158,
+            160
+          ]
+        },
+        {
+          "h3": "Redundancy: more raters and more data points per candidate",
+          "tags": [
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "common-h2: Judge process"
+          ],
+          "tag_receipts": {
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              370,
+              371,
+              372
+            ],
+            "common-h2: Judge process": [
+              371,
+              374
+            ]
+          },
+          "card_ids": [
+            370,
+            371,
+            372,
+            373,
+            374
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Why you need a structured judging framework",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Why judging without a rubric produces inconsistent results",
+          "tags": [
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "common-h2: Judge process"
+          ],
+          "tag_receipts": {
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "common-h2: Judge process": [
+              7
+            ]
+          },
+          "card_ids": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "h3": "Start by defining what the score should determine",
+          "tags": [
+            "gap: Clear scoring guidance for judges, not just participant advice"
+          ],
+          "tag_receipts": {
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              96,
+              97
+            ]
+          },
+          "card_ids": [
+            96,
+            97
+          ]
+        },
+        {
+          "h3": "What makes a scoring rubric reliable",
+          "tags": [
+            "asset-angle",
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists",
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "common-h2: Judging criteria"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              28,
+              29,
+              30
+            ],
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists": [
+              28,
+              29
+            ],
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              61,
+              95
+            ],
+            "common-h2: Judging criteria": [
+              22
+            ]
+          },
+          "card_ids": [
+            22,
+            25,
+            28,
+            29,
+            30,
+            61,
+            95
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How should the judging rubric be built?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Writing rubric evidence rules and edge cases",
+          "tags": [
+            "asset-angle",
+            "gap: Clear scoring guidance for judges, not just participant advice",
+            "gap: Anti-bias and consistency guardrails for judging panels"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              47,
+              54,
+              59
+            ],
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              47,
+              59
+            ],
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              48,
+              54
+            ]
+          },
+          "card_ids": [
+            47,
+            48,
+            54,
+            59
+          ]
+        },
+        {
+          "h3": "Verifying claims beyond the pitch deck",
+          "tags": [
+            "asset-angle",
+            "common-h2: Submission review focus",
+            "common-h2: Judge process"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              99
+            ],
+            "common-h2: Submission review focus": [
+              99
+            ],
+            "common-h2: Judge process": [
+              99
+            ]
+          },
+          "card_ids": [
+            99
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do you build a scoring rubric?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What goes into a rubric",
+          "tags": [
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists",
+            "common-h2: Judging criteria"
+          ],
+          "tag_receipts": {
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists": [
+              94
+            ],
+            "common-h2: Judging criteria": [
+              94,
+              40
+            ]
+          },
+          "card_ids": [
+            94,
+            40
+          ]
+        },
+        {
+          "h3": "How many dimensions to score",
+          "tags": [
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists",
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "common-h2: Judging criteria"
+          ],
+          "tag_receipts": {
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists": [
+              31,
+              39,
+              60
+            ],
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              32,
+              60
+            ],
+            "common-h2: Judging criteria": [
+              39,
+              31
+            ]
+          },
+          "card_ids": [
+            31,
+            32,
+            39,
+            60
+          ]
+        },
+        {
+          "h3": "Lock in criteria before the event, not after",
+          "tags": [
+            "asset-angle",
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists",
+            "gap: Anti-bias and consistency guardrails for judging panels"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              18,
+              38
+            ],
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists": [
+              18,
+              19
+            ],
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              38,
+              19
+            ]
+          },
+          "card_ids": [
+            18,
+            19,
+            38
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do you score and weight hackathon judging criteria?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Which criteria to judge on",
+          "tags": [
+            "common-h2: Judging criteria",
+            "related: Hackathon judging criteria"
+          ],
+          "tag_receipts": {
+            "common-h2: Judging criteria": [
+              86,
+              87,
+              88,
+              90,
+              98
+            ],
+            "related: Hackathon judging criteria": [
+              87,
+              88,
+              90
+            ]
+          },
+          "card_ids": [
+            86,
+            88,
+            98
+          ]
+        },
+        {
+          "h3": "How to calculate the weighted score",
+          "tags": [
+            "asset-angle",
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists",
+            "gap: Clear scoring guidance for judges, not just participant advice"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              51,
+              89,
+              91
+            ],
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists": [
+              89,
+              52,
+              91
+            ],
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              91,
+              53,
+              51
+            ]
+          },
+          "card_ids": [
+            51,
+            52,
+            53,
+            89,
+            91
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Why anchored score bands keep judges consistent",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Why anchored score bands keep judges consistent",
+          "tags": [
+            "asset-angle",
+            "gap: Clear scoring guidance for judges, not just participant advice",
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "related: Hackathon judging criteria"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              8,
+              92,
+              41
+            ],
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              8,
+              41,
+              45
+            ],
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              44,
+              93
+            ],
+            "related: Hackathon judging criteria": [
+              8
+            ]
+          },
+          "card_ids": [
+            8,
+            41,
+            44,
+            45,
+            92,
+            93
+          ]
+        },
+        {
+          "h3": "How to write anchor definitions",
+          "tags": [
+            "asset-angle",
+            "gap: Clear scoring guidance for judges, not just participant advice",
+            "gap: Anti-bias and consistency guardrails for judging panels"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              42,
+              43
+            ],
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              42,
+              43,
+              46
+            ],
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              46
+            ]
+          },
+          "card_ids": [
+            42,
+            43,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How Do You Calibrate Judges So Scores Are Consistent and Fair?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Why Independent Scoring Beats a Shared Scoresheet",
+          "tags": [
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "gap: Clear scoring guidance for judges, not just participant advice",
+            "common-h2: Judge process"
+          ],
+          "tag_receipts": {
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              9,
+              20,
+              85,
+              133,
+              134,
+              347
+            ],
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              20,
+              57,
+              136
+            ],
+            "common-h2: Judge process": [
+              85,
+              110,
+              133
+            ]
+          },
+          "card_ids": [
+            9,
+            20,
+            57,
+            133,
+            134,
+            135,
+            136,
+            347
+          ]
+        },
+        {
+          "h3": "What a Calibration Session Actually Involves",
+          "tags": [
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "gap: Clear scoring guidance for judges, not just participant advice",
+            "common-h2: Judge process"
+          ],
+          "tag_receipts": {
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              56,
+              131,
+              346,
+              348,
+              349,
+              350,
+              358
+            ],
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              344,
+              352,
+              357
+            ],
+            "common-h2: Judge process": [
+              340,
+              344,
+              346,
+              348
+            ]
+          },
+          "card_ids": [
+            55,
+            56,
+            131,
+            132,
+            340,
+            341,
+            342,
+            343,
+            344,
+            345,
+            346,
+            348,
+            349,
+            350,
+            351,
+            352,
+            353,
+            354,
+            356,
+            357,
+            358
+          ]
+        },
+        {
+          "h3": "The Biases Calibration Is Meant to Catch",
+          "tags": [
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "common-h2: Judge process"
+          ],
+          "tag_receipts": {
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              100,
+              103,
+              104,
+              105,
+              107,
+              359,
+              362
+            ],
+            "common-h2: Judge process": [
+              100
+            ]
+          },
+          "card_ids": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            359
+          ]
+        },
+        {
+          "h3": "How to Measure Whether Judges Actually Agree",
+          "tags": [
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "common-h2: Judge process"
+          ],
+          "tag_receipts": {
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              150,
+              151,
+              152,
+              153,
+              360,
+              361
+            ],
+            "common-h2: Judge process": [
+              151,
+              355,
+              360
+            ]
+          },
+          "card_ids": [
+            150,
+            151,
+            152,
+            153,
+            154,
+            355,
+            360,
+            361
+          ]
+        },
+        {
+          "h3": "Resolving Disagreement Without Averaging It Away",
+          "tags": [
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists"
+          ],
+          "tag_receipts": {
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              58,
+              155,
+              156
+            ],
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists": [
+              137,
+              155
+            ]
+          },
+          "card_ids": [
+            58,
+            137,
+            155,
+            156
+          ]
+        },
+        {
+          "h3": "Calibration Isn't a One-Time, Pre-Event Task",
+          "tags": [
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "common-h2: Judge process"
+          ],
+          "tag_receipts": {
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              363,
+              365,
+              366,
+              367
+            ],
+            "common-h2: Judge process": [
+              364,
+              368,
+              369
+            ]
+          },
+          "card_ids": [
+            363,
+            364,
+            365,
+            366,
+            367,
+            368,
+            369
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Why a hiring rubric isn't a one-and-done document",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Why a hiring rubric isn't a one-and-done document",
+          "tags": [
+            "asset-angle"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              23,
+              24
+            ]
+          },
+          "card_ids": [
+            23,
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do you make judging scores defensible and audit-ready?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Capture the reasoning behind each score, not just the number",
+          "tags": [
+            "gap: Clear scoring guidance for judges, not just participant advice",
+            "gap: Anti-bias and consistency guardrails for judging panels"
+          ],
+          "tag_receipts": {
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              49,
+              50
+            ],
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              50
+            ]
+          },
+          "card_ids": [
+            49,
+            50
+          ]
+        },
+        {
+          "h3": "Build a scrutiny-proof scoring and judging process",
+          "tags": [
+            "asset-angle",
+            "gap: Clear scoring guidance for judges, not just participant advice",
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "common-h2: Judge process"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              141,
+              144,
+              145
+            ],
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              142,
+              144
+            ],
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              142,
+              146
+            ],
+            "common-h2: Judge process": [
+              142
+            ]
+          },
+          "card_ids": [
+            141,
+            142,
+            143,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Should hackathon challenges have an explicit AI-use policy?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Why do some companies ban AI use outright?",
+          "tags": [
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              64,
+              171,
+              172,
+              173
+            ]
+          },
+          "card_ids": [
+            63,
+            171,
+            172,
+            173
+          ]
+        },
+        {
+          "h3": "Are candidates already using AI regardless of the rules?",
+          "tags": [
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              163,
+              164,
+              166,
+              167
+            ]
+          },
+          "card_ids": [
+            67,
+            70,
+            163,
+            164,
+            165,
+            166,
+            167
+          ]
+        },
+        {
+          "h3": "Why a hackathon needs a stated AI policy to be a valid skills signal",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              161,
+              162,
+              184
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              162,
+              181
+            ]
+          },
+          "card_ids": [
+            161,
+            162,
+            175,
+            181,
+            182,
+            183,
+            184,
+            185
+          ]
+        },
+        {
+          "h3": "Does disclosing AI use actually hurt candidates?",
+          "tags": [
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "asset-angle"
+          ],
+          "tag_receipts": {
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              303,
+              328,
+              329
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              302,
+              303
+            ],
+            "asset-angle": [
+              303,
+              327
+            ]
+          },
+          "card_ids": [
+            302,
+            303,
+            327,
+            328,
+            329
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Where's the line between acceptable and unacceptable AI use?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Preparation versus real-time substitution",
+          "tags": [
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "gap: Examples of compliant vs non-compliant AI-assisted work"
+          ],
+          "tag_receipts": {
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              72,
+              73,
+              75,
+              77
+            ],
+            "gap: Examples of compliant vs non-compliant AI-assisted work": [
+              72,
+              74,
+              77
+            ]
+          },
+          "card_ids": [
+            71,
+            75,
+            76,
+            77
+          ]
+        },
+        {
+          "h3": "Building an explicit AI-use tier for a hackathon",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              174,
+              191,
+              195
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              174,
+              191,
+              193,
+              207,
+              208
+            ]
+          },
+          "card_ids": [
+            174,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            207,
+            208
+          ]
+        },
+        {
+          "h3": "Boilerplate versus feature code: scoping what AI may generate",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "gap: Examples of compliant vs non-compliant AI-assisted work"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              202,
+              205,
+              229
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              220,
+              221,
+              228
+            ],
+            "gap: Examples of compliant vs non-compliant AI-assisted work": [
+              205,
+              222,
+              223,
+              228
+            ]
+          },
+          "card_ids": [
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229
+          ]
+        },
+        {
+          "h3": "Permitted AI use",
+          "tags": [
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "gap: Examples of compliant vs non-compliant AI-assisted work"
+          ],
+          "tag_receipts": {
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              215,
+              216,
+              217,
+              219
+            ],
+            "gap: Examples of compliant vs non-compliant AI-assisted work": [
+              215,
+              216,
+              217
+            ]
+          },
+          "card_ids": [
+            215,
+            216,
+            217,
+            218,
+            219
+          ]
+        },
+        {
+          "h3": "Non-permitted AI use",
+          "tags": [
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "gap: Examples of compliant vs non-compliant AI-assisted work"
+          ],
+          "tag_receipts": {
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              244,
+              245,
+              246,
+              248
+            ],
+            "gap: Examples of compliant vs non-compliant AI-assisted work": [
+              244,
+              248,
+              249
+            ]
+          },
+          "card_ids": [
+            244,
+            245,
+            246,
+            247,
+            248,
+            249
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How Should Hiring Policies Handle AI Disclosure?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What AI Use Is Permitted vs Prohibited, and Does It Depend on the Stage?",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "gap: Examples of compliant vs non-compliant AI-assisted work"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              317,
+              322,
+              323,
+              324
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              317,
+              318,
+              319,
+              322,
+              323
+            ],
+            "gap: Examples of compliant vs non-compliant AI-assisted work": [
+              318,
+              319
+            ]
+          },
+          "card_ids": [
+            317,
+            318,
+            319,
+            322,
+            323,
+            324
+          ]
+        },
+        {
+          "h3": "What Happens When AI Use Isn't Disclosed?",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "gap: Clear scoring guidance for judges, not just participant advice"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              320,
+              326
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              320,
+              321,
+              326
+            ],
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              326
+            ]
+          },
+          "card_ids": [
+            320,
+            321,
+            326
+          ]
+        },
+        {
+          "h3": "How Is Disclosed AI Use Scored?",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "gap: Clear scoring guidance for judges, not just participant advice"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              301,
+              325
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              299,
+              301,
+              325
+            ],
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              300,
+              325
+            ]
+          },
+          "card_ids": [
+            299,
+            300,
+            301,
+            325
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What does a complete AI-use disclosure statement look like?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What elements make a disclosure statement complete?",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "gap: Clear scoring guidance for judges, not just participant advice"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              314,
+              316
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              283,
+              284,
+              285,
+              286,
+              312,
+              313
+            ],
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              314,
+              316
+            ]
+          },
+          "card_ids": [
+            211,
+            212,
+            283,
+            284,
+            285,
+            312,
+            313,
+            314,
+            316
+          ]
+        },
+        {
+          "h3": "The AID framework: a model borrowed from academic publishing",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              280,
+              288
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              280,
+              281,
+              282,
+              288
+            ]
+          },
+          "card_ids": [
+            238,
+            280,
+            281,
+            282,
+            288
+          ]
+        },
+        {
+          "h3": "Where should the disclosure live in a submission?",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              293
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              292,
+              293
+            ]
+          },
+          "card_ids": [
+            293
+          ]
+        },
+        {
+          "h3": "Matching disclosure depth to how much AI shaped the work",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized",
+            "gap: Examples of compliant vs non-compliant AI-assisted work"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              291,
+              294,
+              298
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              294,
+              295,
+              298
+            ],
+            "gap: Examples of compliant vs non-compliant AI-assisted work": [
+              239,
+              240,
+              296,
+              297
+            ]
+          },
+          "card_ids": [
+            239,
+            240,
+            289,
+            291,
+            294,
+            296,
+            298
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do you actually detect undisclosed AI use in candidate work?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Why the live discussion is the real verification step",
+          "tags": [
+            "asset-angle",
+            "gap: Clear scoring guidance for judges, not just participant advice"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              78,
+              79
+            ],
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              79
+            ]
+          },
+          "card_ids": [
+            78,
+            79
+          ]
+        },
+        {
+          "h3": "Setting policy when AI use is itself an evaluated skill",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              80,
+              81
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              80,
+              81
+            ]
+          },
+          "card_ids": [
+            80,
+            81
+          ]
+        },
+        {
+          "h3": "Tells hiding in written and submitted materials",
+          "tags": [
+            "asset-angle",
+            "common-h2: Submission review focus"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              258,
+              264
+            ],
+            "common-h2: Submission review focus": [
+              258,
+              260,
+              264
+            ]
+          },
+          "card_ids": [
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264
+          ]
+        },
+        {
+          "h3": "Process signals: rubric-gaming and missing iteration",
+          "tags": [
+            "asset-angle",
+            "gap: Clear scoring guidance for judges, not just participant advice",
+            "common-h2: Submission review focus"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              273,
+              277
+            ],
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              273,
+              277
+            ],
+            "common-h2: Submission review focus": [
+              271,
+              272,
+              273
+            ]
+          },
+          "card_ids": [
+            269,
+            271,
+            272,
+            273,
+            277
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How should assessments score AI use instead of just detecting it?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "Vendors are shifting to scoring how AI is used, not whether it's used",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              231,
+              232,
+              235
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              232,
+              235,
+              237
+            ]
+          },
+          "card_ids": [
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237
+          ]
+        },
+        {
+          "h3": "Rubrics need anchored score bands and evidence to resist gaming",
+          "tags": [
+            "asset-angle",
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists",
+            "gap: Clear scoring guidance for judges, not just participant advice"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              305,
+              307,
+              311
+            ],
+            "gap: Concrete judging rubric with point weights beyond thin criteria lists": [
+              306,
+              309,
+              310
+            ],
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              307,
+              309,
+              311
+            ]
+          },
+          "card_ids": [
+            304,
+            305,
+            306,
+            307,
+            309,
+            310,
+            311
+          ]
+        },
+        {
+          "h3": "Fixing judges who penalize disclosed AI use",
+          "tags": [
+            "asset-angle",
+            "gap: Anti-bias and consistency guardrails for judging panels",
+            "gap: Clear scoring guidance for judges, not just participant advice"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              330,
+              331,
+              333
+            ],
+            "gap: Anti-bias and consistency guardrails for judging panels": [
+              330,
+              331
+            ],
+            "gap: Clear scoring guidance for judges, not just participant advice": [
+              331,
+              334,
+              335
+            ]
+          },
+          "card_ids": [
+            330,
+            331,
+            333,
+            334,
+            335
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "How do companies actually enforce their AI-use policies?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "How do companies actually enforce their AI-use policies?",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              256
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              256
+            ]
+          },
+          "card_ids": [
+            256
+          ]
+        },
+        {
+          "h3": "Attestation vs. disclosure: the two enforcement mechanisms",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              209,
+              210,
+              214
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              209,
+              210,
+              214
+            ]
+          },
+          "card_ids": [
+            209,
+            210,
+            214
+          ]
+        },
+        {
+          "h3": "Strict-end policies: outright bans on AI use",
+          "tags": [
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              251,
+              252,
+              253
+            ]
+          },
+          "card_ids": [
+            251,
+            252,
+            253
+          ]
+        },
+        {
+          "h3": "Soft-end policies: expectations without teeth",
+          "tags": [
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              254,
+              255
+            ]
+          },
+          "card_ids": [
+            254,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "What legal and regulatory requirements apply to AI use in hiring?",
+      "target_keyword": null,
+      "h3s": [
+        {
+          "h3": "What does existing law require for AI-in-hiring disclosure?",
+          "tags": [
+            "asset-angle",
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              169,
+              170,
+              190
+            ],
+            "gap: AI-assistance policy for submissions, including what is allowed, disclosable, or penalized": [
+              169,
+              170
+            ]
+          },
+          "card_ids": [
+            168,
+            169,
+            170,
+            190
+          ]
+        },
+        {
+          "h3": "Why do explainable, auditable scores matter for compliance?",
+          "tags": [
+            "asset-angle"
+          ],
+          "tag_receipts": {
+            "asset-angle": [
+              339,
+              336
+            ]
+          },
+          "card_ids": [
+            336,
+            339
+          ]
+        }
+      ]
+    }
+  ]
+}

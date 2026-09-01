@@ -1,0 +1,122 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>What we started with</title><style>
+:root{--ink:#1c1a17;--mut:#6b6459;--line:#efe7d8;--bg:#fffdf8;--card:#fff;--wash:#fff8ec;
+      --acc:#fb7a00;--acc-soft:#ffd9b0;--yellow:#ffb703;--yellow-soft:#ffe9ad;
+      --ok:#2e7d43;--ok-bg:#e8f5ec;--no:#c2603a;--no-bg:#fdf3f0;--warn:#9a6700;--chip:#fff8ec;
+      --shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+     font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:40px 24px 120px}
+h1{font-size:clamp(26px,4vw,34px);margin:0 0 4px;letter-spacing:-.02em}
+h1 .hl,h1{background:linear-gradient(180deg,transparent 68%,var(--yellow-soft) 68%);display:inline}
+.sub{color:var(--mut);margin:10px 0 28px;display:block}
+h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);
+   margin:36px 0 10px;border-bottom:1px solid var(--line);padding-bottom:7px;font-weight:700}
+/* A failed check has to be findable at a glance in a table of green ticks. */
+tr.bad td{background:var(--pinkwash)}
+tr.bad td:first-child{color:var(--pink);font-weight:700}
+.panel.bad{border-color:var(--pinkline);background:var(--pinkwash)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;
+       margin:0 0 14px;box-shadow:var(--shadow)}
+.nums{display:flex;gap:28px;flex-wrap:wrap;background:linear-gradient(180deg,var(--wash),var(--card));
+      border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin:0 0 10px;box-shadow:var(--shadow)}
+.nums b{font-size:1.55em;display:block;color:var(--ink)}
+ins{background:var(--ok-bg);color:var(--ok);text-decoration:none;border-radius:2px;padding:0 2px}
+del{background:var(--no-bg);color:var(--no);border-radius:2px;padding:0 2px}
+details.diff{border:1px solid var(--line);border-radius:10px;padding:9px 13px;margin:8px 0;background:var(--card)}
+details.diff summary{font-weight:600;cursor:pointer;line-height:1.9}
+details.diff[open] summary{margin-bottom:6px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.dbody{margin-top:6px;font-size:.94em;line-height:1.75}
+.subh{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--acc);
+      font-weight:700;margin:14px 0 4px}
+code{background:var(--wash);border:1px solid var(--line);border-radius:4px;padding:1px 5px;font-size:.86em}
+.kwlist{margin:.3em 0;padding-left:1.3em}
+.kwlist li{margin:.35em 0}
+.map{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 30px;align-items:start}
+.mcol{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:9px 9px 11px;
+      box-shadow:var(--shadow);min-width:0}
+.mh{font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--acc);font-weight:700;
+    padding:2px 5px 7px}
+.mnote{font-size:11.5px;color:var(--warn);background:var(--wash);border:1px dashed var(--acc-soft);
+       border-radius:7px;padding:5px 8px;margin:0 3px 6px;line-height:1.45}
+.lead{color:var(--mut);font-size:.93em;margin:0 0 22px;line-height:1.6}
+.mstep{display:block;text-decoration:none;color:var(--ink);border-radius:8px;padding:5px 8px;
+       border:1px solid transparent}
+.mstep b{display:block;font-size:13.5px;font-weight:700;line-height:1.35}
+.mstep span{display:block;font-size:12.5px;color:var(--mut);line-height:1.45}
+.mstep i{display:block;font-style:normal;font-size:11px;color:var(--mut);opacity:.7;margin-top:1px}
+a.mstep:hover{background:var(--wash);border-color:var(--acc-soft)}
+a.mstep:hover b{color:var(--acc)}
+.mstep.on{background:var(--acc);border-color:var(--acc)}
+.mstep.on b,.mstep.on span{color:#fff}
+.mstep.on span{opacity:.9}
+.mstep.none{opacity:.5}
+@media(max-width:820px){.map{grid-template-columns:1fr}}
+.nums span{color:var(--mut);font-size:.8em}
+.row{padding:10px 2px;border-top:1px dashed var(--line)}
+.row:first-of-type{border-top:0}
+.row .t{font-weight:650}
+.row .m{color:var(--mut);font-size:.88em}
+.reason{margin-top:2px;font-size:.92em}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:100px;
+      padding:1px 9px;font-size:.76em;color:var(--mut);margin-left:6px;vertical-align:middle}
+.tag{display:inline-block;background:var(--yellow-soft);border-radius:100px;padding:1px 9px;font-size:.8em;
+     margin:2px 4px 2px 0;cursor:help;color:var(--ink)}
+.ok{color:var(--ok)}.no{color:var(--no)}.warn{color:var(--warn)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:700px){.grid2{grid-template-columns:1fr}}
+.bar{height:9px;background:var(--wash);border:1px solid var(--line);border-radius:5px;overflow:hidden;margin-top:3px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--yellow),var(--acc))}
+ul{margin:.3em 0;padding-left:1.3em}
+li{margin:.18em 0}
+a{color:var(--acc);overflow-wrap:anywhere}
+details{margin:6px 0}
+summary{cursor:pointer}
+.spine{font-size:1.12em;line-height:1.65;background:var(--wash);border:1px solid var(--acc-soft);
+       border-left:4px solid var(--acc);border-radius:12px;padding:18px 20px;margin:0 0 20px}
+.job{font-style:italic;color:var(--mut);margin:2px 0 6px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+.filters button{background:var(--card);border:1px solid var(--line);color:var(--ink);border-radius:100px;
+                padding:5px 13px;cursor:pointer;font-size:.85em;font-weight:600}
+.filters button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.q{color:var(--mut);font-size:.85em}
+.where{background:var(--wash);border:1px solid var(--acc-soft);border-radius:12px;padding:14px 18px;margin:0 0 22px}
+.where ol{margin:6px 0 0;padding-left:20px}
+.where li{margin:.2em 0;color:var(--mut)}
+.where li.now{color:var(--ink);font-weight:650}
+.where .lead{font-size:.9em;color:var(--mut)}
+.note{color:var(--mut);font-size:.88em;margin:-4px 0 10px}
+.from{color:var(--mut);font-size:.88em}
+.from b{color:var(--ink);font-weight:650}
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 24px}
+.nav a{background:var(--card);border:1px solid var(--line);border-radius:100px;padding:5px 13px;
+       font-size:.85em;font-weight:600;text-decoration:none;color:var(--ink)}
+.nav a.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.lede{font-size:1.06em;line-height:1.66;margin:0 0 22px;color:var(--ink)}
+.oneline{background:var(--wash);border:1px solid var(--acc-soft);border-left:4px solid var(--acc);
+         border-radius:12px;padding:16px 20px;margin:0 0 26px;line-height:1.7}
+.oneline b{white-space:nowrap}
+.stn{display:flex;align-items:baseline;gap:10px;margin:26px 0 8px}
+.stn .name{font-size:1.06em;font-weight:700}
+.stn .does{color:var(--mut);font-size:.9em}
+.step{display:grid;grid-template-columns:30px 1fr;gap:2px 10px;padding:9px 2px;
+      border-top:1px dashed var(--line)}
+.step:first-child{border-top:0}
+.step .no{color:var(--acc);font-weight:700;font-variant-numeric:tabular-nums;font-size:.92em}
+.step .nm{font-weight:650}
+.step .dsc{grid-column:2;color:var(--mut);font-size:.9em}
+.step .see{grid-column:2;font-size:.84em;margin-top:2px}
+.b{display:inline-block;border-radius:100px;padding:0 8px;font-size:.7em;font-weight:700;
+   letter-spacing:.03em;vertical-align:middle;margin-left:6px;border:1px solid var(--line);
+   background:var(--chip);color:var(--mut);text-transform:uppercase}
+.b.ai{background:var(--yellow-soft);border-color:#f2d98d;color:#6a4a00}
+.b.paid{background:var(--no-bg);border-color:#f0d3c8;color:var(--no)}
+.b.code{background:var(--ok-bg);border-color:#cfe6d6;color:var(--ok)}
+.pg{padding:14px 2px;border-top:1px dashed var(--line)}
+.pg:first-child{border-top:0}
+.pg .t{font-weight:700;font-size:1.02em}
+.pg .ask{color:var(--mut);font-size:.9em;margin-top:1px}
+.pg .cov{font-size:.84em;margin-top:5px;color:var(--mut)}
+.pg .look{font-size:.88em;margin-top:4px}
+.key{display:flex;gap:16px;flex-wrap:wrap;font-size:.84em;color:var(--mut);margin:0 0 14px}
+</style></head><body><div class="wrap"><h1>What we started with</h1><p class="sub">running-hiring-hackathon-that-screens — gather review</p><div class="map"><div class="mcol"><div class="mh">1 · Planner</div><a class="mstep on" href="../gather/gather-review.html" target="_blank"><b>gather</b><span>Collects everything the research phase produced.</span></a><a class="mstep" href="../planner/selection-review.html" target="_blank"><b>select</b><span>Keeps the sub-topics that earn a place, and drops the rest.</span></a><a class="mstep" href="../planner/sources-review.html" target="_blank"><b>verify-sources</b><span>Opens the page behind every statistic to check the number is really there.</span></a><span class="mstep none"><b>freeze</b><span>Locks the plan so no later step can quietly change it.</span><i>no page — nothing here to overrule</i></span><span class="mstep none"><b>plan-view</b><span>Writes the locked plan out in plain English.</span><i>no page — nothing here to overrule</i></span></div><div class="mcol"><div class="mh">2 · Architect</div><div class="mnote">All 6 open the one <b>Blueprint</b> page, each at its own section.</div><a class="mstep" href="../architect/blueprint-review.html#sections" target="_blank"><b>shape</b><span>Designs the sections and the order they come in.</span></a><a class="mstep" href="../architect/blueprint-review.html#research" target="_blank"><b>enrich</b><span>Runs the extra research the structure asked for.</span></a><a class="mstep" href="../architect/blueprint-review.html" target="_blank"><b>brand-cards</b><span>Turns the company&#x27;s own research and results into facts the article can cite.</span></a><a class="mstep" href="../architect/blueprint-review.html#sections" target="_blank"><b>allocate</b><span>Gives every section a word budget.</span></a><a class="mstep" href="../architect/blueprint-review.html#keywords" target="_blank"><b>section-keywords</b><span>Buys a real search keyword for the sections that deserve one.</span></a><a class="mstep" href="../architect/blueprint-review.html#headings" target="_blank"><b>headings</b><span>Writes the final wording of every heading, and the H1.</span></a></div><div class="mcol"><div class="mh">3 · Writer</div><a class="mstep" href="../writer/body-review.html" target="_blank"><b>write-body</b><span>Writes every section at once, none able to see the others.</span></a><a class="mstep" href="../writer/editor-review.html" target="_blank"><b>blend</b><span>Reads the whole article and cuts what did not earn its place.</span></a><a class="mstep" href="../writer/wrapper-review.html" target="_blank"><b>wrapper</b><span>Writes the intro on PAS, the FAQ, and the close.</span></a><a class="mstep" href="../writer/coherence-review.html" target="_blank"><b>coherence</b><span>Reads the whole article at once and fixes what contradicts itself.</span></a><a class="mstep" href="../writer/readable-review.html" target="_blank"><b>readable</b><span>Rewrites the whole article so a person wants to read it.</span></a><a class="mstep" href="../writer/slop-review.html" target="_blank"><b>slop</b><span>Strips the AI writing tells.</span></a><a class="mstep" href="../writer/links-review.html" target="_blank"><b>links</b><span>Lays in the internal and external links.</span></a><a class="mstep" href="../writer/clean-review.html" target="_blank"><b>clean</b><span>Fixes odd characters and spacing. No AI.</span></a><a class="mstep" href="../writer/article.html" target="_blank"><b>assemble</b><span>Builds the finished draft and the page you review it on.</span></a></div></div><p class="lead">Nothing has been decided yet. This is the raw material the article will be built from, and the settings it will be built to.</p><h2>The settings this run used</h2><div class="panel"><div class="row"><span class="t">H1</span><div>Running a Hiring Hackathon That Screens for Real Skill, With a Judging Rubric and an AI-Use Policy</div></div><div class="row"><span class="t">Format</span><div>how-to-guide</div></div><div class="row"><span class="t">Primary keyword</span><div>hackathon judging</div></div><div class="row"><span class="t">Variations</span><div>hackathon judging rubric</div></div><div class="row"><span class="t">Secondary pool (for section headings)</span><div>ai use policy, challenge statements, how does a hackathon work</div></div><div class="row"><span class="t">Persona</span><div>TA / Recruiting Practitioner</div></div><div class="row"><span class="t">Word band</span><div>2800–3800 words</div></div></div><h2>The world — what this article is and is not about</h2><p class="note">Google returns questions and searches for the WORDS in a query, not for the audience behind them, so some of what comes back belongs to a different field that happens to share our vocabulary. The two lines below are the boundary the vetting used. Read them before judging the keeps and drops.</p><div class="panel"><div class="row"><span class="t">IS about</span><div>This is about employers running a structured hiring hackathon — a timed, scenario-based build challenge given to job candidates during the hiring process — as a real-skill assessment method, with a defined judging rubric (the criteria and scoring scale evaluators use to score submissions) and an explicit AI-use policy (what generative AI tools candidates may or may not use while building their submission, and how that&#x27;s disclosed and factored into judging).</div></div><div class="row"><span class="t">is NOT about</span><div>This is NOT about public prize hackathons or hackathon competitions run for cash prizes, sponsorship, or PR (e.g. weekend hacker competitions open to the public). It is NOT about community coding weekends, meetups, or open-source sprints. It is NOT about charity or social-good hackathons. It is NOT about student/university hackathons run for learning or networking rather than hiring. It is NOT about internal company hackathons run for product ideation or innovation among existing employees (not a hiring context). It is NOT about security/CTF-style &#x27;hacking&#x27; events (penetration testing, capture-the-flag). &#x27;Rubric&#x27; here is a hiring evaluation scorecard, NOT an academic classroom grading rubric. &#x27;AI-use policy&#x27; here means candidate-facing rules for one hackathon event, NOT a company&#x27;s broad internal/enterprise AI governance or usage policy for employees.</div></div></div><h2>People-Also-Ask questions — kept 0 of 0</h2><div class="grid2"><div class="panel"><b class="ok">Kept</b><ul><li class='q'>none</li></ul></div><div class="panel"><b class="no">Dropped</b><ul><li class='q'>none dropped</li></ul><p class="q">The vet call returns only the keeps, so no per-drop reason is on record. A drop means one of two things: off-topic for this article, or belonging to the world in the NOT ABOUT line above.</p></div></div><h2>Related searches — kept 3 of 9</h2><div class="grid2"><div class="panel"><b class="ok">Kept</b><ul><li>Hackathon judging criteria</li><li>Hackathon judging criteria template</li><li>Online hackathon judging</li></ul></div><div class="panel"><b class="no">Dropped</b><ul><li>Hackathon judging reddit</li><li>Hackathon judging ideas</li><li>Hackathon judging companies</li><li>Hackathon judge opportunities 2026</li><li>Judge hackathon EB1</li><li>Hackathon judging near me</li></ul><p class="q">The vet call returns only the keeps, so no per-drop reason is on record. A drop means one of two things: off-topic for this article, or belonging to the world in the NOT ABOUT line above.</p></div></div><h2>Research depth per section (cards available)</h2><div class="panel"><div class="row"><div class="t">Hackathons, AI Skills, and Assessment Integrity <span class="chip">6 cards</span></div><div class="bar"><i style="width:10%"></i></div></div><div class="row"><div class="t">Are hackathon-style work sample tests actually valid and fair? <span class="chip">15 cards</span></div><div class="bar"><i style="width:25%"></i></div></div><div class="row"><div class="t">Can a rubric actually make hackathon judging fair? <span class="chip">23 cards</span></div><div class="bar"><i style="width:38%"></i></div></div><div class="row"><div class="t">Why you need a structured judging framework <span class="chip">17 cards</span></div><div class="bar"><i style="width:28%"></i></div></div><div class="row"><div class="t">How should the judging rubric be built? <span class="chip">5 cards</span></div><div class="bar"><i style="width:8%"></i></div></div><div class="row"><div class="t">How do you build a scoring rubric? <span class="chip">9 cards</span></div><div class="bar"><i style="width:15%"></i></div></div><div class="row"><div class="t">How do you score and weight hackathon judging criteria? <span class="chip">10 cards</span></div><div class="bar"><i style="width:17%"></i></div></div><div class="row"><div class="t">Why anchored score bands keep judges consistent <span class="chip">12 cards</span></div><div class="bar"><i style="width:20%"></i></div></div><div class="row"><div class="t">How Do You Calibrate Judges So Scores Are Consistent and Fair? <span class="chip">60 cards</span></div><div class="bar"><i style="width:100%"></i></div></div><div class="row"><div class="t">Why a hiring rubric isn&#x27;t a one-and-done document <span class="chip">2 cards</span></div><div class="bar"><i style="width:3%"></i></div></div><div class="row"><div class="t">How do you make judging scores defensible and audit-ready? <span class="chip">11 cards</span></div><div class="bar"><i style="width:18%"></i></div></div><div class="row"><div class="t">Should hackathon challenges have an explicit AI-use policy? <span class="chip">28 cards</span></div><div class="bar"><i style="width:47%"></i></div></div><div class="row"><div class="t">Where&#x27;s the line between acceptable and unacceptable AI use? <span class="chip">47 cards</span></div><div class="bar"><i style="width:78%"></i></div></div><div class="row"><div class="t">How Should Hiring Policies Handle AI Disclosure? <span class="chip">13 cards</span></div><div class="bar"><i style="width:22%"></i></div></div><div class="row"><div class="t">What does a complete AI-use disclosure statement look like? <span class="chip">29 cards</span></div><div class="bar"><i style="width:48%"></i></div></div><div class="row"><div class="t">How do you actually detect undisclosed AI use in candidate work? <span class="chip">17 cards</span></div><div class="bar"><i style="width:28%"></i></div></div><div class="row"><div class="t">How should assessments score AI use instead of just detecting it? <span class="chip">21 cards</span></div><div class="bar"><i style="width:35%"></i></div></div><div class="row"><div class="t">How do companies actually enforce their AI-use policies? <span class="chip">9 cards</span></div><div class="bar"><i style="width:15%"></i></div></div><div class="row"><div class="t">What legal and regulatory requirements apply to AI use in hiring? <span class="chip">10 cards</span></div><div class="bar"><i style="width:17%"></i></div></div></div><h2>The winners study</h2><div class="panel"><details><summary>Gaps we chose to own (5)</summary><ul><li>Concrete judging rubric with point weights beyond thin criteria lists</li><li>AI-assistance policy for submissions, including what is allowed, disclosable, or penalized</li><li>Clear scoring guidance for judges, not just participant advice</li><li>Anti-bias and consistency guardrails for judging panels</li><li>Examples of compliant vs non-compliant AI-assisted work</li></ul></details><details><summary>What every winning article covers (7)</summary><ul><li>Judging criteria</li><li>Judge process</li><li>Submission review focus</li><li>What makes a project stand out</li><li>Common score reducers</li><li>Competitor advice</li><li>Judge FAQs or logistics</li></ul></details><details><summary>Where winners drift off-topic (1)</summary><ul><li>ohack drifts into judge recruitment and social-impact mission content; Devpost drifts into judge interviews and related hackathon stories</li></ul></details></div></div><script></script></body></html>
