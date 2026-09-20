@@ -1,20 +1,16 @@
-# listicle — craft rules (PARKED, nothing reads this yet)
-
-Moved out of `../listicle.md` on 2026-08-08, because the architect designs the body and cannot act on
-any of it.
+# listicle — wrap rules (read by the wrapper step)
 
 ## Intro
-- [ ] **ONE crisp intro, 2 to 4 sentences: who the list is for, and how you chose or ordered it.** No long preamble. Get to the list.
-- [ ] **OPEN QUESTION, for Devansh:** what else may sit above the list? The old rule allowed one buying-intent specs or comparison table before the items, for product and buying-intent articles only, and nothing else. It has never actually fired on a real run. If anything is allowed up there, it needs its own named section rather than a vague permission.
+- ONE crisp intro, 2 to 4 sentences: who the list is for, and how the items were chosen or
+  ordered. No long preamble, no PAS build-up stretched to six sentences. Get to the list.
 
-## Key-findings menu
-Nothing specific to this format.
+## TL;DR
+- Lead with the verdict: which item wins for most readers, and the one or two runner-ups by
+  use case. A reader who reads only this block should know which item to look at first.
 
 ## Close and takeaways
-Nothing specific to this format yet.
+- Close on "pick A if…, pick B if…" guidance in the article's own words, then the bridge to the
+  brand. Never a summary of every item.
 
 ## FAQ
-Nothing specific to this format yet.
-
-## Publishing
-Nothing specific to this format.
+- Questions about choosing between items beat questions re-defining the category.

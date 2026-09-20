@@ -6,7 +6,7 @@ The original dossier is never touched. STORM's shim is auto-started if it isn't 
 Reads:  gap-queries.json + the original dossier path (locates the topic's out dir).
 Writes: projects/testlify/content-machine/storm/out/<Topic>/iteration-<i>/ (a full STORM run) + <run_dir>/storm-iterations.json (manifest).
 """
-import os, sys, json, glob, time, shutil, subprocess, urllib.request
+import os, sys, json, time, shutil, subprocess, urllib.request
 import config
 
 STORM_OUT = config.STORM_OUT
@@ -41,12 +41,6 @@ def _ensure_shim(log_dir=None):
     sys.exit(f"STORM shim did not come up on :8081 — check {os.path.join(log_dir, 'shim.out')}")
 
 
-def _newest_out_dir(before):
-    dirs = {d for d in glob.glob(os.path.join(STORM_OUT, "*")) if os.path.isdir(d)}
-    fresh = dirs - before
-    return max(fresh, key=os.path.getmtime) if fresh else None
-
-
 def _iteration_done(dest):
     """An iteration counts as complete if its polished article exists and is non-empty (same bar as the STORM gate)."""
     p = os.path.join(dest, "storm_gen_article_polished.txt")
@@ -62,6 +56,12 @@ def run(queries_path, run_dir, dossier_path, redo=False):
         print("no gap queries -> no re-run")
         return
 
+    # The topic's brief (2026-08-03): the conductor's spine.json sits with the main dossier. Each gap
+    # iteration keeps its own gap QUERY as the research subject but carries the same article brief, so
+    # the fill research stays inside the article's world instead of running blind.
+    spine_file = os.path.join(topic_dir, "spine.json")
+    hub_rel = os.path.relpath(topic_dir, STORM_OUT)   # "<Topic>" for hubs, "<hub>/<Topic>" for spokes
+
     iterations, shim_started = [], False
     for i, q in enumerate(queries, 1):
         dest = os.path.join(topic_dir, f"iteration-{i}")
@@ -74,21 +74,22 @@ def run(queries_path, run_dir, dossier_path, redo=False):
             continue
         if not shim_started:
             _ensure_shim(log_dir=os.path.join(run_dir, "_shim-logs")); shim_started = True
-        before = {d for d in glob.glob(os.path.join(STORM_OUT, "*")) if os.path.isdir(d)}
+        if os.path.exists(dest):                     # a partial/failed attempt — clear it, the run rewrites in full
+            shutil.rmtree(dest)
         print(f">>> STORM iteration {i}/{len(queries)}: {q['query']}")
+        # --hub/--folder aim STORM's output straight at iteration-<i> (2026-08-03) — replaces the old
+        # newest-folder-then-move detection, which guessed the fresh dir by mtime.
         cmd = [config.STORM_PYTHON, config.STORM_RUNNER, q["query"], "--provider", config.LLM_PROVIDER,
-               "--turns", "4", "--topk", "5", "--article", "--polish"]
+               "--turns", "4", "--topk", "5", "--article", "--polish",
+               "--hub", hub_rel, "--folder", f"iteration-{i}"]
+        if os.path.exists(spine_file):
+            cmd += ["--spine-file", spine_file, "--perspectives", "4"]
         if config.LLM_MODEL:
             cmd += ["--model", config.LLM_MODEL]
         subprocess.run(cmd,
                        cwd=config.STORM_DIR, check=True)
-        src = _newest_out_dir(before)
-        if src:
-            if os.path.exists(dest):
-                shutil.rmtree(dest)
-            shutil.move(src, dest)
         iterations.append({"i": i, "query": q["query"], "fills": q.get("fills", []),
-                           "dir": os.path.relpath(dest, STORM_OUT) if src else None})
+                           "dir": os.path.relpath(dest, STORM_OUT) if _iteration_done(dest) else None})
     config.write_json(manifest_p, {"iterations": iterations})
     print(f"gap-fill STORM: {len(iterations)} iteration(s) -> {topic_dir}/iteration-*")
 

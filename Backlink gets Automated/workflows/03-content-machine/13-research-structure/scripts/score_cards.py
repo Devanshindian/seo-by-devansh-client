@@ -1,31 +1,32 @@
-"""Step 1b — angle-relevance filter. Score every card against the asset title + distinct angle and DROP the
-off-angle tail BEFORE clustering, so the blueprint is article-scale (not an encyclopedia). This is the biggest
-lever on blueprint quality: rich STORM floods the clusterer with off-angle field-history / clinical / deep-theory
-cards; this step removes them while PROTECTING anything load-bearing.
+"""Step 1b — spine-relevance filter. Score every card against the article's SPINE (what it argues, for
+whom — from the conductor's spine.json) and DROP the off-spine tail BEFORE clustering, so the blueprint
+is article-scale (not an encyclopedia). This is the biggest lever on blueprint quality.
 
-The card is the atomic unit (one idea each), so this deletes at the finest possible granularity — a good card
-buried inside an off-angle section survives on its own merit or via the PROTECT rule.
+Rewritten 2026-08-03: the judge used to score "usefulness to the brand's reader", which let well-sourced
+cards about NEIGHBOURING topics (skills-based hiring, assessment validity) sail into a resume-statistics
+article — a perfect score on the wrong question. It now judges ONE test — does this card serve the SPINE —
+and sees the spine / about / not-about lines plus each card's SOURCE (where a subject shares a word with a
+different field, the source is often the only thing that reveals it). All four brand personas are shown
+as context, and the Step-1a picked persona (available since 1a runs first) is named as the primary reader.
 
-Scoring rubric (prompts/score-cards.md): relevance 0-5 (how directly a card helps the reader CHOOSE /
-EVALUATE / INTERPRET / USE the thing the brand offers). A card is DROPPED only if relevance <=
-config.SCORE_KEEP_THRESH AND it is not protected. PROTECT (never drop): tag in {gap, competitor} (handled in
-code); OR the judge marked `protected` (carries a number/%/coefficient/threshold/stat, a sample item, or ties a
-specific option to an outcome). Brand-agnostic — the reader/angle come from the asset + config.BRAND_ONELINER.
+The card is the atomic unit (one idea each), so this deletes at the finest possible granularity. PROTECT
+(never drop): the judge marked `protected` — the card carries a number / % / coefficient / threshold /
+statistic, a sample item, or ties a specific named option to an outcome.
 
-Reads: cards (list). Writes: dropped-cards.json (audit). Returns: (kept_cards, report).
-Runs after harvest (Step 1) and before cluster (Step 2-3).
+Reads: cards (list) + the article context (asset/angle/spine/about/not_about). Writes: dropped-cards.json
+(audit). Returns: (kept_cards, report). Runs after harvest (Step 1) and before cluster (Step 2-3).
 """
 import json, os, re
 from concurrent.futures import ThreadPoolExecutor
-import config, llm
+import config, llm, personas
 
 TEMPLATE = llm.load_prompt("score-cards.md")
-PROTECTED_TAGS = ("gap", "competitor")
 
 
 def _card_line(c):
     txt = re.sub(r"\s+", " ", (c.get("verbatim") or c.get("gloss") or "")).strip()[:260]
-    return f"{c['id']} | {c.get('tag')} | {txt}"
+    src = (c.get("source_urls") or [None])[0] or "-"
+    return f"{c['id']} | {c.get('tag')} | {src} | {txt}"
 
 
 def _score_batch(batch):
@@ -34,21 +35,23 @@ def _score_batch(batch):
     retries once internally, so an exception here is a real, repeated failure. run() aborts the whole step."""
     body = "\n".join(_card_line(c) for c in batch)
     prompt = (TEMPLATE.replace("{{ASSET}}", _A["asset"]).replace("{{ANGLE}}", _A["angle"])
-              .replace("{{PERSONA}}", _A["persona"]).replace("{{BRAND}}", config.BRAND_ONELINER)
+              .replace("{{SPINE}}", _A["spine"]).replace("{{ABOUT}}", _A["about"])
+              .replace("{{NOT_ABOUT}}", _A["not_about"]).replace("{{BRAND}}", config.BRAND_ONELINER)
+              .replace("{{PERSONAS}}", _A["personas"]).replace("{{PERSONA}}", _A["persona"])
               .replace("{{CARDS}}", body))
     out = llm.call_json(prompt)
     rows = out.get("scores", []) if isinstance(out, dict) else out
     return {int(r["id"]): r for r in rows if isinstance(r, dict) and "id" in r}
 
 
-_A = {"asset": "", "angle": "", "persona": ""}   # filled by run() so the thread pool can see them
+_A = {"asset": "", "angle": "", "spine": "", "about": "", "not_about": "", "personas": "", "persona": ""}
 
 
-def _persona_str(persona):
-    """Render the picked persona dict into the prompt line. Falls back to a generic reader if none."""
+def persona_str(persona):
+    """Render the Step-1a picked persona dict into one prompt line; generic reader if the pick failed."""
     if isinstance(persona, dict) and (persona.get("name") or persona.get("lens")):
-        name = persona.get("name", "").strip()
-        lens = persona.get("lens", "").strip()
+        name = (persona.get("name") or "").strip()
+        lens = (persona.get("lens") or "").strip()
         return f"{name} — {lens}" if name and lens else (name or lens)
     return "A practitioner making a real decision about what the brand offers (not an academic)."
 
@@ -65,8 +68,15 @@ def _as_int(v):
     return None
 
 
-def run(cards, asset, angle, persona, run_dir):
-    _A["asset"], _A["angle"], _A["persona"] = asset, (angle or asset), _persona_str(persona)
+def run(cards, asset, angle, persona, spine_ctx, run_dir):
+    """persona = the Step-1a picked reader (dict). spine_ctx = the conductor's spine.json dict
+    ({spine, about, not_about}); empty dict on legacy runs."""
+    spine_ctx = spine_ctx or {}
+    _A.update({"asset": asset, "angle": (angle or asset),
+               "spine": (spine_ctx.get("spine") or "").strip() or "(not available for this run)",
+               "about": (spine_ctx.get("about") or "").strip() or "(not available for this run)",
+               "not_about": (spine_ctx.get("not_about") or "").strip() or "(not available for this run)",
+               "personas": personas.block(), "persona": persona_str(persona)})
     batches = [cards[i:i + config.SCORE_BATCH] for i in range(0, len(cards), config.SCORE_BATCH)]
     scores = {}
     # ex.map re-raises the first batch exception when iterated, so a failed batch aborts the whole step
@@ -81,7 +91,7 @@ def run(cards, asset, angle, persona, run_dir):
         rel = _as_int(s.get("relevance"))
         if rel is None:
             unscored += 1                                        # judge omitted it / non-integer -> safe keep, but counted
-        protected = c.get("tag") in PROTECTED_TAGS or bool(s.get("protected"))
+        protected = bool(s.get("protected"))
         if not protected and rel is not None and rel <= config.SCORE_KEEP_THRESH:
             dropped.append({"id": c["id"], "tag": c.get("tag"), "gloss": c.get("gloss"),
                             "relevance": rel, "reason": s.get("reason", "")})

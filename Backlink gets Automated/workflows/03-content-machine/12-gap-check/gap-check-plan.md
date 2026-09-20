@@ -3,8 +3,15 @@ type: recipe (the gap-check layer of the research phase; self-contained)
 reusable: yes — one run per topic (hub or spoke)
 reads: research-doc-<topic>.md (the DataForSEO brief) + storm_gen_article_polished.txt (the STORM dossier)
 produces: projects/testlify/03-content-machine/gap-check/out/<slug>/ — coverage-items.json, coverage-verdicts.json, gap-queries.json, storm-iterations.json, gap-check.md; and gap-fill runs under projects/testlify/03-content-machine/storm/out/<Topic>/iteration-<n>/
-last_updated: 2026-07-10
+last_updated: 2026-08-04
 ---
+
+> **2026-08-04 revision (code is the source of truth where this doc drifts):** Step 0 no longer parses the
+> brief with an AI — the checklist is built in pure code (`checklist.py`) from `07-competitor-read.json` +
+> `04-serp-extract.json` + `spine.json`, and is cut to THREE types: `gap_we_own` · `winner_h2` ·
+> `aio_subtopic` (secondary_kw / in_body / paa / aeo_faq dropped). The judge and triage now receive the
+> spine + about/not-about; triage also reads the whole dossier and may raise an under-researched AREA
+> nobody flagged (`source: "own_find"`, higher bar). `parse-brief.md` is deleted.
 
 # Gap-check plan — does the dossier cover what the brief says matters?
 

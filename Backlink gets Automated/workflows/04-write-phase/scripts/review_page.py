@@ -305,11 +305,18 @@ def _trail(slug, w):
               "the intro, the FAQ and the close, and the two seams they create"),
              ("coherence-review.html", "4 · Coherence",
               "the only pass that reads the whole article at once, and what it rewrote"),
-             ("slop-review.html", "5 · The slop pass",
+             # readable and sentences used to be missing from this list, which is how a page could
+             # claim seven steps while the step that cut the article by a third went unmentioned.
+             ("readable-review.html", "5 · The rewrite for readers",
+              "the pass that rewrites every sentence and makes the article shorter, and every check "
+              "run against it"),
+             ("sentence-review.html", "6 · The sentences",
+              "how the sentences were re-shaped so a reader gets through them"),
+             ("slop-review.html", "7 · The slop pass",
               "every AI writing tell removed, with the before and after"),
-             ("links-review.html", "6 · The links",
+             ("links-review.html", "8 · The links",
               "every internal, read-more and external link, and why it was chosen"),
-             ("clean-review.html", "7 · The scrub",
+             ("clean-review.html", "9 · The scrub",
               "the mechanical character clean-up. Pure code, no judgment")]
     here = _os.path.dirname(config.artifact(slug, "article.html"))
     rows = "".join(
@@ -320,8 +327,9 @@ def _trail(slug, w):
         for f, t, d in STEPS)
 
     trail = ('<div class="trail"><h2>How this article was built</h2>'
-             '<p class="why">Sections are written independently, so they arrive reading like strangers. Seven '
-             'steps then repair them. Each step has its own page showing exactly what it changed and why, and '
+             f'<p class="why">Sections are written independently, so they arrive reading like strangers. '
+             f'{len(STEPS) - 1} steps then repair them. Each step has its own page showing exactly what '
+             f'it changed and why, and '
              'every change it made had to be declared. This page is only the finished article.</p>'
              f'<ul class="kwlist">{rows}</ul>'
              '<p class="why">Start at <a href="../index.html">the front door</a> to see the whole pipeline, '
@@ -331,8 +339,9 @@ def _trail(slug, w):
     stats = [("words the section writers produced, before editing", body_words),
              (f"edits the editor declared — {changed} section(s) actually changed",
               len(bl.get("edits") or [])),
-             (f"keywords placed into the text — {len(bl.get('keywords_skipped') or [])} skipped",
-              len(bl.get("keywords_used") or [])),
+             (f"distinct keywords placed into the text — {len(bl.get('keywords_skipped') or [])} "
+              f"skipped, {len(bl.get('keywords_used') or [])} placement(s) in all",
+              len({k.get("keyword") for k in (bl.get("keywords_used") or []) if k.get("keyword")})),
              # BOTH steps, not just the wrapper. This tile read only the wrapper's count, so an invented
              # tag caught at the blend step never reached the page.
              ("made-up source tags caught, editor + wrapper (0 is good)",

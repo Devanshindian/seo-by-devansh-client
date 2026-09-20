@@ -10,13 +10,12 @@ gap-check/
 ├── gap-check-plan.md   READ THIS FIRST — the recipe, step by step
 ├── README.md           how to run + this layout
 ├── prompts/
-│   ├── parse-brief.md      Step 0 — read the brief into coverage items
 │   ├── coverage-judge.md   Step 1 — per-item coverage judge
 │   └── gap-triage.md       Step 2 — spend the 2-3 STORM runs on what matters
 ├── scripts/
 │   ├── config.py           paths + coverage-target policy
 │   ├── llm.py              headless-Claude caller + JSON extraction (no API key, no shim)
-│   ├── parse_brief.py      Step 0 — brief -> coverage-items.json
+│   ├── checklist.py        Step 0 — checklist built in pure code (07-competitor-read + serp-extract + spine.json)
 │   ├── judge.py            Step 1 — coverage-verdicts.json
 │   ├── triage.py           Step 2 — gap-queries.json
 │   ├── rerun_storm.py      Step 3 — STORM re-run -> storm/out/<Topic>/iteration-<n>/

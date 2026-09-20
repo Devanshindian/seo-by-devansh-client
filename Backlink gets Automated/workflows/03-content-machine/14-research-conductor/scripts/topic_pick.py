@@ -189,6 +189,29 @@ def mark_done(slug):
     write_queue(rows)
 
 
+def mark_written(slug, status="done"):
+    """Close the OTHER half of the loop (2026-08-26).
+
+    research_status has always been maintained. write_status never was — nothing in the codebase
+    wrote that column, so every row read 'pending' forever, including four articles that were
+    finished and published. The queue could tell you what had been researched and not what had been
+    written, which is half a queue.
+
+    status is 'done' or 'failed'. A failed write leaves the row honest — research done, write failed —
+    rather than looking like a topic nobody has started.
+    """
+    rows = read_queue()
+    hit = False
+    for r in rows:
+        if r["slug"] == slug:
+            r["write_status"] = status
+            r["updated"] = _today()
+            hit = True
+    if hit:
+        write_queue(rows)
+    return hit
+
+
 def set_meta(slug, **fields):
     """Write extra fields onto a queue row (e.g. the cannibalisation flag found mid-run). Persists immediately."""
     rows = read_queue()
@@ -200,14 +223,51 @@ def set_meta(slug, **fields):
     write_queue(rows)
 
 
+# ---------------------------------------------------------------- the spokes sheet
+# Its own file, its own columns. `parent` and `keyword` are the two the queue never had: a spoke only
+# means anything next to the hub it hangs off, and the keyword is what it was minted from.
+SPOKE_FIELDS = ["slug", "parent", "keyword", "asset", "angle",
+                "research_status", "write_status", "run_dir", "attempts",
+                "created", "updated", "reuse_verdict", "chosen_links", "remarks"]
+
+
+def read_spokes():
+    if not os.path.exists(config.SPOKES_CSV):
+        return []
+    with open(config.SPOKES_CSV, newline="") as f:
+        return [dict(r) for r in csv.DictReader(f)]
+
+
+def write_spokes(rows):
+    os.makedirs(os.path.dirname(config.SPOKES_CSV), exist_ok=True)
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=SPOKE_FIELDS, extrasaction="ignore")
+    w.writeheader()
+    for r in rows:
+        w.writerow({k: r.get(k, "") for k in SPOKE_FIELDS})
+    tmp = config.SPOKES_CSV + ".tmp"
+    with open(tmp, "w", newline="") as f:
+        f.write(buf.getvalue())
+    os.replace(tmp, config.SPOKES_CSV)          # atomic: the file is old-complete or new-complete, never half
+
+
 def insert_spokes(hub_slug, hub_asset, hub_angle, spokes):
-    """Insert spoke rows RIGHT AFTER the hub row. spokes = list of {keyword, why}. Each bare keyword is first
-    MINTED into a real idea (title + angle) grounded in the pillar (spoke_idea.accept, which also re-angles off
-    duplicates), so a spoke enters the pipeline with the raw material a normal idea has. Slug = spoke-N-<kw>."""
+    """Record this hub's spokes in spokes.csv. spokes = list of {keyword, why}. Each bare keyword is first
+    MINTED into a real idea (title + angle) grounded in the pillar (spoke_idea.accept, which also re-angles
+    off duplicates), so a spoke carries the raw material a normal idea has. Slug = spoke-N-<kw>.
+
+    THEY NO LONGER GO INTO THE QUEUE (2026-08-27, Devansh). They used to be inserted directly after the hub
+    row in research-log.csv, which meant a hub finishing pushed its spokes ahead of every real idea — not a
+    decision anyone made, just where the code put them. The queue is now only ideas from clubbed-ideas.csv.
+    A spoke is recorded here against its parent and run when a person decides to run it.
+
+    Dedup is checked against BOTH sheets: a spoke must not repeat another spoke, and must not repeat a real
+    idea already queued.
+    """
     import spoke_idea
-    rows = read_queue()
-    idx = next((i for i, r in enumerate(rows) if r["slug"] == hub_slug), len(rows) - 1)
-    existing = {r["asset"].strip().lower() for r in rows}
+    rows = read_spokes()
+    queued = {r["asset"].strip().lower() for r in read_queue()}
+    existing = {r["asset"].strip().lower() for r in rows} | queued
     new = []
     for n, sp in enumerate(spokes, 1):
         kw = ((sp.get("keyword") if isinstance(sp, dict) else sp) or "").strip()
@@ -219,14 +279,14 @@ def insert_spokes(hub_slug, hub_asset, hub_angle, spokes):
         if title.strip().lower() in existing:
             continue
         existing.add(title.strip().lower())
-        new.append({"slug": _unique_slug(f"spoke-{n}-{slugify(kw)}", rows + new), "asset": title,
-                    "angle": (idea.get("angle") or why) + f"  [spoke keyword: '{kw}']",
-                    "source": f"spoke-of:{hub_slug}", "research_status": "pending", "write_status": "pending",
+        new.append({"slug": _unique_slug(f"spoke-{n}-{slugify(kw)}", rows + new),
+                    "parent": hub_slug, "keyword": kw, "asset": title,
+                    "angle": (idea.get("angle") or why),
+                    "research_status": "pending", "write_status": "pending",
                     "run_dir": "", "attempts": "0", "created": _today(), "updated": _today(),
                     "reuse_verdict": idea.get("verdict", ""),      # the real semantic reuse verdict for the spoke
-                    "chosen_links": idea.get("chosen", "")})
-    rows[idx + 1:idx + 1] = new
-    write_queue(rows)
+                    "chosen_links": idea.get("chosen", ""), "remarks": ""})
+    write_spokes(rows + new)
     return [r["asset"] for r in new]
 
 

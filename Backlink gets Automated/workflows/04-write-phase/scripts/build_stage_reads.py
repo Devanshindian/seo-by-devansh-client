@@ -141,7 +141,7 @@ def _stage_md(slug, fname, kind):
     if d.get("intro"):
         parts.append(str(d["intro"]).strip())
     if d.get("quick_answer"):
-        parts += ["## Quick answer", str(d["quick_answer"]).strip()]
+        parts += ["## TL;DR", str(d["quick_answer"]).strip()]
     parts.append(_sections_md(d.get("sections")))
     # Close, then FAQ — the order assemble publishes in (2026-08-20). These reads exist to show the
     # article as it stands, so they follow the finished page rather than the order of the JSON keys.

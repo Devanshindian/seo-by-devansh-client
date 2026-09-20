@@ -186,8 +186,22 @@ a{color:var(--acc);overflow-wrap:anywhere}
 mark{background:#ffe9ad;color:#1c1a17;border-radius:3px;padding:0 3px}
 """ + _map_css()
     b, a = report["before"], report["after"]
-    nums = "".join(f'<div><b>{b[k]} → {a[k]}</b><span>{k.replace("_", " ")}</span></div>' for k in b)
-    body = [f'<div class="nums">{nums}</div>']
+    blocks = report.get("blocks") or []
+    n_changes = sum(len(x.get("changes") or []) for x in blocks)
+    n_rej = sum(1 for x in blocks if str(x.get("verdict") or "").startswith("REJECTED"))
+    n_touched = sum(1 for x in blocks if x.get("changes"))
+    # The old headline was five raw-key counters that read 0 → 0 on every run, above a page full of
+    # real rewrites: the counters track literal tells (em dashes, "not just"), and the model rewrites
+    # the phrasing instead of leaving one behind. Count the work that actually happened.
+    nums = "".join(f"<div><b>{v}</b><span>{k}</span></div>" for k, v in (
+        ("changes made", n_changes), ("blocks touched", n_touched),
+        ("blocks rejected", n_rej), ("blocks read", len(blocks))))
+    tells = ", ".join(f'{k.replace("_", " ")} {b[k]}&nbsp;→&nbsp;{a[k]}' for k in b)
+    body = [f'<div class="nums">{nums}</div>',
+            '<p class="q">This step strips the tells that mark writing as machine-made: the em dash '
+            'used as a pause, the inflated word, the "not just X but Y" shape, the throat-clearing '
+            'opener. It rewrites the phrasing rather than deleting a word, so the literal counters '
+            f'below usually read zero even on a page full of changes. Literal tells: {tells}.</p>']
     for blk in report["blocks"]:
         if not blk["changes"] and not blk["verdict"].startswith("REJECTED"):
             continue

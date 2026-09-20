@@ -15,6 +15,7 @@ storm/
 ├── .env                DataForSEO creds (DFS_LOGIN / DFS_PW); auto-loaded by run_storm.py — keep local
 ├── CHANGES.md          every modification we made to STORM, and why
 ├── scripts/            OUR code: shim.py · dataforseo_rm.py · run_storm.py · build_steplog.py
+├── prompts/            OUR prompt files: pick-researchers.md (the brief-based research-team picker)
 ├── engine/             STORM's library source (our edits are documented in CHANGES.md); don't read to use it
 ├── venv/               the environment (generated; don't edit)
 ├── out/                run outputs land here (local)
@@ -37,10 +38,17 @@ cd "<this folder>"
 # 1. start the shim (bridge that lets STORM run on Claude Code instead of a paid API):
 nohup venv/bin/python scripts/shim.py > logs/shim.out 2>&1 &
 
-# 2. run STORM:
+# 2. run STORM (bare — legacy behavior, Wikipedia personas, folder named from the topic):
 venv/bin/python scripts/run_storm.py "YOUR TOPIC" --turns 4 --topk 5 --article --polish
+
+# 2b. run STORM WITH THE ARTICLE BRIEF (how the conductor calls it since 2026-08-03):
+venv/bin/python scripts/run_storm.py "YOUR TOPIC" --folder my-article-slug \
+    --spine-file "<storm out>/my-article-slug/spine.json" --perspectives 4 --article --polish
 ```
-Outputs appear in `out/<topic>/` — the polished dossier is `storm_gen_article_polished.txt`.
+Outputs appear in `out/<slug>/` (or `out/<topic>/` on a bare run) — the polished dossier is
+`storm_gen_article_polished.txt`. The brief (`--spine-file` = the conductor's spine.json: title/angle/
+spine/about/not-about) steers the researcher picker, every question, the outline, and every section;
+without it STORM behaves exactly as before.
 
 ## The scripts (what each does)
 - `shim.py` — local OpenAI-compatible server that forwards every LLM call to a headless CLI — `claude -p` (default) or `codex exec` ($0 API cost; pick with `--provider`).

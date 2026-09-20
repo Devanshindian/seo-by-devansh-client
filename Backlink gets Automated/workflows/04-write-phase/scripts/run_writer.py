@@ -132,6 +132,14 @@ def run(slug, redo=False, until=None):
         build_share_site.build_all()
     except Exception as e:
         print(f"  (share page skipped: {str(e)[:70]})")
+    try:
+        # Nothing rebuilt the top-level index, so it sat 9 days stale listing three retired
+        # articles with dead links. It is cheap and read-only, so it rebuilds every run.
+        import build_run_index
+        build_run_index.SLUGS = build_run_index._slugs()
+        build_run_index.build()
+    except Exception as e:
+        print(f"  (run index skipped: {str(e)[:70]})")
     try:                                 # the cost page: read-only, and never allowed to fail a run
         usage_page.build(slug)
         usage_page.build_all()

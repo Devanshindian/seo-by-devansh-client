@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """Step 1b — RANKED net (replaces the wide net). Pulls the keywords that WINNING pages already rank for.
-Two URL sources:
-  (1) competitor proof-URLs — read from <run_dir>/proof/00-competitor-urls.txt (one per line; from clubbed-ideas.csv)
-  (2) SERP-derived links — SERP the given seed, take the top organic pages
+URL source (2026-08-04 revision, decided with Devansh):
+  HUBS  — the vetted competitor proof-URLs ONLY (<run_dir>/proof/00-competitor-urls.txt), capped at
+          config.RANKED_URL_CAP. The old second source (SERP the head seed, take its top organic pages)
+          was dropped for hubs: the head seed is a guess at this point, so its SERP could aim the net at
+          the wrong pages — the vetted competitor list is the better source.
+  SPOKES — SERP-derived links from the given seed, as before: a spoke has no clubbed competitor URLs,
+          so the SERP is its only source.
 For each URL, ranked_keywords returns EVERY keyword that page ranks for (any position, capped by config.RANKED_PER_URL).
 Then merges the ranked-net into <run_dir>/proof/01-pool.json (which s1_expand.py wrote with the tight net).
 Usage: python3 s1b_ranked.py <run_dir> "<serp seed>"
@@ -36,12 +40,18 @@ def main():
     competitor_urls = [l.strip() for l in open(comp_file)] if os.path.exists(comp_file) else []
     competitor_urls = [u for u in competitor_urls if u and not u.startswith("#")]
 
-    # SERP the seed for the top organic pages
-    serp = dfs.call("/v3/serp/google/organic/live/advanced", [{**BASE, "keyword": seed, "depth": 10}])
-    serp_urls = [i.get("url") for i in (dfs.first_result(serp).get("items") or [])
-                 if i.get("type") == "organic"][:config.RANKED_SERP_LINKS]
-
-    urls = list(dict.fromkeys(competitor_urls + serp_urls))
+    if competitor_urls:
+        # HUB: vetted competitor pages only, capped — no seed-SERP guessing.
+        urls = list(dict.fromkeys(competitor_urls))[:config.RANKED_URL_CAP]
+        serp_urls = []
+        print(f"  hub mode: top {len(urls)} competitor URLs (of {len(competitor_urls)}), no seed-SERP")
+    else:
+        # SPOKE: no clubbed competitor URLs exist — the seed's SERP is the only source.
+        serp = dfs.call("/v3/serp/google/organic/live/advanced", [{**BASE, "keyword": seed, "depth": 10}])
+        serp_urls = [i.get("url") for i in (dfs.first_result(serp).get("items") or [])
+                     if i.get("type") == "organic"][:config.RANKED_SERP_LINKS]
+        urls = list(dict.fromkeys(serp_urls))
+        print(f"  spoke mode: {len(urls)} SERP-derived URLs for seed {seed!r}")
     ranked = {}
     failures = []
     for u in urls:

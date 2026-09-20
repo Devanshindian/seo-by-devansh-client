@@ -4,6 +4,7 @@ import dspy
 
 from .callback import BaseCallbackHandler
 from .storm_dataclass import StormInformationTable, StormArticle
+from ... import brief
 from ...interface import OutlineGenerationModule
 from ...utils import ArticleTextProcessing
 
@@ -105,10 +106,14 @@ class WriteOutline(dspy.Module):
         conv = ArticleTextProcessing.remove_citations(conv)
         conv = ArticleTextProcessing.limit_word_count_preserve_newline(conv, 5000)
 
+        # LOCAL PATCH (2026-08-03): the outline sees the article brief — a heading is what turns stray
+        # research into written pages, so this is where off-angle material must be refused a home.
+        article = brief.get_block("THE ARTICLE THIS DOSSIER FEEDS") or "N/A"
+
         with dspy.settings.context(lm=self.engine):
             if old_outline is None:
                 old_outline = ArticleTextProcessing.clean_up_outline(
-                    self.draft_page_outline(topic=topic).outline
+                    self.draft_page_outline(topic=topic, article=article).outline
                 )
                 if callback_handler:
                     callback_handler.on_direct_outline_generation_end(
@@ -116,7 +121,7 @@ class WriteOutline(dspy.Module):
                     )
             outline = ArticleTextProcessing.clean_up_outline(
                 self.write_page_outline(
-                    topic=topic, old_outline=old_outline, conv=conv
+                    topic=topic, article=article, old_outline=old_outline, conv=conv
                 ).outline
             )
             if callback_handler:
@@ -126,7 +131,8 @@ class WriteOutline(dspy.Module):
 
 
 class WritePageOutline(dspy.Signature):
-    """Write an outline for a Wikipedia page.
+    """Write an outline for a research dossier page.
+    If article context is given (not N/A): material that does not serve the asset title and the angle does not belong. EVERY HEADING MUST EARN ITS PLACE AGAINST THE SPINE — a heading is what turns stray research into written pages: create one, and thousands of words get written under it. Keep a heading only if it advances the spine or supports it; drop anything that belongs to the general subject but not to THIS article, and never create a heading from the world the context says this is NOT about.
     Here is the format of your writing:
     1. Use "#" Title" to indicate section title, "##" Title" to indicate subsection title, "###" Title" to indicate subsubsection title, and so on.
     2. Do not include other information.
@@ -134,7 +140,8 @@ class WritePageOutline(dspy.Signature):
     """
 
     topic = dspy.InputField(prefix="The topic you want to write: ", format=str)
-    outline = dspy.OutputField(prefix="Write the Wikipedia page outline:\n", format=str)
+    article = dspy.InputField(prefix="The article this dossier feeds:\n", format=str)
+    outline = dspy.OutputField(prefix="Write the outline:\n", format=str)
 
 
 class NaiveOutlineGen(dspy.Module):
@@ -145,13 +152,15 @@ class NaiveOutlineGen(dspy.Module):
         self.write_outline = dspy.Predict(WritePageOutline)
 
     def forward(self, topic: str):
-        outline = self.write_outline(topic=topic).outline
+        outline = self.write_outline(topic=topic,
+                                     article=brief.get_block("THE ARTICLE THIS DOSSIER FEEDS") or "N/A").outline
 
         return dspy.Prediction(outline=outline)
 
 
 class WritePageOutlineFromConv(dspy.Signature):
-    """Improve an outline for a Wikipedia page. You already have a draft outline that covers the general information. Now you want to improve it based on the information learned from an information-seeking conversation to make it more informative.
+    """Improve an outline for a research dossier page. You already have a draft outline that covers the general information. Now you want to improve it based on the information learned from an information-seeking conversation to make it more informative.
+    If article context is given (not N/A): material that does not serve the asset title and the angle does not belong. EVERY HEADING MUST EARN ITS PLACE AGAINST THE SPINE — a heading is what turns stray research into written pages: create one, and thousands of words get written under it. The conversations will contain plenty that is off-target; do not give it a heading. Keep a heading only if it advances the spine or supports it; drop anything that belongs to the general subject but not to THIS article, and never create a heading from the world the context says this is NOT about.
     Here is the format of your writing:
     1. Use "#" Title" to indicate section title, "##" Title" to indicate subsection title, "###" Title" to indicate subsubsection title, and so on.
     2. Do not include other information.
@@ -159,9 +168,10 @@ class WritePageOutlineFromConv(dspy.Signature):
     """
 
     topic = dspy.InputField(prefix="The topic you want to write: ", format=str)
+    article = dspy.InputField(prefix="The article this dossier feeds:\n", format=str)
     conv = dspy.InputField(prefix="Conversation history:\n", format=str)
     old_outline = dspy.OutputField(prefix="Current outline:\n", format=str)
     outline = dspy.OutputField(
-        prefix='Write the Wikipedia page outline (Use "#" Title" to indicate section title, "##" Title" to indicate subsection title, ...):\n',
+        prefix='Write the page outline (Use "#" Title" to indicate section title, "##" Title" to indicate subsection title, ...):\n',
         format=str,
     )

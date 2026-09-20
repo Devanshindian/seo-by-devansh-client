@@ -1,22 +1,31 @@
 """Step 8 — FAQ + order.
-FAQ = the 'question' cards (PAA / AI questions), deduped — code only.
+FAQ = the PAA questions straight from the DataForSEO SERP extract, deduped — code only. (Until 2026-08-03
+these came via brief-harvested 'question' CARDS — same data, laundered through clustering with no evidence
+behind it; the write phase reads the same SERP extract itself, so this list is display/blueprint context.)
 Order = one LLM call to sequence the H2s into a logical flow; verified as a permutation in code.
 """
-import sys, json
-import llm
+import os, sys, json
+import config, llm
 
 TEMPLATE = llm.load_prompt("order.md")
 
 
-def faq_from_cards(cards):
+def faq_from_serp(slug, hub=""):
+    """PAA questions from <dfs run>/proof/04-serp-extract.json; [] when the file is absent (never fatal)."""
+    p = os.path.join(config.DFS_RUNS, hub, slug, "proof", "04-serp-extract.json")
+    if not os.path.exists(p):
+        return []
+    try:
+        paa = json.load(open(p)).get("paa") or []
+    except Exception:
+        return []
     seen, faq = set(), []
-    for c in cards:
-        if c.get("tag") == "question":
-            q = c["gloss"].strip()
-            k = q.lower().rstrip("?")
-            if k not in seen:
-                seen.add(k)
-                faq.append(q if q.endswith("?") else q + "?")
+    for q in paa:
+        q = str(q).strip()
+        k = q.lower().rstrip("?")
+        if q and k not in seen:
+            seen.add(k)
+            faq.append(q if q.endswith("?") else q + "?")
     return faq
 
 
@@ -33,13 +42,12 @@ def order_sections(sections):
     return sections                                        # fallback: keep as-is
 
 
-def run(sections, cards):
-    return order_sections(sections), faq_from_cards(cards)
+def run(sections, slug, hub=""):
+    return order_sections(sections), faq_from_serp(slug, hub)
 
 
 if __name__ == "__main__":
     sections = json.load(open(sys.argv[1]))["sections"]
-    cards = json.load(open(sys.argv[2]))
-    secs, faq = run(sections, cards)
+    secs, faq = run(sections, sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "")
     print("FAQ:", faq)
     print("order:", [s["h2"][:40] for s in secs])

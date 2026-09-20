@@ -259,8 +259,8 @@
           </ul></td>
       </tr>
       <tr>
-        <td><span class="file">parse_brief.py</span><br><span class="muted" style="font-size:12.5px;">Step 0</span></td>
-        <td>Reads the brief into checkable items — <b>by meaning, not fixed patterns</b>, so a brief that drifts from the exact template still parses.</td>
+        <td><span class="file">checklist.py</span><br><span class="muted" style="font-size:12.5px;">Step 0</span></td>
+        <td>Builds the checklist in <b>pure code</b>, by opening two JSON files the earlier steps already wrote. No AI, no markdown parsing, so it cannot drift from its own source.</td>
       </tr>
       <tr>
         <td><span class="file">judge.py</span><br><span class="muted" style="font-size:12.5px;">Step 1</span></td>
@@ -295,13 +295,14 @@
     4 are free; Step 3 only costs money if it actually fires re-runs (STORM's web search). Sections 05–08 zoom in.</p>
     <div class="flow">
       <div class="step"><div class="dot">0</div><div class="step-body">
-        <h3>Read the brief <span class="pill free">free</span></h3>
-        <p><b>What it does:</b> an AI reads the whole brief and pulls out every item the article must cover, plus the
-        asset title and angle. Reading <b>by meaning</b>, so an off-template brief still parses.</p>
+        <h3>Build the checklist <span class="pill code">code</span></h3>
+        <p><b>What it does:</b> opens the JSON files the keyword research and the conductor already wrote, and lists
+        every item the article must cover. No AI is involved, because every item already exists as clean data.</p>
         <ul>
-          <li><span class="fn"><span class="file">parse_brief.py</span></span> → <span class="file">coverage-items.json</span> — each item as <span class="file">{id, type, item, context}</span>.</li>
+          <li><span class="fn"><span class="file">checklist.py</span></span> → <span class="file">coverage-items.json</span> — each item as <span class="file">{id, type, item, context}</span>, plus the article's title, angle, spine and the two world lines.</li>
+          <li>The gaps and the winners' common headings come from the competitor read; the answer skeleton comes from the saved search results; the article context comes from the spine file that sits with the dossier.</li>
         </ul>
-        <a class="xref" href="#check">↓ §05 — which item types it pulls (and which it ignores)</a></div></div>
+        <a class="xref" href="#check">↓ §05 — which item types it builds (and which it ignores)</a></div></div>
 
       <div class="step"><div class="dot">1</div><div class="step-body">
         <h3>Judge coverage, item by item <span class="pill free">free</span></h3>
@@ -352,28 +353,32 @@
 <section id="check">
   <div class="wrap">
     <h2><span class="num">05</span>What we check — and what we deliberately don't</h2>
-    <p class="sub">Not everything in the brief is about <i>evidence</i>. Gap-check only judges items where the
-    question is "does the dossier have the substance to write this?" — and skips pure positioning signals. The policy
-    lives in one place (<span class="file">config.py</span>).</p>
+    <p class="sub">Gap-check only judges items where the question is "does the dossier have the substance to write
+    this?" The checklist is deliberately short: three item types, and each one comes from a file, not from parsing
+    prose.</p>
 
     <table>
-      <tr><th>Item type</th><th>Where it comes from in the brief</th><th>Judged?</th></tr>
-      <tr><td><b>gap_we_own</b></td><td>What the winners cover → "Gaps we can own"</td><td><span class="v covered">yes — the priority</span></td></tr>
-      <tr><td><b>secondary_kw</b></td><td>Keywords → Secondary table</td><td><span class="v covered">yes</span></td></tr>
-      <tr><td><b>in_body</b></td><td>Keywords → In-body-only</td><td><span class="v covered">yes</span></td></tr>
-      <tr><td><b>winner_h2</b></td><td>What the winners cover → Common H2s</td><td><span class="v covered">yes</span></td></tr>
-      <tr><td><b>paa</b></td><td>SERP snapshot → People-also-ask (on-angle)</td><td><span class="v covered">yes</span></td></tr>
-      <tr><td><b>aio_subtopic</b></td><td>SERP snapshot → what the AI Overview covers</td><td><span class="v covered">yes</span></td></tr>
-      <tr><td><b>aeo_faq</b></td><td>AI answer landscape</td><td><span class="v partial">yes — only if there's a usable signal</span></td></tr>
-      <tr><td><b>primary</b></td><td>Keywords → Primary</td><td><span class="v partial">parsed, never judged</span></td></tr>
-      <tr><td class="muted">spokes · PAA off-angle · related searches · snippet-holder · "cited by AI"</td><td class="muted">positioning / GEO signals, not dossier substance</td><td><span class="v no">excluded</span></td></tr>
+      <tr><th>Item type</th><th>Where it comes from</th><th>Judged?</th></tr>
+      <tr><td><b>gap_we_own</b></td><td>The competitor read → the gaps we can own</td><td><span class="v covered">yes — the priority</span></td></tr>
+      <tr><td><b>winner_h2</b></td><td>The competitor read → the headings every winner covers</td><td><span class="v covered">yes</span></td></tr>
+      <tr><td><b>aio_subtopic</b></td><td>The saved search results → the answer skeleton Google shows</td><td><span class="v covered">yes</span></td></tr>
+      <tr><td><b>primary</b></td><td>The keyword research</td><td><span class="v partial">carried as context, never judged</span></td></tr>
+      <tr><td class="muted">secondary and in-body keywords</td><td class="muted">keyword strings, not coverage targets</td><td><span class="v no">excluded</span></td></tr>
+      <tr><td class="muted">People-also-ask questions</td><td class="muted">the search results</td><td><span class="v no">excluded</span></td></tr>
+      <tr><td class="muted">spokes · related searches · snippet holder · "cited by AI"</td><td class="muted">positioning signals, not dossier substance</td><td><span class="v no">excluded</span></td></tr>
     </table>
 
-    <div class="note"><span class="tag">Why exclude the positioning signals</span><br>
-    Things like "who holds the featured snippet" or "is Testlify cited by AI" are about <i>where we rank</i>, not
-    about whether the dossier has enough <i>substance</i>. Judging them would trigger re-runs that can't fix them —
-    so they're left out. <b>primary</b> is read but never judged: the whole dossier is built from it, so it's always
-    covered and never worth a re-run.</div>
+    <div class="note"><span class="tag">Why each exclusion</span>
+    <ul style="margin-top:8px">
+      <li><b>Keyword strings</b> are not something a dossier can "cover". Picking the phrase a section targets is the
+      architect's job, done later, when the real sections exist.</li>
+      <li><b>People-also-ask questions</b> self-correct. The step that builds the article's FAQ can only use facts the
+      article already establishes, so a question nothing can answer simply never gets a slot.</li>
+      <li><b>Positioning signals</b> like who holds the featured snippet are about <i>where we rank</i>, not about
+      whether there is enough substance. Judging them would trigger re-runs that cannot fix them.</li>
+      <li><b>The primary keyword</b> is carried as context but never judged: the whole dossier is built from it, so it
+      is always covered and never worth a re-run.</li>
+    </ul></div>
   </div>
 </section>
 
@@ -393,32 +398,34 @@
         <b>verbatim sentence</b> from the dossier. No quote, no coverage.</p></div>
     </div>
 
-    <h3>Real verdicts from one run <span class="muted" style="font-size:13px; font-weight:400;">(real — the "how much do recruiters make" spoke)</span></h3>
+    <h3>Real verdicts <span class="muted" style="font-size:13px; font-weight:400;">(real, from saved runs)</span></h3>
     <table>
       <tr><th>Verdict</th><th>Type</th><th>Item</th><th>Why</th><th>Proof quote from the dossier</th></tr>
       <tr>
-        <td><span class="v covered">covered</span></td><td>secondary_kw</td>
-        <td>recruiter salary</td>
-        <td>Dedicated Base Salary Benchmarks section — sourced figures, ranges, city breakdowns.</td>
-        <td class="muted">"Glassdoor puts the average US base recruiter salary at $52,657 per year…"</td>
+        <td><span class="v covered">covered</span></td><td>gap_we_own</td>
+        <td>Concrete judging rubric with point weights, beyond thin criteria lists</td>
+        <td>The dossier gives weight allocation ranges, a worked weighted-contribution formula, scoring scales and criteria guidance — enough to write the section.</td>
+        <td class="muted">"Weighted contribution = (Candidate score / Max score) × Criterion weight, summed across all criteria…"</td>
       </tr>
       <tr>
-        <td><span class="v partial">partial</span></td><td>secondary_kw</td>
-        <td>how much does an it recruiter make</td>
-        <td>Only a single commission-rate range for IT roles — no base salary, dollar example, or seniority breakdown. Too thin for a full section.</td>
-        <td class="muted">"…tech and IT roles pay 15–33% commission based on volume or billings…"</td>
+        <td><span class="v partial">partial</span></td><td>winner_h2</td>
+        <td>Situational interview questions</td>
+        <td>They are defined and given a few sample prompts, but there are almost no worked strong and weak answer pairs specific to them, which is exactly what this article's angle promises.</td>
+        <td class="muted">"The situational form of the same theme appears as: a candidate is assigned to a group project…"</td>
       </tr>
       <tr>
         <td><span class="v no">no</span></td><td>aio_subtopic</td>
-        <td>recruiter pay by type — salary+bonus vs base+commission vs pure commission, with dollar bands and top-paying industries</td>
-        <td>None of the specific figures are in the dossier — no $110k–$300k+ executive band, no compensation-model comparison table, no top-paying-industries breakdown.</td>
+        <td>The answer skeleton Google shows: judging as evaluating team projects built in a set timeframe, with an initial technical screen followed by a demo review</td>
+        <td>The dossier covers rubrics and calibration in depth but never states this specific process, and never mentions the in-person versus online formats.</td>
         <td class="muted">— (no dossier sentence supports it)</td>
       </tr>
     </table>
+    <p class="muted" style="font-size:14px;">All three rows are real verdicts from saved runs, on the three item types
+    the checklist still builds.</p>
     <div class="note orange"><span class="tag">Read the last two rows</span><br>
     The <b>partial</b> and the <b>no</b> are exactly the misses the next step spends re-runs on. A <b>partial</b> can
-    sometimes be left alone; a <b>no</b> on something the article's angle promises almost never is. In this run these
-    two (plus one more partial) became the <b>2 re-run queries</b> — see §07.</div>
+    sometimes be left alone; a <b>no</b> on something the article's angle promises almost never is. That triage
+    decision is §07.</div>
   </div>
 </section>
 

@@ -195,7 +195,7 @@ def _render(w):
     contract would have quietly forbidden all of that."""
     L = [f"# {w.get('h1') or ''}", "", "INTRO:", "", str(w.get("intro") or "")]
     if w.get("quick_answer"):
-        L += ["", "QUICK ANSWER:", "", str(w.get("quick_answer") or "")]
+        L += ["", "TL;DR:", "", str(w.get("quick_answer") or "")]
     for s in w.get("sections") or []:
         L += ["", f"## {s.get('heading','')}", "", str(s.get("prose") or "")]
     if w.get("faq"):
@@ -622,6 +622,11 @@ def check(before, after, cov, target=None, stakes=None, judged=None):
     out = []
     b, a = _words(before), _words(after)   # words before/after — several checks below need these
 
+    def _clip(s, n):
+        """Cut on a word boundary. m[:40] was ending details mid-word ("cloud tools for li")."""
+        s = str(s or "")
+        return s if len(s) <= n else (s[:n].rsplit(" ", 1)[0].rstrip(" ,;:—-") or s[:n]) + "…"
+
     def add(name, ok, detail, protects):
         out.append({"check": name, "ok": bool(ok), "detail": detail, "protects": protects})
 
@@ -630,9 +635,11 @@ def check(before, after, cov, target=None, stakes=None, judged=None):
     # to find covered — judged against the article's whole text, not against its shape.
     def _row(name, rows, key, protects, allow_missing):
         miss = [str(r.get(key) or "") for r in rows if not r.get("covered")]
-        add(name, len(miss) <= allow_missing(len(rows)),
+        tol = allow_missing(len(rows))
+        add(name, len(miss) <= tol,
             f"{len(rows) - len(miss)}/{len(rows)} covered"
-            + (f" — missing: {'; '.join(m[:40] for m in miss[:2])}" if miss else ""),
+            + f" (up to {tol} may be missing)"
+            + (f" — missing: {'; '.join(_clip(m, 60) for m in miss[:2])}" if miss else ""),
             protects)
 
     if stakes:
@@ -708,7 +715,8 @@ def check(before, after, cov, target=None, stakes=None, judged=None):
     # neither of those carries a tag, so words-per-fact is the honest measure of whether they exist.
     if all_b and b:
         d0, d1 = _words_per_fact(before), _words_per_fact(after)
-        add(f"Facts have room to breathe ({config.READABLE_WORDS_PER_FACT}+ words each)",
+        add(f"Facts have room to breathe ({config.READABLE_WORDS_PER_FACT}+ words each, "
+            f"or 40% more room than before)",
             d1 >= min(config.READABLE_WORDS_PER_FACT, d0 * 1.4),
             f"{d0:.0f} -> {d1:.0f} words per fact "
             f"({len(all_b)} -> {len(all_a)} facts, {b:,} -> {a:,} words)",

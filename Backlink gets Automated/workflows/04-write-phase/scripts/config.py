@@ -63,6 +63,7 @@ LLM_RETRIES = 1
 LOG_CSV = os.path.join(_PROJ_CM, "research-log.csv")       # the queue — fmt_router reads `format` by slug
 BUNDLE = os.path.join(_PROJ_CM, "research-bundle")         # per-topic: <slug>/structure-<slug>.json
 DFS_OUT = os.path.join(_PROJ_CM, "dataforseo", "out")      # per-topic: <slug>/research-doc-<slug>.md + proof/
+GAPCHECK_OUT = os.path.join(_PROJ_CM, "gap-check", "out")   # per-topic: <slug>/coverage-verdicts.json (research coverage vs the winners)
 STORM_OUT = os.path.join(_PROJ_CM, "storm", "out")          # per-topic: <slug>/spine.json (the world + working spine)
 BRAND_CTX = os.path.join(_PROJ, "01-brand-context")        # per-company voice pack: brand-voice/style-guide/writing-examples/writing-integrity/features
 # (more inputs are added here per station as they are built)
@@ -311,7 +312,7 @@ WRAP_FAQ_WORDS = int(os.environ.get("WRAP_FAQ_WORDS", "40"))
 # the FAQ is deliberately allowed to answer past the article, so an outside figure is expected, and a
 # long answer is a thing to see on the review page rather than something code silently removes.
 WRAP_FAQ_COUNT = int(os.environ.get("WRAP_FAQ_COUNT", "5"))
-# The "Quick answer" block. Under 60 words it says nothing; over 110 it is a second intro.
+# The TL;DR block (was "Quick answer"). Under 60 words it says nothing; over 110 it is a second intro.
 QUICK_MIN = int(os.environ.get("QUICK_MIN", "60"))
 QUICK_MAX = int(os.environ.get("QUICK_MAX", "110"))   # a ceiling. Three real questions beat five padded.
 
@@ -346,6 +347,8 @@ def structure_path(slug):    return os.path.join(bundle_dir(slug), f"structure-{
 def dfs_dir(slug):           return os.path.join(DFS_OUT, slug)
 def research_doc_path(slug): return os.path.join(dfs_dir(slug), f"research-doc-{slug}.md")
 def proof_dir(slug):         return os.path.join(dfs_dir(slug), "proof")
+def gapcheck_dir(slug):      return os.path.join(GAPCHECK_OUT, slug)
+def coverage_path(slug):     return os.path.join(gapcheck_dir(slug), "coverage-verdicts.json")
 def out_dir(slug):           return os.path.join(WRITE_OUT, slug)
 def format_path(archetype):  return os.path.join(FORMATS, f"{archetype}.md")
 

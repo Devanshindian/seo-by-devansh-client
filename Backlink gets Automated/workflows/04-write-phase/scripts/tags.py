@@ -102,4 +102,6 @@ def drop(text, unwanted):
         keep = [i for i in found if i not in unwanted]
         return "[" + ", ".join(f"c{i}" for i in keep) + "]" if keep else ""
 
-    return re.sub(r"\s+([.,;:])", r"\1", re.sub(r"[ \t]{2,}", " ", sub(text, _one))).strip()
+    # (?!\d): never close up a stop a digit follows — "a validity of .42" is correct English for a
+    # correlation. clean.py carries the same guard; this unguarded copy was gluing "of.42" (2026-09-05).
+    return re.sub(r"\s+([.,;:])(?!\d)", r"\1", re.sub(r"[ \t]{2,}", " ", sub(text, _one))).strip()

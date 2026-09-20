@@ -9,6 +9,7 @@ import dspy
 from .callback import BaseCallbackHandler
 from .persona_generator import StormPersonaGenerator
 from .storm_dataclass import DialogueTurn, StormInformationTable
+from ... import brief
 from ...interface import KnowledgeCurationModule, Retriever, Information
 from ...utils import ArticleTextProcessing
 
@@ -122,40 +123,48 @@ class WikiWriter(dspy.Module):
                 "question about a different, not-yet-covered aspect of the topic."
             )
 
+        # LOCAL PATCH (2026-08-03): every question — the first one included — sees the article brief
+        # (title/angle/spine/about/not-about). "N/A" when no brief is set, so bare runs are unchanged.
+        article = brief.get_block("THE ARTICLE THIS RESEARCH IS FOR") or "N/A"
+
         with dspy.settings.context(lm=self.engine):
             if persona is not None and len(persona.strip()) > 0:
                 question = self.ask_question_with_persona(
-                    topic=topic, persona=persona, conv=conv
+                    topic=topic, persona=persona, conv=conv, article=article
                 ).question
             else:
                 question = self.ask_question(
-                    topic=topic, persona=persona, conv=conv
+                    topic=topic, persona=persona, conv=conv, article=article
                 ).question
 
         return dspy.Prediction(question=question)
 
 
 class AskQuestion(dspy.Signature):
-    """You are an experienced Wikipedia writer. You are chatting with an expert to get information for the topic you want to contribute. Ask good questions to get more useful information relevant to the topic.
+    """You are an experienced writer researching one specific article. You are chatting with an expert to get information for it. Ask good questions to get more useful information relevant to the topic.
     When you have no more question to ask, say "Thank you so much for your help!" to end the conversation.
     Please only ask a question at a time and don't ask what you have asked before. Your questions should be related to the topic you want to write.
+    If article context is given (not N/A): material that does not serve the asset title and the angle does not belong. You get only a few questions — spend them on what this specific article needs, not on the general subject; a question whose answer this article could never use is a wasted question. Stay inside the world named in the context: where this subject shares a word with a different world, never ask a question that belongs to that other one.
     """
 
     topic = dspy.InputField(prefix="Topic you want to write: ", format=str)
+    article = dspy.InputField(prefix="The article this research is for:\n", format=str)
     conv = dspy.InputField(prefix="Conversation history:\n", format=str)
     question = dspy.OutputField(format=str)
 
 
 class AskQuestionWithPersona(dspy.Signature):
-    """You are an experienced Wikipedia writer and want to edit a specific page. Besides your identity as a Wikipedia writer, you have specific focus when researching the topic.
+    """You are an experienced writer researching one specific article, and you have a specific research focus (your persona) on its topic.
     Now, you are chatting with an expert to get information. Ask good questions to get more useful information.
     When you have no more question to ask, say "Thank you so much for your help!" to end the conversation.
     Please only ask a question at a time and don't ask what you have asked before. Your questions should be related to the topic you want to write.
+    If article context is given (not N/A): material that does not serve the asset title and the angle does not belong. You get only a few questions — spend them on what this specific article needs, not on the general subject; a question whose answer this article could never use is a wasted question. Stay inside the world named in the context: where this subject shares a word with a different world, never ask a question that belongs to that other one.
     """
 
     topic = dspy.InputField(prefix="Topic you want to write: ", format=str)
+    article = dspy.InputField(prefix="The article this research is for:\n", format=str)
     persona = dspy.InputField(
-        prefix="Your persona besides being a Wikipedia writer: ", format=str
+        prefix="Your persona besides being a writer on this article: ", format=str
     )
     conv = dspy.InputField(prefix="Conversation history:\n", format=str)
     question = dspy.OutputField(format=str)

@@ -6,6 +6,17 @@ Use as a CLI:       echo '[{...}]' | python3 dfs.py /v3/<endpoint>     (GET if n
 """
 import os, sys, json, time, base64, socket, urllib.request, urllib.error
 
+# --- usage metering (repo-root usage_meter.py; cross-engine, one ledger) -----------------------
+try:
+    import sys as _sys, os as _os
+    _repo = '/Users/devanshasawa/Desktop/SEO by Devansh/Backlink gets Automated'
+    if _repo not in _sys.path:
+        _sys.path.insert(0, _repo)
+    import usage_meter as _meter
+except Exception:
+    _meter = None
+
+
 _HERE = os.path.dirname(os.path.abspath(__file__))
 RETRIES = int(os.environ.get("DFS_RETRIES", "3"))      # transient-failure retries per call
 BACKOFF = float(os.environ.get("DFS_BACKOFF", "2.0"))  # seconds, doubled each retry
@@ -47,6 +58,8 @@ def call(endpoint, body=None):
                 urllib.request.Request(url, data, headers, method="POST" if data else "GET"), timeout=120))
             if resp.get("status_code") != 20000:
                 raise RuntimeError(f"API {resp.get('status_code')}: {resp.get('status_message')}")
+            if _meter:
+                _meter.record_llm and _meter.record_dfs(endpoint, resp.get("cost"))
             return resp
         except urllib.error.HTTPError as e:
             if e.code not in (429, 500, 502, 503, 504) or attempt == RETRIES:

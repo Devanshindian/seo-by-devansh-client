@@ -3,6 +3,8 @@ You are writing the "SERP snapshot" section of a research doc for a {{BRAND}} ar
 CONTEXT (use this to judge relevance)
 - Asset topic: {{ASSET_TOPIC}}
 - Distinct angle (what THIS asset specifically covers): {{DISTINCT_ANGLE}}
+- What this article IS about: {{ABOUT}}
+- What this article is NOT about: {{NOT_ABOUT}}
 - Primary keyword: {{PRIMARY_KEYWORD}}
 
 INPUT (raw SERP extract, JSON):
@@ -21,8 +23,9 @@ DO THIS:
       groups them (verbatim, in its own order — the answer skeleton). Content only; do NOT list its questions.
    b. CITES — the domains it cites; is {{DOMAIN}} among them? If not: GEO gap.
 4. RELEVANCE PASS on PAA + related searches. Tag EACH item ON-ANGLE (asks about the sub-topics THIS asset covers,
-   per the distinct angle) or OFF-ANGLE (generic trivia adjacent but not what the asset covers). Keep BOTH lists
-   verbatim — nothing dropped without a reason.
+   per the distinct angle) or OFF-ANGLE (generic trivia adjacent but not what the asset covers — and anything
+   belonging to a world named in NOT ABOUT is always OFF-ANGLE, even when it uses our exact words). Keep BOTH
+   lists verbatim — nothing dropped without a reason.
 
 RETURN markdown, factual, no fluff, ONE item per line, in EXACTLY this shape:
 ### SERP snapshot — {{PRIMARY_KEYWORD}}

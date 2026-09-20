@@ -8,6 +8,7 @@ import dspy
 
 from .callback import BaseCallbackHandler
 from .storm_dataclass import StormInformationTable, StormArticle
+from ... import brief
 from ...interface import ArticleGenerationModule, Information
 from ...utils import ArticleTextProcessing
 
@@ -151,9 +152,12 @@ class ConvToSection(dspy.Module):
 
         info = ArticleTextProcessing.limit_word_count_preserve_newline(info, 5000)
 
+        # LOCAL PATCH (2026-08-03): the section writer sees the article brief. "N/A" on bare runs.
+        article = brief.get_block("THE ARTICLE THIS SECTION FEEDS") or "N/A"
+
         with dspy.settings.context(lm=self.engine):
             section = ArticleTextProcessing.clean_up_section(
-                self.write_section(topic=topic, info=info, section=section).output
+                self.write_section(topic=topic, article=article, info=info, section=section).output
             )
 
         return dspy.Prediction(section=section)
@@ -178,6 +182,11 @@ class WriteSection(dspy.Signature):
            collected information is thin, the section is short; if it is rich, the section is long.
         4. Every sentence must be supported by the collected information. Do not invent facts, numbers,
            or sources. If sources conflict, present both figures with their citations.
+        5. If article context is given (not N/A): material that does not serve the asset title and the
+           angle does not belong — leave it out even when the collected information contains it, and
+           write nothing from the world the context says this is NOT about. Costs, failures, limits and
+           who a method disadvantages ARE on-spine: write them up in full, and never quietly drop a
+           finding because it works against the article.
 
     Here is the format of your writing:
         1. Use "#" Title" to indicate section title, "##" Title" to indicate subsection title, "###" Title" to indicate subsubsection title, and so on.
@@ -186,6 +195,7 @@ class WriteSection(dspy.Signature):
 
     info = dspy.InputField(prefix="The collected information:\n", format=str)
     topic = dspy.InputField(prefix="The topic of the page: ", format=str)
+    article = dspy.InputField(prefix="The article this section feeds:\n", format=str)
     section = dspy.InputField(prefix="The section you need to write: ", format=str)
     output = dspy.OutputField(
         prefix="Write the section with proper inline citations (Start your writing with # section title. Don't include the page title or try to write other sections):\n",

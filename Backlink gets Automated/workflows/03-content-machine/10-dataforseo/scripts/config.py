@@ -35,7 +35,7 @@ LOCATION = TENANT.get("location", "United States")   # DataForSEO location_name 
 LANGUAGE = TENANT.get("language", "en")
 
 # LLM (headless Claude Code) — the THINKING steps (0 seeds, 3 scoring, 4-6 write-ups, 7 assembly) run through
-# llm.py. Free, no API key. The API/fetch steps (s1_expand … s6_aeo fetch) route through dfs.py, not this.
+# llm.py. Free, no API key. The API/fetch steps (s1_expand … s5_pages fetch) route through dfs.py, not this.
 CLAUDE_BIN = os.environ.get("CLAUDE_BIN", "claude")
 CLAUDE_TIMEOUT = 300     # seconds per headless-Claude call
 LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "claude").lower()
@@ -76,7 +76,9 @@ SPOKE_MIN_RELEVANCE = 3     # keep only spokes with relevance >= this (0-2 = off
 TIGHT_LIMIT = 200          # phrases per seed
 
 # Step 1 — RANKED net (ranked_keywords on winning pages; replaces the dropped wide net)
-RANKED_SERP_LINKS = 6      # how many top organic pages to pull from the SERP-of-seed
+RANKED_SERP_LINKS = 6      # SPOKES only: how many top organic pages to pull from the SERP-of-seed
+RANKED_URL_CAP    = 5      # HUBS: max vetted competitor URLs the ranked net pulls (2026-08-04 — cost cap;
+                           # the seed-SERP source was dropped for hubs, competitor pages are the better net)
 RANKED_PER_URL    = 120    # max keywords to pull per winning page (ordered by volume)
 
 # Step 4 — SERP on the primary

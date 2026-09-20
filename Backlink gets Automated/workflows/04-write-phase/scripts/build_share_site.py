@@ -205,10 +205,16 @@ def _where(e):
         bits.append(f"{n_s} section{'s' if n_s > 1 else ''}")
     if e.get("in_close"):
         bits.append("the closing line")
-    return ", ".join(bits) if bits else '<span class="no">not used in the draft</span>'
+    if bits:
+        return ", ".join(bits)
+    # A phrase can be used and still land in none of the tracked slots (FAQ answers, the close's
+    # prose). Reporting that as "not used" next to a non-zero count contradicts itself.
+    if e.get("total"):
+        return "in the body, outside the title and headings"
+    return '<span class="no">not used in the draft</span>'
 
 
-def _kw_block(slug):
+def _kw_block(slug, words=0):
     """The Keywords panel: primary, its variations, and the per-section keywords the architect picked.
 
     Reads writer/_work/keyword-coverage.json — the one file that already measured all of this against
@@ -239,7 +245,9 @@ def _kw_block(slug):
         for e, role in rows)
 
     total = cov.get("primary_plus_variations_total", prim.get("total", 0))
-    words = (cov.get("length") or {}).get("words") or 0
+    # The page prints its word count once, in the meta line. Taking a second one from the coverage
+    # file put two different numbers 30 pixels apart, so the caller passes the number it already has.
+    words = words or (cov.get("length") or {}).get("words") or 0
     dens = f" — {total / words * 100:.2f}% of the {words:,} words" if words else ""
 
     chk = "".join(f'<li><span class="y">{"Yes" if ok else "No"}</span> &middot; {html.escape(q)}</li>'
@@ -250,7 +258,7 @@ def _kw_block(slug):
         '<div class="kw"><p class="t">Keywords</p>'
         '<p class="n">What this article is written to rank for, counted against the finished draft.</p>'
         f'<p class="p"><b>{html.escape(prim["phrase"])}</b> is the primary keyword. '
-        f'It and its variations appear {total} times{dens}.</p>'
+        f'It and its variations appear {"once" if total == 1 else f"{total} times"}{dens}.</p>'
         f'{chk}'
         '<div class="scroll"><table><thead><tr><th>Keyword</th><th>Role</th><th>Uses</th>'
         f'<th>Where it lands</th></tr></thead><tbody>{body}</tbody></table></div></div>')
@@ -258,7 +266,7 @@ def _kw_block(slug):
 
 def _extra_h2s(slug, body_md):
     """The H2s that are not sections: the FAQ, and the close's own heading."""
-    extra = re.findall(r"^##\s+(?:Frequently asked questions|Quick answer)\s*$",
+    extra = re.findall(r"^##\s+(?:Frequently asked questions|Quick answer|TL;DR)\s*$",
                        body_md, re.M | re.I)
     p = config.artifact(slug, "wrapper.json")
     if os.path.exists(p):
@@ -268,12 +276,17 @@ def _extra_h2s(slug, body_md):
     return extra
 
 
-def _nav(slug):
-    return (f'<div class="bar"><div class="in"><a href="index.html">&larr; All articles</a>'
+def _nav(slug, batch=False):
+    """`batch` marks the all-articles build. On a per-run page "All articles" used to land on that
+    run's own one-card index, so the link promised a batch and delivered one article."""
+    back = ('<a href="index.html">&larr; All articles</a>' if batch else
+            '<a href="../../../share/index.html">&larr; All articles</a>'
+            '<a href="index.html">&larr; This run</a>')
+    return (f'<div class="bar"><div class="in">{back}'
             f'<a href="{slug}.md" download>Download the markdown</a></div></div>')
 
 
-def build_one(slug, out_dir):
+def build_one(slug, out_dir, batch=False):
     """Both pages for one article. Returns its card data for the index, or None if not finished."""
     p = config.artifact(slug, "draft.md")
     if not os.path.exists(p):
@@ -291,9 +304,11 @@ def build_one(slug, out_dir):
     meta = (f'<p class="meta">{words:,} words &middot; {n_sec} sections &middot; '
             f'{len(srcs)} sources</p>')
 
-    art = (f"<h1>{html.escape(h1)}</h1>{meta}{_kw_block(slug)}"
+    # NO scoring panel here. This is the copy the client opens, and run()'s contract above says so
+    # in as many words. The keyword scorecard is our working, and lives on the reviewer copy.
+    art = (f"<h1>{html.escape(h1)}</h1>{meta}"
            + _cite_links(body_html, srcs) + _srcs_block(srcs))
-    open(os.path.join(out_dir, f"{slug}.html"), "w").write(_page(h1, art, _nav(slug)))
+    open(os.path.join(out_dir, f"{slug}.html"), "w").write(_page(h1, art, _nav(slug, batch)))
     open(os.path.join(out_dir, f"{slug}.md"), "w").write(md)      # the raw draft, for the download
 
     print(f"  {slug}: {words:,}w, {n_sec} sections, {len(srcs)} sources")
@@ -304,11 +319,17 @@ def build(slugs, out_dir=None, title="Testlify articles for review"):
     # sibling of out/, never inside it — out/ is per-run and gets deleted on a clean rerun
     out_dir = os.path.abspath(out_dir or os.path.join(config.WRITE_OUT, "..", "share"))
     os.makedirs(out_dir, exist_ok=True)
-    cards = [c for c in (build_one(s, out_dir) for s in slugs) if c]
+    _batch = len(slugs) > 1
+    cards = [c for c in (build_one(s, out_dir, _batch) for s in slugs) if c]
 
+    _one = len(cards) == 1
     body = [f'<h1>{html.escape(title)}</h1>',
-            '<p class="lead">Each one is shown as it would look published. Every source marker in '
-            'the text is a link, and the full source list sits at the bottom of each article.</p>',
+            '<p class="lead">'
+            + ('It is shown as it would look published. Every source marker in the text is a link, '
+               'and the full source list sits at the bottom.' if _one else
+               'Each one is shown as it would look published. Every source marker in the text is a '
+               'link, and the full source list sits at the bottom of each article.')
+            + "</p>",
             '<div class="cards">']
     for c in cards:
         body.append(

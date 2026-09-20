@@ -81,8 +81,10 @@ def build_one(slug, out_dir, idx):
     # ---- tab 2: the finished article -------------------------------------
     h1, body_md, srcs = share._split(open(draft).read())
     words = len(body_md.split())
-    n_sec = len(re.findall(r"^##\s+", body_md, re.M))
-    art = (f"<h1>{html.escape(h1)}</h1>"
+    # Match the share site exactly: the FAQ and the close have headings but are not sections.
+    n_sec = len(re.findall(r"^##\s+", body_md, re.M)) - len(share._extra_h2s(slug, body_md))
+    # The keyword scorecard belongs on the reviewer's copy, not the client's (2026-09-04).
+    art = (f"<h1>{html.escape(h1)}</h1>" + share._kw_block(slug, words)
            + share._cite_links(review_page._md_to_html(body_md), srcs)
            + share._srcs_block(srcs))
     config.write_text(os.path.join(out_dir, f"{slug}.html"),
@@ -137,19 +139,30 @@ def build(slugs=None, out_dir=None):
     body.append("</div>")
     config.write_text(os.path.join(out_dir, "index.html"), share._page(TITLE, "".join(body)))
     print(f"  -> {out_dir}/index.html  ({len(cards)} article(s))")
-    return out_dir
+    return out_dir, cards
 
 
-def publish(out_dir, message):
+def publish(out_dir, message, cards=None):
     """Copy the built pages into the push clone and push. The clone's remote is the single source of
     truth for WHERE this publishes — nothing here hardcodes a repo."""
     repo = os.path.join(out_dir, "_pages-repo")
     if not os.path.isdir(os.path.join(repo, ".git")):
         print(f"  !! no push clone at {repo} — clone the Pages repo there first, then re-run")
         return None
+    # Copy ONLY what this build produced. Copying the whole folder published three retired
+    # articles at guessable URLs, long after they were dropped from the index.
+    want = {"index.html"}
+    if not cards:                                    # nothing to filter against: copy as before
+        want = None
+    for c in cards or []:
+        want |= {f'{c["slug"]}.html', f'{c["slug"]}.md', f'{c["slug"]}-before-links.html'}
     for f in os.listdir(out_dir):
-        if f.endswith((".html", ".md")):
+        if f.endswith((".html", ".md")) and (want is None or f in want):
             config.write_text(os.path.join(repo, f), open(os.path.join(out_dir, f)).read())
+    if cards:                                        # and drop what is no longer ours
+        for f in os.listdir(repo):
+            if f.endswith((".html", ".md")) and f not in want:
+                os.remove(os.path.join(repo, f))
     subprocess.run(["git", "add", "-A"], cwd=repo, check=True)
     if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=repo).returncode == 0:
         print("  nothing changed since the last push")
@@ -171,6 +184,6 @@ if __name__ == "__main__":
     ap.add_argument("--publish", action="store_true")
     ap.add_argument("-m", "--message", default="Every article on two tabs: before links, and finished")
     a = ap.parse_args()
-    d = build(a.slugs, a.out)
+    d, built = build(a.slugs, a.out)
     if a.publish:
-        publish(d, a.message)
+        publish(d, a.message, built)

@@ -48,7 +48,7 @@ a.mstep:hover b{color:var(--acc)}
 CSS = """
 :root{--ink:#1c1a17;--mut:#6b6459;--line:#efe7d8;--bg:#fffdf8;--card:#fff;--wash:#fff8ec;
       --acc:#fb7a00;--acc-soft:#ffd9b0;--yellow:#ffb703;--yellow-soft:#ffe9ad;
-      --ok:#2e7d43;--ok-bg:#e8f5ec;--no:#c2603a;--no-bg:#fdf3f0;--warn:#9a6700;--chip:#fff8ec;
+      --ok:#2e7d43;--ok-bg:#e8f5ec;--no:#c2603a;--no-bg:#fdf3f0;--warn:#9a6700;--chip:#fff8ec;--pink:#c2603a;--pinkwash:#fdf3f0;--pinkline:#f0d3c8;
       --shadow:0 1px 2px rgba(28,26,23,.04),0 8px 24px rgba(28,26,23,.05)}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);
@@ -90,6 +90,12 @@ code{background:var(--wash);border:1px solid var(--line);border-radius:4px;paddi
       padding:1px 9px;font-size:.76em;color:var(--mut);margin-left:6px;vertical-align:middle}
 .tag{display:inline-block;background:var(--yellow-soft);border-radius:100px;padding:1px 9px;font-size:.8em;
      margin:2px 4px 2px 0;cursor:help;color:var(--ink)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.94em}
+th{text-align:left;font-weight:600;color:var(--mut);border-bottom:1px solid var(--line);
+   padding:8px 10px;white-space:nowrap}
+td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr:last-child td{border-bottom:none}
 .ok{color:var(--ok)}.no{color:var(--no)}.warn{color:var(--warn)}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 @media(max-width:700px){.grid2{grid-template-columns:1fr}}
@@ -162,7 +168,8 @@ def _where(_now, lead=""):
     return f'<p class="lead">{E(lead)}</p>' if lead else ""
 
 
-STEP_ANCHOR = {"shape": "sections", "allocate": "sections", "enrich": "research",
+STEP_ANCHOR = {"freeze": "lock", "shape": "sections", "allocate": "sections", "enrich": "research",
+               "brand-cards": "brand",
                "section-keywords": "keywords", "headings": "headings"}
 
 
@@ -190,11 +197,11 @@ def _nav(now, base="../"):
                 cls = "mstep on" if page == now else "mstep"
                 anc = STEP_ANCHOR.get(sname)
                 rows.append(f'<a class="{cls}" href="{base}{href_of[page]}'
-                            f'{"#" + anc if anc else ""}" target="_blank">'
+                            f'{"#" + anc if anc else ""}">'
                             f'<b>{E(sname)}</b><span>{E(one)}</span></a>')
             else:
                 rows.append(f'<span class="mstep none"><b>{E(sname)}</b><span>{E(one)}</span>'
-                            '<i>no page — nothing here to overrule</i></span>')
+                            '<i>code only — no judgment to review</i></span>')
         pages = [st[4] for st in steps if st[4]]
         shared = {pg for pg in pages if pages.count(pg) > 1}
         note = (f'<div class="mnote">All {len(pages)} open the one <b>{E(sorted(shared)[0])}</b> page, '
@@ -256,6 +263,125 @@ def _work(slug, engine, name):
     return json.load(open(p)) if os.path.exists(p) else None
 
 
+def clip(s, n):
+    """Cut to n chars on a WORD boundary, with an ellipsis. Never mid-word.
+
+    Blind [:n] slicing put "Which SHRM Number Is Current, and Which Is S" and "cost per hire calculat"
+    on the review pages, and in one case clipped both halves of a before/after pair to the same string
+    so the row said nothing. Also the safe place to clip: slice the raw text, escape afterwards, or a
+    cut can land inside an HTML entity.
+    """
+    s = str(s or "")
+    if len(s) <= n:
+        return s
+    cut = s[:n].rsplit(" ", 1)[0].rstrip(" ,;:—-")
+    return (cut or s[:n]) + "…"
+
+
+def mdlink_html(h):
+    """Same as mdlink, for text that is ALREADY escaped HTML. Refuses any [..](..) containing
+    markup, so a link broken across a diff span stays as it is rather than rendering wrong."""
+    return re.sub(r"\[([^\]<>]+)\]\((https?://[^\s)<>\"]+)\)",
+                  lambda m: f'<a href="{m.group(2)}" target="_blank" rel="noopener">{m.group(1)}</a>', h)
+
+
+def mdlink(t):
+    """Escape, then turn any [text](url) into a real link. The wrapper and sentence pages showed the
+    intro and close as raw draft text, so a product link rendered as literal markdown."""
+    return re.sub(r"\[([^\]]+)\]\((https?://[^\s)]+)\)",
+                  lambda m: f'<a href="{m.group(2)}" target="_blank" rel="noopener">{m.group(1)}</a>',
+                  E(str(t or "")))
+
+
+# The coherence pass names its fault types with JSON enum values. Shown raw, "several-scales" and
+# "breaks-own-rule" are reviewer-speak; these are the same four faults said in English.
+FAULT_LABEL = {
+    "several-scales": "scored two different ways",
+    "numbers-disagree": "two numbers that cannot both be true",
+    "breaks-own-rule": "the article breaks its own rule",
+    "own-warning": "advice its own warning already covers",
+    "numbers changed": "figures the rewrite altered",
+    "source tags lost": "source tags that went missing",
+}
+
+# The chips on every kept sub-section were raw tag names, with the meaning hidden in a title=
+# tooltip. On a shared screen nobody hovers.
+TAG_LABEL = {"gap": "an opening the winners left",
+             "common-h2": "a heading every winner has",
+             "paa": "a question searchers ask",
+             "related": "a related search",
+             "asset-angle": "our own angle"}
+TAG_KEY = ('<p class="note">' + " &middot; ".join(f"<b>{k}</b> = {v}" for k, v in TAG_LABEL.items())
+           + "</p>")
+
+
+def fault(k):
+    """A fault type, said the way a person would say it."""
+    k = str(k or "?")
+    return FAULT_LABEL.get(k, k.replace("-", " "))
+
+
+def _warn_detail(w):
+    """Say what a warning's detail list actually is.
+
+    "numbers changed — 198, 2022, 34, 4,700, 5,475, 72" gave the reader six naked integers and no way
+    to tell a statistic from a card id (c9026 rendered as 9026). Card ids get their prefix back, and
+    the reader is pointed at the before/after rows that carry the pairing.
+    """
+    d = [str(x) for x in (w.get("detail") or [])]
+    if not d:
+        return ""
+    kind = str(w.get("kind") or "")
+    if kind == "source tags lost" and all(re.fullmatch(r"\d+", x) for x in d):
+        return E("cards " + ", ".join("c" + x for x in d))
+    body = E(clip(", ".join(d), 400))
+    if kind == "numbers changed":
+        return (body + ' <span class="q">— the figures involved. Which became which is in the '
+                'before/after rows below.</span>')
+    return body
+
+
+def _brand_panel(slug):
+    """The company's own survey research and customer results, as the article cites them.
+
+    brand-cards-used.json held exactly the material a client most wants to see, and the step's map
+    entry pointed at the blueprint page, which had no such section. It does now.
+    """
+    _p = config.artifact(slug, "brand-cards-used.json")
+    d = json.load(open(_p)) if os.path.exists(_p) else {}
+    cards = list(d.values()) if isinstance(d, dict) else list(d or [])
+    if not cards:
+        return ""
+    rows = "".join(
+        f'<div class="row"><div class="t">{E(c.get("gloss") or "")}'
+        f'<span class="chip">c{c.get("card_id", "?")}</span></div>'
+        f'<div class="reason">{E(clip(c.get("verbatim") or "", 400))}</div>'
+        + (f'<div class="m q">{E(c.get("source_note"))}</div>' if c.get("source_note") else "")
+        + "</div>" for c in cards)
+    return ('<h2 id="brand">Our own research the article cites</h2>'
+            '<p class="note">The company\'s own survey work and customer results, turned into cards in '
+            'the same shape as every other fact so they compete for a place on merit. These are the ones '
+            'that earned a place in this article.</p>'
+            f'<div class="panel">{rows}</div>')
+
+
+def _dropped_sections_line(plan_secs, st):
+    """Name the H2s the plan had and the blueprint does not.
+
+    The counters said "11 sections in, 11 kept", the blueprint then said 10, and nothing on either
+    page mentioned that a whole section had been dissolved into the bench.
+    """
+    if not plan_secs:
+        return ""
+    kept = {str(x.get("h2") or x.get("headline") or "") for x in (st.get("sections") or [])}
+    from_h2 = {str(b.get("from_h2") or "") for b in (st.get("unused_boxes") or [])}
+    gone = [h for h in plan_secs if h and h not in kept and h in from_h2]
+    if not gone:
+        return ""
+    return ('<p class="note"><b>{} section(s) from the plan have no section here</b> — every one of '
+            'their sub-sections was benched: {}</p>').format(len(gone), E("; ".join(gone)))
+
+
 def _world_panel(slug, why):
     """The world (about / not_about) — the boundary several steps on this page judged against.
 
@@ -266,14 +392,154 @@ def _world_panel(slug, why):
     """
     ctx = article_ctx.article_context(slug)
     if not (ctx.get("about") or ctx.get("not_about")):
-        return ('<h2>The world — what this article is and is not about</h2>'
+        return ('<h2 id="world">The world — what this article is and is not about</h2>'
                 '<div class="panel"><p class="q">No world statement on file for this run. Decisions below '
                 'were made without a boundary, so judge them on the angle alone.</p></div>')
-    return ('<h2>The world — what this article is and is not about</h2>'
+    return ('<h2 id="world">The world — what this article is and is not about</h2>'
             f'<p class="note">{E(why)}</p><div class="panel">'
             f'<div class="row"><span class="t">IS about</span><div>{E(ctx["about"] or "—")}</div></div>'
             f'<div class="row"><span class="t">is NOT about</span><div>{E(ctx["not_about"] or "—")}</div></div>'
             "</div>")
+
+
+def _world_ref(why):
+    """A one-line pointer back to the world, for a page that judged against it but does not own it.
+
+    The boundary is written once, on Gather. Repeating the full two-paragraph panel on every page that
+    consulted it is the kind of duplication that makes a walkthrough drag, so downstream pages link.
+    """
+    return ('<p class="note">' + E(why) + ' <a href="../gather/gather-review.html#world">'
+            'Read the boundary on the Gather page &rarr;</a></p>')
+
+
+# --- the coverage layer, shown where it belongs ------------------------------
+_COV_KIND = {"gap_we_own": "a gap we can own",
+             "winner_h2": "every winner covers this",
+             "aio_subtopic": "Google's own AI answer covers this"}
+_COV_MARK = {"covered": ("ok", "covered"), "partial": ("warn", "thin"), "no": ("no", "missing")}
+
+
+def _coverage_panel(slug):
+    """Gap-check: did the research actually cover what the winners cover? (research phase, read here)
+
+    The winners study two panels up says what the ranking pages cover and where our openings are. On its
+    own that is a wish list. This is the audit against it: every item judged against the research we
+    actually hold, so a thin one is caught before a section gets written on top of it.
+    """
+    path = config.coverage_path(slug)
+    if not os.path.exists(path):
+        return ""
+    try:
+        d = json.load(open(path))
+    except Exception:
+        return ""
+    vs = d.get("verdicts") or []
+    if not vs:
+        return ""
+    n = {k: sum(1 for v in vs if v.get("verdict") == k) for k in ("covered", "partial", "no")}
+    nums = ('<div class="nums">'
+            f'<div><b>{len(vs)}</b><span>items checked</span></div>'
+            f'<div><b class="ok">{n["covered"]}</b><span>covered</span></div>'
+            f'<div><b class="warn">{n["partial"]}</b><span>thin</span></div>'
+            f'<div><b class="no">{n["no"]}</b><span>missing</span></div></div>')
+    rows = []
+    for v in vs:
+        cls, word = _COV_MARK.get(v.get("verdict") or "", ("q", v.get("verdict") or "?"))
+        item = (v.get("item") or "").strip()
+        if len(item) > 240:
+            item = clip(item, 240)
+        rows.append(f'<div class="row"><div><span class="{cls}">{E(word)}</span> '
+                    f'<span class="tag">{E(_COV_KIND.get(v.get("type"), v.get("type") or ""))}</span></div>'
+                    f'<div><b>{E(item)}</b></div>'
+                    f'<div class="q">{E((v.get("reason") or "").strip())}</div></div>')
+    return ('<h2 id="coverage">Coverage — did our research cover what the winners cover?</h2>'
+            '<p class="note">Every heading the winning pages share, every gap we said we could own, and '
+            'every subtopic in Google\'s own AI answer, checked one by one against the research this '
+            'article actually holds. Anything thin or missing was sent back for another research pass '
+            'before a word was written.</p>'
+            f'<div class="panel">{nums}{"".join(rows)}</div>')
+
+
+
+_PLAIN = [
+    (r"^(\d+) card\(s\) left UNVERIFIED.*",
+     r"\1 facts could not be checked against their source automatically, and are still in the plan."),
+    (r"^(\d+) cards kept with sources that would not load.*",
+     r"\1 facts cite a page that would not open when we tried it."),
+    (r"^source verification cut (\d+) cards.*",
+     r"Source checking removed \1 facts, more than usual for one article."),
+    (r"^only (\d+) sections$", r"The plan came out at only \1 sections."),
+]
+
+
+def _plain(line):
+    """Say a freeze warning the way a person would, not the way the script logged it."""
+    for pat, rep in _PLAIN:
+        new, n = re.subn(pat, rep, line)
+        if n:
+            return new
+    return line
+
+
+_HOLE_KIND = {"gap": "a gap we said we could own",
+              "common-h2": "a heading every winning page has",
+              "paa": "a question real searchers ask"}
+
+
+def _freeze_panel(slug):
+    """The lock: what the plan promised, and whether a heading was actually given to each promise.
+
+    freeze.py runs this check and writes freeze-report.json, but nothing ever showed it. A promise with
+    no heading is the quiet failure this page exists to catch, so it is shown next to the keeps and drops.
+    """
+    path = os.path.join(config.planner_work_dir(slug), "freeze-report.json")
+    if not os.path.exists(path):
+        return ""
+    try:
+        rep = json.load(open(path))
+    except Exception:
+        return ""
+    # freeze.py records a hole with the promise clipped to 70 chars, which can land mid-word. The
+    # plan still holds the full text, so match the clipped prefix back to it and show the whole thing.
+    full = []
+    try:
+        plan = json.load(open(config.artifact(slug, "article-plan.json")))
+        for key in ("gaps_to_own", "winners_common_h2s", "paa_pool"):
+            full += [str(x) for x in (plan.get(key) or [])]
+    except Exception:
+        pass
+
+    def whole(clipped):
+        for item in full:
+            if item.startswith(clipped):
+                return item
+        return clipped
+
+    holes, other = [], []
+    for line in rep.get("soft") or []:
+        m = re.match(r"HOLE \(([^)]+)\): (.*)", line)
+        if m:
+            holes.append((m.group(1), whole(m.group(2))))
+        else:
+            other.append(_plain(line))
+    hard = rep.get("hard") or []
+    if not (holes or other or hard):
+        body = '<p class="ok">Every promise the plan made was given a heading, and the shape passed.</p>'
+    else:
+        body = ""
+        if hard:
+            body += "".join(f'<div class="row"><span class="no">must fix</span> {E(h)}</div>' for h in hard)
+        body += "".join(
+            f'<div class="row"><div><span class="warn">no heading</span> '
+            f'<span class="tag">{E(_HOLE_KIND.get(k, k))}</span></div><div>{E(t)}</div></div>'
+            for k, t in holes)
+        body += "".join(f'<div class="row"><span class="warn">worth a look</span> {E(x)}</div>'
+                        for x in other)
+    return ('<h2 id="lock">The lock — what the plan promised but no heading serves</h2>'
+            '<p class="note">Before the plan is frozen, every gap, every heading the winners share and '
+            'every searcher question is checked against the headings actually planned. Anything listed '
+            'here was promised upstream and has nobody to write it.</p>'
+            f'<div class="panel">{body}</div>')
 
 
 # ---------------------------------------------------------------- 1. GATHER
@@ -346,7 +612,8 @@ def build_gather(slug):
             + vet_cols(vet.get("paa_raw"), vet.get("paa_kept"), "People-Also-Ask questions")
             + vet_cols(vet.get("related_raw"), vet.get("related_kept"), "Related searches")
             + '<h2>Research depth per section (cards available)</h2><div class="panel">' + depth + "</div>"
-            + '<h2>The winners study</h2><div class="panel">' + winners + "</div>")
+            + '<h2 id="winners">The winners study</h2><div class="panel">' + winners + "</div>"
+            + _coverage_panel(slug))
     out = config.artifact(slug, "gather-review.html")
     config.write_text(out, _page("What we started with", f"{slug} — gather review", body))
     return out
@@ -413,21 +680,31 @@ def build_selection(slug):
         tags_html = ""
         for t in h.get("tags") or []:
             rec = (h.get("tag_receipts") or {}).get(t) or []
-            tip = "; ".join((glosses.get(int(c), {}).get("gloss") or f"card {c}")[:90]
+            tip = "; ".join(clip(glosses.get(int(c), {}).get("gloss") or f"card {c}", 90)
                             for c in rec[:4] if str(c).isdigit()) or "no receipt cards"
-            tags_html += f'<span class="tag" title="{E(tip)}">{E(t.split(":")[0])}</span>'
+            _k = t.split(":")[0]
+            tags_html += (f'<span class="tag" title="{E(TAG_LABEL.get(_k, _k))} — {E(tip)}">'
+                          f'{E(_k)}</span>')
         cls = ' class="warn"' if ntags <= 1 or ncards <= 1 else ""
         weak.append(f'<div class="row"><div class="t"><span{cls}>{E(h.get("h3") or "?")}</span>'
                     f'<span class="chip">{ntags} tag(s) · {ncards} proof card(s)</span></div>'
                     f'<div class="m">in: {E(h2)}</div><div>{tags_html}</div></div>')
 
-    per = sorted(stats.get("per_h2") or [], key=lambda x: x.get("coverage") or 0)
+    _NW = 25          # kept rows shown before the rest folds into a <details>
+
+    # A "close call" is a section near the cut line. Showing all 34 at 100% buried the real ones.
+    per_all = sorted(stats.get("per_h2") or [], key=lambda x: x.get("coverage") or 0)
+    _thr = stats.get("threshold") or 0.45
+    per = [x for x in per_all if x.get("verdict") != "keep" or (x.get("coverage") or 0) < _thr + 0.20]
     close = "".join(
         f'<div class="row"><div class="t">'
         f'<span class="{ "no" if p.get("verdict") != "keep" else ("warn" if (p.get("coverage") or 0) < .7 else "ok")}">'
         f'{E(p.get("verdict") or "?").upper()}</span> {E(p.get("h2") or "?")}'
         f'<span class="chip">{p.get("tagged", "?")}/{p.get("h3s", "?")} tagged · '
-        f'{round((p.get("coverage") or 0) * 100)}%</span></div></div>' for p in per)
+        f'{round((p.get("coverage") or 0) * 100)}%</span></div></div>' for p in per) or (
+        f'<p class="q">No section came close to the line — the lowest was '
+        f'{round((per_all[0].get("coverage") or 0) * 100) if per_all else 0}%, against a '
+        f'{round(_thr * 100)}% bar.</p>')
 
     orph = "".join(
         f'<div class="row"><div class="t">{E(p.get("h3") or "?")}</div>'
@@ -439,23 +716,29 @@ def build_selection(slug):
             + _where("Select", "The planner has all the research. This page shows what it chose to keep, "
                                "what it threw away, and why.")
             + nums + rule
-            + _world_panel(slug, "The tagger judged every sub-topic against these two lines before anything "
-                                 "else. Where it refused one for belonging to a different subject, it says so "
-                                 "in the reason below, so read the boundary first.")
-            + '<h2>Everything we dropped — read this panel first</h2>'
-            + '<p class="note">One row per sub-section (H3) that did not make it, and the H2 it used to sit under.</p>'
-            + '<div class="panel">' + dr + "</div>"
-            + '<h2>What we kept, thinnest evidence first</h2>'
+            + _world_ref("Every sub-topic below was judged against the article's world — the boundary of what "
+                         "it is and is not about. Where one was refused for belonging to a different subject, "
+                         "the reason says so.")
+            + ('<h2>Everything we dropped — read this panel first</h2>'
+               '<p class="note">One row per sub-section (H3) that did not make it, and the H2 it used '
+               'to sit under.</p><div class="panel">' + dr + "</div>"
+               if dropped else '<p class="note">Nothing was dropped — every sub-section earned its place.</p>')
+            + '<h2>What we kept, thinnest evidence first</h2>' + TAG_KEY
             + '<p class="note">Weakest first. Anything on 1 tag or 1 proof card is highlighted — ask yourself '
               'whether there is enough here to write a paragraph. Nothing downstream acts on this list; it is for you.</p>'
-            + '<div class="panel">' + "".join(weak) + "</div>"
+            + ('<div class="panel">' + "".join(weak[:_NW]) + "</div>"
+               + (f'<details class="diff"><summary>the other {len(weak) - _NW} kept sub-section(s)'
+                  f'</summary><div class="panel">{"".join(weak[_NW:])}</div></details>'
+                  if len(weak) > _NW else ""))
             + '<h2>Close calls per section (lowest coverage first)</h2>'
-            + f'<p class="note">Each H2 and how much of it was tagged useful. Anything under {thr_pct}% was CUT. '
-              'The ones just above the line are the ones worth a second look.</p>'
+            + f'<p class="note">Anything under {thr_pct}% of its sub-sections tagged useful was CUT. '
+              f'Only the sections within 20 points of that line are shown — the ones worth a second '
+              f'look. {len(per_all)} section(s) were judged in all.</p>'
             + '<div class="panel">' + close + "</div>"
-            + '<h2>Orphans and where they went</h2>'
-            + '<p class="note">Good sub-sections rescued from a cut H2 and re-homed into a surviving one.</p>'
-            + '<div class="panel">' + orph + "</div>")
+            + ('<h2>Orphans and where they went</h2>'
+               '<p class="note">Good sub-sections rescued from a cut H2 and re-homed into a surviving '
+               'one.</p><div class="panel">' + orph + "</div>" if placements else "")
+            + _freeze_panel(slug))
     out = config.artifact(slug, "selection-review.html")
     config.write_text(out, _page("Selection", f"{slug} — did we throw away something good?", body))
     return out
@@ -481,8 +764,11 @@ def build_sources(slug):
                      c.get("why") or "hunted the web; no page supports this claim"))
     for cid in sp.get("unverifiable_kept") or []:
         c = g(cid)
-        rows.append(("unloadable", cid, c.get("gloss") or f"card {cid}", c.get("url"), None, None,
-                     "page would not load (paywall/block) — kept, but unverified"))
+        _u = c.get("url") or ""
+        _own = config.COMPANY.lower() in _u.lower()
+        rows.append(("unloadable", cid, c.get("gloss") or f"card {cid}", _u, None, None,
+                     "our own page — not re-fetched, so it stands unchecked" if _own
+                     else "page would not load (paywall or block) — kept, but unverified"))
     for f in sp.get("search_failed") or []:
         if f.get("card_id") is None:
             continue
@@ -504,13 +790,18 @@ def build_sources(slug):
     for verdict, cid, claim, old, new, quote, note in rows:
         cls, name = lab[verdict]
         h = (f'<div class="row" data-v="{verdict}"><div class="t"><span class="{cls}">{name}</span> '
-             f'{E(str(claim or "")[:160])} <span class="chip">c{cid}</span></div>')
+             f'{E(clip(claim or "", 160))} <span class="chip">c{cid}</span></div>')
         if old:
-            h += f'<div class="m">was: <a href="{E(old)}" target="_blank">{E(old[:90])}</a></div>'
+            # "was:" only means something when a "now:" follows. On a VERIFIED row it is the CURRENT
+            # source, and labelling it "was" read as though every source had been replaced.
+            _lab = "was:" if new else "source:"
+            h += (f'<div class="m">{_lab} <a href="{E(old)}" target="_blank" rel="noopener">'
+                  f'{E(clip(old, 90))}</a></div>')
         if new:
-            h += f'<div class="m">now: <a href="{E(new)}" target="_blank">{E(new[:90])}</a></div>'
+            h += (f'<div class="m">now: <a href="{E(new)}" target="_blank" rel="noopener">'
+                  f'{E(clip(new, 90))}</a></div>')
         if quote:
-            h += f'<div class="reason">proof on the page: “{E(quote[:220])}”</div>'
+            h += f'<div class="reason">proof on the page: “{E(clip(quote, 220))}”</div>'
         if note:
             h += f'<div class="reason">{E(str(note))}</div>'
         rws.append(h + "</div>")
@@ -539,19 +830,25 @@ document.querySelectorAll('.filters button').forEach(b=>b.onclick=()=>{
     elif counts.get("cut"):
         collapse = ('<p class="q">Nothing collapsed. Cards were cut, but every sub-section kept at least one '
                     'piece of evidence, so no sub-section or section was lost.</p>')
-    else:
+    elif (sp.get("coverage") or {}).get("trustworthy", True):
         collapse = ('<p class="q">Nothing collapsed, because nothing was cut. Every claim held up against '
                     'the page it credits.</p>')
+    else:
+        # Zeros here mean "clean" ONLY if the check finished. It did not, so saying every claim held up
+        # would be the page contradicting the warning at the top of itself.
+        collapse = ('<p class="q">Nothing was cut — but the source check did not finish, so this is not a '
+                    'clean bill. Read the warning at the top of this page before trusting these zeros.</p>')
 
     # Did the check actually run? Zeros mean "clean" only if it completed. Say which, loudly, at the top.
     cov = sp.get("coverage") or {}
     if cov and not cov.get("trustworthy", True):
         banner = (f'<div class="panel" style="border-color:var(--no);background:var(--no-bg)">'
                   f'<div class="t no">⚠ THIS SOURCE CHECK DID NOT COMPLETE</div>'
-                  f'<div class="reason">Only <b>{cov.get("actually_judged")}</b> of '
-                  f'<b>{cov.get("claims_to_check")}</b> claims were judged '
-                  f'({cov.get("percent_judged")}%) — the web search failed or hit its cap, so '
-                  f'<b>{cov.get("never_checked")}</b> were never checked. A low CUT count below means '
+                  f'<div class="reason">Of <b>{cov.get("claims_to_check")}</b> claims that needed a '
+                  f'published source, <b>{cov.get("actually_judged")}</b> were judged '
+                  f'({cov.get("percent_judged")}%), <b>{counts.get("unloadable", 0)}</b> cite a page '
+                  f'that would not open, and <b>{cov.get("never_checked")}</b> were never checked — '
+                  f'the web search failed or hit its cap. A low CUT count below means '
                   f'<b>not checked</b>, not clean. Re-run the planner before publishing.</div></div>')
     elif cov:
         banner = (f'<p class="note ok">✓ Check complete — {cov.get("actually_judged")} of '
@@ -569,7 +866,7 @@ document.querySelectorAll('.filters button').forEach(b=>b.onclick=()=>{
     n_numeric, n_worthy = len(vc.get("numeric") or []), len(vc.get("worthy") or [])
     funnel = ""
     if n_numeric:
-        funnel = (f'<h2>{n_worthy} out of what? — how this narrowed</h2>'
+        funnel = (f'<h2>Where that {cov.get("claims_to_check") or n_worthy} came from</h2>'
                   + '<div class="panel"><div class="row"><div class="t">'
                   + f'{len(used)} cards used in the plan → <b>{n_numeric}</b> carry a number → '
                     f'<b>{n_worthy}</b> needed a published source and were checked'
@@ -594,8 +891,9 @@ document.querySelectorAll('.filters button').forEach(b=>b.onclick=()=>{
             'neighbour\'s bad link silently remove a fact that was never examined. So the claim stays and '
             'the false source goes. Treat them as unsourced.</p>'
             + '<div class="panel">' + "".join(
-                f'<div class="row"><div class="t">{E(str(u.get("claim") or "?"))[:150]}'
-                f'<span class="chip">c{u.get("card_id")}</span></div></div>' for u in kept_un[:60])
+                f'<div class="row"><div class="t">{E(clip(u.get("claim") or "?", 150))}'
+                f'<span class="chip">c{u.get("card_id")}</span></div></div>' for u in kept_un[:60]) + (
+                f'<div class="row q">…and {len(kept_un) - 60} more</div>' if len(kept_un) > 60 else "")
             + (f'<p class="q">…and {len(kept_un) - 60} more</p>' if len(kept_un) > 60 else "") + "</div>")
 
     body = (_nav("Sources")
@@ -624,7 +922,9 @@ def build_blueprint(slug):
     st = json.load(open(config.artifact(slug, "structure.json")))
     # the expected-topics list lives on the frozen plan, not on the structure
     _pp = config.artifact(slug, "article-plan.json")
-    plan_stakes = (json.load(open(_pp)).get("table_stakes") or []) if os.path.exists(_pp) else []
+    _plan = json.load(open(_pp)) if os.path.exists(_pp) else {}
+    plan_stakes = _plan.get("table_stakes") or []
+    plan_secs = [str(x.get("h2") or "") for x in (_plan.get("sections") or [])]
     alloc = _work(slug, "architect", "word-allocation.json") or {}
     enrich = _work(slug, "architect", "enrichment.json")
     shares = {a.get("section"): a for a in (alloc.get("raw") or {}).get("allocation") or []}
@@ -641,7 +941,7 @@ def build_blueprint(slug):
              # section, which topic every ranking page covers it is serving. Counting them is the
              # honest check on the whole change: an article where almost nothing maps is one that
              # renamed the expected ground past recognition, which is exactly what shipped before.
-             + (lambda covered, total: (
+             + (lambda covered, total, missing: (
                  f'<h2>Topics people expect</h2>'
                  f'<p class="note">Almost every page ranking for this subject covers a handful of '
                  f'topics. The architect names which of its sections serves each one. Too few mapped '
@@ -650,13 +950,17 @@ def build_blueprint(slug):
                  f'<div class="panel">'
                  + "".join(f'<div class="row"><span class="t">{E(c)}</span>'
                            f'<div>{E(h)}</div></div>' for c, h in covered)
-                 + (f'<div class="row"><span class="t">not covered</span><div class="m">'
-                    f'{total - len(covered)} expected topic(s) have no section</div></div>'
+                 + (f'<div class="row"><span class="t">no section of its own</span><div class="m">'
+                    f'{E(", ".join(missing)) if missing else str(total - len(covered)) + " topic(s)"}'
+                    f' — folded into another section or deliberately dropped; the panel below says '
+                    f'which.</div></div>'
                     if total > len(covered) else "")
                  + '</div>') if total else "")(
                  [(s["covers"], s.get("headline") or s.get("heading", ""))
                   for s in st.get("sections", []) if s.get("covers")],
-                 len(st.get("table_stakes") or plan_stakes or []))
+                 len(st.get("table_stakes") or plan_stakes or []),
+                 sorted(set(st.get("table_stakes") or plan_stakes or [])
+                        - {s["covers"] for s in st.get("sections", []) if s.get("covers")}))
              + (f'<h2>What it chose to leave out</h2>'
                 f'<p class="note">The architect is shown the topics every ranking page covers. It is '
                 f'allowed to drop any that do not serve this article. Watch for the opposite of a '
@@ -680,6 +984,7 @@ def build_blueprint(slug):
            else '<div class="reason no">NO REASON RECORDED — the architect must justify every bench</div>')
         + "</div>"
         for b in st.get("unused_boxes") or []) or '<p class="q">nothing benched</p>'
+    n_bench = len(st.get("unused_boxes") or [])
 
     total_w = sum(s.get("word_target") or 0 for s in st.get("sections") or []) or 1
     secs = []
@@ -719,7 +1024,7 @@ def build_blueprint(slug):
                'article predates the step, or the step did not complete — check the run log before reading the '
                'rest of this page as complete.</p></div>')
     sk = _work(slug, "architect", "section-keywords.json")
-    gatep = MISSING.format(title="Section keywords — what we paid to look up", f="section-keywords.json")
+    gatep = MISSING.format(title="Section keywords — the ones worth buying a lookup for", f="section-keywords.json")
     if sk:
         rows, n_hunt, n_found = [], 0, 0
         for r in sk.get("sections") or []:
@@ -733,23 +1038,26 @@ def build_blueprint(slug):
                 continue
             pick, seeds = r.get("pick") or {}, r.get("seeds") or []
             detail = (f'<div class="m">seeds: {E("; ".join(seeds) or "—")} · '
-                      f'{r.get("candidates", 0)} candidate(s) cleared vol/KD</div>')
+                      f'{r.get("candidates", 0)} candidate(s) cleared the bar</div>')
             if pick:
                 n_found += 1
                 rows.append(f'<div class="row"><div class="t">{head}'
                             f'<span class="chip ok">{E(pick.get("keyword") or "")}</span>'
-                            f'<span class="chip">vol {pick.get("volume", "?")} · KD {pick.get("kd", "?")}</span></div>'
+                            f'<span class="chip">{pick.get("volume", "?")} searches a month · difficulty {pick.get("kd", "?")}</span></div>'
                             + detail + f'<div class="reason">{E(pick.get("why") or "")}</div></div>')
             else:
                 why = r.get("why_none") or r.get("error") or "no pick recorded"
                 rows.append(f'<div class="row"><div class="t">{head}<span class="chip warn">none taken</span></div>'
                             + detail + f'<div class="reason">{E(why)}</div></div>')
-        gatep = ('<h2 id="keywords">Section keywords — what we paid to look up</h2>'
+        gatep = ('<h2 id="keywords">Section keywords — the ones worth buying a lookup for</h2>'
                  '<p class="note">A free gate first decides which sections a stranger would actually search for; '
                  'only those get a paid lookup. Most sections should say <b>no lookup</b> — they carry the argument '
                  'rather than a search. <b>None taken</b> is a good answer too: a big number for a phrase the section '
                  'does not answer just means the page ranks and the reader bounces. What to check here is whether '
                  'each reason is honest.</p>'
+                 f'<p class="note">The bar a keyword has to clear: at least '
+                 f'<b>{config.VOL_FLOOR} searches a month</b> and a difficulty '
+                 f'under <b>{config.KD_CEIL}</b>.</p>'
                  + _nums([("sections", len(sk.get("sections") or [])), ("gated for lookup", n_hunt),
                           ("keyword found", n_found), ("found nothing", n_hunt - n_found)])
                  + '<div class="panel">' + "".join(rows) + "</div>")
@@ -825,11 +1133,16 @@ def build_blueprint(slug):
         kwp = '<h2 id="headings">The headings, and the H1</h2><div class="panel">' + "".join(rows) + "</div>"
 
     # the word budget, stated once and in plain terms
-    band = st.get("word_budget") or {}
+    wb = st.get("word_budget") or {}
+    band = wb.get("band") or {}          # the real shape is word_budget.band.{min,max}
+    under_floor = (wb.get("headings") or {}).get("under_floor") or []
     n_sec = len(st.get("sections") or [])
     total_line = (f'<p class="note"><b>{total_w:,} words</b> planned in total across <b>{n_sec}</b> sections'
                   + (f' (target band {band.get("min"):,}–{band.get("max"):,} words)'
                      if band.get("min") and band.get("max") else "")
+                  + (f'. <span class="no">{len(under_floor)} section(s) sit under the per-heading '
+                     f'floor</span>: {E(clip(", ".join(str(x) for x in under_floor), 200))}'
+                     if under_floor else "")
                   + f'. Average <b>{round(total_w / max(n_sec, 1)):,}</b> words per section. The bar shows each '
                     'section\'s share of the article.</p>')
 
@@ -846,10 +1159,12 @@ def build_blueprint(slug):
         inv_rows = ""
         if kinds:
             inv_rows += ('<div class="row"><div class="t">Scales this article uses'
-                         + (f'<span class="chip no">{len(kinds)} different ones</span>' if len(kinds) > 1
+                         # Red belongs on a genuine collision, not on the size of an inventory: most
+                         # of these are the header and rows of one legitimate table.
+                         + (f'<span class="chip">{len(kinds)} different ones</span>' if len(kinds) > 1
                             else '<span class="chip ok">just one</span>') + "</div>"
                          + "".join(f'<div class="reason">{E(k)} <span class="q">&times;{len(v)} — '
-                                   f'{E(", ".join(dict.fromkeys(v))[:110])}</span></div>'
+                                   f'{E(clip(", ".join(dict.fromkeys(v)), 110))}</span></div>'
                                    for k, v in kinds.items()) + "</div>")
         # "promises" was dropped from the inventory on 2026-08-11 with the promise-not-kept fault
         for label, key, fld in (("Rules and warnings it states", "rules", "text"),
@@ -858,8 +1173,10 @@ def build_blueprint(slug):
             if not items:
                 continue
             inv_rows += (f'<div class="row"><div class="t">{E(label)}<span class="chip">{len(items)}</span></div>'
-                         + "".join(f'<div class="reason q">{E(str(x.get(fld, ""))[:170])}</div>'
-                                   for x in items[:12]) + "</div>")
+                         + "".join(f'<div class="reason q">{E(clip(x.get(fld, ""), 170))}</div>'
+                                   for x in items[:12])
+                         + (f'<div class="reason q">…and {len(items) - 12} more</div>'
+                            if len(items) > 12 else "") + "</div>")
 
         applied = cr.get("applied")
         diff = cr.get("diff") or []
@@ -873,13 +1190,13 @@ def build_blueprint(slug):
         wrows = ""
         for wn in warns:
             cls = "no" if wn.get("kind") == "numbers changed" else "warn"
-            wrows += (f'<div class="row"><div class="t {cls}">{E(wn.get("kind","?"))}'
+            wrows += (f'<div class="row"><div class="t {cls}">{E(fault(wn.get("kind")))}'
                       f'<span class="chip">{len(wn.get("detail") or [])}</span></div>'
                       f'<div class="reason q">{E(wn.get("note") or "")}</div>'
-                      f'<div class="reason">{E(", ".join(str(x) for x in (wn.get("detail") or []))[:400])}</div></div>')
+                      f'<div class="reason">{_warn_detail(wn)}</div></div>')
         for d in declared:
-            wrows += (f'<div class="row"><div class="t">declared: {E(str(d.get("was"))[:40])} &rarr; '
-                      f'{E(str(d.get("now"))[:40])}</div>'
+            wrows += (f'<div class="row"><div class="t">declared: {E(clip(d.get("was"), 130))} &rarr; '
+                      f'{E(clip(d.get("now"), 130))}</div>'
                       f'<div class="reason q">{E(d.get("why") or "")}</div></div>')
         warnp = ('<h2>Read this first — what changed that nobody blocked</h2>'
                  '<p class="note">These are allowed on purpose, because blocking them would throw away the '
@@ -893,7 +1210,7 @@ def build_blueprint(slug):
 
         chg_rows = "".join(
             f'<div class="row"><div class="t">{E(c.get("kind","?"))}'
-            f'<span class="chip">{E(str(c.get("section","?"))[:44])}</span></div>'
+            f'<span class="chip">{E(clip(c.get("section","?"), 44))}</span></div>'
             f'<div class="reason">{E(c.get("what_you_did") or "")}</div>'
             f'<div class="reason q">{E(c.get("why") or "")}</div></div>' for c in chg)
         cant_rows = "".join(
@@ -901,11 +1218,14 @@ def build_blueprint(slug):
             f'<div class="reason">{E(c.get("what") or "")} — <i>{E(str(c.get("where") or ""))}</i></div>'
             f'<div class="reason q">{E(c.get("why_not") or "")}</div></div>' for c in cant)
         diff_rows = "".join(
-            f'<div class="row"><div class="t">{E(d.get("block","?")[:60])}'
+            f'<div class="row"><div class="t">{E(clip(d.get("block","?"), 60))}'
             f'<span class="chip">{len(d.get("edits") or [])} change(s)</span></div>'
-            + "".join(f'<div class="reason q">was: {E(str(e.get("was"))[:190])}</div>'
-                      f'<div class="reason">now: {E(str(e.get("now"))[:190])}</div>'
-                      for e in (d.get("edits") or [])[:4]) + "</div>" for d in diff)
+            + "".join(f'<div class="reason q">was: {E(clip(e.get("was"), 190))}</div>'
+                      f'<div class="reason">now: {E(clip(e.get("now"), 190))}</div>'
+                      for e in (d.get("edits") or [])[:4])
+                      + (f'<div class="reason q">…and {len(d.get("edits") or []) - 4} more change(s) '
+                         f'in this block</div>' if len(d.get("edits") or []) > 4 else "")
+                      + "</div>" for d in diff)
 
         cohp = ('<h2>Reading the article whole</h2>'
                 '<p class="note">Every section was written by a different writer at the same time, so faults '
@@ -928,17 +1248,24 @@ def build_blueprint(slug):
             + _where("Blueprint", "The facts are settled. This page is the plan for the article itself: "
                                   "what it argues, which sections carry it, and how long each one gets.")
             + spine
-            + _world_panel(slug, "Written in the research phase, before any searching started, and never changed "
-                                 "since. It is one of the stated reasons the architect benches material below, so "
-                                 "read it before judging whether a bench was right.")
-            + cohp + gatep + kwp + comp
-            + '<h2 id="bench">The bench — what the architect chose NOT to use</h2>'
-            + '<p class="note">Material that survived selection but the architect still left out. Every bench '
-              'needs a stated reason; a missing one is flagged in red. A bench for belonging to the NOT ABOUT '
-              'world above is the one to check hardest, because it is the one that saves the article.</p>'
-            + '<div class="panel">' + bench + "</div>"
+            + _world_ref("The article's world is one of the stated reasons the architect benches material below.")
+            + _brand_panel(slug) + gatep + kwp + comp
+            # The coherence report belongs to the writer, and has its own page. It used to be pasted here
+            # in full, so a walkthrough met the same 9,000 characters twice.
+            + '<p class="note">Coherence runs later, on the finished draft. Its report is on the '
+              '<a href="../writer/coherence-review.html">coherence page</a>.</p>' 
+            # The plan comes first. The bench used to sit above it, so a walkthrough scrolled past
+            # every rejected item before reaching the thing the page is named after.
             + '<h2 id="sections">The sections, in reading order</h2>' + total_line
             + '<div class="panel">' + "".join(secs) + "</div>"
+            + '<h2 id="bench">The bench — what the architect chose NOT to use</h2>'
+            + '<p class="note">Material that survived selection but the architect still left out. Every bench '
+              'needs a stated reason; a missing one is flagged in red. A bench for belonging to the article\'s '
+              'NOT ABOUT world is the one to check hardest, because it is the one that saves the article.</p>'
+            + _dropped_sections_line(plan_secs, st)
+            + (f'<details class="diff"><summary>{n_bench} benched item(s) — open the list</summary>'
+               f'<div class="panel">{bench}</div></details>' if n_bench > 12
+               else '<div class="panel">' + bench + "</div>")
             + '<h2 id="research">Research: asked for vs delivered</h2>'
             + '<p class="note">If a section was too thin, the architect could ask for fresh web research. '
               'This is what it asked for and what came back.</p>'
@@ -975,7 +1302,7 @@ def _diff_rows(pairs, badge_of=None, note_of=None):
             continue
         badge = badge_of(h) if badge_of else ""
         note = note_of(h) if note_of else ""
-        rows.append(f'<details class="diff"><summary>{E(h[:95])} {badge}</summary>'
+        rows.append(f'<details class="diff"><summary>{E(clip(h, 95))} {badge}</summary>'
                     f'{note}<div class="dbody">{_wdiff(before, after)}</div></details>')
     return rows
 
@@ -1027,13 +1354,14 @@ def build_body(slug):
         nums = sum(1 for p in prov if p.get("is_number"))
         srcs = sorted({p.get("source_url") for p in prov if p.get("source_url")})
         ev = "".join(
-            f'<li>{E((p.get("claim") or "").strip()[:220])}'
+            f'<li>{E(clip((p.get("claim") or "").strip(), 220))}'
             + (' <span class="chip no">a number</span>' if p.get("is_number") else "")
             + (f' <a href="{E(p["source_url"])}" target="_blank" class="q">source</a>'
                if p.get("source_url") else ' <span class="q">no link on file</span>')
-            + "</li>" for p in prov[:60])
+            + "</li>" for p in prov[:60]) + (
+            f'<li class="q">…and {len(prov) - 60} more</li>' if len(prov) > 60 else "")
         rows.append(
-            f'<details class="diff"><summary>{E(s["headline"][:95])} '
+            f'<details class="diff"><summary>{E(clip(s["headline"], 95))} '
             f'<span class="chip">wrote {got} words, was asked for {tgt}</span> '
             f'<span class="chip {cls}">{off:+.0f}%</span> '
             + ('<span class="chip warn">used no research at all</span>' if not prov else
@@ -1142,9 +1470,10 @@ def build_editor(slug):
 
     # THE FLAGS. Anything in guard_failures threw the whole edit away; anything in warnings did not.
     flags = "".join(f'<p class="no"><b>BLOCKED:</b> {E(f)}</p>' for f in bl.get("guard_failures") or [])
-    flags += "".join(f'<p class="q"><b>{E(w.get("kind"))}:</b> '
-                     f'{E(", ".join(str(x) for x in (w.get("detail") or [])[:8]))}</p>'
-                     for w in bl.get("warnings") or [])
+    flags += "".join(
+        f'<p class="q"><b>{E(fault(w.get("kind")))}:</b> {_warn_detail(w)}'
+        + (f' <span class="q">— {E(str(w["note"]))}</span>' if w.get("note") else "") + "</p>"
+        for w in bl.get("warnings") or [])
     flags = (f'<div class="panel">{flags}</div>' if flags
              else '<div class="panel"><p class="ok">No flags. Nothing was blocked.</p></div>')
 
@@ -1160,7 +1489,7 @@ def build_editor(slug):
         length_panel = (
             '<h2>Length</h2>'
             '<p class="note">The finished article should land inside the band the research phase set. '
-            'Blend only sees the sections: an intro, five FAQ answers and a close are written after it '
+            'Blend only sees the sections: an intro, the FAQ answers and a close are written after it '
             f'and add about {la["wrapper_reserve"]} words, so the sections have to come in below the '
             'band, not inside it.</p>'
             f'<div class="panel">'
@@ -1173,17 +1502,25 @@ def build_editor(slug):
     else:
         length_panel = ""
 
-    kw = "".join(f'<li><b>{E(k.get("keyword"))}</b> — appears <b>{k.get("after", 0)}</b> time(s)'
-                 + (f' <span class="q">(was {k.get("before", 0)}, so the editor added {k.get("after",0)-k.get("before",0)})</span>'
-                    if k.get("after", 0) > k.get("before", 0) else
-                    ' <span class="q">(unchanged)</span>' if k.get("after") else
-                    ' <span class="q">(never used)</span>')
-                 + "</li>" for k in bl.get("keywords_measured") or [])
+    def _kw_move(k):
+        b_, a_ = k.get("before", 0), k.get("after", 0)
+        if a_ > b_:
+            return f'(was {b_}, so the editor added {a_ - b_})'
+        if a_ < b_:
+            return f'(was {b_}, so the editor removed {b_ - a_})'
+        return "(unchanged)" if a_ else "(never used)"
+
+    # "appears 7 times" here and "21x" on the article page are both true and count different text.
+    # Neither said which, so the page invited a question it could not answer.
+    kw = "".join(f'<li><b>{E(k.get("keyword"))}</b> — appears <b>{k.get("after", 0)}</b> time(s) '
+                 f'in the sections after the editor '
+                 f'<span class="q">{E(_kw_move(k))}</span></li>'
+                 for k in bl.get("keywords_measured") or [])
     kw = kw or '<li class="q">no keywords on file</li>'
 
     body = (_nav("Editor")
             + reads_link("blend")
-            + _where("", 'Twelve writers wrote twelve sections and none of them could see any other. '
+            + _where("", f'{len(orig)} writers wrote {len(orig)} sections and none of them could see any other. '
                          'This step is the first to read them all, joins them into one piece, and cuts what did '
                          'not earn its place: a point made twice, a term explained twice, fluff, a section that '
                          'never lands its point. Code counts the over-long sentences and paragraphs first and '
@@ -1249,7 +1586,7 @@ def build_wrapper_page(slug):
         outs = f.get("outside_numbers") or []
         num = (f'<span class="chip warn">check {len(outs)} figure(s) from outside the article</span>'
                if outs else "")
-        faq.append(f'<details class="diff"><summary>{E(f.get("question") or "")[:110]} {origin}{length}{num}</summary>'
+        faq.append(f'<details class="diff"><summary>{E(clip(f.get("question") or "", 110))} {origin}{length}{num}</summary>'
                    f'<div class="dbody">{E(f.get("answer") or "")}</div>'
                    + (f'<div class="q">not in the article: {E(", ".join(outs))}</div>' if outs else "")
                    + "</details>")
@@ -1271,8 +1608,8 @@ def build_wrapper_page(slug):
     body = (_nav("Wrapper")
             + reads_link("wrapper")
             + _where("", 'The article has a middle but no beginning and no end. This step writes the four '
-                         'things around it: the opening, the Quick answer, the FAQ, and the closing. The '
-                         'Quick answer is the whole piece in 60 to 110 words, for the reader who reads nothing '
+                         'things around it: the opening, the TL;DR, the FAQ, and the closing. The '
+                         'TL;DR is the takeaways in 60 to 110 words, for the reader who reads nothing '
                          'else — it has to ANSWER, not list takeaways. The opening follows problem, '
                          'agitate, solution, and the solution is the article\'s own answer, never the product. '
                          'The FAQ takes real searched questions first, and it is allowed to answer things the '
@@ -1280,7 +1617,7 @@ def build_wrapper_page(slug):
                          'is a wasted slot. Adding an opening and a closing creates two new seams, so it may also '
                          'repair those two joins and nothing else.')
             + _nums([("intro words", len((wr.get("intro") or "").split())),
-                     ("quick answer words", len((wr.get("quick_answer") or "").split())),
+                     ("TL;DR words", len((wr.get("quick_answer") or "").split())),
                      ("FAQ questions", len(wr.get("faq") or [])),
                      ("answers over %d words" % config.WRAP_FAQ_WORDS,
                       sum(1 for f in wr.get("faq") or [] if f.get("over_target"))),
@@ -1299,8 +1636,8 @@ def build_wrapper_page(slug):
             + "<h2>The H1 and the intro</h2>"
             + f'<div class="panel"><div class="row"><span class="t">H1</span><div><b>{E(wr.get("h1") or "—")}</b>'
               '</div></div>'
-              f'<div class="row"><span class="t">intro</span><div>{E(wr.get("intro") or "—")}</div></div>'
-              + (f'<div class="row"><span class="t">quick answer</span><div>'
+              f'<div class="row"><span class="t">intro</span><div>{mdlink(wr.get("intro") or "—")}</div></div>'
+              + (f'<div class="row"><span class="t">TL;DR</span><div>'
                  f'{E(wr.get("quick_answer"))}</div></div>' if wr.get("quick_answer") else "")
               + '</div>'
             + f"<h2>The FAQ — {len(wr.get('faq') or [])} question(s)</h2>" + ("".join(faq) or
@@ -1311,7 +1648,7 @@ def build_wrapper_page(slug):
             + (f'<p class="note">It sits under its own heading, written in the same call so the two '
                f'cannot drift: <b>{E(wr.get("close_heading"))}</b>. The one product link in the whole '
                f'article lives here.</p>' if wr.get("close_heading") else "")
-            + f'<div class="panel"><p>{E(wr.get("close") or "—")}</p>'
+            + f'<div class="panel"><p>{mdlink(wr.get("close") or "—")}</p>'
             + (f'<div class="row"><span class="t">links to</span><div>{E(wr.get("cta_link"))}</div></div>'
                if wr.get("cta_link") else "")
             + "".join(f'<div class="row bad"><span class="t">flagged</span><div>{E(x)}</div></div>'
@@ -1342,8 +1679,8 @@ def build_coherence(slug):
     warn = cr.get("warnings") or []
 
     ch = "".join(
-        f'<details class="diff"><summary>{E(str(c.get("section"))[:95])} '
-        f'<span class="chip no">{E(str(c.get("kind")))}</span></summary>'
+        f'<details class="diff"><summary>{E(clip(c.get("section"), 95))} '
+        f'<span class="chip no">{E(fault(c.get("kind")))}</span></summary>'
         f'<div class="q"><b>What it did:</b> {E(str(c.get("what_you_did") or ""))}</div>'
         f'<div class="q"><b>Why:</b> {E(str(c.get("why") or ""))}</div></details>' for c in changes)
 
@@ -1352,16 +1689,21 @@ def build_coherence(slug):
         sim = d.get("similarity")
         edits = "".join(f'<li><del>{E(str(e.get("was") or ""))}</del> → <ins>{E(str(e.get("now") or ""))}</ins></li>'
                         for e in d.get("edits") or [])
-        dif += (f'<details class="diff"><summary>{E(str(d.get("block"))[:95])} '
+        dif += (f'<details class="diff"><summary>{E(clip(d.get("block"), 95))} '
                 f'<span class="chip">{(1 - (sim or 0)) * 100:.1f}% of the block rewritten</span></summary>'
                 f'<ul class="kwlist">{edits}</ul></details>')
 
     wrows = "".join(
-        f'<div class="row"><span class="t">{E(str(w.get("kind")))}</span><div>'
-        f'{E(", ".join(str(x) for x in (w.get("detail") or [])))}'
+        f'<div class="row"><span class="t">{E(fault(w.get("kind")))}</span><div>'
+        f'{_warn_detail(w)}'
         f'<div class="q">{E(str(w.get("note") or ""))}</div></div></div>' for w in warn)
 
-    cnf = "".join(f'<li>{E(str(c))}</li>' for c in cr.get("could_not_fix") or [])
+    cnf = "".join(
+        f'<li><b>{E(str(c.get("what") or ""))}</b>'
+        + (f' <span class="chip">{E(str(c.get("where")))}</span>' if c.get("where") else "")
+        + (f'<div class="q">why not: {E(str(c.get("why_not")))}</div>' if c.get("why_not") else "")
+        + "</li>" if isinstance(c, dict) else f'<li>{E(str(c))}</li>'
+        for c in cr.get("could_not_fix") or [])
     gf = cr.get("guard_failures") or []
     applied = cr.get("applied")
 
@@ -1442,11 +1784,21 @@ def build_readable(slug):
     checks = r.get("checks") or []
     failed = [c for c in checks if not c.get("ok")]
 
+    def _detail_of(c):
+        """Say the tolerance the check actually applies.
+
+        A red X on 2/4 beside a green tick on 7/10 reads as invented until the page says a third of
+        the items may be missing. Older reports predate that, so recover it from the ratio.
+        """
+        d = str(c.get("detail", ""))
+        m = re.match(r"^(\d+)/(\d+) covered$", d)
+        return f"{d} (up to {int(m.group(2)) // 3} may be missing)" if m else d
+
     rows = "".join(
         f'<tr class="{"bad" if not c.get("ok") else ""}">'
         f'<td>{"&#10007;" if not c.get("ok") else "&#10003;"}</td>'
         f'<td><b>{E(c.get("check",""))}</b></td>'
-        f'<td>{E(c.get("detail",""))}</td>'
+        f'<td>{E(_detail_of(c))}</td>'
         f'<td class="m">{E(c.get("protects",""))}</td></tr>' for c in checks)
 
     banner = ""
@@ -1475,12 +1827,20 @@ def build_readable(slug):
         _pb = len([x for x in re.split(r"\n\s*\n", _after) if x.strip()])
         _wa, _wb = len(_before.split()), len(_after.split())
         _pct = (_wb - _wa) / _wa * 100 if _wa else 0
-        _cls = "bad" if (_pb >= _pa and _pct > -5) else ""
-        _rows.append(f'<tr class="{_cls}"><td><b>{E(_h[:58])}</b></td>'
+        _gone = not _after.strip()
+        _cls = "bad" if (_gone or (_pb >= _pa and _pct > -5)) else ""
+        _tag = ' <span class="no">section removed</span>' if _gone else ""
+        _rows.append(f'<tr class="{_cls}"><td><b>{E(clip(_h, 58))}</b>{_tag}</td>'
                      f'<td>{_wa:,} &rarr; {_wb:,}</td><td>{_pct:+.0f}%</td>'
                      f'<td>{_pa} &rarr; {_pb}</td></tr>')
-    changes = (f'<table><thead><tr><th>Section</th><th>Words</th><th>Change</th>'
-               f'<th>Paragraphs</th></tr></thead><tbody>{"".join(_rows)}</tbody></table>'
+    _removed = [h for h, b_ in _ba.items() if not _bb.get(h, "").strip()]
+    changes = ((f'<p class="note no"><b>{len(_removed)} section(s) were removed outright</b>: '
+                f'{E("; ".join(clip(x, 70) for x in _removed))}. Their material either moved into '
+                f'another section or left the article — check the two drafts side by side.</p>'
+                if _removed else "")
+               + f'<div class="scroll"><table><thead><tr><th>Section</th><th>Words</th>'
+                 f'<th>Change</th><th>Paragraphs</th></tr></thead>'
+                 f'<tbody>{"".join(_rows)}</tbody></table></div>'
                if _rows else '<p class="q">Nothing to compare — the step has not run.</p>')
     body = (_nav("Readable")
             + reads_link("readable")
@@ -1504,8 +1864,9 @@ def build_readable(slug):
               'under 50 is heavy going. A rewrite that raises it while every check stays green is the step '
               'working. A rewrite that raises it by <i>losing</i> a link, a figure or a source has cheated, '
               'and the table below is where that shows.</p>'
-            + f"<h2>Every check</h2><table><thead><tr><th></th><th>Check</th><th>Result</th>"
-              f"<th>What it protects</th></tr></thead><tbody>{rows}</tbody></table>"
+            + '<h2>Every check</h2><div class="scroll"><table><thead><tr><th></th><th>Check</th>'
+              '<th>Result</th><th>What it protects</th></tr></thead>'
+            + f"<tbody>{rows}</tbody></table></div>"
             + '<h2>Where the cut actually happened</h2>'
               '<p class="note">Measured from the two files, not reported by the model. A section that '
               'came back with fewer paragraphs genuinely removed something. One that kept every '
@@ -1523,7 +1884,7 @@ def build_clean(slug):
     if r is None:
         raise FileNotFoundError(config.artifact(slug, "clean-report.json"))
     rules = "".join(f'<li><b>{v}x</b> {E(k)}</li>' for k, v in (r.get("by_rule") or {}).items())
-    where = "".join(f'<div class="row"><span class="t">{E(f)[:44]}</span><div>'
+    where = "".join(f'<div class="row"><span class="t">{E(clip(f, 44))}</span><div>'
                     + ", ".join(f"{v}x {E(k)}" for k, v in t.items()) + "</div></div>"
                     for f, t in (r.get("by_field") or {}).items())
     total = r.get("total_fixes", 0)
@@ -1533,16 +1894,12 @@ def build_clean(slug):
             + _nums([("characters fixed", total),
                      ("kinds of fix", len(r.get("by_rule") or {})),
                      ("places touched", len(r.get("by_field") or {}))])
-            + "<h2>What to watch for</h2>"
-            + '<p class="note">This step only ever touches characters and spacing, never a word, so nothing '
-              'here can change meaning. It catches what the eye cannot: characters that <i>look</i> like normal '
-              'ASCII but are not, so find-and-replace and exact-match quietly fail on them. Curly quotes and '
-              'real maths symbols (≥, ≈, ×) are deliberately left alone. A high count is not a problem; it is '
-              'the step doing its job.</p>'
+            # The "What to watch for" panel used to restate the lede word for word. On a run that
+            # fixed nothing, the page was 480 words to say so, twice.
             + (f'<h2>What it fixed</h2><div class="panel"><ul class="kwlist">{rules}</ul></div>'
                f'<h2>Where they were</h2><div class="panel">{where}</div>' if total else
-               '<div class="panel"><p class="q">Nothing to fix — the text was already mechanically clean.</p>'
-               "</div>"))
+               '<div class="panel"><p class="q">Nothing to fix — the text was already mechanically '
+               'clean. Nothing on this page needs your attention.</p></div>'))
     out = config.artifact(slug, "clean-review.html")
     config.write_text(out, _page("The scrub", f"{slug} — the mechanical character clean-up", body))
     return out
@@ -1577,8 +1934,9 @@ STATIONS = [
        "page does not back it, searches for one that does. If nothing does, the claim is cut.",
        "paid", "Sources"),
       ("freeze", "Locks the plan so no later step can quietly change it.",
-       "Checks the plan's shape and stamps it. After this the plan cannot change, so every later "
-       "step is building on one fixed thing.", "code", None),
+       "Checks the plan's shape and stamps it, and flags any promise left with no heading to serve it. "
+       "After this the plan cannot change, so every later step is building on one fixed thing.",
+       "code", "Select"),
       ("plan-view", "Writes the locked plan out in plain English.",
        "Writes the frozen plan out as plain English, so you can read it without opening JSON.",
        "code", None)]),
@@ -1620,7 +1978,7 @@ STATIONS = [
        "questions first and may go beyond what the article covers, since a question the article "
        "already answers is a wasted slot, but it may never use a number the article does not have. "
        "The close is the one place the company is named, and the only place a product link appears. "
-       "It also writes the Quick answer: the whole article in 60 to 110 words, for the reader who reads nothing else.", "ai", "Wrapper"),
+       "It also writes the TL;DR: the takeaways in 60 to 110 words, for the reader who reads nothing else.", "ai", "Wrapper"),
       ("coherence", "Reads the whole article at once and fixes what contradicts itself.",
        "The first step that reads the whole article at once. Catches the faults that live "
        "between sections, such as the same point made twice or a rule stated then contradicted.",
@@ -1697,7 +2055,7 @@ PAGES = [
      "page matters."),
     ("The article at every step", "writer/reads/index.html",
      "How did it read after each step of the writer?",
-     "The same piece at nine moments. Useful when a page tells you a step changed something and "
+     "The same piece at every step. Useful when a page tells you a step changed something and "
      "you want to see whether the change helped."),
     ("Article, marked up", "writer/article.html",
      "Where did each statistic come from, and where did the keywords land?",
@@ -1721,7 +2079,9 @@ PAGES = [
 EXTRA_PAGES = [
     ("Time and API usage", "time-and-usage.html",
      "how long each step took and what it cost, in tokens and DataForSEO credits"),
-    ("How the whole write phase works", "../../review/write-phase-review.html",
+    # The local copy of this page no longer exists, so the row rendered "not built yet" on every
+    # article. The page IS live on GitHub Pages, so point at that.
+    ("How the whole write phase works", "https://devanshindian.github.io/write-phase-97c578f8/",
      "the walkthrough of every step and every prompt, written for someone outside the team. Not about this "
      "article specifically — it explains the machine that built it."),
 ]
@@ -1736,7 +2096,7 @@ SENT_FILES = [
     # ADDED 2026-08-13. Every step page shows what CHANGED. None of them showed the article, so you
     # could read that blend cut a repetition and still not know how the piece read afterwards.
     ("The article after every single step", "writer/reads/index.html",
-     "The same piece read at nine moments: after the sections are written, after they are joined and cut, "
+     "The same piece read at every step: after the sections are written, after they are joined and cut, "
      "after the intro, close and FAQ are added, after the whole thing is rewritten to be read, and so on "
      "to the finished draft. Laid out exactly like the page above, so you can watch it change without "
      "reading a single diff."),
@@ -1817,7 +2177,8 @@ def build_index(slug):
     def file_rows(items):
         return "".join(
             f'<div class="row"><div class="t">'
-            + (f'<a href="{h}" target="_blank">{E(nm)}</a>' if live(h)
+            + (f'<a href="{h}"' + (' target="_blank" rel="noopener"' if h.startswith("http") else "")
+               + f'>{E(nm)}</a>' if (h.startswith("http") or live(h))
                else f'{E(nm)} <span class="chip">not built yet</span>')
             + f'</div><div class="m">{E(d)}</div></div>'
             for nm, h, d in ((n, p_.replace("{SLUG}", slug), t) for n, p_, t in items))
@@ -1847,7 +2208,7 @@ def build_index(slug):
         + '<h2>The raw output, if you would rather read it plain</h2>'
         + '<div class="panel">' + file_rows(RAW_FILES) + "</div>")
     out = os.path.join(root, "index.html")
-    config.write_text(out, _page("This article, end to end", f"{slug} — start here", body))
+    config.write_text(out, _page("This article, end to end", f"{title or slug} — start here", body))
     return out
 
 

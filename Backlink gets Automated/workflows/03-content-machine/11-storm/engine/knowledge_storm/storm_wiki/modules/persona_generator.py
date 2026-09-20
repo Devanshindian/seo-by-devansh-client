@@ -1,10 +1,56 @@
+import json
 import logging
+import os
 import re
 from typing import Union, List
 
 import dspy
 import requests
 from bs4 import BeautifulSoup
+
+from ... import brief
+
+# Our researcher-picker prompt (LOCAL PATCH 2026-08-03) lives with the other tool prompts:
+# modules/ -> storm_wiki -> knowledge_storm -> engine -> 11-storm -> prompts/pick-researchers.md
+_PROMPTS_DIR = os.path.normpath(os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "..", "..", "..", "prompts"))
+
+
+def _extract_json(text):
+    """First balanced JSON object/array in `text`, tolerating ```json fences and stray prose."""
+    t = text.strip()
+    if "```" in t:
+        for p in t.split("```"):
+            p = p.strip()
+            if p.startswith("json"):
+                p = p[4:].strip()
+            if p.startswith("{") or p.startswith("["):
+                t = p
+                break
+    start = next((i for i, c in enumerate(t) if c in "{["), None)
+    if start is None:
+        raise ValueError("no JSON found in model output")
+    open_ch, close_ch = t[start], ("}" if t[start] == "{" else "]")
+    depth, in_str, esc = 0, False, False
+    for i in range(start, len(t)):
+        c = t[i]
+        if in_str:
+            if esc:
+                esc = False
+            elif c == "\\":
+                esc = True
+            elif c == '"':
+                in_str = False
+            continue
+        if c == '"':
+            in_str = True
+        elif c == open_ch:
+            depth += 1
+        elif c == close_ch:
+            depth -= 1
+            if depth == 0:
+                return json.loads(t[start:i + 1])
+    raise ValueError("unbalanced JSON in model output")
 
 
 def get_wiki_page_title_and_toc(url):
@@ -121,43 +167,75 @@ class CreateWriterWithPersona(dspy.Module):
         )
 
 
+class PickResearchTeam:
+    """LOCAL PATCH (2026-08-03): our own researcher picker — replaces the Wikipedia route when a brief
+    is set. The Wikipedia route chose researchers from encyclopedia tables of contents, which is how a
+    hiring-hackathon article got staffed with a public-prize-event organiser; it also broke a whole run
+    once when Wikipedia started returning 403s. This picker chooses the team from what we already know
+    (title, angle, spine, about/not-about), and requires a mixed team with a sceptic. The prompt lives in
+    11-storm/prompts/pick-researchers.md."""
+
+    def __init__(self, engine: Union[dspy.dsp.LM, dspy.dsp.HFModel]):
+        self.engine = engine
+
+    def pick(self, n: int) -> List[str]:
+        b = brief.get_brief()
+        tmpl = open(os.path.join(_PROMPTS_DIR, "pick-researchers.md")).read()
+        prompt = (tmpl.replace("{{TITLE}}", b.get("title") or "(untitled)")
+                  .replace("{{ANGLE}}", b.get("angle") or "(no distinct angle recorded)")
+                  .replace("{{SPINE}}", b.get("spine") or "(no spine recorded)")
+                  .replace("{{ABOUT}}", b.get("about") or "(not stated)")
+                  .replace("{{NOT_ABOUT}}", b.get("not_about") or "(not stated)")
+                  .replace("{{BRAND}}", b.get("brand") or "(the publisher)")
+                  .replace("{{ABOUT_BRAND}}", b.get("about_brand") or "(no description on file)")
+                  .replace("{{N}}", str(n)))
+        last_err = None
+        for _ in range(2):                      # one retry on a parse failure
+            try:
+                out = self.engine(prompt)
+                text = out[0] if isinstance(out, list) else str(out)
+                got = _extract_json(text)
+                team = [f"{r['role'].strip()}: {r['focus'].strip()}"
+                        for r in (got.get("researchers") or [])
+                        if isinstance(r, dict) and str(r.get("role", "")).strip() and str(r.get("focus", "")).strip()]
+                if len(team) >= 2:              # a usable team; trim any overshoot
+                    return team[:n]
+                last_err = ValueError(f"picker returned {len(team)} usable researcher(s)")
+            except Exception as e:
+                last_err = e
+        raise RuntimeError(f"researcher picker failed: {last_err}")
+
+
 class StormPersonaGenerator:
     """
     A generator class for creating personas based on a given topic.
 
-    This class uses an underlying engine to generate personas tailored to the specified topic.
-    The generator integrates with a `CreateWriterWithPersona` instance to create diverse personas,
-    including a default 'Basic fact writer' persona.
-
-    Attributes:
-        create_writer_with_persona (CreateWriterWithPersona): An instance responsible for
-            generating personas based on the provided engine and topic.
-
-    Args:
-        engine (Union[dspy.dsp.LM, dspy.dsp.HFModel]): The underlying engine used for generating
-            personas. It must be an instance of either `dspy.dsp.LM` or `dspy.dsp.HFModel`.
+    LOCAL PATCH (2026-08-03): when run_storm.py has set an article brief (title/angle/spine/about/
+    not-about), personas come from OUR researcher picker (PickResearchTeam) — exactly max_num_persona
+    researchers, mixed team, sceptic included, no 'Basic fact writer' default. The original Wikipedia
+    route (CreateWriterWithPersona + the default persona) is kept verbatim as the no-brief path AND as
+    the fallback if the picker fails, so a bare `run_storm.py "topic"` behaves exactly as before.
     """
 
     def __init__(self, engine: Union[dspy.dsp.LM, dspy.dsp.HFModel]):
         self.create_writer_with_persona = CreateWriterWithPersona(engine=engine)
+        self.pick_research_team = PickResearchTeam(engine=engine)
 
     def generate_persona(self, topic: str, max_num_persona: int = 3) -> List[str]:
         """
         Generates a list of personas based on the provided topic, up to a maximum number specified.
 
-        This method first creates personas using the underlying `create_writer_with_persona` instance
-        and then prepends a default 'Basic fact writer' persona to the list before returning it.
-        The number of personas returned is limited to `max_num_persona`, excluding the default persona.
-
-        Args:
-            topic (str): The topic for which personas are to be generated.
-            max_num_persona (int): The maximum number of personas to generate, excluding the
-                default 'Basic fact writer' persona.
-
-        Returns:
-            List[str]: A list of persona descriptions, including the default 'Basic fact writer' persona
-                and up to `max_num_persona` additional personas generated based on the topic.
+        With a brief set: exactly `max_num_persona` researchers from our picker (no default persona).
+        Without one (or if the picker fails): the original behavior — the default 'Basic fact writer'
+        persona plus up to `max_num_persona` Wikipedia-derived personas.
         """
+        if brief.has_brief():
+            try:
+                team = self.pick_research_team.pick(max_num_persona)
+                logging.info(f"research team (brief-based): {team}")
+                return team
+            except Exception as e:
+                logging.error(f"researcher picker failed ({e}) — falling back to the Wikipedia route")
         personas = self.create_writer_with_persona(topic=topic)
         default_persona = "Basic fact writer: Basic fact writer focusing on broadly covering the basic facts about the topic."
         considered_personas = [default_persona] + personas.personas[:max_num_persona]

@@ -6,10 +6,44 @@ change we made and why. Our edits live directly in the visible source under `eng
 they survive a venv rebuild (`setup.sh` only recreates the environment, never the source).
 
 ## Where the edits live
-- Our own files (100% ours): `scripts/shim.py`, `scripts/dataforseo_rm.py`, `scripts/run_storm.py`, `scripts/build_steplog.py`.
+- Our own files (100% ours): `scripts/shim.py`, `scripts/dataforseo_rm.py`, `scripts/run_storm.py`, `scripts/build_steplog.py`,
+  `engine/knowledge_storm/brief.py`, `prompts/pick-researchers.md`.
 - Edits *inside* STORM's code live directly in the visible source (no patch/copy step):
-  `engine/knowledge_storm/storm_wiki/modules/knowledge_curation.py`, `.../article_generation.py`, and
-  `.../persona_generator.py`. Editing those files *is* editing what runs, because the venv imports via a `.pth`.
+  `engine/knowledge_storm/storm_wiki/engine.py`, `.../modules/knowledge_curation.py`,
+  `.../modules/outline_generation.py`, `.../modules/article_generation.py`, and
+  `.../modules/persona_generator.py`. Editing those files *is* editing what runs, because the venv imports via a `.pth`.
+
+**THE ARTICLE BRIEF — STORM is finally pointed at the angle (2026-08-03, IMPROVEMENTS.md change 1)**
+- **The problem.** STORM received ONE argument: a truncated title. No angle, no spine, nothing. The hackathon
+  article's dossier came back full of venue/food/Wi-Fi event logistics (37 sub-topics + 7 sections later cut
+  as off-angle) — not because STORM drifts, but because it was never pointed anywhere.
+- **The brief.** `run_storm.py --spine-file <spine.json>` (built by the conductor's new Step 2a from title +
+  angle + brand + the DataForSEO competitor read) registers title/angle/spine/about/not-about in
+  `engine/knowledge_storm/brief.py` — a set-once/read-many registry, chosen over threading five parameters
+  through a dozen vendored signatures. No brief set ⇒ every prompt behaves exactly as before (bare runs unchanged).
+- **Folder = slug.** `run_storm.py --folder <slug>` → `engine.py run(folder_name=...)`. The topic string used
+  to double as the folder name (the reason the angle was stripped in the first place); now the folder matches
+  every other engine (`storm/out/<hub>/<slug>/`) and the topic stays a pure research subject. All 7 existing
+  topic folders were renamed to their slugs on 2026-08-03 (one orphaned gap-iteration folder was adopted as
+  `strategic-interview-questions-paired-strong/iteration-1` and its manifest repaired — the old newest-dir
+  detection had lost it, see rerun_storm.py below). NOTE: a hub's own dossier files and its spokes' folders
+  now share `out/<hub-slug>/`; `source_match.load_snippets` (recursive) therefore sees spoke snippets too —
+  harmless (it only attaches a URL on a genuine sentence match) but worth knowing.
+- **Researcher picker replaces the Wikipedia route** (`persona_generator.py` + `prompts/pick-researchers.md`).
+  The old route asked for related Wikipedia pages, scraped their tables of contents, and picked personas from
+  them — which is how a HIRING-hackathon article got staffed with a public-prize-event organiser (Wikipedia's
+  hackathon page is about prize contests), and which broke a whole run when Wikipedia 403'd. With a brief set,
+  `PickResearchTeam` picks exactly N researchers (conductor passes `--perspectives 4`) from title/angle/spine/
+  about/not-about: builder · SCEPTIC (costs, failures, who it excludes — the only carrier of that job) ·
+  evidence · practitioner. No 'Basic fact writer' default. JSON out, one retry, and on failure it FALLS BACK
+  to the old Wikipedia route rather than dying.
+- **The brief reaches three prompt families** (same instruction, three files — edit together):
+  `knowledge_curation.py` (AskQuestion + AskQuestionWithPersona: the first question and every follow-up),
+  `outline_generation.py` (both outline signatures: "every heading must earn its place against the spine"),
+  `article_generation.py` (WriteSection rule 5: off-angle material left out; costs/failures ARE on-spine).
+  The shared line: *material that does not serve the asset title and the angle does not belong.*
+- **DECIDED (with Devansh): the primary keyword is NOT passed to STORM** — it is a ranking target, not a
+  research target (this revises IMPROVEMENTS.md change 3's original "primary keyword steers STORM" wording).
 
 **Persona generation — Wikipedia User-Agent fix (`persona_generator.py`, 2026-07-13)**
 - `get_wiki_page_title_and_toc()` did a bare `requests.get(url)`. Wikipedia now returns **403** to requests with
@@ -30,6 +64,21 @@ they survive a venv rebuild (`setup.sh` only recreates the environment, never th
 - `truncate_filename` logged a WARNING every time it shortened a long topic. gap-check intentionally passes long
   gap-queries as STORM topics (and the run dir is renamed to `iteration-N` afterwards), so that warning was pure
   noise — demoted to `logging.debug`.
+
+**Polish step RENUMBERS citations — card-building must read the pre-polish article (2026-08-01)**
+- STORM's Step 5 (`article_polish.py`, `PolishPage`) hands the whole ~34k-word article to the LLM to remove
+  repetition. It removes almost nothing (34,230 -> 34,580 words) but **rewrites the `[n]` markers**: 93% of
+  shared sentences come back with a different citation number. Measured on running-hiring-hackathon, the
+  cited source is the true source **78-88% pre-polish vs 1-6% post-polish** (250 sentences x 3 dossiers).
+- Downstream damage before we caught it: wrong URL on the card -> the write phase's source check cuts it ->
+  the same wrong URL is shared by 20-30 sibling cards -> propagation drags them all in. One article: 66
+  proven-bad URLs, 250 contaminated cards, 374 cut.
+- **Fix:** `13-research-structure/scripts/harvest_storm.py` now reads `storm_gen_article.txt`, not
+  `storm_gen_article_polished.txt`. Content is identical apart from the polish-written `# summary` lead,
+  which `_split_sections` already drops (verified: 0 sentences lost across all 3 dossiers).
+- The polished file is still produced and is still what `article.html` and gap-check read — those judge
+  CONTENT, not citations, so they are unaffected. Note `article.html`'s clickable citations are therefore
+  wrong; it is a preview, not a source of truth.
 
 ## The changes
 

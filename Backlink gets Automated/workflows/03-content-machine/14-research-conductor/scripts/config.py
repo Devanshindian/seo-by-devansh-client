@@ -31,6 +31,7 @@ def _load_tenant():
         return {}
 TENANT = _load_tenant()
 BRAND = TENANT.get("brand", COMPANY)
+ABOUT = TENANT.get("about", "")       # one line on what the company does — injected into judgment prompts (spine step)
 
 # LLM (headless Claude) — used by the bundle step's persona/author picker. Free, no API key.
 CLAUDE_BIN = os.environ.get("CLAUDE_BIN", "claude")
@@ -39,7 +40,16 @@ LLM_RETRIES = 1
 
 # --- inputs -----------------------------------------------------------------
 CLUBBED_CSV = os.path.join(_PROJ, "02-asset-engine", "clubbed", "output", "clubbed-ideas.csv")  # the idea cabinet
+# The one-page statement of what we are, what we can own and what is not us. Written by the asset
+# engine, read by every idea agent there — and, from 2026-08-26, by the topic gate, which is the one
+# step that has to decide whether a whole topic belongs to us at all.
+BRAND_SCOPE = os.path.join(_PROJ, "02-asset-engine", "competitor-study", "output", "brand-scope.md")
 LOG_CSV = os.path.join(PROJ_CM, "research-log.csv")         # THE QUEUE/SHEET (single source of truth for status)
+# SPOKES LIVE IN THEIR OWN SHEET (2026-08-27, Devansh). They used to be inserted straight into the queue
+# above, right after their hub — so a hub finishing pushed its two spokes ahead of every real idea, which
+# nobody chose. The queue now holds only ideas from clubbed-ideas.csv; a spoke is recorded here against
+# its parent, and is run when a person decides to run it, not automatically.
+SPOKES_CSV = os.path.join(PROJ_CM, "spokes.csv")
 # Reuse-verdict handling (2026-07-22). We WRITE all three writable verdicts, but in priority order:
 #   PRIMARY first (net-new value), then 'Improve existing' LAST (we rebuild those from the distinct angle for now;
 #   the sanity-check confirmed all 769 point at a real existing page). 'Already have it' is never written.
@@ -85,8 +95,18 @@ STRUCT_OUT = os.path.join(PROJ_CM, "research-structure", "out")  # /<slug>/struc
 
 # --- STORM run knobs --------------------------------------------------------
 SHIM_PORT = int(os.environ.get("SHIM_PORT", "8081"))       # the headless-Claude shim STORM talks to
-SHIM_WAIT = 40                                              # seconds to wait for the shim to come up
-STORM_ARGS = ["--article", "--polish"]                     # STORM must produce the polished dossier gap-check/structure read
+# Seconds to wait for the STORM shim to come up. RAISED FROM 40 (2026-08-27): on the first live
+# overnight run the shim took longer than 40s to bind, the conductor sys.exit'd, and the topic was lost
+# — the shim was up and healthy moments later. Starting it is a cold Python import of fastapi+uvicorn in
+# a separate venv, which is slow on a loaded machine, and 40s left no margin at all. This costs nothing
+# when the shim is quick: the loop below returns the instant the port answers.
+SHIM_WAIT = int(os.environ.get("SHIM_WAIT", "180"))
+STORM_ARGS = ["--article", "--polish", "--topk", "5"]      # STORM must produce the polished dossier gap-check/structure read
+# topk = sources pulled per search query (STORM's own default is 3). Raised to 5 on 2026-08-04: aiming STORM
+# at the angle made its research much tighter (hackathon dossier 34,230 -> 6,415 words) and SOURCE BREADTH
+# fell with it — distinct source domains behind the kept cards went 141 -> 48. Deduplication explains most of
+# the card drop (6.3 -> 2.7 cards per distinct fact), but not the domain loss. A wider topk widens the net
+# without un-aiming it. Matches what gap-check already uses for its fill runs (rerun_storm.py: turns 4, topk 5).
 STORM_MIN_WORDS = 1500     # GATE: a healthy STORM article is ~9k words; a failed/stub run is ~300. Below this = FAILED run.
 
 # --- bundle (Step 5) paths: the constants the bundle POINTS to + where it writes ---
@@ -104,11 +124,27 @@ SLUG_MAX_WORDS = 5      # first N meaningful words of the title
 SLUG_MAX_LEN = 45       # hard cap on the slug length
 
 
-def storm_dir(topic, hub=""):
-    """The folder STORM creates for a topic — MUST match knowledge_storm's naming exactly
-    (engine.py: topic.replace(' ','_').replace('/','_'), truncated to 125). A spoke nests under its pillar:
-    STORM_OUT/<hub>/<TopicDir>/ (hub="" → flat STORM_OUT/<TopicDir>/)."""
-    return os.path.join(STORM_OUT, hub, topic.replace(" ", "_").replace("/", "_")[:125])
+def storm_dir(slug, hub=""):
+    """The folder STORM writes a topic's dossier into — named by the SLUG, same as every other engine
+    (2026-08-03: the conductor passes --folder <slug> to run_storm.py, so the folder no longer depends on
+    the topic string; the old title-mangled names are migrated on first touch by run_research.py).
+    A spoke nests under its pillar: STORM_OUT/<hub>/<slug>/ (hub="" → flat STORM_OUT/<slug>/)."""
+    return os.path.join(STORM_OUT, hub, slug.replace(" ", "_").replace("/", "_")[:125])
+
+
+def legacy_storm_dir(asset, angle, hub=""):
+    """Where a PRE-2026-08-03 run put this topic's dossier (folder mangled from the cleaned title).
+    Used ONLY to migrate old folders to the slug name — never for new runs."""
+    import re as _re
+    title = _re.sub(r'(?i)\b' + _re.escape(COMPANY) + r'\b\s*:?\s*', '', asset)   # strip the brand word
+    title = _re.sub(r'\b(19|20)\d{2}\b', '', title)                               # strip years
+    title = _re.sub(r'\s*\([^)]*\)\s*$', '', title)                               # strip trailing (...)
+    core = title.split(":", 1)[0].strip()
+    subject = core if len(core) >= 15 else title
+    subject = " ".join(subject.split()).strip(" :–—|,&")
+    if len(subject) > 70:
+        subject = subject[:70].rsplit(" ", 1)[0].rstrip(" :–—|,&")
+    return os.path.join(STORM_OUT, hub, subject.replace(" ", "_").replace("/", "_")[:125])
 
 
 # ---- atomic output writes (crash-safe): temp file in same dir -> os.replace over target -----------
@@ -137,3 +173,7 @@ def write_text(path, text):
         try: _os.remove(tmp)
         except OSError: pass
         raise
+
+# How many refused/failed topics a --count run will tolerate before giving up, ON TOP of the articles
+# asked for. Stops an overnight run burning the whole queue when something is systematically wrong.
+MAX_SKIPS_PER_RUN = int(os.environ.get("MAX_SKIPS_PER_RUN", "6"))

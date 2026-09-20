@@ -21,7 +21,7 @@ def _find_row(asset_match):
     return hits[0]
 
 
-def run(run_dir, asset_match=None, asset=None, angle=None):
+def run(run_dir, asset_match=None, asset=None, angle=None, world=None):
     """Hub mode: pass asset_match → looks the row up in clubbed (asset+angle+proof URLs from there).
     Direct mode (spoke — not in clubbed): pass asset + angle directly; no proof URLs (ranked-net uses SERP links)."""
     if asset:   # direct / spoke mode
@@ -32,9 +32,13 @@ def run(run_dir, asset_match=None, asset=None, angle=None):
         angle = (row.get("Distinct angle") or "").strip()
         raw_urls = [u.strip() for u in (row.get("Proof URLs") or "").split(";") if u.strip()]
 
+    world = world or {}
     p = (SEEDS.replace("{{BRAND}}", config.BRAND).replace("{{NICHE_DEFINITION}}", config.NICHE_DEFINITION)
          .replace("{{ASSET_TOPIC}}", asset)
-         .replace("{{DISTINCT_ANGLE}}", angle).replace("{{PROOF_URLS}}", "\n".join(raw_urls)))
+         .replace("{{DISTINCT_ANGLE}}", angle)
+         .replace("{{ABOUT}}", world.get("about") or "(not available for this run)")
+         .replace("{{NOT_ABOUT}}", world.get("not_about") or "(not available for this run)")
+         .replace("{{PROOF_URLS}}", "\n".join(raw_urls)))
     seeds = llm.call_json(p)
     head = seeds.get("head_seeds", []); sib = seeds.get("sibling_seeds", []); hyg = seeds.get("hygiene", "")
     # keep only the on-angle URLs the LLM returned; guard against hallucinated URLs (must be in the raw list)
@@ -49,7 +53,8 @@ def run(run_dir, asset_match=None, asset=None, angle=None):
           "## Seed hygiene", hyg, ""]
     config.write_text(os.path.join(proof, "00-seeds.md"), "\n".join(md))
     config.write_text(os.path.join(proof, "00-competitor-urls.txt"), "\n".join(comp_urls) + "\n")
-    out = {"asset": asset, "angle": angle, "head_seeds": head, "sibling_seeds": sib, "competitor_urls": comp_urls}
+    out = {"asset": asset, "angle": angle, "head_seeds": head, "sibling_seeds": sib,
+           "hygiene": hyg, "competitor_urls": comp_urls}
     config.write_json(os.path.join(proof, "00-anchors.json"), out)   # machine copy for the runner/resume
 
     print(f"  asset: {asset[:70]}")

@@ -176,6 +176,7 @@
     <a href="#queue">The queue</a>
     <a href="#architecture">The architecture</a>
     <a href="#pipeline">Full pipeline</a>
+    <a href="#world">World &amp; spine</a>
     <a href="#resume">Crash-safety &amp; gates</a>
     <a href="#cannib">Cannibalisation flag</a>
     <a href="#bundle">The bundle</a>
@@ -434,6 +435,18 @@
         </ul>
         <a class="xref" href="#queue">↓ §03 — the pick order</a></div></div>
 
+      <div class="step"><div class="dot">0b</div><div class="step-body">
+        <h3>The world statement <span class="pill free">free</span></h3>
+        <p>One AI call, before anything is bought, writing two lines: what this article <b>is about</b> and what it is
+        <b>not about</b>. Built from the title, the angle and the brand alone, with no search data involved, because it
+        has to exist before the search data is chosen.</p>
+        <ul>
+          <li><span class="fn"><span class="file">spine.py</span> → <span class="file">world()</span></span> → <span class="file">spine.json</span>, saved with the dossier.</li>
+          <li><b>Fails closed.</b> If either line comes back empty twice, the run stops rather than writing half a
+            world. A boundary that is only half there is worse than none, because everything downstream trusts it.</li>
+        </ul>
+        <a class="xref" href="#world">↓ §06 — why the world comes first</a></div></div>
+
       <div class="step"><div class="dot">1</div><div class="step-body">
         <h3>DataForSEO — keyword + competitor research <span class="pill eng">10-dataforseo</span></h3>
         <p>Run the brief engine on the topic's full title (a spoke passes its angle directly, since it isn't in the
@@ -456,13 +469,29 @@
         </ul>
         <a class="xref" href="#cannib">↓ §07 — the cannibalisation flag</a></div></div>
 
+      <div class="step"><div class="dot">2a</div><div class="step-body">
+        <h3>The working spine <span class="pill free">free</span></h3>
+        <p>Now that the competitor study exists, one AI call writes what this article will <b>argue</b>: for whom, and
+        what the reader can do at the end. Built from the world plus what the winning pages actually cover and leave
+        thin.</p>
+        <ul>
+          <li>First it extracts the three lists from the winners study — the gaps we can own, the headings every winner
+            covers, and the drift warnings — and saves them next to the study.</li>
+          <li><span class="fn"><span class="file">spine.py</span> → <span class="file">run()</span></span> → the
+            <span class="file">spine</span> field is added to the same <span class="file">spine.json</span>.</li>
+          <li><b>Fails closed</b> the same way: an empty spine twice stops the run.</li>
+        </ul>
+        <a class="xref" href="#world">↓ §06 — the world and the spine</a></div></div>
+
       <div class="step"><div class="dot">2</div><div class="step-body">
         <h3>STORM — the deep evidence dossier <span class="pill eng">11-storm</span> <span class="pill gate">gated</span></h3>
         <p>Start STORM's bridge, then research a <b>subject</b> — not the SEO keyword. The conductor derives a clean
         research topic by stripping the brand name and year from the title, because STORM needs something to
-        investigate, not a search phrase.</p>
+        investigate, not a search phrase. The world and the spine ride along as the article brief, so the research team,
+        every question, the outline and the section writers are all aimed at this article.</p>
         <ul>
           <li>→ <span class="file">storm/out/&lt;hub&gt;/&lt;TopicDir&gt;/storm_gen_article_polished.txt</span> (the dossier).</li>
+          <li>Run with a <b>4-role research team</b>: the builder, the sceptic, the evidence one and the practitioner.</li>
         </ul>
         <a class="xref" href="#resume">↓ §06 — the STORM quality gate</a></div></div>
 
@@ -509,9 +538,64 @@
 </section>
 
 <!-- RESUME & GATES -->
-<section id="resume" style="background:var(--cream);">
+<!-- THE WORLD AND THE SPINE -->
+<section id="world" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">06</span>Crash-safety, and the exits that don't crash</h2>
+    <h2><span class="num">06</span>The world and the spine — what the conductor decides itself</h2>
+    <p class="sub">Every other step in this pipeline hands work to an engine. These two are the conductor's own, and
+    they exist because the engines needed something none of them could produce: a statement of what this article is,
+    written before any of them start.</p>
+
+    <div class="agents">
+      <div class="agent asker">
+        <div class="cap">🧭</div><h3>The world <span class="pill">Step 0b</span></h3>
+        <div class="role">two lines: about · not about</div>
+        <div class="mem yes"><span class="lbl">Written before anything is bought</span>
+          <ul>
+            <li>From the title, the angle and the brand. No search data, because it decides what search data is
+            acceptable.</li>
+            <li>Marks the <b>boundary of the subject</b>, so a phrase whose searchers live in a different field can be
+            recognised as such.</li>
+            <li>Read by the keyword seeds, the scorer, the keyword judge, the live-results reader, STORM's research
+            team, the card filter, the clusterer and the whole write phase.</li>
+          </ul></div>
+      </div>
+      <div class="agent answ">
+        <div class="cap">🦴</div><h3>The spine <span class="pill">Step 2a</span></h3>
+        <div class="role">what this article argues</div>
+        <div class="mem no" style="background:var(--blue); border-color:var(--blue-line);"><span class="lbl" style="color:var(--blue-ink);">Written once the field is known</span>
+          <ul>
+            <li>From the world plus the winners study: what competitors all cover, what they leave thin, and where they
+            drift.</li>
+            <li>One short paragraph: the argument, the reader, and what that reader can do at the end.</li>
+            <li>It is the single test the card filter applies later, which is what keeps the blueprint article-scale
+            instead of encyclopedia-scale.</li>
+          </ul></div>
+      </div>
+    </div>
+
+    <div class="note orange"><span class="tag">Why the order is world first, spine second</span><br>
+    They are decided at two different moments because they depend on different things:
+    <ul>
+      <li>The <b>world</b> cannot wait for the research, because the research is what it has to protect. If the keyword
+      step picks a phrase from the wrong field, every later step diligently researches the wrong article, and nothing
+      downstream can tell.</li>
+      <li>The <b>spine</b> cannot come earlier, because you cannot decide what to argue until you know what the field
+      already says.</li>
+    </ul>
+    Both live in one file, <span class="file">spine.json</span>, kept with the dossier so every consumer finds
+    everything in one place.</div>
+
+    <div class="note"><span class="tag">Decided here, read everywhere</span><br>
+    Neither is ever re-decided downstream. The one apparent exception is not one: the architect writes its own spine
+    after the article is built, because that one is the plan corrected by the material that actually came back. The
+    world has no equivalent — it is written here, once, and every other step only reads it.</div>
+  </div>
+</section>
+
+<section id="resume">
+  <div class="wrap">
+    <h2><span class="num">07</span>Crash-safety, and the exits that don't crash</h2>
     <p class="sub">Because this runs unattended and each engine is expensive, three things matter most: it must resume
     cleanly, it must never carry a bad STORM result forward, and a dead-end topic must bow out gracefully instead of
     jamming the queue.</p>
@@ -553,9 +637,9 @@
 </section>
 
 <!-- CANNIBALISATION FLAG -->
-<section id="cannib">
+<section id="cannib" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">07</span>The cannibalisation flag — "do we already rank for this?"</h2>
+    <h2><span class="num">08</span>The cannibalisation flag — "do we already rank for this?"</h2>
     <p class="sub">Before we spend on a full STORM run, one cheap check: are we about to write a page that competes
     with a page <b>we already have</b>? If we already rank on page 1 for the keyword, a second page can split our own
     traffic. The flag warns the team — it never stops the build.</p>
@@ -609,9 +693,9 @@
 </section>
 
 <!-- THE BUNDLE -->
-<section id="bundle" style="background:var(--cream);">
+<section id="bundle">
   <div class="wrap">
-    <h2><span class="num">08</span>The write-ready bundle — one clean handoff</h2>
+    <h2><span class="num">09</span>The write-ready bundle — one clean handoff</h2>
     <p class="sub">The last real work is packaging. The bundle is a single folder the writer opens: the plan itself,
     plus a cover sheet pointing to everything else. It follows one discipline — copy the plan, point to the constants.</p>
 
@@ -675,9 +759,9 @@
 </section>
 
 <!-- OUTPUT / SPOKES / WHERE IT SITS -->
-<section id="output">
+<section id="output" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">09</span>Spokes — from bare keyword to vetted idea, and where it all sits</h2>
+    <h2><span class="num">10</span>Spokes — from bare keyword to vetted idea, and where it all sits</h2>
     <p class="sub">One run does one topic — but when a hub finishes, it grows the queue with its follow-up topics. The
     catch: DataForSEO hands back spoke candidates as <b>bare keywords</b>, and a bare keyword isn't a real idea. So
     Step 6 turns each one into a proper, reuse-checked idea before it enters the pipeline.</p>
@@ -759,8 +843,8 @@
         fired for the first time on a spoke that actually had gaps.</li>
       <li>The no-keyword-demand skip and the cannibalisation flag both fired on real topics.</li>
     </ul>
-    The rough edges surfaced by that first run (a stale STORM venv path, a spoke-vs-clubbed lookup, a Python 3.9
-    socket-timeout retry gap) are logged and fixed in <span class="file">run-hardening-log.md</span>.</div>
+    The rough edges surfaced by that first run — a stale STORM environment path, a spoke-versus-topic-sheet lookup, and
+    a socket-timeout retry gap — were all fixed in the code.</div>
   </div>
 </section>
 

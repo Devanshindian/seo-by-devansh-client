@@ -14,8 +14,6 @@ WHAT HAPPENED THIS RUN (raw material — read it and comment; do not just restat
 {{SERP_SNAPSHOT}}
 - Winners:
 {{WINNERS}}
-- AEO status:
-{{AEO}}
 
 RETURN markdown in this shape:
 # Research notes — <short asset name> (agent commentary)
@@ -29,7 +27,6 @@ RETURN markdown in this shape:
 - <honest weaknesses: is the head small? incumbents strong? any parse cap? any API hiccup noted upstream?>
 
 ## Step 6
-- <one line on the AEO outcome and any standing recommendation, e.g. skip-by-default for B2B analytical topics>
 
 ## Follow-ups
 1. <concrete next action for the write phase — e.g. protect the in-body differentiators>

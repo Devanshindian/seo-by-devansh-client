@@ -16,8 +16,17 @@ import os
 import config
 
 E = __import__("html").escape
-SLUGS = ["the-real-cost-recruitment-2026", "running-hiring-hackathon-that-screens",
-         "strategic-interview-questions-paired-strong", "the-type-d-personality-label"]
+def _slugs():
+    """Every article on disk with a finished draft, newest first. A hardcoded list rots: this page
+    once pointed at three articles that had been retired, so every link but one was dead."""
+    root = config.WRITE_OUT
+    out = [s for s in os.listdir(root)
+           if os.path.exists(os.path.join(root, s, "writer", "draft.md"))]
+    out.sort(key=lambda s: os.path.getmtime(os.path.join(root, s, "writer", "draft.md")), reverse=True)
+    return out
+
+
+SLUGS = _slugs()
 
 
 def _load(path):
@@ -131,7 +140,7 @@ def build():
             _n(r.get("coh_fixes"), "contradictions fixed"),
             _n(r.get("under_floor"), "sections under the sub-heading floor"),
         ])
-        link = (f'<a href="{E(r["slug"])}/index.html">{E(r["title"])}</a>'
+        link = (f'<a href="out/{E(r["slug"])}/index.html">{E(r["title"])}</a>'
                 if r["has_index"] else E(r["title"]))
         missing = "" if r.get("coh_applied") is not None else \
             '<p class="miss">This article has not reached coherence yet.</p>'
@@ -139,9 +148,9 @@ def build():
                      f'<div class="nums">{nums}</div>{missing}</div>')
 
     body = f"""<header><div class="wrap">
-<h1>The write phase, four articles</h1>
+<h1>The write phase, {len(rows)} articles</h1>
 <p class="lede">One row per article. Click a title to open that article's own front door, which links
-every step in order. These runs stop after coherence, so there is no finished draft yet.</p>
+every step in order, or open the finished article itself.</p>
 </div></header>
 <div class="wrap">
 <div class="note"><b>What the numbers mean.</b> <b>Off target</b> is how far the sections came in

@@ -24,3 +24,7 @@ _work/
 *.sqlite
 # STORM's per-call debug transcript. 21 MB of raw model chatter, useful to nobody reading this.
 llm_call_history.jsonl
+
+# secrets — never commit
+.env
+**/.env

@@ -10,6 +10,18 @@ opened: 2026-08-08
 **Nothing here is built.** Every item is a decision already taken during the architect work. When the
 writer phase is revamped, this file is the input.
 
+> **2026-09-05 — the Testlify review round went live** (Akash + Aparna's feedback, built the same
+> day). Not from this parking file, recorded here so it is not lost: professional SHRM register in
+> write-body / readable / sentence-pass / wrapper (colloquial asides, quips and fragment stacks
+> banned) · headings must stand alone, plain over clever, searcher's own words (write-heading +
+> heading-pass) · "Quick answer" became the **TL;DR** takeaway block (wrapper + assemble + labels)
+> · the wrapper now reads `formats/_craft/<archetype>.md` as `{{FORMAT_CRAFT}}`, so the _craft
+> folder is LIVE, not parked · per-item shape (prose + "Best for:" pointer block) and a
+> no-self-stated-limits rule for the brand in listicle/comparison rewrite rules · sentence-pass
+> never splits a sentence under 15 words; fat-paragraphs never strands a stub · structure prompts
+> gained "stay inside the headline's promise" and "the basics come first" · glossary format got a
+> definition-first rewrite rule.
+
 Each item says where it came from: `[reviewer]` the Testlify review of the first 4 articles ·
 `[Devansh]` a decision made in the architect session · `[measured]` verified against a real run.
 

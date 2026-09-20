@@ -1,13 +1,21 @@
 """Step 1 (STORM) — turn STORM dossiers into cards.
-For the hub dossier AND every gap-fill iteration: split the polished article on its top-level (#) sections,
+For the hub dossier AND every gap-fill iteration: split the PRE-POLISH article on its top-level (#) sections,
 run one parallel call per section to emit cards, verify each verbatim really exists, and resolve its [n]
 markers to source URLs via that dossier's url_to_info.json.
+
+We read storm_gen_article.txt, NOT storm_gen_article_polished.txt. STORM's polish step hands the whole
+article to an LLM to de-duplicate it; it removes almost nothing but RENUMBERS the [n] markers, so the
+polished text credits facts to the wrong sources. Measured on running-hiring-hackathon (2026-08-01):
+the cited source is the true source 78-88% of the time pre-polish vs 1-6% post-polish, and 93% of shared
+sentences come out with a different [n]. Content is identical apart from the polish-written "# summary"
+lead, which _split_sections drops anyway. Do not switch this back to the polished file.
 
 Card: { id, gloss, verbatim, source_urls[], internal_link=None, tag="storm", origin }
 """
 import os, re, sys, json, glob
 from concurrent.futures import ThreadPoolExecutor
 import config, llm
+import source_match as sm
 
 TEMPLATE = llm.load_prompt("harvest-storm.md")
 _CITE = re.compile(r"\[(\d+)\]")
@@ -53,7 +61,7 @@ def _dossier_dirs(topic_dir):
     """The hub dossier + any iteration-<n>/ dirs under it."""
     dirs = [topic_dir]
     dirs += sorted(glob.glob(os.path.join(topic_dir, "iteration-*")))
-    return [d for d in dirs if os.path.exists(os.path.join(d, "storm_gen_article_polished.txt"))]
+    return [d for d in dirs if os.path.exists(os.path.join(d, "storm_gen_article.txt"))]
 
 
 def _extract_section(sec):
@@ -72,9 +80,11 @@ def _extract_section(sec):
 
 def harvest(topic_dir):
     cards, dropped, failed = [], 0, []
+    idx = sm.load_snippets(topic_dir)      # STORM's own url_to_info snippets — the source-recovery fallback
+    recovered = 0
     for dd in _dossier_dirs(topic_dir):
         name = os.path.basename(dd)
-        text = open(os.path.join(dd, "storm_gen_article_polished.txt")).read()
+        text = open(os.path.join(dd, "storm_gen_article.txt")).read()   # pre-polish: [n] markers intact
         cites = _load_citations(dd)
         sections = _split_sections(text)
         print(f"  dossier {name}: {len(sections)} sections")
@@ -85,6 +95,9 @@ def harvest(topic_dir):
                 failed.append(f"{name}/{sec['title'][:45]}")
             norm_sec = _norm(sec["text"])
             for c in out:
+                if not isinstance(c, dict):    # a model can return a malformed non-card entry; skip, don't crash
+                    print(f"    !! skipping non-dict card entry from '{sec['title'][:45]}': {c!r}")
+                    continue
                 vb = (c.get("verbatim") or "").strip()
                 gloss = (c.get("gloss") or "").strip()
                 if not vb or not gloss:
@@ -96,10 +109,22 @@ def harvest(topic_dir):
                 for n in {int(x) for x in _CITE.findall(vb)}:
                     if n in cites:
                         urls.append(cites[n]["url"])
-                cards.append({"gloss": gloss, "verbatim": vb, "source_urls": urls,
-                              "internal_link": None, "tag": "storm",
-                              "origin": f"storm/{name}/{sec['title'][:50]}"})
-    print(f"  STORM: {len(cards)} cards ({dropped} dropped for not matching source)")
+                card = {"gloss": gloss, "verbatim": vb, "source_urls": urls,
+                        "internal_link": None, "tag": "storm",
+                        "origin": f"storm/{name}/{sec['title'][:50]}"}
+                # FALLBACK: a sentence STORM wrote without a [n] footnote loses its URL — but the fact's source
+                # is still in STORM's research store. If the card is numeric + unsourced, recover the real URL
+                # by matching its text to the snippet that contains it (verified, no web call). See source_match.
+                if not urls and sm.has_number(vb):
+                    rec_url, _phrase = sm.recover(vb, idx)
+                    if rec_url:
+                        card["source_urls"] = [rec_url]
+                        card["source_recovered"] = True
+                        recovered += 1
+                    else:
+                        card["needs_source"] = True
+                cards.append(card)
+    print(f"  STORM: {len(cards)} cards ({dropped} dropped for not matching source; {recovered} sources recovered from url_to_info)")
     if failed:
         print(f"  !! STORM: {len(failed)} section(s) produced NO cards after retries: {failed}")
     return cards

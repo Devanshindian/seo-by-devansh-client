@@ -19,12 +19,16 @@ def _readlist(text):
     return urls[:config.PAGES_TO_READ]
 
 
-def run(run_dir, asset, angle, primary):
+def run(run_dir, asset, angle, primary, world=None):
     proof = os.path.join(run_dir, "proof")
     extract = json.load(open(os.path.join(proof, "04-serp-extract.json")))
+    world = world or {}
     p = (SNAP.replace("{{BRAND}}", config.BRAND).replace("{{DOMAIN}}", config.DOMAIN)
          .replace("{{ASSET_TOPIC}}", asset)
-         .replace("{{DISTINCT_ANGLE}}", angle).replace("{{PRIMARY_KEYWORD}}", primary)
+         .replace("{{DISTINCT_ANGLE}}", angle)
+         .replace("{{ABOUT}}", world.get("about") or "(not available for this run)")
+         .replace("{{NOT_ABOUT}}", world.get("not_about") or "(not available for this run)")
+         .replace("{{PRIMARY_KEYWORD}}", primary)
          .replace("{{SERP_EXTRACT}}", json.dumps(extract, indent=2)))
     text = llm.call_text(p)
 

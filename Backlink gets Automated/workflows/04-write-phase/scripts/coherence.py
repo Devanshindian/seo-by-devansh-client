@@ -93,7 +93,7 @@ def _render(w):
     """The whole article as the editor sees it — the order the reader gets."""
     L = [f"# {w.get('h1') or ''}", "", w.get("intro") or ""]
     if w.get("quick_answer"):
-        L += ["", "## Quick answer", "", w["quick_answer"]]
+        L += ["", "## TL;DR", "", w["quick_answer"]]
     for s in w.get("sections") or []:
         L += ["", f"## {s['heading']}", "", s.get("prose") or ""]
     if w.get("faq"):

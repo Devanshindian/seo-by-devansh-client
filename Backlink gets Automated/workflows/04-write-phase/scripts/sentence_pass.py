@@ -478,10 +478,21 @@ a{color:var(--acc);overflow-wrap:anywhere}
     b, a = report["before"], report["after"]
     nums = "".join(f'<div><b>{b[k]} → {a[k]}</b><span>{k.replace("_", " ")}</span></div>'
                    for k in ("words", "sentences", "avg_sentence"))
-    body = [f'<div class="nums">{nums}</div>']
-    for blk in report["blocks"]:
-        if blk["verdict"] in ("too short — left alone", "already plain"):
-            continue
+    body = [f'<div class="nums">{nums}</div>',
+            '<p class="q">Each block below shows the before and after side by side. A '
+            '<b>Move</b> is one re-shaping the model declared: splitting a long sentence, lifting a '
+            'buried clause to the front, or turning a chain into a list. The blocks whose sentences '
+            'shortened the most come first; the rest are folded away at the bottom.</p>']
+
+    shown = [x for x in report["blocks"]
+             if x["verdict"] not in ("too short — left alone", "already plain")]
+    # Biggest drop in average sentence length first — that is what this step is for.
+    shown.sort(key=lambda x: (x.get("avg_after") or 0) - (x.get("avg_before") or 0))
+    _TOP = 4
+    for _i, blk in enumerate(shown):
+        if _i == _TOP and len(shown) > _TOP:
+            body.append(f'<details class="diff"><summary>the other {len(shown) - _TOP} block(s) '
+                        f're-shaped</summary>')
         rej = blk["verdict"].startswith("REJECTED")
         st = (f'<span class="st">{blk["words_before"]} → {blk["words_after"]} words · '
               f'avg {blk["avg_before"]} → {blk["avg_after"]}</span>')
@@ -491,11 +502,16 @@ a{color:var(--acc);overflow-wrap:anywhere}
             body.append('<p class="q">The original was kept. Nothing below changed.</p>')
             continue
         left, right = _diff_cols(blk["original"], blk["final"])
+        # The columns are the draft's own text, so a product link arrived as literal [text](url).
+        # The pattern refuses any markup inside it, so a link split by a diff span is left alone.
+        left, right = eval_pages.mdlink_html(left), eval_pages.mdlink_html(right)
         body.append(f'<div class="pair"><div class="pane"><div class="h">Before</div>{left}</div>'
                     f'<div class="pane"><div class="h">After</div>{right}</div></div>')
         if blk["moves"]:
             body.append('<ul class="moves">' + "".join(f"<li>{E(m)}</li>" for m in blk["moves"]) + "</ul>")
-    if len(body) == 1:
+    if len(shown) > _TOP:
+        body.append("</details>")
+    if not shown:
         body.append('<p class="q">No block was re-shaped — every one was already plain, or too short.</p>')
     page = (f'<!doctype html><html lang="en"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width,initial-scale=1">'

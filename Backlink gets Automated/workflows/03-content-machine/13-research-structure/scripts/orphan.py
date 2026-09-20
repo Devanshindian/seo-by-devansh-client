@@ -10,8 +10,10 @@ TEMPLATE = llm.load_prompt("orphan.md")
 HIGH_VOL = config.HIGH_VOL    # "high-demand" bar for the orphan check (lives in config, C1)
 
 
-def run(sections, slug, pool_path=None):
-    path = pool_path or os.path.join(config.DFS_RUNS, slug, "proof", "03-metrics.json")
+def run(sections, slug, pool_path=None, hub=""):
+    # hub-nesting fix (2026-08-04): a spoke's pool lives under dataforseo/out/<hub>/<slug>/ — the flat
+    # path made every spoke run silently skip the orphan check.
+    path = pool_path or os.path.join(config.DFS_RUNS, hub, slug, "proof", "03-metrics.json")
     if not os.path.exists(path):
         print("  orphan check skipped (no keyword pool found)")
         return []

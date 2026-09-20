@@ -59,6 +59,23 @@ def _fill(name, **kw):
     return t
 
 
+def _format_craft(archetype):
+    """The format's wrapper rules from formats/_craft/<archetype>.md, or a plain fallback.
+
+    Live since 2026-09-05 (the Testlify review: every article opened and closed the same way,
+    whatever its format). The _craft files were parked for exactly this step; now it reads them.
+    """
+    if archetype:
+        p = os.path.join(config.FORMATS, "_craft", f"{archetype}.md")
+        try:
+            body = open(p).read().strip()
+            if body:
+                return body
+        except OSError:
+            pass
+    return "(this format has no wrap rules of its own — the general shapes above stand)"
+
+
 _CTA_URL = re.compile(r"^- Page:\s*(\S+)", re.M)
 
 
@@ -191,6 +208,8 @@ def run(slug, redo=False):
               .replace("{{FEATURES}}", _features())
               .replace("{{CTA_PAGES}}", _cta_pages()[0])
               .replace("{{VOICE}}", _voice())
+              .replace("{{ARCHETYPE}}", plan.get("format_archetype") or "general article")
+              .replace("{{FORMAT_CRAFT}}", _format_craft(plan.get("format_archetype") or ""))
               .replace("{{SECTIONS}}", block))
     out = llm.call_json(prompt) or {}
 

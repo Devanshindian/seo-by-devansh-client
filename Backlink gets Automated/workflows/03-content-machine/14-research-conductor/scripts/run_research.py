@@ -10,7 +10,7 @@ Chain: 0 pick → 1 DataForSEO → 2 STORM → 3 gap-check → 4 build_structure
 Resumable: a step is skipped if its output already exists; --redo reruns all, --from N forces from step N.
 """
 import os, sys, json, re, time, socket, argparse, subprocess, urllib.request
-import config, topic_pick, bundle, cannibalization
+import config, topic_pick, bundle, cannibalization, spine, topic_gate
 
 ORDER = ["0", "1", "2", "3", "4", "5", "6"]
 
@@ -84,27 +84,22 @@ def _primary_kw(slug, hub=""):
     return ((json.load(open(p)).get("primary") or {}).get("keyword") or "").strip()
 
 
-def _derive_storm_topic(asset, angle, company=""):
-    """Derive STORM's research subject from the asset title — a SHORT, CLEAN subject, because STORM's engine
-    names its output folder after this string (spaces→underscores, truncated). The old version appended the
-    angle's first clause, producing giant, ugly folder names like
-    'Recruiting_Metrics_Benchmark_Report:_..._&_—_focuses_entirely_on_the_pre-hire_metric_layer_this_broad'.
-    We now use the clean core subject only; the ANGLE still steers the blueprint downstream (research-structure
-    reads --angle), so nothing is lost — the folder just becomes readable ('Recruiting_Metrics_Benchmark_Report').
-    """
-    title = asset
-    if company:
-        title = re.sub(r'(?i)\b' + re.escape(company) + r'\b\s*:?\s*', '', title)   # strip the brand word
-    title = re.sub(r'\b(19|20)\d{2}\b', '', title)          # strip years
-    title = re.sub(r'\s*\([^)]*\)\s*$', '', title)          # strip trailing (...)
-    # Many asset titles are "Core Subject: long descriptive subtitle" — the CORE (before the first colon) is the
-    # real research subject and makes a clean folder. Keep it if it's substantial; else fall back to the title.
-    core = title.split(":", 1)[0].strip()
-    subject = core if len(core) >= 15 else title
-    subject = " ".join(subject.split()).strip(" :–—|,&")
-    if len(subject) > 70:                                    # hard cap; break on a word boundary
-        subject = subject[:70].rsplit(" ", 1)[0].rstrip(" :–—|,&")
-    return subject
+def _research_subject(asset):
+    """STORM's short research subject = the asset title with the brand word stripped. The folder no longer
+    comes from this string (run_storm.py gets --folder <slug>), so it stays a clean, human topic label; the
+    rich context (angle + spine + about/not-about) travels separately via --spine-file."""
+    return " ".join(re.sub(r'(?i)\b' + re.escape(config.COMPANY) + r'\b\s*:?\s*', '', asset).split()).strip(" :–—|,&")
+
+
+def _migrate_legacy_storm_dir(sdir, asset, angle, hub=""):
+    """Self-heal (2026-08-03): a pre-slug run left this topic's dossier in a title-mangled folder. If the
+    slug folder is missing but the legacy one exists, RENAME it — one folder name per topic, forever."""
+    if os.path.isdir(sdir):
+        return
+    legacy = config.legacy_storm_dir(asset, angle, hub)
+    if os.path.isdir(legacy) and legacy != sdir:
+        os.rename(legacy, sdir)
+        print(f"   migrated legacy STORM folder -> {os.path.basename(sdir)}")
 
 
 def _spokes(slug, hub=""):
@@ -122,10 +117,16 @@ def main():
     ap.add_argument("--asset", default=None, help="force a specific clubbed topic (substring match); else auto-pick")
     ap.add_argument("--redo", action="store_true", help="ignore cached outputs; rerun every step")
     ap.add_argument("--from", dest="frm", default=None, choices=ORDER, help="force-rerun from this step onward")
-    ap.add_argument("--provider", choices=["claude", "codex"], default="claude",
+    # DeepSeek by default — see the note in run_topic.py. Claude is nearly out, Codex is quota-locked.
+    ap.add_argument("--provider", choices=["claude", "codex", "deepseek"], default="deepseek",
                     help="LLM provider for every LLM step. Default: claude.")
     ap.add_argument("--model", default=None,
                     help="model for the selected provider (for example sonnet or gpt-5.4). Uses that CLI's default when omitted.")
+    # WHO GOT PICKED (2026-08-26). The topic is chosen inside this run, so a caller that wants to WRITE
+    # what was just researched has no way to learn the slug — and it must not call pick_next() itself,
+    # because that marks in_progress and increments the attempt counter. One line to a file settles it.
+    ap.add_argument("--slug-out", default=None,
+                    help="write the picked slug to this file, so a caller can act on it afterwards")
     ap.add_argument("--until", default=None, choices=ORDER,
                     help="stop after this step (e.g. --until 2 = stop after STORM). Default: run all steps.")
     a = ap.parse_args()
@@ -148,22 +149,32 @@ def main():
             print(f"\n== STOPPED after step {step} (--until {a.until}), as requested. =="); sys.exit(0)
 
     # ---- Step 0: pick the topic (bookkeeping only) -----------------------------
-    print("== Step 0: pick topic ==")
+    print("== research · Step 0: pick topic ==")
     topic = topic_pick.pick_next(a.asset)
     if topic is None:
         print("   nothing pending in the queue and no eligible clubbed idea left. Done."); return
     slug, asset, angle, source = topic["slug"], topic["asset"], topic["angle"], topic["source"]
     is_spoke = source.startswith("spoke-of:")
     hub = source.split("spoke-of:", 1)[1].strip() if is_spoke else ""   # spoke → nest ALL its engine outputs under the pillar
+    if a.slug_out:
+        with open(a.slug_out, "w") as _f:
+            _f.write(slug)
     print(f"   slug={slug} · source={source}")
     print(f"   asset: {asset[:72]}")
 
+    # ---- Step 0b: the WORLD STATEMENT (about + not_about) — BEFORE any keyword research -----------
+    # One cheap AI call from title + angle + brand. The seeds step, the keyword scorer, the judge and the
+    # SERP relevance pass all receive it, so a phrase whose searchers live in a different field is caught
+    # BEFORE it aims the SERP, the winners study and the spine at the wrong world. [2026-08-04]
+    print("== research · Step 0b: world statement ==")
+    world_path = spine.world(slug, asset, angle, hub, redo=force("1"))
+
     # ---- Step 1: DataForSEO (keyword + competitor research) --------------------
-    print("== Step 1: DataForSEO ==")
+    print("== research · Step 1: DataForSEO ==")
     brief = os.path.join(config.DFS_OUT, hub, slug, f"research-doc-{slug}.md")
     dfs_fresh = force("1") or not have(brief)
     if dfs_fresh:
-        dfs_cmd = [config.DFS_RUN, "--slug", slug, "--asset", asset]
+        dfs_cmd = [config.DFS_RUN, "--slug", slug, "--asset", asset, "--world-file", world_path]
         if hub:       # spoke → nest under the pillar (and hand DataForSEO the title + angle directly, since a
             dfs_cmd += ["--hub", hub, "--angle", angle]   # minted spoke isn't in clubbed; competitors come from the SERP)
         code = _run(dfs_cmd, soft=True)
@@ -182,10 +193,11 @@ def main():
     primary = _primary_kw(slug, hub)
     if not primary:
         sys.exit("   ! no primary keyword from DataForSEO — something went wrong in Step 1.")
-    storm_topic = _derive_storm_topic(asset, angle, config.COMPANY)
-    sdir = config.storm_dir(storm_topic, hub)
+    storm_topic = _research_subject(asset)
+    sdir = config.storm_dir(slug, hub)                      # slug-named, same as every other engine
+    _migrate_legacy_storm_dir(sdir, asset, angle, hub)      # adopt a pre-slug folder if one exists
     print(f"   primary keyword (SEO target): {primary!r}")
-    print(f"   STORM research topic:         {storm_topic!r}")
+    print(f"   STORM research subject:       {storm_topic!r}  (folder: {slug})")
 
     # ---- Cannibalisation FLAG (free) — do we already RANK for this keyword? Looks the primary keyword up in our
     #      real ranking footprint (00-foundation's ranked_keywords pull). If we rank (top N) → flag it. Never blocks. ----
@@ -195,8 +207,30 @@ def main():
               f"— building anyway (flagged for the team).")
         topic_pick.set_meta(slug, cannibalization=f"#{hit.get('rank')} · {hit['keyword']}", cannibalization_url=hit["url"])
 
+    # ---- Step 1b: THE TOPIC GATE — is this ours, and what is the real angle? ---
+    # Here because DataForSEO has just produced the real search results and STORM has not started, so a
+    # topic that cannot serve us is dropped before the expensive step rather than after it. The angle it
+    # returns REPLACES the one written months ago against a single competitor page, and is written back to
+    # the queue — the single source all 19 downstream consumers read.
+    print("== research · Step 1b: topic gate ==")
+    gate = topic_gate.run(slug, asset, angle, hub, redo=force("1"))
+    if not gate.get("relevant"):
+        topic_pick.set_meta(slug, research_status="not-relevant",
+                            remarks=f"not relevant — {gate.get('why') or 'no reason given'}")
+        print(f"\n⏭  '{slug}' is not our topic → marked NOT-RELEVANT (terminal) with the reason. "
+              f"Nothing further ran; the next run picks the next topic.")
+        return
+    if gate.get("angle_changed") and gate.get("angle"):
+        topic_pick.set_meta(slug, angle=gate["angle"])
+        angle = gate["angle"]              # everything below this line uses the researched angle
+        print("   queue: angle replaced with the researched one")
+
+    # ---- Step 2a: the working spine (the research target STORM is pointed at) --
+    print("== research · Step 2a: working spine ==")
+    spine_path = spine.run(slug, asset, angle, hub, redo=force("2"))
+
     # ---- Step 2: STORM (deep background dossier) -------------------------------
-    print("== Step 2: STORM ==")
+    print("== research · Step 2: STORM ==")
     dossier = os.path.join(sdir, "storm_gen_article_polished.txt")
     raw_art = os.path.join(sdir, "storm_gen_article.txt")
 
@@ -211,11 +245,16 @@ def main():
 
     if force("2") or not _storm_ok():
         for attempt in (1, 2):   # one retry — the article-generation step can transiently return empty
-            ensure_shim(a.model, log_dir=os.path.join(config.STORM_OUT, "_shim-logs", slug))
-            storm_cmd = [config.STORM_RUN, storm_topic, "--provider", a.provider, *config.STORM_ARGS]
+            if a.provider != "deepseek":     # deepseek talks straight to its own real API — no local shim needed
+                ensure_shim(a.model, log_dir=os.path.join(config.STORM_OUT, "_shim-logs", slug))
+            storm_cmd = [config.STORM_RUN, storm_topic, "--provider", a.provider,
+                         "--folder", slug,                       # folder = the slug, same as every other engine
+                         "--spine-file", spine_path,             # title/angle/spine/about/not-about for every prompt
+                         "--perspectives", "4",                  # the 4-role research team (builder/sceptic/evidence/practitioner)
+                         *config.STORM_ARGS]
             if a.model:
                 storm_cmd += ["--model", a.model]
-            if hub:                             # spoke → STORM writes under storm/out/<hub>/<TopicDir>/
+            if hub:                             # spoke → STORM writes under storm/out/<hub>/<slug>/
                 storm_cmd += ["--hub", hub]
             _run(storm_cmd, py=config.STORM_PY)
             if _storm_ok():
@@ -232,7 +271,7 @@ def main():
     _render_article(sdir)   # viewable article.html for the main dossier
     stop_after("2")   # --until 2 → stop after STORM
     # ---- Step 3: gap-check (fill what the brief covers but STORM missed) -------
-    print("== Step 3: gap-check ==")
+    print("== research · Step 3: gap-check ==")
     gap = os.path.join(config.GAP_OUT, hub, slug, "gap-check.md")
     if force("3") or not have(gap):
         gap_cmd = [config.GAP_RUN, "--slug", slug, "--brief", brief, "--dossier", dossier]
@@ -249,21 +288,24 @@ def main():
             _render_article(os.path.join(sdir, _name))
     stop_after("3")
     # ---- Step 4: build the article blueprint ----------------------------------
-    print("== Step 4: build structure (blueprint) ==")
+    print("== research · Step 4: build structure (blueprint) ==")
     blueprint = os.path.join(config.STRUCT_OUT, hub, slug, f"structure-{slug}.json")
     if force("4") or not have(blueprint):
         struct_cmd = [config.STRUCT_RUN, "--slug", slug, "--asset", asset, "--storm-topic", sdir]
         if hub:               # spoke → nest structure output under the pillar
             struct_cmd += ["--hub", hub]
-        if angle:  # steer the Step 1b angle-relevance filter with the asset's distinct angle
+        if angle:  # steer build_structure's OWN relevance filter (its step 1b, not this file's)
             struct_cmd += ["--angle", angle]
+        if force("4"):        # CASCADE (2026-08-04): forcing this step must also bust build_structure's OWN
+            struct_cmd += ["--reharvest", "--redo"]   # caches (cards.json + _stage), or a "rerun" silently
+                              # rebuilds the old blueprint from the old dossier's cards.
         _run(struct_cmd)
     else:
         print("   · cached")
 
     stop_after("4")
     # ---- Step 5: write-ready bundle -------------------------------------------
-    print("== Step 5: write-ready bundle ==")
+    print("== research · Step 5: write-ready bundle ==")
     bundle_md = os.path.join(bundle._bundle_dir(slug), f"bundle-{slug}.md")   # nested for spokes; MUST match bundle.run's path
     if force("5") or not have(bundle_md):
         bundle.run(slug, asset, angle)
@@ -272,21 +314,22 @@ def main():
 
     stop_after("5")
     # ---- Step 6: log done + enqueue this hub's spokes --------------------------
-    print("== Step 6: log + enqueue spokes ==")
+    print("== research · Step 6: log + enqueue spokes ==")
     topic_pick.mark_done(slug)
     if is_spoke:   # ONE-LEVEL-ONLY: a spoke never spawns its own spokes (else the queue grows unbounded)
         print(f"   marked '{slug}' research=done · (this is a spoke — not enqueuing spokes-of-spokes)")
     else:
-        # spoke enqueue mints ideas (paid Voyage + LLM) and runs AFTER mark_done — wrap it so a mint/Voyage
+        # spoke minting costs money (Voyage + LLM) and runs AFTER mark_done — wrap it so a mint/Voyage
         # failure can't abort an already-successful hub research run (the hub stays done; spokes just skipped).
         try:
             added = topic_pick.insert_spokes(slug, asset, angle, _spokes(slug, hub))   # each spoke keyword minted into a real idea (hub="" here — hubs are flat)
-            print(f"   marked '{slug}' research=done · enqueued {len(added)} spokes (top {config.MAX_SPOKES}) right after it")
+            print(f"   marked '{slug}' research=done · recorded {len(added)} spoke(s) (top {config.MAX_SPOKES}) "
+                  f"in spokes.csv against this hub — they do NOT enter the queue and are run by hand")
         except Exception as e:
             print(f"   marked '{slug}' research=done · ⚠ spoke enqueue failed ({str(e)[:60]}) — spokes skipped (not fatal)")
 
     print(f"\nDONE (research) → write-ready bundle: {bundle_md}")
-    print(f"   next: /write from the bundle.")
+    print("   research only — nothing is written yet. Next:  /writer " + slug)
 
 
 if __name__ == "__main__":

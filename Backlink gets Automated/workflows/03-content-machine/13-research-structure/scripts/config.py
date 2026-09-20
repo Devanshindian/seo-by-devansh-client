@@ -77,10 +77,6 @@ CLUBBED_CSV = os.environ.get("CLUBBED_CSV",
 # from HERE instead of re-fetching the live site — the bodies carry #/##/### heading markers.
 CONTENT_DB = os.path.join(_BGA, "projects", COMPANY, "00-foundation", "output", "content-database.csv")
 
-# Competitor-source filter (Step 4b). The ONE authoritative no-cite list = the '## Direct competitors'
-# section of competitors.md. Any source citing these domains is dropped before the blueprint is built.
-COMPETITORS_MD = os.path.join(_BGA, "projects", COMPANY, "02-asset-engine", "competitor-study", "output", "competitors.md")
-COMPETITOR_DROP_FLAG_PCT = 5   # flag loudly if >this% of cards get deleted as competitor-sourced
 
 # Market for the paid per-H2 keyword step (Step 6) — from the company record. Used to live hardcoded
 # inside keywords.py (a C1 violation: a tunable buried in a step script).
@@ -92,7 +88,11 @@ CLAUDE_BIN = os.environ.get("CLAUDE_BIN", "claude")
 CLAUDE_TIMEOUT = 300      # seconds per call
 LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "claude").lower()
 LLM_MODEL = os.environ.get("LLM_MODEL", "")
-MAX_WORKERS = 4           # parallel calls ("subagents")
+# Concurrency default is PROVIDER-AWARE (not a flat number): DeepSeek is a real API with a huge concurrency
+# ceiling (500-2500 requests at once, confirmed), so it gets a higher default. Claude/Codex are headless CLIs
+# that stall under heavy parallel load (the freeze we hit earlier today) — they keep the proven-safe default.
+# Still env-overridable either way, but a run on claude/codex NEVER silently inherits deepseek's higher number.
+MAX_WORKERS = int(os.environ.get("MAX_WORKERS", "8" if LLM_PROVIDER == "deepseek" else "4"))
 LLM_RETRIES = 1           # re-ask once on unparseable JSON
 HARVEST_RETRIES = 2       # Step 1: re-run a section/page that yields 0 cards this many extra times
 
@@ -106,7 +106,7 @@ PERSONA_MD = os.path.join(BRAND_CTX, "persona.md")       # the persona library (
 # drifted from 10-dataforseo's — the exact F1 violation the record exists to kill). Env still overrides.
 BRAND_ONELINER = os.environ.get("BRAND_ONELINER",
     TENANT.get("brand_oneliner", "Testlify — a talent-assessment platform that sells pre-employment tests"))
-SCORE_BATCH = 30          # cards per scoring call
+SCORE_BATCH = int(os.environ.get("SCORE_BATCH", "30"))    # cards per scoring call — env-overridable
 SCORE_KEEP_THRESH = 1     # DROP a card if relevance <= this AND not protected (0=conservative, 1=default)
 SCORE_FLAG_PCT = 60       # flag loudly if >this% of cards get dropped (something's likely wrong)
 

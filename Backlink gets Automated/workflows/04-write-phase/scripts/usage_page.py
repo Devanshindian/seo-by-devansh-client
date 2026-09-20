@@ -41,7 +41,23 @@ ENGINE = {
     "section_keywords.py": "architect", "headings.py": "architect",
     "write_body.py": "writer", "blend.py": "writer", "wrapper.py": "writer",
     "slop_pass.py": "writer", "links_pass.py": "writer", "assemble.py": "writer", "clean.py": "writer",
+    "coherence.py": "writer", "readable.py": "writer", "sentence_pass.py": "writer",
+    "run_field.py": "writer", "brand_cards.py": "architect",
 }
+
+# The timing rows are keyed by STEP name, the cost rows by SCRIPT name. WHAT is keyed by script, so
+# every timing row silently missed its plain-English line. This maps one to the other.
+SCRIPT_STEP = {}   # filled just below, from STEP_SCRIPT
+STEP_SCRIPT = {
+    "gather": "gather_inputs.py", "select": "plan_select.py", "verify-sources": "verify_sources.py",
+    "freeze": "freeze.py", "shape": "shape.py", "enrich": "enrich.py",
+    "brand-cards": "brand_cards.py", "allocate": "allocate_words.py",
+    "section-keywords": "section_keywords.py", "headings": "headings.py",
+    "write-body": "write_body.py", "blend": "blend.py", "wrapper": "wrapper.py",
+    "coherence": "coherence.py", "readable": "readable.py", "sentences": "sentence_pass.py",
+    "slop": "slop_pass.py", "links": "links_pass.py", "clean": "clean.py", "assemble": "assemble.py",
+}
+SCRIPT_STEP.update({v: k for k, v in STEP_SCRIPT.items()})
 
 # What each step actually DOES, in one plain line. Shown under its cost row, so a bill is never a list
 # of filenames. Add a line here whenever a new step starts making metered calls.
@@ -146,30 +162,42 @@ def _timing(rows):
         return ('<h2>Time</h2><p class="note">No timings on file for this article. The orchestrators record '
                 'one row per step; a run that finished before timing was switched on will not appear here.</p>')
     by_phase, total = defaultdict(float), 0.0
-    per = []
+    # One row per RUN of a step, not per step: this article has been re-run 28 times, so the raw list
+    # was 351 rows and the "end to end" total was the sum of every attempt ever made.
+    agg, runs = defaultdict(float), defaultdict(int)
     for r in t:
         sec = float(r.get("seconds") or 0)
+        step = r.get("step") or "?"
         total += sec
         by_phase[r.get("phase") or "other"] += sec
-        per.append((r.get("step") or "?", r.get("phase") or "", sec))
-    mx = max((s for _, _, s in per), default=1) or 1
+        agg[(step, r.get("phase") or "")] += sec
+        runs[(step, r.get("phase") or "")] += 1
+    per = [(k[0], k[1], v, runs[k]) for k, v in agg.items()]
+    n_runs = max(runs.values(), default=1)
+    mx = max((s for _, _, s, _ in per), default=1) or 1
     prows = "".join(
         f'<div class="row"><div class="t">{E(n)}<span class="chip">{_dur(s)}</span>'
-        f'<span class="chip">{E(ph)}</span></div>'
-        + (f'<div class="reason">{E(WHAT[n])}</div>' if n in WHAT else "")
+        + (f'<span class="chip">{c} run(s)</span>' if c > 1 else "")
+        + f'<span class="chip">{E(ph)}</span></div>'
+        + (f'<div class="reason">{E(WHAT[STEP_SCRIPT.get(n, n)])}</div>'
+           if STEP_SCRIPT.get(n, n) in WHAT else "")
         + f'<div class="bar"><i style="width:{max(2, round(100 * s / mx))}%"></i></div></div>'
-        for n, ph, s in sorted(per, key=lambda x: -x[2]))
+        for n, ph, s, c in sorted(per, key=lambda x: -x[2]))
     ph = "".join(
         f'<div class="row"><div class="t">{E(k)}<span class="chip">{_dur(by_phase[k])}</span>'
         f'<span class="chip">{by_phase[k] / total * 100:.0f}% of the run</span></div></div>'
         for k in ORDER if k in by_phase)
     return ('<h2>Time — end to end</h2>'
-            + f'<p class="note">This article took <b>{_dur(total)}</b> of machine time, start to finish. '
-              'Steps run one after another, so these add up.</p>'
+            + (f'<p class="note"><b>{_dur(total)}</b> of machine time in total, across every run of '
+               f'this article — the most re-run step ran <b>{n_runs}</b> times while the pipeline was '
+               f'being built. This is not how long one article takes.</p>' if n_runs > 1 else
+               f'<p class="note">This article took <b>{_dur(total)}</b> of machine time, start to '
+               f'finish. Steps run one after another, so these add up.</p>')
             + '<div class="panel">' + ph + "</div>"
             + '<h2>Slowest steps first</h2>'
-            + '<p class="note">Where the wall-clock time actually went. The dearest step and the slowest step '
-              'are often not the same one.</p>'
+            + '<p class="note">Where the wall-clock time actually went, one row per step with every '
+              'run of it added together. The dearest step and the slowest step are often not the '
+              'same one.</p>'
             + '<div class="panel">' + prows + "</div>")
 
 
@@ -208,9 +236,10 @@ def _body(rows, title_note):
         tokens = (f' · {s["in"]:,} in / {s["out"]:,} out'
                   + (f' · {s["cached"]:,} cached' if s["cached"] else "")) if s["in"] or s["out"] else ""
         srows.append(
-            f'<div class="row"><div class="t">{E(name)}'
+            f'<div class="row"><div class="t">{E(SCRIPT_STEP.get(name, name))}'
             f'<span class="chip">{_money(s["cost"])}</span>'
-            f'<span class="chip">{ENGINE.get(name, "other")}</span></div>'
+            f'<span class="chip">{ENGINE.get(name, "other")}</span>'
+            f'<span class="chip q">{E(name)}</span></div>'
             + (f'<div class="reason">{E(WHAT[name])}</div>' if name in WHAT else "")
             + f'<div class="m">{s["calls"]:,} {E(kinds)} call(s){tokens}</div>'
             f'<div class="bar"><i style="width:{max(2, round(100 * s["cost"] / mx_s))}%"></i></div></div>')
@@ -219,11 +248,13 @@ def _body(rows, title_note):
             + f'<p class="note">{title_note}</p>'
             + '<h2>Where the money went, by engine</h2>'
             + '<p class="note">research = building the cards and the bundle · planner = choosing and '
-              'source-checking · architect = designing and enriching · writer = writing and polishing.</p>'
+              'source-checking · architect = designing and enriching · writer = writing and polishing · '
+              'other = a step with no engine recorded yet.</p>'
             + '<div class="panel">' + (erows or '<p class="q">nothing</p>') + "</div>"
             + '<h2>Every step, dearest first</h2>'
-            + '<p class="note">The step name is the script that made the call. Read the top row first: that '
-              'is the one worth optimising, and everything below it is noise by comparison.</p>'
+            + '<p class="note">One row per step, named the way the rest of the review names it; the '
+              'grey chip is the script behind it. Read the top row first: that is the one worth '
+              'optimising, and everything below it is noise by comparison.</p>'
             + '<div class="panel">' + "".join(srows) + "</div>"
             + '<h2>How these numbers are produced</h2><div class="panel">'
               '<div class="row"><div class="t">DataForSEO</div><div class="m">The exact <code>cost</code> '
@@ -242,7 +273,9 @@ def build(slug):
     body = ep._nav("", base="") + _body(rows, f"Every metered API call made while building <b>{E(slug)}</b>.")
     out = os.path.join(config.out_dir(slug), "time-and-usage.html")
     os.makedirs(os.path.dirname(out), exist_ok=True)     # the page can be built before the run creates the dir
-    config.write_text(out, ep._page("Time and API usage", f"{slug} — how long it took and what it cost", body))
+    config.write_text(out, ep._page("Time and API usage",
+                     f'{(ep.article_ctx.article_context(slug).get("title") or slug)} — how long it '
+                     f'took and what it cost', body))
     return out
 
 

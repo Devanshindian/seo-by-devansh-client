@@ -163,7 +163,14 @@ def main():
         v = gate(n)
         if v.get("overall_pass"): break
         if n < 3: fill(facts, redo_notes=v.get("redo_notes", ""))
-    print("== WRITTEN IN PLACE: features.md — review with `git diff` ==")
+    # THE LINK TARGETS (2026-08-20). features.md says what we sell; it carries no URLs, because the
+    # model that writes it is composing prose. The close of an article has to LINK to a page, so the
+    # same crawl is also emitted as a plain lookup. Code, not a model: a clumsy line in features.md
+    # costs nothing, a wrong URL in a call to action sends the reader to the wrong page.
+    print("== Step 5: the CTA page list ==")
+    import build_cta_pages
+    build_cta_pages.build()
+    print("== WRITTEN IN PLACE: features.md + cta-pages.md — review with `git diff` ==")
 
 
 if __name__ == "__main__":

@@ -348,12 +348,18 @@ class STORMWikiRunner(Engine):
         do_polish_article: bool = True,
         remove_duplicate: bool = False,
         callback_handler: BaseCallbackHandler = BaseCallbackHandler(),
+        folder_name: str = "",
     ):
         """
         Run the STORM pipeline.
 
         Args:
             topic: The topic to research.
+            folder_name: LOCAL PATCH (2026-08-03): explicit output folder name. The topic string used to do
+             two jobs — research subject AND folder name — which forced it to stay short (and was why the
+             distinct angle got stripped out upstream). Passing folder_name (the pipeline slug) splits the
+             jobs: the folder matches every other engine's, the topic stays a pure research subject.
+             Empty = legacy behavior (folder derived from the topic).
             ground_truth_url: A ground truth URL including a curated article about the topic. The URL will be excluded.
             do_research: If True, research the topic through information-seeking conversation;
              if False, expect conversation_log.json and raw_search_results.json to exist in the output directory.
@@ -377,7 +383,7 @@ class STORMWikiRunner(Engine):
 
         self.topic = topic
         self.article_dir_name = truncate_filename(
-            topic.replace(" ", "_").replace("/", "_")
+            (folder_name or topic).replace(" ", "_").replace("/", "_")
         )
         self.article_output_dir = os.path.join(
             self.args.output_dir, self.article_dir_name

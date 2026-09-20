@@ -59,7 +59,7 @@ def run(slug, redo=False):
     for kind, key in [("gap", "gaps_to_own"), ("common-h2", "winners_common_h2s"), ("paa", "paa_pool")]:
         for item in plan.get(key) or []:
             if f"{kind}: {item}" not in served:
-                soft.append(f"HOLE ({kind}): {item[:70]}")
+                soft.append(f"HOLE ({kind}): {item}")
     if len(secs) < 3:
         soft.append(f"only {len(secs)} sections")
     sp = os.path.join(config.planner_work_dir(slug), "source-police.json")

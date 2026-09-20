@@ -4,7 +4,9 @@ PURE ASSEMBLY: the Keywords / SERP snapshot / Winners / AEO sections are LIFTED 
 (every bullet preserved — no re-summarizing, no inline-compression). The LLM writes ONLY the two synthesis blocks
 that don't exist in proof: the Verdict + the Build spec.
 
-Reads:  <run_dir>/proof/{03-keywords,04-serp-snapshot,05-winners,06-aeo}.md + config.CHECKLIST + pool/shortlist sizes.
+Reads:  <run_dir>/proof/{03-keywords,04-serp-snapshot,05-winners}.md + config.CHECKLIST + pool/shortlist sizes.
+(The AEO section was removed 2026-08-04 — nothing downstream consumed it; the reliable AI signal is the
+AI Overview block Step 4 already captures.)
 Writes: <run_dir>/research-doc-<slug>.md · <run_dir>/research-notes.md
 """
 import os, re, sys, json, argparse
@@ -50,7 +52,6 @@ def _completeness(proof, asset, angle, verdict, build_spec):
         ("Keywords — primary + variations + secondaries + in-body", filled("03-keywords.md")),
         ("SERP snapshot · PAA · related", filled("04-serp-snapshot.md")),
         ("What the winners cover + gaps", filled("05-winners.md")),
-        ("AI answer landscape status", filled("06-aeo.md")),
         ("Verdict", bool(verdict)),
         ("Build spec", bool(build_spec)),
     ]
@@ -63,7 +64,6 @@ def run(run_dir, slug, asset, angle):
     kw = _read(os.path.join(proof, "03-keywords.md"))
     serp = _read(os.path.join(proof, "04-serp-snapshot.md"))
     win = _read(os.path.join(proof, "05-winners.md"))
-    aeo = _read(os.path.join(proof, "06-aeo.md"))
     checklist = _read(config.CHECKLIST)
 
     # LLM: ONLY the Verdict + Build spec (the parts not in any proof file)
@@ -80,7 +80,6 @@ def run(run_dir, slug, asset, angle):
         "| Keywords | `03-keywords.md`, `spoke-candidates.md` |",
         "| SERP snapshot | `04-serp-snapshot.md` |",
         "| What the winners cover | `05-winners.md` |",
-        "| AI answer landscape | `06-aeo.md` |",
         "| Build spec | `seo-aeo-geo-checklist.md` |"]))
     completeness, missing = _completeness(proof, asset, angle, verdict, build_spec)
 
@@ -93,7 +92,6 @@ def run(run_dir, slug, asset, angle):
         _lift(os.path.join(proof, "03-keywords.md"), "## Keywords"),
         _lift(os.path.join(proof, "04-serp-snapshot.md"), "## SERP snapshot"),
         _lift(os.path.join(proof, "05-winners.md"), "## What the winners cover"),
-        _lift(os.path.join(proof, "06-aeo.md"), "## AI answer landscape"),
         "## Build spec\n\n" + build_spec,
         "---",
         "## Proof map (traceability)\n\n" + proof_map,
@@ -107,7 +105,7 @@ def run(run_dir, slug, asset, angle):
     npt = (NOTES.replace("{{ASSET_TOPIC}}", asset)   # notes.md has no {{BRAND}} slot — no-op fill removed
            .replace("{{DISTINCT_ANGLE}}", angle).replace("{{KEYWORDS}}", kw)
            .replace("{{POOL_STATS}}", _pool_stats(proof)).replace("{{SERP_SNAPSHOT}}", serp)
-           .replace("{{WINNERS}}", win).replace("{{AEO}}", aeo))
+           .replace("{{WINNERS}}", win))
     notes = llm.call_text(npt)
     config.write_text(os.path.join(run_dir, "research-notes.md"), notes.rstrip() + "\n")
 

@@ -1,6 +1,6 @@
 """Gap-check config: paths, the LLM caller settings, and the coverage-target policy.
 Self-contained — the only outside dependency is the `claude` CLI (headless Claude Code) for the three
-LLM steps (parse-brief, judge, triage), and STORM's own runner for the (optional) gap-fill re-runs.
+LLM steps (judge, triage — the Step-0 checklist is pure code since 2026-08-04), and STORM's own runner for the (optional) gap-fill re-runs.
 """
 import os
 
@@ -36,20 +36,15 @@ STORM_DIR = os.path.normpath(os.path.join(ROOT, "..", "11-storm"))
 STORM_RUNNER = os.path.join(STORM_DIR, "scripts", "run_storm.py")
 STORM_PYTHON = os.path.join(STORM_DIR, "venv", "bin", "python")
 
-# --- Coverage-target policy (mirrors research-phase-plan.md) ---
-# Item types we JUDGE for coverage:
+# --- Coverage-target policy (cut to three types, 2026-08-04, decided with Devansh) ---
 JUDGED_TYPES = [
-    "secondary_kw",     # Keywords -> Secondary table
-    "in_body",          # Keywords -> In-body only
-    "winner_h2",        # What the winners cover -> Common H2s
-    "gap_we_own",       # What the winners cover -> Gaps we can own  (THE priority)
-    "paa",              # SERP snapshot -> PAA on-angle
-    "aio_subtopic",     # SERP snapshot -> AI Overview "what it covers"
-    "aeo_faq",          # AI answer landscape (only when there is a usable signal)
+    "gap_we_own",       # competitor-read -> gaps_to_own  (THE priority — the article's differentiator)
+    "winner_h2",        # competitor-read -> winners_common_h2s (table stakes)
+    "aio_subtopic",     # SERP extract -> AI Overview "what it covers" (the answer skeleton)
 ]
-# "primary" is parsed too but never judged (it's excluded from JUDGED_TYPES) — so it's never a gap trigger.
-# EXCLUDED entirely (positioning/GEO, not dossier substance): spokes, PAA off-angle,
-# related searches (on/off), featured-snippet holder, the brand's "cited by AI / GEO gap" line.
+# DROPPED: secondary_kw + in_body (keyword strings — section keywords are the architect's job now),
+# paa (the write phase's FAQ can only use facts already in the article, so it self-corrects),
+# aeo_faq (the AEO step was deleted; nothing consumed it).
 
 
 # ---- atomic output writes (crash-safe): temp file in same dir -> os.replace over target -----------

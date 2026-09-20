@@ -195,9 +195,12 @@
       behind every claim. It is <i>not</i> the finished article; it's the raw evidence our writer draws from.</div>
     <div class="define"><b>Grounded / cited</b> — every sentence points to an actual web page STORM read. Nothing
       comes from the AI's own memory, so it can't quietly make things up.</div>
-    <div class="define"><b>Perspective (editor / persona)</b> — an invented interviewer with one angle (say, cost, or
-      how it's measured). It's the <span class="file">--perspectives</span> knob: more perspectives = more angles the
-      topic gets researched from.</div>
+    <div class="define"><b>Researcher (perspective)</b> — one interviewer with one job: the builder, the sceptic, the
+      evidence one, or the practitioner. It is the <span class="file">--perspectives</span> knob, and more researchers
+      means more angles the topic gets researched from.</div>
+    <div class="define"><b>The brief</b> — the article context this run is for: title, angle, spine, and the two world
+      lines (about / not about). Set once at the start and read by the researcher picker, every question, the outline
+      and the section writers, so the whole run is aimed at one article rather than at a bare topic string.</div>
     <div class="define"><b>The bridge (shim)</b> — a small relay we run on our own machine that makes STORM send its
       AI calls to a headless CLI instead of a paid AI service. It forwards to whichever provider you pick —
       <b>Claude</b> (default) or <b>Codex</b>, both on our own subscription, no API key. This is why the AI part
@@ -335,18 +338,29 @@
           <li><span class="fn">Pick the provider</span> with <span class="file">--provider claude|codex</span> (and an
             optional <span class="file">--model</span>); <span class="file">run_storm.py</span> hands both to the bridge.</li>
           <li><span class="fn">Set the knobs</span> in <span class="file">run_storm.py</span>: perspectives (editors),
-            turns (questions each), topk (links per search). The automated run uses <b>3 perspectives × 3 turns</b>.</li>
+            turns (questions each), topk (links per search). The automated run uses <b>4 researchers × 3 turns</b>, with topk 5.</li>
         </ul></div></div>
 
       <div class="step"><div class="dot">1</div><div class="step-body">
-        <h3>Decide the editors (personas)</h3>
-        <p><b>How they're decided:</b> an AI names a handful of sub-topics around the theme, then turns each into an
-        "editor" — an interviewer with one distinct angle (cost, methodology, and so on) — plus one plain fact-checker.
-        The number of editors is a knob you set; more editors = more angles covered.</p>
+        <h3>Pick the research team</h3>
+        <p><b>How they're decided:</b> one AI call reads the article's brief — title, angle, spine, and the two world
+        lines — and names the researchers. It is told outright that this team decides the article, because what they
+        ask is what the article gets built from.</p>
         <ul>
-          <li><span class="file">persona_generator.py</span> — writes the editor list.</li>
+          <li><span class="fn">Four fixed jobs, all covered</span>, and no two researchers may overlap:
+            <ul>
+              <li><b>The builder</b> — the methods and steps the article promises to hand the reader.</li>
+              <li><b>The sceptic</b> — what it costs, when it fails, who it disadvantages, when the reader should not do
+                this at all. The only researcher carrying this job, so the brief is deliberately wide.</li>
+              <li><b>The evidence one</b> — whether it works and how anyone would know: studies, benchmarks, sample
+                sizes, what the measurement misses.</li>
+              <li><b>The practitioner</b> — the plain, awkward questions a polished guide skips.</li>
+            </ul></li>
+          <li><span class="fn">Never a team that already agrees.</span> A mandatory sceptic is what stops four
+            enthusiastic researchers from producing four enthusiastic angles on the same claim.</li>
+          <li><span class="file">persona_generator.py</span> · <span class="file">pick-researchers.md</span> — writes the team.</li>
         </ul>
-        <a class="xref" href="#setup">↓ §05 — how each editor then gets its own interview</a></div></div>
+        <a class="xref" href="#setup">↓ §05 — how each researcher then gets its own interview</a></div></div>
 
       <div class="step"><div class="dot">2</div><div class="step-body">
         <h3>Run the interviews <span class="pill">the research — every fact is gathered here</span> <span class="pill paid">search $</span></h3>
@@ -445,10 +459,18 @@
     <b>first question purely from the topic + its own angle</b>. (e.g. the "cost" editor opens with a cost question,
     the "methodology" editor opens with a how-is-this-measured question.) Every later question is built on the
     answers so far — that's the loop in the next section.</div>
-    <div class="note orange"><span class="tag">Our upgrade — more angles, not more Wikipedia</span><br>
-    Want broader research? Add editors (raise the persona count), not questions. Note: the engine tries to read
-    related Wikipedia contents pages as light inspiration for the personas — but that's optional, so even when it's
-    blocked the editors still come out strong and varied.</div>
+    <div class="note orange"><span class="tag">Our upgrade — the team is picked for THIS article</span><br>
+    Stanford's original route invented the interviewers by reading related Wikipedia contents pages for inspiration.
+    That works for an encyclopedia entry and is wrong for us: it produces interviewers shaped by how Wikipedia
+    organises a subject, not by what our article argues. Ours reads the article's own brief instead, and the Wikipedia
+    route survives only as a fallback if that call fails.
+    <ul>
+      <li>The <b>hard rule</b> in that prompt is the world: where the subject shares a word with a different field,
+      never pick a researcher who belongs to that field. Their questions look perfectly reasonable and pull in advice
+      that is confidently wrong for our reader.</li>
+      <li>Want broader research? Add researchers, not questions. More researchers means more angles; more turns just
+      means the same angle asked at greater length.</li>
+    </ul></div>
   </div>
 </section>
 
@@ -616,7 +638,7 @@
       <div class="stat"><div class="big">~$0.15</div><div class="cap">web-search cost per topic</div></div>
     </div>
     <div class="note"><span class="tag">A real run, by the numbers</span><br>
-    On a live Testlify topic, run on <b>Claude Sonnet</b> at the automated config — <b>3 perspectives × 3 turns</b> —
+    On a live Testlify topic, run on <b>Claude Sonnet</b> at the earlier automated config of <b>3 perspectives × 3 turns</b> —
     STORM produced a <b>~12,700-word</b> dossier in <b>~979 seconds (~16 min)</b>, roughly one citation every 27
     words. Spoke topics on the same config landed in the same <b>9–13k</b> band. Anything under the <b>1,500-word</b>
     gate is treated as a failed run, not a dossier.</div>

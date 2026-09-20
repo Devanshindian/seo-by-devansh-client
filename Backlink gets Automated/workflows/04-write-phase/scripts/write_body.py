@@ -279,8 +279,12 @@ def run(slug, redo=False):
         # RELAXED 2026-08-10 (Devansh). The old rule was an absolute ban outside a brand-named section,
         # which produced a product-free body plus a product paragraph bolted on later, and the seam
         # showed. The line that matters is not "never name it", it is "never make it the answer".
-        rule = (f"This section IS about {brand}. Cover it factually and fairly from the facts above, name at "
-                f"least one honest limitation, and never oversell or invent a capability."
+        # 2026-09-05 (Testlify review): the "name one honest limitation" clause is gone — a published
+        # article must never volunteer the publisher's own weaknesses. Honest scope, no self-criticism.
+        rule = (f"This section IS about {brand}. Cover it factually and fairly from the facts above, and "
+                f"never oversell or invent a capability. Never volunteer a limitation, weakness or gap of "
+                f"{brand}: state what it does and who it is for, then stop. Scope stated plainly is fine "
+                f"(built for X); a drawback written as a drawback is not."
                 if is_brand else
                 f"Name {brand} as little as you can. This article earns trust by being useful, not by "
                 f"selling. If naming it is genuinely the clearest way to make a point the section is "

@@ -17,11 +17,15 @@ def _table(rows):
     return "\n".join(f"{r['kw']} | {r.get('vol')} | {r.get('kd')} | {r.get('intent','')}" for r in rows)
 
 
-def _score_batch(batch, asset, angle):
+def _score_batch(batch, asset, angle, world=None, hygiene=""):
     """Returns (ok, rows). ok=False marks a real failure (distinct from a legitimately empty result), so run()
     can tell 'the scorer crashed' from 'the scorer scored nothing' and refuse to pick a primary off no scores."""
+    world = world or {}
     p = (SCORE.replace("{{BRAND}}", config.BRAND).replace("{{ASSET_TOPIC}}", asset)
          .replace("{{DISTINCT_ANGLE}}", angle).replace("{{BRAND_ONELINER}}", config.BRAND_ONELINER)
+         .replace("{{ABOUT}}", world.get("about") or "(not available for this run)")
+         .replace("{{NOT_ABOUT}}", world.get("not_about") or "(not available for this run)")
+         .replace("{{HYGIENE}}", hygiene or "(none flagged)")
          .replace("{{CANDIDATE_TABLE}}", _table(batch)))
     try:
         return True, llm.call_json(p)
@@ -73,7 +77,8 @@ class NoViableKeywords(RuntimeError):
     catches this and SKIPS the topic gracefully (marks it terminal + a remark) instead of crashing the queue."""
 
 
-def run(run_dir, asset, angle):
+def run(run_dir, asset, angle, world=None, hygiene=""):
+    world = world or {}
     proof = os.path.join(run_dir, "proof")
     metrics = json.load(open(os.path.join(proof, "03-metrics.json")))
     cands = [r for r in metrics if (r.get("intent") in ("informational", "commercial"))]
@@ -87,7 +92,7 @@ def run(run_dir, asset, angle):
     batches = [cands[i:i + BATCH] for i in range(0, len(cands), BATCH)]
 
     with ThreadPoolExecutor(max_workers=config.MAX_WORKERS) as ex:
-        results = list(ex.map(lambda b: _score_batch(b, asset, angle), batches))
+        results = list(ex.map(lambda b: _score_batch(b, asset, angle, world, hygiene), batches))
     verdicts = [rows for ok, rows in results]
     for n, v in enumerate(verdicts, 1):
         config.write_json(os.path.join(proof, f"03-verdict-{n}.json"), v)
@@ -103,7 +108,10 @@ def run(run_dir, asset, angle):
         print(f"    !! {failed_batches}/{len(batches)} scorer batches FAILED — judging on the survivors only")
     all_verdicts = json.dumps(scored_rows)
     jp = (JUDGE.replace("{{BRAND}}", config.BRAND).replace("{{ASSET_TOPIC}}", asset)
-          .replace("{{DISTINCT_ANGLE}}", angle).replace("{{VERDICTS}}", all_verdicts)
+          .replace("{{DISTINCT_ANGLE}}", angle)
+          .replace("{{ABOUT}}", world.get("about") or "(not available for this run)")
+          .replace("{{NOT_ABOUT}}", world.get("not_about") or "(not available for this run)")
+          .replace("{{VERDICTS}}", all_verdicts)
           .replace("{{METRICS_TABLE}}", _table(cands)))
     final = llm.call_json(jp)
     final["spoke_candidates"] = _rank_spokes(final.get("spoke_candidates", []))   # ranked; conductor caps to its top few
@@ -111,8 +119,11 @@ def run(run_dir, asset, angle):
     # render the Keywords section (matches the SAMPLE shape)
     pr = final.get("primary") or {}
     md = [f"**Primary:** `{pr.get('keyword','')}`",
-          f"- Volume: {pr.get('volume')}", f"- KD: {pr.get('kd')}", f"- Intent: {pr.get('intent','')}",
-          f"- Why: {pr.get('why','')}", ""]
+          f"- Volume: {pr.get('volume')}", f"- KD: {pr.get('kd')}", f"- Intent: {pr.get('intent','')}"]
+    if pr.get("split_world"):
+        md.append("- ⚠ Split-world phrase: part of this volume belongs to searchers in a different field "
+                  "— the SERP will be mixed (see 'why').")
+    md += [f"- Why: {pr.get('why','')}", ""]
     if final.get("variations"):
         md += ["**Variations** (rewords/synonyms of the primary — same intent; woven in-body, NO own section):", "",
                _kw_table(final["variations"]), ""]

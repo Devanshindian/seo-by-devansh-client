@@ -1,17 +1,40 @@
-You are grouping "cards" (small research ideas) into the sections of ONE article. Each card belongs to exactly
-ONE cluster. Group by MEANING: cards about the same subtopic go together, even when they come from different
-sources or use different words.
+You are grouping research "cards" into the sections of ONE article.
 
-You are given cards as "id: gloss" lines. Produce clusters that are:
-- COMPLETE — every card id is placed in exactly one cluster (do not leave any card out).
+THE ARTICLE
+- Title: {{ASSET}}
+- Distinct angle (what this article specifically does): {{ANGLE}}
+- The spine — what this article argues, for whom, and what the reader can do at the end:
+  {{SPINE}}
+- What this article IS about: {{ABOUT}}
+- What this article is NOT about: {{NOT_ABOUT}}
+
+Published by {{BRAND}}.
+
+WHO READS IT — the article will be read by one of these readers:
+{{PERSONAS}}
+
+The one it is written FOR: {{PERSONA}}
+
+────────────────────────────────────────────────────────────────────────
+You are given cards as "id: gloss" lines. Group them by MEANING: cards about the same sub-topic
+belong together, even when they came from different sources or use different words.
+
+THE RULES:
+- COMPLETE — every card id is placed in exactly one cluster. Leave none out.
 - NON-OVERLAPPING — no card id appears in two clusters.
-- COHERENT — each cluster is one clear subtopic that could be a section of the article.
+- COHERENT — each cluster is ONE clear sub-topic that could stand alone as a section a reader
+  could name.
+- ON-SPINE — each cluster advances, supports, or tests the spine above.
 
-Aim for a sensible number of clusters (roughly 8-18 for a large set); merge near-duplicate subtopics into one
-cluster. Mark `is_differentiator: true` when a cluster is mainly our unique angle or a gap competitors don't cover.
+HOW MANY: as many as the material honestly needs. There is no target number — do not aim for one.
+Every cluster must earn its place by passing all four rules above.
+
+MERGE NEAR-DUPLICATES. If two clusters would cover the same ground, they are one cluster. Several
+clusters circling the same idea in different wording is the most common mistake here — before you
+finish, read your own labels back and merge any that overlap.
 
 Output STRICT JSON, nothing else:
-{ "clusters": [ { "label": "<short subtopic label>", "card_ids": [1, 2, 3], "is_differentiator": false } ] }
+{ "clusters": [ { "label": "<short subtopic label>", "card_ids": [1, 2, 3] } ] }
 
 --- CARDS (id: gloss) ---
 {{CARDS}}

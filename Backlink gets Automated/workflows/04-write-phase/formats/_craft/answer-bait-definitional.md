@@ -1,19 +1,15 @@
-# answer-bait-definitional — craft rules (PARKED, nothing reads this yet)
-
-Moved out of `../answer-bait-definitional.md` on 2026-08-08.
+# answer-bait-definitional — wrap rules (read by the wrapper step)
 
 ## Intro
-- [ ] **A 40 to 60 word definition answer sits at the very top of the body, with nothing above it.** This format uniquely puts the answer even above the intro.
-- [ ] Note for whoever builds this: the reviewer asked for the answer to arrive sooner across ALL formats, not only this one. This bullet is the existing version of that idea, and it currently applies to one format out of eight.
+- A 40 to 60 word definition answer sits at the very top: the intro's FIRST sentences ARE the
+  answer, before any problem framing. This format uniquely puts the answer above everything.
 
-## Key-findings menu
-Nothing specific to this format.
+## TL;DR
+- The TL;DR must not restate the definition the intro just gave. Give the takeaways that follow
+  from it: what the reader should do differently now they know.
 
 ## Close and takeaways
-Nothing specific to this format yet.
+- Nothing specific to this format.
 
 ## FAQ
-- [ ] The body already ends on "related questions" (see the inverted-pyramid order in the body rules), so the FAQ must not repeat them.
-
-## Publishing
-Nothing specific to this format.
+- The body already ends on related questions, so the FAQ must not repeat them.

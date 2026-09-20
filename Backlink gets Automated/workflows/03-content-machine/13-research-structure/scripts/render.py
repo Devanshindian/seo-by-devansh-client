@@ -164,13 +164,11 @@ def build_html(doc):
     # TOC + main
     S.append('<div class="wrap"><nav class="toc">')
     for i, s in enumerate(doc["sections"]):
-        cls = " class='diff'" if s.get("is_differentiator") else ""
-        S.append(f"<a href='#s{i}'{cls}>{html.escape(s['h2'])}</a>")
+        S.append(f"<a href='#s{i}'>{html.escape(s['h2'])}</a>")
     S.append("<a href='#faq'>FAQ candidates</a><a href='#refs'>References</a></nav><main>")
 
     for i, s in enumerate(doc["sections"]):
-        badge = "<span class='badge'>differentiator</span>" if s.get("is_differentiator") else ""
-        S.append(f"<section id='s{i}'><h2>{html.escape(s['h2'])}{badge}{_kw_chip(s.get('target_keyword'))}</h2>")
+        S.append(f"<section id='s{i}'><h2>{html.escape(s['h2'])}{_kw_chip(s.get('target_keyword'))}</h2>")
         if s.get("evidence"):
             S.append(_evi_list(s["evidence"], refmap))
         for h in s.get("h3", []):

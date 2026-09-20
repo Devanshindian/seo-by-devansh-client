@@ -1,5 +1,5 @@
 """Step 1 — Coverage judge. One Prompt-1 call per brief item (whole dossier in each call).
-Reads:  coverage-items.json (from parse_brief) + the STORM polished dossier.
+Reads:  coverage-items.json (from checklist.py) + the STORM polished dossier.
 Writes: coverage-verdicts.json — [ {id, item, type, verdict, reason, evidence}, ... ]
 """
 import sys, json
@@ -10,13 +10,14 @@ TEMPLATE = llm.load_prompt("coverage-judge.md")
 
 
 def judge_item(item, meta, dossier):
-    ctx = f"context: {item['context']}" if item.get("context") else ""
     prompt = (TEMPLATE
               .replace("{{ASSET_TITLE}}", meta["asset_title"])
               .replace("{{DISTINCT_ANGLE}}", meta["distinct_angle"])
+              .replace("{{SPINE}}", meta.get("spine") or "(not available)")
+              .replace("{{ABOUT}}", meta.get("about") or "(not available)")
+              .replace("{{NOT_ABOUT}}", meta.get("not_about") or "(not available)")
               .replace("{{ITEM_TYPE}}", item["type"])
               .replace("{{ITEM_TEXT}}", item["item"])
-              .replace("{{ITEM_CONTEXT}}", ctx)
               .replace("{{DOSSIER_TEXT}}", dossier))
     v = llm.call_json(prompt)
     return {"id": item["id"], "type": item["type"], "item": item["item"],
@@ -37,7 +38,8 @@ def run(items_path, dossier_path, out_path):
             v = verdicts[n]
             print(f"  [{v['verdict']:8}] {v['type']:13} {v['item'][:60]}")
     config.write_json(out_path, {"asset_title": meta["asset_title"], "distinct_angle": meta["distinct_angle"],
-               "verdicts": verdicts})
+               "spine": meta.get("spine", ""), "about": meta.get("about", ""),
+               "not_about": meta.get("not_about", ""), "verdicts": verdicts})
     counts = {}
     for v in verdicts:
         counts[v["verdict"]] = counts.get(v["verdict"], 0) + 1

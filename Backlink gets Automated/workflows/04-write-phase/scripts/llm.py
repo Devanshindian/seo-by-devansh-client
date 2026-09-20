@@ -129,7 +129,10 @@ def _run_one(provider, prompt):
             try: os.remove(output)
             except OSError: pass
     if provider == "claude":
-        model = _cli_model()
+        # CLAUDE_MODEL (2026-09-05): a Claude-only override, so a run can pin e.g. claude-opus-5
+        # without that name leaking into the codex fallback (codex would reject it and the
+        # fallback would be dead exactly when it is needed).
+        model = os.environ.get("CLAUDE_MODEL", "") or _cli_model()
         # The prompt goes on STDIN, never as an argument. A write-phase prompt carries the article's cards
         # and runs to ~1.2 MB, past the OS argument limit (ARG_MAX = 1,048,576 on macOS), so passing it as
         # an argv entry raised "OSError [Errno 7] Argument list too long" — which surfaced as "claude

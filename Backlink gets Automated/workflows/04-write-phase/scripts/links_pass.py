@@ -848,6 +848,17 @@ def run(slug, redo=False):
 
 
 # ---------------------------------------------------------------- the review page
+def _gloss_of(r, cid):
+    """The claim behind a card id. Every other page shows the claim; this one showed "card 307"."""
+    try:
+        import assemble
+        g = (assemble._card_index(r.get("slug") or "") or {}).get(int(cid)) or {}
+        t = str(g.get("gloss") or "").strip()
+        return (t[:90].rsplit(" ", 1)[0] + "…") if len(t) > 90 else (t or f"card {cid}")
+    except Exception:
+        return f"card {cid}"
+
+
 def _render_review(slug, r, meta):
     E = _html.escape
     css = """
@@ -891,18 +902,25 @@ mark{background:#ffe9ad;color:#1c1a17;border-radius:3px;padding:0 3px}
             return ""
         bits = []
         if rr is not None:
-            bits.append(f"match {rr:.2f}")
+            bits.append(f"page match {rr:.2f}")
         if sim is not None:
-            bits.append(f"search {sim:.2f}")
+            bits.append(f"search match {sim:.2f}")
         weak = (rr if rr is not None else sim) < config.LINK_WEAK_SCORE
-        return (f'<span class="chip" style="{"color:var(--no);font-weight:600" if weak else ""}">'
+        return (f'<span class="chip" title="how well the linked page matches the sentence, 0 to 1"'
+                f' style="{"color:var(--no);font-weight:600" if weak else ""}">'
                 f'{E(" · ".join(bits))}{" — weak" if weak else ""}</span>')
 
     inline = [f'<div class="row"><mark>{E(p["anchor"])}</mark> → <a href="{E(p["url"])}">{E(p["url"])}</a>'
               f'<span class="chip">{E(str(p.get("section")))}</span>{_score_chip(p)}'
               f'<div class="m">{E(str(p.get("why") or ""))}</div></div>'
               for p in r["placed"] if p["kind"] == "inline"]
-    rm = [f'<div class="row">{E(p["line"])}<span class="chip">after: {E(p["after_section"])}</span>'
+    def _mdlink(t):
+        """The one page about links was the only page showing [text](url) instead of a link."""
+        return re.sub(r"\[([^\]]+)\]\((https?://[^\s)]+)\)",
+                      lambda m: f'<a href="{E(m.group(2))}" target="_blank" rel="noopener">{E(m.group(1))}</a>',
+                      E(t))
+
+    rm = [f'<div class="row">{_mdlink(p["line"])}<span class="chip">after: {E(p["after_section"])}</span>'
           f'<div class="m">{E(str(p.get("why") or ""))}</div>'
           + "".join(f'<div class="m">smoothed: “{E(list(a.values())[0]["old"])}” → “{E(list(a.values())[0]["new"])}”</div>'
                     for a in p.get("adjustments") or []) + "</div>"
@@ -923,6 +941,10 @@ mark{background:#ffe9ad;color:#1c1a17;border-radius:3px;padding:0 3px}
             f'<h1>The links pass</h1><p class="sub">{E(slug)}</p>'
             + _map("Links") + integ
             + _reads()
+            + '<p class="note">Each link carries two scores, both 0 to 1: <b>page match</b> is how '
+              'well the linked page fits the sentence it sits in, and <b>search match</b> is how close '
+              f'that sentence is to what the page ranks for. Anything under '
+              f'<b>{config.LINK_WEAK_SCORE}</b> is marked weak.</p>'
             + sec("Internal links laid into the text", inline, "none placed")
             + sec("Read-more pointers", rm, "none — nothing qualified (the normal outcome)")
             + sec(f'External sources kept ({len(r["external_kept"])} of the citations become visible links)',
@@ -930,11 +952,12 @@ mark{background:#ffe9ad;color:#1c1a17;border-radius:3px;padding:0 3px}
             + ((f'<h2>Sources marked too often</h2>'
                 f'<p class="q">{len(r["citations_thinned"])} source(s) were marked more than '
                 f'{r["citation_cap"]} times. A reader needs to know where a figure came from; they do '
-                f'not need telling twenty times. An AI judge picked the places each one is doing real '
+                f'not need it on every sentence that leans on it. An AI judge picked the places each one is doing real '
                 f'work, spread across the article, and the rest read as prose. Nothing was deleted: '
                 f'every source tag is still in the working files, and the Sources list is unchanged.</p>'
                 + '<div class="panel">'
-                + "".join(f'<div class="row"><span class="t">card {c["card"]}</span>'
+                + "".join(f'<div class="row"><span class="t">{E(_gloss_of(r, c["card"]))}'
+                          f'<span class="chip">c{c["card"]}</span></span>'
                           f'<div>kept in {c["kept"]} place(s)</div></div>'
                           for c in r["citations_thinned"]) + "</div>")
                if r.get("citations_thinned") else "")

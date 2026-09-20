@@ -36,7 +36,7 @@ def run(sections, cards):
         # section-level rollup (union across the H2's own cards + its H3s)
         all_int = list(dict.fromkeys(itn + [u for h in h3s for u in h["internal_links"]]))
         all_ext = list(dict.fromkeys(ext + [u for h in h3s for u in h["external_links"]]))
-        out.append({"h2": s["h2"], "is_differentiator": s["is_differentiator"],
+        out.append({"h2": s["h2"],
                     "target_keyword": None,          # filled by Step 6
                     "evidence": ev, "internal_links": all_int, "external_links": all_ext,
                     "h3": h3s})

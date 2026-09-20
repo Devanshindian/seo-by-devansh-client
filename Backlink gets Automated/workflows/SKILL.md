@@ -1,6 +1,6 @@
 ---
 name: seo-foundation
-description: The backlink machine for any company. Four layers, numbered in run order. 00-foundation - the site-catalogue engine catalogues every page + its search traffic in one command. 01-brand-context - the one-time builders that learn how the company writes + what it sells. 02-asset-engine - build a free asset other sites link to. 03-content-machine - research each chosen topic into a write-ready bundle (the /research pipeline, once per topic). Layers 00-02 run once per company, in order; 03 then runs per topic. All outputs land under projects/<company>/.
+description: The backlink machine for any company. Four layers, numbered in run order. 00-foundation - the site-catalogue engine catalogues every page + its search traffic in one command. 01-brand-context - the one-time builders that learn how the company writes + what it sells. 02-asset-engine - build a free asset other sites link to. 03-content-machine - research each chosen topic into a write-ready bundle (the /research pipeline, once per topic). 04-write-phase - turn that bundle into a finished article (planner, architect, writer). Layers 00-02 run once per company, in order; 03 and 04 then run per topic. All outputs land under projects/<company>/.
 ---
 
 # Backlink Machine
@@ -14,6 +14,7 @@ the number of a folder IS its stage:
 | **01-brand-context** | learn how the company TALKS + what it SELLS — the builder files every later step reads | once per company |
 | **02-asset-engine** | build one genuinely useful **free asset** other sites *choose* to link to, then funnel that authority to the money pages | once per company |
 | **03-content-machine** | research each chosen topic into a **write-ready bundle** | once per **topic** |
+| **04-write-phase** | turn one bundle into one finished article: plan it, shape it, write it, check it | once per **topic** |
 
 **One-time vs per-topic:** layers 00-02 are built **once per company**. After that, every new article just
 runs the research pipeline (`/research`) on the next topic — you never redo the foundation or the builders.
@@ -78,15 +79,20 @@ COMPANY=<slug> python3 scripts/<the command below>
 | 4 | Worked examples | `run_writing_examples.py` | `writing-examples.md` | review the diff |
 | 5 | Reader persona | `run_persona.py` | `persona.md` | recipe Step 3: edit/approve the personas |
 | 6 | Author voices | `instantiate.py` | `voices.md` (questionnaire) | **fill it with the team** — real people only, never machine-drafted |
+| 7 | Writer brief | `run_writer_brief.py` | `writer-brief.md` | review the diff. Boils the whole brand pack down to the one file the writer reads: 26,605 words to 1,660 |
+| 8 | Brand cards | `run_brand_cards.py` | `brand-cards.json` | the company's own research and customer results, turned into cards the architect can place |
+| 9 | Field sources | `run_field_sources.py` | `field-sources.md` | review the subreddit list. Finds and CHECKS where this company's audience actually argues |
 
 **Order matters:** 0 and 1 first — brand-voice is the yardstick builders 2-5 read. Builder 6 is a
-questionnaire the machine never answers.
+questionnaire the machine never answers. Builders 7-9 run LAST: 7 reads what 1, 2 and 6 produced,
+8 reads what 0 produced, and 9 checks its findings against Reddit before writing them down.
 
 **Deep recipes** (what each builder actually does, its schema and its rules) live beside each command:
 `0-brand-facts/0-brand-facts-plan.md` · `1-brand-voice/brand-voice.workflow.md` ·
 `2-style-guide/style-guide.workflow.md` · `3-features/features.workflow.md` ·
 `4-writing-examples/writing-examples.workflow.md` · `5-persona/persona.workflow.md` ·
-`6-voices/voices.workflow.md`
+`6-voices/voices.workflow.md` · `7-writer-brief/writer-brief.workflow.md` ·
+`8-brand-cards/brand-cards.workflow.md` · `9-field-sources/field-sources.workflow.md`
 
 **Write-time rules are NOT builders** — the SEO/AEO/GEO checklist, the writing-integrity contract and the
 avoid-AI-writing check are static rule files that ride into each research bundle. They live with the

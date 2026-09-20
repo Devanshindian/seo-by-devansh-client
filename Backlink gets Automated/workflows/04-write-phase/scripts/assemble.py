@@ -165,11 +165,12 @@ def _md(w, idx, cov):
     def render():
         seen_count.clear()          # render() runs twice on the uncurated fallback; counts restart
         L = [f"# {w.get('h1')}", "", refs(w.get("intro") or ""), ""]
-        # The Quick answer sits between the intro and the first section (2026-08-22): a reader who
+        # The TL;DR (was "Quick answer" until 2026-09-05 — Testlify house style is a takeaway
+        # list, not a mini-article) sits between the intro and the first section: a reader who
         # reads only this still gets the article. It carries no source tags of its own — everything
         # in it is already proved below — so it goes through refs() only to stay consistent.
         if w.get("quick_answer"):
-            L += ["## Quick answer", "", refs(w["quick_answer"]), ""]
+            L += ["## TL;DR", "", refs(w["quick_answer"]), ""]
         bare = 0
         for s in w["sections"]:
             body = refs(s["prose"])

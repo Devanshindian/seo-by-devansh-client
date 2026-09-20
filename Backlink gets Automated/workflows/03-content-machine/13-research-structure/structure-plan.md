@@ -6,6 +6,11 @@ produces: out/<slug>/ — persona.json + cards.json + dropped-cards.json + clust
 last_updated: 2026-07-14
 ---
 
+> **2026-08-04:** Step 6 (`keywords.py` — per-H2 DataForSEO keywords) and the AI keyword
+> re-extraction (`keyword-set.md`) are REMOVED — `keyword_set.py` now reads `03-final.json`
+> directly (pure code, no `h2_keywords` in the set; per-section keywords are the architect's job).
+> Where this doc's step list disagrees with `build_structure.py`, the code is the source of truth.
+
 # Structure plan — turn all the research into the article's blueprint
 
 ## What this does

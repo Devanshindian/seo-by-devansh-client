@@ -1,9 +1,9 @@
 ---
 type: plan (working; validated on recruiting-metrics + onboarding-metrics topics)
 stage: content-machine — research (produces the EVIDENCE DOSSIER the /write phase draws from, alongside the DataForSEO brief)
-reads: an asset topic (title + distinct angle, from clubbed-ideas.csv); DataForSEO creds (from storm/.env — DFS_LOGIN / DFS_PW; master copy in ~/.testlify-access.md)
-produces: one dossier per run under out/<topic-slug>/ — storm_gen_article_polished.txt (densely-cited research), plus the full research pool (raw_search_results.json), the interviews (conversation_log.json), the outline, the call log, and a viewable article.html (the dossier rendered with clickable citations).
-last_updated: 2026-07-14
+reads: an asset topic (title + distinct angle, from clubbed-ideas.csv); the ARTICLE BRIEF (spine.json — title/angle/spine/about/not-about, built by the conductor's Step 2a and passed via --spine-file); DataForSEO creds (from storm/.env — DFS_LOGIN / DFS_PW; master copy in ~/.testlify-access.md)
+produces: one dossier per run under out/<slug>/ (folder named by the pipeline slug via --folder; bare runs fall back to a topic-derived name) — storm_gen_article_polished.txt (densely-cited research), plus the full research pool (raw_search_results.json), the interviews (conversation_log.json), the outline, the call log, and a viewable article.html (the dossier rendered with clickable citations).
+last_updated: 2026-08-03
 ---
 
 # STORM plan — asset topic → densely-cited evidence dossier
@@ -69,7 +69,7 @@ below is another view of it):
 | 2 Interviews (research) | `conversation_log.json` (every Q&A + its sources), `raw_search_results.json` (**the full research pool** — all scraped chunks) |
 | 3 Outline | `direct_gen_outline.txt` (first pass), `storm_gen_outline.txt` (refined) |
 | 4 Write sections | `storm_gen_article.txt` (drafted dossier, pre-polish), `url_to_info.json` (the article's cited-source map) |
-| 5 Polish | **`storm_gen_article_polished.txt`** (THE dossier `/write` receives) |
+| 5 Polish | **`storm_gen_article_polished.txt`** — human-readable only. It RENUMBERS the `[n]` markers, so card-building reads `storm_gen_article.txt` instead (see the warning below). |
 | end (auto, after Step 5) | `run_config.json` (the knobs used), `llm_call_history.jsonl` (every LLM call) |
 | 6 Step log | `STEP-LOG.md` |
 | 7 Preview (viewable) | `article.html` (the dossier rendered with clickable citations + references) |
@@ -164,7 +164,7 @@ re-scraping — it writes only from the pool.
 Add a 4-paragraph lead/summary and finalize. `remove_duplicate` is **off**, so the body passes through unchanged
 (no truncation) and only the lead is generated.
 - **Files:** `engine/knowledge_storm/storm_wiki/modules/article_polish.py`.
-- **Output:** **`storm_gen_article_polished.txt`** — the dossier `/write` receives.
+- **Output:** **`storm_gen_article_polished.txt`** — a human-readable copy only. **Card-building reads the PRE-POLISH `storm_gen_article.txt`**: the polish call scrambles the `[n]` markers (measured 2026-08-01: cited source correct 78-88% pre-polish vs 1-6% post-polish). Content is identical apart from the polish-written `# summary` lead.
 - **Gotcha:** with dedup off there is **no total-length cap** — the dossier = sum of all sections. The polish token cap only bites if dedup is ever turned on.
 
 ### After Step 5 — automatic wrap-up  (no action needed)
@@ -180,7 +180,7 @@ Render a human-readable trace of every LLM call, labelled by what STORM was doin
 - **Gotcha:** the labeller is heuristic — good enough to audit the run, not exact.
 
 ### Step 7 — Render a viewable version  (the preview)
-**Input:** the finished dossier (`storm_gen_article_polished.txt`) + the cited-source map (`url_to_info.json`), both under `out/<topic-slug>/`.
+**Input:** the dossier + the cited-source map (`url_to_info.json`), both under `out/<topic-slug>/`. Card-building uses `storm_gen_article.txt` (pre-polish, correct `[n]` markers); `storm_gen_article_polished.txt` is for human reading only.
 
 **Process:** `preview/view-article.py` reads both and renders one self-contained HTML. It reuses STORM's own citation mapping (`url_to_unified_index` → `[n]` → source URL) to make every citation clickable, builds a numbered References list from each source's title + URL, and adds a table-of-contents sidebar. It's a pure read-only viewer — it never touches the pipeline.
 

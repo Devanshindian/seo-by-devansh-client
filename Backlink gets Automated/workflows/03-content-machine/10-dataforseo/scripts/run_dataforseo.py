@@ -7,12 +7,12 @@ script/run() in order and hands outputs forward. No business logic lives here.
 --asset is a substring that UNIQUELY matches the Asset column in clubbed-ideas.csv (Step 0 reads the row).
 --slug names the output dir: config.OUT/<slug>/ (proof/ + research-doc-<slug>.md + research-notes.md).
 Resumable: each step writes a named file; on re-run an existing one is reused. --redo forces a full rerun;
---from <step> reruns from that step onward (0,1,2,3,4,5,6,7).
+--from <step> reruns from that step onward (0,1,2,3,4,5,7 — 6/AEO was removed 2026-08-04: nothing consumed it).
 """
 import os, sys, json, argparse, subprocess
-import config, dfs, s0_seeds, s3_score, s4b_snapshot, s5b_winners, s6_flow, s7_assemble
+import config, dfs, s0_seeds, s3_score, s4b_snapshot, s5b_winners, s7_assemble
 
-ORDER = ["0", "1", "2", "3", "4", "5", "6", "7"]
+ORDER = ["0", "1", "2", "3", "4", "5", "7"]   # "6" (AEO) removed — zero consumers
 
 
 def _credit_preflight():
@@ -46,10 +46,12 @@ def main():
     ap.add_argument("--hub", default="", help="hub slug — nest a spoke's output under its pillar: config.OUT/<hub>/<slug>/ (empty = flat, for hubs)")
     ap.add_argument("--asset", required=True, help="hub: substring matching the clubbed Asset · spoke: the full title")
     ap.add_argument("--angle", default=None, help="spoke/direct mode: pass the angle so Step 0 skips the clubbed lookup")
+    ap.add_argument("--world-file", dest="world_file", default=None,
+                    help="path to spine.json holding the world statement (about/not_about) — threaded into seeds, scorer, judge and the SERP snapshot")
     ap.add_argument("--redo", action="store_true", help="ignore cached outputs; rerun everything")
     ap.add_argument("--from", dest="frm", default=None, choices=ORDER,
                     help="force-rerun from this step onward (default: resume — reuse every cached output)")
-    ap.add_argument("--provider", choices=["claude", "codex"], default=None,
+    ap.add_argument("--provider", choices=["claude", "codex", "deepseek"], default=None,
                     help="headless LLM provider for the judgment steps (default: env LLM_PROVIDER, else claude)")
     ap.add_argument("--model", default=None, help="model for the chosen provider (blank = that CLI's default)")
     a = ap.parse_args()
@@ -60,6 +62,15 @@ def main():
 
     run_dir = os.path.join(config.OUT, a.hub, a.slug); proof = os.path.join(run_dir, "proof")   # a.hub="" → flat OUT/<slug>
     os.makedirs(proof, exist_ok=True)
+    # THE WORLD STATEMENT (2026-08-04) — about/not_about from the conductor's Step 0b (spine.json). Optional:
+    # a standalone run without it just fills the prompts' world slots with "(not available)".
+    world = {}
+    if a.world_file and os.path.exists(a.world_file):
+        try:
+            _w = json.load(open(a.world_file))
+            world = {"about": (_w.get("about") or "").strip(), "not_about": (_w.get("not_about") or "").strip()}
+        except Exception as e:
+            print(f"   ! world file unreadable ({e}) — continuing without it")
     _credit_preflight()               # stop before spending if the balance is below the buffer
     start = ORDER.index(a.frm) if a.frm is not None else None
 
@@ -72,7 +83,7 @@ def main():
     # ---- Step 0: anchors + seeds ------------------------------------------------
     print("== Step 0: anchors + seeds ==")
     if do("0") or not have("00-anchors.json"):
-        anc = s0_seeds.run(run_dir, asset=a.asset, angle=a.angle) if a.angle else s0_seeds.run(run_dir, asset_match=a.asset)
+        anc = (s0_seeds.run(run_dir, asset=a.asset, angle=a.angle, world=world) if a.angle else s0_seeds.run(run_dir, asset_match=a.asset, world=world))
     else:
         anc = json.load(open(os.path.join(proof, "00-anchors.json"))); print("    · cached")
     asset, angle = anc["asset"], anc["angle"]
@@ -102,7 +113,7 @@ def main():
     if do("3") or not have("03-final.json"):
         _sh("s3_metrics.py", run_dir)
         try:
-            final = s3_score.run(run_dir, asset, angle)
+            final = s3_score.run(run_dir, asset, angle, world=world, hygiene=anc.get("hygiene", ""))
         except s3_score.NoViableKeywords as e:
             # DEFINED no-keyword-demand outcome (editorial/niche topic). Exit 3 = a SPECIFIC signal the conductor
             # recognises and handles by skipping this topic gracefully (never a crash / retry). [fallback 2026-07-23]
@@ -120,7 +131,7 @@ def main():
     print(f"== Step 4: SERP on '{primary}' + snapshot ==")
     if do("4") or not have("04-pages-to-read.txt"):
         _sh("s4_serp.py", run_dir, primary)
-        s4b_snapshot.run(run_dir, asset, angle, primary)
+        s4b_snapshot.run(run_dir, asset, angle, primary, world=world)
     else:
         print("    · cached")
 
@@ -129,13 +140,6 @@ def main():
     if do("5") or not have("05-winners.md"):
         _sh("s5_pages.py", run_dir)
         s5b_winners.run(run_dir, angle, primary)
-    else:
-        print("    · cached")
-
-    # ---- Step 6: AEO loop (query gate -> fetch -> writeup) ----------------------
-    print("== Step 6: AEO (llm_mentions) ==")
-    if do("6") or not have("06-aeo.md"):
-        s6_flow.run(run_dir, primary, angle)
     else:
         print("    · cached")
 

@@ -1,9 +1,12 @@
-"""The LLM caller: run a prompt through a headless CLI — Claude Code or Codex (set config.LLM_PROVIDER;
-default claude). No API key, no shim. Parallel calls are our "subagents" (the Step-3 scorer panel). Two entry points:
+"""The LLM caller: run a prompt through a headless CLI (Claude Code or Codex) OR direct API (DeepSeek) —
+set config.LLM_PROVIDER to 'claude' / 'codex' / 'deepseek'; default claude. Two entry points:
   - call_json(prompt): for DATA steps — returns parsed JSON, retries once on a parse failure.
   - call_text(prompt): for PROSE steps (write-ups / assembly) — returns the raw text.
+DeepSeek needs DEEPSEEK_API_KEY (real env var, or read straight from the canonical repo .env — same
+credential chain as dfs.py, C6). DEEPSEEK_MODEL picks the tier (default 'deepseek-chat' = cheap v4-flash;
+set DEEPSEEK_MODEL=deepseek-v4-pro for the top model). No shim, no CLI — one direct HTTPS call.
 """
-import json, os, subprocess, tempfile
+import json, os, subprocess, tempfile, urllib.request, urllib.error
 import os, sys, time
 import config
 
@@ -67,8 +70,48 @@ def _sleep_backoff(attempt, why):
     time.sleep(delay)
 
 
+def _load_deepseek_key():
+    """DEEPSEEK_API_KEY: real env var wins; else read it straight from the canonical repo .env —
+    mirrors dfs.py's _load_env (C6), so it works whether or not the shell already sourced .env."""
+    key = os.environ.get("DEEPSEEK_API_KEY")
+    if key:
+        return key
+    _here = os.path.dirname(os.path.abspath(__file__))
+    _repo_env = os.path.normpath(os.path.join(_here, "..", "..", "..", "..", ".env"))
+    for p in (os.path.join(_here, ".env"), _repo_env):
+        if os.path.exists(p):
+            for line in open(p):
+                line = line.strip()
+                if line.startswith("DEEPSEEK_API_KEY="):
+                    v = line.split("=", 1)[1].strip()
+                    if v:
+                        return v
+    return None
+
+
+def _run_deepseek(prompt):
+    """Direct HTTPS call to DeepSeek's API — no CLI, no shim."""
+    key = _load_deepseek_key()
+    if not key:
+        raise RuntimeError("no DEEPSEEK_API_KEY — set it in the canonical 'Backlink gets Automated/.env'")
+    model = config.LLM_MODEL or os.environ.get("DEEPSEEK_MODEL", "deepseek-chat")
+    body = json.dumps({"model": model, "messages": [{"role": "user", "content": prompt}]}).encode()
+    req = urllib.request.Request("https://api.deepseek.com/chat/completions", data=body,
+                                  headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=config.CLAUDE_TIMEOUT) as r:
+            out = json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        raise _TransientCLIError(f"deepseek HTTP {e.code}: {e.read()[:300].decode('utf-8', 'ignore')}")
+    except urllib.error.URLError as e:
+        raise _TransientCLIError(f"deepseek network error: {str(e)[:200]}")
+    return out["choices"][0]["message"]["content"]
+
+
 def _run(prompt):
     provider = config.LLM_PROVIDER
+    if provider == "deepseek":
+        return _run_deepseek(prompt)
     if provider == "codex":
         with tempfile.NamedTemporaryFile(suffix=".txt", delete=False) as f:
             output = f.name
@@ -86,7 +129,7 @@ def _run(prompt):
             try: os.remove(output)
             except OSError: pass
     if provider != "claude":
-        raise ValueError("LLM_PROVIDER must be 'claude' or 'codex'")
+        raise ValueError("LLM_PROVIDER must be 'claude', 'codex', or 'deepseek'")
     cmd = [config.CLAUDE_BIN, "-p"] + (["--model", config.LLM_MODEL] if config.LLM_MODEL else []) + [prompt]
     r = subprocess.run(cmd, capture_output=True, text=True, timeout=config.CLAUDE_TIMEOUT)
     if r.returncode != 0:

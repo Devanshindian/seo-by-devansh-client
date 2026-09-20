@@ -1,18 +1,16 @@
-# how-to-guide — craft rules (PARKED, nothing reads this yet)
-
-Nothing has been moved here yet. This format's body rules carried no wrapper instructions.
+# how-to-guide — wrap rules (read by the wrapper step)
 
 ## Intro
-Nothing specific to this format yet.
+- Name the outcome and the reader's starting point in the first two sentences: what they will
+  have done by the end, and what they need before step one.
 
-## Key-findings menu
-Nothing specific to this format.
+## TL;DR
+- The steps in miniature: one line per major stage, each starting with a verb. A reader who reads
+  only this block should know the shape of the work.
 
 ## Close and takeaways
-Nothing specific to this format yet.
+- Close on the first step to take today, not a recap of the method.
 
 ## FAQ
-Nothing specific to this format yet.
-
-## Publishing
-Nothing specific to this format.
+- Questions about edge cases in the steps ("what if X fails at step 3") beat questions
+  re-defining the task.

@@ -138,7 +138,7 @@
     <a href="#nets">The two nets</a>
     <a href="#panel">The scoring panel</a>
     <a href="#serp">Reading the SERP</a>
-    <a href="#aeo">The AI-answer check</a>
+    <a href="#world">The world check</a>
     <a href="#safety">Crash-safety</a>
     <a href="#output">The brief</a>
   </div>
@@ -189,9 +189,12 @@
       or buy (commercial). We keep informational + commercial, drop the rest.</div>
     <div class="define"><b>SERP</b> — the Search Engine Results Page: the actual Google page for a query. Reading it
       tells us who ranks, whether there's a featured snippet, an AI Overview, and the "People also ask" questions.</div>
-    <div class="define"><b>AI Overview / AEO</b> — the AI-written answer box Google now shows above the results, and
-      the answers AI assistants give. <b>AEO</b> = Answer Engine Optimization: getting <i>cited</i> in those answers.
-      We check whether Testlify is cited (if not, that's a gap we can go win).</div>
+    <div class="define"><b>AI Overview</b> — the AI-written answer box Google now shows above the results. Reading the
+      live results tells us whether one appears for this query and whether we are cited in it. If not, that is a gap
+      worth going after.</div>
+    <div class="define"><b>The world</b> — two lines, <b>about</b> and <b>not about</b>, written before this engine
+      runs. They mark the boundary of the subject, so a phrase whose searchers live in a different field can be
+      recognised and dropped rather than researched.</div>
     <div class="define"><b>Word band</b> — the target length for the article, written as a range (e.g.
       <b>3,000–4,000 words</b>). Step 7 sets it from <b>how long the winning competitor pages actually are</b>. Because
       it's read off <i>this</i> keyword's live results, it's the <b>authoritative word target downstream</b> — the
@@ -344,12 +347,6 @@
         pass distils the common sections, the confirmed format, and — the important part — the <b>gaps we can own</b>.</p>
         <div class="files"><span class="k">scripts</span><span class="file">s5_pages.py</span><span class="file">s5b_winners.py</span><span class="k">saves</span><span class="file">05-pages.json</span><span class="file">05-winners.md</span></div></div></div>
 
-      <div class="step"><div class="dot">6</div><div class="step-body">
-        <h3>The AI-answer check <span class="pill paid">paid</span> <span class="pill">+ AI</span></h3>
-        <p>Ask what AI assistants answer for the topic and who they cite — gated by AI on both sides so an ambiguous
-        word can't drag in the wrong meaning (§08). May legitimately return "no usable signal."</p>
-        <div class="files"><span class="k">scripts</span><span class="file">s6_aeo.py</span><span class="file">s6_flow.py</span><span class="k">saves</span><span class="file">06-aeo.json</span><span class="file">06-aeo.md</span></div></div></div>
-
       <div class="step"><div class="dot">7</div><div class="step-body">
         <h3>Assemble the brief <span class="pill free">free</span> <span class="pill">+ AI</span></h3>
         <p>Lift each step's section file into one reader-first brief (matching the gold-standard sample), then the AI
@@ -361,7 +358,7 @@
 
     <div class="note"><span class="tag">Why the chain matters</span><br>
     Each step's output is a named file the next step reads: <span class="file">seeds → pool → shortlist → keywords →
-    SERP → winners → AEO → brief</span>. That's what makes it resumable — if it stops after Step 4, re-running picks
+    SERP → winners → brief</span>. That's what makes it resumable — if it stops after Step 4, re-running picks
     up at Step 5 and never repeats the paid calls it already made.</div>
   </div>
 </section>
@@ -464,7 +461,7 @@
     <ul>
       <li>Pool of <b>16 keywords</b> after filtering; the highest monthly volume was <b>70</b>.</li>
       <li>Our floor is <b>100</b>, so <b>0</b> keywords qualified — proven twice, across two independent pulls (deterministic, not a fluke); the broader neighbours were all off-angle.</li>
-      <li>→ 0 candidates reach the scorer → <span class="file">NoViableKeywords</span> → <b>exit 3</b> → the conductor skips the topic gracefully. No paid SERP/AEO spend on a dead topic.</li>
+      <li>→ 0 candidates reach the scorer → <span class="file">NoViableKeywords</span> → <b>exit 3</b> → the conductor skips the topic gracefully. No paid search spend on a dead topic.</li>
     </ul></div>
   </div>
 </section>
@@ -495,42 +492,59 @@
     then distils the <b>common sections</b> the field tends to cover, the <b>confirmed format</b>, and the
     <b>gaps we can own</b> — the sub-topics winners treat thinly, which is where our angle lives.</p>
 
-    <div class="note orange"><span class="tag">"Cited by AI?" shows up twice — on purpose</span><br>
-    The SERP snapshot reports whether Testlify is cited in <b>Google's AI Overview</b> (Step 4). The AI-answer check
-    (Step 6) reports whether Testlify is cited by <b>AI assistants</b> (a different surface). Two separate places AI
-    answers questions, both worth knowing — each is labelled so the reader isn't confused.</div>
+    <div class="note orange"><span class="tag">Where "cited by AI" is answered</span><br>
+    In one place: the SERP snapshot (Step 4), which reports whether we appear in <b>Google's AI Overview</b> for this
+    query. A second check that asked AI assistants the same thing was removed. Its endpoint took only a keyword and
+    sorted by popularity, so on any word two industries share it returned the bigger industry's answer, and it needed
+    an AI gate on each side to be trusted at all. The world check now does that job properly, upstream, for the whole
+    run.</div>
   </div>
 </section>
 
-<!-- AEO -->
-<section id="aeo" style="background:var(--cream);">
+<!-- THE WORLD -->
+<section id="world" style="background:var(--cream);">
   <div class="wrap">
-    <h2><span class="num">08</span>Step 6 — the AI-answer check, gated on both sides</h2>
-    <p class="sub">The API endpoint for this (<span class="file">llm_mentions</span>) takes only a keyword and sorts
-    by popularity. So an ambiguous word — "recruiting" means HR to us, college sports to the world — returns the
-    <i>biggest</i> meaning, not ours. We wrap the call with an AI gate on each side.</p>
+    <h2><span class="num">08</span>The world check — the boundary that runs through every step</h2>
+    <p class="sub">The single biggest failure this engine can have is picking a keyword whose searchers live in a
+    different field. Everything downstream is aimed at that one phrase: the live search results, the pages we read, the
+    gaps we chase, the whole dossier. Get it wrong and every later step is diligently researching the wrong article.</p>
 
-    <div class="flow">
-      <div class="step"><div class="dot" style="background:var(--yellow-soft);">A</div><div class="step-body">
-        <h3>Gate in — pick a query that can't drift</h3>
-        <p>Before the call, an AI picks a disambiguated query (e.g. "recruiting metrics" instead of bare
-        "recruiting"). After ~3 failed attempts it gives up cleanly rather than force a bad pull. Driven by
-        <span class="file">s6_flow.py</span>.</p></div></div>
+    <div class="note orange"><span class="tag">Where the world comes from</span><br>
+    Two lines, <b>about</b> and <b>not about</b>, written by the conductor <b>before this engine runs</b>, from the
+    article's title, its angle and the brand — no search data involved. They arrive here as a file path
+    (<span class="file">--world-file</span>) and are threaded into four prompts. A standalone run without the file
+    simply fills those slots with "(not available for this run)" and still works.</div>
 
-      <div class="step"><div class="dot" style="background:var(--orange-soft); border-color:var(--orange);">B</div><div class="step-body">
-        <h3>The call <span class="pill paid">paid</span></h3>
-        <p><span class="file">s6_aeo.py</span> asks the API what AI answers for that query, which domains it cites,
-        and whether Testlify is among them (a GEO gap if not), plus the sub-questions AI splits the topic into.</p></div></div>
+    <h3>Why a shared word is so dangerous here</h3>
+    <p>The keyword tools match on the phrase, not on the audience behind it. A word two industries share returns the
+    <b>bigger</b> industry's volume, which then looks like the more attractive keyword — so the failure is not random,
+    it is biased towards picking the wrong one.</p>
 
-      <div class="step"><div class="dot">C</div><div class="step-body">
-        <h3>Gate out — is this actually our topic?</h3>
-        <p>After the call, an AI judges the results against the topic. Off-topic drift is reported honestly as
-        <b>"no usable signal"</b> — the step stands alone and never borrows from another step to look fuller than it is.</p></div></div>
-    </div>
+    <table>
+      <tr><th>Step</th><th>What the world does there</th></tr>
+      <tr><td><b>0 · seeds</b> <span class="file">seeds.md</span></td>
+        <td>Stops a seed phrase from being drawn from the wrong field in the first place. The cheapest place to catch
+          it, because nothing has been bought yet.</td></tr>
+      <tr><td><b>3 · scoring panel</b> <span class="file">score-keywords.md</span></td>
+        <td>Every candidate is checked against the NOT ABOUT list, and gets a <span class="file">split_world</span>
+          flag when the same phrase is searched by people in a different field:
+          <ul>
+            <li>A flagged keyword's volume is only <b>partly</b> ours, so the headline number overstates it.</li>
+            <li>Where two candidates are close, the unambiguous one wins.</li>
+            <li>A keyword belonging to a NOT ABOUT world is scored "drop", whatever its numbers.</li>
+          </ul></td></tr>
+      <tr><td><b>3 · the judge</b> <span class="file">judge-keywords.md</span></td>
+        <td>Runs the world check <b>first</b>, before anything else, because this call decides what the whole run
+          researches. It may never place a NOT ABOUT keyword in any role except "drop", and a spoke must sit in the
+          same world as its pillar.</td></tr>
+      <tr><td><b>4b · SERP snapshot</b> <span class="file">serp-snapshot.md</span></td>
+        <td>Reading the live results, anything belonging to a NOT ABOUT world counts as off-angle even when it uses our
+          exact words.</td></tr>
+    </table>
 
-    <div class="note"><span class="tag">A null result is a real result</span><br>
-    On many B2B topics this step legitimately finds no clean AI-answer signal. That's recorded as-is and carried into
-    the brief untouched — never backfilled or faked. Honesty over a tidy-looking output.</div>
+    <div class="note"><span class="tag">Decided once, read many times</span><br>
+    Nothing in this engine writes the world; every step only reads it. That is deliberate. A boundary that four
+    different steps could each redefine is not a boundary.</div>
   </div>
 </section>
 
@@ -579,12 +593,11 @@
       <tr><td><b>Keywords</b></td><td>Primary + variations + secondaries (as a table) + in-body-only notes + spokes pointer.</td><td>Step 3 <span class="file">03-keywords.md</span></td></tr>
       <tr><td><b>SERP snapshot</b></td><td>Who ranks · featured snippet · AI Overview · PAA / related (on/off-angle).</td><td>Step 4 <span class="file">04-serp-snapshot.md</span></td></tr>
       <tr><td><b>What winners cover</b></td><td>Confirmed format · depth · common sections · <b>gaps we can own</b>.</td><td>Step 5 <span class="file">05-winners.md</span></td></tr>
-      <tr><td><b>AI answer landscape</b></td><td>Usable, or "no usable signal" — plus who AI cites.</td><td>Step 6 <span class="file">06-aeo.md</span></td></tr>
       <tr><td><b>Build spec</b></td><td>
         <ul>
           <li><b>Word band</b> — set from the winners' real page lengths; the <b>authoritative</b> length target downstream (the writer's bundle uses it over the asset engine's cluster-wide estimate).</li>
           <li>Structure rules · snippet target · primary sources to cite · close rule.</li>
-        </ul></td><td>the SEO/AEO/GEO checklist + the winners</td></tr>
+        </ul></td><td>the SEO checklist + the winners</td></tr>
       <tr><td><b>Proof map</b></td><td>A footer table linking every section back to its saved proof file.</td><td>all steps</td></tr>
     </table>
 
