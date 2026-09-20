@@ -31,3 +31,7 @@ llm_call_history.jsonl
 
 # codex config carries an MCP auth header
 .codex/
+
+# published-page clones (nested git repos)
+_pages-repo/
+.repo-name

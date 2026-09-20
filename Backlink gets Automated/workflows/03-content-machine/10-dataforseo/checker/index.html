@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>DataForSEO Quality Check</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23ffb703'/%3E%3Ctext x='16' y='23' font-size='19' text-anchor='middle' font-family='system-ui'%3E%F0%9F%94%8E%3C/text%3E%3C/svg%3E">
+<style>
+  :root{
+    --ink:#1c1a17; --muted:#6b6459; --line:#efe7d8;
+    --paper:#ffffff; --cream:#fffdf8; --wash:#fff8ec;
+    --yellow:#ffb703; --yellow-soft:#ffe9ad; --orange:#fb7a00; --orange-soft:#ffd9b0;
+    --green:#e8f5ec; --green-line:#cfe8d5; --green-ink:#2e7d43;
+    --red:#fdf3f0; --red-line:#f6d9cf; --red-ink:#c2603a;
+    --blue:#eef4fb; --blue-line:#d3e2f2; --blue-ink:#2f6fb0;
+    --shadow:0 1px 2px rgba(28,26,23,.04), 0 8px 24px rgba(28,26,23,.05);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:16.5px; -webkit-font-smoothing:antialiased;}
+  a{color:var(--orange);}
+  .wrap{max-width:1040px; margin:0 auto; padding:0 24px;}
+
+  header{background:linear-gradient(180deg,var(--wash),var(--paper)); border-bottom:1px solid var(--line); padding:56px 0 38px;}
+  .kicker{display:inline-block; font-size:12.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--orange); background:var(--paper); border:1px solid var(--orange-soft); padding:5px 12px; border-radius:100px; margin-bottom:18px;}
+  h1{font-size:clamp(29px,5vw,44px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em;}
+  h1 .hl{background:linear-gradient(180deg,transparent 62%,var(--yellow-soft) 62%); padding:0 2px;}
+  .lede{font-size:19px; color:var(--muted); max-width:740px; margin:0;}
+
+  /* sticky settings bar */
+  .bar{position:sticky; top:0; z-index:20; background:rgba(255,255,255,.94); backdrop-filter:blur(8px); border-bottom:1px solid var(--line);}
+  .bar .wrap{display:flex; gap:14px; flex-wrap:wrap; align-items:center; padding-top:10px; padding-bottom:10px;}
+  .barlab{font-size:11px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-right:-8px;}
+  .chip{font-size:13px; font-weight:700; padding:5px 12px; border-radius:100px; border:1px solid var(--line); background:var(--cream); white-space:nowrap;}
+  .chip.ok{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .chip.warn{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .chip.spend{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .bar .spacer{flex:1;}
+
+  select,input[type=text],input[type=number],textarea{
+    font-family:inherit; font-size:15px; color:var(--ink); background:var(--paper);
+    border:1px solid var(--line); border-radius:9px; padding:8px 11px; outline:none; width:100%;}
+  select:focus,input:focus,textarea:focus{border-color:var(--yellow); box-shadow:0 0 0 3px var(--yellow-soft);}
+  .bar select{width:auto; min-width:150px; font-size:14px; padding:6px 9px;}
+  textarea{min-height:104px; resize:vertical; line-height:1.5;}
+
+  section{padding:48px 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  h2{font-size:27px; letter-spacing:-.01em; margin:0 0 6px;}
+  h2 .num{color:var(--orange); font-variant-numeric:tabular-nums; margin-right:10px;}
+  .sub{color:var(--muted); margin:0 0 24px; font-size:17px; max-width:760px;}
+  p{margin:0 0 14px;}
+  .muted{color:var(--muted);}
+  ul,ol{margin:0 0 14px; padding-left:20px;} li{margin:3px 0;}
+
+  .note{background:var(--cream); border:1px solid var(--line); border-left:4px solid var(--yellow); border-radius:12px; padding:16px 18px; margin:20px 0; font-size:15.5px;}
+  .note.orange{border-left-color:var(--orange); background:var(--wash);}
+  .note.red{border-left-color:var(--red-ink); background:var(--red);}
+
+  .steps{display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:20px;}
+  .stepcard{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow);}
+  .stepcard .n{display:inline-grid; place-items:center; width:28px; height:28px; border-radius:9px; font-weight:800; font-size:14px;
+    background:var(--yellow-soft); border:2px solid var(--yellow); margin-bottom:9px;}
+  .stepcard h3{margin:0 0 5px; font-size:16px;}
+  .stepcard p{margin:0; font-size:14.5px; color:var(--muted);}
+
+  /* tool cards */
+  .tool{background:var(--paper); border:1px solid var(--line); border-radius:16px; box-shadow:var(--shadow); margin:20px 0; overflow:hidden;}
+  .tool > summary{list-style:none; cursor:pointer; padding:20px 22px; display:flex; gap:14px; align-items:flex-start; background:var(--cream);}
+  .tool > summary::-webkit-details-marker{display:none;}
+  .tool[open] > summary{border-bottom:1px solid var(--line);}
+  .tool .ic{flex:none; width:44px; height:44px; border-radius:12px; display:grid; place-items:center; font-size:21px;
+    background:var(--yellow-soft); border:2px solid var(--yellow);}
+  .tool .head{flex:1; min-width:0;}
+  .tool .head h3{margin:2px 0 3px; font-size:19px; letter-spacing:-.01em;}
+  .tool .head p{margin:0; font-size:15px; color:var(--muted);}
+  .tool .caret{flex:none; color:var(--muted); font-size:13px; font-weight:700; padding-top:8px;}
+  .tool[open] .caret{color:var(--orange);}
+  .body{padding:22px;}
+
+  .pill{display:inline-block; font-size:11.5px; font-weight:700; padding:2px 9px; border-radius:100px; margin-right:6px;
+    color:var(--orange); background:var(--wash); border:1px solid var(--orange-soft);}
+  .pill.paid{color:var(--red-ink); background:var(--red); border-color:var(--red-line);}
+  .pill.free{color:var(--green-ink); background:var(--green); border-color:var(--green-line);}
+  .pill.step{color:var(--blue-ink); background:var(--blue); border-color:var(--blue-line);}
+  .code{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:11.5px; background:#fff; border:1px solid var(--orange-soft);
+    border-radius:6px; padding:2px 8px; color:var(--muted); white-space:nowrap;}
+
+  .why{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:20px;}
+  .why > div{background:var(--wash); border:1px solid var(--line); border-radius:12px; padding:14px 16px;}
+  .why h4{margin:0 0 6px; font-size:12px; letter-spacing:.09em; text-transform:uppercase; color:var(--orange);}
+  .why p, .why ul{margin:0; font-size:14.5px; color:var(--muted);}
+  .why ul{padding-left:17px;}
+  .why.judge > div{background:var(--green); border-color:var(--green-line);}
+  .why.judge h4{color:var(--green-ink);}
+
+  .form{display:grid; grid-template-columns:repeat(auto-fit,minmax(215px,1fr)); gap:14px; align-items:end; margin-bottom:6px;}
+  .form .full{grid-column:1/-1;}
+  .fl{display:block; font-size:12.5px; font-weight:700; color:var(--muted); margin-bottom:5px;}
+  .fh{display:block; font-size:12.5px; color:var(--muted); margin-top:5px; font-weight:400;}
+  .btn{font-family:inherit; font-size:15px; font-weight:700; color:#fff; background:var(--orange); border:none;
+    border-radius:9px; padding:10px 22px; cursor:pointer; white-space:nowrap;}
+  .btn:hover{background:#e06d00;}
+  .btn:disabled{background:var(--orange-soft); color:#fff; cursor:not-allowed;}
+  .btn.ghost{background:var(--paper); color:var(--muted); border:1px solid var(--line); font-weight:600; font-size:13px; padding:7px 14px;}
+  .btn.ghost:hover{background:var(--wash); color:var(--ink);}
+
+  .out{margin-top:20px;}
+  .status{font-size:14.5px; padding:12px 16px; border-radius:10px; margin-bottom:14px;}
+  .status.run{background:var(--wash); border:1px solid var(--orange-soft); color:var(--ink);}
+  .status.err{background:var(--red); border:1px solid var(--red-line); color:var(--red-ink);}
+  .status.done{background:var(--green); border:1px solid var(--green-line); color:var(--green-ink);}
+
+  .resbar{display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-bottom:12px;}
+  .resbar .count{font-size:14px; font-weight:700; margin-right:auto;}
+
+  table{width:100%; border-collapse:collapse; margin:0 0 14px; font-size:14px; background:var(--paper);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+  th,td{text-align:left; padding:9px 12px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--wash); font-size:11.5px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-weight:700;
+    cursor:pointer; user-select:none; white-space:nowrap; position:sticky; top:0;}
+  th:hover{color:var(--ink);}
+  th .ar{color:var(--orange); font-size:10px;}
+  tr:last-child td{border-bottom:none;}
+  td.num{font-variant-numeric:tabular-nums; white-space:nowrap;}
+  td a{word-break:break-all;}
+  .scroll{max-height:520px; overflow:auto; border-radius:12px;}
+
+  .block{background:var(--cream); border:1px solid var(--line); border-radius:12px; padding:16px 18px; margin-bottom:14px;}
+  .block h4{margin:0 0 8px; font-size:12px; letter-spacing:.09em; text-transform:uppercase; color:var(--orange);}
+  .block p{margin:0 0 8px; font-size:15px;}
+  .block:last-child{margin-bottom:0;}
+  .qlist{margin:0; padding-left:19px; font-size:15px;}
+  .tags{display:flex; gap:6px; flex-wrap:wrap;}
+  .tags span{font-size:13px; background:var(--paper); border:1px solid var(--line); border-radius:100px; padding:3px 11px;}
+  .text{white-space:pre-wrap; font-size:14.5px; line-height:1.6; max-height:440px; overflow:auto;
+    background:var(--paper); border:1px solid var(--line); border-radius:10px; padding:14px 16px;}
+  pre.raw{white-space:pre-wrap; word-break:break-all; font-family:ui-monospace,Menlo,Consolas,monospace; font-size:11.5px;
+    background:#1c1a17; color:#f6f1e7; border-radius:10px; padding:14px 16px; max-height:400px; overflow:auto; margin:0;}
+  .empty{color:var(--muted); font-size:14.5px; font-style:italic;}
+
+  footer{padding:34px 0 48px; color:var(--muted); font-size:14px;}
+
+  @media (max-width:760px){
+    .steps{grid-template-columns:1fr;}
+    .why{grid-template-columns:1fr;}
+    .bar .wrap{gap:8px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="kicker">Content Machine · Research Phase</span>
+    <h1>Is <span class="hl">DataForSEO</span> giving us good data?</h1>
+    <p class="lede">This page runs the eight DataForSEO calls our research pipeline depends on, one at a time, and shows you the answer in a plain table. Type a keyword or a domain, press Run, and judge the result yourself. No setup, nothing to install.</p>
+  </div>
+</header>
+
+<div class="bar">
+  <div class="wrap">
+    <span class="barlab">Market</span>
+    <select id="loc" title="Which country's Google results to use"></select>
+    <select id="lang" title="Which language"></select>
+    <span class="spacer"></span>
+    <span class="chip" id="bal">Credit: checking…</span>
+    <span class="chip spend" id="spend">Spent here: $0.0000</span>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2><span class="num">01</span>How to use this</h2>
+    <p class="sub">The goal is not to collect data. It is to answer one question: when our pipeline asks DataForSEO for something, does it get back something a human would call correct and useful?</p>
+
+    <div class="steps">
+      <div class="stepcard">
+        <span class="n">1</span>
+        <h3>Pick a tool below</h3>
+        <p>Each box is one thing DataForSEO can answer. Read the "What it does" line to find the one you want.</p>
+      </div>
+      <div class="stepcard">
+        <span class="n">2</span>
+        <h3>Fill in the box and Run</h3>
+        <p>Most tools need one thing: a keyword, or a website address. The market picker at the top decides which country's Google is used.</p>
+      </div>
+      <div class="stepcard">
+        <span class="n">3</span>
+        <h3>Judge it against reality</h3>
+        <p>Every tool has a green <b>How to tell if this is any good</b> box. Work through it. Open Google yourself and compare.</p>
+      </div>
+    </div>
+
+    <div class="note orange">
+      <b>Every Run costs real money</b> from our DataForSEO account. It is small, usually well under a cent, and the exact figure for each call is shown next to the result. The credit left is in the bar at the top. If it says <b>Low credit</b>, stop and tell Devansh.
+    </div>
+
+    <div class="note">
+      <b>If a result looks wrong, that is the useful finding.</b> Copy the table with the Copy button, paste it into a sheet, and write down what you expected instead. Wrong answers are what we are looking for.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2><span class="num">02</span>The tools</h2>
+    <p class="sub">Six of these are called by the research pipeline on every topic we research. The last two run earlier, when we decide which topics are worth researching at all.</p>
+    <div id="tools"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    DataForSEO quality check · built for the SEO team · the eight endpoints our research phase actually calls.
+    <span id="credline"></span>
+  </div>
+</footer>
+
+<script>
+/* ------------------------------------------------------------------ *
+ *  Credentials. Shared team account. Can be overridden per-browser
+ *  by running  dfsLogin('user','pass')  in the console.
+ * ------------------------------------------------------------------ */
+var DEFAULT_LOGIN = "akash@testlify.com";
+var DEFAULT_PW    = "f4bde6c4e36f621b";
+function creds(){
+  return { l: localStorage.getItem("dfs_l") || DEFAULT_LOGIN,
+           p: localStorage.getItem("dfs_p") || DEFAULT_PW };
+}
+function dfsLogin(l,p){ localStorage.setItem("dfs_l",l); localStorage.setItem("dfs_p",p); location.reload(); }
+
+/* ------------------------------------------------------------------ *
+ *  The API caller. One place. Everything goes through here.
+ * ------------------------------------------------------------------ */
+var SPENT = 0;
+async function dfs(endpoint, body){
+  var c = creds();
+  var res = await fetch("https://api.dataforseo.com" + endpoint, {
+    method: body ? "POST" : "GET",
+    headers: { "Authorization": "Basic " + btoa(c.l + ":" + c.p), "Content-Type": "application/json" },
+    body: body ? JSON.stringify(body) : undefined
+  });
+  var j = await res.json();
+  if (j.status_code !== 20000) throw new Error(j.status_code + " — " + (j.status_message || "API refused the request"));
+  var t = (j.tasks || [])[0] || {};
+  if (t.status_code !== 20000) throw new Error(t.status_code + " — " + (t.status_message || "the request was rejected"));
+  var cost = Number(j.cost || 0);
+  if (cost > 0){ SPENT += cost; document.getElementById("spend").textContent = "Spent here: $" + SPENT.toFixed(4); }
+  j.__cost = cost;
+  j.__items = ((t.result || [{}])[0] || {}).items || [];
+  j.__result = (t.result || [{}])[0] || {};
+  return j;
+}
+
+/* Account balance chip */
+async function refreshBalance(){
+  var el = document.getElementById("bal");
+  try {
+    var j = await dfs("/v3/appendix/user_data", null);
+    var money = (j.__result.money || {});
+    var b = Number(money.balance || 0);
+    el.textContent = "Credit left: $" + b.toFixed(2);
+    el.className = "chip " + (b < 5 ? "warn" : "ok");
+    if (b < 5) el.textContent += "  ·  Low credit";
+    return b;
+  } catch(e){
+    el.textContent = "Credit: could not check";
+    el.className = "chip warn";
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ *  Market picker
+ * ------------------------------------------------------------------ */
+var LOCATIONS = ["United States","United Kingdom","India","Canada","Australia","Singapore",
+                 "United Arab Emirates","Germany","France","Netherlands","Ireland","South Africa","Philippines"];
+var LANGUAGES = [["en","English"],["es","Spanish"],["de","German"],["fr","French"],["hi","Hindi"],["nl","Dutch"]];
+
+function setupBar(){
+  var loc = document.getElementById("loc"), lang = document.getElementById("lang");
+  LOCATIONS.forEach(function(n){ var o = document.createElement("option"); o.value = o.textContent = n; loc.appendChild(o); });
+  LANGUAGES.forEach(function(p){ var o = document.createElement("option"); o.value = p[0]; o.textContent = p[1]; lang.appendChild(o); });
+  loc.value = localStorage.getItem("dfs_loc") || "United States";
+  lang.value = localStorage.getItem("dfs_lang") || "en";
+  loc.onchange  = function(){ localStorage.setItem("dfs_loc", loc.value); };
+  lang.onchange = function(){ localStorage.setItem("dfs_lang", lang.value); };
+}
+function market(){ return { location_name: document.getElementById("loc").value,
+                            language_code: document.getElementById("lang").value }; }
+
+/* ------------------------------------------------------------------ *
+ *  Small helpers
+ * ------------------------------------------------------------------ */
+function esc(s){ return String(s == null ? "" : s).replace(/[&<>"]/g, function(c){
+  return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+function n(v){ return (v == null || v === "") ? "—" : Number(v).toLocaleString(); }
+function dash(v){ return (v == null || v === "") ? "—" : v; }
+function host(u){ try { return new URL(u).hostname.replace(/^www\./,""); } catch(e){ return u; } }
+function cleanDomain(s){
+  return String(s||"").trim().toLowerCase()
+    .replace(/^https?:\/\//,"").replace(/^www\./,"").split("/")[0];
+}
+
+/* Sortable table from columns + rows */
+function tableHTML(cols, rows, sortKey, sortDir){
+  if (!rows.length) return '<p class="empty">DataForSEO returned nothing for this. That is itself a result worth noting.</p>';
+  if (sortKey){
+    var col = cols.filter(function(c){ return c.k === sortKey; })[0];
+    rows = rows.slice().sort(function(a,b){
+      var x = a[sortKey], y = b[sortKey];
+      if (x == null) return 1; if (y == null) return -1;
+      if (col && col.t === "n") return sortDir * (Number(y) - Number(x));
+      return sortDir * String(y).localeCompare(String(x));
+    });
+  }
+  var h = '<div class="scroll"><table><thead><tr>';
+  cols.forEach(function(c){
+    var ar = (c.k === sortKey) ? ' <span class="ar">' + (sortDir === 1 ? "▼" : "▲") + "</span>" : "";
+    h += '<th data-k="' + c.k + '">' + esc(c.h) + ar + "</th>";
+  });
+  h += "</tr></thead><tbody>";
+  rows.forEach(function(r){
+    h += "<tr>";
+    cols.forEach(function(c){
+      var v = r[c.k];
+      if (c.t === "n")      h += '<td class="num">' + n(v) + "</td>";
+      else if (c.t === "u") h += "<td>" + (v ? '<a href="' + esc(v) + '" target="_blank" rel="noopener">' + esc(v) + "</a>" : "—") + "</td>";
+      else                  h += "<td>" + esc(dash(v)) + "</td>";
+    });
+    h += "</tr>";
+  });
+  return h + "</tbody></table></div>";
+}
+function toCSV(cols, rows){
+  var q = function(v){ v = (v == null ? "" : String(v)); return /[",\n]/.test(v) ? '"' + v.replace(/"/g,'""') + '"' : v; };
+  return [cols.map(function(c){ return q(c.h); }).join(",")]
+    .concat(rows.map(function(r){ return cols.map(function(c){ return q(r[c.k]); }).join(","); })).join("\n");
+}
+
+/* ------------------------------------------------------------------ *
+ *  THE TOOLS
+ *  Each: what it does, where our pipeline uses it, how to judge it,
+ *  its input fields, and how to turn the reply into a table.
+ * ------------------------------------------------------------------ */
+var TOOLS = [
+{
+  id:"suggest", icon:"💡",
+  name:"Find every phrase people search around one topic",
+  blurb:"Give it one phrase. It gives back the real searches that contain it, with how many people search each one per month.",
+  endpoint:"/v3/dataforseo_labs/google/keyword_suggestions/live",
+  pipeline:"Step 1 of research. This is how we go from one topic idea to a few hundred candidate keywords before anything gets filtered.",
+  does:["You type <b>skills assessment</b>, you get back <b>pre employment skills assessment</b>, <b>skills assessment test for jobs</b>, and a few hundred more.",
+        "Only phrases that actually contain your words. It will not wander off into a different topic.",
+        "Sorted by search volume, biggest first."],
+  judge:["Are these really about your phrase, or has it drifted somewhere else?",
+         "Do the volumes look believable? A niche B2B phrase at 90,000 a month is a red flag.",
+         "<b>A real one we hit:</b> the seed <b>skills assessment</b> returned <b>thinking skills assessment</b> at 450,000 a month for the US. That is a British university entrance exam, nothing to do with hiring. The number is probably real and the keyword is useless to us. This is exactly the kind of thing to catch.",
+         "<b>Watch for repeated numbers.</b> In that same run, six phrases came back at exactly 301,000 with the same difficulty and the same ad cost: <i>skills assessment</i>, <i>skills in assessment</i>, <i>assessment of skills</i>, <i>skills for assessment</i>, and so on. Google lumps near-identical wordings into one bucket and reports the bucket's number against every one of them. Treat them as a single keyword, not six.",
+         "Think of two obvious phrases yourself before you run it. Are they in the list?",
+         "Is the language right for the market you picked at the top?"],
+  fields:[
+    {k:"keyword", label:"Your starting phrase", type:"text", ph:"skills assessment", full:true,
+     hint:"One phrase only. Short and general works better than long and specific."},
+    {k:"limit", label:"How many to bring back", type:"select", opts:[["25","25"],["50","50"],["100","100"],["200","200 (what the pipeline uses)"]], def:"50"}
+  ],
+  body:function(v){ return [Object.assign({}, market(), {
+    keyword: v.keyword, limit: Number(v.limit),
+    order_by:["keyword_info.search_volume,desc"] })]; },
+  cols:[{k:"kw",h:"Keyword"},{k:"vol",h:"Searches / month",t:"n"},{k:"kd",h:"Difficulty",t:"n"},
+        {k:"cpc",h:"Ad cost ($)"},{k:"comp",h:"Ad competition"}],
+  rows:function(j){ return j.__items.map(function(it){
+    var ki = it.keyword_info || {}, kp = it.keyword_properties || {};
+    return { kw: it.keyword, vol: ki.search_volume, kd: kp.keyword_difficulty,
+             cpc: ki.cpc == null ? null : Number(ki.cpc).toFixed(2), comp: ki.competition_level };
+  }); }
+},
+{
+  id:"overview", icon:"📊",
+  name:"Get the numbers for a list of keywords you already have",
+  blurb:"Paste in keywords, one per line. It returns how many people search each one, how hard it is to rank, and why people are searching.",
+  endpoint:"/v3/dataforseo_labs/google/keyword_overview/live",
+  pipeline:"Step 3 of research. Once we have shortlisted candidate keywords, this is the call that gives us the volume and difficulty we decide on.",
+  does:["<b>Searches / month</b> is how many people type it into Google in that country each month.",
+        "<b>Difficulty</b> runs 0 to 100. It estimates how hard the top 10 would be to break into. Our pipeline keeps anything at 40 or below.",
+        "<b>Why they search</b> is the intent: <i>informational</i> means they want to learn, <i>commercial</i> means they are comparing, <i>transactional</i> means they are ready to buy, <i>navigational</i> means they want a specific site."],
+  judge:["Pick two or three keywords you already know from Semrush or Google Keyword Planner. Are the volumes in the same ballpark?",
+         "Does difficulty match your instinct? A big generic term should be high, a long specific one should be low.",
+         "Does the intent label match what you would expect from that phrase?",
+         "Did every keyword you pasted come back, or did some go missing?"],
+  fields:[
+    {k:"keywords", label:"Your keywords, one per line", type:"textarea", full:true,
+     ph:"skills assessment test\npre employment assessment\nhiring assessment tools",
+     hint:"Up to 700 lines. Spelling matters, DataForSEO matches them exactly."}
+  ],
+  body:function(v){
+    var kws = v.keywords.split("\n").map(function(s){ return s.trim(); }).filter(Boolean).slice(0,700);
+    if (!kws.length) throw new Error("Add at least one keyword.");
+    return [Object.assign({}, market(), { keywords: kws })];
+  },
+  cols:[{k:"kw",h:"Keyword"},{k:"vol",h:"Searches / month",t:"n"},{k:"kd",h:"Difficulty",t:"n"},
+        {k:"intent",h:"Why they search"},{k:"cpc",h:"Ad cost ($)"},{k:"comp",h:"Ad competition"}],
+  rows:function(j){ return j.__items.map(function(it){
+    var ki = it.keyword_info || {}, kp = it.keyword_properties || {}, si = it.search_intent_info || {};
+    return { kw: it.keyword, vol: ki.search_volume, kd: kp.keyword_difficulty, intent: si.main_intent,
+             cpc: ki.cpc == null ? null : Number(ki.cpc).toFixed(2), comp: ki.competition_level };
+  }); }
+},
+{
+  id:"ranked", icon:"🏆",
+  name:"See every keyword a competitor already ranks for",
+  blurb:"Give it a competitor's website. It returns the keywords that site shows up for on Google, what position it holds, and which page of theirs is doing it.",
+  endpoint:"/v3/dataforseo_labs/google/ranked_keywords/live",
+  pipeline:"Step 1b of research. We point this at the pages already winning for our topic and harvest the keywords they rank for, which becomes half our candidate pool.",
+  does:["Leave the page filter empty to see the whole site's keywords.",
+        "Fill the page filter with part of a page address, for example <b>skills-assessment</b>, to see only the keywords that one page ranks for.",
+        "<b>Position</b> is where they sit in Google's results. 1 is the top of page one."],
+  judge:["Open two or three of the pages listed. Does the page genuinely cover that keyword?",
+         "Search one of the keywords in an incognito window. Is the competitor roughly where the table says?",
+         "Are these keywords in the market you picked, or are they from a different country?",
+         "Does the total feel right for a site that size, or suspiciously thin?"],
+  fields:[
+    {k:"target", label:"Competitor website", type:"text", ph:"testgorilla.com", full:true,
+     hint:"Just the domain. No https://, no www."},
+    {k:"seg", label:"Only one page (optional)", type:"text", ph:"skills-assessment",
+     hint:"Part of the page address. Leave empty for the whole site."},
+    {k:"limit", label:"How many to bring back", type:"select", opts:[["25","25"],["50","50"],["120","120 (what the pipeline uses)"],["300","300"]], def:"50"}
+  ],
+  body:function(v){
+    var t = cleanDomain(v.target);
+    if (!t) throw new Error("Add a competitor website, for example testgorilla.com");
+    var task = Object.assign({}, market(), { target: t, limit: Number(v.limit),
+      order_by:["keyword_data.keyword_info.search_volume,desc"] });
+    if (v.seg && v.seg.trim()){
+      task.filters = [["ranked_serp_element.serp_item.relative_url","like","%" + v.seg.trim() + "%"]];
+    }
+    return [task];
+  },
+  cols:[{k:"kw",h:"Keyword"},{k:"pos",h:"Position",t:"n"},{k:"vol",h:"Searches / month",t:"n"},
+        {k:"kd",h:"Difficulty",t:"n"},{k:"url",h:"Their page that ranks",t:"u"}],
+  rows:function(j){ return j.__items.map(function(it){
+    var kd = it.keyword_data || {}, ki = kd.keyword_info || {}, kp = kd.keyword_properties || {};
+    var se = ((it.ranked_serp_element || {}).serp_item) || {};
+    return { kw: kd.keyword, pos: se.rank_group, vol: ki.search_volume,
+             kd: kp.keyword_difficulty, url: se.url || se.relative_url };
+  }); }
+},
+{
+  id:"serp", icon:"🔎",
+  name:"See Google's first page exactly as it is right now",
+  blurb:"Type a keyword. It returns the top results, the People Also Ask questions, the answer box, the AI Overview, and the related searches, all captured live.",
+  endpoint:"/v3/serp/google/organic/live/advanced",
+  pipeline:"Step 4 of research, and the search engine behind our STORM research agent. Everything the article learns about a topic starts with this call.",
+  does:["<b>Top results</b> is the organic list, the normal blue links, in order.",
+        "<b>People Also Ask</b> is the dropdown questions Google shows. We turn these into the article's subheadings.",
+        "<b>AI Overview</b> is Google's own AI answer at the top, plus the sites it quoted. This is what we are trying to get quoted in.",
+        "<b>Answer box</b> is the featured snippet, the grey box Google lifts straight from one page."],
+  judge:["Open Google in an incognito window and search the same keyword. Are the top 10 the same sites, in roughly the same order?",
+         "Are the People Also Ask questions the ones you actually see on Google?",
+         "If Google shows you an AI Overview, did this pick one up too?",
+         "Check the results are from the country you picked, not somewhere else."],
+  fields:[
+    {k:"keyword", label:"The keyword to search", type:"text", ph:"skills based hiring", full:true},
+    {k:"depth", label:"How deep to go", type:"select", opts:[["10","Top 10"],["20","Top 20 (what the pipeline uses)"],["50","Top 50"]], def:"20"}
+  ],
+  body:function(v){ return [Object.assign({}, market(), {
+    keyword: v.keyword, depth: Number(v.depth),
+    people_also_ask_click_depth: 3, load_async_ai_overview: true })]; },
+  render:function(j, mount){
+    var items = j.__items, h = "";
+    var organic = items.filter(function(i){ return i.type === "organic"; });
+    var snip = items.filter(function(i){ return i.type === "featured_snippet"; })[0];
+    var ai   = items.filter(function(i){ return i.type === "ai_overview"; })[0];
+    var paa  = items.filter(function(i){ return i.type === "people_also_ask"; })[0];
+
+    if (ai){
+      var txt = (ai.items || []).map(function(e){ return e.text || ""; }).join(" ").trim();
+      var cites = (ai.references || []).map(function(r){ return r.domain; }).filter(Boolean);
+      h += '<div class="block"><h4>Google\'s AI Overview</h4><p>' + esc(txt || "(captured, but with no text)") + "</p>" +
+           (cites.length ? '<div class="tags">' + cites.map(function(c){ return "<span>" + esc(c) + "</span>"; }).join("") + "</div>" : "") +
+           "</div>";
+    }
+    if (snip){
+      h += '<div class="block"><h4>Answer box &mdash; ' + esc(snip.domain || "") + "</h4><p>" +
+           esc(snip.description || snip.title || "") + "</p></div>";
+    }
+    var oCols = [{k:"pos",h:"#",t:"n"},{k:"title",h:"Title"},{k:"domain",h:"Site"},{k:"url",h:"Link",t:"u"}];
+    var oRows = organic.map(function(i){ return { pos:i.rank_group, title:i.title, domain:i.domain, url:i.url }; });
+    h += '<div class="block"><h4>Top results (' + oRows.length + ")</h4>" + tableHTML(oCols, oRows) + "</div>";
+
+    if (paa){
+      var qs = (paa.items || []).map(function(e){ return e.title; }).filter(Boolean);
+      h += '<div class="block"><h4>People Also Ask (' + qs.length + ')</h4><ul class="qlist">' +
+           qs.map(function(q){ return "<li>" + esc(q) + "</li>"; }).join("") + "</ul></div>";
+    }
+    /* Google can return more than one related-searches block on the same page — merge them all. */
+    var rs = [];
+    items.filter(function(i){ return i.type === "related_searches"; }).forEach(function(b){
+      (b.items || []).forEach(function(x){
+        var v = (typeof x === "string") ? x : (x && x.title);
+        if (v && rs.indexOf(v) === -1) rs.push(v);
+      });
+    });
+    if (rs.length) h += '<div class="block"><h4>Related searches (' + rs.length + ')</h4><div class="tags">' +
+         rs.map(function(r){ return "<span>" + esc(r) + "</span>"; }).join("") + "</div></div>";
+    mount.innerHTML = h;
+    return { cols:oCols, rows:oRows, count: oRows.length, unit: "results" };
+  }
+},
+{
+  id:"parse", icon:"📄",
+  name:"Pull the readable text out of any web page",
+  blurb:"Give it a page address. It returns the article text, with the menu, footer and cookie banner stripped out.",
+  endpoint:"/v3/on_page/content_parsing/live",
+  pipeline:"Used by our STORM research agent as the backup reader. We fetch pages ourselves for free first. When a page blocks us or needs JavaScript to load, this call gets the text instead.",
+  does:["It loads the page the way a real browser does, so pages that build themselves with JavaScript still work.",
+        "It uses its own network, so pages that block us usually let it through.",
+        "You get the main body text only. Navigation, footers and cookie notices are dropped."],
+  judge:["Open the page yourself. Is the text below the whole article, or does it stop halfway?",
+         "Did anything important get dropped, for example a table of numbers or a bulleted list?",
+         "Is there junk left in, like <i>Accept all cookies</i> or a menu?",
+         "Try it on a page you know blocks scrapers. Does it still get through?"],
+  fields:[
+    {k:"url", label:"Page address", type:"text", full:true, ph:"https://www.testgorilla.com/blog/skills-based-hiring/",
+     hint:"Paste the full address including https://"}
+  ],
+  body:function(v){
+    if (!/^https?:\/\//.test(v.url.trim())) throw new Error("Paste the full address, starting with https://");
+    return [{ url: v.url.trim(), enable_javascript: true }];
+  },
+  render:function(j, mount){
+    var it = j.__items[0] || {};
+    var pc = it.page_content || {};
+    var parts = [];
+    (function walk(o){
+      if (o && typeof o === "object"){
+        if (typeof o.text === "string" && o.text.trim()) parts.push(o.text.trim());
+        Object.keys(o).forEach(function(k){ walk(o[k]); });
+      } else if (Array.isArray(o)) o.forEach(walk);
+    })({ a: pc.main_topic, b: pc.secondary_topic });
+    var text = parts.join(" ").replace(/\s+/g, " ").trim();
+    mount.innerHTML =
+      '<div class="block"><h4>Page title</h4><p>' + esc((it.meta || {}).title || "(none found)") + "</p></div>" +
+      '<div class="block"><h4>Text it pulled out &mdash; ' + text.length.toLocaleString() + " characters, about " +
+        Math.round(text.split(" ").length) .toLocaleString()+ " words</h4>" +
+      (text ? '<div class="text">' + esc(text) + "</div>"
+            : '<p class="empty">Nothing came back. Either the page is empty, or it blocked DataForSEO too. Worth noting.</p>') +
+      "</div>";
+    return { cols:[{k:"text",h:"Extracted text"}], rows: text ? [{text:text}] : [], count: text.length, unit: "characters" };
+  }
+},
+{
+  id:"competitors", icon:"🥊",
+  name:"Find out who we are really competing with on Google",
+  blurb:"Give it our website. It returns the sites that show up for the same searches we do, ranked by how much they overlap with us.",
+  endpoint:"/v3/dataforseo_labs/google/competitors_domain/live",
+  pipeline:"Runs before research, in the asset engine. It produces the shortlist of competitors a human then approves, which decides whose content we study.",
+  does:["It compares by keyword overlap, not by who you think your competitors are. The two are often different.",
+        "<b>Shared keywords</b> is how many searches both sites appear for.",
+        "<b>Traffic value</b> is DataForSEO's estimate of what that site's free Google traffic would cost to buy as ads."],
+  judge:["Are these actually our competitors, or just big sites that happen to overlap, like Indeed or LinkedIn?",
+         "Name three real competitors before running it. Did it find them? On our last run it missed three of twelve.",
+         "Is anything on the list obviously irrelevant to what we sell?",
+         "Remember this is a starting list, not an answer. A human is meant to correct it."],
+  fields:[
+    {k:"target", label:"Our website", type:"text", ph:"testlify.com", full:true, hint:"Just the domain. No https://, no www."},
+    {k:"limit", label:"How many to bring back", type:"select", opts:[["10","10"],["25","25"],["50","50"]], def:"25"}
+  ],
+  body:function(v){
+    var t = cleanDomain(v.target);
+    if (!t) throw new Error("Add a website, for example testlify.com");
+    return [Object.assign({}, market(), { target: t, limit: Number(v.limit),
+      exclude_top_domains: true, item_types: ["organic"] })];
+  },
+  cols:[{k:"domain",h:"Competitor"},{k:"kws",h:"Shared keywords",t:"n"},{k:"etv",h:"Traffic value ($/mo)",t:"n"},{k:"pos",h:"Their average position",t:"n"}],
+  rows:function(j, vals){
+    var self = cleanDomain(vals.target);
+    return j.__items
+      .filter(function(it){ return cleanDomain(it.domain) !== self; })   /* never list ourselves */
+      .map(function(it){
+        var m = (it.metrics || {}).organic || {};
+        return { domain: it.domain, kws: m.count, etv: m.etv == null ? null : Math.round(m.etv),
+                 pos: it.avg_position == null ? null : Math.round(it.avg_position) };
+      });
+  }
+},
+{
+  id:"pages", icon:"🔗",
+  name:"See a competitor's most linked-to pages",
+  blurb:"Give it a competitor's website. It returns their pages that the most other websites link to, best first.",
+  endpoint:"/v3/backlinks/domain_pages/live",
+  pipeline:"Runs before research, in the asset engine. These are the pages that earned links, which is how we work out what kind of asset is worth building.",
+  does:["<b>Referring domains</b> is how many separate websites link to that page. This matters far more than the raw link count, because a hundred links from one site is still one site.",
+        "<b>Total links</b> is every individual link pointing at it.",
+        "This is the closest thing to a list of what has actually worked for them."],
+  judge:["Open the top three pages. Do they open, or are they dead?",
+         "Are they the pages you would have guessed, or something surprising? Surprising is useful.",
+         "Do the referring domain counts look sane, or oddly round and inflated?",
+         "Are the top pages real content, or just their homepage and pricing page?"],
+  fields:[
+    {k:"target", label:"Competitor website", type:"text", ph:"testgorilla.com", full:true, hint:"Just the domain. No https://, no www."},
+    {k:"limit", label:"How many to bring back", type:"select", opts:[["10","10"],["25","25"],["50","50"],["100","100"]], def:"25"}
+  ],
+  body:function(v){
+    var t = cleanDomain(v.target);
+    if (!t) throw new Error("Add a competitor website, for example testgorilla.com");
+    return [{ target: t, limit: Number(v.limit), order_by:["page_summary.referring_domains,desc"] }];
+  },
+  cols:[{k:"url",h:"Their page",t:"u"},{k:"rd",h:"Referring domains",t:"n"},{k:"bl",h:"Total links",t:"n"},
+        {k:"title",h:"Page title"},{k:"status",h:"Page still live?"}],
+  rows:function(j){ return j.__items.map(function(it){
+    var ps = it.page_summary || {}, meta = it.meta || {};
+    return { url: it.page, rd: ps.referring_domains, bl: ps.backlinks, title: meta.title,
+             status: it.status_code == 200 ? "Yes" : ("No (" + dash(it.status_code) + ")") };
+  }); }
+},
+{
+  id:"account", icon:"💳",
+  name:"Check how much credit is left",
+  blurb:"Shows the money left on our DataForSEO account, and the plan we are on. Costs nothing to run.",
+  endpoint:"/v3/appendix/user_data",
+  pipeline:"Every engine calls this before it starts spending. If the balance is under one dollar, the run stops cleanly instead of failing halfway through a topic.",
+  does:["This call is free. It never charges anything.",
+        "The bar at the top of this page runs it automatically when the page loads.",
+        "If the credit is low, top up before running anything else."],
+  judge:["Does the balance match what you expect after today's testing?",
+         "Watch it against the <b>Spent here</b> counter at the top. They should move together."],
+  fields:[],
+  free:true,
+  body:function(){ return null; },
+  render:function(j, mount){
+    var r = j.__result, money = r.money || {};
+    var rows = [
+      { k:"Credit left",             v:"$" + Number(money.balance || 0).toFixed(2) },
+      { k:"Topped up in total",      v:"$" + Number(money.total || 0).toFixed(2) },
+      { k:"Spent on this page today", v:"$" + SPENT.toFixed(4) },
+      { k:"Account",                 v: r.login || "—" }
+    ];
+    mount.innerHTML = '<div class="block"><h4>Account</h4>' +
+      tableHTML([{k:"k",h:"What"},{k:"v",h:"Value"}], rows) +
+      '<p class="empty" style="margin:0;">DataForSEO does not report a daily total, so "spent on this page today" ' +
+      "counts only the calls you have run since opening this tab.</p></div>";
+    refreshBalance();
+    return { cols:[{k:"k",h:"What"},{k:"v",h:"Value"}], rows: rows, count: rows.length, unit: "lines" };
+  }
+}
+];
+
+/* ------------------------------------------------------------------ *
+ *  Build the page
+ * ------------------------------------------------------------------ */
+function fieldHTML(t, f){
+  var id = t.id + "-" + f.k, h = '<div' + (f.full ? ' class="full"' : "") + ">";
+  h += '<label class="fl" for="' + id + '">' + f.label + "</label>";
+  if (f.type === "textarea")   h += '<textarea id="' + id + '" placeholder="' + esc(f.ph || "") + '"></textarea>';
+  else if (f.type === "select"){
+    h += '<select id="' + id + '">' + f.opts.map(function(o){
+      return '<option value="' + o[0] + '"' + (o[0] === f.def ? " selected" : "") + ">" + esc(o[1]) + "</option>"; }).join("") + "</select>";
+  }
+  else h += '<input type="text" id="' + id + '" placeholder="' + esc(f.ph || "") + '">';
+  if (f.hint) h += '<span class="fh">' + f.hint + "</span>";
+  return h + "</div>";
+}
+
+function toolHTML(t, i){
+  var costPill = t.free ? '<span class="pill free">Free</span>' : '<span class="pill paid">Costs a little</span>';
+  return '<details class="tool" id="t-' + t.id + '">' +
+    '<summary><span class="ic">' + t.icon + "</span>" +
+      '<span class="head"><h3>' + t.name + "</h3><p>" + t.blurb + "</p></span>" +
+      '<span class="caret">Open</span></summary>' +
+    '<div class="body">' +
+      "<div>" + costPill + '<span class="pill step">' + (i < 6 ? "Used in research" : "Used before research") + "</span>" +
+        '<span class="code">' + esc(t.endpoint) + "</span></div>" +
+      '<div class="why" style="margin-top:16px;">' +
+        "<div><h4>What you get back</h4><ul>" + t.does.map(function(d){ return "<li>" + d + "</li>"; }).join("") + "</ul></div>" +
+        "<div><h4>Where we use it</h4><p>" + t.pipeline + "</p></div>" +
+      "</div>" +
+      '<div class="why judge"><div style="grid-column:1/-1;"><h4>How to tell if this is any good</h4><ul>' +
+        t.judge.map(function(d){ return "<li>" + d + "</li>"; }).join("") + "</ul></div></div>" +
+      '<div class="form">' + t.fields.map(function(f){ return fieldHTML(t, f); }).join("") +
+        '<div><button class="btn" id="run-' + t.id + '">Run this</button></div>' +
+      "</div>" +
+      '<div class="out" id="out-' + t.id + '"></div>' +
+    "</div></details>";
+}
+
+function mount(){
+  document.getElementById("tools").innerHTML = TOOLS.map(toolHTML).join("");
+  TOOLS.forEach(function(t){ document.getElementById("run-" + t.id).onclick = function(){ run(t); }; });
+}
+
+var LAST = {};   /* tool id -> {cols, rows, raw} for Copy / raw JSON */
+
+async function run(t){
+  var out = document.getElementById("out-" + t.id);
+  var btn = document.getElementById("run-" + t.id);
+  var vals = {};
+  t.fields.forEach(function(f){ vals[f.k] = document.getElementById(t.id + "-" + f.k).value; });
+
+  var body;
+  try { body = t.body(vals); }
+  catch(e){ out.innerHTML = '<div class="status err">' + esc(e.message) + "</div>"; return; }
+
+  btn.disabled = true;
+  out.innerHTML = '<div class="status run">Asking DataForSEO… this usually takes 5 to 20 seconds. Live Google searches take longest.</div>';
+
+  try {
+    var j = await dfs(t.endpoint, body);
+    var cols, rows, count, unit = "rows", extraMount = null;
+
+    if (t.render){
+      extraMount = document.createElement("div");
+      var r = t.render(j, extraMount);
+      cols = r.cols; rows = r.rows; count = r.count; unit = r.unit || "rows";
+    } else {
+      cols = t.cols; rows = t.rows(j, vals); count = rows.length;
+    }
+
+    LAST[t.id] = { cols: cols, rows: rows, raw: j, sortKey: null, sortDir: 1 };
+
+    var costTxt = j.__cost > 0 ? ("This call cost $" + j.__cost.toFixed(4)) : "This call was free";
+    out.innerHTML =
+      '<div class="status done">Done. ' + Number(count).toLocaleString() + " " + unit + " back. " + costTxt + ".</div>" +
+      '<div class="resbar">' +
+        '<span class="count">' + Number(count).toLocaleString() + " " + unit + "</span>" +
+        '<button class="btn ghost" data-act="csv" data-t="' + t.id + '">Copy as spreadsheet</button>' +
+        '<button class="btn ghost" data-act="dl"  data-t="' + t.id + '">Download CSV</button>' +
+        '<button class="btn ghost" data-act="raw" data-t="' + t.id + '">Show the raw reply</button>' +
+      "</div>" +
+      '<div id="body-' + t.id + '"></div>' +
+      '<div id="raw-' + t.id + '" style="display:none; margin-top:12px;"></div>';
+
+    var bodyEl = document.getElementById("body-" + t.id);
+    if (extraMount) bodyEl.appendChild(extraMount);
+    else redrawTable(t.id, bodyEl);
+
+    out.querySelectorAll("[data-act]").forEach(function(b){ b.onclick = function(){ act(b.dataset.act, b.dataset.t); }; });
+    if (!t.free) refreshBalance();
+
+  } catch(e){
+    out.innerHTML = '<div class="status err"><b>It did not work.</b><br>' + esc(e.message) +
+      "<br><br>If this says <i>40200</i> or mentions money, we are out of credit. If it says <i>40501</i> or " +
+      "<i>invalid field</i>, something in the box above is not in a format DataForSEO accepts. Send Devansh this message.</div>";
+  }
+  btn.disabled = false;
+}
+
+function redrawTable(id, el){
+  var L = LAST[id];
+  el = el || document.getElementById("body-" + id);
+  el.innerHTML = tableHTML(L.cols, L.rows, L.sortKey, L.sortDir);
+  el.querySelectorAll("th[data-k]").forEach(function(th){
+    th.onclick = function(){
+      var k = th.dataset.k;
+      L.sortDir = (L.sortKey === k) ? -L.sortDir : 1;
+      L.sortKey = k;
+      redrawTable(id, el);
+    };
+  });
+}
+
+function act(what, id){
+  var L = LAST[id]; if (!L) return;
+  if (what === "csv"){
+    navigator.clipboard.writeText(toCSV(L.cols, L.rows)).then(function(){
+      alert("Copied. Paste it straight into Google Sheets or Excel."); });
+  } else if (what === "dl"){
+    var blob = new Blob([toCSV(L.cols, L.rows)], {type:"text/csv"});
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = "dataforseo-" + id + ".csv"; a.click();
+  } else if (what === "raw"){
+    var box = document.getElementById("raw-" + id);
+    if (box.style.display === "none"){
+      box.innerHTML = "<pre class='raw'>" + esc(JSON.stringify(L.raw, null, 2)) + "</pre>";
+      box.style.display = "block";
+    } else box.style.display = "none";
+  }
+}
+
+setupBar();
+mount();
+refreshBalance();
+document.getElementById("credline").textContent =
+  " Signed in as " + creds().l + ".";
+</script>
+</body>
+</html>
