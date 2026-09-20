@@ -195,15 +195,19 @@ Every engine folder has the same shape, so learning one teaches you all of them:
 
 ---
 
-## The two commands
+## The three commands
 
-**`/research`** turns a topic into a write-ready bundle. It takes the next topic from the
-research log, pulls keyword and competitor data, runs a cannibalisation check, runs the deep
-research, checks the gaps, and builds the blueprint. A topic with no real keyword demand is
-marked skipped with a remark and the run moves on, so it never stalls the queue.
+They live in `.claude/commands/` and run as slash commands in Claude Code.
 
-**`/writer`** turns that bundle into a finished article through the planner, architect and
-writer stations.
+| Command | What it does |
+|---|---|
+| **`/research [claude\|codex] [model]`** | Researches the next topic in the queue and stops. Pick → DataForSEO → STORM → gap check → structure → bundle → log |
+| **`/writer <slug>`** | Writes a topic that is already researched: planner → architect → field → writer. The one you reach for most, because research happens once per topic and writing gets re-run every time a prompt changes |
+| **`/article [topic]`** | Both halves for exactly one topic, then stops. It does not roll on to the next one, so a topic is either finished or in progress, never a pile of half-done ones |
+
+A topic with no real keyword demand is marked skipped with a remark and the run moves on, so it
+never stalls the queue. Every command is resumable: each step writes its output file, and a
+re-run reuses what is already there.
 
 ---
 

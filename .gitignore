@@ -28,3 +28,6 @@ llm_call_history.jsonl
 # secrets — never commit
 .env
 **/.env
+
+# codex config carries an MCP auth header
+.codex/
