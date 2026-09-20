@@ -22,10 +22,10 @@ number in the finished article can be walked back to the step that produced it.
 
 ```mermaid
 flowchart LR
-    A["00<br/>Foundation<br/><i>learn the site</i>"] --> B["01<br/>Brand context<br/><i>learn the voice</i>"]
-    B --> C["02<br/>Asset engine<br/><i>find the ideas</i>"]
-    C --> D["03<br/>Content machine<br/><i>research one</i>"]
-    D --> E["04<br/>Write phase<br/><i>write it</i>"]
+    A["00 Foundation<br/>learn the site"] --> B["01 Brand context<br/>learn the voice"]
+    B --> C["02 Asset engine<br/>find the ideas"]
+    C --> D["03 Content machine<br/>research one"]
+    D --> E["04 Write phase<br/>write it"]
 
     subgraph once ["Once per company"]
         A
@@ -119,8 +119,8 @@ because showing a judge a list of openings nobody has taken talks it into "worth
 
 ```mermaid
 flowchart TD
-    P["<b>Planner</b><br/>gather → select → verify sources → freeze"] --> A["<b>Architect</b><br/>shape → enrich → brand cards → allocate → headings"]
-    A --> W["<b>Writer</b><br/>body → blend → wrapper → coherence → readable → slop → links → clean → assemble"]
+    P["Planner<br/>gather → select → verify sources → freeze"] --> A["Architect<br/>shape → enrich → brand cards → allocate → headings"]
+    A --> W["Writer<br/>body → blend → wrapper → coherence → readable → slop → links → clean → assemble"]
 ```
 
 **Planner.** Gathers everything, tags each sub-heading, then code does the arithmetic on the
@@ -179,19 +179,24 @@ Backlink gets Automated/
 pillar-cluster-strategy/     the pillar and cluster content strategy
 ```
 
-Every engine folder has the same shape, so learning one teaches you all of them:
+Every engine folder follows the same shape, so learning one teaches you the rest:
 
 ```
 <engine>/
-  <engine>-plan.md     the recipe: the steps, in order
-  README.md            how to run it, and the file map
+  <engine>-plan.md      the recipe: the steps, in order
+    or <engine>.workflow.md
+  README.md             how to run it, and the file map
   scripts/
-    config.py          every path and setting, from one anchor
-    llm.py             the only place a model gets called
-    <step>.py          one per step. Its docstring says "Reads: X. Writes: Y"
+    config.py           every path and setting, from one anchor
+    llm.py              the only place a model gets called
+    <step>.py           one per step. Its docstring says "Reads: X. Writes: Y"
   prompts/
-    <call>.md          one file per model call. Never inlined in code
+    <call>.md           one file per model call. Never inlined in code
 ```
+
+Across the pipeline that comes to 20 engine READMEs, 20 `config.py` files and 19 `prompts/`
+folders. The 14 engines that call a model have an `llm.py`; the ones that only fetch or compute
+do not.
 
 ---
 
